@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Lora');
+
+html, body {
+  height: 100%;
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Lora', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+.navigation, .content {
+  padding: 45px 30px;
+}
+
+.navigation {
+  background-color: black;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+}
+
+.contacts {
+  margin-bottom: -20px;
+}
+
+.contacts dt {
+  font-family: 'Montserrat';
+  color: #eee;
+}
+
+.contacts dd {
+  color: white;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
