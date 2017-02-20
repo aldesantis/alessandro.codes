@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 150px;
   margin-bottom: 30px;
 }
 
@@ -30,30 +30,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.navigation, .content {
-  padding: 45px 30px;
-}
-
-.navigation {
-  background-color: black;
-  text-align: center;
-}
-
 .content {
   max-width: 800px;
-}
-
-.contacts {
-  margin-bottom: -20px;
-}
-
-.contacts dt {
-  font-family: 'Montserrat';
-  color: #eee;
-}
-
-.contacts dd {
-  color: white;
-  margin-left: 0;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
 }
