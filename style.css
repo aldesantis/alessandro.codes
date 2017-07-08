@@ -19,6 +19,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+@media (max-width: 500px) {
+  .title {
+    font-size: 2.828rem;
+  }
+}
+
 .logo {
   max-width: 150px;
   margin-bottom: 30px;
