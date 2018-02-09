@@ -50,6 +50,18 @@
       .photography-inner > p.lead {
         opacity: .9;
       }
+
+      .social-links {
+        font-size: 130%;
+      }
+
+      .social-links a {
+        opacity: .75;
+        transition: opacity .12s ease-in-out;
+      }
+      .social-links a:hover {
+        opacity: 1;
+      }
     </style>
   </head>
 
@@ -61,12 +73,12 @@
         <h1 class="display-4 font-weight-normal pb-3">Hey, I'm Alessandro.</h1>
 
         <p class="lead font-weight-normal">
-          I am a software engineer based in Rome, Italy. I specialize in designing and implementing
-          beautiful payment experiences and RESTful APIs, but I have done and do much more.
+          I am a software engineer based in Rome, Italy. I have a knack for digital payments and
+          API design, but I have done and do much more.
         </p>
 
         <p class="lead font-weight-normal">
-          Currently, I am disrupting the industry of roadside assistance as the CTO of
+          Currently, I am disrupting the roadside assistance industry as the CTO of
           <a href="https://www.batteries911.com">Batteries911</a>.
         </p>
       </div>
@@ -75,10 +87,10 @@
     <div class="my-5 py-5">
       <div class="container">
         <div class="text-center mb-4 col-md-8 mx-auto">
-          <h2 class="display-5">This is some of the stuff I do.</h2>
+          <h2 class="display-5">I am a software developer.</h2>
           <p class="lead">
-            I strongly believe OSS to be a gift, so I am committed to giving back to the community
-            whenever I can. These are my most interesting projects.
+            I strongly believe OSS to be a gift, so I am committed to giving back to the software
+            community. These are my most interesting projects.
           </p>
         </div>
 
@@ -331,16 +343,32 @@
       </div>
 
       <div class="container text-center mt-4">
-        <a href="https://medium.com/@aldesantis" target="_blank" class="btn btn-lg btn-dark">
-          <i class="fab fa-medium fa-fw"></i>
-          medium.com/@aldesantis
-        </a>
+        <div>
+          <small>Or, this is where I keep the technical stuff:</small>
+        </div>
+        <div class="mt-1">
+          <a href="https://medium.com/@aldesantis" target="_blank" class="btn btn-lg btn-outline-dark">
+            <i class="fab fa-medium"></i>
+            medium.com/@aldesantis
+          </a>
+        </div>
       </div>
     </div>
 
-    <div class="footer bg-light">
-      <div class="container text-center py-4">
-        Made with <i class="fas fa-heart text-danger fa-fw"></i> in Rome.
+    <div class="footer border-top bg-dark text-white">
+      <div class="container text-center py-3">
+        <div class="d-flex justify-content-between align-items-baseline">
+          <div>
+            <a class="text-white" href="mailto:hello@alessandro.codes">hello@alessandro.codes</a>
+          </div>
+          <div style="opacity: .9">“Empowering people through software, pictures and words.”</div>
+
+          <div class="social-links">
+            <a href="https://medium.com/@aldesantis" target="_blank" class="text-white"><i class="fab fa-medium fa-fw"></i></a>
+            <a href="https://github.com/aldesantis" target="_blank" class="text-white"><i class="fab fa-github fa-fw"></i></a>
+            <a href="https://www.linkedin.com/in/alessandro-desantis/" target="_blank" class="text-white"><i class="fab fa-linkedin fa-fw"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </body>
