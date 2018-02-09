@@ -20,6 +20,18 @@
       body {
         font-family: 'Libre Franklin', sans-serif;
       }
+      .flex-equal > * {
+        -ms-flex: 1;
+        -webkit-box-flex: 1;
+        flex: 1;
+      }
+      @media (min-width: 768px) {
+        .flex-md-equal > * {
+          -ms-flex: 1;
+          -webkit-box-flex: 1;
+          flex: 1;
+        }
+      }
     </style>
   </head>
 
@@ -52,7 +64,7 @@
           </p>
         </div>
 
-        <div class="row">
+        <div class="row equal">
           <div class="col-4">
             <div class="card my-3">
               <div class="card-body">
@@ -145,6 +157,24 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)), url('cover.jpg'); background-size: cover; background-position: 100% 50%; min-height: 800px">
+      <div class="container-fluid text-white">
+        <div class="" style="padding-top: 15%; padding-left: 3%; width: 45%">
+          <h2 class="display-4 font-weight-bold">I take pictures.</h2>
+          <p class="lead" style="opacity: .9">
+            I enjoy freezing beautiful moments for eternity. There is something incredibly powerful
+            about pictures that I struggle to reproduce.
+          </p>
+          <p>
+            <a href="#" class="btn btn-lg btn-light">
+              <i class="fab fa-500px"></i>
+              See more on 500px
+            </a>
+          </p>
         </div>
       </div>
     </div>
