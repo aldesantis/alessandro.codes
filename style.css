@@ -1,0 +1,46 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.photography-cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('cover.jpg');
+  background-size: cover;
+  background-position: 100% 50%;
+  padding-bottom: 15%;
+}
+
+@media (min-width: 720px) {
+  .photography-cover {
+    min-height: 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)), url('cover.jpg');
+    padding-bottom: 0;
+  }
+}
+
+.photography-inner {
+  padding-top: 15%;
+}
+
+@media (min-width: 720px) {
+  .photography-inner {
+    padding-left: 3%;
+    width: 45%;
+  }
+}
+
+.photography-inner > p.lead {
+  opacity: .9;
+}
+
+.social-links {
+  font-size: 130%;
+}
+
+.social-links a {
+  opacity: .75;
+  transition: opacity .12s ease-in-out;
+}
+
+.social-links a:hover {
+  opacity: 1;
+}
