@@ -20,17 +20,22 @@
       body {
         font-family: 'Libre Franklin', sans-serif;
       }
-      .flex-equal > * {
-        -ms-flex: 1;
-        -webkit-box-flex: 1;
-        flex: 1;
+
+      .photography-cover {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)), url('cover.jpg');
+        background-size: cover;
+        background-position: 100% 50%;
+        min-height: 800px;
       }
-      @media (min-width: 768px) {
-        .flex-md-equal > * {
-          -ms-flex: 1;
-          -webkit-box-flex: 1;
-          flex: 1;
-        }
+
+      .photography-inner {
+        padding-top: 15%;
+        padding-left: 3%;
+        width: 45%;
+      }
+
+      .photography-inner > p.lead {
+        opacity: .9;
       }
     </style>
   </head>
@@ -65,7 +70,7 @@
         </div>
 
         <div class="row equal">
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card my-3">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Pragma</h5>
@@ -83,7 +88,7 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card my-3">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Hertz</h5>
@@ -101,7 +106,7 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card my-3">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">ARTIC</h5>
@@ -121,7 +126,7 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card my-3">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Bollettino</h5>
@@ -140,7 +145,7 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card my-3">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Abaco</h5>
@@ -161,11 +166,11 @@
       </div>
     </div>
 
-    <div style="background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)), url('cover.jpg'); background-size: cover; background-position: 100% 50%; min-height: 800px">
+    <div class="photography-cover">
       <div class="container-fluid text-white">
-        <div class="" style="padding-top: 15%; padding-left: 3%; width: 45%">
+        <div class="photography-inner">
           <h2 class="display-4 font-weight-bold">I take pictures.</h2>
-          <p class="lead" style="opacity: .9">
+          <p class="lead">
             I enjoy freezing beautiful moments for eternity. There is something incredibly powerful
             about pictures that I struggle to reproduce.
           </p>
