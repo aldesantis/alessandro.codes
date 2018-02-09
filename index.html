@@ -25,13 +25,28 @@
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)), url('cover.jpg');
         background-size: cover;
         background-position: 100% 50%;
-        min-height: 800px;
+      }
+
+      @media (min-width: 720px) {
+        .photography-cover {
+          min-height: 800px;
+        }
       }
 
       .photography-inner {
         padding-top: 15%;
-        padding-left: 3%;
-        width: 45%;
+      }
+
+      @media (min-width: 720px) {
+        .photography-inner {
+          padding-left: 3%;
+          width: 45%;
+        }
+      }
+      @media (max-width: 719px) {
+        .photography-cover {
+          padding-bottom: 15%;
+        }
       }
 
       .photography-inner > p.lead {
