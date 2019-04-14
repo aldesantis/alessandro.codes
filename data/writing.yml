@@ -1,0 +1,63 @@
+projects:
+  - name: Estasi e sofferenza
+    slug: estasi-e-sofferenza
+    description: >
+      A short novel about the relationship between <em>Eros</em> and <em>Thanatos</em>,
+      love and death, so apparently far apart and yet so hopelessly intertwined.
+      <em>Estasi e sofferenza</em> is a story about the lengths we can go for those we
+      want in our lives and how, very often, what <em>is</em> and what <em>appears</em>
+      are two different things.
+  - name: La società alternativa
+    slug: la-societa-alternativa
+    description: >
+      We've all dreamt of a better world at least once, whether out of genuine love for
+      our species or mere boredom – a world where man would be free from the burdens of
+      ordinary life. What if we found that world is well within our reach?
+      <em>La società alternativa</em> is a reminder of how easily our deepest dreams
+      are molded.
+  - name: L'ultimo guerriero
+    slug: ultimo-guerriero
+    description: >
+      My very first (finished) production, this is a story of belonging, jealousy and
+      motherhood. Sometimes, we can find ourselves in the least expected of places – but
+      what happens when someone strips us of our new-found identity and throws us back
+      into the numbness of that world we tried to escape?
+  - name: Specismo e benessere animale
+    slug: specismo-e-benessere-animale
+    description: >
+      What remains of my year-long dive into the world of specism and animal welfare,
+      <em>Specismo e benessere animale</em> is a reflection on the current state of
+      animal testing and its alternative, exploring the ideas of several different
+      philosophers and evaluating the moral weight of using animals for our preservation.
+  - name: Riflessioni semiserie
+    slug: riflessioni-semiserie
+    description: >
+      A short collection of reflections on different topics: God, religion, the great
+      paradoxes of philosophy and atheism and a few other matters. This is my brain
+      dump, constantly updated with my latest findings and conclusions. It serves as a
+      reminder of the volatility of thoughts and opinions.
+    wip: true
+  - name: Charlotte
+    slug: charlotte
+    description: >
+      Once again, a study of human relationships. We think love is above everything, but
+      is it, really? By telling the most scandalous of affairs, <em>Charlotte</em>
+      pushes the limits of our moral principles and forces us to reconsider our own
+      concepts of right and wrong or, if you prefer, of love and deviation.
+    wip: true
+  - name: La via
+    slug: la-via
+    description: >
+      A dystopian novel, inspired by George Orwell's <em>1984</em> and P. D. James'
+      <em>The Children of Men</em>. A story about discrimination and our most visceral
+      fears, but also a story about courage and how it's sometimes shown by those who
+      have everything to lose.
+    wip: true
+  - name: La cittadella
+    slug: la-cittadella
+    description: >
+      A sequel to <em>La società alternativa</em>, this is a new look at the intricacy
+      of human desires, trying to shed light on the contradictions which make us human.
+      When we hate what we once loved so badly, there are few people we can turn to.
+    wip: true
+
