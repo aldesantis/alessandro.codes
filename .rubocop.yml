@@ -1,0 +1,11 @@
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Metrics/LineLength:
+  Max: 100
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
+Layout/MultilineMethodCallBraceLayout:
+  EnforcedStyle: new_line

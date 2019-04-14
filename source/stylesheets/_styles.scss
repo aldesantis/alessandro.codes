@@ -1,0 +1,38 @@
+.photography-cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/cover.jpg');
+  background-size: cover;
+  background-position: 100% 50%;
+  padding-bottom: 15%;
+
+  @media (min-width: 960px) {
+    min-height: 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)), url('../images/cover.jpg');
+    padding-bottom: 0;
+  }
+}
+
+.photography-inner {
+  padding-top: 15%;
+
+  & > p.lead {
+    opacity: .9;
+  }
+
+  @media (min-width: 960px) {
+    padding-left: 3%;
+    max-width: 750px;
+  }
+}
+
+.social-links {
+  font-size: 130%;
+
+  a {
+    opacity: .75;
+    transition: opacity .12s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

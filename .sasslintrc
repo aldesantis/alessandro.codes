@@ -1,0 +1,7 @@
+{
+  "files": {
+    "include": "source/stylesheets/**/*.s+(a|c)ss"
+  },
+  "rules": {
+  }
+}
