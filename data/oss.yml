@@ -30,10 +30,9 @@ projects:
       A no-dependency, no-nonsense Ruby implementation of the Adapter pattern, easy to
       leverage and flexible enough to support many different use cases.
     github: aldesantis/adaptor.rb
-  - name: Spotless
+  - name: Renderful
     language: ruby
     description: >
-      Spotless is the missing framework for static analysis. It provides the foundation
-      for implementing any kind of linter for any language.
-    github: aldesantis/spotless
-    wip: true
+      Renderful is a rendering engine for Contentful spaces. It allows you to turn your
+      content model into UI components in a framework-agnostic way.
+    github: bestmadeco/renderful
