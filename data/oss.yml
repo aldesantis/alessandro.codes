@@ -1,38 +1,37 @@
 projects:
-  - name: Bollettino
+  - name: Prependers
     language: ruby
     description: >
-      Bollettino is a gem for generating prefilled Italian postal payment slips, which
-      customers can then use to easily pay your invoices.
-    github: interconn-isp/bollettino
+      Prependers allows you easily and cleanly extend third-party code by providing a thin layer of
+      magic on top of Ruby's native Module#prepend.
+    github: nebulab/prependers
   - name: ARTIC
     language: ruby
     description: >
-      ARTIC is a Ruby gem for performing useful computations with time. It has been
-      successfully used to build many types of scheduling applications.
+      ARTIC is a Ruby gem for performing useful computations with time. It has been successfully
+      used to build many types of scheduling applications.
     github: aldesantis/artic
   - name: Hertz
     language: ruby
     description: >
-      Hertz is a Ruby on Rails engine for in-app notifications. It
-      supports several couriers and works with both your regular full-stack app
-      and RESTful APIs.
+      Hertz is a Ruby on Rails engine for in-app notifications. It supports several couriers and
+      works with both your regular full-stack app and RESTful APIs.
     github: aldesantis/hertz
   - name: Pragma
     language: ruby
     description: >
-      My most ambitious project, Pragma is a modular ecosystem for building RESTful APIs
-      with Ruby. It provides everything you need to build APIs in minutes.
+      My most ambitious project, Pragma is a modular ecosystem for building RESTful APIs with Ruby.
+      It provides everything you need to build APIs in minutes.
     github: pragmarb/pragma
   - name: Adaptor
     language: ruby
     description: >
-      A no-dependency, no-nonsense Ruby implementation of the Adapter pattern, easy to
-      leverage and flexible enough to support many different use cases.
+      A no-dependency, no-nonsense Ruby implementation of the Adapter pattern, easy to leverage and
+      flexible enough to support many different use cases.
     github: aldesantis/adaptor.rb
   - name: Renderful
     language: ruby
     description: >
-      Renderful is a rendering engine for Contentful spaces. It allows you to turn your
-      content model into UI components in a framework-agnostic way.
+      Renderful is a rendering engine for Contentful spaces. It allows you to turn your content
+      model into UI components in a framework-agnostic way.
     github: nebulab/renderful
