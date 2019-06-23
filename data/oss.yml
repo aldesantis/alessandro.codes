@@ -35,4 +35,4 @@ projects:
     description: >
       Renderful is a rendering engine for Contentful spaces. It allows you to turn your
       content model into UI components in a framework-agnostic way.
-    github: bestmadeco/renderful
+    github: nebulab/renderful
