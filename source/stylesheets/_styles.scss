@@ -28,15 +28,11 @@
   font-size: 130%;
 
   a {
-    opacity: .75;
+    opacity: .5;
     transition: opacity .12s ease-in-out;
 
     &:hover {
       opacity: 1;
     }
   }
-}
-
-.footer-quote {
-  opacity: .9;
 }
