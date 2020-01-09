@@ -1,17 +1,25 @@
+<% content_for :head do %>
+  <meta
+    name="description"
+    content="Alessandro Desantis is a technology leader and strategic advisor with a decade of experience building teams that deliver great products in a sustainable way."
+  >
+<% end %>
+
 <div class="bg-light py-3 border-bottom">
   <div class="text-center col-xl-4 p-lg-5 mx-auto my-3" style="max-width: 750px">
     <img src="/images/avatar.png" class="mb-4" width="200" style="border-radius: 50%">
 
-    <h1 class="display-4 font-weight-normal pb-3">Hey, I'm Alessandro.</h1>
+    <h1 class="display-4 pb-3">Hey, I'm Alessandro.</h1>
 
-    <p class="lead font-weight-normal" style="opacity: .9">
-      I am a founder, advisor and engineering manager working at the intersection of people,
-      technology and words. I focus on good software architecture and effective organization design.
+    <p class="lead" style="opacity: .9">
+      I am a technology leader and strategic advisor with a decade of experience building teams that
+      deliver great products in a sustainable way. I work at the intersection of people, software
+      and words.
     </p>
 
-    <p class="lead font-weight-normal" style="opacity: .9">
-      Currently, I am working in eCommerce and Communications Intelligence as a director of
-      <a href="https://nebulab.it">Nebulab</a> and co-founder of <a href="https://dominasistemi.it">Domina</a>.
+    <p class="lead" style="opacity: .9">
+      Currently, I am a director at <a href="https://nebulab.it">Nebulab</a>, an eCommerce
+      consultancy that creates bespoke experiences for household DTC brands.
     </p>
   </div>
 </div>
@@ -21,8 +29,8 @@
     <div class="text-center mb-4 mx-auto" style="max-width: 750px">
       <h2 class="display-5">I make software.</h2>
       <p class="lead">
-        I believe OSS to be a gift, so I am strongly committed to giving back to the software
-        community. These are my most interesting projects.
+        At heart, I am a software developer specialized in the design and maintenance of
+        production-grade applications. I also authored several open-source projects.
       </p>
     </div>
 
@@ -32,7 +40,7 @@
           <div class="card my-3">
             <div class="card-body">
               <div class="d-flex justify-content-between">
-                <h5 class="card-title font-weight-bold">
+                <h5 class="card-title">
                   <img class="mr-1" src="/images/languages/<%= project.language %>.svg" class="img-fluid" style="height: 15px">
                   <%= project.name %>
                 </h5>
@@ -48,7 +56,7 @@
                 <%= project.description %>
               </p>
 
-              <a href="https://github.com/<%= project.github %>" class="btn btn-dark">
+              <a href="https://github.com/<%= project.github %>" class="btn btn-sm btn-dark">
                 <i class="fab fa-github fa-fw"></i>
                 <%= project.github %>
               </a>
@@ -56,6 +64,14 @@
           </div>
         </div>
       <% end %>
+
+      <div class="mt-1">
+        <p class="small">
+          <a href="https://github.com/aldesantis" class="text-dark">
+            ...and a few more!
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
@@ -63,27 +79,27 @@
 <div class="photography-cover">
   <div class="container-fluid text-white">
     <div class="photography-inner">
-      <h2 class="display-4 font-weight-bold">I take pictures.</h2>
+      <h2 class="display-4">I take pictures.</h2>
       <p class="lead">
         Our lives are made and broken by powerful moments. I try to capture, preserve
-        and show the meaning in those fleeting instants.
+        and show the meaning behind those fleeting instants.
       </p>
       <p class="lead">
-        A picture is only worth one word. The right one.
+        A picture is only worth one word. The one that matters.
       </p>
-      <p>
-        <a href="https://500px.com/<%= data.social.fivehundredpx %>" class="btn btn-lg btn-light">
+      <div>
+        <a href="https://500px.com/<%= data.social.fivehundredpx %>" class="btn btn-lg btn-outline-light">
           <i class="fab fa-500px"></i>
           See more on 500px
         </a>
-      </p>
-      <p>
+      </div>
+      <div class="mt-1">
         <small>
-          The cover photograph is
+          Cover photograph is
           “<a href="https://500px.com/photo/116575803/reunion-by-alessandro-desantis?ctx_page=1&from=user&user_id=618700" class="text-white">Reunion</a>”
           (Rome, 2015).
         </small>
-      </p>
+      </div>
     </div>
   </div>
 </div>
@@ -91,22 +107,22 @@
 <div class="my-5 py-5">
   <div class="container">
     <div class="text-center mb-4 col-md-8 mx-auto">
-      <h2 class="display-5">Finally, I write.</h2>
+      <h2 class="display-5">Finally, I write words.</h2>
       <p class="lead">
-        Words are the most powerful weapon we have. I write both fiction and non-fiction, as
-        well as the occasional essay. It's all yours to download.
+        It's the only way to understand things and the only way to share them. I write both fiction
+        and non-fiction, as well as the occasional essay.
       </p>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row flex justify-content-center">
       <% data.writing.projects.each do |project| %>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="card my-3">
             <div class="card-body">
               <div class="d-flex justify-content-between">
-                <h5 class="card-title font-weight-bold">
+                <h5 class="card-title">
                   <%= project.name %>
                   <a href="/publications/<%= project.slug %>.pdf">
                     <i class="fas fa-file-pdf fa-fw"></i>
