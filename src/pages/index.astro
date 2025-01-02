@@ -1,11 +1,53 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import Link from '../components/typography/Link.astro';
+import Project from '../components/Project.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+	<div class="space-y-6">
+
+		<div class="space-y-6">
+			<p class="font-serif text-5xl leading-[1.1]">
+				<span class="animate-wave inline-block">👋</span>, I’m <span class="font-bold">Alessandro</span>&mdash;a writer, engineer, and strategist based in Rome, Italy.</p>
+			<p class="text-stone-700 font-serif">Currently, I am the Chief Strategy Officer at <Link href="https://nebulab.com">Nebulab</Link>.</p>
+		</div>
+	
+		<hr />
+
+		<div class="grid grid-cols-3 gap-8">
+			<div>
+				<h2 class="font-bold text-xl">Open source</h2>
+				<p class="mt-1 text-sm text-stone-700 italic">While I don’t code for a living anymore, I’ve authored a few open source projects over the years&mdash;some of them are still interesting today.</p>
+			</div>
+			
+			<div class="col-span-2">
+				<div class="grid grid-cols-2 gap-4">
+					<Project url="https://github.com/nebulab/prependers" name="Prependers">
+						Extend third-party Ruby code cleanly.
+					</Project>
+
+					<Project url="https://github.com/nebulab/prependers" name="ARTIC">
+						<strong>A R</strong>uby gem for <strong>TI</strong>ime <strong>C</strong>omputations.
+					</Project>
+
+					<Project url="https://github.com/aldesantis/hertz" name="Hertz">
+						In-app notifications for Rails applications.
+					</Project>
+
+					<Project url="https://github.com/nebulab/renderful" name="Renderful">
+						A rendering engine for your headless CMS.
+					</Project>
+
+					<Project url="https://github.com/pragmarb" name="Pragma" >
+						Build your next RESTful API in minutes.
+					</Project>
+
+					<Project url="https://github.com/aldesantis/adaptor" name="Adaptor">
+						Use the Adpater pattern in your libraries.
+					</Project>
+				</div>
+			</div>
+		</div>
+	</div>
 </Layout>

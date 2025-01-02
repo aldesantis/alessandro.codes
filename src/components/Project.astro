@@ -1,0 +1,16 @@
+---
+import Card from './Card.astro';
+import Link from './typography/Link.astro';
+
+export interface Props {
+  name: string
+  url: string
+}
+
+const {name, url} = Astro.props;
+---
+
+<Card>
+  <Link href={url}><h3>{name}</h3></Link>
+  <p class="text-sm mt-0.5 font-serif"><slot /></p>	
+</Card>

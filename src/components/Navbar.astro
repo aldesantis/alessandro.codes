@@ -1,0 +1,29 @@
+---
+const currentPath = Astro.url.pathname;
+
+const links = [
+  { href: '/', text: 'Home' },
+  { href: '/about', text: 'About' },
+  { href: '/now', text: 'Now' },
+]
+---
+
+<div class="py-4 border-b mb-8">
+  <div class="container">
+    <nav class="flex items-center justify-between font-sans">
+      <div class="flex flex-1">
+        <a href="/" class="font-semibold hover:text-orange-400">
+          Alessandro Desantis
+        </a>
+      </div>
+
+      <div class="flex flex-1 justify-end gap-x-4">
+        {links.map(({ href, text }) => (
+          <a href={href} class:list={['hover:text-orange-400', { 'text-orange-400': currentPath === href }]}>
+            {text}
+          </a>
+        ))}
+      </div>
+    </nav>
+  </div>
+</div>
