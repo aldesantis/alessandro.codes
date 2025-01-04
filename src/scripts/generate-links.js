@@ -26,7 +26,7 @@ const bracketsExtractor = (content) => {
 // Get all content files from a directory
 const getFilesFromDir = (dir) => {
   try {
-    return fs.readdirSync(dir).filter((file) => file.endsWith(".md"));
+    return fs.readdirSync(dir).filter((file) => file.endsWith(".md") || file.endsWith(".mdx"));
   } catch (e) {
     console.warn(`No directory found for ${dir}`);
     return [];
@@ -66,7 +66,7 @@ const getAllPostData = () => {
     const files = getFilesFromDir(fullPath);
     const data = getDataForBacklinks(files, fullPath);
 
-    return data;
+    return data.map((d) => ({...d, contentType}));
   });
 };
 
@@ -77,11 +77,12 @@ const getAllPostData = () => {
 
   // Create initial objects with identifiers and empty link arrays
   const posts = totalPostData.map(
-    ({ title, aliases, slug, growthStage, description }) => ({
+    ({ title, aliases, slug, growthStage, description, contentType }) => ({
       ids: [title, ...(aliases ? aliases : [])],
       slug,
       growthStage,
       description,
+      contentType,
       outboundLinks: [],
       inboundLinks: [],
     })
