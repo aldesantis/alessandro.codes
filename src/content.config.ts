@@ -29,4 +29,11 @@ export const collections = {
     }),
     loader: glob({ pattern: "**/*.mdx", base: "./src/content/essays" }),
   }),
+
+  nows: defineCollection({
+    schema: z.object({
+      title: z.string(),
+    }),
+    loader: glob({ pattern: "**/*.mdx", base: "./src/content/now" }),
+  }),
 };

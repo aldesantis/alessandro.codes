@@ -1,0 +1,52 @@
+---
+import Hero from "@components/ui/Hero.astro";
+import Link from "@components/ui/Link.astro";
+import Prose from "@components/ui/Prose.astro";
+import Layout from "@layouts/Layout.astro";
+import { render, type CollectionEntry } from "astro:content";
+import { getSortedNows, getMdxComponents } from "src/lib/utils";
+
+interface Props {
+  now: CollectionEntry<"nows">;
+}
+
+const { now } = Astro.props;
+const { Content } = await render(now);
+
+const nows = await getSortedNows();
+---
+
+<Layout>
+  <title slot="head">{now.data.title} | Alessandro Desantis</title>
+
+  <div class="grid grid-cols-12">
+    <div class="col-span-8">
+      <Hero>
+        <span slot="heading">Now</span>
+        <span slot="subheading">
+          A loosely updated diary of things I consume, think, and produce.
+        </span>
+      </Hero>
+
+      <Prose>
+        <h2>{now.data.title}</h2>
+        <Content components={getMdxComponents()} />
+      </Prose>
+    </div>
+
+    <div class="col-span-4">
+      <div class="text-lg font-semibold font-sans">Archive</div>
+      <ul>
+        {
+          nows.map((now) => (
+            <li>
+              <Link class="font-sans" href={`/now/${now.id}`}>
+                {now.data.title}
+              </Link>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,8 @@
+---
+import { getSortedNows } from "src/lib/utils";
+import NowPage from "@components/nows/NowPage.astro";
+
+const latestNow = (await getSortedNows())[0]!;
+---
+
+<NowPage now={latestNow} />

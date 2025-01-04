@@ -5,6 +5,7 @@ import EssayMeta from "@components/essays/EssayHints.astro";
 import Prose from "@components/ui/Prose.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import Link from "@components/ui/Link.astro";
+import { getMdxComponents } from "src/lib/utils";
 
 export async function getStaticPaths() {
   const essays = await getCollection("essays");
@@ -52,11 +53,7 @@ const headingsWithTitle = [
       <Prose>
         <h1>{essay.data.title}</h1>
         <EssayMeta essay={essay} />
-        <Content
-          components={{
-            a: Link,
-          }}
-        />
+        <Content components={getMdxComponents()} />
       </Prose>
     </div>
 

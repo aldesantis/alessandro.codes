@@ -1,0 +1,17 @@
+---
+import NowPage from "@components/nows/NowPage.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const nows = await getCollection("nows");
+
+  return nows.map((now) => ({
+    params: { id: now.id },
+    props: { now },
+  }));
+}
+
+const { now } = Astro.props;
+---
+
+<NowPage now={now} />

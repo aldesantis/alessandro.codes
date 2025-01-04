@@ -30,3 +30,34 @@ permalink: l/articles/how-to-hire-for-director-roles
 - A good Director+ is able to look at a profit and loss statement and translate that into a technical direction. ([View Highlight](https://read.readwise.io/read/01gm0tp52gxt1d49kwkpbdgyqq))
 
 
+---
+title: >
+  How to Hire for Director+ Roles?
+full_title: >
+  How to Hire for Director+ Roles?
+author: >
+  Stas Sajin
+url: https://stassajin.medium.com/how-to-hire-for-director-roles-bb0690f49a51
+category: articles
+image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/0CtvZrRwGVJ1-9QBx
+published_date: 2022-08-28
+summary: >
+  Hiring folks in leadership roles is very challenging.
+source: reader
+---
+# How to Hire for Director+ Roles?
+
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/0CtvZrRwGVJ1-9QBx)
+
+## Metadata
+- Author: [[Stas Sajin]]
+- Full Title: How to Hire for Director+ Roles?
+- Category: #articles
+- Document Tags: [[leadership]] 
+- Summary: Hiring folks in leadership roles is very challenging.
+- URL: https://stassajin.medium.com/how-to-hire-for-director-roles-bb0690f49a51
+
+## Highlights
+- A good Director+ is able to look at a profit and loss statement and translate that into a technical direction. ([View Highlight](https://read.readwise.io/read/01gm0tp52gxt1d49kwkpbdgyqq))
+
+

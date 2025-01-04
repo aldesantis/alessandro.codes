@@ -1,5 +1,6 @@
 ---
 import EssayCard from "@components/essays/EssayCard.astro";
+import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 
@@ -9,14 +10,13 @@ const essays = await getCollection("essays");
 <Layout>
   <title slot="head">Essays | Alessandro Desantis</title>
 
-  <div class="mb-8">
-    <p class="font-sans font-semibold text-5xl mb-2">Essays</p>
-
-    <p class="font- text-stone-700 text-xl">
-      Long-form musings on life, commerce, strategy, and anything that catches
-      my attention.
-    </p>
-  </div>
+  <Hero>
+    <span slot="heading">Essays</span>
+    <span slot="subheading"
+      >Long-form musings on life, commerce, strategy, and anything that catches
+      my attention.</span
+    >
+  </Hero>
 
   <div class="grid grid-cols-2">
     {essays.map((essay) => <EssayCard essay={essay} />)}

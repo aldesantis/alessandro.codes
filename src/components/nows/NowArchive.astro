@@ -1,0 +1,19 @@
+---
+import Link from "@components/ui/Link.astro";
+import { getSortedNows } from "src/lib/utils";
+
+const nows = await getSortedNows();
+---
+
+<div class="text-lg font-semibold font-sans">Archive</div>
+<ul>
+  {
+    nows.map((now) => (
+      <li>
+        <Link class="font-sans" href={`/now/${now.id}`}>
+          {now.data.title}
+        </Link>
+      </li>
+    ))
+  }
+</ul>
