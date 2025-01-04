@@ -1,5 +1,6 @@
 ---
 import type { HTMLAttributes } from "astro/types";
+import { isInternalUrl } from "./src/lib/utils";
 
 export interface Props extends HTMLAttributes<"a"> {
   variant?: "primary" | "secondary";
@@ -15,6 +16,7 @@ const {
 ---
 
 <a
+  target={isInternalUrl(props.href) ? "_self" : "_blank"}
   {...props}
   class:list={[
     "transition-all",

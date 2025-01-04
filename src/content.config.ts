@@ -27,6 +27,6 @@ export const collections = {
       canonical: z.string().url().optional(),
       excerpt: z.string(),
     }),
-    loader: glob({ pattern: "**/*.md", base: "./src/content/essays" }),
+    loader: glob({ pattern: "**/*.mdx", base: "./src/content/essays" }),
   }),
 };

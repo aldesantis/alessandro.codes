@@ -4,6 +4,7 @@ import { getCollection, render } from "astro:content";
 import EssayMeta from "@components/essays/EssayHints.astro";
 import Prose from "@components/ui/Prose.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
+import Link from "@components/ui/Link.astro";
 
 export async function getStaticPaths() {
   const essays = await getCollection("essays");
@@ -15,7 +16,16 @@ export async function getStaticPaths() {
 }
 
 const { essay } = Astro.props;
-const { Content } = await render(essay);
+const { Content, headings } = await render(essay);
+
+const headingsWithTitle = [
+  {
+    depth: 1,
+    text: essay.data.title,
+    slug: "",
+  },
+  ...headings,
+];
 ---
 
 <title slot="head">{essay.data.title} | Alessandro Desantis</title>
@@ -27,19 +37,53 @@ const { Content } = await render(essay);
 }
 
 <Layout>
-  <div class="-mb-8">
-    <ArrowLink
-      href="/essays"
-      arrowDirection="left"
-      class="font-sans font-semibold uppercase"
-    >
-      Essays
-    </ArrowLink>
-  </div>
+  <div class="grid grid-cols-12">
+    <div class="col-span-8">
+      <div class="-mb-8 col-span-8">
+        <ArrowLink
+          href="/essays"
+          arrowDirection="left"
+          class="font-sans font-semibold uppercase"
+        >
+          Essays
+        </ArrowLink>
+      </div>
 
-  <Prose>
-    <h1>{essay.data.title}</h1>
-    <EssayMeta essay={essay} />
-    <Content />
-  </Prose>
+      <Prose>
+        <h1>{essay.data.title}</h1>
+        <EssayMeta essay={essay} />
+        <Content
+          components={{
+            a: Link,
+          }}
+        />
+      </Prose>
+    </div>
+
+    <div class="col-span-4">
+      <div class="flex flex-col font-sans">
+        <div class="text-xl font-semibold">Table of contents</div>
+        <div>
+          {
+            headingsWithTitle.map((heading) => (
+              <div
+                class:list={[
+                  heading.depth === 2 && "pl-4",
+                  heading.depth === 3 && "pl-8",
+                ]}
+              >
+                <Link
+                  href={`#${heading.slug}`}
+                  variant="secondary"
+                  class="font-sans text-sm"
+                >
+                  {heading.text}
+                </Link>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
 </Layout>
