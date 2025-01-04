@@ -28,27 +28,35 @@ export function remarkWikiLink() {
           post.ids.some((id) => id.toLowerCase() === linkText.toLowerCase())
         );
 
+        let newChild;
+
         if (matchedPost) {
-          // Create the InternalTooltipLink component
-          children.push({
-            type: "mdxJsxFlowElement",
-            name: "Link",
-            attributes: [
-              {
-                type: "mdxJsxAttribute",
-                name: "href",
-                value: `/${matchedPost.slug}`,
-              },
-            ],
-            children: [{ type: "text", value: linkText }],
-          });
-        } else {
+          if (matchedPost.contentType === "essays") {
+            // Create the InternalTooltipLink component
+            newChild = {
+              type: "mdxJsxFlowElement",
+              name: "Link",
+              attributes: [
+                {
+                  type: "mdxJsxAttribute",
+                  name: "href",
+                  value: `/essays/${matchedPost.slug}`,
+                },
+              ],
+              children: [{ type: "text", value: linkText }],
+            };
+          }
+        }
+
+        if (!newChild){
           // If no match found, just add the text as is
-          children.push({
+          newChild = {
             type: "text",
             value: fullMatch,
-          });
+          };
         }
+
+        children.push(newChild);
 
         lastIndex = endIndex;
       });
