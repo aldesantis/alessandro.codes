@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "now/2025-01.mdx",
+                "file": "essays/multi-brand-retail-value-chain.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01"
+              "title": "multi-brand-retail-value-chain"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "d40959d64539268f",
   "lastOpenFiles": [
-    "essays/multi-brand-retail-value-chain.mdx",
     "now/2025-01.mdx",
+    "essays/multi-brand-retail-value-chain.md",
+    "essays/multi-brand-retail-value-chain.mdx",
     "about.md",
     "Redefining the Digital Value Chain for Multi-Brand Retail.md",
     "notes/Accelerate existing customer behavior.md",
@@ -204,7 +205,6 @@
     "readwise/articles/TikTok Ban Will Undo Social Commerce in the US.md",
     "readwise/articles/Brand Analysis C Is for Coterie.md",
     "readwise/articles/Repeat Returns Offenders.md",
-    "readwise/articles/Brain Food Given Before Earned.md",
     "readwise/articles",
     "readwise/books",
     "now/2024-12.mdx",

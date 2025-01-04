@@ -1,15 +1,17 @@
 ---
-title: Redefining the Digital Value Chain for Multi-Brand Retail
-permalink: e/redefining-the-digital-value-chain-for-multi-brand-retail
-slug: multi-brand-retail-value-chain
-status: evergreen
-publish: false
-publishedOn: 2024-12-04
-canonical: https://nebulab.com/blog/multi-brand-retail-strategy
-excerpt: Historically, multi-brand retailers have competed on price, in an unhealthy race to the bottom that has left everyone (but the consumer) unsatisfied. Could there be a better way?
 aliases:
   - Redefining the Digital Value Chain for Multi-Brand Retail
+canonical: https://nebulab.com/blog/multi-brand-retail-strategy
+excerpt: Historically, multi-brand retailers have competed on price, in an unhealthy race to the bottom that has left everyone (but the consumer) unsatisfied. Could there be a better way?
+linter-yaml-title-alias: Redefining the Digital Value Chain for Multi-Brand Retail
+permalink: e/redefining-the-digital-value-chain-for-multi-brand-retail
+publish: false
+publishedOn: 2024-12-04
+slug: multi-brand-retail-value-chain
+status: evergreen
+title: Redefining the Digital Value Chain for Multi-Brand Retail
 ---
+# Redefining the Digital Value Chain for Multi-Brand Retail
 
 Over the last couple of years, a lot has been written about [the rise and fall of Digitally-Native Vertical Brands (DNVBs)](https://www.retaildive.com/news/dtc-brands-are-dead-retail-wholesale-long-live-dtc/729365/). These players vowed to eliminate the middleman and sell their products exclusively online, seizing an incredibly profitable arbitrage opportunity that revolved around cheap advertising and meager interest rates.
 

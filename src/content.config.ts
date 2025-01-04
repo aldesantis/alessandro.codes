@@ -27,13 +27,13 @@ export const collections = {
       canonical: z.string().url().optional(),
       excerpt: z.string(),
     }),
-    loader: glob({ pattern: "**/*.mdx", base: "./src/content/essays" }),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/essays" }),
   }),
 
   nows: defineCollection({
     schema: z.object({
       title: z.string(),
     }),
-    loader: glob({ pattern: "**/*.mdx", base: "./src/content/now" }),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/now" }),
   }),
 };
