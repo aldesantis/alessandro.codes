@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/turn-transient-notes-into-evergreen-notes.md",
+                "file": "readwise/Books/How Brands Grow.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "turn-transient-notes-into-evergreen-notes"
+              "title": "How Brands Grow"
             }
           }
         ]
@@ -177,6 +177,10 @@
   },
   "active": "d40959d64539268f",
   "lastOpenFiles": [
+    "notes/Customer loyalty is behavioral.md",
+    "now/2024-12.mdx",
+    "now/2025-01.mdx",
+    "notes/turn-transient-notes-into-evergreen-notes.md",
     "system/templater/set-evergreen-note-permalinks.md.md",
     "system/templater/generate-mocs.md.md",
     "about.md",
@@ -202,8 +206,6 @@
     "readwise/Articles/LVMH Fashions a Hollywood Entry; 22 Montaigne Entertainment Teams With Superconnector Studios to.md",
     "readwise/Articles/Let’s Go Low… Alcohol, With the Immortal Low-Abv Adonis Cocktail and Deep… as We Define the.md",
     "readwise/Articles/What the Scaffa Just the Paperwork Cocktail & What Longer Replacement Cycles for Commerce.md",
-    "readwise/Articles/‘It Just Didn’t Make Sense for Us to Work So Hard to Get So Little’ Confessions of a Founder Who.md",
-    "readwise/Articles/A perfect storm created a renaissance in chess COVID driving people to occupy their minds in.md",
     "readwise/Tweets",
     "readwise/Podcasts",
     "readwise/Books",
@@ -212,8 +214,6 @@
     "notes/assets",
     "notes",
     "mocs/Topics",
-    "mocs",
-    "now/2024-12.mdx",
     "Digital garden/Evergreen notes/assets/logo.jpg",
     "quartz/static/og-image.png",
     "quartz/static/icon.png",

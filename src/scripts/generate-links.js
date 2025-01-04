@@ -10,7 +10,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const CONTENT_PATH = path.join(__dirname, "../content");
-const CONTENT_TYPES = ["essays", "notes"];
+const CONTENT_TYPES = [
+  "essays",
+  "notes",
+];
 
 // Function to extract text between double brackets
 const bracketsExtractor = (content) => {
@@ -35,10 +38,11 @@ const getDataForBacklinks = (fileNames, filePath) =>
   fileNames
     .map((fileName) => {
       const file = fs.readFileSync(path.join(filePath, fileName), "utf8");
-      
+
       const { content, data } = matter(file);
+
       const slug = fileName.replace(/\.mdx?$/, "").replace(/\.md?$/, "");
-      
+
       const { title, aliases, growthStage, description, draft } = data;
 
       // Skip draft posts
@@ -70,8 +74,6 @@ const getAllPostData = () => {
 (function () {
   // Get content and frontmatter for each post
   const totalPostData = getAllPostData();
-
-
 
   // Create initial objects with identifiers and empty link arrays
   const posts = totalPostData.map(

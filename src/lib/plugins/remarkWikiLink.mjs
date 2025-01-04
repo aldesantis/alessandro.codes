@@ -1,5 +1,5 @@
 import { visit } from "unist-util-visit";
-import linkMaps from "../links.json";
+import linkMaps from "../../data/links.json";
 
 export function remarkWikiLink() {
   return (tree) => {
@@ -32,22 +32,12 @@ export function remarkWikiLink() {
           // Create the InternalTooltipLink component
           children.push({
             type: "mdxJsxFlowElement",
-            name: "InternalTooltipLink",
+            name: "Link",
             attributes: [
               {
                 type: "mdxJsxAttribute",
                 name: "href",
                 value: `/${matchedPost.slug}`,
-              },
-              {
-                type: "mdxJsxAttribute",
-                name: "title",
-                value: matchedPost.ids[0],
-              },
-              {
-                type: "mdxJsxAttribute",
-                name: "description",
-                value: matchedPost.description || "",
               },
             ],
             children: [{ type: "text", value: linkText }],

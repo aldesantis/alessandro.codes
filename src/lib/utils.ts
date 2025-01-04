@@ -16,4 +16,5 @@ export async function getSortedNows(): Promise<CollectionEntry<"nows">[]> {
 
 export const getMdxComponents = () => ({
   a: Link,
+  Link: Link,
 });

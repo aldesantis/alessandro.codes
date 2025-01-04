@@ -30,7 +30,7 @@ const nows = await getSortedNows();
 
       <Prose>
         <h2>{now.data.title}</h2>
-        <Content components={getMdxComponents()} />
+        <Content components={{ ...getMdxComponents() }} />
       </Prose>
     </div>
 
