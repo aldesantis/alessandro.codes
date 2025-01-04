@@ -1,15 +1,31 @@
 ---
 import type { HTMLAttributes } from "astro/types";
 
-export type Props = HTMLAttributes<"a">;
+export interface Props extends HTMLAttributes<"a"> {
+  variant?: "primary" | "secondary";
+  active?: boolean;
+}
 
-const { class: originalClass, ...props } = Astro.props;
+const {
+  class: originalClass,
+  variant = "primary",
+  active,
+  ...props
+} = Astro.props;
 ---
 
 <a
   {...props}
   class:list={[
-    "text-orange-400 hover:text-orange-700 transition-all",
+    "transition-all",
+    "hover:text-orange-700",
+
+    {
+      "text-orange-700": active,
+      "text-orange-400 transition-all": variant === "primary",
+      "hover:text-orange-700": variant === "secondary",
+    },
+
     originalClass,
   ]}
 >

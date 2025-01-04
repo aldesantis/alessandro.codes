@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "github",
+    "name": "GitHub",
+    "url": "https://github.com/aldesantis"
+  },
+  {
+    "slug": "linkedin",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/alessandro-desantis/"
+  },
+  {
+    "slug": "instagram",
+    "name": "Instagram",
+    "url": "https://instagram.com/@desa.alessandro"
+  },
+  {
+    "slug": "500px",
+    "name": "500px",
+    "url": "https://500px.com/p/aldesantis"
+  },
+  {
+    "slug": "medium",
+    "name": "Medium",
+    "url": "https://medium.com/@aldesantis"
+  }
+]

@@ -1,0 +1,32 @@
+---
+import { Icon } from "astro-icon/components";
+import Link from "@components/ui/typography/Link.astro";
+import { getCollection } from "astro:content";
+
+const socials = await getCollection("socials");
+---
+
+<div class="border-t mt-8 py-8 container">
+  <div class="flex">
+    <div>
+      <div class="text-xl font-serif text-stone-700">See you soon.</div>
+
+      <div class="mt-8 space-x-3 text-2xl flex flex-row">
+        {
+          socials.map((social) => (
+            <Link
+              href={social.data.url}
+              variant="secondary"
+              class="text-stone-400"
+              target="_blank"
+            >
+              <Icon name={`fa6-brands:${social.id}`} />
+            </Link>
+          ))
+        }
+      </div>
+
+      <div class="text-xs mt-4 text-stone-500">© 2025 Alessandro Desantis</div>
+    </div>
+  </div>
+</div>

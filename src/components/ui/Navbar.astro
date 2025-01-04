@@ -1,11 +1,13 @@
 ---
+import Link from "@components/ui/typography/Link.astro";
+
 const currentPath = Astro.url.pathname;
 
 const links = [
-  { href: '/', text: 'Home' },
-  { href: '/about', text: 'About' },
-  { href: '/now', text: 'Now' },
-]
+  { href: "/", text: "Home" },
+  { href: "/about", text: "About" },
+  { href: "/now", text: "Now" },
+];
 ---
 
 <div class="py-4 border-b mb-8">
@@ -18,11 +20,13 @@ const links = [
       </div>
 
       <div class="flex flex-1 justify-end gap-x-4">
-        {links.map(({ href, text }) => (
-          <a href={href} class:list={['hover:text-orange-400', { 'text-orange-400': currentPath === href }]}>
-            {text}
-          </a>
-        ))}
+        {
+          links.map(({ href, text }) => (
+            <Link href={href} variant="secondary" active={currentPath === href}>
+              {text}
+            </Link>
+          ))
+        }
       </div>
     </nav>
   </div>
