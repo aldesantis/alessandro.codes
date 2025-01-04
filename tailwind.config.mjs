@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['"Source Sans 3"', "sans-serif"],
-        serif: ["Alegreia", "serif"],
+        serif: ["Domine", "serif"],
       },
       container: {
         center: true,
