@@ -8,5 +8,6 @@
   "obsidian-bulk-rename-plugin",
   "obsidian-linter",
   "obsidian-git",
-  "obsidian-importer"
+  "obsidian-importer",
+  "mdx-as-md-obsidian"
 ]

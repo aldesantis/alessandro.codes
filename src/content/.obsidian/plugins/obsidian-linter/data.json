@@ -278,7 +278,8 @@
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
     "System",
-    "Literature notes"
+    "Literature notes",
+    "essays"
   ],
   "filesToIgnore": [],
   "linterLocale": "en",
