@@ -8,9 +8,7 @@
   "lastSavedStatusID": 17942624,
   "currentSyncStatusID": 0,
   "refreshBooks": true,
-  "booksToRefresh": [
-    "31860206"
-  ],
+  "booksToRefresh": [],
   "failedBooks": [],
   "booksIDsMap": {
     "2 - Resources/Digital garden/Literature notes/Articles/A perfect storm created a renaissance in chess COVID driving people to occupy their minds in physical isolation, the hit Netflix show “The Queen’s Gambit,” and a surge of chess Twitch streamers and YouTubers fueling that nascent interest in chess wit.md": "31860206",
@@ -265,6 +263,7 @@
     "Literature notes/Articles/Brain Food Surface Area of Luck.md": "31859654",
     "Literature notes/Articles/Light Labor Day Reading 7 Predictions About the Future of DTC.md": "31859735",
     "Literature notes/Articles/Never Give This Up, No Matter What.md": "31859860",
+    "Literature notes/Articles/A perfect storm created a renaissance in chess COVID driving people to occupy their minds in physical isolation, the hit Netflix show “The Queen’s Gambit,” and a surge of chess Twitch streamers and YouTubers fueling that nascent interest in chess wit.md": "31860206",
     "Literature notes/Articles/Shopify’s New Tools Are Encroaching Upon the Business of Existing Vendors.md": "31885288",
     "Literature notes/Articles/Luxury X Crypto.md": "31885438",
     "Literature notes/Articles/Monopolistic Competition Definition, How It Works, Pros and Cons.md": "31885567",
