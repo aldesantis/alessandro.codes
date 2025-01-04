@@ -9,7 +9,7 @@ export interface Props {
 const { essay } = Astro.props;
 const { remarkPluginFrontmatter } = await render(essay);
 
-const formattedDate = new Date(essay.data.published_on).toLocaleDateString(
+const formattedDate = new Date(essay.data.publishedOn).toLocaleDateString(
   "en-US",
   {
     year: "numeric",

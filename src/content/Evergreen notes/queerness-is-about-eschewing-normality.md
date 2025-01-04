@@ -1,0 +1,9 @@
+---
+permalink: n/queerness-is-about-eschewing-normality
+status: 
+---
+# queerness-is-about-eschewing-normality
+
+The fundamental belief behind queerness is NOT that one should feel comfortable being strange because that would imply there is an idea of “normality” in the first place.
+
+Instead, the fundamental belief behind queerness is that “normality” as a concept should not exist and that we should all feel okay being ourselves.

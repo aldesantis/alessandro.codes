@@ -1,0 +1,11 @@
+---
+permalink: n/you-can-only-coach-the-person-in-front-of-you
+status: 
+---
+# You can only coach the person in front of you
+
+#coaching
+
+When coaching someone, you should always reframe problems so that they are about the person in front of you rather than an external third point (another person, project or situation). You can’t coach a third point, but you _can_ coach the person in front of you.
+
+The most common way to do that is to ask “What’s the challenge here for you?” and then focusing on a solution that starts from the person who’s experiencing the challenge.

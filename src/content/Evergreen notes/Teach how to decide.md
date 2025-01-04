@@ -1,0 +1,15 @@
+---
+permalink: n/teach-how-to-decide
+status: 
+---
+# Teach how to decide
+
+When empowering team members, share your mental models for decision-making rather than simply making decisions on behalf of someone else on the team.
+
+A good practical example (for engineers) is leaving PR reviews: you shouldn’t just ask people to change things, but rathe rexplain why the change is better and what experience led you to that conclusion. This makes it more likely that hte person will replicate your decision-making model in the future.
+
+---
+
+## References
+
+- [Leading Distributed: The Remote Guide to Management](https://twist.com/remote-work-guides/remote-management)

@@ -1,0 +1,11 @@
+---
+permalink: n/product-management-is-about-the-customer
+status: 
+---
+# Product management is about the customer
+
+The purpose of a product team is to **solve problems in ways our customers love, yet work for our business.**
+
+## References
+
+- [[Product vs. Feature Teams]]

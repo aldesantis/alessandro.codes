@@ -1,0 +1,18 @@
+---
+permalink: n/appeal-to-emotion-and-reason-for-changing-things
+status: 
+---
+# Appeal to emotion and reason for changing things
+
+#cahnge-management
+
+When effecting change, remember to appeal both to the emotional and rational side of people’s minds. If you only appeal to one but not the other, your change is very likely to fail:
+
+- Emotion without reason: you’ll get lots of strong reactions but very little ideas for how to practically move forward.
+- Reason without emotion: even thouhg people may agree with your plan in principle, they won’t be motivated to move forward.
+
+#tbd How can this be done in a structured and consistent way?
+
+## References
+
+- [[Switch]]

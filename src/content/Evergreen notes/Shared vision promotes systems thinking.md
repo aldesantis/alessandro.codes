@@ -1,0 +1,11 @@
+---
+permalink: n/shared-vision-promotes-systems-thinking
+status: 
+---
+# Shared vision promotes systems thinking
+
+When enrolled in or committed to a shared vision that spans 10, 20, or 50 years, you are much more likely to develop and practice systems thinking because people will want to make things work in the long run.
+
+## References
+
+- [[The Fifth Discipline]]

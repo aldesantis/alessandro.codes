@@ -1,0 +1,9 @@
+---
+permalink: n/attribution-is-not-incrementality
+status: 
+---
+# Attribution is not incrementality
+
+Attribution is where results are coming from.
+
+Incrementality is how much of your results would have happened anyway, despite your marketing efforts.

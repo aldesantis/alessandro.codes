@@ -1,0 +1,11 @@
+---
+permalink: n/reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive
+status: 
+---
+# Reinforcing feedback loops can be self-enhancing or self-destructive
+
+Through reinforcing feedback loops, a system effectively causes its own behavior, ending up in a virtuous or vicious cycle depending on whether the behavior is desirable or not. Over time, this can lead to exponential improvements or collapse.
+
+## References
+
+- [[Thinking in Systems]]

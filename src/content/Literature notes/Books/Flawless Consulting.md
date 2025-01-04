@@ -1,0 +1,79 @@
+---
+title: Flawless Consulting
+full_title: Flawless Consulting
+author: Peter Block
+url: 
+category: books
+image_url: https://images-na.ssl-images-amazon.com/images/I/51cNr0Py0RL._SL200_.jpg
+date: 2024-12-29
+time: 6:39 PM
+last_highlighted_date: 2023-06-19 04:56:00+00:00
+published_date: None
+summary: |
+  None
+source: kindle
+permalink: l/books/flawless-consulting
+---
+# Flawless Consulting
+
+![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51cNr0Py0RL._SL200_.jpg)
+
+## Metadata
+- Author: [[Peter Block]]
+- Full Title: Flawless Consulting
+- Category: #books
+- Document Tags: [[consulting]]
+
+## Highlights
+- The consultant’s objective is to engage in successful actions that result in people or organizations managing themselves differently. ([Location 496](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=496))
+    - Tags: [[consulting]] 
+- each act that expresses trust in ourselves and belief in the validity of our own experience is always the right path to follow. Each act that is manipulative or filled with pretense is always self-destructive. ([Location 583](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=583))
+    - Tags: [[consulting]] 
+- At the same time and at another level, both you and the client are generating and sensing your feelings about each other—whether you feel acceptance or resistance, whether you feel high or low tension, whether you feel support or confrontation. ([Location 614](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=614))
+    - Tags: [[consulting]] 
+- A major objective of every consultation is to encourage you to focus on and value the affective, or interpersonal, aspect of the relationship you have with the client. ([Location 621](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=621))
+    - Tags: [[consulting]] 
+- In most cases, the client comes to you with the expectation that once you are told what the problem is, you provide the solution. Your goal is to act out the fact that it’s a 50/50 proposition. ([Location 632](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=632))
+    - Tags: [[consulting]] 
+- However the consultant feels working with that client, the people inside the client’s organization are going to feel the same way. ([Location 647](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=647))
+    - Tags: [[consulting]] 
+- When most people work with a consultant as a client, they bring with them not only the prevailing image of the consultant as the expert but also someone to watch out for. ([Location 651](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=651))
+    - Tags: [[consulting]] 
+- The fourth element on the affective side of the consultant-client relationship is that consultants have a right to their own needs from the relationship. ([Location 656](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=656))
+    - Tags: [[consulting]] 
+- Each of us doing consulting ought to be very clear about our own beliefs. Our own consulting behavior should be consistent with the style of management we advocate to our clients. ([Location 672](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=672))
+    - Tags: [[consulting]] 
+- Valid data encompass two things: (1) objective data about ideas, events, or situations that everyone accepts as facts and (2) personal data. ([Location 690](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=690))
+    - Tags: [[consulting]] 
+- Organizations seem to work better when people have an opportunity to influence decisions that have a direct impact on their work. When people feel that something is important and they have some control, they will be motivated to exert the effort to make things work. ([Location 696](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=696))
+    - Tags: [[consulting]] [[change-management]] 
+- You can order people to do things, and ordinarily they will comply—at least while you are watching. But if you want them to apply themselves, their internal commitment is required. ([Location 702](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=702))
+    - Tags: [[change-management]] [[consulting]] 
+- The second reason is that whether they know it or not, consultants are always functioning as models of how to solve problems. The message contained in the way consultants act is much more powerful than their words. ([Location 711](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=711))
+    - Tags: [[consulting]] 
+- Each situation has two elements: the technical/business problem that has to be resolved and the way people are interacting around that problem. ([Location 727](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=727))
+    - Tags: [[consulting]] 
+- It is the line manager who ultimately will decide whether to take action, and this choice will be based on how internally committed he or she is to the concepts the consultant is suggesting. ([Location 735](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=735))
+    - Tags: [[consulting]] 
+- So our impact is determined by the client’s commitment to our suggestions. Building this commitment is often a process of removing obstacles that block the client from acting on our advice. ([Location 744](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=744))
+    - Tags: [[favorite]] [[consulting]] 
+- Ed Schein has identified three ways consultants work with line managers: in an expert role, a pair-of-hands role, or a collaborative role. ([Location 752](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=752))
+    - Tags: [[consulting]] [[favorite]] 
+- Most problems have a human element in them, and if the prevailing organizational climate is fear, insecurity, or mistrust, people may withhold or distort essential information on the human part of the problem. Without valid data, accurate assessment becomes impossible. ([Location 790](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=790))
+    - Tags: [[consulting]] 
+- In a pair-of-hands role, the consultant is dependent on the manager’s ability to understand what is happening and to develop an effective action plan. If the manager’s assessment is faulty, the action plan won’t work, and the consultant who provided the service becomes a convenient scapegoat. ([Location 816](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=816))
+    - Tags: [[favorite]] [[consulting]] 
+- When consultants work through a collaborative role, they don’t solve problems for the manager. They apply their special skills to help managers solve problems themselves. ([Location 825](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=825))
+- The key assumption underlying the collaborative role is that the manager must be actively involved in data gathering and analysis, setting goals and developing action plans, and, finally, sharing responsibility for success or failure. ([Location 827](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=827))
+- The confusion is between collaborating on the technical aspects of the problem (which I don’t mean) and collaborating on how the stages of the consultation will be carried out (which I do mean). ([Location 865](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=865))
+- Doing the job by yourself is always simpler and faster. Having people from the client organization takes more time and agony, yet this involvement directly encourages commitment and promotes eventual implementation of the work. ([Location 925](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=925))
+    - Tags: [[consulting]] 
+- Bet on engagement over mandate and persuasion. Although a decision has been made, the real work lies ahead. How you involve people will determine their commitment at each stage. The instinct is to focus too much on the decision and not value the importance of how people are brought together to make it work. ([Location 1146](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=1146))
+- Design more participation than presentation. Each meeting has to be an example of the new way of working and demonstrate that employee attitude will dictate success. This demands high interaction and forms of proceeding. ([Location 1149](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=1149))
+    - Tags: [[consulting]] 
+- Bring people into the decision about change as early as possible. Commitment comes from having choice. ([Location 1156](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=1156))
+    - Tags: [[consulting]] 
+- If I — know my area of expertise (a given), behave authentically with the client, tend to and complete the business of each consulting phase, and act to build capacity for the client to solve the next problem on their own, I can legitimately say I have consulted flawlessly. ([Location 1216](https://readwise.io/to_kindle?action=open&asin=B007MCRO4Y&location=1216))
+    - Tags: [[consulting]] 
+
+

@@ -1,0 +1,11 @@
+---
+permalink: n/make-people-feel-good-about-themselves-to-make-them-like-you
+status: 
+---
+# Make people feel good about themselves to make them like you
+
+We often believe that we need to come across as smart or fascinating if we want people to like us. This is not really true: for the most part, people like those who make them feel good about themselves. In other words, making the _other_ person feel smart and fascinating may be the quickest way to win them over.
+
+## References
+
+- [[How to Talk to Anyone]]

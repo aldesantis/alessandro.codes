@@ -1,0 +1,13 @@
+---
+permalink: n/systems-happen-all-at-once
+status: 
+---
+# Systems happen all at once
+
+While systems can be written about, the written word is an inefficient medium for describing systems. Words come one after the other—systems happen all at once.
+
+Because of this, the best way to reason about systems is to draw them. Drawings can be absorbed in a much more holistic manner than words.
+
+## References
+
+- [[Thinking in Systems]]

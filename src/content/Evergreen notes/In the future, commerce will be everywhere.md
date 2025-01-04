@@ -1,0 +1,15 @@
+---
+permalink: n/in-the-future-commerce-will-be-everywhere
+status: 
+---
+# In the future, commerce will be everywhere
+
+Shopify and other “e-commerce site builders” are becoming obsolete in their current form.
+
+People are increasingly shopping at the point of social interaction; brands are increasingly offering checkout at the point of customer acquisition (e.g., TikTok Shop).
+
+There will always be space for DTC brands, but perhaps the future of commerce looks like a unified “commerce protocol” and not like an individual platform.
+
+I talked about this a bit in [Apology of the regulator](https://nebulab.com/newsletter/apology-of-the-regulator). Filippo from Commerce Layer talked about it in [The commerce layer](https://commercefordevs.org/the-commerce-layer/).
+
+Commerce is everywhere nowadays. Brands like Liquid Death and A24 are increasingly blurring the lines between media and commerce. Brands are brands—how they monetize their IP is ultimately an implementation detail.

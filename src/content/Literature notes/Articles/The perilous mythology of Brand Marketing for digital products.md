@@ -1,0 +1,43 @@
+---
+title: The perilous mythology of Brand Marketing for digital products
+full_title: The perilous mythology of Brand Marketing for digital products
+author: Mobile Dev Memo
+url: https://mobiledevmemo.com/understanding-the-role-of-brand-marketing-for-digital-products/
+category: articles
+image_url: https://mobiledevmemo.com/wp-content/uploads/2021/11/iStock-1295056492.jpg
+date: 2024-12-29
+time: 6:40 PM
+last_highlighted_date: 2024-08-16 16:04:57.117926+00:00
+published_date: 2021-11-29
+summary: |
+  Brand marketing and direct response marketing serve different purposes in digital marketing. Brand marketing builds awareness and affinity for a product, while direct response marketing aims for immediate consumer action. For digital products, direct response marketing is generally more effective, with brand marketing playing a supportive role.
+source: reader
+permalink: l/articles/the-perilous-mythology-of-brand-marketing-for-digital-products
+---
+# The perilous mythology of Brand Marketing for digital products
+
+![rw-book-cover](https://mobiledevmemo.com/wp-content/uploads/2021/11/iStock-1295056492.jpg)
+
+## Metadata
+- Author: [[Mobile Dev Memo]]
+- Full Title: The perilous mythology of Brand Marketing for digital products
+- Category: #articles
+- Summary: Brand marketing and direct response marketing serve different purposes in digital marketing. Brand marketing builds awareness and affinity for a product, while direct response marketing aims for immediate consumer action. For digital products, direct response marketing is generally more effective, with brand marketing playing a supportive role.
+- URL: https://mobiledevmemo.com/understanding-the-role-of-brand-marketing-for-digital-products/
+
+## Highlights
+- Extending this framing of brand image, one might define *brand marketing* as any activity that inculcates within the consumer a particular brand’s personality. ([View Highlight](https://read.readwise.io/read/01j5dyjdr782eqazbna9m2jcmr))
+- In ***[Brand equity on mobile](https://mobiledevmemo.com/brand-equity-on-mobile/)***, I discuss the concept of brand equity, which is the quantified value of a brand, measured across two vectors of consumer impact: 1) the ability for a brand to charge a price premium given consumer familiarity and receptiveness, and 2) the degree of amplification that a brand bestows upon a firm’s advertising activities (a sort of advertising effectiveness premium). ([View Highlight](https://read.readwise.io/read/01j5dyj89b4m4t4r079hxpp1a6))
+- Direct Response marketing is almost exclusively accomplished through digital advertising for digital products, and its purpose is to foment an impulse on the consumer’s part to immediately purchase or otherwise engage with the product. ([View Highlight](https://read.readwise.io/read/01j5dyjwzfbxd1q71spw991k79))
+- The promise of brand marketing is that, by creating presence of mind within a consumer for a particular product, the purchasing of that product becomes habitual on some cadence; ([View Highlight](https://read.readwise.io/read/01j5dykz60w5kp7jh1afea4rtc))
+- Both of these tactics — Brand marketing and Direct Response marketing — can fit into a broader performance marketing strategy that applies a deliberate measurement framework to advertising spend and other marketing activities to derive a profitability estimate (or, at the very least, to measure profitability and general performance *ex post*). ([View Highlight](https://read.readwise.io/read/01j5dyrc2dyn5gret9kp2sggdq))
+- To my mind, performance marketing is a commercial framework for operating marketing campaigns that requires quantitative assignment of their measured or imputed value. In other words: performance marketing dictates that any dollar spent on a marketing campaign should have a clearly understood, assessable, and measurable goal attached to it. ([View Highlight](https://read.readwise.io/read/01j5dyt77c95qenvrnjq96whz2))
+- Optimally, the Brand function should sit within the Performance Marketing team and be guided by a unified measurement model. Again: there is no “opposite” approach to Performance marketing. All marketing should be informed by performance measurement. ([View Highlight](https://read.readwise.io/read/01j5dywfggcw042bhkd3g1854k))
+- The canonical example of Delayed Response marketing is a billboard or bus stop advertisement for a digital product like an app: the consumer that is exposed to this ad might not be in a position to open their phone or laptop and begin interacting with the advertised product immediately, but the ad aims to inspire that behavior as soon as the consumer can. ([View Highlight](https://read.readwise.io/read/01j5dyx4pww7p4vz3q8b257j42))
+- The conceptual differences between Direct Response marketing, Delayed Response marketing, and Brand marketing are rooted in intended outcomes:
+  • Direct Response marketing seeks to catalyze a consumer’s interaction with a product *immediately*;
+  • Delayed Response marketing seeks to catalyze a consumer’s interaction with the product *as soon as possible*;
+  • Brand marketing seeks to increase the consumer’s likelihood of engaging with a product *when next presented with the opportunity to do so*. ([View Highlight](https://read.readwise.io/read/01j5dyxgta05m274qtqekc6va2))
+- These differences relate to intent and proactivity. And this is ultimately the crux of marketing strategy for digital products: brand marketing should be the dominant strategy for a product, like a CPG product, when a purchase takes place in a retail setting on a timeline that is dictated by the consumer. ([View Highlight](https://read.readwise.io/read/01j5dyygd5nj13tcenmr0w87mg))
+
+

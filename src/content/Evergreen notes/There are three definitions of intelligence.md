@@ -1,0 +1,29 @@
+---
+permalink: n/there-are-three-definitions-of-intelligence
+status: 
+---
+# There are three definitions of intelligence
+
+## Runtime adaptation
+
+While evolution can be considered a compile-time type of adaptation, intelligence is a run-time type of adaptation: an intelligent organism can adapt to its environment during the course of its life—it doesn’t need to wait for gene selection.
+
+This makes intelligence much more efficient and versatile than evolution, since it allows an organism to adapt to many different types of environments.
+
+This capability requires organisms to be able to quickly and efficiently respond to situations they’ve never seen before, which leads to the second definition of intelligence.
+
+## Generalization power
+
+Intelligence can also be seen as the ability to generalize past information and apply it to new contexts. The human brain is incredibly good at doing that, while Deep Learning algorithms a bit less so—even though they’ve been drastically improving.
+
+Generalization is always a balance between NOT ingesting enough data, and only being able to solve problems you’ve seen before (overfitting), and ingesting TOO MUCH data, and running into physical performance limitations.
+
+In order to be able to process huge amounts of data and generalize it, an intelligent organism must also be able to compress data efficiently—the third definition of intelligence.
+
+## Data compression
+
+Finally, intelligence can be thought of as the ability to compress information, i.e. to discard the information that is not useful and only keep what’s relevant.
+
+Both computers and the human brain do this all the time: our brains are constantly processing huge amounts of data, paring it down to the absolute essential and making judgments based on that.
+
+This works well most of the time, but it can also lead to bias and prejudice—as with everything, it’s a compromise.

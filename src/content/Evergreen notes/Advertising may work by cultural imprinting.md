@@ -1,0 +1,24 @@
+---
+permalink: n/advertising-may-work-by-cultural-imprinting
+status: 
+---
+# Advertising may work by cultural imprinting
+
+There are two schools of thought about how advertising works:
+
+- **Emotional inception:** according to this theory, the ad makes you want to buy something directly. You see an ad for a BMW car, and the car looks appealing to you, which makes you desire it and eventually buy it.
+- **Cultural imprinting:** according to this theory, the ad creates a cultural image of what a product signifies. You see an ad for a BMW car, and you equate BMW’s brand with luxury, so you decide to buy the car to signal your wealth to others (and yourself).
+
+## Other notes/counterarguments
+
+- Is inception tied to direct-response marketing, while imprinting is tied to delayed-response/brand marketing?
+- If ads work by imprinting, then [[Advertising must be consistent]] so that it sends the same message to everyone. Otherwise, the brand is diluted. This means that [[Personalization may be harmful]]
+- https://www.reddit.com/r/Anticonsumption/comments/2h0ae7/ads_work_by_cultural_imprinting_not_by_a_kind_of/ - some interesting counterarguments here.
+- https://www.reddit.com/r/TrueReddit/comments/2gy2ws/ads_work_by_cultural_imprinting_not_emotional/ - also here.
+- https://news.ycombinator.com/item?id=8344345
+
+## References
+
+- [[Ads Don't Work That Way]]
+- [[Marketers Are From Mars, Consumers Are From New Jersey]]
+- [[How Brands Grow]] seems to partially contradict this theory, postulating that [[Marketing must build availability]]

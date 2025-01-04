@@ -1,0 +1,22 @@
+---
+permalink: n/shared-vision-is-descriptive-not-prescriptive
+status: 
+---
+# Shared vision is descriptive, not prescriptive
+
+Building shared vision in an organization is important because [[An operating cadence needs shared vision]] and [[Shared vision promotes systems thinking]].
+
+But as a leader, you should always keep in mind that your personal vision is just that, a _personal_ vision—it’s not shared vision just because you’re in a position of authority.
+
+You can’t compel people to enroll in or commit to a vision, because committing to or enrolling in a vision require freedom of choice. The best you can do if you compel people is to get compliance, and [[Compliance is not commitment]].
+
+Instead, shared vision is _always_ the result of the individual visions of the people that already belong to your organization. A true shared vision built in this way is never at odds with people’s interests: it _is_ people’s interest.
+
+With this in mind, there are two ways for a leader to build shared vision. Both should be pursued simultaneously:
+
+- [[Shared vision is built through hiring]]
+- [[Shared vision is built through inquiry]]
+
+## References
+
+- [[The Fifth Discipline]]

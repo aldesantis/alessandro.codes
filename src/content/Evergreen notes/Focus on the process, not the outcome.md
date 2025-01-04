@@ -1,0 +1,19 @@
+---
+permalink: n/focus-on-the-process-not-the-outcome
+status: seedling
+---
+# Focus on the process, not the outcome
+
+When you’re working in an environment with a long feedback loop, focusing on the outcome can be extremely detrimental to morale.
+
+It may be hard to know when it’s worth pushing through vs. when to stop. If you stop too early, you may negate your project a chance to succeed; if you don’t stop in time, you may be wasting valuable resources and speeding up your failure.
+
+In these situations, you need to juggle two opposing forces.
+
+On one hand, you need to focus on the process rather than the outcome to prevent yourself from stopping too early.
+
+On the other, you need to track _some_ sort of leading KPI to prevent yourself from not stopping until it’s too late. One leading KPI can be your rate of progress: is your rate of progress toward the ultimate outcome accelerating or slowing?
+
+## References
+
+- [[How Do You Know When to Stop, Versus When to Push Through You Don’t, Not Even in Hindsight. But These Guiding Questions Can Help.]]

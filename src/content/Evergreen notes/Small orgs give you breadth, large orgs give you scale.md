@@ -1,0 +1,17 @@
+---
+permalink: n/small-orgs-give-you-breadth-large-orgs-give-you-scale
+status: 
+---
+# Small orgs give you breadth, large orgs give you scale
+
+In a small org, you can do a little bit of everything and you influence all areas of the company (high internal impact), but the results of your work on the outside world are very small (low external impact).
+
+In a large org, your job function is more well defined and you have less room for jumping around between things (low internal impact), but whatever you do may have an extremely high return on the outside world (high external impact).
+
+#tbd Is there a way to have high internal impact and high external impact?
+
+## References
+
+> [...] startups give you breadth, but big companies give you scale.
+>
+> — [You Probably Shouldn’t Work at a Startup](https://every.to/napkin-math/you-probably-shouldn-t-work-at-a-startup-9387b632-345c-4a22-bac0-3cb92f0eecf1)

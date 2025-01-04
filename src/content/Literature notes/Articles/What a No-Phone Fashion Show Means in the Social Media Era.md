@@ -1,0 +1,32 @@
+---
+title: What a No-Phone Fashion Show Means in the Social Media Era
+full_title: What a No-Phone Fashion Show Means in the Social Media Era
+author: Isabelle Truman
+url: https://www.voguebusiness.com/story/fashion/what-a-no-phone-fashion-show-means-in-the-social-media-era
+category: articles
+image_url: https://media.voguebusiness.com/photos/65e0aaddde1a5bac1aa3561b/16:9/w_1280,c_limit/THE-ROW-vogue-business-social-newsletter.jpg
+date: 2025-01-01
+time: 6:15 PM
+last_highlighted_date: 2025-01-01 14:12:50.861373+00:00
+published_date: 2024-02-29
+summary: |
+  The Row's recent fashion show in Paris banned phones, asking guests to take handwritten notes instead. This decision sparked mixed reactions, with some praising the nostalgia while others felt it created exclusivity and alienated potential fans. By limiting social media sharing, The Row aims to control its brand image and build intrigue around its collection.
+source: reader
+permalink: l/articles/what-a-no-phone-fashion-show-means-in-the-social-media-era
+---
+# What a No-Phone Fashion Show Means in the Social Media Era
+
+![rw-book-cover](https://media.voguebusiness.com/photos/65e0aaddde1a5bac1aa3561b/16:9/w_1280,c_limit/THE-ROW-vogue-business-social-newsletter.jpg)
+
+## Metadata
+- Author: [[Isabelle Truman]]
+- Full Title: What a No-Phone Fashion Show Means in the Social Media Era
+- Category: #articles
+- Document Tags: [[advertising]] [[fashion]] [[luxury]] [[marketing]] [[retail]] 
+- Summary: The Row's recent fashion show in Paris banned phones, asking guests to take handwritten notes instead. This decision sparked mixed reactions, with some praising the nostalgia while others felt it created exclusivity and alienated potential fans. By limiting social media sharing, The Row aims to control its brand image and build intrigue around its collection.
+- URL: https://www.voguebusiness.com/story/fashion/what-a-no-phone-fashion-show-means-in-the-social-media-era
+
+## Highlights
+- For guests, the phone is a portal to everyone who’s on the outside, and the influx of phones and social media have changed the nature of who the runway show is for. By taking phones out of the picture, The Row made a statement: it doesn’t need to entice consumers. ([View Highlight](https://read.readwise.io/read/01jgh3cj5qg30tbcp8zckz77gr))
+
+

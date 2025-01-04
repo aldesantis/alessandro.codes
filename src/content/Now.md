@@ -1,0 +1,15 @@
+---
+permalink: now
+status: 
+---
+# Now
+
+This is a loosely updated diary of things I consume, think, and produce.
+
+## December 2024
+
+- I’ve made some nice additions to help newcomers navigate the garden (e.g., [[Most backlinked]], [[Recently updated]], [[Book library]]). I like the idea of using it as a single space, not just for evergreen notes but as the end-all container for how I think about and move through the world. Obsidian seems to be powerful enough to do this.
+- Linked to the above: I would also like to move my recipes (currently in Notion) over here. The only problem is that (1) they’re in Italian, (2) I don’t want to mix languages, and (3) I don’t want to translate them into English because I don’t like talking about cooking in English, for whatever reason. We’ll see.
+- I’ve been thinking about rewriting this digital garden in Astro. There’s room to improve the UX, and I’ve been curious about Astro for a while now, as it sits well with how I think websites should be built (modern tooling but minimal overhead). Plus, Maggie Appleton just [rebuilt her garden](https://github.com/MaggieAppleton/maggieappleton.com-V3), and I really like the simplicity of the end result. I might give it a try in the next few weeks (months?).
+- I’ve been experimenting with Claude to build some scripts (e.g., [this one](https://github.com/aldesantis/rss-feed-summarizer)), and I’ve been amazed by how good the end result is. Definitely something I’ll explore more.
+- I wanted some variety in my Spotify library and remembered I made a [Rate Your Music](https://rateyourmusic.com/) account a while ago. My new routine is that I pick a random album from the latest reviews and see if I like it. So far, it’s been going okay. I’m always amazed by how much time people will put into non-profit community efforts such as RYM (or Wikipedia, for that matter).

@@ -1,0 +1,11 @@
+---
+permalink: n/systems-must-be-inspected
+status: 
+---
+# Systems must be inspected
+
+Rather than listening to people’s theories about how systems work, it’s always better to inspect them and see what really happens. It helps expose several wrong theories about what’s happening.
+
+## References
+
+- [[Thinking in Systems]]

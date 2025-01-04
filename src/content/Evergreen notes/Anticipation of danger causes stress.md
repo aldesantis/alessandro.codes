@@ -1,0 +1,11 @@
+---
+permalink: n/anticipation-of-danger-causes-stress
+status: 
+---
+# The anticipation of danger causes stress
+
+Humans have developed the ability to anticipate danger months, years, or decades out. This causes stress, even though there is no immediate danger.
+
+## References
+
+- [[How Hard Should I Push Myself]]

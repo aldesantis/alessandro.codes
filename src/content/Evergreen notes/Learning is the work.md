@@ -1,0 +1,13 @@
+---
+permalink: n/learning-is-the-work
+status: 
+---
+# Learning is the work
+
+---
+
+## References
+
+> The most effective organizations are learning organizations. Learning —about both the products we produce and the way we produce them—is continuous. Learning is not just a normal work activity, it is the work.
+>
+> — [Heuristics for Effective Organizations: A continuously evolving list](https://holub.com/heuristics/)

@@ -1,0 +1,13 @@
+---
+permalink: n/focus-on-second-order-positivity
+status: 
+---
+# Focus on second-order positivity
+
+A lot of great outcomes are the result of actions that are first-order negative, second-order positive. Thinking about second-order consequences is the equivalent of Systems Thinking.
+
+---
+
+## References
+
+- [Second-Order Thinking: What Smart People Use to Outperform](https://fs.blog/2016/04/second-order-thinking/)

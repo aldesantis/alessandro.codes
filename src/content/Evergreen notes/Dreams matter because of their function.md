@@ -1,0 +1,7 @@
+---
+permalink: n/dreams-matter-because-of-their-function
+status: 
+---
+# Dreams matter because of their function
+
+If you have a dream/vision, you shouldn’t focus so much on the content of that dream (i.e., what you desire) but rather on the function of that dream, i.e. the kind of behavior that the dream causes you to enact in your daily life. That’s the real power of derams.

@@ -1,0 +1,52 @@
+---
+title: The Coaching Habit
+full_title: The Coaching Habit
+author: Michael Bungay Stanier
+url: 
+category: books
+image_url: https://images-na.ssl-images-amazon.com/images/I/51HjaxWBOvL._SL200_.jpg
+date: 2024-12-29
+time: 6:39 PM
+last_highlighted_date: 2022-01-04 04:56:00+00:00
+published_date: None
+summary: |
+  None
+source: kindle
+permalink: l/books/the-coaching-habit
+---
+# The Coaching Habit
+
+![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51HjaxWBOvL._SL200_.jpg)
+
+## Metadata
+- Author: [[Michael Bungay Stanier]]
+- Full Title: The Coaching Habit
+- Category: #books
+
+## Highlights
+- An almost fail-safe way to start a chat that quickly turns into a real conversation is the question, “What’s on your mind?” ([Location 347](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=347))
+    - Tags: [[coaching]] 
+- Coaching for performance is about addressing and fixing a specific problem or challenge. It’s putting out the fire or building up the fire or banking the fire. ([Location 357](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=357))
+    - Tags: [[management]] [[coaching]] 
+- Coaching for development is about turning the focus from the issue to the person dealing with the issue, the person who’s managing the fire. ([Location 359](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=359))
+    - Tags: [[coaching]] [[management]] 
+- Asking the Kickstart Question works as a little pressure-release valve and helps make explicit something that might be unduly influencing the way you work. The question releases the challenge from where it may well be rattling around in a slightly unformed and unclear way that is, unbeknownst to you, narrowing the way you’re seeing the world. ([Location 424](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=424))
+- When you use “And what else?” you’ll get more options and often better options. Better options lead to better decisions. Better decisions lead to greater success. ([Location 478](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=478))
+    - Tags: [[coaching]] 
+- “There is nothing else” is a response you should be seeking. It means you’ve reached the end of this line of inquiry. ([Location 517](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=517))
+    - Tags: [[coaching]] [[management]] 
+- If you can feel the energy going out of the conversation, you know it’s time to move on from this angle. A strong “wrap it up” variation of “And what else?” is “Is there anything else?” That version of “And what else?” invites closure, while still leaving the door open for whatever else needs to be said. ([Location 519](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=519))
+    - Tags: [[management]] [[coaching]] 
+- Stop offering up advice with a question mark attached. That doesn’t count as asking a question. ([Location 588](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=588))
+- The key thing to know here is that you can coach only the person in front of you. As tempting as it is to talk about a “third point” (most commonly another person, but it can also be a project or a situation), you need to uncover the challenge for the person to whom you’re talking. ([Location 682](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=682))
+    - Tags: [[coaching]] [[management]] 
+- T is for tribe. The brain is asking, “Are you with me, or are you against me?” ([Location 911](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=911))
+    - Tags: [[coaching]] [[management]] [[trust]] 
+- E is for expectation. The brain is figuring out, “Do I know the future or don’t I?” If what’s going to happen next is clear, the situation feels safe. ([Location 914](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=914))
+    - Tags: [[coaching]] [[management]] 
+- R is for rank. It’s a relative thing, and it depends not on your formal title but on how power is being played out in the moment. ([Location 915](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=915))
+- A is for autonomy. Dan Pink talks about the importance of this in his excellent book Drive. “Do I get a say or don’t I?” That’s the question the brain is asking as it gauges the degree of autonomy you have in any situation. If you believe you do have a choice, then this environment is more likely to be a place of reward and therefore engagement. ([Location 918](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=918))
+    - Tags: [[management]] [[organization-design]] [[coaching]] 
+- “Suppose that tonight, while you’re sleeping, a miracle happens. When you get up in the morning tomorrow, how will you know that things have suddenly got better?” ([Location 955](https://readwise.io/to_kindle?action=open&asin=B01BUIBBZI&location=955))
+
+

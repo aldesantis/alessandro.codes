@@ -1,0 +1,16 @@
+---
+permalink: n/learning-is-a-four-phase-process
+status: 
+---
+# Learning is a four-phase process
+
+Learning a new domain typically happens in four phases:
+
+- **Wrong Intuition:** Initially, you are not even aware of what you don’t know, so you’re not sure of where you should focus your efforts. This phase should be dedicated to understanding the high-level [[Explicit knowledge|explicit knowledge]] of the domain you’re studying.
+- **Wrong Analysis:** Once you know where to focus your efforts, you still don’t master the concepts you should know. In this phase, you’re focused on mastering the [[Explicit knowledge|explicit knowledge]] of your domain.
+- **Right Analysis:** In this phase, you’ve mastered the details of the concepts you need to be effective at your job, but you still need to exercise deliberate attention to get it right. This prevents you from adapting the concepts to your context, seeing connections, and ultimately innovating. This is where you start transitioning from [[Explicit knowledge|explicit knowledge]] to [[Tacit knowledge|tacit knowledge]].
+- **Right Intuition:** In this phase, you don’t need deliberate effort to “get it right” anymore. In this phase, you have acquired enough [[Tacit knowledge]] to focus on innovating. [[Understand the rules before breaking them|You understand the rules, which means you can break them.]]
+
+## References
+
+- [[Developing Talent in R&D]]

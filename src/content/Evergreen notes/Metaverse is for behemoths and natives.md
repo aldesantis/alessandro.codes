@@ -1,0 +1,7 @@
+---
+permalink: n/metaverse-is-for-behemoths-and-natives
+status: 
+---
+# Metaverse is for behemoths and natives
+
+To be successful in the metaverse, you either need to be a giant company with a huge following, e.g., Nike/Puma, with the gravitational pull to _attract_ a new type of consumer into the metaverse, or you need to be metaverse-native (e.g., KIKI), and lean heavily into the quirks of Web3.
