@@ -3,7 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import { getCollection, render } from "astro:content";
 import EssayMeta from "@components/essays/EssayHints.astro";
 import Prose from "@components/ui/Prose.astro";
-import Link from "@components/ui/Link.astro";
+import ArrowLink from "@components/ui/ArrowLink.astro";
 
 export async function getStaticPaths() {
   const essays = await getCollection("essays");
@@ -28,7 +28,13 @@ const { Content } = await render(essay);
 
 <Layout>
   <div class="-mb-8">
-    <Link href="/essays" class="font-sans uppercase">&LeftArrow; Essays</Link>
+    <ArrowLink
+      href="/essays"
+      arrowDirection="left"
+      class="font-sans font-semibold uppercase"
+    >
+      Essays
+    </ArrowLink>
   </div>
 
   <Prose>

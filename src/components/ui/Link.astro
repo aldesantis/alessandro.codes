@@ -21,9 +21,9 @@ const {
     "hover:text-orange-700",
 
     {
-      "text-orange-700": active,
-      "text-orange-400 transition-all": variant === "primary",
-      "hover:text-orange-700": variant === "secondary",
+      "text-orange-400 transition-all": !active && variant === "primary",
+      "hover:text-orange-400": !active && variant === "secondary",
+      "text-orange-700 hover:text-orange-700": active,
     },
 
     originalClass,
