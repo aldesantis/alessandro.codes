@@ -1,9 +1,17 @@
 ---
-import type { HTMLAttributes } from 'astro/types';
+import type { HTMLAttributes } from "astro/types";
 
-export type Props = HTMLAttributes<'a'>;
+export type Props = HTMLAttributes<"a">;
 
-const {class: originalClass, ...props} = Astro.props;
+const { class: originalClass, ...props } = Astro.props;
 ---
 
-<a {...props} class:list={["text-orange-400 hover:underline", originalClass]}><slot /></a>
+<a
+  {...props}
+  class:list={[
+    "text-orange-400 hover:text-orange-700 transition-all",
+    originalClass,
+  ]}
+>
+  <slot />
+</a>
