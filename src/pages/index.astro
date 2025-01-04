@@ -6,6 +6,7 @@ import ProjectCard from "@components/projects/ProjectCard.astro";
 import EssayCard from "@components/essays/EssayCard.astro";
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import ArrowLink from "@components/ui/ArrowLink.astro";
 
 const featuredProjects = await getCollection(
   "projects",
@@ -41,11 +42,14 @@ const essays = await getCollection("essays");
         />
 
         <div class="mt-2">
-          <Link
+          <ArrowLink
             class="text-sm"
             href="https://github.com/aldesantis"
-            target="_blank">View all &rarr;</Link
+            arrowDirection="right"
+            target="_blank"
           >
+            View all
+          </ArrowLink>
         </div>
       </div>
 
@@ -64,9 +68,9 @@ const essays = await getCollection("essays");
         />
 
         <div class="mt-2">
-          <Link class="text-sm" href="/essays" target="_blank"
-            >View all &rarr;</Link
-          >
+          <ArrowLink class="text-sm" href="/essays" arrowDirection="right">
+            View all
+          </ArrowLink>
         </div>
       </div>
 
