@@ -20,5 +20,8 @@ const formattedDate = new Date(essay.data.published_on).toLocaleDateString(
 ---
 
 <div class="text-sm text-stone-500 font-sans">
-  Published on {formattedDate} · {remarkPluginFrontmatter.minutesRead}
+  Published on {formattedDate}
+  ·
+  {remarkPluginFrontmatter.readingTime}
+  min{remarkPluginFrontmatter.readingTime != 1 && "s"}
 </div>
