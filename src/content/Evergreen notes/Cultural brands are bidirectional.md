@@ -4,7 +4,7 @@ status:
 ---
 # Cultural brands are bidirectional
 
-While regular brands exclusively work by imprinting themselves onto the culture (see [[Advertising may work by cultural imprinting]]), cultural brands establish a bidirectional relationship with culture: they are simultaneously building and influenced by the culture. They do this by identifying a target/muse audience and giving them the tools to remix the brand however they see fit.
+While regular brands exclusively work by imprinting themselves onto the culture (see [[Evergreen notes/Advertising may work by cultural imprinting]]), cultural brands establish a bidirectional relationship with culture: they are simultaneously building and influenced by the culture. They do this by identifying a target/muse audience and giving them the tools to remix the brand however they see fit.
 
 A good example of this is the Brat phenomenon kicked off by Charli XCX, where she gave fans access to a Figma board that they could use to generate their own “brat” memes. Brat became, for all intents and purposes, a cultural brand by giving its audience a platform for expressing themselves and facilitating rather than leading discussion.
 
@@ -12,4 +12,4 @@ An open question is—how do brands do this while still maintaining coherence an
 
 ## References
 
-- [[How to Build Brand Energy]]
+- [[readwise/Articles/How to Build Brand Energy]]

@@ -4,4 +4,4 @@ status:
 ---
 # Good cooking requires time
 
-- [[Focus on the process, not the outcome]]
+- [[Evergreen notes/Focus on the process, not the outcome]]

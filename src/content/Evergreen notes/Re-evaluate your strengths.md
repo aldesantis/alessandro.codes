@@ -6,7 +6,7 @@ status:
 
 In order to continue progressing in your career, you should constantly be asking yourself whether the traits that got you here are still the right ones to get you there.
 
-You should always [[Point to the new tower|point yourself to the new tower]].
+You should always [[Evergreen notes/Point to the new tower|point yourself to the new tower]].
 
 ---
 

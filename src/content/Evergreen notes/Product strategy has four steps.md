@@ -6,7 +6,7 @@ status:
 
 ## 1. Focus
 
-Product strategy derives from _focus_ (see [[Strategy deals with present challenges]]) on your product’s vision and current objectives.
+Product strategy derives from _focus_ (see [[Evergreen notes/Strategy deals with present challenges]]) on your product’s vision and current objectives.
 
 ## 2. Insights
 

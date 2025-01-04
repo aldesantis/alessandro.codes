@@ -4,10 +4,10 @@ status: budding
 ---
 # Excessive cultural fragmentation causes social isolation
 
-Cultural fragmentation (which is typically caused by [[Information abundance causes cultural fragmentation|information abundance]]) is in an inverse U-shaped relationship with social cohesion:
+Cultural fragmentation (which is typically caused by [[Evergreen notes/Information abundance causes cultural fragmentation|information abundance]]) is in an inverse U-shaped relationship with social cohesion:
 
 - **Little cultural fragmentation** (i.e., monocultures) creates weak social bonds. While monocultures lead (by definition) individuals to have a single worldview, the social bonds that result form this worldview are weak due to the lack of intentionality.
-- **Some cultural fragmentation** (i.e., subcultures) creates strong social bonds. When I can choose between group A and group B ([[Common enemies unite individuals]]), I will be more invested in my choice.
+- **Some cultural fragmentation** (i.e., subcultures) creates strong social bonds. When I can choose between group A and group B ([[Evergreen notes/Common enemies unite individuals]]), I will be more invested in my choice.
 - **Excessive cultural fragmentation** (i.e., monocultures) destroys social bonds. While the amount and speed of content increases, our ability to process content stays fixed, reducing the likelihood of finding commonalities with other individuals.
 
-This is problematic because isolation and the lack of social cohesiveness brings about a number of negative consequences, such as [[Social support reduces stress|a reduction in stress tolerance]].
+This is problematic because isolation and the lack of social cohesiveness brings about a number of negative consequences, such as [[Evergreen notes/Social support reduces stress|a reduction in stress tolerance]].

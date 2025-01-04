@@ -8,9 +8,9 @@ Marketers like to think of loyalty as a deep, emotional connection that’s form
 
 In reality, it looks like loyalty is _very_ often (though not always) just a mix of habit, convenience, satisfaction, and availability: a customer likes your product, or they’re used to your product, or they find your product to be readily available. Hence, they buy it more often.
 
-If this is true, then it means that [[Market penetration trumps market segmentation]], because the bond between your brand and your customers is not as deep as you thought, and you can market to a larger customer base.
+If this is true, then it means that [[Evergreen notes/Market penetration trumps market segmentation]], because the bond between your brand and your customers is not as deep as you thought, and you can market to a larger customer base.
 
-It also frees up marketers to focus on [[Marketing must build availability|building availability]], rather than attempting to create “emotional resonance” or “cultural impact.”
+It also frees up marketers to focus on [[Evergreen notes/Marketing must build availability|building availability]], rather than attempting to create “emotional resonance” or “cultural impact.”
 
 ## Counterfactuals
 

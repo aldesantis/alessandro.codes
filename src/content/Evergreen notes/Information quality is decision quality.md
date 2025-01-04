@@ -10,7 +10,7 @@ The problem is that the information they have is always a subset of _all_ the ex
 
 This explains why intelligent people sometimes make stupid decisions.
 
-In fact, _really_ intelligent people are constantly at work to improve the quantity and the quality of their information and [[Eliminate bias systematically]]. When making a decision, they are not just considering the available information but also wondering what other information they might need right now.
+In fact, _really_ intelligent people are constantly at work to improve the quantity and the quality of their information and [[Evergreen notes/Eliminate bias systematically]]. When making a decision, they are not just considering the available information but also wondering what other information they might need right now.
 
 ## References
 

@@ -10,14 +10,14 @@ The one and only purpose of marketing is to build your brand’s availability so
 
 Brand availability can be of two kinds:
 
-- **Physical availability** ensures that your brand is always easy to reach. That is why [[Marketing must build physical availability]].
-- **Mental availability** ensures that it’s favored over other brands. That is why [[Marketing must build mental availability]].
+- **Physical availability** ensures that your brand is always easy to reach. That is why [[Evergreen notes/Marketing must build physical availability]].
+- **Mental availability** ensures that it’s favored over other brands. That is why [[Evergreen notes/Marketing must build mental availability]].
 
-The logical consequence is that [[Light buyers favor large brands]], because large brands are (by definition) the ones that have built the most physical and mental availability.
+The logical consequence is that [[Evergreen notes/Light buyers favor large brands]], because large brands are (by definition) the ones that have built the most physical and mental availability.
 
 In fact, the ideal scenario for your brand is to become so widely physically available that it’s always within reach and so prominently mentally available that it becomes synonymous with its entire category.
 
-This was Coca-Cola’s mission: to always be within arm’s reach, literally and figuratively. They have largely succeeded in doing this through capillary distribution and consistent (see [[Advertising must be consistent]]), effective advertising.
+This was Coca-Cola’s mission: to always be within arm’s reach, literally and figuratively. They have largely succeeded in doing this through capillary distribution and consistent (see [[Evergreen notes/Advertising must be consistent]]), effective advertising.
 
 ## References
 

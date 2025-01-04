@@ -8,8 +8,8 @@ Traditionally, the monetary value of a cultural artifact (e.g., a painting) woul
 
 With Web3 technology and NFTs specifically, everyone knows the monetary value of all cultural artifacts in near real-time.
 
-While there’s value in this kind of transparency for both artists and consumers, one should also remember that [[Focusing on monetary value impoverishes cultural work]].
+While there’s value in this kind of transparency for both artists and consumers, one should also remember that [[Evergreen notes/Focusing on monetary value impoverishes cultural work]].
 
 ## References
 
-- [[Literature notes/Articles/#022 Commodification Cripples Culture|#022 Commodification Cripples Culture]]
+- [[Literature notes/Articles/#022 Commodification Cripples Culture|#022 Commodification Cripples Culture|#022 Commodification Cripples Culture|#022 Commodification Cripples Culture|#022 Commodification Cripples Culture]]

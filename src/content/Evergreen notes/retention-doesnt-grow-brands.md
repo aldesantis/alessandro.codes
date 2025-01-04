@@ -13,4 +13,4 @@ It’s also important to be mindful of the Double Jeopardy rule of brand growth:
 ## References
 
 - [[How Brands Grow]]
-- [[7 Growth Busters & How to Fix Them]]
+- [[readwise/Articles/7 Growth Busters & How to Fix Them]]

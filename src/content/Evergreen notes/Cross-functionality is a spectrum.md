@@ -13,4 +13,4 @@ What most people don’t realize, however, is that cross-functionality is a spec
 3. You are cross-functional at the team level, i.e. you have dependencies between team members (e.g. you have Backend engineers and Frontend engineers on the same team).
 4. You are cross-functional at the individual level, i.e. you have no dependencies whatsoever (e.g. your engineers can work across the entire stack).
 
-Like everything, cross-functionality has pros and cons. The biggest pro is that [[Cross-functionality removes dependencies]], and the biggest con is that [[Cross-functionality creates silos]]. Overall, the pros outweigh the cons, which is why most organizations are building cross-functional teams, but that doesn’t mean we should be blind to the cons.
+Like everything, cross-functionality has pros and cons. The biggest pro is that [[Evergreen notes/Cross-functionality removes dependencies]], and the biggest con is that [[Evergreen notes/Cross-functionality creates silos]]. Overall, the pros outweigh the cons, which is why most organizations are building cross-functional teams, but that doesn’t mean we should be blind to the cons.

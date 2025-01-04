@@ -64,4 +64,4 @@ There’s no right or wrong way to go through a digital garden, which is what ma
 
 ## Want to chat?
 
-If you get excited about any of the stuff you find here and would like to talk about it, feel free to drop me a line at [hello@alessandro.codes](mailto:hello@alessandro.codes). Have fun!
+If you get excited about any of the stuff you find here and would like to talk about it, feel free to drop me a line at [[mailto:hello@alessandro.codes|hello@alessandro.codes]]. Have fun!

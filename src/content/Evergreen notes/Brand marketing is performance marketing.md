@@ -13,6 +13,6 @@ This is a flawed model: instead, marketers should distinguish between brand mark
 
 ## References
 
-- [[Anti-Personalization The Best Ad for One, Is the Best Ad for All]]
-- [[The perilous mythology of Brand Marketing for digital products]]
-- [[Solo Stove Ignites the Age-Old Brand Versus Performance Marketing Debate]]
+- [[readwise/Articles/Anti-Personalization The Best Ad for One, Is the Best Ad for All]]
+- [[readwise/Articles/The perilous mythology of Brand Marketing for digital products]]
+- [[readwise/Articles/Solo Stove Ignites the Age-Old Brand Versus Performance Marketing Debate]]

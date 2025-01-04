@@ -10,7 +10,7 @@ When you are feeling defensive, that’s a sign that you’re dealing with a big
 
 Unfortunately, defensiveness is a vicious cycle: you act defensive, so you become less effective at learning from and tackling the problem underlying your defensiveness, so the problem becomes worse, so you become even more defensive about the problem, because tackling it would be even more painful.
 
-When you see “defensiveness” as an emotion, it’s easy to also see why you should be defensiveness-informed, not defensiveness-driven: [[Emotions aren't always correct]].
+When you see “defensiveness” as an emotion, it’s easy to also see why you should be defensiveness-informed, not defensiveness-driven: [[Evergreen notes/Emotions aren't always correct]].
 
 ## References
 

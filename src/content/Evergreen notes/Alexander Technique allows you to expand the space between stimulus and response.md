@@ -14,4 +14,4 @@ This works both for mental and physical stimuli.
 
 ## References
 
-- [[What Is the Alexander Technique]]
+- [[readwise/Articles/What Is the Alexander Technique]]

@@ -8,7 +8,7 @@ The ultimate goal of any brand management strategy should be to turn your brand 
 
 A couple of examples: when you think soda, you think Coca-Cola; when you think fast food, you think McDonald’s.
 
-This takes time, and it’s become much harder to do because of cultural fragmentation: [[Cultural fragmentation causes market fragmentation]].
+This takes time, and it’s become much harder to do because of cultural fragmentation: [[Evergreen notes/Cultural fragmentation causes market fragmentation]].
 
 ## References
 

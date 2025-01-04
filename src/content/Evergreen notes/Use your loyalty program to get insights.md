@@ -10,5 +10,5 @@ While this is valuable, you should also be mindful of self-selection bias: someo
 
 ## References
 
-- [[Three Retention Commandments]]
-- [[How Brands Use Loyalty Programs as a ‘Focus Group’ to Drive Growth]]
+- [[readwise/Articles/Three Retention Commandments]]
+- [[readwise/Articles/How Brands Use Loyalty Programs as a ‘Focus Group’ to Drive Growth]]

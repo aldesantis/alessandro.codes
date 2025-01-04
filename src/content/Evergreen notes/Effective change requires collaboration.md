@@ -8,7 +8,7 @@ When introducing some kind of change, whether it be technical, cultural, or of s
 
 First, individuals who are involved in a change management process will be more likely to accept its outcomes. Getting people to collaborate on change is a powerful way to guarantee buy-in, no matter your role in the process. Even if you’re the CEO, you _will_ encounter resistance if you try to create change in a vacuum.
 
-Secondly, collaboration is important because [[Innovation needs a platform]]: if you have the greatest idea in the world but lack the necessary support to execute that idea, you will ultimately fail. You need to create an ecosystem that will allow your idea to flourish, and only then can you move to execution.
+Secondly, collaboration is important because [[Evergreen notes/Innovation needs a platform]]: if you have the greatest idea in the world but lack the necessary support to execute that idea, you will ultimately fail. You need to create an ecosystem that will allow your idea to flourish, and only then can you move to execution.
 
 ## References
 

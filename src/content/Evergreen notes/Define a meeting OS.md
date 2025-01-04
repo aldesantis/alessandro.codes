@@ -4,7 +4,7 @@ status:
 ---
 # Define a meeting OS
 
-As much as people will try to tell you otherwise, meetings can’t be eliminated: they are essential tools for collaboration. What you should do is create a meeting OS that will minimize the time you spend in meetings and maximize the value you get from them ([[Structure sets you free]]).
+As much as people will try to tell you otherwise, meetings can’t be eliminated: they are essential tools for collaboration. What you should do is create a meeting OS that will minimize the time you spend in meetings and maximize the value you get from them ([[Evergreen notes/Structure sets you free]]).
 
 ---
 

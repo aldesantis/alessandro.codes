@@ -8,7 +8,7 @@ Explicit knowledge is characterized by the fact that it can be captured in some 
 
 For example, if I’m studying a new programming language, the syntax rules of the language can always be found in a manual.
 
-This is in contrast with tacit knowledge, which [[Tacit knowledge cannot be captured|cannot be captured]].
+This is in contrast with tacit knowledge, which [[Evergreen notes/Tacit knowledge cannot be captured|cannot be captured]].
 
 ## References
 

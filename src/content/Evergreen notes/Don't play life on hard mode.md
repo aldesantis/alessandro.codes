@@ -8,7 +8,7 @@ Life is already hard enough without us trying to make it even harder.
 
 Play games where you have the aptitude to win and other people don’t—don’t do the opposite, or you’ll drastically reduce your chances of winning.
 
-This is the same concept as [[Prioritize strengths over weaknesses]], except it’s applied to all facets of your life rather than just business strategy.
+This is the same concept as [[Evergreen notes/Prioritize strengths over weaknesses]], except it’s applied to all facets of your life rather than just business strategy.
 
 ## References
 

@@ -8,4 +8,4 @@ In most marketplaces, a few sellers drive most of the outcomes.
 
 ## References
 
-- [[15,000 Sellers Drive Half of Amazon's 3P GMV]]
+- [[readwise/Articles/15,000 Sellers Drive Half of Amazon's 3P GMV]]

@@ -8,4 +8,4 @@ If you expose two people to the same stressor, they will react differently. The 
 
 ## References
 
-- [[How Hard Should I Push Myself]]
+- [[readwise/Articles/How Hard Should I Push Myself]]

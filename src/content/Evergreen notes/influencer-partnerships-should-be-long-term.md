@@ -10,5 +10,5 @@ In some cases, brands add influencers to their board of advisors or leadership t
 
 A few interesting reads about the subject are:
 
-- [[How Influencer Marketing Will Evolve in 2024, According to Executives and Creators]]
-- [[How Creators Influence Brands — And Why They Listen]]
+- [[readwise/Articles/How Influencer Marketing Will Evolve in 2024, According to Executives and Creators]]
+- [[readwise/Articles/How Creators Influence Brands — And Why They Listen]]

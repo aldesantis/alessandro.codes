@@ -8,4 +8,4 @@ If you hold a bunch of unrelated assets, building synergies can help tie them to
 
 They are the “uniting force.”
 
-In e-commerce, [[Membership is a type of synergy]].
+In e-commerce, [[Evergreen notes/Membership is a type of synergy]].

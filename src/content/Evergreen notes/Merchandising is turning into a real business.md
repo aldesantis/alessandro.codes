@@ -12,4 +12,4 @@ This is similar to what A24 is doing with its [merchandising shop.](https://shop
 
 ## References
 
-- [[Inside Fashion’s Music Merch Opportunity]]
+- [[readwise/Articles/Inside Fashion’s Music Merch Opportunity]]

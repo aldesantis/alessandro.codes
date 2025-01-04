@@ -8,7 +8,7 @@ Memory gives you a web of facts/references that you can use to put new informati
 
 As an example, if you learn the signature traits of a historical period, you can put events from that period into the right context much more easily, reaching richer, more interesting conclusions.
 
-To bake ideas into memory, remember that [[Ideas need to be grappled with]].
+To bake ideas into memory, remember that [[Evergreen notes/Ideas need to be grappled with]].
 
 ---
 

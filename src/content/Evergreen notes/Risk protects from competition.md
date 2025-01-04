@@ -4,7 +4,7 @@ status:
 ---
 # Risk protects from competition
 
-[[There are four types of product risk]], and each poses a different existential threat to a startup.
+[[Evergreen notes/There are four types of product risk]], and each poses a different existential threat to a startup.
 
 At the same time, however, risk also protects startups from competition.
 
@@ -14,4 +14,4 @@ For example, everyone has the technical know-how to build Uber, and we know ther
 
 ## References
 
-- [[When to Dig a Moat]]
+- [[readwise/Articles/When to Dig a Moat]]

@@ -4,7 +4,7 @@ status:
 ---
 # composable-commerce-may-be-a-choice
 
-When [[composable-commerce]] is a choice, it should clearly and directly inform your business strategy. That means asking (and continuously re-asking) yourself three questions:
+When [[Evergreen notes/composable-commerce]] is a choice, it should clearly and directly inform your business strategy. That means asking (and continuously re-asking) yourself three questions:
 
 - What are the capabilities that you’re unlocking by going composable?
 - How is your brand going to leverage those capabilities?

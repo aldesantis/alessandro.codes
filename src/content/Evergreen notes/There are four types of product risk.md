@@ -11,9 +11,9 @@ A startup typically faces four types of product risk:
 - **Feasibility Risk** (sometimes called _“Novelty Uncertainty”_): Do we have the technical skills to build the product?
 - **Viability Risk**: Can we make money off of the product?
 
-While risk is dangerous, [[Risk protects from competition]].
+While risk is dangerous, [[Evergreen notes/Risk protects from competition]].
 
 ## References
 
 - [[Empowered]]
-- [[When to Dig a Moat]]
+- [[readwise/Articles/When to Dig a Moat]]

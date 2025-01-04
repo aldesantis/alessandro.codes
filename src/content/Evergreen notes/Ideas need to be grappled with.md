@@ -8,10 +8,10 @@ To truly understand something, you can’t just read about it. You must grapple 
 
 There’s different ways to grapple with different types of ideas:
 
-- For **abstract concepts**, you may want to think and write about them. What other concepts do they connect with? In what way? Do they stand the test of contradiction? One way to do this is to [[turn-transient-notes-into-evergreen-notes]].
+- For **abstract concepts**, you may want to think and write about them. What other concepts do they connect with? In what way? Do they stand the test of contradiction? One way to do this is to [[Evergreen notes/turn-transient-notes-into-evergreen-notes]].
 - For **concrete concepts**, you may want to put them in practice. For example, you may want to build a side project with a new technology to see how it works. (My mind works this way: it’s very hard to learn if I don’t have a concrete use case for something.)
 
-Grappling with an idea also helps you understand whether it applies to your reality: sometimes, an idea seems cool in theory but breaks down when applied. This is why you should always [[Be wary of flawless ideas]].
+Grappling with an idea also helps you understand whether it applies to your reality: sometimes, an idea seems cool in theory but breaks down when applied. This is why you should always [[Evergreen notes/Be wary of flawless ideas]].
 
 ## References
 

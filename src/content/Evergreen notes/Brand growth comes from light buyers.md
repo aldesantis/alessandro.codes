@@ -19,8 +19,8 @@ On the other hand, light buyers are more numerous and have room to grow their sp
 
 In fact, Sharp’s research also shows that whenever a brand grows significantly, most of that growth comes from light buyers. In the chart below, for example, we see that a Chinese toothpaste brand that grew 1.5% over one year saw 65% of the growth coming from one-time buyers:
 
-![[Toothpaste-Chart.png]]
+![[Evergreen notes/assets/Toothpaste-Chart.png]]
 
-This means that if you want to grow your brand significantly, you need to focus on light buyers and non-brand buyers rather than doubling down on your heavy buyers. This is the reason why [[Loyalty programs don't drive direct growth]].
+This means that if you want to grow your brand significantly, you need to focus on light buyers and non-brand buyers rather than doubling down on your heavy buyers. This is the reason why [[Evergreen notes/Loyalty programs don't drive direct growth]].
 
-The other side of this is that [[Light buyers favor large brands]].
+The other side of this is that [[Evergreen notes/Light buyers favor large brands]].

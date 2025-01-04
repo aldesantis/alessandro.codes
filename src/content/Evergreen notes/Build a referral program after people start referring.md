@@ -10,4 +10,4 @@ You shouldn’t create artificial demand for your referral program. Instead, bui
 
 ## References
 
-- [[How Morning Brew’s Referral Program Built an Audience of 1.5 Million Subscribers]]
+- [[readwise/Articles/How Morning Brew’s Referral Program Built an Audience of 1.5 Million Subscribers]]

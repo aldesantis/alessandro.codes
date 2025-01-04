@@ -8,4 +8,4 @@ Your source of power in life is the intersection of two things you’re great at
 
 ## References
 
-- [[On Power]]
+- [[readwise/Articles/On Power]]

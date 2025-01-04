@@ -24,7 +24,7 @@ An organization with a bad structure but effective incentives and culture will s
 
 ## Incentives
 
-Incentives are what you reward people for and how you reward them. We should always keep in mind that [[We get what we reward for]] and optimize our organization’s incentives accordingly.
+Incentives are what you reward people for and how you reward them. We should always keep in mind that [[Evergreen notes/We get what we reward for]] and optimize our organization’s incentives accordingly.
 
 Incentives can be either formal (e.g., a competency matrix, performance reviews) or informal (e.g., a boss tacitly favoring people who don’t challenge the status quo).
 

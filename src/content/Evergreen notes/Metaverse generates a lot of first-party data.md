@@ -6,8 +6,8 @@ status:
 
 In metaverse experiences, you get a ton of first-party data through the actions that users take in the experience. You don’t need third-party cookies to track it, which makes the metaverse a solid mitigation strategy to the death of cookies.
 
-The problem is in attracting consumers to join your metaverse experience in the first place. It just doesn’t have enough of a gravitational pull yet, because the [[Metaverse is for behemoths and natives]].
+The problem is in attracting consumers to join your metaverse experience in the first place. It just doesn’t have enough of a gravitational pull yet, because the [[Evergreen notes/Metaverse is for behemoths and natives]].
 
 ## References
 
-- [[Why in-Game Advertising Companies See Potential Benefits in the Death of the Third-Party Cookie]]
+- [[readwise/Articles/Why in-Game Advertising Companies See Potential Benefits in the Death of the Third-Party Cookie]]

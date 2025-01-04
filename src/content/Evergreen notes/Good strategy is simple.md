@@ -4,6 +4,6 @@ status:
 ---
 # Good strategy is simple
 
-Because [[Strategy requires focus]], you can spot good strategies because they are simple to explain. Effective strategic thinking doesn’t like corporate fluff and pompous words—a good strategy often seems almost obvious.
+Because [[Evergreen notes/Strategy requires focus]], you can spot good strategies because they are simple to explain. Effective strategic thinking doesn’t like corporate fluff and pompous words—a good strategy often seems almost obvious.
 
 However, this is a necessary but not sufficient condition: while all good strategies are simple, not all simple strategies are good.

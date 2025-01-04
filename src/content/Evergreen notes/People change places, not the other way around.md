@@ -8,4 +8,4 @@ Most people say that they travel to get enriched, but the reality is that travel
 
 ## References
 
-- [[The Case Against Travel]]
+- [[readwise/Articles/The Case Against Travel]]

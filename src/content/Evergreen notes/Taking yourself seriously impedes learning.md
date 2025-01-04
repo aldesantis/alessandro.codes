@@ -4,4 +4,4 @@ status:
 ---
 # Taking yourself seriously impedes learning
 
-Because it ties your self worth to not making mistakes, and mistakes are necessary for [[Knowledge]].
+Because it ties your self worth to not making mistakes, and mistakes are necessary for [[Maps of content/Topics/Knowledge]].

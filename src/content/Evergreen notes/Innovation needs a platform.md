@@ -10,11 +10,11 @@ This platform can contain one or more of the following elements:
 
 - **Cultural:** a change in cultural perception or taste that creates the space and the necessity for a new way of doing things.
 - **Technical:** a new technology that enables what was previously impossible (e.g., LLMs, DPPs).
-- **Regulatory:** a regulatory change that forces agents in an ecosystem to do things differently–see [[Regulation can create opportunity]].
+- **Regulatory:** a regulatory change that forces agents in an ecosystem to do things differently–see [[Evergreen notes/Regulation can create opportunity]].
 
 Interestingly, there’s a parallelism here between “technical” change (e.g., airplanes) and “organizational” change (e.g., cultural changes): no matter what impact you’re trying to have, you can’t just make something new appear out of sheer will—you need to create the right support system around it first.
 
-Furthermore, if you want your innovation to take hold, you will often also need to “play nice” with the ecosystem (see [[Effective change requires collaboration]]).
+Furthermore, if you want your innovation to take hold, you will often also need to “play nice” with the ecosystem (see [[Evergreen notes/Effective change requires collaboration]]).
 
 ## References
 

@@ -4,7 +4,7 @@ status:
 ---
 # Define decision-making
 
-Part of having an operating cadence ([[Design an operating cadence]]) is defining your decision-making processes. Do you expect consensus before moving forward, or are you looking to create a “disagree and commit” culture?
+Part of having an operating cadence ([[Evergreen notes/Design an operating cadence]]) is defining your decision-making processes. Do you expect consensus before moving forward, or are you looking to create a “disagree and commit” culture?
 
 ---
 

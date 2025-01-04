@@ -16,10 +16,10 @@ This causes a shift from shared values and worldviews to the more superficial an
 
 This is problematic for a few different reasons:
 
-- [[Excessive cultural fragmentation causes social isolation]]
-- [[Cultural fragmentation causes market fragmentation]]
+- [[Evergreen notes/Excessive cultural fragmentation causes social isolation]]
+- [[Evergreen notes/Cultural fragmentation causes market fragmentation]]
 
 ## References
 
-- [[The Age of Soloculture — Quick Study]]
-- [[Teen Subcultures Are Fading. Pity the Poor Kids.]]
+- [[readwise/Articles/The Age of Soloculture — Quick Study]]
+- [[readwise/Articles/Teen Subcultures Are Fading. Pity the Poor Kids.]]

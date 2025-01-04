@@ -13,8 +13,8 @@ When you encounter demand outside of your ICP, you need to either:
 
 Doing this requires a lot of discipline and may mean leaving money on the table, but it’s necessary for survival: you can’t be everything to everyone.
 
-To make sure you do this consistently, you’ll want to build it into your principles when you [[Design an operating cadence]].
+To make sure you do this consistently, you’ll want to build it into your principles when you [[Evergreen notes/Design an operating cadence]].
 
 ## References
 
-- [[Lessons Learned From a Startup That Didn’t Make It]]
+- [[readwise/Articles/Lessons Learned From a Startup That Didn’t Make It]]

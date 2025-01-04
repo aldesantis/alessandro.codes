@@ -6,7 +6,7 @@ status:
 
 Most times, regulatory changes are just a burden for organizations. In some rare situations, however, a smart organization can “ride” a regulatory wave to seize a new opportunity in the market, effectively turning what would otherwise be a burden into a competitive advantage.
 
-This usually happens when the regulatory change is just the second-order effect of broader cultural shifts: the regulator uses the cultural shift as a platform for the new regulation (see [[Innovation needs a platform]]), and the wise leader, in turn, uses the regulation as a platform to create competitive advantage.
+This usually happens when the regulatory change is just the second-order effect of broader cultural shifts: the regulator uses the cultural shift as a platform for the new regulation (see [[Evergreen notes/Innovation needs a platform]]), and the wise leader, in turn, uses the regulation as a platform to create competitive advantage.
 
 ## Examples
 

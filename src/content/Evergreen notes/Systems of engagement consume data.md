@@ -4,4 +4,4 @@ status:
 ---
 # Systems of engagement consume data
 
-While [[Systems of record hold data]], systems of engagement take the data from systems fo record and transform it in ways that are useful for the business.
+While [[Evergreen notes/Systems of record hold data]], systems of engagement take the data from systems fo record and transform it in ways that are useful for the business.

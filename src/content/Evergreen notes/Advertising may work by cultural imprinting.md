@@ -12,13 +12,13 @@ There are two schools of thought about how advertising works:
 ## Other notes/counterarguments
 
 - Is inception tied to direct-response marketing, while imprinting is tied to delayed-response/brand marketing?
-- If ads work by imprinting, then [[Advertising must be consistent]] so that it sends the same message to everyone. Otherwise, the brand is diluted. This means that [[Personalization may be harmful]]
+- If ads work by imprinting, then [[Evergreen notes/Advertising must be consistent]] so that it sends the same message to everyone. Otherwise, the brand is diluted. This means that [[Evergreen notes/Personalization may be harmful]]
 - https://www.reddit.com/r/Anticonsumption/comments/2h0ae7/ads_work_by_cultural_imprinting_not_by_a_kind_of/ - some interesting counterarguments here.
 - https://www.reddit.com/r/TrueReddit/comments/2gy2ws/ads_work_by_cultural_imprinting_not_emotional/ - also here.
 - https://news.ycombinator.com/item?id=8344345
 
 ## References
 
-- [[Ads Don't Work That Way]]
+- [[readwise/Articles/Ads Don't Work That Way]]
 - [[Marketers Are From Mars, Consumers Are From New Jersey]]
-- [[How Brands Grow]] seems to partially contradict this theory, postulating that [[Marketing must build availability]]
+- [[How Brands Grow]] seems to partially contradict this theory, postulating that [[Evergreen notes/Marketing must build availability]]

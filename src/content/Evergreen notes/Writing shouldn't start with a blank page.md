@@ -12,5 +12,5 @@ You have plenty of material already: you just need to sit down, collect it, and 
 
 ## References
 
-- [[The Ultimate Guide to Writing Online]]
+- [[readwise/Articles/The Ultimate Guide to Writing Online]]
 - [[How to Take Smart Notes]]

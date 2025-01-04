@@ -14,4 +14,4 @@ The only thing that makes freedom valuable is the fact that we can give it up fo
 
 > The really important kind of freedom involves attention and awareness and discipline, and being able truly to care about other people and to sacrifice for them over and over in myriad petty, unsexy ways every day.
 
-— [[This is Water by David Foster Wallace (Full Transcript and Audio)]]
+— [[Full Transcript and Audio)](Literature notes/Articles/This is Water by David Foster Wallace (Full Transcript and Audio|This is Water by David Foster Wallace (Full Transcript and Audio)]].md)

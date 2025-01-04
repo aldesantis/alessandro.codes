@@ -8,4 +8,4 @@ Creators and consumers have the ability to co-create and amplify a brand through
 
 ## References
 
-- [[How Creators Influence Brands — And Why They Listen]]
+- [[readwise/Articles/How Creators Influence Brands — And Why They Listen]]

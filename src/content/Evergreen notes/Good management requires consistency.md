@@ -4,7 +4,7 @@ status:
 ---
 # Good management requires consistency
 
-Just like [[Advertising must be consistent]], one of the critical factors to being a good manager is consistency in your behaviors.
+Just like [[Evergreen notes/Advertising must be consistent]], one of the critical factors to being a good manager is consistency in your behaviors.
 
 Of course, your management, coaching, and leadership skills are extremely important, and you’ll build those up with experience, but small things, done well, will take you a long way.
 

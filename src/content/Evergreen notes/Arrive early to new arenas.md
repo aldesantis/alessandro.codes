@@ -8,4 +8,4 @@ Early-arriver arbitrage is a real thing. When you identify the next arena thatâ€
 
 ## References
 
-- [[Early-Arriver Arbitrage]]
+- [[readwise/Articles/Early-Arriver Arbitrage]]

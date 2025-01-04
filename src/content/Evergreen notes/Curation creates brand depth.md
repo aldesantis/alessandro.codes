@@ -13,4 +13,4 @@ That said, curation is harder to monetize, so it’s not always the right strate
 ## References
 
 - [[The Business of Aspiration]]
-- [[How Brands Create Value]]
+- [[readwise/Articles/How Brands Create Value]]

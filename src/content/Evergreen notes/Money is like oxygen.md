@@ -9,4 +9,4 @@ Making money for a company is like breathing oxygen for a person: it’s not the
 ## References
 
 - [[The Fifth Discipline]]
-- [[No Margin, No Mission]]
+- [[readwise/Articles/No Margin, No Mission]]

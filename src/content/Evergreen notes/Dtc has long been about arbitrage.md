@@ -12,4 +12,4 @@ This strategy doesn’t work anymore.
 
 ## References
 
-- [[The Next Growth Market]]
+- [[readwise/Articles/The Next Growth Market]]

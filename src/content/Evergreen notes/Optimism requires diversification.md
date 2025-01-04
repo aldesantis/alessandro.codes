@@ -10,7 +10,7 @@ If you want to be optimistic (which is desirable), you should shape your environ
 
 A very practical example: investing in index funds rather than trying to outsmart the market.
 
-At the same time, you should also be conscious that [[Optionality can hinder risk-taking]].
+At the same time, you should also be conscious that [[Evergreen notes/Optionality can hinder risk-taking]].
 
 ---
 

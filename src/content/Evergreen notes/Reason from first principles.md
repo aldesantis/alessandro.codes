@@ -6,7 +6,7 @@ status:
 
 #tbd
 
-This is a way to [[Eliminate bias systematically]] and identify unknown habits ([[Unknown habits impede learning]]).
+This is a way to [[Evergreen notes/Eliminate bias systematically]] and identify unknown habits ([[Evergreen notes/Unknown habits impede learning]]).
 
 ## References
 

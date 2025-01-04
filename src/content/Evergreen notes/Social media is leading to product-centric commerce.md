@@ -10,8 +10,8 @@ For many brands, this will mean a significant shift in how they approach their m
 
 A few related trends:
 
-- [[Media and commerce are blending]]
-- [[In the future, commerce will be everywhere]]
+- [[Evergreen notes/Media and commerce are blending]]
+- [[Evergreen notes/In the future, commerce will be everywhere]]
 
 ## References
 

@@ -8,8 +8,8 @@ If you reward your loyalty program members with money immediately (e.g., in the 
 
 Points give you much greater flexibility as you can alter the reward structure over time, have non-monetary rewards, and more easily control how quickly customers reach certain loyalty levels.
 
-To use points to the fullest extend, you should consider whether it’s better to [[Build your loyalty program with tiers, not balances]].
+To use points to the fullest extend, you should consider whether it’s better to [[Evergreen notes/Build your loyalty program with tiers, not balances]].
 
 ## References
 
-- [[Leveraging the Loyalty Margin Rewards Programs That Work]]
+- [[readwise/Articles/Leveraging the Loyalty Margin Rewards Programs That Work]]

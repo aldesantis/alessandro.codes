@@ -21,7 +21,7 @@ There are two ways for people to change: conversion and maturation.
 
 Maturation is genuine and stable, and it stands the test of time. Maturation is, by definition, not susceptible to external forces. It’s the result of a deliberate and long process of research, reflection and comparison.
 
-Maturation leads to long-lasting change, because [[Ideas need to be grappled with]].
+Maturation leads to long-lasting change, because [[Evergreen notes/Ideas need to be grappled with]].
 
 ---
 

@@ -6,7 +6,7 @@ status:
 
 The fact that people comply with your vision and work to make it happen doesn’t mean they are committed to the vision. There are multiple levels of commitment and compliance, and people will generally fall somewhere on this spectrum:
 
-- **Commitment:** Wants the vision and will make it happen by _creating_ whatever structures are needed. Doesn’t play by the rules: they make the rules. Recognizes that [[The organization is the work]].
+- **Commitment:** Wants the vision and will make it happen by _creating_ whatever structures are needed. Doesn’t play by the rules: they make the rules. Recognizes that [[Evergreen notes/The organization is the work]].
 - **Enrollment:** Wants the vision and will make it happen by _following_ the existing structures.
 - **Genuine compliance:** Really likes the vision and does what’s expected of them and more, within the existing structures. They are only committed to “being part of the team.”
 - **Formal compliance:** On the whole, sees the benefits of the vision. Does what’s expected, but nothing more.

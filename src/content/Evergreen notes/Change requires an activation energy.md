@@ -6,7 +6,7 @@ status:
 
 In chemistry, “activation energy” is the minimum energy that must be available for a chemical reaction to initiate. Until that amount of energy is provided to the reactants, nothing happens.
 
-A similar concept exists in change management: all change has an activation energy. Until you exercise the activation energy, nothing will happen. This is because [[Innovation needs a platform]]—if you fail to find or create the platform, you’ll fail to innovate.
+A similar concept exists in change management: all change has an activation energy. Until you exercise the activation energy, nothing will happen. This is because [[Evergreen notes/Innovation needs a platform]]—if you fail to find or create the platform, you’ll fail to innovate.
 
 Here’s another helpful metaphor to think about the concept: if you’re leading a ship, and you realize the ship has been heading in the wrong direction, you’ll need to steer the ship in the right direction. The longer the ship has gone in the wrong direction, the more aggressive your maneuver will have to be to correct course.
 

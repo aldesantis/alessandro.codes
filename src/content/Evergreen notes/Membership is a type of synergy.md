@@ -4,4 +4,4 @@ status:
 ---
 # Membership is a type of synergy
 
-[[Synergies help unrelated assets succeed]]
+[[Evergreen notes/Synergies help unrelated assets succeed]]

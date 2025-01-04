@@ -4,4 +4,4 @@ status:
 ---
 # Structure makes willpower unnecessary
 
-Because [[Structure sets you free]], you don’t need to worry that [[Willpower is fallible]].
+Because [[Evergreen notes/Structure sets you free]], you don’t need to worry that [[Willpower is fallible]].

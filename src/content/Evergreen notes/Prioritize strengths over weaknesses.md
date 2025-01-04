@@ -4,11 +4,11 @@ status:
 ---
 # Prioritize strengths over weaknesses
 
-The same idea as [[Don't play life on hard mode]] applies to business strategy:
+The same idea as [[Evergreen notes/Don't play life on hard mode]] applies to business strategy:
 
 When devising a strategy, you should leverage your strengths and sidestep your weaknesses rather than attempting to fix your weaknesses. In other words, play games you can win. This is because leveraging your strengths is the path of least resistance and one that is most likely to lead to differentiation.
 
-Not all weaknesses can be sidestepped: certain weaknesses are so critical that they need to be fixed, otherwise they will cast a shadow over everything else. However, you should be careful not to overestimate the importance of fixing certain weaknesses, or underestimate how hard the process will be: sometimes, we have a perfect plan for how to fix a weakness, but that plan is out of touch with the real world (that’s why you should [[Be wary of flawless ideas]]).
+Not all weaknesses can be sidestepped: certain weaknesses are so critical that they need to be fixed, otherwise they will cast a shadow over everything else. However, you should be careful not to overestimate the importance of fixing certain weaknesses, or underestimate how hard the process will be: sometimes, we have a perfect plan for how to fix a weakness, but that plan is out of touch with the real world (that’s why you should [[Evergreen notes/Be wary of flawless ideas]]).
 
 ## References
 

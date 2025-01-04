@@ -4,4 +4,4 @@ status:
 ---
 # Stores have a double nature
 
-- [[Use stores as fulfillment nodes]]
+- [[Evergreen notes/Use stores as fulfillment nodes]]

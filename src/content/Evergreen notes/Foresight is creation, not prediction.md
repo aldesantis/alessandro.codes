@@ -12,5 +12,5 @@ This is the job of a good futurist: to simultaneously predict the future and imp
 
 ## References
 
-- [[The META Trending Trends 2024]]
-- [[Foresight as Activism Researching vs. Making Culture]]
+- [[readwise/Articles/The META Trending Trends 2024]]
+- [[readwise/Articles/Foresight as Activism Researching vs. Making Culture]]

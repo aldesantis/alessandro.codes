@@ -13,5 +13,5 @@ If you’re unsure what proximate objective makes the most sense based on your l
 ## References
 
 - [[The Crux]]
-- [[The Iterative Adjacent Possible]]
-- [[Brain Food Earned Success]]
+- [[readwise/Articles/The Iterative Adjacent Possible]]
+- [[readwise/Articles/Brain Food Earned Success]]

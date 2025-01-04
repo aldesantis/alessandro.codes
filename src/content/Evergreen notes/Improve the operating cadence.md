@@ -8,8 +8,8 @@ status:
 
 We can only improve the operating cadence when:
 
-- there’s an overarching shared vision ([[An operating cadence needs shared vision]]),
-- we are enrolled or committed to the shared vision ([[Compliance is not commitment]]).
+- there’s an overarching shared vision ([[Evergreen notes/An operating cadence needs shared vision]]),
+- we are enrolled or committed to the shared vision ([[Evergreen notes/Compliance is not commitment]]).
 
 ---
 

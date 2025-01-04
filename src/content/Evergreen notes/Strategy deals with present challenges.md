@@ -8,12 +8,12 @@ Strategy is a concrete set of coherent and realistic actions for dealing with on
 
 If you are not dealing with real and pressing challenges, you don’t have a strategy—you’re just engaging in wishful thinking.
 
-It’s also essential to pick which challenges to focus on, because [[Strategy requires focus]].
+It’s also essential to pick which challenges to focus on, because [[Evergreen notes/Strategy requires focus]].
 
 ## References
 
 - [[Escaping the Build Trap]]
 - [[Empowered]]
 - [[Good StrategyBad Strategy]]
-- [[Failure to Face the Truth]]
+- [[readwise/Articles/Failure to Face the Truth]]
 - [[The Crux]]

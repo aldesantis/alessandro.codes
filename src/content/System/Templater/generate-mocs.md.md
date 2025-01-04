@@ -12,7 +12,7 @@ const mocsToGenerate = {
     SORT length(file.inlinks) DESC
     LIMIT 10`,
   "Maps of content/Book library": `TABLE WITHOUT ID
-	  ("![coverimg|95](" + image_url +")") as Cover, file.link AS Title, author AS Author, dateformat(date(last_highlighted_date, "yyyy-MM-dd HH:mm:ssZZ"), "yyyy-MM-dd") AS "Last highlighted"
+	  ("![[" + image_url +"|coverimg|95]]") as Cover, file.link AS Title, author AS Author, dateformat(date(last_highlighted_date, "yyyy-MM-dd HH:mm:ssZZ"), "yyyy-MM-dd") AS "Last highlighted"
 	  FROM "Literature notes/Books"
 	  SORT last_highlighted_date DESC`
 }

@@ -8,4 +8,4 @@ Humans have developed the ability to anticipate danger months, years, or decades
 
 ## References
 
-- [[How Hard Should I Push Myself]]
+- [[readwise/Articles/How Hard Should I Push Myself]]

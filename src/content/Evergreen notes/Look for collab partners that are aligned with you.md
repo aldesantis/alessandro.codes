@@ -14,4 +14,4 @@ When looking for a collab partner, you should look for someone who displays:
 
 ## References
 
-- [[How to Do a Collaboration Right]]
+- [[readwise/Articles/How to Do a Collaboration Right]]

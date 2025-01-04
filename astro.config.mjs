@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 import icon from "astro-icon";
 import { remarkReadingTime } from "./src/lib/plugins/remarkReadingTime.mjs";
+import { remarkWikiLink } from "./src/lib/plugins/remarkWikiLink";
 
 import mdx from "@astrojs/mdx";
 
@@ -12,6 +13,9 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   integrations: [tailwind(), icon(), mdx()],
   markdown: {
-    remarkPlugins: [remarkReadingTime],
-  }
+    remarkPlugins: [
+      remarkReadingTime,
+      remarkWikiLink,
+    ],
+  },
 });
