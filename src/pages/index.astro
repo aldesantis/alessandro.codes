@@ -1,7 +1,9 @@
 ---
-import Link from "@components/ui/typography/Link.astro";
-import Section from "@components/ui/Section.astro";
-import Project from "@components/Project.astro";
+import Link from "@components/ui/Link.astro";
+import SectionHeading from "@components/ui/sections/SectionHeading.astro";
+import Section from "@components/ui/sections/Section.astro";
+import ProjectCard from "@components/projects/ProjectCard.astro";
+import EssayCard from "@components/essays/EssayCard.astro";
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 
@@ -9,11 +11,15 @@ const featuredProjects = await getCollection(
   "projects",
   (project) => project.data.featured
 );
+
+const essays = await getCollection("essays");
 ---
 
 <Layout>
-  <div class="space-y-6">
-    <div class="space-y-6">
+  <title slot="head">Alessandro Desantis</title>
+
+  <div class="space-y-12">
+    <div class="space-y-6 mt-12">
       <p class="font-serif text-5xl leading-[1.1]">
         <span class="animate-wave inline-block">👋</span>, I’m <span
           class="font-bold">Alessandro</span
@@ -28,27 +34,44 @@ const featuredProjects = await getCollection(
     <hr />
 
     <Section>
-      <div slot="heading">
-        <h2 class="font-bold text-xl">Open source</h2>
+      <div slot="heading" class="font-sans">
+        <SectionHeading
+          title="Open source"
+          subtitle="Over the years, I’ve authored a few open source projects for professional and personal use."
+        />
 
-        <p class="mt-1 text-sm text-stone-700 italic">
-          While I don’t code for a living anymore, I’ve authored several open
-          source projects for professional and personal use over the years.
-        </p>
-
-        <p class="mt-2 text-sm">
+        <div class="mt-2">
           <Link
+            class="text-sm"
             href="https://github.com/aldesantis"
-            class="font-semibold"
             target="_blank">View all &rarr;</Link
           >
-        </p>
+        </div>
       </div>
 
       <div>
         <div class="grid grid-cols-2 gap-4">
-          {featuredProjects.map((project) => <Project project={project} />)}
+          {featuredProjects.map((project) => <ProjectCard project={project} />)}
         </div>
+      </div>
+    </Section>
+
+    <Section>
+      <div slot="heading" class="font-sans">
+        <SectionHeading
+          title="Essays"
+          subtitle="Long-form musings on life, commerce, strategy, and anything that catches my attention."
+        />
+
+        <div class="mt-2">
+          <Link class="text-sm" href="/essays" target="_blank"
+            >View all &rarr;</Link
+          >
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        {essays.map((essay) => <EssayCard essay={essay} />)}
       </div>
     </Section>
   </div>

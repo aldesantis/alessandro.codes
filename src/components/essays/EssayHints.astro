@@ -1,0 +1,24 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+
+export interface Props {
+  essay: CollectionEntry<"essays">;
+}
+
+const { essay } = Astro.props;
+const { remarkPluginFrontmatter } = await render(essay);
+
+const formattedDate = new Date(essay.data.published_on).toLocaleDateString(
+  "en-US",
+  {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }
+);
+---
+
+<div class="text-sm text-stone-500 font-sans">
+  Published on {formattedDate} · {remarkPluginFrontmatter.minutesRead}
+</div>

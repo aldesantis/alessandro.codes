@@ -1,12 +1,11 @@
 ---
-import Link from "@components/ui/typography/Link.astro";
+import Link from "@components/ui/Link.astro";
 
 const currentPath = Astro.url.pathname;
 
 const links = [
-  { href: "/", text: "Home" },
-  { href: "/about", text: "About" },
-  { href: "/now", text: "Now" },
+  { href: "/", text: "Home", matchPattern: /^\/$/ },
+  { href: "/essays", text: "Essays", matchPattern: /^\/essays/ },
 ];
 ---
 
@@ -14,15 +13,19 @@ const links = [
   <div class="container">
     <nav class="flex items-center justify-between font-sans">
       <div class="flex flex-1">
-        <a href="/" class="font-semibold hover:text-orange-400">
+        <Link href="/" class="font-semibold" variant="secondary">
           Alessandro Desantis
-        </a>
+        </Link>
       </div>
 
       <div class="flex flex-1 justify-end gap-x-4">
         {
-          links.map(({ href, text }) => (
-            <Link href={href} variant="secondary" active={currentPath === href}>
+          links.map(({ href, text, matchPattern }) => (
+            <Link
+              href={href}
+              variant="secondary"
+              active={!!currentPath.match(matchPattern)}
+            >
               {text}
             </Link>
           ))

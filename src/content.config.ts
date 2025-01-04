@@ -1,5 +1,5 @@
 import { z, defineCollection } from "astro:content";
-import { file } from "astro/loaders";
+import { file, glob } from "astro/loaders";
 
 export const collections = {
   projects: defineCollection({
@@ -9,7 +9,7 @@ export const collections = {
       description: z.string(),
       featured: z.boolean().optional().default(false),
     }),
-    loader: file("src/content/projects.json"),
+    loader: file("src/data/projects.json"),
   }),
 
   socials: defineCollection({
@@ -17,6 +17,16 @@ export const collections = {
       name: z.string(),
       url: z.string().url(),
     }),
-    loader: file("src/content/socials.json"),
+    loader: file("src/data/socials.json"),
+  }),
+
+  essays: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      published_on: z.coerce.date(),
+      canonical: z.string().url().optional(),
+      excerpt: z.string(),
+    }),
+    loader: glob({ pattern: "**/*.md", base: "./src/content/essays" }),
   }),
 };

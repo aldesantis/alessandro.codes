@@ -1,0 +1,39 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { getCollection, render } from "astro:content";
+import EssayMeta from "@components/essays/EssayHints.astro";
+import Prose from "@components/ui/Prose.astro";
+import Link from "@components/ui/Link.astro";
+
+export async function getStaticPaths() {
+  const essays = await getCollection("essays");
+
+  return essays.map((essay) => ({
+    params: { id: essay.id },
+    props: { essay },
+  }));
+}
+
+const { essay } = Astro.props;
+const { Content } = await render(essay);
+---
+
+<title slot="head">{essay.data.title} | Alessandro Desantis</title>
+<meta name="description" content={essay.data.excerpt} slot="head" />
+{
+  essay.data.canonical && (
+    <link rel="canonical" href={essay.data.canonical} slot="head" />
+  )
+}
+
+<Layout>
+  <div class="-mb-8">
+    <Link href="/essays" class="font-sans uppercase">&LeftArrow; Essays</Link>
+  </div>
+
+  <Prose>
+    <h1>{essay.data.title}</h1>
+    <EssayMeta essay={essay} />
+    <Content />
+  </Prose>
+</Layout>

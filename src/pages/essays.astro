@@ -1,0 +1,22 @@
+---
+import EssayCard from "@components/essays/EssayCard.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const essays = await getCollection("essays");
+---
+
+<Layout>
+  <div class="mt-12 mb-8">
+    <p class="font-sans font-semibold text-5xl mb-2">Essays</p>
+
+    <p class="font- text-stone-700 text-xl">
+      Long-form musings on life, commerce, strategy, and anything that catches
+      my attention.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-2">
+    {essays.map((essay) => <EssayCard essay={essay} />)}
+  </div>
+</Layout>
