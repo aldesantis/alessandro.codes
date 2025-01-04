@@ -13,6 +13,7 @@ summary: |
   End-to-end A/B testing for your Data Science experiments for non-technical and technical specialists with examples and Python…
 source: reader
 permalink: l/articles/simple-and-complete-guide-to-ab-testing
+slug: simple-and-complete-guide-to-ab-testing
 ---
 # Simple and Complete Guide to A/B Testing
 

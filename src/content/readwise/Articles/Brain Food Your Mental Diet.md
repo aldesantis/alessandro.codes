@@ -13,6 +13,7 @@ summary: |
   “Solitude is a condition of peace that stands in direct opposition to loneliness. Loneliness is like sitting in an empty room and being aware of the space around you.
 source: reader
 permalink: l/articles/brain-food-your-mental-diet
+slug: brain-food-your-mental-diet
 ---
 # Brain Food: Your Mental Diet
 

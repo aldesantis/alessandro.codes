@@ -13,6 +13,7 @@ summary: |
   "There is a door we all want to walk through, and writing can help you find it and open it.
 source: reader
 permalink: l/articles/brain-food-the-unexpected-path-to-success
+slug: brain-food-the-unexpected-path-to-success
 ---
 # Brain Food: The Unexpected Path to Success
 

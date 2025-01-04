@@ -1,6 +1,8 @@
 ---
 permalink: n/there-are-four-types-of-product-risk
+slug: there-are-four-types-of-product-risk
 status: 
+title: There are four types of product risk
 ---
 # There are four types of product risk
 

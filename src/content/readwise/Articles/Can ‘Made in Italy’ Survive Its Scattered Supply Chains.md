@@ -13,6 +13,7 @@ summary: |
   The 'Made in Italy' label, known for its quality and craftsmanship, faces serious challenges from supply chain issues and labor rights scandals. Efforts are being made to consolidate suppliers to improve efficiency and traceability, but many small businesses fear losing their heritage. Without collaboration and transparency, the future of 'Made in Italy' may be at risk.
 source: reader
 permalink: l/articles/can-made-in-italy-survive-its-scattered-supply-chains
+slug: can-made-in-italy-survive-its-scattered-supply-chains
 ---
 # Can ‘Made in Italy’ Survive Its Scattered Supply Chains?
 

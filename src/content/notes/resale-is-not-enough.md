@@ -1,6 +1,8 @@
 ---
 permalink: n/resale-is-not-enough
+slug: resale-is-not-enough
 status: 
+title: resale-is-not-enough
 ---
 # resale-is-not-enough
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/finite-and-infinite-games
+slug: finite-and-infinite-games
 ---
 # Finite and Infinite Games
 

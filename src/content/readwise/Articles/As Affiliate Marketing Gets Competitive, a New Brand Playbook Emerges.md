@@ -13,6 +13,7 @@ summary: |
   Over the past couple years, affiliate marketing has become an integral part of brands’ marketing playbook.
 source: reader
 permalink: l/articles/as-affiliate-marketing-gets-competitive-a-new-brand-playbook-emerges
+slug: as-affiliate-marketing-gets-competitive-a-new-brand-playbook-emerges
 ---
 # As Affiliate Marketing Gets Competitive, a New Brand Playbook Emerges
 

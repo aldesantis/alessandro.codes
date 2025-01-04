@@ -13,6 +13,7 @@ summary: |
   I have been that person sitting in the room staring back at the eyes staring at me, expecting me to come up with a genius piece of content right now that can support the untested theory the company wants to solidify in the minds of its audience.
 source: reader
 permalink: l/articles/thought-leadership-isn-t-a-content-type-it-s-a-content-goal
+slug: thought-leadership-isn-t-a-content-type-it-s-a-content-goal
 ---
 # ✍️ Thought Leadership Isn’t a Content Type. It’s a Content Goal.
 

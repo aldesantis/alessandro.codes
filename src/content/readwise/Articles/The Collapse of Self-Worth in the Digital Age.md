@@ -13,6 +13,7 @@ summary: |
   In the digital age, artists often struggle to find intrinsic value in their work as it becomes reduced to market metrics and external validation. This shift leads to a loss of self-worth, as creators must constantly measure their success against social media popularity and sales figures. Ultimately, the personal and artistic essence of their creations is overshadowed by the demands of the market.
 source: reader
 permalink: l/articles/the-collapse-of-self-worth-in-the-digital-age
+slug: the-collapse-of-self-worth-in-the-digital-age
 ---
 # The Collapse of Self-Worth in the Digital Age
 

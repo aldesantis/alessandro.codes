@@ -13,6 +13,7 @@ summary: |
   Six years ago I published “The New Moats: Why Systems of Intelligence are the next defensible business model.
 source: reader
 permalink: l/articles/the-new-moats-are-just-the-old-moats
+slug: the-new-moats-are-just-the-old-moats
 ---
 # The New Moats are just the Old Moats.
 

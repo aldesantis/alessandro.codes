@@ -13,6 +13,7 @@ summary: |
   Failure is a part of life, but it doesn't mean you are a failure. It's important to learn from failures and use them as stepping stones to future success. Everyone encounters failure, and it can lead to positive changes in your life.
 source: reader
 permalink: l/articles/failed-not-a-failure
+slug: failed-not-a-failure
 ---
 # Failed, Not a Failure
 

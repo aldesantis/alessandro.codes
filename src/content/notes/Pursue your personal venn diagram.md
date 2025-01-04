@@ -1,6 +1,8 @@
 ---
 permalink: n/pursue-your-personal-venn-diagram
+slug: pursue-your-personal-venn-diagram
 status: 
+title: Pursue your personal Venn diagram
 ---
 # Pursue your personal Venn diagram
 

@@ -13,6 +13,7 @@ summary: |
   Hey friends, I hope that you had a great weekend.
 source: reader
 permalink: l/articles/fwd-5-full-pages-notes-of-customer-experience-golden-nuggets
+slug: fwd-5-full-pages-notes-of-customer-experience-golden-nuggets
 ---
 # Fwd: 5 Full Pages/Notes of Customer Experience Golden Nuggets
 

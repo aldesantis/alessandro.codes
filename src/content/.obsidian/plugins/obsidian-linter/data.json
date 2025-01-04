@@ -70,7 +70,7 @@
       "update-on-file-contents-updated": "never"
     },
     "yaml-title": {
-      "enabled": false,
+      "enabled": true,
       "title-key": "title",
       "mode": "first-h1-or-filename-if-h1-missing"
     },
@@ -277,8 +277,8 @@
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
-    "System",
-    "Literature notes",
+    "system",
+    "readwise",
     "essays"
   ],
   "filesToIgnore": [],

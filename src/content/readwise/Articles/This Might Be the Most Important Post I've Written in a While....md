@@ -13,6 +13,7 @@ summary: |
   I’m astonished to see how many businesses don’t have a tight referral engine. Basically, you give up gross margin direct to your customers in exchange for more customers.
 source: reader
 permalink: l/articles/this-might-be-the-most-important-post-i-ve-written-in-a-while
+slug: this-might-be-the-most-important-post-i-ve-written-in-a-while
 ---
 # This Might Be the Most Important Post I've Written in a While...
 

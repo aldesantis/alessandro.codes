@@ -13,6 +13,7 @@ summary: |
   The text discusses using customer personas in design, merchandising, retail, and marketing to better understand and cater to different consumer segments. Customer-driven strategies help brands align design, assortment planning, retail channel mix, and communications with the preferences and behaviors of their target customers. By focusing on customer profiles and evolving behaviors, businesses can effectively reach and engage with their core customer groups.
 source: reader
 permalink: l/articles/customer-driven-retail
+slug: customer-driven-retail
 ---
 # Customer-Driven Retail
 

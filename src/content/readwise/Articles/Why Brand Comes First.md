@@ -13,6 +13,7 @@ summary: |
   Building a brand-centric organization requires bridging the gap between short-term and long-term thinking. This involves embedding brand strategy and management across different departments and functions, rather than just relegating it to marketing. Brand management encompasses product design, merchandising, retail, media, and cultural influence. It requires organizational cooperation, nimble project management, and a portfolio approach to brand actions. By synchronizing all brand actions and constantly renewing consumers' brand perception, a brand can protect its pricing power and remain relevant in a competitive market.
 source: reader
 permalink: l/articles/why-brand-comes-first
+slug: why-brand-comes-first
 ---
 # Why Brand Comes First
 

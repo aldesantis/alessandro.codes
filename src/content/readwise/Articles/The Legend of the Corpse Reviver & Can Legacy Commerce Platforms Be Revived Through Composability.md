@@ -13,6 +13,7 @@ summary: |
   The document explores the history and variations of the Corpse Reviver cocktail, highlighting its popularity and the different recipes that have emerged over time. It also delves into the concept of composability in legacy commerce platforms and whether they can be revived through this approach. The article discusses the challenges faced by legacy platforms, including their large install bases, integration into larger suites, outdated paradigms, and a focus on existing customers rather than innovation. Composability is defined as a component-based solution design approach that allows for easier integration and customization of third-party solutions with the core platform. The document concludes that while legacy platforms have announced composability initiatives, the promise of the concept has yet to be fully realized.
 source: reader
 permalink: l/articles/the-legend-of-the-corpse-reviver-can-legacy-commerce-platforms-be-revived-through-composability
+slug: the-legend-of-the-corpse-reviver-can-legacy-commerce-platforms-be-revived-through-composability
 ---
 # The Legend of the Corpse Reviver & Can Legacy Commerce Platforms Be Revived Through Composability?
 

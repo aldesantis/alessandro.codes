@@ -13,6 +13,7 @@ summary: |
   High-profile controversies have sent a chilling effect across an industry facing down another contentious election year and crusades against “wokeness.”
 source: reader
 permalink: l/articles/brand-backlash-are-2023-s-epic-marketing-fails-part-of-a-bigger-problem
+slug: brand-backlash-are-2023-s-epic-marketing-fails-part-of-a-bigger-problem
 ---
 # Brand Backlash: Are 2023’s Epic Marketing Fails Part of a Bigger Problem?
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/gen-z-and-millennials-are-abandoning-brands-fast-discover-what-s-behind-it
+slug: gen-z-and-millennials-are-abandoning-brands-fast-discover-what-s-behind-it
 ---
 # Gen Z and Millennials Are Abandoning Brands Fast: Discover What’s Behind It
 

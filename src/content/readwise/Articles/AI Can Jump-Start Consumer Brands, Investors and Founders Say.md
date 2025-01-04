@@ -13,6 +13,7 @@ summary: |
   Consumer startups are grappling with a problem: Customers are bombarded these days with choices for everything from apparel to beauty and wellness products, and it’s harder for young brands to stand out. “There’s a consumer that’s overwhelmed right now, that wants it all, but wants it all done a ...
 source: reader
 permalink: l/articles/ai-can-jump-start-consumer-brands-investors-and-founders-say
+slug: ai-can-jump-start-consumer-brands-investors-and-founders-say
 ---
 # AI Can Jump-Start Consumer Brands, Investors and Founders Say
 

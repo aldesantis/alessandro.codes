@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/understanding-requires-effortful-engagement-andy-matuschak-notes-obsidian-publish
+slug: understanding-requires-effortful-engagement-andy-matuschak-notes-obsidian-publish
 ---
 # Understanding Requires Effortful Engagement - Andy Matuschak Notes - Obsidian Publish
 

@@ -13,6 +13,7 @@ summary: |
   Shifting to interest-based solutions like the Topics API delivered a “relatively small” impact on performance, but the research parameters were limited.
 source: reader
 permalink: l/articles/google-s-latest-cookie-alternative-tests-show-promise-and-loads-of-caveats
+slug: google-s-latest-cookie-alternative-tests-show-promise-and-loads-of-caveats
 ---
 # Google’s Latest Cookie Alternative Tests Show Promise — And Loads of Caveats
 

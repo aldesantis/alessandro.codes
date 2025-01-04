@@ -13,6 +13,7 @@ summary: |
   I've ranted endlessly about how marketing leaders refuse to invest in hard-to-measure marketing channels like PR, media, native social, events, many types
 source: reader
 permalink: l/articles/how-to-measure-hard-to-measure-marketing-channels
+slug: how-to-measure-hard-to-measure-marketing-channels
 ---
 # How to Measure “Hard-to-Measure” Marketing Channels
 

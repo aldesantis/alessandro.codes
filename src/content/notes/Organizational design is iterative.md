@@ -1,6 +1,8 @@
 ---
 permalink: n/organizational-design-is-iterative
+slug: organizational-design-is-iterative
 status: 
+title: Org design is iteration
 ---
 # Org design is iteration
 

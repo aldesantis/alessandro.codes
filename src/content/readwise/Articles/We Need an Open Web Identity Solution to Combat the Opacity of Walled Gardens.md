@@ -13,6 +13,7 @@ summary: |
   What if the cookie, device and IP were not the problem?
 source: reader
 permalink: l/articles/we-need-an-open-web-identity-solution-to-combat-the-opacity-of-walled-gardens
+slug: we-need-an-open-web-identity-solution-to-combat-the-opacity-of-walled-gardens
 ---
 # We Need an Open Web Identity Solution to Combat the Opacity of Walled Gardens
 

@@ -13,6 +13,7 @@ summary: |
   Shopify is experiencing strong growth, with a 34% increase in B2B orders and a 30% rise in international merchants. Their marketing efforts are effectively attracting both new and existing brands, resulting in a 51% increase in enterprise merchant acquisition. Overall, Shopify is well-positioned to continue expanding and improving commerce globally.
 source: reader
 permalink: l/articles/shopify-shop-q-2-2024-earnings-call-transcript
+slug: shopify-shop-q-2-2024-earnings-call-transcript
 ---
 # Shopify (SHOP) Q2 2024 Earnings Call Transcript
 

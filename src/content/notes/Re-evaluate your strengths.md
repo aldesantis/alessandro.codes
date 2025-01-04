@@ -1,6 +1,8 @@
 ---
 permalink: n/re-evaluate-your-strengths
+slug: re-evaluate-your-strengths
 status: 
+title: Re-evaluate your strengths
 ---
 # Re-evaluate your strengths
 

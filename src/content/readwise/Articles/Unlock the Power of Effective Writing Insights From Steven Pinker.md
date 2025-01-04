@@ -13,6 +13,7 @@ summary: |
   Discover Steven Pinker's insights on overcoming the Curse of Knowledge and enhancing your writing. Learn valuable strategies to create clear, engaging, and persuasive content for your audience.
 source: reader
 permalink: l/articles/unlock-the-power-of-effective-writing-insights-from-steven-pinker
+slug: unlock-the-power-of-effective-writing-insights-from-steven-pinker
 ---
 # Unlock the Power of Effective Writing: Insights From Steven Pinker
 

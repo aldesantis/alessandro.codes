@@ -13,6 +13,7 @@ summary: |
   The Vision Pro, a VR/AR device, marks Apple's entry into this evolving technology space. Apple and Meta approach the future of computing differently, with Apple focusing on AR for a general computing experience while Meta emphasizes VR and gaming. The Vision Pro is seen as a polished prototype rather than a consumer product, offering a glimpse into the potential of immersive computing experiences. Questions remain about the device's purpose and whether it can lead to a universal computing device, with considerations about user adoption and market size in comparison to smartphones.
 source: reader
 permalink: l/articles/a-month-of-the-vision-pro
+slug: a-month-of-the-vision-pro
 ---
 # A Month of the Vision Pro
 

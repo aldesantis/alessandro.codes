@@ -13,6 +13,7 @@ summary: |
   How to win in a simulation
 source: reader
 permalink: l/articles/luxury-x-crypto
+slug: luxury-x-crypto
 ---
 # Luxury X Crypto
 

@@ -13,6 +13,7 @@ summary: |
   All brands are in the show business
 source: reader
 permalink: l/articles/monetizing-a-brand-s-intellectual-property
+slug: monetizing-a-brand-s-intellectual-property
 ---
 # Monetizing a Brand's Intellectual Property
 

@@ -13,6 +13,7 @@ summary: |
   People can now monitor everything from their glucose levels to their sleep cycles at home, with implications for how they might shop for skincare and beauty supplements.
 source: reader
 permalink: l/articles/tracking-has-reshaped-the-wellness-industry-are-beauty-brands-next
+slug: tracking-has-reshaped-the-wellness-industry-are-beauty-brands-next
 ---
 # Tracking Has Reshaped the Wellness Industry. Are Beauty Brands Next?
 

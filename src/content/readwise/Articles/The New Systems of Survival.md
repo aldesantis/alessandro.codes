@@ -13,6 +13,7 @@ summary: |
   The text discusses two cultural mindsets, represented by LinkedIn (hypernormalcy) and Twitter (weirdness). People who lean towards hypernormalcy value established career paths, while those who prefer weirdness embrace unconventional ideas and signals. The author suggests that both mindsets are increasingly influencing each other in today's evolving social landscape.
 source: reader
 permalink: l/articles/the-new-systems-of-survival
+slug: the-new-systems-of-survival
 ---
 # The New Systems of Survival
 

@@ -13,6 +13,7 @@ summary: |
   Forward this to a friend who might enjoy this post. It's free to forward.
 source: reader
 permalink: l/articles/20-years-of-juicy-startup-life-knowledge-in-1159-words
+slug: 20-years-of-juicy-startup-life-knowledge-in-1159-words
 ---
 # 20 Years of Juicy Startup & Life Knowledge in 1159 Words
 

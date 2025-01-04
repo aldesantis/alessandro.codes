@@ -13,6 +13,7 @@ summary: |
   Fashion brands are cautious about engaging with the US presidential election, often focusing on general "vote" campaigns without directly naming candidates. The potential election of Donald Trump could lead to increased tariffs on imported goods, affecting prices for consumers and fashion companies. Uncertainty surrounds the election outcome, which could have significant implications for the global fashion industry.
 source: reader
 permalink: l/articles/this-week-fashion-s-stake-in-the-us-election
+slug: this-week-fashion-s-stake-in-the-us-election
 ---
 # This Week: Fashion’s Stake in the US Election
 

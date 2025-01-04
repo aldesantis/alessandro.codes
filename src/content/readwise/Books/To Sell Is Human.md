@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/to-sell-is-human
+slug: to-sell-is-human
 ---
 # To Sell Is Human
 

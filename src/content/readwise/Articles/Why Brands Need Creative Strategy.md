@@ -13,6 +13,7 @@ summary: |
   Welcome to the Sociology of Business. In my last analysis, The creative economy, I analyzed how brands exploit time to make money.
 source: reader
 permalink: l/articles/why-brands-need-creative-strategy
+slug: why-brands-need-creative-strategy
 ---
 # Why Brands Need Creative Strategy
 

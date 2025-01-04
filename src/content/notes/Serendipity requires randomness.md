@@ -1,6 +1,8 @@
 ---
 permalink: n/serendipity-requires-randomness
+slug: serendipity-requires-randomness
 status: 
+title: Serendipity requires randomness
 ---
 # Serendipity requires randomness
 

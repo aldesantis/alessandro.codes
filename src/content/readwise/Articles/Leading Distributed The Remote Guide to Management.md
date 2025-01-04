@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/leading-distributed-the-remote-guide-to-management
+slug: leading-distributed-the-remote-guide-to-management
 ---
 # Leading Distributed: The Remote Guide to Management
 

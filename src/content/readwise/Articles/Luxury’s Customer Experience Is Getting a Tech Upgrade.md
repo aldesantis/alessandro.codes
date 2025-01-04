@@ -13,6 +13,7 @@ summary: |
   Far from replacing the personal, face-to-face service at the heart of the luxury shopping experience, new technologies and digital channels are giving brands engaging and creative ways to enhance their customer relationships.
 source: reader
 permalink: l/articles/luxury-s-customer-experience-is-getting-a-tech-upgrade
+slug: luxury-s-customer-experience-is-getting-a-tech-upgrade
 ---
 # Luxury’s Customer Experience Is Getting a Tech Upgrade
 

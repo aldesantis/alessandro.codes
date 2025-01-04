@@ -13,6 +13,7 @@ summary: |
   The biggest news didn’t move the market one bit. Artificial intelligence has taken center stage in eCommerce, most recently evidenced by Shopify’s latest announcement. But what is certa…
 source: reader
 permalink: l/articles/member-brief-shopify-s-drake-related-news
+slug: member-brief-shopify-s-drake-related-news
 ---
 # Member Brief: Shopify’s Drake Related News
 

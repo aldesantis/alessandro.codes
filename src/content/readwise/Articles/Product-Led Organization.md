@@ -13,6 +13,7 @@ summary: |
   A product-led organization focuses on building its entire business around its products, ensuring that all aspects like branding and marketing highlight product features. This approach helps maintain product differentiation and identity, even in competitive online marketplaces. Close collaboration among design, marketing, and retail teams is essential for creating a cohesive product universe that appeals to various customer personas.
 source: reader
 permalink: l/articles/product-led-organization
+slug: product-led-organization
 ---
 # Product-Led Organization
 

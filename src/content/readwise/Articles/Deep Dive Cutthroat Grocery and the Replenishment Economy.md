@@ -13,6 +13,7 @@ summary: |
   The grocery industry is competitive and dynamic, with retailers constantly innovating to meet consumer demands. Supply chains play a crucial role, but also highlight ethical issues like forced labor. The future of grocery shopping will be shaped by technology and sustainability.
 source: reader
 permalink: l/articles/deep-dive-cutthroat-grocery-and-the-replenishment-economy
+slug: deep-dive-cutthroat-grocery-and-the-replenishment-economy
 ---
 # Deep Dive: Cutthroat Grocery and the Replenishment Economy
 

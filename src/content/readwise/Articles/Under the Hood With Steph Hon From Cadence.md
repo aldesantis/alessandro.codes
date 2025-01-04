@@ -13,6 +13,7 @@ summary: |
   This week we have an Under The Hood with Steph Hon, founder and CEO of Cadence. Steph is an incredible founder and has built a very meaningful brand in Cadence.
 source: reader
 permalink: l/articles/under-the-hood-with-steph-hon-from-cadence
+slug: under-the-hood-with-steph-hon-from-cadence
 ---
 # Under the Hood With Steph Hon From Cadence
 

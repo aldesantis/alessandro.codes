@@ -13,6 +13,7 @@ summary: |
   The science of creativity—and how to unlock it
 source: reader
 permalink: l/articles/how-to-improve-your-creative-thinking
+slug: how-to-improve-your-creative-thinking
 ---
 # How to Improve Your Creative Thinking
 

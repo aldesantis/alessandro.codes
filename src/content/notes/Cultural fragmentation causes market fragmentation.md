@@ -1,6 +1,8 @@
 ---
 permalink: n/cultural-fragmentation-causes-market-fragmentation
+slug: cultural-fragmentation-causes-market-fragmentation
 status: budding
+title: Cultural fragmentation causes market fragmentation
 ---
 # Cultural fragmentation causes market fragmentation
 

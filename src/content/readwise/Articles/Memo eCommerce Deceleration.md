@@ -13,6 +13,7 @@ summary: |
   Global eCommerce revenues experienced rapid growth due to the pandemic but are expected to slow down significantly by 2029. To adapt to this changing landscape, businesses should focus on omnichannel strategies and partnerships with physical retailers. Integrating online and offline channels can enhance customer experiences and drive growth in the future.
 source: reader
 permalink: l/articles/memo-e-commerce-deceleration
+slug: memo-e-commerce-deceleration
 ---
 # Memo: eCommerce Deceleration
 

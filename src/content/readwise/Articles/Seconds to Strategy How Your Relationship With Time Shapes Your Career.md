@@ -13,6 +13,7 @@ summary: |
   The article discusses how our relationship with time shapes our career decisions. It identifies five types of time - micro time, engagement time, business time, strategy time, and big-thinking time - and suggests that our career choices should be optimized according to the timescale that we make the best decisions. The article also notes that job interviews are often overly optimized for quick-time decisions and suggests that companies should redesign job interviews to fit the decision-time of the job to improve hiring decisions. Finally, the article suggests that stimulants like caffeine can improve performance for people in micro-time and engagement time, while big-thinkers may benefit from downers like alcohol or marijuana to optimize for creativity.
 source: reader
 permalink: l/articles/seconds-to-strategy-how-your-relationship-with-time-shapes-your-career
+slug: seconds-to-strategy-how-your-relationship-with-time-shapes-your-career
 ---
 # Seconds to Strategy: How Your Relationship With Time Shapes Your Career
 

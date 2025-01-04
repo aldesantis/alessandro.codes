@@ -13,6 +13,7 @@ summary: |
   Some digitally native start-ups are buying or building factories to cut production times and control quality. But not every company is built to handle manufacturing themselves.
 source: reader
 permalink: l/articles/should-dtc-brands-open-their-own-factories
+slug: should-dtc-brands-open-their-own-factories
 ---
 # Should DTC Brands Open Their Own Factories?
 

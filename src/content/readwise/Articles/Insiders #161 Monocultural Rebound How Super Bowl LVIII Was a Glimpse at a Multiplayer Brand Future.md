@@ -13,6 +13,7 @@ summary: |
   The article discusses how the Super Bowl LVIII showcased a glimpse into the future of multiplayer branding. Through partnerships with child-friendly programming, the NFL was able to simulcast multiple broadcasts, including on Nickelodeon, attracting millennial adults seeking off-kilter, ironic content. This exemplifies the evolution of consumer brands and their multiplayer dynamics, where opting-in to experiences that blend self-aware and off-brand commentary on the monoculture has become a new manifestation of brand identity. The article also explores the concept of "Dork Mode," where personalization and ironic flair are applied to media consumption, and highlights the importance of participatory dynamics in the hyperculture.
 source: reader
 permalink: l/articles/insiders-161-monocultural-rebound-how-super-bowl-lviii-was-a-glimpse-at-a-multiplayer-brand-future
+slug: insiders-161-monocultural-rebound-how-super-bowl-lviii-was-a-glimpse-at-a-multiplayer-brand-future
 ---
 # Insiders #161: Monocultural Rebound: How Super Bowl LVIII Was a Glimpse at a Multiplayer Brand Future
 

@@ -13,6 +13,7 @@ summary: |
   Content and the linear commerce theory. 
 source: reader
 permalink: l/articles/4-thoughts-on-member-brief-no-1-linear-commerce
+slug: 4-thoughts-on-member-brief-no-1-linear-commerce
 ---
 # 4 thoughts on “Member Brief No. 1: Linear Commerce”
 

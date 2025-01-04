@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-three-kinds-of-non-fiction-books
+slug: the-three-kinds-of-non-fiction-books
 ---
 # The Three Kinds of Non-Fiction Books
 

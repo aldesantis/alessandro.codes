@@ -1,6 +1,8 @@
 ---
 permalink: n/fusion-alters-our-reality
+slug: fusion-alters-our-reality
 status: 
+title: Fusion alters our reality
 ---
 # Fusion alters our reality
 

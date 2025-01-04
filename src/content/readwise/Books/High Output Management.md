@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/high-output-management
+slug: high-output-management
 ---
 # High Output Management
 

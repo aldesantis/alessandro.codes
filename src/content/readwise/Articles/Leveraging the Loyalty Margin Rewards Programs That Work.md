@@ -13,6 +13,7 @@ summary: |
   Loyalty programs are essential for companies to retain customers and increase profits. The most successful programs use a combination of strategies to drive incremental share and maximize the loyalty margin. Companies should carefully design and track their loyalty programs to ensure they provide real value to customers.
 source: reader
 permalink: l/articles/leveraging-the-loyalty-margin-rewards-programs-that-work
+slug: leveraging-the-loyalty-margin-rewards-programs-that-work
 ---
 # Leveraging the Loyalty Margin: Rewards Programs That Work
 

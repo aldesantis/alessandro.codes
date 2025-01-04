@@ -1,6 +1,8 @@
 ---
 permalink: n/effective-change-requires-collaboration
+slug: effective-change-requires-collaboration
 status: 
+title: Effective change requires collaboration
 ---
 # Effective change requires collaboration
 

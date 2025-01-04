@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/ma-chi-me-lo-fa-fare-come-il-lavoro-ci-ha-illuso
+slug: ma-chi-me-lo-fa-fare-come-il-lavoro-ci-ha-illuso
 ---
 # Ma Chi Me Lo Fa Fare? Come Il Lavoro Ci Ha Illuso
 

@@ -13,6 +13,7 @@ summary: |
   The author is developing a new model for corporate learning and development experiences. The model focuses on starting with desired outcomes to assess how learning should happen. It highlights the importance of classifying what will be learned to tailor teaching methods effectively.
 source: reader
 permalink: l/articles/toward-a-new-model-for-corporate-learning-and-development
+slug: toward-a-new-model-for-corporate-learning-and-development
 ---
 # Toward a New Model for Corporate Learning and Development
 

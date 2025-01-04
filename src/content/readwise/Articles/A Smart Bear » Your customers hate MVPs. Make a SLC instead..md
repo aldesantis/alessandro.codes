@@ -13,6 +13,7 @@ summary: |
   "MVP" is a selfish process, abusing customers so you can "learn." SLC is an alternate philosophy that results in fast, validated learning, that customers love.
 source: reader
 permalink: l/articles/a-smart-bear-your-customers-hate-mv-ps-make-a-slc-instead
+slug: a-smart-bear-your-customers-hate-mv-ps-make-a-slc-instead
 ---
 # A Smart Bear » Your customers hate MVPs. Make a SLC instead.
 

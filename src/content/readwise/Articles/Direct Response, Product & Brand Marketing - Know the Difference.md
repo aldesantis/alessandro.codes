@@ -13,6 +13,7 @@ summary: |
   Brands have a list of core marketing activities and new initiatives to test. The list is too long for the brand’s lean team.
 source: reader
 permalink: l/articles/direct-response-product-brand-marketing-know-the-difference
+slug: direct-response-product-brand-marketing-know-the-difference
 ---
 # Direct Response, Product & Brand Marketing - Know the Difference
 

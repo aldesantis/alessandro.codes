@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/how-big-tech-runs-tech-projects-and-the-curious-absence-of-scrum
+slug: how-big-tech-runs-tech-projects-and-the-curious-absence-of-scrum
 ---
 # How Big Tech Runs Tech Projects and the Curious Absence of Scrum
 

@@ -13,6 +13,7 @@ summary: |
   But first, I want to thank this week's sponsor: Inventory Planner by Sage. If you're still doing planning in a spreadsheet, you're leaving money on the table.
 source: reader
 permalink: l/articles/the-3-stages-of-growth-for-fashion-brands
+slug: the-3-stages-of-growth-for-fashion-brands
 ---
 # The 3 Stages of Growth for Fashion Brands
 

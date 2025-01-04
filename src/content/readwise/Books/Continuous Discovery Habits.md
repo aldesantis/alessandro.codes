@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/continuous-discovery-habits
+slug: continuous-discovery-habits
 ---
 # Continuous Discovery Habits
 

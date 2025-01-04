@@ -13,6 +13,7 @@ summary: |
   As the holiday season approaches, brands are facing challenges with product returns, which cost them an average of $10-$20 per item. Some companies, like Asos, have started charging return fees to reduce excessive returns, but this has led to customer backlash. Alternatives, such as better size guidance and shorter return windows, are being explored by brands like Markarian and Revolve to improve customer experience while minimizing returns.
 source: reader
 permalink: l/articles/return-fees-are-unpopular-with-consumers-what-are-the-alternatives
+slug: return-fees-are-unpopular-with-consumers-what-are-the-alternatives
 ---
 # Return Fees Are Unpopular With Consumers — What Are the Alternatives?
 

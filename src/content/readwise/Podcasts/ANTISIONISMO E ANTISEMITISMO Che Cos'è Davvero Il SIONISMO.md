@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/antisionismo-e-antisemitismo-che-cos-davvero-il-sionismo
+slug: antisionismo-e-antisemitismo-che-cos-davvero-il-sionismo
 ---
 # ANTISIONISMO E ANTISEMITISMO: Che Cos'è Davvero Il SIONISMO?
 

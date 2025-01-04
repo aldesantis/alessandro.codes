@@ -13,6 +13,7 @@ summary: |
   Our elite graduates need to understand that they’ve already been winners in the lottery of life—and they certainly don’t need any more safety nets.
 source: reader
 permalink: l/articles/the-trouble-with-optionality
+slug: the-trouble-with-optionality
 ---
 # The Trouble with Optionality
 

@@ -13,6 +13,7 @@ summary: |
   So you've heard of product led growth, but what does that really mean? And more importantly, how can you make it work for your business? In this post, we'll break down what product led growth is and explore some tips for putting it into action. Stay tuned!
 source: reader
 permalink: l/articles/what-is-product-led-growth
+slug: what-is-product-led-growth
 ---
 # What Is Product Led Growth?
 

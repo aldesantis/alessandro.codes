@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/underdo-the-competition
+slug: underdo-the-competition
 ---
 # Underdo the Competition
 

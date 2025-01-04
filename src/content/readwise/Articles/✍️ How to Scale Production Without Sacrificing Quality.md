@@ -13,6 +13,7 @@ summary: |
   In my welcome email for this newsletter, I ask new subscribers what their biggest content marketing problem or conundrum is. And I get a ton of answers back to this, y’all!
 source: reader
 permalink: l/articles/how-to-scale-production-without-sacrificing-quality
+slug: how-to-scale-production-without-sacrificing-quality
 ---
 # ✍️ How to Scale Production Without Sacrificing Quality
 

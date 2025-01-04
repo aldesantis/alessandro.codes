@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/auto-gpt-everything-you-need-to-know
+slug: auto-gpt-everything-you-need-to-know
 ---
 # AutoGPT: EVERYTHING You Need to Know
 

@@ -13,6 +13,7 @@ summary: |
   Mytheresa has successfully made luxury e-commerce profitable by focusing on acquiring high-value customers and understanding their long-term value. The company avoids rapid growth and discounting strategies, instead curating a tight selection of top brands to enhance customer experience. Despite challenges from the pandemic and competition, Mytheresa aims to expand its presence in key markets like the US and China while maintaining its disciplined approach.
 source: reader
 permalink: l/articles/bof-the-secrets-to-mytheresa-s-success
+slug: bof-the-secrets-to-mytheresa-s-success
 ---
 # BOF: The Secrets to Mytheresa’s Success
 

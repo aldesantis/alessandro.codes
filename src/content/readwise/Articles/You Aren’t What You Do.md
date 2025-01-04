@@ -13,6 +13,7 @@ summary: |
   Why conflating your worth with work is a recipe for disappointment
 source: reader
 permalink: l/articles/you-aren-t-what-you-do
+slug: you-aren-t-what-you-do
 ---
 # You Aren’t What You Do
 

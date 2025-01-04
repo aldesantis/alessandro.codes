@@ -13,6 +13,7 @@ summary: |
   Gift guides have evolved from expensive magazine ads to helpful resources that ease the pressure of finding the perfect present. They connect readers with unique, thoughtful gift ideas that reflect the recipient's personality. Modern gift guides, often shared through newsletters, aim to make consumerism more meaningful by showcasing small businesses and personalized recommendations.
 source: reader
 permalink: l/articles/a-brief-theory-of-the-modern-gift-guide
+slug: a-brief-theory-of-the-modern-gift-guide
 ---
 # A Brief Theory of the Modern Gift Guide
 

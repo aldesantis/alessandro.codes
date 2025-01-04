@@ -13,6 +13,7 @@ summary: |
   Apple is exploring generative AI through a different lens than other tech giants. They are focusing on embedding AI into user contexts and creating a split between context and world models. By leveraging their own software and hardware, Apple is shaping a unique path in the AI landscape.
 source: reader
 permalink: l/articles/apple-intelligence-and-ai-maximalism
+slug: apple-intelligence-and-ai-maximalism
 ---
 # Apple Intelligence and AI Maximalism
 

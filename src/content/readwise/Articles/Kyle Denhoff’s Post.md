@@ -13,6 +13,7 @@ summary: |
   Kyle Denhoff from HubSpot highlights the benefits of industry newsletters as a key growth channel. He emphasizes that quality leads from newsletters convert better, and building trust through valuable content is essential. With declining trust in mass media, professionals are increasingly turning to niche newsletters for insights.
 source: reader
 permalink: l/articles/kyle-denhoff-s-post
+slug: kyle-denhoff-s-post
 ---
 # Kyle Denhoff’s Post
 

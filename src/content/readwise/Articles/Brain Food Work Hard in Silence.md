@@ -13,6 +13,7 @@ summary: |
   An executive writes a ten-page memo that could be one. An engineer builds an intricate system when a simple one would perform better at half the cost.
 source: reader
 permalink: l/articles/brain-food-work-hard-in-silence
+slug: brain-food-work-hard-in-silence
 ---
 # Brain Food: Work Hard in Silence
 

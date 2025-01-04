@@ -1,6 +1,8 @@
 ---
 permalink: n/communities-of-practice-are-loosely-knit
+slug: communities-of-practice-are-loosely-knit
 status: 
+title: communities-of-practice-are-loosely-knit
 ---
 # communities-of-practice-are-loosely-knit
 

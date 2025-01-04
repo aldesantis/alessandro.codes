@@ -13,6 +13,7 @@ summary: |
   Going all-in on ERP implementation is crucial for long-term success; cutting corners leads to costly delays and frustrations. Involving all relevant teams from the start ensures the system meets everyone’s needs and prevents data inaccuracies. A well-planned and committed approach will set your business up for success over the next 5 to 10 years.
 source: reader
 permalink: l/articles/why-you-should-go-all-in-on-erp
+slug: why-you-should-go-all-in-on-erp
 ---
 # Why You Should Go All-in on ERP
 

@@ -13,6 +13,7 @@ summary: |
   Sponsor: As Adweek recently noted, brands are having a difficult time using AI to create campaigns. There isn't a better argument for you to demo Optiversal.
 source: reader
 permalink: l/articles/post-dtc-the-seven-brand-eras
+slug: post-dtc-the-seven-brand-eras
 ---
 # Post-Dtc: The Seven Brand Eras
 

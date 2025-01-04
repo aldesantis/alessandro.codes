@@ -13,6 +13,7 @@ summary: |
   As I’ve learned more about how humans interact with one another at work, I’ve been repeatedly reminded that we are very easily influenced by the mood of those around us. It’s usually not even something we do consciously; we just see someone using a different tone of voice or shifting their body language, and something deep in our brain notices it.
 source: reader
 permalink: l/articles/be-a-thermostat-not-a-thermometer
+slug: be-a-thermostat-not-a-thermometer
 ---
 # Be a Thermostat, Not a Thermometer
 

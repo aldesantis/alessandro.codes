@@ -13,6 +13,7 @@ summary: |
   I’d never seen anything like it. It was my first time at Augusta National and I wasn’t just a casual observer of the craze – I was a willing participant. Within two hours of being…
 source: reader
 permalink: l/articles/no-314-on-linear-commerce
+slug: no-314-on-linear-commerce
 ---
 # No. 314: On Linear Commerce
 

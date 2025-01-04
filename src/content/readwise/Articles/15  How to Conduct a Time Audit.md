@@ -13,6 +13,7 @@ summary: |
   Conducting a time audit helps you understand how you spend your time and identify areas for improvement. By tracking and classifying your activities, you can free up about 25% of your calendar and make better use of your time. Encouraging your team to do the same creates a more focused and effective organization.
 source: reader
 permalink: l/articles/15-how-to-conduct-a-time-audit
+slug: 15-how-to-conduct-a-time-audit
 ---
 # 15 / How to Conduct a Time Audit
 

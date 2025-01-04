@@ -13,6 +13,7 @@ summary: |
   I once worked at a small company of insanely productive engineers. They were geniuses by any account.
 source: reader
 permalink: l/articles/in-praise-of-memorization
+slug: in-praise-of-memorization
 ---
 # In Praise of Memorization
 

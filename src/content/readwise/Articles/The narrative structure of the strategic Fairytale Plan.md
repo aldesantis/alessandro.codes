@@ -13,6 +13,7 @@ summary: |
   Traditional fairytale structure fits naturally in our brains, and thus can guide strategic problem-analysis, and a plan that everyone understands.
 source: reader
 permalink: l/articles/the-narrative-structure-of-the-strategic-fairytale-plan
+slug: the-narrative-structure-of-the-strategic-fairytale-plan
 ---
 # The narrative structure of the strategic Fairytale Plan
 

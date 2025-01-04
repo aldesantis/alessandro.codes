@@ -1,17 +1,19 @@
 ---
-title: >
+title: |
   ‘It Just Didn’t Make Sense for Us to Work So Hard to Get So Little’: Confessions of a Founder Who Stopped Selling Through Amazon
-full_title: >
+full_title: |
   ‘It Just Didn’t Make Sense for Us to Work So Hard to Get So Little’: Confessions of a Founder Who Stopped Selling Through Amazon
-author: >
+author: |
   Vidhi Choudhary
 url: https://www.modernretail.co/technology/it-just-didnt-make-sense-for-us-to-work-so-hard-to-get-so-little-confessions-of-a-founder-who-stopped-selling-through-amazon/?utm_source=mrdis&utm_campaign=ecommerceweekly&utm_medium=email
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2019/11/confessions_guy.jpg
 published_date: 2023-10-24
-summary: >
+summary: |
   Some brands selling on Amazon's marketplace say the economics of operating have become difficult. One big reason: returns.
 source: reader
+permalink: l/articles/it-just-didn-t-make-sense-for-us-to-work-so-hard-to-get-so-little-confessions-of-a-founder-who
+slug: it-just-didn-t-make-sense-for-us-to-work-so-hard-to-get-so-little-confessions-of-a-founder-who
 ---
 # ‘It Just Didn’t Make Sense for Us to Work So Hard to Get So Little’: Confessions of a Founder Who Stopped Selling Through Amazon
 

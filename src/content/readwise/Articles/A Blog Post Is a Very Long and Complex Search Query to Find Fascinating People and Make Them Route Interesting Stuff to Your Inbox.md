@@ -13,6 +13,7 @@ summary: |
   The author reflects on how writing online helps connect with like-minded people and share interesting ideas. He believes that precise and clear writing can attract readers who share niche interests. Ultimately, the internet allows for meaningful relationships to form around unique topics, enriching the conversation and knowledge exchange.
 source: reader
 permalink: l/articles/a-blog-post-is-a-very-long-and-complex-search-query-to-find-fascinating-people-and-make-them-route-interesting-stuff-to-your-inbox
+slug: a-blog-post-is-a-very-long-and-complex-search-query-to-find-fascinating-people-and-make-them-route-interesting-stuff-to-your-inbox
 ---
 # A Blog Post Is a Very Long and Complex Search Query to Find Fascinating People and Make Them Route Interesting Stuff to Your Inbox
 

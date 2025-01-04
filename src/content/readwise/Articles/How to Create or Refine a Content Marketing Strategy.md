@@ -13,6 +13,7 @@ summary: |
   A good content marketing strategy is the key to getting a return on your content investment. Learn the essential elements of the perfect content strategy.
 source: reader
 permalink: l/articles/how-to-create-or-refine-a-content-marketing-strategy
+slug: how-to-create-or-refine-a-content-marketing-strategy
 ---
 # How to Create or Refine a Content Marketing Strategy
 

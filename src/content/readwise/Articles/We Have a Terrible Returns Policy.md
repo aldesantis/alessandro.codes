@@ -13,6 +13,7 @@ summary: |
   Consumers have been trained to expect all the wrong things. Have you ever thought about what it takes for a maker or retailer to have a "no questions asked" returns policy? I'm not talking about replacing products that are defective or incorrectly shipped, but a policy where new items are shipped to customers, they are
 source: reader
 permalink: l/articles/we-have-a-terrible-returns-policy
+slug: we-have-a-terrible-returns-policy
 ---
 # We Have a Terrible Returns Policy
 

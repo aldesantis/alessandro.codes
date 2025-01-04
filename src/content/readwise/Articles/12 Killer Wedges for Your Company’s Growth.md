@@ -13,6 +13,7 @@ summary: |
   To grow a startup, it's important to start with a "killer wedge," which is a specific product feature or small target market that helps you connect with customers quickly. This approach allows you to gather valuable feedback and refine your offerings before expanding into larger markets. Remember, a killer wedge is a stepping stone, not the end goal, so use the insights gained to inform your future growth strategy.
 source: reader
 permalink: l/articles/12-killer-wedges-for-your-company-s-growth
+slug: 12-killer-wedges-for-your-company-s-growth
 ---
 # 12 Killer Wedges for Your Company’s Growth
 

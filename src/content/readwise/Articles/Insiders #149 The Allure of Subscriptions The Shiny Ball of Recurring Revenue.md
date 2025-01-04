@@ -13,6 +13,7 @@ summary: |
   Every employee in the corporate world experiences a condition that can have dire consequences. It's known as "Shiny Ball Syndrome," and it can cause significant harm to both corporations and their leaders.
 source: reader
 permalink: l/articles/insiders-149-the-allure-of-subscriptions-the-shiny-ball-of-recurring-revenue
+slug: insiders-149-the-allure-of-subscriptions-the-shiny-ball-of-recurring-revenue
 ---
 # Insiders #149: The Allure of Subscriptions: The Shiny Ball of Recurring Revenue
 

@@ -13,6 +13,7 @@ summary: |
   Meta's revenue rose 22% to $39 billion in Q2, driven by increased ad impressions and prices. The company is focusing on generative AI to enhance advertising by automating creative processes and personalizing ads. While AI shows promise, experts warn that marketers may still want to maintain oversight in their advertising efforts.
 source: reader
 permalink: l/articles/meta-s-ai-vision-automating-creative-and-personalizing-ads-in-real-time
+slug: meta-s-ai-vision-automating-creative-and-personalizing-ads-in-real-time
 ---
 # Meta’s AI Vision: Automating Creative and Personalizing Ads in Real Time
 

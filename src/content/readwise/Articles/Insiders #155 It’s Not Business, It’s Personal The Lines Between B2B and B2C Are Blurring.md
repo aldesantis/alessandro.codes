@@ -13,6 +13,7 @@ summary: |
   All people and households have become businesses. How did we get here?
 source: reader
 permalink: l/articles/insiders-155-it-s-not-business-it-s-personal-the-lines-between-b-2-b-and-b-2-c-are-blurring
+slug: insiders-155-it-s-not-business-it-s-personal-the-lines-between-b-2-b-and-b-2-c-are-blurring
 ---
 # Insiders #155: It’s Not Business, It’s Personal: The Lines Between B2B and B2C Are Blurring
 

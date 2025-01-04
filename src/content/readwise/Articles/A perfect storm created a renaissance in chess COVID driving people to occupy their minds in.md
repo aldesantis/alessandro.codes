@@ -1,17 +1,19 @@
 ---
-title: >
+title: |
   A perfect storm created a renaissance in chess: COVID driving people to occupy their minds in physical isolation, the hit Netflix show “The Queen’s Gambit,” and a surge of chess Twitch streamers and YouTubers fueling that nascent interest in chess with equal parts education and entertainment.
-full_title: >
+full_title: |
   A perfect storm created a renaissance in chess: COVID driving people to occupy their minds in physical isolation, the hit Netflix show “The Queen’s Gambit,” and a surge of chess Twitch streamers and YouTubers fueling that nascent interest in chess with equal parts education and entertainment.
-author: >
+author: |
   Jason Cohen
 url: https://longform.asmartbear.com/worse-but-unique?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/worse-but-unique/thumbnail-1200w.png
 published_date: 2023-08-27
-summary: >
+summary: |
   An objectively "worse" strategy can win, if it leverages something unique or unexpected. Startups can use this concept to beat incumbents.
 source: reader
+permalink: l/articles/a-perfect-storm-created-a-renaissance-in-chess-covid-driving-people-to-occupy-their-minds-in
+slug: a-perfect-storm-created-a-renaissance-in-chess-covid-driving-people-to-occupy-their-minds-in
 ---
 # A perfect storm created a renaissance in chess: COVID driving people to occupy their minds in physical isolation, the hit Netflix show “The Queen’s Gambit,” and a surge of chess Twitch streamers and YouTubers fueling that nascent interest in chess with equal parts education and entertainment.
 

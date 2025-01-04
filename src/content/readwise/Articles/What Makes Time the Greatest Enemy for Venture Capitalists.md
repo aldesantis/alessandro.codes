@@ -13,6 +13,7 @@ summary: |
   The upside for LPs investing in venture funds has hit a crucial catalyst point
 source: reader
 permalink: l/articles/what-makes-time-the-greatest-enemy-for-venture-capitalists
+slug: what-makes-time-the-greatest-enemy-for-venture-capitalists
 ---
 # What Makes Time the Greatest Enemy for Venture Capitalists?
 

@@ -13,6 +13,7 @@ summary: |
   Agency insiders tell us their predictions for creativity.
 source: reader
 permalink: l/articles/creative-trends-2024-humor-and-creators-will-lead-the-way
+slug: creative-trends-2024-humor-and-creators-will-lead-the-way
 ---
 # Creative Trends 2024: Humor and Creators Will Lead the Way
 

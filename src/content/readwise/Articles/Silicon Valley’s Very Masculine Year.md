@@ -13,6 +13,7 @@ summary: |
   Silicon Valley has seen a shift towards a more masculine culture in recent years. The leaders of the tech industry are embracing a more muscular and aggressive image, with a focus on physical strength and combat. This shift has led to a decrease in diversity and representation of women in tech leadership roles. The change in culture can be attributed to factors such as the desire for financial success and the influence of influential figures like Jeff Bezos and Mark Zuckerberg. Additionally, the competitive nature of the industry has contributed to a more ruthless and cutthroat environment.
 source: reader
 permalink: l/articles/silicon-valley-s-very-masculine-year
+slug: silicon-valley-s-very-masculine-year
 ---
 # Silicon Valley’s Very Masculine Year
 

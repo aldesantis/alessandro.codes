@@ -1,6 +1,8 @@
 ---
 permalink: n/focusing-on-monetary-value-impoverishes-cultural-work
+slug: focusing-on-monetary-value-impoverishes-cultural-work
 status: 
+title: Focusing on monetary value impoverishes cultural work
 ---
 # Focusing on monetary value impoverishes cultural work
 

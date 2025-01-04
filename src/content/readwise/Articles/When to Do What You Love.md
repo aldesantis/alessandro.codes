@@ -13,6 +13,7 @@ summary: |
   The decision to follow your passion in work is complex and depends on various factors, such as financial needs and personal interests. While pursuing what you love can lead to great work and startup ideas, it's important to explore your options and gain experience. Ultimately, if you want to do exceptional work, focusing on what genuinely interests you is essential.
 source: reader
 permalink: l/articles/when-to-do-what-you-love
+slug: when-to-do-what-you-love
 ---
 # When to Do What You Love
 

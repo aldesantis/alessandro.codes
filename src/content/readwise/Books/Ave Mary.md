@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/ave-mary
+slug: ave-mary
 ---
 # Ave Mary
 

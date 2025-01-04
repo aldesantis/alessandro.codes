@@ -13,6 +13,7 @@ summary: |
   A growing number of brands, particularly in beauty, are including loyal customers in the product development process and offering ways for fans to directly benefit from their growth.
 source: reader
 permalink: l/articles/how-brands-make-community-more-than-a-buzzword
+slug: how-brands-make-community-more-than-a-buzzword
 ---
 # How Brands Make Community More Than a Buzzword
 

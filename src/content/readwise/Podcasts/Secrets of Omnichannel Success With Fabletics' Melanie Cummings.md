@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/secrets-of-omnichannel-success-with-fabletics-melanie-cummings
+slug: secrets-of-omnichannel-success-with-fabletics-melanie-cummings
 ---
 # Secrets of Omnichannel Success With Fabletics' Melanie Cummings
 

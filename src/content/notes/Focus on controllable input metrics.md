@@ -1,6 +1,8 @@
 ---
 permalink: n/focus-on-controllable-input-metrics
+slug: focus-on-controllable-input-metrics
 status: 
+title: Focus on controllable input metrics
 ---
 # Focus on controllable input metrics
 

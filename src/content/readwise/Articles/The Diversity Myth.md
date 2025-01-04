@@ -13,6 +13,7 @@ summary: |
   Peter Thiel on multiculturalism as misdirection.
 source: reader
 permalink: l/articles/the-diversity-myth
+slug: the-diversity-myth
 ---
 # The Diversity Myth
 

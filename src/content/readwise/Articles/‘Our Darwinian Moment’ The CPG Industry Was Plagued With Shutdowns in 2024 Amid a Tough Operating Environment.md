@@ -13,6 +13,7 @@ summary: |
   In 2024, many consumer packaged goods (CPG) startups faced shutdowns due to high costs, inflation, and intense competition. While some brands thrived, others struggled to scale effectively and manage expenses, leading to closures. Experts believe that only the most efficient and innovative brands will survive in this challenging environment.
 source: reader
 permalink: l/articles/our-darwinian-moment-the-cpg-industry-was-plagued-with-shutdowns-in-2024-amid-a-tough-operating-environment
+slug: our-darwinian-moment-the-cpg-industry-was-plagued-with-shutdowns-in-2024-amid-a-tough-operating-environment
 ---
 # ‘Our Darwinian Moment’: The CPG Industry Was Plagued With Shutdowns in 2024 Amid a Tough Operating Environment
 

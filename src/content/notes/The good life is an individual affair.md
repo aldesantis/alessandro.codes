@@ -1,6 +1,8 @@
 ---
 permalink: n/the-good-life-is-an-individual-affair
+slug: the-good-life-is-an-individual-affair
 status: 
+title: The good life is an individual affair
 ---
 # The good life is an individual affair
 

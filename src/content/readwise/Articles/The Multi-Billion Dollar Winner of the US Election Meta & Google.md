@@ -13,6 +13,7 @@ summary: |
   I hope you had a relaxing weekend, shared some laughs, and got outside for a little bit. I spent my weekend under the world’s biggest blanket (this one) because it was freezing in New York!
 source: reader
 permalink: l/articles/the-multi-billion-dollar-winner-of-the-us-election-meta-google
+slug: the-multi-billion-dollar-winner-of-the-us-election-meta-google
 ---
 # The Multi-Billion Dollar Winner of the US Election: Meta & Google
 

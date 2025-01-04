@@ -13,6 +13,7 @@ summary: |
   Marketers are facing the end of cookies for targeted advertising, but there are successful cookieless alternatives available. Recent examples show how brands have achieved impressive results with cookieless technology solutions, reaching key audiences effectively and efficiently. It's time for marketers to prioritize preparedness for a cookieless future to continue driving successful advertising campaigns.
 source: reader
 permalink: l/articles/the-end-of-the-cookie-doesn-t-mean-the-death-of-effective-advertising
+slug: the-end-of-the-cookie-doesn-t-mean-the-death-of-effective-advertising
 ---
 # The End of the Cookie Doesn’t Mean the Death of Effective Advertising
 

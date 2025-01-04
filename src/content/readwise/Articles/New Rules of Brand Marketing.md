@@ -13,6 +13,7 @@ summary: |
   Brand marketing has undergone a fundamental change and requires a new operating system to capture attention and budgets. The new system is based on a brand's renewal and cultural relevance. To make commodities aspirational, brand marketing gives them symbolic value, transforming ordinary consumption into cultural participation. The new approach focuses on creating, amplifying, and monetizing cultural moments through collaborations, visual language, pop-ups, content, storytelling, and more. This holistic approach protects pricing power, ensures high margins, and expands a brand's footprint. The new brand marketing strategy is about cultural awareness, emotional resonance, entertainment, and market expansion, creating a consistent and entertaining brand world that people aspire to be part of.
 source: reader
 permalink: l/articles/new-rules-of-brand-marketing
+slug: new-rules-of-brand-marketing
 ---
 # New Rules of Brand Marketing
 

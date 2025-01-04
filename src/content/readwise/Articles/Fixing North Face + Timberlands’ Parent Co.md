@@ -13,6 +13,7 @@ summary: |
   The team is only as good as the processes/playbooks that the biz is running.
 source: reader
 permalink: l/articles/fixing-north-face-timberlands-parent-co
+slug: fixing-north-face-timberlands-parent-co
 ---
 # Fixing North Face + Timberlands’ Parent Co
 

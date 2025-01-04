@@ -13,6 +13,7 @@ summary: |
   The article discusses the future of ecommerce, highlighting the need for a more considered and sustainable approach. The author emphasizes the importance of understanding consumer behavior and crafting better experiential tech to improve user experiences. They also discuss the potential impact of IoT on ecommerce, predicting that it will become a passive part of our lives, similar to how electricity became a utility. The article addresses the challenges facing the retail industry, including outdated business models, poor governance, and the need for better marketing strategies. The author concludes by urging businesses to adapt to the changing landscape of ecommerce and plan for the future.
 source: reader
 permalink: l/articles/learn-more-about-collaborative-articles
+slug: learn-more-about-collaborative-articles
 ---
 # Learn more about Collaborative Articles
 

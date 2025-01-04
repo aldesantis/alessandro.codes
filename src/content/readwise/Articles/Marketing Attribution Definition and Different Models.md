@@ -13,6 +13,7 @@ summary: |
   Learn how to set up better attribution and reporting and what types of marketing attribution models you can apply—explained for beginners.
 source: reader
 permalink: l/articles/marketing-attribution-definition-and-different-models
+slug: marketing-attribution-definition-and-different-models
 ---
 # Marketing Attribution: Definition and Different Models
 

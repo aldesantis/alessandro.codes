@@ -1,6 +1,8 @@
 ---
 permalink: n/systems-of-record-hold-data
+slug: systems-of-record-hold-data
 status: 
+title: Systems of record hold data
 ---
 # Systems of record hold data
 

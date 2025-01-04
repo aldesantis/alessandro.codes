@@ -13,6 +13,7 @@ summary: |
   I had a blast meeting many DTC folks at the Whalies yesterday, and I am still recuperating from all this extroverted activity.
 source: reader
 permalink: l/articles/three-simple-retention-frameworks
+slug: three-simple-retention-frameworks
 ---
 # Three Simple Retention Frameworks
 

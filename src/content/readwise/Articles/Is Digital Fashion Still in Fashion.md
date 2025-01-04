@@ -13,6 +13,7 @@ summary: |
   Digital fashion has faced challenges post-pandemic, with interest in the metaverse declining. Brands struggle to monetize digital fashion and connect it to the physical world. However, there is optimism for the future of digital fashion, especially in creating connections between physical and digital experiences.
 source: reader
 permalink: l/articles/is-digital-fashion-still-in-fashion
+slug: is-digital-fashion-still-in-fashion
 ---
 # Is Digital Fashion Still in Fashion?
 

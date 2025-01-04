@@ -13,6 +13,7 @@ summary: |
   The 1-3-5 method is simple. You create one substantial piece of content, and then break it up into a bunch of bite-size pieces.
 source: reader
 permalink: l/articles/how-1-piece-of-content-becomes-16-the-1-3-5-method
+slug: how-1-piece-of-content-becomes-16-the-1-3-5-method
 ---
 # How 1 Piece of Content Becomes 16: The 1-3-5 Method
 

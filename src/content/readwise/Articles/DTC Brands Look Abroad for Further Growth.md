@@ -13,6 +13,7 @@ summary: |
   Startup brands like Manscaped, Pepper Bras, and Beachwaver are seeking global expansion opportunities beyond the U.S., with Glossier and Billie already making moves into international markets like London and Canada. DTC brands are leveraging online platforms and wholesale partnerships to reach new customers in countries like the U.K., Australia, and beyond. While some companies, like Manscaped, are rapidly growing their global presence, others face challenges such as cross-border tariffs, political volatility, and high return rates when venturing into international markets. Partnering with established retailers may be a strategic approach for brands looking to navigate the complexities of global expansion.
 source: reader
 permalink: l/articles/dtc-brands-look-abroad-for-further-growth
+slug: dtc-brands-look-abroad-for-further-growth
 ---
 # DTC Brands Look Abroad for Further Growth
 

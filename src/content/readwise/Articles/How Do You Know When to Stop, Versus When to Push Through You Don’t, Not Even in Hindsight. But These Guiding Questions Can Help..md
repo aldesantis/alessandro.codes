@@ -13,6 +13,7 @@ summary: |
   The article explores the difficulty of knowing when to push through challenges and when to stop, using the example of an AdWords campaign. It criticizes the common platitudes of "success through perseverance" and "failure through obstinance" as convenient rationalizations. The author argues that it is impossible to know which scenario you are in until after the fact, but provides a list of guiding questions to help make decisions in uncertain situations. Overall, the article encourages readers to make strong decisions, keep their eyes open, and not second-guess themselves too much.
 source: reader
 permalink: l/articles/how-do-you-know-when-to-stop-versus-when-to-push-through-you-don-t-not-even-in-hindsight-but-these-guiding-questions-can-help
+slug: how-do-you-know-when-to-stop-versus-when-to-push-through-you-don-t-not-even-in-hindsight-but-these-guiding-questions-can-help
 ---
 # How Do You Know When to Stop, Versus When to Push Through? You Don’t, Not Even in Hindsight. But These Guiding Questions Can Help.
 

@@ -13,6 +13,7 @@ summary: |
   Luxury brands are increasingly looking similar due to a focus on safety and predictability, using the same creative talents and minimalist designs. This trend of homogenization limits innovation and makes it hard for new ideas to emerge. To revive their uniqueness, brands need to engage more with their audience and embrace experimentation.
 source: reader
 permalink: l/articles/why-do-brands-look-so-the-same
+slug: why-do-brands-look-so-the-same
 ---
 # Why Do Brands Look So… the Same?
 

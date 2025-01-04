@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/the-boutique
+slug: the-boutique
 ---
 # The Boutique
 

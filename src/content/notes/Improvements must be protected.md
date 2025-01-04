@@ -1,6 +1,8 @@
 ---
 permalink: n/improvements-must-be-protected
+slug: improvements-must-be-protected
 status: 
+title: Improvements must be protected
 ---
 # Improvements must be protected
 

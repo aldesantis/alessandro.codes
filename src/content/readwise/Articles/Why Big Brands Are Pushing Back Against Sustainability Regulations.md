@@ -13,6 +13,7 @@ summary: |
   Fashion companies argue proposed government mandates for greater supply chain transparency are ‘impractical.’ They shouldn’t be, writes Kenneth P. Pucker.
 source: reader
 permalink: l/articles/why-big-brands-are-pushing-back-against-sustainability-regulations
+slug: why-big-brands-are-pushing-back-against-sustainability-regulations
 ---
 # Why Big Brands Are Pushing Back Against Sustainability Regulations
 

@@ -13,6 +13,7 @@ summary: |
   Returns not only cost retailers money but also strain their operations and inventory management. High return rates can lead to dead stock, markdowns, and missed sales opportunities, affecting overall efficiency. Brands need to analyze returns data and improve processes to reduce waste and enhance customer satisfaction.
 source: reader
 permalink: l/articles/the-true-cost-of-returns
+slug: the-true-cost-of-returns
 ---
 # The True Cost of Returns
 

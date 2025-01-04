@@ -13,6 +13,7 @@ summary: |
   The digitalization of B2B has traditionally been slower than that of B2C. Today, many merchants manage B2B orders manually, using spreadsheets or even pen and paper. However, B2B ecommerce has grown in popularity in recent years.
 source: reader
 permalink: l/articles/b-2-b
+slug: b-2-b
 ---
 # B2b
 

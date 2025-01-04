@@ -13,6 +13,7 @@ summary: |
   The text discusses how every company already has a strategy based on its actions, not just what is written down. It suggests focusing on continual improvement rather than striving for a perfect strategy from scratch. By addressing key gaps and making integrated choices for betterment, companies can progress strategically and overcome the status quo's resistance.
 source: reader
 permalink: l/articles/where-to-start-with-strategy
+slug: where-to-start-with-strategy
 ---
 # Where to Start With Strategy?
 

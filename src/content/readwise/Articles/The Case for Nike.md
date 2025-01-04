@@ -13,6 +13,7 @@ summary: |
   Nike is facing challenges as it relies on older sneaker designs while youth culture shifts. The brand must reconnect with consumers by embracing innovation and social responsibility. There are opportunities for Nike to diversify beyond fashion and restore its reputation as a cultural leader.
 source: reader
 permalink: l/articles/the-case-for-nike
+slug: the-case-for-nike
 ---
 # The Case for Nike
 

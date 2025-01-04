@@ -13,6 +13,7 @@ summary: |
   Everyone loves asymmetric opportunities. If the stock goes down, you lose nothing, but it goes up, you win! Taleb has written an entire book (or five) about them. The Naval / James Clear Twitter threa
 source: reader
 permalink: l/articles/asymmetric-opportunities-and-the-cult-of-optionality
+slug: asymmetric-opportunities-and-the-cult-of-optionality
 ---
 # Asymmetric Opportunities and the Cult of Optionality
 

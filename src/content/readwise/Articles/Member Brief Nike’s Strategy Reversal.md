@@ -13,6 +13,7 @@ summary: |
   A cautionary tale, perhaps: if Nike pulls the plug on its DTC emphasis, omnichannel strategies may be the way to go. In February 2022, we detailed Nike’s push towards direct-to-consumer chann…
 source: reader
 permalink: l/articles/member-brief-nike-s-strategy-reversal
+slug: member-brief-nike-s-strategy-reversal
 ---
 # Member Brief: Nike’s Strategy Reversal
 

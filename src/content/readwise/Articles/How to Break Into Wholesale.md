@@ -13,6 +13,7 @@ summary: |
   Emerging labels can catch the eyes of inundated buyers through savvy pitching, leveraging relationships with celebrity fans and compelling social-media profiles. 
 source: reader
 permalink: l/articles/how-to-break-into-wholesale
+slug: how-to-break-into-wholesale
 ---
 # How to Break Into Wholesale
 

@@ -13,6 +13,7 @@ summary: |
   Digital luxury experiences are evolving, but many still struggle to match the allure of physical luxury. Brands are exploring new dimensions like innovation, participation, and ephemerality to create truly unique digital luxury experiences. The future of luxury lies in blending technology and cultural context to create digital experiences that rival great art.
 source: reader
 permalink: l/articles/insiders-091-digital-luxury-experiences-an-exercise-in-skinnovation
+slug: insiders-091-digital-luxury-experiences-an-exercise-in-skinnovation
 ---
 # Insiders #091: Digital Luxury Experiences: An Exercise in “Skinnovation”
 

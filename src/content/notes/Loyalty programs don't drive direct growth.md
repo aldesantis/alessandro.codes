@@ -1,6 +1,8 @@
 ---
 permalink: n/loyalty-programs-don-t-drive-direct-growth
+slug: loyalty-programs-don-t-drive-direct-growth
 status: 
+title: Loyalty programs don’t drive direct growth
 ---
 # Loyalty programs don’t drive direct growth
 

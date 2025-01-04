@@ -13,6 +13,7 @@ summary: |
   Everything about RH’s P&L is wrong, and they’re betting the farm despite the market not being in their favor... So, we’re shorting this biz.
 source: reader
 permalink: l/articles/rh-is-trading-at-203-x-earnings
+slug: rh-is-trading-at-203-x-earnings
 ---
 # RH Is Trading at 203x EARNINGS!
 

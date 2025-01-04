@@ -13,6 +13,7 @@ summary: |
   An effective collaboration is a strategic exercise
 source: reader
 permalink: l/articles/how-to-do-a-collaboration-right
+slug: how-to-do-a-collaboration-right
 ---
 # How to Do a Collaboration Right
 

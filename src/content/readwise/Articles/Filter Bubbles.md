@@ -13,6 +13,7 @@ summary: |
   Understand what filter bubbles are and how they affect your online experience. Discover ways to minimize their impact.
 source: reader
 permalink: l/articles/filter-bubbles
+slug: filter-bubbles
 ---
 # Filter Bubbles
 

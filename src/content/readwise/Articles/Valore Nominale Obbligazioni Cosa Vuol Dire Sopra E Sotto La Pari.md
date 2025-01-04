@@ -13,6 +13,7 @@ summary: |
   Sai cosa vuol dire obbligazioni sotto la pari e sopra la pari? Se cerchi BTP da comprare devi prima capire il valore nominale obbligazioni.
 source: reader
 permalink: l/articles/valore-nominale-obbligazioni-cosa-vuol-dire-sopra-e-sotto-la-pari
+slug: valore-nominale-obbligazioni-cosa-vuol-dire-sopra-e-sotto-la-pari
 ---
 # Valore Nominale Obbligazioni: Cosa Vuol Dire Sopra E Sotto La Pari
 

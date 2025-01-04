@@ -13,6 +13,7 @@ summary: |
   Luxury e-commerce platforms, including Farfetch and Matches, have faced financial challenges during the pandemic. Farfetch secured emergency funding from Coupang, a South Korean e-commerce company, while Frasers Group acquired Matches for a fraction of its previous valuation. The fate of Yoox Net-a-Porter remains uncertain. To survive, luxury e-tailers need to find paths to profitable growth that do not rely solely on digital advertising and discounting. Personalized shopping experiences and strategic partnerships may be key for their success. The future of online luxury e-commerce remains uncertain as companies navigate these challenges.
 source: reader
 permalink: l/articles/can-luxury-e-commerce-be-saved
+slug: can-luxury-e-commerce-be-saved
 ---
 # Can Luxury E-Commerce Be Saved?
 

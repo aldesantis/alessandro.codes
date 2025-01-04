@@ -13,6 +13,7 @@ summary: |
   If you've mindlessly scrolled through TikTok, chances are you've seen a recipe that features cottage cheese. It's true, cottage cheese is a trend — and dairy companies are seeing sales grow.
 source: reader
 permalink: l/articles/tik-tok-has-ignited-a-cottage-cheese-renaissance
+slug: tik-tok-has-ignited-a-cottage-cheese-renaissance
 ---
 # TikTok Has Ignited a Cottage Cheese Renaissance
 

@@ -13,6 +13,7 @@ summary: |
   Unchecked, dead stock can be the silent killer of an otherwise successful business because it hammers profitability and ties up working capital.
 source: reader
 permalink: l/articles/2-mins-on-dead-stock
+slug: 2-mins-on-dead-stock
 ---
 # 2 Mins On... Dead Stock
 

@@ -13,6 +13,7 @@ summary: |
   Why does Silicon Valley love RFK Jr.?
 source: reader
 permalink: l/articles/the-rich-are-crazier-than-you-and-me
+slug: the-rich-are-crazier-than-you-and-me
 ---
 # The Rich Are Crazier Than You and Me
 

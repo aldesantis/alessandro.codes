@@ -13,6 +13,7 @@ summary: |
   Breaking down the silos
 source: reader
 permalink: l/articles/holistic-brand-management-is-the-new-marketing
+slug: holistic-brand-management-is-the-new-marketing
 ---
 # Holistic Brand Management Is the New Marketing
 

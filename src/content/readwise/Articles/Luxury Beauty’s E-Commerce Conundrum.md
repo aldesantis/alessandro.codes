@@ -13,6 +13,7 @@ summary: |
   Luxury beauty brands are struggling online as key retailers like Net-a-Porter exit the market, leaving few options for effective sales. Experts believe these brands will focus more on direct-to-consumer sales and partnerships with physical stores. The competition and the need for immersive shopping experiences make online luxury beauty challenging to succeed.
 source: reader
 permalink: l/articles/luxury-beauty-s-e-commerce-conundrum
+slug: luxury-beauty-s-e-commerce-conundrum
 ---
 # Luxury Beauty’s E-Commerce Conundrum
 

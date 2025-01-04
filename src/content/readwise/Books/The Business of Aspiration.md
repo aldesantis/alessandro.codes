@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/the-business-of-aspiration
+slug: the-business-of-aspiration
 ---
 # The Business of Aspiration
 

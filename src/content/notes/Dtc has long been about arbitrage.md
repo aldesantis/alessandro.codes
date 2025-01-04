@@ -1,6 +1,8 @@
 ---
 permalink: n/dtc-has-long-been-about-arbitrage
+slug: dtc-has-long-been-about-arbitrage
 status: 
+title: DTC has long been about arbitrage
 ---
 # DTC has long been about arbitrage
 

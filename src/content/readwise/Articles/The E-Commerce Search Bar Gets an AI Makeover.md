@@ -13,6 +13,7 @@ summary: |
   To boost sales and create a better customer experience, companies are revamping the e-commerce search bar to make it easier for shoppers to find products or even shop in new ways.
 source: reader
 permalink: l/articles/the-e-commerce-search-bar-gets-an-ai-makeover
+slug: the-e-commerce-search-bar-gets-an-ai-makeover
 ---
 # The E-Commerce Search Bar Gets an AI Makeover
 

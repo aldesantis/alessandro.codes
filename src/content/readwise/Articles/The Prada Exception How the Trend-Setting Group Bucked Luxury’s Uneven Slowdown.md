@@ -13,6 +13,7 @@ summary: |
   This week, Prada and Miu Miu reported strong sales as LVMH slowed and Kering retreated sharply. In fashion’s so-called “quiet luxury” moment, consumers may care less about whether products have logos and more about what those logos stand for.
 source: reader
 permalink: l/articles/the-prada-exception-how-the-trend-setting-group-bucked-luxury-s-uneven-slowdown
+slug: the-prada-exception-how-the-trend-setting-group-bucked-luxury-s-uneven-slowdown
 ---
 # The Prada Exception: How the Trend-Setting Group Bucked Luxury’s Uneven Slowdown
 

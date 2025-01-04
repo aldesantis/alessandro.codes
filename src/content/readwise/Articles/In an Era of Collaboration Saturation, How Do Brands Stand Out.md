@@ -13,6 +13,7 @@ summary: |
   Together with Launchmetrics, Highsnobiety has reviewed its list of the top collaborations of 2023 and calculated each collaboration’s Media Impact Value™.
 source: reader
 permalink: l/articles/in-an-era-of-collaboration-saturation-how-do-brands-stand-out
+slug: in-an-era-of-collaboration-saturation-how-do-brands-stand-out
 ---
 # In an Era of Collaboration Saturation, How Do Brands Stand Out?
 

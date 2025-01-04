@@ -13,6 +13,7 @@ summary: |
   I’ve started to take the idea that “tap water is bad” more seriously. Justin Mares keeps talking about it.
 source: reader
 permalink: l/articles/tap-water-ai-progress-fancy-targeting-marketing-attribution
+slug: tap-water-ai-progress-fancy-targeting-marketing-attribution
 ---
 # Tap Water, AI Progress, Fancy Targeting, Marketing Attribution
 

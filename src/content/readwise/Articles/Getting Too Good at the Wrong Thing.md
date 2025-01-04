@@ -13,6 +13,7 @@ summary: |
   The siren song of subs
 source: reader
 permalink: l/articles/getting-too-good-at-the-wrong-thing
+slug: getting-too-good-at-the-wrong-thing
 ---
 # Getting Too Good at the Wrong Thing
 

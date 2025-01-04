@@ -13,6 +13,7 @@ summary: |
   “I think one thing that is a really important thing to strive for is being internally driven, being driven to compete with yourself, not with other people.
 source: reader
 permalink: l/articles/brain-food-internally-driven
+slug: brain-food-internally-driven
 ---
 # Brain Food: Internally Driven
 

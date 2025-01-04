@@ -1,6 +1,8 @@
 ---
 permalink: n/change-requires-an-activation-energy
+slug: change-requires-an-activation-energy
 status: 
+title: Change requires an activation energy
 ---
 # Change requires an activation energy
 

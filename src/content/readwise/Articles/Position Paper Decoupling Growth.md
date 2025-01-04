@@ -12,6 +12,7 @@ published_date: 2024-05-24
 summary: ""
 source: reader
 permalink: l/articles/position-paper-decoupling-growth
+slug: position-paper-decoupling-growth
 ---
 # Position Paper: Decoupling Growth
 

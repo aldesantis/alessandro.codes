@@ -1,6 +1,8 @@
 ---
 permalink: n/composable-commerce-may-be-a-necessity
+slug: composable-commerce-may-be-a-necessity
 status: 
+title: composable-commerce-may-be-a-necessity
 ---
 # composable-commerce-may-be-a-necessity
 

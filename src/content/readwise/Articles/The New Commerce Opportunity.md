@@ -13,6 +13,7 @@ summary: |
   What buyers and sellers really want
 source: reader
 permalink: l/articles/the-new-commerce-opportunity
+slug: the-new-commerce-opportunity
 ---
 # The New Commerce Opportunity
 

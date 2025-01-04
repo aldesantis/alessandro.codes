@@ -13,6 +13,7 @@ summary: |
   Read Conscious Competition write about
 source: reader
 permalink: l/articles/conscious-competition
+slug: conscious-competition
 ---
 # Conscious Competition
 

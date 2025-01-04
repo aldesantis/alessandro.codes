@@ -13,6 +13,7 @@ summary: |
   The document discusses the concept of "creative dysregulation," which refers to the inner imbalances that disrupt an individual’s ability to consistently engage with and execute their creative work. The author explores this concept across eight different areas, including mental, emotional, and spiritual. The goal is to move towards "creative regulation," which involves small, intentional steps towards balance and harmony within one's creative life. The document offers journal prompts and experiments to help individuals explore and overcome their creative dysregulation.
 source: reader
 permalink: l/books/creative-dysregulation
+slug: creative-dysregulation
 ---
 # Creative Dysregulation
 

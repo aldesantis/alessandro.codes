@@ -13,6 +13,7 @@ summary: |
   How To Turn Email Into A $-printer
 source: reader
 permalink: l/articles/the-email-marketing-playbook-we-wish-we-had
+slug: the-email-marketing-playbook-we-wish-we-had
 ---
 # The Email Marketing Playbook We Wish We Had
 

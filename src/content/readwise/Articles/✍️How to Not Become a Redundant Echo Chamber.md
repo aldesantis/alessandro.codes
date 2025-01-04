@@ -13,6 +13,7 @@ summary: |
   One thing I want to say before we dive in here is THANK YOU. So many of you have responded to the welcome newsletter, and so many subsequent ones, with ideas, questions, problems, etc.
 source: reader
 permalink: l/articles/how-to-not-become-a-redundant-echo-chamber
+slug: how-to-not-become-a-redundant-echo-chamber
 ---
 # ✍️How to Not Become a Redundant Echo Chamber
 

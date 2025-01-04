@@ -1,6 +1,8 @@
 ---
 permalink: n/light-buyers-favor-large-brands
+slug: light-buyers-favor-large-brands
 status: 
+title: Light buyers favor large brands
 ---
 # Light buyers favor large brands
 

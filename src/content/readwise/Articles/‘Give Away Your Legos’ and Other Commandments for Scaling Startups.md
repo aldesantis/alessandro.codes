@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/give-away-your-legos-and-other-commandments-for-scaling-startups
+slug: give-away-your-legos-and-other-commandments-for-scaling-startups
 ---
 # ‘Give Away Your Legos’ and Other Commandments for Scaling Startups
 

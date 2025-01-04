@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/peter-bevelin-on-seeking-wisdom-mental-models-learning-and-a-lot-more-farnam-street
+slug: peter-bevelin-on-seeking-wisdom-mental-models-learning-and-a-lot-more-farnam-street
 ---
 # Peter Bevelin on Seeking Wisdom, Mental Models, Learning, and a Lot More - Farnam Street
 

@@ -13,6 +13,7 @@ summary: |
   We will explore the phenomenon of commerce as a language and how new languages are giving birth to new cultural affectations. Where culture exists, commerce must exist also.
 source: reader
 permalink: l/articles/insiders-152-language-games-how-new-nostalgia-is-borne
+slug: insiders-152-language-games-how-new-nostalgia-is-borne
 ---
 # Insiders #152: Language Games: How New Nostalgia Is Borne
 

@@ -13,6 +13,7 @@ summary: |
   When entering a new context as a consultant, it is important to resist the urge to fix everything right away. Instead, focus on helping people make better choices in the future. This approach, known as "Fix the Next One," allows for observation of patterns of failure and learning from them. Another strategy, called the "Rule of 63," involves picking three key issues to address and accepting that other issues can wait. By prioritizing and creating lasting impact, consultants can make a difference and be appreciated by their clients.
 source: reader
 permalink: l/articles/seek-first-to-understand
+slug: seek-first-to-understand
 ---
 # Seek First to Understand
 

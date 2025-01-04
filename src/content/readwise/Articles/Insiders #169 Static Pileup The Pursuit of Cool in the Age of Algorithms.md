@@ -13,6 +13,7 @@ summary: |
   In the age of algorithms, defining 'cool' has become subjective and specific to different niches, challenging brands that once relied on mainstream appeal. Tastemakers play a crucial role in curating and filtering knowledge to break free from algorithmic constraints and maintain authenticity in a saturated market. Brands must balance niche authenticity with mainstream appeal to sustain long-term success and relevance in a constantly evolving cultural landscape.
 source: reader
 permalink: l/articles/insiders-169-static-pileup-the-pursuit-of-cool-in-the-age-of-algorithms
+slug: insiders-169-static-pileup-the-pursuit-of-cool-in-the-age-of-algorithms
 ---
 # Insiders #169: Static Pileup: The Pursuit of Cool in the Age of Algorithms
 

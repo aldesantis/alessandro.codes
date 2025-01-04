@@ -13,6 +13,7 @@ summary: |
   The inner-workings of one of the most powerful growth tools in email.
 source: reader
 permalink: l/articles/how-morning-brew-s-referral-program-built-an-audience-of-1-5-million-subscribers
+slug: how-morning-brew-s-referral-program-built-an-audience-of-1-5-million-subscribers
 ---
 # How Morning Brew’s Referral Program Built an Audience of 1.5 Million Subscribers
 

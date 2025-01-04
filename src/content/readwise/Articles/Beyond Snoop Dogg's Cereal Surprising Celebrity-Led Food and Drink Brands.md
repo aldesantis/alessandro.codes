@@ -13,6 +13,7 @@ summary: |
   Celebrities are not just sticking to the entertainment industry; they are venturing into the food and beverage market with surprising brands. From Snoop Dogg's cereal to George Clooney's tequila, these celebrity-led companies range from cult classics to successful ventures like Venus Williams' Happy Viking. Other celebrities like Cher, Eric LeGrand, Patti Labelle, and 50 Cent have also made their mark in the food and drink industry, offering unique products like gelato, bourbon, soul food desserts, and premium cognac. Additionally, Jon Bon Jovi and Tom Hanks have created community-focused ventures, such as a pay-what-you-can restaurant and a line of spices supporting veterans, showcasing the diverse endeavors of celebrities beyond their main professions.
 source: reader
 permalink: l/articles/beyond-snoop-dogg-s-cereal-surprising-celebrity-led-food-and-drink-brands
+slug: beyond-snoop-dogg-s-cereal-surprising-celebrity-led-food-and-drink-brands
 ---
 # Beyond Snoop Dogg's Cereal: Surprising Celebrity-Led Food and Drink Brands
 

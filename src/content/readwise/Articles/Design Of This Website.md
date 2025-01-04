@@ -13,6 +13,7 @@ summary: |
   Gwern.net is a static website designed for good typography and advanced browsing features, hosted on a dedicated server for performance reasons. It offers unique elements like monochrome aesthetics, collapsible sections, and interactive pop-up annotations for a structured reading experience. The website's design prioritizes aesthetics, speed, and reader engagement, enhancing the overall user experience.
 source: reader
 permalink: l/articles/design-of-this-website
+slug: design-of-this-website
 ---
 # Design Of This Website
 

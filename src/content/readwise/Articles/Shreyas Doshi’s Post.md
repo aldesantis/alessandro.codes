@@ -13,6 +13,7 @@ summary: |
   After 10-15 years in tech, it's crucial to make intentional career choices based on the life you want, your strengths, what energizes you, and the people you enjoy working with. Many people in top positions often follow trends rather than making thoughtful decisions, influenced by mimetic desire and conformity bias. By consciously evaluating these factors, you can diverge from the crowd, leading to fulfilling work and a deeper connection to your career. Making deliberate choices will ultimately lead to better outcomes and increased confidence in your career decisions.
 source: reader
 permalink: l/articles/shreyas-doshi-s-post
+slug: shreyas-doshi-s-post
 ---
 # Shreyas Doshi’s Post
 

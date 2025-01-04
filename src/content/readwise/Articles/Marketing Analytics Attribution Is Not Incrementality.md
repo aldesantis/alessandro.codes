@@ -13,6 +13,7 @@ summary: |
   The ultimate holy grail of Marketing Analytics is measuring true incrementality. Yet, most confuse Marketing attribution with incrementality. Big Mistake.
 source: reader
 permalink: l/articles/marketing-analytics-attribution-is-not-incrementality
+slug: marketing-analytics-attribution-is-not-incrementality
 ---
 # Marketing Analytics: Attribution Is Not Incrementality
 

@@ -13,6 +13,7 @@ summary: |
   Heavily influenced by the omni-channel evolution, retail media is entering its 2.0 phase. New marketplace entrants are gaining steam and retailers are re-prioritizing, shifting priorities towards c…
 source: reader
 permalink: l/articles/member-brief-etsy-ebay-and-off-site-advertising
+slug: member-brief-etsy-ebay-and-off-site-advertising
 ---
 # Member Brief: Etsy, Ebay, and Off-Site Advertising
 

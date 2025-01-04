@@ -1,6 +1,8 @@
 ---
 permalink: n/focus-on-what-s-not-changing
+slug: focus-on-what-s-not-changing
 status: 
+title: Focus on what’s not changing
 ---
 # Focus on what’s not changing
 

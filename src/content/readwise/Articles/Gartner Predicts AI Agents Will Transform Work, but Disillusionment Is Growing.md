@@ -13,6 +13,7 @@ summary: |
   Gartner predicts that AI agents will significantly change the workplace, but there is growing disillusionment as many expectations are not being met. While enterprises recognize AI's potential, they face challenges like high costs, talent shortages, and the need for better reliability. Despite these hurdles, a majority of CEOs believe AI will be crucial for their industries in the future.
 source: reader
 permalink: l/articles/gartner-predicts-ai-agents-will-transform-work-but-disillusionment-is-growing
+slug: gartner-predicts-ai-agents-will-transform-work-but-disillusionment-is-growing
 ---
 # Gartner Predicts AI Agents Will Transform Work, but Disillusionment Is Growing
 

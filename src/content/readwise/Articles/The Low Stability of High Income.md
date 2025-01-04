@@ -13,6 +13,7 @@ summary: |
   High-income earners face risks when their spending habits rely solely on a single income source. If they lose their job, they may struggle to maintain their lifestyle, leading to financial stress. To avoid this, it's important to diversify income streams and keep spending in check.
 source: reader
 permalink: l/articles/the-low-stability-of-high-income
+slug: the-low-stability-of-high-income
 ---
 # The Low Stability of High Income
 

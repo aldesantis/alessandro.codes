@@ -13,6 +13,7 @@ summary: |
   Humans are often motivated by rewards like money and prestige, leading to behavior driven by incentives. However, the theory of intrinsic motivation suggests that people also care about other factors beyond external rewards. The key to influencing behavior lies in understanding and aligning with individuals' internal motivations.
 source: reader
 permalink: l/articles/startling-differences-between-humans-and-jukeboxes
+slug: startling-differences-between-humans-and-jukeboxes
 ---
 # Startling Differences Between Humans and Jukeboxes
 

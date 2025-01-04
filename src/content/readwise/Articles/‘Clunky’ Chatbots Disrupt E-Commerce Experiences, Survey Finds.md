@@ -13,6 +13,7 @@ summary: |
   AI-powered chatbots are the top reason consumers abandon an online shopping experience, an Intellias survey found.
 source: reader
 permalink: l/articles/clunky-chatbots-disrupt-e-commerce-experiences-survey-finds
+slug: clunky-chatbots-disrupt-e-commerce-experiences-survey-finds
 ---
 # ‘Clunky’ Chatbots Disrupt E-Commerce Experiences, Survey Finds
 

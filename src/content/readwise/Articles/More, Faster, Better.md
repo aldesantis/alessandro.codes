@@ -13,6 +13,7 @@ summary: |
   The antidote to never feeling done.
 source: reader
 permalink: l/articles/more-faster-better
+slug: more-faster-better
 ---
 # More, Faster, Better
 

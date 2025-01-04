@@ -13,6 +13,7 @@ summary: |
   What the science of stress tells us about peak performance
 source: reader
 permalink: l/articles/how-hard-should-i-push-myself
+slug: how-hard-should-i-push-myself
 ---
 # How Hard Should I Push Myself?
 

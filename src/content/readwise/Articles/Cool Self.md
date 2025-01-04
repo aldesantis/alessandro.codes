@@ -13,6 +13,7 @@ summary: |
   The text discusses the concept of finding and being your "cool self" in life, which involves being authentic, confident, calm, and original. It emphasizes the importance of choosing your own version of cool rather than conforming to societal standards, and suggests that being your cool self leads to better relationships, personal fulfillment, and success. The theory of the cool self encourages individuals to embrace their true selves, pursue their passions authentically, and prioritize inner fulfillment over external validation.
 source: reader
 permalink: l/articles/cool-self
+slug: cool-self
 ---
 # Cool Self
 

@@ -13,6 +13,7 @@ summary: |
   Mytheresa, a Munich-based e-tailer, stands out in the challenging online luxury sector, reporting 8.3 percent growth in sales during its second quarter. Their success is attributed to targeting high-spending customers with unique experiences like private New York City Ballet rehearsals. While competitors like Net-a-Porter and Farfetch struggle, Mytheresa remains optimistic, focusing on luxury, exclusivity, and brand activations to maintain growth, with plans to expand events and partnerships to enhance their position in the market.
 source: reader
 permalink: l/articles/in-online-luxury-mytheresa-offers-a-shred-of-optimism
+slug: in-online-luxury-mytheresa-offers-a-shred-of-optimism
 ---
 # In Online Luxury, Mytheresa Offers a Shred of Optimism
 

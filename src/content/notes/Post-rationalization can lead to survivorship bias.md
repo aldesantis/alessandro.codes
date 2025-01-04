@@ -1,6 +1,8 @@
 ---
 permalink: n/post-rationalization-can-lead-to-survivorship-bias
+slug: post-rationalization-can-lead-to-survivorship-bias
 status: 
+title: Post-rationalization can lead to survivorship bias
 ---
 # Post-rationalization can lead to survivorship bias
 

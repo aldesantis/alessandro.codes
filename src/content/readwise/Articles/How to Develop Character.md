@@ -13,6 +13,7 @@ summary: |
   It’s hard enough to be competent. It’s even harder to have character.
 source: reader
 permalink: l/articles/how-to-develop-character
+slug: how-to-develop-character
 ---
 # How to Develop Character
 

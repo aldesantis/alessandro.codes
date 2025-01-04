@@ -13,6 +13,7 @@ summary: |
   An outdated way of thinking about peak performance is: “maximum effort = maximum results.” But research shows that it doesn’t actually work that way in reality. Here’s what actually works: The 85% rule, which counterintuitively suggests that to reach maximum output, you need to refrain from giving maximum effort. Operating at 100% effort all of the time will result in burnout and ultimately less-optimal results. While the precise number 85% may just be a rule of thumb, it’s a helpful one for managers who want to create high-performance teams without burning people out.
 source: reader
 permalink: l/articles/to-build-a-top-performing-team-ask-for-85-effort
+slug: to-build-a-top-performing-team-ask-for-85-effort
 ---
 # To Build a Top Performing Team, Ask for 85% Effort
 

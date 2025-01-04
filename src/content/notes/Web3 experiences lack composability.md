@@ -1,6 +1,8 @@
 ---
 permalink: n/web3-experiences-lack-composability
+slug: web3-experiences-lack-composability
 status: 
+title: Web3 experiences lack composability
 ---
 # Web3 experiences lack composability
 

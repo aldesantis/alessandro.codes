@@ -1,6 +1,8 @@
 ---
 permalink: n/composable-commerce-is-a-spectrum
+slug: composable-commerce-is-a-spectrum
 status: 
+title: composable-commerce-is-a-spectrum
 ---
 # composable-commerce-is-a-spectrum
 

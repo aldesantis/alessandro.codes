@@ -13,6 +13,7 @@ summary: |
   Shopify's marketplace is now available on the web, and from afar, it looks like Amazon or any other online retailer. The new marketplace allows shoppers to search and buy all products hosted on Shopify.
 source: reader
 permalink: l/articles/shopify-s-marketplace-expands-to-the-web
+slug: shopify-s-marketplace-expands-to-the-web
 ---
 # Shopify’s Marketplace Expands to the Web
 

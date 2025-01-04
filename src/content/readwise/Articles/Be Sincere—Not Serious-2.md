@@ -13,6 +13,7 @@ summary: |
   The text discusses the importance of being sincere rather than serious in approaching challenges and life situations. It highlights how adopting a playful and sincere attitude can lead to more enjoyable and effective outcomes. The distinction between finite games (seriousness) and infinite games (sincerity) is emphasized as a way to navigate life's challenges with a sense of humor and adaptability.
 source: reader
 permalink: l/articles/be-sincere-not-serious-2
+slug: be-sincere-not-serious-2
 ---
 # Be Sincere—Not Serious
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/collaboration-is-not-compromise
+slug: collaboration-is-not-compromise
 status: 
+title: Collaboration is not compromise
 ---
 # Collaboration is not compromise
 

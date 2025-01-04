@@ -13,6 +13,7 @@ summary: |
   Amazon is expanding a new cash advance service for sellers next year, part of a growing crop of short-term financial services catering to e-commerce businesses amid a drop in venture spending.
 source: reader
 permalink: l/articles/amazon-briefing-how-amazon-s-cash-advance-program-is-part-of-a-new-wave-of-financing
+slug: amazon-briefing-how-amazon-s-cash-advance-program-is-part-of-a-new-wave-of-financing
 ---
 # Amazon Briefing: How Amazon’s Cash Advance Program Is Part of a New Wave of Financing
 

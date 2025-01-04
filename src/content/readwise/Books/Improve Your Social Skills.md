@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/improve-your-social-skills
+slug: improve-your-social-skills
 ---
 # Improve Your Social Skills
 

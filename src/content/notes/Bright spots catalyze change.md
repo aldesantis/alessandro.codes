@@ -1,6 +1,8 @@
 ---
 permalink: n/bright-spots-catalyze-change
+slug: bright-spots-catalyze-change
 status: 
+title: Bright spots catalyze change
 ---
 # Bright spots catalyze change
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/an-operating-cadence-needs-shared-vision
+slug: an-operating-cadence-needs-shared-vision
 status: 
+title: An operating cadence needs shared vision
 ---
 # An operating cadence needs shared vision
 

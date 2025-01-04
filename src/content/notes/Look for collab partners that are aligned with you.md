@@ -1,6 +1,8 @@
 ---
 permalink: n/look-for-collab-partners-that-are-aligned-with-you
+slug: look-for-collab-partners-that-are-aligned-with-you
 status: 
+title: Look for collab partners that are aligned with you
 ---
 # Look for collab partners that are aligned with you
 

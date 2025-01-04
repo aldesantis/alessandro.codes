@@ -13,6 +13,7 @@ summary: |
   From Kendra Scott to Pleasing, more non-perfume brands are entering the fragrance space. We looked into the trend
 source: reader
 permalink: l/articles/a-category-our-consumers-are-asking-for-why-more-brands-are-getting-into-fragrances
+slug: a-category-our-consumers-are-asking-for-why-more-brands-are-getting-into-fragrances
 ---
 # ‘A Category Our Consumers Are Asking For’: Why More Brands Are Getting Into Fragrances
 

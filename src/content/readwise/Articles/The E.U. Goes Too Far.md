@@ -13,6 +13,7 @@ summary: |
   European regulators are cracking down on Apple and Google for their business practices. The European Commission is accused of overreaching in its antitrust regulations, potentially harming innovation and competition. Companies like Apple and Meta may face challenges in the E.U. due to regulatory demands.
 source: reader
 permalink: l/articles/the-e-u-goes-too-far
+slug: the-e-u-goes-too-far
 ---
 # The E.U. Goes Too Far
 

@@ -13,6 +13,7 @@ summary: |
   The text discusses the latest trends in the crypto world, focusing on NFTs, DeFi 2.0, and memecoins at Token2049 in Dubai. It highlights the shift towards a tokenized culture and the rise of memecoins as a new form of investment and community collaboration. The article emphasizes the growing importance of blockchain technology and the potential impact on consumer brands and society.
 source: reader
 permalink: l/articles/70-the-next-nf-ts
+slug: 70-the-next-nf-ts
 ---
 # 📝 #70: The Next NFTs
 

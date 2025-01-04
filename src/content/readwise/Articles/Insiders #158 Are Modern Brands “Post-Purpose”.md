@@ -13,6 +13,7 @@ summary: |
   Alexa Lombardo discusses the shift in brand strategy from purpose-driven activism to focusing on authentic values and consumer alignment.
 source: reader
 permalink: l/articles/insiders-158-are-modern-brands-post-purpose
+slug: insiders-158-are-modern-brands-post-purpose
 ---
 # Insiders #158 Are Modern Brands “Post-Purpose”?
 

@@ -13,6 +13,7 @@ summary: |
   Why Your Team is Doing Low-Value Work (and How to Fix It)
 source: reader
 permalink: l/articles/breaking-down-product-data-silos
+slug: breaking-down-product-data-silos
 ---
 # Breaking Down Product Data Silos
 

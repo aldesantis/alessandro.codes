@@ -13,6 +13,7 @@ summary: |
   Venkatesh Rao is officially retiring his blog, Ribbonfarm, after 17 years of operation. Although he is not retiring personally, he feels it is time for the blog to step back as the landscape of online content has changed. For those who want to continue following his work, he invites them to subscribe to his Substack, which will offer a different style and content.
 source: reader
 permalink: l/articles/ribbonfarm-is-retiring
+slug: ribbonfarm-is-retiring
 ---
 # Ribbonfarm Is Retiring
 

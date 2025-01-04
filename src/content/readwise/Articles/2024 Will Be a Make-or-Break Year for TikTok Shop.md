@@ -13,6 +13,7 @@ summary: |
   2023 was a significant year for social commerce, with the launch of TikTok Shop in the U.S. and the growing convergence of social media and shopping. However, TikTok Shop is projected to lose $500 million in 2023, despite positive feedback from customers and merchants. Analysts predict that in 2024, more social commerce platforms will adopt a marketplace model, allowing independent sellers to list items without direct oversight. The challenge for social commerce lies in ensuring a positive customer experience and addressing concerns about counterfeit products. Nevertheless, the popularity of TikTok and the continued growth of social media make it a promising channel for brands to connect with customers.
 source: reader
 permalink: l/articles/2024-will-be-a-make-or-break-year-for-tik-tok-shop
+slug: 2024-will-be-a-make-or-break-year-for-tik-tok-shop
 ---
 # 2024 Will Be a Make-or-Break Year for TikTok Shop
 

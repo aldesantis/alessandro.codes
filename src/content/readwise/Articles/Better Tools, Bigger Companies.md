@@ -13,6 +13,7 @@ summary: |
   The text discusses the rise of Techno-Industrials, emphasizing that with better tools, tech companies are poised to reshape large industries and tackle significant challenges. It highlights the trend of combining various technologies to create vertically integrated solutions that can disrupt traditional sectors and lead to the emergence of $100 billion+ businesses. The author argues that the convergence of atoms and bits in Techno-Industrials will drive more value and wealth creation compared to traditional software companies in the coming decade.
 source: reader
 permalink: l/articles/better-tools-bigger-companies
+slug: better-tools-bigger-companies
 ---
 # Better Tools, Bigger Companies
 

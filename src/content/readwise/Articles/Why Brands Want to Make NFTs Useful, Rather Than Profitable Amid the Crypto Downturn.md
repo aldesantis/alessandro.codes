@@ -13,6 +13,7 @@ summary: |
   Despite the volatility in the crypto markets, consumer brands and e-commerce platforms are trying new ways to evolve NFTs from being novel collectibles to something more useful for both consumers and companies.
 source: reader
 permalink: l/articles/why-brands-want-to-make-nf-ts-useful-rather-than-profitable-amid-the-crypto-downturn
+slug: why-brands-want-to-make-nf-ts-useful-rather-than-profitable-amid-the-crypto-downturn
 ---
 # Why Brands Want to Make NFTs Useful, Rather Than Profitable Amid the Crypto Downturn
 

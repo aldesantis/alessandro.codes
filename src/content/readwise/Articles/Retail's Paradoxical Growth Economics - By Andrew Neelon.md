@@ -13,6 +13,7 @@ summary: |
   None
 source: mobile_share
 permalink: l/articles/retail-s-paradoxical-growth-economics-by-andrew-neelon
+slug: retail-s-paradoxical-growth-economics-by-andrew-neelon
 ---
 # Retail's Paradoxical Growth Economics - By Andrew Neelon
 

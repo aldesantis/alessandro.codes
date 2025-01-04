@@ -13,6 +13,7 @@ summary: |
   Technical difficulties, fraud and low consumer interest cloud the market for non-fungible tokens. 
 source: reader
 permalink: l/articles/are-nft-projects-now-over-for-retailers
+slug: are-nft-projects-now-over-for-retailers
 ---
 # Are NFT Projects Now Over for Retailers?
 

@@ -13,6 +13,7 @@ summary: |
   Nick Kaplan questions the relevance of Black Friday as consumer fatigue and constant discounts change shopping behaviors. He suggests that retailers need to adapt their strategies and focus on solving problems for consumers rather than merely offering sales. The industry must elevate its game to meet the evolving needs of shoppers during the holiday season.
 source: reader
 permalink: l/articles/nick-kaplans-fight-club-elevate-your-game-you-re-not-in-it-get-in-the-game-it-is-here
+slug: nick-kaplans-fight-club-elevate-your-game-you-re-not-in-it-get-in-the-game-it-is-here
 ---
 # Nick Kaplans Fight Club - Elevate Your Game. You're Not in It? Get in the Game. It Is Here.
 

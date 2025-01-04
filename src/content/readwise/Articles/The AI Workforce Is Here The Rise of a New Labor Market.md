@@ -13,6 +13,7 @@ summary: |
   The rise of AI workers is merging the software and labor markets, creating new opportunities for founders and reshaping the way work is done. AI services replacing human-centric services will lead to more demand for AI workers in the future, offering job opportunities and the chance for rapid workforce re-skilling. Companies are developing AI colleagues and AI vendors/services to deliver human-quality labor with software margins, revolutionizing industries and increasing efficiencies.
 source: reader
 permalink: l/articles/the-ai-workforce-is-here-the-rise-of-a-new-labor-market
+slug: the-ai-workforce-is-here-the-rise-of-a-new-labor-market
 ---
 # The AI Workforce Is Here: The Rise of a New Labor Market
 

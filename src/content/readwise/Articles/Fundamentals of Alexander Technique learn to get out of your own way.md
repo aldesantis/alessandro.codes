@@ -14,6 +14,7 @@ summary: |
 Existing students: you can access the course and community
 source: reader
 permalink: l/articles/fundamentals-of-alexander-technique-learn-to-get-out-of-your-own-way
+slug: fundamentals-of-alexander-technique-learn-to-get-out-of-your-own-way
 ---
 # Fundamentals of Alexander Technique: learn to get out of your own way
 

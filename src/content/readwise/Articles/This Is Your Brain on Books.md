@@ -13,6 +13,7 @@ summary: |
   “Reading occupies a strange position in today’s world, being at once physiologically unnecessary and culturally central.”
 source: reader
 permalink: l/articles/this-is-your-brain-on-books
+slug: this-is-your-brain-on-books
 ---
 # This Is Your Brain on Books
 

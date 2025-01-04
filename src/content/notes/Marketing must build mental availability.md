@@ -1,6 +1,8 @@
 ---
 permalink: n/marketing-must-build-mental-availability
+slug: marketing-must-build-mental-availability
 status: 
+title: Marketing must build mental availability
 ---
 # Marketing must build mental availability
 

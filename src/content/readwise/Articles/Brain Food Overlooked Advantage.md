@@ -13,6 +13,7 @@ summary: |
   Thank you to everyone who purchased a copy of Clear Thinking in 2023. I'm thrilled you found it useful and shared it with friends.
 source: reader
 permalink: l/articles/brain-food-overlooked-advantage
+slug: brain-food-overlooked-advantage
 ---
 # Brain Food: Overlooked Advantage
 

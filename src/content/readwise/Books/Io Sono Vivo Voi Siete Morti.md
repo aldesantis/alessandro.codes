@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/io-sono-vivo-voi-siete-morti
+slug: io-sono-vivo-voi-siete-morti
 ---
 # Io Sono Vivo Voi Siete Morti
 

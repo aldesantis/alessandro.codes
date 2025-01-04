@@ -13,6 +13,7 @@ summary: |
   Writing about the big beautiful mess that is making things for the world wide web.
 source: reader
 permalink: l/articles/you-are-what-you-read-even-if-you-don-t-always-remember-it
+slug: you-are-what-you-read-even-if-you-don-t-always-remember-it
 ---
 # You Are What You Read, Even if You Don’t Always Remember It
 

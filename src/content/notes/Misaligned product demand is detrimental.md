@@ -1,6 +1,8 @@
 ---
 permalink: n/misaligned-product-demand-is-detrimental
+slug: misaligned-product-demand-is-detrimental
 status: 
+title: Misaligned product demand is detrimental
 ---
 # Misaligned product demand is detrimental
 

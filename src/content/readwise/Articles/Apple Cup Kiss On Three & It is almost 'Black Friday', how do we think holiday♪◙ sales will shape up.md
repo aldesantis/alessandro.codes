@@ -13,6 +13,7 @@ summary: |
   It is almost Thanksgiving and ‘Black Friday’ - the traditional kick-off of the holiday shopping season.
 source: reader
 permalink: l/articles/apple-cup-kiss-on-three-it-is-almost-black-friday-how-do-we-think-holiday-sales-will-shape-up
+slug: apple-cup-kiss-on-three-it-is-almost-black-friday-how-do-we-think-holiday-sales-will-shape-up
 ---
 # Apple Cup Kiss On Three & It is almost 'Black Friday', how do we think holiday
  sales will shape up?

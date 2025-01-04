@@ -13,6 +13,7 @@ summary: |
   I'm hiring! – My team is growing and I’m looking for more talented people to help out.
 source: reader
 permalink: l/articles/the-paradox-of-cringe
+slug: the-paradox-of-cringe
 ---
 # The Paradox of Cringe
 

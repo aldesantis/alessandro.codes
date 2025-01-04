@@ -13,6 +13,7 @@ summary: |
   The article discusses the idea of balancing pursuits that can scale with those that can't scale, emphasizing the importance of finding fulfillment in non-scalable activities. It highlights how successful individuals often gravitate towards pursuits like hobbies or small businesses that have a clear ceiling, providing a sense of grounding and fulfillment. Ultimately, the text encourages readers to consider the value of pursuing things that may not have massive scale but offer personal satisfaction and balance.
 source: reader
 permalink: l/articles/pursuits-that-can-t-scale
+slug: pursuits-that-can-t-scale
 ---
 # Pursuits That Can’t Scale
 

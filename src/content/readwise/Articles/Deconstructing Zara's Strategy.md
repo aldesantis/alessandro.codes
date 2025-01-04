@@ -13,6 +13,7 @@ summary: |
   After becoming synonymous with a category, Zara is investing in its brand
 source: reader
 permalink: l/articles/deconstructing-zara-s-strategy
+slug: deconstructing-zara-s-strategy
 ---
 # Deconstructing Zara's Strategy
 

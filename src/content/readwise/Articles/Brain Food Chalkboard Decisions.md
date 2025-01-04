@@ -13,6 +13,7 @@ summary: |
   "If we can’t work smarter, we resort to working harder. We cut out lunch, skip the gym, and run from one meeting to another so we can fit more in.
 source: reader
 permalink: l/articles/brain-food-chalkboard-decisions
+slug: brain-food-chalkboard-decisions
 ---
 # Brain Food: Chalkboard Decisions
 

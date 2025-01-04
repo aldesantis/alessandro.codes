@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/most-people-take-only-transient-notes-andy-matuschak-notes-obsidian-publish
+slug: most-people-take-only-transient-notes-andy-matuschak-notes-obsidian-publish
 ---
 # Most People Take Only Transient Notes - Andy Matuschak Notes - Obsidian Publish
 

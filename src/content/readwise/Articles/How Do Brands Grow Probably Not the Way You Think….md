@@ -13,6 +13,7 @@ summary: |
   Why the accept­ed wis­dom of mod­ern day mar­ket­ing sits on pret­ty shaky ground.
 source: reader
 permalink: l/articles/how-do-brands-grow-probably-not-the-way-you-think
+slug: how-do-brands-grow-probably-not-the-way-you-think
 ---
 # How Do Brands Grow? Probably Not the Way You Think…
 

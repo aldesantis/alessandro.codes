@@ -13,6 +13,7 @@ summary: |
   Read Holding People Accountable is Ineffective Leadership write about
 source: reader
 permalink: l/articles/holding-people-accountable-is-ineffective-leadership
+slug: holding-people-accountable-is-ineffective-leadership
 ---
 # Holding People Accountable Is Ineffective Leadership
 

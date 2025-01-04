@@ -13,6 +13,7 @@ summary: |
   Two DTC Brands (Read Here): Both companies set out to take on Nike and Adidas.
 source: reader
 permalink: l/articles/the-tale-of-two-dt-cs
+slug: the-tale-of-two-dt-cs
 ---
 # The Tale of Two DTCs
 

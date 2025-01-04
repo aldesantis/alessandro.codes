@@ -13,6 +13,7 @@ summary: |
   It’s been a boom season for consumer packaged goods and perishable foods brands. This growth skewed heavily towards those properly positioned to benefit from omnichannel distribution and it p…
 source: reader
 permalink: l/articles/memo-redefining-the-revenue-model-in-cpg
+slug: memo-redefining-the-revenue-model-in-cpg
 ---
 # Memo: Redefining The Revenue Model in CPG
 

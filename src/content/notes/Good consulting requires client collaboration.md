@@ -1,6 +1,8 @@
 ---
 permalink: n/good-consulting-requires-client-collaboration
+slug: good-consulting-requires-client-collaboration
 status: 
+title: Good consulting requires client collaboration
 ---
 # Good consulting requires client collaboration
 

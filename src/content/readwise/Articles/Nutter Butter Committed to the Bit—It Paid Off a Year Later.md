@@ -13,6 +13,7 @@ summary: |
   Nutter Butter embraced a unique and bold social media strategy that initially felt uncomfortable but ultimately led to viral success. By committing to their unconventional approach, they created engaging content that resonated with audiences, significantly increasing their followers and views. The brand's journey highlights the importance of persistence and trusting audience instincts in social media marketing.
 source: reader
 permalink: l/articles/nutter-butter-committed-to-the-bit-it-paid-off-a-year-later
+slug: nutter-butter-committed-to-the-bit-it-paid-off-a-year-later
 ---
 # Nutter Butter Committed to the Bit—It Paid Off a Year Later
 

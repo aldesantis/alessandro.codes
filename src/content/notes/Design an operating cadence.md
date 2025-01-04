@@ -1,6 +1,8 @@
 ---
 permalink: n/design-an-operating-cadence
+slug: design-an-operating-cadence
 status: 
+title: Design an operating cadence
 ---
 # Design an operating cadence
 

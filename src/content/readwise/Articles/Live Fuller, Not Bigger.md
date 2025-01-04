@@ -13,6 +13,7 @@ summary: |
   You must escape the shallow joy of more
 source: reader
 permalink: l/articles/live-fuller-not-bigger
+slug: live-fuller-not-bigger
 ---
 # Live Fuller, Not Bigger
 

@@ -13,6 +13,7 @@ summary: |
   NielsenIQ's new research shows that consumers find AI-generated ads less engaging and more annoying than traditional ads. The study highlights that these ads may weaken brand perception and memory activation. Advertisers should focus on quality and authenticity to avoid negative impacts on brand equity.
 source: reader
 permalink: l/articles/niq-research-uncovers-hidden-consumer-attitudes-toward-ai-generated-ads
+slug: niq-research-uncovers-hidden-consumer-attitudes-toward-ai-generated-ads
 ---
 # NIQ Research Uncovers Hidden Consumer Attitudes Toward AI-generated Ads
 

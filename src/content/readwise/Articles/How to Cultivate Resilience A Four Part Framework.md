@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/how-to-cultivate-resilience-a-four-part-framework
+slug: how-to-cultivate-resilience-a-four-part-framework
 ---
 # How to Cultivate Resilience: A Four Part Framework
 

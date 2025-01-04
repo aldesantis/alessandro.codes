@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/managing-the-professional-service-firm
+slug: managing-the-professional-service-firm
 ---
 # Managing the Professional Service Firm
 

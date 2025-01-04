@@ -13,6 +13,7 @@ summary: |
   Before we jump in, It’s week 2/4 in TLV, and I owe you a weekly coffee update: Dama: 9. 1.
 source: reader
 permalink: l/articles/getting-off-the-discounting-drug
+slug: getting-off-the-discounting-drug
 ---
 # Getting Off the Discounting Drug 💊
 

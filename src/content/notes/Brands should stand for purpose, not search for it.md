@@ -1,6 +1,8 @@
 ---
 permalink: n/brands-should-stand-for-purpose-not-search-for-it
+slug: brands-should-stand-for-purpose-not-search-for-it
 status: 
+title: Brands should stand for purpose, not search for it
 ---
 # Brands should stand for purpose, not search for it
 

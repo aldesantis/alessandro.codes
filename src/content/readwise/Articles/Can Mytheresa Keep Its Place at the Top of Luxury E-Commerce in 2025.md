@@ -13,6 +13,7 @@ summary: |
   Mytheresa is working to maintain its top position in luxury e-commerce by focusing on its high-spending customers and planning to acquire competitor Yoox-Net-a-Porter. The company aims to innovate and adapt to market changes while providing a unique shopping experience online. To succeed, it must balance retaining loyal customers with attracting new ones, all while managing costs effectively.
 source: reader
 permalink: l/articles/can-mytheresa-keep-its-place-at-the-top-of-luxury-e-commerce-in-2025
+slug: can-mytheresa-keep-its-place-at-the-top-of-luxury-e-commerce-in-2025
 ---
 # Can Mytheresa Keep Its Place at the Top of Luxury E-Commerce in 2025?
 

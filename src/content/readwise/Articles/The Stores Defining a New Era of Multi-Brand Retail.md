@@ -13,6 +13,7 @@ summary: |
   ESSX, a boutique in New York, offers a unique retail experience with a focus on local talent and unisex fashion. Specialty stores like ESSX are thriving by providing personalized service and showcasing emerging brands not easily found online. These boutique retailers are redefining luxury retail by prioritizing community connections and creative in-store experiences over massive online assortments.
 source: reader
 permalink: l/articles/the-stores-defining-a-new-era-of-multi-brand-retail
+slug: the-stores-defining-a-new-era-of-multi-brand-retail
 ---
 # The Stores Defining a New Era of Multi-Brand Retail
 

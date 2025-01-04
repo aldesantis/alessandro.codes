@@ -1,6 +1,8 @@
 ---
 permalink: n/metaverse-is-for-behemoths-and-natives
+slug: metaverse-is-for-behemoths-and-natives
 status: 
+title: Metaverse is for behemoths and natives
 ---
 # Metaverse is for behemoths and natives
 

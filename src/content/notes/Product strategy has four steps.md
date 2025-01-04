@@ -1,6 +1,8 @@
 ---
 permalink: n/product-strategy-has-four-steps
+slug: product-strategy-has-four-steps
 status: 
+title: Product strategy has four steps
 ---
 # Product strategy has four steps
 

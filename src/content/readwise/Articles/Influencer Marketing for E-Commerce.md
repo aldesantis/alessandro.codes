@@ -13,6 +13,7 @@ summary: |
   My first job out of college was at Gopuff which was an early-stage, fast growing startup in the last-mile delivery space.
 source: reader
 permalink: l/articles/influencer-marketing-for-e-commerce
+slug: influencer-marketing-for-e-commerce
 ---
 # Influencer Marketing for E-Commerce
 

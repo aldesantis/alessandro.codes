@@ -13,6 +13,7 @@ summary: |
   What multi-channel attribution models deliver value when marketing across devices (TV, phones, tablets) & channels (search, display, social)?
 source: reader
 permalink: l/articles/multi-channel-attribution-definitions-models-and-a-reality-check
+slug: multi-channel-attribution-definitions-models-and-a-reality-check
 ---
 # Multi-Channel Attribution: Definitions, Models and a Reality Check
 

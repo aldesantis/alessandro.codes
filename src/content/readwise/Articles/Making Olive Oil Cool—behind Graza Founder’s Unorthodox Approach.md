@@ -13,6 +13,7 @@ summary: |
   The leader of the brand known for its squeezy bottles opens up on his business and marketing approach, including his knack for making headlines.
 source: reader
 permalink: l/articles/making-olive-oil-cool-behind-graza-founder-s-unorthodox-approach
+slug: making-olive-oil-cool-behind-graza-founder-s-unorthodox-approach
 ---
 # Making Olive Oil Cool—behind Graza Founder’s Unorthodox Approach
 

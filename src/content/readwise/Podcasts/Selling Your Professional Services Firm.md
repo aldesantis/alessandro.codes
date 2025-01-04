@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/selling-your-professional-services-firm
+slug: selling-your-professional-services-firm
 ---
 # Selling Your Professional Services Firm
 

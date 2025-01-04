@@ -13,6 +13,7 @@ summary: |
   Customer loyalty programs are increasingly popular as businesses seek to differentiate themselves in a competitive market. However, not all loyalty programs guarantee success, as seen with Bed Bath & Beyond's generic coupon approach. To measure the effectiveness of a loyalty program, brands must set clear goals, track incremental revenue, and carefully analyze costs. Sophisticated methods like difference-in-difference analysis can provide a more accurate picture of the program's impact, while considering both tangible and intangible rewards is crucial for calculating return on investment. Understanding customer behavior and feedback is also essential in evaluating the true success of a loyalty program.
 source: reader
 permalink: l/articles/so-you-ve-built-a-loyalty-program-how-do-you-measure-success
+slug: so-you-ve-built-a-loyalty-program-how-do-you-measure-success
 ---
 # So You've Built a Loyalty Program. How Do You Measure Success?
 

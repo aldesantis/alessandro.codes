@@ -1,6 +1,8 @@
 ---
 permalink: n/cross-functionality-removes-dependencies
+slug: cross-functionality-removes-dependencies
 status: 
+title: Cross-functionality removes dependencies
 ---
 # Cross-functionality removes dependencies
 

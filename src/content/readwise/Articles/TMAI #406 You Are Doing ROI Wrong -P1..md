@@ -13,6 +13,7 @@ summary: |
   Marketing measurement is complicated, making it difficult for executives to trust ROI reported by the Marketing team. Different measurement approaches like Last Click ROI, Multi-Touch Attribution ROI, and Channel Silo Incrementality ROI offer varying perspectives on marketing effectiveness and impact. Understanding these measurement methods can help optimize marketing strategies and budget allocation for better outcomes.
 source: reader
 permalink: l/articles/tmai-406-you-are-doing-roi-wrong-p-1
+slug: tmai-406-you-are-doing-roi-wrong-p-1
 ---
 # TMAI #406: You Are Doing ROI Wrong -P1.
 

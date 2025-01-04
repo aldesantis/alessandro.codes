@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/community-marketing-why-we-need-go-to-community-not-just-go-to-market
+slug: community-marketing-why-we-need-go-to-community-not-just-go-to-market
 ---
 # Community ≠ Marketing: Why We Need Go-to-Community, Not Just Go-to-Market
 

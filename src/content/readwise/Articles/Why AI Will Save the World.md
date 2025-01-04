@@ -13,6 +13,7 @@ summary: |
   There's a full-blown moral panic about AI right now. But the real risk is losing the race to global AI technological superiority.
 source: reader
 permalink: l/articles/why-ai-will-save-the-world
+slug: why-ai-will-save-the-world
 ---
 # Why AI Will Save the World
 

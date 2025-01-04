@@ -13,6 +13,7 @@ summary: |
   But only members who previously purchased one of Nike’s virtual releases will have the chance to buy it.
 source: reader
 permalink: l/articles/nike-s-virtual-studio-is-dropping-its-first-physical-sneaker
+slug: nike-s-virtual-studio-is-dropping-its-first-physical-sneaker
 ---
 # Nike’s Virtual Studio Is Dropping Its First Physical Sneaker
 

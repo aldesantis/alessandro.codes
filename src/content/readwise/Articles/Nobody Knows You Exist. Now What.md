@@ -13,6 +13,7 @@ summary: |
   And if you feel shy about this, here’s the good news - promoting yourself doesn’t have to mean selling your product or service with big, flashing lights like a Las Vegas casino.
 source: reader
 permalink: l/articles/nobody-knows-you-exist-now-what
+slug: nobody-knows-you-exist-now-what
 ---
 # Nobody Knows You Exist. Now What?
 

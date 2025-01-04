@@ -13,6 +13,7 @@ summary: |
   Living, you stand under a waterfall.
 source: reader
 permalink: l/articles/brain-food-earned-success
+slug: brain-food-earned-success
 ---
 # Brain Food: Earned Success
 

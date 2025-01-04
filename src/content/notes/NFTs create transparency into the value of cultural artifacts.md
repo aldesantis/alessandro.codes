@@ -1,6 +1,8 @@
 ---
 permalink: n/nf-ts-create-transparency-into-the-value-of-cultural-artifacts
+slug: nf-ts-create-transparency-into-the-value-of-cultural-artifacts
 status: 
+title: NFTs create transparency into the value of cultural artifacts
 ---
 # NFTs create transparency into the value of cultural artifacts
 

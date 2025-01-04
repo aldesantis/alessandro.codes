@@ -13,6 +13,7 @@ summary: |
   Customers would see their points as a tangible pathway to getting more of what they love rather than a generic currency.
 source: reader
 permalink: l/articles/mc-donald-s-shows-brands-why-personalization-is-necessary-for-loyalty-points
+slug: mc-donald-s-shows-brands-why-personalization-is-necessary-for-loyalty-points
 ---
 # McDonald's Shows Brands Why Personalization Is Necessary for Loyalty Points
 

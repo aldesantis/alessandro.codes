@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/how-to-talk-to-anyone
+slug: how-to-talk-to-anyone
 ---
 # How to Talk to Anyone
 

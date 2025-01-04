@@ -13,6 +13,7 @@ summary: |
   Everyone needs two shticks.
 source: reader
 permalink: l/articles/two-shticks
+slug: two-shticks
 ---
 # Two Shticks
 

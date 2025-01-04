@@ -13,6 +13,7 @@ summary: |
   The text discusses the concept of the Iterative Adjacent Possible, highlighting the importance of embracing limitations to unlock potential and achieve long-term success with lower risk. It emphasizes the need to make decisions within the realm of the adjacent possible, where choices are more likely to succeed. By breaking down decisions into smaller, manageable steps and making iterative judgments, individuals and companies can navigate uncertainties and discover new possibilities. The text also contrasts this approach with the traditional "heroic leap" technique, pointing out the benefits of the Iterative Adjacent Possible in generating value and minimizing risk. Overall, it encourages embracing uncertainty and making small, strategic decisions to realize significant outcomes.
 source: reader
 permalink: l/articles/the-iterative-adjacent-possible
+slug: the-iterative-adjacent-possible
 ---
 # The Iterative Adjacent Possible
 

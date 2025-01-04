@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/how-to-take-smart-notes
+slug: how-to-take-smart-notes
 ---
 # How to Take Smart Notes
 

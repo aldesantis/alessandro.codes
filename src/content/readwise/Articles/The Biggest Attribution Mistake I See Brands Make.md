@@ -13,6 +13,7 @@ summary: |
   Heads up: I'm going to send out a sign-up email for another round of free consulting calls on Tuesday August 1st at 1pm EST. Watch your inbox if you want to nab a spot.
 source: reader
 permalink: l/articles/the-biggest-attribution-mistake-i-see-brands-make
+slug: the-biggest-attribution-mistake-i-see-brands-make
 ---
 # The Biggest Attribution Mistake I See Brands Make
 

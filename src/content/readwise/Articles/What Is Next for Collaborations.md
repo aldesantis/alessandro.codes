@@ -13,6 +13,7 @@ summary: |
   Brands are increasingly using collaborations across various cultural fields like food, art, and hospitality to create immersive experiences and build a recognizable identity. This strategy allows them to engage consumers in new ways and diversify their revenue streams. Ultimately, these collaborations help brands establish themselves as cultural tastemakers and foster loyalty among fans.
 source: reader
 permalink: l/articles/what-is-next-for-collaborations
+slug: what-is-next-for-collaborations
 ---
 # What Is Next for Collaborations?
 

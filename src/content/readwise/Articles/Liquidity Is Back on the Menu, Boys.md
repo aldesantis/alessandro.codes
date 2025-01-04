@@ -13,6 +13,7 @@ summary: |
   Happy Sunday! Reddit and a semiconductor company went public.
 source: reader
 permalink: l/articles/liquidity-is-back-on-the-menu-boys
+slug: liquidity-is-back-on-the-menu-boys
 ---
 # Liquidity Is Back on the Menu, Boys
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/social-support-reduces-stress
+slug: social-support-reduces-stress
 status: 
+title: Social support reduces stress
 ---
 # Social support reduces stress
 

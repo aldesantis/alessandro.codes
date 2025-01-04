@@ -13,6 +13,7 @@ summary: |
   Progress is not automatic. Many people continue doing the same things without significant growth. To achieve big results, radical changes are often necessary.
 source: reader
 permalink: l/articles/progress-is-not-automatic
+slug: progress-is-not-automatic
 ---
 # Progress Is Not Automatic
 

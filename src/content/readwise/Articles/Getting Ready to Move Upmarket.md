@@ -13,6 +13,7 @@ summary: |
   Get the move upmarket right and you can unlock new users, use cases, and revenue streams. But get it wrong, and you risk losing focus, increasing burn, and stifling product innovation. So how do you prepare? Understand the unique value-add of your product, define the customer who would benefit most from that value-add, then assess if you can service their needs.
 source: reader
 permalink: l/articles/getting-ready-to-move-upmarket
+slug: getting-ready-to-move-upmarket
 ---
 # Getting Ready to Move Upmarket
 

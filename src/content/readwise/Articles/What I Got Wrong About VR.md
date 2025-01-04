@@ -13,6 +13,7 @@ summary: |
   The author admits he was wrong about Apple's Vision Pro VR headset's success and the state of VR technology, highlighting the challenges faced by the industry due to lack of breakthrough advancements and consumer demand. The text explores how VR devices may be isolating and not as transformative as initially envisioned, signaling a shift in how people view technology's impact on their lives and relationships. Ultimately, the author questions the future of VR and its role in society, especially considering personal experiences and changing perspectives on technology use.
 source: reader
 permalink: l/articles/what-i-got-wrong-about-vr
+slug: what-i-got-wrong-about-vr
 ---
 # What I Got Wrong About VR
 

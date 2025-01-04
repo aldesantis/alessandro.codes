@@ -13,6 +13,7 @@ summary: |
   “Remove the friction” — ah, timeless advice from eCom operators. I think about this a lot — how much friction is bad?
 source: reader
 permalink: l/articles/terraforming-for-commerce
+slug: terraforming-for-commerce
 ---
 # 👁️ “Terraforming” for Commerce
 

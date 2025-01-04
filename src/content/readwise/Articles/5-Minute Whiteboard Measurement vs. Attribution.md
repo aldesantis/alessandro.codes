@@ -13,6 +13,7 @@ summary: |
   Howdy SparkToro fans and welcome to the first edition of a new series we're experimenting with—short, whiteboard style explainer videos. This inaugural
 source: reader
 permalink: l/articles/5-minute-whiteboard-measurement-vs-attribution
+slug: 5-minute-whiteboard-measurement-vs-attribution
 ---
 # 5-Minute Whiteboard: Measurement vs. Attribution
 

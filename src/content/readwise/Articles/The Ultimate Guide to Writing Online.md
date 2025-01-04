@@ -13,6 +13,7 @@ summary: |
   The Internet could become your most powerful asset, if only you were using it correctly. In Write of Passage, I teach a proven system to write online that’s built for the 21st century. I’ve distill…
 source: reader
 permalink: l/articles/the-ultimate-guide-to-writing-online
+slug: the-ultimate-guide-to-writing-online
 ---
 # The Ultimate Guide to Writing Online
 

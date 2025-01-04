@@ -13,6 +13,7 @@ summary: |
   The false consensus effect is when people think their opinions are more common than they really are. Researchers have studied why this happens and found that it can be influenced by motivations and selective exposure. This bias can affect how people perceive others' behaviors and beliefs.
 source: reader
 permalink: l/articles/false-consensus-effect-definition-and-examples
+slug: false-consensus-effect-definition-and-examples
 ---
 # False Consensus Effect: Definition and Examples
 

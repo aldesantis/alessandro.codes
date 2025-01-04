@@ -13,6 +13,7 @@ summary: |
   Read The Playbook for Navigating Uncertainty  write about Lead your team through challenges with confidence with our guide to navigating uncertainty.
 source: reader
 permalink: l/articles/the-playbook-for-navigating-uncertainty
+slug: the-playbook-for-navigating-uncertainty
 ---
 # The Playbook for Navigating Uncertainty
 

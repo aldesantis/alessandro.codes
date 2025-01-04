@@ -13,6 +13,7 @@ summary: |
   Your to-do list can wait
 source: reader
 permalink: l/articles/devote-yourself-to-the-cause-of-your-life
+slug: devote-yourself-to-the-cause-of-your-life
 ---
 # Devote Yourself to the Cause of Your Life
 

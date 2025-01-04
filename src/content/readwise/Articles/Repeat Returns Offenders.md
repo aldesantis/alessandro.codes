@@ -13,6 +13,7 @@ summary: |
   Retailers face challenges from serial returners who frequently buy and return items, impacting profits. Some brands are experimenting with data-driven returns policies and fees for habitual offenders, while trying to avoid alienating loyal customers. A balanced approach is essential to discourage abuse without harming the brand's reputation.
 source: reader
 permalink: l/articles/repeat-returns-offenders
+slug: repeat-returns-offenders
 ---
 # Repeat Returns Offenders
 

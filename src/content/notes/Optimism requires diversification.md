@@ -1,6 +1,8 @@
 ---
 permalink: n/optimism-requires-diversification
+slug: optimism-requires-diversification
 status: 
+title: Optimism requires diversification
 ---
 # Optimism requires diversification
 

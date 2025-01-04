@@ -13,6 +13,7 @@ summary: |
   While Newton’s third law was developed with physics in mind, it applies equally well to biology. When pushed on, we push back.
 source: reader
 permalink: l/articles/brain-food-the-physics-of-relationships
+slug: brain-food-the-physics-of-relationships
 ---
 # Brain Food: The Physics of Relationships
 

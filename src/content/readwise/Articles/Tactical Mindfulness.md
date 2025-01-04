@@ -13,6 +13,7 @@ summary: |
   How to design a program to train your mind
 source: reader
 permalink: l/articles/tactical-mindfulness
+slug: tactical-mindfulness
 ---
 # Tactical Mindfulness
 

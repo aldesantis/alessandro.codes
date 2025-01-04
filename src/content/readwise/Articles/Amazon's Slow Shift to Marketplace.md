@@ -13,6 +13,7 @@ summary: |
   Amazon continues to move away from 1P sales to 3P sellers - sellers will comprise 60% of overall units sold by the end of the year. But the shift is gradual.
 source: reader
 permalink: l/articles/amazon-s-slow-shift-to-marketplace
+slug: amazon-s-slow-shift-to-marketplace
 ---
 # Amazon's Slow Shift to Marketplace
 

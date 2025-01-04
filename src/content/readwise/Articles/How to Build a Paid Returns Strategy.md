@@ -13,6 +13,7 @@ summary: |
   Many ecommerce brands are shifting towards paid returns after years of offering them for free, despite mixed customer reactions. Companies need to develop a thoughtful paid returns strategy that balances profitability with customer satisfaction. This includes setting clear objectives, implementing different return options, and planning a careful rollout.
 source: reader
 permalink: l/articles/how-to-build-a-paid-returns-strategy
+slug: how-to-build-a-paid-returns-strategy
 ---
 # How to Build a Paid Returns Strategy
 

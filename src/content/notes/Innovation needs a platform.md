@@ -1,6 +1,8 @@
 ---
 permalink: n/innovation-needs-a-platform
+slug: innovation-needs-a-platform
 status: 
+title: Innovation needs a platform
 ---
 # Innovation needs a platform
 

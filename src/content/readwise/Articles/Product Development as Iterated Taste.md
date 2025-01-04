@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/product-development-as-iterated-taste
+slug: product-development-as-iterated-taste
 ---
 # Product Development as Iterated Taste
 

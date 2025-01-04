@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/product-vs-feature-teams
+slug: product-vs-feature-teams
 ---
 # Product vs. Feature Teams
 

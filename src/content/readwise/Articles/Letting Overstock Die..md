@@ -13,6 +13,7 @@ summary: |
   There was a solid 4–6 week period from March–May where we were completely unsure if eCom was going to survive. Could we get products out the door?
 source: reader
 permalink: l/articles/letting-overstock-die
+slug: letting-overstock-die
 ---
 # Letting Overstock Die.
 

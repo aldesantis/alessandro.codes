@@ -13,6 +13,7 @@ summary: |
   Online recommendation culture is growing as a response to algorithm-driven suggestions, emphasizing personal taste. Many platforms now feature human-curated recommendations, with people sharing their favorite products and experiences. This shift highlights the desire for authenticity amid the overwhelming amount of content available online.
 source: reader
 permalink: l/articles/the-banality-of-online-recommendation-culture-the-new-yorker
+slug: the-banality-of-online-recommendation-culture-the-new-yorker
 ---
 # The Banality of Online Recommendation Culture | the New Yorker
 

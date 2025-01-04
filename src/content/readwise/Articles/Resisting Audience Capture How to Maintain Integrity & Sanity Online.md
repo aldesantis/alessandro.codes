@@ -13,6 +13,7 @@ summary: |
   Audience Capture is a phenomenon where an audience has hypnotized or captured a creator, and it is becoming increasingly prevalent in the age of social media. The constant exposure to the opinions and judgments of others can lead to a loss of artistic integrity and a reliance on external validation. The document explores three core theories that contribute to Audience Capture: Cooley's Looking-Glass Self, Goffman's Presentation of Self, and Foucault's Village. It also provides 10 strategies for resisting Audience Capture, including recognizing that attention and fame do not bring true satisfaction, being selective about which audience feedback to consider, and focusing on building a niche community rather than trying to please everyone.
 source: reader
 permalink: l/articles/resisting-audience-capture-how-to-maintain-integrity-sanity-online
+slug: resisting-audience-capture-how-to-maintain-integrity-sanity-online
 ---
 # Resisting Audience Capture: How to Maintain Integrity & Sanity Online
 

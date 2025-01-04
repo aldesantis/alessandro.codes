@@ -13,6 +13,7 @@ summary: |
   Brands are turning to data clean rooms (DCRs) to analyze customer data while respecting privacy. DCRs are cloud-based environments for sharing anonymized datasets, supporting marketing activities. DCRs help brands improve customer experiences and drive revenue growth.
 source: reader
 permalink: l/articles/why-brands-are-turning-to-data-clean-rooms-to-drive-cx-initiatives
+slug: why-brands-are-turning-to-data-clean-rooms-to-drive-cx-initiatives
 ---
 # Why Brands Are Turning to Data Clean Rooms to Drive CX Initiatives
 

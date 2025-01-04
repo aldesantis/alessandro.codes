@@ -13,6 +13,7 @@ summary: |
   Some brands in the direct-to-consumer (DTC) space are choosing to remain wholesale holdouts, sticking to their DTC-only business model. One example is beauty brand Prose, which relies on its data-driven model and personalized products to maintain its DTC strategy. Another example is cleaning brand Branch Basics, which has focused on customer acquisition and retention to stay profitable without entering retail. These brands have found success in their respective categories and have chosen to wait before expanding into wholesale, citing the risks and challenges associated with retail distribution.
 source: reader
 permalink: l/articles/dtc-briefing-why-some-brands-are-still-holding-off-on-wholesale
+slug: dtc-briefing-why-some-brands-are-still-holding-off-on-wholesale
 ---
 # DTC Briefing: Why Some Brands Are Still Holding Off on Wholesale
 

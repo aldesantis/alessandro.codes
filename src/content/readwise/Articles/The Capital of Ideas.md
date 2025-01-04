@@ -13,6 +13,7 @@ summary: |
   A slight delay sending this because of some consulting work (not a bad problem to have!
 source: reader
 permalink: l/articles/the-capital-of-ideas
+slug: the-capital-of-ideas
 ---
 # The Capital of Ideas
 

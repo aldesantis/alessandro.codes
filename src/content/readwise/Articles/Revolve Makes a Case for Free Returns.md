@@ -13,6 +13,7 @@ summary: |
   Revolve has successfully reduced its return rate while still offering free shipping both ways. The company has implemented new technologies and policies to improve sizing guidance and encourage customers to keep their purchases. Despite the challenges of high return rates in e-commerce, Revolve's recent progress suggests a positive trend for the future.
 source: reader
 permalink: l/articles/revolve-makes-a-case-for-free-returns
+slug: revolve-makes-a-case-for-free-returns
 ---
 # Revolve Makes a Case for Free Returns
 

@@ -13,6 +13,7 @@ summary: |
   MrBeast pioneered the large-scale, game show spectacle on YouTube. As he grew, tons of channels began mimicking that format – they even mimicked his open-mouthed thumbnail style!
 source: reader
 permalink: l/articles/how-to-get-ahead-of-trends
+slug: how-to-get-ahead-of-trends
 ---
 # How to Get Ahead of Trends
 

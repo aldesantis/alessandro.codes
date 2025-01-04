@@ -13,6 +13,7 @@ summary: |
   Many direct-to-consumer startups are expanding internationally before the holiday season. Brands like Made In and Bearaby are launching e-commerce sites in countries like the U.K. and Germany. This move aims to attract more customers in North America and Europe.
 source: reader
 permalink: l/articles/dtc-briefing-how-brands-like-made-in-and-bearaby-decide-when-to-expand-internationally
+slug: dtc-briefing-how-brands-like-made-in-and-bearaby-decide-when-to-expand-internationally
 ---
 # DTC Briefing: How Brands Like Made in and Bearaby Decide When to Expand Internationally
 

@@ -13,6 +13,7 @@ summary: |
   In 2025, the rise of AI agents will transform how we interact with technology, allowing these tools to handle complex tasks autonomously. There will be a shift towards AI becoming a seamless part of our daily lives and business operations. This evolution will lead to new user interfaces and a focus on human curation in a world saturated with AI-generated content.
 source: reader
 permalink: l/articles/the-next-big-thing-in-2025-will-be
+slug: the-next-big-thing-in-2025-will-be
 ---
 # The Next Big Thing in 2025 Will Be...
 

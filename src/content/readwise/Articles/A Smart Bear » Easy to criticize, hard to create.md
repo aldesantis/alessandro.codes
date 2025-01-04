@@ -13,6 +13,7 @@ summary: |
   Critics often find it easy to tear apart business ideas and predict failure, but their opinions can be useless and hinder the creation of something new and great. The goal of an entrepreneur is not to always be right, but to construct with humility, seek better opinions, and learn from mistakes. The Lean Startup movement also emphasizes the value of learning and running experiments over being right from the start. While it is important to listen to critics, it is equally important to dismiss criticism without consideration and determine if there is any truth in it.
 source: reader
 permalink: l/articles/a-smart-bear-easy-to-criticize-hard-to-create
+slug: a-smart-bear-easy-to-criticize-hard-to-create
 ---
 # A Smart Bear » Easy to criticize, hard to create
 

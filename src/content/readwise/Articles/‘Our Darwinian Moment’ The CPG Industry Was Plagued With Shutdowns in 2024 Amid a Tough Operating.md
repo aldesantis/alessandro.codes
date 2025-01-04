@@ -1,17 +1,19 @@
 ---
-title: >
+title: |
   ‘Our Darwinian Moment’: The CPG Industry Was Plagued With Shutdowns in 2024 Amid a Tough Operating Environment
-full_title: >
+full_title: |
   ‘Our Darwinian Moment’: The CPG Industry Was Plagued With Shutdowns in 2024 Amid a Tough Operating Environment
-author: >
+author: |
   Gabriela Barkho
 url: https://www.modernretail.co/operations/our-darwinian-moment-the-cpg-industry-was-plagued-with-shutdowns-in-2024-amid-a-tough-operating-environment/?utm_campaign=mrdis&utm_medium=email&utm_source=mrdaily&utm_content=123024
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2023/11/IMG_7287.jpg
 published_date: 2024-12-30
-summary: >
+summary: |
   In 2024, many consumer packaged goods (CPG) startups faced shutdowns due to high costs, inflation, and intense competition. While some brands thrived, others struggled to scale effectively and manage expenses, leading to closures. Experts believe that only the most efficient and innovative brands will survive in this challenging environment.
 source: reader
+permalink: l/articles/our-darwinian-moment-the-cpg-industry-was-plagued-with-shutdowns-in-2024-amid-a-tough-operating
+slug: our-darwinian-moment-the-cpg-industry-was-plagued-with-shutdowns-in-2024-amid-a-tough-operating
 ---
 # ‘Our Darwinian Moment’: The CPG Industry Was Plagued With Shutdowns in 2024 Amid a Tough Operating Environment
 

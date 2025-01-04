@@ -13,6 +13,7 @@ summary: |
   The author reflects on navigating wellness in a complex world and the need for individualized self-care strategies. They explore the importance of small, consistent habits in improving well-being and finding balance amidst societal and personal challenges. Ultimately, the goal is to care for oneself in order to extend that care outward and make meaningful decisions.
 source: reader
 permalink: l/articles/tiny-stupid-habits
+slug: tiny-stupid-habits
 ---
 # Tiny Stupid Habits
 

@@ -13,6 +13,7 @@ summary: |
   Foxtrot, a high-end convenience store concept, faced financial collapse due to expansion challenges and cash flow issues. Despite a good idea and loyal customers, Foxtrot struggled to sustain its business model and secure investment for growth. The new CEO of Food52, Erika Ayers Badan, aims to revitalize the e-commerce and media company after a period of stagnant growth.
 source: reader
 permalink: l/articles/what-happened-to-foxtrot
+slug: what-happened-to-foxtrot
 ---
 # What Happened to Foxtrot?
 

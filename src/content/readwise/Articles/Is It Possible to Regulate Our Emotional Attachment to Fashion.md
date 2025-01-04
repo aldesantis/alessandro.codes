@@ -13,6 +13,7 @@ summary: |
   The article discusses the challenge of regulating emotional attachment to fashion, emphasizing that overconsumption is driven by fast fashion marketing rather than just the physical durability of clothing. EU policymakers are considering including "emotional durability" in regulations to address these issues, focusing on factors like product volume and promotional tactics. Efforts are ongoing in France to penalize fast fashion practices, but a consensus on effective measurement and regulation remains elusive.
 source: reader
 permalink: l/articles/is-it-possible-to-regulate-our-emotional-attachment-to-fashion
+slug: is-it-possible-to-regulate-our-emotional-attachment-to-fashion
 ---
 # Is It Possible to Regulate Our Emotional Attachment to Fashion?
 

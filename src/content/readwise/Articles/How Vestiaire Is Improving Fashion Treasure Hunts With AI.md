@@ -13,6 +13,7 @@ summary: |
   The Paris-based fashion resale platform is adding computer vision to solve the unique challenge of specific searches among a vast product catalogue.
 source: reader
 permalink: l/articles/how-vestiaire-is-improving-fashion-treasure-hunts-with-ai
+slug: how-vestiaire-is-improving-fashion-treasure-hunts-with-ai
 ---
 # How Vestiaire Is Improving Fashion Treasure Hunts With AI
 

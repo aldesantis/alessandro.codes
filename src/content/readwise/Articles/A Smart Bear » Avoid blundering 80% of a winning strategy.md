@@ -13,6 +13,7 @@ summary: |
   The key to winning in chess and startups is to avoid making blunders. Blunders significantly impact game outcomes, with players committing more blunders losing the majority of the time. Startups can also fail due to preventable blunders, such as not understanding customer needs or launching too early.
 source: reader
 permalink: l/articles/a-smart-bear-avoid-blundering-80-of-a-winning-strategy
+slug: a-smart-bear-avoid-blundering-80-of-a-winning-strategy
 ---
 # A Smart Bear » Avoid blundering: 80% of a winning strategy
 

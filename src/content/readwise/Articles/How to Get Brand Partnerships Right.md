@@ -13,6 +13,7 @@ summary: |
   When two (or occasionally more) brands put their heads together and work on a project, something beautiful can happen. This is about two businesses combining skill sets, audiences and, normally, budgets while working to their respective goals. 
 source: reader
 permalink: l/articles/how-to-get-brand-partnerships-right
+slug: how-to-get-brand-partnerships-right
 ---
 # How to Get Brand Partnerships Right
 

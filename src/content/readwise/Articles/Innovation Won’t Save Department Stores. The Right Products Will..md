@@ -13,6 +13,7 @@ summary: |
   Department stores like Macy's and Kohl's are struggling to attract customers and are closing many locations due to competition from online retailers and discount chains. To survive, they need to offer unique products that customers can't easily find elsewhere. Experts believe that by refreshing their merchandise and creating a more appealing shopping experience, department stores can still succeed.
 source: reader
 permalink: l/articles/innovation-won-t-save-department-stores-the-right-products-will
+slug: innovation-won-t-save-department-stores-the-right-products-will
 ---
 # Innovation Won’t Save Department Stores. The Right Products Will.
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/evaluative-research-definition-methods-types
+slug: evaluative-research-definition-methods-types
 ---
 # Evaluative Research: Definition, Methods & Types
 

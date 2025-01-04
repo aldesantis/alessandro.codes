@@ -13,6 +13,7 @@ summary: |
   Status limbo is a state of uncertainty about your status and future. It can be voluntary or involuntary, leading to personal growth and exploration. Leaving status limbo can bring clarity and a sense of relief.
 source: reader
 permalink: l/articles/status-limbo
+slug: status-limbo
 ---
 # Status Limbo
 

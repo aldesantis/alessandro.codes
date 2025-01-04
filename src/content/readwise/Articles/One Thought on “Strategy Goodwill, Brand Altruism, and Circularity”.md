@@ -13,6 +13,7 @@ summary: |
   In a world increasingly conscious of its consumption footprint, the need for sustainability in retail has never been more pronounced. Since its inception in 1902, Goodwill Industries has stood as a…
 source: reader
 permalink: l/articles/one-thought-on-strategy-goodwill-brand-altruism-and-circularity
+slug: one-thought-on-strategy-goodwill-brand-altruism-and-circularity
 ---
 # One Thought on “Strategy: Goodwill, Brand Altruism, and Circularity”
 

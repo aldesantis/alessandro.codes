@@ -1,6 +1,8 @@
 ---
 permalink: n/productivity-is-goal-plus-strategy
+slug: productivity-is-goal-plus-strategy
 status: 
+title: Productivity is goal plus strategy
 ---
 # Productivity is goal plus strategy
 

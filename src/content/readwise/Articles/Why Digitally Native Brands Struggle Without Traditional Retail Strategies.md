@@ -13,6 +13,7 @@ summary: |
   Digitally native vertical brands (DNVBs) have a long way to go to catch up to established brands. While established brands will make up $134.55 billion in D2C ecommerce sales in 2023, digitally native brands will make up just $34.84 billion, according to our March 2023 forecast.
 source: reader
 permalink: l/articles/why-digitally-native-brands-struggle-without-traditional-retail-strategies
+slug: why-digitally-native-brands-struggle-without-traditional-retail-strategies
 ---
 # Why Digitally Native Brands Struggle Without Traditional Retail Strategies
 

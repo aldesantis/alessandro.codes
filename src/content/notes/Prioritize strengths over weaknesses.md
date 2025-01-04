@@ -1,6 +1,8 @@
 ---
 permalink: n/prioritize-strengths-over-weaknesses
+slug: prioritize-strengths-over-weaknesses
 status: 
+title: Prioritize strengths over weaknesses
 ---
 # Prioritize strengths over weaknesses
 

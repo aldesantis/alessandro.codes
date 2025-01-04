@@ -13,6 +13,7 @@ summary: |
   How TikTok Ruined Politics (And Your Sex Life) – How many f*cks should we give about politics? What’s driving the widening ideological gap between young men and women?
 source: reader
 permalink: l/articles/this-question-means-everything
+slug: this-question-means-everything
 ---
 # This Question Means Everything
 

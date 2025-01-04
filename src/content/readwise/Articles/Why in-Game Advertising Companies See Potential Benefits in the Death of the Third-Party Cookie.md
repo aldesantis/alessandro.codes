@@ -13,6 +13,7 @@ summary: |
   In-game advertising companies are seeing the death of third-party cookies as an opportunity rather than a challenge. They believe that the collapse of cookies will result in a split online ad market, with high-quality ad inventory using first-party identifiers and consent, and a long tail of poorly targeted impressions that are more prone to fraud. In the gaming environment, every action a user takes generates data, allowing in-game advertising companies to gather valuable insights without relying on cookies. They can measure metrics such as brand lift and loyalty through in-game engagements. While the growth of in-game advertising may be gradual, it offers brands a unique way to connect with users.
 source: reader
 permalink: l/articles/why-in-game-advertising-companies-see-potential-benefits-in-the-death-of-the-third-party-cookie
+slug: why-in-game-advertising-companies-see-potential-benefits-in-the-death-of-the-third-party-cookie
 ---
 # Why in-Game Advertising Companies See Potential Benefits in the Death of the Third-Party Cookie
 

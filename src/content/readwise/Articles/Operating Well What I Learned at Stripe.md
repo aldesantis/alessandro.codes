@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/operating-well-what-i-learned-at-stripe
+slug: operating-well-what-i-learned-at-stripe
 ---
 # Operating Well: What I Learned at Stripe
 

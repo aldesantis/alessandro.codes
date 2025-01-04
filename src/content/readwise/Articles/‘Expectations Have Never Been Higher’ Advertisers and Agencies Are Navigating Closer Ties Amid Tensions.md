@@ -13,6 +13,7 @@ summary: |
   What’s raised the stakes is that advertisers are not merely talking about wanting change; they’re demanding it. They’re taking concrete steps toward shaping what they call the “agency of the future”.
 source: reader
 permalink: l/articles/expectations-have-never-been-higher-advertisers-and-agencies-are-navigating-closer-ties-amid-tensions
+slug: expectations-have-never-been-higher-advertisers-and-agencies-are-navigating-closer-ties-amid-tensions
 ---
 # ‘Expectations Have Never Been Higher’: Advertisers and Agencies Are Navigating Closer Ties Amid Tensions
 

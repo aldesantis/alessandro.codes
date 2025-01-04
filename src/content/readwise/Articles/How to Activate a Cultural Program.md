@@ -13,6 +13,7 @@ summary: |
   To activate a cultural program, brands should define their cultural output, operationalize the program with a strategic calendar, and execute it with a detailed rollout plan. This approach helps create a cohesive narrative that connects various cultural initiatives and maximizes their impact. By doing so, brands can enhance their cultural influence and ensure a consistent presence across different platforms.
 source: reader
 permalink: l/articles/how-to-activate-a-cultural-program
+slug: how-to-activate-a-cultural-program
 ---
 # How to Activate a Cultural Program
 

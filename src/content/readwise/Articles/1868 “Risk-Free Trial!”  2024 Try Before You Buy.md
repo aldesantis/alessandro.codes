@@ -13,6 +13,7 @@ summary: |
   I hope you’re sitting back, relaxed, and enjoying the Super Bowl!
 source: reader
 permalink: l/articles/1868-risk-free-trial-2024-try-before-you-buy
+slug: 1868-risk-free-trial-2024-try-before-you-buy
 ---
 # 1868: “Risk-Free Trial!” | 2024: Try Before You Buy
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/communities-of-practice-combat-cross-functional-silos
+slug: communities-of-practice-combat-cross-functional-silos
 status: 
+title: Communities of practice combat cross-functional silos
 ---
 # Communities of practice combat cross-functional silos
 

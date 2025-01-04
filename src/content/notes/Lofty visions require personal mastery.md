@@ -1,6 +1,8 @@
 ---
 permalink: n/lofty-visions-require-personal-mastery
+slug: lofty-visions-require-personal-mastery
 status: 
+title: Lofty visions require personal mastery
 ---
 # Lofty visions require personal mastery
 

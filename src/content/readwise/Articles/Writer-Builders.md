@@ -13,6 +13,7 @@ summary: |
   The text discusses the concept of writer-builders, individuals who excel in both writing and building in various domains. It highlights the benefits of writing for reflection, idea generation, and connecting with others. The emergence of more writer-builders is attributed to the increasing openness to career fluidity and the power of writing as a medium.
 source: reader
 permalink: l/articles/writer-builders
+slug: writer-builders
 ---
 # Writer-Builders
 

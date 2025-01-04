@@ -13,6 +13,7 @@ summary: |
   Happy Sunday! If you’re reading this, I hope you’re kicked back, on a couch, feet up, and have a beverage in your hand.
 source: reader
 permalink: l/articles/give-me-4-minutes-and-i-ll-make-you-100-000-in-revenue
+slug: give-me-4-minutes-and-i-ll-make-you-100-000-in-revenue
 ---
 # Give Me 4 Minutes, and I’ll Make You $100,000 in Revenue
 

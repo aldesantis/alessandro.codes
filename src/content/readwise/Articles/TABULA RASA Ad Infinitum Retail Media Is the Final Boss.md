@@ -13,6 +13,7 @@ summary: |
   In the digital Agora of the internet, a shift has taken place: the transmutation of Commerce into Media.
 source: reader
 permalink: l/articles/tabula-rasa-ad-infinitum-retail-media-is-the-final-boss
+slug: tabula-rasa-ad-infinitum-retail-media-is-the-final-boss
 ---
 # TABULA RASA: Ad Infinitum: Retail Media Is the Final Boss
 

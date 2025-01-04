@@ -13,6 +13,7 @@ summary: |
   You know the answer
 source: reader
 permalink: l/articles/224-what-s-next-for-loyalty-programs
+slug: 224-what-s-next-for-loyalty-programs
 ---
 # #224: What's Next for Loyalty Programs?
 

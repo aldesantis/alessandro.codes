@@ -1,17 +1,19 @@
 ---
-title: >
+title: |
   LVMH Fashions a Hollywood Entry; 22 Montaigne Entertainment Teams With Superconnector Studios to Open Its Storied 75+ Brands for Films & TV
-full_title: >
+full_title: |
   LVMH Fashions a Hollywood Entry; 22 Montaigne Entertainment Teams With Superconnector Studios to Open Its Storied 75+ Brands for Films & TV
-author: >
+author: |
   Mike Fleming Jr
 url: https://deadline.com/2024/02/lvmh-enters-hollywood-22-montaigne-entertainment-superconnector-studios-launch-movies-tv-documentary-produce-co-finance-luxury-brands-1235831690/?utm_source=news.futureparty.com&utm_medium=newsletter&utm_campaign=boarding-pass-face
 category: articles
 image_url: https://deadline.com/wp-content/uploads/2024/02/lvmh.jpg?w=1024
 published_date: 2024-02-20
-summary: >
+summary: |
   LVMH has launched 22 Montaigne Entertainment in partnership with Superconnector Studios to develop film, TV, and audio productions for its 75+ luxury brands. This endeavor aims to bring the rich histories of brands like Louis Vuitton, Dior, and Tiffany & Co. to life through premium entertainment experiences. By collaborating with experienced storytellers, LVMH seeks to create authentic and compelling content that aligns with the values and heritage of each Maison, allowing for the exploration of various entertainment formats while maintaining the brands' autonomy and identity.
 source: reader
+permalink: l/articles/lvmh-fashions-a-hollywood-entry-22-montaigne-entertainment-teams-with-superconnector-studios-to
+slug: lvmh-fashions-a-hollywood-entry-22-montaigne-entertainment-teams-with-superconnector-studios-to
 ---
 # LVMH Fashions a Hollywood Entry; 22 Montaigne Entertainment Teams With Superconnector Studios to Open Its Storied 75+ Brands for Films & TV
 

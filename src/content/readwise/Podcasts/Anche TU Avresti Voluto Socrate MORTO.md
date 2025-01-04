@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/anche-tu-avresti-voluto-socrate-morto
+slug: anche-tu-avresti-voluto-socrate-morto
 ---
 # Anche TU Avresti Voluto Socrate MORTO
 

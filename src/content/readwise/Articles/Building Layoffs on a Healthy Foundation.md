@@ -13,6 +13,7 @@ summary: |
   The text discusses the challenges and considerations involved in conducting layoffs within a company, emphasizing the importance of strategic planning, clear communication, and managing the emotional impact on employees. It highlights the need for leaders to approach layoffs thoughtfully, with a focus on maintaining transparency, minimizing disruption to operations, and prioritizing the well-being of both departing and remaining staff. The text also stresses the significance of preparing for layoffs in advance, implementing structured processes, and addressing the organizational and emotional repercussions that come with such decisions.
 source: reader
 permalink: l/articles/building-layoffs-on-a-healthy-foundation
+slug: building-layoffs-on-a-healthy-foundation
 ---
 # Building Layoffs on a Healthy Foundation
 

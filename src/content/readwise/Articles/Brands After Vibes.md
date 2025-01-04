@@ -13,6 +13,7 @@ summary: |
   Brands today are increasingly defined by "vibes" rather than unique stories or identities, influenced by AI and social media trends. This shift means that consumers often connect with brands more through emotions and perceptions than through traditional branding strategies. To succeed in this vibe-driven world, brands may need to focus on creating tangible value and distinctiveness that stands out amidst the noise.
 source: reader
 permalink: l/articles/brands-after-vibes
+slug: brands-after-vibes
 ---
 # Brands After Vibes
 

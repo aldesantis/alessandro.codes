@@ -1,6 +1,8 @@
 ---
 permalink: n/stress-isn-t-the-same-for-everyone
+slug: stress-isn-t-the-same-for-everyone
 status: 
+title: Stress isn’t the same for everyone
 ---
 # Stress isn’t the same for everyone
 

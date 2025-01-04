@@ -1,6 +1,8 @@
 ---
 permalink: n/learning-is-the-work
+slug: learning-is-the-work
 status: 
+title: Learning is the work
 ---
 # Learning is the work
 

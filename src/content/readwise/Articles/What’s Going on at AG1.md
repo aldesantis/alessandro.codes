@@ -13,6 +13,7 @@ summary: |
   One of the most successful consumer brand startups is AG1, the supplement business previously called Athletic Greens.
 source: reader
 permalink: l/articles/what-s-going-on-at-a-g-1
+slug: what-s-going-on-at-a-g-1
 ---
 # What’s Going on at AG1?
 

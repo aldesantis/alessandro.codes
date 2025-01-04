@@ -13,6 +13,7 @@ summary: |
   Taking time for a 10,000 foot perspective
 source: reader
 permalink: l/articles/a-few-things-i-believe-about-ai
+slug: a-few-things-i-believe-about-ai
 ---
 # A Few Things I Believe About AI
 

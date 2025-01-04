@@ -1,6 +1,8 @@
 ---
 permalink: n/kindness-begets-kindness
+slug: kindness-begets-kindness
 status: 
+title: Kindness begets kindness
 ---
 # Kindness begets kindness
 

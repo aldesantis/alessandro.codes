@@ -13,6 +13,7 @@ summary: |
   Trading potatoes isn't what it used to be
 source: reader
 permalink: l/articles/chasing-wins-not-value-in-e-commerce
+slug: chasing-wins-not-value-in-e-commerce
 ---
 # Chasing Wins Not Value in E-Commerce
 

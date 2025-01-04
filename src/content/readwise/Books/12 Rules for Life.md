@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/12-rules-for-life
+slug: 12-rules-for-life
 ---
 # 12 Rules for Life
 

@@ -13,6 +13,7 @@ summary: |
   This complete work-prioritization framework builds on the simplistic "Rocks, Pebbles, Sand" analogy, adding the details you need for the real world.
 source: reader
 permalink: l/articles/rocks-pebbles-sand-how-to-implement-in-practice
+slug: rocks-pebbles-sand-how-to-implement-in-practice
 ---
 # Rocks, Pebbles, Sand: How to implement in practice
 

@@ -13,6 +13,7 @@ summary: |
   Harry Dry is a top copywriter with a large newsletter teaching copywriting skills. Some key rules for effective copy include making sentences shorter, being concrete and visual, and backing claims with proof. Writing compelling copy involves making bold promises, simplifying language, and engaging readers as if they were the ones speaking.
 source: reader
 permalink: l/tweets/harry-dry-is-the-best-copywriter-i-know
+slug: harry-dry-is-the-best-copywriter-i-know
 ---
 # Harry Dry Is the Best Copywriter I Know
 

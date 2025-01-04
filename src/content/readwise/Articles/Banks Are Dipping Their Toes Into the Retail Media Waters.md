@@ -13,6 +13,7 @@ summary: |
   Financial institutions like JPMorgan Chase are stepping into retail media, selling ads based on customer transaction data to compete with tech and retail players. Chase's move leverages its vast customer base and first-party data, marking the start of a new wave in retail media that may see more banks follow suit. The rise of retail media is fueled by shifts in user tracking policies, with companies like Chase aiming to tap into the growing market for targeted advertising.
 source: reader
 permalink: l/articles/banks-are-dipping-their-toes-into-the-retail-media-waters
+slug: banks-are-dipping-their-toes-into-the-retail-media-waters
 ---
 # Banks Are Dipping Their Toes Into the Retail Media Waters
 

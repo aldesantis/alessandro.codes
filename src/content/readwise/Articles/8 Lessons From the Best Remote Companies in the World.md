@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/8-lessons-from-the-best-remote-companies-in-the-world
+slug: 8-lessons-from-the-best-remote-companies-in-the-world
 ---
 # 8 Lessons From the Best Remote Companies in the World
 

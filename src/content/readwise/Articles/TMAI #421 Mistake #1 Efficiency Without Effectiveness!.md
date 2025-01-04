@@ -13,6 +13,7 @@ summary: |
   The text emphasizes the importance of balancing efficiency and effectiveness in business metrics. It suggests that focusing solely on one type of metric can lead to unintended negative consequences. Companies should use both effectiveness and efficiency metrics to incentivize smart decision-making and achieve better overall results.
 source: reader
 permalink: l/articles/tmai-421-mistake-1-efficiency-without-effectiveness
+slug: tmai-421-mistake-1-efficiency-without-effectiveness
 ---
 # TMAI #421: Mistake #1: Efficiency Without Effectiveness!
 

@@ -13,6 +13,7 @@ summary: |
   "Intellectual menopause" refers to a decline in creative inspiration and vitality that often occurs in men around middle age. This phenomenon is characterized by a lack of imagination and a reluctance to embrace new ideas, leading to stagnation in thought and expression. The author reflects on his own experiences and observes that even younger individuals can exhibit signs of this intellectual decline.
 source: reader
 permalink: l/articles/intellectual-menopause
+slug: intellectual-menopause
 ---
 # Intellectual Menopause
 

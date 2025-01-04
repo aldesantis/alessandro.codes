@@ -13,6 +13,7 @@ summary: |
   Apple's iPad ad reflects a shift towards everything being easily accessible and commoditized due to the Internet. The ad signifies both loss and new opportunities in the technology landscape. It highlights the empowering nature of tools like smartphones and devices created by Apple.
 source: reader
 permalink: l/articles/the-great-flattening
+slug: the-great-flattening
 ---
 # The Great Flattening
 

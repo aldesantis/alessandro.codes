@@ -13,6 +13,7 @@ summary: |
   Many will relieve their excesses and reset their quaffing habits this month, jumping on “Dry January” as fast as a gym membership promotion.
 source: reader
 permalink: l/articles/let-s-go-low-alcohol-with-the-immortal-low-abv-adonis-cocktail-and-deep-as-we-define-the-commerce-market
+slug: let-s-go-low-alcohol-with-the-immortal-low-abv-adonis-cocktail-and-deep-as-we-define-the-commerce-market
 ---
 # Let’s Go Low… Alcohol, With the Immortal Low-Abv Adonis Cocktail and Deep… as We Define the ‘Commerce Market’
 

@@ -13,6 +13,7 @@ summary: |
   Brands are increasingly partnering with popular live streamers to reach younger audiences, who prefer authentic and relatable content over traditional advertising. However, the unregulated nature of streaming can lead to risky behavior and controversies that may affect brand reputation. To succeed, brands must carefully vet streamers and ensure their values align, while being prepared to respond to any potential crises.
 source: reader
 permalink: l/articles/how-brands-can-navigate-the-murky-world-of-online-streaming
+slug: how-brands-can-navigate-the-murky-world-of-online-streaming
 ---
 # How Brands Can Navigate the Murky World of Online Streaming
 

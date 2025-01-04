@@ -13,6 +13,7 @@ summary: |
   The rich used to eat, dress, and even speak entirely differently from the masses. Today they wear T-shirts and sneakers just like the rest of us. But that doesn’t mean we’re all equal. It only lays bare the real source of inequality: actual money.
 source: reader
 permalink: l/articles/cultural-capital-is-no-substitute-for-cold-hard-cash
+slug: cultural-capital-is-no-substitute-for-cold-hard-cash
 ---
 # Cultural Capital Is No Substitute for Cold, Hard Cash
 

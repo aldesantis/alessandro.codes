@@ -1,6 +1,8 @@
 ---
 permalink: n/point-to-the-new-tower
+slug: point-to-the-new-tower
 status: 
+title: Point to the new tower
 ---
 # Point to the new tower
 

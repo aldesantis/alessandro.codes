@@ -13,6 +13,7 @@ summary: |
   After a five-year hiatus, direct-to-consumer sock brand Bombas is testing the out-of-home (OOH) marketing waters once again.
 source: reader
 permalink: l/articles/why-bombas-is-leaning-into-out-of-home-advertising-for-its-new-campaign
+slug: why-bombas-is-leaning-into-out-of-home-advertising-for-its-new-campaign
 ---
 # Why Bombas Is Leaning Into Out-of-Home Advertising for Its New Campaign
 

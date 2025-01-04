@@ -1,6 +1,8 @@
 ---
 permalink: n/regulation-can-create-opportunity
+slug: regulation-can-create-opportunity
 status: 
+title: Regulation can create opportunity
 ---
 # Regulation can create opportunity
 

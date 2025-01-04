@@ -13,6 +13,7 @@ summary: |
   The text explains the Alexander Technique, which helps people stop trying too hard and instead allows them to act effortlessly. It highlights how this technique can transform one’s presence, like when Clark Kent becomes Superman. By learning to unlearn habits that hinder us, we can access our natural confidence and creativity.
 source: reader
 permalink: l/articles/core-course
+slug: core-course
 ---
 # 🎓 Core Course
 

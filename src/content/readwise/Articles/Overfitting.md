@@ -13,6 +13,7 @@ summary: |
   The concept of overfitting is likened to a cat jumping on a hot stove and then avoiding all stoves, illustrating how humans tend to overgeneralize from limited information. This tendency can lead to prematurely giving up on learning new skills, habits, or facing challenges. Overgeneralizing from multiple data points can be more dangerous, as it can give a false sense of accuracy to our models. The text emphasizes the importance of treating problems as local until proven otherwise, suggesting that assuming every issue is solvable locally is more productive than extrapolating global problems from limited data.
 source: reader
 permalink: l/articles/overfitting
+slug: overfitting
 ---
 # Overfitting
 

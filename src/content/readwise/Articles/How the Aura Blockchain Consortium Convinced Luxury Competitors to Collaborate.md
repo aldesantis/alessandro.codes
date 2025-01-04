@@ -13,6 +13,7 @@ summary: |
   Luxury fashion brands are collaborating through the Aura Blockchain Consortium to standardize digital identities for goods. Legislation in the EU may soon require digital product passports for fashion items. Brands face challenges in adopting digital product IDs, but the technology offers potential for enhancing customer engagement and sustainability efforts.
 source: reader
 permalink: l/articles/how-the-aura-blockchain-consortium-convinced-luxury-competitors-to-collaborate
+slug: how-the-aura-blockchain-consortium-convinced-luxury-competitors-to-collaborate
 ---
 # How the Aura Blockchain Consortium Convinced Luxury Competitors to Collaborate
 

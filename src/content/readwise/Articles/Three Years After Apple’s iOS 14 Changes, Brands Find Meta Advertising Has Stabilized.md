@@ -13,6 +13,7 @@ summary: |
   Three years after Apple's iOS 14 update disrupted digital advertising, Meta experienced challenges due to limitations on tracking user activity for ad targeting. Brands initially reduced their Meta ad spending but have since seen stabilization and even success with Meta ads, as shown by Meta's revenue growth and improved efficiency for brands like Prose and Natural Life. Meta's investment in advertising tools like Advantage+ has been instrumental in retaining advertisers and increasing ROI, indicating that Meta remains a significant player in digital advertising despite competition from platforms like TikTok.
 source: reader
 permalink: l/articles/three-years-after-apple-s-i-os-14-changes-brands-find-meta-advertising-has-stabilized
+slug: three-years-after-apple-s-i-os-14-changes-brands-find-meta-advertising-has-stabilized
 ---
 # Three Years After Apple’s iOS 14 Changes, Brands Find Meta Advertising Has Stabilized
 

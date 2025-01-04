@@ -13,6 +13,7 @@ summary: |
   Discovery Platforms have new audience discovery built into the platform. Relationship Platforms give you more control and a reliable means of communication with your audience.
 source: reader
 permalink: l/articles/i-wish-i-learned-this-so-much-sooner
+slug: i-wish-i-learned-this-so-much-sooner
 ---
 # I Wish I Learned This So Much Sooner.
 

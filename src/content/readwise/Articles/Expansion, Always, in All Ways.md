@@ -13,6 +13,7 @@ summary: |
   Play Permissionless is free today. But if you enjoyed this post, you can tell Play Permissionless that their writing is valuable by pledging a future subscription.
 source: reader
 permalink: l/articles/expansion-always-in-all-ways
+slug: expansion-always-in-all-ways
 ---
 # Expansion, Always, in All Ways
 

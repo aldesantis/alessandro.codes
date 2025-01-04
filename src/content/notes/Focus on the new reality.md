@@ -1,6 +1,8 @@
 ---
 permalink: n/focus-on-the-new-reality
+slug: focus-on-the-new-reality
 status: 
+title: Focus on the new reality
 ---
 # Focus on the new reality
 

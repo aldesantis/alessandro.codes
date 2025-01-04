@@ -13,6 +13,7 @@ summary: |
   We tend to measure performance by what happens when things are going well. Yet how people, organizations, companies, leaders, and other things do on their best day isn’t all that instructive.
 source: reader
 permalink: l/articles/brain-food-committing-to-your-craft
+slug: brain-food-committing-to-your-craft
 ---
 # Brain Food: Committing to Your Craft
 

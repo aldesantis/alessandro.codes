@@ -13,6 +13,7 @@ summary: |
   Ugh. Yes.
 source: reader
 permalink: l/articles/you-are-probably-a-jerk-in-some-way
+slug: you-are-probably-a-jerk-in-some-way
 ---
 # You Are Probably a Jerk in Some Way.
 

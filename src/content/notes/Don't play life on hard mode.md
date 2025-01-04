@@ -1,6 +1,8 @@
 ---
 permalink: n/don-t-play-life-on-hard-mode
+slug: don-t-play-life-on-hard-mode
 status: 
+title: Don’t play life on hard mode
 ---
 # Don’t play life on hard mode
 

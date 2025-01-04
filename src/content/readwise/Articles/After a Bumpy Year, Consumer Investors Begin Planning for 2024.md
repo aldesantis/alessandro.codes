@@ -13,6 +13,7 @@ summary: |
   Consumer investors are beginning to plan for 2024 after a challenging few years for startup brands. With interest rates stabilizing and consumer spending strong, investors are looking to ramp up activity and write checks for the right companies. Investors are now focusing on the overall health and fundamentals of a company before participating in a funding round. Categories such as better-for-you food and beverage and clean beauty are expected to grow, and celebrity-backed brands continue to attract investors. However, not everyone is optimistic about the future, as venture capital funding for consumer businesses has dropped significantly.
 source: reader
 permalink: l/articles/after-a-bumpy-year-consumer-investors-begin-planning-for-2024
+slug: after-a-bumpy-year-consumer-investors-begin-planning-for-2024
 ---
 # After a Bumpy Year, Consumer Investors Begin Planning for 2024
 

@@ -13,6 +13,7 @@ summary: |
   Clarks has maintained relevance over 200 years by embracing new trends, commerce channels, and countercultures, staying steady in the footwear industry. Chief Marketing and Digital Officer Tara McRae discusses the challenge of understanding customer Muses deeply and bringing the brand closer to them. Clarks aims to innovate in various ways to connect with consumers, including creating a virtual world in Roblox called CICAVERSE. Tara emphasizes the importance of delivering the best brand experience across all channels and staying culturally relevant, especially with younger consumers who engage through platforms like Roblox and YouTube.
 source: reader
 permalink: l/articles/from-art-basel-to-roblox-how-clarks-follows-in-the-footsteps-of-customer-muses
+slug: from-art-basel-to-roblox-how-clarks-follows-in-the-footsteps-of-customer-muses
 ---
 # From Art Basel to Roblox: How Clarks Follows in the Footsteps of Customer Muses
 

@@ -13,6 +13,7 @@ summary: |
   What Everyone Is Getting Wrong About Mental Health (ft.
 source: reader
 permalink: l/articles/achieving-success-is-boring
+slug: achieving-success-is-boring
 ---
 # Achieving Success Is Boring
 

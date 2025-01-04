@@ -1,6 +1,8 @@
 ---
 permalink: n/ai-allows-hyper-personalization
+slug: ai-allows-hyper-personalization
 status: budding
+title: AI allows hyper-personalization
 ---
 # AI allows hyper-personalization
 

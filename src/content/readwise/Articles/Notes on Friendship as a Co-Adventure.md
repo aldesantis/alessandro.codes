@@ -13,6 +13,7 @@ summary: |
   The document reflects on the author's experiences with friendship as a shared adventure, particularly during a gathering in Spain called RichFest. It contrasts the feeling of living life alongside others in unique experiences versus the more common narrative exchange among friends. The need for deeper, more engaging friendships that involve shared experiences rather than just updates is highlighted. The author also discusses strategies for fostering more meaningful connections, both in physical interactions and online communities, emphasizing the importance of intentional engagement and environment design in combating feelings of isolation and loneliness.
 source: reader
 permalink: l/articles/notes-on-friendship-as-a-co-adventure
+slug: notes-on-friendship-as-a-co-adventure
 ---
 # Notes on Friendship as a Co-Adventure
 

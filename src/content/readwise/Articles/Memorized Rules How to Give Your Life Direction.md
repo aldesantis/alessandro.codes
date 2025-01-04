@@ -13,6 +13,7 @@ summary: |
   A framework for putting advice into action. Use your Memorized Rules to remember rules of thumb for better everyday decision-making.
 source: reader
 permalink: l/articles/memorized-rules-how-to-give-your-life-direction
+slug: memorized-rules-how-to-give-your-life-direction
 ---
 # Memorized Rules: How to Give Your Life Direction
 

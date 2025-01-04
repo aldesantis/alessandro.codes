@@ -13,6 +13,7 @@ summary: |
   DAOs are important for community decision-making in web3. Wyoming's new legislation impacts DAOs, but not all projects need specific laws. Validation is crucial for entity structuring and continued development.
 source: reader
 permalink: l/articles/emerging-entities-for-emerging-technologies
+slug: emerging-entities-for-emerging-technologies
 ---
 # Emerging Entities for Emerging Technologies
 

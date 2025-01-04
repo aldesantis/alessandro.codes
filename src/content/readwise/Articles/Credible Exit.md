@@ -13,6 +13,7 @@ summary: |
   Elon Musk may be buying Twitter, raising concerns about centralized control. "Credible exit" allows users to leave platforms easily, seen in examples like DNS and email. Offering protocols for data export and open-source apps can enhance user autonomy and credible exit.
 source: reader
 permalink: l/articles/credible-exit
+slug: credible-exit
 ---
 # Credible Exit
 

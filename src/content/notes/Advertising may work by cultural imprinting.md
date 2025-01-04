@@ -1,6 +1,8 @@
 ---
 permalink: n/advertising-may-work-by-cultural-imprinting
+slug: advertising-may-work-by-cultural-imprinting
 status: 
+title: Advertising may work by cultural imprinting
 ---
 # Advertising may work by cultural imprinting
 

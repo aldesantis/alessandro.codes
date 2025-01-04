@@ -13,6 +13,7 @@ summary: |
   Referral codes still have a place for some brands that want to reward loyal customers.
 source: reader
 permalink: l/articles/how-brands-like-kizik-and-pura-are-gaining-new-customers-from-referral-codes
+slug: how-brands-like-kizik-and-pura-are-gaining-new-customers-from-referral-codes
 ---
 # How Brands Like Kizik and Pura Are Gaining New Customers From Referral Codes
 

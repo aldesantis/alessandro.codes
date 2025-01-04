@@ -13,6 +13,7 @@ summary: |
   The article offers advice on how to get "unstuck" when feeling overwhelmed with life's challenges. The author compares the feeling of being stuck to standing knee-deep in a bog and offers a catalog of bog phenomena that keep people stuck, such as waiting for a jackpot, declining the dragon, and puppeteering. The author suggests that many of these bogs are imaginary and that getting out of them requires accepting that one's perception of reality is not necessarily reality.
 source: reader
 permalink: l/articles/so-you-wanna-de-bog-yourself
+slug: so-you-wanna-de-bog-yourself
 ---
 # So You Wanna De-Bog Yourself
 

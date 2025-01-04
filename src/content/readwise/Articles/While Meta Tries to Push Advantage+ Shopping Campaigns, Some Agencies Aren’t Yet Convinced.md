@@ -13,6 +13,7 @@ summary: |
   Meta's Performance Marketing Summit was all about its AI Powered Advantage+ Shopping Campaigns. However, gaps within ASC remain.
 source: reader
 permalink: l/articles/while-meta-tries-to-push-advantage-shopping-campaigns-some-agencies-aren-t-yet-convinced
+slug: while-meta-tries-to-push-advantage-shopping-campaigns-some-agencies-aren-t-yet-convinced
 ---
 # While Meta Tries to Push Advantage+ Shopping Campaigns, Some Agencies Aren’t Yet Convinced
 

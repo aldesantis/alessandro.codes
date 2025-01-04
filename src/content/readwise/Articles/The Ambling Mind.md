@@ -13,6 +13,7 @@ summary: |
   Walking is a vital, yet often overlooked human activity in modern society. Authors and philosophers emphasize the benefits of walking for physical and mental well-being, creativity, and deep thinking. Walking offers a unique perspective on the world, promotes a fitting scale and speed for human experience, and can be revolutionary in countering societal pressures.
 source: reader
 permalink: l/articles/the-ambling-mind
+slug: the-ambling-mind
 ---
 # The Ambling Mind
 

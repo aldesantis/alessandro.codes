@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/developing-talent-in-r-d
+slug: developing-talent-in-r-d
 ---
 # Developing Talent in R&D
 

@@ -13,6 +13,7 @@ summary: |
   "If an opinion contrary to your own makes you angry, that is a sign that you are subconsciously aware of having no good reason for thinking as you do.
 source: reader
 permalink: l/articles/brain-food-simple-truths
+slug: brain-food-simple-truths
 ---
 # Brain Food: Simple Truths
 

@@ -13,6 +13,7 @@ summary: |
   Retail after the website
 source: reader
 permalink: l/articles/triumph-of-the-marketplace
+slug: triumph-of-the-marketplace
 ---
 # Triumph of the Marketplace
 

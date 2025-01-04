@@ -13,6 +13,7 @@ summary: |
   TMAI #401 delves into the importance of creative elements in marketing campaigns, highlighting that 55% to 70% of a campaign's success is influenced by creativity. The document emphasizes the need to prioritize creative aspects over other elements like targeting buttons and reach manipulation. It discusses the significance of making it clear who paid for the ad, the optimal ad length for engagement, and the impact of creativity on audience retention and brand recognition. The document underscores the essential role of creativity in marketing and provides practical tips to enhance creative effectiveness in campaigns.
 source: reader
 permalink: l/articles/tmai-401-win-before-you-spend-creative-65-p-1
+slug: tmai-401-win-before-you-spend-creative-65-p-1
 ---
 # TMAI #401: Win Before You Spend: Creative = 65%! -P1
 

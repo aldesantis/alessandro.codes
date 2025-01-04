@@ -1,6 +1,8 @@
 ---
 permalink: n/advertising-must-be-memorable
+slug: advertising-must-be-memorable
 status: 
+title: Advertising must be memorable
 ---
 # Advertising must be memorable
 

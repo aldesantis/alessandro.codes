@@ -13,6 +13,7 @@ summary: |
   Fashion brands are investing in digital technologies that allow for the creation of "product passports." These passports use unique identifiers and digital information, such as blockchain, RFID, QR codes, and NFC, to link valuable information to individual products. Product passports are particularly important for demonstrating sustainability and transparency, which are increasingly sought after by consumers, especially younger generations. They also support circularity initiatives, resale, and anti-counterfeiting measures. Brands like Pangaia, Reformation, and Chanel are already utilizing product passports to provide detailed information and enhance trust in their products. The adoption of common standards and affordability will be key factors in the widespread use of product passports.
 source: reader
 permalink: l/articles/the-year-ahead-what-product-passports-will-do-for-brands
+slug: the-year-ahead-what-product-passports-will-do-for-brands
 ---
 # The Year Ahead: What Product Passports Will Do for Brands
 

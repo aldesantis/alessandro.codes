@@ -13,6 +13,7 @@ summary: |
   In recent years, some food and beverage direct-to-consumer brands that thrived during the pandemic are now shifting focus to retail expansion, with some even closing their e-commerce platforms entirely. Companies like Acid League and Soom are redirecting their resources to ensure their products are readily available in physical retail stores, finding online-only operations unsustainable. This move towards offline retail is a strategic shift for many brands like Fly by Jing and Oat Haus, recognizing that physical stores offer better opportunities for brand visibility and product discovery. The decision to go offline allows these brands to concentrate on product development and sustainable growth, catering to consumer preferences for in-store discoveries over online shopping experiences.
 source: reader
 permalink: l/articles/why-some-very-online-food-brands-are-going-offline
+slug: why-some-very-online-food-brands-are-going-offline
 ---
 # Why Some Very Online Food Brands Are Going Offline
 

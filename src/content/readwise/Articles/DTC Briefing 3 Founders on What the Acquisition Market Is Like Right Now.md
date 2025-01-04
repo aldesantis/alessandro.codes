@@ -13,6 +13,7 @@ summary: |
   Globally, M&A deal volume was down 13% year-over-year in the first seven months of 2022, according to Boston Consulting Group. Meanwhile, deal volume was down 32%. 
 source: reader
 permalink: l/articles/dtc-briefing-3-founders-on-what-the-acquisition-market-is-like-right-now
+slug: dtc-briefing-3-founders-on-what-the-acquisition-market-is-like-right-now
 ---
 # DTC Briefing: 3 Founders on What the Acquisition Market Is Like Right Now
 

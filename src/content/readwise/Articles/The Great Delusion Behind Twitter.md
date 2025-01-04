@@ -13,6 +13,7 @@ summary: |
   We need a thoughtful alternative that doesn’t exist yet. 
 source: reader
 permalink: l/articles/the-great-delusion-behind-twitter
+slug: the-great-delusion-behind-twitter
 ---
 # The Great Delusion Behind Twitter
 

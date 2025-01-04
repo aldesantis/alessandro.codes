@@ -13,6 +13,7 @@ summary: |
   The "Pattern-Seeker" fallacy refers to humans' tendency to perceive patterns in randomness. This phenomenon can lead to faulty conclusions in data analysis and marketing. The solution is to form a hypothesis and intentionally test it, rather than combing through data until a pattern emerges. This approach will lead to more accurate insights and discoveries.
 source: reader
 permalink: l/articles/a-smart-bear-the-pattern-seeking-fallacy
+slug: a-smart-bear-the-pattern-seeking-fallacy
 ---
 # A Smart Bear » the Pattern-Seeking Fallacy
 

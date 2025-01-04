@@ -13,6 +13,7 @@ summary: |
   The Value of Canonicity: What Happens When We Run an Engineering Organization by Constraining the Number of Tools in Our Toolbox “For the Greater Good”? 9 minutes read.
 source: reader
 permalink: l/articles/swlw-579-the-value-of-canonicity-early-stage-startup-handbook-and-more
+slug: swlw-579-the-value-of-canonicity-early-stage-startup-handbook-and-more
 ---
 # SWLW #579: The Value of Canonicity, Early Stage Startup Handbook, and More.
 

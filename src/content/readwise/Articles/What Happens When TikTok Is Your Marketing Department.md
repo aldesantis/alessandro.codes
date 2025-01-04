@@ -13,6 +13,7 @@ summary: |
   The Pink Stuff, a home cleaning paste, gained viral popularity and increased sales thanks to a social media influencer on Instagram named Sophie Hinchliffe, also known as Mrs. Hinch. Her videos showcasing The Pink Stuff's cleaning capabilities attracted a dedicated following, leading to increased demand for the product. The Pink Stuff's success continued on TikTok, where videos related to the product have been viewed over two billion times. The company behind The Pink Stuff, Star Brands, has experienced significant growth and expanded into new markets as a result. However, relying solely on viral success poses challenges for the brand's long-term sustainability.
 source: reader
 permalink: l/articles/what-happens-when-tik-tok-is-your-marketing-department
+slug: what-happens-when-tik-tok-is-your-marketing-department
 ---
 # What Happens When TikTok Is Your Marketing Department
 

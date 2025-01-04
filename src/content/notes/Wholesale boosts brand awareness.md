@@ -1,6 +1,8 @@
 ---
 permalink: n/wholesale-boosts-brand-awareness
+slug: wholesale-boosts-brand-awareness
 status: 
+title: Wholesale boosts brand awareness
 ---
 # Wholesale boosts brand awareness
 

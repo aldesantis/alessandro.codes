@@ -13,6 +13,7 @@ summary: |
   “Don’t aim at success—the more you aim at it and make it a target, the more you are going to miss it.
 source: reader
 permalink: l/articles/brain-food-gather-and-synthesize
+slug: brain-food-gather-and-synthesize
 ---
 # Brain Food: Gather and Synthesize
 

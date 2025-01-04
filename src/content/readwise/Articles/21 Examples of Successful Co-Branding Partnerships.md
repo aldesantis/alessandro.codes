@@ -13,6 +13,7 @@ summary: |
   Need inspiration for your next brand partnership? Check out these real-world examples of great co-branding partnerships — and what makes them so good.
 source: reader
 permalink: l/articles/21-examples-of-successful-co-branding-partnerships
+slug: 21-examples-of-successful-co-branding-partnerships
 ---
 # 21 Examples of Successful Co-Branding Partnerships
 

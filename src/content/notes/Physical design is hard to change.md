@@ -1,6 +1,8 @@
 ---
 permalink: n/physical-design-is-hard-to-change
+slug: physical-design-is-hard-to-change
 status: 
+title: Physical design is hard to change
 ---
 # Physical design is hard to change
 

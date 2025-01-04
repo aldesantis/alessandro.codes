@@ -1,6 +1,8 @@
 ---
 permalink: n/authenticity-is-a-learned-skill
+slug: authenticity-is-a-learned-skill
 status: 
+title: Authenticity is a learned skill
 ---
 # Authenticity is a learned skill
 

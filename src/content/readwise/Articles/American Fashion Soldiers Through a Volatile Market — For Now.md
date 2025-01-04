@@ -13,6 +13,7 @@ summary: |
   On Monday, the Dow Jones Industrial Index as well as the S&P 500, two blue-chip indices, posted their worst daily loss in nearly two years; Japan’s Nikkei 225 tumbled 12 percent — its largest drop since the 1987 Black Monday crash.
 source: reader
 permalink: l/articles/american-fashion-soldiers-through-a-volatile-market-for-now
+slug: american-fashion-soldiers-through-a-volatile-market-for-now
 ---
 # American Fashion Soldiers Through a Volatile Market — For Now
 

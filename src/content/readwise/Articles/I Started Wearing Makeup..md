@@ -13,6 +13,7 @@ summary: |
   If you're new here, welcome to Never Enough, where I brain dump interesting stuff that has been on my mind over the last week.
 source: reader
 permalink: l/articles/i-started-wearing-makeup
+slug: i-started-wearing-makeup
 ---
 # I Started Wearing Makeup.
 

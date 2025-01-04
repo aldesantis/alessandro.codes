@@ -1,6 +1,8 @@
 ---
 permalink: n/popularity-is-the-new-rarity
+slug: popularity-is-the-new-rarity
 status: 
+title: Popularity is the new rarity
 ---
 # Popularity is the new rarity
 

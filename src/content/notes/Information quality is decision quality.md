@@ -1,6 +1,8 @@
 ---
 permalink: n/information-quality-is-decision-quality
+slug: information-quality-is-decision-quality
 status: 
+title: Information quality is decision quality
 ---
 # Information quality is decision quality
 

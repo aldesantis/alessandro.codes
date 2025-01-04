@@ -13,6 +13,7 @@ summary: |
   Before we get into it, I want to thank this week's sponsor: Goodo Studios. Goodo Studios produces content that helps your brand grab the attention of the right viewers and turn them into customers.
 source: reader
 permalink: l/articles/demystifying-the-fashion-marketing-funnel
+slug: demystifying-the-fashion-marketing-funnel
 ---
 # Demystifying the Fashion Marketing Funnel
 

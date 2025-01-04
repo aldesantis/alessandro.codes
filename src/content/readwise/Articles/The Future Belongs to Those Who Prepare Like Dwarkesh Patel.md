@@ -13,6 +13,7 @@ summary: |
   At just 23, Dwarkesh Patel has made a name for himself in podcasting, impressing influential figures like Jeff Bezos with his deeply researched interviews of tech and AI experts. Patel's dedication to preparation and focus on depth over breadth has set him apart in a saturated podcast market, earning him the reputation of 'the new Lex Fridman." Despite starting from a place of little influence, Patel's meticulous approach has attracted a loyal following and accolades from leaders in the tech industry. His podcast explores a range of topics, with a particular focus on AI, showcasing his ability to engage with influential guests and spark meaningful conversations.
 source: reader
 permalink: l/articles/the-future-belongs-to-those-who-prepare-like-dwarkesh-patel
+slug: the-future-belongs-to-those-who-prepare-like-dwarkesh-patel
 ---
 # The Future Belongs to Those Who Prepare Like Dwarkesh Patel
 

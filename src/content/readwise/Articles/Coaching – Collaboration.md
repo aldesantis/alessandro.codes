@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/coaching-collaboration
+slug: coaching-collaboration
 ---
 # Coaching – Collaboration
 

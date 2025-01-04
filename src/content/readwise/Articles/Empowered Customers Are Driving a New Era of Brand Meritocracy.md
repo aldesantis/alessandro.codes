@@ -13,6 +13,7 @@ summary: |
   AI assistants are changing how products are evaluated based on objective criteria. Brands must adapt to appeal to AI assistants and deliver genuine quality to succeed in this new Brand Meritocracy era. Creating impactful brand experiences will be crucial for success in a world where AI plays a significant role in consumer decision-making.
 source: reader
 permalink: l/articles/empowered-customers-are-driving-a-new-era-of-brand-meritocracy
+slug: empowered-customers-are-driving-a-new-era-of-brand-meritocracy
 ---
 # Empowered Customers Are Driving a New Era of Brand Meritocracy
 

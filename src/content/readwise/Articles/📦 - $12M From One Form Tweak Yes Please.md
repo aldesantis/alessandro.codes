@@ -13,6 +13,7 @@ summary: |
   The DTC world is buzzing, with e-commerce giant Klaviyo and grocery delivery leader Instacart stepping into the limelight through their recent IPOs.
 source: reader
 permalink: l/articles/12-m-from-one-form-tweak-yes-please
+slug: 12-m-from-one-form-tweak-yes-please
 ---
 # 📦 - $12M From One Form Tweak? Yes Please
 

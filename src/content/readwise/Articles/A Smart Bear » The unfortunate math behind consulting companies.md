@@ -13,6 +13,7 @@ summary: |
   Consulting companies often face challenges in terms of profitability due to various factors. Hiring employees may seem like a way to increase profits, but the additional costs of employment taxes and potential downtime reduce the profitability. In addition, employees may not be able to bill a full 40 hours a week, further impacting profitability. Scaling the business by hiring more employees also comes with its own set of challenges, including increased expenses and the need for additional management roles. Charging more for services, billing more hours, or developing a product can all help increase profitability, but each option has its own drawbacks. Ultimately, consulting companies need to carefully navigate these challenges to maximize their profits.
 source: reader
 permalink: l/articles/a-smart-bear-the-unfortunate-math-behind-consulting-companies
+slug: a-smart-bear-the-unfortunate-math-behind-consulting-companies
 ---
 # A Smart Bear » The unfortunate math behind consulting companies
 

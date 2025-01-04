@@ -13,6 +13,7 @@ summary: |
   Customers trust, recommend, and buy more from brands with five-star experiences compared to four-star ones. Creating excellent customer experiences can lead to long-term benefits like increased customer lifetime value and higher repeat purchase rates. Companies should measure various metrics to understand the full impact of their customer experience programs.
 source: reader
 permalink: l/articles/5-star-experiences-drive-long-term-customer-value
+slug: 5-star-experiences-drive-long-term-customer-value
 ---
 # 5-Star Experiences Drive Long-Term Customer Value
 

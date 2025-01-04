@@ -13,6 +13,7 @@ summary: |
   Some people believe that agencies are becoming less relevant in today's fast-paced eCommerce world, leading to the phrase "Death to Agencies." However, agencies still play a crucial role by offering deep knowledge and personal relationships that technology cannot replicate. To thrive, agencies must evolve by focusing on customization and strategic partnerships with their clients.
 source: reader
 permalink: l/articles/member-brief-death-to-agencies-on-the-wall
+slug: member-brief-death-to-agencies-on-the-wall
 ---
 # Member Brief: “Death to Agencies” on the Wall
 

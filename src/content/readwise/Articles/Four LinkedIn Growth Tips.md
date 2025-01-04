@@ -13,6 +13,7 @@ summary: |
   Before we get into today's essay, I want to let you in on a secret.
 source: reader
 permalink: l/articles/four-linked-in-growth-tips
+slug: four-linked-in-growth-tips
 ---
 # Four LinkedIn Growth Tips
 

@@ -13,6 +13,7 @@ summary: |
   At 45, Khe Hy reflects on life lessons learned from career changes, personal growth, and the pursuit of happiness. He emphasizes the importance of redefining success, focusing on meaningful experiences, and letting go of the accumulation mindset. Through meditation and self-awareness, he finds peace and joy in simple moments, reminding us to prioritize what truly brings us alive.
 source: reader
 permalink: l/tweets/45-life-lessons
+slug: 45-life-lessons
 ---
 # 45 Life Lessons
 

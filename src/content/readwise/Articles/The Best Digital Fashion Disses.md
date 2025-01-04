@@ -13,6 +13,7 @@ summary: |
   As the segment was titled 'The Future of Fashion May Be Virtual Outfits’ I expected the FOX affiliated anchors to explore the rise of gaming through an Americana tinted lens.
 source: reader
 permalink: l/articles/the-best-digital-fashion-disses
+slug: the-best-digital-fashion-disses
 ---
 # The Best Digital Fashion Disses
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/shared-vision-is-built-through-inquiry
+slug: shared-vision-is-built-through-inquiry
 status: 
+title: Shared vision is built through inquiry
 ---
 # Shared vision is built through inquiry
 

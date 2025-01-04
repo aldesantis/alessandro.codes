@@ -13,6 +13,7 @@ summary: |
   The author of this article reflects on the decline of friendships and the challenges of making and maintaining meaningful connections, particularly in a hyper-connected but socially disconnected world. The author suggests that the demands of modern life and the emphasis on individualism and self-optimization have eroded the social capital and relational muscles necessary for building and sustaining friendships. The pandemic has only accelerated this trend, leaving many people feeling burned out, isolated, and craving the kind of low-effort, place-based friendships that have sustained humans for centuries. The author argues that we need to rediscover our social nature and invest in the basic human experience of relying on the people around us.
 source: reader
 permalink: l/articles/the-friendship-problem
+slug: the-friendship-problem
 ---
 # The Friendship Problem
 

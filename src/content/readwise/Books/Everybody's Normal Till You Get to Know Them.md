@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/everybody-s-normal-till-you-get-to-know-them
+slug: everybody-s-normal-till-you-get-to-know-them
 ---
 # Everybody's Normal Till You Get to Know Them
 

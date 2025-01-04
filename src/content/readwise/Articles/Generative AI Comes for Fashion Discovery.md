@@ -13,6 +13,7 @@ summary: |
   Style is inherently subjective, so it can’t be condensed into the type of binary bits and bytes that inform the vast field of artificial intelligence. Or can it?
 source: reader
 permalink: l/articles/generative-ai-comes-for-fashion-discovery
+slug: generative-ai-comes-for-fashion-discovery
 ---
 # Generative AI Comes for Fashion Discovery
 

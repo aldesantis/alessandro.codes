@@ -13,6 +13,7 @@ summary: |
   The direct-to-consumer (DTC) model has faced significant challenges, leading many brands to reconsider their strategies and embrace a mix of DTC and wholesale. While DTC was once seen as the future of retail, brands are now recognizing the value of wholesale partnerships. The retail landscape is shifting towards a hybrid approach, where both DTC and wholesale play important roles in reaching customers.
 source: reader
 permalink: l/articles/dtc-is-dead-long-live-dtc
+slug: dtc-is-dead-long-live-dtc
 ---
 # DTC Is Dead. Long Live DTC.
 

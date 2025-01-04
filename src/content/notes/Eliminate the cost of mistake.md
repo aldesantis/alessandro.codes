@@ -1,6 +1,8 @@
 ---
 permalink: n/eliminate-the-cost-of-mistake
+slug: eliminate-the-cost-of-mistake
 status: 
+title: Eliminate the cost of mistake
 ---
 # Eliminate the cost of mistake
 

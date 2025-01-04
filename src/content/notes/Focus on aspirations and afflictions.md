@@ -1,6 +1,8 @@
 ---
 permalink: n/focus-on-aspirations-and-afflictions
+slug: focus-on-aspirations-and-afflictions
 status: 
+title: Focus on aspirations and afflictions
 ---
 # Focus on aspirations and afflictions
 

@@ -13,6 +13,7 @@ summary: |
   Retailers struggle with curating personalized shopping experiences for customers online, but startups like Psykhe are using AI to recommend products based on individual tastes. Implementing algorithmic personalization in fashion is challenging due to the physical nature of clothing inventory compared to digital content like music. Companies like Lyst are leveraging data and AI models to enhance personalization and improve conversion rates in online fashion retail.
 source: reader
 permalink: l/articles/why-fashion-s-curation-problem-is-so-hard-to-solve
+slug: why-fashion-s-curation-problem-is-so-hard-to-solve
 ---
 # Why Fashion’s Curation Problem Is So Hard to Solve
 

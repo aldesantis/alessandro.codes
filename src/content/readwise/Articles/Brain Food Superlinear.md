@@ -13,6 +13,7 @@ summary: |
   "A large part of the difference between the experienced decision maker and the novice in these situations is not any particular intangible like judgment or intuition.
 source: reader
 permalink: l/articles/brain-food-superlinear
+slug: brain-food-superlinear
 ---
 # Brain Food: Superlinear
 

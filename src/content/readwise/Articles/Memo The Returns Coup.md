@@ -13,6 +13,7 @@ summary: |
   The eCommerce industry is a dance between partners, economic conditions, and balance sheets. Affirm, Shopify, Deliverr, Flexport, Returnly, and Loop have all had their moments on the dance floor th…
 source: reader
 permalink: l/articles/memo-the-returns-coup
+slug: memo-the-returns-coup
 ---
 # Memo: The Returns Coup
 

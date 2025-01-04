@@ -1,6 +1,8 @@
 ---
 permalink: n/money-is-like-oxygen
+slug: money-is-like-oxygen
 status: 
+title: Money is like oxygen
 ---
 # Money is like oxygen
 

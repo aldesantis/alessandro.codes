@@ -13,6 +13,7 @@ summary: |
   "If you really want to be great at something, you have to truly care about it. If you want to be great in a particular area, you have to obsess over it.
 source: reader
 permalink: l/articles/brain-food-nothing-to-lose
+slug: brain-food-nothing-to-lose
 ---
 # Brain Food: Nothing to Lose
 

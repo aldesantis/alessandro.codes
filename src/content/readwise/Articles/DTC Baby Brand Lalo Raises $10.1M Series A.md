@@ -13,6 +13,7 @@ summary: |
   Direct-to-consumer baby product brand Lalo has raised a $10.1 million Series A round of funding. It says it will be profitable in 6 months.
 source: reader
 permalink: l/articles/dtc-baby-brand-lalo-raises-10-1-m-series-a
+slug: dtc-baby-brand-lalo-raises-10-1-m-series-a
 ---
 # DTC Baby Brand Lalo Raises $10.1M Series A
 

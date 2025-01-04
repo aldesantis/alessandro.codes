@@ -13,6 +13,7 @@ summary: |
   Differentiation is critical for Generative AI startups. Use the AI Litmus Test to determine if your company is unique, hard and defensible.
 source: reader
 permalink: l/articles/the-ai-startup-litmus-test
+slug: the-ai-startup-litmus-test
 ---
 # The AI Startup Litmus Test
 

@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 import icon from "astro-icon";
 import { remarkReadingTime } from "./src/lib/plugins/remarkReadingTime.mjs";
-import { remarkWikiLink } from "./src/lib/plugins/remarkWikiLink";
+import { remarkWikiLink } from "./src/lib/plugins/remarkWikiLink.mjs";
 
 import mdx from "@astrojs/mdx";
 

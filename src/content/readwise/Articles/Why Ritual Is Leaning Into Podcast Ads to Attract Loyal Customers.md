@@ -13,6 +13,7 @@ summary: |
   Ritual -- which sells a suite of multivitamins -- is leveraging podcast ads to gain the attention of potential customers.
 source: reader
 permalink: l/articles/why-ritual-is-leaning-into-podcast-ads-to-attract-loyal-customers
+slug: why-ritual-is-leaning-into-podcast-ads-to-attract-loyal-customers
 ---
 # Why Ritual Is Leaning Into Podcast Ads to Attract Loyal Customers
 

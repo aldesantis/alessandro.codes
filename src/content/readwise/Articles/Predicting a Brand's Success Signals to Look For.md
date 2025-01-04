@@ -13,6 +13,7 @@ summary: |
   How to detect winners early on
 source: reader
 permalink: l/articles/predicting-a-brand-s-success-signals-to-look-for
+slug: predicting-a-brand-s-success-signals-to-look-for
 ---
 # Predicting a Brand's Success: Signals to Look For
 

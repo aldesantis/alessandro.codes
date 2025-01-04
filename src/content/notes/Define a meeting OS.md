@@ -1,6 +1,8 @@
 ---
 permalink: n/define-a-meeting-os
+slug: define-a-meeting-os
 status: 
+title: Define a meeting OS
 ---
 # Define a meeting OS
 

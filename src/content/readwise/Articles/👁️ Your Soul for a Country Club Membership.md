@@ -13,6 +13,7 @@ summary: |
   Join some of New York's top eCommerce brands at the New York eCommerce Summit, where industry experts will discuss crucial topics such as the Future of eCommerce, Enhancing Operations and Supply Chains, Unlocking Your eCommerce Potential with AI, Navigating Mobile Commerce, Data-Driven eCommerce, Omnichannel and Digital Marketing Strategies.
 source: reader
 permalink: l/articles/your-soul-for-a-country-club-membership
+slug: your-soul-for-a-country-club-membership
 ---
 # 👁️ Your Soul for a Country Club Membership
 

@@ -13,6 +13,7 @@ summary: |
   “While we naturally understand that writing is a good way to share ideas with others, we under-appreciate just how much good writing helps us think about an idea ourselves.
 source: reader
 permalink: l/articles/brain-food-unspoken-expectations
+slug: brain-food-unspoken-expectations
 ---
 # Brain Food: Unspoken Expectations
 

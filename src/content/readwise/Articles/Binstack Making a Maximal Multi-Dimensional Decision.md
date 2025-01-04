@@ -13,6 +13,7 @@ summary: |
   Binstack is the best way to select a “single most impactful” solution when there are multiple dimensions to evaluate, even when those dimensions cannot be compared to each other. People often reach for the “rubric” for such puzzles, but rubrics often do not clearly identify a winner, nor do they result in an explanation of the decision that is easily communicated to others.
 source: reader
 permalink: l/articles/binstack-making-a-maximal-multi-dimensional-decision
+slug: binstack-making-a-maximal-multi-dimensional-decision
 ---
 # Binstack: Making a Maximal Multi-Dimensional Decision
 

@@ -13,6 +13,7 @@ summary: |
   I find an idea that was interesting. I would try to figure out that idea for myself, and then I’d figure out for myself, and I’d say, well, then I got to share this with other people.
 source: reader
 permalink: l/articles/follow-curiosity
+slug: follow-curiosity
 ---
 # Follow Curiosity
 

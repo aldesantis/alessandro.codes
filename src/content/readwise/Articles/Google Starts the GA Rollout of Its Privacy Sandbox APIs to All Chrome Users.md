@@ -13,6 +13,7 @@ summary: |
   Chrome 115 introduces Privacy Sandbox's relevance and measurement APIs, with a phased roll-out aiming for 99% availability by mid-August.
 source: reader
 permalink: l/articles/google-starts-the-ga-rollout-of-its-privacy-sandbox-ap-is-to-all-chrome-users
+slug: google-starts-the-ga-rollout-of-its-privacy-sandbox-ap-is-to-all-chrome-users
 ---
 # Google Starts the GA Rollout of Its Privacy Sandbox APIs to All Chrome Users
 

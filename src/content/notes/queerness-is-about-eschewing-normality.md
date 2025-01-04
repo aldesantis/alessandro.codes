@@ -1,6 +1,8 @@
 ---
 permalink: n/queerness-is-about-eschewing-normality
+slug: queerness-is-about-eschewing-normality
 status: 
+title: queerness-is-about-eschewing-normality
 ---
 # queerness-is-about-eschewing-normality
 

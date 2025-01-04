@@ -1,6 +1,8 @@
 ---
 permalink: n/good-management-requires-consistency
+slug: good-management-requires-consistency
 status: 
+title: Good management requires consistency
 ---
 # Good management requires consistency
 

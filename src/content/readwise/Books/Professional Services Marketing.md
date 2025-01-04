@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/professional-services-marketing
+slug: professional-services-marketing
 ---
 # Professional Services Marketing
 

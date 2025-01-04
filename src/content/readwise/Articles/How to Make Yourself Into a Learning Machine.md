@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/how-to-make-yourself-into-a-learning-machine
+slug: how-to-make-yourself-into-a-learning-machine
 ---
 # How to Make Yourself Into a Learning Machine
 

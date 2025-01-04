@@ -1,6 +1,8 @@
 ---
 permalink: n/composable-commerce-may-be-a-choice
+slug: composable-commerce-may-be-a-choice
 status: 
+title: composable-commerce-may-be-a-choice
 ---
 # composable-commerce-may-be-a-choice
 

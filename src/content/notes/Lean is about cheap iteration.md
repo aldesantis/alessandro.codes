@@ -1,6 +1,8 @@
 ---
 permalink: n/lean-is-about-cheap-iteration
+slug: lean-is-about-cheap-iteration
 status: 
+title: Lean is about cheap iteration
 ---
 # Lean is about cheap iteration
 

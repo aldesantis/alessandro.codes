@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/working-backwards
+slug: working-backwards
 ---
 # Working Backwards
 

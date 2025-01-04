@@ -13,6 +13,7 @@ summary: |
   The text discusses how culture is becoming tokenized in the crypto world, with a focus on Culture Tokens. It emphasizes the importance of aligning incentives, democratizing access, and building products that accelerate culture on-chain. The author encourages crypto builders to consider the opportunities in developing the culture layer for the future of crypto.
 source: reader
 permalink: l/articles/the-future-of-culture-is-tokenized
+slug: the-future-of-culture-is-tokenized
 ---
 # The Future of Culture Is Tokenized
 

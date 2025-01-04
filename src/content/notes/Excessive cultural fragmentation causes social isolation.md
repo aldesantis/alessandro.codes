@@ -1,6 +1,8 @@
 ---
 permalink: n/excessive-cultural-fragmentation-causes-social-isolation
+slug: excessive-cultural-fragmentation-causes-social-isolation
 status: budding
+title: Excessive cultural fragmentation causes social isolation
 ---
 # Excessive cultural fragmentation causes social isolation
 

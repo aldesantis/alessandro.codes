@@ -13,6 +13,7 @@ summary: |
   Henrik Karlsson shares how he generates interesting ideas through daily writing and conversations. He emphasizes the importance of curiosity and reflection, both alone and with others. By embracing his interests without judgment, he finds new paths for exploration and deeper understanding.
 source: reader
 permalink: l/articles/on-having-more-interesting-ideas
+slug: on-having-more-interesting-ideas
 ---
 # On Having More Interesting Ideas
 

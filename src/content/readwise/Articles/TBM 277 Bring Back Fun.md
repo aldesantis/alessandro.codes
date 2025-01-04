@@ -13,6 +13,7 @@ summary: |
   The author reflects on the joy of solving challenging problems with interesting people in the tech industry and the decline of fun and camaraderie in the workplace due to increasing seriousness, competition, and lack of enjoyment. There is a shift towards prioritizing stability and efficiency over fun, impacting workplace culture and employee well-being. The text emphasizes the need to bring back excitement, fun, and joy in work environments to foster collaboration, creativity, and impactful outcomes. The call is made for creating environments that prioritize fun and challenge to boost team morale, productivity, and overall well-being.
 source: reader
 permalink: l/articles/tbm-277-bring-back-fun
+slug: tbm-277-bring-back-fun
 ---
 # TBM 277: Bring Back Fun
 

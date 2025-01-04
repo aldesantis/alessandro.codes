@@ -13,6 +13,7 @@ summary: |
   Innovation and advertising that gets noticed.
 source: reader
 permalink: l/articles/we-exist-to-beat-indifference
+slug: we-exist-to-beat-indifference
 ---
 # WE EXIST TO Beat INDIFFERENCE
 

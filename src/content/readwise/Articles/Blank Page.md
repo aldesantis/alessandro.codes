@@ -13,6 +13,7 @@ summary: |
   To 2023 and Beyond
 source: reader
 permalink: l/articles/blank-page
+slug: blank-page
 ---
 # Blank Page
 

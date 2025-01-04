@@ -1,6 +1,8 @@
 ---
 permalink: n/explore-three-solutions-for-a-problems
+slug: explore-three-solutions-for-a-problems
 status: 
+title: Explore three solutions for a problems
 ---
 # Explore three solutions for a problems
 

@@ -13,6 +13,7 @@ summary: |
   Christmas, as a festival, has changed a lot throughout history, with many of its core modern traditions being more recent than we think or of surprising origin.
 source: reader
 permalink: l/articles/brain-food-alone-with-the-gods
+slug: brain-food-alone-with-the-gods
 ---
 # Brain Food: Alone With the Gods
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/influencer-partnerships-should-be-long-term
+slug: influencer-partnerships-should-be-long-term
 status: 
+title: influencer-partnerships-should-be-long-term
 ---
 # influencer-partnerships-should-be-long-term
 

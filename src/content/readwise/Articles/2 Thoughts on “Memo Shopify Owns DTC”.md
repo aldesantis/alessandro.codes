@@ -13,6 +13,7 @@ summary: |
   But what does that really mean? Increasingly, it’s something different than you may think. Let’s face it: October’s Nike Strength launch was underwhelming. Part of the reason was …
 source: reader
 permalink: l/articles/2-thoughts-on-memo-shopify-owns-dtc
+slug: 2-thoughts-on-memo-shopify-owns-dtc
 ---
 # 2 Thoughts on “Memo: Shopify Owns DTC”
 

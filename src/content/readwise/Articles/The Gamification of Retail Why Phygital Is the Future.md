@@ -13,6 +13,7 @@ summary: |
   Phygital shopping combines digital experiences with physical retail, allowing customers to customize products online and receive them in-store or at home. This approach enhances personalization and convenience, reducing inventory needs while boosting customer satisfaction and sales. As retailers adopt phygital strategies, they can create engaging shopping experiences that appeal to modern consumers.
 source: reader
 permalink: l/articles/the-gamification-of-retail-why-phygital-is-the-future
+slug: the-gamification-of-retail-why-phygital-is-the-future
 ---
 # The Gamification of Retail: Why Phygital Is the Future
 

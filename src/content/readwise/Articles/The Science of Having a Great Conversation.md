@@ -13,6 +13,7 @@ summary: |
   Forming meaningful bonds with others can improve your health, make you mentally sharper, and fuel creativity. Making friends can feel daunting, but research shows there are many ways to build better connections.
 source: reader
 permalink: l/articles/the-science-of-having-a-great-conversation
+slug: the-science-of-having-a-great-conversation
 ---
 # The Science of Having a Great Conversation
 

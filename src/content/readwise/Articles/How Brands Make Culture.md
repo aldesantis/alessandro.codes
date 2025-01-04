@@ -13,6 +13,7 @@ summary: |
   Brand marketing has undergone significant shifts in recent years, moving towards cultural influence rather than just brand communications. These shifts include moving from top of the funnel to the entire funnel, from advertising to entertainment, and from promoting products to focusing on the overall look and styling. Brand marketing is now tasked with recognizing and participating in emerging fashion aesthetics and engaging with subcultures and niche communities. Additionally, brands are shifting from attention-grabbing promotions to making cultural noise, collaborating with creators and communities, and activating existing fans for word-of-mouth marketing. These changes require a new approach to brand strategy, focusing on cultural strategy and utilizing tactics such as partnerships, content creation, and merchandising.
 source: reader
 permalink: l/articles/how-brands-make-culture
+slug: how-brands-make-culture
 ---
 # How Brands Make Culture
 

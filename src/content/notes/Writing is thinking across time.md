@@ -1,6 +1,8 @@
 ---
 permalink: n/writing-is-thinking-across-time
+slug: writing-is-thinking-across-time
 status: 
+title: Writing is thinking across time
 ---
 # Writing is thinking across time
 

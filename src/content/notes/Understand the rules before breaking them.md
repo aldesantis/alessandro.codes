@@ -1,6 +1,8 @@
 ---
 permalink: n/understand-the-rules-before-breaking-them
+slug: understand-the-rules-before-breaking-them
 status: 
+title: Understand the rules before breaking them
 ---
 # Understand the rules before breaking them
 

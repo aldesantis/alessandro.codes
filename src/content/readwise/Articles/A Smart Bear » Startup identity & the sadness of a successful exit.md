@@ -13,6 +13,7 @@ summary: |
   Startup founders often experience a profound sadness after selling their company, even if the sale is successful. This is because a startup becomes part of their personal identity and selling it feels like selling a piece of themselves. The loss of identity and the search for a new one can lead to feelings of mourning and uncertainty. While selling a startup may be the right choice, founders need to be prepared for the emotional impact and consider their own fulfillment beyond financial success. Startups evolve over time, and founders must be willing to adapt to new roles and responsibilities as the company grows. Ultimately, the decision to sell or continue building a startup depends on individual circumstances and aspirations.
 source: reader
 permalink: l/articles/a-smart-bear-startup-identity-the-sadness-of-a-successful-exit
+slug: a-smart-bear-startup-identity-the-sadness-of-a-successful-exit
 ---
 # A Smart Bear » Startup identity & the sadness of a successful exit
 

@@ -13,6 +13,7 @@ summary: |
   Improving search functionality and response speed can be powerful for retailers — particularly if they’re essentially a pureplay operation.
 source: reader
 permalink: l/articles/how-zenni-optical-boosted-per-session-revenue-34-with-sharper-search
+slug: how-zenni-optical-boosted-per-session-revenue-34-with-sharper-search
 ---
 # How Zenni Optical Boosted Per-Session Revenue 34% With Sharper Search
 

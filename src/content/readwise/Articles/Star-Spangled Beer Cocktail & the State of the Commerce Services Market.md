@@ -13,6 +13,7 @@ summary: |
   This text discusses the state of commerce consultancies and the changing landscape of commerce services providers, focusing on the shift towards composable solutions like Shopify and BigCommerce. It highlights the challenges faced by traditional implementers and the opportunities for engineering-focused providers in solving complex business transformations. The author suggests that successful commerce consultancies will need to adapt to increased complexity in digital business processes to thrive in the evolving market.
 source: reader
 permalink: l/articles/star-spangled-beer-cocktail-the-state-of-the-commerce-services-market
+slug: star-spangled-beer-cocktail-the-state-of-the-commerce-services-market
 ---
 # Star-Spangled Beer Cocktail & the State of the Commerce Services Market
 

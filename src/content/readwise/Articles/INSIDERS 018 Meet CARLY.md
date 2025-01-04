@@ -13,6 +13,7 @@ summary: |
   Some may call them Generation Z - but they’re not all of a particular generational group as you see some late teens to early thirties. You’ve heard of HENRY. Let me introduce you to CARLY: Can’t Afford Real Life Yet.
 source: reader
 permalink: l/articles/insiders-018-meet-carly
+slug: insiders-018-meet-carly
 ---
 # INSIDERS 018: Meet CARLY
 

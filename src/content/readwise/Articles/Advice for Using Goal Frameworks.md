@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/advice-for-using-goal-frameworks
+slug: advice-for-using-goal-frameworks
 ---
 # Advice for Using Goal Frameworks
 

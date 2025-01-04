@@ -13,6 +13,7 @@ summary: |
   Cotopaxi is growing from a niche outdoors B-corp into a nine-figure brand as it expands its retail footprint across the country. 
 source: reader
 permalink: l/articles/why-cotopaxi-is-making-retail-a-cornerstone-of-its-growth-strategy
+slug: why-cotopaxi-is-making-retail-a-cornerstone-of-its-growth-strategy
 ---
 # Why Cotopaxi Is Making Retail a Cornerstone of Its Growth Strategy
 

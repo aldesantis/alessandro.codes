@@ -13,6 +13,7 @@ summary: |
   On agency, doing value-aligned work, and making your job fun
 source: reader
 permalink: l/articles/6-lessons-i-learned-working-at-an-art-gallery
+slug: 6-lessons-i-learned-working-at-an-art-gallery
 ---
 # 6 Lessons I Learned Working at an Art Gallery
 

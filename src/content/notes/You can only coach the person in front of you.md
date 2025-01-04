@@ -1,6 +1,8 @@
 ---
 permalink: n/you-can-only-coach-the-person-in-front-of-you
+slug: you-can-only-coach-the-person-in-front-of-you
 status: 
+title: You can only coach the person in front of you
 ---
 # You can only coach the person in front of you
 

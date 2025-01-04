@@ -13,6 +13,7 @@ summary: |
   Maybe it’s 100% creative freedom to build whatever you want. Maybe it’s working with your brother to build a family business.
 source: reader
 permalink: l/articles/how-to-think-about-your-2024
+slug: how-to-think-about-your-2024
 ---
 # How to Think About Your 2024
 

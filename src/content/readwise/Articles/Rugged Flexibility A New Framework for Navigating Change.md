@@ -13,6 +13,7 @@ summary: |
   How to achieve stability through disruption
 source: reader
 permalink: l/articles/rugged-flexibility-a-new-framework-for-navigating-change
+slug: rugged-flexibility-a-new-framework-for-navigating-change
 ---
 # Rugged Flexibility: A New Framework for Navigating Change
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/what-keeps-retail-leaders-up-at-night
+slug: what-keeps-retail-leaders-up-at-night
 ---
 # What Keeps Retail Leaders Up at Night?
 

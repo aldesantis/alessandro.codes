@@ -13,6 +13,7 @@ summary: |
   Curation is the fuel of the modern aspiration economy
 source: reader
 permalink: l/articles/move-over-influencers-here-come-curators
+slug: move-over-influencers-here-come-curators
 ---
 # Move Over Influencers, Here Come Curators
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/the-new-luxury-is-about-taste-not-wealth
+slug: the-new-luxury-is-about-taste-not-wealth
 status: 
+title: The new luxury is about taste, not wealth
 ---
 # The new luxury is about taste, not wealth
 

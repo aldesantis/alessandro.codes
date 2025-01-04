@@ -13,6 +13,7 @@ summary: |
   Squads, as social and economic groups, are reemerging with the rise of online communication platforms. They prioritize collective well-being over individual success and rely on trust and shared values to thrive. Squads are reshaping social dynamics and creating new forms of community wealth and resilience.
 source: reader
 permalink: l/articles/squad-wealth
+slug: squad-wealth
 ---
 # Squad Wealth
 

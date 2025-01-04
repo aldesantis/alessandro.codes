@@ -13,6 +13,7 @@ summary: |
   Brands like Jiggy and Waterdrop use loyalty programs not just for discounts but also as a valuable source of feedback and inspiration. By tapping into data from loyalty members, companies can make informed decisions on product offerings, marketing strategies, and customer experiences. Loyalty programs serve as mini-focus groups, offering insights into customer preferences that can drive growth and enhance the overall shopping experience. Utilizing first-party data from loyalty programs has become increasingly crucial for brands in navigating challenges like rising customer acquisition costs and the shift away from third-party cookies.
 source: reader
 permalink: l/articles/how-brands-use-loyalty-programs-as-a-focus-group-to-drive-growth
+slug: how-brands-use-loyalty-programs-as-a-focus-group-to-drive-growth
 ---
 # How Brands Use Loyalty Programs as a ‘Focus Group’ to Drive Growth
 

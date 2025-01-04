@@ -13,6 +13,7 @@ summary: |
   A recent viral LinkedIn post discussed Nike's recent challenges and sparked various opinions in the marketing community. As the Olympics approach, interest in sports is surging, with more people engaging in physical activity and women's sports gaining more attention. There are concerns about the future of the creator economy, as economic shifts may affect influencers and their ability to earn from brand collaborations.
 source: reader
 permalink: l/articles/that-viral-linked-in-post-everyone-is-suddenly-a-sportsball-maniac-creator-economy-vibecession
+slug: that-viral-linked-in-post-everyone-is-suddenly-a-sportsball-maniac-creator-economy-vibecession
 ---
 # That Viral LinkedIn Post, Everyone Is Suddenly a Sportsball Maniac, Creator Economy + Vibecession
 

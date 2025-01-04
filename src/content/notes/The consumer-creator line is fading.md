@@ -1,6 +1,8 @@
 ---
 permalink: n/the-consumer-creator-line-is-fading
+slug: the-consumer-creator-line-is-fading
 status: 
+title: The consumer-creator line is fading
 ---
 # The consumer-creator line is fading
 

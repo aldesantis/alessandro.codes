@@ -13,6 +13,7 @@ summary: |
   Disclosure: Because of the beliefs shared below I’ve decided to invest in AppLovin before writing this article. This isn’t financial or business advice.
 source: reader
 permalink: l/articles/my-2025-predictions-app-lovin-ecom-boom-and-ai-failure
+slug: my-2025-predictions-app-lovin-ecom-boom-and-ai-failure
 ---
 # My 2025 Predictions: AppLovin, Ecom Boom, and AI Failure
 

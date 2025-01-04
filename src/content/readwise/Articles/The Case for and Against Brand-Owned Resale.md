@@ -13,6 +13,7 @@ summary: |
   Filson, a longstanding brand, has seen its vintage products sell for high prices in resale markets. The company launched Filson Unfailing, a platform for customers to trade in used items and for secondhand buyers to receive lifetime warranty benefits. The brand aims to capitalize on the resale market and retain customer loyalty through this initiative.
 source: reader
 permalink: l/articles/the-case-for-and-against-brand-owned-resale
+slug: the-case-for-and-against-brand-owned-resale
 ---
 # The Case for and Against Brand-Owned Resale
 

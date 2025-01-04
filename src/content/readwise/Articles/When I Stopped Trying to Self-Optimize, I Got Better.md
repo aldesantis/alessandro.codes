@@ -13,6 +13,7 @@ summary: |
   The growth mind-set. The abundance mind-set. The gratitude mind-set. I threw them all away.
 source: reader
 permalink: l/articles/when-i-stopped-trying-to-self-optimize-i-got-better
+slug: when-i-stopped-trying-to-self-optimize-i-got-better
 ---
 # When I Stopped Trying to Self-Optimize, I Got Better
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/gravitas
+slug: gravitas
 ---
 # Gravitas
 

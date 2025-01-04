@@ -1,6 +1,8 @@
 ---
 permalink: n/brands-need-to-activate-their-purpose
+slug: brands-need-to-activate-their-purpose
 status: 
+title: Brands need to activate their purpose
 ---
 # Brands need to activate their purpose
 

@@ -1,6 +1,8 @@
 ---
 permalink: m/topics/knowledge
+slug: knowledge
 status: 
+title: Knowledge
 ---
 # Knowledge
 

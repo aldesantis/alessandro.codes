@@ -13,6 +13,7 @@ summary: |
   Financial media network ad spending in the U.S. is poised to explode at a compound annual growth rate of 107% to hit $1.50 billion.
 source: reader
 permalink: l/articles/what-the-explosive-growth-of-financial-media-networks-means-for-retailers
+slug: what-the-explosive-growth-of-financial-media-networks-means-for-retailers
 ---
 # What the Explosive Growth of Financial Media Networks Means for Retailers
 

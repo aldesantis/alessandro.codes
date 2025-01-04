@@ -13,6 +13,7 @@ summary: |
   None
 source: reader
 permalink: l/articles/101023-d-c-360-optimizing-payments-c-s-p-paze
+slug: 101023-d-c-360-optimizing-payments-c-s-p-paze
 ---
 # 101023_DC360_OptimizingPayments_CSP_Paze
 

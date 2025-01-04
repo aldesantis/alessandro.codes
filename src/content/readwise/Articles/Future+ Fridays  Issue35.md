@@ -13,6 +13,7 @@ summary: |
   Hello and happy Friday. Being in Paris for the Ledger event was exhilarating last week.
 source: reader
 permalink: l/articles/future-fridays-issue35
+slug: future-fridays-issue35
 ---
 # Future+ Fridays | Issue35
 

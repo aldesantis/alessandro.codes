@@ -13,6 +13,7 @@ summary: |
   An archive of the best articles from Marc Andreessen’s now defunct blog
 source: reader
 permalink: l/articles/part-4-the-only-thing-that-matters
+slug: part-4-the-only-thing-that-matters
 ---
 # Part 4 The only thing that matters
 

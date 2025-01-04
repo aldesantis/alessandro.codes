@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/noi-bambine-ad-auschwitz
+slug: noi-bambine-ad-auschwitz
 ---
 # Noi, Bambine Ad Auschwitz
 

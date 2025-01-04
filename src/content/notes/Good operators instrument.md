@@ -1,6 +1,8 @@
 ---
 permalink: n/good-operators-instrument
+slug: good-operators-instrument
 status: 
+title: Good operators instrument
 ---
 # Good operators instrument
 

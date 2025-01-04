@@ -13,6 +13,7 @@ summary: |
   Here in the US, it’s Valentine’s Day this week, a (supposedly) romantic holiday.
 source: reader
 permalink: l/articles/would-you-date-yourself
+slug: would-you-date-yourself
 ---
 # Would You Date Yourself?
 

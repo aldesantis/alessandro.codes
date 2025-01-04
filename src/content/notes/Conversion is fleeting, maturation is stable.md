@@ -1,6 +1,8 @@
 ---
 permalink: n/conversion-is-fleeting-maturation-is-stable
+slug: conversion-is-fleeting-maturation-is-stable
 status: 
+title: Conversion is fleeting, maturation is stable
 ---
 # Conversion is fleeting, maturation is stable
 

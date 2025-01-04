@@ -13,6 +13,7 @@ summary: |
   The Pattern, and the Battle for the Soul of the Internet
 source: reader
 permalink: l/articles/the-ungated-manifesto
+slug: the-ungated-manifesto
 ---
 # The Ungated Manifesto
 

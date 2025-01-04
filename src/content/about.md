@@ -1,6 +1,7 @@
 ---
 permalink: about-this-space
 status: 
+title: About this space
 ---
 # About this space
 

@@ -13,6 +13,7 @@ summary: |
   The solution for strong, scaling brands: Tandym has an incredible proposition, strong brands deserve their own payment solution.
 source: reader
 permalink: l/articles/the-next-growth-market
+slug: the-next-growth-market
 ---
 # The Next Growth Market
 

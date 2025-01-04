@@ -13,6 +13,7 @@ summary: |
   “I adore you, sweetheart. I know how much you like to hear that — but I don’t only write it because you like it — I write it because it makes me warm all over inside to write it to you.
 source: reader
 permalink: l/articles/brain-food-causing-extraordinary
+slug: brain-food-causing-extraordinary
 ---
 # Brain Food: Causing Extraordinary
 

@@ -13,6 +13,7 @@ summary: |
   The CQ is Forerunner’s weekly newsletter rounding up the most pressing consumer news and analysis, plus some bonus musings from our investment team.
 source: reader
 permalink: l/articles/the-cq-13-noteworthy-stats-from-forerunner-s-inaugural-consumer-trend-report
+slug: the-cq-13-noteworthy-stats-from-forerunner-s-inaugural-consumer-trend-report
 ---
 # The CQ: 13 Noteworthy Stats From Forerunner's Inaugural Consumer Trend Report
 

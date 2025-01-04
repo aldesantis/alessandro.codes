@@ -13,6 +13,7 @@ summary: |
   Walmart is adopting a strategy from Target by leveraging its physical stores to fulfill orders for its growing e-commerce business. Target has found success with this approach, and Walmart hopes it will give them an edge in their competition with Amazon. Both Walmart and Target are prioritizing fulfilling e-commerce orders from their retail stores, recognizing the importance of physical locations in digital sales. By utilizing their extensive physical retail presence, Walmart and Target aim to compete with Amazon in terms of speed and delivery capabilities.
 source: reader
 permalink: l/articles/walmart-is-going-after-amazon-in-a-new-way-and-borrowing-a-strategy-from-target
+slug: walmart-is-going-after-amazon-in-a-new-way-and-borrowing-a-strategy-from-target
 ---
 # Walmart Is Going After Amazon in a New Way — And Borrowing a Strategy From Target
 

@@ -13,6 +13,7 @@ summary: |
   The timeline for the phase-out of third-party cookies in Google Chrome has become uncertain, with some ad executives predicting that they will still be present in the first quarter of 2025. The UK's Competitions and Markets Authority (CMA) has raised concerns about Google's Privacy Sandbox, which is meant to serve as an alternative to third-party cookies. The CMA believes the Sandbox falls short in supporting ad tech use cases and lacks interoperability, potentially leading to a shift of ad budgets to platforms with extensive access to first-party data. The CMA's report highlights regulatory concerns and calls for additional feedback before decisions are made.
 source: reader
 permalink: l/articles/ok-but-really-are-third-party-cookies-going-to-be-gone-from-google-s-chrome-by-the-end-of-2024
+slug: ok-but-really-are-third-party-cookies-going-to-be-gone-from-google-s-chrome-by-the-end-of-2024
 ---
 # OK but Really, Are Third-Party Cookies Going to Be Gone From Google’s Chrome by the End of 2024?
 

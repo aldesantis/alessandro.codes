@@ -13,6 +13,7 @@ summary: |
   The Philosophy Tier List: Ranking the World's Wisdom – Have you ever wondered which life philosophies are the best? Have you ever wanted a definitive tier ranking of them?
 source: reader
 permalink: l/articles/do-this-and-you-ll-fail-at-life
+slug: do-this-and-you-ll-fail-at-life
 ---
 # Do This and You'll Fail at Life
 

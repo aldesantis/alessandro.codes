@@ -13,6 +13,7 @@ summary: |
   If you’re launching or growing your creator brand in 2024, you need to know about this platform.
 source: reader
 permalink: l/articles/what-i-learned-from-conan-o-brien
+slug: what-i-learned-from-conan-o-brien
 ---
 # What I Learned From Conan O'Brien
 

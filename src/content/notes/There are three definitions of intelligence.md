@@ -1,6 +1,8 @@
 ---
 permalink: n/there-are-three-definitions-of-intelligence
+slug: there-are-three-definitions-of-intelligence
 status: 
+title: There are three definitions of intelligence
 ---
 # There are three definitions of intelligence
 

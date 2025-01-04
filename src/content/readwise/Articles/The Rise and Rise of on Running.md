@@ -13,6 +13,7 @@ summary: |
   On Running has become a popular brand worn by athletes, celebrities, and trendsetters worldwide. The company's success is attributed to its innovative product designs and strategic collaborations. On Running is expanding its market presence and focusing on authentic engagement with new communities and markets.
 source: reader
 permalink: l/articles/the-rise-and-rise-of-on-running
+slug: the-rise-and-rise-of-on-running
 ---
 # The Rise and Rise of on Running
 

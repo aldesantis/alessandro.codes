@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/pi-libri-pi-liberi-e-il-grottesco-spettacolo-degli-avvoltoi-moralisti
+slug: pi-libri-pi-liberi-e-il-grottesco-spettacolo-degli-avvoltoi-moralisti
 ---
 # Più Libri Più Liberi E Il GROTTESCO Spettacolo Degli Avvoltoi Moralisti
 

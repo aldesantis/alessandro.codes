@@ -13,6 +13,7 @@ summary: |
   The article discusses the rise of the personal brand in the age of social media and how it affects artists and creators. The internet has made it so that no matter who you are or what you do, you cannot escape the tyranny of the personal brand, leading to constant self-promotion and the feeling that what you are really doing with your time is marketing, not art. The system works great for record labels or publishing houses, who can hand over the burden of marketing to the artists themselves. However, the problem isn't that people aren't buying books or listening to music, it's that less of the money is going to the artists.
 source: reader
 permalink: l/articles/everyone-s-a-sellout-now
+slug: everyone-s-a-sellout-now
 ---
 # Everyone’s a Sellout Now
 

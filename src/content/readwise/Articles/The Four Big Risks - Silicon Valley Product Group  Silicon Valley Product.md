@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-four-big-risks-silicon-valley-product-group-silicon-valley-product
+slug: the-four-big-risks-silicon-valley-product-group-silicon-valley-product
 ---
 # The Four Big Risks - Silicon Valley Product Group : Silicon Valley Product
 

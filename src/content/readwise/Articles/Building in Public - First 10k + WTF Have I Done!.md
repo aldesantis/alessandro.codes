@@ -13,6 +13,7 @@ summary: |
   And the big business of newsletters. 📬 
 source: reader
 permalink: l/articles/building-in-public-first-10-k-wtf-have-i-done
+slug: building-in-public-first-10-k-wtf-have-i-done
 ---
 # Building in Public - First 10k + WTF Have I Done?!
 

@@ -13,6 +13,7 @@ summary: |
   It's easier to measure and feel high autonomy than it is to measure high alignment. But without alignment, autonomy is squandered.
 source: reader
 permalink: l/articles/alignment-autonomy
+slug: alignment-autonomy
 ---
 # Alignment > Autonomy
 

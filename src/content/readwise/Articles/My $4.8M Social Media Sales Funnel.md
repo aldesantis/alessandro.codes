@@ -13,6 +13,7 @@ summary: |
   Learn my 5-step social media model that generated $4.8M in four years. Engage readers, transition to sales, and deliver value — all without the complexity.
 source: reader
 permalink: l/articles/my-4-8-m-social-media-sales-funnel
+slug: my-4-8-m-social-media-sales-funnel
 ---
 # My $4.8M Social Media Sales Funnel
 

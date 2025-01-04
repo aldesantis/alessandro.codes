@@ -13,6 +13,7 @@ summary: |
   Bill Watterson reflects on his college experience, emphasizing the importance of creativity and play in nurturing happiness and ideas. He warns against letting external pressures dictate one's life and encourages finding personal meaning beyond societal success. Ultimately, he believes that cultivating interests and inner motivation leads to a more fulfilling life.
 source: reader
 permalink: l/articles/bill-watterson-some-thoughts-on-the-real-world-by-one-who-glimpsed-it-and-fled-kenyon-college-1990
+slug: bill-watterson-some-thoughts-on-the-real-world-by-one-who-glimpsed-it-and-fled-kenyon-college-1990
 ---
 # Bill Watterson: 'Some Thoughts on the Real World by One Who Glimpsed It and Fled', Kenyon College - 1990
 

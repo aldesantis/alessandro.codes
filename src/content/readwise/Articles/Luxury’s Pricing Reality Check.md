@@ -13,6 +13,7 @@ summary: |
   Luxury brands are recognizing that high prices have hurt demand and are adjusting their strategies to offer more affordable options. Companies like Mulberry and Michael Kors are lowering prices to attract customers, while Burberry is shifting its focus back to more accessible luxury. Industry analysts agree that the rapid price increases following the pandemic have alienated many consumers, prompting calls for better value in luxury goods.
 source: reader
 permalink: l/articles/luxury-s-pricing-reality-check
+slug: luxury-s-pricing-reality-check
 ---
 # Luxury’s Pricing Reality Check
 

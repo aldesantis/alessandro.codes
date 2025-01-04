@@ -13,6 +13,7 @@ summary: |
   How consumers' taste shapes brand strategy
 source: reader
 permalink: l/articles/the-taste-map
+slug: the-taste-map
 ---
 # The Taste Map
 

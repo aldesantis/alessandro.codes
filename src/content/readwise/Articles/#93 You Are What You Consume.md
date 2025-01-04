@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/93-you-are-what-you-consume
+slug: 93-you-are-what-you-consume
 ---
 # #93: You Are What You Consume
 

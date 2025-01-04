@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/top-9-ux-research-methods-the-complete-2022-guide-maze
+slug: top-9-ux-research-methods-the-complete-2022-guide-maze
 ---
 # Top 9 UX Research Methods [The Complete 2022 Guide] - Maze
 

@@ -13,6 +13,7 @@ summary: |
   I hope you’ve had a great start to your 2024 year so far.
 source: reader
 permalink: l/articles/9-pages-of-context-strategy-and-tips
+slug: 9-pages-of-context-strategy-and-tips
 ---
 # 9 Pages of Context, Strategy and Tips!
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/marketplaces-require-dedicated-teams
+slug: marketplaces-require-dedicated-teams
 status: 
+title: Marketplaces require dedicated teams
 ---
 # Marketplaces require dedicated teams
 

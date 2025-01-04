@@ -13,6 +13,7 @@ summary: |
   AI advancements are leading to the obsolescence of many jobs, raising questions about the future of work and happiness. Studies show that unemployment can have negative effects on mental and physical health, but how people use their time during unemployment can impact well-being positively. The shift towards automation may require a reevaluation of societal norms around work and leisure.
 source: reader
 permalink: l/articles/my-last-five-years-of-work
+slug: my-last-five-years-of-work
 ---
 # My Last Five Years of Work
 

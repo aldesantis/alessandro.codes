@@ -13,6 +13,7 @@ summary: |
   An objectively "worse" strategy can win, if it leverages something unique or unexpected. Startups can use this concept to beat incumbents.
 source: reader
 permalink: l/articles/a-perfect-storm-created-a-renaissance-in-chess-covid-driving-people-to-occupy-their-minds-in-physical-isolation-the-hit-netflix-show-the-queen-s-gambit-and-a-surge-of-chess-twitch-streamers-and-you-tubers-fueling-that-nascent-interest-in-chess-wit
+slug: a-perfect-storm-created-a-renaissance-in-chess-covid-driving-people-to-occupy-their-minds-in-physical-isolation-the-hit-netflix-show-the-queen-s-gambit-and-a-surge-of-chess-twitch-streamers-and-you-tubers-fueling-that-nascent-interest-in-chess-wit
 ---
 # A perfect storm created a renaissance in chess: COVID driving people to occupy their minds in physical isolation, the hit Netflix show “The Queen’s Gambit,” and a surge of chess Twitch streamers and YouTubers fueling that nascent interest in chess with equal parts education and entertainment.
 

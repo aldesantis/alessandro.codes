@@ -13,6 +13,7 @@ summary: |
   Plus, regenerative pasta, bodycare goes niche, and a Marie Antoinette-core crate cover
 source: reader
 permalink: l/articles/dip-043-names-and-meaning-and-aesthetics
+slug: dip-043-names-and-meaning-and-aesthetics
 ---
 # DIP 043: Names and Meaning and Aesthetics
 

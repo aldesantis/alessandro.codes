@@ -13,6 +13,7 @@ summary: |
   Last edition I covered tips on structuring a shopping cart abandonment email/SMS program.
 source: reader
 permalink: l/articles/how-to-tackle-common-reasons-for-checkout-abandonment-video-tutorial-on-driving-search-engagement-useful-resources
+slug: how-to-tackle-common-reasons-for-checkout-abandonment-video-tutorial-on-driving-search-engagement-useful-resources
 ---
 # How to Tackle Common Reasons for Checkout Abandonment, Video Tutorial on Driving Search Engagement & Useful Resources
 

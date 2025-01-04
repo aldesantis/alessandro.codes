@@ -13,6 +13,7 @@ summary: |
   The text discusses the importance of listening to systems and understanding their complexity. It emphasizes the need to locate responsibility within systems and pay attention to what is important beyond what is quantifiable. Furthermore, it highlights the value of expanding time and thought horizons to navigate complex systems effectively.
 source: reader
 permalink: l/articles/dancing-with-systems
+slug: dancing-with-systems
 ---
 # Dancing With Systems
 

@@ -13,6 +13,7 @@ summary: |
   “Finish each day and be done with it. You have done what you could.
 source: reader
 permalink: l/articles/brain-food-leave-your-crown-in-the-garage
+slug: brain-food-leave-your-crown-in-the-garage
 ---
 # Brain Food: Leave Your Crown in the Garage
 

@@ -13,6 +13,7 @@ summary: |
   Fashion brands are using AI and Big Data to personalize online shopping experiences for customers. Personalization is crucial for brands to connect with consumers in a competitive market. Companies must invest in data collection and analytics to deliver hyper-personalized e-commerce content and experiences.
 source: reader
 permalink: l/articles/the-opportunity-in-hyper-personalising-shopping
+slug: the-opportunity-in-hyper-personalising-shopping
 ---
 # The Opportunity in Hyper-Personalising Shopping
 

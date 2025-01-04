@@ -13,6 +13,7 @@ summary: |
   To be interesting, be interested
 source: reader
 permalink: l/articles/how-to-become-a-better-conversationalist
+slug: how-to-become-a-better-conversationalist
 ---
 # How to Become a Better Conversationalist
 

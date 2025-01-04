@@ -13,6 +13,7 @@ summary: |
   In this guide I’m going to cover the pillars of an effective email marketing program for fashion brands.
 source: reader
 permalink: l/articles/my-email-playbook-for-fashion-brands
+slug: my-email-playbook-for-fashion-brands
 ---
 # My Email Playbook for Fashion Brands
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/vertical-integration-comes-with-regulatory-benefits
+slug: vertical-integration-comes-with-regulatory-benefits
 status: 
+title: Vertical integration comes with regulatory benefits
 ---
 # Vertical integration comes with regulatory benefits
 

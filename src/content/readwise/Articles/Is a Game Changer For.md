@@ -13,6 +13,7 @@ summary: |
   Growth doesn’t come easy for CPG brands these days. With digital ads no longer performing like they used to, a flood of new competition in [...]
 source: reader
 permalink: l/articles/is-a-game-changer-for
+slug: is-a-game-changer-for
 ---
 # Is a Game Changer For
 

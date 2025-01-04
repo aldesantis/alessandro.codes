@@ -13,6 +13,7 @@ summary: |
   What does it really feel for a founder to close their beauty brand? One founder speaks candidly about hope, identity, debt, and knowing when to move on.
 source: reader
 permalink: l/articles/confessions-of-a-founder-closing-her-beauty-brand-dtc-isn-t-working-right-now
+slug: confessions-of-a-founder-closing-her-beauty-brand-dtc-isn-t-working-right-now
 ---
 # Confessions of a Founder Closing Her Beauty Brand: ‘DTC Isn’t Working Right Now’
 

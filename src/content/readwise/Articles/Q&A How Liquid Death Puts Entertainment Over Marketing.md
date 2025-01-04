@@ -13,6 +13,7 @@ summary: |
   'We're closer to a writer’s room than a traditional marketing department'
 source: reader
 permalink: l/articles/q-a-how-liquid-death-puts-entertainment-over-marketing
+slug: q-a-how-liquid-death-puts-entertainment-over-marketing
 ---
 # Q&A: How Liquid Death Puts Entertainment Over Marketing
 

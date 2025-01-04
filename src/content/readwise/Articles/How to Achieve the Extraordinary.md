@@ -13,6 +13,7 @@ summary: |
   What extraordinary thing are you going to make happen for yourself this year? What are the first small steps you can take towards making it happen this week?
 source: reader
 permalink: l/articles/how-to-achieve-the-extraordinary
+slug: how-to-achieve-the-extraordinary
 ---
 # How to Achieve the Extraordinary
 

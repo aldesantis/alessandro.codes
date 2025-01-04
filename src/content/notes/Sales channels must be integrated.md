@@ -1,6 +1,8 @@
 ---
 permalink: n/sales-channels-must-be-integrated
+slug: sales-channels-must-be-integrated
 status: 
+title: Sales channels must be integrated
 ---
 # Sales channels must be integrated
 

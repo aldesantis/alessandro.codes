@@ -1,6 +1,8 @@
 ---
 permalink: n/alexander-technique-allows-you-to-expand-the-space-between-stimulus-and-response
+slug: alexander-technique-allows-you-to-expand-the-space-between-stimulus-and-response
 status: 
+title: Alexander Technique allows you to expand the space between stimulus and response
 ---
 # Alexander Technique allows you to expand the space between stimulus and response
 

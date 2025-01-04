@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/get-together
+slug: get-together
 ---
 # Get Together
 

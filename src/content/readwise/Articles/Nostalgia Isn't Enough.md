@@ -13,6 +13,7 @@ summary: |
   Can't revive a brand on memories
 source: reader
 permalink: l/articles/nostalgia-isn-t-enough
+slug: nostalgia-isn-t-enough
 ---
 # Nostalgia Isn't Enough
 

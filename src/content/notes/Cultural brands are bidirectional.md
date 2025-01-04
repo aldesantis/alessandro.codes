@@ -1,6 +1,8 @@
 ---
 permalink: n/cultural-brands-are-bidirectional
+slug: cultural-brands-are-bidirectional
 status: 
+title: Cultural brands are bidirectional
 ---
 # Cultural brands are bidirectional
 

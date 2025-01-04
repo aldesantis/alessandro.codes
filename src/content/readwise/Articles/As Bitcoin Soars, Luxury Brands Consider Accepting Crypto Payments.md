@@ -13,6 +13,7 @@ summary: |
   High-end brands and retailers are expressing interest in crypto payments as they search for new pockets of wealth to combat a sector slowdown.
 source: reader
 permalink: l/articles/as-bitcoin-soars-luxury-brands-consider-accepting-crypto-payments
+slug: as-bitcoin-soars-luxury-brands-consider-accepting-crypto-payments
 ---
 # As Bitcoin Soars, Luxury Brands Consider Accepting Crypto Payments
 

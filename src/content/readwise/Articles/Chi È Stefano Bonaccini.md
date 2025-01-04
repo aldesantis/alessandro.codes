@@ -13,6 +13,7 @@ summary: |
   Stefano Bonaccini, presidente dell’Emilia-Romagna, ha detto che si candiderà alla segreteria del Partito Democratico per sostituire Enrico Letta alle primarie che si terranno il 19 febbraio del 2023.
 source: reader
 permalink: l/articles/chi-stefano-bonaccini
+slug: chi-stefano-bonaccini
 ---
 # Chi È Stefano Bonaccini
 

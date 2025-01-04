@@ -13,6 +13,7 @@ summary: |
   “The advice I like to give anybody who’ll listen to me, is not to wait around for inspiration. Inspiration is for amateurs; the rest of us just show up and get to work.
 source: reader
 permalink: l/articles/brain-food-positive-inertia
+slug: brain-food-positive-inertia
 ---
 # Brain Food: Positive Inertia
 

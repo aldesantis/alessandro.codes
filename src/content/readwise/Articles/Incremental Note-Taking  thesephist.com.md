@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/incremental-note-taking-thesephist-com
+slug: incremental-note-taking-thesephist-com
 ---
 # Incremental Note-Taking | thesephist.com
 

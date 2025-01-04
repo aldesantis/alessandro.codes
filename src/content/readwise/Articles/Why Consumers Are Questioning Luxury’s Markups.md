@@ -13,6 +13,7 @@ summary: |
   Luxury brands like Dior and Armani are facing scrutiny for high markups and poor factory conditions, with reports of low production costs for expensive items. Consumers are increasingly disappointed as they perceive a decline in quality and are questioning what they are really paying for. Experts suggest that growing awareness may push the industry towards more transparency and ethical practices.
 source: reader
 permalink: l/articles/why-consumers-are-questioning-luxury-s-markups
+slug: why-consumers-are-questioning-luxury-s-markups
 ---
 # Why Consumers Are Questioning Luxury’s Markups
 

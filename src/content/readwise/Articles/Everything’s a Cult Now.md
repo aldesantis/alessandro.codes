@@ -13,6 +13,7 @@ summary: |
   The text discusses how the internet has led to a fragmented society resembling a collection of cults. It explores how modern cults form around critiques of the mainstream and how the erosion of a shared reality can impact democracy. The author reflects on the historical shift from a monoculture to a diverse media landscape, highlighting the benefits and challenges it presents.
 source: reader
 permalink: l/articles/everything-s-a-cult-now
+slug: everything-s-a-cult-now
 ---
 # Everything’s a Cult Now
 

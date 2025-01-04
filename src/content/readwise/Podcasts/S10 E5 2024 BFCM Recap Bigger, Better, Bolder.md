@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/s-10-e-5-2024-bfcm-recap-bigger-better-bolder
+slug: s-10-e-5-2024-bfcm-recap-bigger-better-bolder
 ---
 # S10 E5: 2024 BFCM Recap: Bigger, Better, Bolder?
 

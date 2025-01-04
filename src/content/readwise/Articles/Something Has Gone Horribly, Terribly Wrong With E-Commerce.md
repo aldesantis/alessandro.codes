@@ -13,6 +13,7 @@ summary: |
   We've entered the Gen-Z Subsidized Social Commerce Era
 source: reader
 permalink: l/articles/something-has-gone-horribly-terribly-wrong-with-e-commerce
+slug: something-has-gone-horribly-terribly-wrong-with-e-commerce
 ---
 # Something Has Gone Horribly, Terribly Wrong With E-Commerce
 

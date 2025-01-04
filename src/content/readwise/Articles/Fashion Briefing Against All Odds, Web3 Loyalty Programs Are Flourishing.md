@@ -13,6 +13,7 @@ summary: |
   This week, we take a deep dive into the recent growth of web3 fashion loyalty programs from Lacoste, LVMH and Dior, and the reason brands are separating them from their existing loyalty programs.
 source: reader
 permalink: l/articles/fashion-briefing-against-all-odds-web3-loyalty-programs-are-flourishing
+slug: fashion-briefing-against-all-odds-web3-loyalty-programs-are-flourishing
 ---
 # Fashion Briefing: Against All Odds, Web3 Loyalty Programs Are Flourishing
 

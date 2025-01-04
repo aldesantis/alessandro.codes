@@ -13,6 +13,7 @@ summary: |
   A man in North Carolina, Ray Harrell, lived a quiet life and passed away without fanfare. His grandson struggled to capture the essence of this humble life in an obituary. Despite lacking grand achievements, Ray's simple existence left a lasting impact on his family and community.
 source: reader
 permalink: l/articles/obituary-for-a-quiet-life
+slug: obituary-for-a-quiet-life
 ---
 # Obituary for a Quiet Life
 

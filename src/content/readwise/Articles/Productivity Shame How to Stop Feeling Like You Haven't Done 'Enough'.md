@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/productivity-shame-how-to-stop-feeling-like-you-haven-t-done-enough
+slug: productivity-shame-how-to-stop-feeling-like-you-haven-t-done-enough
 ---
 # Productivity Shame: How to Stop Feeling Like You Haven't Done 'Enough'
 

@@ -13,6 +13,7 @@ summary: |
   Luxury fashion is facing a slowdown that presents an opportunity for brands to shift towards more sustainable practices. Experts suggest adopting circular business models, like rental and resale, to improve profitability and engage customers differently. As consumer behavior changes, brands must innovate to remain relevant and profitable without relying solely on new product sales.
 source: reader
 permalink: l/articles/as-growth-stalls-luxury-has-an-opportunity-for-change
+slug: as-growth-stalls-luxury-has-an-opportunity-for-change
 ---
 # As Growth Stalls, Luxury Has an Opportunity for Change
 

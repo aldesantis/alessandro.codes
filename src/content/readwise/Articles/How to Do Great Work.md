@@ -13,6 +13,7 @@ summary: |
   Partly my goal was to create a guide that could be used by someone working in any field. But I was also curious about the shape of the intersection.
 source: reader
 permalink: l/articles/how-to-do-great-work
+slug: how-to-do-great-work
 ---
 # How to Do Great Work
 

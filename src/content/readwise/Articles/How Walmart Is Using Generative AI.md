@@ -13,6 +13,7 @@ summary: |
   Walmart is using generative AI to improve search results and empower employees to better assist customers. The technology helps customers find what they want and enhances the shopping experience through personalized recommendations. Walmart's adoption of generative AI could set a trend for the future of retail.
 source: reader
 permalink: l/articles/how-walmart-is-using-generative-ai
+slug: how-walmart-is-using-generative-ai
 ---
 # How Walmart Is Using Generative AI
 

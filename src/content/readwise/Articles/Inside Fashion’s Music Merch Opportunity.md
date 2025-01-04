@@ -13,6 +13,7 @@ summary: |
   Indrė Narbutaitė and Lukas Žvikas, founders of UK-based streetwear brand Broken Planet, were asked to design a merch capsule for the Rolling Loud hip-hop festival in Portugal, featuring artists like Travis Scott. The collection sold out within 20 minutes each day and now resells for more than double the original price. This highlights the growing trend of artists and festival organizers partnering with fashion and streetwear brands to create high-quality and valuable merchandise. The intersection of fashion and music merch was boosted by Travis Scott's Astroworld tour in 2018, which shifted the perception of what tour merch should look like. The music industry's biggest players are also getting involved, with companies like Spotify creating limited-edition merch collections and exploring merch as a significant revenue stream. Despite the popularity of online merch sales, the retail experience of buying merch at live events remains a unique and valuable opportunity for brands and designers.
 source: reader
 permalink: l/articles/inside-fashion-s-music-merch-opportunity
+slug: inside-fashion-s-music-merch-opportunity
 ---
 # Inside Fashion’s Music Merch Opportunity
 

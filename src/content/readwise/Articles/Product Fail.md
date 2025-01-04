@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/product-fail
+slug: product-fail
 ---
 # Product Fail
 

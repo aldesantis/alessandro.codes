@@ -1,6 +1,8 @@
 ---
 permalink: n/information-abundance-causes-cultural-fragmentation
+slug: information-abundance-causes-cultural-fragmentation
 status: budding
+title: Information abundance causes cultural fragmentation
 ---
 # Information abundance causes cultural fragmentation
 

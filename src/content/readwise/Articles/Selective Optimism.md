@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/selective-optimism
+slug: selective-optimism
 ---
 # Selective Optimism
 

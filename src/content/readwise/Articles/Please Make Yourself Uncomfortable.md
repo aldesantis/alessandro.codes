@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/please-make-yourself-uncomfortable
+slug: please-make-yourself-uncomfortable
 ---
 # Please Make Yourself Uncomfortable
 

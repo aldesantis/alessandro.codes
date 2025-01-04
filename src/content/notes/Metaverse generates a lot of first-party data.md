@@ -1,6 +1,8 @@
 ---
 permalink: n/metaverse-generates-a-lot-of-first-party-data
+slug: metaverse-generates-a-lot-of-first-party-data
 status: 
+title: Metaverse generates a lot of first-party data
 ---
 # Metaverse generates a lot of first-party data
 

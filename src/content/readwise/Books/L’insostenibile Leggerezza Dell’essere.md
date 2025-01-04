@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/l-insostenibile-leggerezza-dell-essere
+slug: l-insostenibile-leggerezza-dell-essere
 ---
 # L’insostenibile Leggerezza Dell’essere
 

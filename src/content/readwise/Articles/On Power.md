@@ -13,6 +13,7 @@ summary: |
   The text discusses the concept of personal power and offers practical advice on how to strengthen it in the context of career management. It emphasizes the importance of owning and controlling assets, being versatile and resourceful, and developing deep expertise to increase one's influence and agency in various fields. The author encourages readers to consider ways to maximize their personal power for a more secure and fulfilling professional life.
 source: reader
 permalink: l/articles/on-power
+slug: on-power
 ---
 # On Power
 

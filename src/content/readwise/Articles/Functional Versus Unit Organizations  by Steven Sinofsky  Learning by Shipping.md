@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/functional-versus-unit-organizations-by-steven-sinofsky-learning-by-shipping
+slug: functional-versus-unit-organizations-by-steven-sinofsky-learning-by-shipping
 ---
 # Functional Versus Unit Organizations | by Steven Sinofsky | Learning by Shipping
 

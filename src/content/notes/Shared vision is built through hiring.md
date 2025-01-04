@@ -1,6 +1,8 @@
 ---
 permalink: n/shared-vision-is-built-through-hiring
+slug: shared-vision-is-built-through-hiring
 status: 
+title: Shared vision is built through hiring
 ---
 # Shared vision is built through hiring
 

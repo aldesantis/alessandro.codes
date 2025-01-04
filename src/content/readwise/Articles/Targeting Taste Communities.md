@@ -13,6 +13,7 @@ summary: |
   Why community, not an individuals, is the new unit of marketing
 source: reader
 permalink: l/articles/targeting-taste-communities
+slug: targeting-taste-communities
 ---
 # Targeting Taste Communities
 

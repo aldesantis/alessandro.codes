@@ -1,6 +1,8 @@
 ---
 permalink: n/writing-shouldn-t-start-with-a-blank-page
+slug: writing-shouldn-t-start-with-a-blank-page
 status: 
+title: Writing shouldn’t start with a blank page
 ---
 # Writing shouldn’t start with a blank page
 

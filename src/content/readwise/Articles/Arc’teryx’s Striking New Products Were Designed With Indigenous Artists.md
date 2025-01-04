@@ -13,6 +13,7 @@ summary: |
   Arc’teryx collaborated with Indigenous designer Cole Sparrow-Crawford for their new Walk Gently line, blending native arts with technical fabrics. The collection celebrates Indigenous craftsmanship and heritage, reflecting traditional designs in modern products. Sparrow-Crawford's partnership with Arc’teryx aims to honor Indigenous communities and ensure their heritage lives on through storytelling and design.
 source: reader
 permalink: l/articles/arc-teryx-s-striking-new-products-were-designed-with-indigenous-artists
+slug: arc-teryx-s-striking-new-products-were-designed-with-indigenous-artists
 ---
 # Arc’teryx’s Striking New Products Were Designed With Indigenous Artists
 

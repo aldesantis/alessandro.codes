@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/ep-448-the-world-s-best-email-and-retention-podcast-bfcm-email-strategies
+slug: ep-448-the-world-s-best-email-and-retention-podcast-bfcm-email-strategies
 ---
 # Ep 448 —  the World's Best Email and Retention Podcast – BFCM Email Strategies
 

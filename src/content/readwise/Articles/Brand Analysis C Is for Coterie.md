@@ -13,6 +13,7 @@ summary: |
   Coterie is a luxury diaper brand that has gained popularity for its high absorbency and premium price, positioning itself as a status symbol for parents. Founded by Frank Yu after discovering ultra-absorbent Japanese diapers, Coterie's subscription model has sparked mixed reactions among consumers. The brand emphasizes a parent-centric marketing approach, focusing on sleep quality and the overall parenting experience rather than just the product itself.
 source: reader
 permalink: l/articles/brand-analysis-c-is-for-coterie
+slug: brand-analysis-c-is-for-coterie
 ---
 # Brand Analysis: C Is for Coterie
 

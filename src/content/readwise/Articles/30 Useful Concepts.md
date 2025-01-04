@@ -13,6 +13,7 @@ summary: |
   The text discusses 30 useful concepts for understanding the world, ranging from dopamine culture to champion bias. These concepts aim to provide insights into various aspects of human behavior and decision-making. The author encourages readers to explore these ideas further for personal growth and understanding.
 source: reader
 permalink: l/articles/30-useful-concepts
+slug: 30-useful-concepts
 ---
 # 30 Useful Concepts
 

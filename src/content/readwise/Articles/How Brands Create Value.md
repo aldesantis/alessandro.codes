@@ -13,6 +13,7 @@ summary: |
   Macro and micro levels of value creation
 source: reader
 permalink: l/articles/how-brands-create-value
+slug: how-brands-create-value
 ---
 # How Brands Create Value
 

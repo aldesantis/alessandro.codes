@@ -13,6 +13,7 @@ summary: |
   The primacy of facts over feelings is a myth
 source: reader
 permalink: l/articles/the-best-decision-making-is-emotional
+slug: the-best-decision-making-is-emotional
 ---
 # The Best Decision-Making Is Emotional
 

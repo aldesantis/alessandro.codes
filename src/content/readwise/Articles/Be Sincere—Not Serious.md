@@ -13,6 +13,7 @@ summary: |
   Why white-knuckling your way through life doesn't work
 source: reader
 permalink: l/articles/be-sincere-not-serious
+slug: be-sincere-not-serious
 ---
 # Be Sincere—Not Serious
 

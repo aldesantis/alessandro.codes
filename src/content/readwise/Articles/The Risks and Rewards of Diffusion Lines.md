@@ -13,6 +13,7 @@ summary: |
   Diffusion lines have emerged as a core element of New Luxury as brands establish more accessible and (often) more popular collections than mainline.
 source: reader
 permalink: l/articles/the-risks-and-rewards-of-diffusion-lines
+slug: the-risks-and-rewards-of-diffusion-lines
 ---
 # The Risks and Rewards of Diffusion Lines
 

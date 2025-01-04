@@ -13,6 +13,7 @@ summary: |
   While others chase revenue and fancy titles, outliers focus on what they can control today: reading one more book, making one more phone call, and reviewing that email one final time.
 source: reader
 permalink: l/articles/brain-food-obsessed
+slug: brain-food-obsessed
 ---
 # Brain Food: Obsessed
 

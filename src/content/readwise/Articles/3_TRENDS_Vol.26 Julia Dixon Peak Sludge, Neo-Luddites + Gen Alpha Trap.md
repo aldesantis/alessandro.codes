@@ -13,6 +13,7 @@ summary: |
   Coming up, we’ve got a hot slate of 3_TRENDS interviews, a deep dive on spatial computing, another way to think about “touching grass,” and an announcement for my biggest project of the year...
 source: reader
 permalink: l/articles/3-t-r-e-n-d-s-vol-26-julia-dixon-peak-sludge-neo-luddites-gen-alpha-trap
+slug: 3-t-r-e-n-d-s-vol-26-julia-dixon-peak-sludge-neo-luddites-gen-alpha-trap
 ---
 # 3_TRENDS_Vol.26: Julia Dixon: Peak Sludge, Neo-Luddites + Gen Alpha Trap
 

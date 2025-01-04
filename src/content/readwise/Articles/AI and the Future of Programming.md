@@ -13,6 +13,7 @@ summary: |
   Amjad Masad, the founder of AI-unicron Replit, believes that programming skills will become more important in an AI-driven world, since AI tools are inherently augmenting rather than automating. He thinks that these tools might change the required skills of programmers, who will act more as guides or managers in many cases, but they will still be needed to fill in gaps and control the models' possible mistakes. However, Masad also argues that AI doom is caused by players' incentives to oversell or overstate AI's capabilities, creating a cycle of hype and fear. Masad also suggests that bundling and vertical integration could be a strategy for AI startups to win against incumbents.
 source: reader
 permalink: l/articles/ai-and-the-future-of-programming
+slug: ai-and-the-future-of-programming
 ---
 # AI and the Future of Programming
 

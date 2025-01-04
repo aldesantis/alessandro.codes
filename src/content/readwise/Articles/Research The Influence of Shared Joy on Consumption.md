@@ -13,6 +13,7 @@ summary: |
   Barbenheimer was a cultural moment and a future Harvard Business School case study. According to AMC Theatres, more than 40,000 people purchased tickets to the “Barbie” and “Oppen…
 source: reader
 permalink: l/articles/research-the-influence-of-shared-joy-on-consumption
+slug: research-the-influence-of-shared-joy-on-consumption
 ---
 # Research: The Influence of Shared Joy on Consumption
 

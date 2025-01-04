@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/work-the-policy-not-the-exceptions
+slug: work-the-policy-not-the-exceptions
 ---
 # Work the Policy, Not the Exceptions.
 

@@ -13,6 +13,7 @@ summary: |
   Direct-to-consumer brands once relied on Meta to acquire customers on their own websites but are now moving to Amazon.
 source: reader
 permalink: l/articles/some-dtc-brands-moved-up-to-30-of-their-holiday-ad-spend-from-meta-to-amazon
+slug: some-dtc-brands-moved-up-to-30-of-their-holiday-ad-spend-from-meta-to-amazon
 ---
 # Some DTC Brands Moved Up to 30% of Their Holiday Ad Spend From Meta to Amazon
 

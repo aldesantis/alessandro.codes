@@ -13,6 +13,7 @@ summary: |
   Happy Sunday and Merry Christmas Eve to you and your family! I hope you’ve set aside 4 minutes for today’s newsletter — I’ll keep it short and sweet.
 source: reader
 permalink: l/articles/the-tik-tok-shop-gold-rush-what-is-it-how-to-get-a-piece-of-the-action
+slug: the-tik-tok-shop-gold-rush-what-is-it-how-to-get-a-piece-of-the-action
 ---
 # The TikTok Shop Gold Rush — What Is It & How to Get a Piece of the Action
 

@@ -13,6 +13,7 @@ summary: |
   Shortly before April Fools, Heinz and Absolut revealed an unlikely collaboration that left some marketing journalists thinking they were being pranked. Two months on and 500m impressions later, sales of Heinz pasta sauces are up more than 50%. 
 source: reader
 permalink: l/articles/inside-the-viral-heinz-x-absolut-collab-that-sent-pasta-sauce-sales-soaring
+slug: inside-the-viral-heinz-x-absolut-collab-that-sent-pasta-sauce-sales-soaring
 ---
 # Inside the Viral Heinz X Absolut Collab That Sent Pasta Sauce Sales Soaring
 

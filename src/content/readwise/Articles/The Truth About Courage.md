@@ -13,6 +13,7 @@ summary: |
   “Sometimes people fear starting a company too much. Really, what’s the worst that could go wrong?
 source: reader
 permalink: l/articles/the-truth-about-courage
+slug: the-truth-about-courage
 ---
 # The Truth About Courage
 

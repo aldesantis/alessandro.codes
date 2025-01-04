@@ -13,6 +13,7 @@ summary: |
   Rohan Deuskar, founder and CEO of Stylitics, shares insights into trends reshaping e-commerce.
 source: reader
 permalink: l/articles/how-the-next-phase-of-personalization-drives-conversions
+slug: how-the-next-phase-of-personalization-drives-conversions
 ---
 # How the Next Phase of Personalization Drives Conversions
 

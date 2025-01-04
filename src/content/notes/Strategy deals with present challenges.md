@@ -1,6 +1,8 @@
 ---
 permalink: n/strategy-deals-with-present-challenges
+slug: strategy-deals-with-present-challenges
 status: 
+title: Strategy deals with present challenges
 ---
 # Strategy deals with present challenges
 

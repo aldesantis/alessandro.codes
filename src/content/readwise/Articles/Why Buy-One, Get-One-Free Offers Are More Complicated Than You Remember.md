@@ -13,6 +13,7 @@ summary: |
   Marketers’ race for data is leading to buy-one-get-one deals that make customers work a little bit harder.
 source: reader
 permalink: l/articles/why-buy-one-get-one-free-offers-are-more-complicated-than-you-remember
+slug: why-buy-one-get-one-free-offers-are-more-complicated-than-you-remember
 ---
 # Why Buy-One, Get-One-Free Offers Are More Complicated Than You Remember
 

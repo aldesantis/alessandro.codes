@@ -13,6 +13,7 @@ summary: |
   The studio is tapping emerging designers and adopting streetwear’s “drop” culture to build hype around its films. 
 source: reader
 permalink: l/articles/how-film-distributor-a-24-became-the-hottest-name-in-merch
+slug: how-film-distributor-a-24-became-the-hottest-name-in-merch
 ---
 # How Film Distributor A24 Became the Hottest Name in Merch
 

@@ -13,6 +13,7 @@ summary: |
   The text discusses the Alexander Technique, which aims to help individuals become aware of their habitual movements and expand their possibilities. It emphasizes the importance of not getting stuck in fixed patterns of thinking or movement, and encourages conscious choice-making and openness to change. The technique is linked to philosophy and epistemology.
 source: reader
 permalink: l/articles/getting-unstuck-physically-and-philosophically-with-alexander-technique
+slug: getting-unstuck-physically-and-philosophically-with-alexander-technique
 ---
 # 'Getting Unstuck' — Physically and Philosophically — With Alexander Technique
 

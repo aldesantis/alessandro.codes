@@ -13,6 +13,7 @@ summary: |
   Playfulness is that which happens for its own sake. To inquire as to the purpose of play is to miss the point, and if you ask a child what they’re playing for you will get a confused expression.
 source: reader
 permalink: l/articles/design-games-so-you-enjoy-playing-them
+slug: design-games-so-you-enjoy-playing-them
 ---
 # Design Games So You Enjoy Playing Them
 

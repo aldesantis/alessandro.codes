@@ -13,6 +13,7 @@ summary: |
   Or a glimpse into post-entertainment society (it's not pretty)
 source: reader
 permalink: l/articles/the-state-of-the-culture-2024
+slug: the-state-of-the-culture-2024
 ---
 # The State of the Culture, 2024
 

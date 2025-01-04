@@ -13,6 +13,7 @@ summary: |
   Whether you're an aspiring or seasoned entrepreneur, Kajabi is the platform to help you monetize your skills & knowledge.
 source: reader
 permalink: l/articles/revealed-the-social-media-game
+slug: revealed-the-social-media-game
 ---
 # Revealed: The Social Media 'Game'
 

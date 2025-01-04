@@ -13,6 +13,7 @@ summary: |
   Read to the end for escapism (from the LinkedIn hellscape)
 source: reader
 permalink: l/articles/2-mins-on-why-linked-in-is-a-sewer
+slug: 2-mins-on-why-linked-in-is-a-sewer
 ---
 # 2 Mins On... Why LinkedIn Is a Sewer
 

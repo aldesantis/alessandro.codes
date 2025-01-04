@@ -13,6 +13,7 @@ summary: |
   Years of notes on business, productivity, courage, stress, success, relationships and more.
 source: reader
 permalink: l/articles/100-rules-to-live-by
+slug: 100-rules-to-live-by
 ---
 # 100 Rules to Live By
 

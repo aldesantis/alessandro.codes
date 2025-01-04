@@ -13,6 +13,7 @@ summary: |
   If you have ever stayed at a hotel, you’ve seen the signs near the sink that remind you it is your job to save the planet by reducing water consumption. We’re entering a phase of cost-o…
 source: reader
 permalink: l/articles/member-strategies-reducing-returns-costs-and-frequency
+slug: member-strategies-reducing-returns-costs-and-frequency
 ---
 # Member Strategies: Reducing Returns Costs and Frequency
 

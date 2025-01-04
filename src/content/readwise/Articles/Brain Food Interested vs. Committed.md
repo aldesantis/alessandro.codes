@@ -13,6 +13,7 @@ summary: |
   "The chief trick to making good mistakes is not to hide them—especially not from yourself.
 source: reader
 permalink: l/articles/brain-food-interested-vs-committed
+slug: brain-food-interested-vs-committed
 ---
 # Brain Food: Interested vs. Committed
 

@@ -13,6 +13,7 @@ summary: |
   AI has the potential to transform technologically lagging industries by leapfrogging SaaS workflows. Here's what we're seeing.
 source: reader
 permalink: l/articles/ai-leapfrogging-how-ai-will-transform-lagging-industries
+slug: ai-leapfrogging-how-ai-will-transform-lagging-industries
 ---
 # AI Leapfrogging: How AI Will Transform “Lagging” Industries
 

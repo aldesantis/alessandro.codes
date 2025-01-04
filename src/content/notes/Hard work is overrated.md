@@ -1,6 +1,8 @@
 ---
 permalink: n/hard-work-is-overrated
+slug: hard-work-is-overrated
 status: 
+title: Hard work is overrated
 ---
 # Hard work is overrated
 

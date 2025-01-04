@@ -13,6 +13,7 @@ summary: |
   Consumer startups are facing mixed signals about spending as summer approaches. Direct-to-consumer brands are adjusting strategies to boost sales during the slower summer period. Some brands are offering targeted promotions to entice customers to make purchases now.
 source: reader
 permalink: l/articles/dtc-briefing-brands-adjust-to-conflicting-consumer-signals-heading-into-summer
+slug: dtc-briefing-brands-adjust-to-conflicting-consumer-signals-heading-into-summer
 ---
 # DTC Briefing: Brands Adjust to Conflicting Consumer Signals Heading Into Summer
 

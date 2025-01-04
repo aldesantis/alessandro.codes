@@ -1,6 +1,8 @@
 ---
 permalink: n/people-change-places-not-the-other-way-around
+slug: people-change-places-not-the-other-way-around
 status: 
+title: People change places, not the other way around
 ---
 # People change places, not the other way around
 

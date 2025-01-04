@@ -13,6 +13,7 @@ summary: |
   The document discusses how a loyalty program can provide incremental financial benefits to a company through four key measurements. These include comparing the value of members versus non-members, analyzing member behavior changes, leveraging partner funding, and increasing customer journey touchpoints. By implementing a well-structured loyalty program supported by a dedicated team, companies can see positive results in terms of revenue generation and customer engagement. The document emphasizes the importance of strategic planning, ongoing analysis, and continuous improvement to ensure the loyalty program's success in driving financial value for the business.
 source: reader
 permalink: l/articles/four-ways-a-loyalty-program-contributes-incremental-financial-benefit
+slug: four-ways-a-loyalty-program-contributes-incremental-financial-benefit
 ---
 # Four Ways a Loyalty Program Contributes Incremental Financial Benefit
 

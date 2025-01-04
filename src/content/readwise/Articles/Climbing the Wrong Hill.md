@@ -13,6 +13,7 @@ summary: |
   Chris Dixon's blog.
 source: reader
 permalink: l/articles/climbing-the-wrong-hill
+slug: climbing-the-wrong-hill
 ---
 # Climbing the Wrong Hill
 

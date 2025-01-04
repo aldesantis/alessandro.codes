@@ -13,6 +13,7 @@ summary: |
   Amazon's dominance in e-commerce is unlikely to be challenged, as it covers the key axes of selection, low prices, and fast delivery. However, there are areas where Amazon falls short, such as supporting small businesses and offering curbside pickup. Shopify is a viable alternative to Amazon for small businesses, as it powers e-commerce stores and doesn't create demand. Walmart is using its physical stores to fulfill online orders, while TikTok is trying to create a social commerce market. Chinese companies like Shein and Temu, which are vertically integrated and breaking out of the Amazon sandbox, are disrupting the e-commerce market.
 source: reader
 permalink: l/articles/harvard-business-review
+slug: harvard-business-review
 ---
 # Harvard Business Review
 

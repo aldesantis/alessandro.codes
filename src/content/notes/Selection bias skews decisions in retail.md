@@ -1,6 +1,8 @@
 ---
 permalink: n/selection-bias-skews-decisions-in-retail
+slug: selection-bias-skews-decisions-in-retail
 status: 
+title: Selection bias skews decisions in retail
 ---
 # Selection bias skews decisions in retail
 

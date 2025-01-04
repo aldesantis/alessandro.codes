@@ -13,6 +13,7 @@ summary: |
   “Your worst day is a chance to show your best qualities, to stand out, and to learn an enormous amount about yourself.
 source: reader
 permalink: l/articles/brain-food-toward-simplicity
+slug: brain-food-toward-simplicity
 ---
 # Brain Food: Toward Simplicity
 

@@ -9,11 +9,11 @@ permalink: l/books/100-m-leads
 published_date: None
 source: kindle
 status: 
-summary: |
+summary: ""
 time: 6:39 PM
 title: $100M Leads
-url:
-  None
+url: None
+slug: 100-m-leads
 ---
 # $100M Leads
 

@@ -13,6 +13,7 @@ summary: |
   Publicly, most brands claim that building a sustainable and ethical supply chain is important to them. Privately, few give a f**k. This may be about to change.
 source: reader
 permalink: l/articles/how-new-luxury-brands-prepare-for-dpp
+slug: how-new-luxury-brands-prepare-for-dpp
 ---
 # How New Luxury Brands Prepare for DPP
 

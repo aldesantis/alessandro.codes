@@ -13,6 +13,7 @@ summary: |
   This week, I discovered The Objects of Our Life, a piece from Steve Jobs Archive about a talk he gave to an audience of designers in Aspen in 1983, one year before the Macintosh.
 source: reader
 permalink: l/articles/create-things-that-come-alive
+slug: create-things-that-come-alive
 ---
 # Create Things That Come Alive
 

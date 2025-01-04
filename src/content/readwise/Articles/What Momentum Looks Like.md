@@ -13,6 +13,7 @@ summary: |
   Also: Chase is buying The Infatuation. And an update on Blue Bottle’s oat-milk-by-default experiment. 
 source: reader
 permalink: l/articles/what-momentum-looks-like
+slug: what-momentum-looks-like
 ---
 # What Momentum Looks Like
 

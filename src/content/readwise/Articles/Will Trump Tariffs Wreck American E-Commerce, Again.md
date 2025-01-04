@@ -13,6 +13,7 @@ summary: |
   As the world watches two of the most prominent political figures vie for leadership, concerns grow over what will happen if either Harris or Trump takes office.
 source: reader
 permalink: l/articles/will-trump-tariffs-wreck-american-e-commerce-again
+slug: will-trump-tariffs-wreck-american-e-commerce-again
 ---
 # Will Trump Tariffs Wreck American E-Commerce, Again?
 

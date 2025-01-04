@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/100-truths-you-will-learn-too-late
+slug: 100-truths-you-will-learn-too-late
 ---
 # 100 Truths You Will Learn Too Late
 

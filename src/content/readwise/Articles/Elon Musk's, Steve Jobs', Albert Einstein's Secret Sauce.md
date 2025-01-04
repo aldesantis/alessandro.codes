@@ -13,6 +13,7 @@ summary: |
   A young man decided to travel the world in search of a place where he could find happiness and maybe the love of his life. One day he arrived in a small town and met an old man sitting by a fountain in the central square. The young man approached the old man and asked, “Excuse me, I’m new to this town. Can you tell me what the women are like here?”
 source: reader
 permalink: l/articles/elon-musk-s-steve-jobs-albert-einstein-s-secret-sauce
+slug: elon-musk-s-steve-jobs-albert-einstein-s-secret-sauce
 ---
 # Elon Musk's, Steve Jobs', Albert Einstein's Secret Sauce
 

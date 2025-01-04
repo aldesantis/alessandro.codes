@@ -13,6 +13,7 @@ summary: |
   First-party data is defining this era of advertising and sales. Companies are now in a race against time: they’ll build, acquire, or market to the platforms that have it.
 source: reader
 permalink: l/articles/memo-all-about-rmn
+slug: memo-all-about-rmn
 ---
 # Memo: All About RMN
 

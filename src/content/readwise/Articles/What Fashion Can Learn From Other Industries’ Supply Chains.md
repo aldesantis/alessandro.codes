@@ -13,6 +13,7 @@ summary: |
   Fashion supply chains are complex and often lack the strong supplier relationships found in other industries. To improve traceability, fashion brands can learn from sectors like food and automotive by collaborating more closely with suppliers and integrating safety testing early in the design process. By adopting these practices, fashion can enhance transparency and sustainability in its supply chain.
 source: reader
 permalink: l/articles/what-fashion-can-learn-from-other-industries-supply-chains
+slug: what-fashion-can-learn-from-other-industries-supply-chains
 ---
 # What Fashion Can Learn From Other Industries’ Supply Chains
 

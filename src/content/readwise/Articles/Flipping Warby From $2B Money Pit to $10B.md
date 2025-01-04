@@ -13,6 +13,7 @@ summary: |
   For those of you who don’t follow Mike Rome on LinkedIn you should. He’s a growth expert that has been scaling fast growing & big bizs for the past decade+.
 source: reader
 permalink: l/articles/flipping-warby-from-2-b-money-pit-to-10-b
+slug: flipping-warby-from-2-b-money-pit-to-10-b
 ---
 # Flipping Warby From $2B Money Pit to $10B
 

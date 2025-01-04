@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/building-a-second-brain
+slug: building-a-second-brain
 ---
 # Building a Second Brain
 

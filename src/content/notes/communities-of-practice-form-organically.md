@@ -1,6 +1,8 @@
 ---
 permalink: n/communities-of-practice-form-organically
+slug: communities-of-practice-form-organically
 status: 
+title: communities-of-practice-form-organically
 ---
 # communities-of-practice-form-organically
 

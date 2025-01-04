@@ -1,6 +1,8 @@
 ---
 permalink: n/strategy-requires-focus
+slug: strategy-requires-focus
 status: 
+title: Strategy requires focus
 ---
 # Strategy requires focus
 

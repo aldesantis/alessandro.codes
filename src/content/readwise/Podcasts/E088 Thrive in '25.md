@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/e-088-thrive-in-25
+slug: e-088-thrive-in-25
 ---
 # E088: Thrive in '25
 

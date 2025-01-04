@@ -13,6 +13,7 @@ summary: |
   Thursday is here, and if you happen to be on a cruise ship but don’t want to be there, then Royal Caribbean has a solution for you.
 source: reader
 permalink: l/articles/supreme-s-new-boss-pw-c-s-entertainment-forecast-hulu-s-emmy-noms
+slug: supreme-s-new-boss-pw-c-s-entertainment-forecast-hulu-s-emmy-noms
 ---
 # ⚡ Supreme’s New Boss, PwC’s Entertainment Forecast, Hulu’s Emmy Noms
 

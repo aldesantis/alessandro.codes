@@ -13,6 +13,7 @@ summary: |
   Yet when you’re a founder, entrepreneur, or just building a side project, you tend to get sidetracked away from these small moments. The focus is always on How much money can we raise?
 source: reader
 permalink: l/articles/how-to-have-happy-customers-followers
+slug: how-to-have-happy-customers-followers
 ---
 # How to Have Happy Customers & Followers
 

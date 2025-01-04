@@ -13,6 +13,7 @@ summary: |
   It has been reported that by 2010, cable television in the U. S.
 source: reader
 permalink: l/articles/the-great-connected-consumer-paradox
+slug: the-great-connected-consumer-paradox
 ---
 # The Great Connected Consumer Paradox
 

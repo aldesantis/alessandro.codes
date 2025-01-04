@@ -13,6 +13,7 @@ summary: |
   Amazon's same-day and next-day delivery is widening the gap between it and the rest of e-commerce.
 source: reader
 permalink: l/articles/amazon-s-fast-delivery-moat
+slug: amazon-s-fast-delivery-moat
 ---
 # Amazon’s Fast Delivery Moat
 

@@ -13,6 +13,7 @@ summary: |
   Between the 1950s and the present, the fashion industry underwent transformative periods that hold untapped wisdom for today’s creative leaders.
 source: reader
 permalink: l/articles/as-a-new-era-beckons-what-came-before
+slug: as-a-new-era-beckons-what-came-before
 ---
 # As a New Era Beckons, What Came Before?
 

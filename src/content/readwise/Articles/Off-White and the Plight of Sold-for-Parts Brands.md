@@ -13,6 +13,7 @@ summary: |
   Off-White, once a symbol of innovative streetwear under founder Virgil Abloh, has been sold to Bluestar Alliance, raising concerns about its future. The brand management group has a history of devaluing labels it acquires, often prioritizing quick profits over long-term brand integrity. As luxury sales decline, there is skepticism about whether Bluestar can successfully navigate Off-White's legacy and the broader challenges facing the fashion industry.
 source: reader
 permalink: l/articles/off-white-and-the-plight-of-sold-for-parts-brands
+slug: off-white-and-the-plight-of-sold-for-parts-brands
 ---
 # Off-White and the Plight of Sold-for-Parts Brands
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/work-toward-proximate-objectives
+slug: work-toward-proximate-objectives
 status: 
+title: Work toward proximate objectives
 ---
 # Work toward proximate objectives
 

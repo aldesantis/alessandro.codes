@@ -13,6 +13,7 @@ summary: |
   David Cain suggests replacing traditional goals with a "quest" mentality to inspire personal growth and achievement. Quests are seen as adventures that transform you, helping to overcome internal obstacles while pursuing aspirations. By tackling these personal challenges alongside daily life, you can create meaningful change without waiting for a better time.
 source: reader
 permalink: l/articles/do-quests-not-goals
+slug: do-quests-not-goals
 ---
 # Do Quests, Not Goals
 

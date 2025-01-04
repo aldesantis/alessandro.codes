@@ -1,6 +1,8 @@
 ---
 permalink: n/people-problems-are-often-situation-problems
+slug: people-problems-are-often-situation-problems
 status: 
+title: People problems are often situation problems
 ---
 # People problems are often situation problems
 

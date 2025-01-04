@@ -13,6 +13,7 @@ summary: |
   In 2023, direct-to-consumer (DTC) brands shifted their focus from solely direct sales to partnering with retail partners to drive sales. This shift was driven by the need to boost brand awareness and reduce digital ad spend. While wholesale is typically seen as lower margin, the increased retail presence allows DTC brands to cut back on marketing expenses. However, some DTC brands, like On, continue to prioritize direct sales and are expanding their physical footprint through store expansion. Overall, the trend in 2023 was a move towards multichannel retail strategies for DTC brands.
 source: reader
 permalink: l/articles/dtc-brands-doubled-down-on-multichannel-retail-in-2023
+slug: dtc-brands-doubled-down-on-multichannel-retail-in-2023
 ---
 # DTC Brands Doubled Down on Multichannel Retail in 2023
 

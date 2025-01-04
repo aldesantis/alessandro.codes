@@ -13,6 +13,7 @@ summary: |
   LVMH's Anish Melwani emphasizes the importance of understanding younger consumers' preferences in the luxury market. He sees potential in storytelling through digital platforms and entertainment while being cautious about resale and rental models. Melwani is optimistic about digital product passports and artificial intelligence, viewing them as key technologies for the future of luxury.
 source: reader
 permalink: l/articles/lvmh-s-anish-melwani-on-the-innovations-to-pursue-and-avoid-for-luxury
+slug: lvmh-s-anish-melwani-on-the-innovations-to-pursue-and-avoid-for-luxury
 ---
 # LVMH’s Anish Melwani on the Innovations to Pursue and Avoid for Luxury
 

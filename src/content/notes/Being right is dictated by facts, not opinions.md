@@ -1,6 +1,8 @@
 ---
 permalink: n/being-right-is-dictated-by-facts-not-opinions
+slug: being-right-is-dictated-by-facts-not-opinions
 status: 
+title: Being right is dictated by facts, not opinions
 ---
 # Being right is dictated by facts, not opinions
 

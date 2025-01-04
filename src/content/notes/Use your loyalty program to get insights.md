@@ -1,6 +1,8 @@
 ---
 permalink: n/use-your-loyalty-program-to-get-insights
+slug: use-your-loyalty-program-to-get-insights
 status: 
+title: Use your loyalty program to get insights
 ---
 # Use your loyalty program to get insights
 

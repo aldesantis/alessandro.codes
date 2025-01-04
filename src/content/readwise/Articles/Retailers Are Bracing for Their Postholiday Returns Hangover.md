@@ -13,6 +13,7 @@ summary: |
   After rushing to sell goods, merchants are facing the flip side: “We’re heading for a trillion dollar problem here.”
 source: reader
 permalink: l/articles/retailers-are-bracing-for-their-postholiday-returns-hangover
+slug: retailers-are-bracing-for-their-postholiday-returns-hangover
 ---
 # Retailers Are Bracing for Their Postholiday Returns Hangover
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/codebases-are-for-humans
+slug: codebases-are-for-humans
 status: 
+title: Codebases are for humans
 ---
 # Codebases are for humans
 

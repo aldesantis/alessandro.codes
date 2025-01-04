@@ -13,6 +13,7 @@ summary: |
   Brunt Workwear had great success during Cyber Week by releasing a limited-edition Marin Boot, which sold out before Thanksgiving and helped them achieve record sales. Limited editions create excitement and exclusivity, encouraging customers to share their purchases on social media. This strategy can boost holiday sales significantly, but brands must carefully manage logistics to avoid issues.
 source: reader
 permalink: l/articles/drops-help-you-find-your-crazy-fans-limited-editions-paid-off-for-brands-like-brunt-workwear-during-cyber-week
+slug: drops-help-you-find-your-crazy-fans-limited-editions-paid-off-for-brands-like-brunt-workwear-during-cyber-week
 ---
 # ‘Drops Help You Find Your Crazy Fans’: Limited Editions Paid Off for Brands Like Brunt Workwear During Cyber Week
 

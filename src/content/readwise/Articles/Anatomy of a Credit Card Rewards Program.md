@@ -13,6 +13,7 @@ summary: |
   Credit card rewards programs use fees paid by businesses to incentivize customers to spend more. Different regions have varying levels of rewards based on card acceptance costs. Card issuers compete for high-spending customers by offering rewards and benefits.
 source: reader
 permalink: l/articles/anatomy-of-a-credit-card-rewards-program
+slug: anatomy-of-a-credit-card-rewards-program
 ---
 # Anatomy of a Credit Card Rewards Program
 

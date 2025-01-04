@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-four-big-risks
+slug: the-four-big-risks
 ---
 # The Four Big Risks
 

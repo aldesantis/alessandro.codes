@@ -13,6 +13,7 @@ summary: |
   Levi’s, which reports second-quarter results on Wednesday, has made a big investment in its stores and website, increasing the share of sales that come through its own channels rather than fading department stores.
 source: reader
 permalink: l/articles/this-week-levi-s-h-m-and-nike-try-to-clear-a-low-bar-couture-week
+slug: this-week-levi-s-h-m-and-nike-try-to-clear-a-low-bar-couture-week
 ---
 # This Week: Levi’s, H&M and Nike Try to Clear a Low Bar; Couture Week
 

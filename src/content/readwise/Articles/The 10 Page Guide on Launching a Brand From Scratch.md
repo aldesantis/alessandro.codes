@@ -13,6 +13,7 @@ summary: |
   If you’re reading this, I hope you’re relaxing with your feet up, your arms rested on an arm rest, and a beverage in your hand.
 source: reader
 permalink: l/articles/the-10-page-guide-on-launching-a-brand-from-scratch
+slug: the-10-page-guide-on-launching-a-brand-from-scratch
 ---
 # The 10 Page Guide on Launching a Brand From Scratch
 

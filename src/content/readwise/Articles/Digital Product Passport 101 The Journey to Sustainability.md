@@ -13,6 +13,7 @@ summary: |
   The Digital Product Passport (DPP) is new legislation changing the way Europe and the world makes, buys, and sells products. Find out more.
 source: reader
 permalink: l/articles/digital-product-passport-101-the-journey-to-sustainability
+slug: digital-product-passport-101-the-journey-to-sustainability
 ---
 # Digital Product Passport 101: The Journey to Sustainability
 

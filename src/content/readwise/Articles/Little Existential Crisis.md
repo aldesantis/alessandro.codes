@@ -13,6 +13,7 @@ summary: |
   The author shared the results of an "Ask Me Anything" session with subscribers, expressing gratitude for their support. They discussed learning from past experiences, admired writers, and offered advice on navigating existential crises. The author emphasized finding compassion, setting boundaries, and following paths that bring a sense of ease and expansion in decision-making.
 source: reader
 permalink: l/articles/little-existential-crisis
+slug: little-existential-crisis
 ---
 # Little Existential Crisis
 

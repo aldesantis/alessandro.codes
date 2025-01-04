@@ -1,6 +1,8 @@
 ---
 permalink: n/psychological-safety-is-a-team-factor
+slug: psychological-safety-is-a-team-factor
 status: 
+title: Psychological safety is a team factor
 ---
 # Psychological safety is a team factor
 

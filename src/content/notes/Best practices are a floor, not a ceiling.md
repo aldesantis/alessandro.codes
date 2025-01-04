@@ -1,6 +1,8 @@
 ---
 permalink: n/best-practices-are-a-floor-not-a-ceiling
+slug: best-practices-are-a-floor-not-a-ceiling
 status: 
+title: Best practices are a floor, not a ceiling
 ---
 # Best practices are a floor, not a ceiling
 

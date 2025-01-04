@@ -13,6 +13,7 @@ summary: |
   For both fashion and software brands, features are no longer enough to differentiate a product or a brand. So what is the recipe for success in this environment?
 source: reader
 permalink: l/articles/insiders-153-saa-s-fashion
+slug: insiders-153-saa-s-fashion
 ---
 # Insiders #153: SaaS Fashion
 

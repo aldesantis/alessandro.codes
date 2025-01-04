@@ -13,6 +13,7 @@ summary: |
   Marketers often overcomplicate advertising by focusing too much on personalization instead of understanding the market's fundamentals. The most effective ads are those that appeal broadly to all audiences, rather than being overly segmented. Businesses should prioritize consistent brand advertising to build lasting associations, rather than relying solely on discounts and promotions.
 source: reader
 permalink: l/articles/anti-personalization-the-best-ad-for-one-is-the-best-ad-for-all
+slug: anti-personalization-the-best-ad-for-one-is-the-best-ad-for-all
 ---
 # Anti-Personalization: The Best Ad for One, Is the Best Ad for All
 

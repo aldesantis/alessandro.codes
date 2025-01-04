@@ -13,6 +13,7 @@ summary: |
   "What we consider defining moments, like promotions or a new house, matter less to life satisfaction than the accumulation of tiny moments that didn't seem to matter at the time.
 source: reader
 permalink: l/articles/brain-food-tiny-delights
+slug: brain-food-tiny-delights
 ---
 # Brain Food: Tiny Delights
 

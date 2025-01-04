@@ -13,6 +13,7 @@ summary: |
   Google has decided to keep third-party cookies in its Chrome browser, affecting the advertising landscape. Despite this, Amazon is expected to grow its ad business by offering more targeted advertising options. Advertisers are still keen on exploring cookieless strategies with Amazon, as the company continues to innovate and capture more market share.
 source: reader
 permalink: l/articles/amazon-briefing-what-google-s-cookie-reversal-means-for-amazon-s-ad-pitch
+slug: amazon-briefing-what-google-s-cookie-reversal-means-for-amazon-s-ad-pitch
 ---
 # Amazon Briefing: What Google’s Cookie Reversal Means for Amazon’s Ad Pitch
 

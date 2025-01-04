@@ -13,6 +13,7 @@ summary: |
   It’s typical that marketers fawn over a brand built through promotion and packaging, when they ought to focus on their role in improving the thing they sell.
 source: reader
 permalink: l/articles/liquid-death-s-fame-shows-how-badly-marketers-neglect-product
+slug: liquid-death-s-fame-shows-how-badly-marketers-neglect-product
 ---
 # Liquid Death’s Fame Shows How Badly Marketers Neglect Product
 

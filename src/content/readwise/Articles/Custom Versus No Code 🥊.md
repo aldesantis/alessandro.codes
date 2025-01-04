@@ -13,6 +13,7 @@ summary: |
   I like the idea of ‘building in public’. But I’ve never been fully comfortable with the concept.
 source: reader
 permalink: l/articles/custom-versus-no-code
+slug: custom-versus-no-code
 ---
 # Custom Versus No Code 🥊
 

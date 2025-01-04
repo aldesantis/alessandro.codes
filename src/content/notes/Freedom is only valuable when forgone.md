@@ -1,6 +1,8 @@
 ---
 permalink: n/freedom-is-only-valuable-when-forgone
+slug: freedom-is-only-valuable-when-forgone
 status: 
+title: Freedom is only valuable when forgone
 ---
 # Freedom is only valuable when forgone
 

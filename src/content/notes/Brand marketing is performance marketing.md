@@ -1,6 +1,8 @@
 ---
 permalink: n/brand-marketing-is-performance-marketing
+slug: brand-marketing-is-performance-marketing
 status: 
+title: Brand marketing is performance marketing
 ---
 # Brand marketing is performance marketing
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/focus-on-second-order-positivity
+slug: focus-on-second-order-positivity
 status: 
+title: Focus on second-order positivity
 ---
 # Focus on second-order positivity
 

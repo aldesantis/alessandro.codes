@@ -13,6 +13,7 @@ summary: |
   Amazon is producing record profits while investing more than ever before. It reported $22.6 billion in capital expenditures in the third quarter — a new high. It also reported $15.3 billion in net income, a new high, too.
 source: reader
 permalink: l/articles/the-amazon-everyone-should-have-feared
+slug: the-amazon-everyone-should-have-feared
 ---
 # The Amazon Everyone Should Have Feared
 

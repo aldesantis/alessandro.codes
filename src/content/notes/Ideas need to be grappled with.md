@@ -1,6 +1,8 @@
 ---
 permalink: n/ideas-need-to-be-grappled-with
+slug: ideas-need-to-be-grappled-with
 status: 
+title: Ideas need to be grappled with
 ---
 # Ideas need to be grappled with
 

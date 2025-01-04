@@ -13,6 +13,7 @@ summary: |
   There are 16 result possibilities and each takes into account BOTH where you’re at in your business & your dominant personality traits (this beast took hundreds of hours to create and is the ONLY personality & growth assessment built for creators that’s intentionally designed to support you no matter your stage of business, industry, or experience.
 source: reader
 permalink: l/articles/growth-looks-different-than-you-think
+slug: growth-looks-different-than-you-think
 ---
 # Growth Looks Different Than You Think.
 

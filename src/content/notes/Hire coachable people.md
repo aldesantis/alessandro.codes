@@ -1,6 +1,8 @@
 ---
 permalink: n/hire-coachable-people
+slug: hire-coachable-people
 status: 
+title: Hire coachable people
 ---
 # Hire coachable people
 

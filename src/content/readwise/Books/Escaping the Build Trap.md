@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/escaping-the-build-trap
+slug: escaping-the-build-trap
 ---
 # Escaping the Build Trap
 

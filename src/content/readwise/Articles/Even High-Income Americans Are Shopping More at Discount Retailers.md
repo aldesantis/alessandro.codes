@@ -13,6 +13,7 @@ summary: |
   Americans, including high-income earners, are cutting back on spending and opting for discount shopping. Consumer sentiment is cautious amid concerns about the economy's direction. Companies like Costco are maintaining low prices to attract and retain customers.
 source: reader
 permalink: l/articles/even-high-income-americans-are-shopping-more-at-discount-retailers
+slug: even-high-income-americans-are-shopping-more-at-discount-retailers
 ---
 # Even High-Income Americans Are Shopping More at Discount Retailers
 

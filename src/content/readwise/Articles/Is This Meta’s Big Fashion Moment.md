@@ -13,6 +13,7 @@ summary: |
   Smart glasses have been such a long time coming that I’d wondered if perhaps they were a solution looking for a problem. That’s why I’ve been pleasantly surprised by the Ray-Ban Meta glasses.
 source: reader
 permalink: l/articles/is-this-meta-s-big-fashion-moment
+slug: is-this-meta-s-big-fashion-moment
 ---
 # Is This Meta’s Big Fashion Moment?
 

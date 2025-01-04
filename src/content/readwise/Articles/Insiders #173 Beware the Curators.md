@@ -13,6 +13,7 @@ summary: |
   The text discusses the influence of algorithms on taste and the rise of human curators as an alternative. It highlights concerns about curators' biases and the need for independent exploration of content. The author emphasizes the importance of personal preference over being dictated by algorithms or curators.
 source: reader
 permalink: l/articles/insiders-173-beware-the-curators
+slug: insiders-173-beware-the-curators
 ---
 # Insiders #173: Beware the Curators
 

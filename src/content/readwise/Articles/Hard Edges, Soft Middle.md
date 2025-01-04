@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/hard-edges-soft-middle
+slug: hard-edges-soft-middle
 ---
 # Hard Edges, Soft Middle
 

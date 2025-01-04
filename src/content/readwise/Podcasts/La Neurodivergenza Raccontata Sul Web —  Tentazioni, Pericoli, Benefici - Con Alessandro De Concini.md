@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/la-neurodivergenza-raccontata-sul-web-tentazioni-pericoli-benefici-con-alessandro-de-concini
+slug: la-neurodivergenza-raccontata-sul-web-tentazioni-pericoli-benefici-con-alessandro-de-concini
 ---
 # La Neurodivergenza Raccontata Sul Web —  Tentazioni, Pericoli, Benefici - Con Alessandro De Concini
 

@@ -13,6 +13,7 @@ summary: |
   Consumer Trends 2024 is a report that explores how and why people spend their time and money. The report provides analysis, research, trends, and advisory services. It also includes a survey of over 3,000 US consumers, revealing insights on financial optimism, inflation, and consumer satisfaction. Additionally, the report highlights the emergence of TikTok Shop as a new e-commerce marketplace and the potential impact of prescription weight-loss drugs on the consumer landscape. Overall, the report provides valuable insights into consumer behavior and trends for the year 2024.
 source: reader
 permalink: l/articles/consumer-trends-2024
+slug: consumer-trends-2024
 ---
 # Consumer-Trends-2024
 

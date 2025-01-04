@@ -13,6 +13,7 @@ summary: |
   NFT brands are trying their hands at the toy category where they could both grow the popularity of the products outside of the digital space.
 source: reader
 permalink: l/articles/nft-brands-are-stepping-into-the-toy-category
+slug: nft-brands-are-stepping-into-the-toy-category
 ---
 # NFT Brands Are Stepping Into the Toy Category
 

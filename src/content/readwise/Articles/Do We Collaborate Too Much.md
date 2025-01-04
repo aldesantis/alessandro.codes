@@ -13,6 +13,7 @@ summary: |
   Are we collaborating too much? Or too little? Both—because most of what we call collaboration isn’t actually collaboration at all.
 source: reader
 permalink: l/articles/do-we-collaborate-too-much
+slug: do-we-collaborate-too-much
 ---
 # Do We Collaborate Too Much?
 

@@ -13,6 +13,7 @@ summary: |
   After gaining traction for years, retail media is now generating billions in revenue for companies that can deftly spin their troves of shopper data into robust advertising networks.
 source: reader
 permalink: l/articles/retail-media-networks
+slug: retail-media-networks
 ---
 # Retail Media Networks
 

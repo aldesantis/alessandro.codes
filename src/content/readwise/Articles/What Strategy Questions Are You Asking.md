@@ -13,6 +13,7 @@ summary: |
   The Key to Competitive Advantage
 source: reader
 permalink: l/articles/what-strategy-questions-are-you-asking
+slug: what-strategy-questions-are-you-asking
 ---
 # What Strategy Questions Are You Asking?
 

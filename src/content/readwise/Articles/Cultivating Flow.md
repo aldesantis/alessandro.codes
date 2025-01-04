@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/cultivating-flow
+slug: cultivating-flow
 ---
 # Cultivating Flow
 

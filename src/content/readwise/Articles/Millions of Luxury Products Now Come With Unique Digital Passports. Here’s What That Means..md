@@ -13,6 +13,7 @@ summary: |
   Brands are starting to adopt the tags in large numbers as they prepare to meet major new EU regulations coming down the pipeline. They’re using the opportunity to build in customer-facing features that can appeal to shoppers, too.
 source: reader
 permalink: l/articles/millions-of-luxury-products-now-come-with-unique-digital-passports-here-s-what-that-means
+slug: millions-of-luxury-products-now-come-with-unique-digital-passports-here-s-what-that-means
 ---
 # Millions of Luxury Products Now Come With Unique Digital Passports. Here’s What That Means.
 

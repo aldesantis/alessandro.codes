@@ -13,6 +13,7 @@ summary: |
   The text explores the trend of homogenization in public spaces driven by social media aesthetics during events like Milan Design Week. It highlights a growing nostalgia for unassuming, un-Instagrammable hangout spots that offer a sense of authenticity and comfort. Despite efforts by brands to recreate this vibe, the genuine charm of these spaces cannot be replicated or forced.
 source: reader
 permalink: l/articles/idle-gaze-065-in-search-of-ungrammable-spaces
+slug: idle-gaze-065-in-search-of-ungrammable-spaces
 ---
 # Idle Gaze 065: In Search of Ungrammable Spaces
 

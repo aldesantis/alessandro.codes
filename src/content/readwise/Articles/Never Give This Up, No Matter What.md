@@ -13,6 +13,7 @@ summary: |
   What’s one area of your life where you can stand up for yourself and prioritize your self-respect and values over the perception or judgment of others? Challenge yourself to do that once this week.
 source: reader
 permalink: l/articles/never-give-this-up-no-matter-what
+slug: never-give-this-up-no-matter-what
 ---
 # Never Give This Up, No Matter What
 

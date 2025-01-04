@@ -13,6 +13,7 @@ summary: |
   The challenge isn't knowing you should work out; it's putting on your shoes and running in the cold when you'd rather sit at home under a warm blanket.
 source: reader
 permalink: l/articles/brain-food-not-typical
+slug: brain-food-not-typical
 ---
 # Brain Food: Not Typical
 

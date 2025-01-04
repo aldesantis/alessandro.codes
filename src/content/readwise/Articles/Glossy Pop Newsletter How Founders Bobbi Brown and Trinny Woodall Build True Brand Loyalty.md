@@ -13,6 +13,7 @@ summary: |
   The word "community" is so overused in brand worlds, it has nearly become devoid of meaning. Still, at Jones Road and Trinny London, strong communities numbering in the thousands are powering a heartbeat that most brands simply don't have.
 source: reader
 permalink: l/articles/glossy-pop-newsletter-how-founders-bobbi-brown-and-trinny-woodall-build-true-brand-loyalty
+slug: glossy-pop-newsletter-how-founders-bobbi-brown-and-trinny-woodall-build-true-brand-loyalty
 ---
 # Glossy Pop Newsletter: How Founders Bobbi Brown and Trinny Woodall Build True Brand Loyalty
 

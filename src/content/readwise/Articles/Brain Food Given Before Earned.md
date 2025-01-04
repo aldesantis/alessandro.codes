@@ -13,6 +13,7 @@ summary: |
   The best leaders I know extend trust and loyalty long before receiving it - they treat people as if they've already proven trustworthy.
 source: reader
 permalink: l/articles/brain-food-given-before-earned
+slug: brain-food-given-before-earned
 ---
 # Brain Food: Given Before Earned
 

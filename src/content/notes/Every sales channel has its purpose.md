@@ -1,6 +1,8 @@
 ---
 permalink: n/every-sales-channel-has-its-purpose
+slug: every-sales-channel-has-its-purpose
 status: 
+title: Every sales channel has its purpose
 ---
 # Every sales channel has its purpose
 

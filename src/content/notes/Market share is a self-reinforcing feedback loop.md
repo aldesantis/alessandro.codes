@@ -1,6 +1,8 @@
 ---
 permalink: n/market-share-is-a-self-reinforcing-feedback-loop
+slug: market-share-is-a-self-reinforcing-feedback-loop
 status: 
+title: Market share is a self-reinforcing feedback loop
 ---
 # Market share is a self-reinforcing feedback loop
 

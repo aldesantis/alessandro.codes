@@ -13,6 +13,7 @@ summary: |
   The author reflects on the past decade as an extension of one conversation. They discuss a lunch meeting with Graham Duncan and Josh Waitzkin, who helped them see the importance of deepening their work through writing and developing a "Soft Zone" of concentration. The author also discusses the need to find meaningful work wherever they are and the importance of building trust with partners.
 source: reader
 permalink: l/articles/one-moment-in-a-decade
+slug: one-moment-in-a-decade
 ---
 # One Moment in a Decade
 

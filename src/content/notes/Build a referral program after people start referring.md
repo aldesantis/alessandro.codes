@@ -1,6 +1,8 @@
 ---
 permalink: n/build-a-referral-program-after-people-start-referring
+slug: build-a-referral-program-after-people-start-referring
 status: 
+title: Build a referral program after people start referring
 ---
 # Build a referral program after people start referring
 

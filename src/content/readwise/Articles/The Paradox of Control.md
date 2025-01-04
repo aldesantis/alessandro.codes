@@ -13,6 +13,7 @@ summary: |
   Sometimes you need to let go to succeed
 source: reader
 permalink: l/articles/the-paradox-of-control
+slug: the-paradox-of-control
 ---
 # The Paradox of Control
 

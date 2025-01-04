@@ -13,6 +13,7 @@ summary: |
   Consumer products companies are facing uncertain demand and are in need of resetting their growth agendas. The industry experienced tremendous growth in recent years, but a significant portion of that growth came from price increases rather than volume gains. Rising input costs and inflation have impacted the industry, leading to consumer spending constraints. To achieve profitable, volume-led growth, consumer products companies need to focus on emerging markets, adapt to evolving consumer needs, and address challenges in digitalization and sustainability. Additionally, companies must prioritize stakeholders and strike a balance between economic value creation and positive impact on consumers, customers, employees, and the planet.
 source: reader
 permalink: l/articles/consumer-products-report-2024-resetting-the-growth-agenda
+slug: consumer-products-report-2024-resetting-the-growth-agenda
 ---
 # Consumer Products Report 2024: Resetting the Growth Agenda
 

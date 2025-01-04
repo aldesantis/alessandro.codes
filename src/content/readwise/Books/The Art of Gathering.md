@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/the-art-of-gathering
+slug: the-art-of-gathering
 ---
 # The Art of Gathering
 

@@ -13,6 +13,7 @@ summary: |
   But what does that really mean? Increasingly, it’s something different than you may think.
 source: reader
 permalink: l/articles/shopify-owns-dtc
+slug: shopify-owns-dtc
 ---
 # Shopify Owns DTC
 

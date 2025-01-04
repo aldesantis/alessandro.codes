@@ -13,6 +13,7 @@ summary: |
   The article discusses the concept of Brand Universes as a strategic methodology for brand survival and growth, emphasizing the use of new technologies and evolving team structures to create innovative systems within the industry. It highlights examples of brands like Balenciaga and Bettter leveraging technology for creative and transformative purposes in their operations.
 source: reader
 permalink: l/articles/why-fashion-s-superficial-approach-to-technology-falls-short
+slug: why-fashion-s-superficial-approach-to-technology-falls-short
 ---
 # Why Fashion's Superficial Approach to Technology Falls Short
 

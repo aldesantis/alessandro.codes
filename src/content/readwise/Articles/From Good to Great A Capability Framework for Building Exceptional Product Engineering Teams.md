@@ -13,6 +13,7 @@ summary: |
   Applying an engineering level concepts to teams to improve collaboration, growth, and level set expectations.
 source: reader
 permalink: l/articles/from-good-to-great-a-capability-framework-for-building-exceptional-product-engineering-teams
+slug: from-good-to-great-a-capability-framework-for-building-exceptional-product-engineering-teams
 ---
 # From Good to Great: A Capability Framework for Building Exceptional Product Engineering Teams
 

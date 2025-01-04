@@ -13,6 +13,7 @@ summary: |
   One day the markets will rebound. Founders who shift their mindsets early and get two steps ahead will stay ahead in the long run.
 source: reader
 permalink: l/articles/how-to-prepare-for-an-upturn
+slug: how-to-prepare-for-an-upturn
 ---
 # How to Prepare for an Upturn
 

@@ -13,6 +13,7 @@ summary: |
   What does a brand lack when it doesn't have a commercial leader?
 source: reader
 permalink: l/articles/2-mins-on-commercial-leaders
+slug: 2-mins-on-commercial-leaders
 ---
 # 2 Mins On... Commercial Leaders
 

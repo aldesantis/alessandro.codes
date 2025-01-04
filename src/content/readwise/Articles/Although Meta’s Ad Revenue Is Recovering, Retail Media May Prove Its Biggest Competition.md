@@ -13,6 +13,7 @@ summary: |
   Retail media networks are gaining popularity with advertisers in part because of their proximity to consumers closer to the point of purchase.
 source: reader
 permalink: l/articles/although-meta-s-ad-revenue-is-recovering-retail-media-may-prove-its-biggest-competition
+slug: although-meta-s-ad-revenue-is-recovering-retail-media-may-prove-its-biggest-competition
 ---
 # Although Meta’s Ad Revenue Is Recovering, Retail Media May Prove Its Biggest Competition
 

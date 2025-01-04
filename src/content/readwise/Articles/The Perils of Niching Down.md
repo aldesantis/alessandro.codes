@@ -13,6 +13,7 @@ summary: |
   The way creators are taught to pursue 1,000 true fans is broken
 source: reader
 permalink: l/articles/the-perils-of-niching-down
+slug: the-perils-of-niching-down
 ---
 # The Perils of Niching Down
 

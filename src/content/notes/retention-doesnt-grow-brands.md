@@ -1,6 +1,8 @@
 ---
 permalink: n/retention-doesnt-grow-brands
+slug: retention-doesnt-grow-brands
 status: 
+title: retention-doesnt-grow-brands
 ---
 # retention-doesnt-grow-brands
 

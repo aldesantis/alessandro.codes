@@ -13,6 +13,7 @@ summary: |
   In this article titled "Foresight as Activism: Researching vs. Making Culture," the author discusses the importance of actively participating in culture rather than solely researching it. They argue that market research and trend-fetishism are self-centered and that brands should collaborate with communities to create preferred futures. The article emphasizes the need for marketers to understand and engage with existing communities, contemplate equitable and sustainable outcomes, and make investments and partnerships to bring about change. Several examples are provided to illustrate how brands have successfully worked with communities to create positive impact. The article concludes by stating that the future of strategy lies in actively shaping the world alongside others.
 source: reader
 permalink: l/articles/foresight-as-activism-researching-vs-making-culture
+slug: foresight-as-activism-researching-vs-making-culture
 ---
 # Foresight as Activism: Researching vs. Making Culture
 

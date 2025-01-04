@@ -13,6 +13,7 @@ summary: |
   If you’re reading this, I hope you had an incredibly relaxing weekend.
 source: reader
 permalink: l/articles/storytime-the-175-b-marketplace-that-ran-6-super-bowl-ads
+slug: storytime-the-175-b-marketplace-that-ran-6-super-bowl-ads
 ---
 # Storytime — The $175B Marketplace That Ran 6 Super Bowl Ads
 

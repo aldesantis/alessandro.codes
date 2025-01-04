@@ -13,6 +13,7 @@ summary: |
   Proving Bloomreach is the end all be all choice of all choices when it comes to DELIVERING on specific inclusion criteria, personalized search results, and product listing pages.
 source: reader
 permalink: l/articles/growth-levers-to-pull
+slug: growth-levers-to-pull
 ---
 # 🍀 Growth Levers to Pull
 

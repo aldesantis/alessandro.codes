@@ -1,6 +1,8 @@
 ---
 permalink: n/teach-how-to-decide
+slug: teach-how-to-decide
 status: 
+title: Teach how to decide
 ---
 # Teach how to decide
 

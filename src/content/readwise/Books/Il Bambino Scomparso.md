@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/il-bambino-scomparso
+slug: il-bambino-scomparso
 ---
 # Il Bambino Scomparso
 

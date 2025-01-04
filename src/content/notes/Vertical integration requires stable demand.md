@@ -1,6 +1,8 @@
 ---
 permalink: n/vertical-integration-requires-stable-demand
+slug: vertical-integration-requires-stable-demand
 status: 
+title: Vertical integration requires stable demand
 ---
 # Vertical integration requires stable demand
 

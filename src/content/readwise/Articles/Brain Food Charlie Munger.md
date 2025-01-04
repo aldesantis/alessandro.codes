@@ -13,6 +13,7 @@ summary: |
   "Spend each day trying to be a little wiser than you were when you woke up. Discharge your duties faithfully and well.
 source: reader
 permalink: l/articles/brain-food-charlie-munger
+slug: brain-food-charlie-munger
 ---
 # Brain Food: Charlie Munger
 

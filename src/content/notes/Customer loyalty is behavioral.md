@@ -1,6 +1,8 @@
 ---
 permalink: n/customer-loyalty-is-behavioral
+slug: customer-loyalty-is-behavioral
 status: 
+title: Customer loyalty is behavioral
 ---
 # Customer loyalty is behavioral
 

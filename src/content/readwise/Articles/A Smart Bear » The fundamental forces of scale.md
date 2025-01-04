@@ -13,6 +13,7 @@ summary: |
   These forces make larger companies slower and more difficult to execute, but also more effective when harnessed and leveraged.
 source: reader
 permalink: l/articles/a-smart-bear-the-fundamental-forces-of-scale
+slug: a-smart-bear-the-fundamental-forces-of-scale
 ---
 # A Smart Bear » The fundamental forces of scale
 

@@ -13,6 +13,7 @@ summary: |
   I interviewed Keith Nieves, the Social Media Program Lead at Sonos, about how he has built goodwill during such a tough time for the brand.
 source: reader
 permalink: l/articles/sonos-customer-backlash-reddit-and-a-guy-named-keith
+slug: sonos-customer-backlash-reddit-and-a-guy-named-keith
 ---
 # Sonos, Customer Backlash, Reddit, and a Guy Named Keith
 

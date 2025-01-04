@@ -13,6 +13,7 @@ summary: |
   Many B2B software companies are considering this approach without a clear understanding of the capabilities required. 
 source: reader
 permalink: l/articles/what-it-really-takes-to-develop-product-led-growth
+slug: what-it-really-takes-to-develop-product-led-growth
 ---
 # What It Really Takes to Develop Product-Led Growth
 

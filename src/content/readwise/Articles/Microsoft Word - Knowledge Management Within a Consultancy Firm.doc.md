@@ -13,6 +13,7 @@ summary: |
   The thesis explores how a consulting firm, specifically Accenture, manages internal knowledge to enhance knowledge sharing and creation among its employees. It analyzes existing knowledge management practices and provides recommendations for improvement. The research highlights the importance of effectively transferring and integrating knowledge within the organization to maintain a competitive edge.
 source: reader
 permalink: l/articles/microsoft-word-knowledge-management-within-a-consultancy-firm-doc
+slug: microsoft-word-knowledge-management-within-a-consultancy-firm-doc
 ---
 # Microsoft Word - Knowledge Management Within a Consultancy Firm.doc
 

@@ -13,6 +13,7 @@ summary: |
   But when deciding what trends are in and what trends are out, who holds the most influence over these fashion choices?
 source: reader
 permalink: l/articles/how-creators-influence-brands-and-why-they-listen
+slug: how-creators-influence-brands-and-why-they-listen
 ---
 # How Creators Influence Brands — And Why They Listen
 

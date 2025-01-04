@@ -13,6 +13,7 @@ summary: |
   First, “Made in China.” Retailers went to China to outsource manufacturing. Second, it was “Sold by China.” Chinese manufacturers sold through Amazon. Now, third, “Marketed by China.” Chinese companies are running vertically integrated retailers.
 source: reader
 permalink: l/articles/made-sold-and-marketed-by-china
+slug: made-sold-and-marketed-by-china
 ---
 # Made, Sold, and Marketed by China
 

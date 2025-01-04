@@ -13,6 +13,7 @@ summary: |
   So I think my biggest takeaway was where you pointed out that your audience doesn’t really WANT your product, but they want something that your product can help with.
 source: reader
 permalink: l/articles/how-to-sell-what-your-customers-really-want
+slug: how-to-sell-what-your-customers-really-want
 ---
 # How to Sell What Your Customers Really Want
 

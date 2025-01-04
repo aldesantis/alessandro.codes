@@ -1,6 +1,8 @@
 ---
 permalink: n/data-must-be-activated
+slug: data-must-be-activated
 status: 
+title: Data must be activated
 ---
 # Data must be activated
 

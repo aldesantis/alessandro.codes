@@ -1,6 +1,8 @@
 ---
 permalink: n/most-ideas-can-only-be-post-rationalized
+slug: most-ideas-can-only-be-post-rationalized
 status: 
+title: Most ideas can only be post-rationalized
 ---
 # Most ideas can only be post-rationalized
 

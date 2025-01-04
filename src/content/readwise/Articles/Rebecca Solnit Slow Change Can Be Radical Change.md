@@ -13,6 +13,7 @@ summary: |
   “To see takes time, like to have a friend takes time.” –Georgia O’Keeffe * Someone at the dinner table wanted to know what everyone’s turning point on climate was, which is to say she w…
 source: reader
 permalink: l/articles/rebecca-solnit-slow-change-can-be-radical-change
+slug: rebecca-solnit-slow-change-can-be-radical-change
 ---
 # Rebecca Solnit: Slow Change Can Be Radical Change
 

@@ -13,6 +13,7 @@ summary: |
   The article discusses a framework called "A_Framework_To" that helps identify overlooked and de-biased trends. The author emphasizes the importance of understanding biases, agendas, and the limitations of industry trend reports when analyzing meta trends. The framework involves asking four interrogative questions (Outside, Other Side, Dark Side, Back Side) to uncover new perspectives and dimensions of existing trends. The author provides examples of applying this framework to various 2022 meta trends, highlighting overlooked aspects of each trend. The goal is to encourage a more comprehensive understanding of cultural discussions and to uncover valuable insights and opportunities.
 source: reader
 permalink: l/articles/a-framework-to-find-overlooked-de-bias-trends
+slug: a-framework-to-find-overlooked-de-bias-trends
 ---
 # A_Framework_To: Find Overlooked & De-Bias Trends
 

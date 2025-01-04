@@ -13,6 +13,7 @@ summary: |
   Awareness is the key to noticing things in your environment and within yourself. By expanding your awareness, you gain more agency and freedom to make choices. Paying attention to how your awareness operates can lead to transformative experiences and behaviors.
 source: reader
 permalink: l/articles/awareness-is-a-user-interface
+slug: awareness-is-a-user-interface
 ---
 # Awareness is a User Interface
 

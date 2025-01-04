@@ -13,6 +13,7 @@ summary: |
   In his commencement speech at USC Law School, Charlie Munger offers advice on how to live a successful life. His core ideas include earning trust, learning to love and admire the right people, and acquiring wisdom as a moral and practical duty. He also emphasizes the importance of attaining fluency on big multidisciplinary ideas and thinking through problems backwards as well as forward. Munger urges individuals to avoid self-pity, self-serving bias, and intense ideologies, and to work with and under people they admire. Finally, he encourages people to use setbacks as opportunities to become better individuals.
 source: reader
 permalink: l/articles/the-munger-operating-system-how-to-live-a-life-that-really-works
+slug: the-munger-operating-system-how-to-live-a-life-that-really-works
 ---
 # The Munger Operating System: How to Live a Life That Really Works
 

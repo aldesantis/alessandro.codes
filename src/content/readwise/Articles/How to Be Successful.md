@@ -13,6 +13,7 @@ summary: |
   I’ve observed thousands of founders and thought a lot about what it takes to make a huge amount of money or to create something important. Usually, people start off wanting the former and end up...
 source: reader
 permalink: l/articles/how-to-be-successful
+slug: how-to-be-successful
 ---
 # How to Be Successful
 

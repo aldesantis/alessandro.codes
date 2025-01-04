@@ -13,6 +13,7 @@ summary: |
   Being assertive with customers is important for effective communication and business success. Collaborative personality types often struggle with being too conservative and not speaking up enough. This can result in missed opportunities and decreased revenue. It's crucial to find a balance between respecting the customer's agency and assertively guiding them. Examples of situations where assertiveness is needed include answering customer questions, handling feature requests, providing product/business context, addressing unwarranted complaints, and managing accounts. It's important to remember that being assertive does not mean being pushy, but rather taking the lead and providing value to the customer.
 source: reader
 permalink: l/articles/be-more-assertive-with-customers
+slug: be-more-assertive-with-customers
 ---
 # Be More Assertive With Customers
 

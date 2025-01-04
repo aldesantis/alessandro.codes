@@ -13,6 +13,7 @@ summary: |
   The Feynman Technique is the best way to supercharge your learning. And it works no matter the subject.
 source: reader
 permalink: l/articles/brain-food-extraordinary-decades
+slug: brain-food-extraordinary-decades
 ---
 # Brain Food: Extraordinary Decades
 

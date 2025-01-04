@@ -1,6 +1,8 @@
 ---
 permalink: n/unknown-habits-impede-learning
+slug: unknown-habits-impede-learning
 status: 
+title: Unknown habits impede learning
 ---
 # Unknown habits impede learning
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/ep-129-is-customer-obsession-overrated-with-morgan-fowles-ceo-at-tala
+slug: ep-129-is-customer-obsession-overrated-with-morgan-fowles-ceo-at-tala
 ---
 # Ep 129: Is Customer Obsession Overrated? - With Morgan Fowles, CEO at Tala
 

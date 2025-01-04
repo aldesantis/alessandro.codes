@@ -13,6 +13,7 @@ summary: |
   The text discusses the concept of quiet compounding, drawing parallels between nature's silent growth and long-term financial success achieved through saving and investing without seeking external validation or comparison. It emphasizes the importance of focusing on personal goals, individuality, independence, and long-term endurance in financial decision-making. The key idea is to prioritize steady, quiet progress over flashy displays of wealth or short-term gains.
 source: reader
 permalink: l/articles/quiet-compounding
+slug: quiet-compounding
 ---
 # Quiet Compounding
 

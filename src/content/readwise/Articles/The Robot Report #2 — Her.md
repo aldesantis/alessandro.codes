@@ -13,6 +13,7 @@ summary: |
   The text discusses using music to aid writing and the impact of AI models like ChatGPT on human interactions and problem-solving. It contrasts the search experience between Google and ChatGPT, emphasizing the conversational nature of AI. Additionally, it reflects on the potential benefits and consequences of advanced technology, drawing parallels to the movie "Her."
 source: reader
 permalink: l/articles/the-robot-report-2-her
+slug: the-robot-report-2-her
 ---
 # The Robot Report #2 — Her
 

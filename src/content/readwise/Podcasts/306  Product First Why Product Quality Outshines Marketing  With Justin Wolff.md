@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/306-product-first-why-product-quality-outshines-marketing-with-justin-wolff
+slug: 306-product-first-why-product-quality-outshines-marketing-with-justin-wolff
 ---
 # 306 | Product First: Why Product Quality Outshines Marketing | With Justin Wolff
 

@@ -13,6 +13,7 @@ summary: |
   Over nearly 20 years, the DTC brand landscape has seen an explosion and relative decline. These brands, known for their innovative marketing strategies and unique product offerings, captured the he…
 source: reader
 permalink: l/articles/deep-dive-the-new-dtc-growth-market
+slug: deep-dive-the-new-dtc-growth-market
 ---
 # Deep Dive: The New DTC Growth Market
 

@@ -12,6 +12,7 @@ published_date: 2024-03-19
 summary: ""
 source: reader
 permalink: l/articles/beyond-the-runway-gucci-s-leap-into-the-web3-era
+slug: beyond-the-runway-gucci-s-leap-into-the-web3-era
 ---
 # Beyond the Runway: Gucci's Leap Into the Web3 Era
 

@@ -13,6 +13,7 @@ summary: |
   How to become an intrepid explorer of your inner landscape
 source: reader
 permalink: l/articles/the-art-and-science-of-interoception
+slug: the-art-and-science-of-interoception
 ---
 # The Art and Science of Interoception
 

@@ -13,6 +13,7 @@ summary: |
   Science, sociology, and the likely financial collapse of the Generative AI bubble
 source: reader
 permalink: l/articles/confirmed-ll-ms-have-indeed-reached-a-point-of-diminishing-returns
+slug: confirmed-ll-ms-have-indeed-reached-a-point-of-diminishing-returns
 ---
 # CONFIRMED: LLMs Have Indeed Reached a Point of Diminishing Returns
 

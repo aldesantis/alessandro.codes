@@ -1,6 +1,8 @@
 ---
 permalink: n/compliance-is-not-commitment
+slug: compliance-is-not-commitment
 status: 
+title: Compliance is not commitment
 ---
 # Compliance is not commitment
 

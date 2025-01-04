@@ -13,6 +13,7 @@ summary: |
   "In order to get the results we desire, we must do two things.
 source: reader
 permalink: l/articles/brain-food-alignment
+slug: brain-food-alignment
 ---
 # Brain Food: Alignment
 

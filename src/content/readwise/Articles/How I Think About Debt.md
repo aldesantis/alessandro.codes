@@ -13,6 +13,7 @@ summary: |
   Some businesses in Japan have lasted for centuries without taking on debt, allowing them to endure various challenges. Author Collab Fund suggests that debt can limit the range of challenges one can withstand in life, emphasizing the importance of having options and flexibility. Viewing debt as a constraint on survivable outcomes can help individuals make more informed financial decisions in an unpredictable world.
 source: reader
 permalink: l/articles/how-i-think-about-debt
+slug: how-i-think-about-debt
 ---
 # How I Think About Debt
 

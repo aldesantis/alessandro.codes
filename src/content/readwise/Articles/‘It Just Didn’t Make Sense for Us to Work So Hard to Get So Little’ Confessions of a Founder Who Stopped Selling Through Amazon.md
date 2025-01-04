@@ -13,6 +13,7 @@ summary: |
   Some brands selling on Amazon's marketplace say the economics of operating have become difficult. One big reason: returns.
 source: reader
 permalink: l/articles/it-just-didn-t-make-sense-for-us-to-work-so-hard-to-get-so-little-confessions-of-a-founder-who-stopped-selling-through-amazon
+slug: it-just-didn-t-make-sense-for-us-to-work-so-hard-to-get-so-little-confessions-of-a-founder-who-stopped-selling-through-amazon
 ---
 # ‘It Just Didn’t Make Sense for Us to Work So Hard to Get So Little’: Confessions of a Founder Who Stopped Selling Through Amazon
 

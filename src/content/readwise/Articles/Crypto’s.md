@@ -13,6 +13,7 @@ summary: |
   Crypto venture capitalist Chris Dixon argues in his book, "Read Write Own: Building the Next Era of the Internet," that the problems of the internet can be solved through blockchain technology. He believes that the internet's issues stem from corporate control and centralized networks. Dixon proposes that blockchain networks can decentralize the internet and give power back to the people. However, the author of the summary disagrees with Dixon's arguments, stating that the problems of the blockchain's technical architecture are similar to those of corporations. The summary concludes by stating that Dixon's arguments fall short of solving the internet's current problems.
 source: reader
 permalink: l/articles/crypto-s
+slug: crypto-s
 ---
 # Crypto’s
 

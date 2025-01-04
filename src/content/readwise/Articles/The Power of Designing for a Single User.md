@@ -13,6 +13,7 @@ summary: |
   Increase your impact by scaling down
 source: reader
 permalink: l/articles/the-power-of-designing-for-a-single-user
+slug: the-power-of-designing-for-a-single-user
 ---
 # The Power of Designing for a Single User
 

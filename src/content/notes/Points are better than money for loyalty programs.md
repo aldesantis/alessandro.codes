@@ -1,6 +1,8 @@
 ---
 permalink: n/points-are-better-than-money-for-loyalty-programs
+slug: points-are-better-than-money-for-loyalty-programs
 status: 
+title: Points are better than money for loyalty programs
 ---
 # Points are better than money for loyalty programs
 

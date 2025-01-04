@@ -13,6 +13,7 @@ summary: |
   The ethical imperative to make a profit
 source: reader
 permalink: l/articles/no-margin-no-mission
+slug: no-margin-no-mission
 ---
 # No Margin, No Mission
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/brain-rot-e-zombificazione-il-tuo-cervello-sta-marcendo
+slug: brain-rot-e-zombificazione-il-tuo-cervello-sta-marcendo
 ---
 # BRAIN ROT E Zombificazione: Il Tuo Cervello Sta Marcendo?
 

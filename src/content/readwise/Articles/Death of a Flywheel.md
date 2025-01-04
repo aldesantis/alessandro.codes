@@ -13,6 +13,7 @@ summary: |
   How Amazon and Berkshire got too big
 source: reader
 permalink: l/articles/death-of-a-flywheel
+slug: death-of-a-flywheel
 ---
 # Death of a Flywheel
 

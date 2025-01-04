@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/the-challenger-sale
+slug: the-challenger-sale
 ---
 # The Challenger Sale
 

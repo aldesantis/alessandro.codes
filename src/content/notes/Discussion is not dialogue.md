@@ -1,6 +1,8 @@
 ---
 permalink: n/discussion-is-not-dialogue
+slug: discussion-is-not-dialogue
 status: 
+title: Discussion is not dialogue
 ---
 # Discussion is not dialogue
 

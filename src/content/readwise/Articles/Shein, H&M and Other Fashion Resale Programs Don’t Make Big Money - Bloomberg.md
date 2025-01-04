@@ -13,6 +13,7 @@ summary: |
   Resale has quickly emerged as the initiative of choice for fashion brands looking to lower their carbon, plastic and water footprints—or at least in some instances to convince green-conscious shoppers that they’re trying.
 source: reader
 permalink: l/articles/shein-h-m-and-other-fashion-resale-programs-don-t-make-big-money-bloomberg
+slug: shein-h-m-and-other-fashion-resale-programs-don-t-make-big-money-bloomberg
 ---
 # Shein, H&M and Other Fashion Resale Programs Don’t Make Big Money - Bloomberg
 

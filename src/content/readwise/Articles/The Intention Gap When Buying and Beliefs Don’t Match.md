@@ -13,6 +13,7 @@ summary: |
   Consumers say they want more sustainable fashion, but they don’t always put their money where their morals lie.
 source: reader
 permalink: l/articles/the-intention-gap-when-buying-and-beliefs-don-t-match
+slug: the-intention-gap-when-buying-and-beliefs-don-t-match
 ---
 # The Intention Gap: When Buying and Beliefs Don’t Match
 

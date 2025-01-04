@@ -13,6 +13,7 @@ summary: |
   The executive values his company’s direct relationship with customers, but says it’s all about sales and profits at the end of the day.
 source: reader
 permalink: l/articles/why-dtc-is-a-relationship-and-not-just-a-channel
+slug: why-dtc-is-a-relationship-and-not-just-a-channel
 ---
 # Why DTC Is a Relationship and Not Just a Channel
 

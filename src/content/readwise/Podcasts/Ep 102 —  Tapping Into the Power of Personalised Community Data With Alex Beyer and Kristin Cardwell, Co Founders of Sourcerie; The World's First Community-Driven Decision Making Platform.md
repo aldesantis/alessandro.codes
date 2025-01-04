@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/ep-102-tapping-into-the-power-of-personalised-community-data-with-alex-beyer-and-kristin-cardwell-co-founders-of-sourcerie-the-world-s-first-community-driven-decision-making-platform
+slug: ep-102-tapping-into-the-power-of-personalised-community-data-with-alex-beyer-and-kristin-cardwell-co-founders-of-sourcerie-the-world-s-first-community-driven-decision-making-platform
 ---
 # Ep 102 —  Tapping Into the Power of Personalised Community Data With Alex Beyer and Kristin Cardwell, Co Founders of Sourcerie; The World's First Community-Driven Decision Making Platform
 

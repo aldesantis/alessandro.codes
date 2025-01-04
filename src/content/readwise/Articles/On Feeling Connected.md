@@ -13,6 +13,7 @@ summary: |
   generosity is potency
 source: reader
 permalink: l/articles/on-feeling-connected
+slug: on-feeling-connected
 ---
 # On Feeling Connected
 

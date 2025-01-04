@@ -13,6 +13,7 @@ summary: |
   Issue №28 - How retailers and brands must step up their digital experiences in stores and across all channels, with a great low-ABV cocktail to pair with it - the Second Serve.
 source: reader
 permalink: l/articles/second-serves-a-great-low-abv-cocktail-bringing-digital-tech-into-physical-stores
+slug: second-serves-a-great-low-abv-cocktail-bringing-digital-tech-into-physical-stores
 ---
 # Second Serves - A Great Low-Abv Cocktail & Bringing Digital Tech Into Physical Stores
 

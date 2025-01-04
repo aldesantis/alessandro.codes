@@ -13,6 +13,7 @@ summary: |
   In this article, the author reflects on the challenges and changes they experienced in 2023. They discuss how their momentum slowed down and the impact it had on their writing and fundraising efforts. Despite the difficulties, they view this year as a period of consolidation and not breakdown. The author shares lessons learned and plans to break out in 2024 with renewed energy and focus. They highlight the importance of earning momentum through great work and express their determination to continue investing and writing about the companies shaping the world.
 source: reader
 permalink: l/articles/momentum-consolidation-and-breakout
+slug: momentum-consolidation-and-breakout
 ---
 # Momentum, Consolidation, and Breakout
 

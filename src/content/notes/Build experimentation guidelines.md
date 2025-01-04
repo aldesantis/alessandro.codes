@@ -1,6 +1,8 @@
 ---
 permalink: n/build-experimentation-guidelines
+slug: build-experimentation-guidelines
 status: 
+title: Build experimentation guidelines
 ---
 # Build experimentation guidelines
 

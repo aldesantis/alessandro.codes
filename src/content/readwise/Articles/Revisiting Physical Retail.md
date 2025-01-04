@@ -13,6 +13,7 @@ summary: |
   The good, the bad and the ugly
 source: reader
 permalink: l/articles/revisiting-physical-retail
+slug: revisiting-physical-retail
 ---
 # Revisiting Physical Retail
 

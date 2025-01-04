@@ -13,6 +13,7 @@ summary: |
   Business media for the commerce trade is in a serious state of flux.
 source: reader
 permalink: l/articles/the-misery-business-of-commerce-x-media
+slug: the-misery-business-of-commerce-x-media
 ---
 # 👁️ the “Misery Business” of Commerce X Media
 

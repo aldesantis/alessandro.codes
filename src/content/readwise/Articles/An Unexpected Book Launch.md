@@ -13,6 +13,7 @@ summary: |
   The author reflects on their experience of launching their book, Creative Dysregulation: Why Your Creativity is Chaotic & What to Do About It, while simultaneously attending a 10-day silent meditation retreat. They describe how, in the past, they would experience a "launch-then-hide" pattern of behavior, but this time, by surrendering the launch and focusing on the retreat, they were able to detach from the outcome and find a new level of healthy detachment from their creation. They also share some highlights and celebrations from the book launch, and conclude that the best launch strategy is to do good work, share your story, surround yourself with creative friends, and let go of all expectations.
 source: reader
 permalink: l/articles/an-unexpected-book-launch
+slug: an-unexpected-book-launch
 ---
 # An Unexpected Book Launch
 

@@ -13,6 +13,7 @@ summary: |
   This text provides 100 tips for leading a better life, covering aspects like productivity, success, rationality, self-awareness, relationships, and compassion. It emphasizes the importance of simplicity, dependability, self-understanding, and treating others with compassion and patience. The tips aim to help individuals navigate life's complexities and improve their overall well-being.
 source: reader
 permalink: l/articles/100-tips-for-a-better-life
+slug: 100-tips-for-a-better-life
 ---
 # 100 Tips For A Better Life
 

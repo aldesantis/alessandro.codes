@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/scaling-up-excellence
+slug: scaling-up-excellence
 ---
 # Scaling Up Excellence
 

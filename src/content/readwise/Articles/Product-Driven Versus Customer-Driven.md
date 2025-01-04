@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/product-driven-versus-customer-driven
+slug: product-driven-versus-customer-driven
 ---
 # Product-Driven Versus Customer-Driven
 

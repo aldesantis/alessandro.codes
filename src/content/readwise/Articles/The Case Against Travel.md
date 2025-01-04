@@ -13,6 +13,7 @@ summary: |
   The Case Against Travel argues that tourism is ultimately self-defeating, as it turns travelers into mere spectators and diverts them from authentic sensory experiences and human connections. The article notes that tourism is driven more by the needs of the producer than the consumer and is marked by its locomotive character. The author concludes that traveling is ultimately a delusion that turns individuals into the worst version of themselves, while convincing them that they are at their best.
 source: reader
 permalink: l/articles/the-case-against-travel
+slug: the-case-against-travel
 ---
 # The Case Against Travel
 

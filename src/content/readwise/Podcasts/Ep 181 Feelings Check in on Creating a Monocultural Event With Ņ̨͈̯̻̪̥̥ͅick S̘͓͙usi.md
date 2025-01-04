@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/ep-181-feelings-check-in-on-creating-a-monocultural-event-with-ick-s-usi
+slug: ep-181-feelings-check-in-on-creating-a-monocultural-event-with-ick-s-usi
 ---
 # Ep 181: Feelings Check in on Creating a Monocultural Event With Ņ̨͈̯̻̪̥̥ͅick S̘͓͙usi
 

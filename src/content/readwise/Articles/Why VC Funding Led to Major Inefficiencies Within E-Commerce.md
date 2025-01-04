@@ -13,6 +13,7 @@ summary: |
   Venture capital funding has led to inefficiencies in e-commerce by pushing businesses to prioritize rapid revenue growth over long-term profitability. This pressure can result in high fixed costs and customer acquisition challenges, leaving companies vulnerable if funding stops. While VC funding can support growth, it often creates conflicts between founders and investors, ultimately harming the business's potential.
 source: reader
 permalink: l/articles/why-vc-funding-led-to-major-inefficiencies-within-e-commerce
+slug: why-vc-funding-led-to-major-inefficiencies-within-e-commerce
 ---
 # Why VC Funding Led to Major Inefficiencies Within E-Commerce
 

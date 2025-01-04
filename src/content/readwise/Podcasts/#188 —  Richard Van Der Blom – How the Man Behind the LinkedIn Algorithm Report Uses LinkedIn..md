@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/188-richard-van-der-blom-how-the-man-behind-the-linked-in-algorithm-report-uses-linked-in
+slug: 188-richard-van-der-blom-how-the-man-behind-the-linked-in-algorithm-report-uses-linked-in
 ---
 # #188 —  Richard Van Der Blom – How the Man Behind the LinkedIn Algorithm Report Uses LinkedIn.
 

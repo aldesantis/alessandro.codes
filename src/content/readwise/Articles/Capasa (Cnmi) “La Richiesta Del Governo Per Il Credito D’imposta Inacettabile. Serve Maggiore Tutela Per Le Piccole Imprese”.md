@@ -13,6 +13,7 @@ summary: |
   Dall’esortazione a una maggiore sostenibilità in ambito supply chain, all’importanza della formazione, fino alla richiesta di politiche più flessibili sul credito di imposta per le aziende del comparto moda italiano e, in generale, la necessità di tutela per l’intero settore e i piccoli player in un momento economico già complesso.
 source: reader
 permalink: l/articles/capasa-cnmi-la-richiesta-del-governo-per-il-credito-d-imposta-inacettabile-serve-maggiore-tutela-per-le-piccole-imprese
+slug: capasa-cnmi-la-richiesta-del-governo-per-il-credito-d-imposta-inacettabile-serve-maggiore-tutela-per-le-piccole-imprese
 ---
 # Capasa (Cnmi): “La Richiesta Del Governo Per Il Credito D’imposta? Inacettabile. Serve Maggiore Tutela Per Le Piccole Imprese”
 

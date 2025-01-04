@@ -1,6 +1,8 @@
 ---
 permalink: n/risk-protects-from-competition
+slug: risk-protects-from-competition
 status: 
+title: Risk protects from competition
 ---
 # Risk protects from competition
 

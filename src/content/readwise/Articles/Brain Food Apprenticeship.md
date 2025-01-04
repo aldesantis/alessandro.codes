@@ -13,6 +13,7 @@ summary: |
   Black swans are the unexpected outliers, the rare and unpredictable events that defy our usual expectations and profoundly impact our world.
 source: reader
 permalink: l/articles/brain-food-apprenticeship
+slug: brain-food-apprenticeship
 ---
 # Brain Food: Apprenticeship
 

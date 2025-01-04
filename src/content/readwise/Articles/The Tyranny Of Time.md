@@ -13,6 +13,7 @@ summary: |
   The clock is a useful social tool, but it is also deeply political. It benefits some, marginalizes others and blinds us from a true understanding of our own bodies and the world around us.
 source: reader
 permalink: l/articles/the-tyranny-of-time
+slug: the-tyranny-of-time
 ---
 # The Tyranny Of Time
 

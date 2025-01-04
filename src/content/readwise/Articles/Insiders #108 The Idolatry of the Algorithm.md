@@ -13,6 +13,7 @@ summary: |
   If you live in modern times you've probably experienced Algorithm Anxiety. With the growth of the metaverse, this Algorithm anxiety might just spill over into real life.
 source: reader
 permalink: l/articles/insiders-108-the-idolatry-of-the-algorithm
+slug: insiders-108-the-idolatry-of-the-algorithm
 ---
 # Insiders #108: The Idolatry of the Algorithm
 

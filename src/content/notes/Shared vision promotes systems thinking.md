@@ -1,6 +1,8 @@
 ---
 permalink: n/shared-vision-promotes-systems-thinking
+slug: shared-vision-promotes-systems-thinking
 status: 
+title: Shared vision promotes systems thinking
 ---
 # Shared vision promotes systems thinking
 

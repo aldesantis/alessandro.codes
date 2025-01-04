@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/la-crypto-religione-di-bitcoin-tra-culto-futuro-e-opportunit-con-gianluigi-ballarani
+slug: la-crypto-religione-di-bitcoin-tra-culto-futuro-e-opportunit-con-gianluigi-ballarani
 ---
 # La Crypto-Religione Di BITCOIN: Tra Culto, Futuro E Opportunità - Con Gianluigi Ballarani
 

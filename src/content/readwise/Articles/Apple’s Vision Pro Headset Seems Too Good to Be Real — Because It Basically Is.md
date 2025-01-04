@@ -13,6 +13,7 @@ summary: |
   Apple's Vision Pro headset is real enough, but it won't be real for the majority of consumers for many years, if ever.
 source: reader
 permalink: l/articles/apple-s-vision-pro-headset-seems-too-good-to-be-real-because-it-basically-is
+slug: apple-s-vision-pro-headset-seems-too-good-to-be-real-because-it-basically-is
 ---
 # Apple’s Vision Pro Headset Seems Too Good to Be Real — Because It Basically Is
 

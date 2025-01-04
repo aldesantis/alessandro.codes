@@ -13,6 +13,7 @@ summary: |
   Welcome to the Sociology of Business.
 source: reader
 permalink: l/articles/10-rules-of-ip-brands
+slug: 10-rules-of-ip-brands
 ---
 # 10 Rules of IP Brands
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/heuristics-for-effective-software-development-organizations-a-continuously-evolving-list-allen-holub
+slug: heuristics-for-effective-software-development-organizations-a-continuously-evolving-list-allen-holub
 ---
 # Heuristics for Effective Software Development Organizations: A Continuously Evolving List.* | Allen Holub
 

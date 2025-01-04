@@ -1,6 +1,8 @@
 ---
 permalink: n/groups-always-have-structure
+slug: groups-always-have-structure
 status: 
+title: Groups always have structure
 ---
 # Groups always have structure
 

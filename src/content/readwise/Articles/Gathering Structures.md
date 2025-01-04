@@ -13,6 +13,7 @@ summary: |
   Maggie Appleton shares her experiences in organizing community events and emphasizes the importance of creating spaces for discussion. She encourages others to start their own gatherings by focusing on a few key elements: time, place, intention, and people. Appleton also highlights the challenges of managing larger groups and suggests using tools to facilitate communication and scheduling.
 source: reader
 permalink: l/articles/gathering-structures
+slug: gathering-structures
 ---
 # Gathering Structures
 

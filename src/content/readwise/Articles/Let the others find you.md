@@ -13,6 +13,7 @@ summary: |
   The document discusses the importance of forming deep connections with others and the fear and beliefs that can hold us back from doing so. It suggests that instead of waiting for others to find us, we should be vulnerable and take the first step in forming connections. By embracing our individuality and being open to rejection, we can create meaningful relationships and experience the small moments that make life worth living. The document encourages readers to let the others find them by being open and authentic.
 source: reader
 permalink: l/articles/let-the-others-find-you
+slug: let-the-others-find-you
 ---
 # Let the others find you
 

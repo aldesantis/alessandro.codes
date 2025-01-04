@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/scales-of-cities-scales-of-software-linus-coffee
+slug: scales-of-cities-scales-of-software-linus-coffee
 ---
 # Scales of Cities, Scales of Software | linus.coffee
 

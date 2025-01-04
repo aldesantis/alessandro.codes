@@ -13,6 +13,7 @@ summary: |
   Soloculture is a term that describes the unique worldview that individuals develop based on how they consume, manipulate, and contribute to the transmission of information. It is the result of the blending of subcultures and the influence of the dominant monoculture. The internet has played a significant role in the discoverability of subcultures and the ability for individuals to remix their identities in hyper-specific ways. However, the rise of Solocultures has also led to a sense of living in personal bubbles and a lack of collective agreement on basic facts. It remains to be seen whether Solocultures are a net positive or negative for society, but recognizing their existence can help start a conversation on how brands can positively influence the bubbles we form.
 source: reader
 permalink: l/articles/the-age-of-soloculture-quick-study
+slug: the-age-of-soloculture-quick-study
 ---
 # The Age of Soloculture — Quick Study
 

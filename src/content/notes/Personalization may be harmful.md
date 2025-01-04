@@ -1,6 +1,8 @@
 ---
 permalink: n/personalization-may-be-harmful
+slug: personalization-may-be-harmful
 status: 
+title: Personalization may be harmful
 ---
 # Personalization may be harmful
 

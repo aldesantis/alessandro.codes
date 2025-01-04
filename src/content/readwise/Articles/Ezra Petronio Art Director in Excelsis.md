@@ -13,6 +13,7 @@ summary: |
   The fashion Renaissance man talks to Tim Blanks about the role of the art director, the activist roots of Self Service, how megabrands have reshaped the industry and why social media is a bubble he hopes will burst. 
 source: reader
 permalink: l/articles/ezra-petronio-art-director-in-excelsis
+slug: ezra-petronio-art-director-in-excelsis
 ---
 # Ezra Petronio: Art Director in Excelsis
 

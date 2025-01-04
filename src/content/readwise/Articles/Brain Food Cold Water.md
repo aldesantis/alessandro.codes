@@ -13,6 +13,7 @@ summary: |
   “I have spoken of the necessity of being frank and honest with oneself about one's own affairs: many people assume that they can get away from the truth by avoiding thinking about it, but the natural law is inevitable, and the sooner it is recognized, the better.
 source: reader
 permalink: l/articles/brain-food-cold-water
+slug: brain-food-cold-water
 ---
 # Brain Food: Cold Water
 

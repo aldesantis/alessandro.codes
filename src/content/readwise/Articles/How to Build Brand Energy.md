@@ -13,6 +13,7 @@ summary: |
   Grace Gordon shares a case study on building brand energy by connecting with influential city communities and creating cultural hits like "BRAT" by Charli XCX. The key is to authentically engage with fans both online and offline, providing tools for creative expression and building a lifestyle platform around the brand. Brands can learn from this approach by designing products that resonate with their core audience, facilitating community engagement, and simplifying brand codes to inspire participation and expression.
 source: reader
 permalink: l/articles/how-to-build-brand-energy
+slug: how-to-build-brand-energy
 ---
 # How to Build Brand Energy
 

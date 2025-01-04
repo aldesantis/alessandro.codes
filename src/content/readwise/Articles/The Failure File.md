@@ -13,6 +13,7 @@ summary: |
   Learning from failure can lead to personal growth and success. It's important to stay committed and not let failure define you. Sharing your failure experiences can help normalize setbacks and empower others.
 source: reader
 permalink: l/articles/the-failure-file
+slug: the-failure-file
 ---
 # The Failure File
 

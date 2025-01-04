@@ -13,6 +13,7 @@ summary: |
   Lawmakers in the US introduced a bill that could force ByteDance, the China-based parent company of TikTok, to divest the app within six months to avoid a ban. TikTok has faced threats before, but this time, the bill has bipartisan support and is advancing quickly in the House. While TikTok has grown in popularity and impacted the fashion industry, its recent foray into e-commerce with TikTok Shop has faced challenges and user backlash, potentially affecting its future success. Despite concerns and potential decline in user growth, TikTok remains a significant platform for brands and influencers, navigating changes and criticisms similar to those experienced by other social media platforms like Instagram.
 source: reader
 permalink: l/articles/is-the-tik-tok-fashion-boom-already-over
+slug: is-the-tik-tok-fashion-boom-already-over
 ---
 # Is the TikTok Fashion Boom Already Over?
 

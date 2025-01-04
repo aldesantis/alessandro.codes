@@ -13,6 +13,7 @@ summary: |
   The Gang is a startup creating virtual brand worlds on Roblox for fashion labels like Gucci and Givenchy. They focus on interactive experiences tailored to each brand, learning from their own games and user feedback. The company has seen significant growth and is exploring collaborations with young creators on the platform.
 source: reader
 permalink: l/articles/the-gang-the-startup-that-builds-roblox-worlds-for-gucci-and-givenchy
+slug: the-gang-the-startup-that-builds-roblox-worlds-for-gucci-and-givenchy
 ---
 # The Gang: The Startup That Builds Roblox Worlds for Gucci and Givenchy
 

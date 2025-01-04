@@ -13,6 +13,7 @@ summary: |
   The Lorenz Attractor is a chaotic system known as a strange attractor. The author draws a parallel between this mathematical object and their consulting business, where leads often come unexpectedly and the reasons behind them are unclear. However, the author emphasizes that generating leads is not random but rather entails shaping the larger system. They outline their system for generating warm leads, which involves focusing on networks, articulating their work, and publishing to maintain a presence. The author also discusses the importance of building a network, communicating with contacts, and creating concise case studies and capabilities decks to attract the right kind of work. They conclude by encouraging individuals to embrace their unique work and create a body of work that signals their expertise in a specific area.
 source: reader
 permalink: l/articles/strange-attraction
+slug: strange-attraction
 ---
 # Strange Attraction
 

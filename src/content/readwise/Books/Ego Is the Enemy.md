@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/ego-is-the-enemy
+slug: ego-is-the-enemy
 ---
 # Ego Is the Enemy
 

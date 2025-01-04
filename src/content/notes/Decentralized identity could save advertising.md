@@ -1,6 +1,8 @@
 ---
 permalink: n/decentralized-identity-could-save-advertising
+slug: decentralized-identity-could-save-advertising
 status: 
+title: Decentralized identity could save advertising
 ---
 # Decentralized identity could save advertising
 

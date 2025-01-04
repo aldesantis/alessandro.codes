@@ -1,6 +1,8 @@
 ---
 permalink: n/the-wellness-industry-promotes-unfairness
+slug: the-wellness-industry-promotes-unfairness
 status: 
+title: The wellness industry promotes unfairness
 ---
 # The wellness industry promotes unfairness
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/social-commerce-puts-people-over-brands
+slug: social-commerce-puts-people-over-brands
 status: 
+title: Social commerce puts people over brands
 ---
 # Social commerce puts people over brands
 

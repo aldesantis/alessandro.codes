@@ -13,6 +13,7 @@ summary: |
   Teen subcultures are evolving, with modern teenagers engaging in a wide array of online aesthetics that lack the depth and community connection of past subcultures. These new aesthetics come and go rapidly, often existing only in the digital realm without real-world ties or shared experiences. While today's teenagers are exploring different aesthetics to find identity and validation, the fleeting nature of these cultural trends can lead to a sense of disconnectedness and lack of meaningful connections compared to the vibrant subcultures of the past. The shift from tangible, immersive subcultures to online aesthetics highlights a cultural shift that may leave young people yearning for the communal experiences and deep connections that defined previous eras.
 source: reader
 permalink: l/articles/teen-subcultures-are-fading-pity-the-poor-kids
+slug: teen-subcultures-are-fading-pity-the-poor-kids
 ---
 # Teen Subcultures Are Fading. Pity the Poor Kids.
 

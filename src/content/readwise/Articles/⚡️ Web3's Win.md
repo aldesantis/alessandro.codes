@@ -13,6 +13,7 @@ summary: |
   TGIF, fam. We’re looking forward to kicking back and watching some TV this weekend.
 source: reader
 permalink: l/articles/web3-s-win
+slug: web3-s-win
 ---
 # ⚡️ Web3's Win
 

@@ -13,6 +13,7 @@ summary: |
   Creator camps are on our minds: camps that train little kids how to become, well, creators. But who’s training us big kids?
 source: reader
 permalink: l/articles/kiss
+slug: kiss
 ---
 # ⚡ KISS’
 

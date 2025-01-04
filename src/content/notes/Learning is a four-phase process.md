@@ -1,6 +1,8 @@
 ---
 permalink: n/learning-is-a-four-phase-process
+slug: learning-is-a-four-phase-process
 status: 
+title: Learning is a four-phase process
 ---
 # Learning is a four-phase process
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/the-four-conversations-a-new-model-for-selling-expertise
+slug: the-four-conversations-a-new-model-for-selling-expertise
 ---
 # The Four Conversations —  a New Model for Selling Expertise
 

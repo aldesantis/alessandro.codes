@@ -13,6 +13,7 @@ summary: |
   There’s one balloon that can’t and won’t be shot down; we are far too reliant on it. In previous explainers and reports on first-party data, I mostly focused on its advertising be…
 source: reader
 permalink: l/articles/memo-where-nat-sec-meets-commerce
+slug: memo-where-nat-sec-meets-commerce
 ---
 # Memo: Where NatSec Meets Commerce
 

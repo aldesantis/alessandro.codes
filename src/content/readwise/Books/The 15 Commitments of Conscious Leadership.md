@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/the-15-commitments-of-conscious-leadership
+slug: the-15-commitments-of-conscious-leadership
 ---
 # The 15 Commitments of Conscious Leadership
 

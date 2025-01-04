@@ -1,6 +1,8 @@
 ---
 permalink: n/foresight-is-creation-not-prediction
+slug: foresight-is-creation-not-prediction
 status: 
+title: Foresight is creation, not prediction
 ---
 # Foresight is creation, not prediction
 

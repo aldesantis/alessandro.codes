@@ -13,6 +13,7 @@ summary: |
   The text discusses three key pillars for customer retention: knowing the customer, testing strategies, and managing email frequency. It emphasizes the importance of understanding customer behavior, conducting proper testing, and avoiding excessive email bombardment to maintain long-term customer relationships. The author shares insights on retention strategies and cautions against prioritizing short-term gains over sustainable customer engagement.
 source: reader
 permalink: l/articles/three-retention-commandments
+slug: three-retention-commandments
 ---
 # Three Retention Commandments
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/thinking-in-systems
+slug: thinking-in-systems
 ---
 # Thinking in Systems
 

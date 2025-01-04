@@ -13,6 +13,7 @@ summary: |
   Hard Reset: Or, How Not to Drive Your Company Off A Cliff
 source: reader
 permalink: l/articles/hard-reset
+slug: hard-reset
 ---
 # Hard Reset
 

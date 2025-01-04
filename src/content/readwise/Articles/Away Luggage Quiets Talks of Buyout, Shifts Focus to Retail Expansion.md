@@ -13,6 +13,7 @@ summary: |
   Away was looking for a buyout just two months ago. Now it’s looking to expand its physical footprint.  
 source: reader
 permalink: l/articles/away-luggage-quiets-talks-of-buyout-shifts-focus-to-retail-expansion
+slug: away-luggage-quiets-talks-of-buyout-shifts-focus-to-retail-expansion
 ---
 # Away Luggage Quiets Talks of Buyout, Shifts Focus to Retail Expansion
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/the-new-strategic-brand-management
+slug: the-new-strategic-brand-management
 ---
 # The New Strategic Brand Management
 

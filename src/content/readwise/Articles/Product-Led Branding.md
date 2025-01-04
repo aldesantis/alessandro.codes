@@ -13,6 +13,7 @@ summary: |
   Product-led branding focuses on using innovative products to build a brand identity that resonates with consumers. It emphasizes the importance of product experience and storytelling over traditional advertising. By creating products that people love and use, brands can foster community and engagement.
 source: reader
 permalink: l/articles/product-led-branding
+slug: product-led-branding
 ---
 # Product-Led Branding
 

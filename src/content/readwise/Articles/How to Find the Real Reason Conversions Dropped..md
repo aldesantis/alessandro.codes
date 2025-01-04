@@ -13,6 +13,7 @@ summary: |
   A sudden unexplained drop in conversions is terrifying. You’re paying for clicks but you’re not getting leads or sales. It’s bad when you’re spending your boss’s or client’s money. It’s even worse when it’s your business on the chopping block. Read on to find out how to get to the bottom of coversion problems.
 source: reader
 permalink: l/articles/how-to-find-the-real-reason-conversions-dropped
+slug: how-to-find-the-real-reason-conversions-dropped
 ---
 # How to Find the Real Reason Conversions Dropped.
 

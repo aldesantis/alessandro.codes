@@ -1,6 +1,8 @@
 ---
 permalink: n/product-management-is-about-the-customer
+slug: product-management-is-about-the-customer
 status: 
+title: Product management is about the customer
 ---
 # Product management is about the customer
 

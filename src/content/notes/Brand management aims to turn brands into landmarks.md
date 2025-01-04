@@ -1,6 +1,8 @@
 ---
 permalink: n/brand-management-aims-to-turn-brands-into-landmarks
+slug: brand-management-aims-to-turn-brands-into-landmarks
 status: seedling
+title: Brand management aims to turn brands into landmarks
 ---
 # Brand management aims to turn brands into landmarks
 

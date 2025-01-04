@@ -13,6 +13,7 @@ summary: |
   In the modern world, there is often a mismatch between prestige and wealth, with some being prestige rich but cash poor, and others being cash rich but prestige poor. This phenomenon can lead to practical and emotional challenges, causing stress and cognitive dissonance. People may struggle with the idea of having more of one aspect relative to the other, prompting a need to decide how to navigate the pursuit of prestige and wealth.
 source: reader
 permalink: l/articles/the-prestige-prosperity-gap
+slug: the-prestige-prosperity-gap
 ---
 # The Prestige-Prosperity Gap
 

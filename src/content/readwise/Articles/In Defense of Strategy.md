@@ -13,6 +13,7 @@ summary: |
   Channeling Execution in the Right Direction
 source: reader
 permalink: l/articles/in-defense-of-strategy
+slug: in-defense-of-strategy
 ---
 # In Defense of Strategy
 

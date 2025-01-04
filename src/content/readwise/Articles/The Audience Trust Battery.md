@@ -13,6 +13,7 @@ summary: |
   I was speaking to a member of The Lab last week about the right time to go "all in" on your creator business (vs. continue working a full-time job).
 source: reader
 permalink: l/articles/the-audience-trust-battery
+slug: the-audience-trust-battery
 ---
 # The Audience Trust Battery
 

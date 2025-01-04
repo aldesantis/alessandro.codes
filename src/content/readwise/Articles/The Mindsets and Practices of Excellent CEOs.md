@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-mindsets-and-practices-of-excellent-ce-os
+slug: the-mindsets-and-practices-of-excellent-ce-os
 ---
 # The Mindsets and Practices of Excellent CEOs
 

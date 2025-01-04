@@ -13,6 +13,7 @@ summary: |
   Hiring folks in leadership roles is very challenging.
 source: reader
 permalink: l/articles/how-to-hire-for-director-roles
+slug: how-to-hire-for-director-roles
 ---
 # How to Hire for Director+ Roles?
 

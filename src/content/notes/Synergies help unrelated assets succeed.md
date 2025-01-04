@@ -1,6 +1,8 @@
 ---
 permalink: n/synergies-help-unrelated-assets-succeed
+slug: synergies-help-unrelated-assets-succeed
 status: 
+title: Synergies help unrelated assets succeed
 ---
 # Synergies help unrelated assets succeed
 

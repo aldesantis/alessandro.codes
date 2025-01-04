@@ -13,6 +13,7 @@ summary: |
   Luck plays a big role in success, but it's important to focus on what is repeatable rather than purely attributing success to luck. Learning from skills that are repeatable can lead to sustainable success in business and investing. Emulating repeatable lessons from successful individuals like Warren Buffett and Elon Musk can increase your chances of success.
 source: reader
 permalink: l/articles/lucky-vs-repeatable
+slug: lucky-vs-repeatable
 ---
 # Lucky vs. Repeatable
 

@@ -13,6 +13,7 @@ summary: |
   A memo is just me writing out my thinking.
 source: reader
 permalink: l/articles/decision-making-for-ceo-s-simplified-2
+slug: decision-making-for-ceo-s-simplified-2
 ---
 # Decision Making for CEO's Simplified
 

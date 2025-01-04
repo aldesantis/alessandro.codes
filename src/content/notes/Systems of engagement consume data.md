@@ -1,6 +1,8 @@
 ---
 permalink: n/systems-of-engagement-consume-data
+slug: systems-of-engagement-consume-data
 status: 
+title: Systems of engagement consume data
 ---
 # Systems of engagement consume data
 

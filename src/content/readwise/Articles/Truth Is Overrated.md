@@ -13,6 +13,7 @@ summary: |
   I read dozens of books on the how to be more successsful, listened to hundreds of hours of podcasts, scrolled through thousands of tweets, and watched far too many videos trying to learn how to be more successful.
 source: reader
 permalink: l/articles/truth-is-overrated
+slug: truth-is-overrated
 ---
 # Truth Is Overrated
 

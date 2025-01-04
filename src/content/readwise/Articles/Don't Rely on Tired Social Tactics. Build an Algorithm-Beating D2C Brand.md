@@ -13,6 +13,7 @@ summary: |
   Liquid Death, Stories & Ink and Gymshark—all started as D2C—have never solely relied on social.
 source: reader
 permalink: l/articles/don-t-rely-on-tired-social-tactics-build-an-algorithm-beating-d-2-c-brand
+slug: don-t-rely-on-tired-social-tactics-build-an-algorithm-beating-d-2-c-brand
 ---
 # Don't Rely on Tired Social Tactics. Build an Algorithm-Beating D2C Brand
 

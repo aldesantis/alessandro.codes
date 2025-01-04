@@ -13,6 +13,7 @@ summary: |
   NGMI if you don't find the right people
 source: reader
 permalink: l/articles/the-web3-talent-gap
+slug: the-web3-talent-gap
 ---
 # The Web3 Talent Gap
 

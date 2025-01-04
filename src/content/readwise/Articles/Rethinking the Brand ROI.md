@@ -13,6 +13,7 @@ summary: |
   Cultural influence is the new consideration
 source: reader
 permalink: l/articles/rethinking-the-brand-roi
+slug: rethinking-the-brand-roi
 ---
 # Rethinking the Brand ROI
 

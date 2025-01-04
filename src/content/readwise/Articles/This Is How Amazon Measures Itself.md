@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/this-is-how-amazon-measures-itself
+slug: this-is-how-amazon-measures-itself
 ---
 # This Is How Amazon Measures Itself
 

@@ -13,6 +13,7 @@ summary: |
   "Within your circle of competence, you operate with an advantage. As you approach the perimeter (the limitations of your knowledge), your advantage starts to reduce.
 source: reader
 permalink: l/articles/brain-food-winning-edge
+slug: brain-food-winning-edge
 ---
 # Brain Food: Winning Edge
 

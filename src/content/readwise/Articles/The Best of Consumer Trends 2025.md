@@ -13,6 +13,7 @@ summary: |
   Thank you for all the nice notes on the Consumer Trends 2025 report I launched this week with Coefficient Capital. Feel free to share those slides widely.
 source: reader
 permalink: l/articles/the-best-of-consumer-trends-2025
+slug: the-best-of-consumer-trends-2025
 ---
 # The Best of Consumer Trends 2025
 

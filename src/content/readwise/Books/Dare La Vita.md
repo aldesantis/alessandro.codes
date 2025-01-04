@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/dare-la-vita
+slug: dare-la-vita
 ---
 # Dare La Vita
 

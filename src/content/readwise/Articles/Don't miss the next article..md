@@ -13,6 +13,7 @@ summary: |
   What creates a fulfilling existence? Exploring the question from different directions leads to a framework I’ve used for years for myself and the people around me. I hope it helps you too.
 source: reader
 permalink: l/articles/don-t-miss-the-next-article
+slug: don-t-miss-the-next-article
 ---
 # Don't miss the next article.
 

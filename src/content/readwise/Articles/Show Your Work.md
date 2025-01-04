@@ -13,6 +13,7 @@ summary: |
   I’m currently working on a couple of longer, more ambitious pieces of writing, so this week I’m deviating from the usual format.
 source: reader
 permalink: l/articles/show-your-work
+slug: show-your-work
 ---
 # Show Your Work
 

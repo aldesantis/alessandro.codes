@@ -13,6 +13,7 @@ summary: |
   The eternal Marketing-Sales Alignment problem is addressed in this comprehensive guide to Linkedin Account Based Marketing (ABM). ABM involves a sales-oriented marketing approach where marketing teams prioritize lead quality over quantity, collaborating closely with sales to convert targeted accounts into customers. The guide explains how to set up a system where sales no longer receive unqualified leads, emphasizing the importance of aligning sales and marketing efforts. To execute ABM effectively on Linkedin, the guide recommends getting all team members on board and utilizing tools like Linkedin Sales Navigator to target and engage decision makers strategically.
 source: reader
 permalink: l/articles/linkedin-account-based-marketing-the-ultimate-guide-2023
+slug: linkedin-account-based-marketing-the-ultimate-guide-2023
 ---
 # Linkedin Account Based Marketing: The Ultimate Guide (2023)
 

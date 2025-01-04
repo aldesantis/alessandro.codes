@@ -13,6 +13,7 @@ summary: |
   None
 source: reader
 permalink: l/articles/consumer-trends-2024-mid-year
+slug: consumer-trends-2024-mid-year
 ---
 # Consumer Trends 2024 Mid-Year
 

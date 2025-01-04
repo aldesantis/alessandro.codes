@@ -13,6 +13,7 @@ summary: |
   Rather than attempting to persuade us (via our rational, analytical minds), ads prey on our emotions.
 source: reader
 permalink: l/articles/ads-don-t-work-that-way
+slug: ads-don-t-work-that-way
 ---
 # Ads Don't Work That Way
 

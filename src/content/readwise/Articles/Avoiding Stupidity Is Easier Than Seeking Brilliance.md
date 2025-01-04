@@ -13,6 +13,7 @@ summary: |
   When it comes to unlocking great outcomes, avoiding stupidity is more reliable than seeking brilliance.
 source: reader
 permalink: l/articles/avoiding-stupidity-is-easier-than-seeking-brilliance
+slug: avoiding-stupidity-is-easier-than-seeking-brilliance
 ---
 # Avoiding Stupidity Is Easier Than Seeking Brilliance
 

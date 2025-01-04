@@ -13,6 +13,7 @@ summary: |
   But before we get there, we have some big news coming at the end of this week. Our newest VISIONS event is on the horizon.
 source: reader
 permalink: l/articles/one-trillion-reasons-why
+slug: one-trillion-reasons-why
 ---
 # 👁️ “One Trillion Reasons Why”
 

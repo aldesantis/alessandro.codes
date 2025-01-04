@@ -13,6 +13,7 @@ summary: |
   The newsletter that takes the guesswork out of building and scaling a D2C brand. 
 source: reader
 permalink: l/articles/don-t-try-to-run-before-you-can-walk
+slug: don-t-try-to-run-before-you-can-walk
 ---
 # Don't Try to Run Before You Can Walk
 

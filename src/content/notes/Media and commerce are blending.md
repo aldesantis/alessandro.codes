@@ -1,6 +1,8 @@
 ---
 permalink: n/media-and-commerce-are-blending
+slug: media-and-commerce-are-blending
 status: 
+title: Media and commerce are blending
 ---
 # Media and commerce are blending
 

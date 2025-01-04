@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/e-commerce-engine-roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse
+slug: e-commerce-engine-roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse
 ---
 # eCommerce Engine - Roadmap on How to Transform Your DTC Brand Into an 8-Figure Powerhouse
 

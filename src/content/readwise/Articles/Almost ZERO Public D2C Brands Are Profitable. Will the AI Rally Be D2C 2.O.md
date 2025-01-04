@@ -13,6 +13,7 @@ summary: |
   Sometimes they go up. Sometimes they go down. But mostly they go down.
 source: reader
 permalink: l/articles/almost-zero-public-d-2-c-brands-are-profitable-will-the-ai-rally-be-d-2-c-2-o
+slug: almost-zero-public-d-2-c-brands-are-profitable-will-the-ai-rally-be-d-2-c-2-o
 ---
 # Almost ZERO Public D2C Brands Are Profitable. Will the AI Rally Be D2C 2.O?
 

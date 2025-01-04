@@ -13,6 +13,7 @@ summary: |
   Influencers and their content, not brands, drive shopping on TikTok. TikTok is a content-first shopping platform.
 source: reader
 permalink: l/articles/tik-tok-shop-is-a-content-first-shopping
+slug: tik-tok-shop-is-a-content-first-shopping
 ---
 # TikTok Shop Is a Content-First Shopping
 

@@ -13,6 +13,7 @@ summary: |
   “I think many people assume, wrongly, that a company exists simply to make money.
 source: reader
 permalink: l/articles/brain-food-letting-go
+slug: brain-food-letting-go
 ---
 # Brain Food: Letting Go
 

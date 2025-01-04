@@ -1,6 +1,8 @@
 ---
 permalink: n/reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive
+slug: reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive
 status: 
+title: Reinforcing feedback loops can be self-enhancing or self-destructive
 ---
 # Reinforcing feedback loops can be self-enhancing or self-destructive
 

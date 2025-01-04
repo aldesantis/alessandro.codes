@@ -13,6 +13,7 @@ summary: |
   Live shopping in the U.S. is growing but faces challenges, including skepticism and high costs. While some brands see success on platforms like TikTok Shop, the future of TikTok is uncertain due to potential legal issues. Brands need to commit significant resources and time to succeed in live shopping, making it a risky investment.
 source: reader
 permalink: l/articles/the-case-for-and-against-live-shopping-in-the-u-s
+slug: the-case-for-and-against-live-shopping-in-the-u-s
 ---
 # The Case for and Against Live Shopping in the U.S.
 

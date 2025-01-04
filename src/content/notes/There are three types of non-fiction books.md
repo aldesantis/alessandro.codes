@@ -1,6 +1,8 @@
 ---
 permalink: n/there-are-three-types-of-non-fiction-books
+slug: there-are-three-types-of-non-fiction-books
 status: 
+title: There are three types of non-fiction books
 ---
 # There are three types of non-fiction books
 

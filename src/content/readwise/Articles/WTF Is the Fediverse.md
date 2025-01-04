@@ -13,6 +13,7 @@ summary: |
   With an increasingly fragmented social media landscape, Twitter’s decline, data privacy concerns and a huge creator economy, the promise of cross-platform communication has sparked curiosity.
 source: reader
 permalink: l/articles/wtf-is-the-fediverse
+slug: wtf-is-the-fediverse
 ---
 # WTF Is the Fediverse?
 

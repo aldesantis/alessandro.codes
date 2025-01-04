@@ -13,6 +13,7 @@ summary: |
   Fashion creativity is evolving beyond design to encompass marketing, merchandising, and cultural influence. Successful fashion brands now focus on a collective creative stack that integrates various elements like marketing, distribution, and retail experience. Collaboration and innovation across all aspects of the fashion business are essential for success in today's industry.
 source: reader
 permalink: l/articles/the-new-fashion-creativity
+slug: the-new-fashion-creativity
 ---
 # The New Fashion Creativity
 

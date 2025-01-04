@@ -13,6 +13,7 @@ summary: |
   Many startups fail despite identifying a real problem and building a product that solves that problem. This explains why, so you can avoid their fate.
 source: reader
 permalink: l/articles/a-smart-bear-excuse-me-is-there-a-problem
+slug: a-smart-bear-excuse-me-is-there-a-problem
 ---
 # A Smart Bear » Excuse me, is there a problem?
 

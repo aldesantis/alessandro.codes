@@ -13,6 +13,7 @@ summary: |
   Uncertainty, Success, and Defensibility
 source: reader
 permalink: l/articles/when-to-dig-a-moat
+slug: when-to-dig-a-moat
 ---
 # When to Dig a Moat
 

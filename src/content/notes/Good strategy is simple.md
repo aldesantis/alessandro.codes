@@ -1,6 +1,8 @@
 ---
 permalink: n/good-strategy-is-simple
+slug: good-strategy-is-simple
 status: 
+title: Good strategy is simple
 ---
 # Good strategy is simple
 

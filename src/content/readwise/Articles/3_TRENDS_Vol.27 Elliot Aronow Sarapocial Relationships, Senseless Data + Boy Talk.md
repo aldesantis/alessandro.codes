@@ -13,6 +13,7 @@ summary: |
   Elliot Aronow discusses the shift towards more intimate, authentic relationships in the creator economy, moving away from parasocial dynamics. He challenges the reliance on data in a world that defies logic, emphasizing the importance of human intuition and critical thinking skills. Aronow also reflects on the complexities of encouraging men to open up emotionally, highlighting the need for safe spaces and alternative avenues for expression beyond just talking.
 source: reader
 permalink: l/articles/3-t-r-e-n-d-s-vol-27-elliot-aronow-sarapocial-relationships-senseless-data-boy-talk
+slug: 3-t-r-e-n-d-s-vol-27-elliot-aronow-sarapocial-relationships-senseless-data-boy-talk
 ---
 # 3_TRENDS_Vol.27: Elliot Aronow: Sarapocial Relationships, Senseless Data + Boy Talk
 

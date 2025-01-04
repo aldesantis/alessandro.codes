@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-tyranny-of-structurelessness
+slug: the-tyranny-of-structurelessness
 ---
 # The TYRANNY of STRUCTURELESSNESS
 

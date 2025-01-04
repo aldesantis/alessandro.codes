@@ -13,6 +13,7 @@ summary: |
   CMOs are taking on more responsibilities, including new tasks related to generative AI, but many feel unprepared due to limited resources and support. A McKinsey survey shows that while brand building is a priority, most marketers lack confidence in their company's ability to succeed in this area. Key challenges include internal silos, budget constraints, and a shortage of talent, which could hinder brands from seizing new opportunities.
 source: reader
 permalink: l/articles/mc-kinsey-cm-os-feel-unprepared-as-duties-pile-up
+slug: mc-kinsey-cm-os-feel-unprepared-as-duties-pile-up
 ---
 # McKinsey: CMOs Feel Unprepared as Duties Pile Up
 

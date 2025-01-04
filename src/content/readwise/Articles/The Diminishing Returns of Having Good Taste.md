@@ -13,6 +13,7 @@ summary: |
   The internet's easy access to information has made cultural arbitrage less valuable, affecting how we share and gain knowledge. As a result, fewer individuals can build identities based on exclusive information, leading to potential losses in cultural innovation and hybridization. The shift towards information equality may require new ways for tastemakers to keep culture moving forward and maintain its value.
 source: reader
 permalink: l/articles/the-diminishing-returns-of-having-good-taste
+slug: the-diminishing-returns-of-having-good-taste
 ---
 # The Diminishing Returns of Having Good Taste
 

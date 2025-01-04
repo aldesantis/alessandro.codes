@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/collective-ownership-of-code-and-text
+slug: collective-ownership-of-code-and-text
 ---
 # Collective Ownership of Code and Text
 

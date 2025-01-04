@@ -13,6 +13,7 @@ summary: |
   Founders have intuition about their company and products that are hard to describe, but extremely valuable. This post talks about how to harness that and when it ceases to become an effective tool.
 source: reader
 permalink: l/articles/founder-intuition-vs-team-expertise-vs-customer-expertise
+slug: founder-intuition-vs-team-expertise-vs-customer-expertise
 ---
 # Founder Intuition vs. Team Expertise vs. Customer Expertise
 

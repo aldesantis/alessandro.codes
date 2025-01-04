@@ -13,6 +13,7 @@ summary: |
   What is zero-party data and how can brands collect it? Marketers have been asking both questions since the iOS data privacy changes. We have the answers.
 source: reader
 permalink: l/articles/what-is-zero-party-data
+slug: what-is-zero-party-data
 ---
 # What Is Zero-Party Data?
 

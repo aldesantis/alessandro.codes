@@ -13,6 +13,7 @@ summary: |
   The Brand Universe is the inevitable next growth path for brands seeking to increase their cultural relevance and their profits.
 source: reader
 permalink: l/articles/what-even-is-a-brand-universe
+slug: what-even-is-a-brand-universe
 ---
 # What Even is a Brand Universe?
 

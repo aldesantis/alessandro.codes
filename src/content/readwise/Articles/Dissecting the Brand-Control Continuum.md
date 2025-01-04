@@ -13,6 +13,7 @@ summary: |
   Brands are increasingly involving their fans in their strategies, but how much control should they truly relinquish?
 source: reader
 permalink: l/articles/dissecting-the-brand-control-continuum
+slug: dissecting-the-brand-control-continuum
 ---
 # Dissecting the Brand-Control Continuum
 

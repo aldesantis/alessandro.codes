@@ -13,6 +13,7 @@ summary: |
   The author reflects on how the COVID-19 pandemic changed our lives and perceptions since 2019. Instead of longing for the past, he encourages embracing a new reality as we move into 2025. It's time to let go of old comparisons and create fresh ideas for the future.
 source: reader
 permalink: l/articles/hindsight-is-2020-the-future-is-2025
+slug: hindsight-is-2020-the-future-is-2025
 ---
 # Hindsight Is 2020. The Future Is 2025.
 

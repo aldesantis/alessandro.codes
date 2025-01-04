@@ -1,6 +1,8 @@
 ---
 permalink: n/define-decision-making
+slug: define-decision-making
 status: 
+title: Define decision-making
 ---
 # Define decision-making
 

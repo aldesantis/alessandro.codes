@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/rethinking-best-practices
+slug: rethinking-best-practices
 ---
 # Rethinking Best Practices
 

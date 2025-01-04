@@ -13,6 +13,7 @@ summary: |
   Solo Brands, known for Solo Stove and other outdoor brands, invested heavily in brand marketing during the fourth quarter but did not see the expected sales lift, leading to a debate about the effectiveness of their campaigns. The company's new CEO mentioned the importance of balancing brand and performance marketing, highlighting the need to convert during key sales seasons. This situation reflects a common challenge for startups in finding the right balance between brand and performance marketing to ensure long-term success and growth. The company's decision to end its marketing contract and focus on full-funnel marketing showcases the evolving landscape where brands must strategically invest in both types of marketing to thrive.
 source: reader
 permalink: l/articles/solo-stove-ignites-the-age-old-brand-versus-performance-marketing-debate
+slug: solo-stove-ignites-the-age-old-brand-versus-performance-marketing-debate
 ---
 # Solo Stove Ignites the Age-Old Brand Versus Performance Marketing Debate
 

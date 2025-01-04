@@ -13,6 +13,7 @@ summary: |
   In 2024, direct-to-consumer startups struggled to prove their value to customers amid high inflation and cautious spending. Many brands had to adapt their strategies and connect more with consumers, as buying decisions took longer than in previous years. Despite some companies seeing success, overall sales growth was flat for many startups, leading to a focus on building lasting customer relationships.
 source: reader
 permalink: l/articles/dtc-briefing-startups-were-tasked-with-proving-their-worth-to-customers-in-2024
+slug: dtc-briefing-startups-were-tasked-with-proving-their-worth-to-customers-in-2024
 ---
 # DTC Briefing: Startups Were Tasked With Proving Their Worth to Customers in 2024
 

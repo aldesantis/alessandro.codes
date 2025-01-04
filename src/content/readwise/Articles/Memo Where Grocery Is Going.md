@@ -13,6 +13,7 @@ summary: |
   The future of the grocery industry is at a crossroads. Fiscal conservatism, technological advances, labor shortages, and shifting consumer preferences will dramatically shape the grocery landscape …
 source: reader
 permalink: l/articles/memo-where-grocery-is-going
+slug: memo-where-grocery-is-going
 ---
 # Memo: Where Grocery Is Going
 

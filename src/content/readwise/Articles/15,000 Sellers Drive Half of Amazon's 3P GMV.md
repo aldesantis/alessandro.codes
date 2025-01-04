@@ -13,6 +13,7 @@ summary: |
   Fifteen thousand sellers get more than 100,000 orders a year on the Amazon.com marketplace in the U.S. Those few sellers are responsible for nearly half of the marketplace's hundreds of billions of dollars in sales.
 source: reader
 permalink: l/articles/15-000-sellers-drive-half-of-amazon-s-3-p-gmv
+slug: 15-000-sellers-drive-half-of-amazon-s-3-p-gmv
 ---
 # 15,000 Sellers Drive Half of Amazon's 3P GMV
 

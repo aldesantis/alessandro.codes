@@ -13,6 +13,7 @@ summary: |
   The Alexander Technique helps you become aware of the space between reacting to stimuli and choosing a response, allowing for conscious decision-making. By expanding your awareness, you can enhance various aspects of your life, such as movement, performance, and relationships. This technique empowers you to gain control over your awareness and improve your overall well-being.
 source: reader
 permalink: l/articles/what-is-the-alexander-technique
+slug: what-is-the-alexander-technique
 ---
 # What Is the Alexander Technique?
 

@@ -13,6 +13,7 @@ summary: |
   To earn customer loyalty, offer community, not rewards
 source: reader
 permalink: l/articles/fundamentals-of-modern-loyalty
+slug: fundamentals-of-modern-loyalty
 ---
 # Fundamentals of Modern Loyalty
 

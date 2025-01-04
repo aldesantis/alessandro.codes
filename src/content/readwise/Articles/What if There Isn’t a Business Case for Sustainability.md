@@ -13,6 +13,7 @@ summary: |
   Many brands are trying to find a business case for sustainability, but some initiatives may not be financially beneficial. Companies like Ganni and Veja have taken bold steps to prioritize the planet, even if it means sacrificing profits. To truly embed sustainability into their operations, brands need to accept that these efforts often come with costs and risks.
 source: reader
 permalink: l/articles/what-if-there-isn-t-a-business-case-for-sustainability
+slug: what-if-there-isn-t-a-business-case-for-sustainability
 ---
 # What if There Isn’t a Business Case for Sustainability?
 

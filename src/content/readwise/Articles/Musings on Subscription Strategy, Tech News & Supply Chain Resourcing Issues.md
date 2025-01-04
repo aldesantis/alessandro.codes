@@ -13,6 +13,7 @@ summary: |
   The document "Musings on subscription strategy, tech news & supply chain resourcing issues" delves into various topics. It starts with strategies for driving Average Order Value (AOV) and Lifetime Value (LTV) through bundle subscriptions, followed by updates in the tech industry from companies like BigCommerce, Centra, and Akeneo. It also discusses industry insights on supply chain shortages and how businesses can adapt, along with providing useful resources like upcoming events and recommended individuals to follow in the field. The document is packed with insights on subscription commerce, tech news, industry trends, and valuable resources for those interested in these areas.
 source: reader
 permalink: l/articles/musings-on-subscription-strategy-tech-news-supply-chain-resourcing-issues
+slug: musings-on-subscription-strategy-tech-news-supply-chain-resourcing-issues
 ---
 # Musings on Subscription Strategy, Tech News & Supply Chain Resourcing Issues
 

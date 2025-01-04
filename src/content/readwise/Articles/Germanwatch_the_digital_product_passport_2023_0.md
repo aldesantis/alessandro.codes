@@ -13,6 +13,7 @@ summary: |
   The Digital Product Passport (DPP) is a comprehensive digital index card or "digital CV" that the EU plans to introduce for a wide range of products. It can provide key information to repairers, refurbishers, and recyclers to keep products and their components in the circular economy at their highest value. The DPP can facilitate innovative circular business models, extend product lifecycles, and optimize material and energy efficiency. The main framework for the DPP will be set in the Ecodesign for Sustainable Products Regulation (ESPR), which will establish requirements and details for the DPP on a product group-specific basis. To make the DPP a game-changer for the circular economy, it must provide information for implementing the hierarchy of the 10 'Rs' of a holistic circular economy, be accessible to all actors along the value chain, and require minimal energy and resources. The ESPR should establish mandatory information requirements, ensure relevant information is accessible to all actors, and establish ...
 source: reader
 permalink: l/articles/germanwatch-the-digital-product-passport-2023-0
+slug: germanwatch-the-digital-product-passport-2023-0
 ---
 # Germanwatch_the_digital_product_passport_2023_0
 

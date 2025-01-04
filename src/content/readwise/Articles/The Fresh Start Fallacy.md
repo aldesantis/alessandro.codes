@@ -13,6 +13,7 @@ summary: |
   The author reflects on the realization that moving to a new place doesn't always solve underlying issues. Despite seeking fresh starts and making major life changes, they acknowledge that personal growth and fulfillment come from within. Ultimately, the author and their partner decide to move for more support and connection, understanding that true change starts with themselves.
 source: reader
 permalink: l/articles/the-fresh-start-fallacy
+slug: the-fresh-start-fallacy
 ---
 # The Fresh Start Fallacy
 

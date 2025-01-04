@@ -13,6 +13,7 @@ summary: |
   The text discusses the importance of maintaining a positive attitude as a consultant and focusing on identifying the strengths and systems that work within an organization. Building enduring client relationships involves understanding clients as ecosystems in balance and blurring the boundaries between professional and personal interactions. Success as a consultant comes from bringing energy and enthusiasm, solving problems, and creating routine solutions to important issues for clients.
 source: reader
 permalink: l/articles/optimism-as-an-operating-system
+slug: optimism-as-an-operating-system
 ---
 # Optimism as an Operating System
 

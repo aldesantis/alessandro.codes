@@ -13,6 +13,7 @@ summary: |
   The META Trending Trends: 2024 is a report that analyzes global forecasts to identify the most frequently reported cultural trends for the year. The report identifies 14 META Trends, including topics such as global crises, AI colonization, late-stage wellness, and environmental vaporware. The report also comments on the practice of trend forecasting and the systemic flaws that can arise, encouraging readers to approach trend reports with a critical eye and consider what is not discussed. The report concludes with an invitation to increase cultural fluency and reach out for bespoke mapping workshops or talks.
 source: reader
 permalink: l/articles/the-meta-trending-trends-2024
+slug: the-meta-trending-trends-2024
 ---
 # The META Trending Trends: 2024
 

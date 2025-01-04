@@ -13,6 +13,7 @@ summary: |
   Life balance is not about dividing your time equally among different areas of your life but integrating them effectively. Instead of choosing between priorities, successful individuals find ways to combine them, leading to a fulfilling and integrated life. Integrating different aspects like work, relationships, and health can lead to a more rewarding and balanced lifestyle.
 source: reader
 permalink: l/articles/balance
+slug: balance
 ---
 # Balance
 

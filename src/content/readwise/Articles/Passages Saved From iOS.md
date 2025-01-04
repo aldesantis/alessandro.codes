@@ -13,6 +13,7 @@ summary: |
   None
 source: mobile_share
 permalink: l/articles/passages-saved-from-i-os
+slug: passages-saved-from-i-os
 ---
 # Passages Saved From iOS
 

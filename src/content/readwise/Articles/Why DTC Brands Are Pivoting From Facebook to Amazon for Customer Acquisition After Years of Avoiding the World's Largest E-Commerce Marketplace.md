@@ -13,6 +13,7 @@ summary: |
   DTC brands are selling on Amazon as they face rising customer-acquisition costs, but launching on the platform doesn't guarantee success.
 source: reader
 permalink: l/articles/why-dtc-brands-are-pivoting-from-facebook-to-amazon-for-customer-acquisition-after-years-of-avoiding-the-world-s-largest-e-commerce-marketplace
+slug: why-dtc-brands-are-pivoting-from-facebook-to-amazon-for-customer-acquisition-after-years-of-avoiding-the-world-s-largest-e-commerce-marketplace
 ---
 # Why DTC Brands Are Pivoting From Facebook to Amazon for Customer Acquisition After Years of Avoiding the World's Largest E-Commerce Marketplace
 

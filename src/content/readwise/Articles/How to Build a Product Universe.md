@@ -13,6 +13,7 @@ summary: |
   Tactics of product-led branding
 source: reader
 permalink: l/articles/how-to-build-a-product-universe
+slug: how-to-build-a-product-universe
 ---
 # How to Build a Product Universe
 

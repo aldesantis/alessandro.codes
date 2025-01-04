@@ -1,6 +1,8 @@
 ---
 permalink: n/advertising-must-be-consistent
+slug: advertising-must-be-consistent
 status: 
+title: Advertising must be consistent
 ---
 # Advertising must be consistent
 

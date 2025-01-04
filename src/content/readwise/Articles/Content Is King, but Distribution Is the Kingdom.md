@@ -13,6 +13,7 @@ summary: |
   Brands are increasingly outsourcing content creation, which limits their ability to connect authentically with consumers. To succeed in today’s market, brands need to adopt a "publish model," acting like media companies by creating and distributing their own content. This shift will help them build direct connections with their audience and foster a unique brand identity.
 source: reader
 permalink: l/articles/content-is-king-but-distribution-is-the-kingdom
+slug: content-is-king-but-distribution-is-the-kingdom
 ---
 # Content Is King, but Distribution Is the Kingdom
 

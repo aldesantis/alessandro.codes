@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/why-it-s-so-hard-to-make-friends-as-an-adult
+slug: why-it-s-so-hard-to-make-friends-as-an-adult
 ---
 # Why It's So Hard to Make Friends as an Adult
 

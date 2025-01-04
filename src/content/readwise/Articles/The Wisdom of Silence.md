@@ -13,6 +13,7 @@ summary: |
   The Self-Awareness Paradox: Are We Too Self-Aware? – Is there such a thing as too much self-awareness?
 source: reader
 permalink: l/articles/the-wisdom-of-silence
+slug: the-wisdom-of-silence
 ---
 # The Wisdom of Silence
 

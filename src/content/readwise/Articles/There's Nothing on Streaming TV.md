@@ -13,6 +13,7 @@ summary: |
   Netflix, Max, Hulu, Prime Video, Etc. The news of the recent cancellation of HBO’s sports drama “Winning Time” was met with palpable disappointment, and rightfully so.
 source: reader
 permalink: l/articles/there-s-nothing-on-streaming-tv
+slug: there-s-nothing-on-streaming-tv
 ---
 # There's Nothing on Streaming TV
 

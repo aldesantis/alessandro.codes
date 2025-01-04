@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/unlocking-the-branding-power-of-live-events
+slug: unlocking-the-branding-power-of-live-events
 ---
 # Unlocking the Branding Power of Live Events
 

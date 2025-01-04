@@ -1,6 +1,8 @@
 ---
 permalink: n/managers-operate-on-two-horizons
+slug: managers-operate-on-two-horizons
 status: 
+title: Managers operate on two horizons
 ---
 # Managers operate on two horizons
 

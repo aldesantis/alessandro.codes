@@ -13,6 +13,7 @@ summary: |
   The text argues against morning yoga, daily routines, and endless meetings to focus on high-impact "10x work" tasks in one's career. It emphasizes the importance of identifying and prioritizing tasks with significant upside potential, breaking free from routine to embrace serendipity, and proactively positioning oneself for pivotal moments. The key takeaway is to shift focus from routine tasks to opportunities for high-impact work and strategic career moves.
 source: reader
 permalink: l/articles/the-case-against-morning-yoga-daily-routines-and-endless-meetings
+slug: the-case-against-morning-yoga-daily-routines-and-endless-meetings
 ---
 # The Case Against Morning Yoga, Daily Routines, and Endless Meetings
 

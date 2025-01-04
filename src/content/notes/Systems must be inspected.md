@@ -1,6 +1,8 @@
 ---
 permalink: n/systems-must-be-inspected
+slug: systems-must-be-inspected
 status: 
+title: Systems must be inspected
 ---
 # Systems must be inspected
 

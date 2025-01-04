@@ -13,6 +13,7 @@ summary: |
   Direct-to-consumer (DTC) brands are diversifying their advertising strategies beyond social media ads. Brands like Luca Faloni are investing in offline marketing, such as wraparound ads on trams and logos on taxis, to increase brand visibility and credibility. While the costs of advertising on social media platforms like Meta have decreased, DTC brands are not returning en masse, instead opting for a mix of offline and digital channels. They are also exploring other digital platforms like Amazon and TikTok as Google phases out cookies. Brands are focusing on multichannel campaigns and meaningful interactions with customers to drive engagement and sales.
 source: reader
 permalink: l/articles/why-dtc-brands-aren-t-swayed-by-cheaper-social-media-ads
+slug: why-dtc-brands-aren-t-swayed-by-cheaper-social-media-ads
 ---
 # Why DTC Brands Aren’t Swayed by Cheaper Social Media Ads
 

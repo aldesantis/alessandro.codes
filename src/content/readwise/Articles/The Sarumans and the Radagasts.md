@@ -13,6 +13,7 @@ summary: |
   The text discusses two archetypes of power: Sarumans and Radagasts. Sarumans are bold, self-interested individuals who believe they make the world go round, while Radagasts inspire and uplift others, creating a collective magic. Both archetypes have unique strengths and weaknesses, with Gandalf representing a balance between the two.
 source: reader
 permalink: l/articles/the-sarumans-and-the-radagasts
+slug: the-sarumans-and-the-radagasts
 ---
 # The Sarumans and the Radagasts
 

@@ -13,6 +13,7 @@ summary: |
   The advantages of being attractive are exorbitant. Beauty might be the single greatest physical advantage you can have in life. And yet…
 source: reader
 permalink: l/articles/the-greatest-privilege-we-never-talk-about-beauty
+slug: the-greatest-privilege-we-never-talk-about-beauty
 ---
 # The Greatest Privilege We Never Talk About: Beauty
 

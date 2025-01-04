@@ -13,6 +13,7 @@ summary: |
   Brands like eBay, Depop, and Vestiaire Collective are partnering to promote circular fashion through collaborations and partnerships. These online marketplaces are leading the charge in transforming the fashion industry towards sustainability. Trust, transparency, and community engagement are crucial for success in the circular fashion movement.
 source: reader
 permalink: l/articles/more-brands-are-doing-circular-collabs
+slug: more-brands-are-doing-circular-collabs
 ---
 # More Brands Are Doing Circular Collabs
 

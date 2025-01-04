@@ -13,6 +13,7 @@ summary: |
   The essay explores how digital art and NFTs challenge traditional models of creativity and compensation by emphasizing spreadability over rarity. It discusses the concept of the aspirational economy and how the project "Higher" engages different types of consumers to enhance its virality and community participation. Overall, the text suggests a shift towards defining value in contemporary art based on circulation and participation within decentralized communities in the digital age.
 source: reader
 permalink: l/articles/what-happens-when-the-creative-class-makes-their-own-currencies
+slug: what-happens-when-the-creative-class-makes-their-own-currencies
 ---
 # What Happens When the Creative Class Makes Their Own Currencies?
 

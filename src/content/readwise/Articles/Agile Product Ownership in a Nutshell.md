@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/agile-product-ownership-in-a-nutshell
+slug: agile-product-ownership-in-a-nutshell
 ---
 # Agile Product Ownership in a Nutshell
 

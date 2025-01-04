@@ -13,6 +13,7 @@ summary: |
   During my time at LuMee back in ‘15 – ‘18, we scaled DTC-first, expanded into Amazon, then Retail. eCom was our biggest channel, with ~50% of this biz on DTC + Amazon.
 source: reader
 permalink: l/articles/the-official-shopify-earnings-analysis
+slug: the-official-shopify-earnings-analysis
 ---
 # The Official Shopify Earnings Analysis
 

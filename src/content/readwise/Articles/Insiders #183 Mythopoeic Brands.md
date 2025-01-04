@@ -13,6 +13,7 @@ summary: |
   Brands can be seen as myths that explain and shape our understanding of products and services. Myth-making involves observing forms and transformations, allowing people to create their own stories and perspectives. By resurfacing existing myths and facilitating new interactions, brands can help customers connect with these narratives in meaningful ways.
 source: reader
 permalink: l/articles/insiders-183-mythopoeic-brands
+slug: insiders-183-mythopoeic-brands
 ---
 # Insiders #183: Mythopoeic Brands
 

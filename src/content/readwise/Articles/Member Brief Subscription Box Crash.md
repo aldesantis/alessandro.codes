@@ -13,6 +13,7 @@ summary: |
   Subscription boxes are essentially products built on the principles of marketing arbitrage: you set a price, you buy a customer, and you count on the lifetime value of the customer exceeding the cost of that acquisition.
 source: reader
 permalink: l/articles/member-brief-subscription-box-crash
+slug: member-brief-subscription-box-crash
 ---
 # Member Brief: Subscription Box Crash
 

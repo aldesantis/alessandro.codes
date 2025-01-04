@@ -13,6 +13,7 @@ summary: |
   The rise of the Chief Brand Officer (CBO) complements the Chief Marketing Officer (CMO) in recognizing the importance of customer engagement in brand-building. Companies are investing in unique branded experiences across customer touchpoints to differentiate themselves in a technology-driven, fragmented market. The CBO acts as a brand-driven change agent, collaborating with the CMO to enhance customer engagement and build brand loyalty in a diverse, omnichannel landscape.
 source: reader
 permalink: l/articles/the-rise-and-remit-of-the-chief-brand-officer
+slug: the-rise-and-remit-of-the-chief-brand-officer
 ---
 # The Rise and Remit of the Chief Brand Officer
 

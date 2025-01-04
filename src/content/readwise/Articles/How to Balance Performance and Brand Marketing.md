@@ -13,6 +13,7 @@ summary: |
   To balance brand marketing and performance marketing, it's essential to prioritize brand supremacy. Brand marketing focuses on perception and long-term growth, while performance marketing aims for immediate results. Successful marketing integrates both approaches, where brand creates opportunities and performance captures them.
 source: reader
 permalink: l/articles/how-to-balance-performance-and-brand-marketing
+slug: how-to-balance-performance-and-brand-marketing
 ---
 # How to Balance Performance and Brand Marketing
 

@@ -13,6 +13,7 @@ summary: |
   The author reflects on the evolving role of writing in making sense of the world and explores how different narratives shape creative projects. They discuss the excitement and challenges of living in a time where significant historical arcs are converging, with the anticipation of major technological developments. Despite writing feeling less culturally significant in 2024, the author finds value in persisting through challenging periods to capture the essence of the changing times.
 source: reader
 permalink: l/articles/many-other-shoes-are-dropping
+slug: many-other-shoes-are-dropping
 ---
 # Many Other Shoes Are Dropping
 

@@ -13,6 +13,7 @@ summary: |
   A few weeks ago, Morgan recommended a documentary titled An American Experience: New York, which is a seven-part series exploring…
 source: reader
 permalink: l/articles/the-end-of-blitzscaling
+slug: the-end-of-blitzscaling
 ---
 # The End of Blitzscaling
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/people-power-and-profits
+slug: people-power-and-profits
 ---
 # People, Power, and Profits
 

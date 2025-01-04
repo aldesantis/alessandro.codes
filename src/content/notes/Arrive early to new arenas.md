@@ -1,6 +1,8 @@
 ---
 permalink: n/arrive-early-to-new-arenas
+slug: arrive-early-to-new-arenas
 status: 
+title: Arrive early to new arenas
 ---
 # Arrive early to new arenas
 

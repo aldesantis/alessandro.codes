@@ -13,6 +13,7 @@ summary: |
   Chewy is off to a positive start in 2023 and the online pet products retailer can thank its Autoship customers for that The retailer posted a 14.7 percent year-over-ye...
 source: reader
 permalink: l/articles/the-reason-chewy-has-an-edge
+slug: the-reason-chewy-has-an-edge
 ---
 # The Reason Chewy Has an Edge
 

@@ -13,6 +13,7 @@ summary: |
   Influencer agencies are having mixed experiences with TikTok Shop, as the program continues to grow on the platform. While TikTok Shop is seen as an appealing new channel for brands to partner with creators, there are still issues with the tech infrastructure and onboarding process that are preventing some creators from joining. Despite this, TikTok Shop saw success during the holiday season, with many creators and sellers publishing shoppable videos and live streams, resulting in millions of new customers making purchases. However, marketers still find the suite of tools challenging to use, and there are concerns about counterfeit goods and pricing. Overall, TikTok Shop has the potential to be a new standard for social commerce, but improvements are needed for it to succeed.
 source: reader
 permalink: l/articles/influencer-agencies-report-mixed-experiences-with-tik-tok-shop
+slug: influencer-agencies-report-mixed-experiences-with-tik-tok-shop
 ---
 # Influencer Agencies Report Mixed Experiences With TikTok Shop
 

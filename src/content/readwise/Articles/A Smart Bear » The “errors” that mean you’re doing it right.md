@@ -13,6 +13,7 @@ summary: |
   Making mistakes and encountering errors can actually be signs of progress and good decision-making. These "errors" should be celebrated as they indicate that you are working on challenging problems and striving for growth and learning. Some of these errors include re-adding features or bugs to the backlog, pivoting a strategy just after creating it, refactoring infrastructure after experiencing significant growth, adding words to messaging that was too terse, adding back features that were previously removed, fixing lots of bugs just after a major release, waiting too long to scale support or sales, letting someone go soon after hiring, ignoring a competitor's move that turned out to be important, and rejecting lucrative, distracting deals. These errors should be embraced and seen as opportunities for improvement and progress.
 source: reader
 permalink: l/articles/a-smart-bear-the-errors-that-mean-you-re-doing-it-right
+slug: a-smart-bear-the-errors-that-mean-you-re-doing-it-right
 ---
 # A Smart Bear » The “errors” that mean you’re doing it right
 

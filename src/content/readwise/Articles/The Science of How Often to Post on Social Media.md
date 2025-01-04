@@ -13,6 +13,7 @@ summary: |
   Posting more often boosts engagement - up to a point. If you go over 45 posts per month people get tired of you.
 source: reader
 permalink: l/articles/the-science-of-how-often-to-post-on-social-media
+slug: the-science-of-how-often-to-post-on-social-media
 ---
 # The Science of How Often to Post on Social Media
 

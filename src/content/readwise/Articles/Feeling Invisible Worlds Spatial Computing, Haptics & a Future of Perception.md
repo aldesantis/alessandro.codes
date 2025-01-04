@@ -13,6 +13,7 @@ summary: |
   Spatial computing is a growing trend with vast implications, blending physical and digital environments. Haptic technology plays a crucial role in enhancing digital experiences through touch feedback. Embracing this future requires thoughtful consideration of how we interact with technology in a multi-sensory world.
 source: reader
 permalink: l/articles/feeling-invisible-worlds-spatial-computing-haptics-a-future-of-perception
+slug: feeling-invisible-worlds-spatial-computing-haptics-a-future-of-perception
 ---
 # Feeling Invisible Worlds: Spatial Computing, Haptics & a Future of Perception
 

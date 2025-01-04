@@ -13,6 +13,7 @@ summary: |
   How Bad Therapy Can Ruin a Generation (ft. Abigail Shrier) – If the story of humanity is about loss, privation, suffering, and resilience, why are kids having nervous breakdowns about bad grades?
 source: reader
 permalink: l/articles/the-harsh-truth-everyone-needs-to-hear
+slug: the-harsh-truth-everyone-needs-to-hear
 ---
 # The Harsh Truth Everyone Needs to Hear
 

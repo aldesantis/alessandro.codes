@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/what-is-ux-research-guide-to-ux-research-in-2022-maze
+slug: what-is-ux-research-guide-to-ux-research-in-2022-maze
 ---
 # What Is UX Research? | Guide to UX Research in 2022 - Maze
 

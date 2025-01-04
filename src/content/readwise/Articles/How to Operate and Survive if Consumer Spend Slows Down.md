@@ -13,6 +13,7 @@ summary: |
   Hey there. First thing is first, I am incredibly saddened by the events in Israel this weekend.
 source: reader
 permalink: l/articles/how-to-operate-and-survive-if-consumer-spend-slows-down
+slug: how-to-operate-and-survive-if-consumer-spend-slows-down
 ---
 # How to Operate and Survive if Consumer Spend Slows Down
 

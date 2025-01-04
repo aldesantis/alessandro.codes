@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-nature-and-creation-of-chaordic-organizations
+slug: the-nature-and-creation-of-chaordic-organizations
 ---
 # The Nature and Creation of Chaordic Organizations
 

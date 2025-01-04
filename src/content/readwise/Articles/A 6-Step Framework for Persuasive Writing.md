@@ -13,6 +13,7 @@ summary: |
   At some point in their journey, every creator-entrepreneur struggles to create persuasive messages that resonate with their target audience. Hell, I struggle with this myself all of the time.
 source: reader
 permalink: l/articles/a-6-step-framework-for-persuasive-writing
+slug: a-6-step-framework-for-persuasive-writing
 ---
 # A 6-Step Framework for Persuasive Writing
 

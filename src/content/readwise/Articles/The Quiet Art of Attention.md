@@ -13,6 +13,7 @@ summary: |
   To gain control over our lives, we must first master our minds through gentle attention and observation. By simplifying our thoughts and focusing on what truly matters, we can experience life more fully. This journey begins with small, deliberate actions that lead to greater clarity and peace.
 source: reader
 permalink: l/articles/the-quiet-art-of-attention
+slug: the-quiet-art-of-attention
 ---
 # The Quiet Art of Attention
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/good-strategies-are-simple
+slug: good-strategies-are-simple
 status: 
+title: Good strategies are simple
 ---
 # Good strategies are simple
 

@@ -13,6 +13,7 @@ summary: |
   How to create, distribute and capture value in digital luxury markets
 source: reader
 permalink: l/articles/3-pillars-of-digital-luxury
+slug: 3-pillars-of-digital-luxury
 ---
 # 3 Pillars of Digital Luxury
 

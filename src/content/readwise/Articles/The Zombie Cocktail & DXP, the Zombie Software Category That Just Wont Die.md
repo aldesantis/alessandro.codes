@@ -13,6 +13,7 @@ summary: |
   Put on Surfaris’ classic Wipe Out, put on your swimsuit, get in the sun (or under a sun lamp), and bear with me while we explore the cocktail that arguably launched an entire faux cuisine and milieu to the upper echelons of American culture, a whole new category of drinks.
 source: reader
 permalink: l/articles/the-zombie-cocktail-dxp-the-zombie-software-category-that-just-wont-die
+slug: the-zombie-cocktail-dxp-the-zombie-software-category-that-just-wont-die
 ---
 # The Zombie Cocktail & DXP, the Zombie Software Category That Just Wont Die
 

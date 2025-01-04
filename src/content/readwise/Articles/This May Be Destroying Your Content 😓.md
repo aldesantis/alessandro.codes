@@ -13,6 +13,7 @@ summary: |
   Negative feedback comes from disagreement. When you express a belief that is directly opposed to MY beliefs, I might have a negative emotional reaction.
 source: reader
 permalink: l/articles/this-may-be-destroying-your-content
+slug: this-may-be-destroying-your-content
 ---
 # This May Be Destroying Your Content 😓
 

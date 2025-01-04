@@ -13,6 +13,7 @@ summary: |
   The promise and pitfalls of zero-party data.
 source: reader
 permalink: l/articles/consumer-relationships-aren-t-built-on-financial-incentives
+slug: consumer-relationships-aren-t-built-on-financial-incentives
 ---
 # Consumer Relationships Aren't Built on Financial Incentives
 

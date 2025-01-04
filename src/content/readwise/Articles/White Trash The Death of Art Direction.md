@@ -13,6 +13,7 @@ summary: |
   Fashion campaigns are losing their creativity, shifting from vibrant, unique visuals to bland, minimalistic designs. This change has led to a decline in the role of art directors, who are now often sidelined in favor of profit-driven strategies. As a result, consumers are left with unremarkable content that lacks the artistry and storytelling once inherent in luxury fashion advertising.
 source: reader
 permalink: l/articles/white-trash-the-death-of-art-direction
+slug: white-trash-the-death-of-art-direction
 ---
 # White Trash: The Death of Art Direction
 

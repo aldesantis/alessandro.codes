@@ -13,6 +13,7 @@ summary: |
   The author reflects on choosing to be open or closed to life's experiences and the power of saying "welcome" and "thank you" with a smile. By embracing all of life, including pain and challenges, she aims to live fully and authentically. The message is about finding joy and connection by opening up to the world, even in the face of difficulties.
 source: reader
 permalink: l/articles/all-in
+slug: all-in
 ---
 # All In
 

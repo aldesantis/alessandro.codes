@@ -13,6 +13,7 @@ summary: |
   Some media buyers are reporting that Meta is directing more traffic to Instagram and Facebook Shop's, instead of a brand's own DTC website
 source: reader
 permalink: l/articles/dtc-briefing-startups-are-gearing-up-for-meta-to-prioritize-traffic-to-facebook-and-instagram-shops
+slug: dtc-briefing-startups-are-gearing-up-for-meta-to-prioritize-traffic-to-facebook-and-instagram-shops
 ---
 # DTC Briefing: Startups Are Gearing Up for Meta to Prioritize Traffic to Facebook and Instagram Shops
 

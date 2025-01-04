@@ -13,6 +13,7 @@ summary: |
   Luxury consumers want more information on the origins and attributes of their goods through digital product passports. Brands have an opportunity to enhance loyalty by providing features like authentication, repair information, and resale capabilities. These passports are set to become mandatory in the EU by 2030 and could revolutionize how consumers engage with luxury products.
 source: reader
 permalink: l/articles/consumers-want-more-from-digital-product-passports-new-survey-says
+slug: consumers-want-more-from-digital-product-passports-new-survey-says
 ---
 # Consumers Want More From Digital Product Passports, New Survey Says
 

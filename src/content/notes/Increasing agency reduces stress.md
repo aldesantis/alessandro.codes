@@ -1,6 +1,8 @@
 ---
 permalink: n/increasing-agency-reduces-stress
+slug: increasing-agency-reduces-stress
 status: 
+title: Increasing agency reduces stress
 ---
 # Increasing agency reduces stress
 

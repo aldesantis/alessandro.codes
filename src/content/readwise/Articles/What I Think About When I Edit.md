@@ -13,6 +13,7 @@ summary: |
   This text discusses essential editing principles for improving writing clarity, such as restating key points, simplifying language by removing excess words, and avoiding adverbs. It emphasizes the importance of clearly conveying ideas, breaking up complex sentences, and avoiding assumptions about the reader's knowledge to enhance readability. The author's editing philosophy revolves around saying exactly what you mean without unnecessary words and considering the reader's perspective for effective communication.
 source: reader
 permalink: l/articles/what-i-think-about-when-i-edit
+slug: what-i-think-about-when-i-edit
 ---
 # What I Think About When I Edit
 

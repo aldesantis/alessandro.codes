@@ -13,6 +13,7 @@ summary: |
   The Federal Trade Commission (FTC) has issued new guidelines for social media influencers to ensure proper disclosure of brand-sponsored content. The FTC recently warned a dozen influencers and two trade associations for failing to disclose their paid endorsement of aspartame or artificial sweeteners. These guidelines require influencers to disclose any relationship with a brand, including financial and personal, and to disclose endorsements in videos rather than just in the description. The stricter rules and the FTC's increased enforcement could impact the content and engagement around influencer posts, as well as the reputation of influencers among their followers.
 source: reader
 permalink: l/articles/unpacked-how-the-ftc-s-new-guidelines-could-impact-influencer-marketing
+slug: unpacked-how-the-ftc-s-new-guidelines-could-impact-influencer-marketing
 ---
 # Unpacked: How the FTC’s New Guidelines Could Impact Influencer Marketing
 

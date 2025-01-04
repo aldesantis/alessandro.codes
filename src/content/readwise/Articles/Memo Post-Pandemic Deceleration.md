@@ -13,6 +13,7 @@ summary: |
   We are choosing real world experiences over virtual and digital ones. It says less about the end of the pandemic and more about human tendency and the role that technology plays in the hierarchy of things.
 source: reader
 permalink: l/articles/memo-post-pandemic-deceleration
+slug: memo-post-pandemic-deceleration
 ---
 # Memo: Post-Pandemic Deceleration
 

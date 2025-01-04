@@ -1,6 +1,8 @@
 ---
 permalink: n/turn-your-brand-into-social-capital
+slug: turn-your-brand-into-social-capital
 status: 
+title: Turn your brand into social capital
 ---
 # Turn your brand into social capital
 

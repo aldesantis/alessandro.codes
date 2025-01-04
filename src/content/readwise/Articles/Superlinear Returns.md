@@ -13,6 +13,7 @@ summary: |
   Teachers and coaches implicitly told us the returns were linear. "You get out," I heard a thousand times, "what you put in.
 source: reader
 permalink: l/articles/superlinear-returns
+slug: superlinear-returns
 ---
 # Superlinear Returns
 

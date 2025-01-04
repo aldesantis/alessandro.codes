@@ -13,6 +13,7 @@ summary: |
   "Perhaps the most comforting thing about growing old gracefully is the increasing ability not to take things too seriously. One of the big differences between a genuine sage and a preacher is gayety.
 source: reader
 permalink: l/articles/brain-food-small-surface-area
+slug: brain-food-small-surface-area
 ---
 # Brain Food: Small Surface Area
 

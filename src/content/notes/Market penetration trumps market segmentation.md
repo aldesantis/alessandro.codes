@@ -1,6 +1,8 @@
 ---
 permalink: n/market-penetration-trumps-market-segmentation
+slug: market-penetration-trumps-market-segmentation
 status: 
+title: Market penetration trumps market segmentation
 ---
 # Market penetration trumps market segmentation
 

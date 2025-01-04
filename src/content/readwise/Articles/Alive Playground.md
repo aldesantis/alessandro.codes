@@ -13,6 +13,7 @@ summary: |
   None
 source: reader
 permalink: l/articles/alive-playground
+slug: alive-playground
 ---
 # Alive Playground
 

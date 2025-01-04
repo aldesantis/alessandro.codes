@@ -1,6 +1,8 @@
 ---
 permalink: n/improve-the-operating-cadence
+slug: improve-the-operating-cadence
 status: 
+title: Improve the operating cadence
 ---
 # Improve the operating cadence
 

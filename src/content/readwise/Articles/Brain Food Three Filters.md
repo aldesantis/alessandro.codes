@@ -13,6 +13,7 @@ summary: |
   "It's so simple: you spend less than you earn. Invest shrewdly.
 source: reader
 permalink: l/articles/brain-food-three-filters
+slug: brain-food-three-filters
 ---
 # Brain Food: Three Filters
 

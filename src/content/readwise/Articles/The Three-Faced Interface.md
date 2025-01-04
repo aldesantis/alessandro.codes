@@ -13,6 +13,7 @@ summary: |
   The text discusses how corporate personhood is evolving in the age of AI, with interfaces becoming more complex and invasive. It touches on how digital interfaces are replacing physical ones, and how AI is shaping the way we interact with corporations and their interfaces. The text also highlights the concept of "personified" corporate personhood, where corporations attempt to present a more human-like face to the public through technology.
 source: reader
 permalink: l/articles/the-three-faced-interface
+slug: the-three-faced-interface
 ---
 # The Three-Faced Interface
 

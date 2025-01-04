@@ -13,6 +13,7 @@ summary: |
   Black Rifle Coffee is falling prey to the same mistakes that every other DTC darling made. Only strong leadership (we) can fix it.
 source: reader
 permalink: l/articles/quadrupling-nra-bucks-to-6-b
+slug: quadrupling-nra-bucks-to-6-b
 ---
 # Quadrupling NRABucks to $6B
 

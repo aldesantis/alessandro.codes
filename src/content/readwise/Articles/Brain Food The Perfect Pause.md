@@ -13,6 +13,7 @@ summary: |
   You see it in boardrooms too - the executive who tilts her head thoughtfully during presentations, somehow radiating wisdom without speaking a word.
 source: reader
 permalink: l/articles/brain-food-the-perfect-pause
+slug: brain-food-the-perfect-pause
 ---
 # Brain Food: The Perfect Pause
 

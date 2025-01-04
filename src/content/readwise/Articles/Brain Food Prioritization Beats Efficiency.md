@@ -13,6 +13,7 @@ summary: |
   "Species that are more responsive to change can gain a relative advantage over the ones they compete with and increase the odds of survival.
 source: reader
 permalink: l/articles/brain-food-prioritization-beats-efficiency
+slug: brain-food-prioritization-beats-efficiency
 ---
 # Brain Food: Prioritization Beats Efficiency
 

@@ -13,6 +13,7 @@ summary: |
   But that's not the only reason so many fashion brands struggle to grow the DTC channel.
 source: reader
 permalink: l/articles/7-growth-busters-how-to-fix-them
+slug: 7-growth-busters-how-to-fix-them
 ---
 # 7 Growth Busters & How to Fix Them
 

@@ -13,6 +13,7 @@ summary: |
   The document delves into loyalty and points programs, exploring their application in both traditional and crypto spaces. Points are viewed as tools to enhance user loyalty and engagement, drawing parallels to Maslow's hierarchy of needs. The discussion covers the design considerations for points programs, such as target audience, redemption options, and reward types. Contrasts and trade-offs between points and tokens are analyzed, highlighting the advantages and drawbacks of each. Legal and regulatory challenges related to token-based incentives are discussed, with points programs seen as a potentially less risky alternative. Ultimately, the document emphasizes the importance of well-designed points programs as a strategy for user acquisition and retention in the evolving landscape of loyalty initiatives.
 source: reader
 permalink: l/articles/dissecting-the-points-meta-best-practices-for-user-loyalty
+slug: dissecting-the-points-meta-best-practices-for-user-loyalty
 ---
 # Dissecting the Points Meta: Best Practices for User Loyalty
 

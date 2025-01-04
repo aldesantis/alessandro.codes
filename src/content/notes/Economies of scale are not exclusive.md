@@ -1,6 +1,8 @@
 ---
 permalink: n/economies-of-scale-are-not-exclusive
+slug: economies-of-scale-are-not-exclusive
 status: 
+title: Economies of scale are not exclusive
 ---
 # Economies of scale are not exclusive
 

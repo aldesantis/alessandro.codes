@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/note-writing-practices-provide-weak-feedback-andy-matuschak-notes-obsidian-publish
+slug: note-writing-practices-provide-weak-feedback-andy-matuschak-notes-obsidian-publish
 ---
 # Note-Writing Practices Provide Weak Feedback - Andy Matuschak Notes - Obsidian Publish
 

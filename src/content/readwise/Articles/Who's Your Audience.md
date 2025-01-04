@@ -13,6 +13,7 @@ summary: |
   And are you taking all of them into consideration?
 source: reader
 permalink: l/articles/who-s-your-audience
+slug: who-s-your-audience
 ---
 # Who's Your Audience?
 

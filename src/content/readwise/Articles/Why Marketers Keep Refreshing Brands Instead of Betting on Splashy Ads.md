@@ -13,6 +13,7 @@ summary: |
   Marketers are focusing on rebrands and refreshes instead of splashy ads to build brand equity and adapt to changing consumer needs. Brand building activities are seen as key for long-term growth, with a shift towards holistic branding strategies across different channels. Design-driven rebrands are helping brands reach new audiences and stay relevant in a competitive market.
 source: reader
 permalink: l/articles/why-marketers-keep-refreshing-brands-instead-of-betting-on-splashy-ads
+slug: why-marketers-keep-refreshing-brands-instead-of-betting-on-splashy-ads
 ---
 # Why Marketers Keep Refreshing Brands Instead of Betting on Splashy Ads
 

@@ -13,6 +13,7 @@ summary: |
   The text discusses decision-making conflicts and suggests three approaches: making bold choices, finding balance, or synthesizing new solutions. It emphasizes that clear and firm decisions are crucial for successful strategies and cautions against using "balance" as an excuse to avoid making choices. The ultimate goal is to create unique offerings by making a series of interconnected decisions that lead to a strong and unassailable strategy.
 source: reader
 permalink: l/articles/it-s-a-balance
+slug: it-s-a-balance
 ---
 # “It’s a balance”
 

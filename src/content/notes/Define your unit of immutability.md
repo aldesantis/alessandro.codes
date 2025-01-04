@@ -1,6 +1,8 @@
 ---
 permalink: n/define-your-unit-of-immutability
+slug: define-your-unit-of-immutability
 status: 
+title: Define your unit of immutability
 ---
 # Define your unit of immutability
 

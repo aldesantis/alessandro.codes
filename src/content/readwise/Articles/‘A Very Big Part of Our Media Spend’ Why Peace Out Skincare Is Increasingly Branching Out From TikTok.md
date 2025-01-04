@@ -13,6 +13,7 @@ summary: |
   Companies like Peace Out Skincare are turning to out-of-home options like billboards and banners to diversify away from TikTok.
 source: reader
 permalink: l/articles/a-very-big-part-of-our-media-spend-why-peace-out-skincare-is-increasingly-branching-out-from-tik-tok
+slug: a-very-big-part-of-our-media-spend-why-peace-out-skincare-is-increasingly-branching-out-from-tik-tok
 ---
 # ‘A Very Big Part of Our Media Spend’: Why Peace Out Skincare Is Increasingly Branching Out From TikTok
 

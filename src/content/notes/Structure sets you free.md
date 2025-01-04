@@ -1,6 +1,8 @@
 ---
 permalink: n/structure-sets-you-free
+slug: structure-sets-you-free
 status: 
+title: Structure sets you free
 ---
 # Structure sets you free
 

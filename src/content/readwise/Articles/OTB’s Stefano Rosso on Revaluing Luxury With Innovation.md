@@ -13,6 +13,7 @@ summary: |
   Stefano Rosso, chairman of Maison Margiela and CEO of Marni, is expanding OTB into the Middle East and Asia-Pacific while focusing on innovation and value. He emphasizes the importance of supply chain transparency and has invested in technology like blockchain to improve product traceability. Rosso sees growth opportunities in China and the US, aiming to enhance OTB's market presence despite current luxury market challenges.
 source: reader
 permalink: l/articles/otb-s-stefano-rosso-on-revaluing-luxury-with-innovation
+slug: otb-s-stefano-rosso-on-revaluing-luxury-with-innovation
 ---
 # OTB’s Stefano Rosso on Revaluing Luxury With Innovation
 

@@ -1,6 +1,8 @@
 ---
 permalink: m/topics/marketing
+slug: marketing
 status: 
+title: Marketing
 ---
 # Marketing
 

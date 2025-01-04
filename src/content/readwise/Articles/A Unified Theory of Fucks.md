@@ -13,6 +13,7 @@ summary: |
   The author of the article discusses their theory of "fucks," which refers to the idea that individuals are born with a finite amount of things to care about. The author notes that it is impossible to manufacture or buy more "fucks," but one can receive them as a gift from others. They argue that giving "fucks" to living things, like people, animals, and the environment, is more meaningful than giving them to unliving institutions or systems. The author concludes that good work involves giving a "fuck" about the living and that everyone has the ability to do good work.
 source: reader
 permalink: l/articles/a-unified-theory-of-fucks
+slug: a-unified-theory-of-fucks
 ---
 # A Unified Theory of Fucks
 

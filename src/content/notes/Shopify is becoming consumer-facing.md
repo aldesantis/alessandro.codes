@@ -1,6 +1,8 @@
 ---
 permalink: n/shopify-is-becoming-consumer-facing
+slug: shopify-is-becoming-consumer-facing
 status: 
+title: Shopify is becoming consumer-facing
 ---
 # Shopify is becoming consumer-facing
 

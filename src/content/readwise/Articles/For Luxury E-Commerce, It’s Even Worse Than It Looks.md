@@ -13,6 +13,7 @@ summary: |
   US consumer spending across online luxury sellers like Farfetch, Matches and Net-a-Porter suffered sustained declines throughout 2023. The question is whether the downturn is simply temporary or the luxury e-commerce model itself is broken.
 source: reader
 permalink: l/articles/for-luxury-e-commerce-it-s-even-worse-than-it-looks
+slug: for-luxury-e-commerce-it-s-even-worse-than-it-looks
 ---
 # For Luxury E-Commerce, It’s Even Worse Than It Looks
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/communities-of-practice-exhibit-a-two-way-feedback-loop
+slug: communities-of-practice-exhibit-a-two-way-feedback-loop
 status: 
+title: Communities of practice exhibit a two-way feedback loop
 ---
 # Communities of practice exhibit a two-way feedback loop
 

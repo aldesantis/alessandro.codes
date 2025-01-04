@@ -13,6 +13,7 @@ summary: |
   We’d all like life to be simpler. But we also don’t want to sacrifice our options and capabilities. Tesler’s law of the conservation of complexity, a rule from design, explains why we can’t have both.
 source: reader
 permalink: l/articles/why-life-can-t-be-simpler
+slug: why-life-can-t-be-simpler
 ---
 # Why Life Can’t Be Simpler
 

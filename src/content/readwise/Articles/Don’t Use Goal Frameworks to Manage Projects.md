@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/don-t-use-goal-frameworks-to-manage-projects
+slug: don-t-use-goal-frameworks-to-manage-projects
 ---
 # Don’t Use Goal Frameworks to Manage Projects
 

@@ -13,6 +13,7 @@ summary: |
   Starbucks faces challenges with declining customer numbers due to issues with their mobile app and store experience. Customers are unhappy with the shift towards prioritizing speed over quality, leading to potential loss of older clientele. To address these concerns, Starbucks may need to revamp its in-store experience and focus on regaining customer loyalty.
 source: reader
 permalink: l/articles/starbucks-digital-dilemna
+slug: starbucks-digital-dilemna
 ---
 # Starbucks' Digital Dilemna
 

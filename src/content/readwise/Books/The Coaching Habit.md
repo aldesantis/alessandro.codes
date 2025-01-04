@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/the-coaching-habit
+slug: the-coaching-habit
 ---
 # The Coaching Habit
 

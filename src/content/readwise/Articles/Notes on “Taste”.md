@@ -13,6 +13,7 @@ summary: |
   Are.na is a platform for connecting ideas and building knowledge.
 source: reader
 permalink: l/articles/notes-on-taste
+slug: notes-on-taste
 ---
 # Notes on “Taste”
 

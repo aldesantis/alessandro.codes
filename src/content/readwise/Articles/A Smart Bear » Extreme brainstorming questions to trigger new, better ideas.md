@@ -13,6 +13,7 @@ summary: |
   The article discusses various thought exercises that businesses can use to come up with fresh and transformative ideas. These include considering extreme hypothetical scenarios such as increasing prices by 10x or losing all customers, finding ways to maximize fun and creativity in product development, and shaking up business models. The article also suggests thinking outside the box, even if it means considering drastic actions such as terminating a product line or pivoting the entire company.
 source: reader
 permalink: l/articles/a-smart-bear-extreme-brainstorming-questions-to-trigger-new-better-ideas
+slug: a-smart-bear-extreme-brainstorming-questions-to-trigger-new-better-ideas
 ---
 # A Smart Bear » Extreme brainstorming questions to trigger new, better ideas
 

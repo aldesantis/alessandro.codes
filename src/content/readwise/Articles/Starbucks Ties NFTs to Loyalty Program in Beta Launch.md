@@ -13,6 +13,7 @@ summary: |
   Starbucks Odyssey allows users to complete interactive challenges in exchange for NFTs and rewards points that unlock exclusive experiences.
 source: reader
 permalink: l/articles/starbucks-ties-nf-ts-to-loyalty-program-in-beta-launch
+slug: starbucks-ties-nf-ts-to-loyalty-program-in-beta-launch
 ---
 # Starbucks Ties NFTs to Loyalty Program in Beta Launch
 

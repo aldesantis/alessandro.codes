@@ -1,6 +1,8 @@
 ---
 permalink: n/brand-purpose-should-be-generative
+slug: brand-purpose-should-be-generative
 status: 
+title: Brand purpose should be generative
 ---
 # Brand purpose should be generative
 

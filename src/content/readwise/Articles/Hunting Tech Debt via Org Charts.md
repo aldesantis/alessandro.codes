@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/hunting-tech-debt-via-org-charts
+slug: hunting-tech-debt-via-org-charts
 ---
 # Hunting Tech Debt via Org Charts
 

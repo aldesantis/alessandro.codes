@@ -13,6 +13,7 @@ summary: |
   They've got some skin in the game
 source: reader
 permalink: l/articles/liquid-death-commits-mountains-of-murder-in-fortnite
+slug: liquid-death-commits-mountains-of-murder-in-fortnite
 ---
 # Liquid Death Commits Mountains of Murder in Fortnite
 

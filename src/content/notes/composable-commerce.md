@@ -1,6 +1,8 @@
 ---
 permalink: n/composable-commerce
+slug: composable-commerce
 status: 
+title: composable-commerce
 ---
 # composable-commerce
 

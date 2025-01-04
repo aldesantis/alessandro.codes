@@ -13,6 +13,7 @@ summary: |
   Many people have jobs that are not meaningful to them, jobs that are pursued simply for money. Because of the common disconnect of the…
 source: reader
 permalink: l/articles/mindful-and-mindless-work
+slug: mindful-and-mindless-work
 ---
 # Mindful and Mindless Work
 

@@ -13,6 +13,7 @@ summary: |
   A partnership dedicated to teaching best practices to product teams and product leaders
 source: reader
 permalink: l/articles/preparing-for-the-future
+slug: preparing-for-the-future
 ---
 # Preparing for the Future
 

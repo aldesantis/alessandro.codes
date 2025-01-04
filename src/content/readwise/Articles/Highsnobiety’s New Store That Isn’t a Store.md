@@ -13,6 +13,7 @@ summary: |
   Highsnobiety's innovative approach to retail was validated when Romeo Beckham's viral post about a unique sweater from their "Not in London" pop-up at Selfridges showcased the power of physical stores. Their upcoming flagship store in Berlin will feature a diverse range of brands and products, aiming to create a dynamic space for streetwear and fashion communities. Highsnobiety's success with pop-ups generating revenue and brand partnerships highlights their potential for a permanent store model, offering activations and events to engage customers both online and offline. The Berlin flagship store represents a strategic move to blend physical and digital experiences in a challenging retail landscape, with plans for potential expansion to other cities if successful.
 source: reader
 permalink: l/articles/highsnobiety-s-new-store-that-isn-t-a-store
+slug: highsnobiety-s-new-store-that-isn-t-a-store
 ---
 # Highsnobiety’s New Store That Isn’t a Store
 

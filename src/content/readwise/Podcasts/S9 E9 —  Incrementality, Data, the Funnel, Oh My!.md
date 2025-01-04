@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/s-9-e-9-incrementality-data-the-funnel-oh-my
+slug: s-9-e-9-incrementality-data-the-funnel-oh-my
 ---
 # S9 E9 —  Incrementality, Data, the Funnel, Oh My!
 

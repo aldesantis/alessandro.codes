@@ -13,6 +13,7 @@ summary: |
   Welcome everyone to another addition of Cocktails & Commerce.
 source: reader
 permalink: l/articles/death-in-the-afternoon-cocktail-how-the-mach-alliance-must-evolve
+slug: death-in-the-afternoon-cocktail-how-the-mach-alliance-must-evolve
 ---
 # Death in the Afternoon Cocktail & How the MACH Alliance Must Evolve
 

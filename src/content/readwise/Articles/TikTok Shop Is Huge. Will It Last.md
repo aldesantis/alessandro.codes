@@ -13,6 +13,7 @@ summary: |
   Finally, social commerce is working in the US. Also: What does a Shark Tank appearance do for a startup’s sales?
 source: reader
 permalink: l/articles/tik-tok-shop-is-huge-will-it-last
+slug: tik-tok-shop-is-huge-will-it-last
 ---
 # TikTok Shop Is Huge. Will It Last?
 

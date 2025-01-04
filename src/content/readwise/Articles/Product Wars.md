@@ -13,6 +13,7 @@ summary: |
   How apparel's two opposing forces - identity and functionality - are shaping its strategy
 source: reader
 permalink: l/articles/product-wars
+slug: product-wars
 ---
 # Product Wars
 

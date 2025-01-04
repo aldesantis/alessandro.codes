@@ -13,6 +13,7 @@ summary: |
   The text discusses various insights on relationships, emotions, and personal growth. It emphasizes the importance of authenticity, self-awareness, and effective communication in fostering meaningful connections. Additionally, it highlights the value of embracing vulnerability, acknowledging limitations, and seeking personal development through introspection and continuous learning.
 source: reader
 permalink: l/articles/50-things-i-know
+slug: 50-things-i-know
 ---
 # 50 Things I Know
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/eliminate-bias-systematically
+slug: eliminate-bias-systematically
 status: 
+title: Eliminate bias systematically
 ---
 # Eliminate bias systematically
 

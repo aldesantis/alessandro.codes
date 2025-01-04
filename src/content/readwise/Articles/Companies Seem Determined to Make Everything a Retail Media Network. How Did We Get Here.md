@@ -13,6 +13,7 @@ summary: |
   Businesses are turning everything into ad networks, even surfaces like YouTube and Vizio. Retail media networks are expanding rapidly, with companies like Amazon and Walmart leading the way. Advertisers are expected to spend billions on retail media this year, as more companies join the trend.
 source: reader
 permalink: l/articles/companies-seem-determined-to-make-everything-a-retail-media-network-how-did-we-get-here
+slug: companies-seem-determined-to-make-everything-a-retail-media-network-how-did-we-get-here
 ---
 # Companies Seem Determined to Make Everything a Retail Media Network. How Did We Get Here?
 

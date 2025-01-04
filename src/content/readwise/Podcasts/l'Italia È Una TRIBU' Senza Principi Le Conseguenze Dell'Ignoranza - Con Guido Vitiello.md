@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/l-italia-una-tribu-senza-principi-le-conseguenze-dell-ignoranza-con-guido-vitiello
+slug: l-italia-una-tribu-senza-principi-le-conseguenze-dell-ignoranza-con-guido-vitiello
 ---
 # l'Italia È Una TRIBU' Senza Principi: Le Conseguenze Dell'Ignoranza - Con Guido Vitiello
 

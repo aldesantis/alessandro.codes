@@ -13,6 +13,7 @@ summary: |
   Nike, once a leader in branding and innovation, is now facing significant challenges, including a 30% drop in stock due to poor strategic decisions. Critics argue that the company has shifted its focus from serving athletes to chasing broader markets, leaving it vulnerable to upstart competitors. Additionally, its emphasis on direct-to-consumer sales over brand-building has diluted its identity and effectiveness.
 source: reader
 permalink: l/articles/the-cautionary-tale-of-nike
+slug: the-cautionary-tale-of-nike
 ---
 # The Cautionary Tale of Nike
 

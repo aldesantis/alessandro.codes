@@ -13,6 +13,7 @@ summary: |
   What’s valuable—and why—in an AI-driven world
 source: reader
 permalink: l/articles/data-and-compute-are-the-ultimate-flywheel
+slug: data-and-compute-are-the-ultimate-flywheel
 ---
 # Data and Compute Are the Ultimate Flywheel
 

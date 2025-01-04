@@ -13,6 +13,7 @@ summary: |
   Acquiring customers is increasingly challenging for direct-to-consumer (DTC) startups, leading to a focus on customer retention. While many startups highlight customer retention rates as a positive indicator, there are discussions about the limitations of using churn rate as a metric for retention. Research suggests that looking at purchasing trends by customer cohort may provide a more accurate measure of customer loyalty and brand health over time. It's important for DTC brands to understand the complexities of customer behavior and acquisition strategies to effectively assess and improve retention rates.
 source: reader
 permalink: l/articles/dtc-briefing-why-churn-rate-isn-t-always-a-good-indicator-of-retention
+slug: dtc-briefing-why-churn-rate-isn-t-always-a-good-indicator-of-retention
 ---
 # DTC Briefing: Why Churn Rate Isn’t Always a Good Indicator of Retention
 

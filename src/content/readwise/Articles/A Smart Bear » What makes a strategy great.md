@@ -13,6 +13,7 @@ summary: |
   Great strategy is characterized by simplicity, decisiveness, leverage, asymmetry, and a futuristic approach. A great strategy is simple, allowing for clear communication and understanding. It is also decisive, making self-consistent decisions and accepting the consequences. Leveraging strengths and assets is key, generating a large effect from a relatively small effort. Asymmetry is important, where the upside far exceeds the cost and the portfolio of bets comes out positive. Finally, a great strategy is futuristic, solving for the long-term.
 source: reader
 permalink: l/articles/a-smart-bear-what-makes-a-strategy-great
+slug: a-smart-bear-what-makes-a-strategy-great
 ---
 # A Smart Bear » What makes a strategy great
 

@@ -13,6 +13,7 @@ summary: |
   Amazon taught shoppers to look past brand names, laying the foundation for the rapid growth of Temu. It made buying no-name products the norm, and Temu is now selling them for less.
 source: reader
 permalink: l/articles/amazon-laid-the-brandless-foundation-for-temu
+slug: amazon-laid-the-brandless-foundation-for-temu
 ---
 # Amazon Laid the Brandless Foundation for Temu
 

@@ -13,6 +13,7 @@ summary: |
   Have you ever wondered why the less 
 source: reader
 permalink: l/articles/beware-the-metagame
+slug: beware-the-metagame
 ---
 # Beware the Metagame
 

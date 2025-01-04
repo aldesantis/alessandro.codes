@@ -13,6 +13,7 @@ summary: |
   Tom Critchlow. Move. Think. Create.
 source: reader
 permalink: l/articles/rejecting-specialization
+slug: rejecting-specialization
 ---
 # Rejecting Specialization
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/renewable-resources-are-flow-limited
+slug: renewable-resources-are-flow-limited
 status: 
+title: renewable-resources-are-flow-limited
 ---
 # renewable-resources-are-flow-limited
 

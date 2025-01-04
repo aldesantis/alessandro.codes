@@ -13,6 +13,7 @@ summary: |
   Breaking complex systems into smaller, manageable parts helps us understand and solve problems more effectively. This modular approach allows for flexibility, as components can be swapped or changed without disrupting the entire system. Drawing boundaries thoughtfully is crucial, as it shapes the system's behavior and influences how it can evolve over time.
 source: reader
 permalink: l/articles/where-to-draw-the-line
+slug: where-to-draw-the-line
 ---
 # Where to Draw the Line?
 

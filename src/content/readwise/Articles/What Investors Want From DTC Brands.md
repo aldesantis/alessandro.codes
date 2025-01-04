@@ -13,6 +13,7 @@ summary: |
   Cautious investors are finding safer bets in tech-focused platforms that create products for online brands over traditional DTC start-ups.
 source: reader
 permalink: l/articles/what-investors-want-from-dtc-brands
+slug: what-investors-want-from-dtc-brands
 ---
 # What Investors Want From DTC Brands
 

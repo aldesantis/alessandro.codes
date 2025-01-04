@@ -13,6 +13,7 @@ summary: |
   The rebirth of subculture
 source: reader
 permalink: l/articles/corteiz-goods
+slug: corteiz-goods
 ---
 # Corteiz Goods
 

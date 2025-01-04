@@ -13,6 +13,7 @@ summary: |
   The article discusses the balance between product hierarchies and attributes in organizing product data. Hierarchies provide structure, while attributes offer flexibility and detail, allowing brands to adapt to changing trends. A thoughtful approach to combining these elements can lead to a more agile and efficient data model.
 source: reader
 permalink: l/articles/hierarchy-vs-attributes-debate
+slug: hierarchy-vs-attributes-debate
 ---
 # Hierarchy vs. Attributes: Debate
 

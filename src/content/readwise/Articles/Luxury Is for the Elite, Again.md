@@ -13,6 +13,7 @@ summary: |
   Luxury brands are increasingly catering to the ultra-wealthy, making it harder for aspirational shoppers to afford their products. Many top brands, like Gucci and Burberry, are seeing declining sales, while others, like Hermès, are raising prices to focus on their most loyal customers. This trend suggests that luxury is becoming more exclusive and that smaller brands may find success by offering unique identities rather than competing on price.
 source: reader
 permalink: l/articles/luxury-is-for-the-elite-again
+slug: luxury-is-for-the-elite-again
 ---
 # Luxury Is for the Elite, Again
 

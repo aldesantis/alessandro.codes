@@ -1,6 +1,8 @@
 ---
 permalink: n/in-the-future-commerce-will-be-everywhere
+slug: in-the-future-commerce-will-be-everywhere
 status: 
+title: In the future, commerce will be everywhere
 ---
 # In the future, commerce will be everywhere
 

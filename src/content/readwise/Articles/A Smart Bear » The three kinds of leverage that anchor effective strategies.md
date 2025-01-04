@@ -13,6 +13,7 @@ summary: |
   Leveraging strengths -- not "fixing weaknesses" -- is how to win. Better when differentiated. Best when durable. Here's how to create leverage.
 source: reader
 permalink: l/articles/a-smart-bear-the-three-kinds-of-leverage-that-anchor-effective-strategies
+slug: a-smart-bear-the-three-kinds-of-leverage-that-anchor-effective-strategies
 ---
 # A Smart Bear » The three kinds of leverage that anchor effective strategies
 

@@ -13,6 +13,7 @@ summary: |
   A blog post that deconstructs how to be a great spoken storyteller. How do you make an audience lean in?
 source: reader
 permalink: l/articles/telling-incredible-stories
+slug: telling-incredible-stories
 ---
 # Telling incredible stories
 

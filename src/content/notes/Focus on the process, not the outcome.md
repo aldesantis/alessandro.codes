@@ -1,6 +1,8 @@
 ---
 permalink: n/focus-on-the-process-not-the-outcome
+slug: focus-on-the-process-not-the-outcome
 status: seedling
+title: Focus on the process, not the outcome
 ---
 # Focus on the process, not the outcome
 

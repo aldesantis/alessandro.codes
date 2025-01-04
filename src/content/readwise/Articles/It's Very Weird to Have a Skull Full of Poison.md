@@ -13,6 +13,7 @@ summary: |
   A tale of ten strangenesses
 source: reader
 permalink: l/articles/it-s-very-weird-to-have-a-skull-full-of-poison
+slug: it-s-very-weird-to-have-a-skull-full-of-poison
 ---
 # It's Very Weird to Have a Skull Full of Poison
 

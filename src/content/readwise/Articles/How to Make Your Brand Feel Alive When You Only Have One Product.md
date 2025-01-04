@@ -13,6 +13,7 @@ summary: |
   Lessons in world-building from the founders of Vintner’s Daughter and Athletic Greens. 
 source: reader
 permalink: l/articles/how-to-make-your-brand-feel-alive-when-you-only-have-one-product
+slug: how-to-make-your-brand-feel-alive-when-you-only-have-one-product
 ---
 # How to Make Your Brand Feel Alive When You Only Have One Product
 

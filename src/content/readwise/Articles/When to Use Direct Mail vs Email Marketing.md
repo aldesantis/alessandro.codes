@@ -13,6 +13,7 @@ summary: |
   Direct mail and email marketing should be used strategically in a marketing strategy. Direct mail is effective for acquiring new customers or reconnecting with inactive buyers, as it captures attention and creates a memorable experience. On the other hand, email marketing is more effective for retaining existing active customers, reminding them to buy and providing updates. Research has shown that direct mail works best for prospects and driving customers to physical stores, while email marketing resonates with medium-high value existing customers and drives online purchases. It is important to segment customers and tailor the marketing approach accordingly.
 source: reader
 permalink: l/articles/when-to-use-direct-mail-vs-email-marketing
+slug: when-to-use-direct-mail-vs-email-marketing
 ---
 # When to Use Direct Mail vs Email Marketing
 

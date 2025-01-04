@@ -13,6 +13,7 @@ summary: |
   Luxury fashion brands like Bottega Veneta and ZEGNA are creating immersive clubhouses to engage loyal customers and expand brand experiences beyond traditional stores. These clubhouses aim to foster connections, showcase brand culture, and prioritize loyalty over immediate sales. The fashion industry is exploring new strategies like Web3 loyalty programs and rethinking luxury e-commerce to adapt to changing consumer demands.
 source: reader
 permalink: l/articles/are-clubhouses-fashion-s-latest-obsession
+slug: are-clubhouses-fashion-s-latest-obsession
 ---
 # Are Clubhouses Fashion's Latest Obsession?
 

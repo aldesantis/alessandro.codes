@@ -13,6 +13,7 @@ summary: |
   In the last edition of this letter, I introduced the concept of Connected fashion — explaining what it is, exploring potential use cases, and envisioning what a Connected future could look like.
 source: reader
 permalink: l/articles/the-key-trends-driving-the-fashion-industry-to-get-connected
+slug: the-key-trends-driving-the-fashion-industry-to-get-connected
 ---
 # The Key Trends Driving the Fashion Industry to Get *Connected*
 

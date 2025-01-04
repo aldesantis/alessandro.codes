@@ -13,6 +13,7 @@ summary: |
   My hope is that this helps everyone who is new here (10K of you! ) catch up on anything you missed, and also give new insight to everyone who has been here from the beginning.
 source: reader
 permalink: l/articles/how-to-master-the-art-of-interviews
+slug: how-to-master-the-art-of-interviews
 ---
 # ✍️ How to Master the Art of Interviews
 

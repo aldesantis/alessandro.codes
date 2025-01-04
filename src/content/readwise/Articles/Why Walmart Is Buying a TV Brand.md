@@ -13,6 +13,7 @@ summary: |
   Walmart's strategic move to acquire Vizio, a smart TV brand, for $2.3 billion is primarily focused on bolstering its advertising business. With the acquisition, Walmart gains access to valuable digital real estate in millions of American households through Vizio's home screens, providing control over ad inventory supporting over a billion hours of free streaming video monthly. The deal, if approved, allows Walmart to integrate Vizio into its expanding digital advertising business, which saw a 28% growth last year to $3.4 billion, aligning with the trend of retail media networks becoming increasingly lucrative in the past decade.
 source: reader
 permalink: l/articles/why-walmart-is-buying-a-tv-brand
+slug: why-walmart-is-buying-a-tv-brand
 ---
 # Why Walmart Is Buying a TV Brand
 

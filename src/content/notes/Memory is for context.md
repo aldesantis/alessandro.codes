@@ -1,6 +1,8 @@
 ---
 permalink: n/memory-is-for-context
+slug: memory-is-for-context
 status: 
+title: Memory is for context
 ---
 # Memory is for context
 

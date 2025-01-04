@@ -12,6 +12,7 @@ published_date: 2020-10-07
 summary: ""
 source: reader
 permalink: l/articles/zero-1-st-2-nd-3-rd-part-data-exponea
+slug: zero-1-st-2-nd-3-rd-part-data-exponea
 ---
 # Zero-1st-2nd-3rd-Part-Data-Exponea
 

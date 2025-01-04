@@ -13,6 +13,7 @@ summary: |
   The text discusses how organizations often engage in self-sabotaging behaviors that hinder innovation. It highlights cognitive biases and a culture focused on metrics, leading to a lack of meaningful progress. To truly innovate, companies must embrace simplicity, encourage dissent, and prioritize genuine value over busywork.
 source: reader
 permalink: l/articles/self-sabotaging-innovation-the-art-of-doing-dumb-shit
+slug: self-sabotaging-innovation-the-art-of-doing-dumb-shit
 ---
 # Self-Sabotaging Innovation: The Art of Doing Dumb Shit
 

@@ -13,6 +13,7 @@ summary: |
   The internet was supposed to kill in-person shopping. But have you been to a Bass Pro?
 source: reader
 permalink: l/articles/what-bass-pro-shops-can-teach-american-retailers
+slug: what-bass-pro-shops-can-teach-american-retailers
 ---
 # What Bass Pro Shops Can Teach American Retailers
 

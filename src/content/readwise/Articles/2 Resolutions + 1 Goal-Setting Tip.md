@@ -13,6 +13,7 @@ summary: |
   Well, you'll find out that as your public profile grows, the number of inbound emails (texts, calls, DMs) increases dramatically.
 source: reader
 permalink: l/articles/2-resolutions-1-goal-setting-tip
+slug: 2-resolutions-1-goal-setting-tip
 ---
 # 2 Resolutions + 1 Goal-Setting Tip
 

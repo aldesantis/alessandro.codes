@@ -13,6 +13,7 @@ summary: |
   How media creates power
 source: reader
 permalink: l/articles/why-content-is-king
+slug: why-content-is-king
 ---
 # Why Content Is King
 

@@ -13,6 +13,7 @@ summary: |
   “Some decisions are consequential and irreversible or nearly irreversible – one-way doors – and these decisions must be made methodically, carefully, slowly, with great deliberation and consultation.
 source: reader
 permalink: l/articles/brain-food-unconventional-and-determined
+slug: brain-food-unconventional-and-determined
 ---
 # Brain Food: Unconventional and Determined
 

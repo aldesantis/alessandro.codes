@@ -1,6 +1,8 @@
 ---
 permalink: n/split-teams-after-the-seams-emerge
+slug: split-teams-after-the-seams-emerge
 status: 
+title: Split teams after the seams emerge
 ---
 # Split teams after the seams emerge
 

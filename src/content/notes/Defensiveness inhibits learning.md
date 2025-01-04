@@ -1,6 +1,8 @@
 ---
 permalink: n/defensiveness-inhibits-learning
+slug: defensiveness-inhibits-learning
 status: 
+title: Defensiveness inhibits learning
 ---
 # Defensiveness inhibits learning
 

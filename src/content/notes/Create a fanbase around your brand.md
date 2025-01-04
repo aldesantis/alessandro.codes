@@ -1,6 +1,8 @@
 ---
 permalink: n/create-a-fanbase-around-your-brand
+slug: create-a-fanbase-around-your-brand
 status: 
+title: Create a fanbase around your brand
 ---
 # Create a fanbase around your brand
 

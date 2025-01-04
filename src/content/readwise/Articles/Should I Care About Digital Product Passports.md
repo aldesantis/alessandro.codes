@@ -13,6 +13,7 @@ summary: |
   Digital Product Passports (DPP) are gaining attention in the fashion industry, promoting transparency and sustainability. While larger brands may need to prioritize compliance with upcoming EU legislation, smaller companies might not face immediate enforcement. Brands that invest in transparency now could gain a competitive edge in an increasingly informed market.
 source: reader
 permalink: l/articles/should-i-care-about-digital-product-passports
+slug: should-i-care-about-digital-product-passports
 ---
 # Should I Care About Digital Product Passports?
 

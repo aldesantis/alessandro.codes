@@ -11,10 +11,15 @@
             "id": "d40959d64539268f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/turn-transient-notes-into-evergreen-notes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "turn-transient-notes-into-evergreen-notes"
             }
           }
         ]
@@ -146,8 +151,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -155,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5,
-    "collapsed": true
+    "width": 471.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,8 +177,16 @@
   },
   "active": "d40959d64539268f",
   "lastOpenFiles": [
-    "notes/Brand purpose should be generative.md",
+    "system/templater/set-evergreen-note-permalinks.md.md",
+    "system/templater/generate-mocs.md.md",
+    "about.md",
+    "readwise/Books/eCommerce Engine - Roadmap on How to Transform Your DTC Brand Into an 8-Figure Powerhouse.md",
+    "readwise/Books/Crucial Conversations Tools for Talking When Stakes Are High.md",
+    "readwise/Books/$100M Leads.md",
     "broken links output.md",
+    "notes/Advertising may work by cultural imprinting.md",
+    "notes/assets/Toothpaste-Chart.png",
+    "notes/Brand purpose should be generative.md",
     "readwise/Articles/How Do You Know When to Stop, Versus When to Push Through You Don’t, Not Even in Hindsight. But.md",
     "readwise/Articles/‘Our Darwinian Moment’ The CPG Industry Was Plagued With Shutdowns in 2024 Amid a Tough Operating.md",
     "readwise/Articles/‘Drops Help You Find Your Crazy Fans’ Limited Editions Paid Off for Brands Like Brunt Workwear.md",
@@ -192,19 +204,11 @@
     "readwise/Articles/What the Scaffa Just the Paperwork Cocktail & What Longer Replacement Cycles for Commerce.md",
     "readwise/Articles/‘It Just Didn’t Make Sense for Us to Work So Hard to Get So Little’ Confessions of a Founder Who.md",
     "readwise/Articles/A perfect storm created a renaissance in chess COVID driving people to occupy their minds in.md",
-    "readwise/Books/$100M Leads.md",
-    "readwise/Articles/Why DTC Brands Are Pivoting From Facebook to Amazon for Customer Acquisition After Years of.md",
-    "mocs/Recently updated.md",
-    "mocs/Most backlinked.md",
-    "mocs/Book library.md",
-    "notes/Advertising must be consistent.md",
-    "readwise/Tweets/Harry Dry Is the Best Copywriter I Know.md",
     "readwise/Tweets",
     "readwise/Podcasts",
     "readwise/Books",
     "readwise/Articles",
     "readwise",
-    "notes/assets/Toothpaste-Chart.png",
     "notes/assets",
     "notes",
     "mocs/Topics",

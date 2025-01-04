@@ -13,6 +13,7 @@ summary: |
   5 principles for sharing on the Internet
 source: reader
 permalink: l/articles/principles-for-sharing-on-the-internet
+slug: principles-for-sharing-on-the-internet
 ---
 # Principles for Sharing on the Internet
 

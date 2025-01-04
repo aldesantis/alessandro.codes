@@ -1,6 +1,8 @@
 ---
 permalink: n/marketing-must-build-availability
+slug: marketing-must-build-availability
 status: evergreen
+title: Marketing must build availability
 ---
 # Marketing must build availability
 

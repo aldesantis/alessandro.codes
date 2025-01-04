@@ -13,6 +13,7 @@ summary: |
   We stand at a transformative juncture in web3.
 source: reader
 permalink: l/articles/decentralization-desire
+slug: decentralization-desire
 ---
 # Decentralization & Desire
 

@@ -13,6 +13,7 @@ summary: |
   Why I will almost always recommend retail newbies start with an inventoryless store
 source: reader
 permalink: l/articles/the-hidden-value-of-a-showroom-model
+slug: the-hidden-value-of-a-showroom-model
 ---
 # The Hidden Value of a Showroom Model
 

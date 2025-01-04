@@ -13,6 +13,7 @@ summary: |
   Analyzing returns data is crucial for fashion brands to understand and improve their returns rates. By merging returns insights with sales data, brands can identify issues with specific products and optimize their inventory management. Implementing a paid returns policy can help offset costs, but it's essential to balance it with customer experience to maintain sales.
 source: reader
 permalink: l/articles/using-analytics-and-insights-on-returns-data
+slug: using-analytics-and-insights-on-returns-data
 ---
 # Using Analytics and Insights on Returns Data
 

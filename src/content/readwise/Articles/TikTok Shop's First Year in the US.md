@@ -13,6 +13,7 @@ summary: |
   TikTok Shop launched in the U.S. a year ago and has sold billions, but most top sellers are lesser-known brands using unique strategies or going viral. Goli Nutrition is currently the leading brand, with sales exceeding $7 million through aggressive affiliate campaigns, including unusual rewards like cars for top affiliates. While TikTok has made strides in social commerce, it still faces challenges in attracting a wider range of brands and products.
 source: reader
 permalink: l/articles/tik-tok-shop-s-first-year-in-the-us
+slug: tik-tok-shop-s-first-year-in-the-us
 ---
 # TikTok Shop's First Year in the US
 

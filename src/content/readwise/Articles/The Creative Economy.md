@@ -13,6 +13,7 @@ summary: |
   Welcome to the Sociology of Business. In my last analysis, How to sell to the Creative Class, I detailed implementation of audience-driven growth through the four Creative Class segments.
 source: reader
 permalink: l/articles/the-creative-economy
+slug: the-creative-economy
 ---
 # The Creative Economy
 

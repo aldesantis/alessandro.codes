@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/the-media-buyer-25
+slug: the-media-buyer-25
 ---
 # The Media Buyer #25
 

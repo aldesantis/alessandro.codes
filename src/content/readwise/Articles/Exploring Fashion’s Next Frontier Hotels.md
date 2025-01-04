@@ -13,6 +13,7 @@ summary: |
   Fashion retailers are adapting to post-pandemic changes by turning to hotels as a new way to connect with consumers. McKinsey predicts that domestic travel will significantly impact the fashion industry, with travelers showing interest in hotel-branded clothing as mementos and style statements. Collaborations between hotels and fashion brands are on the rise, offering unique collections that blend luxury and comfort, inspired by the hotels’ identities and locations. From fashion-inspired food to designer suites, the relationship between fashion and hotels promises innovative experiences for travelers and shoppers.
 source: reader
 permalink: l/articles/exploring-fashion-s-next-frontier-hotels
+slug: exploring-fashion-s-next-frontier-hotels
 ---
 # Exploring Fashion’s Next Frontier: Hotels
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/what-is-underneath-productivity
+slug: what-is-underneath-productivity
 ---
 # What Is Underneath Productivity?
 

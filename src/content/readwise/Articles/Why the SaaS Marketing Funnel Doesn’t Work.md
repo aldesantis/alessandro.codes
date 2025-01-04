@@ -13,6 +13,7 @@ summary: |
   The traditional SaaS 'marketing funnel' is no longer reflective of the way buyers behave. Instead, we need to encourage declared intent inbound requests.
 source: reader
 permalink: l/articles/why-the-saa-s-marketing-funnel-doesn-t-work
+slug: why-the-saa-s-marketing-funnel-doesn-t-work
 ---
 # Why the SaaS Marketing Funnel Doesn’t Work
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/going-full-time-as-an-independent-cultural-strategist-jenny-chang-constellation-theory
+slug: going-full-time-as-an-independent-cultural-strategist-jenny-chang-constellation-theory
 ---
 # Going Full-Time as an Independent Cultural Strategist - Jenny Chang, Constellation Theory
 

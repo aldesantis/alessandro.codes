@@ -1,6 +1,8 @@
 ---
 permalink: n/attribution-is-not-incrementality
+slug: attribution-is-not-incrementality
 status: 
+title: Attribution is not incrementality
 ---
 # Attribution is not incrementality
 

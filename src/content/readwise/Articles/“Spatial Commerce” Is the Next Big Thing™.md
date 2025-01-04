@@ -13,6 +13,7 @@ summary: |
   PLUS: Your car knows you’re having sex | The Senses by Future Commerce
 source: reader
 permalink: l/articles/spatial-commerce-is-the-next-big-thing
+slug: spatial-commerce-is-the-next-big-thing
 ---
 # “Spatial Commerce” Is the Next Big Thing™
 

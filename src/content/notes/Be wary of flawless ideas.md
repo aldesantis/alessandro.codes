@@ -1,6 +1,8 @@
 ---
 permalink: n/be-wary-of-flawless-ideas
+slug: be-wary-of-flawless-ideas
 status: 
+title: Be wary of flawless ideas
 ---
 # Be wary of flawless ideas
 

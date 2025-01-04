@@ -13,6 +13,7 @@ summary: |
   How can you be more patient, empathetic, and graceful with someone close to you who maybe rubs you the wrong way? What would it look like if your relationship with someone close to you had no drama?
 source: reader
 permalink: l/articles/the-paradox-of-family
+slug: the-paradox-of-family
 ---
 # The Paradox of Family
 

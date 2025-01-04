@@ -1,6 +1,8 @@
 ---
 permalink: n/curation-creates-brand-depth
+slug: curation-creates-brand-depth
 status: 
+title: Curation creates brand depth
 ---
 # Curation creates brand depth
 

@@ -13,6 +13,7 @@ summary: |
   This is the first installment of “It Started @ FEST”, a series showcasing the projects and initiatives that include FWB FEST as part of their lore.
 source: reader
 permalink: l/articles/oasis-onchain-started-fest-nft-nyc-dim-sum
+slug: oasis-onchain-started-fest-nft-nyc-dim-sum
 ---
 # Oasis Onchain Started @ FEST + NFT NYC Dim Sum
 

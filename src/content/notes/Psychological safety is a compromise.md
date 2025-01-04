@@ -1,6 +1,8 @@
 ---
 permalink: n/psychological-safety-is-a-compromise
+slug: psychological-safety-is-a-compromise
 status: 
+title: Psychological safety is a compromise
 ---
 # Psychological safety is a compromise
 

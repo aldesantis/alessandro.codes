@@ -13,6 +13,7 @@ summary: |
   This holiday season, Prime member benefits include 24/7 customer service through a live chat feature, easier returns, and order tracking in one place when they shop using Buy with Prime.
 source: reader
 permalink: l/articles/3-new-shopping-benefits-prime-members-get-when-using-amazon-s-buy-with-prime
+slug: 3-new-shopping-benefits-prime-members-get-when-using-amazon-s-buy-with-prime
 ---
 # 3 New Shopping Benefits Prime Members Get When Using Amazon’s Buy With Prime
 

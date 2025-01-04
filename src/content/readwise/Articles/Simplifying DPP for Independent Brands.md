@@ -13,6 +13,7 @@ summary: |
   The article discusses how independent brands can simplify their approach to transparency under DPP regulations. It emphasizes the importance of focusing on product, material, and asset data before tackling the more complex event data tracking. By doing so, brands can enhance consumer engagement and leverage transparency as a competitive advantage.
 source: reader
 permalink: l/articles/simplifying-dpp-for-independent-brands
+slug: simplifying-dpp-for-independent-brands
 ---
 # Simplifying DPP for Independent Brands
 

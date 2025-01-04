@@ -13,6 +13,7 @@ summary: |
   Amazon vendors are extending to rival marketplaces to diversify and make sure they are present across different channels.
 source: reader
 permalink: l/articles/why-more-amazon-sellers-are-looking-to-bring-their-products-to-rival-marketplaces-in-2023
+slug: why-more-amazon-sellers-are-looking-to-bring-their-products-to-rival-marketplaces-in-2023
 ---
 # Why More Amazon Sellers Are Looking to Bring Their Products to Rival Marketplaces in 2023
 

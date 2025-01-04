@@ -1,6 +1,8 @@
 ---
 permalink: n/we-get-what-we-reward-for
+slug: we-get-what-we-reward-for
 status: 
+title: We get what we reward for
 ---
 # We get what we reward for
 

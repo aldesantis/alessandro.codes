@@ -13,6 +13,7 @@ summary: |
   There’s a better way to spread the fruits of innovation.
 source: reader
 permalink: l/articles/it-s-time-for-a-national-success-fund
+slug: it-s-time-for-a-national-success-fund
 ---
 # It’s Time for a National Success Fund
 

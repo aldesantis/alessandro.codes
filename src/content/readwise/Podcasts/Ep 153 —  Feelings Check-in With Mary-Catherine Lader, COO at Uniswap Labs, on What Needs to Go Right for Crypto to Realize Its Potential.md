@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/ep-153-feelings-check-in-with-mary-catherine-lader-coo-at-uniswap-labs-on-what-needs-to-go-right-for-crypto-to-realize-its-potential
+slug: ep-153-feelings-check-in-with-mary-catherine-lader-coo-at-uniswap-labs-on-what-needs-to-go-right-for-crypto-to-realize-its-potential
 ---
 # Ep 153 —  Feelings Check-in With Mary-Catherine Lader, COO at Uniswap Labs, on What Needs to Go Right for Crypto to Realize Its Potential
 

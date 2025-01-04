@@ -1,6 +1,8 @@
 ---
 permalink: n/cross-functionality-creates-silos
+slug: cross-functionality-creates-silos
 status: 
+title: Cross-functionality creates silos
 ---
 # Cross-functionality creates silos
 

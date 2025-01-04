@@ -13,6 +13,7 @@ summary: |
   Founders worried about the strings that come attached with outside investors are taking out loans instead, even at higher interest rates.
 source: reader
 permalink: l/articles/why-some-dtc-brands-are-raising-debt-not-venture-capital
+slug: why-some-dtc-brands-are-raising-debt-not-venture-capital
 ---
 # Why Some DTC Brands Are Raising Debt, Not Venture Capital
 

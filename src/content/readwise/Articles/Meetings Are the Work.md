@@ -13,6 +13,7 @@ summary: |
   Wherein I take aim at the common tech trope that people need to limit meetings to get work done.
 source: reader
 permalink: l/articles/meetings-are-the-work
+slug: meetings-are-the-work
 ---
 # Meetings *Are* the Work
 

@@ -13,6 +13,7 @@ summary: |
   Shein and Temu are rapidly growing e-commerce marketplaces in the U.S., but they have no U.S. sellers. Shein's marketplace was intended to attract U.S. sellers and localize the business, but almost all of the sellers are based in China. Temu, on the other hand, initially planned to add U.S. sellers but has not found enough local sellers that meet their requirements. Both marketplaces operate at a large scale and have significant marketing budgets, but their lack of U.S. sellers may limit their potential for growth in the long term.
 source: reader
 permalink: l/articles/shein-temu-marketplaces-with-no-us-sellers
+slug: shein-temu-marketplaces-with-no-us-sellers
 ---
 # Shein, Temu Marketplaces With No US Sellers
 

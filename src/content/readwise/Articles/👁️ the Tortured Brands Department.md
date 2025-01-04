@@ -13,6 +13,7 @@ summary: |
   P. S.
 source: reader
 permalink: l/articles/the-tortured-brands-department
+slug: the-tortured-brands-department
 ---
 # 👁️ the Tortured *Brands* Department
 

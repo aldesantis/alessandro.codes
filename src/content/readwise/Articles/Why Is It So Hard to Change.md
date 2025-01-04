@@ -13,6 +13,7 @@ summary: |
   A detailed primer on investigating and resolving resistance
 source: reader
 permalink: l/articles/why-is-it-so-hard-to-change
+slug: why-is-it-so-hard-to-change
 ---
 # Why Is It So Hard to Change?
 

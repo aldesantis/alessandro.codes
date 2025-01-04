@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/e-068-taylor-holiday-part-2
+slug: e-068-taylor-holiday-part-2
 ---
 # E068 —  Taylor Holiday - Part 2
 

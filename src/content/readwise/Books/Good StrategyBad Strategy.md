@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/good-strategy-bad-strategy
+slug: good-strategy-bad-strategy
 ---
 # Good Strategy/Bad Strategy
 

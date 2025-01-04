@@ -13,6 +13,7 @@ summary: |
   The article discusses the implications of longer replacement cycles for commerce platforms on the commerce tech market. Previously, the average replacement cycle for an enterprise commerce platform was four to five years, but now it has doubled to every eight to twelve years. This is due to factors such as the larger size and higher risk associated with e-commerce businesses, intangible business benefits of replatforming, high switching costs of customized legacy platforms, resistance to change in business processes, and conservative tech investment plans. As a result, the commerce tech market has shifted towards specialist point-solutions that complement and coexist with commerce platforms. The long-term trend is expected to favor platforms and point-solutions that offer composability and API-first capabilities to support digital commerce and marketing evolution.
 source: reader
 permalink: l/articles/what-the-scaffa-just-the-paperwork-cocktail-what-longer-replacement-cycles-for-commerce-platforms-means-for-the-commerce-tech-market
+slug: what-the-scaffa-just-the-paperwork-cocktail-what-longer-replacement-cycles-for-commerce-platforms-means-for-the-commerce-tech-market
 ---
 # What the Scaffa? Just the Paperwork Cocktail & What Longer Replacement Cycles for Commerce Platforms Means for the Commerce Tech Market
 

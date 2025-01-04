@@ -13,6 +13,7 @@ summary: |
   Amid all of this change, I took a leap forward to project which initiatives will influence Shopify’s storylines one year from now, in June 2024. There are themes that we  will see executed up…
 source: reader
 permalink: l/articles/members-only-where-shopify-will-be-in-one-year
+slug: members-only-where-shopify-will-be-in-one-year
 ---
 # Members Only: Where Shopify Will Be in One Year
 

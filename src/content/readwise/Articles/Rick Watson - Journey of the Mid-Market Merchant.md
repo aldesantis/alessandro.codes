@@ -13,6 +13,7 @@ summary: |
   None
 source: reader
 permalink: l/articles/rick-watson-journey-of-the-mid-market-merchant
+slug: rick-watson-journey-of-the-mid-market-merchant
 ---
 # Rick Watson - Journey of the Mid-Market Merchant
 

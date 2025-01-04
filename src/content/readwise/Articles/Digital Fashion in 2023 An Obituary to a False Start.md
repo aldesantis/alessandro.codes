@@ -13,6 +13,7 @@ summary: |
   In 2023, digital fashion lost its momentum and went out of style. The hype around Web3 fashion waned due to a decline in crypto prices and a decrease in metaverse adoption. Many CEOs who had previously touted Web3 as the future of luxury innovation quickly retreated and removed mentions of the metaverse from their roadmaps. The shift away from digital fashion has been disheartening for those committed to its development. The decline can be attributed to the motivations of those who entered the digital asset market between 2021 and 2023, which were primarily financialization and a fear of missing out. These motivations led to a misunderstanding of NFTs, a lack of genuine interest in the culture, and a focus on complex mechanics rather than simplicity and value exchange.
 source: reader
 permalink: l/articles/digital-fashion-in-2023-an-obituary-to-a-false-start
+slug: digital-fashion-in-2023-an-obituary-to-a-false-start
 ---
 # Digital Fashion in 2023: An Obituary to a False Start
 

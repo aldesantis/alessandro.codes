@@ -13,6 +13,7 @@ summary: |
   A lot of digital marketing “best practices” around measurement muddy the waters of incrementality.
 source: reader
 permalink: l/articles/stop-getting-scammed-incrementality-101
+slug: stop-getting-scammed-incrementality-101
 ---
 # Stop Getting Scammed! Incrementality 101
 

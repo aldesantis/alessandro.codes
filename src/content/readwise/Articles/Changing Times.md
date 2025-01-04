@@ -13,6 +13,7 @@ summary: |
   Changing economic markets suggests a shift in how some companies should operate, as well as what risks to assume for 2023
 source: reader
 permalink: l/articles/changing-times
+slug: changing-times
 ---
 # Changing Times
 

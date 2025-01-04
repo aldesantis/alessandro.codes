@@ -13,6 +13,7 @@ summary: |
   Today, we’ll cover an easy trick for how to edit your own writing and make sure your tone is coming across as you intended.
 source: reader
 permalink: l/articles/read-your-writing-in-a-robot-voice
+slug: read-your-writing-in-a-robot-voice
 ---
 # Read Your Writing in a Robot Voice
 

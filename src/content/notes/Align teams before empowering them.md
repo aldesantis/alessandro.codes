@@ -1,6 +1,8 @@
 ---
 permalink: n/align-teams-before-empowering-them
+slug: align-teams-before-empowering-them
 status: 
+title: Align teams before empowering them
 ---
 # Align teams before empowering them
 

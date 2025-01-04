@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-supermarket-of-software
+slug: the-supermarket-of-software
 ---
 # The Supermarket of Software
 

@@ -13,6 +13,7 @@ summary: |
   Luxury e-commerce faces challenges, with some players like Mytheresa thriving by focusing on top clients and exclusive products. Survivors like Ssense and Moda Operandi prioritize customer curation and service over discounts, aiming to engage with specific audiences. To succeed in a changing market, e-tailers must articulate their value proposition and adapt to the next generation of shoppers.
 source: reader
 permalink: l/articles/luxury-e-commerce-who-s-surviving-and-why
+slug: luxury-e-commerce-who-s-surviving-and-why
 ---
 # Luxury E-Commerce: Who’s Surviving and Why
 

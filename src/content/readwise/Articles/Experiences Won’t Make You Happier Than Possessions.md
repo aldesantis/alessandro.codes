@@ -13,6 +13,7 @@ summary: |
   Be skeptical of pop psychology studies
 source: reader
 permalink: l/articles/experiences-won-t-make-you-happier-than-possessions
+slug: experiences-won-t-make-you-happier-than-possessions
 ---
 # Experiences Won’t Make You Happier Than Possessions
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/emotions-aren-t-always-correct
+slug: emotions-aren-t-always-correct
 status: 
+title: Emotions aren’t always correct
 ---
 # Emotions aren’t always correct
 

@@ -13,6 +13,7 @@ summary: |
   Some brands are being cautious about expanding into wholesale due to the high costs and uncertainties involved. Founders of smaller businesses are prioritizing more familiar and controllable channels like Amazon and direct-to-consumer sites to extend their runways. While wholesale distribution remains a top priority for consumer brands, the shift towards more predictable and controllable growth strategies is becoming more common.
 source: reader
 permalink: l/articles/why-some-brands-are-being-more-cautious-about-wholesale-expansion
+slug: why-some-brands-are-being-more-cautious-about-wholesale-expansion
 ---
 # Why Some Brands Are Being More Cautious About Wholesale Expansion
 

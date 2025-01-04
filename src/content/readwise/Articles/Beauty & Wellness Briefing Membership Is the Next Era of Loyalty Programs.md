@@ -13,6 +13,7 @@ summary: |
   Getting customers to pay more to retain them may seem counterintuitive. However, companies are finding that, by offering early or exclusive access to discounts, products and experiences for a fee, paying customers are willing to engage more frequently and buy more with a brand.
 source: reader
 permalink: l/articles/beauty-wellness-briefing-membership-is-the-next-era-of-loyalty-programs
+slug: beauty-wellness-briefing-membership-is-the-next-era-of-loyalty-programs
 ---
 # Beauty & Wellness Briefing: Membership Is the Next Era of Loyalty Programs
 

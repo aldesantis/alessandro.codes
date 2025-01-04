@@ -13,6 +13,7 @@ summary: |
   SOCIAL_Commentary is a reading of our memes — theorizing what they say about the zeitgeist — an expression of collective truths.
 source: reader
 permalink: l/articles/s-o-c-i-a-l-commentary-vol-6
+slug: s-o-c-i-a-l-commentary-vol-6
 ---
 # SOCIAL_Commentary_Vol.6
 

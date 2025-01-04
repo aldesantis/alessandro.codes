@@ -13,6 +13,7 @@ summary: |
   Shielding Your Brain Against Time's Tide
 source: reader
 permalink: l/articles/the-hidden-power-of-exercise
+slug: the-hidden-power-of-exercise
 ---
 # The Hidden Power of Exercise
 

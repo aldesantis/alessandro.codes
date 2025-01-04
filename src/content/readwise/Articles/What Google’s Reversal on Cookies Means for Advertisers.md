@@ -13,6 +13,7 @@ summary: |
   For years the search giant had promised that, one day, it would eventually do away with the little text files that websites and browsers such as Google Chrome exchange to track people across the internet.
 source: reader
 permalink: l/articles/what-google-s-reversal-on-cookies-means-for-advertisers
+slug: what-google-s-reversal-on-cookies-means-for-advertisers
 ---
 # What Google’s Reversal on Cookies Means for Advertisers
 

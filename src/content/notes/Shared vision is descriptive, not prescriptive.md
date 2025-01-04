@@ -1,6 +1,8 @@
 ---
 permalink: n/shared-vision-is-descriptive-not-prescriptive
+slug: shared-vision-is-descriptive-not-prescriptive
 status: 
+title: Shared vision is descriptive, not prescriptive
 ---
 # Shared vision is descriptive, not prescriptive
 

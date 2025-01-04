@@ -13,6 +13,7 @@ summary: |
   Some of Shopify's most recent tools seem to be in direct competition with some of its app partners and vendors.
 source: reader
 permalink: l/articles/shopify-s-new-tools-are-encroaching-upon-the-business-of-existing-vendors
+slug: shopify-s-new-tools-are-encroaching-upon-the-business-of-existing-vendors
 ---
 # Shopify’s New Tools Are Encroaching Upon the Business of Existing Vendors
 

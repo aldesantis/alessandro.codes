@@ -13,6 +13,7 @@ summary: |
   The content discusses various topics related to ecommerce, retail, and business operations. It touches on the challenges and changes in the industry, such as the impact of class systems, product value chain, operations value chain, and sustainability measures. The importance of asking good questions and using information effectively to shape business strategies is emphasized.
 source: reader
 permalink: l/articles/leap-year-24-the-love-story-of-johnny-castle-and-frances-houseman-iykyk
+slug: leap-year-24-the-love-story-of-johnny-castle-and-frances-houseman-iykyk
 ---
 # Leap Year 24: The Love Story of Johnny Castle and Frances Houseman. IYKYK.
 

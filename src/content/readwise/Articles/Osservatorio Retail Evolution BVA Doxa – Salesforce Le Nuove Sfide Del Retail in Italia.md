@@ -13,6 +13,7 @@ summary: |
   La digitalizzazione ha cambiato le abitudini d'acquisto, rendendo i consumatori più esigenti e desiderosi di esperienze fluide tra negozi fisici e online. Un'indagine rivela che i consumatori cercano efficienza, personalizzazione e vicinanza dai brand. Inoltre, l'intelligenza artificiale suscita interesse, ma anche timori, e i brand devono migliorare l'esperienza d'acquisto per conquistare la fiducia dei clienti.
 source: reader
 permalink: l/articles/osservatorio-retail-evolution-bva-doxa-salesforce-le-nuove-sfide-del-retail-in-italia
+slug: osservatorio-retail-evolution-bva-doxa-salesforce-le-nuove-sfide-del-retail-in-italia
 ---
 # Osservatorio Retail Evolution BVA Doxa – Salesforce: Le Nuove Sfide Del Retail in Italia
 

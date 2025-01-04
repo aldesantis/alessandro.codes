@@ -1,6 +1,8 @@
 ---
 permalink: n/turn-transient-notes-into-evergreen-notes
+slug: turn-transient-notes-into-evergreen-notes
 status: 
+title: turn-transient-notes-into-evergreen-notes
 ---
 # turn-transient-notes-into-evergreen-notes
 

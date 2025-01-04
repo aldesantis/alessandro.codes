@@ -13,6 +13,7 @@ summary: |
   Why positioning determines victors in SaaS and AI.
 source: reader
 permalink: l/articles/you-can-t-hack-product-positioning
+slug: you-can-t-hack-product-positioning
 ---
 # You Can't Hack Product Positioning
 

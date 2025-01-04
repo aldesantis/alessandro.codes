@@ -13,6 +13,7 @@ summary: |
   Jia Jiang explains how humor enhances public speaking and helps audiences remember key lessons. He emphasizes the importance of leaning into weird thoughts and emotions to create relatable and funny content. By recognizing and sharing these moments, anyone can become funnier and connect better with their audience.
 source: reader
 permalink: l/articles/how-to-be-funny-in-public-speaking
+slug: how-to-be-funny-in-public-speaking
 ---
 # How to Be Funny in Public Speaking
 

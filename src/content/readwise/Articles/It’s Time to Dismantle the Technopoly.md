@@ -13,6 +13,7 @@ summary: |
   In this article, the author discusses the concept of technopoly and the need to dismantle it. They reflect on their own experience of criticizing social media and the backlash they faced. The author references Neil Postman's book "Technopoly: The Surrender of Culture to Technology," which argues that we now live in a technopoly, where innovation and efficiency are prioritized over traditional values. However, the author highlights that cracks in technopoly are starting to appear, with increasing skepticism and resistance to certain technologies. They propose a perspective called techno-selectionism, which acknowledges the potential benefits of technology while also recognizing the need to reject harmful innovations.
 source: reader
 permalink: l/articles/it-s-time-to-dismantle-the-technopoly
+slug: it-s-time-to-dismantle-the-technopoly
 ---
 # It’s Time to Dismantle the Technopoly
 

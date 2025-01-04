@@ -13,6 +13,7 @@ summary: |
   Everyone wants change, but doesn't want to change. Though inevitable, change is uncomfortable and exhausting. Manage it with kindness.
 source: reader
 permalink: l/articles/a-smart-bear-change-damned-if-you-do-damned-more-if-you-don-t
+slug: a-smart-bear-change-damned-if-you-do-damned-more-if-you-don-t
 ---
 # A Smart Bear » Change: Damned if you do, damned more if you don't
 

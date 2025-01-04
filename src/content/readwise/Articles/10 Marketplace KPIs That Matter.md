@@ -13,6 +13,7 @@ summary: |
   Marketplaces are incredibly powerful. They are taking every aspect of our economy by storm and changing how goods and services are discovered, priced and delivered.
 source: reader
 permalink: l/articles/10-marketplace-kp-is-that-matter
+slug: 10-marketplace-kp-is-that-matter
 ---
 # 10 Marketplace KPIs That Matter
 

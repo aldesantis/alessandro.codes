@@ -13,6 +13,7 @@ summary: |
   The tech industry layoffs have been heartbreaking, affecting not just careers but also families. The author advocates for calm companies that prioritize employee well-being and sustainable growth. Calm companies offer meaningful work, financial resilience, and a positive work environment.
 source: reader
 permalink: l/articles/we-need-more-calm-companies
+slug: we-need-more-calm-companies
 ---
 # We Need More Calm Companies
 

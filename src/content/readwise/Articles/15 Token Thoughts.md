@@ -13,6 +13,7 @@ summary: |
   I was travelling at the end of the week so had to miss internet explorers and wasn't able to curate topics from the week in consumer crypto as I usua...
 source: reader
 permalink: l/articles/15-token-thoughts
+slug: 15-token-thoughts
 ---
 # 15 Token Thoughts
 

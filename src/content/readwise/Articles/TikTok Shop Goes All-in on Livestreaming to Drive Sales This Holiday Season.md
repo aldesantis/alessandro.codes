@@ -13,6 +13,7 @@ summary: |
   As TikTok Shop gears up for the holiday season, the social media app is going all-in on livestreaming to boost sales.
 source: reader
 permalink: l/articles/tik-tok-shop-goes-all-in-on-livestreaming-to-drive-sales-this-holiday-season
+slug: tik-tok-shop-goes-all-in-on-livestreaming-to-drive-sales-this-holiday-season
 ---
 # TikTok Shop Goes All-in on Livestreaming to Drive Sales This Holiday Season
 

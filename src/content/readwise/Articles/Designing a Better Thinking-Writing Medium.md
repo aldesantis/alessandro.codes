@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/designing-a-better-thinking-writing-medium
+slug: designing-a-better-thinking-writing-medium
 ---
 # Designing a Better Thinking-Writing Medium
 

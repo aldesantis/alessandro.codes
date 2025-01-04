@@ -13,6 +13,7 @@ summary: |
   How to do you host a great podcast interview? By preparing in advance. We’d like to give you some important tips to preparing for your podcast interview.
 source: reader
 permalink: l/articles/how-to-prepare-to-conduct-an-amazing-podcast-interview
+slug: how-to-prepare-to-conduct-an-amazing-podcast-interview
 ---
 # How to Prepare to Conduct an Amazing Podcast Interview
 

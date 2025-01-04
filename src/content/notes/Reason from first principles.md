@@ -1,6 +1,8 @@
 ---
 permalink: n/reason-from-first-principles
+slug: reason-from-first-principles
 status: 
+title: Reason from first principles
 ---
 # Reason from first principles
 

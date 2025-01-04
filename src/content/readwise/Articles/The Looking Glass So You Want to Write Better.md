@@ -13,6 +13,7 @@ summary: |
   A long-form piece on some age-old misconceptions
 source: reader
 permalink: l/articles/the-looking-glass-so-you-want-to-write-better
+slug: the-looking-glass-so-you-want-to-write-better
 ---
 # The Looking Glass: So You Want to Write Better?
 

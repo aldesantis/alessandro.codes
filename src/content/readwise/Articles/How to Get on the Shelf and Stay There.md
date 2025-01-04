@@ -13,6 +13,7 @@ summary: |
   The newsletter that takes the guesswork out of building and scaling a D2C brand. 
 source: reader
 permalink: l/articles/how-to-get-on-the-shelf-and-stay-there
+slug: how-to-get-on-the-shelf-and-stay-there
 ---
 # How to Get on the Shelf and Stay There
 

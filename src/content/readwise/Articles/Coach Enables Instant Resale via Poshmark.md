@@ -13,6 +13,7 @@ summary: |
   Coach is partnering with Poshmark to allow instant resale of its Coachtopia products using digital identities. Customers can easily list their items for sale with automatic product details and images through Eon's technology. This initiative supports sustainability and enhances customer engagement by tracking products across multiple owners.
 source: reader
 permalink: l/articles/coach-enables-instant-resale-via-poshmark
+slug: coach-enables-instant-resale-via-poshmark
 ---
 # Coach Enables Instant Resale via Poshmark
 

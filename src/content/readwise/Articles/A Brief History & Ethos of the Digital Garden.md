@@ -13,6 +13,7 @@ summary: |
   Digital gardening is an evolving collection of ideas organized in a non-linear way, contrasting with traditional blogs. It encourages personal exploration and knowledge accumulation, allowing for unique, creative expression online. This movement has gained traction due to communities embracing new tools and practices for sharing information.
 source: reader
 permalink: l/articles/a-brief-history-ethos-of-the-digital-garden
+slug: a-brief-history-ethos-of-the-digital-garden
 ---
 # A Brief History & Ethos of the Digital Garden
 

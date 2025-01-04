@@ -13,6 +13,7 @@ summary: |
   The document discusses the recent NFT Paris and ETH Denver conferences, highlighting the differences between them and the key takeaways. It emphasizes the importance of Web3 mass adoption and the various aspects like consumer engagement, luxury brands' interest, and the need for multi-platform experiences. The text also touches on the maturing infrastructure, blockchain applications, and the future trend of tokenizing consumer engagement for brands. Overall, it urges a shift from isolated experiments to more integrated, user-friendly digital-physical experiences to drive consumer interest and engagement in Web3.
 source: reader
 permalink: l/articles/stop-talking-about-web3
+slug: stop-talking-about-web3
 ---
 # Stop Talking About Web3
 

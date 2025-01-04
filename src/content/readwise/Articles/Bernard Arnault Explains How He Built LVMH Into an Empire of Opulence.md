@@ -13,6 +13,7 @@ summary: |
   Bernard Arnault built LVMH into a luxury empire by acquiring top brands and focusing on opulence. He believes in combining luxury brands to strengthen them and attract high-end consumers. Arnault's ambitious vision includes expanding into real estate and potentially acquiring more luxury companies in the future.
 source: reader
 permalink: l/articles/bernard-arnault-explains-how-he-built-lvmh-into-an-empire-of-opulence
+slug: bernard-arnault-explains-how-he-built-lvmh-into-an-empire-of-opulence
 ---
 # Bernard Arnault Explains How He Built LVMH Into an Empire of Opulence
 

@@ -13,6 +13,7 @@ summary: |
   People have been altering time to suit their needs, impacting how we perceive the world today. Technology plays a significant role in our struggle with time, affecting our cultural connections. The individual control over time and consumption leads to unique experiences and challenges in connecting with others.
 source: reader
 permalink: l/articles/part-2-time-is-of-my-essence
+slug: part-2-time-is-of-my-essence
 ---
 # Part 2: Time Is of My Essence
 

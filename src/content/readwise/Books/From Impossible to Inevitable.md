@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/from-impossible-to-inevitable
+slug: from-impossible-to-inevitable
 ---
 # From Impossible to Inevitable
 

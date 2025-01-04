@@ -13,6 +13,7 @@ summary: |
   How Modern Dating Became Such a Dumpster Fire (ft. Sadia Khan) – Let’s be honest: the modern dating landscape is a shit show.
 source: reader
 permalink: l/articles/why-we-avoid-taking-action
+slug: why-we-avoid-taking-action
 ---
 # Why We Avoid Taking Action
 

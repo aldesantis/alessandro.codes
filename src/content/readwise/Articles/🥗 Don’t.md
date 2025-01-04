@@ -13,6 +13,7 @@ summary: |
   2). We just released an episode on Thursday where we dived deep into what we learned from getting into 4200 stores in Walmart and our acquisition of Coffee Over Cardio.
 source: reader
 permalink: l/articles/don-t
+slug: don-t
 ---
 # 🥗 Don’t
 

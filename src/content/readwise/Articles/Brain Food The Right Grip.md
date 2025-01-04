@@ -13,6 +13,7 @@ summary: |
   Great work requires being stubborn about your goals but flexible about your methods.
 source: reader
 permalink: l/articles/brain-food-the-right-grip
+slug: brain-food-the-right-grip
 ---
 # Brain Food: The Right Grip
 

@@ -13,6 +13,7 @@ summary: |
   In the glossy world of digital brands, everything sparkles—until you look too closely. Welcome to the age of Potemkin brands, where facades aren't just for show; they're the main attraction.
 source: reader
 permalink: l/articles/insiders-178-potemkin-world-the-age-of-digital-brand-facades
+slug: insiders-178-potemkin-world-the-age-of-digital-brand-facades
 ---
 # Insiders #178: Potemkin World: The Age of Digital Brand Facades
 

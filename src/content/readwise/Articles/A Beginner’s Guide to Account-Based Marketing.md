@@ -13,6 +13,7 @@ summary: |
   In this highly customized approach, the engagement is focused on a small set of accounts (Average: 39, Median: 14)* with the highest revenue potential.
 source: reader
 permalink: l/articles/a-beginner-s-guide-to-account-based-marketing
+slug: a-beginner-s-guide-to-account-based-marketing
 ---
 # A Beginner’s Guide to Account-Based Marketing
 

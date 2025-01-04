@@ -13,6 +13,7 @@ summary: |
   The article discusses how the commodification of culture, especially through NFTs, ties art and cultural artifacts closely to their financial value. This focus on price diminishes the true artistic merit and creativity, as creators feel pressured to prioritize commercial success over genuine expression. As a result, the culture around art becomes boring and overly obsessed with profit rather than beauty.
 source: reader
 permalink: l/articles/022-commodification-cripples-culture
+slug: 022-commodification-cripples-culture
 ---
 # #022 Commodification Cripples Culture
 

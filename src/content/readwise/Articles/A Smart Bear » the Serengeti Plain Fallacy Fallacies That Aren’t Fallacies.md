@@ -13,6 +13,7 @@ summary: |
   The author argues that the concept of "maximizing expected value" is often misleading and not the best way to make decisions. He suggests that common biases, like loss aversion, should not be dismissed as fallacies, as they can be rational responses to risk. Instead of blindly following buzzwords, individuals should think critically and adapt their strategies based on their unique situations.
 source: reader
 permalink: l/articles/a-smart-bear-the-serengeti-plain-fallacy-fallacies-that-aren-t-fallacies
+slug: a-smart-bear-the-serengeti-plain-fallacy-fallacies-that-aren-t-fallacies
 ---
 # A Smart Bear » the Serengeti Plain Fallacy: Fallacies That Aren’t Fallacies
 

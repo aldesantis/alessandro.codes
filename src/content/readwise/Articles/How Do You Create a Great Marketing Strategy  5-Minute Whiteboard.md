@@ -13,6 +13,7 @@ summary: |
   This week, I'm going back to basics. Not because you need a refresher course, but because so many of us are frustrated in the weeds of marketing precisely
 source: reader
 permalink: l/articles/how-do-you-create-a-great-marketing-strategy-5-minute-whiteboard
+slug: how-do-you-create-a-great-marketing-strategy-5-minute-whiteboard
 ---
 # How Do You Create a Great Marketing Strategy? | 5-Minute Whiteboard
 

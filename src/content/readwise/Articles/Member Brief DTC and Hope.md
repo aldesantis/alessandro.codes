@@ -13,6 +13,7 @@ summary: |
   Campaign performance data has been a struggle to track, but that will not slow retail media’s continued growth. In today’s volatile business environment, brands close to or beyond profi…
 source: reader
 permalink: l/articles/member-brief-dtc-and-hope
+slug: member-brief-dtc-and-hope
 ---
 # Member Brief: DTC and Hope
 

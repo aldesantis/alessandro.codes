@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/sorry-i-m-late-i-didn-t-want-to-come
+slug: sorry-i-m-late-i-didn-t-want-to-come
 ---
 # Sorry I'm Late, I Didn't Want to Come
 

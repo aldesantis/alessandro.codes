@@ -1,6 +1,8 @@
 ---
 permalink: n/focus-on-directional-lift-rather-than-roas
+slug: focus-on-directional-lift-rather-than-roas
 status: 
+title: Focus on directional lift rather than ROAS
 ---
 # Focus on directional lift rather than ROAS
 

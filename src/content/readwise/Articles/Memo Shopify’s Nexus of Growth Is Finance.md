@@ -13,6 +13,7 @@ summary: |
   Shopify is at the intersection of commerce, payments, and debt, making it a key player in the evolving online retail landscape. As new store growth slows, Shopify is focusing on strengthening relationships with existing merchants and expanding its lending services through Shopify Capital. However, rising consumer debt and economic pressures pose risks to its financial growth strategy.
 source: reader
 permalink: l/articles/memo-shopify-s-nexus-of-growth-is-finance
+slug: memo-shopify-s-nexus-of-growth-is-finance
 ---
 # Memo: Shopify’s Nexus of Growth Is Finance
 

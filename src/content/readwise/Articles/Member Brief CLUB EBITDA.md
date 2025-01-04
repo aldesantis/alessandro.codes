@@ -13,6 +13,7 @@ summary: |
   Retail is an EBITDA sport. In 2019, at Shopify Plus’s New York conference, a relatively unknown, foreign brand espoused the importance of healthy growth and profitability. American brands rec…
 source: reader
 permalink: l/articles/member-brief-club-ebitda
+slug: member-brief-club-ebitda
 ---
 # Member Brief: CLUB EBITDA
 

@@ -13,6 +13,7 @@ summary: |
   Tapestry, a fashion company, is working on tracing the origins of its raw materials to meet regulatory requirements and increase transparency. They have partnered with TrusTrace to streamline the process and onboard suppliers onto a traceability platform. Building trust with suppliers and improving relationships across the supply chain are key priorities for Tapestry.
 source: reader
 permalink: l/articles/how-tapestry-convinces-suppliers-to-share-their-data
+slug: how-tapestry-convinces-suppliers-to-share-their-data
 ---
 # How Tapestry Convinces Suppliers to Share Their Data
 

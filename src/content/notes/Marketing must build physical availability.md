@@ -1,6 +1,8 @@
 ---
 permalink: n/marketing-must-build-physical-availability
+slug: marketing-must-build-physical-availability
 status: 
+title: Marketing must build physical availability
 ---
 # Marketing must build physical availability
 

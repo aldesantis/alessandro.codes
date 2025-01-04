@@ -13,6 +13,7 @@ summary: |
   The author reflects on the difference between traditional success, which is often measured by wealth, and metric-less success, which focuses on meaningful relationships and personal values. While society values quantifiable achievements, true fulfillment comes from love, compassion, and living authentically. Ultimately, what matters most is not what you earn, but how you impact the lives of others and stay true to yourself.
 source: reader
 permalink: l/articles/metric-less-success
+slug: metric-less-success
 ---
 # Metric-Less Success
 

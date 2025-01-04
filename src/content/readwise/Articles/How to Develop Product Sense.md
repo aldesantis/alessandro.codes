@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/how-to-develop-product-sense
+slug: how-to-develop-product-sense
 ---
 # How to Develop Product Sense
 

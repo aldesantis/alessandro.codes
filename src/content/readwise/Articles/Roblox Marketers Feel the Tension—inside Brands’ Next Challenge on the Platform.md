@@ -13,6 +13,7 @@ summary: |
   The potential to reach young consumers is clear, yet brands face evolving obstacles.
 source: reader
 permalink: l/articles/roblox-marketers-feel-the-tension-inside-brands-next-challenge-on-the-platform
+slug: roblox-marketers-feel-the-tension-inside-brands-next-challenge-on-the-platform
 ---
 # Roblox Marketers Feel the Tension—inside Brands’ Next Challenge on the Platform
 

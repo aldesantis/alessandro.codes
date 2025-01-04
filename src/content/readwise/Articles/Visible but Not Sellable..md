@@ -13,6 +13,7 @@ summary: |
   Retailers often remove out-of-stock products from their websites, missing out on potential sales opportunities. Keeping product pages visible even when items are out of stock can improve customer experience, SEO, and overall business success. Separating visibility from sellability is key for maximizing online sales potential.
 source: reader
 permalink: l/articles/visible-but-not-sellable
+slug: visible-but-not-sellable
 ---
 # Visible but Not Sellable.
 

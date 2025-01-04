@@ -13,6 +13,7 @@ summary: |
   What not to do when building a B2B startup
 source: reader
 permalink: l/articles/lessons-learned-from-a-startup-that-didn-t-make-it
+slug: lessons-learned-from-a-startup-that-didn-t-make-it
 ---
 # Lessons Learned From a Startup That Didn’t Make It
 

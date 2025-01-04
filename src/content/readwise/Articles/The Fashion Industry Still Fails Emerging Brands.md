@@ -13,6 +13,7 @@ summary: |
   With brands stuck in a rut, and the industry standing by, the time has come to chart a course that leads to new success.
 source: reader
 permalink: l/articles/the-fashion-industry-still-fails-emerging-brands
+slug: the-fashion-industry-still-fails-emerging-brands
 ---
 # The Fashion Industry Still Fails Emerging Brands
 

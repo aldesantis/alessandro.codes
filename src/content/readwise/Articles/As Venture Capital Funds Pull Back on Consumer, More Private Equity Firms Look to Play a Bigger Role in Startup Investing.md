@@ -13,6 +13,7 @@ summary: |
   Private equity funding is becoming more prevalent in consumer startup funding as venture capital funding decreases. Startups are turning to private equity for sustained profitability and growth, with some PE firms showing interest in earlier-stage companies. Notable PE firms like L Catterton are investing in digitally-native brands, and new funds focused on consumer brands are emerging. Both venture capitalists and private equity investors are now seeking profitable, established businesses for investment rather than early-stage concepts.
 source: reader
 permalink: l/articles/as-venture-capital-funds-pull-back-on-consumer-more-private-equity-firms-look-to-play-a-bigger-role-in-startup-investing
+slug: as-venture-capital-funds-pull-back-on-consumer-more-private-equity-firms-look-to-play-a-bigger-role-in-startup-investing
 ---
 # As Venture Capital Funds Pull Back on Consumer, More Private Equity Firms Look to Play a Bigger Role in Startup Investing
 

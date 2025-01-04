@@ -13,6 +13,7 @@ summary: |
   While Google's crumbling cookie and Apple's ATT crackdown have spurred diversification, DTC brands are still dedicated to Meta and Google.
 source: reader
 permalink: l/articles/apple-s-att-crackdown-emboldened-dtc-marketers-to-reinvest-in-meta-google
+slug: apple-s-att-crackdown-emboldened-dtc-marketers-to-reinvest-in-meta-google
 ---
 # Apple’s ATT Crackdown Emboldened DTC Marketers to Reinvest in Meta, Google
 

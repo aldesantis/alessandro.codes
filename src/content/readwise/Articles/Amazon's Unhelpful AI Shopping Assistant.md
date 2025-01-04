@@ -13,6 +13,7 @@ summary: |
   Amazon's AI shopping assistant is great at answering questions about a specific product but cannot help sort through the endless aisles of its infinite catalog.
 source: reader
 permalink: l/articles/amazon-s-unhelpful-ai-shopping-assistant
+slug: amazon-s-unhelpful-ai-shopping-assistant
 ---
 # Amazon's Unhelpful AI Shopping Assistant
 

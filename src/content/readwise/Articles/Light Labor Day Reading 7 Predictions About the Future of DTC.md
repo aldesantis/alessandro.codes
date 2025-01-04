@@ -13,6 +13,7 @@ summary: |
   Now, look… I know you’ve probably got tomorrow off, so I’m not going to give you a 6-page tactical email for you to go through. Today will be no more than a 4 minute read.
 source: reader
 permalink: l/articles/light-labor-day-reading-7-predictions-about-the-future-of-dtc
+slug: light-labor-day-reading-7-predictions-about-the-future-of-dtc
 ---
 # Light Labor Day Reading: 7 Predictions About the Future of DTC
 

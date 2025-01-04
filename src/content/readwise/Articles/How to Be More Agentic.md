@@ -13,6 +13,7 @@ summary: |
   The author believes that agency can be developed, and is not an inherent trait. She has compensated for her aging and perceived lack of intelligence by increasing her agency, which she defines as "manifest determination to make things happen." The author suggests several ways to increase agency, including asking for things, seeking real feedback, increasing the surface area for luck, assuming everything is learnable, learning to love the moat of low status, and not working too hard. The author argues that agency is a skill that can be learned and intensified, and can be applied to many areas of life.
 source: reader
 permalink: l/articles/how-to-be-more-agentic
+slug: how-to-be-more-agentic
 ---
 # How to Be More Agentic
 

@@ -13,6 +13,7 @@ summary: |
   BuzzFeed sold its Complex division to NTWRK for $108.6 million in cash, plus $5.7 million for office space and severance costs. This move marks a shift for BuzzFeed, retaining First We Feast while operating independently from Complex. The sale will bring NTWRK and Complex together under new ownership, aiming to create a more resilient business model. The deal will result in two distinct companies, one focusing on news and pop culture at BuzzFeed, and the other on fashion, sneakers, and streetwear at Complex.
 source: reader
 permalink: l/articles/buzz-feed-sells-complex-to-live-stream-shopping-platform-ntwrk-in-109-m-deal
+slug: buzz-feed-sells-complex-to-live-stream-shopping-platform-ntwrk-in-109-m-deal
 ---
 # BuzzFeed Sells Complex to Live Stream Shopping Platform NTWRK in $109M Deal
 

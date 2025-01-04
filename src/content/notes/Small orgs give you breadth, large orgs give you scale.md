@@ -1,6 +1,8 @@
 ---
 permalink: n/small-orgs-give-you-breadth-large-orgs-give-you-scale
+slug: small-orgs-give-you-breadth-large-orgs-give-you-scale
 status: 
+title: Small orgs give you breadth, large orgs give you scale
 ---
 # Small orgs give you breadth, large orgs give you scale
 

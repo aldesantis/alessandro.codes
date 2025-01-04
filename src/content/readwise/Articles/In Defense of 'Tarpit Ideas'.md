@@ -13,6 +13,7 @@ summary: |
   If you’ve ever been excited about building a product in your teens or twenties, you’ve probably thought about an idea like one of these.
 source: reader
 permalink: l/articles/in-defense-of-tarpit-ideas
+slug: in-defense-of-tarpit-ideas
 ---
 # In Defense of 'Tarpit Ideas'
 

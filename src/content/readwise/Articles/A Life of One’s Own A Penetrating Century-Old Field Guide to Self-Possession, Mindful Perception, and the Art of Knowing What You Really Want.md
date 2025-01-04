@@ -13,6 +13,7 @@ summary: |
   “I did not know that I could only get the most out of life by giving myself up to it.”
 source: reader
 permalink: l/articles/a-life-of-one-s-own-a-penetrating-century-old-field-guide-to-self-possession-mindful-perception-and-the-art-of-knowing-what-you-really-want
+slug: a-life-of-one-s-own-a-penetrating-century-old-field-guide-to-self-possession-mindful-perception-and-the-art-of-knowing-what-you-really-want
 ---
 # A Life of One’s Own: A Penetrating Century-Old Field Guide to Self-Possession, Mindful Perception, and the Art of Knowing What You Really Want
 

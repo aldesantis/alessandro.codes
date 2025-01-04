@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/the-systems-thinker-communities-of-practice-learning-as-a-social-system-the-systems-thinker
+slug: the-systems-thinker-communities-of-practice-learning-as-a-social-system-the-systems-thinker
 ---
 # The Systems Thinker – Communities of Practice: Learning as a Social System - The Systems Thinker
 

@@ -13,6 +13,7 @@ summary: |
   The author prefers simple, straightforward plans over complex ones that require advanced knowledge and training. They value plans that are easy to execute, understand, and evaluate without the need for extensive research or luck. The focus is on practicality, clear goals, and alignment within the team for successful execution.
 source: reader
 permalink: l/articles/i-like-dumb-plans
+slug: i-like-dumb-plans
 ---
 # I Like Dumb Plans
 

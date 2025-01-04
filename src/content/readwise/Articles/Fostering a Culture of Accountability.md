@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/fostering-a-culture-of-accountability
+slug: fostering-a-culture-of-accountability
 ---
 # Fostering a Culture of Accountability
 

@@ -13,6 +13,7 @@ summary: |
   This admonition recurs in myriad books, frameworks, and topics, across decades of time. When something is so consistent, it must be wisdom.
 source: reader
 permalink: l/articles/failure-to-face-the-truth
+slug: failure-to-face-the-truth
 ---
 # Failure to Face the Truth
 

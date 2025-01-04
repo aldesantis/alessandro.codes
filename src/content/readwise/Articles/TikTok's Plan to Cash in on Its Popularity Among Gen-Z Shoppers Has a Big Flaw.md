@@ -13,6 +13,7 @@ summary: |
   New Gen-Z data shows TikTok tied with Instagram as the most influential social platform for ecommerce, but a big bet on livestream shopping is risky.
 source: reader
 permalink: l/articles/tik-tok-s-plan-to-cash-in-on-its-popularity-among-gen-z-shoppers-has-a-big-flaw
+slug: tik-tok-s-plan-to-cash-in-on-its-popularity-among-gen-z-shoppers-has-a-big-flaw
 ---
 # TikTok's Plan to Cash in on Its Popularity Among Gen-Z Shoppers Has a Big Flaw
 

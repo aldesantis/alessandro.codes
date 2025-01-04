@@ -13,6 +13,7 @@ summary: |
   Writing helps refine thinking by making ideas more precise and complete. Without writing, one may not fully form or realize the limitations of their ideas. By unfolding and probing claims through writing, one can discover flaws, refine understanding, and reach deeper insights.
 source: reader
 permalink: l/articles/how-to-think-in-writing
+slug: how-to-think-in-writing
 ---
 # How to Think in Writing
 

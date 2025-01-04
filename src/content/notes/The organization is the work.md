@@ -1,6 +1,8 @@
 ---
 permalink: n/the-organization-is-the-work
+slug: the-organization-is-the-work
 status: 
+title: The organization is the work
 ---
 # The organization is the work
 

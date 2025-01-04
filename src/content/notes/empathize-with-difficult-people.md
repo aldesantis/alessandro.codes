@@ -1,6 +1,8 @@
 ---
 permalink: n/empathize-with-difficult-people
+slug: empathize-with-difficult-people
 status: 
+title: empathize-with-difficult-people
 ---
 # empathize-with-difficult-people
 

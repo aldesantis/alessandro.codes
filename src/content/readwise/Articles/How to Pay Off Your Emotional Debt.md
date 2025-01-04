@@ -13,6 +13,7 @@ summary: |
   A toolkit for navigating stressful experiences and cultivating emotional mastery
 source: reader
 permalink: l/articles/how-to-pay-off-your-emotional-debt
+slug: how-to-pay-off-your-emotional-debt
 ---
 # How to Pay Off Your Emotional Debt
 

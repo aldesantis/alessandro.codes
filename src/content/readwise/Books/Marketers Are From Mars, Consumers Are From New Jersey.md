@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/marketers-are-from-mars-consumers-are-from-new-jersey
+slug: marketers-are-from-mars-consumers-are-from-new-jersey
 ---
 # Marketers Are From Mars, Consumers Are From New Jersey
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/latest-linus-zone
+slug: latest-linus-zone
 ---
 # Latest | linus.zone
 

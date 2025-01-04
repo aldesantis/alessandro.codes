@@ -13,6 +13,7 @@ summary: |
   How to find freedom under pressure
 source: reader
 permalink: l/articles/how-to-find-freedom-under-pressure
+slug: how-to-find-freedom-under-pressure
 ---
 # How to Find Freedom Under Pressure
 

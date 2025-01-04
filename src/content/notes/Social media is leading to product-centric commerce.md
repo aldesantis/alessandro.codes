@@ -1,6 +1,8 @@
 ---
 permalink: n/social-media-is-leading-to-product-centric-commerce
+slug: social-media-is-leading-to-product-centric-commerce
 status: 
+title: Social media is leading to product-centric commerce
 ---
 # Social media is leading to product-centric commerce
 

@@ -13,6 +13,7 @@ summary: |
   All that cash might be tempting, but the motivations of founders and venture investors are rarely aligned, writes Imran Amed.
 source: reader
 permalink: l/articles/why-dtc-companies-should-avoid-venture-capital
+slug: why-dtc-companies-should-avoid-venture-capital
 ---
 # Why DTC Companies Should Avoid Venture Capital
 

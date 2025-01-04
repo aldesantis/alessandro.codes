@@ -1,6 +1,8 @@
 ---
 permalink: n/org-design-is-about-structure-incentives-and-culture
+slug: org-design-is-about-structure-incentives-and-culture
 status: 
+title: Org design is structure, incentives, and culture
 ---
 # Org design is structure, incentives, and culture
 

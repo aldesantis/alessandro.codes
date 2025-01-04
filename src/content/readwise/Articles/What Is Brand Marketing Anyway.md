@@ -13,6 +13,7 @@ summary: |
   Does brand need a rebrand?
 source: reader
 permalink: l/articles/what-is-brand-marketing-anyway
+slug: what-is-brand-marketing-anyway
 ---
 # What Is Brand Marketing Anyway?
 

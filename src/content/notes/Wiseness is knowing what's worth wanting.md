@@ -1,6 +1,8 @@
 ---
 permalink: n/wiseness-is-knowing-what-s-worth-wanting
+slug: wiseness-is-knowing-what-s-worth-wanting
 status: 
+title: Wiseness is knowing what’s worth wanting
 ---
 # Wiseness is knowing what’s worth wanting
 

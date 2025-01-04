@@ -13,6 +13,7 @@ summary: |
   The text discusses how Acceptance and Commitment Therapy (ACT) can help individuals find meaning and productivity in their lives by developing psychological flexibility. ACT focuses on moving towards what we value in life by addressing avoidance behaviors and learning to engage with challenging thoughts and feelings. By practicing the core skills of ACT, individuals can make small behavioral shifts that align with their values and lead to positive changes in their lives.
 source: reader
 permalink: l/articles/how-to-do-hard-things
+slug: how-to-do-hard-things
 ---
 # How to Do Hard Things
 

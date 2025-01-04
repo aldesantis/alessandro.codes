@@ -1,6 +1,8 @@
 ---
 permalink: n/systems-happen-all-at-once
+slug: systems-happen-all-at-once
 status: 
+title: Systems happen all at once
 ---
 # Systems happen all at once
 

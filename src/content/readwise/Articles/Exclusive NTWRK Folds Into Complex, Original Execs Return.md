@@ -13,6 +13,7 @@ summary: |
   NTWRK, an e-commerce startup, has decided to fold its brand into Complex, following its recent acquisition of the media outlet. This move is part of a larger restructuring effort at Complex, which includes resurrecting its print magazine and rehiring former executives to revamp the brand for the e-commerce era. Additionally, Complex has made acquisitions and brought back key early employees to drive growth initiatives. The company's future plans involve expanding content offerings, launching original shows with shopping capabilities, and monetizing its business across commerce, content, and experiences revenue streams.
 source: reader
 permalink: l/articles/exclusive-ntwrk-folds-into-complex-original-execs-return
+slug: exclusive-ntwrk-folds-into-complex-original-execs-return
 ---
 # Exclusive: NTWRK Folds Into Complex, Original Execs Return
 

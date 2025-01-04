@@ -13,6 +13,7 @@ summary: |
   Marketing is changing, and traditional methods of tracking clicks and attributing sales are becoming less effective. Social media platforms are favoring native content, leading to fewer clicks, while privacy laws and ad blockers make attribution difficult. To succeed in 2024, marketers need to focus on influencing audiences through various channels instead of relying solely on data-driven attribution models.
 source: reader
 permalink: l/articles/attribution-is-dying-clicks-are-dying-marketing-is-going-back-to-the-20-th-century
+slug: attribution-is-dying-clicks-are-dying-marketing-is-going-back-to-the-20-th-century
 ---
 # Attribution Is Dying. Clicks Are Dying. Marketing Is Going Back to the 20th Century.
 

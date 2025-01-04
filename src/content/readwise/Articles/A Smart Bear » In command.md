@@ -13,6 +13,7 @@ summary: |
   Being "in control" is impossible, perhaps not even desirable. Being "in command" is ideal: honest, introspective, agile, aware, and proactive.
 source: reader
 permalink: l/articles/a-smart-bear-in-command
+slug: a-smart-bear-in-command
 ---
 # A Smart Bear » In command
 

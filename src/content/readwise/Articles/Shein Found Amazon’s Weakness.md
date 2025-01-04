@@ -13,6 +13,7 @@ summary: |
   Shein, an ultracheap fast-fashion app, has become a competitor that worries Amazon's leadership. Amazon recently announced significant decreases in commissions for cheap clothing, specifically targeting items priced under $15. These fee cuts are seen as a response to Shein's success, as Shein has become the biggest online-native clothing retailer with its unique supply chain and ability to offer on-trend clothing at low prices. Shein's rise has exposed weaknesses in Amazon's business model, particularly in terms of pricing, trend sensitivity, and social media presence. While Shein may not pose a comprehensive threat to Amazon's business in America, it has forced the Everything Store to defend its position.
 source: reader
 permalink: l/articles/shein-found-amazon-s-weakness
+slug: shein-found-amazon-s-weakness
 ---
 # Shein Found Amazon’s Weakness
 

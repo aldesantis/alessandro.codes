@@ -13,6 +13,7 @@ summary: |
   “Resentment has always worked for me exactly as it worked for Carson. I cannot recommend it highly enough to you if you desire misery.
 source: reader
 permalink: l/articles/brain-food-the-next-corner
+slug: brain-food-the-next-corner
 ---
 # Brain Food: The Next Corner
 

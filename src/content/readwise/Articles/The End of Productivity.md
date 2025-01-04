@@ -13,6 +13,7 @@ summary: |
   Why creativity is the new currency of success
 source: reader
 permalink: l/articles/the-end-of-productivity
+slug: the-end-of-productivity
 ---
 # The End of Productivity
 

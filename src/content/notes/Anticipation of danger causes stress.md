@@ -1,6 +1,8 @@
 ---
 permalink: n/anticipation-of-danger-causes-stress
+slug: anticipation-of-danger-causes-stress
 status: 
+title: The anticipation of danger causes stress
 ---
 # The anticipation of danger causes stress
 

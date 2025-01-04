@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/ep-409-the-art-of-aov-master-pre-purchase-upsells-with-aves-aknf
+slug: ep-409-the-art-of-aov-master-pre-purchase-upsells-with-aves-aknf
 ---
 # Ep 409 —  the Art of AOV – Master Pre-Purchase Upsells With Aves | AKNF
 

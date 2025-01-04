@@ -13,6 +13,7 @@ summary: |
   In 2024, sustainable fashion faced challenges despite some progress, as scandals and slow policy changes hindered its growth. Consumer behavior became polarized, with some embracing sustainable practices while others fell into fast fashion trends. As the industry looks to 2025, there is a call for focused action and proven solutions to achieve sustainability goals.
 source: reader
 permalink: l/articles/did-fashion-deliver-on-its-sustainability-promises-in-2024
+slug: did-fashion-deliver-on-its-sustainability-promises-in-2024
 ---
 # Did Fashion Deliver on Its Sustainability Promises in 2024?
 

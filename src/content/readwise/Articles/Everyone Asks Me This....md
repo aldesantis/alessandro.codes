@@ -13,6 +13,7 @@ summary: |
   Before we begin, I just posted a podcast with Noah Kagan on how to find million dollar startup ideas in 2024.
 source: reader
 permalink: l/articles/everyone-asks-me-this
+slug: everyone-asks-me-this
 ---
 # Everyone Asks Me This...
 

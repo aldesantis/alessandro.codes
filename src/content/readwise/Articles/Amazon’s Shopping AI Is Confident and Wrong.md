@@ -13,6 +13,7 @@ summary: |
   Amazon's shopping assistant, Rufus, gives product suggestions but often makes incorrect recommendations. While it has become more confident in its responses, it still struggles with accuracy, showing items that may not match customer needs. Amazon is working to improve Rufus, but the AI's limitations highlight the challenges of relying on technology for shopping decisions.
 source: reader
 permalink: l/articles/amazon-s-shopping-ai-is-confident-and-wrong
+slug: amazon-s-shopping-ai-is-confident-and-wrong
 ---
 # Amazon’s Shopping AI Is Confident and Wrong
 

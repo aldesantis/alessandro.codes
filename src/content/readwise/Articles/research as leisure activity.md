@@ -13,6 +13,7 @@ summary: |
   The text explores the concept of "research as leisure activity," highlighting how it involves intellectual inquiry driven by passion and interest, not limited to traditional institutions. It emphasizes the idea of conducting research for enjoyment, connecting existing interests with new ideas, and fostering a community of curious individuals engaged in non-comprehensive education within various domains.
 source: reader
 permalink: l/articles/research-as-leisure-activity
+slug: research-as-leisure-activity
 ---
 # research as leisure activity
 

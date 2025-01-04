@@ -13,6 +13,7 @@ summary: |
   We’re back earlier than expected this week with a special mid-week deep dive into Arianee's latest whitepaper; “From A Production-Based to A Service-Based Economy: The Role of Tokenization in Decoupling Growth” published with the analytical support from Swanstant and in-depth interviews with industry leaders.
 source: reader
 permalink: l/articles/future-access-issue33
+slug: future-access-issue33
 ---
 # Future+ Access | Issue33
 

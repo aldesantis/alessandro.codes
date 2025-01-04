@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/take-charge-of-work-stress-starting-with-your-managers
+slug: take-charge-of-work-stress-starting-with-your-managers
 ---
 # Take Charge of Work Stress Starting With Your Managers
 

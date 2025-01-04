@@ -1,6 +1,8 @@
 ---
 permalink: n/optionality-can-hinder-risk-taking
+slug: optionality-can-hinder-risk-taking
 status: 
+title: Optionality can hinder risk-taking
 ---
 # Optionality can hinder risk-taking
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/the-trusted-advisor
+slug: the-trusted-advisor
 ---
 # The Trusted Advisor
 

@@ -13,6 +13,7 @@ summary: |
   Don’t define your life by a to-do list you can never finish
 source: reader
 permalink: l/articles/true-leisure-and-the-tyranny-of-total-work
+slug: true-leisure-and-the-tyranny-of-total-work
 ---
 # True Leisure and the Tyranny of Total Work
 

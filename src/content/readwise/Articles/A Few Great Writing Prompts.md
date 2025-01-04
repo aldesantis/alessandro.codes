@@ -13,6 +13,7 @@ summary: |
   By writing about something you want to learn about, you're forced to do the research necessary to solidify your OWN understanding.
 source: reader
 permalink: l/articles/a-few-great-writing-prompts
+slug: a-few-great-writing-prompts
 ---
 # A Few Great Writing Prompts
 

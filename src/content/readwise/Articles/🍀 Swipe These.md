@@ -13,6 +13,7 @@ summary: |
   I'm losing my nerve a bit with our Halloween costume.
 source: reader
 permalink: l/articles/swipe-these
+slug: swipe-these
 ---
 # 🍀 Swipe These
 

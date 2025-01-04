@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/love-all-the-people
+slug: love-all-the-people
 ---
 # Love All the People
 

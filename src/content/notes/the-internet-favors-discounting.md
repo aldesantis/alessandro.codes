@@ -1,6 +1,8 @@
 ---
 permalink: n/the-internet-favors-discounting
+slug: the-internet-favors-discounting
 status: 
+title: the-internet-favors-discounting
 ---
 # the-internet-favors-discounting
 

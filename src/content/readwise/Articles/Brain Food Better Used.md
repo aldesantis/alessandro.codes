@@ -13,6 +13,7 @@ summary: |
   "It’s not that we don’t have time. It’s that we don’t have time for the things that are really important.
 source: reader
 permalink: l/articles/brain-food-better-used
+slug: brain-food-better-used
 ---
 # Brain Food: Better Used
 

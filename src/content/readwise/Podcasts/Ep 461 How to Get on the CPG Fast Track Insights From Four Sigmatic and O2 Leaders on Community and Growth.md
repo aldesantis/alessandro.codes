@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/ep-461-how-to-get-on-the-cpg-fast-track-insights-from-four-sigmatic-and-o-2-leaders-on-community-and-growth
+slug: ep-461-how-to-get-on-the-cpg-fast-track-insights-from-four-sigmatic-and-o-2-leaders-on-community-and-growth
 ---
 # Ep 461: How to Get on the CPG Fast Track: Insights From Four Sigmatic and O2 Leaders on Community and Growth
 

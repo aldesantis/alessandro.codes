@@ -1,6 +1,8 @@
 ---
 permalink: n/the-map-is-not-the-territory
+slug: the-map-is-not-the-territory
 status: 
+title: The map is not the territory
 ---
 # The map is not the territory
 

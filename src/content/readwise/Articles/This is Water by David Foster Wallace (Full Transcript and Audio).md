@@ -13,6 +13,7 @@ summary: |
   David Foster Wallace's commencement speech at Kenyon College explores the idea that the most important realities in life are often the hardest to see and talk about. He challenges the notion that a liberal arts education is about teaching students how to think, arguing instead that it is about teaching them what to think about. Wallace emphasizes the importance of choosing what to pay attention to and how to construct meaning from experience, rather than being driven by default settings and self-centeredness. He encourages graduates to be aware of their own certainties and to consider alternative perspectives, ultimately suggesting that this kind of critical awareness is the key to living a compassionate and meaningful life.
 source: reader
 permalink: l/articles/this-is-water-by-david-foster-wallace-full-transcript-and-audio
+slug: this-is-water-by-david-foster-wallace-full-transcript-and-audio
 ---
 # This is Water by David Foster Wallace (Full Transcript and Audio)
 

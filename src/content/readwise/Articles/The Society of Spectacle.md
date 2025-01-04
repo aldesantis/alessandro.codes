@@ -13,6 +13,7 @@ summary: |
   The Culture Industry won, get over it
 source: reader
 permalink: l/articles/the-society-of-spectacle
+slug: the-society-of-spectacle
 ---
 # The Society of Spectacle
 

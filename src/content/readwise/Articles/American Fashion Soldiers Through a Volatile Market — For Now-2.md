@@ -13,6 +13,7 @@ summary: |
   US retail sales stayed steady from May to June, but concerns about a potential recession are growing due to rising unemployment and increased consumer debt. Some fashion companies like Ralph Lauren are performing well, while others like Capri Holdings are struggling. Overall, consumer spending is cautious, as shoppers are affected by broader economic conditions.
 source: reader
 permalink: l/articles/american-fashion-soldiers-through-a-volatile-market-for-now-2
+slug: american-fashion-soldiers-through-a-volatile-market-for-now-2
 ---
 # American Fashion Soldiers Through a Volatile Market — For Now
 

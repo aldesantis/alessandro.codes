@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-moral-bucket-list
+slug: the-moral-bucket-list
 ---
 # The Moral Bucket List
 

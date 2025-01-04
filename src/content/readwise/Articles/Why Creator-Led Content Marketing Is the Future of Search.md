@@ -13,6 +13,7 @@ summary: |
   The era of creator-led search is set to reshape how we approach SEO, content marketing and digital PR efforts. Here's how we can embrace it.
 source: reader
 permalink: l/articles/why-creator-led-content-marketing-is-the-future-of-search
+slug: why-creator-led-content-marketing-is-the-future-of-search
 ---
 # Why Creator-Led Content Marketing Is the Future of Search
 

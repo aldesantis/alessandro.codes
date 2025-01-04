@@ -1,6 +1,8 @@
 ---
 permalink: n/chaotic-systems-are-not-random
+slug: chaotic-systems-are-not-random
 status: 
+title: Chaotic systems are not random
 ---
 # Chaotic systems are not random
 

@@ -13,6 +13,7 @@ summary: |
   Monopolistic competition exists when many companies offer competitive products or services that are similar, but not exact, substitutes.
 source: reader
 permalink: l/articles/monopolistic-competition-definition-how-it-works-pros-and-cons
+slug: monopolistic-competition-definition-how-it-works-pros-and-cons
 ---
 # Monopolistic Competition: Definition, How It Works, Pros and Cons
 

@@ -13,6 +13,7 @@ summary: |
   Google is focusing on YouTube to enhance its advertising capabilities amid rising competition from TikTok. The introduction of AI-driven campaign types like Performance Max aims to help brands find more cost-effective advertising strategies. Businesses must adapt their approach to advertising on these platforms, balancing creative execution and bidding strategies for success.
 source: reader
 permalink: l/articles/google-has-no-choice-but-to-bet-big-on-you-tube
+slug: google-has-no-choice-but-to-bet-big-on-you-tube
 ---
 # Google Has No Choice but to Bet Big on YouTube
 

@@ -13,6 +13,7 @@ summary: |
   Theory #35 | The arena rewards those who arrive early.
 source: reader
 permalink: l/articles/early-arriver-arbitrage
+slug: early-arriver-arbitrage
 ---
 # Early-Arriver Arbitrage
 

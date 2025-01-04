@@ -13,6 +13,7 @@ summary: |
   Walmart is considering acquiring Vizio, a smart TV maker, for over $2 billion to enhance its advertising business and compete with Amazon in the streaming media space. This move reflects the growing importance of consumer data and targeted advertising for major retailers to stay competitive. With Amazon's strong presence in shoppable ads and streaming services, Walmart aims to leverage Vizio's technology to offer targeted advertising on Vizio TVs and adapt to the changing landscape of retail and media where entertainment and commerce converge.
 source: reader
 permalink: l/articles/walmart-sets-sights-on-retail-media-as-content-and-commerce-blur
+slug: walmart-sets-sights-on-retail-media-as-content-and-commerce-blur
 ---
 # Walmart Sets Sights on Retail Media as Content and Commerce Blur
 

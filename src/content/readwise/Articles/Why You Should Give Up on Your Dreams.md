@@ -13,6 +13,7 @@ summary: |
   How dream bankruptcy can help you move forward in life and work
 source: reader
 permalink: l/articles/why-you-should-give-up-on-your-dreams
+slug: why-you-should-give-up-on-your-dreams
 ---
 # Why You Should Give Up on Your Dreams
 

@@ -13,6 +13,7 @@ summary: |
   How you respond to anomalies is a good indicator of your open-mindedness. Anomalies are like a glitch in the matrix.
 source: reader
 permalink: l/articles/brain-food-surface-area-of-luck
+slug: brain-food-surface-area-of-luck
 ---
 # Brain Food: Surface Area of Luck
 

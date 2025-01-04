@@ -1,6 +1,8 @@
 ---
 permalink: n/avoid-open-ended-next-steps-in-sales
+slug: avoid-open-ended-next-steps-in-sales
 status: seedling
+title: Avoid open-ended next steps in sales
 ---
 # Avoid open-ended next steps in sales
 

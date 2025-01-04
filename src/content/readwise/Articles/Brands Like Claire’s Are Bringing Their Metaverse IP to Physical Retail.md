@@ -13,6 +13,7 @@ summary: |
   More brands like Claire's are trying to sell items tied to Roblox intellectual property in their physical stores.
 source: reader
 permalink: l/articles/brands-like-claire-s-are-bringing-their-metaverse-ip-to-physical-retail
+slug: brands-like-claire-s-are-bringing-their-metaverse-ip-to-physical-retail
 ---
 # Brands Like Claire’s Are Bringing Their Metaverse IP to Physical Retail
 

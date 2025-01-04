@@ -13,6 +13,7 @@ summary: |
   Merchandise, or "merch," has evolved into a dominant force in retail, blurring the lines between products and cultural symbols. Everything from luxury items to toys can be considered merch, serving as status symbols and expressions of identity. Modern merch transcends physical objects to become a reflection of social and cultural values in today's consumer-driven world.
 source: reader
 permalink: l/articles/everything-is-merch
+slug: everything-is-merch
 ---
 # Everything Is Merch
 

@@ -13,6 +13,7 @@ summary: |
   eBay's new goal is to "reinvent the future of e-commerce for enthusiasts." It says it has 16 million of them.
 source: reader
 permalink: l/articles/16-million-people-who-love-e-bay
+slug: 16-million-people-who-love-e-bay
 ---
 # 16 Million People Who Love eBay
 

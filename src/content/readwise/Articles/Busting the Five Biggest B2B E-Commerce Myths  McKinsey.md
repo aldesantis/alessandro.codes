@@ -13,6 +13,7 @@ summary: |
   E-commerce is a crucial sales channel for B2B companies, with two-thirds of corporate buyers relying on digital and remote channels throughout the buying journey. In-person selling is no longer the most effective channel, with e-commerce accounting for more than 18% of revenue for the average B2B company. Misconceptions exist that need to be dispelled, including the notion that customers aren't ready for e-commerce and that e-commerce is an immature space for businesses. B2B companies are treating e-commerce as a full-service channel and investing accordingly, with digital marketplaces becoming an important part of the purchasing mix.
 source: reader
 permalink: l/articles/busting-the-five-biggest-b-2-b-e-commerce-myths-mc-kinsey
+slug: busting-the-five-biggest-b-2-b-e-commerce-myths-mc-kinsey
 ---
 # Busting the Five Biggest B2B E-Commerce Myths | McKinsey
 

@@ -13,6 +13,7 @@ summary: |
   Industrial genius Carl Braun believed that clear thinking and clear communication go hand in hand. Here the guide on writing productively to get things done.
 source: reader
 permalink: l/articles/carl-braun-s-writing-lessons-for-clear-thinking-and-productive-communication
+slug: carl-braun-s-writing-lessons-for-clear-thinking-and-productive-communication
 ---
 # Carl Braun’s Writing Lessons for Clear Thinking and Productive Communication
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/how-hard-should-i-push-myself-superorganizers-every
+slug: how-hard-should-i-push-myself-superorganizers-every
 ---
 # How Hard Should I Push Myself? - Superorganizers - Every
 

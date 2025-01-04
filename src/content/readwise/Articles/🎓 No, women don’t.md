@@ -13,6 +13,7 @@ summary: |
   Your sister-in-law loves music. Her birthday is approaching and you decide to get her a vinyl player.
 source: reader
 permalink: l/articles/no-women-don-t
+slug: no-women-don-t
 ---
 # 🎓 No, women don’t
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/dreams-matter-because-of-their-function
+slug: dreams-matter-because-of-their-function
 status: 
+title: Dreams matter because of their function
 ---
 # Dreams matter because of their function
 

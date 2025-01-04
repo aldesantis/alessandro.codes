@@ -13,6 +13,7 @@ summary: |
   The author reflects on the nature of attraction and relationships, inspired by Gertrude Stein's perspective on not labeling desire. He shares his experience of meeting his wife, Johanna, and the unique connection they have through deep conversations. The piece emphasizes the importance of recognizing and valuing meaningful relationships, even when they are hard to explain to others.
 source: reader
 permalink: l/articles/looking-for-alice
+slug: looking-for-alice
 ---
 # Looking for Alice
 

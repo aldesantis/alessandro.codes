@@ -13,6 +13,7 @@ summary: |
   If you’re reading this, good luck in the upcoming week. For us who work in CPG, this is our Era’s Tour!!
 source: reader
 permalink: l/articles/the-bare-minimum-you-must-do-for-retention-marketing
+slug: the-bare-minimum-you-must-do-for-retention-marketing
 ---
 # The Bare Minimum You Must Do for Retention Marketing
 

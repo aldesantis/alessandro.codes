@@ -13,6 +13,7 @@ summary: |
   The Saturday before the U. S.
 source: reader
 permalink: l/articles/the-ugly-beauty-shot-you-never-expected-to-read
+slug: the-ugly-beauty-shot-you-never-expected-to-read
 ---
 # 🏡 the Ugly Beauty Shot You Never Expected to Read
 

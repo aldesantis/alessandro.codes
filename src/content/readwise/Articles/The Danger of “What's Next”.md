@@ -13,6 +13,7 @@ summary: |
   The text discusses the danger of always focusing on "What's next" and never being satisfied with the present. It encourages readers to find joy in the current moment and appreciate what they have now. The author suggests asking reflective questions to shift perspective and prioritize enjoying the journey over constantly striving for the next achievement.
 source: reader
 permalink: l/articles/the-danger-of-what-s-next
+slug: the-danger-of-what-s-next
 ---
 # The Danger of “What's Next?”
 

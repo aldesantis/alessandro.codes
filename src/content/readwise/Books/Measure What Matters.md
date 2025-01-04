@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/measure-what-matters
+slug: measure-what-matters
 ---
 # Measure What Matters
 

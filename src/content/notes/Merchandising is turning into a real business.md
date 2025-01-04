@@ -1,6 +1,8 @@
 ---
 permalink: n/merchandising-is-turning-into-a-real-business
+slug: merchandising-is-turning-into-a-real-business
 status: 
+title: Merchandising is turning into a real business
 ---
 # Merchandising is turning into a real business
 

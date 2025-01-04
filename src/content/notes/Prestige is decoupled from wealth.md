@@ -1,6 +1,8 @@
 ---
 permalink: n/prestige-is-decoupled-from-wealth
+slug: prestige-is-decoupled-from-wealth
 status: 
+title: Prestige is decoupled from wealth
 ---
 # Prestige is decoupled from wealth
 

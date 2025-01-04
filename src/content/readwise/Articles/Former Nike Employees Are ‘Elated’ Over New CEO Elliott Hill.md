@@ -13,6 +13,7 @@ summary: |
   A half-dozen former Nike employees described Elliott Hill, the company's soon-to-be CEO, as a widely-beloved company veteran.
 source: reader
 permalink: l/articles/former-nike-employees-are-elated-over-new-ceo-elliott-hill
+slug: former-nike-employees-are-elated-over-new-ceo-elliott-hill
 ---
 # Former Nike Employees Are ‘Elated’ Over New CEO Elliott Hill
 

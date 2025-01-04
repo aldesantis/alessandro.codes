@@ -13,6 +13,7 @@ summary: |
   MUSES is a multifaceted media property that celebrates sources of inspiration and explores the role of technology, commerce, and innovation in creating new inspiration. The three-day event included a retail pop-up shop, an exhibition curated by Tam Gryn, thought leadership events, workshops, panel discussions, and a launch party for the annual print Journal, MUSES. The event brought together brand leaders to explore new worlds of commerce and expand their thinking. The exhibition showcased the work of various artists and included interactive installations, performances, and a shoppable store. The MUSES Journal, featuring essays, interviews, insights, and more, was also launched during the event.
 source: reader
 permalink: l/articles/ancient-inspiration-and-divine-innovation-a-recap-of-muses
+slug: ancient-inspiration-and-divine-innovation-a-recap-of-muses
 ---
 # Ancient Inspiration and Divine Innovation: A Recap of MUSES
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/work-the-policy-not-the-exception
+slug: work-the-policy-not-the-exception
 status: 
+title: Work the policy, not the exception
 ---
 # Work the policy, not the exception
 

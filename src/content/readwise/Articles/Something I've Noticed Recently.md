@@ -13,6 +13,7 @@ summary: |
   Today, let's talk about trends and anti-trends. Something I've learned is the best businesses ride trends and anti-trends.
 source: reader
 permalink: l/articles/something-i-ve-noticed-recently
+slug: something-i-ve-noticed-recently
 ---
 # Something I've Noticed Recently
 

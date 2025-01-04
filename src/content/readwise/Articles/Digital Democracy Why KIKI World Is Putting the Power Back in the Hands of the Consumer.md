@@ -13,6 +13,7 @@ summary: |
   Brand CEO  Jana Bobosikova explains the KIKI World approach to brand community and product development, underlined by a web3-, AI- and blockchain-driven platform.
 source: reader
 permalink: l/articles/digital-democracy-why-kiki-world-is-putting-the-power-back-in-the-hands-of-the-consumer
+slug: digital-democracy-why-kiki-world-is-putting-the-power-back-in-the-hands-of-the-consumer
 ---
 # Digital Democracy: Why KIKI World Is Putting the Power Back in the Hands of the Consumer
 

@@ -13,6 +13,7 @@ summary: |
   The consumer has matured immensely beyond the days of short-term tactics like ‘add to cart.'
 source: reader
 permalink: l/articles/commerce-can-no-longer-be-where-creative-goes-to-die
+slug: commerce-can-no-longer-be-where-creative-goes-to-die
 ---
 # Commerce Can No Longer Be Where Creative Goes to Die
 

@@ -13,6 +13,7 @@ summary: |
   40 Harsh Truths I Know at 40 but Wish I Knew at 20 – When you receive this I will have just celebrated my 40th birthday.
 source: reader
 permalink: l/articles/do-you-doubt-yourself-good
+slug: do-you-doubt-yourself-good
 ---
 # Do You Doubt Yourself? Good.
 

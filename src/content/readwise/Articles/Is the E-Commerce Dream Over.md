@@ -13,6 +13,7 @@ summary: |
   The e-commerce boom during the pandemic has slowed down, affecting home goods retailers like Bellacor and Burke Decor. Designers are facing challenges as online sales decline, but there is hope for growth in the long term according to Forrester's predictions. Adapting strategies and focusing on unique products can help designers succeed in the competitive e-commerce landscape.
 source: reader
 permalink: l/articles/is-the-e-commerce-dream-over
+slug: is-the-e-commerce-dream-over
 ---
 # Is the E-Commerce Dream Over?
 

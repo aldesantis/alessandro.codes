@@ -13,6 +13,7 @@ summary: |
   Don’t make the mistake of comparing someone else’s external life to your internal life.
 source: reader
 permalink: l/articles/why-comparing-yourself-to-others-ruins-everything
+slug: why-comparing-yourself-to-others-ruins-everything
 ---
 # Why Comparing Yourself to Others Ruins Everything
 

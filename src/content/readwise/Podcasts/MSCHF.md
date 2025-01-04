@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/mschf
+slug: mschf
 ---
 # MSCHF
 

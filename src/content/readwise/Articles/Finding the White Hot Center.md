@@ -13,6 +13,7 @@ summary: |
   There is an unusually active cluster in the network of your customers. Find it, focus on it, and it will be a growth bomb for your startup.
 source: reader
 permalink: l/articles/finding-the-white-hot-center
+slug: finding-the-white-hot-center
 ---
 # Finding the White Hot Center
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/crucial-conversations-tools-for-talking-when-stakes-are-high
+slug: crucial-conversations-tools-for-talking-when-stakes-are-high
 ---
 # Crucial Conversations Tools for Talking When Stakes Are High
 

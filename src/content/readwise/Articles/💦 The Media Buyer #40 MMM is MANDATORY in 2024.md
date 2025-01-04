@@ -13,6 +13,7 @@ summary: |
   Get MMM+ now and make 2023 your best year yet. If you're lucky, your data will be complete enough that you can use it through the holiday season.
 source: reader
 permalink: l/articles/the-media-buyer-40-mmm-is-mandatory-in-2024
+slug: the-media-buyer-40-mmm-is-mandatory-in-2024
 ---
 # 💦 The Media Buyer #40: MMM is MANDATORY in 2024
 

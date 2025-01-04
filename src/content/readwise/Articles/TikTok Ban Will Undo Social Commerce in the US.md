@@ -13,6 +13,7 @@ summary: |
   TikTok Shop is expected to sell about $8 billion in goods this year, but it will be banned in January, causing social commerce to decline. Users and brands may move to platforms like YouTube Shorts and Instagram Reels, which do not offer shopping features. The TikTok ban will disrupt the rapid growth of social commerce, which has thrived by allowing users to buy products directly after seeing them in videos.
 source: reader
 permalink: l/articles/tik-tok-ban-will-undo-social-commerce-in-the-us
+slug: tik-tok-ban-will-undo-social-commerce-in-the-us
 ---
 # TikTok Ban Will Undo Social Commerce in the US
 

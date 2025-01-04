@@ -13,6 +13,7 @@ summary: |
   The Row's recent fashion show in Paris banned phones, asking guests to take handwritten notes instead. This decision sparked mixed reactions, with some praising the nostalgia while others felt it created exclusivity and alienated potential fans. By limiting social media sharing, The Row aims to control its brand image and build intrigue around its collection.
 source: reader
 permalink: l/articles/what-a-no-phone-fashion-show-means-in-the-social-media-era
+slug: what-a-no-phone-fashion-show-means-in-the-social-media-era
 ---
 # What a No-Phone Fashion Show Means in the Social Media Era
 

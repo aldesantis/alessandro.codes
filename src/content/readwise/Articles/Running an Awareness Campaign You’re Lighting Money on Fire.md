@@ -13,6 +13,7 @@ summary: |
   I hope that if you’re reading this, you’re sitting back on a couch, feet up, relaxed, and have a face balm in your hand to hydrate your skin while we talk shop.
 source: reader
 permalink: l/articles/running-an-awareness-campaign-you-re-lighting-money-on-fire
+slug: running-an-awareness-campaign-you-re-lighting-money-on-fire
 ---
 # Running an Awareness Campaign? You’re Lighting Money on Fire
 

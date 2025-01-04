@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/hugging-the-x-axis
+slug: hugging-the-x-axis
 ---
 # Hugging the X-Axis
 

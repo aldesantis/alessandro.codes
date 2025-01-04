@@ -13,6 +13,7 @@ summary: |
   The author reflects on her changing relationship with selfies, noting that she has taken fewer over the years and feels like a "photographic recluse." She discusses the tension between wanting to capture her essence and feeling that posing for photos is inauthentic. Ultimately, she finds beauty in being present in life rather than trying to document it through carefully posed images.
 source: reader
 permalink: l/articles/192-annihilation-of-the-selfie
+slug: 192-annihilation-of-the-selfie
 ---
 # #192: Annihilation of the Selfie
 

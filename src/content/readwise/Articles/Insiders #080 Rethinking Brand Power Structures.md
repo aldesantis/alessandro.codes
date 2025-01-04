@@ -13,6 +13,7 @@ summary: |
   In this piece, we will challenge you to consider, measure, and document what is powerful to your brand, and your customers, and ask you to rethink how you build and optimize experiences.
 source: reader
 permalink: l/articles/insiders-080-rethinking-brand-power-structures
+slug: insiders-080-rethinking-brand-power-structures
 ---
 # Insiders #080: Rethinking Brand Power Structures
 

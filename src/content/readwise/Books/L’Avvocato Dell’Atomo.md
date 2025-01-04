@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/l-avvocato-dell-atomo
+slug: l-avvocato-dell-atomo
 ---
 # L’Avvocato Dell’Atomo
 

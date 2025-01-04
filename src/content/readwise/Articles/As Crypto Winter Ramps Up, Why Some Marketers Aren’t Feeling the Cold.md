@@ -13,6 +13,7 @@ summary: |
   In 2023, some brands’ executive boardrooms are still insulated from the chill of crypto winter, for better or worse. But the rising pressure of crypto skepticism has made it more urgent than ever for companies to figure out how to use blockchain technology to support their core offerings and customer base rather than simply dropping branded NFTs and hoping for the best.
 source: reader
 permalink: l/articles/as-crypto-winter-ramps-up-why-some-marketers-aren-t-feeling-the-cold
+slug: as-crypto-winter-ramps-up-why-some-marketers-aren-t-feeling-the-cold
 ---
 # As Crypto Winter Ramps Up, Why Some Marketers Aren’t Feeling the Cold
 

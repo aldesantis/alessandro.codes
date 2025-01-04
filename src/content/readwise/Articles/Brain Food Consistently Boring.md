@@ -13,6 +13,7 @@ summary: |
   This is the time of year I reflect on 2023 before thinking about 2024.
 source: reader
 permalink: l/articles/brain-food-consistently-boring
+slug: brain-food-consistently-boring
 ---
 # Brain Food: Consistently Boring
 

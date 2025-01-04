@@ -13,6 +13,7 @@ summary: |
   SOME PERSONAL NEWS 💬 Last week I announced that my digital fashion platform DRAUP had been acquired by TRIBUTE BRAND — the first company creating clothes for fashion’s new realities.
 source: reader
 permalink: l/articles/brain-rot-12-30-2024
+slug: brain-rot-12-30-2024
 ---
 # Brain Rot [12.30.2024]
 

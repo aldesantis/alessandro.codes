@@ -13,6 +13,7 @@ summary: |
   Brand marketing and direct response marketing serve different purposes in digital marketing. Brand marketing builds awareness and affinity for a product, while direct response marketing aims for immediate consumer action. For digital products, direct response marketing is generally more effective, with brand marketing playing a supportive role.
 source: reader
 permalink: l/articles/the-perilous-mythology-of-brand-marketing-for-digital-products
+slug: the-perilous-mythology-of-brand-marketing-for-digital-products
 ---
 # The perilous mythology of Brand Marketing for digital products
 

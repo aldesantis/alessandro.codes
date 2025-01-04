@@ -1,6 +1,8 @@
 ---
 permalink: n/hiring-is-a-network-effect
+slug: hiring-is-a-network-effect
 status: 
+title: Hiring is a network effect
 ---
 # Hiring is a network effect
 

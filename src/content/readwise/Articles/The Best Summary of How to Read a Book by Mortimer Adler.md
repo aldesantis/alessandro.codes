@@ -13,6 +13,7 @@ summary: |
   Mortimer Adler's "How to Read a Book" explains four levels of reading: for entertainment, to inform, to understand, and to master. Elementary and inspectional reading are key for deciding if a book is worth deeper analysis, followed by analytical reading for understanding and syntopical reading for mastering a subject by comparing various sources. Each level requires different approaches, from skimming to deep analysis, to become a demanding reader who asks critical questions and seeks answers.
 source: reader
 permalink: l/articles/the-best-summary-of-how-to-read-a-book-by-mortimer-adler
+slug: the-best-summary-of-how-to-read-a-book-by-mortimer-adler
 ---
 # The Best Summary of How to Read a Book by Mortimer Adler
 

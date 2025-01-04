@@ -13,6 +13,7 @@ summary: |
   For the last month, I have been advocating the need to develop a new SEO approach to generative AI, and now that I have had a chance to experiment with Google’s SGE, I have more thoughts on what that strategy might look like. My approach will continue to evolve as I experiment with SEO in AI, so this is a work in progress. Additionally, it is still very early in Google’s own journey into generative AI within search and how AI and search mix will continue to change. I have noticed that AI responses have stopped appearing on some queries it did before and then it comes back.
 source: reader
 permalink: l/articles/seo-in-an-ai-world-first-draft-of-a-strategy
+slug: seo-in-an-ai-world-first-draft-of-a-strategy
 ---
 # SEO in an AI World: First Draft of a Strategy
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/how-brands-grow
+slug: how-brands-grow
 ---
 # How Brands Grow
 

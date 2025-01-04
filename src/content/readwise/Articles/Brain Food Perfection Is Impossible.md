@@ -13,6 +13,7 @@ summary: |
   "The Blank Sheet Method transforms passive reading into active learning.
 source: reader
 permalink: l/articles/brain-food-perfection-is-impossible
+slug: brain-food-perfection-is-impossible
 ---
 # Brain Food: Perfection Is Impossible
 

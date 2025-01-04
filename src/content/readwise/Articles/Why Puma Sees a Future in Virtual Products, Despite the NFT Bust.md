@@ -13,6 +13,7 @@ summary: |
   Despite some early bumps, the sneaker brand sees long-term opportunities in virtual goods and experiences.
 source: reader
 permalink: l/articles/why-puma-sees-a-future-in-virtual-products-despite-the-nft-bust
+slug: why-puma-sees-a-future-in-virtual-products-despite-the-nft-bust
 ---
 # Why Puma Sees a Future in Virtual Products, Despite the NFT Bust
 

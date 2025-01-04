@@ -1,6 +1,8 @@
 ---
 permalink: n/wholesale-is-for-breadth-dtc-is-for-depth
+slug: wholesale-is-for-breadth-dtc-is-for-depth
 status: 
+title: Wholesale is for breadth, DTC is for depth
 ---
 # Wholesale is for breadth, DTC is for depth
 

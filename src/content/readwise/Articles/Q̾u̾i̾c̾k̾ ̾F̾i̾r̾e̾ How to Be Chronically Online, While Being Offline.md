@@ -13,6 +13,7 @@ summary: |
   Bottega Veneta has become a top luxury brand in 2024 without having any social media accounts. Instead of focusing on online trends, they engage with culture through unique in-person events and collaborations. This strategy allows them to stand out authentically in a crowded digital landscape.
 source: reader
 permalink: l/articles/q-u-i-c-k-f-i-r-e-how-to-be-chronically-online-while-being-offline
+slug: q-u-i-c-k-f-i-r-e-how-to-be-chronically-online-while-being-offline
 ---
 # Q̾u̾i̾c̾k̾ ̾F̾i̾r̾e̾: How to Be Chronically Online, While Being Offline
 

@@ -1,6 +1,8 @@
 ---
 permalink: n/make-people-feel-good-about-themselves-to-make-them-like-you
+slug: make-people-feel-good-about-themselves-to-make-them-like-you
 status: 
+title: Make people feel good about themselves to make them like you
 ---
 # Make people feel good about themselves to make them like you
 

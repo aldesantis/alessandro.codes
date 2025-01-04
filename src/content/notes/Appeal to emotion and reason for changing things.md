@@ -1,6 +1,8 @@
 ---
 permalink: n/appeal-to-emotion-and-reason-for-changing-things
+slug: appeal-to-emotion-and-reason-for-changing-things
 status: 
+title: Appeal to emotion and reason for changing things
 ---
 # Appeal to emotion and reason for changing things
 

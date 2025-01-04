@@ -13,6 +13,7 @@ summary: |
   I hope you’re sitting back, relaxed, have your feet up and a beverage in your non-dominant hand. Today I’m sipping on Boba Guys tea (they’re the greatest).
 source: reader
 permalink: l/articles/lessons-from-ben-the-president-of-a-250-m-bootstrapped-business
+slug: lessons-from-ben-the-president-of-a-250-m-bootstrapped-business
 ---
 # Lessons From Ben, the President of a $250M Bootstrapped Business
 

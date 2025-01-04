@@ -13,6 +13,7 @@ summary: |
   Market entry planning has a playbook
 source: reader
 permalink: l/articles/the-dtc-roadmap-for-offline-expansion
+slug: the-dtc-roadmap-for-offline-expansion
 ---
 # The DTC Roadmap for Offline Expansion
 

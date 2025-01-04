@@ -13,6 +13,7 @@ summary: |
   At Christie's Art + Tech Summit, discussions about artificial intelligence revealed a lack of clear applications and concerns over its high costs. Speakers like Steve Wozniak criticized the industry's focus on hype rather than practical solutions, while others suggested AI could boost productivity by handling tedious tasks. The event highlighted the murky relationship between AI and creativity, with many questioning how it will impact jobs and ethics in the future.
 source: reader
 permalink: l/articles/at-christie-s-art-tech-summit-a-i-dominated-but-there-were-few-answers-about-its-utility
+slug: at-christie-s-art-tech-summit-a-i-dominated-but-there-were-few-answers-about-its-utility
 ---
 # At Christie’s Art + Tech Summit, A.I. Dominated but There Were Few Answers About Its Utility
 

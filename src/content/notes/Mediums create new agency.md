@@ -1,6 +1,8 @@
 ---
 permalink: n/mediums-create-new-agency
+slug: mediums-create-new-agency
 status: 
+title: Mediums create new agency
 ---
 # Mediums create new agency
 

@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/e-033-cyber-monday-results-contract-manufacturing-global-commerce-dynamics-market-competition
+slug: e-033-cyber-monday-results-contract-manufacturing-global-commerce-dynamics-market-competition
 ---
 # E033 —  Cyber Monday Results, Contract Manufacturing, Global Commerce Dynamics, Market Competition.
 

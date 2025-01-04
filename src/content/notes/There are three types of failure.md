@@ -1,6 +1,8 @@
 ---
 permalink: n/there-are-three-types-of-failure
+slug: there-are-three-types-of-failure
 status: 
+title: There are three types of failure
 ---
 # There are three types of failure
 

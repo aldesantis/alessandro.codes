@@ -13,6 +13,7 @@ summary: |
   The retail and eCommerce landscape is struggling with changes from social media and economic pressures, making marketing increasingly challenging. There is a need for innovation and adaptation in the industry to avoid stagnation and meet new consumer demands. Despite these difficulties, there is still hope for positive change and growth if the sector embraces new approaches.
 source: reader
 permalink: l/articles/10-things-i-hate-about-you-a-love-letter-to-ecomm-and-retail
+slug: 10-things-i-hate-about-you-a-love-letter-to-ecomm-and-retail
 ---
 # 10 Things I Hate About You: A Love Letter to Ecomm and Retail.
 

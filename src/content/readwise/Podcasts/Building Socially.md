@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/building-socially
+slug: building-socially
 ---
 # Building Socially
 

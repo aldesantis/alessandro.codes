@@ -13,6 +13,7 @@ summary: |
   The internet is changing due to the rise of AI, threatening the traditional roles of writers and publishers. AI-generated content and large language models (LLMs) may disrupt the connection between creators and audiences. To preserve the web as a valuable resource, it is crucial for platforms to prioritize human creativity and knowledge production over AI optimization.
 source: reader
 permalink: l/articles/it-s-the-end-of-the-web-as-we-know-it
+slug: it-s-the-end-of-the-web-as-we-know-it
 ---
 # It’s the End of the Web as We Know It
 

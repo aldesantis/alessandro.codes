@@ -13,6 +13,7 @@ summary: |
   The text discusses the rapid evolution of industries like ecommerce and the challenges posed by companies like Shein in terms of sustainability and market impact. It emphasizes the importance of asking good questions to drive innovation and profitability in retail and ecommerce, highlighting the need for a shift in consumer behavior and industry practices. Additionally, the text touches on the intersection of technology, commerce, and regulation in shaping the future of global trade and domestic industries.
 source: reader
 permalink: l/articles/do-not-try-and-bend-the-spoon-that-s-impossible-instead-only-try-to-realize-the-truth-there-is-no-spoon
+slug: do-not-try-and-bend-the-spoon-that-s-impossible-instead-only-try-to-realize-the-truth-there-is-no-spoon
 ---
 # Do Not Try and Bend the Spoon. That's Impossible. Instead... Only Try to Realize the Truth. There Is No Spoon.
 

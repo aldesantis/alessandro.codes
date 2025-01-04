@@ -13,6 +13,7 @@ summary: |
   Working Theorys is a collection of essays on life, art, & business, thru the lens of startups — written by me, for thousands of readers.
 source: reader
 permalink: l/articles/writing-wrapped
+slug: writing-wrapped
 ---
 # Writing Wrapped
 

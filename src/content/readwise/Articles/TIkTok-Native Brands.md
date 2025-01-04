@@ -13,6 +13,7 @@ summary: |
   A product called GuruNanda Cocomint Pulling Oil has seen remarkable success on TikTok, selling over 1.2 million units on the platform. This success is attributed to the content-driven nature of TikTok, where users purchase items they see featured in videos rather than through search. The product's popularity on TikTok has also translated into success on other platforms like Amazon and Google. TikTok's unique approach to e-commerce presents opportunities for lesser-known brands to thrive, emphasizing the importance of engaging video content over traditional marketing strategies.
 source: reader
 permalink: l/articles/t-ik-tok-native-brands
+slug: t-ik-tok-native-brands
 ---
 # TIkTok-Native Brands
 

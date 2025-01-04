@@ -13,6 +13,7 @@ summary: |
   Pivot Points are personal strengths or weaknesses that can help or hinder us in different situations. By understanding and leveraging these Pivot Points, both individuals and companies can create better strategies for success. Embracing our Pivot Points allows us to align our lives and businesses with our true capabilities, leading to greater fulfillment and effectiveness.
 source: reader
 permalink: l/articles/applying-pivot-points
+slug: applying-pivot-points
 ---
 # Applying Pivot Points
 

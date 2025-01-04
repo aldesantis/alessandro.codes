@@ -13,6 +13,7 @@ summary: |
   Resale platforms at fast-fashion retailers may do little to reduce emissions and companies like H&M and Shein are better off investing in their supply chains.
 source: reader
 permalink: l/articles/fast-fashion-is-leaning-into-resale-but-it-may-do-little-to-reduce-emissions-new-study-says
+slug: fast-fashion-is-leaning-into-resale-but-it-may-do-little-to-reduce-emissions-new-study-says
 ---
 # Fast Fashion Is Leaning Into Resale, but It May Do Little to Reduce Emissions, New Study Says
 

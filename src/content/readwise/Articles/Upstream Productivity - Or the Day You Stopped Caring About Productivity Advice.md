@@ -13,6 +13,7 @@ summary: |
   The author explores the concept of productivity and its connection to biological health and purpose. Productivity is seen as a result of caring for your body and being passionate about your work. The key to productivity lies in prioritizing biological health, energy levels, and pursuing meaningful work.
 source: reader
 permalink: l/articles/upstream-productivity-or-the-day-you-stopped-caring-about-productivity-advice
+slug: upstream-productivity-or-the-day-you-stopped-caring-about-productivity-advice
 ---
 # Upstream Productivity - Or the Day You Stopped Caring About Productivity Advice
 

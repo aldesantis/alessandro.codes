@@ -13,6 +13,7 @@ summary: |
   Digital Product Passport (DPP) makes information about a product’s sustainability available to various stakeholders.
 source: reader
 permalink: l/articles/digital-product-passport
+slug: digital-product-passport
 ---
 # Digital Product Passport
 

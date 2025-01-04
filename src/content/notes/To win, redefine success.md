@@ -1,6 +1,8 @@
 ---
 permalink: n/to-win-redefine-success
+slug: to-win-redefine-success
 status: 
+title: To win, redefine success
 ---
 # To win, redefine success
 

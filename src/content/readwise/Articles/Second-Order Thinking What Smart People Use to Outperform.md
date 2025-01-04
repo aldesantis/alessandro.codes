@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/second-order-thinking-what-smart-people-use-to-outperform
+slug: second-order-thinking-what-smart-people-use-to-outperform
 ---
 # Second-Order Thinking: What Smart People Use to Outperform
 

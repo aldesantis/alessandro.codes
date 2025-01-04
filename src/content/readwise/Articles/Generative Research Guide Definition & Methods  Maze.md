@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/generative-research-guide-definition-methods-maze
+slug: generative-research-guide-definition-methods-maze
 ---
 # Generative Research Guide: Definition & Methods | Maze
 

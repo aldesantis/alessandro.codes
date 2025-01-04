@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/the-untold-story-of-buffer-s-values-why-we-created-them-and-why-it-hurt
+slug: the-untold-story-of-buffer-s-values-why-we-created-them-and-why-it-hurt
 ---
 # The Untold Story of Buffer’s Values: Why We Created Them, and Why It Hurt
 

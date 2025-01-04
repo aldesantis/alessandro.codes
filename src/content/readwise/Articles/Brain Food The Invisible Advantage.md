@@ -13,6 +13,7 @@ summary: |
   “If a riverbed remains unchanged, the water will continue to flow along the path it always has, since that is the most natural route for it to take.
 source: reader
 permalink: l/articles/brain-food-the-invisible-advantage
+slug: brain-food-the-invisible-advantage
 ---
 # Brain Food: The Invisible Advantage
 

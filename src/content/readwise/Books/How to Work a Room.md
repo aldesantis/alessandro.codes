@@ -13,6 +13,7 @@ summary: |
   None
 source: kindle
 permalink: l/books/how-to-work-a-room
+slug: how-to-work-a-room
 ---
 # How to Work a Room
 

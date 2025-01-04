@@ -13,6 +13,7 @@ summary: |
   Brian Morrissey discusses how Nike, once a leader in branding and innovation, is now struggling due to poor decisions and a shift away from its core values. The company's stock has dropped significantly as it overextends itself and focuses too much on direct-to-consumer sales at the expense of brand building. As competition grows, Nike risks losing its identity and market position by trying to appeal to everyone instead of staying true to its roots in athletic performance.
 source: reader
 permalink: l/articles/ambition-doesn-t-need-permission
+slug: ambition-doesn-t-need-permission
 ---
 # Ambition Doesn't Need Permission*
 

@@ -13,6 +13,7 @@ summary: |
   Narrative Aircover & Compound Narrative explores the challenges and strategies for independent consultants in creating their own labels and identities. Part 1 focuses on the concept of narrative aircover, which involves using a project or passion project as a shelter and protection for the emerging consulting identity. This narrative aircover should be expansive, passionate, and unblocked, allowing consultants to grow their network, showcase their interests, and have more control over their own narrative. Part 2 delves into the concept of compound narrative, which involves viewing each client as an opportunity to deepen one's perspective and experience in consulting. Consultants are encouraged to find a narrative frame that ignites their curiosity and to ask open-ended questions that sustain their learning and growth.
 source: reader
 permalink: l/articles/narrative-aircover-compound-narrative
+slug: narrative-aircover-compound-narrative
 ---
 # Narrative Aircover & Compound Narrative
 

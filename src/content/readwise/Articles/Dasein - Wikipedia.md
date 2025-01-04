@@ -13,6 +13,7 @@ summary: |
   "Dasein" is a term used by philosopher Martin Heidegger to describe the unique way humans exist in the world. It emphasizes being engaged with our surroundings and understanding our individual existence. Heidegger contrasts authentic Dasein, which involves personal meaning, with inauthentic Dasein, where people lose their individuality by conforming to social norms.
 source: reader
 permalink: l/articles/dasein-wikipedia
+slug: dasein-wikipedia
 ---
 # Dasein - Wikipedia
 

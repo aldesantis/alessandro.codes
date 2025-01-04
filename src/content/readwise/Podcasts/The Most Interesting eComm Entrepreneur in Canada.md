@@ -13,6 +13,7 @@ summary: |
   None
 source: snipd
 permalink: l/podcasts/the-most-interesting-e-comm-entrepreneur-in-canada
+slug: the-most-interesting-e-comm-entrepreneur-in-canada
 ---
 # The Most Interesting eComm Entrepreneur in Canada?
 

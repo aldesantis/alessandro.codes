@@ -13,6 +13,7 @@ summary: |
   None
 source: pocket
 permalink: l/articles/org-structure-isn-t-everything-in-org-design
+slug: org-structure-isn-t-everything-in-org-design
 ---
 # Org Structure Isn’t Everything in Org Design
 

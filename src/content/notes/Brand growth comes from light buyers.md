@@ -1,6 +1,8 @@
 ---
 permalink: n/brand-growth-comes-from-light-buyers
+slug: brand-growth-comes-from-light-buyers
 status: 
+title: Brand growth comes from light buyers
 ---
 # Brand growth comes from light buyers
 

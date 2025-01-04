@@ -13,6 +13,7 @@ summary: |
   None
 source: web_clipper
 permalink: l/articles/you-probably-shouldn-t-work-at-a-startup-napkin-math-every
+slug: you-probably-shouldn-t-work-at-a-startup-napkin-math-every
 ---
 # You Probably Shouldn’t Work at a Startup - Napkin Math - Every
 

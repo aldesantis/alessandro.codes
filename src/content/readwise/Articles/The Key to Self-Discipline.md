@@ -13,6 +13,7 @@ summary: |
   Why It's So Hard to Make Friends as an Adult – Making friends is hard, and I hate to tell you, it gets harder.
 source: reader
 permalink: l/articles/the-key-to-self-discipline
+slug: the-key-to-self-discipline
 ---
 # The Key to Self-Discipline
 

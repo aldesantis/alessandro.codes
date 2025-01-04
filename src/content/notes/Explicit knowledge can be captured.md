@@ -1,6 +1,8 @@
 ---
 permalink: n/explicit-knowledge-can-be-captured
+slug: explicit-knowledge-can-be-captured
 status: 
+title: Explicit knowledge can be captured
 ---
 # Explicit knowledge can be captured
 

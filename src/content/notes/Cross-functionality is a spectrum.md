@@ -1,6 +1,8 @@
 ---
 permalink: n/cross-functionality-is-a-spectrum
+slug: cross-functionality-is-a-spectrum
 status: 
+title: Cross-functionality is a spectrum
 ---
 # Cross-functionality is a spectrum
 

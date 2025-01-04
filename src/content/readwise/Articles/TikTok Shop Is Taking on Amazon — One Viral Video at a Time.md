@@ -13,6 +13,7 @@ summary: |
   TikTok has surged into the e-commerce space, positioning itself as a kind of Amazon for the social media age. Analysts say it might work, but users and sellers are asking: At what price?
 source: reader
 permalink: l/articles/tik-tok-shop-is-taking-on-amazon-one-viral-video-at-a-time
+slug: tik-tok-shop-is-taking-on-amazon-one-viral-video-at-a-time
 ---
 # TikTok Shop Is Taking on Amazon — One Viral Video at a Time
 

@@ -13,6 +13,7 @@ summary: |
   In 2024, the fashion industry focused on practical tech solutions, particularly in artificial intelligence and e-commerce. Companies consolidated and personalized their offerings while exploring new digital goods like smart glasses and NFTs, though enthusiasm for these technologies was mixed. Overall, the year emphasized immediate results and efficient use of technology in fashion rather than speculative trends.
 source: reader
 permalink: l/articles/2024-s-big-tech-lessons-and-surprises
+slug: 2024-s-big-tech-lessons-and-surprises
 ---
 # 2024’s Big Tech Lessons and Surprises
 

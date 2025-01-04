@@ -13,6 +13,7 @@ summary: |
   Alessandro Michele debuted his first collection for Valentino during Milan Fashion Week Men’s, showcasing a resort 2025 collection with 171 ready-to-wear looks and 93 accessories. Industry insiders had mixed reactions to Michele's collection, with some praising the blend of his signature style with Valentino's heritage, while others called for more differentiation from his work at Gucci. Overall, there is anticipation and curiosity about how customers will respond to Michele's new era at Valentino.
 source: reader
 permalink: l/articles/the-industry-verdict-on-alessandro-michele-s-valentino-debut
+slug: the-industry-verdict-on-alessandro-michele-s-valentino-debut
 ---
 # The Industry Verdict on Alessandro Michele’s Valentino Debut
 

@@ -13,6 +13,7 @@ summary: |
   Strategic approach to ESPRIT's comeback
 source: reader
 permalink: l/articles/why-cultural-obsessives-matter
+slug: why-cultural-obsessives-matter
 ---
 # Why Cultural Obsessives Matter
 

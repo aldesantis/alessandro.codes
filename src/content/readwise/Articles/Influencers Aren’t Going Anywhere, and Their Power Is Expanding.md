@@ -13,6 +13,7 @@ summary: |
   Most Gen Z adults follow influencers on social media, with many seeking their advice on various topics like fashion, health, and news. This trend shows that influencers are becoming important sources of information and are influencing real-life conversations among young people. Additionally, many Gen Zers want even more influencer content in the future, highlighting their growing impact.
 source: reader
 permalink: l/articles/influencers-aren-t-going-anywhere-and-their-power-is-expanding
+slug: influencers-aren-t-going-anywhere-and-their-power-is-expanding
 ---
 # Influencers Aren’t Going Anywhere, and Their Power Is Expanding
 

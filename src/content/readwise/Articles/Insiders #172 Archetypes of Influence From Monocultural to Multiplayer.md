@@ -13,6 +13,7 @@ summary: |
   The text discusses how influence in marketing has shifted from traditional celebrities to everyday people, impacting consumer behavior and brand perceptions. It highlights the emergence of various influencer archetypes, from celebrities to micro-influencers on platforms like TikTok, showcasing the evolution towards authenticity and relatability in influencing consumer decisions. Brands are adapting to this shift by partnering with influencers who align with their values to drive engagement and build brand loyalty in a diverse, community-driven influencer landscape.
 source: reader
 permalink: l/articles/insiders-172-archetypes-of-influence-from-monocultural-to-multiplayer
+slug: insiders-172-archetypes-of-influence-from-monocultural-to-multiplayer
 ---
 # Insiders #172: Archetypes of Influence: From Monocultural to Multiplayer
 

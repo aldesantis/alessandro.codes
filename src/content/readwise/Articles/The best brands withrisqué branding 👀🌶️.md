@@ -13,6 +13,7 @@ summary: |
   View this email in your browser. Curious about sponsoring our newsletter or booking a Thingdrop?
 source: reader
 permalink: l/articles/the-best-brands-withrisqu-branding
+slug: the-best-brands-withrisqu-branding
 ---
 # The best brands withrisqué branding 👀🌶️
 
