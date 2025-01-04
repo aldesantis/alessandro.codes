@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Focus on what’s not changing
+linter-yaml-title-alias: Focus on what’s not changing
 permalink: n/focus-on-what-s-not-changing
 slug: focus-on-what-s-not-changing
 status: 

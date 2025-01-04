@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Loyalty programs don’t drive direct growth
+linter-yaml-title-alias: Loyalty programs don’t drive direct growth
 permalink: n/loyalty-programs-don-t-drive-direct-growth
 slug: loyalty-programs-don-t-drive-direct-growth
 status: 

@@ -1,4 +1,7 @@
 ---
+aliases:
+  - DTC has long been about arbitrage
+linter-yaml-title-alias: DTC has long been about arbitrage
 permalink: n/dtc-has-long-been-about-arbitrage
 slug: dtc-has-long-been-about-arbitrage
 status: 

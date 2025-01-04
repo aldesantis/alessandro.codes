@@ -1,4 +1,7 @@
 ---
+aliases:
+  - The anticipation of danger causes stress
+linter-yaml-title-alias: The anticipation of danger causes stress
 permalink: n/anticipation-of-danger-causes-stress
 slug: anticipation-of-danger-causes-stress
 status: 

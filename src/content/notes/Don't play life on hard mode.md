@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Don’t play life on hard mode
+linter-yaml-title-alias: Don’t play life on hard mode
 permalink: n/don-t-play-life-on-hard-mode
 slug: don-t-play-life-on-hard-mode
 status: 

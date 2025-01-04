@@ -8,8 +8,8 @@
   "obsidian-linter",
   "obsidian-git",
   "obsidian-importer",
-  "mdx-as-md-obsidian",
   "obsidian-link-converter",
   "readwise-official",
-  "find-unlinked-files"
+  "find-unlinked-files",
+  "mdx-as-md-obsidian"
 ]

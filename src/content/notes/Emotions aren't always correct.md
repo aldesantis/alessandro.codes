@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Emotions aren’t always correct
+linter-yaml-title-alias: Emotions aren’t always correct
 permalink: n/emotions-aren-t-always-correct
 slug: emotions-aren-t-always-correct
 status: 

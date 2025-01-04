@@ -1,4 +1,7 @@
 ---
+aliases:
+  - About this space
+linter-yaml-title-alias: About this space
 permalink: about-this-space
 status: 
 title: About this space

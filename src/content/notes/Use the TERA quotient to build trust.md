@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Use the TERA quotient for building trust
+linter-yaml-title-alias: Use the TERA quotient for building trust
 permalink: n/use-the-tera-quotient-to-build-trust
 slug: use-the-tera-quotient-to-build-trust
 status: 

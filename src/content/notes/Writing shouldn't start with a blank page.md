@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Writing shouldn’t start with a blank page
+linter-yaml-title-alias: Writing shouldn’t start with a blank page
 permalink: n/writing-shouldn-t-start-with-a-blank-page
 slug: writing-shouldn-t-start-with-a-blank-page
 status: 

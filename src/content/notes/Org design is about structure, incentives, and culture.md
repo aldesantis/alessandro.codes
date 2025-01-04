@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Org design is structure, incentives, and culture
+linter-yaml-title-alias: Org design is structure, incentives, and culture
 permalink: n/org-design-is-about-structure-incentives-and-culture
 slug: org-design-is-about-structure-incentives-and-culture
 status: 

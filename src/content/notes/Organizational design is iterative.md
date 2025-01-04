@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Org design is iteration
+linter-yaml-title-alias: Org design is iteration
 permalink: n/organizational-design-is-iterative
 slug: organizational-design-is-iterative
 status: 

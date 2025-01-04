@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Pursue your personal Venn diagram
+linter-yaml-title-alias: Pursue your personal Venn diagram
 permalink: n/pursue-your-personal-venn-diagram
 slug: pursue-your-personal-venn-diagram
 status: 

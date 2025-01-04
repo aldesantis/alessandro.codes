@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Wiseness is knowing what’s worth wanting
+linter-yaml-title-alias: Wiseness is knowing what’s worth wanting
 permalink: n/wiseness-is-knowing-what-s-worth-wanting
 slug: wiseness-is-knowing-what-s-worth-wanting
 status: 

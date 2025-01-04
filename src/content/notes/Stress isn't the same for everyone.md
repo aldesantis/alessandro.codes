@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Stress isn’t the same for everyone
+linter-yaml-title-alias: Stress isn’t the same for everyone
 permalink: n/stress-isn-t-the-same-for-everyone
 slug: stress-isn-t-the-same-for-everyone
 status: 
