@@ -13,7 +13,7 @@ const mocsToGenerate = {
     LIMIT 10`,
   "mocs/Book library": `TABLE WITHOUT ID
 	  ("![[" + image_url +"|coverimg|95]]") as Cover, file.link AS Title, author AS Author, dateformat(date(last_highlighted_date, "yyyy-MM-dd HH:mm:ssZZ"), "yyyy-MM-dd") AS "Last highlighted"
-	  FROM "readwise/Books"
+	  FROM "readwise/books"
 	  SORT last_highlighted_date DESC`
 }
 

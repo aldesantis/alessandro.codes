@@ -1,19 +1,17 @@
 ---
-title: |
+title: >
   Why DTC Brands Are Pivoting From Facebook to Amazon for Customer Acquisition After Years of Avoiding the World's Largest E-Commerce Marketplace
-full_title: |
+full_title: >
   Why DTC Brands Are Pivoting From Facebook to Amazon for Customer Acquisition After Years of Avoiding the World's Largest E-Commerce Marketplace
-author: |
+author: >
   Ellen Thomas
 url: https://www.businessinsider.com/dtc-brands-sell-on-amazon-amid-rising-customer-acquisition-costs-2022-6?r=US&IR=T
 category: articles
 image_url: https://i.insider.com/62c9c169114c1e001872e143?width=1200&format=jpeg
 published_date: 2022-07-09
-summary: |
+summary: >
   DTC brands are selling on Amazon as they face rising customer-acquisition costs, but launching on the platform doesn't guarantee success.
 source: reader
-permalink: l/articles/why-dtc-brands-are-pivoting-from-facebook-to-amazon-for-customer-acquisition-after-years-of
-slug: why-dtc-brands-are-pivoting-from-facebook-to-amazon-for-customer-acquisition-after-years-of
 ---
 # Why DTC Brands Are Pivoting From Facebook to Amazon for Customer Acquisition After Years of Avoiding the World's Largest E-Commerce Marketplace
 

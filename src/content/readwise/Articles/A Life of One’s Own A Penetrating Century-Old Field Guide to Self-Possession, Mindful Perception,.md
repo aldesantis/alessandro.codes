@@ -1,19 +1,17 @@
 ---
-title: |
+title: >
   A Life of One’s Own: A Penetrating Century-Old Field Guide to Self-Possession, Mindful Perception, and the Art of Knowing What You Really Want
-full_title: |
+full_title: >
   A Life of One’s Own: A Penetrating Century-Old Field Guide to Self-Possession, Mindful Perception, and the Art of Knowing What You Really Want
-author: |
+author: >
   Maria Popova
 url: https://www.themarginalian.org/2017/10/11/a-life-of-ones-own-joanna-field-marion-milner/
 category: articles
 image_url: https://www.themarginalian.org/wp-content/uploads/2015/02/thewellofbeing_weill0.jpg?fit=600%2C315&ssl=1
 published_date: 2017-10-11
-summary: |
+summary: >
   “I did not know that I could only get the most out of life by giving myself up to it.”
 source: reader
-permalink: l/articles/a-life-of-one-s-own-a-penetrating-century-old-field-guide-to-self-possession-mindful-perception
-slug: a-life-of-one-s-own-a-penetrating-century-old-field-guide-to-self-possession-mindful-perception
 ---
 # A Life of One’s Own: A Penetrating Century-Old Field Guide to Self-Possession, Mindful Perception, and the Art of Knowing What You Really Want
 
