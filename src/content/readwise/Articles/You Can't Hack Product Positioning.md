@@ -1,13 +1,13 @@
 ---
-title: |
-  You Can't Hack Product Positioning
-full_title: |
-  You Can't Hack Product Positioning
-author: |
-  felicis.com
+title: You Can't Hack Product Positioning
+full_title: You Can't Hack Product Positioning
+author: felicis.com
 url: https://www.felicis.com/news/product-positioning
 category: articles
 image_url: https://global-uploads.webflow.com/63ff802a284f64e789752d0d/644ff7ca8f09400850b7566b_Category%20representation.jpg
+date: 2024-12-29
+time: 6:39 PM
+last_highlighted_date: 2023-10-10 09:16:22.585636+00:00
 published_date: 2023-04-06
 summary: |
   Why positioning determines victors in SaaS and AI.
@@ -22,17 +22,55 @@ permalink: l/articles/you-can-t-hack-product-positioning
 - Author: [[felicis.com]]
 - Full Title: You Can't Hack Product Positioning
 - Category: #articles
-- Document Tags: [[favorite]] [[marketing]] [[startups]] [[strategy]] 
+- Document Tags: [[favorite]] [[Marketing]] [[startups]] [[strategy]] 
 - Summary: Why positioning determines victors in SaaS and AI.
 - URL: https://www.felicis.com/news/product-positioning
 
 ## Highlights
 - Product positioning is the delicate alchemy of mixing customer obsession and marketing. When done right, the result creates a new software category. And a product that owns a category can beat a great rival. ([View Highlight](https://read.readwise.io/read/01h2fmgmhf7cxay8g77ffwh331))
-    - Tags: [[competition]] [[marketing]] [[strategy]] [[startups]] 
+    - Tags: [[competition]] [[Marketing]] [[strategy]] [[startups]] 
 - Creating a category in a hot market requires a multi-pronged effort and a willing spokesperson. You won’t get traction if you’re just selling your own product, though; you have to engage with your audience and the media on the topics they care about. ([View Highlight](https://read.readwise.io/read/01h2fmj42zsmtgkbpqsqcy5yyg))
-    - Tags: [[strategy]] [[marketing]] [[startups]] 
+    - Tags: [[strategy]] [[Marketing]] [[startups]] 
 - Never run from your weaknesses. Understand them, and turn them into your core strengths. Jive could never release on the same schedule as us because of the difference between cloud and on-prem development cycles. ([View Highlight](https://read.readwise.io/read/01h2fmm1hnczqp6nbmvqnqjw6n))
-    - Tags: [[startups]] [[marketing]] [[strategy]] 
+    - Tags: [[startups]] [[Marketing]] [[strategy]] 
+- Founders are frequently tempted to start category creation right away. But going slower, as Notion—another Felicis company—did can be the smarter tactic. ([View Highlight](https://read.readwise.io/read/01hccdyzm9wjrczz8vst7ngwkk))
+    - Tags: [[strategy]] [[branding]] [[positioning]] 
+
+
+---
+title: >
+  You Can't Hack Product Positioning
+full_title: >
+  You Can't Hack Product Positioning
+author: >
+  felicis.com
+url: https://www.felicis.com/news/product-positioning
+category: articles
+image_url: https://global-uploads.webflow.com/63ff802a284f64e789752d0d/644ff7ca8f09400850b7566b_Category%20representation.jpg
+published_date: 2023-04-06
+summary: >
+  Why positioning determines victors in SaaS and AI.
+source: reader
+---
+# You Can't Hack Product Positioning
+
+![rw-book-cover](https://global-uploads.webflow.com/63ff802a284f64e789752d0d/644ff7ca8f09400850b7566b_Category%20representation.jpg)
+
+## Metadata
+- Author: [[felicis.com]]
+- Full Title: You Can't Hack Product Positioning
+- Category: #articles
+- Document Tags: [[favorite]] [[Marketing]] [[startups]] [[strategy]] 
+- Summary: Why positioning determines victors in SaaS and AI.
+- URL: https://www.felicis.com/news/product-positioning
+
+## Highlights
+- Product positioning is the delicate alchemy of mixing customer obsession and marketing. When done right, the result creates a new software category. And a product that owns a category can beat a great rival. ([View Highlight](https://read.readwise.io/read/01h2fmgmhf7cxay8g77ffwh331))
+    - Tags: [[competition]] [[Marketing]] [[strategy]] [[startups]] 
+- Creating a category in a hot market requires a multi-pronged effort and a willing spokesperson. You won’t get traction if you’re just selling your own product, though; you have to engage with your audience and the media on the topics they care about. ([View Highlight](https://read.readwise.io/read/01h2fmj42zsmtgkbpqsqcy5yyg))
+    - Tags: [[strategy]] [[Marketing]] [[startups]] 
+- Never run from your weaknesses. Understand them, and turn them into your core strengths. Jive could never release on the same schedule as us because of the difference between cloud and on-prem development cycles. ([View Highlight](https://read.readwise.io/read/01h2fmm1hnczqp6nbmvqnqjw6n))
+    - Tags: [[startups]] [[Marketing]] [[strategy]] 
 - Founders are frequently tempted to start category creation right away. But going slower, as Notion—another Felicis company—did can be the smarter tactic. ([View Highlight](https://read.readwise.io/read/01hccdyzm9wjrczz8vst7ngwkk))
     - Tags: [[strategy]] [[branding]] [[positioning]] 
 

@@ -1,18 +1,17 @@
 ---
-title: |
+title: >
   How Do You Know When to Stop, Versus When to Push Through? You Don’t, Not Even in Hindsight. But These Guiding Questions Can Help.
-full_title: |
+full_title: >
   How Do You Know When to Stop, Versus When to Push Through? You Don’t, Not Even in Hindsight. But These Guiding Questions Can Help.
-author: |
+author: >
   Jason Cohen
 url: https://longform.asmartbear.com/perseverance?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/perseverance/thumbnail-1200w.png
 published_date: 2024-03-17
-summary: |
+summary: >
   The article explores the difficulty of knowing when to push through challenges and when to stop, using the example of an AdWords campaign. It criticizes the common platitudes of "success through perseverance" and "failure through obstinance" as convenient rationalizations. The author argues that it is impossible to know which scenario you are in until after the fact, but provides a list of guiding questions to help make decisions in uncertain situations. Overall, the article encourages readers to make strong decisions, keep their eyes open, and not second-guess themselves too much.
 source: reader
-permalink: l/articles/how-do-you-know-when-to-stop-versus-when-to-push-through-you-don-t-not-even-in-hindsight-but
 ---
 # How Do You Know When to Stop, Versus When to Push Through? You Don’t, Not Even in Hindsight. But These Guiding Questions Can Help.
 

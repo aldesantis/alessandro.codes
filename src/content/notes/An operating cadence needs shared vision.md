@@ -1,0 +1,22 @@
+---
+permalink: n/an-operating-cadence-needs-shared-vision
+status: 
+---
+# An operating cadence needs shared vision
+
+There’s no point in building an operating cadence in the absence of shared vision. Operating cadences allow you to move faster and with more confidence, but you need to know where you want to go in the first place. That’s why you should [[Align teams before empowering them]].
+
+When we are committed to a shared vision, we exhibit two behaviors which may seem contradictory:
+
+- We realize that [[Freedom is only valuable when forgone]] and we give up some of our freedom, ego and personal interests in order to achieve the shared vision.
+- We use our inquiry and advocacy to constantly [[Improve the operating cadence]], because we know it’s needed in order to achieve the vision.
+
+Note that not everyone who’s working to achieve the vision will be committed or enrolled. Some people will just be compliant, and [[Compliance is not commitment]].
+
+---
+
+## References
+
+> Shared vision fosters risk taking and experimentation. When people are immersed in a vision, they often don’t know how to do it. They run an experiment. They change direction and run another experiment. Everything is an experiment, but there is no ambiguity.
+>
+> — The Fifth Discipline

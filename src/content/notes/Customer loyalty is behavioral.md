@@ -1,0 +1,22 @@
+---
+permalink: n/customer-loyalty-is-behavioral
+status: 
+---
+# Customer loyalty is behavioral
+
+Marketers like to think of loyalty as a deep, emotional connection that’s formed between a consumer and a brand. However, the data doesn’t seem to support this theory: according to research done by Byron Sharp, 72% of Coke drinkers also drink Pepsi, and 89% of brand users don’t think their brand differs from competitors.
+
+In reality, it looks like loyalty is _very_ often (though not always) just a mix of habit, convenience, satisfaction, and availability: a customer likes your product, or they’re used to your product, or they find your product to be readily available. Hence, they buy it more often.
+
+If this is true, then it means that [[Market penetration trumps market segmentation]], because the bond between your brand and your customers is not as deep as you thought, and you can market to a larger customer base.
+
+It also frees up marketers to focus on [[Marketing must build availability|building availability]], rather than attempting to create “emotional resonance” or “cultural impact.”
+
+## Counterfactuals
+
+- This flies in the face of most marketing literature, especially in the luxury segment. It would be interesting to explore some counterarguments.
+
+## References
+
+- [[How Brands Grow]]
+- [[Marketers Are From Mars, Consumers Are From New Jersey]]

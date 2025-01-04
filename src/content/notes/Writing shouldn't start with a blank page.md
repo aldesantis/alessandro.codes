@@ -1,0 +1,16 @@
+---
+permalink: n/writing-shouldn-t-start-with-a-blank-page
+status: 
+---
+# Writing shouldn’t start with a blank page
+
+People struggle to write because they sit down in front of a blank page and try to come up with a brand-new thought on the spot. This is a recipe for frustration.
+
+Instead, you should look at the places where you have already been writing: your notes, your emails, your Slack messages, real-life conversations you’ve been having with people, etc.
+
+You have plenty of material already: you just need to sit down, collect it, and give it a sense. That’s the core of the [[Zettelkasten]] method.
+
+## References
+
+- [[The Ultimate Guide to Writing Online]]
+- [[How to Take Smart Notes]]

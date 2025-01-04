@@ -35,5 +35,5 @@
     "downscalePercent": 100
   },
   "showRibbon": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "shortest"
 }

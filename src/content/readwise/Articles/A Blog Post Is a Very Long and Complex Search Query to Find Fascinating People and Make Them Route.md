@@ -1,18 +1,17 @@
 ---
-title: |
+title: >
   A Blog Post Is a Very Long and Complex Search Query to Find Fascinating People and Make Them Route Interesting Stuff to Your Inbox
-full_title: |
+full_title: >
   A Blog Post Is a Very Long and Complex Search Query to Find Fascinating People and Make Them Route Interesting Stuff to Your Inbox
-author: |
+author: >
   Henrik Karlsson
 url: https://www.henrikkarlsson.xyz/p/search-query
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0dbceaf-9fe3-4673-b229-bfb1b5cf8cad_800x588.jpeg
 published_date: 2022-10-05
-summary: |
+summary: >
   The author reflects on how writing online helps connect with like-minded people and share interesting ideas. He believes that precise and clear writing can attract readers who share niche interests. Ultimately, the internet allows for meaningful relationships to form around unique topics, enriching the conversation and knowledge exchange.
 source: reader
-permalink: l/articles/a-blog-post-is-a-very-long-and-complex-search-query-to-find-fascinating-people-and-make-them-route
 ---
 # A Blog Post Is a Very Long and Complex Search Query to Find Fascinating People and Make Them Route Interesting Stuff to Your Inbox
 
@@ -22,7 +21,7 @@ permalink: l/articles/a-blog-post-is-a-very-long-and-complex-search-query-to-fin
 - Author: [[Henrik Karlsson]]
 - Full Title: A Blog Post Is a Very Long and Complex Search Query to Find Fascinating People and Make Them Route Interesting Stuff to Your Inbox
 - Category: #articles
-- Document Tags: [[favorite]] [[social-media]] [[writing]] 
+- Document Tags: [[favorite]] [[social-media]] [[Writing]] 
 - Summary: The author reflects on how writing online helps connect with like-minded people and share interesting ideas. He believes that precise and clear writing can attract readers who share niche interests. Ultimately, the internet allows for meaningful relationships to form around unique topics, enriching the conversation and knowledge exchange.
 - URL: https://www.henrikkarlsson.xyz/p/search-query
 

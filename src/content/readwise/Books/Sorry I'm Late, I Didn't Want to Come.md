@@ -1,0 +1,38 @@
+---
+title: Sorry I'm Late, I Didn't Want to Come
+full_title: Sorry I'm Late, I Didn't Want to Come
+author: Jessica Pan
+url: 
+category: books
+image_url: https://images-na.ssl-images-amazon.com/images/I/41V1Zd11OeL._SL200_.jpg
+date: 2024-12-29
+time: 6:40 PM
+last_highlighted_date: 2024-07-16 04:56:00+00:00
+published_date: None
+summary: |
+  None
+source: kindle
+permalink: l/books/sorry-i-m-late-i-didn-t-want-to-come
+---
+# Sorry I'm Late, I Didn't Want to Come
+
+![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41V1Zd11OeL._SL200_.jpg)
+
+## Metadata
+- Author: [[Jessica Pan]]
+- Full Title: Sorry I'm Late, I Didn't Want to Come
+- Category: #books
+
+## Highlights
+- ‘Social anxiety is a completely normal experience. We are social animals. We want to be accepted by our peer groups and we do not want to be rejected. If people do not have any social anxiety, something is seriously wrong with them.’ ([Location 562](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=562))
+- ‘That’s the truth of the world, Jessica,’ he says, casually full-naming me to let me know something big is coming. ‘Nobody waves – but everybody waves back.’ ([Location 668](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=668))
+- ‘The fear and bleak reality of being boring and dying having never connected with anyone is vastly underestimated.’ ([Location 752](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=752))
+- sharing our vulnerabilities and insecurities is the quickest way to make a real connection with someone. Most people want to boast about their lives, but this leaves people feeling jealous or resentful. ([Location 783](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=783))
+- ‘I want you to remember why you are telling this story. You have to want to tell your story. There needs to be that desire. When you are struggling with nerves, try to remember why you want to do this.’ ([Location 1170](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=1170))
+- Richard tells me to re-imagine the scenario as if I’m the host at the party and everybody there is my guest. He says this is a good way to shift my attention away from feeling self-conscious: ([Location 1895](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=1895))
+- According to Richard, radiating charisma is actually easy and can be done in a couple of simple steps: ask an open-ended question (not something that can be answered with a ‘yes’ or a ‘no’), listen to someone’s answer and then show how much you care about their response by asking them a meaningful follow-up question: How did they feel about that? What was that like? What appealed to you about that? ([Location 1909](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=1909))
+- I make a few rules before each event. Go with an intention. Talk to three people, with Richard’s advice in mind, and aim to really bond or connect with one person. ([Location 2039](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=2039))
+- Psychologists also say that it takes time for shy people to warm up, so if you always leave after ten minutes, you’re never giving yourself the chance to actually succeed. Stay for at least an hour. ([Location 2041](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=2041))
+- It’s taken me a long time to really believe, to know, that loneliness is circumstantial. We move to a new city. We start a new job. We travel alone. Our families move away. We don’t know how to connect with loved ones any more. We lose touch with friends. It is not a damning indictment of how lovable we are. ([Location 2856](https://readwise.io/to_kindle?action=open&asin=B07GZ8HYD5&location=2856))
+
+

@@ -1,0 +1,23 @@
+---
+permalink: n/defensiveness-inhibits-learning
+status: 
+---
+# Defensiveness inhibits learning
+
+#decision-making #learning
+
+When you are feeling defensive, that’s a sign that you’re dealing with a big/complicated problem. You are feeling defensive because you don’t want to feel the pain of having your certainties uprooted.
+
+Unfortunately, defensiveness is a vicious cycle: you act defensive, so you become less effective at learning from and tackling the problem underlying your defensiveness, so the problem becomes worse, so you become even more defensive about the problem, because tackling it would be even more painful.
+
+When you see “defensiveness” as an emotion, it’s easy to also see why you should be defensiveness-informed, not defensiveness-driven: [[Emotions aren't always correct]].
+
+## References
+
+From “The Fifth Discipline”:
+
+> A team committed to learning must be committed not only to telling the truth about what’s going on “out there,” in their business reality, but also about what’s going on “in here,” within the team itself.
+
+> When we are feeling defensive, seeking to avoid an issue, thinking we need to protect someone else or ourselves—these are tangible signals that can be used to reestablish a climate of learning.
+
+> The more effective defensive routines are, the more effectively they cover up underlying problems, the less effectively these problems are faced, and the worse the problems tend to become.

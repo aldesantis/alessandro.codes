@@ -1,18 +1,17 @@
 ---
-title: |
+title: >
   How to Tackle Common Reasons for Checkout Abandonment, Video Tutorial on Driving Search Engagement & Useful Resources
-full_title: |
+full_title: >
   How to Tackle Common Reasons for Checkout Abandonment, Video Tutorial on Driving Search Engagement & Useful Resources
-author: |
+author: >
   🧔🏻 James Gurd
 url: https://www.linkedin.com/pulse/how-tackle-common-reasons-checkout-abandonment-video-tutorial-gurd-ee6ce/
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/1720007924180
 published_date: None
-summary: |
+summary: >
   Last edition I covered tips on structuring a shopping cart abandonment email/SMS program.
 source: reader
-permalink: l/articles/how-to-tackle-common-reasons-for-checkout-abandonment-video-tutorial-on-driving-search-engagement
 ---
 # How to Tackle Common Reasons for Checkout Abandonment, Video Tutorial on Driving Search Engagement & Useful Resources
 

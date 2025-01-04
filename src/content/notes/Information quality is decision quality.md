@@ -1,0 +1,17 @@
+---
+permalink: n/information-quality-is-decision-quality
+status: 
+---
+# Information quality is decision quality
+
+There is a concept called “bounded rationality,” which means people act in a fairly rational way when making decisions and account for all the information they have.
+
+The problem is that the information they have is always a subset of _all_ the existing information that could be useful in making that particular decision. In particular, people usually miss information about more distant parts of the system in which they’re operating.
+
+This explains why intelligent people sometimes make stupid decisions.
+
+In fact, _really_ intelligent people are constantly at work to improve the quantity and the quality of their information and [[Eliminate bias systematically]]. When making a decision, they are not just considering the available information but also wondering what other information they might need right now.
+
+## References
+
+- [[Thinking in Systems]]

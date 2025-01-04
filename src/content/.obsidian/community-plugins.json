@@ -10,5 +10,6 @@
   "obsidian-importer",
   "mdx-as-md-obsidian",
   "obsidian-link-converter",
-  "readwise-official"
+  "readwise-official",
+  "find-unlinked-files"
 ]

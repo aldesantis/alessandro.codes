@@ -1,0 +1,25 @@
+---
+permalink: n/composable-commerce-may-be-a-choice
+status: 
+---
+# composable-commerce-may-be-a-choice
+
+When [[composable-commerce]] is a choice, it should clearly and directly inform your business strategy. That means asking (and continuously re-asking) yourself three questions:
+
+- What are the capabilities that you’re unlocking by going composable?
+- How is your brand going to leverage those capabilities?
+- What is the expected impact of that strategy on your bottom line?
+
+By asking these three questions alone, you can dispel a lot of the biased fluff around composable commerce because you’ll often find that:
+
+- composable is not unlocking any meaningful capabilities for your brand, or
+- those capabilities cannot be leveraged by your team at this point in time, or
+- the impact of leveraging those capabilities is negligible.
+
+For example, composable allows you to create rich editorial commerce experiences. While this statement is true in isolation, ask yourself:
+
+- Could I create a rich editorial commerce experience _without_ going composable? Can I get 80% of the way there with a fraction of the effort?
+- Once I have the technical infrastructure to enable editorial commerce, do I actually have the right team to execute that strategy, or is it an empty aspiration?
+- What is the return on my investment? Do I actually believe that editorial commerce will generate so much incremental business to offset the cost of going composable?
+
+All of these questions need to be stress-tested because they will have very good first-order answers, but once you start digging into them, you’ll find that many of them are empty promises.

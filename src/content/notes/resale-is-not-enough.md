@@ -1,0 +1,7 @@
+---
+permalink: n/resale-is-not-enough
+status: 
+---
+# resale-is-not-enough
+
+Many fast-fashion brands are launching resale programs in an effort to appear more sustainable, but in reality, [[Fast Fashion Is Leaning Into Resale, but It May Do Little to Reduce Emissions, New Study Says|the evidence]] shows that these programs will not do much to make brands more sustainable. In fact, resale programs only reduce the carbon dioxide emissions of a fast-fashion brand by 0.7%.

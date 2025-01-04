@@ -1,18 +1,17 @@
 ---
-title: |
+title: >
   What the Scaffa? Just the Paperwork Cocktail & What Longer Replacement Cycles for Commerce Platforms Means for the Commerce Tech Market
-full_title: |
+full_title: >
   What the Scaffa? Just the Paperwork Cocktail & What Longer Replacement Cycles for Commerce Platforms Means for the Commerce Tech Market
-author: |
+author: >
   Brian Walker
 url: https://cocktailsand.substack.com/p/what-the-scaffa-just-the-paperwork
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2162e2a3-40ac-4330-95f8-181438e28c18_2792x3581.jpeg
 published_date: 2023-07-21
-summary: |
+summary: >
   The article discusses the implications of longer replacement cycles for commerce platforms on the commerce tech market. Previously, the average replacement cycle for an enterprise commerce platform was four to five years, but now it has doubled to every eight to twelve years. This is due to factors such as the larger size and higher risk associated with e-commerce businesses, intangible business benefits of replatforming, high switching costs of customized legacy platforms, resistance to change in business processes, and conservative tech investment plans. As a result, the commerce tech market has shifted towards specialist point-solutions that complement and coexist with commerce platforms. The long-term trend is expected to favor platforms and point-solutions that offer composability and API-first capabilities to support digital commerce and marketing evolution.
 source: reader
-permalink: l/articles/what-the-scaffa-just-the-paperwork-cocktail-what-longer-replacement-cycles-for-commerce
 ---
 # What the Scaffa? Just the Paperwork Cocktail & What Longer Replacement Cycles for Commerce Platforms Means for the Commerce Tech Market
 

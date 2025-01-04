@@ -1,18 +1,17 @@
 ---
-title: |
+title: >
   Capasa (Cnmi): “La Richiesta Del Governo Per Il Credito D’imposta? Inacettabile. Serve Maggiore Tutela Per Le Piccole Imprese”
-full_title: |
+full_title: >
   Capasa (Cnmi): “La Richiesta Del Governo Per Il Credito D’imposta? Inacettabile. Serve Maggiore Tutela Per Le Piccole Imprese”
-author: |
+author: >
   Pambiancodaily
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
 published_date: 2024-11-13
-summary: |
+summary: >
   Dall’esortazione a una maggiore sostenibilità in ambito supply chain, all’importanza della formazione, fino alla richiesta di politiche più flessibili sul credito di imposta per le aziende del comparto moda italiano e, in generale, la necessità di tutela per l’intero settore e i piccoli player in un momento economico già complesso.
 source: reader
-permalink: l/articles/capasa-cnmi-la-richiesta-del-governo-per-il-credito-d-imposta-inacettabile-serve-maggiore
 ---
 # Capasa (Cnmi): “La Richiesta Del Governo Per Il Credito D’imposta? Inacettabile. Serve Maggiore Tutela Per Le Piccole Imprese”
 

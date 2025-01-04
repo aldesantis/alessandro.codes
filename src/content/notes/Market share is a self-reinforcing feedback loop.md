@@ -1,0 +1,12 @@
+---
+permalink: n/market-share-is-a-self-reinforcing-feedback-loop
+status: 
+---
+# Market share is a self-reinforcing feedback loop
+
+If you’re a consumer brand selling wholesale, gaining or losing market share can cause you to enter into a positive or negative self-reinforcing feedback loop:
+
+- If you’re gaining market share, that gives buyers justification for giving you more shelf space, which causes you to gain even more market share.
+- If you’re losing market share, buyers may want to “cut their losses” and give you less shelf space, which causes you to lose even more shelf space.
+
+This phenomenon happens because [[Marketing must build physical availability|building market share requires physical availability]], and it’s the perfect example of how [[Reinforcing feedback loops can be self-enhancing or self-destructive]].

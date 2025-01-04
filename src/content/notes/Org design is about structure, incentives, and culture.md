@@ -1,0 +1,43 @@
+---
+permalink: n/org-design-is-about-structure-incentives-and-culture
+status: 
+---
+# Org design is structure, incentives, and culture
+
+Organization design comprises three factors: structure, incentives and culture.
+
+These three factors are non-linear: you can’t work on them one after the other, because they are constantly influencing each other. Think of them as lens through which you can look at an organization’s design.
+
+#tbd The [[Star Model]] takes this one step further. Integrate.
+
+## Structure
+
+Org structure is how the teams are organized, what their mission is, how they collaborate, who reports to whom, etc.
+
+When it comes to org structure, there’s no ideal choice: the best thing you can do is choose the structure that works best for your organization, continuously review and adjust it, and be aware of its shortcomings and limitations.
+
+When designing an organization, most leaders focus on structure because it’s the easiest of the three factors to influence and the one with the fastest feedback loop.
+
+Unfortunately, org structure is also the least effective level for making profound changes to an organization. In fact, a change in org structure should almost always be a means to effect a change in incentives or culture.
+
+An organization with a bad structure but effective incentives and culture will still function somewhat well; an organization with a good structure but ineffective incentives and/or culture is hopeless.
+
+## Incentives
+
+Incentives are what you reward people for and how you reward them. We should always keep in mind that [[We get what we reward for]] and optimize our organization’s incentives accordingly.
+
+Incentives can be either formal (e.g., a competency matrix, performance reviews) or informal (e.g., a boss tacitly favoring people who don’t challenge the status quo).
+
+#tbd mention psychological safety and the interplay of culture and incentives
+
+## Culture
+
+how people behave and what principles guide them.
+
+#tbd mention how culture must be created collectively
+
+- - -
+
+## References
+
+- [[Functional Versus Unit Organizations  by Steven Sinofsky  Learning by Shipping]]
