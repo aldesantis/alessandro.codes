@@ -1,13 +1,13 @@
 ---
-title: The Best Summary of How to Read a Book by Mortimer Adler
-full_title: The Best Summary of How to Read a Book by Mortimer Adler
-author: Farnam Street
+title: |
+  The Best Summary of How to Read a Book by Mortimer Adler
+full_title: |
+  The Best Summary of How to Read a Book by Mortimer Adler
+author: |
+  Farnam Street
 url: https://fs.blog/how-to-read-a-book/
 category: articles
 image_url: https://149366099.v2.pressablecdn.com/wp-content/uploads/2014/07/how-to-read-a-book.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-04 08:32:10.257037+00:00
 published_date: 2014-07-31
 summary: |
   Mortimer Adler's "How to Read a Book" explains four levels of reading: for entertainment, to inform, to understand, and to master. Elementary and inspectional reading are key for deciding if a book is worth deeper analysis, followed by analytical reading for understanding and syntopical reading for mastering a subject by comparing various sources. Each level requires different approaches, from skimming to deep analysis, to become a demanding reader who asks critical questions and seeks answers.

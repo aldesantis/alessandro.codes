@@ -1,13 +1,13 @@
 ---
-title: Shreyas Doshi’s Post
-full_title: Shreyas Doshi’s Post
-author: Shreyas Doshi
+title: |
+  Shreyas Doshi’s Post
+full_title: |
+  Shreyas Doshi’s Post
+author: |
+  Shreyas Doshi
 url: https://www.linkedin.com/posts/shreyasdoshi_the-most-important-career-lesson-to-internalize-activity-7173152978042912768-qN4m/
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/c45fy346jw096z9pbphyyhdz7
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-14 18:12:34.576343+00:00
 published_date: 2024-03-12
 summary: |
   After 10-15 years in tech, it's crucial to make intentional career choices based on the life you want, your strengths, what energizes you, and the people you enjoy working with. Many people in top positions often follow trends rather than making thoughtful decisions, influenced by mimetic desire and conformity bias. By consciously evaluating these factors, you can diverge from the crowd, leading to fulfilling work and a deeper connection to your career. Making deliberate choices will ultimately lead to better outcomes and increased confidence in your career decisions.

@@ -1,13 +1,13 @@
 ---
-title: "Fashion Briefing: Against All Odds, Web3 Loyalty Programs Are Flourishing"
-full_title: "Fashion Briefing: Against All Odds, Web3 Loyalty Programs Are Flourishing"
-author: Zofia Zwieglinska
+title: |
+  Fashion Briefing: Against All Odds, Web3 Loyalty Programs Are Flourishing
+full_title: |
+  Fashion Briefing: Against All Odds, Web3 Loyalty Programs Are Flourishing
+author: |
+  Zofia Zwieglinska
 url: https://www.glossy.co/fashion/fashion-briefing-against-all-odds-brands-web3-loyalty-programs-are-flourishing/?utm_source=Sailthru&utm_medium=email&utm_campaign=Issue:%202023-07-12%20Retail%20Dive:%20Marketing%20%5Bissue:52366%5D&utm_term=Retail%20Dive:%20Marketing
 category: articles
 image_url: https://www.glossy.co/wp-content/uploads/sites/4/2023/06/UNDW3-06.23.png?w=1024
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-06 11:48:19.996623+00:00
 published_date: 2023-06-30
 summary: |
   This week, we take a deep dive into the recent growth of web3 fashion loyalty programs from Lacoste, LVMH and Dior, and the reason brands are separating them from their existing loyalty programs.

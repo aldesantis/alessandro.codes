@@ -1,13 +1,13 @@
 ---
-title: How to Find the Real Reason Conversions Dropped.
-full_title: How to Find the Real Reason Conversions Dropped.
-author: pete-bowen.com
+title: |
+  How to Find the Real Reason Conversions Dropped.
+full_title: |
+  How to Find the Real Reason Conversions Dropped.
+author: |
+  pete-bowen.com
 url: https://pete-bowen.com/how-to-find-the-real-reason-conversions-dropped
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-21 10:45:39.898580+00:00
 published_date: None
 summary: |
   A sudden unexplained drop in conversions is terrifying. You’re paying for clicks but you’re not getting leads or sales. It’s bad when you’re spending your boss’s or client’s money. It’s even worse when it’s your business on the chopping block. Read on to find out how to get to the bottom of coversion problems.

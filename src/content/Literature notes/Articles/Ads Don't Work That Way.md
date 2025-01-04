@@ -1,13 +1,13 @@
 ---
-title: Ads Don't Work That Way
-full_title: Ads Don't Work That Way
-author: meltingasphalt.com
+title: |
+  Ads Don't Work That Way
+full_title: |
+  Ads Don't Work That Way
+author: |
+  meltingasphalt.com
 url: https://meltingasphalt.com/ads-dont-work-that-way/
 category: articles
 image_url: https://rdl.ink/render/https%3A%2F%2Fmeltingasphalt.com%2Fads-dont-work-that-way%2F
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-11 12:07:57.917898+00:00
 published_date: 2014-09-18
 summary: |
   Rather than attempting to persuade us (via our rational, analytical minds), ads prey on our emotions.

@@ -1,13 +1,13 @@
 ---
-title: NIQ Research Uncovers Hidden Consumer Attitudes Toward AI-generated Ads
-full_title: NIQ Research Uncovers Hidden Consumer Attitudes Toward AI-generated Ads
-author: NIQ
+title: |
+  NIQ Research Uncovers Hidden Consumer Attitudes Toward AI-generated Ads
+full_title: |
+  NIQ Research Uncovers Hidden Consumer Attitudes Toward AI-generated Ads
+author: |
+  NIQ
 url: https://nielseniq.com/global/en/news-center/2024/niq-research-uncovers-hidden-consumer-attitudes-toward-ai-generated-ads/
 category: articles
 image_url: https://nielseniq.com/wp-content/uploads/sites/4/2024/12/GettyImages-2148676388X1200.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-27 11:45:49.083978+00:00
 published_date: 2024-12-12
 summary: |
   NielsenIQ's new research shows that consumers find AI-generated ads less engaging and more annoying than traditional ads. The study highlights that these ads may weaken brand perception and memory activation. Advertisers should focus on quality and authenticity to avoid negative impacts on brand equity.

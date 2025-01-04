@@ -1,13 +1,13 @@
 ---
-title: "3_TRENDS_Vol.26: Julia Dixon: Peak Sludge, Neo-Luddites + Gen Alpha Trap"
-full_title: "3_TRENDS_Vol.26: Julia Dixon: Peak Sludge, Neo-Luddites + Gen Alpha Trap"
-author: Matt Klein
+title: |
+  3_TRENDS_Vol.26: Julia Dixon: Peak Sludge, Neo-Luddites + Gen Alpha Trap
+full_title: |
+  3_TRENDS_Vol.26: Julia Dixon: Peak Sludge, Neo-Luddites + Gen Alpha Trap
+author: |
+  Matt Klein
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-04-08 12:38:36.610849+00:00
 published_date: 2024-04-08
 summary: |
   Coming up, we’ve got a hot slate of 3_TRENDS interviews, a deep dive on spatial computing, another way to think about “touching grass,” and an announcement for my biggest project of the year...

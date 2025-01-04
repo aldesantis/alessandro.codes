@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Given Before Earned"
-full_title: "Brain Food: Given Before Earned"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Given Before Earned
+full_title: |
+  Brain Food: Given Before Earned
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-30
-time: 12:43 PM
-last_highlighted_date: 2024-12-30 11:05:30.092004+00:00
 published_date: 2024-12-29
 summary: |
   The best leaders I know extend trust and loyalty long before receiving it - they treat people as if they've already proven trustworthy.

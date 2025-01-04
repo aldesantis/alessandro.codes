@@ -1,13 +1,13 @@
 ---
-title: Why the SaaS Marketing Funnel Doesn’t Work
-full_title: Why the SaaS Marketing Funnel Doesn’t Work
-author: Amy Collins
+title: |
+  Why the SaaS Marketing Funnel Doesn’t Work
+full_title: |
+  Why the SaaS Marketing Funnel Doesn’t Work
+author: |
+  Amy Collins
 url: https://www.cognism.com/blog/saas-marketing-funnel
 category: articles
 image_url: https://www.cognism.com/hubfs/POV2%20blog_Pull-through%20banner.png#keepProtocol
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-25 09:27:22.151982+00:00
 published_date: 2023-06-01
 summary: |
   The traditional SaaS 'marketing funnel' is no longer reflective of the way buyers behave. Instead, we need to encourage declared intent inbound requests.

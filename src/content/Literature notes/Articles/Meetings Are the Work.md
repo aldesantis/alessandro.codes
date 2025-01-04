@@ -1,13 +1,13 @@
 ---
-title: Meetings *Are* the Work
-full_title: Meetings *Are* the Work
-author: Elizabeth Ayer
+title: |
+  Meetings *Are* the Work
+full_title: |
+  Meetings *Are* the Work
+author: |
+  Elizabeth Ayer
 url: https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/1pf83eLgCktOHN_vDQ33T6g.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-15 09:05:54.387495+00:00
 published_date: 2023-02-22
 summary: |
   Wherein I take aim at the common tech trope that people need to limit meetings to get work done.

@@ -1,13 +1,13 @@
 ---
-title: What Is Account Based Marketing, Why You Should Adopt It, and How
-full_title: What Is Account Based Marketing, Why You Should Adopt It, and How
-author: Tequia Burt
+title: |
+  What Is Account Based Marketing, Why You Should Adopt It, and How
+full_title: |
+  What Is Account Based Marketing, Why You Should Adopt It, and How
+author: |
+  Tequia Burt
 url: https://www.linkedin.com/business/marketing/blog/abm/what-is-account-based-marketing-10-definitions-from-the-experts
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/1677695234315
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-23 15:27:06.934408+00:00
 published_date: 2023-03-02
 summary: |
   A growing number of B2B marketers are adopting account-based marketing (ABM) to drive long-term revenue growth by focusing marketing resources on engaging specific target accounts. ABM requires alignment between sales and marketing teams to personalize messaging and programs for key prospects within target accounts, leading to higher revenues in a shorter timeframe. Successful ABM implementation benefits sales, marketing, and customers by enhancing collaboration, personalizing outreach, and delivering higher ROI compared to other marketing campaigns. Developing a successful ABM strategy involves identifying high-value accounts, mapping individuals to accounts, creating targeted campaigns, pinpointing optimal channels, executing campaigns, and measuring results to optimize tactics.

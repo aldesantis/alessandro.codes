@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Work Hard in Silence"
-full_title: "Brain Food: Work Hard in Silence"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Work Hard in Silence
+full_title: |
+  Brain Food: Work Hard in Silence
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-25 21:23:19.489727+00:00
 published_date: 2024-11-24
 summary: |
   An executive writes a ten-page memo that could be one. An engineer builds an intricate system when a simple one would perform better at half the cost.

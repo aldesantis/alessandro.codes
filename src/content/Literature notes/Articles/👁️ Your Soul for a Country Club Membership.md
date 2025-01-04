@@ -1,13 +1,13 @@
 ---
-title: 👁️ Your Soul for a Country Club Membership
-full_title: 👁️ Your Soul for a Country Club Membership
-author: The Senses by Future Commerce
+title: |
+  👁️ Your Soul for a Country Club Membership
+full_title: |
+  👁️ Your Soul for a Country Club Membership
+author: |
+  The Senses by Future Commerce
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-01 07:57:10.907316+00:00
 published_date: 2024-05-31
 summary: |
   Join some of New York's top eCommerce brands at the New York eCommerce Summit, where industry experts will discuss crucial topics such as the Future of eCommerce, Enhancing Operations and Supply Chains, Unlocking Your eCommerce Potential with AI, Navigating Mobile Commerce, Data-Driven eCommerce, Omnichannel and Digital Marketing Strategies.

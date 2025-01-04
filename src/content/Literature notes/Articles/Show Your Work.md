@@ -1,13 +1,13 @@
 ---
-title: Show Your Work
-full_title: Show Your Work
-author: Rojospinks
+title: |
+  Show Your Work
+full_title: |
+  Show Your Work
+author: |
+  Rojospinks
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-15 09:12:17.320684+00:00
 published_date: 2024-03-22
 summary: |
   I’m currently working on a couple of longer, more ambitious pieces of writing, so this week I’m deviating from the usual format.

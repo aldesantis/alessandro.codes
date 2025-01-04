@@ -1,13 +1,13 @@
 ---
-title: "Deep Dive: Cutthroat Grocery and the Replenishment Economy"
-full_title: "Deep Dive: Cutthroat Grocery and the Replenishment Economy"
-author: 2PM
+title: |
+  Deep Dive: Cutthroat Grocery and the Replenishment Economy
+full_title: |
+  Deep Dive: Cutthroat Grocery and the Replenishment Economy
+author: |
+  2PM
 url: https://2pml.com/2024/06/06/cutthroat/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2024/06/Graph-No.-4@2x-1.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-20 07:13:00.628938+00:00
 published_date: 2024-06-07
 summary: |
   The grocery industry is competitive and dynamic, with retailers constantly innovating to meet consumer demands. Supply chains play a crucial role, but also highlight ethical issues like forced labor. The future of grocery shopping will be shaped by technology and sustainability.

@@ -1,13 +1,13 @@
 ---
-title: Tactical Mindfulness
-full_title: Tactical Mindfulness
-author: Casey Rosengren
+title: |
+  Tactical Mindfulness
+full_title: |
+  Tactical Mindfulness
+author: |
+  Casey Rosengren
 url: https://every.to/superorganizers/tactical-mindfulness
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2320/DALL_E_2022-10-04_15.17.50_-_a_yogi_training_like_a_Jedi_star_wars.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-11 15:06:36.649963+00:00
 published_date: 2022-10-04
 summary: |
   How to design a program to train your mind

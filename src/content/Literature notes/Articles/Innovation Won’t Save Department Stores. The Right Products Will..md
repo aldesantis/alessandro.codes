@@ -1,13 +1,13 @@
 ---
-title: Innovation Won’t Save Department Stores. The Right Products Will.
-full_title: Innovation Won’t Save Department Stores. The Right Products Will.
-author: Cathaleen Chen
+title: |
+  Innovation Won’t Save Department Stores. The Right Products Will.
+full_title: |
+  Innovation Won’t Save Department Stores. The Right Products Will.
+author: |
+  Cathaleen Chen
 url: https://www.businessoffashion.com/articles/retail/department-stores-macys-nordstrom-kohls/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/Y4EGFJM5WBAMXOKYAW5APX4JBQ.jpg?smart=true&auth=6fed9f17dc386e1110f0abe1e22980454a7402850747f8996b1d8d19ca40a204&width=1200&height=630
-date: 2025-01-02
-time: 11:11 AM
-last_highlighted_date: 2025-01-02 09:29:31.580811+00:00
 published_date: 2024-04-01
 summary: |
   Department stores like Macy's and Kohl's are struggling to attract customers and are closing many locations due to competition from online retailers and discount chains. To survive, they need to offer unique products that customers can't easily find elsewhere. Experts believe that by refreshing their merchandise and creating a more appealing shopping experience, department stores can still succeed.

@@ -1,13 +1,13 @@
 ---
-title: "My 2025 Predictions: AppLovin, Ecom Boom, and AI Failure"
-full_title: "My 2025 Predictions: AppLovin, Ecom Boom, and AI Failure"
-author: Jeremy Horowitz
+title: |
+  My 2025 Predictions: AppLovin, Ecom Boom, and AI Failure
+full_title: |
+  My 2025 Predictions: AppLovin, Ecom Boom, and AI Failure
+author: |
+  Jeremy Horowitz
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-30
-time: 12:43 PM
-last_highlighted_date: 2024-12-30 11:02:01.931284+00:00
 published_date: 2024-12-29
 summary: |
   Disclosure: Because of the beliefs shared below I’ve decided to invest in AppLovin before writing this article. This isn’t financial or business advice.

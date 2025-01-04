@@ -1,13 +1,13 @@
 ---
-title: Take Ownership of Your Future Self
-full_title: Take Ownership of Your Future Self
-author: Harvard Business Review
+title: |
+  Take Ownership of Your Future Self
+full_title: |
+  Take Ownership of Your Future Self
+author: |
+  Harvard Business Review
 url: https://hbr.org/2020/08/take-ownership-of-your-future-self
 category: articles
 image_url: https://hbr.org/resources/images/article_assets/2020/08/Aug20_28_997903542.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-22 20:58:40.832496+00:00
 published_date: 2020-08-28
 summary: |
   Dr. Daniel Gilbert highlights the "end of history illusion," where individuals believe their current selves are the finished product and struggle to see potential for change in the future. Change is inevitable, and strategies are provided to help individuals become their desired future selves. By distinguishing between former, current, and future selves, imagining a desired future, and changing the identity narrative, individuals can actively shape who they become, focusing on intentional growth and transformation into their envisioned future self.

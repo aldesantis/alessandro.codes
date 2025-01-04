@@ -1,13 +1,13 @@
 ---
-title: Simple and Complete Guide to A/B Testing
-full_title: Simple and Complete Guide to A/B Testing
-author: Tatev Karen Aslanyan
+title: |
+  Simple and Complete Guide to A/B Testing
+full_title: |
+  Simple and Complete Guide to A/B Testing
+author: |
+  Tatev Karen Aslanyan
 url: https://towardsdatascience.com/simple-and-complet-guide-to-a-b-testing-c34154d0ce5a
 category: articles
 image_url: https://miro.medium.com/max/1200/1*sx-Qi2hnXxPyS3iYkLF8yQ.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-02-24 14:49:26.992706+00:00
 published_date: 2022-08-13
 summary: |
   End-to-end A/B testing for your Data Science experiments for non-technical and technical specialists with examples and Python…

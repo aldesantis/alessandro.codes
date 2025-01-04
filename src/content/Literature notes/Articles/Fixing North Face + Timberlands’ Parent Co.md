@@ -1,13 +1,13 @@
 ---
-title: Fixing North Face + Timberlands’ Parent Co
-full_title: Fixing North Face + Timberlands’ Parent Co
-author: Jeremy Horowitz
+title: |
+  Fixing North Face + Timberlands’ Parent Co
+full_title: |
+  Fixing North Face + Timberlands’ Parent Co
+author: |
+  Jeremy Horowitz
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-03 04:12:44.684846+00:00
 published_date: 2024-06-02
 summary: |
   The team is only as good as the processes/playbooks that the biz is running.

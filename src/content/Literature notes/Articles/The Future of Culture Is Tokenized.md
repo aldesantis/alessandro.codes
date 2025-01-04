@@ -1,13 +1,13 @@
 ---
-title: The Future of Culture Is Tokenized
-full_title: The Future of Culture Is Tokenized
-author: Luca Schnetzler
+title: |
+  The Future of Culture Is Tokenized
+full_title: |
+  The Future of Culture Is Tokenized
+author: |
+  Luca Schnetzler
 url: https://lucanetz.substack.com/p/the-future-of-culture-is-tokenized?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fe3cbba-4f03-4d06-9c44-fe9623d2f75e_1100x718.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-10 13:09:12.459626+00:00
 published_date: None
 summary: |
   The text discusses how culture is becoming tokenized in the crypto world, with a focus on Culture Tokens. It emphasizes the importance of aligning incentives, democratizing access, and building products that accelerate culture on-chain. The author encourages crypto builders to consider the opportunities in developing the culture layer for the future of crypto.

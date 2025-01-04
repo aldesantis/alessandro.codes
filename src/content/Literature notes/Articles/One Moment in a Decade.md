@@ -1,13 +1,13 @@
 ---
-title: One Moment in a Decade
-full_title: One Moment in a Decade
-author: Niko Canner
+title: |
+  One Moment in a Decade
+full_title: |
+  One Moment in a Decade
+author: |
+  Niko Canner
 url: https://www.onhumanenterprise.com/one-moment-in-a-decade
 category: articles
 image_url: https://www.incandescent.com/uploads/blog/media/_1200x630_crop_center-center_82_none/webb-pillars-creation-f1d3574.jpg?mtime=1686690534
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-10 18:53:45.698421+00:00
 published_date: 2023-06-14
 summary: |
   The author reflects on the past decade as an extension of one conversation. They discuss a lunch meeting with Graham Duncan and Josh Waitzkin, who helped them see the importance of deepening their work through writing and developing a "Soft Zone" of concentration. The author also discusses the need to find meaningful work wherever they are and the importance of building trust with partners.

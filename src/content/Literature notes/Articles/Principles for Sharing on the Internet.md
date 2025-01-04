@@ -1,13 +1,13 @@
 ---
-title: Principles for Sharing on the Internet
-full_title: Principles for Sharing on the Internet
-author: sari azout
+title: |
+  Principles for Sharing on the Internet
+full_title: |
+  Principles for Sharing on the Internet
+author: |
+  sari azout
 url: https://sublimeinternet.substack.com/p/principles-for-sharing-on-the-internet
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd81283b7-2bae-4b1f-bdc8-cde47b4792ca_2880x1800.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-02 13:55:49.606903+00:00
 published_date: 2023-10-21
 summary: |
   5 principles for sharing on the Internet

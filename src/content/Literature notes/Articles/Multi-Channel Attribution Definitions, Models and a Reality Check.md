@@ -1,13 +1,13 @@
 ---
-title: "Multi-Channel Attribution: Definitions, Models and a Reality Check"
-full_title: "Multi-Channel Attribution: Definitions, Models and a Reality Check"
-author: Avinash Kaushik
+title: |
+  Multi-Channel Attribution: Definitions, Models and a Reality Check
+full_title: |
+  Multi-Channel Attribution: Definitions, Models and a Reality Check
+author: |
+  Avinash Kaushik
 url: https://www.kaushik.net/avinash/multi-channel-attribution-definitions-models/
 category: articles
 image_url: https://www.kaushik.net/avinash/wp-content/uploads/2012/04/yum-11.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-06 11:38:35.709430+00:00
 published_date: 2012-04-02
 summary: |
   What multi-channel attribution models deliver value when marketing across devices (TV, phones, tablets) & channels (search, display, social)?

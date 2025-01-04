@@ -1,13 +1,13 @@
 ---
-title: "No. 314: On Linear Commerce"
-full_title: "No. 314: On Linear Commerce"
-author: 2PM
+title: |
+  No. 314: On Linear Commerce
+full_title: |
+  No. 314: On Linear Commerce
+author: |
+  2PM
 url: https://2pml.com/2019/04/22/on-linear-commerce/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2019/04/Screen-Shot-2019-04-22-at-1.07.31-PM.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 16:48:56.294683+00:00
 published_date: 2019-04-22
 summary: |
   I’d never seen anything like it. It was my first time at Augusta National and I wasn’t just a casual observer of the craze – I was a willing participant. Within two hours of being…

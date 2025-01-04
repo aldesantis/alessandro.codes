@@ -1,13 +1,13 @@
 ---
-title: My Last Five Years of Work
-full_title: My Last Five Years of Work
-author: Avital Balwit
+title: |
+  My Last Five Years of Work
+full_title: |
+  My Last Five Years of Work
+author: |
+  Avital Balwit
 url: https://www.palladiummag.com/2024/05/17/my-last-five-years-of-work/
 category: articles
 image_url: https://pdmedia.b-cdn.net/2024/05/zack-minor-6_pFPo2YM9c-unsplash-crop.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-08 21:10:57.566655+00:00
 published_date: 2024-05-17
 summary: |
   AI advancements are leading to the obsolescence of many jobs, raising questions about the future of work and happiness. Studies show that unemployment can have negative effects on mental and physical health, but how people use their time during unemployment can impact well-being positively. The shift towards automation may require a reevaluation of societal norms around work and leisure.

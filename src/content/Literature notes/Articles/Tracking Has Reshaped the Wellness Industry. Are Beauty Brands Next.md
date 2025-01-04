@@ -1,13 +1,13 @@
 ---
-title: Tracking Has Reshaped the Wellness Industry. Are Beauty Brands Next?
-full_title: Tracking Has Reshaped the Wellness Industry. Are Beauty Brands Next?
-author: Nateisha Scott
+title: |
+  Tracking Has Reshaped the Wellness Industry. Are Beauty Brands Next?
+full_title: |
+  Tracking Has Reshaped the Wellness Industry. Are Beauty Brands Next?
+author: |
+  Nateisha Scott
 url: https://www.voguebusiness.com/story/beauty/tracking-has-reshaped-the-wellness-industry-are-beauty-brands-next?uID=58ba29f6592c24ef0bdefa76114a43982a806c17a289ed758a3b0794fe834435&utm_campaign=VB_BeautyEdit_MEMBER_120724_&utm_source=newsletter&utm_brand=vb&utm_mailing=VB_BeautyEdit_MEMBER_120724_&utm_medium=email&utm_term=VB_PaidBeauty
 category: articles
 image_url: https://media.voguebusiness.com/photos/66900f367bfe362727f55207/16:9/w_1280,c_limit/WELLNESS-TRACKING-VOGUEBUS-11724-SOCIAL_NEWSLETTER.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-12 10:25:22.115056+00:00
 published_date: 2024-07-12
 summary: |
   People can now monitor everything from their glucose levels to their sleep cycles at home, with implications for how they might shop for skincare and beauty supplements.

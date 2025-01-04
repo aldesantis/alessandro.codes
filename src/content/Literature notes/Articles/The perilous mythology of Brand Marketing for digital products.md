@@ -1,13 +1,13 @@
 ---
-title: The perilous mythology of Brand Marketing for digital products
-full_title: The perilous mythology of Brand Marketing for digital products
-author: Mobile Dev Memo
+title: |
+  The perilous mythology of Brand Marketing for digital products
+full_title: |
+  The perilous mythology of Brand Marketing for digital products
+author: |
+  Mobile Dev Memo
 url: https://mobiledevmemo.com/understanding-the-role-of-brand-marketing-for-digital-products/
 category: articles
 image_url: https://mobiledevmemo.com/wp-content/uploads/2021/11/iStock-1295056492.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-16 16:04:57.117926+00:00
 published_date: 2021-11-29
 summary: |
   Brand marketing and direct response marketing serve different purposes in digital marketing. Brand marketing builds awareness and affinity for a product, while direct response marketing aims for immediate consumer action. For digital products, direct response marketing is generally more effective, with brand marketing playing a supportive role.

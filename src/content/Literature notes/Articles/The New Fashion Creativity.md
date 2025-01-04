@@ -1,13 +1,13 @@
 ---
-title: The New Fashion Creativity
-full_title: The New Fashion Creativity
-author: Ana Andjelic
+title: |
+  The New Fashion Creativity
+full_title: |
+  The New Fashion Creativity
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/the-new-fashion-creativity?utm_source=post-email-title&publication_id=18831&post_id=143281748&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d6976d6-59a7-4f3a-b9f8-a76bf4eaa6ba_1678x1162.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-29 21:17:05.840710+00:00
 published_date: None
 summary: |
   Fashion creativity is evolving beyond design to encompass marketing, merchandising, and cultural influence. Successful fashion brands now focus on a collective creative stack that integrates various elements like marketing, distribution, and retail experience. Collaboration and innovation across all aspects of the fashion business are essential for success in today's industry.

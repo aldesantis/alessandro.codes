@@ -1,13 +1,13 @@
 ---
-title: TikTok Shop Goes All-in on Livestreaming to Drive Sales This Holiday Season
-full_title: TikTok Shop Goes All-in on Livestreaming to Drive Sales This Holiday Season
-author: Allison Smith
+title: |
+  TikTok Shop Goes All-in on Livestreaming to Drive Sales This Holiday Season
+full_title: |
+  TikTok Shop Goes All-in on Livestreaming to Drive Sales This Holiday Season
+author: |
+  Allison Smith
 url: https://www.modernretail.co/technology/tiktok-shop-is-all-in-on-livestreaming-to-drive-sales-this-holiday-season/?utm_campaign=mrdis&utm_medium=email&utm_source=ecommerceweekly&utm_content=110124
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2024/09/tiktok-stage-digiday.webp?w=1000
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-08 12:20:12.880696+00:00
 published_date: 2024-10-28
 summary: |
   As TikTok Shop gears up for the holiday season, the social media app is going all-in on livestreaming to boost sales.

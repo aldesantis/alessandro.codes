@@ -1,13 +1,13 @@
 ---
-title: Breakfast at Tiffany's
-full_title: Breakfast at Tiffany's
-author: Andrew Watson
+title: |
+  Breakfast at Tiffany's
+full_title: |
+  Breakfast at Tiffany's
+author: |
+  Andrew Watson
 url: https://dollarcommerce.substack.com/p/boutique-fashion-and-technology-in-marketing?utm_source=post-email-title&publication_id=2682667&post_id=151153351&utm_campaign=email-post-title&isFreemail=true&r=31t9d7&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a596266-fae6-4a9e-a6f0-b48df20ade9f_2268x1512.heic
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-11 10:39:57.176232+00:00
 published_date: None
 summary: |
   The article discusses how luxury brands, like those highlighted in "Breakfast at Tiffany's," rely on perceived value rather than necessity. It contrasts low-cost retailers like Walmart, which thrive by offering high-value essentials, with high-cost luxury goods that can be vulnerable during economic downturns. The author warns that today's saturated market makes it challenging for brands to stand out, emphasizing the need for precision in brand messaging.

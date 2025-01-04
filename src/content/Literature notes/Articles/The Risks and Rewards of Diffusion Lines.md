@@ -1,13 +1,13 @@
 ---
-title: The Risks and Rewards of Diffusion Lines
-full_title: The Risks and Rewards of Diffusion Lines
-author: Luke Hodgson from Commerce Thinking
+title: |
+  The Risks and Rewards of Diffusion Lines
+full_title: |
+  The Risks and Rewards of Diffusion Lines
+author: |
+  Luke Hodgson from Commerce Thinking
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-21 11:38:47.040418+00:00
 published_date: 2024-03-21
 summary: |
   Diffusion lines have emerged as a core element of New Luxury as brands establish more accessible and (often) more popular collections than mainline.

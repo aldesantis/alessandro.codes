@@ -1,13 +1,13 @@
 ---
-title: "Rocks, Pebbles, Sand: How to implement in practice"
-full_title: "Rocks, Pebbles, Sand: How to implement in practice"
-author: Jason Cohen
+title: |
+  Rocks, Pebbles, Sand: How to implement in practice
+full_title: |
+  Rocks, Pebbles, Sand: How to implement in practice
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/rocks-pebbles-sand/
 category: articles
 image_url: https://longform.asmartbear.com/docs/rocks-pebbles-sand/rocks-pebbles-sand-good-edge-flood-fill-crop-auto-crop-100-50-100-50.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-30 10:10:51.170380+00:00
 published_date: 2022-07-17
 summary: |
   This complete work-prioritization framework builds on the simplistic "Rocks, Pebbles, Sand" analogy, adding the details you need for the real world.

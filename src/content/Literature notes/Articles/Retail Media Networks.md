@@ -1,13 +1,13 @@
 ---
-title: Retail Media Networks
-full_title: Retail Media Networks
-author: Marketing Dive
+title: |
+  Retail Media Networks
+full_title: |
+  Retail Media Networks
+author: |
+  Marketing Dive
 url: https://www.marketingdive.com/trendline/retail-media-networks/246/
 category: articles
 image_url: https://www.marketingdive.com/user_media/diveimage/walmart-thunder.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-19 18:38:07.113964+00:00
 published_date: 2022-04-07
 summary: |
   After gaining traction for years, retail media is now generating billions in revenue for companies that can deftly spin their troves of shopper data into robust advertising networks.

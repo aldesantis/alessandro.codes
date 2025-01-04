@@ -1,13 +1,13 @@
 ---
-title: Nike’s Virtual Studio Is Dropping Its First Physical Sneaker
-full_title: Nike’s Virtual Studio Is Dropping Its First Physical Sneaker
-author: Marc Bain
+title: |
+  Nike’s Virtual Studio Is Dropping Its First Physical Sneaker
+full_title: |
+  Nike’s Virtual Studio Is Dropping Its First Physical Sneaker
+author: |
+  Marc Bain
 url: https://link.retaildive.com/click/33007957.37934/aHR0cHM6Ly93d3cuYnVzaW5lc3NvZmZhc2hpb24uY29tL2FydGljbGVzL3RlY2hub2xvZ3kvbmlrZXMtdmlydHVhbC1zdHVkaW8taXMtZHJvcHBpbmctaXRzLWZpcnN0LXBoeXNpY2FsLXNuZWFrZXIv/637e582e0821e0a3d7090092B8b131d63
 category: articles
 image_url: https://img.businessoffashion.com/resizer/m2uHOijg1DExhRZ4ZBHXjaREJHE=/1200x630/filters:format(jpg):quality(70):focal(946x537:956x547)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/P4JMTNQTO5B2HJ6OXDYQ6JXM5M.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-13 09:16:50.098486+00:00
 published_date: 2023-10-04
 summary: |
   But only members who previously purchased one of Nike’s virtual releases will have the chance to buy it.

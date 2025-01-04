@@ -1,13 +1,13 @@
 ---
-title: Applying Pivot Points
-full_title: Applying Pivot Points
-author: Jason Cohen
+title: |
+  Applying Pivot Points
+full_title: |
+  Applying Pivot Points
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/pivot-points/?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/pivot-points/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-24 12:46:28.440692+00:00
 published_date: 2024-09-29
 summary: |
   Pivot Points are personal strengths or weaknesses that can help or hinder us in different situations. By understanding and leveraging these Pivot Points, both individuals and companies can create better strategies for success. Embracing our Pivot Points allows us to align our lives and businesses with our true capabilities, leading to greater fulfillment and effectiveness.

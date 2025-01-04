@@ -1,13 +1,13 @@
 ---
-title: Three Simple Retention Frameworks
-full_title: Three Simple Retention Frameworks
-author: Eli Weiss
+title: |
+  Three Simple Retention Frameworks
+full_title: |
+  Three Simple Retention Frameworks
+author: |
+  Eli Weiss
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-13 21:43:12.133495+00:00
 published_date: 2024-04-11
 summary: |
   I had a blast meeting many DTC folks at the Whalies yesterday, and I am still recuperating from all this extroverted activity.

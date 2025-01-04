@@ -1,13 +1,13 @@
 ---
-title: Luxury Beauty’s E-Commerce Conundrum
-full_title: Luxury Beauty’s E-Commerce Conundrum
-author: Erica La Sala
+title: |
+  Luxury Beauty’s E-Commerce Conundrum
+full_title: |
+  Luxury Beauty’s E-Commerce Conundrum
+author: |
+  Erica La Sala
 url: https://www.beautyindependent.com/luxury-beauty-e-commerce-conundrum/?utm_source=Sailthru&utm_medium=email&utm_campaign=Issue:%202024-09-24%20Retail%20Dive:%20DTC%20%5Bissue:66132%5D&utm_term=Retail%20Dive:%20DTC
 category: articles
 image_url: https://www.beautyindependent.com/wp-content/uploads/2023/10/NAP_Beauty_8_Master.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-16 08:56:14.859038+00:00
 published_date: 2024-09-23
 summary: |
   Luxury beauty brands are struggling online as key retailers like Net-a-Porter exit the market, leaving few options for effective sales. Experts believe these brands will focus more on direct-to-consumer sales and partnerships with physical stores. The competition and the need for immersive shopping experiences make online luxury beauty challenging to succeed.

@@ -1,13 +1,13 @@
 ---
-title: The Case Against Travel
-full_title: The Case Against Travel
-author: Agnes Callard
+title: |
+  The Case Against Travel
+full_title: |
+  The Case Against Travel
+author: |
+  Agnes Callard
 url: https://www.newyorker.com/culture/the-weekend-essay/the-case-against-travel
 category: articles
 image_url: https://media.newyorker.com/photos/6495d60f69af7f864913e415/16:9/w_1280,c_limit/Callard_final.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-29 16:48:38.289327+00:00
 published_date: 2023-06-24
 summary: |
   The Case Against Travel argues that tourism is ultimately self-defeating, as it turns travelers into mere spectators and diverts them from authentic sensory experiences and human connections. The article notes that tourism is driven more by the needs of the producer than the consumer and is marked by its locomotive character. The author concludes that traveling is ultimately a delusion that turns individuals into the worst version of themselves, while convincing them that they are at their best.

@@ -1,13 +1,13 @@
 ---
-title: "Member Brief: Shopify’s Drake Related News"
-full_title: "Member Brief: Shopify’s Drake Related News"
-author: 2PM
+title: |
+  Member Brief: Shopify’s Drake Related News
+full_title: |
+  Member Brief: Shopify’s Drake Related News
+author: |
+  2PM
 url: https://2pml.com/2023/07/26/drake-related/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/07/drake-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-18 09:25:18.498237+00:00
 published_date: 2023-07-26
 summary: |
   The biggest news didn’t move the market one bit. Artificial intelligence has taken center stage in eCommerce, most recently evidenced by Shopify’s latest announcement. But what is certa…

@@ -1,13 +1,13 @@
 ---
-title: ✍️ How to Master the Art of Interviews
-full_title: ✍️ How to Master the Art of Interviews
-author: Tracey Wallace
+title: |
+  ✍️ How to Master the Art of Interviews
+full_title: |
+  ✍️ How to Master the Art of Interviews
+author: |
+  Tracey Wallace
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-07 08:04:58.597450+00:00
 published_date: 2024-06-05
 summary: |
   My hope is that this helps everyone who is new here (10K of you! ) catch up on anything you missed, and also give new insight to everyone who has been here from the beginning.

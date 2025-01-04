@@ -1,13 +1,13 @@
 ---
-title: "Insiders #080: Rethinking Brand Power Structures"
-full_title: "Insiders #080: Rethinking Brand Power Structures"
-author: futurecommerce.com
+title: |
+  Insiders #080: Rethinking Brand Power Structures
+full_title: |
+  Insiders #080: Rethinking Brand Power Structures
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-080-rethinking-brand-power-structures
 category: articles
 image_url: https://uploads-ssl.webflow.com/5d7da04028ecca2357d6b3b0/6430df148b0b8b7da3adc636_2.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-11 12:19:51.035736+00:00
 published_date: 2021-04-14
 summary: |
   In this piece, we will challenge you to consider, measure, and document what is powerful to your brand, and your customers, and ask you to rethink how you build and optimize experiences.

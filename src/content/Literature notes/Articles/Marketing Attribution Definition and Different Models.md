@@ -1,13 +1,13 @@
 ---
-title: "Marketing Attribution: Definition and Different Models"
-full_title: "Marketing Attribution: Definition and Different Models"
-author: Shopify
+title: |
+  Marketing Attribution: Definition and Different Models
+full_title: |
+  Marketing Attribution: Definition and Different Models
+author: |
+  Shopify
 url: https://www.shopify.com/blog/marketing-attribution
 category: articles
 image_url: https://cdn.shopify.com/s/files/1/0070/7032/files/Marketing_Attribution_Featured_Image.jpg?v=1674257026
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-02-27 12:23:54.275699+00:00
 published_date: 2023-01-20
 summary: |
   Learn how to set up better attribution and reporting and what types of marketing attribution models you can apply—explained for beginners.

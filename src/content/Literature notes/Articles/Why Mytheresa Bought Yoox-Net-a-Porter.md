@@ -1,13 +1,13 @@
 ---
-title: Why Mytheresa Bought Yoox-Net-a-Porter
-full_title: Why Mytheresa Bought Yoox-Net-a-Porter
-author: Malique Morris
+title: |
+  Why Mytheresa Bought Yoox-Net-a-Porter
+full_title: |
+  Why Mytheresa Bought Yoox-Net-a-Porter
+author: |
+  Malique Morris
 url: https://www.businessoffashion.com/articles/retail/why-mytheresa-acquired-yoox-net-a-porter/?utm_source=futureplus.beehiiv.com&utm_medium=newsletter&utm_campaign=future-fridays-issue33&_bhlid=d05d3fffd857b7f1fd08dce0b051319809e83666&__readwiseLocation=
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/YLLEGFBY4RGNDJAW4OFQNELEQI.jpg?smart=true&auth=93b42b9a7a6c08012bf719bad191a0246c39ebc0476e620fdc35b613d954d4d2&width=1200&height=630
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-28 09:33:02.466969+00:00
 published_date: 2024-10-08
 summary: |
   Mytheresa is acquiring Yoox Net-a-Porter (YNAP) from Richemont, aiming to strengthen its position in luxury e-commerce. This merger will allow Mytheresa to combine its profitable business model with YNAP's larger platform while maintaining their distinct brands. The deal is expected to help reduce customer acquisition costs and increase sales, ultimately positioning Mytheresa as a leader in the luxury online market.

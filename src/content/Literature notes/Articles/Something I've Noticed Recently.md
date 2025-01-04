@@ -1,13 +1,13 @@
 ---
-title: Something I've Noticed Recently
-full_title: Something I've Noticed Recently
-author: Greg Isenberg
+title: |
+  Something I've Noticed Recently
+full_title: |
+  Something I've Noticed Recently
+author: |
+  Greg Isenberg
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-18 09:47:50.699946+00:00
 published_date: 2023-12-14
 summary: |
   Today, let's talk about trends and anti-trends. Something I've learned is the best businesses ride trends and anti-trends.

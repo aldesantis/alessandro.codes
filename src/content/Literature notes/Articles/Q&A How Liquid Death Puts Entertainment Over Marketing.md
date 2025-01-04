@@ -1,13 +1,13 @@
 ---
-title: "Q&A: How Liquid Death Puts Entertainment Over Marketing"
-full_title: "Q&A: How Liquid Death Puts Entertainment Over Marketing"
-author: Grace Gollasch
+title: |
+  Q&A: How Liquid Death Puts Entertainment Over Marketing
+full_title: |
+  Q&A: How Liquid Death Puts Entertainment Over Marketing
+author: |
+  Grace Gollasch
 url: https://mediacatmagazine.co.uk/qa-how-liquid-death-puts-entertainment-over-marketing/
 category: articles
 image_url: https://mediacatmagazine.co.uk/wp-content/uploads/2023/11/Featured-image-110.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-30 19:08:59.102679+00:00
 published_date: 2023-11-30
 summary: |
   'We're closer to a writer’s room than a traditional marketing department'

@@ -1,13 +1,13 @@
 ---
-title: When I Stopped Trying to Self-Optimize, I Got Better
-full_title: When I Stopped Trying to Self-Optimize, I Got Better
-author: Francis Sanzaro
+title: |
+  When I Stopped Trying to Self-Optimize, I Got Better
+full_title: |
+  When I Stopped Trying to Self-Optimize, I Got Better
+author: |
+  Francis Sanzaro
 url: https://www.nytimes.com/2023/09/17/opinion/sports-zen-mental-subtraction.html/
 category: articles
 image_url: https://static01.nyt.com/images/2023/09/19/opinion/sunday/16Sanzaro/16Sanzaro-facebookJumbo.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-11 09:50:02.967809+00:00
 published_date: 2023-09-17
 summary: |
   The growth mind-set. The abundance mind-set. The gratitude mind-set. I threw them all away.

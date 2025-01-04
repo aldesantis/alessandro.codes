@@ -1,13 +1,13 @@
 ---
-title: "Leveraging the Loyalty Margin: Rewards Programs That Work"
-full_title: "Leveraging the Loyalty Margin: Rewards Programs That Work"
-author: Dylan Bolden
+title: |
+  Leveraging the Loyalty Margin: Rewards Programs That Work
+full_title: |
+  Leveraging the Loyalty Margin: Rewards Programs That Work
+author: |
+  Dylan Bolden
 url: https://www.bcg.com/publications/2014/retail-transportation-travel-tourism-leveraging-loyalty-margin-rewards-programs-work
 category: articles
 image_url: https://web-assets.bcg.com/dims4/default/c31e997/2147483647/strip/true/crop/1694x889+0+30/resize/1200x630!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F0b%2Fec%2F09eddc519d96a17946ea6d3f9ded%2Fleveraging-loyalty-margin-1694x950-tcm9-83903.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-03 16:33:19.919908+00:00
 published_date: 2021-01-08
 summary: |
   Loyalty programs are essential for companies to retain customers and increase profits. The most successful programs use a combination of strategies to drive incremental share and maximize the loyalty margin. Companies should carefully design and track their loyalty programs to ensure they provide real value to customers.

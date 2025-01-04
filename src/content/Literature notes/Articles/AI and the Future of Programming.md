@@ -1,13 +1,13 @@
 ---
-title: AI and the Future of Programming
-full_title: AI and the Future of Programming
-author: Dan Shipper
+title: |
+  AI and the Future of Programming
+full_title: |
+  AI and the Future of Programming
+author: |
+  Dan Shipper
 url: https://every.to/chain-of-thought/ai-and-the-future-of-programming
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2602/CleanShot_2023-04-28_at_10.25.42_2x.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-31 14:15:01.052440+00:00
 published_date: 2023-04-28
 summary: |
   Amjad Masad, the founder of AI-unicron Replit, believes that programming skills will become more important in an AI-driven world, since AI tools are inherently augmenting rather than automating. He thinks that these tools might change the required skills of programmers, who will act more as guides or managers in many cases, but they will still be needed to fill in gaps and control the models' possible mistakes. However, Masad also argues that AI doom is caused by players' incentives to oversell or overstate AI's capabilities, creating a cycle of hype and fear. Masad also suggests that bundling and vertical integration could be a strategy for AI startups to win against incumbents.

@@ -1,13 +1,13 @@
 ---
-title: "Amazon Briefing: How Amazon’s Cash Advance Program Is Part of a New Wave of Financing"
-full_title: "Amazon Briefing: How Amazon’s Cash Advance Program Is Part of a New Wave of Financing"
-author: Melissa Daniels
+title: |
+  Amazon Briefing: How Amazon’s Cash Advance Program Is Part of a New Wave of Financing
+full_title: |
+  Amazon Briefing: How Amazon’s Cash Advance Program Is Part of a New Wave of Financing
+author: |
+  Melissa Daniels
 url: https://www.modernretail.co/technology/amazon-briefing-how-amazons-cash-advance-program-is-part-of-a-new-wave-of-financing/?utm_campaign=mrdis&utm_medium=email&utm_source=mrdaily&utm_content=120922
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2022/08/amazon_briefing.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-12 11:03:18.498237+00:00
 published_date: 2022-12-08
 summary: |
   Amazon is expanding a new cash advance service for sellers next year, part of a growing crop of short-term financial services catering to e-commerce businesses amid a drop in venture spending.

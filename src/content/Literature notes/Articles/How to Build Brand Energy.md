@@ -1,13 +1,13 @@
 ---
-title: How to Build Brand Energy
-full_title: How to Build Brand Energy
-author: Grace Gordon
+title: |
+  How to Build Brand Energy
+full_title: |
+  How to Build Brand Energy
+author: |
+  Grace Gordon
 url: https://andjelicaaa.substack.com/p/how-to-build-brand-energy?utm_source=post-email-title&publication_id=18831&post_id=145575123&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09e83d56-8810-4b61-bae0-a620ac4635d2_1600x1029.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-15 08:07:32.002224+00:00
 published_date: None
 summary: |
   Grace Gordon shares a case study on building brand energy by connecting with influential city communities and creating cultural hits like "BRAT" by Charli XCX. The key is to authentically engage with fans both online and offline, providing tools for creative expression and building a lifestyle platform around the brand. Brands can learn from this approach by designing products that resonate with their core audience, facilitating community engagement, and simplifying brand codes to inspire participation and expression.

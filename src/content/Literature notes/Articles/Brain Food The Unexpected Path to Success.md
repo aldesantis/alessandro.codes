@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: The Unexpected Path to Success"
-full_title: "Brain Food: The Unexpected Path to Success"
-author: FS (Farnam Street)
+title: |
+  Brain Food: The Unexpected Path to Success
+full_title: |
+  Brain Food: The Unexpected Path to Success
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-26 12:22:06.383257+00:00
 published_date: 2024-02-25
 summary: |
   "There is a door we all want to walk through, and writing can help you find it and open it.

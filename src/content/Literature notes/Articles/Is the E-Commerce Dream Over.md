@@ -1,13 +1,13 @@
 ---
-title: Is the E-Commerce Dream Over?
-full_title: Is the E-Commerce Dream Over?
-author: Fred Nicolaus
+title: |
+  Is the E-Commerce Dream Over?
+full_title: |
+  Is the E-Commerce Dream Over?
+author: |
+  Fred Nicolaus
 url: https://businessofhome.com/articles/design-e-commerce-justina-blakeney-athena-calderone?utm_source=Sailthru&utm_medium=email&utm_campaign=Newsletter%20Weekly%20Roundup:%20Retail%20Dive:%20DTC%2006-08-2024&utm_term=Retail%20Dive:%20DTC%20Weekender
 category: articles
 image_url: https://businessofhome.com/system/images/13091/large169/AdobeStock_530538760.jpeg?1717610143
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-10 08:23:38.819013+00:00
 published_date: 2024-06-05
 summary: |
   The e-commerce boom during the pandemic has slowed down, affecting home goods retailers like Bellacor and Burke Decor. Designers are facing challenges as online sales decline, but there is hope for growth in the long term according to Forrester's predictions. Adapting strategies and focusing on unique products can help designers succeed in the competitive e-commerce landscape.

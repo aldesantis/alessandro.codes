@@ -1,13 +1,13 @@
 ---
-title: Startling Differences Between Humans and Jukeboxes
-full_title: Startling Differences Between Humans and Jukeboxes
-author: Adam Mastroianni
+title: |
+  Startling Differences Between Humans and Jukeboxes
+full_title: |
+  Startling Differences Between Humans and Jukeboxes
+author: |
+  Adam Mastroianni
 url: https://www.experimental-history.com/p/startling-differences-between-humans?utm_source=post-email-title&publication_id=656797&post_id=143191122&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dfb043a-62a8-4a2d-acff-408c4d088753_1514x1186.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-04-03 15:00:31.395448+00:00
 published_date: 2024-04-02
 summary: |
   Humans are often motivated by rewards like money and prestige, leading to behavior driven by incentives. However, the theory of intrinsic motivation suggests that people also care about other factors beyond external rewards. The key to influencing behavior lies in understanding and aligning with individuals' internal motivations.

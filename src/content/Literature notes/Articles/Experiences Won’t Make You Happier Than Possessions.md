@@ -1,13 +1,13 @@
 ---
-title: Experiences Won’t Make You Happier Than Possessions
-full_title: Experiences Won’t Make You Happier Than Possessions
-author: Sasha Chapin
+title: |
+  Experiences Won’t Make You Happier Than Possessions
+full_title: |
+  Experiences Won’t Make You Happier Than Possessions
+author: |
+  Sasha Chapin
 url: https://every.to/p/buying-experiences-doesn-t-make-you-happier-than-possessions
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2611/unknown_2.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-08 08:30:26.857330+00:00
 published_date: 2023-05-09
 summary: |
   Be skeptical of pop psychology studies

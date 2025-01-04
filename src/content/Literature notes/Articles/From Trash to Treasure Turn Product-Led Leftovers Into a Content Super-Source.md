@@ -1,13 +1,13 @@
 ---
-title: "From Trash to Treasure: Turn Product-Led Leftovers Into a Content Super-Source"
-full_title: "From Trash to Treasure: Turn Product-Led Leftovers Into a Content Super-Source"
-author: Sara Coggin
+title: |
+  From Trash to Treasure: Turn Product-Led Leftovers Into a Content Super-Source
+full_title: |
+  From Trash to Treasure: Turn Product-Led Leftovers Into a Content Super-Source
+author: |
+  Sara Coggin
 url: https://www.animalz.co/blog/product-led-content-by-products/
 category: articles
 image_url: https://www.animalz.co/wp-content/uploads/2023/12/by-products_featured_TINY.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-25 21:38:42.945334+00:00
 published_date: 2023-12-14
 summary: |
   Product-Led Growth (PLG) often leads to valuable by-products being wasted in digital archives. Instead of focusing solely on traditional product-led content, marketers should utilize these by-products to create original content that aligns with the product's value proposition. By-products such as data from product analytics, quotes from user interviews, and industry insights can be transformed into various content types, reducing production costs and increasing originality and authenticity. The document provides tips on using product data, in-house expertise and opinion, and the company's journey to cultivate brand authority, attract customers, and nurture loyalty. Marketers are encouraged to explore the hidden gems within their organizations and turn them into valuable narratives.

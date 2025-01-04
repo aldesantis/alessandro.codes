@@ -1,13 +1,13 @@
 ---
-title: Why Is Fashion Diving Into New Industries?
-full_title: Why Is Fashion Diving Into New Industries?
-author: SOTA
+title: |
+  Why Is Fashion Diving Into New Industries?
+full_title: |
+  Why Is Fashion Diving Into New Industries?
+author: |
+  SOTA
 url: https://sotaclub.substack.com/p/why-is-fashion-diving-into-new-industries
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6123deb4-0c54-4aa6-a84a-f6791a6de17c_600x394.gif
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-29 21:17:12.131757+00:00
 published_date: None
 summary: |
   Fashion brands are expanding into new industries beyond clothing to drive growth and connect with consumers in innovative ways. This shift towards Brand Universes involves offering diverse products and experiences, creating a niche culture and strong emotional ties with customers. Successful brand collaborations now focus on strategic partnerships, multi-seasonal approaches, and launching beyond physical products to create meaningful connections with fans.

@@ -1,13 +1,13 @@
 ---
-title: "Idle Gaze 065: In Search of Ungrammable Spaces"
-full_title: "Idle Gaze 065: In Search of Ungrammable Spaces"
-author: Alexi Gunner
+title: |
+  Idle Gaze 065: In Search of Ungrammable Spaces
+full_title: |
+  Idle Gaze 065: In Search of Ungrammable Spaces
+author: |
+  Alexi Gunner
 url: https://idlegaze.substack.com/p/idle-gaze-065-in-search-of-ungrammable?utm_source=multiple-personal-recommendations-email&utm_medium=email&triedRedirect=true
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a537ec-776a-4a25-ae11-faed7ed6ad92_738x702.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-21 21:29:50.696589+00:00
 published_date: None
 summary: |
   The text explores the trend of homogenization in public spaces driven by social media aesthetics during events like Milan Design Week. It highlights a growing nostalgia for unassuming, un-Instagrammable hangout spots that offer a sense of authenticity and comfort. Despite efforts by brands to recreate this vibe, the genuine charm of these spaces cannot be replicated or forced.

@@ -1,13 +1,13 @@
 ---
-title: ✍️ How to Scale Production Without Sacrificing Quality
-full_title: ✍️ How to Scale Production Without Sacrificing Quality
-author: Tracey Wallace
+title: |
+  ✍️ How to Scale Production Without Sacrificing Quality
+full_title: |
+  ✍️ How to Scale Production Without Sacrificing Quality
+author: |
+  Tracey Wallace
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-12 20:42:22.699973+00:00
 published_date: 2024-06-12
 summary: |
   In my welcome email for this newsletter, I ask new subscribers what their biggest content marketing problem or conundrum is. And I get a ton of answers back to this, y’all!

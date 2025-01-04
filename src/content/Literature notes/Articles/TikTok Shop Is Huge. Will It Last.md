@@ -1,13 +1,13 @@
 ---
-title: TikTok Shop Is Huge. Will It Last?
-full_title: TikTok Shop Is Huge. Will It Last?
-author: Dan Frommer
+title: |
+  TikTok Shop Is Huge. Will It Last?
+full_title: |
+  TikTok Shop Is Huge. Will It Last?
+author: |
+  Dan Frommer
 url: https://newconsumer.com/2024/01/tiktok-shop-is-huge-will-it-last/
 category: articles
 image_url: https://newconsumer.com/wp-content/uploads/2024/01/Consumer-Trends-2024-Chart.057-1200x675.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-14 08:18:01.797738+00:00
 published_date: 2024-01-22
 summary: |
   Finally, social commerce is working in the US. Also: What does a Shark Tank appearance do for a startup’s sales?

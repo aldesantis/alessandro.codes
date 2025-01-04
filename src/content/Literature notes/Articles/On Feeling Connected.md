@@ -1,13 +1,13 @@
 ---
-title: On Feeling Connected
-full_title: On Feeling Connected
-author: Henrik Karlsson
+title: |
+  On Feeling Connected
+full_title: |
+  On Feeling Connected
+author: |
+  Henrik Karlsson
 url: https://www.henrikkarlsson.xyz/p/giving?utm_source=post-email-title&publication_id=313411&post_id=148688434&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd04be77f-1602-4527-879c-e4b5c84f240e_867x1200.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-18 10:26:36.335584+00:00
 published_date: None
 summary: |
   generosity is potency

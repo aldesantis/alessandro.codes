@@ -1,13 +1,13 @@
 ---
-title: How I Think About Debt
-full_title: How I Think About Debt
-author: Morgan Housel
+title: |
+  How I Think About Debt
+full_title: |
+  How I Think About Debt
+author: |
+  Morgan Housel
 url: https://collabfund.com/blog/how-i-think-about-debt/
 category: articles
 image_url: https://collabfund.com/assets/images/og-image.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-14 08:53:43.265092+00:00
 published_date: 2024-04-30
 summary: |
   Some businesses in Japan have lasted for centuries without taking on debt, allowing them to endure various challenges. Author Collab Fund suggests that debt can limit the range of challenges one can withstand in life, emphasizing the importance of having options and flexibility. Viewing debt as a constraint on survivable outcomes can help individuals make more informed financial decisions in an unpredictable world.

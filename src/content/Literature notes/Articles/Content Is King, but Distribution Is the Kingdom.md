@@ -1,13 +1,13 @@
 ---
-title: Content Is King, but Distribution Is the Kingdom
-full_title: Content Is King, but Distribution Is the Kingdom
-author: Offset
+title: |
+  Content Is King, but Distribution Is the Kingdom
+full_title: |
+  Content Is King, but Distribution Is the Kingdom
+author: |
+  Offset
 url: https://andjelicaaa.substack.com/p/content-is-king-but-distribution?utm_source=post-email-title&publication_id=18831&post_id=153261362&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ee498f4-ec19-4525-bea8-3c1530723a6e_1028x1226.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-20 15:28:44.961068+00:00
 published_date: 2024-12-19
 summary: |
   Brands are increasingly outsourcing content creation, which limits their ability to connect authentically with consumers. To succeed in today’s market, brands need to adopt a "publish model," acting like media companies by creating and distributing their own content. This shift will help them build direct connections with their audience and foster a unique brand identity.

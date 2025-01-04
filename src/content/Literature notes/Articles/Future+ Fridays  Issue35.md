@@ -1,13 +1,13 @@
 ---
-title: Future+ Fridays | Issue35
-full_title: Future+ Fridays | Issue35
-author: Ashumi from Future+
+title: |
+  Future+ Fridays | Issue35
+full_title: |
+  Future+ Fridays | Issue35
+author: |
+  Ashumi from Future+
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-28 16:21:29.394826+00:00
 published_date: 2024-10-25
 summary: |
   Hello and happy Friday. Being in Paris for the Ledger event was exhilarating last week.

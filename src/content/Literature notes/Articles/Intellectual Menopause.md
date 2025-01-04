@@ -1,13 +1,13 @@
 ---
-title: Intellectual Menopause
-full_title: Intellectual Menopause
-author: Venkatesh Rao
+title: |
+  Intellectual Menopause
+full_title: |
+  Intellectual Menopause
+author: |
+  Venkatesh Rao
 url: https://www.ribbonfarm.com/2024/08/15/intellectual-menopause/
 category: articles
 image_url: https://www.ribbonfarm.com/wp-content/uploads/2019/03/cropped-rfnewlogo-32x32.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-16 15:52:10.006211+00:00
 published_date: 2024-08-16
 summary: |
   "Intellectual menopause" refers to a decline in creative inspiration and vitality that often occurs in men around middle age. This phenomenon is characterized by a lack of imagination and a reluctance to embrace new ideas, leading to stagnation in thought and expression. The author reflects on his own experiences and observes that even younger individuals can exhibit signs of this intellectual decline.

@@ -1,13 +1,13 @@
 ---
-title: 🎓 No, women don’t
-full_title: 🎓 No, women don’t
-author: Thomas from Ariyh
+title: |
+  🎓 No, women don’t
+full_title: |
+  🎓 No, women don’t
+author: |
+  Thomas from Ariyh
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-09 15:39:07.422752+00:00
 published_date: 2024-01-09
 summary: |
   Your sister-in-law loves music. Her birthday is approaching and you decide to get her a vinyl player.

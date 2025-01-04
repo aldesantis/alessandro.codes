@@ -1,17 +1,18 @@
 ---
-title: "The "Messy Middle" of Startup Growth 🙃"
-full_title: "The "Messy Middle" of Startup Growth 🙃"
-author: Eli Weiss
+title: |
+  The "Messy Middle" of Startup Growth 🙃
+full_title: |
+  The "Messy Middle" of Startup Growth 🙃
+author: |
+  Eli Weiss
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-07 08:02:03.424425+00:00
 published_date: 2024-06-06
-summary: >
+summary: |
   Before we jump in, It’s week 3 of 4 in TLV, and I’m here with the coffee rating of the week: Nahat Coffee Roastery: 8. 2.
 source: reader
+permalink: l/articles/the-messy-middle-of-startup-growth
 ---
 # The "Messy Middle" of Startup Growth 🙃
 

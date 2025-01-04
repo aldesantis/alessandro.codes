@@ -1,13 +1,13 @@
 ---
-title: ✍️ Thought Leadership Isn’t a Content Type. It’s a Content Goal.
-full_title: ✍️ Thought Leadership Isn’t a Content Type. It’s a Content Goal.
-author: Tracey Wallace
+title: |
+  ✍️ Thought Leadership Isn’t a Content Type. It’s a Content Goal.
+full_title: |
+  ✍️ Thought Leadership Isn’t a Content Type. It’s a Content Goal.
+author: |
+  Tracey Wallace
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-10 11:27:40.152951+00:00
 published_date: 2024-05-08
 summary: |
   I have been that person sitting in the room staring back at the eyes staring at me, expecting me to come up with a genius piece of content right now that can support the untested theory the company wants to solidify in the minds of its audience.

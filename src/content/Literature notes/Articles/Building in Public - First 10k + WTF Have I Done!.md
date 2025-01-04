@@ -1,13 +1,13 @@
 ---
-title: Building in Public - First 10k + WTF Have I Done?!
-full_title: Building in Public - First 10k + WTF Have I Done?!
-author: Bill Kerr
+title: |
+  Building in Public - First 10k + WTF Have I Done?!
+full_title: |
+  Building in Public - First 10k + WTF Have I Done?!
+author: |
+  Bill Kerr
 url: https://www.opensourceceo.com/p/building-in-public-1
 category: articles
 image_url: https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f9976e36-1c94-4036-95d1-d31a8946679a/Screenshot_2023-11-04_at_8.11.01_pm.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-24 11:58:56.621013+00:00
 published_date: 2023-11-04
 summary: |
   And the big business of newsletters. 📬 

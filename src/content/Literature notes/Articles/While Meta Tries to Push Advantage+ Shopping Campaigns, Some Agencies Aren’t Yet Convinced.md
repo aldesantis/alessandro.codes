@@ -1,13 +1,13 @@
 ---
-title: While Meta Tries to Push Advantage+ Shopping Campaigns, Some Agencies Aren’t Yet Convinced
-full_title: While Meta Tries to Push Advantage+ Shopping Campaigns, Some Agencies Aren’t Yet Convinced
-author: Vidhi Choudhary
+title: |
+  While Meta Tries to Push Advantage+ Shopping Campaigns, Some Agencies Aren’t Yet Convinced
+full_title: |
+  While Meta Tries to Push Advantage+ Shopping Campaigns, Some Agencies Aren’t Yet Convinced
+author: |
+  Vidhi Choudhary
 url: https://www.modernretail.co/technology/while-meta-tries-to-push-advantage-shopping-campaigns-some-agencies-arent-yet-convinced/
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2023/01/Meta-e1674774034702.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-15 08:55:44.646030+00:00
 published_date: 2023-06-13
 summary: |
   Meta's Performance Marketing Summit was all about its AI Powered Advantage+ Shopping Campaigns. However, gaps within ASC remain.

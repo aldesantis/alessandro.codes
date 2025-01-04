@@ -1,13 +1,13 @@
 ---
-title: "Digital Product Passport 101: The Journey to Sustainability"
-full_title: "Digital Product Passport 101: The Journey to Sustainability"
-author: inriver
+title: |
+  Digital Product Passport 101: The Journey to Sustainability
+full_title: |
+  Digital Product Passport 101: The Journey to Sustainability
+author: |
+  inriver
 url: https://www.inriver.com/resources/digital-product-passport/
 category: articles
 image_url: https://www.inriver.com/wp-content/uploads/2023/03/digital-product-passport.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-15 15:13:24.592125+00:00
 published_date: 2023-03-27
 summary: |
   The Digital Product Passport (DPP) is new legislation changing the way Europe and the world makes, buys, and sells products. Find out more.

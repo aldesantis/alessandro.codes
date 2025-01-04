@@ -1,13 +1,13 @@
 ---
-title: The Friendship Problem
-full_title: The Friendship Problem
-author: Rosie Spinks
+title: |
+  The Friendship Problem
+full_title: |
+  The Friendship Problem
+author: |
+  Rosie Spinks
 url: https://rojospinks.substack.com/p/the-friendship-problem
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc86f9a3-3f33-49d2-a0ad-8897a3ac2227_1000x665.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-27 11:34:26.895214+00:00
 published_date: 2023-11-24
 summary: |
   The author of this article reflects on the decline of friendships and the challenges of making and maintaining meaningful connections, particularly in a hyper-connected but socially disconnected world. The author suggests that the demands of modern life and the emphasis on individualism and self-optimization have eroded the social capital and relational muscles necessary for building and sustaining friendships. The pandemic has only accelerated this trend, leaving many people feeling burned out, isolated, and craving the kind of low-effort, place-based friendships that have sustained humans for centuries. The author argues that we need to rediscover our social nature and invest in the basic human experience of relying on the people around us.

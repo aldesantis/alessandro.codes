@@ -1,13 +1,13 @@
 ---
-title: Devote Yourself to the Cause of Your Life
-full_title: Devote Yourself to the Cause of Your Life
-author: Evan Armstrong
+title: |
+  Devote Yourself to the Cause of Your Life
+full_title: |
+  Devote Yourself to the Cause of Your Life
+author: |
+  Evan Armstrong
 url: https://every.to/napkin-math/devote-yourself-to-the-cause-of-your-life
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2716/balance.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 09:25:09.718322+00:00
 published_date: 2023-08-03
 summary: |
   Your to-do list can wait

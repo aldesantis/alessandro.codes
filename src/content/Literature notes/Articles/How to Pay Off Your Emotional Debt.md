@@ -1,13 +1,13 @@
 ---
-title: How to Pay Off Your Emotional Debt
-full_title: How to Pay Off Your Emotional Debt
-author: Jonny Miller
+title: |
+  How to Pay Off Your Emotional Debt
+full_title: |
+  How to Pay Off Your Emotional Debt
+author: |
+  Jonny Miller
 url: https://every.to/p/how-to-pay-off-your-emotional-debt
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2719/ujx0lBhTzbSnI6XvdtEcM5REcGj4c--9qf3rBg0kvYBZvY5lKI-o2HU6FfOAvVIAh352BaTpGOAfQL8HaBaszjD4AAyH3HNGzC3li5lKpjTr_dz4fUpuVWX9iIgX.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-30 10:22:33.800106+00:00
 published_date: 2023-08-07
 summary: |
   A toolkit for navigating stressful experiences and cultivating emotional mastery

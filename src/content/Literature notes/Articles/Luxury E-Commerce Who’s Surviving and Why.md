@@ -1,13 +1,13 @@
 ---
-title: "Luxury E-Commerce: Who’s Surviving and Why"
-full_title: "Luxury E-Commerce: Who’s Surviving and Why"
-author: Marc Bain
+title: |
+  Luxury E-Commerce: Who’s Surviving and Why
+full_title: |
+  Luxury E-Commerce: Who’s Surviving and Why
+author: |
+  Marc Bain
 url: https://www.businessoffashion.com/articles/retail/what-luxury-ecommerce-survivors-get-right/?utm_source=newsletter_technology&utm_medium=email&utm_campaign=Technology_050624&utm_term=MK6EU5U6JNF6VMHTTABSUF7TVA&utm_content=top_story_1_cta
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/3IGD7QHDFRBQVAWSM6ITAG4JUA.png?smart=true&auth=284c5112a75bd577aac41577e9bdf0eb611bd5bd4dfb69d90f946d34f37c48b6&width=1200&height=630
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-14 08:30:24.941088+00:00
 published_date: 2024-06-03
 summary: |
   Luxury e-commerce faces challenges, with some players like Mytheresa thriving by focusing on top clients and exclusive products. Survivors like Ssense and Moda Operandi prioritize customer curation and service over discounts, aiming to engage with specific audiences. To succeed in a changing market, e-tailers must articulate their value proposition and adapt to the next generation of shoppers.

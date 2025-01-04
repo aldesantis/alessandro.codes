@@ -1,13 +1,13 @@
 ---
-title: Everyone’s a Sellout Now
-full_title: Everyone’s a Sellout Now
-author: Rebecca Jennings
+title: |
+  Everyone’s a Sellout Now
+full_title: |
+  Everyone’s a Sellout Now
+author: |
+  Rebecca Jennings
 url: https://www.vox.com/culture/2024/2/1/24056883/tiktok-self-promotion-artist-career-how-to-build-following/
 category: articles
 image_url: https://cdn.vox-cdn.com/thumbor/yVutDtQu361G6Vlc1zzxandIs0I=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25258757/Vox_EleniKalorkoti.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-28 09:59:51.815009+00:00
 published_date: 2024-02-01
 summary: |
   The article discusses the rise of the personal brand in the age of social media and how it affects artists and creators. The internet has made it so that no matter who you are or what you do, you cannot escape the tyranny of the personal brand, leading to constant self-promotion and the feeling that what you are really doing with your time is marketing, not art. The system works great for record labels or publishing houses, who can hand over the burden of marketing to the artists themselves. However, the problem isn't that people aren't buying books or listening to music, it's that less of the money is going to the artists.

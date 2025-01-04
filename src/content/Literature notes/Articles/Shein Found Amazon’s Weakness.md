@@ -1,13 +1,13 @@
 ---
-title: Shein Found Amazon’s Weakness
-full_title: Shein Found Amazon’s Weakness
-author: John Herrman
+title: |
+  Shein Found Amazon’s Weakness
+full_title: |
+  Shein Found Amazon’s Weakness
+author: |
+  John Herrman
 url: https://nymag.com/intelligencer/2023/12/shein-found-amazons-weakness.html
 category: articles
 image_url: https://pyxis.nymag.com/v1/imgs/c37/8ad/2466b49395ea6efb7dd7bba727116da81b-shein.1x.rsocial.w1200.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-27 11:47:12.028554+00:00
 published_date: 2023-12-21
 summary: |
   Shein, an ultracheap fast-fashion app, has become a competitor that worries Amazon's leadership. Amazon recently announced significant decreases in commissions for cheap clothing, specifically targeting items priced under $15. These fee cuts are seen as a response to Shein's success, as Shein has become the biggest online-native clothing retailer with its unique supply chain and ability to offer on-trend clothing at low prices. Shein's rise has exposed weaknesses in Amazon's business model, particularly in terms of pricing, trend sensitivity, and social media presence. While Shein may not pose a comprehensive threat to Amazon's business in America, it has forced the Everything Store to defend its position.

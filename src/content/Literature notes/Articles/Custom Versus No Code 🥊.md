@@ -1,13 +1,13 @@
 ---
-title: Custom Versus No Code 🥊
-full_title: Custom Versus No Code 🥊
-author: Tim Richardson
+title: |
+  Custom Versus No Code 🥊
+full_title: |
+  Custom Versus No Code 🥊
+author: |
+  Tim Richardson
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-17 08:12:27.147002+00:00
 published_date: 2024-05-16
 summary: |
   I like the idea of ‘building in public’. But I’ve never been fully comfortable with the concept.

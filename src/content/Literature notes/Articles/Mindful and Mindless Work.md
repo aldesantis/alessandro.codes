@@ -1,13 +1,13 @@
 ---
-title: Mindful and Mindless Work
-full_title: Mindful and Mindless Work
-author: Esko Kilpi
+title: |
+  Mindful and Mindless Work
+full_title: |
+  Mindful and Mindless Work
+author: |
+  Esko Kilpi
 url: https://medium.com/@EskoKilpi/mindful-and-mindless-work-c9fd65381acc
 category: articles
 image_url: https://miro.medium.com/max/1200/1*O2BPEO0nZ6XUeV_w_rX4bw.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-12 20:26:43.065772+00:00
 published_date: 2019-11-11
 summary: |
   Many people have jobs that are not meaningful to them, jobs that are pursued simply for money. Because of the common disconnect of the…

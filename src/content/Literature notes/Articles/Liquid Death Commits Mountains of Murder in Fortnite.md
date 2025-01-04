@@ -1,13 +1,13 @@
 ---
-title: Liquid Death Commits Mountains of Murder in Fortnite
-full_title: Liquid Death Commits Mountains of Murder in Fortnite
-author: David Gianatasio
+title: |
+  Liquid Death Commits Mountains of Murder in Fortnite
+full_title: |
+  Liquid Death Commits Mountains of Murder in Fortnite
+author: |
+  David Gianatasio
 url: https://musebycl.io/gaming/liquid-death-commits-mountains-murder-fortnite
 category: articles
 image_url: https://cdn.musebycl.io/2023-12/fort%201.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-29 10:35:20.346393+00:00
 published_date: 2023-12-19
 summary: |
   They've got some skin in the game

@@ -1,13 +1,13 @@
 ---
-title: Why Some Brands Are Being More Cautious About Wholesale Expansion
-full_title: Why Some Brands Are Being More Cautious About Wholesale Expansion
-author: Gabriela Barkho
+title: |
+  Why Some Brands Are Being More Cautious About Wholesale Expansion
+full_title: |
+  Why Some Brands Are Being More Cautious About Wholesale Expansion
+author: |
+  Gabriela Barkho
 url: https://www.modernretail.co/operations/why-some-brands-are-being-more-cautious-about-wholesale-expansion/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss&utm_term=Retail%20Dive:%20DTC
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2021/12/wallstreet.gif
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-17 08:40:38.725380+00:00
 published_date: 2024-07-09
 summary: |
   Some brands are being cautious about expanding into wholesale due to the high costs and uncertainties involved. Founders of smaller businesses are prioritizing more familiar and controllable channels like Amazon and direct-to-consumer sites to extend their runways. While wholesale distribution remains a top priority for consumer brands, the shift towards more predictable and controllable growth strategies is becoming more common.

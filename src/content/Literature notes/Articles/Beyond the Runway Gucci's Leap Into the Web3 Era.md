@@ -1,13 +1,13 @@
 ---
-title: "Beyond the Runway: Gucci's Leap Into the Web3 Era"
-full_title: "Beyond the Runway: Gucci's Leap Into the Web3 Era"
-author: Marco Di Maggio; Marc Baumann
+title: |
+  Beyond the Runway: Gucci's Leap Into the Web3 Era
+full_title: |
+  Beyond the Runway: Gucci's Leap Into the Web3 Era
+author: |
+  Marco Di Maggio; Marc Baumann
 url: https://readwise.io/reader/document_raw_content/156180533
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/156180533/Qe0QFKZs1IWPNpPNMap5biR1hKpzrFbMDTDs9Ml6vd4-cove_3xzQOOZ.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-01 08:28:01.108496+00:00
 published_date: 2024-03-19
 summary: ""
 source: reader

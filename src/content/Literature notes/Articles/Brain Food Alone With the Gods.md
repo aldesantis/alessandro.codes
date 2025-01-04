@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Alone With the Gods"
-full_title: "Brain Food: Alone With the Gods"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Alone With the Gods
+full_title: |
+  Brain Food: Alone With the Gods
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-25 21:48:43.642108+00:00
 published_date: 2023-12-24
 summary: |
   Christmas, as a festival, has changed a lot throughout history, with many of its core modern traditions being more recent than we think or of surprising origin.

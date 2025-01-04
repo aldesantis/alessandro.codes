@@ -1,13 +1,13 @@
 ---
-title: In Defense of 'Tarpit Ideas'
-full_title: In Defense of 'Tarpit Ideas'
-author: Anu from Working Theorys
+title: |
+  In Defense of 'Tarpit Ideas'
+full_title: |
+  In Defense of 'Tarpit Ideas'
+author: |
+  Anu from Working Theorys
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-24 09:52:01.465953+00:00
 published_date: 2024-06-21
 summary: |
   If you’ve ever been excited about building a product in your teens or twenties, you’ve probably thought about an idea like one of these.

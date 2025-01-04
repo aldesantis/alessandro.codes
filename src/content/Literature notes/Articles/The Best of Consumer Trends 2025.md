@@ -1,13 +1,13 @@
 ---
-title: The Best of Consumer Trends 2025
-full_title: The Best of Consumer Trends 2025
-author: Dan Frommer
+title: |
+  The Best of Consumer Trends 2025
+full_title: |
+  The Best of Consumer Trends 2025
+author: |
+  Dan Frommer
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-14 14:43:10.487991+00:00
 published_date: 2024-12-14
 summary: |
   Thank you for all the nice notes on the Consumer Trends 2025 report I launched this week with Coefficient Capital. Feel free to share those slides widely.

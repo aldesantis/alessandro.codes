@@ -1,13 +1,13 @@
 ---
-title: Customer-Driven Retail
-full_title: Customer-Driven Retail
-author: Ana Andjelic
+title: |
+  Customer-Driven Retail
+full_title: |
+  Customer-Driven Retail
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/customer-centric-retail?utm_source=post-email-title&publication_id=18831&post_id=143023526&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfc92dac-0b1a-4ba7-910c-35997249c098_1056x630.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-04 12:24:17.657329+00:00
 published_date: None
 summary: |
   The text discusses using customer personas in design, merchandising, retail, and marketing to better understand and cater to different consumer segments. Customer-driven strategies help brands align design, assortment planning, retail channel mix, and communications with the preferences and behaviors of their target customers. By focusing on customer profiles and evolving behaviors, businesses can effectively reach and engage with their core customer groups.

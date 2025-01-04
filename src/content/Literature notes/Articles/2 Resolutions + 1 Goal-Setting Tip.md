@@ -1,13 +1,13 @@
 ---
-title: 2 Resolutions + 1 Goal-Setting Tip
-full_title: 2 Resolutions + 1 Goal-Setting Tip
-author: Jay Clouse
+title: |
+  2 Resolutions + 1 Goal-Setting Tip
+full_title: |
+  2 Resolutions + 1 Goal-Setting Tip
+author: |
+  Jay Clouse
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-09 15:56:37.867741+00:00
 published_date: 2024-01-07
 summary: |
   Well, you'll find out that as your public profile grows, the number of inbound emails (texts, calls, DMs) increases dramatically.

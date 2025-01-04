@@ -1,13 +1,13 @@
 ---
-title: "The Multi-Billion Dollar Winner of the US Election: Meta & Google"
-full_title: "The Multi-Billion Dollar Winner of the US Election: Meta & Google"
-author: Nik Sharma
+title: |
+  The Multi-Billion Dollar Winner of the US Election: Meta & Google
+full_title: |
+  The Multi-Billion Dollar Winner of the US Election: Meta & Google
+author: |
+  Nik Sharma
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-25 13:32:14.189582+00:00
 published_date: 2024-01-22
 summary: |
   I hope you had a relaxing weekend, shared some laughs, and got outside for a little bit. I spent my weekend under the world’s biggest blanket (this one) because it was freezing in New York!

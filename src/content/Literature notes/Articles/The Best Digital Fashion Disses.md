@@ -1,13 +1,13 @@
 ---
-title: The Best Digital Fashion Disses
-full_title: The Best Digital Fashion Disses
-author: Dani - This Outfit Does Not Exist
+title: |
+  The Best Digital Fashion Disses
+full_title: |
+  The Best Digital Fashion Disses
+author: |
+  Dani - This Outfit Does Not Exist
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-18 21:42:13.401065+00:00
 published_date: 2024-07-15
 summary: |
   As the segment was titled 'The Future of Fashion May Be Virtual Outfits’ I expected the FOX affiliated anchors to explore the rise of gaming through an Americana tinted lens.

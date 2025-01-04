@@ -1,13 +1,13 @@
 ---
-title: ⚡️ Web3's Win
-full_title: ⚡️ Web3's Win
-author: TheFutureParty
+title: |
+  ⚡️ Web3's Win
+full_title: |
+  ⚡️ Web3's Win
+author: |
+  TheFutureParty
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-22 15:43:01.516035+00:00
 published_date: 2024-04-19
 summary: |
   TGIF, fam. We’re looking forward to kicking back and watching some TV this weekend.

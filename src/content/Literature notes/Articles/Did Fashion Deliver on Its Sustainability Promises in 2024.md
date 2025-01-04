@@ -1,13 +1,13 @@
 ---
-title: Did Fashion Deliver on Its Sustainability Promises in 2024?
-full_title: Did Fashion Deliver on Its Sustainability Promises in 2024?
-author: Bella Webb
+title: |
+  Did Fashion Deliver on Its Sustainability Promises in 2024?
+full_title: |
+  Did Fashion Deliver on Its Sustainability Promises in 2024?
+author: |
+  Bella Webb
 url: https://www.voguebusiness.com/story/sustainability/did-fashion-deliver-on-its-sustainability-promises-in-2024?uID=58ba29f6592c24ef0bdefa76114a43982a806c17a289ed758a3b0794fe834435&utm_campaign=VB_NEWS_MEMBER_SustainabilityEdit_4_191224%2C&utm_source=newsletter&utm_brand=vb&utm_mailing=VB_NEWS_MEMBER_SustainabilityEdit_4_191224%2C&utm_medium=email&utm_term=VB_PaidSustainability&__readwiseLocation=
 category: articles
 image_url: https://media.voguebusiness.com/photos/6762b5e291f8b83e4f06d4d6/16:9/w_1280,c_limit/SUSREVIEW-24-VOGUEB-181224-SOCIAL-NEWSLETTER.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-23 12:52:46.822266+00:00
 published_date: 2024-12-19
 summary: |
   In 2024, sustainable fashion faced challenges despite some progress, as scandals and slow policy changes hindered its growth. Consumer behavior became polarized, with some embracing sustainable practices while others fell into fast fashion trends. As the industry looks to 2025, there is a call for focused action and proven solutions to achieve sustainability goals.

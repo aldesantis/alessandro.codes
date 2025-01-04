@@ -1,13 +1,13 @@
 ---
-title: Solo Stove Ignites the Age-Old Brand Versus Performance Marketing Debate
-full_title: Solo Stove Ignites the Age-Old Brand Versus Performance Marketing Debate
-author: Anna Hensel
+title: |
+  Solo Stove Ignites the Age-Old Brand Versus Performance Marketing Debate
+full_title: |
+  Solo Stove Ignites the Age-Old Brand Versus Performance Marketing Debate
+author: |
+  Anna Hensel
 url: https://www.modernretail.co/marketing/solo-stove-ignites-the-age-old-brand-versus-performance-marketing-debate/?utm_source=mrdaily&utm_campaign=mrdis&utm_medium=email
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2024/03/MR-crystal-scale.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-01 08:49:28.802594+00:00
 published_date: 2024-03-15
 summary: |
   Solo Brands, known for Solo Stove and other outdoor brands, invested heavily in brand marketing during the fourth quarter but did not see the expected sales lift, leading to a debate about the effectiveness of their campaigns. The company's new CEO mentioned the importance of balancing brand and performance marketing, highlighting the need to convert during key sales seasons. This situation reflects a common challenge for startups in finding the right balance between brand and performance marketing to ensure long-term success and growth. The company's decision to end its marketing contract and focus on full-funnel marketing showcases the evolving landscape where brands must strategically invest in both types of marketing to thrive.

@@ -1,13 +1,13 @@
 ---
-title: "The Robot Report #2 — Her"
-full_title: "The Robot Report #2 — Her"
-author: rands
+title: |
+  The Robot Report #2 — Her
+full_title: |
+  The Robot Report #2 — Her
+author: |
+  rands
 url: https://randsinrepose.com/archives/the-robot-report-2-her/?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://randsinrepose.com/wp-content/uploads/2024/05/reportreport2.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-07 08:30:14.586490+00:00
 published_date: 2024-06-03
 summary: |
   The text discusses using music to aid writing and the impact of AI models like ChatGPT on human interactions and problem-solving. It contrasts the search experience between Google and ChatGPT, emphasizing the conversational nature of AI. Additionally, it reflects on the potential benefits and consequences of advanced technology, drawing parallels to the movie "Her."

@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Prioritization Beats Efficiency"
-full_title: "Brain Food: Prioritization Beats Efficiency"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Prioritization Beats Efficiency
+full_title: |
+  Brain Food: Prioritization Beats Efficiency
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-22 15:42:51.201163+00:00
 published_date: 2024-04-21
 summary: |
   "Species that are more responsive to change can gain a relative advantage over the ones they compete with and increase the odds of survival.

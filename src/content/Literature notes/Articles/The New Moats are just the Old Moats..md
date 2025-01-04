@@ -1,13 +1,13 @@
 ---
-title: The New Moats are just the Old Moats.
-full_title: The New Moats are just the Old Moats.
-author: Jerry Chen
+title: |
+  The New Moats are just the Old Moats.
+full_title: |
+  The New Moats are just the Old Moats.
+author: |
+  Jerry Chen
 url: https://greylock.com/greymatter/the-new-new-moats/
 category: articles
 image_url: https://greylock.com/wp-content/uploads/2023/06/Twitter-Yoast-IMG-Our-Next-Incubation-1.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-14 15:23:59.025034+00:00
 published_date: 2023-06-21
 summary: |
   Six years ago I published “The New Moats: Why Systems of Intelligence are the next defensible business model.

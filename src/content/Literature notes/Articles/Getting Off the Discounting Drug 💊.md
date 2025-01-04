@@ -1,13 +1,13 @@
 ---
-title: Getting Off the Discounting Drug 💊
-full_title: Getting Off the Discounting Drug 💊
-author: Eli Weiss
+title: |
+  Getting Off the Discounting Drug 💊
+full_title: |
+  Getting Off the Discounting Drug 💊
+author: |
+  Eli Weiss
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-03 04:59:09.200549+00:00
 published_date: 2024-05-30
 summary: |
   Before we jump in, It’s week 2/4 in TLV, and I owe you a weekly coffee update: Dama: 9. 1.

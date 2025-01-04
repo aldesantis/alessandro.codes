@@ -1,13 +1,13 @@
 ---
-title: "The Gang: The Startup That Builds Roblox Worlds for Gucci and Givenchy"
-full_title: "The Gang: The Startup That Builds Roblox Worlds for Gucci and Givenchy"
-author: Lucy Maguire
+title: |
+  The Gang: The Startup That Builds Roblox Worlds for Gucci and Givenchy
+full_title: |
+  The Gang: The Startup That Builds Roblox Worlds for Gucci and Givenchy
+author: |
+  Lucy Maguire
 url: https://www.voguebusiness.com/story/technology/the-gang-the-startup-that-builds-roblox-worlds-for-gucci-and-givenchy?uID=b12237f0547756a180e790f406ab3ed1e75b77cd0ef1b7bc1fcade164c38b3a3&utm_campaign=newsletter_weekly&utm_source=newsletter&utm_brand=vb&utm_mailing=VB_NEXT_GEN_100424&utm_medium=email&utm_term=VB_NextGen
 category: articles
 image_url: https://media.voguebusiness.com/photos/6615484a92027c05cd5159c9/16:9/w_1280,c_limit/the-gang-vogue-business-social-newsletter.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-01 08:05:02.707296+00:00
 published_date: 2024-04-10
 summary: |
   The Gang is a startup creating virtual brand worlds on Roblox for fashion labels like Gucci and Givenchy. They focus on interactive experiences tailored to each brand, learning from their own games and user feedback. The company has seen significant growth and is exploring collaborations with young creators on the platform.

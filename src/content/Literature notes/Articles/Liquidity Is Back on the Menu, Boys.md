@@ -1,13 +1,13 @@
 ---
-title: Liquidity Is Back on the Menu, Boys
-full_title: Liquidity Is Back on the Menu, Boys
-author: Every
+title: |
+  Liquidity Is Back on the Menu, Boys
+full_title: |
+  Liquidity Is Back on the Menu, Boys
+author: |
+  Every
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-25 11:11:32.662252+00:00
 published_date: 2024-03-24
 summary: |
   Happy Sunday! Reddit and a semiconductor company went public.

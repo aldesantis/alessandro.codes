@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Obsessed"
-full_title: "Brain Food: Obsessed"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Obsessed
+full_title: |
+  Brain Food: Obsessed
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-20 09:20:51.851729+00:00
 published_date: 2024-11-17
 summary: |
   While others chase revenue and fancy titles, outliers focus on what they can control today: reading one more book, making one more phone call, and reviewing that email one final time.

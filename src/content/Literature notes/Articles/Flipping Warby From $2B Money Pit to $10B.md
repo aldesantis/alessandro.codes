@@ -1,13 +1,13 @@
 ---
-title: Flipping Warby From $2B Money Pit to $10B
-full_title: Flipping Warby From $2B Money Pit to $10B
-author: Jeremy Horowitz
+title: |
+  Flipping Warby From $2B Money Pit to $10B
+full_title: |
+  Flipping Warby From $2B Money Pit to $10B
+author: |
+  Jeremy Horowitz
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-12 12:16:26.981766+00:00
 published_date: 2024-08-11
 summary: |
   For those of you who don’t follow Mike Rome on LinkedIn you should. He’s a growth expert that has been scaling fast growing & big bizs for the past decade+.

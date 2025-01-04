@@ -1,13 +1,13 @@
 ---
-title: Shopify’s Marketplace Expands to the Web
-full_title: Shopify’s Marketplace Expands to the Web
-author: Marketplace Pulse
+title: |
+  Shopify’s Marketplace Expands to the Web
+full_title: |
+  Shopify’s Marketplace Expands to the Web
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/shopifys-marketplace-expands-to-the-web
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/636/cover_social.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-03 15:02:12.766257+00:00
 published_date: 2023-11-02
 summary: |
   Shopify's marketplace is now available on the web, and from afar, it looks like Amazon or any other online retailer. The new marketplace allows shoppers to search and buy all products hosted on Shopify.

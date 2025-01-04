@@ -1,13 +1,13 @@
 ---
-title: Where to Draw the Line?
-full_title: Where to Draw the Line?
-author: Gordon Brander
+title: |
+  Where to Draw the Line?
+full_title: |
+  Where to Draw the Line?
+author: |
+  Gordon Brander
 url: https://newsletter.squishy.computer/p/where-to-draw-the-line
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb041a3ab-5fdf-4869-b94e-a5d182fdabe3_2816x1926.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-22 18:21:48.996347+00:00
 published_date: 2024-12-01
 summary: |
   Breaking complex systems into smaller, manageable parts helps us understand and solve problems more effectively. This modular approach allows for flexibility, as components can be swapped or changed without disrupting the entire system. Drawing boundaries thoughtfully is crucial, as it shapes the system's behavior and influences how it can evolve over time.

@@ -1,13 +1,13 @@
 ---
-title: Influencer Marketing for E-Commerce
-full_title: Influencer Marketing for E-Commerce
-author: hirethestarters.com
+title: |
+  Influencer Marketing for E-Commerce
+full_title: |
+  Influencer Marketing for E-Commerce
+author: |
+  hirethestarters.com
 url: https://www.hirethestarters.com/playbook/influencer-marketing-for-e-commerce
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-30 08:53:28.438320+00:00
 published_date: 2023-03-16
 summary: |
   My first job out of college was at Gopuff which was an early-stage, fast growing startup in the last-mile delivery space.

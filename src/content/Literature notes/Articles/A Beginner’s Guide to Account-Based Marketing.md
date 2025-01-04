@@ -1,13 +1,13 @@
 ---
-title: A Beginner’s Guide to Account-Based Marketing
-full_title: A Beginner’s Guide to Account-Based Marketing
-author: linkedin.com
+title: |
+  A Beginner’s Guide to Account-Based Marketing
+full_title: |
+  A Beginner’s Guide to Account-Based Marketing
+author: |
+  linkedin.com
 url: https://www.linkedin.com/pulse/beginners-guide-account-based-marketing-abm-factors-ai/
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/1678174514419
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-23 15:45:51.218611+00:00
 published_date: None
 summary: |
   In this highly customized approach, the engagement is focused on a small set of accounts (Average: 39, Median: 14)* with the highest revenue potential.

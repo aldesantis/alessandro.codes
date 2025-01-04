@@ -1,13 +1,13 @@
 ---
-title: Growth Looks Different Than You Think.
-full_title: Growth Looks Different Than You Think.
-author: Jay Clouse
+title: |
+  Growth Looks Different Than You Think.
+full_title: |
+  Growth Looks Different Than You Think.
+author: |
+  Jay Clouse
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-16 09:28:40.009928+00:00
 published_date: 2023-10-15
 summary: |
   There are 16 result possibilities and each takes into account BOTH where you’re at in your business & your dominant personality traits (this beast took hundreds of hours to create and is the ONLY personality & growth assessment built for creators that’s intentionally designed to support you no matter your stage of business, industry, or experience.

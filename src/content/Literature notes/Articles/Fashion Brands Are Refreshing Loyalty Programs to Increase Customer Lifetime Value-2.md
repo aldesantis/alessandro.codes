@@ -1,13 +1,13 @@
 ---
-title: Fashion Brands Are Refreshing Loyalty Programs to Increase Customer Lifetime Value
-full_title: Fashion Brands Are Refreshing Loyalty Programs to Increase Customer Lifetime Value
-author: Danny Parisi
+title: |
+  Fashion Brands Are Refreshing Loyalty Programs to Increase Customer Lifetime Value
+full_title: |
+  Fashion Brands Are Refreshing Loyalty Programs to Increase Customer Lifetime Value
+author: |
+  Danny Parisi
 url: https://link.retaildive.com/click/32049978.20858/aHR0cHM6Ly93d3cuZ2xvc3N5LmNvL2Zhc2hpb24vZmFzaGlvbi1icmFuZHMtYXJlLXJlZnJlc2hpbmctbG95YWx0eS1wcm9ncmFtcy10by1pbmNyZWFzZS1jdXN0b21lci1saWZldGltZS12YWx1ZS8_dXRtX2NhbXBhaWduPWdsb3NzeWRpcyZ1dG1fbWVkaXVtPXJzcyZ1dG1fc291cmNlPWdlbmVyYWwtcnNz/637e582e0821e0a3d7090092Bc647a713
 category: articles
 image_url: https://www.glossy.co/wp-content/uploads/sites/4/2016/11/levis.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-06 11:27:19.837906+00:00
 published_date: 2023-07-11
 summary: |
   As customer acquisition costs continue to rise, fashion brands are doing everything they can to make the most of their existing customers. Brands like Levi’s are increasingly relying on loyalty program refreshes and relaunches, providing new perks and pushing those programs in marketing to bring in more members.

@@ -1,13 +1,13 @@
 ---
-title: "How 1 Piece of Content Becomes 16: The 1-3-5 Method"
-full_title: "How 1 Piece of Content Becomes 16: The 1-3-5 Method"
-author: Justin Welsh
+title: |
+  How 1 Piece of Content Becomes 16: The 1-3-5 Method
+full_title: |
+  How 1 Piece of Content Becomes 16: The 1-3-5 Method
+author: |
+  Justin Welsh
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-29 08:52:49.533338+00:00
 published_date: 2024-07-27
 summary: |
   The 1-3-5 method is simple. You create one substantial piece of content, and then break it up into a bunch of bite-size pieces.

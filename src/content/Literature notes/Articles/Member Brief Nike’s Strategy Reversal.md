@@ -1,13 +1,13 @@
 ---
-title: "Member Brief: Nike’s Strategy Reversal"
-full_title: "Member Brief: Nike’s Strategy Reversal"
-author: 2PM
+title: |
+  Member Brief: Nike’s Strategy Reversal
+full_title: |
+  Member Brief: Nike’s Strategy Reversal
+author: |
+  2PM
 url: https://2pml.com/2023/06/09/reversal/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/06/chart-06.09.2023-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-25 09:38:52.323713+00:00
 published_date: 2023-06-09
 summary: |
   A cautionary tale, perhaps: if Nike pulls the plug on its DTC emphasis, omnichannel strategies may be the way to go. In February 2022, we detailed Nike’s push towards direct-to-consumer chann…

@@ -1,34 +1,27 @@
 ---
-title: "Association: The Secret to Organic Growth"
-full_title: "Association: The Secret to Organic Growth"
-author: Creator Science
+title: |
+  Association: The Secret to Organic Growth
+full_title: |
+  Association: The Secret to Organic Growth
+author: |
+  Creator Science
 url: https://creatorscience.com/association/
 category: articles
 image_url: https://creatorscience.com/content/images/2023/02/creatorscience_fallback_shadow-3.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-11 09:47:37.868881+00:00
 published_date: 2023-10-01
-summary: >
+summary: |
   You're trying to build an audience.
+  So you publish content designed to provide value to the viewer.
+  And you publish...
+  And you publish...
+  And you publish...
+  ...but, for a lot of aspiring creators, the audience doesn't seem to grow.
+  What gives?
 
-So you publish content designed to provide value to the viewer.
-
-And you publish...
-
-And you publish...
-
-And you publish...
-
-...but, for a lot of aspiring creators, the audience doesn't seem to grow.
-
-What gives?
-
-
-The Missing Ingredient
-
-This was my experience too. And
+  The Missing Ingredient
+  This was my experience too. And
 source: reader
+permalink: l/articles/association-the-secret-to-organic-growth
 ---
 # Association: The Secret to Organic Growth
 

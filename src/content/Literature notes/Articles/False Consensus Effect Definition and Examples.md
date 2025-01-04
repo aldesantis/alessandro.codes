@@ -1,13 +1,13 @@
 ---
-title: "False Consensus Effect: Definition and Examples"
-full_title: "False Consensus Effect: Definition and Examples"
-author: Charlotte Nickerson Updated
+title: |
+  False Consensus Effect: Definition and Examples
+full_title: |
+  False Consensus Effect: Definition and Examples
+author: |
+  Charlotte Nickerson Updated
 url: https://www.simplypsychology.org/false-consensus-effect.html
 category: articles
 image_url: https://www.simplypsychology.org/wp-content/uploads/false-consensus.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-13 07:09:04.874099+00:00
 published_date: 2022-11-03
 summary: |
   The false consensus effect is when people think their opinions are more common than they really are. Researchers have studied why this happens and found that it can be influenced by motivations and selective exposure. This bias can affect how people perceive others' behaviors and beliefs.

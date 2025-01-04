@@ -1,13 +1,13 @@
 ---
-title: There's Nothing on Streaming TV
-full_title: There's Nothing on Streaming TV
-author: 2PM Executive Members
+title: |
+  There's Nothing on Streaming TV
+full_title: |
+  There's Nothing on Streaming TV
+author: |
+  2PM Executive Members
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-25 20:35:49.229221+00:00
 published_date: 2023-09-22
 summary: |
   Netflix, Max, Hulu, Prime Video, Etc. The news of the recent cancellation of HBO’s sports drama “Winning Time” was met with palpable disappointment, and rightfully so.

@@ -1,13 +1,13 @@
 ---
-title: How to Be Successful
-full_title: How to Be Successful
-author: Sam Altman
+title: |
+  How to Be Successful
+full_title: |
+  How to Be Successful
+author: |
+  Sam Altman
 url: https://blog.samaltman.com/how-to-be-successful/
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 15:30:15.156801+00:00
 published_date: 2019-01-24
 summary: |
   I’ve observed thousands of founders and thought a lot about what it takes to make a huge amount of money or to create something important. Usually, people start off wanting the former and end up...

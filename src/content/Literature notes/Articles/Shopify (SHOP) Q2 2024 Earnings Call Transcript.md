@@ -1,13 +1,13 @@
 ---
-title: Shopify (SHOP) Q2 2024 Earnings Call Transcript
-full_title: Shopify (SHOP) Q2 2024 Earnings Call Transcript
-author: Motley Fool Transcribing
+title: |
+  Shopify (SHOP) Q2 2024 Earnings Call Transcript
+full_title: |
+  Shopify (SHOP) Q2 2024 Earnings Call Transcript
+author: |
+  Motley Fool Transcribing
 url: https://www.fool.com/earnings/call-transcripts/2024/08/07/shopify-shop-q2-2024-earnings-call-transcript/
 category: articles
 image_url: https://g.foolcdn.com/editorial/images/1/featured-transcript-logo-template-2023-01-12.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-12 16:22:43.977149+00:00
 published_date: 2024-08-07
 summary: |
   Shopify is experiencing strong growth, with a 34% increase in B2B orders and a 30% rise in international merchants. Their marketing efforts are effectively attracting both new and existing brands, resulting in a 51% increase in enterprise merchant acquisition. Overall, Shopify is well-positioned to continue expanding and improving commerce globally.
@@ -33,6 +33,7 @@ permalink: l/articles/shopify-shop-q-2-2024-earnings-call-transcript
 - In Q2, we recorded our highest ever B2B GMV month with a 140% year-over-year increase fueled by the growth of our Plus merchants. Our B2B offering also saw a six x increase in online orders compared to last year, underscoring the value of self-serve B2B purchasing. ([View Highlight](https://read.readwise.io/read/01j53md1anjgzaxcrn9e7pv22a))
 - Plus, we've seen a 34% increase in the number of merchants getting B2B orders on Shopify compared to last year. ([View Highlight](https://read.readwise.io/read/01j53mddgqj0k1kkf5vyhk6fgp))
 - Cross-border sales made up about 14% of our GMV in Q2, and merchants are really eager to reach new regions, especially when they notice more and more international traffic on their sites. ([View Highlight](https://read.readwise.io/read/01j53me5cb3ewrzjjv8vxkssp4))
+    - Tags: [[shopify]] 
 - In Q2, Shopify Payments penetration was 61% and Shop Pay facilitated $16 billion in GMV, up 45% from last year. ([View Highlight](https://read.readwise.io/read/01j53mfh5sbjf86ereqtr89gyt))
 - Our international GMV growth continues to outpace North America, up 27% from last year, driven by two main goals, expanding our presence and introducing more products in more markets. ([View Highlight](https://read.readwise.io/read/01j53nc5a6112zar8q3hbx1660))
 - And in Q2, our marketing and go-to-market efforts led to a 30% increase in international merchant growth year over year. ([View Highlight](https://read.readwise.io/read/01j53nc89av8v7yq6vkv92a1h8))

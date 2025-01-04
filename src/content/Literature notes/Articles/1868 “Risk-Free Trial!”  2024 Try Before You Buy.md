@@ -1,13 +1,13 @@
 ---
-title: "1868: “Risk-Free Trial!” | 2024: Try Before You Buy"
-full_title: "1868: “Risk-Free Trial!” | 2024: Try Before You Buy"
-author: Nik Sharma
+title: |
+  1868: “Risk-Free Trial!” | 2024: Try Before You Buy
+full_title: |
+  1868: “Risk-Free Trial!” | 2024: Try Before You Buy
+author: |
+  Nik Sharma
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-12 11:49:37.963212+00:00
 published_date: 2024-02-12
 summary: |
   I hope you’re sitting back, relaxed, and enjoying the Super Bowl!

@@ -1,13 +1,13 @@
 ---
-title: How to Develop Character
-full_title: How to Develop Character
-author: Mark Manson
+title: |
+  How to Develop Character
+full_title: |
+  How to Develop Character
+author: |
+  Mark Manson
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-27 09:49:35.273344+00:00
 published_date: 2023-10-23
 summary: |
   It’s hard enough to be competent. It’s even harder to have character.

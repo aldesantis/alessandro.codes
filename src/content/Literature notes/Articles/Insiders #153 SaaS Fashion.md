@@ -1,13 +1,13 @@
 ---
-title: "Insiders #153: SaaS Fashion"
-full_title: "Insiders #153: SaaS Fashion"
-author: futurecommerce.com
+title: |
+  Insiders #153: SaaS Fashion
+full_title: |
+  Insiders #153: SaaS Fashion
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-153-saas-fashion
 category: articles
 image_url: https://uploads-ssl.webflow.com/5d7da04028ecca2357d6b3b0/64daa3200cf3ede10f0d972e_Insiders%20Images%20(4).png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 10:04:57.991551+00:00
 published_date: 2023-08-15
 summary: |
   For both fashion and software brands, features are no longer enough to differentiate a product or a brand. So what is the recipe for success in this environment?

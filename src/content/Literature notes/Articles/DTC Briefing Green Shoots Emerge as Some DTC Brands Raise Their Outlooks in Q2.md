@@ -1,13 +1,13 @@
 ---
-title: "DTC Briefing: Green Shoots Emerge as Some DTC Brands Raise Their Outlooks in Q2"
-full_title: "DTC Briefing: Green Shoots Emerge as Some DTC Brands Raise Their Outlooks in Q2"
-author: Anna Hensel
+title: |
+  DTC Briefing: Green Shoots Emerge as Some DTC Brands Raise Their Outlooks in Q2
+full_title: |
+  DTC Briefing: Green Shoots Emerge as Some DTC Brands Raise Their Outlooks in Q2
+author: |
+  Anna Hensel
 url: https://www.modernretail.co/operations/dtc-briefing-green-shoots-emerge-as-some-dtc-brands-raise-their-outlooks-in-q2/
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2021/02/MR_DTC_email-banner-06.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-16 15:56:03.504968+00:00
 published_date: 2024-08-13
 summary: |
   Some direct-to-consumer (DTC) brands are seeing improved results after tough years, with companies like Warby Parker and Hims & Hers raising their sales outlooks. However, other brands, like Brilliant Earth, are struggling and lowering their expectations due to cautious consumer spending. Marketing strategies and the use of artificial intelligence are becoming key factors for success as brands navigate a challenging economic environment.

@@ -1,13 +1,13 @@
 ---
-title: Dasein - Wikipedia
-full_title: Dasein - Wikipedia
-author: wikipedia.org
+title: |
+  Dasein - Wikipedia
+full_title: |
+  Dasein - Wikipedia
+author: |
+  wikipedia.org
 url: https://en.m.wikipedia.org/wiki/Dasein
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-19 23:44:23.359697+00:00
 published_date: 2004-04-19
 summary: |
   "Dasein" is a term used by philosopher Martin Heidegger to describe the unique way humans exist in the world. It emphasizes being engaged with our surroundings and understanding our individual existence. Heidegger contrasts authentic Dasein, which involves personal meaning, with inauthentic Dasein, where people lose their individuality by conforming to social norms.

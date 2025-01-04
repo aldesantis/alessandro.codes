@@ -1,13 +1,13 @@
 ---
-title: "The Intention Gap: When Buying and Beliefs Don’t Match"
-full_title: "The Intention Gap: When Buying and Beliefs Don’t Match"
-author: Abriana Herron
+title: |
+  The Intention Gap: When Buying and Beliefs Don’t Match
+full_title: |
+  The Intention Gap: When Buying and Beliefs Don’t Match
+author: |
+  Abriana Herron
 url: https://www.fashiondive.com/news/sustainable-fashion-consumer-demographics-gen-z/650864/?utm_source=Sailthru&utm_medium=email&utm_campaign=Issue:%202023-05-24%20Retail%20Dive:%20Marketing%20%5Bissue:50770%5D&utm_term=Retail%20Dive:%20Marketing
 category: articles
 image_url: https://www.fashiondive.com/imgproxy/C20qPE3F_k5HpujW03VuNW-xR8zEKEQK7hg7zcW_v3Q/g:ce/rs:fill:770:435:0/bG9jYWw6Ly8vZGl2ZWltYWdlL0dldHR5SW1hZ2VzLTE0Mjg1NzM1NzJfUkM5NW5Oci5qcGc.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-26 09:26:22.344856+00:00
 published_date: 2023-05-22
 summary: |
   Consumers say they want more sustainable fashion, but they don’t always put their money where their morals lie.

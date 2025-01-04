@@ -1,13 +1,13 @@
 ---
-title: Overfitting
-full_title: Overfitting
-author: boz.com
+title: |
+  Overfitting
+full_title: |
+  Overfitting
+author: |
+  boz.com
 url: https://boz.com/articles/overfitting
 category: articles
 image_url: https://boz.com/default.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-21 10:54:51.967002+00:00
 published_date: 2023-01-06
 summary: |
   The concept of overfitting is likened to a cat jumping on a hot stove and then avoiding all stoves, illustrating how humans tend to overgeneralize from limited information. This tendency can lead to prematurely giving up on learning new skills, habits, or facing challenges. Overgeneralizing from multiple data points can be more dangerous, as it can give a false sense of accuracy to our models. The text emphasizes the importance of treating problems as local until proven otherwise, suggesting that assuming every issue is solvable locally is more productive than extrapolating global problems from limited data.

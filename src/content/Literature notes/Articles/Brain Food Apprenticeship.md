@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Apprenticeship"
-full_title: "Brain Food: Apprenticeship"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Apprenticeship
+full_title: |
+  Brain Food: Apprenticeship
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-22 09:15:50.839241+00:00
 published_date: 2024-07-21
 summary: |
   Black swans are the unexpected outliers, the rare and unpredictable events that defy our usual expectations and profoundly impact our world.

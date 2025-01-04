@@ -1,13 +1,13 @@
 ---
-title: Demystifying the Fashion Marketing Funnel
-full_title: Demystifying the Fashion Marketing Funnel
-author: Alex from DTC (fashion) Decoded
+title: |
+  Demystifying the Fashion Marketing Funnel
+full_title: |
+  Demystifying the Fashion Marketing Funnel
+author: |
+  Alex from DTC (fashion) Decoded
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-10 09:19:53.177857+00:00
 published_date: 2024-07-09
 summary: |
   Before we get into it, I want to thank this week's sponsor: Goodo Studios. Goodo Studios produces content that helps your brand grab the attention of the right viewers and turn them into customers.

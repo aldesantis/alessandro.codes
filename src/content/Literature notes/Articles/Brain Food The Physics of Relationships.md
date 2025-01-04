@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: The Physics of Relationships"
-full_title: "Brain Food: The Physics of Relationships"
-author: FS (Farnam Street)
+title: |
+  Brain Food: The Physics of Relationships
+full_title: |
+  Brain Food: The Physics of Relationships
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-03 09:10:56.462593+00:00
 published_date: 2023-10-01
 summary: |
   While Newton’s third law was developed with physics in mind, it applies equally well to biology. When pushed on, we push back.

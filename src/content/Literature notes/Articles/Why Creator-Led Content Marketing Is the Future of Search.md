@@ -1,13 +1,13 @@
 ---
-title: Why Creator-Led Content Marketing Is the Future of Search
-full_title: Why Creator-Led Content Marketing Is the Future of Search
-author: Ashley Liddell
+title: |
+  Why Creator-Led Content Marketing Is the Future of Search
+full_title: |
+  Why Creator-Led Content Marketing Is the Future of Search
+author: |
+  Ashley Liddell
 url: https://searchengineland.com/creator-led-content-marketing-future-of-search-428185
 category: articles
 image_url: https://searchengineland.com/wp-content/seloads/2023/06/Why-creator-led-content-marketing-is-the-future-of-search-800x450.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-26 09:10:03.139804+00:00
 published_date: 2023-06-13
 summary: |
   The era of creator-led search is set to reshape how we approach SEO, content marketing and digital PR efforts. Here's how we can embrace it.

@@ -4,13 +4,13 @@ status:
 ---
 # Recently updated
 
-- [[Evergreen notes/Avoid open-ended next steps in sales.md|Avoid open-ended next steps in sales]]
-- [[Evergreen notes/Regulation can create opportunity.md|Regulation can create opportunity]]
-- [[Evergreen notes/Excessive cultural fragmentation causes social isolation.md|Excessive cultural fragmentation causes social isolation]]
-- [[Evergreen notes/Cultural fragmentation causes market fragmentation.md|Cultural fragmentation causes market fragmentation]]
-- [[Evergreen notes/Personalization may be harmful.md|Personalization may be harmful]]
-- [[Evergreen notes/Information abundance causes cultural fragmentation.md|Information abundance causes cultural fragmentation]]
-- [[Evergreen notes/Brand management aims to turn brands into landmarks.md|Brand management aims to turn brands into landmarks]]
-- [[Evergreen notes/Common enemies unite individuals.md|Common enemies unite individuals]]
-- [[Evergreen notes/Things that don't scale keep you grounded.md|Things that don't scale keep you grounded]]
-- [[Evergreen notes/Accelerate existing customer behavior.md|Accelerate existing customer behavior]]
+- [[Evergreen notes/communities-of-practice-are-loosely-knit.md|communities-of-practice-are-loosely-knit]]
+- [[Evergreen notes/communities-of-practice-form-organically.md|communities-of-practice-form-organically]]
+- [[Evergreen notes/composable-commerce-is-a-spectrum.md|composable-commerce-is-a-spectrum]]
+- [[Evergreen notes/composable-commerce-may-be-a-choice.md|composable-commerce-may-be-a-choice]]
+- [[Evergreen notes/composable-commerce-may-be-a-necessity.md|composable-commerce-may-be-a-necessity]]
+- [[Evergreen notes/composable-commerce.md|composable-commerce]]
+- [[Evergreen notes/empathize-with-difficult-people.md|empathize-with-difficult-people]]
+- [[Evergreen notes/influencer-partnerships-should-be-long-term.md|influencer-partnerships-should-be-long-term]]
+- [[Evergreen notes/queerness-is-about-eschewing-normality.md|queerness-is-about-eschewing-normality]]
+- [[Evergreen notes/renewable-resources-are-flow-limited.md|renewable-resources-are-flow-limited]]

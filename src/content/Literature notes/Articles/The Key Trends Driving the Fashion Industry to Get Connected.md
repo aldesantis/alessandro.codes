@@ -1,13 +1,13 @@
 ---
-title: The Key Trends Driving the Fashion Industry to Get *Connected*
-full_title: The Key Trends Driving the Fashion Industry to Get *Connected*
-author: Aleksija Vujicic
+title: |
+  The Key Trends Driving the Fashion Industry to Get *Connected*
+full_title: |
+  The Key Trends Driving the Fashion Industry to Get *Connected*
+author: |
+  Aleksija Vujicic
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-25 11:52:09.270625+00:00
 published_date: 2024-03-22
 summary: |
   In the last edition of this letter, I introduced the concept of Connected fashion — explaining what it is, exploring potential use cases, and envisioning what a Connected future could look like.

@@ -1,13 +1,13 @@
 ---
-title: Workshops as Portals
-full_title: Workshops as Portals
-author: Tom Critchlow
+title: |
+  Workshops as Portals
+full_title: |
+  Workshops as Portals
+author: |
+  Tom Critchlow
 url: https://tomcritchlow.com/2019/09/23/workshops/
 category: articles
 image_url: http://tomcritchlow.com/images/green.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-06 09:34:43.570440+00:00
 published_date: 2019-09-23
 summary: |
   Workshops can serve as portals to gain insight into a client's organization and create clarity for long-term retained work. By selling workshops as a small piece of work, consultants can bypass contract negotiation and dive into the client's reality. These workshops should be collaborative and focused on conversation prompts that drive towards clarity and understanding. The goal is to establish a personal relationship with the client, gain a deeper understanding of their context and problems, and create a foundation for solving those problems. Additionally, workshops can simplify the process of negotiating a scope of work and pricing for ongoing retainers. It is important for consultants to value their expertise and charge appropriately for these workshops.

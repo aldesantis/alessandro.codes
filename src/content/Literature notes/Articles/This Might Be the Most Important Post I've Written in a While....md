@@ -1,13 +1,13 @@
 ---
-title: This Might Be the Most Important Post I've Written in a While...
-full_title: This Might Be the Most Important Post I've Written in a While...
-author: Greg Isenberg
+title: |
+  This Might Be the Most Important Post I've Written in a While...
+full_title: |
+  This Might Be the Most Important Post I've Written in a While...
+author: |
+  Greg Isenberg
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-12 15:52:35.277676+00:00
 published_date: 2024-02-08
 summary: |
   I’m astonished to see how many businesses don’t have a tight referral engine. Basically, you give up gross margin direct to your customers in exchange for more customers.

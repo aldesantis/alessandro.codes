@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Positive Inertia"
-full_title: "Brain Food: Positive Inertia"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Positive Inertia
+full_title: |
+  Brain Food: Positive Inertia
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-09-30 20:53:10.942779+00:00
 published_date: 2024-09-29
 summary: |
   “The advice I like to give anybody who’ll listen to me, is not to wait around for inspiration. Inspiration is for amateurs; the rest of us just show up and get to work.

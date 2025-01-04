@@ -1,13 +1,13 @@
 ---
-title: Quiet Compounding
-full_title: Quiet Compounding
-author: Morgan Housel
+title: |
+  Quiet Compounding
+full_title: |
+  Quiet Compounding
+author: |
+  Morgan Housel
 url: https://collabfund.com/blog/quiet-compounding/
 category: articles
 image_url: https://www.collaborativefund.com/assets/images/apple-touch-icon.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-26 16:49:56.992450+00:00
 published_date: 2024-06-17
 summary: |
   The text discusses the concept of quiet compounding, drawing parallels between nature's silent growth and long-term financial success achieved through saving and investing without seeking external validation or comparison. It emphasizes the importance of focusing on personal goals, individuality, independence, and long-term endurance in financial decision-making. The key idea is to prioritize steady, quiet progress over flashy displays of wealth or short-term gains.

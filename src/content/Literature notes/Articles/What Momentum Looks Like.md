@@ -1,13 +1,13 @@
 ---
-title: What Momentum Looks Like
-full_title: What Momentum Looks Like
-author: Dan Frommer
+title: |
+  What Momentum Looks Like
+full_title: |
+  What Momentum Looks Like
+author: |
+  Dan Frommer
 url: https://newconsumer.com/2021/09/what-momentum-looks-like/
 category: articles
 image_url: https://newconsumer.com/wp-content/uploads/2021/09/fishwife-smoked-salmon-1200x675.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-10 09:21:37.983198+00:00
 published_date: 2021-09-25
 summary: |
   Also: Chase is buying The Infatuation. And an update on Blue Bottle’s oat-milk-by-default experiment. 

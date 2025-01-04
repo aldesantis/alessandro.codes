@@ -1,13 +1,13 @@
 ---
-title: Read Your Writing in a Robot Voice
-full_title: Read Your Writing in a Robot Voice
-author: Wes Kao's Newsletter
+title: |
+  Read Your Writing in a Robot Voice
+full_title: |
+  Read Your Writing in a Robot Voice
+author: |
+  Wes Kao's Newsletter
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-03 15:43:19.604392+00:00
 published_date: 2024-01-03
 summary: |
   Today, we’ll cover an easy trick for how to edit your own writing and make sure your tone is coming across as you intended.

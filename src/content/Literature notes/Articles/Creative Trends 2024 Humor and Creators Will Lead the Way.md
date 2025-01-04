@@ -1,13 +1,13 @@
 ---
-title: "Creative Trends 2024: Humor and Creators Will Lead the Way"
-full_title: "Creative Trends 2024: Humor and Creators Will Lead the Way"
-author: Kyle O’Brien
+title: |
+  Creative Trends 2024: Humor and Creators Will Lead the Way
+full_title: |
+  Creative Trends 2024: Humor and Creators Will Lead the Way
+author: |
+  Kyle O’Brien
 url: https://www.adweek.com/brand-marketing/creative-trends-2024-humor-and-creators-will-lead-the-way/?utm_source=news.futureparty.com&utm_medium=newsletter&utm_campaign=southern-vibes
 category: articles
 image_url: https://static-prod.adweek.com/wp-content/uploads/2023/12/humor-trend-2023-600x315.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-02 15:26:04.942045+00:00
 published_date: 2023-12-28
 summary: |
   Agency insiders tell us their predictions for creativity.

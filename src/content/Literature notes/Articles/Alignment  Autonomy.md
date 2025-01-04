@@ -1,13 +1,13 @@
 ---
-title: Alignment > Autonomy
-full_title: Alignment > Autonomy
-author: buildrightside.com
+title: |
+  Alignment > Autonomy
+full_title: |
+  Alignment > Autonomy
+author: |
+  buildrightside.com
 url: https://buildrightside.com/autonomy-alignment
 category: articles
 image_url: https://buildrightside.com/assets/align-depth.e09e0a55.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 09:09:55.260264+00:00
 published_date: None
 summary: |
   It's easier to measure and feel high autonomy than it is to measure high alignment. But without alignment, autonomy is squandered.

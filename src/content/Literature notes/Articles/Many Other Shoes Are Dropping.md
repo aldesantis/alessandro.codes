@@ -1,13 +1,13 @@
 ---
-title: Many Other Shoes Are Dropping
-full_title: Many Other Shoes Are Dropping
-author: Venkatesh Rao
+title: |
+  Many Other Shoes Are Dropping
+full_title: |
+  Many Other Shoes Are Dropping
+author: |
+  Venkatesh Rao
 url: https://studio.ribbonfarm.com/p/many-other-shoes-are-dropping?utm_source=post-email-title&publication_id=9973&post_id=145646045&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1df100a3-4a18-4288-803b-701169743d65_1800x1200.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-16 09:26:16.746270+00:00
 published_date: None
 summary: |
   The author reflects on the evolving role of writing in making sense of the world and explores how different narratives shape creative projects. They discuss the excitement and challenges of living in a time where significant historical arcs are converging, with the anticipation of major technological developments. Despite writing feeling less culturally significant in 2024, the author finds value in persisting through challenging periods to capture the essence of the changing times.

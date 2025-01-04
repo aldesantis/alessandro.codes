@@ -1,13 +1,13 @@
 ---
-title: Holistic Brand Management Is the New Marketing
-full_title: Holistic Brand Management Is the New Marketing
-author: Ana Andjelic
+title: |
+  Holistic Brand Management Is the New Marketing
+full_title: |
+  Holistic Brand Management Is the New Marketing
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/holistic-brand-mngement-is-the-new?utm_source=post-email-title&publication_id=18831&post_id=135709475&isFreemail=false&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F041fa4a2-e20d-4768-b119-f6f14801ff35_3000x2000.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-06 11:51:56.151862+00:00
 published_date: 2023-08-21
 summary: |
   Breaking down the silos

@@ -1,13 +1,13 @@
 ---
-title: How Brands Create Value
-full_title: How Brands Create Value
-author: Ana Andjelic
+title: |
+  How Brands Create Value
+full_title: |
+  How Brands Create Value
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/how-brands-create-value?s=w
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0e983eaa-7366-4c65-a234-915f7ecf5cde_997x542.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-20 12:42:28.303001+00:00
 published_date: 2021-03-08
 summary: |
   Macro and micro levels of value creation

@@ -1,13 +1,13 @@
 ---
-title: The Future Belongs to Those Who Prepare Like Dwarkesh Patel
-full_title: The Future Belongs to Those Who Prepare Like Dwarkesh Patel
-author: Shreeda Segan
+title: |
+  The Future Belongs to Those Who Prepare Like Dwarkesh Patel
+full_title: |
+  The Future Belongs to Those Who Prepare Like Dwarkesh Patel
+author: |
+  Shreeda Segan
 url: https://meridian.mercury.com/dwarkesh-patel/
 category: articles
 image_url: https://cdn.sanity.io/images/dam1mtb1/production/c36bda9170bb20e3570a321635794a4fb9b67e29-1667x2500.jpg?rect=0,815,1667,871&w=1200&h=627&fit=max&auto=format
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-29 21:17:19.406129+00:00
 published_date: 2024-02-29
 summary: |
   At just 23, Dwarkesh Patel has made a name for himself in podcasting, impressing influential figures like Jeff Bezos with his deeply researched interviews of tech and AI experts. Patel's dedication to preparation and focus on depth over breadth has set him apart in a saturated podcast market, earning him the reputation of 'the new Lex Fridman." Despite starting from a place of little influence, Patel's meticulous approach has attracted a loyal following and accolades from leaders in the tech industry. His podcast explores a range of topics, with a particular focus on AI, showcasing his ability to engage with influential guests and spark meaningful conversations.

@@ -1,13 +1,13 @@
 ---
-title: research as leisure activity
-full_title: research as leisure activity
-author: Celine Nguyen
+title: |
+  research as leisure activity
+full_title: |
+  research as leisure activity
+author: |
+  Celine Nguyen
 url: https://www.personalcanon.com/p/research-as-leisure-activity
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91329e57-57e8-482f-9d90-630b1c78a75d%2Ffavicon-32x32.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-25 22:06:31.966779+00:00
 published_date: 2024-05-27
 summary: |
   The text explores the concept of "research as leisure activity," highlighting how it involves intellectual inquiry driven by passion and interest, not limited to traditional institutions. It emphasizes the idea of conducting research for enjoyment, connecting existing interests with new ideas, and fostering a community of curious individuals engaged in non-comprehensive education within various domains.

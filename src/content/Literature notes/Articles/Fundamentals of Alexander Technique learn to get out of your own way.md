@@ -1,17 +1,18 @@
 ---
-title: "Fundamentals of Alexander Technique: learn to get out of your own way"
-full_title: "Fundamentals of Alexander Technique: learn to get out of your own way"
-author: Expanding Awareness
+title: |
+  Fundamentals of Alexander Technique: learn to get out of your own way
+full_title: |
+  Fundamentals of Alexander Technique: learn to get out of your own way
+author: |
+  Expanding Awareness
 url: https://expandingawareness.org/courses/
 category: articles
 image_url: https://cdn.getmidnight.com/57d3d307ea7a3152cb20d145dd50914b/2022/03/Courses_900px.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-15 09:56:44.098872+00:00
 published_date: 2022-02-19
 summary: |
   If you already know you want to buy the course, let me save you the scroll: it costs $250 plus your local sales tax, or $150 if you have a low income. If you want to find out more, read on!
-Existing students: you can access the course and community
+
+  Existing students: you can access the course and community
 source: reader
 permalink: l/articles/fundamentals-of-alexander-technique-learn-to-get-out-of-your-own-way
 ---

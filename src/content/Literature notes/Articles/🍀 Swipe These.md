@@ -1,13 +1,13 @@
 ---
-title: 🍀 Swipe These
-full_title: 🍀 Swipe These
-author: Ari Murray
+title: |
+  🍀 Swipe These
+full_title: |
+  🍀 Swipe These
+author: |
+  Ari Murray
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-30 10:03:57.677904+00:00
 published_date: 2023-10-30
 summary: |
   I'm losing my nerve a bit with our Halloween costume.

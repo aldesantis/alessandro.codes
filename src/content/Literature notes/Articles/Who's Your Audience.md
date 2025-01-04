@@ -1,13 +1,13 @@
 ---
-title: Who's Your Audience?
-full_title: Who's Your Audience?
-author: Ana Andjelic
+title: |
+  Who's Your Audience?
+full_title: |
+  Who's Your Audience?
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/whos-your-audience?s=w
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F02745850-cdea-4f89-9137-e6f57fdd4c55_719x454.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 09:18:44.138303+00:00
 published_date: 2021-10-11
 summary: |
   And are you taking all of them into consideration?

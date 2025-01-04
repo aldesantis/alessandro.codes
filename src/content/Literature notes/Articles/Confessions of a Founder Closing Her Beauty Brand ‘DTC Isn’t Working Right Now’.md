@@ -1,13 +1,13 @@
 ---
-title: "Confessions of a Founder Closing Her Beauty Brand: ‘DTC Isn’t Working Right Now’"
-full_title: "Confessions of a Founder Closing Her Beauty Brand: ‘DTC Isn’t Working Right Now’"
-author: Lexy Lebsack
+title: |
+  Confessions of a Founder Closing Her Beauty Brand: ‘DTC Isn’t Working Right Now’
+full_title: |
+  Confessions of a Founder Closing Her Beauty Brand: ‘DTC Isn’t Working Right Now’
+author: |
+  Lexy Lebsack
 url: https://www.glossy.co/beauty/confessions-of-a-founder-closing-her-beauty-brand-dtc-isnt-working-right-now/
 category: articles
 image_url: https://www.glossy.co/wp-content/uploads/sites/4/2022/07/AdobeStock_112599912.jpeg?w=1024
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-03 15:00:11.070573+00:00
 published_date: 2023-11-01
 summary: |
   What does it really feel for a founder to close their beauty brand? One founder speaks candidly about hope, identity, debt, and knowing when to move on.

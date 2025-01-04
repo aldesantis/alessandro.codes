@@ -1,13 +1,13 @@
 ---
-title: "'Getting Unstuck' — Physically and Philosophically — With Alexander Technique"
-full_title: "'Getting Unstuck' — Physically and Philosophically — With Alexander Technique"
-author: Alexander Technique
+title: |
+  'Getting Unstuck' — Physically and Philosophically — With Alexander Technique
+full_title: |
+  'Getting Unstuck' — Physically and Philosophically — With Alexander Technique
+author: |
+  Alexander Technique
 url: https://expandingawareness.org/blog/getting-unstuck-physically-and-philosophically-with-alexander-technique/
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-18 21:39:03.741101+00:00
 published_date: 2021-05-12
 summary: |
   The text discusses the Alexander Technique, which aims to help individuals become aware of their habitual movements and expand their possibilities. It emphasizes the importance of not getting stuck in fixed patterns of thinking or movement, and encourages conscious choice-making and openness to change. The technique is linked to philosophy and epistemology.

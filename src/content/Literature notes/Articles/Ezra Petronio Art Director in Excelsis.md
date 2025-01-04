@@ -1,13 +1,13 @@
 ---
-title: "Ezra Petronio: Art Director in Excelsis"
-full_title: "Ezra Petronio: Art Director in Excelsis"
-author: Tim Blanks
+title: |
+  Ezra Petronio: Art Director in Excelsis
+full_title: |
+  Ezra Petronio: Art Director in Excelsis
+author: |
+  Tim Blanks
 url: https://www.businessoffashion.com/opinions/creative-class/ezra-petronio-profile/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/5aTqmifBi7CHAy8T49Jd72ZyG-M=/1200x630/filters:format(jpg):quality(70):focal(1519x2013:1529x2023)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/3MMH6EUETJD5ZC2IYQD27D5OD4.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-23 11:05:55.610392+00:00
 published_date: 2023-11-09
 summary: |
   The fashion Renaissance man talks to Tim Blanks about the role of the art director, the activist roots of Self Service, how megabrands have reshaped the industry and why social media is a bubble he hopes will burst. 

@@ -1,13 +1,13 @@
 ---
-title: Learn more about Collaborative Articles
-full_title: Learn more about Collaborative Articles
-author: linkedin.com
+title: |
+  Learn more about Collaborative Articles
+full_title: |
+  Learn more about Collaborative Articles
+author: |
+  linkedin.com
 url: https://www.linkedin.com/pulse/hype-overrated-2024-year-ecommerce-renaissance-vinny-o-brien-zoe8e%3FtrackingId=8CohMJ4QSua69IrEo%252FnKgQ%253D%253D/?trackingId=8CohMJ4QSua69IrEo%2FnKgQ%3D%3D
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/en3f1pk3qk4cxtj2j4fff0gtr
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-11 15:34:48.209859+00:00
 published_date: None
 summary: |
   The article discusses the future of ecommerce, highlighting the need for a more considered and sustainable approach. The author emphasizes the importance of understanding consumer behavior and crafting better experiential tech to improve user experiences. They also discuss the potential impact of IoT on ecommerce, predicting that it will become a passive part of our lives, similar to how electricity became a utility. The article addresses the challenges facing the retail industry, including outdated business models, poor governance, and the need for better marketing strategies. The author concludes by urging businesses to adapt to the changing landscape of ecommerce and plan for the future.

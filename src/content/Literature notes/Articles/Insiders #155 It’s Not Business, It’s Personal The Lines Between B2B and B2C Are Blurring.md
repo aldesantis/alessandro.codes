@@ -1,13 +1,13 @@
 ---
-title: "Insiders #155: It’s Not Business, It’s Personal: The Lines Between B2B and B2C Are Blurring"
-full_title: "Insiders #155: It’s Not Business, It’s Personal: The Lines Between B2B and B2C Are Blurring"
-author: futurecommerce.com
+title: |
+  Insiders #155: It’s Not Business, It’s Personal: The Lines Between B2B and B2C Are Blurring
+full_title: |
+  Insiders #155: It’s Not Business, It’s Personal: The Lines Between B2B and B2C Are Blurring
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-155-its-not-business-its-personal-the-lines-between-b2b-and-b2c-are-blurring
 category: articles
 image_url: https://uploads-ssl.webflow.com/5d7da04028ecca2357d6b3b0/65089f97a992c504fd905efa_B2B2C.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-11 15:39:17.091036+00:00
 published_date: 2023-09-18
 summary: |
   All people and households have become businesses. How did we get here?

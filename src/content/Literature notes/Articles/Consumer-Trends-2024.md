@@ -1,13 +1,13 @@
 ---
-title: Consumer-Trends-2024
-full_title: Consumer-Trends-2024
-author: readwise.io
+title: |
+  Consumer-Trends-2024
+full_title: |
+  Consumer-Trends-2024
+author: |
+  readwise.io
 url: https://readwise.io/reader/document_raw_content/120302627
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/y0zruljZ6N2Oj1lQL1W4S0WtAR1mO4ek976uQaS86Mg-cove_KNH5MhS.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-27 10:43:14.158343+00:00
 published_date: 2023-12-14
 summary: |
   Consumer Trends 2024 is a report that explores how and why people spend their time and money. The report provides analysis, research, trends, and advisory services. It also includes a survey of over 3,000 US consumers, revealing insights on financial optimism, inflation, and consumer satisfaction. Additionally, the report highlights the emergence of TikTok Shop as a new e-commerce marketplace and the potential impact of prescription weight-loss drugs on the consumer landscape. Overall, the report provides valuable insights into consumer behavior and trends for the year 2024.

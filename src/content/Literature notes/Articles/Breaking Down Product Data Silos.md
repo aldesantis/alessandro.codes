@@ -1,13 +1,13 @@
 ---
-title: Breaking Down Product Data Silos
-full_title: Breaking Down Product Data Silos
-author: Luke Hodgson
+title: |
+  Breaking Down Product Data Silos
+full_title: |
+  Breaking Down Product Data Silos
+author: |
+  Luke Hodgson
 url: https://www.commercethinking.com/p/breaking-down-product-data-silos?utm_source=post-email-title&publication_id=1474159&post_id=151926267&utm_campaign=email-post-title&isFreemail=true&r=31t9d7&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d0be481-f91d-4e61-8159-bb6051330786_1120x800.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-26 09:48:16.296056+00:00
 published_date: 2024-11-21
 summary: |
   Why Your Team is Doing Low-Value Work (and How to Fix It)

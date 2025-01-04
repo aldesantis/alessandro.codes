@@ -1,13 +1,13 @@
 ---
-title: Attribution Is Dying. Clicks Are Dying. Marketing Is Going Back to the 20th Century.
-full_title: Attribution Is Dying. Clicks Are Dying. Marketing Is Going Back to the 20th Century.
-author: Rand Fishkin
+title: |
+  Attribution Is Dying. Clicks Are Dying. Marketing Is Going Back to the 20th Century.
+full_title: |
+  Attribution Is Dying. Clicks Are Dying. Marketing Is Going Back to the 20th Century.
+author: |
+  Rand Fishkin
 url: https://sparktoro.com/blog/attribution-is-dying-clicks-are-dying-marketing-is-going-back-to-the-20th-century/?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://images.sparktoro.com/blog/wp-content/uploads/2024/07/clicks-dying-attribution-dying-5-minute-whiteboard.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-14 11:38:32.753885+00:00
 published_date: 2024-07-29
 summary: |
   Marketing is changing, and traditional methods of tracking clicks and attributing sales are becoming less effective. Social media platforms are favoring native content, leading to fewer clicks, while privacy laws and ad blockers make attribution difficult. To succeed in 2024, marketers need to focus on influencing audiences through various channels instead of relying solely on data-driven attribution models.

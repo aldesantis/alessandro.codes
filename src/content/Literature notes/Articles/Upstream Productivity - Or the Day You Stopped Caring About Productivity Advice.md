@@ -1,13 +1,13 @@
 ---
-title: Upstream Productivity - Or the Day You Stopped Caring About Productivity Advice
-full_title: Upstream Productivity - Or the Day You Stopped Caring About Productivity Advice
-author: Jakob Greenfeld
+title: |
+  Upstream Productivity - Or the Day You Stopped Caring About Productivity Advice
+full_title: |
+  Upstream Productivity - Or the Day You Stopped Caring About Productivity Advice
+author: |
+  Jakob Greenfeld
 url: https://playpermissionless.substack.com/p/upstream-productivity-or-the-day?utm_source=post-email-title&publication_id=1308259&post_id=144121084&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffbe965ff-29a9-47f8-8f00-0a3012927ca8_1848x960.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-11 21:33:41.607075+00:00
 published_date: None
 summary: |
   The author explores the concept of productivity and its connection to biological health and purpose. Productivity is seen as a result of caring for your body and being passionate about your work. The key to productivity lies in prioritizing biological health, energy levels, and pursuing meaningful work.

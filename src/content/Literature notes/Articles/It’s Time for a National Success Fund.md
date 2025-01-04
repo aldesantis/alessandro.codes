@@ -1,13 +1,13 @@
 ---
-title: It’s Time for a National Success Fund
-full_title: It’s Time for a National Success Fund
-author: Dror Poleg
+title: |
+  It’s Time for a National Success Fund
+full_title: |
+  It’s Time for a National Success Fund
+author: |
+  Dror Poleg
 url: https://www.drorpoleg.com/its-time-for-a-national-success-fund/
 category: articles
 image_url: https://www.drorpoleg.com/content/images/2023/01/Dror_greek_goddess_of_plenty_light_gradient_background_luminous_e35621d4-fecf-41b1-850d-80cb3fc5496b-1.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-26 09:28:51.529548+00:00
 published_date: 2023-01-06
 summary: |
   There’s a better way to spread the fruits of innovation.

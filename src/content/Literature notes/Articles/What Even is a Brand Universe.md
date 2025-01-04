@@ -1,13 +1,13 @@
 ---
-title: What Even is a Brand Universe?
-full_title: What Even is a Brand Universe?
-author: SOTA
+title: |
+  What Even is a Brand Universe?
+full_title: |
+  What Even is a Brand Universe?
+author: |
+  SOTA
 url: https://sotaclub.substack.com/p/the-brand-universe-era-is-here
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ff42f39-f5b5-4d3f-95c2-e052746a2943_600x750.gif
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-14 08:07:59.280282+00:00
 published_date: 2024-01-29
 summary: |
   The Brand Universe is the inevitable next growth path for brands seeking to increase their cultural relevance and their profits.

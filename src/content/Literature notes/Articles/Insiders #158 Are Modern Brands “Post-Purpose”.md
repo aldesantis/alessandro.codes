@@ -1,13 +1,13 @@
 ---
-title: "Insiders #158 Are Modern Brands “Post-Purpose”?"
-full_title: "Insiders #158 Are Modern Brands “Post-Purpose”?"
-author: futurecommerce.com
+title: |
+  Insiders #158 Are Modern Brands “Post-Purpose”?
+full_title: |
+  Insiders #158 Are Modern Brands “Post-Purpose”?
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-158-are-modern-brands-post-purpose
 category: articles
 image_url: https://assets-global.website-files.com/5d7da04028ecca2357d6b3b0/654aae59653d06d0c07c1186_purpose.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-15 12:46:02.941502+00:00
 published_date: 2023-11-07
 summary: |
   Alexa Lombardo discusses the shift in brand strategy from purpose-driven activism to focusing on authentic values and consumer alignment.

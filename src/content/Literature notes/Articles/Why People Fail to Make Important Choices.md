@@ -1,13 +1,13 @@
 ---
-title: Why People Fail to Make Important Choices
-full_title: Why People Fail to Make Important Choices
-author: Casey Rosengren
+title: |
+  Why People Fail to Make Important Choices
+full_title: |
+  Why People Fail to Make Important Choices
+author: |
+  Casey Rosengren
 url: https://every.to/no-small-plans/why-people-fail-to-make-important-choices
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/2896/Artboard_51_copy.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-20 18:50:37.479791+00:00
 published_date: 2023-12-06
 summary: |
   The article discusses why people struggle to make important decisions and how to overcome this. One reason for decision avoidance is the fear of loss that comes with making a choice. The fear of making the wrong choice can also lead to avoidance and delay. In addition, it can be hard to make a decision if you don't know what you actually want. The article suggests that choosing well is a skill that can be practiced, and provides micro-skills for improving decision-making, such as noticing decision avoidance, noticing your desires, and practicing willingness.

@@ -1,13 +1,13 @@
 ---
-title: Google Has No Choice but to Bet Big on YouTube
-full_title: Google Has No Choice but to Bet Big on YouTube
-author: Andrew Watson
+title: |
+  Google Has No Choice but to Bet Big on YouTube
+full_title: |
+  Google Has No Choice but to Bet Big on YouTube
+author: |
+  Andrew Watson
 url: https://dollarcommerce.substack.com/p/google-at-war-with-meta-display-advertising?utm_source=post-email-title&publication_id=2682667&post_id=149962169&utm_campaign=email-post-title&isFreemail=true&r=31t9d7&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32c47fab-9b4d-4e6b-9aa7-de6d7887fef5_2268x1512.heic
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-27 12:10:50.151575+00:00
 published_date: None
 summary: |
   Google is focusing on YouTube to enhance its advertising capabilities amid rising competition from TikTok. The introduction of AI-driven campaign types like Performance Max aims to help brands find more cost-effective advertising strategies. Businesses must adapt their approach to advertising on these platforms, balancing creative execution and bidding strategies for success.

@@ -1,13 +1,13 @@
 ---
-title: Why Buy-One, Get-One-Free Offers Are More Complicated Than You Remember
-full_title: Why Buy-One, Get-One-Free Offers Are More Complicated Than You Remember
-author: Katie Deighton
+title: |
+  Why Buy-One, Get-One-Free Offers Are More Complicated Than You Remember
+full_title: |
+  Why Buy-One, Get-One-Free Offers Are More Complicated Than You Remember
+author: |
+  Katie Deighton
 url: https://www.wsj.com/articles/why-buy-one-get-one-free-offers-are-more-complicated-than-you-remember-b25fc8a3?utm_source=Sailthru&utm_medium=email&utm_campaign=Newsletter%20Weekly%20Roundup:%20Marketing%20Dive:%20Daily%20Dive%2011-25-2023&utm_term=Marketing%20Dive%20Weekender
 category: articles
 image_url: https://images.wsj.net/im-889696/social
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-29 15:53:08.312814+00:00
 published_date: 2023-11-07
 summary: |
   Marketers’ race for data is leading to buy-one-get-one deals that make customers work a little bit harder.

@@ -1,13 +1,13 @@
 ---
-title: LinkedIn_ABM_Guide_Final_201113
-full_title: LinkedIn_ABM_Guide_Final_201113
-author: business.linkedin.com
+title: |
+  LinkedIn_ABM_Guide_Final_201113
+full_title: |
+  LinkedIn_ABM_Guide_Final_201113
+author: |
+  business.linkedin.com
 url: https://business.linkedin.com/content/dam/me/business/en-us/marketing-solutions/cx/2020/pdfs/LinkedIn_ABM_Guide_Final_201113.pdf
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/oSLcJ4tTMDqsXqvY871hGAUTWiZEuIz1IV9e1nfofMk-cove_lFBQBtD.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-23 15:10:00.711608+00:00
 published_date: 2020-11-13
 summary: |
   The document provides a comprehensive guide for achieving success in Account-Based Marketing (ABM) on LinkedIn. It outlines essential steps such as achieving executive alignment, defining objectives, selecting target accounts, identifying the buying committee, determining the right scale, aligning content to the audience, and measuring impact. It emphasizes the importance of collaboration between marketing and sales teams, the significance of data quality in ABM strategy, and the role of LinkedIn in enhancing audience targeting and engagement. The guide offers practical tips, case studies, and statistics to help marketers understand and implement effective ABM strategies using LinkedIn's platform.

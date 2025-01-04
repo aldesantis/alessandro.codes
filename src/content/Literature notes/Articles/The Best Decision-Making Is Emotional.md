@@ -1,13 +1,13 @@
 ---
-title: The Best Decision-Making Is Emotional
-full_title: The Best Decision-Making Is Emotional
-author: Jonny Miller
+title: |
+  The Best Decision-Making Is Emotional
+full_title: |
+  The Best Decision-Making Is Emotional
+author: |
+  Jonny Miller
 url: https://every.to/p/the-best-decision-making-is-emotional
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2691/LgT_L67SADp3DYfk3obE_zG0cNhiOvot57a2F9QoxjIi-f7gh5UhOzqCrKMjc-hmfVKyACFRU5COsHTOmnNsOBKURp39yAZG0RxjxbTLPpPdbP4y-fEiaqub5CWV.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 08:55:51.890910+00:00
 published_date: 2023-07-10
 summary: |
   The primacy of facts over feelings is a myth

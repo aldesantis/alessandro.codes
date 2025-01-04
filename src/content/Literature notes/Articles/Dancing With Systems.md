@@ -1,13 +1,13 @@
 ---
-title: Dancing With Systems
-full_title: Dancing With Systems
-author: Donella Meadows
+title: |
+  Dancing With Systems
+full_title: |
+  Dancing With Systems
+author: |
+  Donella Meadows
 url: https://donellameadows.org/archives/dancing-with-systems/
 category: articles
 image_url: https://donellameadows.org/wp-content/themes/donellameadows/images/logo-2.gif
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-26 16:15:48.457454+00:00
 published_date: 2002-03-01
 summary: |
   The text discusses the importance of listening to systems and understanding their complexity. It emphasizes the need to locate responsibility within systems and pay attention to what is important beyond what is quantifiable. Furthermore, it highlights the value of expanding time and thought horizons to navigate complex systems effectively.

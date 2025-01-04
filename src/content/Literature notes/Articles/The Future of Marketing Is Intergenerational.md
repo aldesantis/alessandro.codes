@@ -1,13 +1,13 @@
 ---
-title: The Future of Marketing Is Intergenerational
-full_title: The Future of Marketing Is Intergenerational
-author: Harvard Business Review
+title: |
+  The Future of Marketing Is Intergenerational
+full_title: |
+  The Future of Marketing Is Intergenerational
+author: |
+  Harvard Business Review
 url: https://hbr.org/2024/02/the-future-of-marketing-is-intergenerational
 category: articles
 image_url: https://hbr.org/resources/images/article_assets/2024/02/Feb24_16_615573077.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-21 11:10:35.744743+00:00
 published_date: 2024-02-16
 summary: |
   The focus of marketers, employers, and policymakers on younger age groups is shifting as older Americans become a significant consumer market. Companies need to stop overlooking older consumers and avoid relying solely on generational stereotypes. Instead, they should embrace individuality, leverage real-time data, and recognize the influence of intergenerational relationships. By creating ageless and post-generational brands that bridge generational gaps, companies can remain relevant and successful in the ever-evolving consumer landscape.

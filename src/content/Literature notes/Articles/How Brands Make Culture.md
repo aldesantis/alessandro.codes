@@ -1,13 +1,13 @@
 ---
-title: How Brands Make Culture
-full_title: How Brands Make Culture
-author: Ana Andjelic
+title: |
+  How Brands Make Culture
+full_title: |
+  How Brands Make Culture
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/new-rules-of-brand-marketing-part
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83e2cba8-c7d0-480f-9ffb-95b743e952ca_1410x1056.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-17 14:47:26.118951+00:00
 published_date: 2024-01-15
 summary: |
   Brand marketing has undergone significant shifts in recent years, moving towards cultural influence rather than just brand communications. These shifts include moving from top of the funnel to the entire funnel, from advertising to entertainment, and from promoting products to focusing on the overall look and styling. Brand marketing is now tasked with recognizing and participating in emerging fashion aesthetics and engaging with subcultures and niche communities. Additionally, brands are shifting from attention-grabbing promotions to making cultural noise, collaborating with creators and communities, and activating existing fans for word-of-mouth marketing. These changes require a new approach to brand strategy, focusing on cultural strategy and utilizing tactics such as partnerships, content creation, and merchandising.

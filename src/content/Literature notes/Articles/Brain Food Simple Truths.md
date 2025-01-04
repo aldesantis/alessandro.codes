@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Simple Truths"
-full_title: "Brain Food: Simple Truths"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Simple Truths
+full_title: |
+  Brain Food: Simple Truths
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-27 07:52:42.759036+00:00
 published_date: 2024-05-26
 summary: |
   "If an opinion contrary to your own makes you angry, that is a sign that you are subconsciously aware of having no good reason for thinking as you do.

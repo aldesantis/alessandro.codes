@@ -1,13 +1,13 @@
 ---
-title: Decision Making for CEO's Simplified
-full_title: Decision Making for CEO's Simplified
-author: Matt Bertulli
+title: |
+  Decision Making for CEO's Simplified
+full_title: |
+  Decision Making for CEO's Simplified
+author: |
+  Matt Bertulli
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-09 09:19:15.542972+00:00
 published_date: 2023-10-07
 summary: |
   A memo is just me writing out my thinking.

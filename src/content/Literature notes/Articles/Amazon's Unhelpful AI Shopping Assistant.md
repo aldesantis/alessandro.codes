@@ -1,13 +1,13 @@
 ---
-title: Amazon's Unhelpful AI Shopping Assistant
-full_title: Amazon's Unhelpful AI Shopping Assistant
-author: Marketplace Pulse
+title: |
+  Amazon's Unhelpful AI Shopping Assistant
+full_title: |
+  Amazon's Unhelpful AI Shopping Assistant
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/amazons-unhelpful-ai-shopping-assistant
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/669/cover_social.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-19 21:26:36.143545+00:00
 published_date: 2024-07-19
 summary: |
   Amazon's AI shopping assistant is great at answering questions about a specific product but cannot help sort through the endless aisles of its infinite catalog.

@@ -1,13 +1,13 @@
 ---
-title: What Is Brand Marketing Anyway?
-full_title: What Is Brand Marketing Anyway?
-author: Michelle Wiles 🪄📈
+title: |
+  What Is Brand Marketing Anyway?
+full_title: |
+  What Is Brand Marketing Anyway?
+author: |
+  Michelle Wiles 🪄📈
 url: https://medium.com/embedded-brand-strategy/what-is-brand-marketing-anyway-546bc6e04d67
 category: articles
 image_url: https://miro.medium.com/v2/resize:fit:1200/1*YaduLlzackPo-UCUALy4Vw.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-05 10:24:52.051591+00:00
 published_date: 2024-02-03
 summary: |
   Does brand need a rebrand?

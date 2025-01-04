@@ -1,13 +1,13 @@
 ---
-title: "Self-Sabotaging Innovation: The Art of Doing Dumb Shit"
-full_title: "Self-Sabotaging Innovation: The Art of Doing Dumb Shit"
-author: Matt Klein
+title: |
+  Self-Sabotaging Innovation: The Art of Doing Dumb Shit
+full_title: |
+  Self-Sabotaging Innovation: The Art of Doing Dumb Shit
+author: |
+  Matt Klein
 url: https://zine.kleinkleinklein.com/p/self-sabotaging-innovation?utm_source=post-email-title&publication_id=260920&post_id=151126526&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd196fc2b-8f58-4907-acff-627a00323b4d_1920x1080.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-23 12:22:06.326990+00:00
 published_date: None
 summary: |
   The text discusses how organizations often engage in self-sabotaging behaviors that hinder innovation. It highlights cognitive biases and a culture focused on metrics, leading to a lack of meaningful progress. To truly innovate, companies must embrace simplicity, encourage dissent, and prioritize genuine value over busywork.

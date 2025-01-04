@@ -1,13 +1,13 @@
 ---
-title: What Google’s Reversal on Cookies Means for Advertisers
-full_title: What Google’s Reversal on Cookies Means for Advertisers
-author: BoF Technology Briefing
+title: |
+  What Google’s Reversal on Cookies Means for Advertisers
+full_title: |
+  What Google’s Reversal on Cookies Means for Advertisers
+author: |
+  BoF Technology Briefing
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-25 16:27:47.944942+00:00
 published_date: 2024-07-24
 summary: |
   For years the search giant had promised that, one day, it would eventually do away with the little text files that websites and browsers such as Google Chrome exchange to track people across the internet.

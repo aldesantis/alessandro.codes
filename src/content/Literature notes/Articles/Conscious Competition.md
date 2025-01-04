@@ -1,13 +1,13 @@
 ---
-title: Conscious Competition
-full_title: Conscious Competition
-author: conscious.is
+title: |
+  Conscious Competition
+full_title: |
+  Conscious Competition
+author: |
+  conscious.is
 url: https://conscious.is/blogs/conscious-competition?utm_source=Conscious+Leadership+Group&utm_campaign=17bab51271-EMAIL_CAMPAIGN_2018_03_09_COPY_01&utm_medium=email&utm_term=0_c6741e3127-17bab51271-351839566&mc_cid=17bab51271&mc_eid=0f71759f49
 category: articles
 image_url: https://assets-global.website-files.com/595c3564695a724580257cb3/644ae702dd699039cf25a5ca_Untitled%20design%20(1).png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-01 09:21:34.078111+00:00
 published_date: 2023-04-28
 summary: |
   Read Conscious Competition write about

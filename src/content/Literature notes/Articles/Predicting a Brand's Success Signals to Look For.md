@@ -1,13 +1,13 @@
 ---
-title: "Predicting a Brand's Success: Signals to Look For"
-full_title: "Predicting a Brand's Success: Signals to Look For"
-author: Ana Andjelic
+title: |
+  Predicting a Brand's Success: Signals to Look For
+full_title: |
+  Predicting a Brand's Success: Signals to Look For
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/publish/post/17472965
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd953c5f-1b3f-4964-9b94-dbd64a4e1c0f_978x479.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-20 09:56:12.949988+00:00
 published_date: 2020-11-23
 summary: |
   How to detect winners early on

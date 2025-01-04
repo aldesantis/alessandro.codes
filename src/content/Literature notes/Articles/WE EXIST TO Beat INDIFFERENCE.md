@@ -1,13 +1,13 @@
 ---
-title: WE EXIST TO Beat INDIFFERENCE
-full_title: WE EXIST TO Beat INDIFFERENCE
-author: thevariable.com
+title: |
+  WE EXIST TO Beat INDIFFERENCE
+full_title: |
+  WE EXIST TO Beat INDIFFERENCE
+author: |
+  thevariable.com
 url: https://www.thevariable.com/
 category: articles
 image_url: https://global-uploads.webflow.com/6384adc4346ef2fe20a7f69b/6399c542280cfcf8a303ab12_Opengraph.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-22 16:08:42.082623+00:00
 published_date: None
 summary: |
   Innovation and advertising that gets noticed.

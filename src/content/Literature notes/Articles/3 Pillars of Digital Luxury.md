@@ -1,13 +1,13 @@
 ---
-title: 3 Pillars of Digital Luxury
-full_title: 3 Pillars of Digital Luxury
-author: Ana Andjelic
+title: |
+  3 Pillars of Digital Luxury
+full_title: |
+  3 Pillars of Digital Luxury
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/3-pillars-of-digital-luxury?s=w
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F885555bf-1be0-4620-b10b-869cef2736ad_1098x890.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 15:36:55.141391+00:00
 published_date: 2021-12-06
 summary: |
   How to create, distribute and capture value in digital luxury markets

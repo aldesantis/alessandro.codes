@@ -1,13 +1,13 @@
 ---
-title: The Failure File
-full_title: The Failure File
-author: Chris Anselmo
+title: |
+  The Failure File
+full_title: |
+  The Failure File
+author: |
+  Chris Anselmo
 url: https://helloadversity.substack.com/p/the-failure-file
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F044255b1-11af-48a9-9d99-c1b8158e9e83_6016x4016.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-10 20:57:47.785115+00:00
 published_date: None
 summary: |
   Learning from failure can lead to personal growth and success. It's important to stay committed and not let failure define you. Sharing your failure experiences can help normalize setbacks and empower others.

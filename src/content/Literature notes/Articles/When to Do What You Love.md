@@ -1,13 +1,13 @@
 ---
-title: When to Do What You Love
-full_title: When to Do What You Love
-author: Paul Graham
+title: |
+  When to Do What You Love
+full_title: |
+  When to Do What You Love
+author: |
+  Paul Graham
 url: https://paulgraham.com/when.html
 category: articles
 image_url: https://paulgraham.com/favicon.ico
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-16 08:21:55.018033+00:00
 published_date: 2024-09-29
 summary: |
   The decision to follow your passion in work is complex and depends on various factors, such as financial needs and personal interests. While pursuing what you love can lead to great work and startup ideas, it's important to explore your options and gain experience. Ultimately, if you want to do exceptional work, focusing on what genuinely interests you is essential.

@@ -1,13 +1,13 @@
 ---
-title: How Hard Should I Push Myself?
-full_title: How Hard Should I Push Myself?
-author: Dan Shipper
+title: |
+  How Hard Should I Push Myself?
+full_title: |
+  How Hard Should I Push Myself?
+author: |
+  Dan Shipper
 url: https://every.to/chain-of-thought/how-hard-should-i-push-myself-83986449-8ffb-40de-9e61-214dd387b6b8
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2818/https---bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com-public-images-3d2ebce7-e447-49bf-a6b4-f78c21198041_1400x934.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 22:37:56.249283+00:00
 published_date: 2023-10-17
 summary: |
   What the science of stress tells us about peak performance

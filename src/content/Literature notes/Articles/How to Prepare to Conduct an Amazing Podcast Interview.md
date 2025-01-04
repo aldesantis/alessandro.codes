@@ -1,13 +1,13 @@
 ---
-title: How to Prepare to Conduct an Amazing Podcast Interview
-full_title: How to Prepare to Conduct an Amazing Podcast Interview
-author: Dennis
+title: |
+  How to Prepare to Conduct an Amazing Podcast Interview
+full_title: |
+  How to Prepare to Conduct an Amazing Podcast Interview
+author: |
+  Dennis
 url: https://castos.com/podcast-interview/
 category: articles
 image_url: https://castos.com/wp-content/uploads/2018/12/How-to-Prepare-to-Conduct-an-Amazing-Podcast-Interview.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-09 08:13:53.858813+00:00
 published_date: 2018-12-18
 summary: |
   How to do you host a great podcast interview? By preparing in advance. We’d like to give you some important tips to preparing for your podcast interview.

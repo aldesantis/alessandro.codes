@@ -1,13 +1,13 @@
 ---
-title: Strange Attraction
-full_title: Strange Attraction
-author: Tom Critchlow
+title: |
+  Strange Attraction
+full_title: |
+  Strange Attraction
+author: |
+  Tom Critchlow
 url: https://tomcritchlow.com/2019/03/12/strange-attraction/
 category: articles
 image_url: http://tomcritchlow.com/images/green.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-04-04 08:17:34.050089+00:00
 published_date: 2019-03-12
 summary: |
   The Lorenz Attractor is a chaotic system known as a strange attractor. The author draws a parallel between this mathematical object and their consulting business, where leads often come unexpectedly and the reasons behind them are unclear. However, the author emphasizes that generating leads is not random but rather entails shaping the larger system. They outline their system for generating warm leads, which involves focusing on networks, articulating their work, and publishing to maintain a presence. The author also discusses the importance of building a network, communicating with contacts, and creating concise case studies and capabilities decks to attract the right kind of work. They conclude by encouraging individuals to embrace their unique work and create a body of work that signals their expertise in a specific area.

@@ -1,13 +1,13 @@
 ---
-title: "👁️ Art Dorko: The Future Aesthetic"
-full_title: "👁️ Art Dorko: The Future Aesthetic"
-author: The Senses by Future Commerce
+title: |
+  👁️ Art Dorko: The Future Aesthetic
+full_title: |
+  👁️ Art Dorko: The Future Aesthetic
+author: |
+  The Senses by Future Commerce
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-13 12:52:47.731539+00:00
 published_date: 2024-10-11
 summary: |
   “I just shed tears over a video made by AI,” said Michael Miraflor in response to the closing keynote with Walter Woodman of shy kids, the Toronto-based creative collective among the first to create short films using OpenAI’s video platform, Sora.

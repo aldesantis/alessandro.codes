@@ -1,13 +1,13 @@
 ---
-title: Targeting Taste Communities
-full_title: Targeting Taste Communities
-author: Ana Andjelic
+title: |
+  Targeting Taste Communities
+full_title: |
+  Targeting Taste Communities
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/targeting-taste-communities?s=w
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8209099c-72a9-40ef-9c78-de0f743b034f_2132x1314.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-26 09:11:45.342935+00:00
 published_date: 2021-08-23
 summary: |
   Why community, not an individuals, is the new unit of marketing

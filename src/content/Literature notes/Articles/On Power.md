@@ -1,13 +1,13 @@
 ---
-title: On Power
-full_title: On Power
-author: Troy Young
+title: |
+  On Power
+full_title: |
+  On Power
+author: |
+  Troy Young
 url: https://www.peoplevsalgorithms.com/p/on-power?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1dc22b79-8637-4a86-bdd5-b13e348db155_1229x823.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-21 19:41:41.220838+00:00
 published_date: None
 summary: |
   The text discusses the concept of personal power and offers practical advice on how to strengthen it in the context of career management. It emphasizes the importance of owning and controlling assets, being versatile and resourceful, and developing deep expertise to increase one's influence and agency in various fields. The author encourages readers to consider ways to maximize their personal power for a more secure and fulfilling professional life.

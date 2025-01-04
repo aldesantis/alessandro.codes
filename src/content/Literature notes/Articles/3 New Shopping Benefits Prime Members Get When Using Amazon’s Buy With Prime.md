@@ -1,13 +1,13 @@
 ---
-title: 3 New Shopping Benefits Prime Members Get When Using Amazon’s Buy With Prime
-full_title: 3 New Shopping Benefits Prime Members Get When Using Amazon’s Buy With Prime
-author: Amazon Staff
+title: |
+  3 New Shopping Benefits Prime Members Get When Using Amazon’s Buy With Prime
+full_title: |
+  3 New Shopping Benefits Prime Members Get When Using Amazon’s Buy With Prime
+author: |
+  Amazon Staff
 url: https://www.aboutamazon.com/news/retail/buy-with-prime-new-shopping-benefits-2023
 category: articles
 image_url: https://assets.aboutamazon.com/dims4/default/f0f12fe/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fa6%2F6c%2Fb2dc8d834793950f4bbdc93e747c%2Fbwp-hero-2000x1125.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-22 11:11:12.004969+00:00
 published_date: 2023-11-14
 summary: |
   This holiday season, Prime member benefits include 24/7 customer service through a live chat feature, easier returns, and order tracking in one place when they shop using Buy with Prime.

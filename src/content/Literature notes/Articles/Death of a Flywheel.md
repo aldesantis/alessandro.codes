@@ -1,13 +1,13 @@
 ---
-title: Death of a Flywheel
-full_title: Death of a Flywheel
-author: Evan Armstrong
+title: |
+  Death of a Flywheel
+full_title: |
+  Death of a Flywheel
+author: |
+  Evan Armstrong
 url: https://every.to/napkin-math/death-of-a-flywheel
 category: articles
 image_url: https://every.to/feeds/favicon.ico
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-31 11:59:47.489141+00:00
 published_date: 2023-04-27
 summary: |
   How Amazon and Berkshire got too big

@@ -1,13 +1,13 @@
 ---
-title: "2 Thoughts on “Memo: Shopify Owns DTC”"
-full_title: "2 Thoughts on “Memo: Shopify Owns DTC”"
-author: 2PM
+title: |
+  2 Thoughts on “Memo: Shopify Owns DTC”
+full_title: |
+  2 Thoughts on “Memo: Shopify Owns DTC”
+author: |
+  2PM
 url: https://2pml.com/2023/11/03/owns-dtc/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/11/chart-11.03.2023.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-25 21:19:38.425369+00:00
 published_date: 2023-11-04
 summary: |
   But what does that really mean? Increasingly, it’s something different than you may think. Let’s face it: October’s Nike Strength launch was underwhelming. Part of the reason was …

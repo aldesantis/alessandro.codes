@@ -1,13 +1,13 @@
 ---
-title: Banks Are Dipping Their Toes Into the Retail Media Waters
-full_title: Banks Are Dipping Their Toes Into the Retail Media Waters
-author: Allison Smith
+title: |
+  Banks Are Dipping Their Toes Into the Retail Media Waters
+full_title: |
+  Banks Are Dipping Their Toes Into the Retail Media Waters
+author: |
+  Allison Smith
 url: https://www.modernretail.co/technology/banks-are-dipping-their-toes-into-the-retail-media-waters/?utm_source=mrdaily&utm_campaign=mrdis&utm_medium=email
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2023/11/MR_Computer-screen-copy.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-01 08:01:01.998668+00:00
 published_date: 2024-04-19
 summary: |
   Financial institutions like JPMorgan Chase are stepping into retail media, selling ads based on customer transaction data to compete with tech and retail players. Chase's move leverages its vast customer base and first-party data, marking the start of a new wave in retail media that may see more banks follow suit. The rise of retail media is fueled by shifts in user tracking policies, with companies like Chase aiming to tap into the growing market for targeted advertising.

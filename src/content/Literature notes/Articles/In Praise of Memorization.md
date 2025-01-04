@@ -1,13 +1,13 @@
 ---
-title: In Praise of Memorization
-full_title: In Praise of Memorization
-author: pearlleff.com
+title: |
+  In Praise of Memorization
+full_title: |
+  In Praise of Memorization
+author: |
+  pearlleff.com
 url: http://www.pearlleff.com/in-praise-of-memorization
 category: articles
 image_url: http://www.pearlleff.com/src/images/image5.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-09 14:00:26.229328+00:00
 published_date: None
 summary: |
   I once worked at a small company of insanely productive engineers. They were geniuses by any account.

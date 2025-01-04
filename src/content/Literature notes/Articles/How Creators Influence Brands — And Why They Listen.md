@@ -1,13 +1,13 @@
 ---
-title: How Creators Influence Brands — And Why They Listen
-full_title: How Creators Influence Brands — And Why They Listen
-author: PYMNTS
+title: |
+  How Creators Influence Brands — And Why They Listen
+full_title: |
+  How Creators Influence Brands — And Why They Listen
+author: |
+  PYMNTS
 url: https://www.pymnts.com/news/retail/2023/how-creators-influence-brands-and-why-they-listen/
 category: articles
 image_url: https://content.pymnts.com/wp-content/uploads/2023/06/skinny-jeans-retail-1000x600.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 09:12:06.666243+00:00
 published_date: 2023-06-20
 summary: |
   But when deciding what trends are in and what trends are out, who holds the most influence over these fashion choices?

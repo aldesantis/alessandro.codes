@@ -1,13 +1,13 @@
 ---
-title: Away Luggage Quiets Talks of Buyout, Shifts Focus to Retail Expansion
-full_title: Away Luggage Quiets Talks of Buyout, Shifts Focus to Retail Expansion
-author: PYMNTS
+title: |
+  Away Luggage Quiets Talks of Buyout, Shifts Focus to Retail Expansion
+full_title: |
+  Away Luggage Quiets Talks of Buyout, Shifts Focus to Retail Expansion
+author: |
+  PYMNTS
 url: https://www.pymnts.com/news/retail/2023/away-luggage-quiets-talks-of-buyout-shifts-focus-to-retail-expansion/
 category: articles
 image_url: https://content.pymnts.com/wp-content/uploads/2023/04/Luggage-travel-1000x600.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-01 09:31:17.185419+00:00
 published_date: 2023-04-26
 summary: |
   Away was looking for a buyout just two months ago. Now it’s looking to expand its physical footprint.  

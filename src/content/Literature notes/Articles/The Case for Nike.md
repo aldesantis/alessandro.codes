@@ -1,13 +1,13 @@
 ---
-title: The Case for Nike
-full_title: The Case for Nike
-author: bobbyhundreds
+title: |
+  The Case for Nike
+full_title: |
+  The Case for Nike
+author: |
+  bobbyhundreds
 url: https://bobbyhundreds.substack.com/p/the-case-for-nike?utm_source=multiple-personal-recommendations-email&utm_medium=email&triedRedirect=true
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde7f0d10-40d7-4f4e-bca7-6fe7d3cb0011_2000x1158.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-09-27 11:27:16.043345+00:00
 published_date: None
 summary: |
   Nike is facing challenges as it relies on older sneaker designs while youth culture shifts. The brand must reconnect with consumers by embracing innovation and social responsibility. There are opportunities for Nike to diversify beyond fashion and restore its reputation as a cultural leader.

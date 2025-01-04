@@ -1,13 +1,13 @@
 ---
-title: What Is the Alexander Technique?
-full_title: What Is the Alexander Technique?
-author: Alexander Technique
+title: |
+  What Is the Alexander Technique?
+full_title: |
+  What Is the Alexander Technique?
+author: |
+  Alexander Technique
 url: https://expandingawareness.org/blog/what-is-the-alexander-technique/
 category: articles
 image_url: https://cdn.getmidnight.com/57d3d307ea7a3152cb20d145dd50914b/2022/03/What-is-the-Alexander-Technique-_900px.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-04-03 14:37:14.269052+00:00
 published_date: 2021-05-12
 summary: |
   The Alexander Technique helps you become aware of the space between reacting to stimuli and choosing a response, allowing for conscious decision-making. By expanding your awareness, you can enhance various aspects of your life, such as movement, performance, and relationships. This technique empowers you to gain control over your awareness and improve your overall well-being.

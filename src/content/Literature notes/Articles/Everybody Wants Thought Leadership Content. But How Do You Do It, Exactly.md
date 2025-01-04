@@ -1,13 +1,13 @@
 ---
-title: Everybody Wants Thought Leadership Content. But How Do You Do It, Exactly?
-full_title: Everybody Wants Thought Leadership Content. But How Do You Do It, Exactly?
-author: Katie Parrott
+title: |
+  Everybody Wants Thought Leadership Content. But How Do You Do It, Exactly?
+full_title: |
+  Everybody Wants Thought Leadership Content. But How Do You Do It, Exactly?
+author: |
+  Katie Parrott
 url: https://www.animalz.co/blog/thought-leadership-content/?utm_source=newsletter&utm_medium=email&utm_campaign=refresh-newsletter
 category: articles
 image_url: https://www.animalz.co/wp-content/uploads/2020/07/Everybody-Wants-Thought-Leadership-1-1.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-03 08:43:37.686151+00:00
 published_date: 2020-07-29
 summary: |
   Thought leadership content is about sharing unique insights to build credibility and trust with your audience. It helps position your brand as an industry authority and can drive lead generation. Animalz offers services to help businesses create impactful thought leadership content.

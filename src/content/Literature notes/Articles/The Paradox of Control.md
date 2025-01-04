@@ -1,13 +1,13 @@
 ---
-title: The Paradox of Control
-full_title: The Paradox of Control
-author: Casey Rosengren
+title: |
+  The Paradox of Control
+full_title: |
+  The Paradox of Control
+author: |
+  Casey Rosengren
 url: https://every.to/no-small-plans/the-paradox-of-control
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2793/lucascrespo_cockpit_inside_airplane_watercolor_style_37211975-a61f-4aa7-9890-32352bd698a5.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 10:26:20.173028+00:00
 published_date: 2023-09-19
 summary: |
   Sometimes you need to let go to succeed

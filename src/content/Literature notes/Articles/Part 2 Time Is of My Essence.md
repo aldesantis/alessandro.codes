@@ -1,13 +1,13 @@
 ---
-title: "Part 2: Time Is of My Essence"
-full_title: "Part 2: Time Is of My Essence"
-author: Quick Study
+title: |
+  Part 2: Time Is of My Essence
+full_title: |
+  Part 2: Time Is of My Essence
+author: |
+  Quick Study
 url: https://quick.study/soloculture-2
 category: articles
 image_url: http://static1.squarespace.com/static/62a783d6791ab95245363820/t/65b192f44197ad6a96ac088e/1705331285248/Studio+Shodwe.png?format=1500w
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-14 08:44:09.488768+00:00
 published_date: None
 summary: |
   People have been altering time to suit their needs, impacting how we perceive the world today. Technology plays a significant role in our struggle with time, affecting our cultural connections. The individual control over time and consumption leads to unique experiences and challenges in connecting with others.

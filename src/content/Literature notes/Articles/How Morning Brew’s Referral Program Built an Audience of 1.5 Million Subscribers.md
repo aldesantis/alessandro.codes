@@ -1,13 +1,13 @@
 ---
-title: How Morning Brew’s Referral Program Built an Audience of 1.5 Million Subscribers
-full_title: How Morning Brew’s Referral Program Built an Audience of 1.5 Million Subscribers
-author: Tyler Denk
+title: |
+  How Morning Brew’s Referral Program Built an Audience of 1.5 Million Subscribers
+full_title: |
+  How Morning Brew’s Referral Program Built an Audience of 1.5 Million Subscribers
+author: |
+  Tyler Denk
 url: https://medium.com/the-mission/how-morning-brews-referral-program-built-an-audience-of-1-5-million-subscribers-3315482c1aa5
 category: articles
 image_url: https://miro.medium.com/v2/resize:fit:1200/1*RBo2hRI300IDkgcsarswQQ.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-07 09:20:35.346604+00:00
 published_date: 2022-03-03
 summary: |
   The inner-workings of one of the most powerful growth tools in email.

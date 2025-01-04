@@ -1,13 +1,13 @@
 ---
-title: What Does It Take to Run an Independent Fashion Brand Today?
-full_title: What Does It Take to Run an Independent Fashion Brand Today?
-author: Bella Webb
+title: |
+  What Does It Take to Run an Independent Fashion Brand Today?
+full_title: |
+  What Does It Take to Run an Independent Fashion Brand Today?
+author: |
+  Bella Webb
 url: https://www.voguebusiness.com/story/fashion/what-does-it-take-to-run-an-independent-fashion-brand-today-debunking-the-dream-survey?uID=58ba29f6592c24ef0bdefa76114a43982a806c17a289ed758a3b0794fe834435&utm_campaign=VB_NEWS_Kirsty_Mon_300924&utm_source=newsletter&utm_brand=vb&utm_mailing=VB_NEWS_DEBUNKING_Mon_071024&utm_medium=email&utm_term=VB_VogueBusiness
 category: articles
 image_url: https://media.voguebusiness.com/photos/66ffb56163074d2b9a66cf0b/16:9/w_1280,c_limit/VB-DEBUNKING-03-WHAT-DOES-IT-TAKE-social-newsletter.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-28 09:56:17.009339+00:00
 published_date: 2024-10-07
 summary: |
   Running an independent fashion brand is increasingly difficult due to global challenges like raw material shortages and rising costs. Many emerging designers feel unprepared and overwhelmed, often struggling with financial sustainability. The fashion industry needs to rethink its support systems to help these designers thrive rather than just survive.

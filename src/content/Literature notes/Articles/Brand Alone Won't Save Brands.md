@@ -1,17 +1,18 @@
 ---
-title: ""Brand" Alone Won't Save Brands"
-full_title: ""Brand" Alone Won't Save Brands"
-author: edition+partners
+title: |
+  "Brand" Alone Won't Save Brands
+full_title: |
+  "Brand" Alone Won't Save Brands
+author: |
+  edition+partners
 url: https://sotaclub.substack.com/p/brand-alone-wont-save-brands-product-strategy?utm_source=post-email-title&publication_id=663077&post_id=144469637&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71f8f3a8-8e20-47cb-ab45-cd2ca943a169_600x420.gif
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-10 13:17:16.492376+00:00
 published_date: None
-summary: >
+summary: |
   Brands need to focus on product innovation, not just branding, to stay competitive. Successful brands like ON Running and Skims prioritize quality products and engaging storytelling. Emphasizing product value over excessive branding layers is key in today's market.
 source: reader
+permalink: l/articles/brand-alone-won-t-save-brands
 ---
 # "Brand" Alone Won't Save Brands
 

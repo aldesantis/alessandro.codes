@@ -1,13 +1,13 @@
 ---
-title: 🍀 Growth Levers to Pull
-full_title: 🍀 Growth Levers to Pull
-author: Ari Murray
+title: |
+  🍀 Growth Levers to Pull
+full_title: |
+  🍀 Growth Levers to Pull
+author: |
+  Ari Murray
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-27 09:28:33.153517+00:00
 published_date: 2023-10-23
 summary: |
   Proving Bloomreach is the end all be all choice of all choices when it comes to DELIVERING on specific inclusion criteria, personalized search results, and product listing pages.

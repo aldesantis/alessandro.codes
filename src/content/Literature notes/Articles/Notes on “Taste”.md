@@ -1,13 +1,13 @@
 ---
-title: Notes on “Taste”
-full_title: Notes on “Taste”
-author: are.na
+title: |
+  Notes on “Taste”
+full_title: |
+  Notes on “Taste”
+author: |
+  are.na
 url: https://www.are.na/blog/notes-on-taste
 category: articles
 image_url: https://images.ctfassets.net/xq10wb7ogoji/5Ct3oUx0iUAY59Jhg0IaCo/af051412a6650d5e2d03a856a10c20eb/2-gertrude-stein-1874-1946-granger.jpg?w=500
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-09 18:47:52.784665+00:00
 published_date: 2022-02-04
 summary: |
   Are.na is a platform for connecting ideas and building knowledge.

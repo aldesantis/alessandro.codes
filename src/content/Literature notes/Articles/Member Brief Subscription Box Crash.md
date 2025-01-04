@@ -1,13 +1,13 @@
 ---
-title: "Member Brief: Subscription Box Crash"
-full_title: "Member Brief: Subscription Box Crash"
-author: 2PM
+title: |
+  Member Brief: Subscription Box Crash
+full_title: |
+  Member Brief: Subscription Box Crash
+author: |
+  2PM
 url: https://2pml.com/2022/12/04/crash/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2022/12/chart-12.022022-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-14 10:44:06.954129+00:00
 published_date: 2022-12-04
 summary: |
   Subscription boxes are essentially products built on the principles of marketing arbitrage: you set a price, you buy a customer, and you count on the lifetime value of the customer exceeding the cost of that acquisition.

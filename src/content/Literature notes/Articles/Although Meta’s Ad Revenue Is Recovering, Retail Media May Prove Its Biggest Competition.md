@@ -1,13 +1,13 @@
 ---
-title: Although Meta’s Ad Revenue Is Recovering, Retail Media May Prove Its Biggest Competition
-full_title: Although Meta’s Ad Revenue Is Recovering, Retail Media May Prove Its Biggest Competition
-author: Antoinette Siu
+title: |
+  Although Meta’s Ad Revenue Is Recovering, Retail Media May Prove Its Biggest Competition
+full_title: |
+  Although Meta’s Ad Revenue Is Recovering, Retail Media May Prove Its Biggest Competition
+author: |
+  Antoinette Siu
 url: https://digiday.com/media-buying/although-metas-ad-revenue-is-recovering-retail-media-may-prove-its-biggest-competition/
 category: articles
 image_url: https://digiday.com/wp-content/uploads/sites/3/2022/05/Screen-Shot-2022-05-24-at-7.02.10-PM.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-29 10:10:56.534794+00:00
 published_date: 2023-05-04
 summary: |
   Retail media networks are gaining popularity with advertisers in part because of their proximity to consumers closer to the point of purchase.

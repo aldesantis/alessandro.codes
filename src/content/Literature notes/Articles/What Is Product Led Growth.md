@@ -1,13 +1,13 @@
 ---
-title: What Is Product Led Growth?
-full_title: What Is Product Led Growth?
-author: Stormly
+title: |
+  What Is Product Led Growth?
+full_title: |
+  What Is Product Led Growth?
+author: |
+  Stormly
 url: https://www.stormly.com/blog/what-is-product-led-growth
 category: articles
 image_url: https://stormly-content.s3.amazonaws.com/cfL4kqk5e6aKbrYq4rHCfWBo
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-30 08:58:14.261896+00:00
 published_date: None
 summary: |
   So you've heard of product led growth, but what does that really mean? And more importantly, how can you make it work for your business? In this post, we'll break down what product led growth is and explore some tips for putting it into action. Stay tuned!

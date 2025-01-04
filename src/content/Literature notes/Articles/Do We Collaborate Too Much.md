@@ -1,13 +1,13 @@
 ---
-title: Do We Collaborate Too Much?
-full_title: Do We Collaborate Too Much?
-author: Dave Feldman
+title: |
+  Do We Collaborate Too Much?
+full_title: |
+  Do We Collaborate Too Much?
+author: |
+  Dave Feldman
 url: https://dfeldman.medium.com/do-we-collaborate-too-much-4feaf9efd5ac
 category: articles
 image_url: https://miro.medium.com/v2/resize:fit:1200/1*LpB-wDFaXp0etKU8TbBr8Q.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-03 10:52:56.256704+00:00
 published_date: 2023-06-23
 summary: |
   Are we collaborating too much? Or too little? Both—because most of what we call collaboration isn’t actually collaboration at all.

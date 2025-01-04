@@ -1,13 +1,13 @@
 ---
-title: Be Sincere—Not Serious
-full_title: Be Sincere—Not Serious
-author: Michael Ashcroft
+title: |
+  Be Sincere—Not Serious
+full_title: |
+  Be Sincere—Not Serious
+author: |
+  Michael Ashcroft
 url: https://every.to/expanding-awareness/be-sincere-not-serious
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2705/92Ib1xISiPn-lzHDkBzC3kjb7SqlymJ-88ss9BmY661K1U_oAN19xtHBMMLIfoWBTEl93ncEF8aXayNoqyIPJ3PbFGEwmswOEajsaQVc18F3K3xe6B_uEd-INzKU.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-18 09:47:56.483802+00:00
 published_date: 2023-07-25
 summary: |
   Why white-knuckling your way through life doesn't work

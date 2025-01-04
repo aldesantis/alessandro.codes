@@ -1,13 +1,13 @@
 ---
-title: Move Over Influencers, Here Come Curators
-full_title: Move Over Influencers, Here Come Curators
-author: Ana Andjelic
+title: |
+  Move Over Influencers, Here Come Curators
+full_title: |
+  Move Over Influencers, Here Come Curators
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/move-over-influencers-here-come-curators
 category: articles
 image_url: https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F102211f5-db24-41f6-b5fc-e3249b787563_1026x615.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-11 10:05:13.172386+00:00
 published_date: 2020-03-03
 summary: |
   Curation is the fuel of the modern aspiration economy

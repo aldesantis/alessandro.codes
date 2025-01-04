@@ -1,13 +1,13 @@
 ---
-title: TikTok Ban Will Undo Social Commerce in the US
-full_title: TikTok Ban Will Undo Social Commerce in the US
-author: Marketplace Pulse
+title: |
+  TikTok Ban Will Undo Social Commerce in the US
+full_title: |
+  TikTok Ban Will Undo Social Commerce in the US
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/tiktok-ban-will-undo-social-commerce-in-the-us
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/690/cover_social.jpg
-date: 2024-12-30
-time: 12:43 PM
-last_highlighted_date: 2024-12-30 11:28:35.598468+00:00
 published_date: 2024-12-27
 summary: |
   TikTok Shop is expected to sell about $8 billion in goods this year, but it will be banned in January, causing social commerce to decline. Users and brands may move to platforms like YouTube Shorts and Instagram Reels, which do not offer shopping features. The TikTok ban will disrupt the rapid growth of social commerce, which has thrived by allowing users to buy products directly after seeing them in videos.

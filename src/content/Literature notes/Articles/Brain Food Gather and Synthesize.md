@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Gather and Synthesize"
-full_title: "Brain Food: Gather and Synthesize"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Gather and Synthesize
+full_title: |
+  Brain Food: Gather and Synthesize
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-30 13:18:14.798956+00:00
 published_date: 2024-01-28
 summary: |
   “Don’t aim at success—the more you aim at it and make it a target, the more you are going to miss it.

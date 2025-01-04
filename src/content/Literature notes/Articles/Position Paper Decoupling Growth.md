@@ -1,13 +1,13 @@
 ---
-title: "Position Paper: Decoupling Growth"
-full_title: "Position Paper: Decoupling Growth"
-author: Quynh Phan Huong
+title: |
+  Position Paper: Decoupling Growth
+full_title: |
+  Position Paper: Decoupling Growth
+author: |
+  Quynh Phan Huong
 url: https://readwise.io/reader/document_raw_content/181834085
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/181834085/uM3ucq8ETnPWWrTdDqJWwovqB1GOCGRV8xO402t0kzY-cove_LJdomFI.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-22 18:51:09.077199+00:00
 published_date: 2024-05-24
 summary: ""
 source: reader

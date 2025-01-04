@@ -1,13 +1,13 @@
 ---
-title: "Member Brief: DTC and Hope"
-full_title: "Member Brief: DTC and Hope"
-author: 2PM
+title: |
+  Member Brief: DTC and Hope
+full_title: |
+  Member Brief: DTC and Hope
+author: |
+  2PM
 url: https://2pml.com/2023/11/01/hope/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/11/chart-11.01.2023.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-03 14:57:59.748086+00:00
 published_date: 2023-11-01
 summary: |
   Campaign performance data has been a struggle to track, but that will not slow retail media’s continued growth. In today’s volatile business environment, brands close to or beyond profi…

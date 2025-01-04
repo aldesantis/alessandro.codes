@@ -1,13 +1,13 @@
 ---
-title: Should I Care About Digital Product Passports?
-full_title: Should I Care About Digital Product Passports?
-author: Luke Hodgson
+title: |
+  Should I Care About Digital Product Passports?
+full_title: |
+  Should I Care About Digital Product Passports?
+author: |
+  Luke Hodgson
 url: https://www.commercethinking.com/p/should-i-care-about-digital-product
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb95ce5ea-66ff-42b3-a428-989a51135731_1456x1048.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-24 14:01:46.502174+00:00
 published_date: None
 summary: |
   Digital Product Passports (DPP) are gaining attention in the fashion industry, promoting transparency and sustainability. While larger brands may need to prioritize compliance with upcoming EU legislation, smaller companies might not face immediate enforcement. Brands that invest in transparency now could gain a competitive edge in an increasingly informed market.

@@ -1,13 +1,13 @@
 ---
-title: Simplifying DPP for Independent Brands
-full_title: Simplifying DPP for Independent Brands
-author: Luke Hodgson
+title: |
+  Simplifying DPP for Independent Brands
+full_title: |
+  Simplifying DPP for Independent Brands
+author: |
+  Luke Hodgson
 url: https://www.commercethinking.com/p/simplifying-dpp-for-independent-brands?utm_source=post-email-title&publication_id=1474159&post_id=147379854&utm_campaign=email-post-title&isFreemail=true&r=31t9d7&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a5b12bf-616e-4665-b206-5d2929ac4df2_1456x1048.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-08 20:59:42.662723+00:00
 published_date: None
 summary: |
   The article discusses how independent brands can simplify their approach to transparency under DPP regulations. It emphasizes the importance of focusing on product, material, and asset data before tackling the more complex event data tracking. By doing so, brands can enhance consumer engagement and leverage transparency as a competitive advantage.

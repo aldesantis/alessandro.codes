@@ -1,13 +1,13 @@
 ---
-title: American Fashion Soldiers Through a Volatile Market — For Now
-full_title: American Fashion Soldiers Through a Volatile Market — For Now
-author: Cathaleen Chen
+title: |
+  American Fashion Soldiers Through a Volatile Market — For Now
+full_title: |
+  American Fashion Soldiers Through a Volatile Market — For Now
+author: |
+  Cathaleen Chen
 url: https://www.businessoffashion.com/briefings/retail/american-fashion-soldiers-through-a-volatile-market-for-now/?utm_source=newsletter_professional_thisweek&utm_medium=email&utm_campaign=This_Week_In_Fashion_090824&utm_content=intro
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/LDVOUM4Z3NABDPGTAQUL6HERME.jpg?smart=true&auth=228a9c57b5caaafa12ec24cd1042afbb93f918858de581b8991f84a663a743f6&width=1200&height=630
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-12 12:23:18.514361+00:00
 published_date: 2024-08-09
 summary: |
   US retail sales stayed steady from May to June, but concerns about a potential recession are growing due to rising unemployment and increased consumer debt. Some fashion companies like Ralph Lauren are performing well, while others like Capri Holdings are struggling. Overall, consumer spending is cautious, as shoppers are affected by broader economic conditions.

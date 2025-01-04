@@ -1,13 +1,13 @@
 ---
-title: 🎓 Core Course
-full_title: 🎓 Core Course
-author: Alive Playground
+title: |
+  🎓 Core Course
+full_title: |
+  🎓 Core Course
+author: |
+  Alive Playground
 url: https://community.michaelashcroft.com/posts/%F0%9F%8E%93-core-course-how-to-be-superman
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/c-9a53078e0c8088331e3a0bd3aaee4a3de8ef70d17ee7d72f6afc985f3cb93117.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-22 10:49:04.552833+00:00
 published_date: 2024-01-25
 summary: |
   The text explains the Alexander Technique, which helps people stop trying too hard and instead allows them to act effortlessly. It highlights how this technique can transform one’s presence, like when Clark Kent becomes Superman. By learning to unlearn habits that hinder us, we can access our natural confidence and creativity.

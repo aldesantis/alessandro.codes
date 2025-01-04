@@ -1,13 +1,13 @@
 ---
-title: Why Digitally Native Brands Struggle Without Traditional Retail Strategies
-full_title: Why Digitally Native Brands Struggle Without Traditional Retail Strategies
-author: Alexandra Samet
+title: |
+  Why Digitally Native Brands Struggle Without Traditional Retail Strategies
+full_title: |
+  Why Digitally Native Brands Struggle Without Traditional Retail Strategies
+author: |
+  Alexandra Samet
 url: https://www.insiderintelligence.com/content/why-digitally-native-brands-struggle-without-traditional-retail-strategies
 category: articles
 image_url: https://www.insiderintelligence.com/content/storage/socialsharingdefault/default-image-share.png?im=FitAndFill,width=1200,height=630
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 09:03:17.001697+00:00
 published_date: 2023-08-25
 summary: |
   Digitally native vertical brands (DNVBs) have a long way to go to catch up to established brands. While established brands will make up $134.55 billion in D2C ecommerce sales in 2023, digitally native brands will make up just $34.84 billion, according to our March 2023 forecast.

@@ -1,13 +1,13 @@
 ---
-title: Visible but Not Sellable.
-full_title: Visible but Not Sellable.
-author: Filippo Conforti
+title: |
+  Visible but Not Sellable.
+full_title: |
+  Visible but Not Sellable.
+author: |
+  Filippo Conforti
 url: https://commercefordevs.org/visible-but-not-sellable/?ref=commerce-for-devs-newsletter
 category: articles
 image_url: https://commercefordevs.org/content/images/2024/05/viasible-but-not-sellable.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-07 08:39:25.993666+00:00
 published_date: 2024-06-04
 summary: |
   Retailers often remove out-of-stock products from their websites, missing out on potential sales opportunities. Keeping product pages visible even when items are out of stock can improve customer experience, SEO, and overall business success. Separating visibility from sellability is key for maximizing online sales potential.

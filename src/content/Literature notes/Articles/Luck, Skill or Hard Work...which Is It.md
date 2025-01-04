@@ -1,13 +1,13 @@
 ---
-title: Luck, Skill or Hard Work...which Is It?
-full_title: Luck, Skill or Hard Work...which Is It?
-author: Matt Bertulli
+title: |
+  Luck, Skill or Hard Work...which Is It?
+full_title: |
+  Luck, Skill or Hard Work...which Is It?
+author: |
+  Matt Bertulli
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-04 14:45:24.920575+00:00
 published_date: 2023-09-02
 summary: |
   In other words, you are just as likely to get extremely lucky from staying in the game for 10 years whether your work 10x harder than the next guy who also stayed in the game for the same period of time.

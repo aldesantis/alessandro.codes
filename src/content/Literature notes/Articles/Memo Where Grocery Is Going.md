@@ -1,13 +1,13 @@
 ---
-title: "Memo: Where Grocery Is Going"
-full_title: "Memo: Where Grocery Is Going"
-author: 2PM
+title: |
+  Memo: Where Grocery Is Going
+full_title: |
+  Memo: Where Grocery Is Going
+author: |
+  2PM
 url: https://2pml.com/2023/06/28/grocery-2023/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/06/chart-06.23.2023.2-1-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-13 09:03:21.065780+00:00
 published_date: 2023-06-28
 summary: |
   The future of the grocery industry is at a crossroads. Fiscal conservatism, technological advances, labor shortages, and shifting consumer preferences will dramatically shape the grocery landscape …

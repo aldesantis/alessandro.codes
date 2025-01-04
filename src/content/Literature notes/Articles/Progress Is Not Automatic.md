@@ -1,13 +1,13 @@
 ---
-title: Progress Is Not Automatic
-full_title: Progress Is Not Automatic
-author: Jakob Greenfeld
+title: |
+  Progress Is Not Automatic
+full_title: |
+  Progress Is Not Automatic
+author: |
+  Jakob Greenfeld
 url: https://playpermissionless.substack.com/p/progress-is-not-automatic?utm_source=post-email-title&publication_id=1308259&post_id=143632615&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fplaypermissionless.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1042782062%26version%3D9
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-17 13:03:49.196122+00:00
 published_date: None
 summary: |
   Progress is not automatic. Many people continue doing the same things without significant growth. To achieve big results, radical changes are often necessary.

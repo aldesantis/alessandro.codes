@@ -1,13 +1,13 @@
 ---
-title: "DTC Briefing: Startups Were Tasked With Proving Their Worth to Customers in 2024"
-full_title: "DTC Briefing: Startups Were Tasked With Proving Their Worth to Customers in 2024"
-author: Anna Hensel
+title: |
+  DTC Briefing: Startups Were Tasked With Proving Their Worth to Customers in 2024
+full_title: |
+  DTC Briefing: Startups Were Tasked With Proving Their Worth to Customers in 2024
+author: |
+  Anna Hensel
 url: https://www.modernretail.co/marketing/dtc-briefing-startups-were-tasked-with-proving-their-worth-to-customers-in-2024/?__readwiseLocation=
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2021/02/MR_DTC_email-banner-06.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-23 12:48:28.902968+00:00
 published_date: 2024-12-17
 summary: |
   In 2024, direct-to-consumer startups struggled to prove their value to customers amid high inflation and cautious spending. Many brands had to adapt their strategies and connect more with consumers, as buying decisions took longer than in previous years. Despite some companies seeing success, overall sales growth was flat for many startups, leading to a focus on building lasting customer relationships.

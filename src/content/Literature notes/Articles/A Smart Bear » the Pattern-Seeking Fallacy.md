@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » the Pattern-Seeking Fallacy
-full_title: A Smart Bear » the Pattern-Seeking Fallacy
-author: Jason Cohen
+title: |
+  A Smart Bear » the Pattern-Seeking Fallacy
+full_title: |
+  A Smart Bear » the Pattern-Seeking Fallacy
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/pattern-seeking-fallacy?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/pattern-seeking-fallacy/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-29 21:24:44.415664+00:00
 published_date: 2010-06-14
 summary: |
   The "Pattern-Seeker" fallacy refers to humans' tendency to perceive patterns in randomness. This phenomenon can lead to faulty conclusions in data analysis and marketing. The solution is to form a hypothesis and intentionally test it, rather than combing through data until a pattern emerges. This approach will lead to more accurate insights and discoveries.

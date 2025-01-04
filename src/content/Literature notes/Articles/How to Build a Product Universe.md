@@ -1,13 +1,13 @@
 ---
-title: How to Build a Product Universe
-full_title: How to Build a Product Universe
-author: Ana Andjelic
+title: |
+  How to Build a Product Universe
+full_title: |
+  How to Build a Product Universe
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/how-to-build-a-product-universe?utm_source=post-email-title&publication_id=18831&post_id=146578097&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb116007-bfab-4901-bd74-60b8fb1f9453_480x674.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-20 09:51:14.764587+00:00
 published_date: None
 summary: |
   Tactics of product-led branding

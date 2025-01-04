@@ -1,13 +1,13 @@
 ---
-title: Holding People Accountable Is Ineffective Leadership
-full_title: Holding People Accountable Is Ineffective Leadership
-author: conscious.is
+title: |
+  Holding People Accountable Is Ineffective Leadership
+full_title: |
+  Holding People Accountable Is Ineffective Leadership
+author: |
+  conscious.is
 url: https://conscious.is/blogs/holding-people-accountable-is-ineffective-leadership?utm_medium=email&utm_source=going_deeper&utm_campaign=may&mc_cid=d53e9ad44c&mc_eid=0f71759f49
 category: articles
 image_url: https://assets-global.website-files.com/595c3564695a724580257cb3/647a12a8d504de082ef34a85_Untitled%20design%20(5).png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-23 09:26:55.154479+00:00
 published_date: 2023-05-26
 summary: |
   Read Holding People Accountable is Ineffective Leadership write about

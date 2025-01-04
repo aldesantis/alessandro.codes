@@ -1,13 +1,13 @@
 ---
-title: More, Faster, Better
-full_title: More, Faster, Better
-author: Rosie Spinks
+title: |
+  More, Faster, Better
+full_title: |
+  More, Faster, Better
+author: |
+  Rosie Spinks
 url: https://rojospinks.substack.com/p/more-faster-better?utm_source=post-email-title&publication_id=4486&post_id=140804569&utm_campaign=email-post-title&isFreemail=true&r=og9hp&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F97dea236-b113-44e6-9ddc-77d15d0b9e2e_1500x930.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-07 22:26:45.214360+00:00
 published_date: 2024-01-26
 summary: |
   The antidote to never feeling done.

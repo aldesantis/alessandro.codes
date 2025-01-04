@@ -1,13 +1,13 @@
 ---
-title: Teen Subcultures Are Fading. Pity the Poor Kids.
-full_title: Teen Subcultures Are Fading. Pity the Poor Kids.
-author: Mireille Silcoff
+title: |
+  Teen Subcultures Are Fading. Pity the Poor Kids.
+full_title: |
+  Teen Subcultures Are Fading. Pity the Poor Kids.
+author: |
+  Mireille Silcoff
 url: https://www.nytimes.com/2024/02/21/magazine/aesthetics-tiktok-teens.html?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://static01.nyt.com/images/2024/02/25/magazine/25mag-Screenland-01/25mag-Screenland-01-facebookJumbo.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-28 14:22:08.802787+00:00
 published_date: 2024-02-21
 summary: |
   Teen subcultures are evolving, with modern teenagers engaging in a wide array of online aesthetics that lack the depth and community connection of past subcultures. These new aesthetics come and go rapidly, often existing only in the digital realm without real-world ties or shared experiences. While today's teenagers are exploring different aesthetics to find identity and validation, the fleeting nature of these cultural trends can lead to a sense of disconnectedness and lack of meaningful connections compared to the vibrant subcultures of the past. The shift from tangible, immersive subcultures to online aesthetics highlights a cultural shift that may leave young people yearning for the communal experiences and deep connections that defined previous eras.

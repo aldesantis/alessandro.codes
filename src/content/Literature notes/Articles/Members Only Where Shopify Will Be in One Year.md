@@ -1,13 +1,13 @@
 ---
-title: "Members Only: Where Shopify Will Be in One Year"
-full_title: "Members Only: Where Shopify Will Be in One Year"
-author: 2PM
+title: |
+  Members Only: Where Shopify Will Be in One Year
+full_title: |
+  Members Only: Where Shopify Will Be in One Year
+author: |
+  2PM
 url: https://2pml.com/2023/05/04/june-2024/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/05/chart-05.04.2.2023-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-06 12:48:11.053894+00:00
 published_date: 2023-05-05
 summary: |
   Amid all of this change, I took a leap forward to project which initiatives will influence Shopify’s storylines one year from now, in June 2024. There are themes that we  will see executed up…

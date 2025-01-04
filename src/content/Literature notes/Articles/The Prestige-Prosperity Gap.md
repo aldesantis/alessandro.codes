@@ -1,13 +1,13 @@
 ---
-title: The Prestige-Prosperity Gap
-full_title: The Prestige-Prosperity Gap
-author: Anu Atluru
+title: |
+  The Prestige-Prosperity Gap
+full_title: |
+  The Prestige-Prosperity Gap
+author: |
+  Anu Atluru
 url: https://www.workingtheorys.com/p/prestige-prosperity-gap?utm_source=post-email-title&publication_id=22717&post_id=145615583&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4147efc-ff5f-4e59-ab83-f0dd15f29f59_4990x3530.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-04 12:26:47.009682+00:00
 published_date: None
 summary: |
   In the modern world, there is often a mismatch between prestige and wealth, with some being prestige rich but cash poor, and others being cash rich but prestige poor. This phenomenon can lead to practical and emotional challenges, causing stress and cognitive dissonance. People may struggle with the idea of having more of one aspect relative to the other, prompting a need to decide how to navigate the pursuit of prestige and wealth.

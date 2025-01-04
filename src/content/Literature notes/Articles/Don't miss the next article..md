@@ -1,13 +1,13 @@
 ---
-title: Don't miss the next article.
-full_title: Don't miss the next article.
-author: Jason Cohen
+title: |
+  Don't miss the next article.
+full_title: |
+  Don't miss the next article.
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/fulfillment/
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-20 10:15:54.266787+00:00
 published_date: 2022-12-25
 summary: |
   What creates a fulfilling existence? Exploring the question from different directions leads to a framework I’ve used for years for myself and the people around me. I hope it helps you too.

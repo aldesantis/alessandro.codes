@@ -1,13 +1,13 @@
 ---
-title: Fundamentals of Modern Loyalty
-full_title: Fundamentals of Modern Loyalty
-author: Ana Andjelic
+title: |
+  Fundamentals of Modern Loyalty
+full_title: |
+  Fundamentals of Modern Loyalty
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/fundamentals-of-modern-loyalty?s=w
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9214b04-01fa-4fd3-8bd6-1d2dca2ca31a_1200x720.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-01 11:30:13.368319+00:00
 published_date: 2021-05-23
 summary: |
   To earn customer loyalty, offer community, not rewards

@@ -1,13 +1,13 @@
 ---
-title: "Early-Stage Branding: Driving Go-to-Market Impact"
-full_title: "Early-Stage Branding: Driving Go-to-Market Impact"
-author: Substack
+title: |
+  Early-Stage Branding: Driving Go-to-Market Impact
+full_title: |
+  Early-Stage Branding: Driving Go-to-Market Impact
+author: |
+  Substack
 url: https://substack.com/home/post/p-146235128?utm_source=multiple-personal-recommendations-email&utm_medium=email&substackHome=true&triedRedirect=true
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd82dc987-029f-43f6-a004-9609169d3ba9_2712x2096.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-18 04:11:11.243301+00:00
 published_date: None
 summary: |
   A strong brand is essential for any business, as it goes beyond just a name or logo and connects with customers on an emotional level. It helps differentiate your business, supports marketing efforts, and drives customer loyalty and revenue growth. Investing in branding from the start can give your company a lasting competitive edge.

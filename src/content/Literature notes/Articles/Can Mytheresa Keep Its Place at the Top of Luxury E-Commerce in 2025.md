@@ -1,13 +1,13 @@
 ---
-title: Can Mytheresa Keep Its Place at the Top of Luxury E-Commerce in 2025?
-full_title: Can Mytheresa Keep Its Place at the Top of Luxury E-Commerce in 2025?
-author: Malique Morris
+title: |
+  Can Mytheresa Keep Its Place at the Top of Luxury E-Commerce in 2025?
+full_title: |
+  Can Mytheresa Keep Its Place at the Top of Luxury E-Commerce in 2025?
+author: |
+  Malique Morris
 url: https://www.businessoffashion.com/articles/luxury/the-state-of-fashion-2025-report-luxury-ecommerce-interview-michael-kliger-mytheresa/?utm_source=newsletter_technology&utm_medium=email&utm_campaign=Technology_271124&utm_term=PO2ELLL6SRDZXGWTDC2T5EUR6I&utm_content=top_story_2_cta
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/4RV4E7O4UVHVPJWDHRQCIECAXU.png?smart=true&auth=e747519004dbf9fccbbb4bbec09cbe32f031f7b6c5f0c0ad1ede75372ce6a384&width=1200&height=630
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-28 09:45:06.638085+00:00
 published_date: 2024-11-27
 summary: |
   Mytheresa is working to maintain its top position in luxury e-commerce by focusing on its high-spending customers and planning to acquire competitor Yoox-Net-a-Porter. The company aims to innovate and adapt to market changes while providing a unique shopping experience online. To succeed, it must balance retaining loyal customers with attracting new ones, all while managing costs effectively.

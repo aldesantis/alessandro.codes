@@ -1,13 +1,13 @@
 ---
-title: 100 Rules to Live By
-full_title: 100 Rules to Live By
-author: Dru Riley
+title: |
+  100 Rules to Live By
+full_title: |
+  100 Rules to Live By
+author: |
+  Dru Riley
 url: https://druriley.com/100-rules-2020/?utm_source=convertkit&utm_medium=email&utm_campaign=%F0%9F%8E%89+Welcome+to+Trends.vc%20-%205603010
 category: articles
 image_url: https://media0.giphy.com/media/OVtqvymKkkcTu/giphy.gif
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-30 08:46:43.764434+00:00
 published_date: 2019-12-17
 summary: |
   Years of notes on business, productivity, courage, stress, success, relationships and more.

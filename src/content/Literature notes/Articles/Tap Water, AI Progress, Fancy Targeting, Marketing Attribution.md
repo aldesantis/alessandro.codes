@@ -1,13 +1,13 @@
 ---
-title: Tap Water, AI Progress, Fancy Targeting, Marketing Attribution
-full_title: Tap Water, AI Progress, Fancy Targeting, Marketing Attribution
-author: Jakob Greenfeld from Play Permissionless
+title: |
+  Tap Water, AI Progress, Fancy Targeting, Marketing Attribution
+full_title: |
+  Tap Water, AI Progress, Fancy Targeting, Marketing Attribution
+author: |
+  Jakob Greenfeld from Play Permissionless
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-11 13:24:47.974134+00:00
 published_date: 2024-08-11
 summary: |
   I’ve started to take the idea that “tap water is bad” more seriously. Justin Mares keeps talking about it.

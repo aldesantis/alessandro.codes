@@ -1,23 +1,21 @@
 ---
-title: "“90% of Startups Fail to Acquire New Customers"
-full_title: "“90% of Startups Fail to Acquire New Customers"
-author: Jim Huffman
+title: |
+  “90% of Startups Fail to Acquire New Customers
+full_title: |
+  “90% of Startups Fail to Acquire New Customers
+author: |
+  Jim Huffman
 url: https://twitter.com/JimWHuffman/status/1661423890533318690
 category: articles
 image_url: https://pbs.twimg.com/profile_images/1479572545678372865/1J10HuXx.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-26 09:11:28.151466+00:00
 published_date: 2023-05-24
-summary: >
+summary: |
   “90% of startups fail to acquire new customers.
-
-Don’t make this mistake.
-
-Use these 9 questions to uncover an acquisition strategy that’ll have customers throwing money at you.
-
-See 🧵:
+  Don’t make this mistake.
+  Use these 9 questions to uncover an acquisition strategy that’ll have customers throwing money at you.
+  See 🧵:
 source: reader
+permalink: l/articles/90-of-startups-fail-to-acquire-new-customers
 ---
 # “90% of Startups Fail to Acquire New Customers
 

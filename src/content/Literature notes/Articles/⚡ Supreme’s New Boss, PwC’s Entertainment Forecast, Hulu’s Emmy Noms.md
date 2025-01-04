@@ -1,13 +1,13 @@
 ---
-title: ⚡ Supreme’s New Boss, PwC’s Entertainment Forecast, Hulu’s Emmy Noms
-full_title: ⚡ Supreme’s New Boss, PwC’s Entertainment Forecast, Hulu’s Emmy Noms
-author: TheFutureParty
+title: |
+  ⚡ Supreme’s New Boss, PwC’s Entertainment Forecast, Hulu’s Emmy Noms
+full_title: |
+  ⚡ Supreme’s New Boss, PwC’s Entertainment Forecast, Hulu’s Emmy Noms
+author: |
+  TheFutureParty
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-18 15:43:48.413232+00:00
 published_date: 2024-07-18
 summary: |
   Thursday is here, and if you happen to be on a cruise ship but don’t want to be there, then Royal Caribbean has a solution for you.

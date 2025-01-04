@@ -1,13 +1,13 @@
 ---
-title: "Brand Backlash: Are 2023’s Epic Marketing Fails Part of a Bigger Problem?"
-full_title: "Brand Backlash: Are 2023’s Epic Marketing Fails Part of a Bigger Problem?"
-author: Peter Adams
+title: |
+  Brand Backlash: Are 2023’s Epic Marketing Fails Part of a Bigger Problem?
+full_title: |
+  Brand Backlash: Are 2023’s Epic Marketing Fails Part of a Bigger Problem?
+author: |
+  Peter Adams
 url: https://www.marketingdive.com/news/purpose-brand-marketing-2023-bud-light-target-backlash/700384/?utm_source=Sailthru&utm_medium=email&utm_campaign=Newsletter%20Weekly%20Roundup:%20Marketing%20Dive:%20Daily%20Dive%2012-02-2023&utm_term=Marketing%20Dive%20Weekender
 category: articles
 image_url: https://www.marketingdive.com/imgproxy/KuA6G70-fQv_Dp6oaF9Er9spT3qdDoxF8mjMg66Yy9E/g:ce/rs:fill:770:435:0/bG9jYWw6Ly8vZGl2ZWltYWdlL0dldHR5SW1hZ2VzLTE0OTQ5MTM4NDguanBn.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-12 14:33:21.514879+00:00
 published_date: 2023-11-28
 summary: |
   High-profile controversies have sent a chilling effect across an industry facing down another contentious election year and crusades against “wokeness.”

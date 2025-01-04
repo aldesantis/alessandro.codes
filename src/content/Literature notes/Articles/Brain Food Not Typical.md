@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Not Typical"
-full_title: "Brain Food: Not Typical"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Not Typical
+full_title: |
+  Brain Food: Not Typical
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-28 09:40:53.776294+00:00
 published_date: 2024-10-27
 summary: |
   The challenge isn't knowing you should work out; it's putting on your shoes and running in the cold when you'd rather sit at home under a warm blanket.

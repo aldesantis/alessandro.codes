@@ -1,13 +1,13 @@
 ---
-title: Why Ritual Is Leaning Into Podcast Ads to Attract Loyal Customers
-full_title: Why Ritual Is Leaning Into Podcast Ads to Attract Loyal Customers
-author: Maria Monteros
+title: |
+  Why Ritual Is Leaning Into Podcast Ads to Attract Loyal Customers
+full_title: |
+  Why Ritual Is Leaning Into Podcast Ads to Attract Loyal Customers
+author: |
+  Maria Monteros
 url: https://www.modernretail.co/marketing/why-ritual-is-leaning-into-podcast-ads-to-attract-loyal-customers/?utm_campaign=mrdis&utm_medium=email&utm_source=mrdaily&utm_content=121522
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2022/12/sponsor-by-mntn-01-1.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-15 15:23:03.496057+00:00
 published_date: 2022-12-15
 summary: |
   Ritual -- which sells a suite of multivitamins -- is leveraging podcast ads to gain the attention of potential customers.

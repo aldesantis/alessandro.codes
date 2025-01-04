@@ -1,13 +1,13 @@
 ---
-title: How to Be Funny in Public Speaking
-full_title: How to Be Funny in Public Speaking
-author: Jia Jiang
+title: |
+  How to Be Funny in Public Speaking
+full_title: |
+  How to Be Funny in Public Speaking
+author: |
+  Jia Jiang
 url: https://blog.jiajiang.com/p/how-to-be-funny-in-public-speaking
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459545a2-aa0d-4b03-82fe-325c3179d63a_1920x1080.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-24 21:16:48.132385+00:00
 published_date: 2024-09-26
 summary: |
   Jia Jiang explains how humor enhances public speaking and helps audiences remember key lessons. He emphasizes the importance of leaning into weird thoughts and emotions to create relatable and funny content. By recognizing and sharing these moments, anyone can become funnier and connect better with their audience.

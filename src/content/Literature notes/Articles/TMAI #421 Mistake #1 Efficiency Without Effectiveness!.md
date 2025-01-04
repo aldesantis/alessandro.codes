@@ -1,13 +1,13 @@
 ---
-title: "TMAI #421: Mistake #1: Efficiency Without Effectiveness!"
-full_title: "TMAI #421: Mistake #1: Efficiency Without Effectiveness!"
-author: avinashkaushik.com
+title: |
+  TMAI #421: Mistake #1: Efficiency Without Effectiveness!
+full_title: |
+  TMAI #421: Mistake #1: Efficiency Without Effectiveness!
+author: |
+  avinashkaushik.com
 url: https://tmai.avinashkaushik.com/web-version?ep=1&lc=3130e6a4-2238-11ee-9e85-fb91de59307b&p=3ef5ef18-5adc-11ef-93b6-5fbda1b2b5ae&pt=campaign&t=1723713690&s=b56e29e61c49d5157a43097521e91ac98e6bee91d6d6785310aa888c9cf8d728
 category: articles
 image_url: https://eomail1.com/screenshot.png?url=https%3A%2F%2Feomail1.com%2Fpreview%3Fp%3D3ef5ef18-5adc-11ef-93b6-5fbda1b2b5ae%26pt%3Dcampaign%26t%3D1723714261%26cb%3D20231005%26s%3D68c5b8603fce389cb28c62b08ad252b70dff50c0722eba2b37fdd41a3db19a2b&viewport_width=1300&viewport_height=650&width=1300
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-16 16:13:51.107691+00:00
 published_date: None
 summary: |
   The text emphasizes the importance of balancing efficiency and effectiveness in business metrics. It suggests that focusing solely on one type of metric can lead to unintended negative consequences. Companies should use both effectiveness and efficiency metrics to incentivize smart decision-making and achieve better overall results.

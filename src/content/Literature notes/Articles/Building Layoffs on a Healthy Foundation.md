@@ -1,13 +1,13 @@
 ---
-title: Building Layoffs on a Healthy Foundation
-full_title: Building Layoffs on a Healthy Foundation
-author: Kellan Elliott-McCrea
+title: |
+  Building Layoffs on a Healthy Foundation
+full_title: |
+  Building Layoffs on a Healthy Foundation
+author: |
+  Kellan Elliott-McCrea
 url: https://kellanem.com/notes/layoff-foundations
 category: articles
 image_url: https://rdl.ink/render/https%3A%2F%2Fkellanem.com%2Fnotes%2Flayoff-foundations
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-04 08:24:21.749380+00:00
 published_date: 2022-09-01
 summary: |
   The text discusses the challenges and considerations involved in conducting layoffs within a company, emphasizing the importance of strategic planning, clear communication, and managing the emotional impact on employees. It highlights the need for leaders to approach layoffs thoughtfully, with a focus on maintaining transparency, minimizing disruption to operations, and prioritizing the well-being of both departing and remaining staff. The text also stresses the significance of preparing for layoffs in advance, implementing structured processes, and addressing the organizational and emotional repercussions that come with such decisions.

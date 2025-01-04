@@ -1,13 +1,13 @@
 ---
-title: How Do Brands Grow? Probably Not the Way You Think…
-full_title: How Do Brands Grow? Probably Not the Way You Think…
-author: Andrew Smith
+title: |
+  How Do Brands Grow? Probably Not the Way You Think…
+full_title: |
+  How Do Brands Grow? Probably Not the Way You Think…
+author: |
+  Andrew Smith
 url: https://www.linkdex.com/en-us/inked/how-brands-grow/
 category: articles
 image_url: https://s3.amazonaws.com/ldx-www-linkdex-com/wordpress/wp-content/uploads/20160523113302/how-do-brands-grow.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-05 07:21:08.853561+00:00
 published_date: 2016-01-13
 summary: |
   Why the accept­ed wis­dom of mod­ern day mar­ket­ing sits on pret­ty shaky ground.

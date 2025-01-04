@@ -1,13 +1,13 @@
 ---
-title: How to Balance Performance and Brand Marketing
-full_title: How to Balance Performance and Brand Marketing
-author: Mordy Oberstein
+title: |
+  How to Balance Performance and Brand Marketing
+full_title: |
+  How to Balance Performance and Brand Marketing
+author: |
+  Mordy Oberstein
 url: https://www.searchenginejournal.com/how-to-balance-performance-and-brand-marketing/524018/
 category: articles
 image_url: https://www.searchenginejournal.com/wp-content/uploads/2024/08/balance-brand-marketing-and-brand-performance-820.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-27 13:08:01.089894+00:00
 published_date: 2024-08-14
 summary: |
   To balance brand marketing and performance marketing, it's essential to prioritize brand supremacy. Brand marketing focuses on perception and long-term growth, while performance marketing aims for immediate results. Successful marketing integrates both approaches, where brand creates opportunities and performance captures them.

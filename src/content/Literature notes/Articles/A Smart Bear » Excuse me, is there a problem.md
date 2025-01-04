@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » Excuse me, is there a problem?
-full_title: A Smart Bear » Excuse me, is there a problem?
-author: Jason Cohen
+title: |
+  A Smart Bear » Excuse me, is there a problem?
+full_title: |
+  A Smart Bear » Excuse me, is there a problem?
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/problem/
 category: articles
 image_url: https://longform.asmartbear.com/problem/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-03 09:54:27.032026+00:00
 published_date: 2023-03-29
 summary: |
   Many startups fail despite identifying a real problem and building a product that solves that problem. This explains why, so you can avoid their fate.

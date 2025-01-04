@@ -1,13 +1,13 @@
 ---
-title: Even High-Income Americans Are Shopping More at Discount Retailers
-full_title: Even High-Income Americans Are Shopping More at Discount Retailers
-author: Nicole Goodkind
+title: |
+  Even High-Income Americans Are Shopping More at Discount Retailers
+full_title: |
+  Even High-Income Americans Are Shopping More at Discount Retailers
+author: |
+  Nicole Goodkind
 url: https://edition.cnn.com/2024/06/03/investing/premarket-stocks-trading/index.html?utm_source=mrdaily&utm_campaign=mrdis&utm_medium=email
 category: articles
 image_url: https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1334323331-copy.jpg?c=16x9&q=w_800,c_fill
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-07 08:45:27.485650+00:00
 published_date: 2024-06-03
 summary: |
   Americans, including high-income earners, are cutting back on spending and opting for discount shopping. Consumer sentiment is cautious amid concerns about the economy's direction. Companies like Costco are maintaining low prices to attract and retain customers.

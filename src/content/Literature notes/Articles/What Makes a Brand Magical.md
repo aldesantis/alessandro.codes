@@ -1,13 +1,13 @@
 ---
-title: What Makes a Brand Magical?
-full_title: What Makes a Brand Magical?
-author: Imran Amed
+title: |
+  What Makes a Brand Magical?
+full_title: |
+  What Makes a Brand Magical?
+author: |
+  Imran Amed
 url: https://www.businessoffashion.com/opinions/marketing-pr/what-makes-a-brand-magical/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/HEHWZ6B3ANBXFJ4OFY3YBP7G5Y.png?smart=true&auth=5fd368791b11e26b50fe10513feb7ad0a76ebe3b658c7458801ec5f6282afee7&width=1200&height=630
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-06 10:48:07.684152+00:00
 published_date: 2024-05-24
 summary: |
   BoF introduced the Brand Magic Index to analyze luxury brands like Gucci, Dior, and Louis Vuitton in terms of identity and culture balance. Gucci faces challenges balancing creativity with long-term brand identity under new leadership, impacting its market position. The key to success lies in managing tensions between brand legacy and current trends to maintain customer engagement.

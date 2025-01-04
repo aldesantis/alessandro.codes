@@ -1,13 +1,13 @@
 ---
-title: 21 Examples of Successful Co-Branding Partnerships
-full_title: 21 Examples of Successful Co-Branding Partnerships
-author: hubspot.com
+title: |
+  21 Examples of Successful Co-Branding Partnerships
+full_title: |
+  21 Examples of Successful Co-Branding Partnerships
+author: |
+  hubspot.com
 url: https://blog.hubspot.com/marketing/best-cobranding-partnerships
 category: articles
 image_url: https://blog.hubspot.com/hubfs/best-cobranding-partnerships.jpg#keepProtocol
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-12 08:26:38.868197+00:00
 published_date: 2023-06-06
 summary: |
   Need inspiration for your next brand partnership? Check out these real-world examples of great co-branding partnerships — and what makes them so good.

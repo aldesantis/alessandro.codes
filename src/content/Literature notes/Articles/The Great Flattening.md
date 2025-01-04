@@ -1,13 +1,13 @@
 ---
-title: The Great Flattening
-full_title: The Great Flattening
-author: Ben Thompson
+title: |
+  The Great Flattening
+full_title: |
+  The Great Flattening
+author: |
+  Ben Thompson
 url: https://stratechery.com/2024/the-great-flattening/
 category: articles
 image_url: https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=32%2C32&ssl=1
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-21 08:50:02.915768+00:00
 published_date: 2024-05-13
 summary: |
   Apple's iPad ad reflects a shift towards everything being easily accessible and commoditized due to the Internet. The ad signifies both loss and new opportunities in the technology landscape. It highlights the empowering nature of tools like smartphones and devices created by Apple.

@@ -1,13 +1,13 @@
 ---
-title: "A Smart Bear » Change: Damned if you do, damned more if you don't"
-full_title: "A Smart Bear » Change: Damned if you do, damned more if you don't"
-author: Jason Cohen
+title: |
+  A Smart Bear » Change: Damned if you do, damned more if you don't
+full_title: |
+  A Smart Bear » Change: Damned if you do, damned more if you don't
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/change?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/change/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 22:30:40.026470+00:00
 published_date: 2017-08-19
 summary: |
   Everyone wants change, but doesn't want to change. Though inevitable, change is uncomfortable and exhausting. Manage it with kindness.

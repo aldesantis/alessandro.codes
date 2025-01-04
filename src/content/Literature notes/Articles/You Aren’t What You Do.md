@@ -1,13 +1,13 @@
 ---
-title: You Aren’t What You Do
-full_title: You Aren’t What You Do
-author: Simone Stolzoff
+title: |
+  You Aren’t What You Do
+full_title: |
+  You Aren’t What You Do
+author: |
+  Simone Stolzoff
 url: https://every.to/p/you-aren-t-what-you-do-even-if-you-do-what-you-love
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2623/unknown.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-21 09:41:25.861875+00:00
 published_date: 2023-05-23
 summary: |
   Why conflating your worth with work is a recipe for disappointment

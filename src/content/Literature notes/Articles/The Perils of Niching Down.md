@@ -1,13 +1,13 @@
 ---
-title: The Perils of Niching Down
-full_title: The Perils of Niching Down
-author: Rob Hardy
+title: |
+  The Perils of Niching Down
+full_title: |
+  The Perils of Niching Down
+author: |
+  Rob Hardy
 url: https://every.to/p/the-perils-of-niching-down
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2605/unknown.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-01 09:45:09.932617+00:00
 published_date: 2023-05-02
 summary: |
   The way creators are taught to pursue 1,000 true fans is broken

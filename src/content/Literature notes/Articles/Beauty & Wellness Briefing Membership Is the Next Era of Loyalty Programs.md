@@ -1,13 +1,13 @@
 ---
-title: "Beauty & Wellness Briefing: Membership Is the Next Era of Loyalty Programs"
-full_title: "Beauty & Wellness Briefing: Membership Is the Next Era of Loyalty Programs"
-author: Emma Sandler
+title: |
+  Beauty & Wellness Briefing: Membership Is the Next Era of Loyalty Programs
+full_title: |
+  Beauty & Wellness Briefing: Membership Is the Next Era of Loyalty Programs
+author: |
+  Emma Sandler
 url: https://www.glossy.co/beauty/beauty-wellness-briefing-membership-is-the-next-era-of-loyalty-programs/
 category: articles
 image_url: https://www.glossy.co/wp-content/uploads/sites/4/2021/10/AdobeStock_237260320.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 16:04:54.003101+00:00
 published_date: 2023-09-05
 summary: |
   Getting customers to pay more to retain them may seem counterintuitive. However, companies are finding that, by offering early or exclusive access to discounts, products and experiences for a fee, paying customers are willing to engage more frequently and buy more with a brand.

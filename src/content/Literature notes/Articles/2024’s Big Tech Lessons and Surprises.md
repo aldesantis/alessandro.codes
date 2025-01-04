@@ -1,13 +1,13 @@
 ---
-title: 2024’s Big Tech Lessons and Surprises
-full_title: 2024’s Big Tech Lessons and Surprises
-author: Maghan McDowell
+title: |
+  2024’s Big Tech Lessons and Surprises
+full_title: |
+  2024’s Big Tech Lessons and Surprises
+author: |
+  Maghan McDowell
 url: https://www.voguebusiness.com/story/technology/2024s-big-tech-lessons-and-surprises
 category: articles
 image_url: https://media.voguebusiness.com/photos/67602b27062b6e56f666c4e2/16:9/w_1280,c_limit/YEARINTECH-VOGUEB-161224-SOCIAL-NEWSLETTER.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-23 12:44:05.913468+00:00
 published_date: 2024-12-17
 summary: |
   In 2024, the fashion industry focused on practical tech solutions, particularly in artificial intelligence and e-commerce. Companies consolidated and personalized their offerings while exploring new digital goods like smart glasses and NFTs, though enthusiasm for these technologies was mixed. Overall, the year emphasized immediate results and efficient use of technology in fashion rather than speculative trends.

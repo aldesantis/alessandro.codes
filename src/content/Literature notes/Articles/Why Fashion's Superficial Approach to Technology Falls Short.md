@@ -1,13 +1,13 @@
 ---
-title: Why Fashion's Superficial Approach to Technology Falls Short
-full_title: Why Fashion's Superficial Approach to Technology Falls Short
-author: SOTA
+title: |
+  Why Fashion's Superficial Approach to Technology Falls Short
+full_title: |
+  Why Fashion's Superficial Approach to Technology Falls Short
+author: |
+  SOTA
 url: https://sotaclub.substack.com/p/ai-audience-co-creation-fashion-future?utm_source=multiple-personal-recommendations-email&utm_medium=email&triedRedirect=true
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d3cbf06-458c-4e49-b9d4-a101ff509318_600x429.gif
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-21 12:05:03.014515+00:00
 published_date: 2024-03-13
 summary: |
   The article discusses the concept of Brand Universes as a strategic methodology for brand survival and growth, emphasizing the use of new technologies and evolving team structures to create innovative systems within the industry. It highlights examples of brands like Balenciaga and Bettter leveraging technology for creative and transformative purposes in their operations.

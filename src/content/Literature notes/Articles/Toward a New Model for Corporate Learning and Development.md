@@ -1,13 +1,13 @@
 ---
-title: Toward a New Model for Corporate Learning and Development
-full_title: Toward a New Model for Corporate Learning and Development
-author: Stephen P. Anderson
+title: |
+  Toward a New Model for Corporate Learning and Development
+full_title: |
+  Toward a New Model for Corporate Learning and Development
+author: |
+  Stephen P. Anderson
 url: https://stephenanderson.medium.com/toward-a-new-model-for-corporate-learning-and-development-part-1-3729f0271e79
 category: articles
 image_url: https://miro.medium.com/v2/resize:fit:1200/1*61VXdT2NlxARfXYeuGYy9g.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-29 21:15:54.624623+00:00
 published_date: 2019-06-18
 summary: |
   The author is developing a new model for corporate learning and development experiences. The model focuses on starting with desired outcomes to assess how learning should happen. It highlights the importance of classifying what will be learned to tailor teaching methods effectively.

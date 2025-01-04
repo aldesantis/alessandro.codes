@@ -1,13 +1,13 @@
 ---
-title: "💦 The Media Buyer #40: MMM is MANDATORY in 2024"
-full_title: "💦 The Media Buyer #40: MMM is MANDATORY in 2024"
-author: Northbeam
+title: |
+  💦 The Media Buyer #40: MMM is MANDATORY in 2024
+full_title: |
+  💦 The Media Buyer #40: MMM is MANDATORY in 2024
+author: |
+  Northbeam
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-16 09:30:14.076487+00:00
 published_date: 2023-10-15
 summary: |
   Get MMM+ now and make 2023 your best year yet. If you're lucky, your data will be complete enough that you can use it through the holiday season.

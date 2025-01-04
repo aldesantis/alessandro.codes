@@ -1,13 +1,13 @@
 ---
-title: Amazon's Slow Shift to Marketplace
-full_title: Amazon's Slow Shift to Marketplace
-author: Marketplace Pulse
+title: |
+  Amazon's Slow Shift to Marketplace
+full_title: |
+  Amazon's Slow Shift to Marketplace
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/amazons-slow-shift-to-marketplace
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/612/cover_social.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-01 09:50:55.571926+00:00
 published_date: 2023-05-03
 summary: |
   Amazon continues to move away from 1P sales to 3P sellers - sellers will comprise 60% of overall units sold by the end of the year. But the shift is gradual.

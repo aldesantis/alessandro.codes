@@ -1,13 +1,13 @@
 ---
-title: The Official Shopify Earnings Analysis
-full_title: The Official Shopify Earnings Analysis
-author: Jeremy Horowitz
+title: |
+  The Official Shopify Earnings Analysis
+full_title: |
+  The Official Shopify Earnings Analysis
+author: |
+  Jeremy Horowitz
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-26 12:17:26.317358+00:00
 published_date: 2024-02-25
 summary: |
   During my time at LuMee back in ‘15 – ‘18, we scaled DTC-first, expanded into Amazon, then Retail. eCom was our biggest channel, with ~50% of this biz on DTC + Amazon.

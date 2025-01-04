@@ -1,13 +1,13 @@
 ---
-title: "Consumer Products Report 2024: Resetting the Growth Agenda"
-full_title: "Consumer Products Report 2024: Resetting the Growth Agenda"
-author: Richard Webster
+title: |
+  Consumer Products Report 2024: Resetting the Growth Agenda
+full_title: |
+  Consumer Products Report 2024: Resetting the Growth Agenda
+author: |
+  Richard Webster
 url: https://www.bain.com/insights/consumer-products-report-2024-resetting-the-growth-agenda/
 category: articles
 image_url: https://www.bain.com/contentassets/b700d00b5d9f4336bcb8960b0d4cfcf5/launch-card_consumer_products_report_2024_social_1200x628.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-08 13:24:15.728581+00:00
 published_date: 2024-02-14
 summary: |
   Consumer products companies are facing uncertain demand and are in need of resetting their growth agendas. The industry experienced tremendous growth in recent years, but a significant portion of that growth came from price increases rather than volume gains. Rising input costs and inflation have impacted the industry, leading to consumer spending constraints. To achieve profitable, volume-led growth, consumer products companies need to focus on emerging markets, adapt to evolving consumer needs, and address challenges in digitalization and sustainability. Additionally, companies must prioritize stakeholders and strike a balance between economic value creation and positive impact on consumers, customers, employees, and the planet.

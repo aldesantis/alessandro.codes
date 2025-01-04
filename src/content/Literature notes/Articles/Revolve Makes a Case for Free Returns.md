@@ -1,13 +1,13 @@
 ---
-title: Revolve Makes a Case for Free Returns
-full_title: Revolve Makes a Case for Free Returns
-author: Marc Bain
+title: |
+  Revolve Makes a Case for Free Returns
+full_title: |
+  Revolve Makes a Case for Free Returns
+author: |
+  Marc Bain
 url: https://www.businessoffashion.com/articles/retail/revolve-makes-a-case-for-free-returns/?utm_source=newsletter_technology&utm_medium=email&utm_campaign=Technology_140824&utm_term=L6AWZ5I7XRFM5JOLFT72KRJQ6U&utm_content=top_story_1_title
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/57SYF3AEFZGV7IQJ7AVOIP6SRI.jpg?smart=true&auth=785a1951cc559455b0867dd9a2af95879284ac38307dd4d7d8d71fa35c1d7fc0&width=1200&height=630
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-23 10:25:12.834725+00:00
 published_date: 2024-08-13
 summary: |
   Revolve has successfully reduced its return rate while still offering free shipping both ways. The company has implemented new technologies and policies to improve sizing guidance and encourage customers to keep their purchases. Despite the challenges of high return rates in e-commerce, Revolve's recent progress suggests a positive trend for the future.

@@ -1,13 +1,13 @@
 ---
-title: Failure to Face the Truth
-full_title: Failure to Face the Truth
-author: Jason Cohen
+title: |
+  Failure to Face the Truth
+full_title: |
+  Failure to Face the Truth
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/failure-to-face-the-truth/
 category: articles
 image_url: https://longform.asmartbear.com/failure-to-face-the-truth/thumbnail-1200x632.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-09 14:37:59.763225+00:00
 published_date: 2022-04-09
 summary: |
   This admonition recurs in myriad books, frameworks, and topics, across decades of time. When something is so consistent, it must be wisdom.

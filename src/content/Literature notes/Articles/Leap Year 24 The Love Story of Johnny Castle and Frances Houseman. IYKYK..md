@@ -1,13 +1,13 @@
 ---
-title: "Leap Year 24: The Love Story of Johnny Castle and Frances Houseman. IYKYK."
-full_title: "Leap Year 24: The Love Story of Johnny Castle and Frances Houseman. IYKYK."
-author: Vinny O'Brien
+title: |
+  Leap Year 24: The Love Story of Johnny Castle and Frances Houseman. IYKYK.
+full_title: |
+  Leap Year 24: The Love Story of Johnny Castle and Frances Houseman. IYKYK.
+author: |
+  Vinny O'Brien
 url: https://www.linkedin.com/pulse/leap-year-24-love-story-johnny-castle-frances-houseman-vinny-o-brien-ic9ie/?midToken=AQGp89vrfZliAg&midSig=3Z-oHyxszyHb81&trk=eml-email_series_follow_newsletter_01-newsletter_hero_banner-0-open_on_linkedin_cta&trkEmail=eml-email_series_follow_newsletter_01-newsletter_hero_banner-0-open_on_linkedin_cta-null-7e1yqy~lt799c4i~eu-null-null&eid=7e1yqy-lt799c4i-eu&otpToken=MTYwMTE4ZTgxNDI3Y2NjMGIyMjQwNGVkNDYxN2U1YjU4ZGM3ZDQ0ODlhYWI4NzYxNzNjNzAwNmU0YTU5NTVmNGYyZGNkZmUzNTVlNWVmZmI2MDllZDUxYzQyYjFhM2UxMGIyNTYyMzdlZDhlMjdmZjVkZDNiZSwxLDE%3D
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/1709212008083
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-05 10:01:47.864783+00:00
 published_date: None
 summary: |
   The content discusses various topics related to ecommerce, retail, and business operations. It touches on the challenges and changes in the industry, such as the impact of class systems, product value chain, operations value chain, and sustainability measures. The importance of asking good questions and using information effectively to shape business strategies is emphasized.

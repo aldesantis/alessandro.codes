@@ -1,13 +1,13 @@
 ---
-title: The Art and Science of Interoception
-full_title: The Art and Science of Interoception
-author: Jonny Miller
+title: |
+  The Art and Science of Interoception
+full_title: |
+  The Art and Science of Interoception
+author: |
+  Jonny Miller
 url: https://every.to/superorganizers/the-art-and-science-of-interoception
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2339/unnamed-5.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-29 09:37:55.670195+00:00
 published_date: 2022-10-28
 summary: |
   How to become an intrepid explorer of your inner landscape

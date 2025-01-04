@@ -1,13 +1,13 @@
 ---
-title: You Are What You Read, Even if You Don’t Always Remember It
-full_title: You Are What You Read, Even if You Don’t Always Remember It
-author: Jim Nielsen
+title: |
+  You Are What You Read, Even if You Don’t Always Remember It
+full_title: |
+  You Are What You Read, Even if You Don’t Always Remember It
+author: |
+  Jim Nielsen
 url: https://blog.jim-nielsen.com/2024/you-are-what-you-read/
 category: articles
 image_url: https://blog.jim-nielsen.com/favicon.ico
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-22 14:13:18.065669+00:00
 published_date: 2024-04-09
 summary: |
   Writing about the big beautiful mess that is making things for the world wide web.

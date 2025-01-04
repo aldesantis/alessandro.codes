@@ -1,13 +1,13 @@
 ---
-title: 📦 - $12M From One Form Tweak? Yes Please
-full_title: 📦 - $12M From One Form Tweak? Yes Please
-author: DTC team
+title: |
+  📦 - $12M From One Form Tweak? Yes Please
+full_title: |
+  📦 - $12M From One Form Tweak? Yes Please
+author: |
+  DTC team
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-25 20:48:38.610392+00:00
 published_date: 2023-09-22
 summary: |
   The DTC world is buzzing, with e-commerce giant Klaviyo and grocery delivery leader Instacart stepping into the limelight through their recent IPOs.

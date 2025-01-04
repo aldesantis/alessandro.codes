@@ -1,13 +1,13 @@
 ---
-title: Kyle Denhoff’s Post
-full_title: Kyle Denhoff’s Post
-author: Kyle Denhoff
+title: |
+  Kyle Denhoff’s Post
+full_title: |
+  Kyle Denhoff’s Post
+author: |
+  Kyle Denhoff
 url: https://www.linkedin.com/posts/kyledenhoff_b2bmarketing-contentstrategy-audiencebuilding-activity-7256658466000236544-7Y0H/?utm_source=share&utm_medium=member_desktop&hashed_user=0a30eec79daa23863eaa10a76ab0df83&utm_campaign=Contentment%2010/30/24&utm_term=Contentment
 category: articles
 image_url: https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-23 12:09:28.659382+00:00
 published_date: None
 summary: |
   Kyle Denhoff from HubSpot highlights the benefits of industry newsletters as a key growth channel. He emphasizes that quality leads from newsletters convert better, and building trust through valuable content is essential. With declining trust in mass media, professionals are increasingly turning to niche newsletters for insights.

@@ -1,13 +1,13 @@
 ---
-title: The Quiet Art of Attention
-full_title: The Quiet Art of Attention
-author: Bill Wear
+title: |
+  The Quiet Art of Attention
+full_title: |
+  The Quiet Art of Attention
+author: |
+  Bill Wear
 url: https://billwear.github.io/art-of-attention.html
 category: articles
 image_url: https://news.ycombinator.com/y18.svg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-24 21:34:33.038227+00:00
 published_date: 2024-10-13
 summary: |
   To gain control over our lives, we must first master our minds through gentle attention and observation. By simplifying our thoughts and focusing on what truly matters, we can experience life more fully. This journey begins with small, deliberate actions that lead to greater clarity and peace.

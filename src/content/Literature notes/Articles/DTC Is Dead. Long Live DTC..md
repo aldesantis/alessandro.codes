@@ -1,13 +1,13 @@
 ---
-title: DTC Is Dead. Long Live DTC.
-full_title: DTC Is Dead. Long Live DTC.
-author: Cara Salpini
+title: |
+  DTC Is Dead. Long Live DTC.
+full_title: |
+  DTC Is Dead. Long Live DTC.
+author: |
+  Cara Salpini
 url: https://www.retaildive.com/news/dtc-brands-are-dead-retail-wholesale-long-live-dtc/729365/?utm_source=Sailthru&utm_medium=email&utm_campaign=Issue:%202024-11-05%20Retail%20Dive:%20DTC%20%5Bissue:67520%5D&utm_term=Retail%20Dive:%20DTC
 category: articles
 image_url: https://imgproxy.divecdn.com/gXuPAZ2PaHnx-s8PeFQwJ6sMcbOrbpMT_0LGFPNCZ8I/g:nowe:0:49/c:4031:2277/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL0lNR185NTI5LkpQRw==.webp
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-11 11:04:48.671048+00:00
 published_date: 2024-11-04
 summary: |
   The direct-to-consumer (DTC) model has faced significant challenges, leading many brands to reconsider their strategies and embrace a mix of DTC and wholesale. While DTC was once seen as the future of retail, brands are now recognizing the value of wholesale partnerships. The retail landscape is shifting towards a hybrid approach, where both DTC and wholesale play important roles in reaching customers.

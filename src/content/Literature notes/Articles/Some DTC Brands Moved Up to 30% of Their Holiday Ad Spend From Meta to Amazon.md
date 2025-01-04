@@ -1,13 +1,13 @@
 ---
-title: Some DTC Brands Moved Up to 30% of Their Holiday Ad Spend From Meta to Amazon
-full_title: Some DTC Brands Moved Up to 30% of Their Holiday Ad Spend From Meta to Amazon
-author: Lauren Johnson
+title: |
+  Some DTC Brands Moved Up to 30% of Their Holiday Ad Spend From Meta to Amazon
+full_title: |
+  Some DTC Brands Moved Up to 30% of Their Holiday Ad Spend From Meta to Amazon
+author: |
+  Lauren Johnson
 url: https://www.businessinsider.com/dtc-brands-are-moving-ad-budgets-to-amazon-2022-12?r=US&IR=T
 category: articles
 image_url: https://i.insider.com/639202eba6556b001802eca2?width=1200&format=jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-12 10:54:22.355870+00:00
 published_date: 2022-12-08
 summary: |
   Direct-to-consumer brands once relied on Meta to acquire customers on their own websites but are now moving to Amazon.

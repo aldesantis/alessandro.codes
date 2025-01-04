@@ -1,13 +1,13 @@
 ---
-title: Creative Dysregulation
-full_title: Creative Dysregulation
-author: Kelly Wilde Miller
+title: |
+  Creative Dysregulation
+full_title: |
+  Creative Dysregulation
+author: |
+  Kelly Wilde Miller
 url: 
 category: books
 image_url: https://pbs.twimg.com/media/GF67OK8XsAESgzo.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-07 16:37:53.014436+00:00
 published_date: 2024-02-08
 summary: |
   The document discusses the concept of "creative dysregulation," which refers to the inner imbalances that disrupt an individual’s ability to consistently engage with and execute their creative work. The author explores this concept across eight different areas, including mental, emotional, and spiritual. The goal is to move towards "creative regulation," which involves small, intentional steps towards balance and harmony within one's creative life. The document offers journal prompts and experiments to help individuals explore and overcome their creative dysregulation.

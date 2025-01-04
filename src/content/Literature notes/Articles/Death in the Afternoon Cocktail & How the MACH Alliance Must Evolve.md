@@ -1,13 +1,13 @@
 ---
-title: Death in the Afternoon Cocktail & How the MACH Alliance Must Evolve
-full_title: Death in the Afternoon Cocktail & How the MACH Alliance Must Evolve
-author: Cocktails & Commerce
+title: |
+  Death in the Afternoon Cocktail & How the MACH Alliance Must Evolve
+full_title: |
+  Death in the Afternoon Cocktail & How the MACH Alliance Must Evolve
+author: |
+  Cocktails & Commerce
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-06 08:19:29.917564+00:00
 published_date: 2024-05-04
 summary: |
   Welcome everyone to another addition of Cocktails & Commerce.

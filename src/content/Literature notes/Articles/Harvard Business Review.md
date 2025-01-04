@@ -1,13 +1,13 @@
 ---
-title: Harvard Business Review
-full_title: Harvard Business Review
-author: Marketplace Pulse
+title: |
+  Harvard Business Review
+full_title: |
+  Harvard Business Review
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/year-in-review-2023
 category: articles
 image_url: https://cdn.marketplacepulse.com/misc/year_in_review_2023/cover_social.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-20 15:00:34.572818+00:00
 published_date: 2023-12-13
 summary: |
   Amazon's dominance in e-commerce is unlikely to be challenged, as it covers the key axes of selection, low prices, and fast delivery. However, there are areas where Amazon falls short, such as supporting small businesses and offering curbside pickup. Shopify is a viable alternative to Amazon for small businesses, as it powers e-commerce stores and doesn't create demand. Walmart is using its physical stores to fulfill online orders, while TikTok is trying to create a social commerce market. Chinese companies like Shein and Temu, which are vertically integrated and breaking out of the Amazon sandbox, are disrupting the e-commerce market.

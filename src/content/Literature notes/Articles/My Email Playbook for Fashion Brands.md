@@ -1,13 +1,13 @@
 ---
-title: My Email Playbook for Fashion Brands
-full_title: My Email Playbook for Fashion Brands
-author: Alex from DTC (fashion) Decoded
+title: |
+  My Email Playbook for Fashion Brands
+full_title: |
+  My Email Playbook for Fashion Brands
+author: |
+  Alex from DTC (fashion) Decoded
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-07 08:17:42.300314+00:00
 published_date: 2024-06-04
 summary: |
   In this guide I’m going to cover the pillars of an effective email marketing program for fashion brands.

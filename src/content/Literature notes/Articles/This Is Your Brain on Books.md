@@ -1,13 +1,13 @@
 ---
-title: This Is Your Brain on Books
-full_title: This Is Your Brain on Books
-author: Elyse Graham
+title: |
+  This Is Your Brain on Books
+full_title: |
+  This Is Your Brain on Books
+author: |
+  Elyse Graham
 url: https://www.publicbooks.org/this-is-your-brain-on-books/
 category: articles
 image_url: https://www.publicbooks.org/wp-content/uploads/2020/09/cropped-favicon-2-32x32.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-09 18:57:20.878982+00:00
 published_date: 2023-11-22
 summary: |
   “Reading occupies a strange position in today’s world, being at once physiologically unnecessary and culturally central.”

@@ -1,13 +1,13 @@
 ---
-title: What the Explosive Growth of Financial Media Networks Means for Retailers
-full_title: What the Explosive Growth of Financial Media Networks Means for Retailers
-author: Allison Smith
+title: |
+  What the Explosive Growth of Financial Media Networks Means for Retailers
+full_title: |
+  What the Explosive Growth of Financial Media Networks Means for Retailers
+author: |
+  Allison Smith
 url: https://www.modernretail.co/technology/what-the-explosive-growth-of-financial-media-networks-means-for-retailers/
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2024/07/retail-media-shop-digiday.webp
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-17 04:26:56.345420+00:00
 published_date: 2024-07-15
 summary: |
   Financial media network ad spending in the U.S. is poised to explode at a compound annual growth rate of 107% to hit $1.50 billion.

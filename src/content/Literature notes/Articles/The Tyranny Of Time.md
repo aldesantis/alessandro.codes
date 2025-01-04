@@ -1,13 +1,13 @@
 ---
-title: The Tyranny Of Time
-full_title: The Tyranny Of Time
-author: Joe Zadeh
+title: |
+  The Tyranny Of Time
+full_title: |
+  The Tyranny Of Time
+author: |
+  Joe Zadeh
 url: https://www.noemamag.com/the-tyranny-of-time
 category: articles
 image_url: https://noemamag.imgix.net/2021/06/noemaOK_300.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.0&rect=1%2C317%2C945%2C495&w=1200&wpsize=noema-social-facebook&s=fed4a3615f259b139a36350fc6ca30ad
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-29 09:38:45.160371+00:00
 published_date: 2021-06-03
 summary: |
   The clock is a useful social tool, but it is also deeply political. It benefits some, marginalizes others and blinds us from a true understanding of our own bodies and the world around us.

@@ -1,13 +1,13 @@
 ---
-title: So You Wanna De-Bog Yourself
-full_title: So You Wanna De-Bog Yourself
-author: Adam Mastroianni
+title: |
+  So You Wanna De-Bog Yourself
+full_title: |
+  So You Wanna De-Bog Yourself
+author: |
+  Adam Mastroianni
 url: https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e291074-3499-4db2-9bf9-95886db0a438_1725x1225.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-17 15:01:29.877394+00:00
 published_date: 2024-01-02
 summary: |
   The article offers advice on how to get "unstuck" when feeling overwhelmed with life's challenges. The author compares the feeling of being stuck to standing knee-deep in a bog and offers a catalog of bog phenomena that keep people stuck, such as waiting for a jackpot, declining the dragon, and puppeteering. The author suggests that many of these bogs are imaginary and that getting out of them requires accepting that one's perception of reality is not necessarily reality.

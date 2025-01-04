@@ -1,13 +1,13 @@
 ---
-title: The Ungated Manifesto
-full_title: The Ungated Manifesto
-author: Ungated
+title: |
+  The Ungated Manifesto
+full_title: |
+  The Ungated Manifesto
+author: |
+  Ungated
 url: https://ungated.media/manifesto/#
 category: articles
 image_url: https://cdn.getmidnight.com/cbca6620db5901eed225f66a2ed6ff7f/2022/05/ungated-manifesto-v3-1.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-03 10:33:00.395974+00:00
 published_date: 2022-05-08
 summary: |
   The Pattern, and the Battle for the Soul of the Internet

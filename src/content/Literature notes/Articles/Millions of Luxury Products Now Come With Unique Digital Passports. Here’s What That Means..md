@@ -1,13 +1,13 @@
 ---
-title: Millions of Luxury Products Now Come With Unique Digital Passports. Here’s What That Means.
-full_title: Millions of Luxury Products Now Come With Unique Digital Passports. Here’s What That Means.
-author: Marc Bain
+title: |
+  Millions of Luxury Products Now Come With Unique Digital Passports. Here’s What That Means.
+full_title: |
+  Millions of Luxury Products Now Come With Unique Digital Passports. Here’s What That Means.
+author: |
+  Marc Bain
 url: https://www.businessoffashion.com/articles/technology/millions-of-luxury-products-now-come-with-unique-digital-passports-heres-what-that-means/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/6kQPgsWeH4TQAmH4aqMtJ-Qhtm8=/1200x630/filters:format(jpg):quality(70):focal(589x782:599x792)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/6DR4MICAKVBY7NDYAQGAOFMAXE.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-19 14:01:50.825920+00:00
 published_date: 2023-11-08
 summary: |
   Brands are starting to adopt the tags in large numbers as they prepare to meet major new EU regulations coming down the pipeline. They’re using the opportunity to build in customer-facing features that can appeal to shoppers, too.

@@ -1,13 +1,13 @@
 ---
-title: Writer-Builders
-full_title: Writer-Builders
-author: Anu
+title: |
+  Writer-Builders
+full_title: |
+  Writer-Builders
+author: |
+  Anu
 url: https://www.workingtheorys.com/p/writer-builder
 category: articles
 image_url: https://substack-post-media.s3.amazonaws.com/public/images/d6d4b7ac-f07e-45ef-ae02-70b9533a2ccc_3120x2263.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-13 09:44:43.537921+00:00
 published_date: 2024-04-30
 summary: |
   The text discusses the concept of writer-builders, individuals who excel in both writing and building in various domains. It highlights the benefits of writing for reflection, idea generation, and connecting with others. The emergence of more writer-builders is attributed to the increasing openness to career fluidity and the power of writing as a medium.

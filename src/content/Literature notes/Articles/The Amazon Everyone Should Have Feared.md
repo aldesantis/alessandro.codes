@@ -1,13 +1,13 @@
 ---
-title: The Amazon Everyone Should Have Feared
-full_title: The Amazon Everyone Should Have Feared
-author: Marketplace Pulse
+title: |
+  The Amazon Everyone Should Have Feared
+full_title: |
+  The Amazon Everyone Should Have Feared
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/the-amazon-everyone-should-have-feared
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/684/cover_social.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-08 12:13:41.828652+00:00
 published_date: 2024-11-01
 summary: |
   Amazon is producing record profits while investing more than ever before. It reported $22.6 billion in capital expenditures in the third quarter — a new high. It also reported $15.3 billion in net income, a new high, too.

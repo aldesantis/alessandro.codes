@@ -1,13 +1,13 @@
 ---
-title: TikTok Shop Is a Content-First Shopping
-full_title: TikTok Shop Is a Content-First Shopping
-author: Marketplace Pulse
+title: |
+  TikTok Shop Is a Content-First Shopping
+full_title: |
+  TikTok Shop Is a Content-First Shopping
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/tiktok-shop-is-a-content-first-shopping?s=31
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/634/cover_social.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-31 09:49:47.987646+00:00
 published_date: 2023-10-20
 summary: |
   Influencers and their content, not brands, drive shopping on TikTok. TikTok is a content-first shopping platform.

@@ -1,13 +1,13 @@
 ---
-title: Anatomy of a Credit Card Rewards Program
-full_title: Anatomy of a Credit Card Rewards Program
-author: Bits about Money
+title: |
+  Anatomy of a Credit Card Rewards Program
+full_title: |
+  Anatomy of a Credit Card Rewards Program
+author: |
+  Bits about Money
 url: https://www.bitsaboutmoney.com/archive/anatomy-of-credit-card-rewards-programs/
 category: articles
 image_url: https://www.bitsaboutmoney.com/content/images/2024/04/dalle-design-of-credit-card.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-17 08:43:07.388045+00:00
 published_date: 2024-03-29
 summary: |
   Credit card rewards programs use fees paid by businesses to incentivize customers to spend more. Different regions have varying levels of rewards based on card acceptance costs. Card issuers compete for high-spending customers by offering rewards and benefits.

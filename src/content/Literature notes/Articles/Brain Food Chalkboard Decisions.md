@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Chalkboard Decisions"
-full_title: "Brain Food: Chalkboard Decisions"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Chalkboard Decisions
+full_title: |
+  Brain Food: Chalkboard Decisions
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-03 04:07:22.409053+00:00
 published_date: 2024-06-02
 summary: |
   "If we can’t work smarter, we resort to working harder. We cut out lunch, skip the gym, and run from one meeting to another so we can fit more in.

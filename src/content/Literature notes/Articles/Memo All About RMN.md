@@ -1,13 +1,13 @@
 ---
-title: "Memo: All About RMN"
-full_title: "Memo: All About RMN"
-author: 2PM
+title: |
+  Memo: All About RMN
+full_title: |
+  Memo: All About RMN
+author: |
+  2PM
 url: https://2pml.com/2022/08/29/rmn/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2022/08/chart-08.22.2022-1-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-19 18:33:52.091233+00:00
 published_date: 2022-08-29
 summary: |
   First-party data is defining this era of advertising and sales. Companies are now in a race against time: they’ll build, acquire, or market to the platforms that have it.

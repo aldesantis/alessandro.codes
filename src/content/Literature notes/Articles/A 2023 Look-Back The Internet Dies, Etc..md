@@ -1,17 +1,18 @@
 ---
-title: "A 2023 Look-Back: The Internet Dies, Etc."
-full_title: "A 2023 Look-Back: The Internet Dies, Etc."
-author: Culture: An Owner's Manual
+title: |
+  A 2023 Look-Back: The Internet Dies, Etc.
+full_title: |
+  A 2023 Look-Back: The Internet Dies, Etc.
+author: |
+  Culture: An Owner's Manual
 url: https://culture.ghost.io/2023-lookback-rip-internet-etc/?ref=culture-an-owners-manual-newsletter
 category: articles
 image_url: https://culture.ghost.io/content/images/size/w1200/2023/12/PXL_20231210_072818156.NIGHT-EDIT.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-19 16:19:51.867094+00:00
 published_date: 2023-12-12
-summary: >
+summary: |
   In this article, the author reflects on the major changes to internet culture experienced in 2023. They discuss the collapse of the internet platforms and the decline of centralized platforms like Facebook and Twitter. The author also explores the lack of superstars in the online world and the continued dominance of traditional media stars. Additionally, they touch on the boredom surrounding AI-generated content and the need for novel and complex stimuli in entertainment. The article concludes with some brief recommendations for music and books.
 source: reader
+permalink: l/articles/a-2023-look-back-the-internet-dies-etc
 ---
 # A 2023 Look-Back: The Internet Dies, Etc.
 

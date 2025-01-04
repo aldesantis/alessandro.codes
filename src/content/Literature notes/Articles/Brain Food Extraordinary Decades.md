@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Extraordinary Decades"
-full_title: "Brain Food: Extraordinary Decades"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Extraordinary Decades
+full_title: |
+  Brain Food: Extraordinary Decades
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-14 12:10:26.481843+00:00
 published_date: 2023-11-12
 summary: |
   The Feynman Technique is the best way to supercharge your learning. And it works no matter the subject.

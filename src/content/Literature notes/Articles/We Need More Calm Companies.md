@@ -1,13 +1,13 @@
 ---
-title: We Need More Calm Companies
-full_title: We Need More Calm Companies
-author: Justin Jackson
+title: |
+  We Need More Calm Companies
+full_title: |
+  We Need More Calm Companies
+author: |
+  Justin Jackson
 url: https://justinjackson.ca/calm-company/
 category: articles
 image_url: https://justinjackson.ca/assets/calm-companies.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-22 15:43:44.432513+00:00
 published_date: 2024-04-06
 summary: |
   The tech industry layoffs have been heartbreaking, affecting not just careers but also families. The author advocates for calm companies that prioritize employee well-being and sustainable growth. Calm companies offer meaningful work, financial resilience, and a positive work environment.

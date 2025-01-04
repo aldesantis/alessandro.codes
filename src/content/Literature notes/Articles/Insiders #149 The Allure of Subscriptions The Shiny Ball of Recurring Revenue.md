@@ -1,13 +1,13 @@
 ---
-title: "Insiders #149: The Allure of Subscriptions: The Shiny Ball of Recurring Revenue"
-full_title: "Insiders #149: The Allure of Subscriptions: The Shiny Ball of Recurring Revenue"
-author: futurecommerce.com
+title: |
+  Insiders #149: The Allure of Subscriptions: The Shiny Ball of Recurring Revenue
+full_title: |
+  Insiders #149: The Allure of Subscriptions: The Shiny Ball of Recurring Revenue
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-149-the-allure-of-subscriptions-the-shiny-ball-of-recurring-revenue
 category: articles
 image_url: https://uploads-ssl.webflow.com/5d7da04028ecca2357d6b3b0/6474e676229e85c988a07278_Insiders%20Images.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-11 12:39:45.048036+00:00
 published_date: 2023-05-30
 summary: |
   Every employee in the corporate world experiences a condition that can have dire consequences. It's known as "Shiny Ball Syndrome," and it can cause significant harm to both corporations and their leaders.

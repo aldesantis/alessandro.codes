@@ -1,13 +1,13 @@
 ---
-title: The Audience Trust Battery
-full_title: The Audience Trust Battery
-author: Jay Clouse
+title: |
+  The Audience Trust Battery
+full_title: |
+  The Audience Trust Battery
+author: |
+  Jay Clouse
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-06 15:35:49.531069+00:00
 published_date: 2023-11-05
 summary: |
   I was speaking to a member of The Lab last week about the right time to go "all in" on your creator business (vs. continue working a full-time job).

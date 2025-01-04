@@ -1,13 +1,13 @@
 ---
-title: A Month of the Vision Pro
-full_title: A Month of the Vision Pro
-author: Benedict Evans
+title: |
+  A Month of the Vision Pro
+full_title: |
+  A Month of the Vision Pro
+author: |
+  Benedict Evans
 url: https://www.ben-evans.com/benedictevans/2024/3/17/a-month-of-the-vision-pro
 category: articles
 image_url: https://images.squarespace-cdn.com/content/v1/50363cf324ac8e905e7df861/ebdb4645-db93-4967-881d-db698ee59c2c/favicon.ico?format=100w
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-22 09:21:47.072140+00:00
 published_date: 2024-03-17
 summary: |
   The Vision Pro, a VR/AR device, marks Apple's entry into this evolving technology space. Apple and Meta approach the future of computing differently, with Apple focusing on AR for a general computing experience while Meta emphasizes VR and gaming. The Vision Pro is seen as a polished prototype rather than a consumer product, offering a glimpse into the potential of immersive computing experiences. Questions remain about the device's purpose and whether it can lead to a universal computing device, with considerations about user adoption and market size in comparison to smartphones.

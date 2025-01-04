@@ -1,13 +1,13 @@
 ---
-title: Superlinear Returns
-full_title: Superlinear Returns
-author: Paul Graham
+title: |
+  Superlinear Returns
+full_title: |
+  Superlinear Returns
+author: |
+  Paul Graham
 url: http://paulgraham.com/superlinear.html
 category: articles
 image_url: https://s.turbifycdn.com/aah/paulgraham/essays-7.gif
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-30 10:45:41.380281+00:00
 published_date: 2023-10-17
 summary: |
   Teachers and coaches implicitly told us the returns were linear. "You get out," I heard a thousand times, "what you put in.

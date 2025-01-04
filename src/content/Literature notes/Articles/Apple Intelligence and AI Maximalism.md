@@ -1,13 +1,13 @@
 ---
-title: Apple Intelligence and AI Maximalism
-full_title: Apple Intelligence and AI Maximalism
-author: Benedict Evans
+title: |
+  Apple Intelligence and AI Maximalism
+full_title: |
+  Apple Intelligence and AI Maximalism
+author: |
+  Benedict Evans
 url: https://www.ben-evans.com/benedictevans/2024/06/20/apple-intelligence/
 category: articles
 image_url: http://static1.squarespace.com/static/50363cf324ac8e905e7df861/5055cb1de4b0a751cabaedd5/6671a8800c9d780df5bdb504/1719069556158/IMG_0606.jpeg?format=1500w
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-02 07:38:38.154361+00:00
 published_date: 2024-06-20
 summary: |
   Apple is exploring generative AI through a different lens than other tech giants. They are focusing on embedding AI into user contexts and creating a split between context and world models. By leveraging their own software and hardware, Apple is shaping a unique path in the AI landscape.

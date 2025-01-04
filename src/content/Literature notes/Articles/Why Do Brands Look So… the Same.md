@@ -1,13 +1,13 @@
 ---
-title: Why Do Brands Look So… the Same?
-full_title: Why Do Brands Look So… the Same?
-author: SOTA
+title: |
+  Why Do Brands Look So… the Same?
+full_title: |
+  Why Do Brands Look So… the Same?
+author: |
+  SOTA
 url: https://sotaclub.substack.com/p/why-do-brands-look-so-the-same?utm_source=post-email-title&publication_id=663077&post_id=147374760&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F195be933-e979-477f-8c87-85eb00bbe768_6944x4861.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-15 07:57:01.051810+00:00
 published_date: None
 summary: |
   Luxury brands are increasingly looking similar due to a focus on safety and predictability, using the same creative talents and minimalist designs. This trend of homogenization limits innovation and makes it hard for new ideas to emerge. To revive their uniqueness, brands need to engage more with their audience and embrace experimentation.

@@ -1,13 +1,13 @@
 ---
-title: "Member Brief: “Death to Agencies” on the Wall"
-full_title: "Member Brief: “Death to Agencies” on the Wall"
-author: Web Smith
+title: |
+  Member Brief: “Death to Agencies” on the Wall
+full_title: |
+  Member Brief: “Death to Agencies” on the Wall
+author: |
+  Web Smith
 url: https://2pml.com/2024/12/08/death-to-agencies/?__readwiseLocation=#memberful_overlay
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2024/12/2pm_AGENCIES.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-27 11:42:24.674020+00:00
 published_date: 2024-12-09
 summary: |
   Some people believe that agencies are becoming less relevant in today's fast-paced eCommerce world, leading to the phrase "Death to Agencies." However, agencies still play a crucial role by offering deep knowledge and personal relationships that technology cannot replicate. To thrive, agencies must evolve by focusing on customization and strategic partnerships with their clients.

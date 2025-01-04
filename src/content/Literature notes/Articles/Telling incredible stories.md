@@ -1,13 +1,13 @@
 ---
-title: Telling incredible stories
-full_title: Telling incredible stories
-author: julian.com
+title: |
+  Telling incredible stories
+full_title: |
+  Telling incredible stories
+author: |
+  julian.com
 url: https://www.julian.com/blog/storytelling
 category: articles
 image_url: https://assets.website-files.com/54a5a40be53a05f34703dd18/60f46e132252d8747321b3e6_Open%20Graph.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-02 13:53:15.753808+00:00
 published_date: None
 summary: |
   A blog post that deconstructs how to be a great spoken storyteller. How do you make an audience lean in?

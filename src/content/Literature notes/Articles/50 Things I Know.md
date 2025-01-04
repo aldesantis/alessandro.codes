@@ -1,13 +1,13 @@
 ---
-title: 50 Things I Know
-full_title: 50 Things I Know
-author: Sasha Chapin
+title: |
+  50 Things I Know
+full_title: |
+  50 Things I Know
+author: |
+  Sasha Chapin
 url: https://sashachapin.substack.com/p/50-things-i-know
 category: articles
 image_url: https://substack-post-media.s3.amazonaws.com/public/images/beed9923-131d-4fd9-a628-8d5f88376ae7_2500x1611.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-01 22:29:10.739718+00:00
 published_date: 2024-05-23
 summary: |
   The text discusses various insights on relationships, emotions, and personal growth. It emphasizes the importance of authenticity, self-awareness, and effective communication in fostering meaningful connections. Additionally, it highlights the value of embracing vulnerability, acknowledging limitations, and seeking personal development through introspection and continuous learning.

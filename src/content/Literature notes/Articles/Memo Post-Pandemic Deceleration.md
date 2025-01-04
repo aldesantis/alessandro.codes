@@ -1,13 +1,13 @@
 ---
-title: "Memo: Post-Pandemic Deceleration"
-full_title: "Memo: Post-Pandemic Deceleration"
-author: 2PM
+title: |
+  Memo: Post-Pandemic Deceleration
+full_title: |
+  Memo: Post-Pandemic Deceleration
+author: |
+  2PM
 url: https://2pml.com/2022/12/07/deceleration/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2022/12/Screen-Shot-2022-12-07-at-6.50.23-PM.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-01-27 15:00:14.630567+00:00
 published_date: 2022-12-07
 summary: |
   We are choosing real world experiences over virtual and digital ones. It says less about the end of the pandemic and more about human tendency and the role that technology plays in the hierarchy of things.

@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » Your customers hate MVPs. Make a SLC instead.
-full_title: A Smart Bear » Your customers hate MVPs. Make a SLC instead.
-author: Jason Cohen
+title: |
+  A Smart Bear » Your customers hate MVPs. Make a SLC instead.
+full_title: |
+  A Smart Bear » Your customers hate MVPs. Make a SLC instead.
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/slc?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/slc/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-05 16:39:45.579839+00:00
 published_date: 2017-08-22
 summary: |
   "MVP" is a selfish process, abusing customers so you can "learn." SLC is an alternate philosophy that results in fast, validated learning, that customers love.

@@ -1,13 +1,13 @@
 ---
-title: "TABULA RASA: Ad Infinitum: Retail Media Is the Final Boss"
-full_title: "TABULA RASA: Ad Infinitum: Retail Media Is the Final Boss"
-author: futurecommerce.com
+title: |
+  TABULA RASA: Ad Infinitum: Retail Media Is the Final Boss
+full_title: |
+  TABULA RASA: Ad Infinitum: Retail Media Is the Final Boss
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/tabula-rasa-ad-infinitum-retail-media-is-the-final-boss
 category: articles
 image_url: https://cdn.prod.website-files.com/5d7da04028ecca2357d6b3b0/670d8b3d81d2263e1fdce299_tabularasa6.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-17 04:38:39.933798+00:00
 published_date: 2024-10-14
 summary: |
   In the digital Agora of the internet, a shift has taken place: the transmutation of Commerce into Media.

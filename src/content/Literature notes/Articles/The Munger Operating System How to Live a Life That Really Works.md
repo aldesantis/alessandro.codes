@@ -1,13 +1,13 @@
 ---
-title: "The Munger Operating System: How to Live a Life That Really Works"
-full_title: "The Munger Operating System: How to Live a Life That Really Works"
-author: Farnam Street
+title: |
+  The Munger Operating System: How to Live a Life That Really Works
+full_title: |
+  The Munger Operating System: How to Live a Life That Really Works
+author: |
+  Farnam Street
 url: https://fs.blog/munger-operating-system/
 category: articles
 image_url: https://149664534.v2.pressablecdn.com/wp-content/uploads/2015/06/cropped-farnamstreet-300x300.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-02 14:57:56.657115+00:00
 published_date: 2016-04-13
 summary: |
   In his commencement speech at USC Law School, Charlie Munger offers advice on how to live a successful life. His core ideas include earning trust, learning to love and admire the right people, and acquiring wisdom as a moral and practical duty. He also emphasizes the importance of attaining fluency on big multidisciplinary ideas and thinking through problems backwards as well as forward. Munger urges individuals to avoid self-pity, self-serving bias, and intense ideologies, and to work with and under people they admire. Finally, he encourages people to use setbacks as opportunities to become better individuals.

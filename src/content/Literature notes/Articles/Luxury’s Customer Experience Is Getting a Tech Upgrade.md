@@ -1,13 +1,13 @@
 ---
-title: Luxury’s Customer Experience Is Getting a Tech Upgrade
-full_title: Luxury’s Customer Experience Is Getting a Tech Upgrade
-author: Marc Bain
+title: |
+  Luxury’s Customer Experience Is Getting a Tech Upgrade
+full_title: |
+  Luxury’s Customer Experience Is Getting a Tech Upgrade
+author: |
+  Marc Bain
 url: https://www.businessoffashion.com/articles/technology/state-of-fashion-technology-report-luxury-brands-customer-experience/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/3jF0pkQV1Vq2NSZ59AiEPUAgaU4=/1200x630/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/MF53BD4ENNHVBJNHZTDQ3EVNQU.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-11 15:16:22.056700+00:00
 published_date: 2022-05-12
 summary: |
   Far from replacing the personal, face-to-face service at the heart of the luxury shopping experience, new technologies and digital channels are giving brands engaging and creative ways to enhance their customer relationships.

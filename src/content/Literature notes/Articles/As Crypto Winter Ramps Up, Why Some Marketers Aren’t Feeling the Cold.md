@@ -1,13 +1,13 @@
 ---
-title: As Crypto Winter Ramps Up, Why Some Marketers Aren’t Feeling the Cold
-full_title: As Crypto Winter Ramps Up, Why Some Marketers Aren’t Feeling the Cold
-author: Alexander Lee
+title: |
+  As Crypto Winter Ramps Up, Why Some Marketers Aren’t Feeling the Cold
+full_title: |
+  As Crypto Winter Ramps Up, Why Some Marketers Aren’t Feeling the Cold
+author: |
+  Alexander Lee
 url: https://link.marketingdive.com/click/32882481.100989/aHR0cHM6Ly9kaWdpZGF5LmNvbS9tYXJrZXRpbmcvYXMtY3J5cHRvLXdpbnRlci1yYW1wcy11cC1zb21lLW1hcmtldGVycy1hcmVudC1mZWVsaW5nLXRoZS1jb2xkLw/637e582e0821e0a3d7090092Bc5a7d495
 category: articles
 image_url: https://digiday.com/wp-content/uploads/sites/3/2023/09/cash-flow-digiday.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-03 09:37:51.033897+00:00
 published_date: 2023-09-28
 summary: |
   In 2023, some brands’ executive boardrooms are still insulated from the chill of crypto winter, for better or worse. But the rising pressure of crypto skepticism has made it more urgent than ever for companies to figure out how to use blockchain technology to support their core offerings and customer base rather than simply dropping branded NFTs and hoping for the best.

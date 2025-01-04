@@ -1,13 +1,13 @@
 ---
-title: Apple’s ATT Crackdown Emboldened DTC Marketers to Reinvest in Meta, Google
-full_title: Apple’s ATT Crackdown Emboldened DTC Marketers to Reinvest in Meta, Google
-author: Kimeko McCoy
+title: |
+  Apple’s ATT Crackdown Emboldened DTC Marketers to Reinvest in Meta, Google
+full_title: |
+  Apple’s ATT Crackdown Emboldened DTC Marketers to Reinvest in Meta, Google
+author: |
+  Kimeko McCoy
 url: https://digiday.com/marketing/apples-att-crackdown-emboldened-dtc-marketers-to-reinvest-in-meta-google/
 category: articles
 image_url: https://digiday.com/wp-content/uploads/sites/3/2022/08/data-growth-static.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-16 09:35:40.189311+00:00
 published_date: 2023-10-05
 summary: |
   While Google's crumbling cookie and Apple's ATT crackdown have spurred diversification, DTC brands are still dedicated to Meta and Google.

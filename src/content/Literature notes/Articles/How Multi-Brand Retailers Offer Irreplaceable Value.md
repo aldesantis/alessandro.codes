@@ -1,13 +1,13 @@
 ---
-title: How Multi-Brand Retailers Offer Irreplaceable Value
-full_title: How Multi-Brand Retailers Offer Irreplaceable Value
-author: retailisation.com
+title: |
+  How Multi-Brand Retailers Offer Irreplaceable Value
+full_title: |
+  How Multi-Brand Retailers Offer Irreplaceable Value
+author: |
+  retailisation.com
 url: https://www.retailisation.com/insights/how-multi-brand-retailers-can-keep-up-with-consumers
 category: articles
 image_url: https://cdn.prod.website-files.com/636d21756480fa835c4daf55/63763067d30a64b9e11c71cf_Multibrandretailers.webp
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-23 10:21:25.605474+00:00
 published_date: None
 summary: |
   Multi-brand retailers (MBRs) provide unique value by offering consumers a variety of brands and convenient shopping options. They help brands reach a wider audience and handle customer service, which allows for better sales opportunities. By collaborating closely, brands and MBRs can gain valuable insights into customer preferences and improve their overall effectiveness.

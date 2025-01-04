@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Earned Success"
-full_title: "Brain Food: Earned Success"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Earned Success
+full_title: |
+  Brain Food: Earned Success
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-18 09:36:13.369670+00:00
 published_date: 2023-12-17
 summary: |
   Living, you stand under a waterfall.

@@ -1,13 +1,13 @@
 ---
-title: My $4.8M Social Media Sales Funnel
-full_title: My $4.8M Social Media Sales Funnel
-author: justinwelsh.me
+title: |
+  My $4.8M Social Media Sales Funnel
+full_title: |
+  My $4.8M Social Media Sales Funnel
+author: |
+  justinwelsh.me
 url: https://www.justinwelsh.me/newsletter/my-million-dollar-social-media-sales-funnel
 category: articles
 image_url: https://assets-global.website-files.com/647d82800b461db820830896/652a80e7702409cc5cd86b33_Newsletter%20%2B%20Blog%20Cover%20(11).png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-16 09:48:54.261124+00:00
 published_date: 2023-10-08
 summary: |
   Learn my 5-step social media model that generated $4.8M in four years. Engage readers, transition to sales, and deliver value — all without the complexity.

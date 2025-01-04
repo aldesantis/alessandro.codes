@@ -1,13 +1,13 @@
 ---
-title: “Spatial Commerce” Is the Next Big Thing™
-full_title: “Spatial Commerce” Is the Next Big Thing™
-author: futurecommerce.com
+title: |
+  “Spatial Commerce” Is the Next Big Thing™
+full_title: |
+  “Spatial Commerce” Is the Next Big Thing™
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/the-senses/spatial-commerce-is-the-next-big-thing-tm
 category: articles
 image_url: https://assets-global.website-files.com/5d7da04028ecca2357d6b3b0/64f9f9fda6f4124bbaad4ebc_Insiders%20Images%20(8).png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-13 09:30:50.395602+00:00
 published_date: 2023-09-07
 summary: |
   PLUS: Your car knows you’re having sex | The Senses by Future Commerce

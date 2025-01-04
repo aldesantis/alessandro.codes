@@ -1,13 +1,13 @@
 ---
-title: The Trouble with Optionality
-full_title: The Trouble with Optionality
-author: thecrimson.com
+title: |
+  The Trouble with Optionality
+full_title: |
+  The Trouble with Optionality
+author: |
+  thecrimson.com
 url: https://www.thecrimson.com/article/2017/5/25/desai-commencement-ed/
 category: articles
 image_url: https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2017/05/23/012909_1323227.jpg.1921x2000_q95_crop-smart_upscale.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 09:20:28.796632+00:00
 published_date: 2017-05-25
 summary: |
   Our elite graduates need to understand that they’ve already been winners in the lottery of life—and they certainly don’t need any more safety nets.

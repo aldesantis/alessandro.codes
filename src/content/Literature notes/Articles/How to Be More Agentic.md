@@ -1,13 +1,13 @@
 ---
-title: How to Be More Agentic
-full_title: How to Be More Agentic
-author: Cate Hall
+title: |
+  How to Be More Agentic
+full_title: |
+  How to Be More Agentic
+author: |
+  Cate Hall
 url: https://usefulfictions.substack.com/p/how-to-be-more-agentic
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fusefulfictions.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1474643648%26version%3D9
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-20 11:49:18.076791+00:00
 published_date: 2024-01-10
 summary: |
   The author believes that agency can be developed, and is not an inherent trait. She has compensated for her aging and perceived lack of intelligence by increasing her agency, which she defines as "manifest determination to make things happen." The author suggests several ways to increase agency, including asking for things, seeking real feedback, increasing the surface area for luck, assuming everything is learnable, learning to love the moat of low status, and not working too hard. The author argues that agency is a skill that can be learned and intensified, and can be applied to many areas of life.

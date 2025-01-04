@@ -1,13 +1,13 @@
 ---
-title: Hard Reset
-full_title: Hard Reset
-author: sarahguo.com
+title: |
+  Hard Reset
+full_title: |
+  Hard Reset
+author: |
+  sarahguo.com
 url: https://sarahguo.com/blog/hardreset
 category: articles
 image_url: https://images.prismic.io/sarah-guo/e897ebd4-37fe-4648-b344-0ac969bb6487_cliff.jpeg?auto=compress,format&rect=0,101,634,634&w=634&h=634
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-01-03 09:37:36.834590+00:00
 published_date: 2022-11-10
 summary: |
   Hard Reset: Or, How Not to Drive Your Company Off A Cliff

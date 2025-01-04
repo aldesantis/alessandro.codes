@@ -1,13 +1,13 @@
 ---
-title: How to Find Freedom Under Pressure
-full_title: How to Find Freedom Under Pressure
-author: Casey Rosengren
+title: |
+  How to Find Freedom Under Pressure
+full_title: |
+  How to Find Freedom Under Pressure
+author: |
+  Casey Rosengren
 url: https://every.to/no-small-plans/a-founder-s-guide-to-liberation-from-stress-and-uncertainty
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2746/danshipper_a_graphic_of_chains_breaking_apart_symbolizing_liber_69b5b772-75fe-4e2e-9e88-b4533d9840c3.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-27 12:44:09.777022+00:00
 published_date: 2023-09-05
 summary: |
   How to find freedom under pressure

@@ -1,13 +1,13 @@
 ---
-title: How to Think in Writing
-full_title: How to Think in Writing
-author: Henrik Karlsson
+title: |
+  How to Think in Writing
+full_title: |
+  How to Think in Writing
+author: |
+  Henrik Karlsson
 url: https://substack.com/home/post/p-143987982
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8bec767-3242-4428-a281-0cdc3182ff75_750x587.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-18 04:28:50.358479+00:00
 published_date: 2024-07-09
 summary: |
   Writing helps refine thinking by making ideas more precise and complete. Without writing, one may not fully form or realize the limitations of their ideas. By unfolding and probing claims through writing, one can discover flaws, refine understanding, and reach deeper insights.

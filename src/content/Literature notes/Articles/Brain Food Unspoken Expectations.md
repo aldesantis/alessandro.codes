@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Unspoken Expectations"
-full_title: "Brain Food: Unspoken Expectations"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Unspoken Expectations
+full_title: |
+  Brain Food: Unspoken Expectations
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-25 11:07:24.893932+00:00
 published_date: 2024-03-24
 summary: |
   “While we naturally understand that writing is a good way to share ideas with others, we under-appreciate just how much good writing helps us think about an idea ourselves.

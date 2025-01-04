@@ -1,13 +1,13 @@
 ---
-title: A Few Things I Believe About AI
-full_title: A Few Things I Believe About AI
-author: Dan Shipper
+title: |
+  A Few Things I Believe About AI
+full_title: |
+  A Few Things I Believe About AI
+author: |
+  Dan Shipper
 url: https://every.to/chain-of-thought/a-few-things-i-believe-about-ai
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2596/grid_0__1_.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-26 08:49:30.893454+00:00
 published_date: 2023-04-21
 summary: |
   Taking time for a 10,000 foot perspective

@@ -1,13 +1,13 @@
 ---
-title: Early-Arriver Arbitrage
-full_title: Early-Arriver Arbitrage
-author: Anu
+title: |
+  Early-Arriver Arbitrage
+full_title: |
+  Early-Arriver Arbitrage
+author: |
+  Anu
 url: https://www.workingtheorys.com/p/before-the-crowd
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4878406f-6482-4335-9354-b29e22e7b59a_3120x2263.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-21 19:36:20.680055+00:00
 published_date: 2024-03-18
 summary: |
   Theory #35 | The arena rewards those who arrive early.

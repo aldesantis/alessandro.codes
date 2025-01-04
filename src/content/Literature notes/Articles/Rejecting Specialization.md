@@ -1,13 +1,13 @@
 ---
-title: Rejecting Specialization
-full_title: Rejecting Specialization
-author: tomcritchlow.com
+title: |
+  Rejecting Specialization
+full_title: |
+  Rejecting Specialization
+author: |
+  tomcritchlow.com
 url: https://tomcritchlow.com/2022/06/16/rejecting-specialization/
 category: articles
 image_url: https://tomcritchlow.com/images/product-market-venn.svg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-12 04:53:48.358830+00:00
 published_date: 2022-06-16
 summary: |
   Tom Critchlow. Move. Think. Create.

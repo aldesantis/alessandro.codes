@@ -1,13 +1,13 @@
 ---
-title: "Osservatorio Retail Evolution BVA Doxa – Salesforce: Le Nuove Sfide Del Retail in Italia"
-full_title: "Osservatorio Retail Evolution BVA Doxa – Salesforce: Le Nuove Sfide Del Retail in Italia"
-author: Pambianconews notizie e aggiornamenti  moda, lusso e made in Italy
+title: |
+  Osservatorio Retail Evolution BVA Doxa – Salesforce: Le Nuove Sfide Del Retail in Italia
+full_title: |
+  Osservatorio Retail Evolution BVA Doxa – Salesforce: Le Nuove Sfide Del Retail in Italia
+author: |
+  Pambianconews notizie e aggiornamenti  moda, lusso e made in Italy
 url: https://www.pambianconews.com/redazionale/osservatorio-retail-evolution-bva-doxa-salesforce-le-nuove-sfide-del-retail-in-italia/
 category: articles
 image_url: https://www.pambianconews.com/wp-content/uploads/2024/07/ashim-d-silva-ZmgJiztRHXE-unsplash.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-14 11:32:31.045367+00:00
 published_date: 2024-07-22
 summary: |
   La digitalizzazione ha cambiato le abitudini d'acquisto, rendendo i consumatori più esigenti e desiderosi di esperienze fluide tra negozi fisici e online. Un'indagine rivela che i consumatori cercano efficienza, personalizzazione e vicinanza dai brand. Inoltre, l'intelligenza artificiale suscita interesse, ma anche timori, e i brand devono migliorare l'esperienza d'acquisto per conquistare la fiducia dei clienti.

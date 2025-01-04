@@ -1,13 +1,13 @@
 ---
-title: Revisiting Physical Retail
-full_title: Revisiting Physical Retail
-author: Ana Andjelic
+title: |
+  Revisiting Physical Retail
+full_title: |
+  Revisiting Physical Retail
+author: |
+  Ana Andjelic
 url: https://substack.com/app-link/post?publication_id=18831&post_id=137352055&utm_source=post-email-title&utm_campaign=email-post-title&isFreemail=false&r=og9hp&token=eyJ1c2VyX2lkIjo0MTA2OTU4MSwicG9zdF9pZCI6MTM3MzUyMDU1LCJpYXQiOjE2OTU2NDM2MzUsImV4cCI6MTY5ODIzNTYzNSwiaXNzIjoicHViLTE4ODMxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8-upSe8bwUqn43ttzJw6edmVn1EjXVaaMariWrbEYvs
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16373908-48e7-48fa-b6e8-dc02bc5370c7_2858x1350.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 10:35:20.338818+00:00
 published_date: 2023-09-25
 summary: |
   The good, the bad and the ugly

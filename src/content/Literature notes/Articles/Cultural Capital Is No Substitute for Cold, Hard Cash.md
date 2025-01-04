@@ -1,13 +1,13 @@
 ---
-title: Cultural Capital Is No Substitute for Cold, Hard Cash
-full_title: Cultural Capital Is No Substitute for Cold, Hard Cash
-author: Eileen G’Sell
+title: |
+  Cultural Capital Is No Substitute for Cold, Hard Cash
+full_title: |
+  Cultural Capital Is No Substitute for Cold, Hard Cash
+author: |
+  Eileen G’Sell
 url: https://jacobin.com/2023/07/status-and-culture-w-david-marx-review
 category: articles
 image_url: https://images.jacobinmag.com/wp-content/uploads/2023/07/19123615/GettyImages-1093954426.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 13:27:52.323601+00:00
 published_date: 2023-07-19
 summary: |
   The rich used to eat, dress, and even speak entirely differently from the masses. Today they wear T-shirts and sneakers just like the rest of us. But that doesn’t mean we’re all equal. It only lays bare the real source of inequality: actual money.

@@ -1,13 +1,13 @@
 ---
-title: Germanwatch_the_digital_product_passport_2023_0
-full_title: Germanwatch_the_digital_product_passport_2023_0
-author: germanwatch.org
+title: |
+  Germanwatch_the_digital_product_passport_2023_0
+full_title: |
+  Germanwatch_the_digital_product_passport_2023_0
+author: |
+  germanwatch.org
 url: https://www.germanwatch.org/sites/default/files/germanwatch_the_digital_product_passport_2023_0.pdf
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/4DfKZqjBBdRBq_fabHSEIfOzSYrQ_8Hfh2_O_CiSF40-cove_wym67DT.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-15 15:15:14.523119+00:00
 published_date: 2023-06-06
 summary: |
   The Digital Product Passport (DPP) is a comprehensive digital index card or "digital CV" that the EU plans to introduce for a wide range of products. It can provide key information to repairers, refurbishers, and recyclers to keep products and their components in the circular economy at their highest value. The DPP can facilitate innovative circular business models, extend product lifecycles, and optimize material and energy efficiency. The main framework for the DPP will be set in the Ecodesign for Sustainable Products Regulation (ESPR), which will establish requirements and details for the DPP on a product group-specific basis. To make the DPP a game-changer for the circular economy, it must provide information for implementing the hierarchy of the 10 'Rs' of a holistic circular economy, be accessible to all actors along the value chain, and require minimal energy and resources. The ESPR should establish mandatory information requirements, ensure relevant information is accessible to all actors, and establish ...

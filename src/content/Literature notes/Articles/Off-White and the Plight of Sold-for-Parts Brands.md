@@ -1,13 +1,13 @@
 ---
-title: Off-White and the Plight of Sold-for-Parts Brands
-full_title: Off-White and the Plight of Sold-for-Parts Brands
-author: Christina Binkley
+title: |
+  Off-White and the Plight of Sold-for-Parts Brands
+full_title: |
+  Off-White and the Plight of Sold-for-Parts Brands
+author: |
+  Christina Binkley
 url: https://www.voguebusiness.com/story/fashion/off-white-and-the-plight-of-the-sold-for-parts-brands
 category: articles
 image_url: https://media.voguebusiness.com/photos/671a26f5bf37aabac775e7e3/16:9/w_1280,c_limit/AMERICAN-THREAD-VOGUEBUS-241024-SOCIAL-NEWSLETTER.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-25 11:33:38.831531+00:00
 published_date: 2024-10-25
 summary: |
   Off-White, once a symbol of innovative streetwear under founder Virgil Abloh, has been sold to Bluestar Alliance, raising concerns about its future. The brand management group has a history of devaluing labels it acquires, often prioritizing quick profits over long-term brand integrity. As luxury sales decline, there is skepticism about whether Bluestar can successfully navigate Off-White's legacy and the broader challenges facing the fashion industry.

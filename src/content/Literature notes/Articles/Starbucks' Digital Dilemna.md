@@ -1,13 +1,13 @@
 ---
-title: Starbucks' Digital Dilemna
-full_title: Starbucks' Digital Dilemna
-author: Trungphan2
+title: |
+  Starbucks' Digital Dilemna
+full_title: |
+  Starbucks' Digital Dilemna
+author: |
+  Trungphan2
 url: https://www.readtrung.com/p/starbucks-digital-dilemna
 category: articles
 image_url: https://substack-post-media.s3.amazonaws.com/public/images/b868a771-ee46-4af1-8f84-1dc562dc062b_1024x576.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-06 10:48:11.681947+00:00
 published_date: 2024-05-11
 summary: |
   Starbucks faces challenges with declining customer numbers due to issues with their mobile app and store experience. Customers are unhappy with the shift towards prioritizing speed over quality, leading to potential loss of older clientele. To address these concerns, Starbucks may need to revamp its in-store experience and focus on regaining customer loyalty.

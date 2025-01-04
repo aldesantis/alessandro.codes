@@ -1,13 +1,13 @@
 ---
-title: Why Brand Comes First
-full_title: Why Brand Comes First
-author: Ana Andjelic
+title: |
+  Why Brand Comes First
+full_title: |
+  Why Brand Comes First
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/why-brand-comes-first?utm_source=post-email-title&publication_id=18831&post_id=140461463&utm_campaign=email-post-title&isFreemail=false&r=og9hp&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F757861b7-ddaf-4b9e-9fc4-4453ac39567b.heic
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-15 17:19:56.644190+00:00
 published_date: 2024-01-29
 summary: |
   Building a brand-centric organization requires bridging the gap between short-term and long-term thinking. This involves embedding brand strategy and management across different departments and functions, rather than just relegating it to marketing. Brand management encompasses product design, merchandising, retail, media, and cultural influence. It requires organizational cooperation, nimble project management, and a portfolio approach to brand actions. By synchronizing all brand actions and constantly renewing consumers' brand perception, a brand can protect its pricing power and remain relevant in a competitive market.

@@ -1,13 +1,13 @@
 ---
-title: "Insiders #173: Beware the Curators"
-full_title: "Insiders #173: Beware the Curators"
-author: futurecommerce.com
+title: |
+  Insiders #173: Beware the Curators
+full_title: |
+  Insiders #173: Beware the Curators
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-173-beware-the-curators
 category: articles
 image_url: https://cdn.prod.website-files.com/5d7da04028ecca2357d6b3b0/666cad02fdb9065eb498c6bc_unnamed.webp
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-18 21:49:41.714884+00:00
 published_date: 2024-06-17
 summary: |
   The text discusses the influence of algorithms on taste and the rise of human curators as an alternative. It highlights concerns about curators' biases and the need for independent exploration of content. The author emphasizes the importance of personal preference over being dictated by algorithms or curators.

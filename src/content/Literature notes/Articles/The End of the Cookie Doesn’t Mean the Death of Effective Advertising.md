@@ -1,13 +1,13 @@
 ---
-title: The End of the Cookie Doesn’t Mean the Death of Effective Advertising
-full_title: The End of the Cookie Doesn’t Mean the Death of Effective Advertising
-author: Airey Baringer, VP, Product Management, TripleLift
+title: |
+  The End of the Cookie Doesn’t Mean the Death of Effective Advertising
+full_title: |
+  The End of the Cookie Doesn’t Mean the Death of Effective Advertising
+author: |
+  Airey Baringer, VP, Product Management, TripleLift
 url: https://www.adweek.com/sponsored/the-end-of-the-cookie-doesnt-mean-the-death-of-effective-advertising/?utm_campaign=_06_11_24
 category: articles
 image_url: https://static-prod.adweek.com/wp-content/uploads/2024/05/triplelift_eb_061124_hp_v2-600x315.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-12 08:22:24.379635+00:00
 published_date: 2024-06-10
 summary: |
   Marketers are facing the end of cookies for targeted advertising, but there are successful cookieless alternatives available. Recent examples show how brands have achieved impressive results with cookieless technology solutions, reaching key audiences effectively and efficiently. It's time for marketers to prioritize preparedness for a cookieless future to continue driving successful advertising campaigns.

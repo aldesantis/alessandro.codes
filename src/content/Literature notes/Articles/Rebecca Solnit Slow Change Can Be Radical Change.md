@@ -1,13 +1,13 @@
 ---
-title: "Rebecca Solnit: Slow Change Can Be Radical Change"
-full_title: "Rebecca Solnit: Slow Change Can Be Radical Change"
-author: Literary  Hub
+title: |
+  Rebecca Solnit: Slow Change Can Be Radical Change
+full_title: |
+  Rebecca Solnit: Slow Change Can Be Radical Change
+author: |
+  Literary  Hub
 url: https://lithub.com/rebecca-solnit-slow-change-can-be-radical-change/
 category: articles
 image_url: https://s26162.pcdn.co/wp-content/uploads/2024/01/low-tide-768x301.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-28 09:20:12.781693+00:00
 published_date: 2024-01-11
 summary: |
   “To see takes time, like to have a friend takes time.” –Georgia O’Keeffe * Someone at the dinner table wanted to know what everyone’s turning point on climate was, which is to say she w…

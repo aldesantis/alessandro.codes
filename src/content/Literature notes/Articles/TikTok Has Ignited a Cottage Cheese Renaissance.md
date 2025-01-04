@@ -1,13 +1,13 @@
 ---
-title: TikTok Has Ignited a Cottage Cheese Renaissance
-full_title: TikTok Has Ignited a Cottage Cheese Renaissance
-author: Modern Retail
+title: |
+  TikTok Has Ignited a Cottage Cheese Renaissance
+full_title: |
+  TikTok Has Ignited a Cottage Cheese Renaissance
+author: |
+  Modern Retail
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-12 20:32:51.382305+00:00
 published_date: 2024-06-12
 summary: |
   If you've mindlessly scrolled through TikTok, chances are you've seen a recipe that features cottage cheese. It's true, cottage cheese is a trend — and dairy companies are seeing sales grow.

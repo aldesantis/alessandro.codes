@@ -1,13 +1,13 @@
 ---
-title: What Will Retail Look Like in Five Years? Top Industry Executives Share Their Predictions
-full_title: What Will Retail Look Like in Five Years? Top Industry Executives Share Their Predictions
-author: Melissa Repko,Gabrielle Fonrouge
+title: |
+  What Will Retail Look Like in Five Years? Top Industry Executives Share Their Predictions
+full_title: |
+  What Will Retail Look Like in Five Years? Top Industry Executives Share Their Predictions
+author: |
+  Melissa Repko,Gabrielle Fonrouge
 url: https://www.cnbc.com/2024/02/16/future-of-retail-predictions.html?utm_source=expresscheckout.beehiiv.com&utm_medium=newsletter&utm_campaign=express-checkout-61-the-latest-in-cpg-retail-and-ecomm
 category: articles
 image_url: https://image.cnbcfm.com/api/v1/image/107364387-1708122192405-107364387-1706189706750-gettyimages-1776310509-img_9110.jpeg?v=1708122222&w=1920&h=1080
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-21 11:31:35.219555+00:00
 published_date: 2024-02-16
 summary: |
   Retail has been evolving rapidly due to Covid-related shocks, accelerating changes such as the growth of curbside pickup and increased use of mobile apps. Top industry executives predict that the future of retail will involve smaller, more experiential stores located where customers prefer, with an emphasis on efficiency and personalized experiences. Additionally, advancements in technology, such as conversational commerce and predictive analytics, are expected to transform the industry and enhance customer satisfaction. The role of stores is envisioned to become more experiential, serving as mini distribution centers and hubs for community engagement, while the majority of shopping may still happen in-store despite online browsing trends among younger generations.

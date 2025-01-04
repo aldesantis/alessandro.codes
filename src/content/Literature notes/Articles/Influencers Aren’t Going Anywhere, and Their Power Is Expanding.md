@@ -1,13 +1,13 @@
 ---
-title: Influencers Aren’t Going Anywhere, and Their Power Is Expanding
-full_title: Influencers Aren’t Going Anywhere, and Their Power Is Expanding
-author: Morning Consult Pro
+title: |
+  Influencers Aren’t Going Anywhere, and Their Power Is Expanding
+full_title: |
+  Influencers Aren’t Going Anywhere, and Their Power Is Expanding
+author: |
+  Morning Consult Pro
 url: https://pro.morningconsult.com/analysis/influencers-content-creators-evolving-power-2024?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://pro-assets.morningconsult.com/wp-uploads/2024/09/231207_Brands_Activations_Feature-Image-01-1-576x324.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-28 09:33:55.914203+00:00
 published_date: 2024-10-01
 summary: |
   Most Gen Z adults follow influencers on social media, with many seeking their advice on various topics like fashion, health, and news. This trend shows that influencers are becoming important sources of information and are influencing real-life conversations among young people. Additionally, many Gen Zers want even more influencer content in the future, highlighting their growing impact.

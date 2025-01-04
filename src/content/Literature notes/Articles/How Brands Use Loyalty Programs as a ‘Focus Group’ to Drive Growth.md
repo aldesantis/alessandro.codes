@@ -1,13 +1,13 @@
 ---
-title: How Brands Use Loyalty Programs as a ‘Focus Group’ to Drive Growth
-full_title: How Brands Use Loyalty Programs as a ‘Focus Group’ to Drive Growth
-author: Melissa Daniels
+title: |
+  How Brands Use Loyalty Programs as a ‘Focus Group’ to Drive Growth
+full_title: |
+  How Brands Use Loyalty Programs as a ‘Focus Group’ to Drive Growth
+author: |
+  Melissa Daniels
 url: https://www.modernretail.co/technology/how-brands-use-loyalty-programs-as-a-focus-group-to-drive-growth/?utm_source=ecommerceweekly&utm_campaign=mrdis&utm_medium=email
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2024/02/jiggy1-e1707432552703.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-27 11:24:52.399761+00:00
 published_date: 2024-02-20
 summary: |
   Brands like Jiggy and Waterdrop use loyalty programs not just for discounts but also as a valuable source of feedback and inspiration. By tapping into data from loyalty members, companies can make informed decisions on product offerings, marketing strategies, and customer experiences. Loyalty programs serve as mini-focus groups, offering insights into customer preferences that can drive growth and enhance the overall shopping experience. Utilizing first-party data from loyalty programs has become increasingly crucial for brands in navigating challenges like rising customer acquisition costs and the shift away from third-party cookies.

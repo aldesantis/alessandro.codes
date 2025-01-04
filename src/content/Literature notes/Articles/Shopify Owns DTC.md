@@ -1,13 +1,13 @@
 ---
-title: Shopify Owns DTC
-full_title: Shopify Owns DTC
-author: 2PM Saturday Edition (MT)
+title: |
+  Shopify Owns DTC
+full_title: |
+  Shopify Owns DTC
+author: |
+  2PM Saturday Edition (MT)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-06 15:32:41.729238+00:00
 published_date: 2023-11-04
 summary: |
   But what does that really mean? Increasingly, it’s something different than you may think.

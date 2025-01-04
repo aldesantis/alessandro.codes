@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Overlooked Advantage"
-full_title: "Brain Food: Overlooked Advantage"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Overlooked Advantage
+full_title: |
+  Brain Food: Overlooked Advantage
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-09 15:55:11.717059+00:00
 published_date: 2024-01-07
 summary: |
   Thank you to everyone who purchased a copy of Clear Thinking in 2023. I'm thrilled you found it useful and shared it with friends.

@@ -1,13 +1,13 @@
 ---
-title: Storytime — The $175B Marketplace That Ran 6 Super Bowl Ads
-full_title: Storytime — The $175B Marketplace That Ran 6 Super Bowl Ads
-author: Nik Sharma
+title: |
+  Storytime — The $175B Marketplace That Ran 6 Super Bowl Ads
+full_title: |
+  Storytime — The $175B Marketplace That Ran 6 Super Bowl Ads
+author: |
+  Nik Sharma
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-26 12:12:40.305277+00:00
 published_date: 2024-02-26
 summary: |
   If you’re reading this, I hope you had an incredibly relaxing weekend.

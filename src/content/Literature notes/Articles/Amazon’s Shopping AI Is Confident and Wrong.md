@@ -1,13 +1,13 @@
 ---
-title: Amazon’s Shopping AI Is Confident and Wrong
-full_title: Amazon’s Shopping AI Is Confident and Wrong
-author: Marketplace Pulse
+title: |
+  Amazon’s Shopping AI Is Confident and Wrong
+full_title: |
+  Amazon’s Shopping AI Is Confident and Wrong
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/amazons-shopping-ai-is-confidently-wrong
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/685/cover_social.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-11 10:29:37.254530+00:00
 published_date: 2024-11-06
 summary: |
   Amazon's shopping assistant, Rufus, gives product suggestions but often makes incorrect recommendations. While it has become more confident in its responses, it still struggles with accuracy, showing items that may not match customer needs. Amazon is working to improve Rufus, but the AI's limitations highlight the challenges of relying on technology for shopping decisions.

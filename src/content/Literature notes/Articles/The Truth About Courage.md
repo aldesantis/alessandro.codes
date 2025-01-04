@@ -1,13 +1,13 @@
 ---
-title: The Truth About Courage
-full_title: The Truth About Courage
-author: Jakob Greenfeld from Play Permissionless
+title: |
+  The Truth About Courage
+full_title: |
+  The Truth About Courage
+author: |
+  Jakob Greenfeld from Play Permissionless
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-15 08:43:55.662844+00:00
 published_date: 2024-05-14
 summary: |
   “Sometimes people fear starting a company too much. Really, what’s the worst that could go wrong?

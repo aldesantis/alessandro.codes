@@ -1,13 +1,13 @@
 ---
-title: The Society of Spectacle
-full_title: The Society of Spectacle
-author: Ana Andjelic
+title: |
+  The Society of Spectacle
+full_title: |
+  The Society of Spectacle
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/the-society-of-spectacle?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14256ba3-9613-4db1-94b6-2febb62d8db4_436x322.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 09:55:35.001181+00:00
 published_date: 2023-07-10
 summary: |
   The Culture Industry won, get over it

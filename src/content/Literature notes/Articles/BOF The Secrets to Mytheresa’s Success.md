@@ -1,13 +1,13 @@
 ---
-title: "BOF: The Secrets to Mytheresa’s Success"
-full_title: "BOF: The Secrets to Mytheresa’s Success"
-author: Robert Burke Associates
+title: |
+  BOF: The Secrets to Mytheresa’s Success
+full_title: |
+  BOF: The Secrets to Mytheresa’s Success
+author: |
+  Robert Burke Associates
 url: https://www.robertburkeassociates.com/press1/2020/06/08/the-secrets-to-mytheresas-success
 category: articles
 image_url: http://static1.squarespace.com/static/54f09cbce4b031adb212bb9b/5693ef2704acd30d86736334/5ede44dedd8f8149be291c02/1592486618697/Screen+Shot+2020-06-08+at+10.11.45+AM.png?format=1500w
-date: 2025-01-02
-time: 11:11 AM
-last_highlighted_date: 2025-01-02 09:59:23.884483+00:00
 published_date: 2020-06-08
 summary: |
   Mytheresa has successfully made luxury e-commerce profitable by focusing on acquiring high-value customers and understanding their long-term value. The company avoids rapid growth and discounting strategies, instead curating a tight selection of top brands to enhance customer experience. Despite challenges from the pandemic and competition, Mytheresa aims to expand its presence in key markets like the US and China while maintaining its disciplined approach.

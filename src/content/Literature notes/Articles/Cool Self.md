@@ -1,13 +1,13 @@
 ---
-title: Cool Self
-full_title: Cool Self
-author: Anu Atluru
+title: |
+  Cool Self
+full_title: |
+  Cool Self
+author: |
+  Anu Atluru
 url: https://www.workingtheorys.com/p/cool-self?utm_source=post-email-title&publication_id=22717&post_id=146651591&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39b1a489-bc68-46e3-a9f9-ac464d1118d6_7485x5295.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-14 12:01:19.733165+00:00
 published_date: None
 summary: |
   The text discusses the concept of finding and being your "cool self" in life, which involves being authentic, confident, calm, and original. It emphasizes the importance of choosing your own version of cool rather than conforming to societal standards, and suggests that being your cool self leads to better relationships, personal fulfillment, and success. The theory of the cool self encourages individuals to embrace their true selves, pursue their passions authentically, and prioritize inner fulfillment over external validation.

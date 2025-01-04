@@ -1,13 +1,13 @@
 ---
-title: 30 Useful Concepts
-full_title: 30 Useful Concepts
-author: Gurwinder
+title: |
+  30 Useful Concepts
+full_title: |
+  30 Useful Concepts
+author: |
+  Gurwinder
 url: https://www.gurwinder.blog/p/30-useful-concepts-spring-2024?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8acb89ec-471c-478e-8719-19b9cec6a38f_3000x3000.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-05 09:28:56.934525+00:00
 published_date: None
 summary: |
   The text discusses 30 useful concepts for understanding the world, ranging from dopamine culture to champion bias. These concepts aim to provide insights into various aspects of human behavior and decision-making. The author encourages readers to explore these ideas further for personal growth and understanding.
@@ -31,6 +31,7 @@ permalink: l/articles/30-useful-concepts
 - Our model of the world assumes people are like us. We don’t just do whatever we consider normal, we also consider normal whatever we do. ([View Highlight](https://read.readwise.io/read/01j2139wjmbhtm2kq4t12xc2w5))
 - The more similar two choices seem, the less the decision should matter, yet the harder it is to choose between them. As a result, we often spend the most time on the decisions that matter least. ([View Highlight](https://read.readwise.io/read/01j213a0bfbe25w0pe4thxvmsh))
 - Being pro-choice and being pro-gun-control don’t necessarily follow from each other, yet those who believe one usually also believe the other. This is because most people don’t choose beliefs individually but subscribe to “packages” of beliefs offered by a tribe. ([View Highlight](https://read.readwise.io/read/01j2139qvw3fhh4fhy24wn8sv8))
+    - Tags: [[culture]] 
 - ***Imagine you wake up in a hospital.** What could have been the most likely reason? Is there anything you can do today to prevent that?*
   ***Imagine your partner breaks up with you.** What could have been the most likely reason? Is there anything you can do today to prevent that?*
   ***Imagine you lose your job.** What could have been the most likely reason? Is there anything you can do today to prevent that?* ([View Highlight](https://read.readwise.io/read/01j213bpxsjt0a4vqhnn52pedx))

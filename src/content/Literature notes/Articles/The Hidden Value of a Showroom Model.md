@@ -1,13 +1,13 @@
 ---
-title: The Hidden Value of a Showroom Model
-full_title: The Hidden Value of a Showroom Model
-author: Andrew Neelon
+title: |
+  The Hidden Value of a Showroom Model
+full_title: |
+  The Hidden Value of a Showroom Model
+author: |
+  Andrew Neelon
 url: https://www.clickstobricksplaybook.com/p/the-hidden-value-of-a-showroom-model?utm_source=post-email-title&publication_id=1180077&post_id=115630271&isFreemail=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3cd99e31-f5d4-4952-809c-e1883968c086_1200x800.webp
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-26 09:22:10.503426+00:00
 published_date: 2023-05-24
 summary: |
   Why I will almost always recommend retail newbies start with an inventoryless store

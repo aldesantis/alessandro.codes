@@ -1,13 +1,13 @@
 ---
-title: Beware the Metagame
-full_title: Beware the Metagame
-author: amasad.me
+title: |
+  Beware the Metagame
+full_title: |
+  Beware the Metagame
+author: |
+  amasad.me
 url: https://amasad.me/meta
 category: articles
 image_url: https://amasad.me/public/pic.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-09 14:33:11.020645+00:00
 published_date: 2018-11-10
 summary: |
   Have you ever wondered why the less 

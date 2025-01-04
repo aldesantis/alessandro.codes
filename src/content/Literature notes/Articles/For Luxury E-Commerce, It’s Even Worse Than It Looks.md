@@ -1,13 +1,13 @@
 ---
-title: For Luxury E-Commerce, It’s Even Worse Than It Looks
-full_title: For Luxury E-Commerce, It’s Even Worse Than It Looks
-author: Marc Bain
+title: |
+  For Luxury E-Commerce, It’s Even Worse Than It Looks
+full_title: |
+  For Luxury E-Commerce, It’s Even Worse Than It Looks
+author: |
+  Marc Bain
 url: https://www.businessoffashion.com/articles/technology/for-luxury-e-commerce-its-even-worse-than-it-looks/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/tS4Oj67gOi1iKbNMvlolaE8228w=/1200x630/filters:format(jpg):quality(70):focal(737x171:747x181)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/L5M5CGJJXJALTOA4RWNEDMK3YY.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-08 13:17:01.696357+00:00
 published_date: 2024-02-07
 summary: |
   US consumer spending across online luxury sellers like Farfetch, Matches and Net-a-Porter suffered sustained declines throughout 2023. The question is whether the downturn is simply temporary or the luxury e-commerce model itself is broken.

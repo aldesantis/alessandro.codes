@@ -1,13 +1,13 @@
 ---
-title: True Leisure and the Tyranny of Total Work
-full_title: True Leisure and the Tyranny of Total Work
-author: Michael Ashcroft
+title: |
+  True Leisure and the Tyranny of Total Work
+full_title: |
+  True Leisure and the Tyranny of Total Work
+author: |
+  Michael Ashcroft
 url: https://every.to/expanding-awareness/true-leisure-and-the-tyranny-of-total-work
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2799/0W634_Cy2WdQk9wpMz-1dis7AS2er3bDtbaILFAR2FnWDZ5cxegydYWC7ILnU1K1H6vWCT0rMDMuSFpV3iti0Gq1nTjREYsQijKA3wPfmjS4EvjiBTI6MNVQqUSn.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 10:42:09.556141+00:00
 published_date: 2023-09-26
 summary: |
   Don’t define your life by a to-do list you can never finish

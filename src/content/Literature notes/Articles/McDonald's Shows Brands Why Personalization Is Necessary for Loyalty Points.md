@@ -1,13 +1,13 @@
 ---
-title: McDonald's Shows Brands Why Personalization Is Necessary for Loyalty Points
-full_title: McDonald's Shows Brands Why Personalization Is Necessary for Loyalty Points
-author: Matt Smolin
+title: |
+  McDonald's Shows Brands Why Personalization Is Necessary for Loyalty Points
+full_title: |
+  McDonald's Shows Brands Why Personalization Is Necessary for Loyalty Points
+author: |
+  Matt Smolin
 url: https://www.adweek.com/performance-marketing/who-wants-228-big-macs/?utm_source=postup&utm_medium=email&utm_campaign=Adweek_Daily_Newsletter_240507054624&recip_id=2165214&lyt_id=2165214
 category: articles
 image_url: https://static-prod.adweek.com/wp-content/uploads/2024/05/personalization-loyalty-points-2024-600x315.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-11 21:04:42.568078+00:00
 published_date: 2024-05-06
 summary: |
   Customers would see their points as a tangible pathway to getting more of what they love rather than a generic currency.

@@ -1,13 +1,13 @@
 ---
-title: How to Make Your Brand Feel Alive When You Only Have One Product
-full_title: How to Make Your Brand Feel Alive When You Only Have One Product
-author: Dan Frommer
+title: |
+  How to Make Your Brand Feel Alive When You Only Have One Product
+full_title: |
+  How to Make Your Brand Feel Alive When You Only Have One Product
+author: |
+  Dan Frommer
 url: https://newconsumer.com/2022/02/how-to-make-your-brand-feel-alive-when-you-only-have-one-product/
 category: articles
 image_url: https://newconsumer.com/wp-content/uploads/2022/02/april-gargiulo-vintners-daughter-1200x675.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-06 11:25:19.796491+00:00
 published_date: 2022-02-12
 summary: |
   Lessons in world-building from the founders of Vintner’s Daughter and Athletic Greens. 

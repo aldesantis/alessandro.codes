@@ -1,13 +1,13 @@
 ---
-title: Changing Times
-full_title: Changing Times
-author: Elad Gil
+title: |
+  Changing Times
+full_title: |
+  Changing Times
+author: |
+  Elad Gil
 url: https://blog.eladgil.com/p/changing-times-or-why-is-every-layoff
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5c5fb35e-9172-4539-a9a5-37cd9a70477d_1580x874.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-01-03 09:50:18.560460+00:00
 published_date: 2022-11-09
 summary: |
   Changing economic markets suggests a shift in how some companies should operate, as well as what risks to assume for 2023

@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » The “errors” that mean you’re doing it right
-full_title: A Smart Bear » The “errors” that mean you’re doing it right
-author: Jason Cohen
+title: |
+  A Smart Bear » The “errors” that mean you’re doing it right
+full_title: |
+  A Smart Bear » The “errors” that mean you’re doing it right
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/good-problems-to-have?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/good-problems-to-have/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-13 08:05:31.183041+00:00
 published_date: 2024-01-21
 summary: |
   Making mistakes and encountering errors can actually be signs of progress and good decision-making. These "errors" should be celebrated as they indicate that you are working on challenging problems and striving for growth and learning. Some of these errors include re-adding features or bugs to the backlog, pivoting a strategy just after creating it, refactoring infrastructure after experiencing significant growth, adding words to messaging that was too terse, adding back features that were previously removed, fixing lots of bugs just after a major release, waiting too long to scale support or sales, letting someone go soon after hiring, ignoring a competitor's move that turned out to be important, and rejecting lucrative, distracting deals. These errors should be embraced and seen as opportunities for improvement and progress.

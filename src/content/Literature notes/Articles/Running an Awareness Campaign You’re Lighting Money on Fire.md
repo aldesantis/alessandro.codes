@@ -1,13 +1,13 @@
 ---
-title: Running an Awareness Campaign? You’re Lighting Money on Fire
-full_title: Running an Awareness Campaign? You’re Lighting Money on Fire
-author: Nik Sharma
+title: |
+  Running an Awareness Campaign? You’re Lighting Money on Fire
+full_title: |
+  Running an Awareness Campaign? You’re Lighting Money on Fire
+author: |
+  Nik Sharma
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-09 09:30:36.748079+00:00
 published_date: 2023-10-08
 summary: |
   I hope that if you’re reading this, you’re sitting back on a couch, feet up, relaxed, and have a face balm in your hand to hydrate your skin while we talk shop.

@@ -1,13 +1,13 @@
 ---
-title: A 6-Step Framework for Persuasive Writing
-full_title: A 6-Step Framework for Persuasive Writing
-author: Justin Welsh
+title: |
+  A 6-Step Framework for Persuasive Writing
+full_title: |
+  A 6-Step Framework for Persuasive Writing
+author: |
+  Justin Welsh
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-25 11:31:02.816597+00:00
 published_date: 2024-03-23
 summary: |
   At some point in their journey, every creator-entrepreneur struggles to create persuasive messages that resonate with their target audience. Hell, I struggle with this myself all of the time.

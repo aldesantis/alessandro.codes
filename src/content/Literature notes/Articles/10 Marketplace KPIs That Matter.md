@@ -1,13 +1,13 @@
 ---
-title: 10 Marketplace KPIs That Matter
-full_title: 10 Marketplace KPIs That Matter
-author: Andrei Brasoveanu
+title: |
+  10 Marketplace KPIs That Matter
+full_title: |
+  10 Marketplace KPIs That Matter
+author: |
+  Andrei Brasoveanu
 url: https://www.linkedin.com/pulse/10-marketplace-kpis-matter-andrei-brasoveanu/?source=trendsvc&medium=email&utm_source=convertkit&utm_medium=email&utm_campaign=%F0%9F%A7%B0+ChatGPT+SEO+Tools+%F0%9F%92%8C+Growing+Newsletters+%F0%9F%93%8A+10+Marketplace+KPIs%20-%2010681098
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/1520085966156
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-05 08:49:43.711120+00:00
 published_date: 2016-10-20
 summary: |
   Marketplaces are incredibly powerful. They are taking every aspect of our economy by storm and changing how goods and services are discovered, priced and delivered.

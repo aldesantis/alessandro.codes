@@ -1,13 +1,13 @@
 ---
-title: It’s Time to Dismantle the Technopoly
-full_title: It’s Time to Dismantle the Technopoly
-author: Cal Newport
+title: |
+  It’s Time to Dismantle the Technopoly
+full_title: |
+  It’s Time to Dismantle the Technopoly
+author: |
+  Cal Newport
 url: https://www.newyorker.com/tech/annals-of-technology/its-time-to-dismantle-the-technopoly#
 category: articles
 image_url: https://media.newyorker.com/photos/6579d7caab2df2d0c302efb9/16:9/w_1280,c_limit/Newport_Technopoly.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-28 13:31:18.410492+00:00
 published_date: 2023-12-18
 summary: |
   In this article, the author discusses the concept of technopoly and the need to dismantle it. They reflect on their own experience of criticizing social media and the backlash they faced. The author references Neil Postman's book "Technopoly: The Surrender of Culture to Technology," which argues that we now live in a technopoly, where innovation and efficiency are prioritized over traditional values. However, the author highlights that cracks in technopoly are starting to appear, with increasing skepticism and resistance to certain technologies. They propose a perspective called techno-selectionism, which acknowledges the potential benefits of technology while also recognizing the need to reject harmful innovations.

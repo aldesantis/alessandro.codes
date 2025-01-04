@@ -1,13 +1,13 @@
 ---
-title: "Light Labor Day Reading: 7 Predictions About the Future of DTC"
-full_title: "Light Labor Day Reading: 7 Predictions About the Future of DTC"
-author: Nik Sharma
+title: |
+  Light Labor Day Reading: 7 Predictions About the Future of DTC
+full_title: |
+  Light Labor Day Reading: 7 Predictions About the Future of DTC
+author: |
+  Nik Sharma
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-04 14:53:14.348820+00:00
 published_date: 2023-09-03
 summary: |
   Now, look… I know you’ve probably got tomorrow off, so I’m not going to give you a 6-page tactical email for you to go through. Today will be no more than a 4 minute read.

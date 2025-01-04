@@ -1,13 +1,13 @@
 ---
-title: The AI Startup Litmus Test
-full_title: The AI Startup Litmus Test
-author: NFX
+title: |
+  The AI Startup Litmus Test
+full_title: |
+  The AI Startup Litmus Test
+author: |
+  NFX
 url: https://www.nfx.com/post/ai-startup-litmus-test?utm_campaign=NFX%20Newsletter&utm_medium=email&_hsmi=257931233&_hsenc=p2ANqtz-8JmFrC0yR7-C0py1kg0B5vcIyzQH6zv2zASS_i7fNoUW50dDhcAB89YmgCdBCyPFC3A1t94NMdxypDvw1CnJdVOoKjPXMQdtiurhQ98y26-dIkL_k&utm_content=257931233&utm_source=hs_email
 category: articles
 image_url: https://content.nfx.com/wp-content/uploads/2023/05/ai-litmus-test-social-2.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-09 08:39:19.682723+00:00
 published_date: 2023-05-11
 summary: |
   Differentiation is critical for Generative AI startups. Use the AI Litmus Test to determine if your company is unique, hard and defensible.

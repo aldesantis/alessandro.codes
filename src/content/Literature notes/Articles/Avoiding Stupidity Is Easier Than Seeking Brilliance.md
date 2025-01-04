@@ -1,13 +1,13 @@
 ---
-title: Avoiding Stupidity Is Easier Than Seeking Brilliance
-full_title: Avoiding Stupidity Is Easier Than Seeking Brilliance
-author: Farnam Street
+title: |
+  Avoiding Stupidity Is Easier Than Seeking Brilliance
+full_title: |
+  Avoiding Stupidity Is Easier Than Seeking Brilliance
+author: |
+  Farnam Street
 url: https://fs.blog/avoiding-stupidity/
 category: articles
 image_url: https://149664534.v2.pressablecdn.com/wp-content/uploads/2014/06/Avoiding-Stupidity.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 22:29:12.510197+00:00
 published_date: 2014-06-11
 summary: |
   When it comes to unlocking great outcomes, avoiding stupidity is more reliable than seeking brilliance.

@@ -1,13 +1,13 @@
 ---
-title: 2024 Will Be a Make-or-Break Year for TikTok Shop
-full_title: 2024 Will Be a Make-or-Break Year for TikTok Shop
-author: Danny Parisi
+title: |
+  2024 Will Be a Make-or-Break Year for TikTok Shop
+full_title: |
+  2024 Will Be a Make-or-Break Year for TikTok Shop
+author: |
+  Danny Parisi
 url: https://www.glossy.co/fashion/2024-will-be-a-make-or-break-year-for-tiktok-shop/?utm_source=Sailthru&utm_medium=email&utm_campaign=Issue:%202024-01-03%20Retail%20Dive:%20Marketing%20%5Bissue:57824%5D&utm_term=Retail%20Dive:%20Marketing
 category: articles
 image_url: https://www.glossy.co/wp-content/uploads/sites/4/2023/12/Screenshot-2023-12-26-at-11.50.46-AM.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-05 15:47:36.159409+00:00
 published_date: 2023-12-27
 summary: |
   2023 was a significant year for social commerce, with the launch of TikTok Shop in the U.S. and the growing convergence of social media and shopping. However, TikTok Shop is projected to lose $500 million in 2023, despite positive feedback from customers and merchants. Analysts predict that in 2024, more social commerce platforms will adopt a marketplace model, allowing independent sellers to list items without direct oversight. The challenge for social commerce lies in ensuring a positive customer experience and addressing concerns about counterfeit products. Nevertheless, the popularity of TikTok and the continued growth of social media make it a promising channel for brands to connect with customers.

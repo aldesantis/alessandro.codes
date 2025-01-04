@@ -1,13 +1,13 @@
 ---
-title: Lucky vs. Repeatable
-full_title: Lucky vs. Repeatable
-author: Morgan Housel
+title: |
+  Lucky vs. Repeatable
+full_title: |
+  Lucky vs. Repeatable
+author: |
+  Morgan Housel
 url: https://collabfund.com/blog/lucky-vs-repeatable/
 category: articles
 image_url: https://collabfund.com/assets/images/og-image.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-16 12:55:28.517628+00:00
 published_date: 2024-04-08
 summary: |
   Luck plays a big role in success, but it's important to focus on what is repeatable rather than purely attributing success to luck. Learning from skills that are repeatable can lead to sustainable success in business and investing. Emulating repeatable lessons from successful individuals like Warren Buffett and Elon Musk can increase your chances of success.

@@ -1,13 +1,13 @@
 ---
-title: Shoppers Don’t Love in-Store Experiences as Much as Retailers Think, Study Finds
-full_title: Shoppers Don’t Love in-Store Experiences as Much as Retailers Think, Study Finds
-author: Bryan Wassel
+title: |
+  Shoppers Don’t Love in-Store Experiences as Much as Retailers Think, Study Finds
+full_title: |
+  Shoppers Don’t Love in-Store Experiences as Much as Retailers Think, Study Finds
+author: |
+  Bryan Wassel
 url: https://www.customerexperiencedive.com/news/shoppers-in-store-experiences-fun-seamless-voice-of-customer/719820/?utm_source=Sailthru&utm_medium=email&utm_campaign=Newsletter%20Weekly%20Roundup:%20CX%20Dive:%20Daily%20Dive%2006-29-2024&utm_term=CX%20Dive%20Weekender
 category: articles
 image_url: https://www.customerexperiencedive.com/imgproxy/R7dc1O_ucWObA_vZJXrMRRLaP4J2n6_CDG2i-Z37_mA/g:ce/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL0dldHR5SW1hZ2VzLTE2NjcxMzExMjUuanBn.webp
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-30 12:55:10.023870+00:00
 published_date: 2024-06-25
 summary: |
   Many retailers believe shoppers love browsing in stores, but not all consumers agree. Customers want enjoyable and quick shopping experiences, with a blend of online and in-store journeys being preferred. Retailers can improve by listening to customer needs, using analytics tools, and offering innovative services to make the in-store experience more engaging.

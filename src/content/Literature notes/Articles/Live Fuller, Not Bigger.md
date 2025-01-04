@@ -1,13 +1,13 @@
 ---
-title: Live Fuller, Not Bigger
-full_title: Live Fuller, Not Bigger
-author: Evan Armstrong
+title: |
+  Live Fuller, Not Bigger
+full_title: |
+  Live Fuller, Not Bigger
+author: |
+  Evan Armstrong
 url: https://every.to/napkin-math/live-fuller-not-bigger
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2826/puppy.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-30 10:19:13.185502+00:00
 published_date: 2023-10-26
 summary: |
   You must escape the shallow joy of more

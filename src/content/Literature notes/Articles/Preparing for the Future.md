@@ -1,13 +1,13 @@
 ---
-title: Preparing for the Future
-full_title: Preparing for the Future
-author: Marty Cagan
+title: |
+  Preparing for the Future
+full_title: |
+  Preparing for the Future
+author: |
+  Marty Cagan
 url: https://www.svpg.com/preparing-for-the-future/
 category: articles
 image_url: https://www.svpg.com/wp-content/themes/svpg2022/app/img/svpg-social.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-21 09:45:24.363368+00:00
 published_date: 2023-06-09
 summary: |
   A partnership dedicated to teaching best practices to product teams and product leaders

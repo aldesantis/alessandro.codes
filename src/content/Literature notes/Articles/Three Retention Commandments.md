@@ -1,13 +1,13 @@
 ---
-title: Three Retention Commandments
-full_title: Three Retention Commandments
-author: Eli Weiss
+title: |
+  Three Retention Commandments
+full_title: |
+  Three Retention Commandments
+author: |
+  Eli Weiss
 url: https://www.eliweisss.com/p/three-retention-commandments?utm_source=www.eliweisss.com&utm_medium=newsletter&utm_campaign=three-retention-commandments
 category: articles
 image_url: https://beehiiv-images-production.s3.amazonaws.com/uploads/publication/thumbnail/3aab233a-aa55-46a6-a039-934d07428cad/landscape_Green__White___Pink_Aesthetic_Simple_Monogram_Brand_Font_Logo___400___200_px___1_.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-14 08:03:16.753488+00:00
 published_date: 2024-05-09
 summary: |
   The text discusses three key pillars for customer retention: knowing the customer, testing strategies, and managing email frequency. It emphasizes the importance of understanding customer behavior, conducting proper testing, and avoiding excessive email bombardment to maintain long-term customer relationships. The author shares insights on retention strategies and cautions against prioritizing short-term gains over sustainable customer engagement.

@@ -1,13 +1,13 @@
 ---
-title: "The Greatest Privilege We Never Talk About: Beauty"
-full_title: "The Greatest Privilege We Never Talk About: Beauty"
-author: Saeid Fard
+title: |
+  The Greatest Privilege We Never Talk About: Beauty
+full_title: |
+  The Greatest Privilege We Never Talk About: Beauty
+author: |
+  Saeid Fard
 url: https://medium.com/@sfard/the-greatest-privilege-we-hardly-talk-about-beauty-7db3f70c1116
 category: articles
 image_url: https://miro.medium.com/max/440/0*oYWbfFI1wo5rr3w1.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-18 09:56:35.243005+00:00
 published_date: 2020-07-13
 summary: |
   The advantages of being attractive are exorbitant. Beauty might be the single greatest physical advantage you can have in life. And yet…

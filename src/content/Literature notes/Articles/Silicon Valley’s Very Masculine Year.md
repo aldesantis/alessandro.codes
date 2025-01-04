@@ -1,13 +1,13 @@
 ---
-title: Silicon Valley’s Very Masculine Year
-full_title: Silicon Valley’s Very Masculine Year
-author: Zoë Bernard
+title: |
+  Silicon Valley’s Very Masculine Year
+full_title: |
+  Silicon Valley’s Very Masculine Year
+author: |
+  Zoë Bernard
 url: https://www.vox.com/technology/2023/12/27/24011198/bezos-zuckerberg-musk-buff-mma-masculine?utm_source=news.futureparty.com&utm_medium=newsletter&utm_campaign=revenge-pays
 category: articles
 image_url: https://cdn.vox-cdn.com/thumbor/Vks_6pQFYN_fMDdMqfH0gP-ZoTc=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25179421/Vox_MasculinityProblem_RichardAChance.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-28 13:16:38.350063+00:00
 published_date: 2023-12-27
 summary: |
   Silicon Valley has seen a shift towards a more masculine culture in recent years. The leaders of the tech industry are embracing a more muscular and aggressive image, with a focus on physical strength and combat. This shift has led to a decrease in diversity and representation of women in tech leadership roles. The change in culture can be attributed to factors such as the desire for financial success and the influence of influential figures like Jeff Bezos and Mark Zuckerberg. Additionally, the competitive nature of the industry has contributed to a more ruthless and cutthroat environment.

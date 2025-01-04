@@ -1,13 +1,13 @@
 ---
-title: Walmart Sets Sights on Retail Media as Content and Commerce Blur
-full_title: Walmart Sets Sights on Retail Media as Content and Commerce Blur
-author: PYMNTS
+title: |
+  Walmart Sets Sights on Retail Media as Content and Commerce Blur
+full_title: |
+  Walmart Sets Sights on Retail Media as Content and Commerce Blur
+author: |
+  PYMNTS
 url: https://www.pymnts.com/news/retail/2024/walmart-sets-sights-on-retail-media-as-content-and-commerce-blur/
 category: articles
 image_url: https://www.pymnts.com/wp-content/uploads/2024/02/smart-TV-Walmart-Vizio-retail.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-21 11:16:59.042362+00:00
 published_date: 2024-02-16
 summary: |
   Walmart is considering acquiring Vizio, a smart TV maker, for over $2 billion to enhance its advertising business and compete with Amazon in the streaming media space. This move reflects the growing importance of consumer data and targeted advertising for major retailers to stay competitive. With Amazon's strong presence in shoppable ads and streaming services, Walmart aims to leverage Vizio's technology to offer targeted advertising on Vizio TVs and adapt to the changing landscape of retail and media where entertainment and commerce converge.

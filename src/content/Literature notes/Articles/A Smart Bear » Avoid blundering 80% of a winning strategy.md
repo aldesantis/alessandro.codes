@@ -1,13 +1,13 @@
 ---
-title: "A Smart Bear » Avoid blundering: 80% of a winning strategy"
-full_title: "A Smart Bear » Avoid blundering: 80% of a winning strategy"
-author: Jason Cohen
+title: |
+  A Smart Bear » Avoid blundering: 80% of a winning strategy
+full_title: |
+  A Smart Bear » Avoid blundering: 80% of a winning strategy
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/avoid-blundering/
 category: articles
 image_url: https://longform.asmartbear.com/avoid-blundering/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-12 12:32:31.046803+00:00
 published_date: 2024-03-31
 summary: |
   The key to winning in chess and startups is to avoid making blunders. Blunders significantly impact game outcomes, with players committing more blunders losing the majority of the time. Startups can also fail due to preventable blunders, such as not understanding customer needs or launching too early.

@@ -1,13 +1,13 @@
 ---
-title: LVMH’s Anish Melwani on the Innovations to Pursue and Avoid for Luxury
-full_title: LVMH’s Anish Melwani on the Innovations to Pursue and Avoid for Luxury
-author: Maghan McDowell
+title: |
+  LVMH’s Anish Melwani on the Innovations to Pursue and Avoid for Luxury
+full_title: |
+  LVMH’s Anish Melwani on the Innovations to Pursue and Avoid for Luxury
+author: |
+  Maghan McDowell
 url: https://www.voguebusiness.com/story/companies/lvmhs-anish-melwani-on-the-innovations-to-pursue-and-avoid-for-luxury
 category: articles
 image_url: https://media.voguebusiness.com/photos/673f4ca2d8493f48344344ba/16:9/w_1280,c_limit/VB-EXEC-SUMMIT-ARTICLE-LVMH-social-newsletter.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-27 12:58:11.724902+00:00
 published_date: 2024-11-22
 summary: |
   LVMH's Anish Melwani emphasizes the importance of understanding younger consumers' preferences in the luxury market. He sees potential in storytelling through digital platforms and entertainment while being cautious about resale and rental models. Melwani is optimistic about digital product passports and artificial intelligence, viewing them as key technologies for the future of luxury.

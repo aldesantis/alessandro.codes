@@ -1,13 +1,13 @@
 ---
-title: Under the Hood With Steph Hon From Cadence
-full_title: Under the Hood With Steph Hon From Cadence
-author: RC From 1-800-D2C
+title: |
+  Under the Hood With Steph Hon From Cadence
+full_title: |
+  Under the Hood With Steph Hon From Cadence
+author: |
+  RC From 1-800-D2C
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-18 22:13:02.874055+00:00
 published_date: 2023-12-18
 summary: |
   This week we have an Under The Hood with Steph Hon, founder and CEO of Cadence. Steph is an incredible founder and has built a very meaningful brand in Cadence.

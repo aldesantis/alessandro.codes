@@ -1,13 +1,13 @@
 ---
-title: Would You Date Yourself?
-full_title: Would You Date Yourself?
-author: Mark Manson
+title: |
+  Would You Date Yourself?
+full_title: |
+  Would You Date Yourself?
+author: |
+  Mark Manson
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-12 11:46:37.911616+00:00
 published_date: 2024-02-12
 summary: |
   Here in the US, it’s Valentine’s Day this week, a (supposedly) romantic holiday.

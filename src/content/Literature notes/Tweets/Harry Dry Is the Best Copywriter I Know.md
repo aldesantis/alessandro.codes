@@ -1,13 +1,13 @@
 ---
-title: Harry Dry Is the Best Copywriter I Know
-full_title: Harry Dry Is the Best Copywriter I Know
-author: David Perell
+title: |
+  Harry Dry Is the Best Copywriter I Know
+full_title: |
+  Harry Dry Is the Best Copywriter I Know
+author: |
+  David Perell
 url: https://x.com/david_perell/status/1813575526100926564/?rw_tt_thread=True
 category: tweets
 image_url: https://pbs.twimg.com/profile_images/1759062533078495232/-79hY8EP.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-12 21:23:27.724909+00:00
 published_date: 2024-07-17
 summary: |
   Harry Dry is a top copywriter with a large newsletter teaching copywriting skills. Some key rules for effective copy include making sentences shorter, being concrete and visual, and backing claims with proof. Writing compelling copy involves making bold promises, simplifying language, and engaging readers as if they were the ones speaking.

@@ -1,13 +1,13 @@
 ---
-title: What It Really Takes to Develop Product-Led Growth
-full_title: What It Really Takes to Develop Product-Led Growth
-author: Justin Murphy
+title: |
+  What It Really Takes to Develop Product-Led Growth
+full_title: |
+  What It Really Takes to Develop Product-Led Growth
+author: |
+  Justin Murphy
 url: https://www.bain.com/insights/what-it-really-takes-to-develop-product-led-growth/
 category: articles
 image_url: https://www.bain.com/contentassets/3422d926408441f0bdd238e47c4211e8/gettyimages-1348968292-16_9.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-30 09:04:43.384866+00:00
 published_date: 2023-01-24
 summary: |
   Many B2B software companies are considering this approach without a clear understanding of the capabilities required. 

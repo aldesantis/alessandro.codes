@@ -1,13 +1,13 @@
 ---
-title: Why DTC Is a Relationship and Not Just a Channel
-full_title: Why DTC Is a Relationship and Not Just a Channel
-author: Alex Vuocolo
+title: |
+  Why DTC Is a Relationship and Not Just a Channel
+full_title: |
+  Why DTC Is a Relationship and Not Just a Channel
+author: |
+  Alex Vuocolo
 url: https://modernretail.cmail20.com/t/t-l-voeuy-jtzkujtyd-n/
 category: articles
 image_url: https://cdn.sanity.io/images/bl383u0v/production/626b74995d04697c889d16d2d00d36faefe5c633-5196x3464.jpg?rect=0,368,5196,2728&w=1200&h=630&q=70&fit=crop&auto=format
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-09 09:44:40.381847+00:00
 published_date: 2023-09-14
 summary: |
   The executive values his company’s direct relationship with customers, but says it’s all about sales and profits at the end of the day.

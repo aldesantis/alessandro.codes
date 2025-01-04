@@ -1,13 +1,13 @@
 ---
-title: Why Cotopaxi Is Making Retail a Cornerstone of Its Growth Strategy
-full_title: Why Cotopaxi Is Making Retail a Cornerstone of Its Growth Strategy
-author: Melissa Daniels
+title: |
+  Why Cotopaxi Is Making Retail a Cornerstone of Its Growth Strategy
+full_title: |
+  Why Cotopaxi Is Making Retail a Cornerstone of Its Growth Strategy
+author: |
+  Melissa Daniels
 url: https://link.retaildive.com/click/32049978.20858/aHR0cHM6Ly93d3cubW9kZXJucmV0YWlsLmNvL29wZXJhdGlvbnMvd2h5LWNvdG9wYXhpLWlzLW1ha2luZy1yZXRhaWwtYS1jb3JuZXJzdG9uZS1vZi1pdHMtZ3Jvd3RoLXN0cmF0ZWd5Lw/637e582e0821e0a3d7090092B90a53e66
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2023/07/Del-Dia-e1689010837287.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 16:13:32.241272+00:00
 published_date: 2023-07-11
 summary: |
   Cotopaxi is growing from a niche outdoors B-corp into a nine-figure brand as it expands its retail footprint across the country. 

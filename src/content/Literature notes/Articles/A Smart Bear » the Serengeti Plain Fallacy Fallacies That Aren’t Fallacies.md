@@ -1,13 +1,13 @@
 ---
-title: "A Smart Bear » the Serengeti Plain Fallacy: Fallacies That Aren’t Fallacies"
-full_title: "A Smart Bear » the Serengeti Plain Fallacy: Fallacies That Aren’t Fallacies"
-author: Jason Cohen
+title: |
+  A Smart Bear » the Serengeti Plain Fallacy: Fallacies That Aren’t Fallacies
+full_title: |
+  A Smart Bear » the Serengeti Plain Fallacy: Fallacies That Aren’t Fallacies
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/fallacies/?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/fallacies/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-17 13:59:47.324758+00:00
 published_date: 2024-10-20
 summary: |
   The author argues that the concept of "maximizing expected value" is often misleading and not the best way to make decisions. He suggests that common biases, like loss aversion, should not be dismissed as fallacies, as they can be rational responses to risk. Instead of blindly following buzzwords, individuals should think critically and adapt their strategies based on their unique situations.

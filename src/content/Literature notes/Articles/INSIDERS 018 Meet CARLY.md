@@ -1,13 +1,13 @@
 ---
-title: "INSIDERS 018: Meet CARLY"
-full_title: "INSIDERS 018: Meet CARLY"
-author: Phillip Jackson
+title: |
+  INSIDERS 018: Meet CARLY
+full_title: |
+  INSIDERS 018: Meet CARLY
+author: |
+  Phillip Jackson
 url: https://www.futurecommerce.com/posts/insiders-018-meet-carly
 category: articles
 image_url: https://uploads-ssl.webflow.com/5d7da04028ecca2357d6b3b0/6430e930854b8b6670db443b_1.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-09 09:58:25.411398+00:00
 published_date: 2019-12-11
 summary: |
   Some may call them Generation Z - but they’re not all of a particular generational group as you see some late teens to early thirties. You’ve heard of HENRY. Let me introduce you to CARLY: Can’t Afford Real Life Yet.

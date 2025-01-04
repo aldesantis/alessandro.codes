@@ -1,13 +1,13 @@
 ---
-title: "Memo: Redefining The Revenue Model in CPG"
-full_title: "Memo: Redefining The Revenue Model in CPG"
-author: 2PM
+title: |
+  Memo: Redefining The Revenue Model in CPG
+full_title: |
+  Memo: Redefining The Revenue Model in CPG
+author: |
+  2PM
 url: https://2pml.com/2023/05/09/subscription/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/05/chart-05.10.2023-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-08 08:54:12.445329+00:00
 published_date: 2023-05-09
 summary: |
   It’s been a boom season for consumer packaged goods and perishable foods brands. This growth skewed heavily towards those properly positioned to benefit from omnichannel distribution and it p…

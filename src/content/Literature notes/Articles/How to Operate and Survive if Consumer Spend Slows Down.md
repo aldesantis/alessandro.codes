@@ -1,13 +1,13 @@
 ---
-title: How to Operate and Survive if Consumer Spend Slows Down
-full_title: How to Operate and Survive if Consumer Spend Slows Down
-author: Cody Plofker
+title: |
+  How to Operate and Survive if Consumer Spend Slows Down
+full_title: |
+  How to Operate and Survive if Consumer Spend Slows Down
+author: |
+  Cody Plofker
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-10 00:07:11.722919+00:00
 published_date: 2023-10-09
 summary: |
   Hey there. First thing is first, I am incredibly saddened by the events in Israel this weekend.

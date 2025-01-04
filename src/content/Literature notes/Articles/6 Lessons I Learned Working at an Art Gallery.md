@@ -1,13 +1,13 @@
 ---
-title: 6 Lessons I Learned Working at an Art Gallery
-full_title: 6 Lessons I Learned Working at an Art Gallery
-author: Henrik Karlsson
+title: |
+  6 Lessons I Learned Working at an Art Gallery
+full_title: |
+  6 Lessons I Learned Working at an Art Gallery
+author: |
+  Henrik Karlsson
 url: https://www.henrikkarlsson.xyz/p/art-gallery?utm_source=post-email-title&publication_id=313411&post_id=151598106&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe720a953-2771-40ab-8b09-2e6d24c2ba93_857x1056.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-14 04:18:26.959551+00:00
 published_date: None
 summary: |
   On agency, doing value-aligned work, and making your job fun

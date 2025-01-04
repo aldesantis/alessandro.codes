@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Your Mental Diet"
-full_title: "Brain Food: Your Mental Diet"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Your Mental Diet
+full_title: |
+  Brain Food: Your Mental Diet
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-11 13:27:15.269860+00:00
 published_date: 2024-08-11
 summary: |
   “Solitude is a condition of peace that stands in direct opposition to loneliness. Loneliness is like sitting in an empty room and being aware of the space around you.

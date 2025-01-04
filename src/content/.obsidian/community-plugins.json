@@ -1,5 +1,4 @@
 [
-  "readwise-official",
   "smart-random-note",
   "obsidian-minimal-settings",
   "obsidian-smart-typography",
@@ -9,5 +8,6 @@
   "obsidian-linter",
   "obsidian-git",
   "obsidian-importer",
-  "mdx-as-md-obsidian"
+  "mdx-as-md-obsidian",
+  "readwise-official"
 ]

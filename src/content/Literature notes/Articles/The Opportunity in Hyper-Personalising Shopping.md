@@ -1,13 +1,13 @@
 ---
-title: The Opportunity in Hyper-Personalising Shopping
-full_title: The Opportunity in Hyper-Personalising Shopping
-author: BoF Team
+title: |
+  The Opportunity in Hyper-Personalising Shopping
+full_title: |
+  The Opportunity in Hyper-Personalising Shopping
+author: |
+  BoF Team
 url: https://www.businessoffashion.com/articles/technology/state-of-fashion-technology-report-hyper-personalisation/?utm_source=newsletter_technology&utm_medium=email&utm_campaign=Technology_120624&utm_content=intro
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/VMRFEBBINJC53ELJKDRH7BLUU4.png?smart=true&auth=a97e61557aa667f7fb84f47607333b94651a53eec68548ceea6e510949416ec7&width=1200&height=630
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-13 09:34:38.612730+00:00
 published_date: 2022-06-02
 summary: |
   Fashion brands are using AI and Big Data to personalize online shopping experiences for customers. Personalization is crucial for brands to connect with consumers in a competitive market. Companies must invest in data collection and analytics to deliver hyper-personalized e-commerce content and experiences.

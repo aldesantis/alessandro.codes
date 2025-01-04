@@ -1,13 +1,13 @@
 ---
-title: Amazon’s Fast Delivery Moat
-full_title: Amazon’s Fast Delivery Moat
-author: Marketplace Pulse
+title: |
+  Amazon’s Fast Delivery Moat
+full_title: |
+  Amazon’s Fast Delivery Moat
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/amazons-fast-delivery-moat
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/659/cover_social.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-22 21:27:53.070251+00:00
 published_date: 2024-05-02
 summary: |
   Amazon's same-day and next-day delivery is widening the gap between it and the rest of e-commerce.

@@ -1,13 +1,13 @@
 ---
-title: 2 Mins On... Dead Stock
-full_title: 2 Mins On... Dead Stock
-author: Luke Hodgson at Commerce Thinking
+title: |
+  2 Mins On... Dead Stock
+full_title: |
+  2 Mins On... Dead Stock
+author: |
+  Luke Hodgson at Commerce Thinking
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-07 15:07:09.701957+00:00
 published_date: 2024-03-07
 summary: |
   Unchecked, dead stock can be the silent killer of an otherwise successful business because it hammers profitability and ties up working capital.

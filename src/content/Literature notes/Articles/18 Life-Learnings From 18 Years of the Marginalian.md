@@ -1,13 +1,13 @@
 ---
-title: 18 Life-Learnings From 18 Years of the Marginalian
-full_title: 18 Life-Learnings From 18 Years of the Marginalian
-author: Maria Popova
+title: |
+  18 Life-Learnings From 18 Years of the Marginalian
+full_title: |
+  18 Life-Learnings From 18 Years of the Marginalian
+author: |
+  Maria Popova
 url: https://www.themarginalian.org/2024/10/22/marginalian-18/
 category: articles
 image_url: https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2021/10/cropped-tm_site_icon-1.png?fit=192%2C192&ssl=1
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-01 14:24:22.991254+00:00
 published_date: 2024-10-23
 summary: |
   Maria Popova reflects on 18 life lessons learned over 18 years while running The Marginalian. She emphasizes that personal growth comes from walking your own path and finding joy amidst challenges. Forgiveness, sincerity, and seeking meaningful connections are essential for a fulfilling life.

@@ -1,13 +1,13 @@
 ---
-title: Quadrupling NRABucks to $6B
-full_title: Quadrupling NRABucks to $6B
-author: Jeremy Horowitz
+title: |
+  Quadrupling NRABucks to $6B
+full_title: |
+  Quadrupling NRABucks to $6B
+author: |
+  Jeremy Horowitz
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-22 09:10:35.670117+00:00
 published_date: 2024-07-21
 summary: |
   Black Rifle Coffee is falling prey to the same mistakes that every other DTC darling made. Only strong leadership (we) can fix it.

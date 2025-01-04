@@ -1,13 +1,13 @@
 ---
-title: RH Is Trading at 203x EARNINGS!
-full_title: RH Is Trading at 203x EARNINGS!
-author: Jeremy Horowitz
+title: |
+  RH Is Trading at 203x EARNINGS!
+full_title: |
+  RH Is Trading at 203x EARNINGS!
+author: |
+  Jeremy Horowitz
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-20 19:03:59.224100+00:00
 published_date: 2024-10-20
 summary: |
   Everything about RH’s P&L is wrong, and they’re betting the farm despite the market not being in their favor... So, we’re shorting this biz.

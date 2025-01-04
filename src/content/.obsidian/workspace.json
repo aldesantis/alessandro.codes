@@ -4,101 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f4d5c33950c043",
+        "id": "016b3ebd5a1ccfd0",
         "type": "tabs",
         "children": [
           {
-            "id": "e1204e9186f6d41d",
+            "id": "7b081a31e246197b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evergreen notes/Things that don't scale keep you grounded.md",
+                "file": "About this space.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Things that don't scale keep you grounded"
-            }
-          },
-          {
-            "id": "92dd34397874366c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evergreen notes/Cultural fragmentation causes market fragmentation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cultural fragmentation causes market fragmentation"
-            }
-          },
-          {
-            "id": "7167a940de6b5431",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evergreen notes/Regulation can create opportunity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Regulation can create opportunity"
-            }
-          },
-          {
-            "id": "edd3186e0895f100",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "essays/multi-brand-retail-value-chain.mdx",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "multi-brand-retail-value-chain"
-            }
-          },
-          {
-            "id": "5e9d43b62d737de5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evergreen notes/AI allows hyper-personalization.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI allows hyper-personalization"
-            }
-          },
-          {
-            "id": "0f891d6ad8cd9cae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature notes/Articles/Teen Subcultures Are Fading. Pity the Poor Kids..md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Teen Subcultures Are Fading. Pity the Poor Kids."
+              "title": "About this space"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Evergreen notes/\" path:\"open\"",
+                "query": "\"Don’t make this mistake.\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -252,44 +176,44 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "edd3186e0895f100",
+  "active": "52ac151968d09694",
   "lastOpenFiles": [
-    "Evergreen notes/Things that don't scale keep you grounded.md",
-    "Evergreen notes/Avoid open-ended next steps in sales.md",
-    "Evergreen notes/Regulation can create opportunity.md",
-    "Evergreen notes/Common enemies unite individuals.md",
-    "Evergreen notes/Excessive cultural fragmentation causes social isolation.md",
-    "Evergreen notes/Cultural fragmentation causes market fragmentation.md",
-    "Evergreen notes/Personalization may be harmful.md",
     "Literature notes/Articles/Gartner Predicts AI Agents Will Transform Work, but Disillusionment Is Growing.md",
     "Literature notes/Articles/McKinsey CMOs Feel Unprepared as Duties Pile Up.md",
-    "Evergreen notes/Hyper-connectivity masks loneliness.md",
-    "Evergreen notes/Information abundance causes cultural fragmentation.md",
-    "Evergreen notes/AI allows hyper-personalization.md",
-    "Evergreen notes/Marketing must build availability.md",
-    "Evergreen notes/Brand management aims to turn brands into landmarks.md",
-    "Literature notes/Books/Managing the Professional Service Firm.md",
-    "Evergreen notes/Focus on the process, not the outcome.md",
-    "Evergreen notes/Cultural brands are bidirectional.md",
-    "Evergreen notes/Turn your brand into social capital.md",
-    "Literature notes/Articles/Teen Subcultures Are Fading. Pity the Poor Kids..md",
-    "Evergreen notes/Brand purpose should be generative.md",
+    "Literature notes/Articles/How Do You Know When to Stop, Versus When to Push Through You Don’t, Not Even in Hindsight. But.md",
     "Literature notes/Articles/BOF The Secrets to Mytheresa’s Success.md",
     "Literature notes/Articles/What American Retailers Can Learn From European Department Stores.md",
     "Literature notes/Articles/How Brands Can Navigate the Murky World of Online Streaming.md",
     "Literature notes/Articles/Innovation Won’t Save Department Stores. The Right Products Will..md",
-    "About this space.md",
-    "Evergreen notes/Good consulting requires client collaboration.md",
-    "Recipes 5a2a5d47048a41f5a0a7be3686214c77_all.csv",
-    "Recipes",
+    "Literature notes/Articles/The Next Big Thing in 2025 Will Be....md",
+    "Literature notes/Articles/What a No-Phone Fashion Show Means in the Social Media Era.md",
+    "Literature notes/Articles/Hindsight Is 2020. The Future Is 2025..md",
+    "Literature notes/Articles/Brain Rot [12.30.2024].md",
+    "Literature notes/Articles/Q̾u̾i̾c̾k̾ ̾F̾i̾r̾e̾ How to Be Chronically Online, While Being Offline.md",
+    "Literature notes/Articles/‘Our Darwinian Moment’ The CPG Industry Was Plagued With Shutdowns in 2024 Amid a Tough Operating.md",
+    "Literature notes/Articles/The Case for and Against Live Shopping in the U.S..md",
+    "Literature notes/Articles/TikTok Ban Will Undo Social Commerce in the US.md",
+    "Literature notes/Articles/Brand Analysis C Is for Coterie.md",
+    "Literature notes/Articles/Repeat Returns Offenders.md",
+    "Literature notes/Articles/Brain Food Given Before Earned.md",
+    "Literature notes/Articles/My 2025 Predictions AppLovin, Ecom Boom, and AI Failure.md",
+    "Literature notes/Articles/Writing Wrapped.md",
+    "Literature notes/Articles/Google Has No Choice but to Bet Big on YouTube.md",
+    "Literature notes/Articles/How to Activate a Cultural Program.md",
+    "Literature notes/Articles/10 Things I Hate About You A Love Letter to Ecomm and Retail..md",
+    "Literature notes/Articles/How Product Updates Like Faster Checkout Ramp Up Shopify’s Enterprise Growth Strategy.md",
+    "Literature notes/Articles/NIQ Research Uncovers Hidden Consumer Attitudes Toward AI-generated Ads.md",
+    "Literature notes/Articles/Member Brief “Death to Agencies” on the Wall.md",
     "Literature notes/Tweets",
-    "Literature notes/Podcasts",
     "Literature notes/Books",
     "Literature notes/Articles",
     "Literature notes",
-    "Maps of content/Topics",
-    "Embeds",
+    "Untitled",
+    "Literature notes/Podcasts",
     "Literature notes",
+    "Literature notes",
+    "Literature notes",
+    "essays/multi-brand-retail-value-chain.mdx",
     "Evergreen notes/assets/Toothpaste-Chart.png",
     "Digital garden/Evergreen notes/assets/logo.jpg",
     "quartz/static/og-image.png",

@@ -1,13 +1,13 @@
 ---
-title: Expansion, Always, in All Ways
-full_title: Expansion, Always, in All Ways
-author: Jakob Greenfeld from Play Permissionless
+title: |
+  Expansion, Always, in All Ways
+full_title: |
+  Expansion, Always, in All Ways
+author: |
+  Jakob Greenfeld from Play Permissionless
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-08 12:42:52.666570+00:00
 published_date: 2024-04-08
 summary: |
   Play Permissionless is free today. But if you enjoyed this post, you can tell Play Permissionless that their writing is valuable by pledging a future subscription.

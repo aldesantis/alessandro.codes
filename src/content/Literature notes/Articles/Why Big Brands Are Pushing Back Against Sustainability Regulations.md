@@ -1,13 +1,13 @@
 ---
-title: Why Big Brands Are Pushing Back Against Sustainability Regulations
-full_title: Why Big Brands Are Pushing Back Against Sustainability Regulations
-author: Kenneth Pucker
+title: |
+  Why Big Brands Are Pushing Back Against Sustainability Regulations
+full_title: |
+  Why Big Brands Are Pushing Back Against Sustainability Regulations
+author: |
+  Kenneth Pucker
 url: https://www.businessoffashion.com/opinions/sustainability/why-big-brands-are-pushing-back-against-sustainability-regulations/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/Vgg0HPDHaSXmWggC_ffcZSyzzd8=/1200x630/filters:format(jpg):quality(70):focal(837x460:847x470)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/GITGQ4IZ6NHQBCVLJJCLREDOHE.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-30 12:55:34.409583+00:00
 published_date: 2024-01-30
 summary: |
   Fashion companies argue proposed government mandates for greater supply chain transparency are ‘impractical.’ They shouldn’t be, writes Kenneth P. Pucker.

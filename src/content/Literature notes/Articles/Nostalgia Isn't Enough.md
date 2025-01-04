@@ -1,13 +1,13 @@
 ---
-title: Nostalgia Isn't Enough
-full_title: Nostalgia Isn't Enough
-author: Ana Andjelic
+title: |
+  Nostalgia Isn't Enough
+full_title: |
+  Nostalgia Isn't Enough
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/nostalgia-isnt-enough?utm_source=post-email-title&publication_id=18831&post_id=139150931&utm_campaign=email-post-title&isFreemail=false&r=og9hp&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdbd38489-4b88-4709-acd5-0e8638e94e23_2042x2670.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-29 16:05:30.617003+00:00
 published_date: 2023-11-27
 summary: |
   Can't revive a brand on memories

@@ -1,13 +1,13 @@
 ---
-title: "DTC Briefing: 3 Founders on What the Acquisition Market Is Like Right Now"
-full_title: "DTC Briefing: 3 Founders on What the Acquisition Market Is Like Right Now"
-author: Anna Hensel
+title: |
+  DTC Briefing: 3 Founders on What the Acquisition Market Is Like Right Now
+full_title: |
+  DTC Briefing: 3 Founders on What the Acquisition Market Is Like Right Now
+author: |
+  Anna Hensel
 url: https://www.modernretail.co/operations/dtc-briefing-3-founders-on-what-the-acquisition-market-is-like-right-now/
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2021/02/MR_DTC_email-banner-06.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-01-27 14:42:47.320515+00:00
 published_date: 2022-12-06
 summary: |
   Globally, M&A deal volume was down 13% year-over-year in the first seven months of 2022, according to Boston Consulting Group. Meanwhile, deal volume was down 32%. 

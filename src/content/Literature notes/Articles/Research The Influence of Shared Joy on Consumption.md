@@ -1,13 +1,13 @@
 ---
-title: "Research: The Influence of Shared Joy on Consumption"
-full_title: "Research: The Influence of Shared Joy on Consumption"
-author: 2PM
+title: |
+  Research: The Influence of Shared Joy on Consumption
+full_title: |
+  Research: The Influence of Shared Joy on Consumption
+author: |
+  2PM
 url: https://2pml.com/2023/07/25/barbenheimer/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/07/chart-07.25.2023-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-18 09:21:42.540835+00:00
 published_date: 2023-07-25
 summary: |
   Barbenheimer was a cultural moment and a future Harvard Business School case study. According to AMC Theatres, more than 40,000 people purchased tickets to the “Barbie” and “Oppen…

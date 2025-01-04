@@ -1,13 +1,13 @@
 ---
-title: The narrative structure of the strategic Fairytale Plan
-full_title: The narrative structure of the strategic Fairytale Plan
-author: Jason Cohen
+title: |
+  The narrative structure of the strategic Fairytale Plan
+full_title: |
+  The narrative structure of the strategic Fairytale Plan
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/strategic-planning?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/strategic-planning/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-29 16:01:55.319727+00:00
 published_date: 2023-11-26
 summary: |
   Traditional fairytale structure fits naturally in our brains, and thus can guide strategic problem-analysis, and a plan that everyone understands.

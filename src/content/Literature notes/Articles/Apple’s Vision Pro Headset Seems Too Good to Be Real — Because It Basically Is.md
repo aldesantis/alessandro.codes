@@ -1,13 +1,13 @@
 ---
-title: Apple’s Vision Pro Headset Seems Too Good to Be Real — Because It Basically Is
-full_title: Apple’s Vision Pro Headset Seems Too Good to Be Real — Because It Basically Is
-author: Darrell Etherington
+title: |
+  Apple’s Vision Pro Headset Seems Too Good to Be Real — Because It Basically Is
+full_title: |
+  Apple’s Vision Pro Headset Seems Too Good to Be Real — Because It Basically Is
+author: |
+  Darrell Etherington
 url: https://techcrunch.com/2023/06/05/apples-vision-pro-headset-seems-too-good-to-be-real-because-it-basically-is/
 category: articles
 image_url: https://techcrunch.com/wp-content/uploads/2023/06/Apple-WWCD23-Vision-Pro-Panorama-230605.jpg?resize=1200,675
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-23 08:35:28.106950+00:00
 published_date: 2023-06-05
 summary: |
   Apple's Vision Pro headset is real enough, but it won't be real for the majority of consumers for many years, if ever.

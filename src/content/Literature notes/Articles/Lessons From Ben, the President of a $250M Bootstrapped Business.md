@@ -1,13 +1,13 @@
 ---
-title: Lessons From Ben, the President of a $250M Bootstrapped Business
-full_title: Lessons From Ben, the President of a $250M Bootstrapped Business
-author: Nik Sharma
+title: |
+  Lessons From Ben, the President of a $250M Bootstrapped Business
+full_title: |
+  Lessons From Ben, the President of a $250M Bootstrapped Business
+author: |
+  Nik Sharma
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-14 09:28:21.552819+00:00
 published_date: 2023-08-13
 summary: |
   I hope you’re sitting back, relaxed, have your feet up and a beverage in your non-dominant hand. Today I’m sipping on Boba Guys tea (they’re the greatest).

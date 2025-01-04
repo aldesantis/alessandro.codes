@@ -1,13 +1,13 @@
 ---
-title: Oasis Onchain Started @ FEST + NFT NYC Dim Sum
-full_title: Oasis Onchain Started @ FEST + NFT NYC Dim Sum
-author: Friends With Benefits
+title: |
+  Oasis Onchain Started @ FEST + NFT NYC Dim Sum
+full_title: |
+  Oasis Onchain Started @ FEST + NFT NYC Dim Sum
+author: |
+  Friends With Benefits
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-15 16:56:23.414708+00:00
 published_date: 2024-03-14
 summary: |
   This is the first installment of “It Started @ FEST”, a series showcasing the projects and initiatives that include FWB FEST as part of their lore.

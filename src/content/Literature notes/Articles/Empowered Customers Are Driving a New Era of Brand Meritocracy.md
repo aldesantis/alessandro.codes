@@ -1,13 +1,13 @@
 ---
-title: Empowered Customers Are Driving a New Era of Brand Meritocracy
-full_title: Empowered Customers Are Driving a New Era of Brand Meritocracy
-author: Camm Rowland
+title: |
+  Empowered Customers Are Driving a New Era of Brand Meritocracy
+full_title: |
+  Empowered Customers Are Driving a New Era of Brand Meritocracy
+author: |
+  Camm Rowland
 url: https://www.adweek.com/brand-marketing/empowered-customers-are-driving-a-new-era-of-brand-meritocracy/
 category: articles
 image_url: https://static-prod.adweek.com/wp-content/uploads/2024/02/empowered-customers-brand-meritocracy-2024-600x315.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-14 08:14:58.008009+00:00
 published_date: 2024-02-26
 summary: |
   AI assistants are changing how products are evaluated based on objective criteria. Brands must adapt to appeal to AI assistants and deliver genuine quality to succeed in this new Brand Meritocracy era. Creating impactful brand experiences will be crucial for success in a world where AI plays a significant role in consumer decision-making.

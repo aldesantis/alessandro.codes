@@ -1,13 +1,13 @@
 ---
-title: The Science of How Often to Post on Social Media
-full_title: The Science of How Often to Post on Social Media
-author: Thomas from Ariyh
+title: |
+  The Science of How Often to Post on Social Media
+full_title: |
+  The Science of How Often to Post on Social Media
+author: |
+  Thomas from Ariyh
 url: https://ariyh.beehiiv.com/p/how-often-to-post-on-social-media?utm_source=ariyh.beehiiv.com&utm_medium=newsletter&utm_campaign=the-science-of-how-often-to-post-on-social-media
 category: articles
 image_url: https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/06448a1a-4b1b-42a2-b452-112c80148285/ARIYH_Icon_High_Quality_Zoomed_Out_2x.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-30 18:53:40.501522+00:00
 published_date: 2023-10-17
 summary: |
   Posting more often boosts engagement - up to a point. If you go over 45 posts per month people get tired of you.

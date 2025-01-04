@@ -1,13 +1,13 @@
 ---
-title: "3_TRENDS_Vol.27: Elliot Aronow: Sarapocial Relationships, Senseless Data + Boy Talk"
-full_title: "3_TRENDS_Vol.27: Elliot Aronow: Sarapocial Relationships, Senseless Data + Boy Talk"
-author: Matt Klein
+title: |
+  3_TRENDS_Vol.27: Elliot Aronow: Sarapocial Relationships, Senseless Data + Boy Talk
+full_title: |
+  3_TRENDS_Vol.27: Elliot Aronow: Sarapocial Relationships, Senseless Data + Boy Talk
+author: |
+  Matt Klein
 url: https://zine.kleinkleinklein.com/p/elliot-aronow?utm_source=post-email-title&publication_id=260920&post_id=141324484&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe470528f-faad-4ab8-a9f3-39040e570e3b_1920x1080.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-03 08:43:15.428148+00:00
 published_date: None
 summary: |
   Elliot Aronow discusses the shift towards more intimate, authentic relationships in the creator economy, moving away from parasocial dynamics. He challenges the reliance on data in a world that defies logic, emphasizing the importance of human intuition and critical thinking skills. Aronow also reflects on the complexities of encouraging men to open up emotionally, highlighting the need for safe spaces and alternative avenues for expression beyond just talking.

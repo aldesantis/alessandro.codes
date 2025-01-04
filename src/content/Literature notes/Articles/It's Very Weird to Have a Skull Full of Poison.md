@@ -1,13 +1,13 @@
 ---
-title: It's Very Weird to Have a Skull Full of Poison
-full_title: It's Very Weird to Have a Skull Full of Poison
-author: Adam Mastroianni
+title: |
+  It's Very Weird to Have a Skull Full of Poison
+full_title: |
+  It's Very Weird to Have a Skull Full of Poison
+author: |
+  Adam Mastroianni
 url: https://www.experimental-history.com/p/its-very-weird-to-have-a-skull-full
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85b44ff6-94c6-48f5-ae1b-6160c6df3418_985x1280.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-07 22:18:57.918403+00:00
 published_date: 2023-02-21
 summary: |
   A tale of ten strangenesses

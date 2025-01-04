@@ -1,13 +1,13 @@
 ---
-title: "Dissecting the Points Meta: Best Practices for User Loyalty"
-full_title: "Dissecting the Points Meta: Best Practices for User Loyalty"
-author: Variant
+title: |
+  Dissecting the Points Meta: Best Practices for User Loyalty
+full_title: |
+  Dissecting the Points Meta: Best Practices for User Loyalty
+author: |
+  Variant
 url: https://variant.fund/articles/crypto-points-programs-best-practices-user-loyalty/?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://variant.fund/wp-content/uploads/2023/03/variant_banner.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-10 19:03:21.305826+00:00
 published_date: 2024-02-14
 summary: |
   The document delves into loyalty and points programs, exploring their application in both traditional and crypto spaces. Points are viewed as tools to enhance user loyalty and engagement, drawing parallels to Maslow's hierarchy of needs. The discussion covers the design considerations for points programs, such as target audience, redemption options, and reward types. Contrasts and trade-offs between points and tokens are analyzed, highlighting the advantages and drawbacks of each. Legal and regulatory challenges related to token-based incentives are discussed, with points programs seen as a potentially less risky alternative. Ultimately, the document emphasizes the importance of well-designed points programs as a strategy for user acquisition and retention in the evolving landscape of loyalty initiatives.

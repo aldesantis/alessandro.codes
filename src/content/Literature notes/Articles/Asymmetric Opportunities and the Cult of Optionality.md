@@ -1,13 +1,13 @@
 ---
-title: Asymmetric Opportunities and the Cult of Optionality
-full_title: Asymmetric Opportunities and the Cult of Optionality
-author: applieddivinitystudies.com
+title: |
+  Asymmetric Opportunities and the Cult of Optionality
+full_title: |
+  Asymmetric Opportunities and the Cult of Optionality
+author: |
+  applieddivinitystudies.com
 url: https://applieddivinitystudies.com/asymmetric/index.html
 category: articles
 image_url: https://lh5.googleusercontent.com/KkSAbXxqImyTxpoNXYjJbKKxyP7D81vZEd3rRobPkTVWDQJxY3UkJZPnkZRPALK7YKKNiarwb2adoAwolkqtZTtHQLYeGzDl_Dy_k1F6TzLjo33b-mgqEa3Uv433ivixeZqgirUT
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-23 09:01:35.863556+00:00
 published_date: 2021-03-15
 summary: |
   Everyone loves asymmetric opportunities. If the stock goes down, you lose nothing, but it goes up, you win! Taleb has written an entire book (or five) about them. The Naval / James Clear Twitter threa

@@ -1,13 +1,13 @@
 ---
-title: "Foresight as Activism: Researching vs. Making Culture"
-full_title: "Foresight as Activism: Researching vs. Making Culture"
-author: Rory Sutherland, Vice Chairman @ Ogilvy
+title: |
+  Foresight as Activism: Researching vs. Making Culture
+full_title: |
+  Foresight as Activism: Researching vs. Making Culture
+author: |
+  Rory Sutherland, Vice Chairman @ Ogilvy
 url: https://zine.kleinkleinklein.com/p/foresight-as-activism
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92244d06-ac85-4ede-ba98-4da66dddc33c_1920x1080.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-05 10:10:35.977341+00:00
 published_date: 2023-10-27
 summary: |
   In this article titled "Foresight as Activism: Researching vs. Making Culture," the author discusses the importance of actively participating in culture rather than solely researching it. They argue that market research and trend-fetishism are self-centered and that brands should collaborate with communities to create preferred futures. The article emphasizes the need for marketers to understand and engage with existing communities, contemplate equitable and sustainable outcomes, and make investments and partnerships to bring about change. Several examples are provided to illustrate how brands have successfully worked with communities to create positive impact. The article concludes by stating that the future of strategy lies in actively shaping the world alongside others.

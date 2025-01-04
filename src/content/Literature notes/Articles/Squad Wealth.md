@@ -1,13 +1,13 @@
 ---
-title: Squad Wealth
-full_title: Squad Wealth
-author: Authors Sam Hart, Toby Shorin
+title: |
+  Squad Wealth
+full_title: |
+  Squad Wealth
+author: |
+  Authors Sam Hart, Toby Shorin
 url: https://otherinter.net/research/squad-wealth/?utm_source=fwbtldr.beehiiv.com&utm_medium=newsletter&utm_campaign=where-we-at-with-squad-wealth
 category: articles
 image_url: https://otherinter.net/squad-twittercard.png?=903
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-24 21:47:52.857993+00:00
 published_date: 2020-08-19
 summary: |
   Squads, as social and economic groups, are reemerging with the rise of online communication platforms. They prioritize collective well-being over individual success and rely on trust and shared values to thrive. Squads are reshaping social dynamics and creating new forms of community wealth and resilience.

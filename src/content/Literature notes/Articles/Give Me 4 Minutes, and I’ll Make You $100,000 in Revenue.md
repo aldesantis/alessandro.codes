@@ -1,13 +1,13 @@
 ---
-title: Give Me 4 Minutes, and I’ll Make You $100,000 in Revenue
-full_title: Give Me 4 Minutes, and I’ll Make You $100,000 in Revenue
-author: Nik Sharma
+title: |
+  Give Me 4 Minutes, and I’ll Make You $100,000 in Revenue
+full_title: |
+  Give Me 4 Minutes, and I’ll Make You $100,000 in Revenue
+author: |
+  Nik Sharma
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-15 09:20:45.379904+00:00
 published_date: 2024-01-15
 summary: |
   Happy Sunday! If you’re reading this, I hope you’re kicked back, on a couch, feet up, and have a beverage in your hand.

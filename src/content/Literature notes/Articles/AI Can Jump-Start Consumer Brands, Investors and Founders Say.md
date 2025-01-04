@@ -1,13 +1,13 @@
 ---
-title: AI Can Jump-Start Consumer Brands, Investors and Founders Say
-full_title: AI Can Jump-Start Consumer Brands, Investors and Founders Say
-author: Natasha Mascarenhas
+title: |
+  AI Can Jump-Start Consumer Brands, Investors and Founders Say
+full_title: |
+  AI Can Jump-Start Consumer Brands, Investors and Founders Say
+author: |
+  Natasha Mascarenhas
 url: https://www.theinformation.com/articles/ai-can-jump-start-consumer-brands-investors-and-founders-say?rc=rbfrqa
 category: articles
 image_url: https://tii.imgix.net/production/articles/13743/31dcac07-2539-4b69-ae7d-c1658d5679af.png?fm=jpg&auto=compress&w=1200&frame=0
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-14 08:46:32.434621+00:00
 published_date: 2024-10-09
 summary: |
   Consumer startups are grappling with a problem: Customers are bombarded these days with choices for everything from apparel to beauty and wellness products, and it’s harder for young brands to stand out. “There’s a consumer that’s overwhelmed right now, that wants it all, but wants it all done a ...

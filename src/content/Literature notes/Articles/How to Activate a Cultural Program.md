@@ -1,13 +1,13 @@
 ---
-title: How to Activate a Cultural Program
-full_title: How to Activate a Cultural Program
-author: Ana Andjelic
+title: |
+  How to Activate a Cultural Program
+full_title: |
+  How to Activate a Cultural Program
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/cultural-programming?utm_source=post-email-title&publication_id=18831&post_id=150487346&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2122cdfc-bf37-4ca9-9e45-d28ac6da6cea_892x880.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-27 12:04:50.423890+00:00
 published_date: None
 summary: |
   To activate a cultural program, brands should define their cultural output, operationalize the program with a strategic calendar, and execute it with a detailed rollout plan. This approach helps create a cohesive narrative that connects various cultural initiatives and maximizes their impact. By doing so, brands can enhance their cultural influence and ensure a consistent presence across different platforms.

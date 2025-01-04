@@ -1,13 +1,13 @@
 ---
-title: Truth Is Overrated
-full_title: Truth Is Overrated
-author: Jakob Greenfeld from Play Permissionless
+title: |
+  Truth Is Overrated
+full_title: |
+  Truth Is Overrated
+author: |
+  Jakob Greenfeld from Play Permissionless
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-10 11:40:53.980263+00:00
 published_date: 2024-05-07
 summary: |
   I read dozens of books on the how to be more successsful, listened to hundreds of hours of podcasts, scrolled through thousands of tweets, and watched far too many videos trying to learn how to be more successful.

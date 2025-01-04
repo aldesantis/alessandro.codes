@@ -1,13 +1,13 @@
 ---
-title: The Three-Faced Interface
-full_title: The Three-Faced Interface
-author: Brett Scott
+title: |
+  The Three-Faced Interface
+full_title: |
+  The Three-Faced Interface
+author: |
+  Brett Scott
 url: https://www.asomo.co/p/ai-corporate-personhood?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb2ef8c4-b4f2-41c0-b544-c085ae75bacc_1500x1674.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-16 08:55:34.262338+00:00
 published_date: None
 summary: |
   The text discusses how corporate personhood is evolving in the age of AI, with interfaces becoming more complex and invasive. It touches on how digital interfaces are replacing physical ones, and how AI is shaping the way we interact with corporations and their interfaces. The text also highlights the concept of "personified" corporate personhood, where corporations attempt to present a more human-like face to the public through technology.

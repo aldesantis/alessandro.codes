@@ -1,13 +1,13 @@
 ---
-title: You Can't Hack Product Positioning
-full_title: You Can't Hack Product Positioning
-author: felicis.com
+title: |
+  You Can't Hack Product Positioning
+full_title: |
+  You Can't Hack Product Positioning
+author: |
+  felicis.com
 url: https://www.felicis.com/news/product-positioning
 category: articles
 image_url: https://global-uploads.webflow.com/63ff802a284f64e789752d0d/644ff7ca8f09400850b7566b_Category%20representation.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-10 09:16:22.585636+00:00
 published_date: 2023-04-06
 summary: |
   Why positioning determines victors in SaaS and AI.

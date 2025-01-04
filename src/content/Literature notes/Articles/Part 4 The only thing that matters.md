@@ -1,13 +1,13 @@
 ---
-title: Part 4 The only thing that matters
-full_title: Part 4 The only thing that matters
-author: Fictive Kin
+title: |
+  Part 4 The only thing that matters
+full_title: |
+  Part 4 The only thing that matters
+author: |
+  Fictive Kin
 url: https://pmarchive.com/guide_to_startups_part4.html
 category: articles
 image_url: https://fictivekin.github.io/pmarchive-jekyll/icon-512.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-19 08:27:45.732210+00:00
 published_date: 2007-06-25
 summary: |
   An archive of the best articles from Marc Andreessen’s now defunct blog

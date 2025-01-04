@@ -1,13 +1,13 @@
 ---
-title: Monetizing a Brand's Intellectual Property
-full_title: Monetizing a Brand's Intellectual Property
-author: Ana Andjelic
+title: |
+  Monetizing a Brand's Intellectual Property
+full_title: |
+  Monetizing a Brand's Intellectual Property
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/monetizing-a-brands-intellectual?utm_source=post-email-title&publication_id=18831&post_id=139131181&utm_campaign=email-post-title&isFreemail=false&r=og9hp&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10ebe90b-3759-4bab-b4a7-ef01725e9b4f_1784x1002.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-06 09:43:53.151179+00:00
 published_date: 2023-12-04
 summary: |
   All brands are in the show business

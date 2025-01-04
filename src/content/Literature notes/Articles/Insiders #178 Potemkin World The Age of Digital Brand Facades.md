@@ -1,13 +1,13 @@
 ---
-title: "Insiders #178: Potemkin World: The Age of Digital Brand Facades"
-full_title: "Insiders #178: Potemkin World: The Age of Digital Brand Facades"
-author: futurecommerce.com
+title: |
+  Insiders #178: Potemkin World: The Age of Digital Brand Facades
+full_title: |
+  Insiders #178: Potemkin World: The Age of Digital Brand Facades
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-178-potemkin-world-the-age-of-digital-brand-facades
 category: articles
 image_url: https://cdn.prod.website-files.com/5d7da04028ecca2357d6b3b0/669ff3f492b6525d5a383aa4_unnamed%20(8).webp
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-24 08:33:43.242033+00:00
 published_date: 2024-07-24
 summary: |
   In the glossy world of digital brands, everything sparkles—until you look too closely. Welcome to the age of Potemkin brands, where facades aren't just for show; they're the main attraction.

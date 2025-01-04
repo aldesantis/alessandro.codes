@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » The three kinds of leverage that anchor effective strategies
-full_title: A Smart Bear » The three kinds of leverage that anchor effective strategies
-author: Jason Cohen
+title: |
+  A Smart Bear » The three kinds of leverage that anchor effective strategies
+full_title: |
+  A Smart Bear » The three kinds of leverage that anchor effective strategies
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/leverage?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/leverage/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-20 10:18:15.898490+00:00
 published_date: 2023-06-18
 summary: |
   Leveraging strengths -- not "fixing weaknesses" -- is how to win. Better when differentiated. Best when durable. Here's how to create leverage.

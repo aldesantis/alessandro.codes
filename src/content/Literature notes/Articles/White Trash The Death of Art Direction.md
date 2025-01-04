@@ -1,13 +1,13 @@
 ---
-title: "White Trash: The Death of Art Direction"
-full_title: "White Trash: The Death of Art Direction"
-author: MØRNING
+title: |
+  White Trash: The Death of Art Direction
+full_title: |
+  White Trash: The Death of Art Direction
+author: |
+  MØRNING
 url: https://morningfyi.substack.com/p/white-trash-the-death-of-art-direction
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5047682-d245-4aff-8b97-a1a48059f661_1144x1134.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-06 12:35:18.005165+00:00
 published_date: None
 summary: |
   Fashion campaigns are losing their creativity, shifting from vibrant, unique visuals to bland, minimalistic designs. This change has led to a decline in the role of art directors, who are now often sidelined in favor of profit-driven strategies. As a result, consumers are left with unremarkable content that lacks the artistry and storytelling once inherent in luxury fashion advertising.

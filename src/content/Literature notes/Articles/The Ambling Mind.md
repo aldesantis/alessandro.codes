@@ -1,13 +1,13 @@
 ---
-title: The Ambling Mind
-full_title: The Ambling Mind
-author: L. M. Sacasas
+title: |
+  The Ambling Mind
+full_title: |
+  The Ambling Mind
+author: |
+  L. M. Sacasas
 url: https://theconvivialsociety.substack.com/p/the-ambling-mind
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F074c6296-3c12-4a3c-9097-567ac92907be_256x256.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-13 21:55:00.855546+00:00
 published_date: 2024-05-09
 summary: |
   Walking is a vital, yet often overlooked human activity in modern society. Authors and philosophers emphasize the benefits of walking for physical and mental well-being, creativity, and deep thinking. Walking offers a unique perspective on the world, promotes a fitting scale and speed for human experience, and can be revolutionary in countering societal pressures.

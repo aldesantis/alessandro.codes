@@ -1,13 +1,13 @@
 ---
-title: “It’s a balance”
-full_title: “It’s a balance”
-author: Jason Cohen
+title: |
+  “It’s a balance”
+full_title: |
+  “It’s a balance”
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/conflicting-choices?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/conflicting-choices/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-26 16:48:36.510819+00:00
 published_date: 2024-06-16
 summary: |
   The text discusses decision-making conflicts and suggests three approaches: making bold choices, finding balance, or synthesizing new solutions. It emphasizes that clear and firm decisions are crucial for successful strategies and cautions against using "balance" as an excuse to avoid making choices. The ultimate goal is to create unique offerings by making a series of interconnected decisions that lead to a strong and unassailable strategy.

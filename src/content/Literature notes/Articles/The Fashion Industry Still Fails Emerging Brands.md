@@ -1,13 +1,13 @@
 ---
-title: The Fashion Industry Still Fails Emerging Brands
-full_title: The Fashion Industry Still Fails Emerging Brands
-author: SOTA
+title: |
+  The Fashion Industry Still Fails Emerging Brands
+full_title: |
+  The Fashion Industry Still Fails Emerging Brands
+author: |
+  SOTA
 url: https://sotaclub.substack.com/p/the-fashion-industry-still-fails-emerging-brands
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb44b8ab-ed9b-4787-8620-9e3af6bf4e85_1456x1048.gif
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-26 16:52:23.799784+00:00
 published_date: None
 summary: |
   With brands stuck in a rut, and the industry standing by, the time has come to chart a course that leads to new success.

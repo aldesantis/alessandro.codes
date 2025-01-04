@@ -1,13 +1,13 @@
 ---
-title: "The Creator Paradox: Cultural Stasis Amidst Creative Surplus"
-full_title: "The Creator Paradox: Cultural Stasis Amidst Creative Surplus"
-author: Matt Klein
+title: |
+  The Creator Paradox: Cultural Stasis Amidst Creative Surplus
+full_title: |
+  The Creator Paradox: Cultural Stasis Amidst Creative Surplus
+author: |
+  Matt Klein
 url: https://zine.kleinkleinklein.com/p/creator-paradox#details
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1d08ba8-d64b-4756-85e2-8697bd360a4a_1920x1080.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-12 11:03:00.710996+00:00
 published_date: 2022-09-19
 summary: |
   The current media landscape shows a surge in creator activity, yet cultural stagnation persists with an abundance of repetitive content dominating charts and platforms, leading to audience fatigue with reboots and sequels. This paradox is attributed to factors like conflicting ecosystems, institutional consolidation, and platform-driven content curation that favors mainstream over diverse offerings. The rise of a cultural oligopoly in movies, music, and other media highlights a need to address the imbalance between established content and new, innovative voices to foster a more diverse and engaging creative environment.

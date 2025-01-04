@@ -1,13 +1,13 @@
 ---
-title: The Next Growth Market
-full_title: The Next Growth Market
-author: 2PM (Evening Send)
+title: |
+  The Next Growth Market
+full_title: |
+  The Next Growth Market
+author: |
+  2PM (Evening Send)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-11 09:26:52.443601+00:00
 published_date: 2023-10-10
 summary: |
   The solution for strong, scaling brands: Tandym has an incredible proposition, strong brands deserve their own payment solution.

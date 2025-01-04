@@ -1,13 +1,13 @@
 ---
-title: Why More Amazon Sellers Are Looking to Bring Their Products to Rival Marketplaces in 2023
-full_title: Why More Amazon Sellers Are Looking to Bring Their Products to Rival Marketplaces in 2023
-author: Vidhi Choudhary
+title: |
+  Why More Amazon Sellers Are Looking to Bring Their Products to Rival Marketplaces in 2023
+full_title: |
+  Why More Amazon Sellers Are Looking to Bring Their Products to Rival Marketplaces in 2023
+author: |
+  Vidhi Choudhary
 url: https://www.modernretail.co/technology/why-more-amazon-sellers-are-looking-to-bring-their-products-to-rival-marketplaces-in-2023/?utm_campaign=mrdis&utm_medium=email&utm_source=mrdaily&utm_content=121522
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2019/05/amazon_sun.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-15 15:20:38.675289+00:00
 published_date: 2022-12-15
 summary: |
   Amazon vendors are extending to rival marketplaces to diversify and make sure they are present across different channels.

@@ -1,13 +1,13 @@
 ---
-title: "Insiders #108: The Idolatry of the Algorithm"
-full_title: "Insiders #108: The Idolatry of the Algorithm"
-author: futurecommerce.com
+title: |
+  Insiders #108: The Idolatry of the Algorithm
+full_title: |
+  Insiders #108: The Idolatry of the Algorithm
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-108-the-idolatry-of-the-algorithm
 category: articles
 image_url: https://uploads-ssl.webflow.com/5d7da04028ecca2357d6b3b0/6430de45aa53c71886fd0d07_Untitled-(7).png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-06 09:19:00.307810+00:00
 published_date: 2021-11-17
 summary: |
   If you live in modern times you've probably experienced Algorithm Anxiety. With the growth of the metaverse, this Algorithm anxiety might just spill over into real life.

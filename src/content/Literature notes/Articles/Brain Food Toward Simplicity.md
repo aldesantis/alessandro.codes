@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Toward Simplicity"
-full_title: "Brain Food: Toward Simplicity"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Toward Simplicity
+full_title: |
+  Brain Food: Toward Simplicity
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-12 09:38:55.471228+00:00
 published_date: 2024-03-10
 summary: |
   “Your worst day is a chance to show your best qualities, to stand out, and to learn an enormous amount about yourself.

@@ -1,13 +1,13 @@
 ---
-title: To Build a Top Performing Team, Ask for 85% Effort
-full_title: To Build a Top Performing Team, Ask for 85% Effort
-author: Greg McKeown
+title: |
+  To Build a Top Performing Team, Ask for 85% Effort
+full_title: |
+  To Build a Top Performing Team, Ask for 85% Effort
+author: |
+  Greg McKeown
 url: https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort
 category: articles
 image_url: https://hbr.org/favicon.ico
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-09 09:53:18.983185+00:00
 published_date: 2023-06-08
 summary: |
   An outdated way of thinking about peak performance is: “maximum effort = maximum results.” But research shows that it doesn’t actually work that way in reality. Here’s what actually works: The 85% rule, which counterintuitively suggests that to reach maximum output, you need to refrain from giving maximum effort. Operating at 100% effort all of the time will result in burnout and ultimately less-optimal results. While the precise number 85% may just be a rule of thumb, it’s a helpful one for managers who want to create high-performance teams without burning people out.

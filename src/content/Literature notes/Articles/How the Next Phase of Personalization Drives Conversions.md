@@ -1,13 +1,13 @@
 ---
-title: How the Next Phase of Personalization Drives Conversions
-full_title: How the Next Phase of Personalization Drives Conversions
-author: Arthur Zaczkiewicz
+title: |
+  How the Next Phase of Personalization Drives Conversions
+full_title: |
+  How the Next Phase of Personalization Drives Conversions
+author: |
+  Arthur Zaczkiewicz
 url: https://wwd.com/business-news/technology/how-the-next-phase-personalization-drives-conversions-1235660474/?utm_source=Sailthru&utm_medium=email&utm_campaign=Issue:%202023-05-25%20Retail%20Dive:%20Tech%20%5Bissue:50820%5D&utm_term=Retail%20Dive:%20Tech
 category: articles
 image_url: https://wwd.com/wp-content/uploads/2023/05/AdobeStock_301857188.jpeg?w=1024
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-26 20:15:22.583889+00:00
 published_date: 2023-05-23
 summary: |
   Rohan Deuskar, founder and CEO of Stylitics, shares insights into trends reshaping e-commerce.

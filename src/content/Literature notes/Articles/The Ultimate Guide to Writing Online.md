@@ -1,13 +1,13 @@
 ---
-title: The Ultimate Guide to Writing Online
-full_title: The Ultimate Guide to Writing Online
-author: Write of Passage
+title: |
+  The Ultimate Guide to Writing Online
+full_title: |
+  The Ultimate Guide to Writing Online
+author: |
+  Write of Passage
 url: https://writeofpassage.school/2022/08/25/the-ultimate-guide-to-writing-online/
 category: articles
 image_url: https://i0.wp.com/writeofpassage.school/wp-content/uploads/2022/08/The-Ultimate-Guide-to-Writing-Online-1-scaled-2.webp?fit=1200%2C900&ssl=1
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-25 11:09:39.918804+00:00
 published_date: 2022-08-25
 summary: |
   The Internet could become your most powerful asset, if only you were using it correctly. In Write of Passage, I teach a proven system to write online that’s built for the 21st century. I’ve distill…

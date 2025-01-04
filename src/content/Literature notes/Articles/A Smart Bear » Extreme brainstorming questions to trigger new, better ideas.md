@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » Extreme brainstorming questions to trigger new, better ideas
-full_title: A Smart Bear » Extreme brainstorming questions to trigger new, better ideas
-author: Jason Cohen
+title: |
+  A Smart Bear » Extreme brainstorming questions to trigger new, better ideas
+full_title: |
+  A Smart Bear » Extreme brainstorming questions to trigger new, better ideas
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/extreme-questions/
 category: articles
 image_url: https://longform.asmartbear.com/extreme-questions/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-06 09:14:09.930951+00:00
 published_date: 2022-03-26
 summary: |
   The article discusses various thought exercises that businesses can use to come up with fresh and transformative ideas. These include considering extreme hypothetical scenarios such as increasing prices by 10x or losing all customers, finding ways to maximize fun and creativity in product development, and shaking up business models. The article also suggests thinking outside the box, even if it means considering drastic actions such as terminating a product line or pivoting the entire company.

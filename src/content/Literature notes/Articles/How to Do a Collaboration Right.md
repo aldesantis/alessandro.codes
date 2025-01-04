@@ -1,13 +1,13 @@
 ---
-title: How to Do a Collaboration Right
-full_title: How to Do a Collaboration Right
-author: Ana Andjelic
+title: |
+  How to Do a Collaboration Right
+full_title: |
+  How to Do a Collaboration Right
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/how-to-do-a-collaboration-right?utm_source=post-email-title&publication_id=18831&post_id=138813953&utm_campaign=email-post-title&isFreemail=false&r=og9hp&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca5fb8d1-07f4-4bdd-a596-abc1570b9376_1664x958.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-22 11:13:32.071963+00:00
 published_date: 2023-11-13
 summary: |
   An effective collaboration is a strategic exercise

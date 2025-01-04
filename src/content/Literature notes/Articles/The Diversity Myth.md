@@ -1,13 +1,13 @@
 ---
-title: The Diversity Myth
-full_title: The Diversity Myth
-author: Peter Thiel
+title: |
+  The Diversity Myth
+full_title: |
+  The Diversity Myth
+author: |
+  Peter Thiel
 url: https://newcriterion.com/issues/2023/6/the-diversity-myth
 category: articles
 image_url: https://newcriterion.com/storage/app/resized/4c8/8aa/2f2/Peter_TNC004_resized_4c88aa2f250770056a10943f454d6b3364fd5943.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-10 09:50:45.295896+00:00
 published_date: 2023-04-27
 summary: |
   Peter Thiel on multiculturalism as misdirection.

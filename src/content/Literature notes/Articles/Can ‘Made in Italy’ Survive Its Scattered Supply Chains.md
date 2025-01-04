@@ -1,13 +1,13 @@
 ---
-title: Can ‘Made in Italy’ Survive Its Scattered Supply Chains?
-full_title: Can ‘Made in Italy’ Survive Its Scattered Supply Chains?
-author: Bella Webb
+title: |
+  Can ‘Made in Italy’ Survive Its Scattered Supply Chains?
+full_title: |
+  Can ‘Made in Italy’ Survive Its Scattered Supply Chains?
+author: |
+  Bella Webb
 url: https://www.voguebusiness.com/story/sustainability/can-made-in-italy-survive-its-scattered-supply-chains?uID=58ba29f6592c24ef0bdefa76114a43982a806c17a289ed758a3b0794fe834435&utm_campaign=VB_NEWS_Hilary_FRI_251024&utm_source=newsletter&utm_brand=vb&utm_mailing=VB_NEWS_Hilary_FRI_251024&utm_medium=email&utm_term=VB_VogueBusiness
 category: articles
 image_url: https://media.voguebusiness.com/photos/6719237d2dc6e3df24513f96/16:9/w_1280,c_limit/MADEINITALY-VOGUEBUS-231024-SOCIAL-NEWSLETTER.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-25 11:36:30.402131+00:00
 published_date: 2024-10-24
 summary: |
   The 'Made in Italy' label, known for its quality and craftsmanship, faces serious challenges from supply chain issues and labor rights scandals. Efforts are being made to consolidate suppliers to improve efficiency and traceability, but many small businesses fear losing their heritage. Without collaboration and transparency, the future of 'Made in Italy' may be at risk.

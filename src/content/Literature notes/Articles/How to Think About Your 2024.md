@@ -1,13 +1,13 @@
 ---
-title: How to Think About Your 2024
-full_title: How to Think About Your 2024
-author: Greg Isenberg
+title: |
+  How to Think About Your 2024
+full_title: |
+  How to Think About Your 2024
+author: |
+  Greg Isenberg
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-28 12:55:59.817929+00:00
 published_date: 2023-12-28
 summary: |
   Maybe it’s 100% creative freedom to build whatever you want. Maybe it’s working with your brother to build a family business.

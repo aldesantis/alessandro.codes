@@ -1,13 +1,13 @@
 ---
-title: Zero-1st-2nd-3rd-Part-Data-Exponea
-full_title: Zero-1st-2nd-3rd-Part-Data-Exponea
-author: readwise.io
+title: |
+  Zero-1st-2nd-3rd-Part-Data-Exponea
+full_title: |
+  Zero-1st-2nd-3rd-Part-Data-Exponea
+author: |
+  readwise.io
 url: https://readwise.io/reader/document_raw_content/58545711
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/fO1WsAJDK38hvkhqcbEpEnY3KKQL7Pi6xJWmQ2M3izM-cover_cQcD3X2.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-09-20 23:01:32.180304+00:00
 published_date: 2020-10-07
 summary: ""
 source: reader

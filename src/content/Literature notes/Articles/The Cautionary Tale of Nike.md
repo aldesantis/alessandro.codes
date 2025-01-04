@@ -1,13 +1,13 @@
 ---
-title: The Cautionary Tale of Nike
-full_title: The Cautionary Tale of Nike
-author: Brian Morrissey
+title: |
+  The Cautionary Tale of Nike
+full_title: |
+  The Cautionary Tale of Nike
+author: |
+  Brian Morrissey
 url: https://www.therebooting.com/the-cautionary-tale-of-nike/
 category: articles
 image_url: https://www.therebooting.com/content/images/size/w1200/2023/12/Untitled-design--3-.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-23 10:31:08.602123+00:00
 published_date: 2024-07-30
 summary: |
   Nike, once a leader in branding and innovation, is now facing significant challenges, including a 30% drop in stock due to poor strategic decisions. Critics argue that the company has shifted its focus from serving athletes to chasing broader markets, leaving it vulnerable to upstart competitors. Additionally, its emphasis on direct-to-consumer sales over brand-building has diluted its identity and effectiveness.

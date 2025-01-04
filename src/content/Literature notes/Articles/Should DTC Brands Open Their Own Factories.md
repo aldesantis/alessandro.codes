@@ -1,13 +1,13 @@
 ---
-title: Should DTC Brands Open Their Own Factories?
-full_title: Should DTC Brands Open Their Own Factories?
-author: Malique Morris
+title: |
+  Should DTC Brands Open Their Own Factories?
+full_title: |
+  Should DTC Brands Open Their Own Factories?
+author: |
+  Malique Morris
 url: https://www.businessoffashion.com/articles/direct-to-consumer/should-dtc-brands-open-their-own-factories/?utm_source=newsletter_dailydigest&utm_medium=email&utm_campaign=Daily_Digest_160623&utm_term=IB56D732YFHIRMU5ICGIXIKGZU&utm_content=top_story_1_image
 category: articles
 image_url: https://img.businessoffashion.com/resizer/xm0cYLmWiRPnm3L8Mr0jjzF6b-w=/1200x630/filters:format(jpg):quality(70):focal(904x429:914x439)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/TJM64AV6CJDVVIG2NRIEBKZEGQ.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-17 19:46:34.780180+00:00
 published_date: 2023-06-16
 summary: |
   Some digitally native start-ups are buying or building factories to cut production times and control quality. But not every company is built to handle manufacturing themselves.

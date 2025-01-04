@@ -1,13 +1,13 @@
 ---
-title: "Member Brief: Etsy, Ebay, and Off-Site Advertising"
-full_title: "Member Brief: Etsy, Ebay, and Off-Site Advertising"
-author: 2PM
+title: |
+  Member Brief: Etsy, Ebay, and Off-Site Advertising
+full_title: |
+  Member Brief: Etsy, Ebay, and Off-Site Advertising
+author: |
+  2PM
 url: https://2pml.com/2023/02/24/etsy/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/02/chart-02.27.2023-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-03-01 17:38:32.195079+00:00
 published_date: 2023-02-24
 summary: |
   Heavily influenced by the omni-channel evolution, retail media is entering its 2.0 phase. New marketplace entrants are gaining steam and retailers are re-prioritizing, shifting priorities towards c…

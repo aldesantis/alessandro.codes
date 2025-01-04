@@ -1,13 +1,13 @@
 ---
-title: "Unlock the Power of Effective Writing: Insights From Steven Pinker"
-full_title: "Unlock the Power of Effective Writing: Insights From Steven Pinker"
-author: Farnam Street
+title: |
+  Unlock the Power of Effective Writing: Insights From Steven Pinker
+full_title: |
+  Unlock the Power of Effective Writing: Insights From Steven Pinker
+author: |
+  Farnam Street
 url: https://fs.blog/writing-sucks/
 category: articles
 image_url: https://149664534.v2.pressablecdn.com/wp-content/uploads/2016/01/Steven-Pinker-by-Rebecca-Goldstein.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-07 09:17:25.591961+00:00
 published_date: 2016-03-07
 summary: |
   Discover Steven Pinker's insights on overcoming the Curse of Knowledge and enhancing your writing. Learn valuable strategies to create clear, engaging, and persuasive content for your audience.

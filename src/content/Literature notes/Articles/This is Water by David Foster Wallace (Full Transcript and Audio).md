@@ -1,13 +1,13 @@
 ---
-title: This is Water by David Foster Wallace (Full Transcript and Audio)
-full_title: This is Water by David Foster Wallace (Full Transcript and Audio)
-author: Farnam Street
+title: |
+  This is Water by David Foster Wallace (Full Transcript and Audio)
+full_title: |
+  This is Water by David Foster Wallace (Full Transcript and Audio)
+author: |
+  Farnam Street
 url: https://fs.blog/david-foster-wallace-this-is-water/
 category: articles
 image_url: https://149664534.v2.pressablecdn.com/wp-content/uploads/2015/06/cropped-farnamstreet-300x300.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-29 16:38:28.936761+00:00
 published_date: 2012-04-28
 summary: |
   David Foster Wallace's commencement speech at Kenyon College explores the idea that the most important realities in life are often the hardest to see and talk about. He challenges the notion that a liberal arts education is about teaching students how to think, arguing instead that it is about teaching them what to think about. Wallace emphasizes the importance of choosing what to pay attention to and how to construct meaning from experience, rather than being driven by default settings and self-centeredness. He encourages graduates to be aware of their own certainties and to consider alternative perspectives, ultimately suggesting that this kind of critical awareness is the key to living a compassionate and meaningful life.

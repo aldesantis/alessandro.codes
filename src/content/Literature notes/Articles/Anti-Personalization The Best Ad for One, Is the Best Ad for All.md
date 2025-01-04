@@ -1,13 +1,13 @@
 ---
-title: "Anti-Personalization: The Best Ad for One, Is the Best Ad for All"
-full_title: "Anti-Personalization: The Best Ad for One, Is the Best Ad for All"
-author: Samuel Brealey
+title: |
+  Anti-Personalization: The Best Ad for One, Is the Best Ad for All
+full_title: |
+  Anti-Personalization: The Best Ad for One, Is the Best Ad for All
+author: |
+  Samuel Brealey
 url: https://bettermarketingbetterbusiness.substack.com/p/anti-personalization-the-best-ad?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FFAXbbT5XsAIAaN1.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-12 21:20:05.762354+00:00
 published_date: None
 summary: |
   Marketers often overcomplicate advertising by focusing too much on personalization instead of understanding the market's fundamentals. The most effective ads are those that appeal broadly to all audiences, rather than being overly segmented. Businesses should prioritize consistent brand advertising to build lasting associations, rather than relying solely on discounts and promotions.

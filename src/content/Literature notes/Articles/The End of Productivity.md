@@ -1,13 +1,13 @@
 ---
-title: The End of Productivity
-full_title: The End of Productivity
-author: Sari Azout
+title: |
+  The End of Productivity
+full_title: |
+  The End of Productivity
+author: |
+  Sari Azout
 url: https://every.to/thesis/the-end-of-productivity
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/3316/everythesis.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-22 07:22:50.790526+00:00
 published_date: 2024-11-18
 summary: |
   Why creativity is the new currency of success

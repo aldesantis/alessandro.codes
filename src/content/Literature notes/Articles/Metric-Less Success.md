@@ -1,13 +1,13 @@
 ---
-title: Metric-Less Success
-full_title: Metric-Less Success
-author: Lawrence Yeo
+title: |
+  Metric-Less Success
+full_title: |
+  Metric-Less Success
+author: |
+  Lawrence Yeo
 url: https://moretothat.com/metric-less-success/
 category: articles
 image_url: https://moretothat.com/wp-content/uploads/2019/05/cropped-B01-Gunny-Face-Illustrator-32x32.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-24 21:19:34.708232+00:00
 published_date: 2024-09-24
 summary: |
   The author reflects on the difference between traditional success, which is often measured by wealth, and metric-less success, which focuses on meaningful relationships and personal values. While society values quantifiable achievements, true fulfillment comes from love, compassion, and living authentically. Ultimately, what matters most is not what you earn, but how you impact the lives of others and stay true to yourself.

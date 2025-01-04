@@ -1,13 +1,13 @@
 ---
-title: "Digital Democracy: Why KIKI World Is Putting the Power Back in the Hands of the Consumer"
-full_title: "Digital Democracy: Why KIKI World Is Putting the Power Back in the Hands of the Consumer"
-author: beautymatter.com
+title: |
+  Digital Democracy: Why KIKI World Is Putting the Power Back in the Hands of the Consumer
+full_title: |
+  Digital Democracy: Why KIKI World Is Putting the Power Back in the Hands of the Consumer
+author: |
+  beautymatter.com
 url: https://beautymatter.com/articles/kiki-world-putting-power-back-in-the-hands-of-the-consumer
 category: articles
 image_url: https://beautymatter.com/uploads/2024/01/seo/Y3dcRDbLYI583GmBudkx6DDnT7fq1sB9iWsC1Ix3.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-11 08:37:44.479700+00:00
 published_date: 2024-01-30
 summary: |
   Brand CEO  Jana Bobosikova explains the KIKI World approach to brand community and product development, underlined by a web3-, AI- and blockchain-driven platform.

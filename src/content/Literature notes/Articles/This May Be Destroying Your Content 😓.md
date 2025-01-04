@@ -1,13 +1,13 @@
 ---
-title: This May Be Destroying Your Content 😓
-full_title: This May Be Destroying Your Content 😓
-author: Jay Clouse
+title: |
+  This May Be Destroying Your Content 😓
+full_title: |
+  This May Be Destroying Your Content 😓
+author: |
+  Jay Clouse
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-30 13:20:25.787248+00:00
 published_date: 2024-01-28
 summary: |
   Negative feedback comes from disagreement. When you express a belief that is directly opposed to MY beliefs, I might have a negative emotional reaction.

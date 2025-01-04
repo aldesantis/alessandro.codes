@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Tiny Delights"
-full_title: "Brain Food: Tiny Delights"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Tiny Delights
+full_title: |
+  Brain Food: Tiny Delights
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-30 10:00:40.777762+00:00
 published_date: 2023-10-29
 summary: |
   "What we consider defining moments, like promotions or a new house, matter less to life satisfaction than the accumulation of tiny moments that didn't seem to matter at the time.

@@ -1,13 +1,13 @@
 ---
-title: "DIP 043: Names and Meaning and Aesthetics"
-full_title: "DIP 043: Names and Meaning and Aesthetics"
-author: Emily Singer
+title: |
+  DIP 043: Names and Meaning and Aesthetics
+full_title: |
+  DIP 043: Names and Meaning and Aesthetics
+author: |
+  Emily Singer
 url: https://chipsanddips.substack.com/p/dip-043-names-and-meaning-and-aesthetics?utm_source=post-email-title&publication_id=6324&post_id=142396823&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fchipsanddips.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D31380232%26version%3D9
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-12 13:02:01.320093+00:00
 published_date: 2024-03-07
 summary: |
   Plus, regenerative pasta, bodycare goes niche, and a Marie Antoinette-core crate cover

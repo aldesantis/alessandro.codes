@@ -1,13 +1,13 @@
 ---
-title: The Great Connected Consumer Paradox
-full_title: The Great Connected Consumer Paradox
-author: PYMNTS
+title: |
+  The Great Connected Consumer Paradox
+full_title: |
+  The Great Connected Consumer Paradox
+author: |
+  PYMNTS
 url: https://www.pymnts.com/connectedeconomy/2023/the-great-connected-consumer-paradox/
 category: articles
 image_url: https://content.pymnts.com/wp-content/uploads/2023/10/generation-connected-1000x600.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-05 09:10:27.410347+00:00
 published_date: 2023-10-03
 summary: |
   It has been reported that by 2010, cable television in the U. S.

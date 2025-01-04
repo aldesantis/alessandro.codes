@@ -1,17 +1,18 @@
 ---
-title: "Telling the 800-Lb Gorilla to Shove It Up His Ass"
-full_title: "Telling the 800-Lb Gorilla to Shove It Up His Ass"
-author: @ASmartBear
+title: |
+  Telling the 800-Lb Gorilla to Shove It Up His Ass
+full_title: |
+  Telling the 800-Lb Gorilla to Shove It Up His Ass
+author: |
+  @ASmartBear
 url: https://blog.asmartbear.com/competing-big-companies.html?utm_source=longform.asmartbear.com&utm_campaign=longform.asmartbear.com&utm_medium=post
 category: articles
 image_url: https://blog.asmartbear.com/wp-content/uploads/5228.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-03 13:31:38.773126+00:00
 published_date: 2010-05-31
-summary: >
+summary: |
   You worry about competition from the big, brand-name, deep-pocketed company. But there are better things to worry about and ways to avoid running into gorillas in the first place.
 source: reader
+permalink: l/articles/telling-the-800-lb-gorilla-to-shove-it-up-his-ass
 ---
 # Telling the 800-Lb Gorilla to Shove It Up His Ass
 

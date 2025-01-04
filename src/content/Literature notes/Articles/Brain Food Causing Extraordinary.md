@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Causing Extraordinary"
-full_title: "Brain Food: Causing Extraordinary"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Causing Extraordinary
+full_title: |
+  Brain Food: Causing Extraordinary
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-12 11:56:12.508694+00:00
 published_date: 2024-02-11
 summary: |
   “I adore you, sweetheart. I know how much you like to hear that — but I don’t only write it because you like it — I write it because it makes me warm all over inside to write it to you.

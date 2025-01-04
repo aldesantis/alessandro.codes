@@ -1,13 +1,13 @@
 ---
-title: What Is Next for Collaborations?
-full_title: What Is Next for Collaborations?
-author: Ana Andjelic
+title: |
+  What Is Next for Collaborations?
+full_title: |
+  What Is Next for Collaborations?
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/what-is-next-for-collaborations?utm_source=post-email-title&publication_id=18831&post_id=150769575&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe527a204-a1c1-4045-9795-e2994fceccdf_988x1002.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-09 22:36:54.004355+00:00
 published_date: None
 summary: |
   Brands are increasingly using collaborations across various cultural fields like food, art, and hospitality to create immersive experiences and build a recognizable identity. This strategy allows them to engage consumers in new ways and diversify their revenue streams. Ultimately, these collaborations help brands establish themselves as cultural tastemakers and foster loyalty among fans.

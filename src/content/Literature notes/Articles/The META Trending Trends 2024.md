@@ -1,13 +1,13 @@
 ---
-title: "The META Trending Trends: 2024"
-full_title: "The META Trending Trends: 2024"
-author: Matt Klein
+title: |
+  The META Trending Trends: 2024
+full_title: |
+  The META Trending Trends: 2024
+author: |
+  Matt Klein
 url: https://zine.kleinkleinklein.com/p/meta-trends-2024
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d18a1eb-e6c5-459b-9b69-4dcc918e8e67_1920x1080.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-15 09:44:12.687668+00:00
 published_date: 2024-01-29
 summary: |
   The META Trending Trends: 2024 is a report that analyzes global forecasts to identify the most frequently reported cultural trends for the year. The report identifies 14 META Trends, including topics such as global crises, AI colonization, late-stage wellness, and environmental vaporware. The report also comments on the practice of trend forecasting and the systemic flaws that can arise, encouraging readers to approach trend reports with a critical eye and consider what is not discussed. The report concludes with an invitation to increase cultural fluency and reach out for bespoke mapping workshops or talks.

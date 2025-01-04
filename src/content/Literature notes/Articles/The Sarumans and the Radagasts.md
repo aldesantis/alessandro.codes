@@ -1,13 +1,13 @@
 ---
-title: The Sarumans and the Radagasts
-full_title: The Sarumans and the Radagasts
-author: Alex Komoroske
+title: |
+  The Sarumans and the Radagasts
+full_title: |
+  The Sarumans and the Radagasts
+author: |
+  Alex Komoroske
 url: https://medium.com/@komorama/the-sarumans-and-the-radagasts-6392f889d142
 category: articles
 image_url: https://miro.medium.com/v2/resize:fit:1024/1*SGamVbiN5AwFh_3TnGC21A.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-16 21:24:59.003038+00:00
 published_date: 2023-10-22
 summary: |
   The text discusses two archetypes of power: Sarumans and Radagasts. Sarumans are bold, self-interested individuals who believe they make the world go round, while Radagasts inspire and uplift others, creating a collective magic. Both archetypes have unique strengths and weaknesses, with Gandalf representing a balance between the two.

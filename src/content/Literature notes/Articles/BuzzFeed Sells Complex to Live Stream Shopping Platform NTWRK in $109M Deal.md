@@ -1,13 +1,13 @@
 ---
-title: BuzzFeed Sells Complex to Live Stream Shopping Platform NTWRK in $109M Deal
-full_title: BuzzFeed Sells Complex to Live Stream Shopping Platform NTWRK in $109M Deal
-author: Alex Weprin
+title: |
+  BuzzFeed Sells Complex to Live Stream Shopping Platform NTWRK in $109M Deal
+full_title: |
+  BuzzFeed Sells Complex to Live Stream Shopping Platform NTWRK in $109M Deal
+author: |
+  Alex Weprin
 url: https://www.hollywoodreporter.com/business/digital/buzzfeed-complex-ntwrk-1235831424/
 category: articles
 image_url: https://www.hollywoodreporter.com/wp-content/uploads/2024/02/ComplexCon-Atmosphere-GettyImages-621532194-H-2024.jpg?w=1024
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-23 12:57:20.352534+00:00
 published_date: 2024-02-21
 summary: |
   BuzzFeed sold its Complex division to NTWRK for $108.6 million in cash, plus $5.7 million for office space and severance costs. This move marks a shift for BuzzFeed, retaining First We Feast while operating independently from Complex. The sale will bring NTWRK and Complex together under new ownership, aiming to create a more resilient business model. The deal will result in two distinct companies, one focusing on news and pop culture at BuzzFeed, and the other on fashion, sneakers, and streetwear at Complex.

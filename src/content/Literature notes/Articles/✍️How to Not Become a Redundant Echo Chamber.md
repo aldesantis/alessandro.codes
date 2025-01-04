@@ -1,13 +1,13 @@
 ---
-title: ✍️How to Not Become a Redundant Echo Chamber
-full_title: ✍️How to Not Become a Redundant Echo Chamber
-author: Tracey Wallace
+title: |
+  ✍️How to Not Become a Redundant Echo Chamber
+full_title: |
+  ✍️How to Not Become a Redundant Echo Chamber
+author: |
+  Tracey Wallace
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-01 22:36:37.387739+00:00
 published_date: 2024-07-31
 summary: |
   One thing I want to say before we dive in here is THANK YOU. So many of you have responded to the welcome newsletter, and so many subsequent ones, with ideas, questions, problems, etc.

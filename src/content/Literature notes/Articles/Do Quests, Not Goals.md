@@ -1,13 +1,13 @@
 ---
-title: Do Quests, Not Goals
-full_title: Do Quests, Not Goals
-author: David Cain
+title: |
+  Do Quests, Not Goals
+full_title: |
+  Do Quests, Not Goals
+author: |
+  David Cain
 url: https://www.raptitude.com/2024/08/do-quests-not-goals/
 category: articles
 image_url: https://www.raptitude.com/wp-content/themes/raptitude-theme/custom/skins/Raptitude-Skin/img/favicon.ico
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-16 08:09:05.396891+00:00
 published_date: 2024-08-08
 summary: |
   David Cain suggests replacing traditional goals with a "quest" mentality to inspire personal growth and achievement. Quests are seen as adventures that transform you, helping to overcome internal obstacles while pursuing aspirations. By tackling these personal challenges alongside daily life, you can create meaningful change without waiting for a better time.

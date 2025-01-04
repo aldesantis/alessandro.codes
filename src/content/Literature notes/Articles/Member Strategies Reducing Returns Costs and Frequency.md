@@ -1,13 +1,13 @@
 ---
-title: "Member Strategies: Reducing Returns Costs and Frequency"
-full_title: "Member Strategies: Reducing Returns Costs and Frequency"
-author: 2PM
+title: |
+  Member Strategies: Reducing Returns Costs and Frequency
+full_title: |
+  Member Strategies: Reducing Returns Costs and Frequency
+author: |
+  2PM
 url: https://2pml.com/2023/05/24/strategies/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/05/chart-05.24.2023-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-26 20:12:13.203485+00:00
 published_date: 2023-05-24
 summary: |
   If you have ever stayed at a hotel, you’ve seen the signs near the sink that remind you it is your job to save the planet by reducing water consumption. We’re entering a phase of cost-o…

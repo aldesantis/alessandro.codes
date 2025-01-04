@@ -1,13 +1,13 @@
 ---
-title: Nature's Many Attempts to Evolve a Nostr
-full_title: Nature's Many Attempts to Evolve a Nostr
-author: Gordon Brander
+title: |
+  Nature's Many Attempts to Evolve a Nostr
+full_title: |
+  Nature's Many Attempts to Evolve a Nostr
+author: |
+  Gordon Brander
 url: https://newsletter.squishy.computer/p/natures-many-attempts-to-evolve-a?triedRedirect=true
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4ae2da3-3850-4334-aa53-dac34850e5d4_1500x1000.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-24 21:39:12.701010+00:00
 published_date: None
 summary: |
   The article discusses the evolution of internet architectures, highlighting how centralized systems control user data and create oligopolies. It introduces the Nostr protocol as a new approach that uses relays, allowing users to own their data and cryptographic keys while avoiding the pitfalls of both centralized and federated systems. This model offers a simpler and more effective solution for decentralized communication.

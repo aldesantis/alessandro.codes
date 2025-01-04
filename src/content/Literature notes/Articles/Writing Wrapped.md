@@ -1,13 +1,13 @@
 ---
-title: Writing Wrapped
-full_title: Writing Wrapped
-author: Anu from Working Theorys
+title: |
+  Writing Wrapped
+full_title: |
+  Writing Wrapped
+author: |
+  Anu from Working Theorys
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-29 09:50:05.282532+00:00
 published_date: 2024-12-29
 summary: |
   Working Theorys is a collection of essays on life, art, & business, thru the lens of startups — written by me, for thousands of readers.

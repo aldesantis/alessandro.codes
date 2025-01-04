@@ -1,13 +1,13 @@
 ---
-title: I Like Dumb Plans
-full_title: I Like Dumb Plans
-author: Stay SaaSy
+title: |
+  I Like Dumb Plans
+full_title: |
+  I Like Dumb Plans
+author: |
+  Stay SaaSy
 url: https://blog.staysaasy.com/p/i-like-dumb-plans?publication_id=1461103
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa7c460d6-9e2a-4184-9b5e-4ea5ae81b5db_400x400.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-19 21:35:53.757563+00:00
 published_date: None
 summary: |
   The author prefers simple, straightforward plans over complex ones that require advanced knowledge and training. They value plans that are easy to execute, understand, and evaluate without the need for extensive research or luck. The focus is on practicality, clear goals, and alignment within the team for successful execution.

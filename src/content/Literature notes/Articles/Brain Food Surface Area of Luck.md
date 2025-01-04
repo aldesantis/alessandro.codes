@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Surface Area of Luck"
-full_title: "Brain Food: Surface Area of Luck"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Surface Area of Luck
+full_title: |
+  Brain Food: Surface Area of Luck
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-04 14:49:40.219629+00:00
 published_date: 2023-09-03
 summary: |
   How you respond to anomalies is a good indicator of your open-mindedness. Anomalies are like a glitch in the matrix.

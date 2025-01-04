@@ -1,13 +1,13 @@
 ---
-title: The Email Marketing Playbook We Wish We Had
-full_title: The Email Marketing Playbook We Wish We Had
-author: Ron Shah
+title: |
+  The Email Marketing Playbook We Wish We Had
+full_title: |
+  The Email Marketing Playbook We Wish We Had
+author: |
+  Ron Shah
 url: https://www.subscribe.chewonthis.io/p/email-marketing-playbook-wish
 category: articles
 image_url: https://beehiiv-images-production.s3.amazonaws.com/uploads/publication/thumbnail/f64b1f3b-b81a-4ab9-8e74-b790b141e9b9/landscape_coverphoto.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-03 10:22:50.444296+00:00
 published_date: 2023-07-02
 summary: |
   How To Turn Email Into A $-printer

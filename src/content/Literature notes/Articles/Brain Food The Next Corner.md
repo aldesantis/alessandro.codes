@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: The Next Corner"
-full_title: "Brain Food: The Next Corner"
-author: FS (Farnam Street)
+title: |
+  Brain Food: The Next Corner
+full_title: |
+  Brain Food: The Next Corner
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-25 13:50:13.394625+00:00
 published_date: 2024-01-21
 summary: |
   “Resentment has always worked for me exactly as it worked for Carson. I cannot recommend it highly enough to you if you desire misery.

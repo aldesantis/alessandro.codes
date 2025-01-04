@@ -1,13 +1,13 @@
 ---
-title: New Rules of Brand Marketing
-full_title: New Rules of Brand Marketing
-author: Ana Andjelic
+title: |
+  New Rules of Brand Marketing
+full_title: |
+  New Rules of Brand Marketing
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/new-rules-of-brand-marketing
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F541d1685-13b1-4e4c-a81a-420bff3922a3_648x870.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-15 14:46:36.289001+00:00
 published_date: 2024-01-08
 summary: |
   Brand marketing has undergone a fundamental change and requires a new operating system to capture attention and budgets. The new system is based on a brand's renewal and cultural relevance. To make commodities aspirational, brand marketing gives them symbolic value, transforming ordinary consumption into cultural participation. The new approach focuses on creating, amplifying, and monetizing cultural moments through collaborations, visual language, pop-ups, content, storytelling, and more. This holistic approach protects pricing power, ensures high margins, and expands a brand's footprint. The new brand marketing strategy is about cultural awareness, emotional resonance, entertainment, and market expansion, creating a consistent and entertaining brand world that people aspire to be part of.

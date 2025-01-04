@@ -1,13 +1,13 @@
 ---
-title: Is Digital Fashion Still in Fashion?
-full_title: Is Digital Fashion Still in Fashion?
-author: Elektra Kotsoni
+title: |
+  Is Digital Fashion Still in Fashion?
+full_title: |
+  Is Digital Fashion Still in Fashion?
+author: |
+  Elektra Kotsoni
 url: https://www.voguebusiness.com/story/fashion/is-digital-fashion-still-in-fashion#intcid=recommendations_vogue-row-bottom-recirc-v4_e9c1a4e7-90ed-436f-8ef3-6722fc452913_roberta-similarity1_fallback_cral2-2
 category: articles
 image_url: https://media.voguebusiness.com/photos/665df40ddd9b3f92a0414a0a/16:9/w_1280,c_limit/DIGITALFASHION-VOGUEBUS-3624-SOCIAL-NEWSLETTER.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-02 08:20:15.556865+00:00
 published_date: 2024-06-04
 summary: |
   Digital fashion has faced challenges post-pandemic, with interest in the metaverse declining. Brands struggle to monetize digital fashion and connect it to the physical world. However, there is optimism for the future of digital fashion, especially in creating connections between physical and digital experiences.

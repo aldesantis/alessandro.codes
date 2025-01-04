@@ -1,13 +1,13 @@
 ---
-title: No Margin, No Mission
-full_title: No Margin, No Mission
-author: Casey Rosengren
+title: |
+  No Margin, No Mission
+full_title: |
+  No Margin, No Mission
+author: |
+  Casey Rosengren
 url: https://every.to/no-small-plans/no-margin-no-mission
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2841/DALLE_Watercolor_Monastery.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-23 11:12:08.919276+00:00
 published_date: 2023-11-08
 summary: |
   The ethical imperative to make a profit

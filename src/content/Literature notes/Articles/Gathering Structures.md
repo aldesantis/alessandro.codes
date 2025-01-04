@@ -1,13 +1,13 @@
 ---
-title: Gathering Structures
-full_title: Gathering Structures
-author: Maggie Appleton
+title: |
+  Gathering Structures
+full_title: |
+  Gathering Structures
+author: |
+  Maggie Appleton
 url: https://maggieappleton.com/gathering-structures
 category: articles
 image_url: https://maggieappleton.com/og.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-08 21:18:44.990125+00:00
 published_date: 2024-02-19
 summary: |
   Maggie Appleton shares her experiences in organizing community events and emphasizes the importance of creating spaces for discussion. She encourages others to start their own gatherings by focusing on a few key elements: time, place, intention, and people. Appleton also highlights the challenges of managing larger groups and suggests using tools to facilitate communication and scheduling.

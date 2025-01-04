@@ -1,13 +1,13 @@
 ---
-title: "Bill Watterson: 'Some Thoughts on the Real World by One Who Glimpsed It and Fled', Kenyon College - 1990"
-full_title: "Bill Watterson: 'Some Thoughts on the Real World by One Who Glimpsed It and Fled', Kenyon College - 1990"
-author: Bill Watterson
+title: |
+  Bill Watterson: 'Some Thoughts on the Real World by One Who Glimpsed It and Fled', Kenyon College - 1990
+full_title: |
+  Bill Watterson: 'Some Thoughts on the Real World by One Who Glimpsed It and Fled', Kenyon College - 1990
+author: |
+  Bill Watterson
 url: https://speakola.com/grad/bill-watterson-calvin-hobbes-kenyon-1990
 category: articles
 image_url: http://static1.squarespace.com/static/5507919de4b01b71a2856965/55177966e4b01b71131669c6/56deb28e59827ed85c22d103/1457435838245/watterson.jpg?format=1500w
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-01 14:13:19.140793+00:00
 published_date: 2016-03-08
 summary: |
   Bill Watterson reflects on his college experience, emphasizing the importance of creativity and play in nurturing happiness and ideas. He warns against letting external pressures dictate one's life and encourages finding personal meaning beyond societal success. Ultimately, he believes that cultivating interests and inner motivation leads to a more fulfilling life.

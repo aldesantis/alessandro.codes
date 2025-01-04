@@ -1,13 +1,13 @@
 ---
-title: The Reason Chewy Has an Edge
-full_title: The Reason Chewy Has an Edge
-author: George Anderson
+title: |
+  The Reason Chewy Has an Edge
+full_title: |
+  The Reason Chewy Has an Edge
+author: |
+  George Anderson
 url: https://www.forbes.com/sites/retailwire/2023/06/08/the-reason-chewy-has-an-edge/
 category: articles
 image_url: https://imageio.forbes.com/specials-images/imageserve/6481f977109fd42edbbec538/0x0.jpg?format=jpg&width=1200
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-12 08:27:49.102166+00:00
 published_date: 2023-06-08
 summary: |
   Chewy is off to a positive start in 2023 and the online pet products retailer can thank its Autoship customers for that The retailer posted a 14.7 percent year-over-ye...

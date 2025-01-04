@@ -1,13 +1,13 @@
 ---
-title: The E-Commerce Search Bar Gets an AI Makeover
-full_title: The E-Commerce Search Bar Gets an AI Makeover
-author: Marc Bain
+title: |
+  The E-Commerce Search Bar Gets an AI Makeover
+full_title: |
+  The E-Commerce Search Bar Gets an AI Makeover
+author: |
+  Marc Bain
 url: https://www.businessoffashion.com/articles/technology/the-e-commerce-search-bar-gets-an-ai-makeover/?utm_source=newsletter_technology&utm_medium=email&utm_campaign=Technology_091024&utm_content=intro
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/JXUVMXBWMRGDXEBBWMZHOJ53LU.jpg?smart=true&auth=d2350f8b87ba665394f1d1d6806efd58b008676899e417f0a3af83a62d719b4e&width=1200&height=630
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-29 09:44:53.158892+00:00
 published_date: 2024-10-09
 summary: |
   To boost sales and create a better customer experience, companies are revamping the e-commerce search bar to make it easier for shoppers to find products or even shop in new ways.

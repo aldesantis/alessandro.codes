@@ -1,13 +1,13 @@
 ---
-title: "Binstack: Making a Maximal Multi-Dimensional Decision"
-full_title: "Binstack: Making a Maximal Multi-Dimensional Decision"
-author: Jason Cohen
+title: |
+  Binstack: Making a Maximal Multi-Dimensional Decision
+full_title: |
+  Binstack: Making a Maximal Multi-Dimensional Decision
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/maximized-decision/
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/thumbnail-1200w_5VVmu29.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-30 10:50:36.946312+00:00
 published_date: 2022-07-02
 summary: |
   Binstack is the best way to select a “single most impactful” solution when there are multiple dimensions to evaluate, even when those dimensions cannot be compared to each other. People often reach for the “rubric” for such puzzles, but rubrics often do not clearly identify a winner, nor do they result in an explanation of the decision that is easily communicated to others.

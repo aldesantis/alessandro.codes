@@ -1,13 +1,13 @@
 ---
-title: Why Brand Consistency Can Make or Break Your Brand
-full_title: Why Brand Consistency Can Make or Break Your Brand
-author: Koto
+title: |
+  Why Brand Consistency Can Make or Break Your Brand
+full_title: |
+  Why Brand Consistency Can Make or Break Your Brand
+author: |
+  Koto
 url: https://offbrandkoto.substack.com/p/why-brand-consistency-can-make-or?utm_source=multiple-personal-recommendations-email&utm_medium=email&triedRedirect=true
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d098211-8fc8-4edd-b289-bb9dad123ddf_1456x1048.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-17 13:44:12.485209+00:00
 published_date: None
 summary: |
   Brand consistency is crucial for building a strong brand identity and fostering loyalty. Maintaining consistency in all aspects of your brand experience helps in capturing attention and emotional connection. It involves replicating actions and behaviors without deviation to convey a clear and recognizable brand message.

@@ -1,13 +1,13 @@
 ---
-title: This Question Means Everything
-full_title: This Question Means Everything
-author: Mark Manson
+title: |
+  This Question Means Everything
+full_title: |
+  This Question Means Everything
+author: |
+  Mark Manson
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-07 19:53:16.643719+00:00
 published_date: 2024-10-07
 summary: |
   How TikTok Ruined Politics (And Your Sex Life) – How many f*cks should we give about politics? What’s driving the widening ideological gap between young men and women?

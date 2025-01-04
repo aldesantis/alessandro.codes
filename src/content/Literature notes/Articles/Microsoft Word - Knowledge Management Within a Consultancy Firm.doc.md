@@ -1,13 +1,13 @@
 ---
-title: Microsoft Word - Knowledge Management Within a Consultancy Firm.doc
-full_title: Microsoft Word - Knowledge Management Within a Consultancy Firm.doc
-author: Ellinor
+title: |
+  Microsoft Word - Knowledge Management Within a Consultancy Firm.doc
+full_title: |
+  Microsoft Word - Knowledge Management Within a Consultancy Firm.doc
+author: |
+  Ellinor
 url: https://readwise.io/reader/document_raw_content/200050063
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/200050063/TNewkN3D7uSXteQQKuh1YxJPQRLMBjZ8ZVZOnWllKbI-cove_VCSv6M8.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-30 21:25:29.161381+00:00
 published_date: 2011-01-17
 summary: |
   The thesis explores how a consulting firm, specifically Accenture, manages internal knowledge to enhance knowledge sharing and creation among its employees. It analyzes existing knowledge management practices and provides recommendations for improvement. The research highlights the importance of effectively transferring and integrating knowledge within the organization to maintain a competitive edge.

@@ -1,13 +1,13 @@
 ---
-title: The Banality of Online Recommendation Culture | the New Yorker
-full_title: The Banality of Online Recommendation Culture | the New Yorker
-author: Kyle Chayka
+title: |
+  The Banality of Online Recommendation Culture | the New Yorker
+full_title: |
+  The Banality of Online Recommendation Culture | the New Yorker
+author: |
+  Kyle Chayka
 url: https://www.newyorker.com/culture/infinite-scroll/the-banality-of-online-recommendation-culture
 category: articles
 image_url: https://media.newyorker.com/photos/6721484c72d483a0ff518c15/16:9/w_1280,c_limit/NewYorker_Reccomendations_final.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-14 04:57:58.534070+00:00
 published_date: 2024-10-30
 summary: |
   Online recommendation culture is growing as a response to algorithm-driven suggestions, emphasizing personal taste. Many platforms now feature human-curated recommendations, with people sharing their favorite products and experiences. This shift highlights the desire for authenticity amid the overwhelming amount of content available online.

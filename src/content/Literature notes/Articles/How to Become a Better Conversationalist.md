@@ -1,13 +1,13 @@
 ---
-title: How to Become a Better Conversationalist
-full_title: How to Become a Better Conversationalist
-author: Eliot Peper
+title: |
+  How to Become a Better Conversationalist
+full_title: |
+  How to Become a Better Conversationalist
+author: |
+  Eliot Peper
 url: https://every.to/p/how-to-become-a-better-conversationalist
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2737/TmfAzPC9CUMNuweS6bmhWevSWXvIt_AvLhU4VaHnjNIfPP8H0FbpHgQf7qpZhh-iE9WHkoVCBEouEfrsDgtk6-eL_VJmxWoH1GkBDHAfM8yzsbtRgcA_gczP5XxF.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 10:16:19.360853+00:00
 published_date: 2023-08-25
 summary: |
   To be interesting, be interested

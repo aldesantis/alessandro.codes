@@ -1,13 +1,13 @@
 ---
-title: How to Get on the Shelf and Stay There
-full_title: How to Get on the Shelf and Stay There
-author: Ron & Ash
+title: |
+  How to Get on the Shelf and Stay There
+full_title: |
+  How to Get on the Shelf and Stay There
+author: |
+  Ron & Ash
 url: https://www.subscribe.chewonthis.io/p/get-shelf-stay?utm_source=www.subscribe.chewonthis.io&utm_medium=newsletter&utm_campaign=how-to-get-on-the-shelf-and-stay-there
 category: articles
 image_url: https://beehiiv-images-production.s3.amazonaws.com/uploads/publication/thumbnail/f64b1f3b-b81a-4ab9-8e74-b790b141e9b9/landscape_coverphoto.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-08 08:49:56.911267+00:00
 published_date: 2023-05-10
 summary: |
   The newsletter that takes the guesswork out of building and scaling a D2C brand. 

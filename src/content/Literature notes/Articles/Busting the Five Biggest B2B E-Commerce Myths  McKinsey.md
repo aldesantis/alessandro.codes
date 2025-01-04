@@ -1,13 +1,13 @@
 ---
-title: Busting the Five Biggest B2B E-Commerce Myths | McKinsey
-full_title: Busting the Five Biggest B2B E-Commerce Myths | McKinsey
-author: Manu Bangia
+title: |
+  Busting the Five Biggest B2B E-Commerce Myths | McKinsey
+full_title: |
+  Busting the Five Biggest B2B E-Commerce Myths | McKinsey
+author: |
+  Manu Bangia
 url: https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/busting-the-five-biggest-b2b-e-commerce-myths
 category: articles
 image_url: https://www.mckinsey.com/~/media/mckinsey/business%20functions/marketing%20and%20sales/our%20insights/busting%20the%20five%20biggest%20b2b%20e%20commerce%20myths/standard-busting-b2b-myths.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-31 14:05:28.804950+00:00
 published_date: 2022-01-26
 summary: |
   E-commerce is a crucial sales channel for B2B companies, with two-thirds of corporate buyers relying on digital and remote channels throughout the buying journey. In-person selling is no longer the most effective channel, with e-commerce accounting for more than 18% of revenue for the average B2B company. Misconceptions exist that need to be dispelled, including the notion that customers aren't ready for e-commerce and that e-commerce is an immature space for businesses. B2B companies are treating e-commerce as a full-service channel and investing accordingly, with digital marketplaces becoming an important part of the purchasing mix.

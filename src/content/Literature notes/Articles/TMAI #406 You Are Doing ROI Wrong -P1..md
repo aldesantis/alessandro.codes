@@ -1,13 +1,13 @@
 ---
-title: "TMAI #406: You Are Doing ROI Wrong -P1."
-full_title: "TMAI #406: You Are Doing ROI Wrong -P1."
-author: avinashkaushik.com
+title: |
+  TMAI #406: You Are Doing ROI Wrong -P1.
+full_title: |
+  TMAI #406: You Are Doing ROI Wrong -P1.
+author: |
+  avinashkaushik.com
 url: https://tmai.avinashkaushik.com/web-version?ep=1&lc=3130e6a4-2238-11ee-9e85-fb91de59307b&p=a5073d5c-004b-11ef-a1d4-97a9b6ba3a4f&pt=campaign&t=1714033497&s=c7f5a8bbcfea91042cc9d4d920d215bf08ddd1232a414328bb10e84eca55f35f
 category: articles
 image_url: https://eomail1.com/screenshot.png?url=https%3A%2F%2Feomail1.com%2Fpreview%3Fp%3Da5073d5c-004b-11ef-a1d4-97a9b6ba3a4f%26pt%3Dcampaign%26t%3D1714032951%26cb%3D20231005%26s%3Dfeb0a1c1a4a44c6277438e6ea395a0ddc231c57502898ec85ee5c9d3a9e8ecc9&viewport_width=1300&viewport_height=650&width=1300
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-03 08:58:17.006186+00:00
 published_date: None
 summary: |
   Marketing measurement is complicated, making it difficult for executives to trust ROI reported by the Marketing team. Different measurement approaches like Last Click ROI, Multi-Touch Attribution ROI, and Channel Silo Incrementality ROI offer varying perspectives on marketing effectiveness and impact. Understanding these measurement methods can help optimize marketing strategies and budget allocation for better outcomes.

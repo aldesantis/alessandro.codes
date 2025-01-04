@@ -1,13 +1,13 @@
 ---
-title: The Iterative Adjacent Possible
-full_title: The Iterative Adjacent Possible
-author: Alex Komoroske
+title: |
+  The Iterative Adjacent Possible
+full_title: |
+  The Iterative Adjacent Possible
+author: |
+  Alex Komoroske
 url: https://medium.com/@komorama/the-iterative-adjacent-possible-af3e7038357d
 category: articles
 image_url: https://miro.medium.com/v2/resize:fit:885/1*p7CEvboUndgThyvFR4_0cQ.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-04 08:57:53.721818+00:00
 published_date: 2023-04-11
 summary: |
   The text discusses the concept of the Iterative Adjacent Possible, highlighting the importance of embracing limitations to unlock potential and achieve long-term success with lower risk. It emphasizes the need to make decisions within the realm of the adjacent possible, where choices are more likely to succeed. By breaking down decisions into smaller, manageable steps and making iterative judgments, individuals and companies can navigate uncertainties and discover new possibilities. The text also contrasts this approach with the traditional "heroic leap" technique, pointing out the benefits of the Iterative Adjacent Possible in generating value and minimizing risk. Overall, it encourages embracing uncertainty and making small, strategic decisions to realize significant outcomes.

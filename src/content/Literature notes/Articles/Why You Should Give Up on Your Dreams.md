@@ -1,13 +1,13 @@
 ---
-title: Why You Should Give Up on Your Dreams
-full_title: Why You Should Give Up on Your Dreams
-author: Casey Rosengren
+title: |
+  Why You Should Give Up on Your Dreams
+full_title: |
+  Why You Should Give Up on Your Dreams
+author: |
+  Casey Rosengren
 url: https://every.to/no-small-plans/dream-bankruptcy-why-you-should-give-up-on-your-holy-grail
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2610/unknown.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-08 08:21:31.627156+00:00
 published_date: 2023-05-08
 summary: |
   How dream bankruptcy can help you move forward in life and work

@@ -1,13 +1,13 @@
 ---
-title: Product Wars
-full_title: Product Wars
-author: Ana Andjelic
+title: |
+  Product Wars
+full_title: |
+  Product Wars
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/product-wars?utm_source=post-email-title&publication_id=18831&post_id=145575121&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F330cb275-0ccf-4081-a40b-6787002980fc_1224x782.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-20 12:23:20.872876+00:00
 published_date: None
 summary: |
   How apparel's two opposing forces - identity and functionality - are shaping its strategy

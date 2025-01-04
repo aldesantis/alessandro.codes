@@ -1,13 +1,13 @@
 ---
-title: How to Break Into Wholesale
-full_title: How to Break Into Wholesale
-author: Daniel-Yaw Miller
+title: |
+  How to Break Into Wholesale
+full_title: |
+  How to Break Into Wholesale
+author: |
+  Daniel-Yaw Miller
 url: https://www.businessoffashion.com/articles/retail/emerging-brands-wholesale-retailers/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/p8JwhjkJfzcbVnJ7j9qmXo6Z4rs=/1200x630/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/WAZTTYFM5FGR5KGESPWXBDLFDI.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-09 08:49:26.766926+00:00
 published_date: 2022-11-01
 summary: |
   Emerging labels can catch the eyes of inundated buyers through savvy pitching, leveraging relationships with celebrity fans and compelling social-media profiles. 

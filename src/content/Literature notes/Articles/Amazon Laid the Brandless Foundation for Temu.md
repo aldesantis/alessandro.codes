@@ -1,13 +1,13 @@
 ---
-title: Amazon Laid the Brandless Foundation for Temu
-full_title: Amazon Laid the Brandless Foundation for Temu
-author: Marketplace Pulse
+title: |
+  Amazon Laid the Brandless Foundation for Temu
+full_title: |
+  Amazon Laid the Brandless Foundation for Temu
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/amazon-laid-the-brandless-foundation-for-temu
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/681/cover_social.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-14 08:38:21.390890+00:00
 published_date: 2024-10-10
 summary: |
   Amazon taught shoppers to look past brand names, laying the foundation for the rapid growth of Temu. It made buying no-name products the norm, and Temu is now selling them for less.

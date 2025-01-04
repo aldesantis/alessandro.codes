@@ -1,13 +1,13 @@
 ---
-title: "Fwd: 5 Full Pages/Notes of Customer Experience Golden Nuggets"
-full_title: "Fwd: 5 Full Pages/Notes of Customer Experience Golden Nuggets"
-author: Alessandro Desantis
+title: |
+  Fwd: 5 Full Pages/Notes of Customer Experience Golden Nuggets
+full_title: |
+  Fwd: 5 Full Pages/Notes of Customer Experience Golden Nuggets
+author: |
+  Alessandro Desantis
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-23 08:39:57.409153+00:00
 published_date: 2023-06-12
 summary: |
   Hey friends, I hope that you had a great weekend.

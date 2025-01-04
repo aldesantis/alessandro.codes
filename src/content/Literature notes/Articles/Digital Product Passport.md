@@ -1,13 +1,13 @@
 ---
-title: Digital Product Passport
-full_title: Digital Product Passport
-author: Aurelien Hathout
+title: |
+  Digital Product Passport
+full_title: |
+  Digital Product Passport
+author: |
+  Aurelien Hathout
 url: https://getenviropass.com/digital-product-passport/
 category: articles
 image_url: https://getenviropass.com/wp-content/uploads/2023/01/airport-308739_640-1.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-20 11:51:06.593811+00:00
 published_date: 2023-01-24
 summary: |
   Digital Product Passport (DPP) makes information about a product’s sustainability available to various stakeholders.

@@ -1,13 +1,13 @@
 ---
-title: Luxury X Crypto
-full_title: Luxury X Crypto
-author: Ana Andjelic
+title: |
+  Luxury X Crypto
+full_title: |
+  Luxury X Crypto
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/luxury-x-crypto?s=w
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe6f906c-b167-43d3-a22c-dc187d834951_766x1028.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-05 12:07:11.866925+00:00
 published_date: 2022-01-10
 summary: |
   How to win in a simulation

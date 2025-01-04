@@ -1,13 +1,13 @@
 ---
-title: Create Things That Come Alive
-full_title: Create Things That Come Alive
-author: Linus Lee
+title: |
+  Create Things That Come Alive
+full_title: |
+  Create Things That Come Alive
+author: |
+  Linus Lee
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-22 08:56:55.502030+00:00
 published_date: 2024-07-22
 summary: |
   This week, I discovered The Objects of Our Life, a piece from Steve Jobs Archive about a talk he gave to an audience of designers in Aspen in 1983, one year before the Macintosh.

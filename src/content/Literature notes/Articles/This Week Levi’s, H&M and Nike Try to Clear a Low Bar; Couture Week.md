@@ -1,13 +1,13 @@
 ---
-title: "This Week: Levi’s, H&M and Nike Try to Clear a Low Bar; Couture Week"
-full_title: "This Week: Levi’s, H&M and Nike Try to Clear a Low Bar; Couture Week"
-author: BoF Professional
+title: |
+  This Week: Levi’s, H&M and Nike Try to Clear a Low Bar; Couture Week
+full_title: |
+  This Week: Levi’s, H&M and Nike Try to Clear a Low Bar; Couture Week
+author: |
+  BoF Professional
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-24 09:35:27.239084+00:00
 published_date: 2024-06-23
 summary: |
   Levi’s, which reports second-quarter results on Wednesday, has made a big investment in its stores and website, increasing the share of sales that come through its own channels rather than fading department stores.

@@ -1,13 +1,13 @@
 ---
-title: TikTok's Plan to Cash in on Its Popularity Among Gen-Z Shoppers Has a Big Flaw
-full_title: TikTok's Plan to Cash in on Its Popularity Among Gen-Z Shoppers Has a Big Flaw
-author: Nathan McAlone
+title: |
+  TikTok's Plan to Cash in on Its Popularity Among Gen-Z Shoppers Has a Big Flaw
+full_title: |
+  TikTok's Plan to Cash in on Its Popularity Among Gen-Z Shoppers Has a Big Flaw
+author: |
+  Nathan McAlone
 url: https://www.businessinsider.com/tiktok-plan-cash-in-popularity-gen-z-shoppers-flaw-2023-6
 category: articles
 image_url: https://i.insider.com/64874ca15dd05600196388ce?width=1200&format=jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-15 09:00:29.348802+00:00
 published_date: 2023-06-12
 summary: |
   New Gen-Z data shows TikTok tied with Instagram as the most influential social platform for ecommerce, but a big bet on livestream shopping is risky.

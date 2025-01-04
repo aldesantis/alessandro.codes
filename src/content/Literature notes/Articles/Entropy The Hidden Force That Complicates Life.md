@@ -1,13 +1,13 @@
 ---
-title: "Entropy: The Hidden Force That Complicates Life"
-full_title: "Entropy: The Hidden Force That Complicates Life"
-author: Farnam Street
+title: |
+  Entropy: The Hidden Force That Complicates Life
+full_title: |
+  Entropy: The Hidden Force That Complicates Life
+author: |
+  Farnam Street
 url: https://fs.blog/entropy/
 category: articles
 image_url: https://149664534.v2.pressablecdn.com/wp-content/uploads/2018/11/Entropy.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-29 21:16:35.948347+00:00
 published_date: 2018-11-26
 summary: |
   Entropy, a concept linked to disorder, highlights why life tends to become more complex over time. The increase in entropy affects various aspects of daily life, leading to disorder and decay. Rudolf Clausius identified entropy, which plays a role in heat transfer and the second law of thermodynamics. Entropy also impacts business and economics, where efforts are needed to minimize disorder and maintain order through constant energy expenditure. In everyday life, combating entropy requires energy to prevent things from becoming disorganized and chaotic, emphasizing the constant effort needed to maintain order in a world naturally inclined towards disorder.

@@ -1,13 +1,13 @@
 ---
-title: Starbucks Ties NFTs to Loyalty Program in Beta Launch
-full_title: Starbucks Ties NFTs to Loyalty Program in Beta Launch
-author: Jessica Deyo
+title: |
+  Starbucks Ties NFTs to Loyalty Program in Beta Launch
+full_title: |
+  Starbucks Ties NFTs to Loyalty Program in Beta Launch
+author: |
+  Jessica Deyo
 url: https://www.marketingdive.com/news/starbucks-odyssey-beta-nft-rewards-loyalty/638471/?utm_source=Sailthru&utm_medium=email&utm_campaign=Issue:%202022-12-14%20Retail%20Dive:%20Marketing%20%5Bissue:46719%5D&utm_term=Retail%20Dive:%20Marketing
 category: articles
 image_url: https://www.marketingdive.com/imgproxy/uyIjpDjh1yBFn-PtSS-Fe4wmV2eswIN25l5BUgke2Ug/g:ce/rs:fill:770:364:0/bG9jYWw6Ly8vZGl2ZWltYWdlL1NCWDIwMjIwOTA5LVN0YXJidWNrcy1PZHlzc2V5LUZlYXR1cmUtSW1hZ2UucG5n.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-15 15:09:30.467423+00:00
 published_date: 2022-12-12
 summary: |
   Starbucks Odyssey allows users to complete interactive challenges in exchange for NFTs and rewards points that unlock exclusive experiences.

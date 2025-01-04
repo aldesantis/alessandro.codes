@@ -1,13 +1,13 @@
 ---
-title: How Do You Create a Great Marketing Strategy? | 5-Minute Whiteboard
-full_title: How Do You Create a Great Marketing Strategy? | 5-Minute Whiteboard
-author: Rand Fishkin
+title: |
+  How Do You Create a Great Marketing Strategy? | 5-Minute Whiteboard
+full_title: |
+  How Do You Create a Great Marketing Strategy? | 5-Minute Whiteboard
+author: |
+  Rand Fishkin
 url: https://sparktoro.com/blog/how-do-you-create-a-great-marketing-strategy-5-minute-whiteboard/?utm_source=rss&utm_medium=email&utm_campaign=rss_feed
 category: articles
 image_url: https://fast.wistia.com/embed/medias/pnjdaj5eup/swatch
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 15:53:23.883440+00:00
 published_date: 2023-07-12
 summary: |
   This week, I'm going back to basics. Not because you need a refresher course, but because so many of us are frustrated in the weeds of marketing precisely

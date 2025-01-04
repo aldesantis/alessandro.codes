@@ -1,13 +1,13 @@
 ---
-title: A Few Great Writing Prompts
-full_title: A Few Great Writing Prompts
-author: Jay Clouse
+title: |
+  A Few Great Writing Prompts
+full_title: |
+  A Few Great Writing Prompts
+author: |
+  Jay Clouse
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-03 15:27:15.998717+00:00
 published_date: 2023-10-29
 summary: |
   By writing about something you want to learn about, you're forced to do the research necessary to solidify your OWN understanding.

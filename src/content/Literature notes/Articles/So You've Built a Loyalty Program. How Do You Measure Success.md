@@ -1,13 +1,13 @@
 ---
-title: So You've Built a Loyalty Program. How Do You Measure Success?
-full_title: So You've Built a Loyalty Program. How Do You Measure Success?
-author: Matt Smolin
+title: |
+  So You've Built a Loyalty Program. How Do You Measure Success?
+full_title: |
+  So You've Built a Loyalty Program. How Do You Measure Success?
+author: |
+  Matt Smolin
 url: https://www.adweek.com/performance-marketing/loyalty-program-measure-roi-incremental-value/
 category: articles
 image_url: https://static-prod.adweek.com/wp-content/uploads/2024/01/loyalty-program-measure-success-2024-600x315.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-18 17:40:39.100675+00:00
 published_date: 2024-01-29
 summary: |
   Customer loyalty programs are increasingly popular as businesses seek to differentiate themselves in a competitive market. However, not all loyalty programs guarantee success, as seen with Bed Bath & Beyond's generic coupon approach. To measure the effectiveness of a loyalty program, brands must set clear goals, track incremental revenue, and carefully analyze costs. Sophisticated methods like difference-in-difference analysis can provide a more accurate picture of the program's impact, while considering both tangible and intangible rewards is crucial for calculating return on investment. Understanding customer behavior and feedback is also essential in evaluating the true success of a loyalty program.

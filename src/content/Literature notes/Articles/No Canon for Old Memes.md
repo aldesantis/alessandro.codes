@@ -1,19 +1,19 @@
 ---
-title: "No Canon for Old Memes"
-full_title: "No Canon for Old Memes"
-author: Culture: An Owner's Manual
+title: |
+  No Canon for Old Memes
+full_title: |
+  No Canon for Old Memes
+author: |
+  Culture: An Owner's Manual
 url: https://culture.ghost.io/no-canon-for-old-memes/?ref=culture-an-owners-manual-newsletter
 category: articles
 image_url: https://culture.ghost.io/content/images/size/w1200/2024/02/Screenshot-2024-02-13-at-8.26.54.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-13 08:00:24.654150+00:00
 published_date: 2024-02-13
-summary: >
+summary: |
   The Internet culture of the Aughts revolved around lo-fi images and videos. Will they be remembered by coming generations, and does this portend something about the future of culture?
-
-Every time my mother picked me up in the used Volvo station wagon, she always had the radio tuned to Pensacola’
+  Every time my mother picked me up in the used Volvo station wagon, she always had the radio tuned to Pensacola’
 source: reader
+permalink: l/articles/no-canon-for-old-memes
 ---
 # No Canon for Old Memes
 

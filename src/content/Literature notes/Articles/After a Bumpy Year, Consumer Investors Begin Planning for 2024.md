@@ -1,13 +1,13 @@
 ---
-title: After a Bumpy Year, Consumer Investors Begin Planning for 2024
-full_title: After a Bumpy Year, Consumer Investors Begin Planning for 2024
-author: Gabriela Barkho
+title: |
+  After a Bumpy Year, Consumer Investors Begin Planning for 2024
+full_title: |
+  After a Bumpy Year, Consumer Investors Begin Planning for 2024
+author: |
+  Gabriela Barkho
 url: https://www.modernretail.co/operations/after-a-bumpy-year-consumer-investors-begin-planning-for-2024/?utm_source=mrdis&utm_medium=email
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2023/11/MR_whack-a-mole-copy.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-11 15:24:07.726899+00:00
 published_date: 2024-01-02
 summary: |
   Consumer investors are beginning to plan for 2024 after a challenging few years for startup brands. With interest rates stabilizing and consumer spending strong, investors are looking to ramp up activity and write checks for the right companies. Investors are now focusing on the overall health and fundamentals of a company before participating in a funding round. Categories such as better-for-you food and beverage and clean beauty are expected to grow, and celebrity-backed brands continue to attract investors. However, not everyone is optimistic about the future, as venture capital funding for consumer businesses has dropped significantly.

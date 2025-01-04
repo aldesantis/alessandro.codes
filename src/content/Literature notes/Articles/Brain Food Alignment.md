@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Alignment"
-full_title: "Brain Food: Alignment"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Alignment
+full_title: |
+  Brain Food: Alignment
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-21 11:25:58.553019+00:00
 published_date: 2023-11-19
 summary: |
   "In order to get the results we desire, we must do two things.

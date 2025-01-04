@@ -1,13 +1,13 @@
 ---
-title: Be Sincere—Not Serious
-full_title: Be Sincere—Not Serious
-author: Michael Ashcroft
+title: |
+  Be Sincere—Not Serious
+full_title: |
+  Be Sincere—Not Serious
+author: |
+  Michael Ashcroft
 url: https://every.to/expanding-awareness/be-sincere-not-serious-f893abb2-535e-4ddd-8c57-ca045e84c509
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/3132/M-Social.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-26 16:35:11.268543+00:00
 published_date: 2024-06-17
 summary: |
   The text discusses the importance of being sincere rather than serious in approaching challenges and life situations. It highlights how adopting a playful and sincere attitude can lead to more enjoyable and effective outcomes. The distinction between finite games (seriousness) and infinite games (sincerity) is emphasized as a way to navigate life's challenges with a sense of humor and adaptability.

@@ -1,13 +1,13 @@
 ---
-title: Retailers Are Bracing for Their Postholiday Returns Hangover
-full_title: Retailers Are Bracing for Their Postholiday Returns Hangover
-author: Liz Young | Photos by Michelle Gustafson for The Wall Street Journal
+title: |
+  Retailers Are Bracing for Their Postholiday Returns Hangover
+full_title: |
+  Retailers Are Bracing for Their Postholiday Returns Hangover
+author: |
+  Liz Young | Photos by Michelle Gustafson for The Wall Street Journal
 url: https://www.wsj.com/articles/retailers-are-bracing-for-their-postholiday-returns-hangover-f10f5a53
 category: articles
 image_url: https://images.wsj.net/im-904409/social
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-29 10:27:26.132766+00:00
 published_date: 2023-12-26
 summary: |
   After rushing to sell goods, merchants are facing the flip side: “We’re heading for a trillion dollar problem here.”

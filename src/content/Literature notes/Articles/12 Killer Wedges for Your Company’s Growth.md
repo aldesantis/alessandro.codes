@@ -1,13 +1,13 @@
 ---
-title: 12 Killer Wedges for Your Company’s Growth
-full_title: 12 Killer Wedges for Your Company’s Growth
-author: NFX
+title: |
+  12 Killer Wedges for Your Company’s Growth
+full_title: |
+  12 Killer Wedges for Your Company’s Growth
+author: |
+  NFX
 url: https://www.nfx.com/post/finding-your-killer-wedge?utm_campaign=NFX%20Newsletter&utm_medium=email&_hsenc=p2ANqtz-9A7uw_ISuHswoTrez7gyF7f_k8wNJfLqKs74mnVpfwi6yGQPv-FZ_k83CBdxzbaqcJeV_iIaxkOxLvH5skC3c3g90CBdSuJ7cHXDGAg_9WEP_7G_E&_hsmi=316969082&utm_content=316969082&utm_source=hs_email
 category: articles
 image_url: https://content.nfx.com/wp-content/uploads/2024/07/word-image-20046-1.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-18 10:17:57.125504+00:00
 published_date: 2024-07-18
 summary: |
   To grow a startup, it's important to start with a "killer wedge," which is a specific product feature or small target market that helps you connect with customers quickly. This approach allows you to gather valuable feedback and refine your offerings before expanding into larger markets. Remember, a killer wedge is a stepping stone, not the end goal, so use the insights gained to inform your future growth strategy.

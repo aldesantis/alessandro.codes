@@ -1,13 +1,13 @@
 ---
-title: What American Retailers Can Learn From European Department Stores
-full_title: What American Retailers Can Learn From European Department Stores
-author: Cathaleen Chen
+title: |
+  What American Retailers Can Learn From European Department Stores
+full_title: |
+  What American Retailers Can Learn From European Department Stores
+author: |
+  Cathaleen Chen
 url: https://www.businessoffashion.com/articles/retail/european-versus-american-department-stores/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/v2/HDKO4T7TKRHSVP4FSCTCXPLLO4.jpg?smart=true&auth=8f7d17bfa0cc2959a138b0bfaadb9322b4ecdeb60fe3a61c43fb254e168bdf84&width=1200&height=630
-date: 2025-01-02
-time: 11:11 AM
-last_highlighted_date: 2025-01-02 09:55:14.237280+00:00
 published_date: 2023-01-19
 summary: |
   American department stores often lack the unique and curated shopping experience found in European stores like Le Bon Marché and Selfridges. To compete, U.S. retailers are starting to adopt European design and operational models, emphasizing creativity and immersive experiences. Enhancing store aesthetics and offering brand-operated sections can help create a more engaging atmosphere for shoppers.

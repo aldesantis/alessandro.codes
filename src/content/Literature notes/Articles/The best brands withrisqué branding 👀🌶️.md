@@ -1,13 +1,13 @@
 ---
-title: The best brands withrisqué branding 👀🌶️
-full_title: The best brands withrisqué branding 👀🌶️
-author: Thingtesting
+title: |
+  The best brands withrisqué branding 👀🌶️
+full_title: |
+  The best brands withrisqué branding 👀🌶️
+author: |
+  Thingtesting
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 12:15:42.231131+00:00
 published_date: 2023-08-31
 summary: |
   View this email in your browser. Curious about sponsoring our newsletter or booking a Thingdrop?

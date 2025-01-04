@@ -1,13 +1,13 @@
 ---
-title: 15 Token Thoughts
-full_title: 15 Token Thoughts
-author: paragraph.xyz
+title: |
+  15 Token Thoughts
+full_title: |
+  15 Token Thoughts
+author: |
+  paragraph.xyz
 url: https://paragraph.xyz/@joshcrnls.eth/apr-20?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://storage.googleapis.com/papyrus_images/17b462ecad2901e4ed0bdc8e68407196.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-22 20:50:29.398928+00:00
 published_date: 2024-04-20
 summary: |
   I was travelling at the end of the week so had to miss internet explorers and wasn't able to curate topics from the week in consumer crypto as I usua...

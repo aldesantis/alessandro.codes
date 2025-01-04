@@ -1,13 +1,13 @@
 ---
-title: NFT Brands Are Stepping Into the Toy Category
-full_title: NFT Brands Are Stepping Into the Toy Category
-author: Maria Monteros
+title: |
+  NFT Brands Are Stepping Into the Toy Category
+full_title: |
+  NFT Brands Are Stepping Into the Toy Category
+author: |
+  Maria Monteros
 url: https://www.modernretail.co/technology/nft-brands-are-stepping-into-the-toy-category/?utm_source=mrdaily&utm_campaign=mrdis&utm_medium=email
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2024/03/Pudgy-Toys-Clip-Ons-Image-e1710188675790.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-13 08:11:15.337250+00:00
 published_date: 2024-03-12
 summary: |
   NFT brands are trying their hands at the toy category where they could both grow the popularity of the products outside of the digital space.

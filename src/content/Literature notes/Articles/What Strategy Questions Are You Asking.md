@@ -1,13 +1,13 @@
 ---
-title: What Strategy Questions Are You Asking?
-full_title: What Strategy Questions Are You Asking?
-author: Roger Martin
+title: |
+  What Strategy Questions Are You Asking?
+full_title: |
+  What Strategy Questions Are You Asking?
+author: |
+  Roger Martin
 url: https://rogermartin.medium.com/what-strategy-questions-are-you-asking-587d32239a48
 category: articles
 image_url: https://miro.medium.com/v2/resize:fit:1151/1*S75LkAkbhtLk4Q9pqzWD_A.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-09 14:08:55.777915+00:00
 published_date: 2023-06-05
 summary: |
   The Key to Competitive Advantage

@@ -1,13 +1,13 @@
 ---
-title: Chi È Stefano Bonaccini
-full_title: Chi È Stefano Bonaccini
-author: Il Post
+title: |
+  Chi È Stefano Bonaccini
+full_title: |
+  Chi È Stefano Bonaccini
+author: |
+  Il Post
 url: https://www.ilpost.it/2022/11/21/chi-e-stefano-bonaccini/
 category: articles
 image_url: https://www.ilpost.it/wp-content/uploads/2022/11/21/1669023268-Bonaccini-.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2022-12-11 14:37:13.008178+00:00
 published_date: 2022-11-21
 summary: |
   Stefano Bonaccini, presidente dell’Emilia-Romagna, ha detto che si candiderà alla segreteria del Partito Democratico per sostituire Enrico Letta alle primarie che si terranno il 19 febbraio del 2023.

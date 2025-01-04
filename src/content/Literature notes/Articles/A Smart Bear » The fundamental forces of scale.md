@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » The fundamental forces of scale
-full_title: A Smart Bear » The fundamental forces of scale
-author: Jason Cohen
+title: |
+  A Smart Bear » The fundamental forces of scale
+full_title: |
+  A Smart Bear » The fundamental forces of scale
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/scale?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/scale/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-22 16:17:12.182804+00:00
 published_date: 2023-09-24
 summary: |
   These forces make larger companies slower and more difficult to execute, but also more effective when harnessed and leveraged.

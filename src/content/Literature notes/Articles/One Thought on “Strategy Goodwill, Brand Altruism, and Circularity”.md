@@ -1,13 +1,13 @@
 ---
-title: "One Thought on “Strategy: Goodwill, Brand Altruism, and Circularity”"
-full_title: "One Thought on “Strategy: Goodwill, Brand Altruism, and Circularity”"
-author: 2PM
+title: |
+  One Thought on “Strategy: Goodwill, Brand Altruism, and Circularity”
+full_title: |
+  One Thought on “Strategy: Goodwill, Brand Altruism, and Circularity”
+author: |
+  2PM
 url: https://2pml.com/2023/11/06/goodwill/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/11/chart-11.07.2023.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-24 11:44:32.861256+00:00
 published_date: 2023-11-07
 summary: |
   In a world increasingly conscious of its consumption footprint, the need for sustainability in retail has never been more pronounced. Since its inception in 1902, Goodwill Industries has stood as a…

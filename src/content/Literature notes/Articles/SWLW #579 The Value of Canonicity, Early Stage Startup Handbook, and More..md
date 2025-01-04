@@ -1,13 +1,13 @@
 ---
-title: "SWLW #579: The Value of Canonicity, Early Stage Startup Handbook, and More."
-full_title: "SWLW #579: The Value of Canonicity, Early Stage Startup Handbook, and More."
-author: Oren Ellenbogen
+title: |
+  SWLW #579: The Value of Canonicity, Early Stage Startup Handbook, and More.
+full_title: |
+  SWLW #579: The Value of Canonicity, Early Stage Startup Handbook, and More.
+author: |
+  Oren Ellenbogen
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-30 18:24:17.908987+00:00
 published_date: 2023-12-30
 summary: |
   The Value of Canonicity: What Happens When We Run an Engineering Organization by Constraining the Number of Tools in Our Toolbox “For the Greater Good”? 9 minutes read.

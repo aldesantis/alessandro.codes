@@ -1,13 +1,13 @@
 ---
-title: 10 Rules of IP Brands
-full_title: 10 Rules of IP Brands
-author: The Sociology of Business
+title: |
+  10 Rules of IP Brands
+full_title: |
+  10 Rules of IP Brands
+author: |
+  The Sociology of Business
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-03 08:56:38.070104+00:00
 published_date: 2023-10-02
 summary: |
   Welcome to the Sociology of Business.

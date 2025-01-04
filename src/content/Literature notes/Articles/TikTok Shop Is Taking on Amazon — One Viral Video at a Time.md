@@ -1,13 +1,13 @@
 ---
-title: TikTok Shop Is Taking on Amazon — One Viral Video at a Time
-full_title: TikTok Shop Is Taking on Amazon — One Viral Video at a Time
-author: Emma Klein
+title: |
+  TikTok Shop Is Taking on Amazon — One Viral Video at a Time
+full_title: |
+  TikTok Shop Is Taking on Amazon — One Viral Video at a Time
+author: |
+  Emma Klein
 url: https://www.npr.org/2024/02/08/1228226459/tiktok-shop-amazon-social-media-business-ecommerce
 category: articles
 image_url: https://media.npr.org/assets/img/2024/02/07/tiktokshop2_wide-349df09b66f3e49b9ca5b403a919fa13146228e9-s1400-c100.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-15 17:24:25.258144+00:00
 published_date: 2024-02-08
 summary: |
   TikTok has surged into the e-commerce space, positioning itself as a kind of Amazon for the social media age. Analysts say it might work, but users and sellers are asking: At what price?

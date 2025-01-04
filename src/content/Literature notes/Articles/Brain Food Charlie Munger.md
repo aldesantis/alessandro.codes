@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Charlie Munger"
-full_title: "Brain Food: Charlie Munger"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Charlie Munger
+full_title: |
+  Brain Food: Charlie Munger
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-06 13:31:25.925796+00:00
 published_date: 2023-12-03
 summary: |
   "Spend each day trying to be a little wiser than you were when you woke up. Discharge your duties faithfully and well.

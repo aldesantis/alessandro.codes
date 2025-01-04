@@ -1,13 +1,13 @@
 ---
-title: What I Learned From Conan O'Brien
-full_title: What I Learned From Conan O'Brien
-author: Jay Clouse
+title: |
+  What I Learned From Conan O'Brien
+full_title: |
+  What I Learned From Conan O'Brien
+author: |
+  Jay Clouse
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-01-25 13:51:51.919812+00:00
 published_date: 2024-01-21
 summary: |
   If you’re launching or growing your creator brand in 2024, you need to know about this platform.

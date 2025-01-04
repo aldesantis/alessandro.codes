@@ -1,13 +1,13 @@
 ---
-title: Failed, Not a Failure
-full_title: Failed, Not a Failure
-author: Chris Anselmo
+title: |
+  Failed, Not a Failure
+full_title: |
+  Failed, Not a Failure
+author: |
+  Chris Anselmo
 url: https://helloadversity.substack.com/cp/143432901
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c7431a5-2851-4e97-8355-cb530d861fae_5568x3712.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-03 04:04:02.454177+00:00
 published_date: None
 summary: |
   Failure is a part of life, but it doesn't mean you are a failure. It's important to learn from failures and use them as stepping stones to future success. Everyone encounters failure, and it can lead to positive changes in your life.

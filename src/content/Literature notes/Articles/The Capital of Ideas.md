@@ -1,13 +1,13 @@
 ---
-title: The Capital of Ideas
-full_title: The Capital of Ideas
-author: Tom Critchlow
+title: |
+  The Capital of Ideas
+full_title: |
+  The Capital of Ideas
+author: |
+  Tom Critchlow
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-02 13:13:01.648615+00:00
 published_date: 2023-11-01
 summary: |
   A slight delay sending this because of some consulting work (not a bad problem to have!

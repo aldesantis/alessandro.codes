@@ -1,13 +1,13 @@
 ---
-title: Why AI Will Save the World
-full_title: Why AI Will Save the World
-author: Marc Andreessen
+title: |
+  Why AI Will Save the World
+full_title: |
+  Why AI Will Save the World
+author: |
+  Marc Andreessen
 url: https://a16z.com/2023/06/06/ai-will-save-the-world/
 category: articles
 image_url: https://a16z.com/wp-content/uploads/2023/06/AI-Saves-The-World_Yoast-FB.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-08 15:30:07.498344+00:00
 published_date: 2023-06-06
 summary: |
   There's a full-blown moral panic about AI right now. But the real risk is losing the race to global AI technological superiority.

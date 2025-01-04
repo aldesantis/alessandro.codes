@@ -1,13 +1,13 @@
 ---
-title: Awareness is a User Interface
-full_title: Awareness is a User Interface
-author: Michael Ashcroft |
+title: |
+  Awareness is a User Interface
+full_title: |
+  Awareness is a User Interface
+author: |
+  Michael Ashcroft |
 url: https://expandingawareness.org/blog/awareness-is-a-user-interface/
 category: articles
 image_url: https://cdn.getmidnight.com/57d3d307ea7a3152cb20d145dd50914b/2022/03/Awareness-is-a-user-interface_900px.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-04-04 07:46:37.447552+00:00
 published_date: 2021-05-12
 summary: |
   Awareness is the key to noticing things in your environment and within yourself. By expanding your awareness, you gain more agency and freedom to make choices. Paying attention to how your awareness operates can lead to transformative experiences and behaviors.

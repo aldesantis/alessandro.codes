@@ -1,13 +1,13 @@
 ---
-title: Crypto’s
-full_title: Crypto’s
-author: Evan Armstrong
+title: |
+  Crypto’s
+full_title: |
+  Crypto’s
+author: |
+  Evan Armstrong
 url: https://every.to/napkin-math/crypto-s-prophet-speaks
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/2934/crypto_social.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-02 14:44:23.234703+00:00
 published_date: 2024-02-01
 summary: |
   Crypto venture capitalist Chris Dixon argues in his book, "Read Write Own: Building the Next Era of the Internet," that the problems of the internet can be solved through blockchain technology. He believes that the internet's issues stem from corporate control and centralized networks. Dixon proposes that blockchain networks can decentralize the internet and give power back to the people. However, the author of the summary disagrees with Dixon's arguments, stating that the problems of the blockchain's technical architecture are similar to those of corporations. The summary concludes by stating that Dixon's arguments fall short of solving the internet's current problems.

@@ -1,13 +1,13 @@
 ---
-title: A Brief History & Ethos of the Digital Garden
-full_title: A Brief History & Ethos of the Digital Garden
-author: Maggie Appleton
+title: |
+  A Brief History & Ethos of the Digital Garden
+full_title: |
+  A Brief History & Ethos of the Digital Garden
+author: |
+  Maggie Appleton
 url: https://maggieappleton.com/garden-history
 category: articles
 image_url: https://maggieappleton.com/images/og/e8be85c4f66d83dd0e482b9862d461f2.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-01 21:46:08.162843+00:00
 published_date: 2020-03-16
 summary: |
   Digital gardening is an evolving collection of ideas organized in a non-linear way, contrasting with traditional blogs. It encourages personal exploration and knowledge accumulation, allowing for unique, creative expression online. This movement has gained traction due to communities embracing new tools and practices for sharing information.

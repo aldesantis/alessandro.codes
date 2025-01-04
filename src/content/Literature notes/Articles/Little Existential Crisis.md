@@ -1,13 +1,13 @@
 ---
-title: Little Existential Crisis
-full_title: Little Existential Crisis
-author: Rosie Spinks
+title: |
+  Little Existential Crisis
+full_title: |
+  Little Existential Crisis
+author: |
+  Rosie Spinks
 url: https://rojospinks.substack.com/p/little-existential-crisis?utm_source=post-email-title&publication_id=4486&post_id=144903517&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdffca75b-ca45-492a-8d5e-f84bbf62696a_1000x1105.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-13 22:03:15.454421+00:00
 published_date: None
 summary: |
   The author shared the results of an "Ask Me Anything" session with subscribers, expressing gratitude for their support. They discussed learning from past experiences, admired writers, and offered advice on navigating existential crises. The author emphasized finding compassion, setting boundaries, and following paths that bring a sense of ease and expansion in decision-making.

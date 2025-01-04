@@ -1,13 +1,15 @@
 ---
-title: Apple Cup Kiss On Three & It is almost 'Black Friday', how do we think holiday sales will shape up?
-full_title: Apple Cup Kiss On Three & It is almost 'Black Friday', how do we think holiday sales will shape up?
-author: Cocktails & Commerce
+title: |
+  Apple Cup Kiss On Three & It is almost 'Black Friday', how do we think holiday
+   sales will shape up?
+full_title: |
+  Apple Cup Kiss On Three & It is almost 'Black Friday', how do we think holiday
+   sales will shape up?
+author: |
+  Cocktails & Commerce
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-21 11:34:34.239484+00:00
 published_date: 2023-11-20
 summary: |
   It is almost Thanksgiving and ‘Black Friday’ - the traditional kick-off of the holiday shopping season.

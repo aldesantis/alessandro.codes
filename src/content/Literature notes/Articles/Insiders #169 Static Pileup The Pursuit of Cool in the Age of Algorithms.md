@@ -1,13 +1,13 @@
 ---
-title: "Insiders #169: Static Pileup: The Pursuit of Cool in the Age of Algorithms"
-full_title: "Insiders #169: Static Pileup: The Pursuit of Cool in the Age of Algorithms"
-author: futurecommerce.com
+title: |
+  Insiders #169: Static Pileup: The Pursuit of Cool in the Age of Algorithms
+full_title: |
+  Insiders #169: Static Pileup: The Pursuit of Cool in the Age of Algorithms
+author: |
+  futurecommerce.com
 url: https://www.futurecommerce.com/posts/insiders-169-static-pileup-the-pursuit-of-cool-in-the-age-of-algorithms
 category: articles
 image_url: https://assets-global.website-files.com/5d7da04028ecca2357d6b3b0/66428079a118e7530e7a4247_static-pileup2.webp
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-29 21:15:54.490395+00:00
 published_date: 2024-05-13
 summary: |
   In the age of algorithms, defining 'cool' has become subjective and specific to different niches, challenging brands that once relied on mainstream appeal. Tastemakers play a crucial role in curating and filtering knowledge to break free from algorithmic constraints and maintain authenticity in a saturated market. Brands must balance niche authenticity with mainstream appeal to sustain long-term success and relevance in a constantly evolving cultural landscape.

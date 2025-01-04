@@ -1,13 +1,13 @@
 ---
-title: How Vestiaire Is Improving Fashion Treasure Hunts With AI
-full_title: How Vestiaire Is Improving Fashion Treasure Hunts With AI
-author: Maghan McDowell
+title: |
+  How Vestiaire Is Improving Fashion Treasure Hunts With AI
+full_title: |
+  How Vestiaire Is Improving Fashion Treasure Hunts With AI
+author: |
+  Maghan McDowell
 url: https://link.voguebusiness.com/click/36991888.9962/aHR0cHM6Ly93d3cudm9ndWVidXNpbmVzcy5jb20vc3RvcnkvdGVjaG5vbG9neS9ob3ctdmVzdGlhaXJlLWlzLWltcHJvdmluZy1mYXNoaW9uLXRyZWFzdXJlLWh1bnRzLXdpdGgtYWk_dUlEPTU4YmEyOWY2NTkyYzI0ZWYwYmRlZmE3NjExNGE0Mzk4MmE4MDZjMTdhMjg5ZWQ3NThhM2IwNzk0ZmU4MzQ0MzUmdXRtX2NhbXBhaWduPVZCX1RlY2hFZGl0X01FTUJFUl8wMTEwMjQmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9icmFuZD12YiZ1dG1fbWFpbGluZz1WQl9UZWNoRWRpdF9NRU1CRVJfMDgxMDI0/666bfa066c79dd1d3d092cdaB2b45bd7d
 category: articles
 image_url: https://media.voguebusiness.com/photos/670055587c1523ea0e4a165f/16:9/w_1280,c_limit/VEST-VOGUEBUS-141024-SOCIALNEWSLETTER.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-21 09:59:01.664709+00:00
 published_date: 2024-10-07
 summary: |
   The Paris-based fashion resale platform is adding computer vision to solve the unique challenge of specific searches among a vast product catalogue.

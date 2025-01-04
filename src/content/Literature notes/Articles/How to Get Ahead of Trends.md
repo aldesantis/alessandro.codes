@@ -1,13 +1,13 @@
 ---
-title: How to Get Ahead of Trends
-full_title: How to Get Ahead of Trends
-author: Jay Clouse
+title: |
+  How to Get Ahead of Trends
+full_title: |
+  How to Get Ahead of Trends
+author: |
+  Jay Clouse
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-05 15:11:13.955295+00:00
 published_date: 2024-02-04
 summary: |
   MrBeast pioneered the large-scale, game show spectacle on YouTube. As he grew, tons of channels began mimicking that format – they even mimicked his open-mouthed thumbnail style!

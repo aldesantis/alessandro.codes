@@ -1,13 +1,13 @@
 ---
-title: The Next Big Thing in 2025 Will Be...
-full_title: The Next Big Thing in 2025 Will Be...
-author: Nikhil Basu Trivedi
+title: |
+  The Next Big Thing in 2025 Will Be...
+full_title: |
+  The Next Big Thing in 2025 Will Be...
+author: |
+  Nikhil Basu Trivedi
 url: https://nbt.substack.com/p/nextbigthing2025?utm_source=substack&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb8a4c18-5b3a-4d95-b1f6-7a548e05ae13_1600x900.png
-date: 2025-01-01
-time: 6:15 PM
-last_highlighted_date: 2025-01-01 14:26:13.795834+00:00
 published_date: 2024-12-30
 summary: |
   In 2025, the rise of AI agents will transform how we interact with technology, allowing these tools to handle complex tasks autonomously. There will be a shift towards AI becoming a seamless part of our daily lives and business operations. This evolution will lead to new user interfaces and a focus on human curation in a world saturated with AI-generated content.

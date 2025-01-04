@@ -1,13 +1,13 @@
 ---
-title: How to Do Great Work
-full_title: How to Do Great Work
-author: Paul Graham
+title: |
+  How to Do Great Work
+full_title: |
+  How to Do Great Work
+author: |
+  Paul Graham
 url: http://paulgraham.com/greatwork.html
 category: articles
 image_url: https://news.ycombinator.com/favicon.ico
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-09 18:37:07.478786+00:00
 published_date: 2023-07-01
 summary: |
   Partly my goal was to create a guide that could be used by someone working in any field. But I was also curious about the shape of the intersection.

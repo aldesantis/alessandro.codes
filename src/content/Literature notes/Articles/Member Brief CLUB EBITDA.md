@@ -1,13 +1,13 @@
 ---
-title: "Member Brief: CLUB EBITDA"
-full_title: "Member Brief: CLUB EBITDA"
-author: 2PM
+title: |
+  Member Brief: CLUB EBITDA
+full_title: |
+  Member Brief: CLUB EBITDA
+author: |
+  2PM
 url: https://2pml.com/2021/10/15/ebitda/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2021/10/IMG_8831.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-17 10:58:09.983764+00:00
 published_date: 2021-10-15
 summary: |
   Retail is an EBITDA sport. In 2019, at Shopify Plus’s New York conference, a relatively unknown, foreign brand espoused the importance of healthy growth and profitability. American brands rec…

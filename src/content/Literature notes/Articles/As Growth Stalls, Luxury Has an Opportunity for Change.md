@@ -1,13 +1,13 @@
 ---
-title: As Growth Stalls, Luxury Has an Opportunity for Change
-full_title: As Growth Stalls, Luxury Has an Opportunity for Change
-author: Rachel Cernansky
+title: |
+  As Growth Stalls, Luxury Has an Opportunity for Change
+full_title: |
+  As Growth Stalls, Luxury Has an Opportunity for Change
+author: |
+  Rachel Cernansky
 url: https://www.voguebusiness.com/story/sustainability/as-growth-stalls-luxury-has-an-opportunity-for-change?uID=58ba29f6592c24ef0bdefa76114a43982a806c17a289ed758a3b0794fe834435&utm_campaign=VB_NEWS_MEMBER_SustainabilityEdit_4_080824&utm_source=newsletter&utm_brand=vb&utm_mailing=VB_NEWS_MEMBER_SustainabilityEdit_4_080824&utm_medium=email&utm_term=VB_PaidSustainability
 category: articles
 image_url: https://media.voguebusiness.com/photos/66b3c3048d20af2f0ae5e1a5/16:9/w_1280,c_limit/LUX-SLOWDOWN-VOGUEBUS-7824-SOCIAL-NEWSLETTER.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-12 12:46:13.939692+00:00
 published_date: 2024-08-08
 summary: |
   Luxury fashion is facing a slowdown that presents an opportunity for brands to shift towards more sustainable practices. Experts suggest adopting circular business models, like rental and resale, to improve profitability and engage customers differently. As consumer behavior changes, brands must innovate to remain relevant and profitable without relying solely on new product sales.

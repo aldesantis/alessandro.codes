@@ -1,13 +1,13 @@
 ---
-title: "Opinion: Immersive Brand Experiences to Transform Luxury Travel?"
-full_title: "Opinion: Immersive Brand Experiences to Transform Luxury Travel?"
-author: Kristoff D’oria di Cirie
+title: |
+  Opinion: Immersive Brand Experiences to Transform Luxury Travel?
+full_title: |
+  Opinion: Immersive Brand Experiences to Transform Luxury Travel?
+author: |
+  Kristoff D’oria di Cirie
 url: https://jingdaily.com/posts/opinion-can-immersive-brand-experiences-transform-luxury-travel
 category: articles
 image_url: https://cdn.sanity.io/images/f8lauh0h/production/9a2cc740ddc8740a7f31ad74edb62f11458e12c7-1638x922.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-16 13:06:18.485999+00:00
 published_date: 2024-06-13
 summary: |
   Luxury brands are transforming travel experiences by taking over resorts to create immersive brand environments. These experiences blur the lines between luxury travel and high-end retail, offering visitors a chance to live and breathe the brand's lifestyle. By providing unique and engaging experiences, luxury brands aim to foster greater brand loyalty and drive industry evolution.

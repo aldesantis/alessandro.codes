@@ -1,13 +1,13 @@
 ---
-title: Google’s Latest Cookie Alternative Tests Show Promise — And Loads of Caveats
-full_title: Google’s Latest Cookie Alternative Tests Show Promise — And Loads of Caveats
-author: Peter Adams
+title: |
+  Google’s Latest Cookie Alternative Tests Show Promise — And Loads of Caveats
+full_title: |
+  Google’s Latest Cookie Alternative Tests Show Promise — And Loads of Caveats
+author: |
+  Peter Adams
 url: https://www.marketingdive.com/news/google-cookie-alternative-test-Topics-API/647914/?utm_source=Sailthru&utm_medium=email&utm_campaign=Newsletter%20Weekly%20Roundup:%20Marketing%20Dive:%20Daily%20Dive%2004-22-2023&utm_term=Marketing%20Dive%20Weekender
 category: articles
 image_url: https://www.marketingdive.com/imgproxy/Fia-JV3JiEGSg8se-D2GYNOCfJ3iW4190A5VTU_r2Jk/g:ce/rs:fill:770:435:0/bG9jYWw6Ly8vZGl2ZWltYWdlL0dldHR5SW1hZ2VzLTc3NDAyMjgzLmpwZw.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-29 09:44:56.910437+00:00
 published_date: 2023-04-18
 summary: |
   Shifting to interest-based solutions like the Topics API delivered a “relatively small” impact on performance, but the research parameters were limited.

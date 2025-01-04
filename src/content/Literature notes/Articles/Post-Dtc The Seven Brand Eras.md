@@ -1,13 +1,13 @@
 ---
-title: "Post-Dtc: The Seven Brand Eras"
-full_title: "Post-Dtc: The Seven Brand Eras"
-author: 2PM Weekly (Evening Send)
+title: |
+  Post-Dtc: The Seven Brand Eras
+full_title: |
+  Post-Dtc: The Seven Brand Eras
+author: |
+  2PM Weekly (Evening Send)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-20 14:04:45.929405+00:00
 published_date: 2023-12-20
 summary: |
   Sponsor: As Adweek recently noted, brands are having a difficult time using AI to create campaigns. There isn't a better argument for you to demo Optiversal.

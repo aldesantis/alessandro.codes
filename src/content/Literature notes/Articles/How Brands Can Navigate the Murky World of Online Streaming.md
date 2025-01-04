@@ -1,13 +1,13 @@
 ---
-title: How Brands Can Navigate the Murky World of Online Streaming
-full_title: How Brands Can Navigate the Murky World of Online Streaming
-author: Amy Francombe
+title: |
+  How Brands Can Navigate the Murky World of Online Streaming
+full_title: |
+  How Brands Can Navigate the Murky World of Online Streaming
+author: |
+  Amy Francombe
 url: https://www.voguebusiness.com/story/fashion/how-brands-can-navigate-the-murky-world-of-online-streaming
 category: articles
 image_url: https://media.voguebusiness.com/photos/671ba56f70c4bc84647be18a/16:9/w_1280,c_limit/STREAMING-VOGUEBUS-251024-SOCIAL-NEWSLETTER%20(3).jpg
-date: 2025-01-02
-time: 11:11 AM
-last_highlighted_date: 2025-01-02 09:46:30.545924+00:00
 published_date: 2024-10-28
 summary: |
   Brands are increasingly partnering with popular live streamers to reach younger audiences, who prefer authentic and relatable content over traditional advertising. However, the unregulated nature of streaming can lead to risky behavior and controversies that may affect brand reputation. To succeed, brands must carefully vet streamers and ensure their values align, while being prepared to respond to any potential crises.

@@ -1,13 +1,13 @@
 ---
-title: "From Art Basel to Roblox: How Clarks Follows in the Footsteps of Customer Muses"
-full_title: "From Art Basel to Roblox: How Clarks Follows in the Footsteps of Customer Muses"
-author: webflow.io
+title: |
+  From Art Basel to Roblox: How Clarks Follows in the Footsteps of Customer Muses
+full_title: |
+  From Art Basel to Roblox: How Clarks Follows in the Footsteps of Customer Muses
+author: |
+  webflow.io
 url: https://muses-landing-page.webflow.io/articles/from-art-basel-to-roblox-how-clarks-follows-in-the-footsteps-of-customer-muses
 category: articles
 image_url: https://assets-global.website-files.com/657738116b83a6d2ab0824b5/65bc8c54c9b4680656af2831_Clarks%20x%20Compound%20at%20Basel%20(1).jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-22 11:28:15.602890+00:00
 published_date: None
 summary: |
   Clarks has maintained relevance over 200 years by embracing new trends, commerce channels, and countercultures, staying steady in the footwear industry. Chief Marketing and Digital Officer Tara McRae discusses the challenge of understanding customer Muses deeply and bringing the brand closer to them. Clarks aims to innovate in various ways to connect with consumers, including creating a virtual world in Roblox called CICAVERSE. Tara emphasizes the importance of delivering the best brand experience across all channels and staying culturally relevant, especially with younger consumers who engage through platforms like Roblox and YouTube.

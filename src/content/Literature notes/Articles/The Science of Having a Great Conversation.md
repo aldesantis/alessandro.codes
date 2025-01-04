@@ -1,13 +1,13 @@
 ---
-title: The Science of Having a Great Conversation
-full_title: The Science of Having a Great Conversation
-author: David Robson
+title: |
+  The Science of Having a Great Conversation
+full_title: |
+  The Science of Having a Great Conversation
+author: |
+  David Robson
 url: https://www.wired.com/story/the-science-of-having-a-great-conversation-research-social-connection/
 category: articles
 image_url: https://media.wired.com/photos/666045bce73dd9b586ee16b0/master/pass/GettyImages-1293368459.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-08 14:05:16.050028+00:00
 published_date: 2024-06-09
 summary: |
   Forming meaningful bonds with others can improve your health, make you mentally sharper, and fuel creativity. Making friends can feel daunting, but research shows there are many ways to build better connections.

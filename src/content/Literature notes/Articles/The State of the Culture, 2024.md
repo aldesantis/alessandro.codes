@@ -1,13 +1,13 @@
 ---
-title: The State of the Culture, 2024
-full_title: The State of the Culture, 2024
-author: Ted Gioia
+title: |
+  The State of the Culture, 2024
+full_title: |
+  The State of the Culture, 2024
+author: |
+  Ted Gioia
 url: https://www.honest-broker.com/p/the-state-of-the-culture-2024
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31da5437-4de0-4b3e-9c04-5e10d1a59431_1444x996.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-26 16:20:01.568486+00:00
 published_date: 2024-02-18
 summary: |
   Or a glimpse into post-entertainment society (it's not pretty)

@@ -1,13 +1,13 @@
 ---
-title: 👁️ the “Misery Business” of Commerce X Media
-full_title: 👁️ the “Misery Business” of Commerce X Media
-author: The Senses by Future Commerce
+title: |
+  👁️ the “Misery Business” of Commerce X Media
+full_title: |
+  👁️ the “Misery Business” of Commerce X Media
+author: |
+  The Senses by Future Commerce
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-17 20:36:22.277537+00:00
 published_date: 2024-10-16
 summary: |
   Business media for the commerce trade is in a serious state of flux.

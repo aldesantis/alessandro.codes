@@ -1,13 +1,13 @@
 ---
-title: "AI Leapfrogging: How AI Will Transform “Lagging” Industries"
-full_title: "AI Leapfrogging: How AI Will Transform “Lagging” Industries"
-author: NFX
+title: |
+  AI Leapfrogging: How AI Will Transform “Lagging” Industries
+full_title: |
+  AI Leapfrogging: How AI Will Transform “Lagging” Industries
+author: |
+  NFX
 url: https://www.nfx.com/post/ai-leapfrogging?utm_campaign=NFX%20Newsletter&utm_medium=email&_hsmi=262642668&_hsenc=p2ANqtz-8n-xmAkdexL4L1sVCDndy1lRFdPAcs7p9YGa6lssDhxG1v43smp23w6Dv1dHZyQh61SYZaXtVqLgbbTh2lF4sJGmJv0tRwA5D6PAqrwW0Xwg-x5Os&utm_content=262642668&utm_source=hs_email
 category: articles
 image_url: https://content.nfx.com/wp-content/uploads/2023/06/AI-leapfrogging-v2-social.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-08 15:45:57.329505+00:00
 published_date: 2023-06-15
 summary: |
   AI has the potential to transform technologically lagging industries by leapfrogging SaaS workflows. Here's what we're seeing.

@@ -1,17 +1,18 @@
 ---
-title: "The New "What's Your ROAS, Bro?!""
-full_title: "The New "What's Your ROAS, Bro?!""
-author: Ron & Ash
+title: |
+  The New "What's Your ROAS, Bro?!"
+full_title: |
+  The New "What's Your ROAS, Bro?!"
+author: |
+  Ron & Ash
 url: https://www.subscribe.chewonthis.io/p/new-whats-roas-bro?utm_source=www.subscribe.chewonthis.io&utm_medium=newsletter&utm_campaign=the-new-what-s-your-roas-bro
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/landscape_coverphoto.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-04-27 14:07:02.185851+00:00
 published_date: 2023-04-26
-summary: >
+summary: |
   The newsletter that takes the guesswork out of building and scaling a D2C brand. 
 source: reader
+permalink: l/articles/the-new-what-s-your-roas-bro
 ---
 # The New "What's Your ROAS, Bro?!"
 

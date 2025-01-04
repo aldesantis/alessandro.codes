@@ -1,13 +1,13 @@
 ---
-title: 7 Growth Busters & How to Fix Them
-full_title: 7 Growth Busters & How to Fix Them
-author: Alex from DTC (fashion) Decoded
+title: |
+  7 Growth Busters & How to Fix Them
+full_title: |
+  7 Growth Busters & How to Fix Them
+author: |
+  Alex from DTC (fashion) Decoded
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-25 22:26:16.408606+00:00
 published_date: 2024-06-25
 summary: |
   But that's not the only reason so many fashion brands struggle to grow the DTC channel.

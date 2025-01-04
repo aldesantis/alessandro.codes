@@ -1,13 +1,13 @@
 ---
-title: The Diminishing Returns of Having Good Taste
-full_title: The Diminishing Returns of Having Good Taste
-author: W. David Marx
+title: |
+  The Diminishing Returns of Having Good Taste
+full_title: |
+  The Diminishing Returns of Having Good Taste
+author: |
+  W. David Marx
 url: https://www.theatlantic.com/culture/archive/2024/05/cultural-arbitrage-good-taste/678244/
 category: articles
 image_url: https://cdn.theatlantic.com/thumbor/fMnz5hU9ODKq3_1SqUJYRZ8tkdo=/0x0:2000x1125/960x540/media/img/mt/2024/04/book2/original.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-14 08:23:43.049412+00:00
 published_date: 2024-05-01
 summary: |
   The internet's easy access to information has made cultural arbitrage less valuable, affecting how we share and gain knowledge. As a result, fewer individuals can build identities based on exclusive information, leading to potential losses in cultural innovation and hybridization. The shift towards information equality may require new ways for tastemakers to keep culture moving forward and maintain its value.

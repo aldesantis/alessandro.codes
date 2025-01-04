@@ -1,13 +1,13 @@
 ---
-title: TikTok Shop's First Year in the US
-full_title: TikTok Shop's First Year in the US
-author: Marketplace Pulse
+title: |
+  TikTok Shop's First Year in the US
+full_title: |
+  TikTok Shop's First Year in the US
+author: |
+  Marketplace Pulse
 url: https://www.marketplacepulse.com/articles/tiktok-shops-first-year-in-the-us
 category: articles
 image_url: https://cdn.marketplacepulse.com/articles/680/cover_social.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-19 11:25:06.639840+00:00
 published_date: 2024-09-26
 summary: |
   TikTok Shop launched in the U.S. a year ago and has sold billions, but most top sellers are lesser-known brands using unique strategies or going viral. Goli Nutrition is currently the leading brand, with sales exceeding $7 million through aggressive affiliate campaigns, including unusual rewards like cars for top affiliates. While TikTok has made strides in social commerce, it still faces challenges in attracting a wider range of brands and products.

@@ -1,13 +1,13 @@
 ---
-title: "Monopolistic Competition: Definition, How It Works, Pros and Cons"
-full_title: "Monopolistic Competition: Definition, How It Works, Pros and Cons"
-author: The Investopedia Team
+title: |
+  Monopolistic Competition: Definition, How It Works, Pros and Cons
+full_title: |
+  Monopolistic Competition: Definition, How It Works, Pros and Cons
+author: |
+  The Investopedia Team
 url: https://www.investopedia.com/terms/m/monopolisticmarket.asp
 category: articles
 image_url: https://www.investopedia.com/thmb/XgucsNHIVzdQa1SmbCbSSVWzKxQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/monopolistic-market-4192732-2-1a0a84322d2041c4b72d5ea41b836147.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-05 12:11:47.014469+00:00
 published_date: 2023-06-08
 summary: |
   Monopolistic competition exists when many companies offer competitive products or services that are similar, but not exact, substitutes.

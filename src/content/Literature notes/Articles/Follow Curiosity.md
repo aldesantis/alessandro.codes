@@ -1,13 +1,13 @@
 ---
-title: Follow Curiosity
-full_title: Follow Curiosity
-author: Jakob Greenfeld from Play Permissionless
+title: |
+  Follow Curiosity
+full_title: |
+  Follow Curiosity
+author: |
+  Jakob Greenfeld from Play Permissionless
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-04-22 15:43:05.019967+00:00
 published_date: 2024-04-19
 summary: |
   I find an idea that was interesting. I would try to figure out that idea for myself, and then I’d figure out for myself, and I’d say, well, then I got to share this with other people.

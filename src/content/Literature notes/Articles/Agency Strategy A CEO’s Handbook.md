@@ -1,13 +1,13 @@
 ---
-title: "Agency Strategy: A CEO’s Handbook"
-full_title: "Agency Strategy: A CEO’s Handbook"
-author: Sam Hurley
+title: |
+  Agency Strategy: A CEO’s Handbook
+full_title: |
+  Agency Strategy: A CEO’s Handbook
+author: |
+  Sam Hurley
 url: https://theagnc.co.uk/p/how-to-define-a-strategy-for-your-agency
 category: articles
 image_url: https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/54cea795-842c-4e63-9e44-0681bea5c6eb/samagnc_09138_a_man_looking_at_2_paths_which_points_in_2_differ_97698e54-80fa-4ff6-bbb5-47658077a5f0.png?t=1717181601
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-15 07:44:28.510626+00:00
 published_date: 2024-06-03
 summary: |
   A clear strategy is essential for agencies to stand out and succeed, as many fall into common pitfalls by confusing goals with strategies. To define a successful agency strategy, focus on the unique value you provide and how you compete in the market. Strategic thinking and a structured approach can help agency owners differentiate themselves and guide their teams effectively.

@@ -1,13 +1,13 @@
 ---
-title: The Zombie Cocktail & DXP, the Zombie Software Category That Just Wont Die
-full_title: The Zombie Cocktail & DXP, the Zombie Software Category That Just Wont Die
-author: Cocktails & Commerce
+title: |
+  The Zombie Cocktail & DXP, the Zombie Software Category That Just Wont Die
+full_title: |
+  The Zombie Cocktail & DXP, the Zombie Software Category That Just Wont Die
+author: |
+  Cocktails & Commerce
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-25 22:07:57.685199+00:00
 published_date: 2023-12-22
 summary: |
   Put on Surfaris’ classic Wipe Out, put on your swimsuit, get in the sun (or under a sun lamp), and bear with me while we explore the cocktail that arguably launched an entire faux cuisine and milieu to the upper echelons of American culture, a whole new category of drinks.

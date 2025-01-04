@@ -1,13 +1,13 @@
 ---
-title: The Case Against Morning Yoga, Daily Routines, and Endless Meetings
-full_title: The Case Against Morning Yoga, Daily Routines, and Endless Meetings
-author: Andrew Chen
+title: |
+  The Case Against Morning Yoga, Daily Routines, and Endless Meetings
+full_title: |
+  The Case Against Morning Yoga, Daily Routines, and Endless Meetings
+author: |
+  Andrew Chen
 url: https://andrewchen.substack.com/p/10x-work-versus-1x-work
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1641db7-451e-40d6-8f86-e711bf308ef5_524x499.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-23 13:18:01.974819+00:00
 published_date: 2024-06-17
 summary: |
   The text argues against morning yoga, daily routines, and endless meetings to focus on high-impact "10x work" tasks in one's career. It emphasizes the importance of identifying and prioritizing tasks with significant upside potential, breaking free from routine to embrace serendipity, and proactively positioning oneself for pivotal moments. The key takeaway is to shift focus from routine tasks to opportunities for high-impact work and strategic career moves.

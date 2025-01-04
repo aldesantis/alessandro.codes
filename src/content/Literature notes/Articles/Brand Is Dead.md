@@ -1,13 +1,13 @@
 ---
-title: Brand Is Dead
-full_title: Brand Is Dead
-author: bobbyhundreds
+title: |
+  Brand Is Dead
+full_title: |
+  Brand Is Dead
+author: |
+  bobbyhundreds
 url: https://bobbyhundreds.substack.com/p/brand-is-dead
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F628a3ee9-43a7-423d-8470-f8090e9dfdeb_2000x2000.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-27 13:23:54.986332+00:00
 published_date: None
 summary: |
   The power of brands is declining as consumers now prioritize product quality over brand identity. Many shoppers are seeking meaningful connections and reliable items instead of just famous labels. This shift reflects a desire for substance in shopping, similar to the genuine bonds of friendship.

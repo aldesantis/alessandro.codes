@@ -1,13 +1,13 @@
 ---
-title: How to Do Hard Things
-full_title: How to Do Hard Things
-author: Casey Rosengren
+title: |
+  How to Do Hard Things
+full_title: |
+  How to Do Hard Things
+author: |
+  Casey Rosengren
 url: https://every.to/no-small-plans/how-to-do-hard-things-166096ff-e86a-4f99-a4fa-409c7f602a0f
 category: articles
 image_url: https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/3081/Screenshot_2024-04-25_at_11.01.38_AM.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-21 21:43:39.174626+00:00
 published_date: 2024-04-25
 summary: |
   The text discusses how Acceptance and Commitment Therapy (ACT) can help individuals find meaning and productivity in their lives by developing psychological flexibility. ACT focuses on moving towards what we value in life by addressing avoidance behaviors and learning to engage with challenging thoughts and feelings. By practicing the core skills of ACT, individuals can make small behavioral shifts that align with their values and lead to positive changes in their lives.

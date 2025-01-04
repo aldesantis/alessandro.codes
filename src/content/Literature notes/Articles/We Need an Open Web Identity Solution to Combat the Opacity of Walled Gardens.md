@@ -1,13 +1,13 @@
 ---
-title: We Need an Open Web Identity Solution to Combat the Opacity of Walled Gardens
-full_title: We Need an Open Web Identity Solution to Combat the Opacity of Walled Gardens
-author: Ray Kingman
+title: |
+  We Need an Open Web Identity Solution to Combat the Opacity of Walled Gardens
+full_title: |
+  We Need an Open Web Identity Solution to Combat the Opacity of Walled Gardens
+author: |
+  Ray Kingman
 url: https://www.adweek.com/programmatic/we-need-an-open-web-identity-solution-to-combat-the-opacity-of-walled-gardens/?utm_source=postup&utm_medium=email&utm_campaign=Adweek_Daily_Newsletter_240523054642&recip_id=2165214&lyt_id=2165214
 category: articles
 image_url: https://static-prod.adweek.com/wp-content/uploads/2024/05/identity-moment-time-2024-600x315.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-06 10:48:01.217254+00:00
 published_date: 2024-05-21
 summary: |
   What if the cookie, device and IP were not the problem?

@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » In command
-full_title: A Smart Bear » In command
-author: Jason Cohen
+title: |
+  A Smart Bear » In command
+full_title: |
+  A Smart Bear » In command
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/in-command?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
 category: articles
 image_url: https://longform.asmartbear.com/in-command/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-18 09:14:37.924819+00:00
 published_date: 2023-07-30
 summary: |
   Being "in control" is impossible, perhaps not even desirable. Being "in command" is ideal: honest, introspective, agile, aware, and proactive.

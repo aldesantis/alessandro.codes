@@ -1,13 +1,13 @@
 ---
-title: Liquid Death’s Fame Shows How Badly Marketers Neglect Product
-full_title: Liquid Death’s Fame Shows How Badly Marketers Neglect Product
-author: Mark Ritson
+title: |
+  Liquid Death’s Fame Shows How Badly Marketers Neglect Product
+full_title: |
+  Liquid Death’s Fame Shows How Badly Marketers Neglect Product
+author: |
+  Mark Ritson
 url: https://www.marketingweek.com/ritson-liquid-death-product/
 category: articles
 image_url: https://marketingweek.imgix.net/content/uploads/2024/02/19155639/Liquid-Death_Press_Landscape_1920x1080-1.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-07-29 12:26:48.217715+00:00
 published_date: 2024-07-22
 summary: |
   It’s typical that marketers fawn over a brand built through promotion and packaging, when they ought to focus on their role in improving the thing they sell.

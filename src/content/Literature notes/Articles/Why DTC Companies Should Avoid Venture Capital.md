@@ -1,13 +1,13 @@
 ---
-title: Why DTC Companies Should Avoid Venture Capital
-full_title: Why DTC Companies Should Avoid Venture Capital
-author: Imran Amed
+title: |
+  Why DTC Companies Should Avoid Venture Capital
+full_title: |
+  Why DTC Companies Should Avoid Venture Capital
+author: |
+  Imran Amed
 url: https://www.businessoffashion.com/opinions/direct-to-consumer/why-dtc-companies-should-avoid-venture-capital/
 category: articles
 image_url: https://img.businessoffashion.com/resizer/dxBS1SL41SFJrWIzWqkxEUqyb4c=/1200x630/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/64QIMMIMAFEE7JBYE6M3TAASRA.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-02-20 11:17:16.121315+00:00
 published_date: 2023-11-10
 summary: |
   All that cash might be tempting, but the motivations of founders and venture investors are rarely aligned, writes Imran Amed.

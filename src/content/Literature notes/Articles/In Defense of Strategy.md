@@ -1,13 +1,13 @@
 ---
-title: In Defense of Strategy
-full_title: In Defense of Strategy
-author: Packy McCormick
+title: |
+  In Defense of Strategy
+full_title: |
+  In Defense of Strategy
+author: |
+  Packy McCormick
 url: https://www.notboring.co/p/in-defense-of-strategy
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57917218-89ae-49fe-a4e1-dc3d68e2779e_1200x600.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-08-18 09:43:21.492127+00:00
 published_date: 2023-07-25
 summary: |
   Channeling Execution in the Right Direction

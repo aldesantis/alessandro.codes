@@ -1,13 +1,13 @@
 ---
-title: Looking for Alice
-full_title: Looking for Alice
-author: Henrik Karlsson
+title: |
+  Looking for Alice
+full_title: |
+  Looking for Alice
+author: |
+  Henrik Karlsson
 url: https://www.henrikkarlsson.xyz/p/looking-for-alice
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3c6398db-b77f-41fe-8604-5639f4717a9a_800x688.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-18 05:00:53.666637+00:00
 published_date: 2023-01-17
 summary: |
   The author reflects on the nature of attraction and relationships, inspired by Gertrude Stein's perspective on not labeling desire. He shares his experience of meeting his wife, Johanna, and the unique connection they have through deep conversations. The piece emphasizes the importance of recognizing and valuing meaningful relationships, even when they are hard to explain to others.

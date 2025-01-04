@@ -1,17 +1,18 @@
 ---
-title: "The Problem With Loyalty Coalitions Is the Word "Loyalty""
-full_title: "The Problem With Loyalty Coalitions Is the Word "Loyalty""
-author: Aleksija Vujicic
+title: |
+  The Problem With Loyalty Coalitions Is the Word "Loyalty"
+full_title: |
+  The Problem With Loyalty Coalitions Is the Word "Loyalty"
+author: |
+  Aleksija Vujicic
 url: https://proofoftaste.substack.com/p/the-problem-with-loyalty-coalitions?utm_source=profile&utm_medium=reader2
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9da0c672-d929-4371-8fd5-c442707df61d_1240x1242.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-15 17:02:41.479231+00:00
 published_date: 2024-02-23
-summary: >
+summary: |
   In the essay, the author discusses why multi-brand loyalty programs don't work and proposes repositioning them as 'customer acquisition communities'. They explore consumer and brand desires, failures of loyalty coalitions, and provide a case study on the successful ClassPass approach. The author also touches on the concept of counter-culture cool.
 source: reader
+permalink: l/articles/the-problem-with-loyalty-coalitions-is-the-word-loyalty
 ---
 # The Problem With Loyalty Coalitions Is the Word "Loyalty"
 

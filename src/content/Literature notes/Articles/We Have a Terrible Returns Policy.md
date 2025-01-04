@@ -1,13 +1,13 @@
 ---
-title: We Have a Terrible Returns Policy
-full_title: We Have a Terrible Returns Policy
-author: Maggie Fox
+title: |
+  We Have a Terrible Returns Policy
+full_title: |
+  We Have a Terrible Returns Policy
+author: |
+  Maggie Fox
 url: https://ciselier.com/en-us/blogs/news/we-have-a-terrible-returns-policy-heres-why?s=31
 category: articles
 image_url: https://ciselier.com/cdn/shop/articles/LH.CA00.L01_Lefty_Set_product_600x.jpg?v=1685098050
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 15:38:29.056511+00:00
 published_date: 2023-05-26
 summary: |
   Consumers have been trained to expect all the wrong things. Have you ever thought about what it takes for a maker or retailer to have a "no questions asked" returns policy? I'm not talking about replacing products that are defective or incorrectly shipped, but a policy where new items are shipped to customers, they are

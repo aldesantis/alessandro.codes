@@ -1,13 +1,13 @@
 ---
-title: "Memo: The Returns Coup"
-full_title: "Memo: The Returns Coup"
-author: 2PM
+title: |
+  Memo: The Returns Coup
+full_title: |
+  Memo: The Returns Coup
+author: |
+  2PM
 url: https://2pml.com/2023/07/10/coup/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2023/06/chart-07.10.2023-scaled.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-09-01 16:33:30.518001+00:00
 published_date: 2023-07-10
 summary: |
   The eCommerce industry is a dance between partners, economic conditions, and balance sheets. Affirm, Shopify, Deliverr, Flexport, Returnly, and Loop have all had their moments on the dance floor th…

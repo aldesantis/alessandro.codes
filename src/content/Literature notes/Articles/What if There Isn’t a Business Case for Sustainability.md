@@ -1,13 +1,13 @@
 ---
-title: What if There Isn’t a Business Case for Sustainability?
-full_title: What if There Isn’t a Business Case for Sustainability?
-author: Rachel Cernansky
+title: |
+  What if There Isn’t a Business Case for Sustainability?
+full_title: |
+  What if There Isn’t a Business Case for Sustainability?
+author: |
+  Rachel Cernansky
 url: https://www.voguebusiness.com/story/sustainability/what-if-there-isnt-a-business-case-for-sustainability
 category: articles
 image_url: https://media.voguebusiness.com/photos/65ba78ced179de5b07fff796/16:9/w_1280,c_limit/drastic-actions-vogue-business-newsletter.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-08-17 21:42:20.997216+00:00
 published_date: 2024-02-01
 summary: |
   Many brands are trying to find a business case for sustainability, but some initiatives may not be financially beneficial. Companies like Ganni and Veja have taken bold steps to prioritize the planet, even if it means sacrificing profits. To truly embed sustainability into their operations, brands need to accept that these efforts often come with costs and risks.

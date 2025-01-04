@@ -1,13 +1,13 @@
 ---
-title: "Seconds to Strategy: How Your Relationship With Time Shapes Your Career"
-full_title: "Seconds to Strategy: How Your Relationship With Time Shapes Your Career"
-author: Auren Hoffman
+title: |
+  Seconds to Strategy: How Your Relationship With Time Shapes Your Career
+full_title: |
+  Seconds to Strategy: How Your Relationship With Time Shapes Your Career
+author: |
+  Auren Hoffman
 url: https://auren.substack.com/p/seconds-to-strategy-how-your-relationship
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F654d5796-8065-49a0-bf56-2351a5e9c3d2_1024x1024.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-07 21:47:09.135345+00:00
 published_date: 2024-02-26
 summary: |
   The article discusses how our relationship with time shapes our career decisions. It identifies five types of time - micro time, engagement time, business time, strategy time, and big-thinking time - and suggests that our career choices should be optimized according to the timescale that we make the best decisions. The article also notes that job interviews are often overly optimized for quick-time decisions and suggests that companies should redesign job interviews to fit the decision-time of the job to improve hiring decisions. Finally, the article suggests that stimulants like caffeine can improve performance for people in micro-time and engagement time, while big-thinkers may benefit from downers like alcohol or marijuana to optimize for creativity.

@@ -1,13 +1,13 @@
 ---
-title: Everything Is Merch
-full_title: Everything Is Merch
-author: Ana Andjelic
+title: |
+  Everything Is Merch
+full_title: |
+  Everything Is Merch
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/everything-is-merch?utm_source=post-email-title&publication_id=18831&post_id=145071092&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72fb30b8-e13e-42fe-baf2-330c593f164e_910x1292.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-06 10:48:05.574642+00:00
 published_date: None
 summary: |
   Merchandise, or "merch," has evolved into a dominant force in retail, blurring the lines between products and cultural symbols. Everything from luxury items to toys can be considered merch, serving as status symbols and expressions of identity. Modern merch transcends physical objects to become a reflection of social and cultural values in today's consumer-driven world.

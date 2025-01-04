@@ -1,13 +1,13 @@
 ---
-title: Design Of This Website
-full_title: Design Of This Website
-author: Gwern Branwen
+title: |
+  Design Of This Website
+full_title: |
+  Design Of This Website
+author: |
+  Gwern Branwen
 url: https://gwern.net/design
 category: articles
 image_url: https://gwern.net/doc/design/2020-12-25-gwern-gwernnet-recursivepopups.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-25 22:54:07.612278+00:00
 published_date: 2023-04-20
 summary: |
   Gwern.net is a static website designed for good typography and advanced browsing features, hosted on a dedicated server for performance reasons. It offers unique elements like monochrome aesthetics, collapsible sections, and interactive pop-up annotations for a structured reading experience. The website's design prioritizes aesthetics, speed, and reader engagement, enhancing the overall user experience.

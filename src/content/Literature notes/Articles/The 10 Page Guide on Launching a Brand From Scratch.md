@@ -1,13 +1,13 @@
 ---
-title: The 10 Page Guide on Launching a Brand From Scratch
-full_title: The 10 Page Guide on Launching a Brand From Scratch
-author: Nik Sharma
+title: |
+  The 10 Page Guide on Launching a Brand From Scratch
+full_title: |
+  The 10 Page Guide on Launching a Brand From Scratch
+author: |
+  Nik Sharma
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-27 09:24:53.895402+00:00
 published_date: 2023-10-22
 summary: |
   If you’re reading this, I hope you’re relaxing with your feet up, your arms rested on an arm rest, and a beverage in your hand.

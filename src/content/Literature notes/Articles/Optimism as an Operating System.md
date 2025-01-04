@@ -1,13 +1,13 @@
 ---
-title: Optimism as an Operating System
-full_title: Optimism as an Operating System
-author: Tom Critchlow
+title: |
+  Optimism as an Operating System
+full_title: |
+  Optimism as an Operating System
+author: |
+  Tom Critchlow
 url: https://tomcritchlow.com/2019/11/19/optimism-operating-system/
 category: articles
 image_url: https://tomcritchlow.com/images/yes-and-og-2.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-13 09:52:05.745723+00:00
 published_date: 2019-11-19
 summary: |
   The text discusses the importance of maintaining a positive attitude as a consultant and focusing on identifying the strengths and systems that work within an organization. Building enduring client relationships involves understanding clients as ecosystems in balance and blurring the boundaries between professional and personal interactions. Success as a consultant comes from bringing energy and enthusiasm, solving problems, and creating routine solutions to important issues for clients.

@@ -1,13 +1,13 @@
 ---
-title: On Having More Interesting Ideas
-full_title: On Having More Interesting Ideas
-author: Henrik Karlsson
+title: |
+  On Having More Interesting Ideas
+full_title: |
+  On Having More Interesting Ideas
+author: |
+  Henrik Karlsson
 url: https://www.henrikkarlsson.xyz/p/interesting-ideas
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff940b52b-5bd3-4337-af0c-692d20612436_684x676.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-01 20:56:38.807005+00:00
 published_date: 2024-05-15
 summary: |
   Henrik Karlsson shares how he generates interesting ideas through daily writing and conversations. He emphasizes the importance of curiosity and reflection, both alone and with others. By embracing his interests without judgment, he finds new paths for exploration and deeper understanding.

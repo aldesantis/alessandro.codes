@@ -1,13 +1,13 @@
 ---
-title: "Marketing Analytics: Attribution Is Not Incrementality"
-full_title: "Marketing Analytics: Attribution Is Not Incrementality"
-author: Avinash Kaushik
+title: |
+  Marketing Analytics: Attribution Is Not Incrementality
+full_title: |
+  Marketing Analytics: Attribution Is Not Incrementality
+author: |
+  Avinash Kaushik
 url: https://www.kaushik.net/avinash/marketing-analytics-attribution-is-not-incrementality/
 category: articles
 image_url: https://www.kaushik.net/avinash/wp-content/uploads/2021/05/attribution_paid_search_thumb.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-29 09:32:04.284103+00:00
 published_date: 2021-07-05
 summary: |
   The ultimate holy grail of Marketing Analytics is measuring true incrementality. Yet, most confuse Marketing attribution with incrementality. Big Mistake.

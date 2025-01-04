@@ -1,13 +1,13 @@
 ---
-title: As Affiliate Marketing Gets Competitive, a New Brand Playbook Emerges
-full_title: As Affiliate Marketing Gets Competitive, a New Brand Playbook Emerges
-author: Gabriela Barkho
+title: |
+  As Affiliate Marketing Gets Competitive, a New Brand Playbook Emerges
+full_title: |
+  As Affiliate Marketing Gets Competitive, a New Brand Playbook Emerges
+author: |
+  Gabriela Barkho
 url: https://www.modernretail.co/marketing/as-affiliate-marketing-gets-competitive-a-new-brand-playbook-emerges/?utm_source=mrdis&utm_campaign=ecommerceweekly&utm_medium=email
 category: articles
 image_url: https://www.modernretail.co/wp-content/uploads/sites/5/2022/12/Facebookicon2.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-12-25 21:23:56.443270+00:00
 published_date: 2023-12-04
 summary: |
   Over the past couple years, affiliate marketing has become an integral part of brands’ marketing playbook.

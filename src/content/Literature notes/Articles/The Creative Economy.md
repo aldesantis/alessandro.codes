@@ -1,13 +1,13 @@
 ---
-title: The Creative Economy
-full_title: The Creative Economy
-author: The Sociology of Business
+title: |
+  The Creative Economy
+full_title: |
+  The Creative Economy
+author: |
+  The Sociology of Business
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-04-08 12:35:55.166616+00:00
 published_date: 2024-04-08
 summary: |
   Welcome to the Sociology of Business. In my last analysis, How to sell to the Creative Class, I detailed implementation of audience-driven growth through the four Creative Class segments.

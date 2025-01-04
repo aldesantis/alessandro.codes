@@ -1,13 +1,13 @@
 ---
-title: 100 Tips For A Better Life
-full_title: 100 Tips For A Better Life
-author: Conor Barnes
+title: |
+  100 Tips For A Better Life
+full_title: |
+  100 Tips For A Better Life
+author: |
+  Conor Barnes
 url: https://ideopunk.com/blog/tipsforabetterlife
 category: articles
 image_url: http://www.artnet.com/WebServices/images/ll00762lldjkYGFgFaECfDrCWvaHBOc4uYC/nobuyoshi-araki-flowers.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-06-03 04:04:04.690865+00:00
 published_date: 2020-12-23
 summary: |
   This text provides 100 tips for leading a better life, covering aspects like productivity, success, rationality, self-awareness, relationships, and compassion. It emphasizes the importance of simplicity, dependability, self-understanding, and treating others with compassion and patience. The tips aim to help individuals navigate life's complexities and improve their overall well-being.

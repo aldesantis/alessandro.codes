@@ -1,13 +1,13 @@
 ---
-title: Brands After Vibes
-full_title: Brands After Vibes
-author: NEMESIS
+title: |
+  Brands After Vibes
+full_title: |
+  Brands After Vibes
+author: |
+  NEMESIS
 url: https://nemesisglobal.substack.com/p/brand-after-vibes
 category: articles
 image_url: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f5761d9-c14b-4cff-9832-1f14c276be68_900x700.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-25 11:49:15.542494+00:00
 published_date: 2024-10-21
 summary: |
   Brands today are increasingly defined by "vibes" rather than unique stories or identities, influenced by AI and social media trends. This shift means that consumers often connect with brands more through emotions and perceptions than through traditional branding strategies. To succeed in this vibe-driven world, brands may need to focus on creating tangible value and distinctiveness that stands out amidst the noise.

@@ -1,13 +1,13 @@
 ---
-title: In an Era of Collaboration Saturation, How Do Brands Stand Out?
-full_title: In an Era of Collaboration Saturation, How Do Brands Stand Out?
-author: Highsnobiety
+title: |
+  In an Era of Collaboration Saturation, How Do Brands Stand Out?
+full_title: |
+  In an Era of Collaboration Saturation, How Do Brands Stand Out?
+author: |
+  Highsnobiety
 url: https://www.highsnobiety.com/p/the-power-of-storytelling-in-the-collaboration-equation/?utm_source=news.futureparty.com&utm_medium=newsletter&utm_campaign=apple-s-ai-smackdown
 category: articles
 image_url: https://www.highsnobiety.com/static-assets/dato/1710509432-gettyimages-1246201179.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-19 12:35:03.515301+00:00
 published_date: 2024-03-18
 summary: |
   Together with Launchmetrics, Highsnobiety has reviewed its list of the top collaborations of 2023 and calculated each collaboration’s Media Impact Value™.

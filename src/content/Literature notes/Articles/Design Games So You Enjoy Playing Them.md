@@ -1,13 +1,13 @@
 ---
-title: Design Games So You Enjoy Playing Them
-full_title: Design Games So You Enjoy Playing Them
-author: Michael Ashcroft
+title: |
+  Design Games So You Enjoy Playing Them
+full_title: |
+  Design Games So You Enjoy Playing Them
+author: |
+  Michael Ashcroft
 url: https://www.michaelashcroft.org/notebook/design-games-so-you-enjoy-playing-them
 category: articles
 image_url: https://uploads-ssl.webflow.com/5f175533b7bb853339317de2/613f378b2f124f4dc885516c_eleonora-k2UQ0DKctl4-unsplash.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-29 21:16:05.846732+00:00
 published_date: 2021-09-13
 summary: |
   Playfulness is that which happens for its own sake. To inquire as to the purpose of play is to miss the point, and if you ask a child what they’re playing for you will get a confused expression.

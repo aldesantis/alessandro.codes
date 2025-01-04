@@ -1,13 +1,13 @@
 ---
-title: The Collapse of Self-Worth in the Digital Age
-full_title: The Collapse of Self-Worth in the Digital Age
-author: Thea Lim
+title: |
+  The Collapse of Self-Worth in the Digital Age
+full_title: |
+  The Collapse of Self-Worth in the Digital Age
+author: |
+  Thea Lim
 url: https://thewalrus.ca/collapse-of-self-worth-in-the-digital-age/
 category: articles
 image_url: https://walrus-assets.s3.amazonaws.com/img/h-heyerlein-ndja2LJ4IcM-unsplash-scaled.jpg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-10-21 09:55:14.220973+00:00
 published_date: 2024-09-17
 summary: |
   In the digital age, artists often struggle to find intrinsic value in their work as it becomes reduced to market metrics and external validation. This shift leads to a loss of self-worth, as creators must constantly measure their success against social media popularity and sales figures. Ultimately, the personal and artistic essence of their creations is overshadowed by the demands of the market.

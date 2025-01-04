@@ -1,13 +1,13 @@
 ---
-title: A Smart Bear » What makes a strategy great
-full_title: A Smart Bear » What makes a strategy great
-author: Jason Cohen
+title: |
+  A Smart Bear » What makes a strategy great
+full_title: |
+  A Smart Bear » What makes a strategy great
+author: |
+  Jason Cohen
 url: https://longform.asmartbear.com/great-strategy/
 category: articles
 image_url: https://longform.asmartbear.com/great-strategy/thumbnail-1200w.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-18 21:37:24.560924+00:00
 published_date: 2030-01-01
 summary: |
   Great strategy is characterized by simplicity, decisiveness, leverage, asymmetry, and a futuristic approach. A great strategy is simple, allowing for clear communication and understanding. It is also decisive, making self-consistent decisions and accepting the consequences. Leveraging strengths and assets is key, generating a large effect from a relatively small effort. Asymmetry is important, where the upside far exceeds the cost and the portfolio of bets comes out positive. Finally, a great strategy is futuristic, solving for the long-term.

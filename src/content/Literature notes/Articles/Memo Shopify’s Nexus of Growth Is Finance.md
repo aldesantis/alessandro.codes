@@ -1,13 +1,13 @@
 ---
-title: "Memo: Shopify’s Nexus of Growth Is Finance"
-full_title: "Memo: Shopify’s Nexus of Growth Is Finance"
-author: 2PM
+title: |
+  Memo: Shopify’s Nexus of Growth Is Finance
+full_title: |
+  Memo: Shopify’s Nexus of Growth Is Finance
+author: |
+  2PM
 url: https://2pml.com/2024/10/23/shopify-loans/
 category: articles
 image_url: https://2pml.com/wp-content/uploads/2024/10/Financial-Products@2x.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-19 11:14:26.211378+00:00
 published_date: 2024-10-23
 summary: |
   Shopify is at the intersection of commerce, payments, and debt, making it a key player in the evolving online retail landscape. As new store growth slows, Shopify is focusing on strengthening relationships with existing merchants and expanding its lending services through Shopify Capital. However, rising consumer debt and economic pressures pose risks to its financial growth strategy.

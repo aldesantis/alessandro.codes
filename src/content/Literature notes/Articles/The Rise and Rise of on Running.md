@@ -1,13 +1,13 @@
 ---
-title: The Rise and Rise of on Running
-full_title: The Rise and Rise of on Running
-author: SOTA
+title: |
+  The Rise and Rise of on Running
+full_title: |
+  The Rise and Rise of on Running
+author: |
+  SOTA
 url: https://sotaclub.substack.com/p/the-rise-and-rise-of-on-running-strategy?utm_source=post-email-title&publication_id=663077&post_id=144722325&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffefa0aed-c574-4e7b-8ce1-e14188bea2e3_4134x2894.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-21 08:57:59.444992+00:00
 published_date: None
 summary: |
   On Running has become a popular brand worn by athletes, celebrities, and trendsetters worldwide. The company's success is attributed to its innovative product designs and strategic collaborations. On Running is expanding its market presence and focusing on authentic engagement with new communities and markets.

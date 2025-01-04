@@ -1,13 +1,13 @@
 ---
-title: How to Measure “Hard-to-Measure” Marketing Channels
-full_title: How to Measure “Hard-to-Measure” Marketing Channels
-author: Rand Fishkin
+title: |
+  How to Measure “Hard-to-Measure” Marketing Channels
+full_title: |
+  How to Measure “Hard-to-Measure” Marketing Channels
+author: |
+  Rand Fishkin
 url: https://sparktoro.com/blog/how-to-measure-hard-to-measure-marketing-channels/
 category: articles
 image_url: https://sparktoro.com/blog/wp-content/uploads/2022/10/attribution-comic2.gif
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-05-26 08:44:24.037608+00:00
 published_date: 2022-10-12
 summary: |
   I've ranted endlessly about how marketing leaders refuse to invest in hard-to-measure marketing channels like PR, media, native social, events, many types

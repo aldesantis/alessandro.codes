@@ -1,13 +1,13 @@
 ---
-title: "Brain Food: Committing to Your Craft"
-full_title: "Brain Food: Committing to Your Craft"
-author: FS (Farnam Street)
+title: |
+  Brain Food: Committing to Your Craft
+full_title: |
+  Brain Food: Committing to Your Craft
+author: |
+  FS (Farnam Street)
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-04-08 07:14:20.689440+00:00
 published_date: 2024-04-07
 summary: |
   We tend to measure performance by what happens when things are going well. Yet how people, organizations, companies, leaders, and other things do on their best day isn’t all that instructive.

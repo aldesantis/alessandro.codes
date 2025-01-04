@@ -1,13 +1,13 @@
 ---
-title: Brain Rot [12.30.2024]
-full_title: Brain Rot [12.30.2024]
-author: Dani - This Outfit Does Not Exist
+title: |
+  Brain Rot [12.30.2024]
+full_title: |
+  Brain Rot [12.30.2024]
+author: |
+  Dani - This Outfit Does Not Exist
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-31
-time: 11:32 AM
-last_highlighted_date: 2024-12-31 09:49:21.628792+00:00
 published_date: 2024-12-31
 summary: |
   SOME PERSONAL NEWS 💬 Last week I announced that my digital fashion platform DRAUP had been acquired by TRIBUTE BRAND — the first company creating clothes for fashion’s new realities.

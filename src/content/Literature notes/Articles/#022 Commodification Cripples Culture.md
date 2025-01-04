@@ -1,13 +1,13 @@
 ---
-title: "#022 Commodification Cripples Culture"
-full_title: "#022 Commodification Cripples Culture"
-author: Dani Loftus
+title: |
+  #022 Commodification Cripples Culture
+full_title: |
+  #022 Commodification Cripples Culture
+author: |
+  Dani Loftus
 url: https://thisoutfitdoesnotexist.substack.com/p/022-commodification-cripples-culture?utm_source=post-email-title&publication_id=243054&post_id=152560134&utm_campaign=email-post-title&isFreemail=true&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f605e9b-318f-49cf-bc31-0f175e3fd3c7_1904x1168.jpeg
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-06 12:54:38.365703+00:00
 published_date: 2024-12-05
 summary: |
   The article discusses how the commodification of culture, especially through NFTs, ties art and cultural artifacts closely to their financial value. This focus on price diminishes the true artistic merit and creativity, as creators feel pressured to prioritize commercial success over genuine expression. As a result, the culture around art becomes boring and overly obsessed with profit rather than beauty.

@@ -1,13 +1,13 @@
 ---
-title: Four LinkedIn Growth Tips
-full_title: Four LinkedIn Growth Tips
-author: Jay Clouse
+title: |
+  Four LinkedIn Growth Tips
+full_title: |
+  Four LinkedIn Growth Tips
+author: |
+  Jay Clouse
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-12 09:32:03.605844+00:00
 published_date: 2024-03-10
 summary: |
   Before we get into today's essay, I want to let you in on a secret.

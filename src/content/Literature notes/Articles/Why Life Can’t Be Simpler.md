@@ -1,13 +1,13 @@
 ---
-title: Why Life Can’t Be Simpler
-full_title: Why Life Can’t Be Simpler
-author: Vicky Cosenzo
+title: |
+  Why Life Can’t Be Simpler
+full_title: |
+  Why Life Can’t Be Simpler
+author: |
+  Vicky Cosenzo
 url: https://fs.blog/why-life-cant-be-simpler/
 category: articles
 image_url: https://149664534.v2.pressablecdn.com/wp-content/uploads/2020/10/Why-Life-Cant-Be-Simpler.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-01-04 11:54:28.254543+00:00
 published_date: 2020-10-05
 summary: |
   We’d all like life to be simpler. But we also don’t want to sacrifice our options and capabilities. Tesler’s law of the conservation of complexity, a rule from design, explains why we can’t have both.

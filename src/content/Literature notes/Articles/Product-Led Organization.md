@@ -1,13 +1,13 @@
 ---
-title: Product-Led Organization
-full_title: Product-Led Organization
-author: Ana Andjelic
+title: |
+  Product-Led Organization
+full_title: |
+  Product-Led Organization
+author: |
+  Ana Andjelic
 url: https://andjelicaaa.substack.com/p/product-led-organization?utm_source=post-email-title&publication_id=18831&post_id=146578293&utm_campaign=email-post-title&isFreemail=false&r=og9hp&triedRedirect=true&utm_medium=email
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4cb2b0f5-8646-45e4-b091-3ec6b0624810_3120x2496.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-12-05 08:17:34.398532+00:00
 published_date: None
 summary: |
   A product-led organization focuses on building its entire business around its products, ensuring that all aspects like branding and marketing highlight product features. This approach helps maintain product differentiation and identity, even in competitive online marketplaces. Close collaboration among design, marketing, and retail teams is essential for creating a cohesive product universe that appeals to various customer personas.

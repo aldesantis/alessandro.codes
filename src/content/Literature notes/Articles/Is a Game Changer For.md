@@ -1,13 +1,13 @@
 ---
-title: Is a Game Changer For
-full_title: Is a Game Changer For
-author: keyana.sapp
+title: |
+  Is a Game Changer For
+full_title: |
+  Is a Game Changer For
+author: |
+  keyana.sapp
 url: https://shopswap.com/blog/why-partnership-marketing-is-a-game-changer-for-cpg-brands
 category: articles
 image_url: https://shopswap.com/wp-content/uploads/2023/04/Fn-pYRaXEAg2w3h.jpeg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-06-09 09:53:47.977266+00:00
 published_date: 2023-04-06
 summary: |
   Growth doesn’t come easy for CPG brands these days. With digital ads no longer performing like they used to, a flood of new competition in [...]

@@ -1,13 +1,13 @@
 ---
-title: Momentum, Consolidation, and Breakout
-full_title: Momentum, Consolidation, and Breakout
-author: Packy McCormick
+title: |
+  Momentum, Consolidation, and Breakout
+full_title: |
+  Momentum, Consolidation, and Breakout
+author: |
+  Packy McCormick
 url: https://www.notboring.co/p/momentum-consolidation-and-breakout
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80b47d0f-f774-42f4-ab81-f550fcb6d79e_1200x600.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2024-03-20 16:05:23.994694+00:00
 published_date: 2023-12-19
 summary: |
   In this article, the author reflects on the challenges and changes they experienced in 2023. They discuss how their momentum slowed down and the impact it had on their writing and fundraising efforts. Despite the difficulties, they view this year as a period of consolidation and not breakdown. The author shares lessons learned and plans to break out in 2024 with renewed energy and focus. They highlight the importance of earning momentum through great work and express their determination to continue investing and writing about the companies shaping the world.

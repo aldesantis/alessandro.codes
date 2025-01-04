@@ -1,13 +1,13 @@
 ---
-title: Shein, H&M and Other Fashion Resale Programs Don’t Make Big Money - Bloomberg
-full_title: Shein, H&M and Other Fashion Resale Programs Don’t Make Big Money - Bloomberg
-author: Olivia Rockeman
+title: |
+  Shein, H&M and Other Fashion Resale Programs Don’t Make Big Money - Bloomberg
+full_title: |
+  Shein, H&M and Other Fashion Resale Programs Don’t Make Big Money - Bloomberg
+author: |
+  Olivia Rockeman
 url: https://www.bloomberg.com/news/articles/2023-06-22/shein-h-m-and-other-fashion-resale-programs-don-t-make-big-money?srnd=businessweek-v2&utm_source=substack&utm_medium=email
 category: articles
 image_url: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7gS5XhKgw3c/v0/1200x799.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-07-10 09:16:17.574487+00:00
 published_date: 2023-06-22
 summary: |
   Resale has quickly emerged as the initiative of choice for fashion brands looking to lower their carbon, plastic and water footprints—or at least in some instances to convince green-conscious shoppers that they’re trying.

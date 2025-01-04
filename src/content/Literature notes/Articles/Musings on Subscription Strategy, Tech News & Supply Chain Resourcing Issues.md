@@ -1,13 +1,13 @@
 ---
-title: Musings on Subscription Strategy, Tech News & Supply Chain Resourcing Issues
-full_title: Musings on Subscription Strategy, Tech News & Supply Chain Resourcing Issues
-author: 🧔🏻 James Gurd
+title: |
+  Musings on Subscription Strategy, Tech News & Supply Chain Resourcing Issues
+full_title: |
+  Musings on Subscription Strategy, Tech News & Supply Chain Resourcing Issues
+author: |
+  🧔🏻 James Gurd
 url: https://www.linkedin.com/pulse/musings-subscription-strategy-tech-news-supply-chain-resourcing-gurd-p9f6e/?midToken=AQGp89vrfZliAg&midSig=22Hxk7xXlR_H81&trk=eml-email_series_follow_newsletter_01-newsletter_hero_banner-0-open_on_linkedin_cta&trkEmail=eml-email_series_follow_newsletter_01-newsletter_hero_banner-0-open_on_linkedin_cta-null-7e1yqy~ltrcn0ir~rl-null-null&eid=7e1yqy-ltrcn0ir-rl&otpToken=MTYwMTE4ZTgxNDI3Y2NjMGIyMjQwNGVkNDcxZWUzYjI4YWM3ZDE0ODllYWY4NjYxNzNjNzAwNmU0YTU5NTVmNGYyZGNkZmI2NzBkMmY5ZDg0NmFiYWNlZDc5OTUwYTQwYjIwZWUyOTQ5OWI1ODdkOGRhOGJjYSwxLDE%3D
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_276497/1710425225851
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-05-29 21:15:38.101427+00:00
 published_date: 2023-03-21
 summary: |
   The document "Musings on subscription strategy, tech news & supply chain resourcing issues" delves into various topics. It starts with strategies for driving Average Order Value (AOV) and Lifetime Value (LTV) through bundle subscriptions, followed by updates in the tech industry from companies like BigCommerce, Centra, and Akeneo. It also discusses industry insights on supply chain shortages and how businesses can adapt, along with providing useful resources like upcoming events and recommended individuals to follow in the field. The document is packed with insights on subscription commerce, tech news, industry trends, and valuable resources for those interested in these areas.

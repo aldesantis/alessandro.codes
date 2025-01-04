@@ -1,13 +1,13 @@
 ---
-title: "The Looking Glass: So You Want to Write Better?"
-full_title: "The Looking Glass: So You Want to Write Better?"
-author: Julie Zhuo
+title: |
+  The Looking Glass: So You Want to Write Better?
+full_title: |
+  The Looking Glass: So You Want to Write Better?
+author: |
+  Julie Zhuo
 url: https://lg.substack.com/p/the-looking-glass-so-you-want-to
 category: articles
 image_url: https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F596bf5dd-4c49-4047-b7f5-e1722e7ddb4d_1024x1024.png
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-10-16 09:53:43.694864+00:00
 published_date: 2023-10-04
 summary: |
   A long-form piece on some age-old misconceptions

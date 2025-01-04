@@ -1,13 +1,13 @@
 ---
-title: Don't Rely on Tired Social Tactics. Build an Algorithm-Beating D2C Brand
-full_title: Don't Rely on Tired Social Tactics. Build an Algorithm-Beating D2C Brand
-author: SponsorUnited
+title: |
+  Don't Rely on Tired Social Tactics. Build an Algorithm-Beating D2C Brand
+full_title: |
+  Don't Rely on Tired Social Tactics. Build an Algorithm-Beating D2C Brand
+author: |
+  SponsorUnited
 url: https://www.adweek.com/social-marketing/d2c-brand-algorithm-social-tactics/?utm_source=Sailthru&utm_medium=email&utm_campaign=Newsletter%20Weekly%20Roundup:%20Retail%20Dive:%20DTC%2011-11-2023&utm_term=Retail%20Dive:%20DTC%20Weekender
 category: articles
 image_url: https://static-prod.adweek.com/wp-content/uploads/2023/11/algorithm-d2c-brand-2023-600x315.jpg
-date: 2024-12-29
-time: 6:39 PM
-last_highlighted_date: 2023-11-24 11:50:43.137149+00:00
 published_date: 2023-11-07
 summary: |
   Liquid Death, Stories & Ink and Gymshark—all started as D2C—have never solely relied on social.

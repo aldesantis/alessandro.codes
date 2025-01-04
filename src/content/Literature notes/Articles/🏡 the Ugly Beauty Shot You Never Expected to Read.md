@@ -1,13 +1,13 @@
 ---
-title: 🏡 the Ugly Beauty Shot You Never Expected to Read
-full_title: 🏡 the Ugly Beauty Shot You Never Expected to Read
-author: House of Beautiful Business
+title: |
+  🏡 the Ugly Beauty Shot You Never Expected to Read
+full_title: |
+  🏡 the Ugly Beauty Shot You Never Expected to Read
+author: |
+  House of Beautiful Business
 url: 
 category: articles
 image_url: https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png
-date: 2024-12-29
-time: 6:40 PM
-last_highlighted_date: 2024-11-13 10:28:25.548931+00:00
 published_date: 2024-11-11
 summary: |
   The Saturday before the U. S.
