@@ -1,16 +1,16 @@
 ---
-import Card from './Card.astro';
-import Link from './typography/Link.astro';
+import Card from "./Card.astro";
+import Link from "./typography/Link.astro";
+import type { CollectionEntry } from "astro:content";
 
 export interface Props {
-  name: string
-  url: string
+  project: CollectionEntry<"projects">;
 }
 
-const {name, url} = Astro.props;
+const { name, url, description } = Astro.props.project.data;
 ---
 
 <Card>
   <Link href={url}><h3>{name}</h3></Link>
-  <p class="text-sm mt-0.5 font-serif"><slot /></p>	
+  <p class="text-sm mt-0.5 font-serif">{description}</p>
 </Card>
