@@ -21,7 +21,7 @@ const essays = await getCollection("essays");
 
   <div class="space-y-12">
     <div class="space-y-6">
-      <p class="font-serif text-3xl lg:text-5xl leading-[1.1]">
+      <p class="font-serif text-3xl lg:text-5xl">
         <span class="animate-wave inline-block">👋</span>, I’m <span
           class="font-bold">Alessandro</span
         >&mdash;a writer, engineer, and strategist based in Rome, Italy.
@@ -53,7 +53,7 @@ const essays = await getCollection("essays");
       </div>
 
       <div>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid md:grid-cols-2 gap-4">
           {featuredProjects.map((project) => <ProjectCard project={project} />)}
         </div>
       </div>
