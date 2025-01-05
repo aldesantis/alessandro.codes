@@ -20,7 +20,7 @@ const nows = await getSortedNows();
   <title slot="head">{now.data.title} | Alessandro Desantis</title>
 
   <div class="grid grid-cols-12">
-    <div class="col-span-8">
+    <div class="col-span-12 lg:col-span-8">
       <Hero>
         <span slot="heading">Now</span>
         <span slot="subheading">
@@ -34,7 +34,7 @@ const nows = await getSortedNows();
       </Prose>
     </div>
 
-    <div class="col-span-4">
+    <div class="hidden lg:col-span-4">
       <div class="text-lg font-semibold font-sans">Archive</div>
       <ul>
         {
