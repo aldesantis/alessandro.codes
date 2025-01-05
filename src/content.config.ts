@@ -34,6 +34,6 @@ export const collections = {
     schema: z.object({
       title: z.string(),
     }),
-    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/now" }),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/nows" }),
   }),
 };
