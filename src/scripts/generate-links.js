@@ -83,7 +83,7 @@ const getAllPostData = () => {
   // Create initial objects with identifiers and empty link arrays
   const posts = totalPostData.map(
     ({ title, aliases, slug, status, description, contentType }) => ({
-      ids: [title, ...(aliases ? aliases : [])],
+      ids: [...new Set([title, ...(aliases || []), slug])],
       slug,
       status,
       description,

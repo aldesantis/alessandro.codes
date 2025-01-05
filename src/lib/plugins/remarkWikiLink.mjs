@@ -4,14 +4,15 @@ import linkMaps from "../../data/links.json";
 export function remarkWikiLink() {
   return (tree) => {
     visit(tree, "text", (node, index, parent) => {
-      const matches = Array.from(node.value.matchAll(/\[\[(.*?)\]\]/g));
+      // Updated regex to capture both parts of the link
+      const matches = Array.from(node.value.matchAll(/\[\[(.*?)(?:\|(.*?))?\]\]/g));
       if (!matches.length) return;
 
       const children = [];
       let lastIndex = 0;
 
       matches.forEach((match) => {
-        const [fullMatch, linkText] = match;
+        const [fullMatch, linkDestination, displayText] = match;
         const startIndex = match.index;
         const endIndex = startIndex + fullMatch.length;
 
@@ -23,9 +24,9 @@ export function remarkWikiLink() {
           });
         }
 
-        // Find the matching post in linkMaps
+        // Find the matching post in linkMaps using the linkDestination
         const matchedPost = linkMaps.find((post) =>
-          post.ids.some((id) => id.toLowerCase() === linkText.toLowerCase())
+          post.ids.some((id) => id.toLowerCase() === linkDestination.toLowerCase())
         );
 
         let newChild;
@@ -43,13 +44,17 @@ export function remarkWikiLink() {
                   value: `/essays/${matchedPost.slug}`,
                 },
               ],
-              children: [{ type: "text", value: linkText }],
+              // Use displayText if provided, otherwise use linkDestination
+              children: [{ 
+                type: "text", 
+                value: displayText ? displayText.trim() : linkDestination.trim() 
+              }],
             };
           }
         }
 
-        if (!newChild){
-          // If no match found, just add the text as is
+        if (!newChild) {
+          // If no match found, preserve the original wiki syntax
           newChild = {
             type: "text",
             value: fullMatch,
