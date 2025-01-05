@@ -19,7 +19,7 @@ const socials = await getCollection("socials");
               variant="secondary"
               class="text-stone-400"
             >
-              <Icon name={`fa6-brands:${social.id}`} />
+              <Icon name={social.data.icon} />
             </Link>
           ))
         }

@@ -15,6 +15,7 @@ export const collections = {
   socials: defineCollection({
     schema: z.object({
       name: z.string(),
+      icon: z.string(),
       url: z.string().url(),
     }),
     loader: file("src/data/socials.json"),

@@ -1,27 +1,38 @@
 [
   {
+    "slug": "email",
+    "name": "Email",
+    "icon": "fa6-regular:paper-plane",
+    "url": "mailto:hello@alessandro.codes"
+  },
+  {
     "slug": "github",
     "name": "GitHub",
+    "icon": "fa6-brands:github",
     "url": "https://github.com/aldesantis"
   },
   {
     "slug": "linkedin",
     "name": "LinkedIn",
+    "icon": "fa6-brands:linkedin",
     "url": "https://www.linkedin.com/in/alessandro-desantis/"
   },
   {
     "slug": "instagram",
     "name": "Instagram",
+    "icon": "fa6-brands:instagram",
     "url": "https://instagram.com/@desa.alessandro"
   },
   {
     "slug": "500px",
     "name": "500px",
+    "icon": "fa6-brands:500px",
     "url": "https://500px.com/p/aldesantis"
   },
   {
     "slug": "medium",
     "name": "Medium",
+    "icon": "fa6-brands:medium",
     "url": "https://medium.com/@aldesantis"
   }
 ]
