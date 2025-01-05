@@ -1,6 +1,3 @@
-// Taken almost verbatim from:
-// https://github.com/MaggieAppleton/maggieappleton.com-V3/blob/main/src/scripts/generate-links.js
-
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -13,14 +10,21 @@ const CONTENT_PATH = path.join(__dirname, "../content");
 const CONTENT_TYPES = [
   "essays",
   "notes",
+  "nows",
 ];
 
-// Function to extract text between double brackets
+// Function to extract text between double brackets, now handling labeled links
 const bracketsExtractor = (content) => {
   if (!content) return null;
   const matches = content.match(/\[\[(.*?)\]\]/g);
   if (!matches) return null;
-  return matches.map((match) => match.slice(2, -2));
+  return matches.map((match) => {
+    const innerContent = match.slice(2, -2);
+    // If there's a pipe, take the part before it (the actual link path)
+    // Otherwise use the whole content
+    const [linkPath] = innerContent.split('|');
+    return linkPath.trim();
+  });
 };
 
 // Get all content files from a directory
@@ -43,10 +47,10 @@ const getDataForBacklinks = (fileNames, filePath) =>
 
       const slug = fileName.replace(/\.mdx?$/, "").replace(/\.md?$/, "");
 
-      const { title, aliases, growthStage, description, draft } = data;
+      const { title, aliases, status, description, publish } = data;
 
       // Skip draft posts
-      if (draft === true) {
+      if (publish === false) {
         return null;
       }
 
@@ -55,6 +59,7 @@ const getDataForBacklinks = (fileNames, filePath) =>
         slug,
         title,
         aliases,
+        status,
       };
     })
     .filter(Boolean); // Remove null entries (drafts)
@@ -77,10 +82,10 @@ const getAllPostData = () => {
 
   // Create initial objects with identifiers and empty link arrays
   const posts = totalPostData.map(
-    ({ title, aliases, slug, growthStage, description, contentType }) => ({
+    ({ title, aliases, slug, status, description, contentType }) => ({
       ids: [title, ...(aliases ? aliases : [])],
       slug,
-      growthStage,
+      status,
       description,
       contentType,
       outboundLinks: [],
@@ -93,22 +98,22 @@ const getAllPostData = () => {
     const { content } = postData;
     const bracketContents = bracketsExtractor(content);
 
-    bracketContents?.forEach((alias) => {
+    bracketContents?.forEach((linkPath) => {
       // Find matching post by title or alias
       const match = posts.find((p) => {
-        const normalisedAlias = alias
+        const normalisedLinkPath = linkPath
           .replace(/\n/g, "")
           .replace(/\s+/g, " ")
           .trim();
         return p.ids.some(
-          (id) => id.toLowerCase() === normalisedAlias.toLowerCase()
+          (id) => id.toLowerCase() === normalisedLinkPath.toLowerCase()
         );
       });
 
       if (match) {
         // Add to outbound links
         posts[index].outboundLinks.push({
-          matchedId: alias,
+          matchedId: linkPath,
           title: match.ids[0],
           slug: match.slug,
           growthStage: match.growthStage,

@@ -1,3458 +1,463 @@
 [
   {
     "ids": [
+      "Redefining the Digital Value Chain for Multi-Brand Retail",
       "Redefining the Digital Value Chain for Multi-Brand Retail"
     ],
     "slug": "multi-brand-retail-value-chain",
+    "status": null,
     "contentType": "essays",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
-      "AI allows hyper-personalization"
-    ],
-    "slug": "AI allows hyper-personalization",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Personalization may be harmful",
-        "title": "Personalization may be harmful",
-        "slug": "Personalization may be harmful"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Personalization may be harmful",
-        "slug": "Personalization may be harmful"
-      }
-    ]
-  },
-  {
-    "ids": [
+      "Accelerate existing customer behavior",
       "Accelerate existing customer behavior"
     ],
-    "slug": "Accelerate existing customer behavior",
+    "slug": "accelerate-existing-customer-behavior",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Advertising may work by cultural imprinting",
       "Advertising may work by cultural imprinting"
     ],
-    "slug": "Advertising may work by cultural imprinting",
+    "slug": "advertising-may-work-by-cultural-imprinting",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Advertising must be consistent",
-        "title": "Advertising must be consistent",
-        "slug": "Advertising must be consistent"
-      },
-      {
-        "matchedId": "Personalization may be harmful",
-        "title": "Personalization may be harmful",
-        "slug": "Personalization may be harmful"
-      },
-      {
         "matchedId": "Marketing must build availability",
         "title": "Marketing must build availability",
-        "slug": "Marketing must build availability"
+        "slug": "marketing-must-build-availability"
       }
     ],
     "inboundLinks": [
       {
-        "title": "Cultural brands are bidirectional",
-        "slug": "Cultural brands are bidirectional"
+        "title": "Cultural fragmentation causes market fragmentation",
+        "slug": "cultural-fragmentation-causes-market-fragmentation"
       }
     ]
   },
   {
     "ids": [
+      "Advertising must be consistent",
       "Advertising must be consistent"
     ],
-    "slug": "Advertising must be consistent",
+    "slug": "advertising-must-be-consistent",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Good management requires consistency",
-        "title": "Good management requires consistency",
-        "slug": "Good management requires consistency"
-      },
-      {
-        "matchedId": "Personalization may be harmful",
-        "title": "Personalization may be harmful",
-        "slug": "Personalization may be harmful"
+        "matchedId": "Marketing must build mental availability",
+        "title": "Marketing must build mental availability",
+        "slug": "marketing-must-build-mental-availability"
       }
     ],
     "inboundLinks": [
       {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "Advertising may work by cultural imprinting"
+        "title": "Market penetration trumps market segmentation",
+        "slug": "market-penetration-trumps-market-segmentation"
       },
       {
-        "title": "Advertising must be memorable",
-        "slug": "Advertising must be memorable"
-      },
-      {
-        "title": "Good management requires consistency",
-        "slug": "Good management requires consistency"
-      },
-      {
-        "title": "Marketing must build availability",
-        "slug": "Marketing must build availability"
+        "title": "Marketing must build mental availability",
+        "slug": "marketing-must-build-mental-availability"
       }
     ]
   },
   {
     "ids": [
+      "Advertising must be memorable",
       "Advertising must be memorable"
     ],
-    "slug": "Advertising must be memorable",
+    "slug": "advertising-must-be-memorable",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Advertising must be consistent",
-        "title": "Advertising must be consistent",
-        "slug": "Advertising must be consistent"
+        "matchedId": "Marketing must build mental availability",
+        "title": "Marketing must build mental availability",
+        "slug": "marketing-must-build-mental-availability"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Market penetration trumps market segmentation",
+        "slug": "market-penetration-trumps-market-segmentation"
+      },
+      {
+        "title": "Marketing must build mental availability",
+        "slug": "marketing-must-build-mental-availability"
+      }
+    ]
   },
   {
     "ids": [
+      "AI allows hyper-personalization",
+      "AI allows hyper-personalization"
+    ],
+    "slug": "ai-allows-hyper-personalization",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Cultural fragmentation causes market fragmentation",
+        "slug": "cultural-fragmentation-causes-market-fragmentation"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Alexander Technique allows you to expand the space between stimulus and response",
       "Alexander Technique allows you to expand the space between stimulus and response"
     ],
-    "slug": "Alexander Technique allows you to expand the space between stimulus and response",
+    "slug": "alexander-technique-allows-you-to-expand-the-space-between-stimulus-and-response",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Align teams before empowering them",
       "Align teams before empowering them"
     ],
-    "slug": "Align teams before empowering them",
+    "slug": "align-teams-before-empowering-them",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Focus on controllable input metrics",
-        "title": "Focus on controllable input metrics",
-        "slug": "Focus on controllable input metrics"
-      },
-      {
-        "matchedId": "An operating cadence needs shared vision",
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      },
-      {
-        "title": "Split teams after the seams emerge",
-        "slug": "Split teams after the seams emerge"
-      }
-    ]
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
+      "An operating cadence needs shared vision",
       "An operating cadence needs shared vision"
     ],
-    "slug": "An operating cadence needs shared vision",
+    "slug": "an-operating-cadence-needs-shared-vision",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Align teams before empowering them",
-        "title": "Align teams before empowering them",
-        "slug": "Align teams before empowering them"
-      },
-      {
-        "matchedId": "Freedom is only valuable when forgone",
-        "title": "Freedom is only valuable when forgone",
-        "slug": "Freedom is only valuable when forgone"
-      },
-      {
-        "matchedId": "Improve the operating cadence",
-        "title": "Improve the operating cadence",
-        "slug": "Improve the operating cadence"
-      },
-      {
-        "matchedId": "Compliance is not commitment",
-        "title": "Compliance is not commitment",
-        "slug": "Compliance is not commitment"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Align teams before empowering them",
-        "slug": "Align teams before empowering them"
-      },
-      {
-        "title": "Build experimentation guidelines",
-        "slug": "Build experimentation guidelines"
-      },
-      {
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      },
-      {
-        "title": "Improve the operating cadence",
-        "slug": "Improve the operating cadence"
-      },
-      {
-        "title": "Shared vision is descriptive, not prescriptive",
-        "slug": "Shared vision is descriptive, not prescriptive"
-      }
-    ]
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
+      "The anticipation of danger causes stress",
       "The anticipation of danger causes stress"
     ],
-    "slug": "Anticipation of danger causes stress",
+    "slug": "anticipation-of-danger-causes-stress",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Appeal to emotion and reason for changing things",
       "Appeal to emotion and reason for changing things"
     ],
-    "slug": "Appeal to emotion and reason for changing things",
+    "slug": "appeal-to-emotion-and-reason-for-changing-things",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Arrive early to new arenas",
       "Arrive early to new arenas"
     ],
-    "slug": "Arrive early to new arenas",
+    "slug": "arrive-early-to-new-arenas",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Attribution is not incrementality",
       "Attribution is not incrementality"
     ],
-    "slug": "Attribution is not incrementality",
+    "slug": "attribution-is-not-incrementality",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Focus on directional lift rather than ROAS",
-        "slug": "Focus on directional lift rather than ROAS"
-      }
-    ]
+    "inboundLinks": []
   },
   {
     "ids": [
+      "Authenticity is a learned skill",
       "Authenticity is a learned skill"
     ],
-    "slug": "Authenticity is a learned skill",
+    "slug": "authenticity-is-a-learned-skill",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Avoid open-ended next steps in sales",
       "Avoid open-ended next steps in sales"
     ],
-    "slug": "Avoid open-ended next steps in sales",
+    "slug": "avoid-open-ended-next-steps-in-sales",
+    "status": "seedling",
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Be wary of flawless ideas",
       "Be wary of flawless ideas"
     ],
-    "slug": "Be wary of flawless ideas",
+    "slug": "be-wary-of-flawless-ideas",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Post-rationalization can lead to survivorship bias",
-        "title": "Post-rationalization can lead to survivorship bias",
-        "slug": "Post-rationalization can lead to survivorship bias"
+        "matchedId": "The map is not the territory",
+        "title": "The map is not the territory",
+        "slug": "the-map-is-not-the-territory"
       },
       {
-        "matchedId": "Ideas need to be grappled with",
-        "title": "Ideas need to be grappled with",
-        "slug": "Ideas need to be grappled with"
+        "matchedId": "Chaotic systems are not random",
+        "title": "Chaotic systems are not random",
+        "slug": "chaotic-systems-are-not-random"
+      },
+      {
+        "matchedId": "Correlation is not causation",
+        "title": "Correlation is not causation",
+        "slug": "correlation-is-not-causation"
       }
     ],
     "inboundLinks": [
       {
-        "title": "Ideas need to be grappled with",
-        "slug": "Ideas need to be grappled with"
+        "title": "Post-rationalization can lead to survivorship bias",
+        "slug": "post-rationalization-can-lead-to-survivorship-bias"
       },
       {
-        "title": "Prioritize strengths over weaknesses",
-        "slug": "Prioritize strengths over weaknesses"
-      },
-      {
-        "title": "composable-commerce-is-a-spectrum",
-        "slug": "composable-commerce-is-a-spectrum"
+        "title": "The map is not the territory",
+        "slug": "the-map-is-not-the-territory"
       }
     ]
   },
   {
     "ids": [
+      "Being right is dictated by facts, not opinions",
       "Being right is dictated by facts, not opinions"
     ],
-    "slug": "Being right is dictated by facts, not opinions",
+    "slug": "being-right-is-dictated-by-facts-not-opinions",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Best practices are a floor, not a ceiling",
       "Best practices are a floor, not a ceiling"
     ],
-    "slug": "Best practices are a floor, not a ceiling",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Understand the rules before breaking them",
-        "title": "Understand the rules before breaking them",
-        "slug": "Understand the rules before breaking them"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "blogs are suboptimal for learning"
-    ],
-    "slug": "Blogs are suboptimal for learning",
+    "slug": "best-practices-are-a-floor-not-a-ceiling",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Blogs are suboptimal for learning",
+      "Blogs are suboptimal for learning"
+    ],
+    "slug": "blogs-are-suboptimal-for-learning",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brand growth comes from light buyers",
       "Brand growth comes from light buyers"
     ],
-    "slug": "Brand growth comes from light buyers",
+    "slug": "brand-growth-comes-from-light-buyers",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Light buyers favor large brands",
-        "title": "Light buyers favor large brands",
-        "slug": "Light buyers favor large brands"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Light buyers favor large brands",
-        "slug": "Light buyers favor large brands"
-      },
-      {
-        "title": "Loyalty programs don’t drive direct growth",
-        "slug": "Loyalty programs don't drive direct growth"
-      },
-      {
-        "title": "Marketing must build physical availability",
-        "slug": "Marketing must build physical availability"
-      }
-    ]
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
+      "Brand management aims to turn brands into landmarks",
       "Brand management aims to turn brands into landmarks"
     ],
-    "slug": "Brand management aims to turn brands into landmarks",
+    "slug": "brand-management-aims-to-turn-brands-into-landmarks",
+    "status": "seedling",
     "contentType": "notes",
-    "outboundLinks": [
+    "outboundLinks": [],
+    "inboundLinks": [
       {
-        "matchedId": "Cultural fragmentation causes market fragmentation",
         "title": "Cultural fragmentation causes market fragmentation",
-        "slug": "Cultural fragmentation causes market fragmentation"
+        "slug": "cultural-fragmentation-causes-market-fragmentation"
       }
-    ],
-    "inboundLinks": []
+    ]
   },
   {
     "ids": [
+      "Brand marketing is performance marketing",
       "Brand marketing is performance marketing"
     ],
-    "slug": "Brand marketing is performance marketing",
+    "slug": "brand-marketing-is-performance-marketing",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Brand purpose should be generative",
       "Brand purpose should be generative"
     ],
-    "slug": "Brand purpose should be generative",
+    "slug": "brand-purpose-should-be-generative",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Brands should stand for purpose, not search for it",
-        "title": "Brands should stand for purpose, not search for it",
-        "slug": "Brands should stand for purpose, not search for it"
-      },
-      {
-        "matchedId": "Brands need to activate their purpose",
-        "title": "Brands need to activate their purpose",
-        "slug": "Brands need to activate their purpose"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Brands need to activate their purpose",
       "Brands need to activate their purpose"
     ],
-    "slug": "Brands need to activate their purpose",
+    "slug": "brands-need-to-activate-their-purpose",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Turn your brand into social capital",
-        "title": "Turn your brand into social capital",
-        "slug": "Turn your brand into social capital"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Brand purpose should be generative",
-        "slug": "Brand purpose should be generative"
-      },
-      {
-        "title": "Turn your brand into social capital",
-        "slug": "Turn your brand into social capital"
-      }
-    ]
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
+      "Brands should stand for purpose, not search for it",
       "Brands should stand for purpose, not search for it"
     ],
-    "slug": "Brands should stand for purpose, not search for it",
+    "slug": "brands-should-stand-for-purpose-not-search-for-it",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Shared vision is descriptive, not prescriptive",
-        "title": "Shared vision is descriptive, not prescriptive",
-        "slug": "Shared vision is descriptive, not prescriptive"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Brand purpose should be generative",
-        "slug": "Brand purpose should be generative"
-      }
-    ]
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
+      "Bright spots catalyze change",
       "Bright spots catalyze change"
     ],
-    "slug": "Bright spots catalyze change",
+    "slug": "bright-spots-catalyze-change",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Shared vision is built through hiring",
-        "slug": "Shared vision is built through hiring"
-      }
-    ]
+    "inboundLinks": []
   },
   {
     "ids": [
+      "Build a referral program after people start referring",
       "Build a referral program after people start referring"
     ],
-    "slug": "Build a referral program after people start referring",
+    "slug": "build-a-referral-program-after-people-start-referring",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Build experimentation guidelines",
       "Build experimentation guidelines"
     ],
-    "slug": "Build experimentation guidelines",
+    "slug": "build-experimentation-guidelines",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "An operating cadence needs shared vision",
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      },
-      {
-        "matchedId": "Structure sets you free",
-        "title": "Structure sets you free",
-        "slug": "Structure sets you free"
-      },
-      {
-        "matchedId": "Ideas need to be grappled with",
-        "title": "Ideas need to be grappled with",
-        "slug": "Ideas need to be grappled with"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      },
-      {
-        "title": "Serendipity requires randomness",
-        "slug": "Serendipity requires randomness"
-      }
-    ]
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
+      "Build your loyalty program with tiers, not balances",
       "Build your loyalty program with tiers, not balances"
     ],
-    "slug": "Build your loyalty program with tiers, not balances",
+    "slug": "build-your-loyalty-program-with-tiers-not-balances",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Create a fanbase around your brand",
-        "slug": "Create a fanbase around your brand"
-      },
-      {
-        "title": "Points are better than money for loyalty programs",
-        "slug": "Points are better than money for loyalty programs"
-      }
-    ]
+    "inboundLinks": []
   },
   {
     "ids": [
+      "Change requires an activation energy",
       "Change requires an activation energy"
     ],
-    "slug": "Change requires an activation energy",
+    "slug": "change-requires-an-activation-energy",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Innovation needs a platform",
-        "title": "Innovation needs a platform",
-        "slug": "Innovation needs a platform"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Chaotic systems are not random",
       "Chaotic systems are not random"
     ],
-    "slug": "Chaotic systems are not random",
+    "slug": "chaotic-systems-are-not-random",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
+    "outboundLinks": [],
+    "inboundLinks": [
       {
-        "matchedId": "The map is not the territory",
+        "title": "Be wary of flawless ideas",
+        "slug": "be-wary-of-flawless-ideas"
+      },
+      {
+        "title": "Most ideas can only be post-rationalized",
+        "slug": "most-ideas-can-only-be-post-rationalized"
+      },
+      {
         "title": "The map is not the territory",
-        "slug": "The map is not the territory"
+        "slug": "the-map-is-not-the-territory"
       }
-    ],
-    "inboundLinks": []
+    ]
   },
   {
     "ids": [
+      "Codebases are for humans",
       "Codebases are for humans"
     ],
-    "slug": "Codebases are for humans",
+    "slug": "codebases-are-for-humans",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Collaboration is not compromise",
       "Collaboration is not compromise"
     ],
-    "slug": "Collaboration is not compromise",
+    "slug": "collaboration-is-not-compromise",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
+      "Common enemies unite individuals",
       "Common enemies unite individuals"
     ],
-    "slug": "Common enemies unite individuals",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Excessive cultural fragmentation causes social isolation",
-        "slug": "Excessive cultural fragmentation causes social isolation"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Communities of practice combat cross-functional silos"
-    ],
-    "slug": "Communities of practice combat cross-functional silos",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "communities-of-practice-are-loosely-knit",
-        "title": "communities-of-practice-are-loosely-knit",
-        "slug": "communities-of-practice-are-loosely-knit"
-      },
-      {
-        "matchedId": "Communities of practice exhibit a two-way feedback loop",
-        "title": "Communities of practice exhibit a two-way feedback loop",
-        "slug": "Communities of practice exhibit a two-way feedback loop"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "communities-of-practice-are-loosely-knit",
-        "slug": "communities-of-practice-are-loosely-knit"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Communities of practice exhibit a two-way feedback loop"
-    ],
-    "slug": "Communities of practice exhibit a two-way feedback loop",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "communities-of-practice-are-loosely-knit",
-        "title": "communities-of-practice-are-loosely-knit",
-        "slug": "communities-of-practice-are-loosely-knit"
-      },
-      {
-        "matchedId": "Communities of practice exhibit a two-way feedback loop",
-        "title": "Communities of practice exhibit a two-way feedback loop",
-        "slug": "Communities of practice exhibit a two-way feedback loop"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Communities of practice combat cross-functional silos",
-        "slug": "Communities of practice combat cross-functional silos"
-      },
-      {
-        "title": "Communities of practice exhibit a two-way feedback loop",
-        "slug": "Communities of practice exhibit a two-way feedback loop"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Compliance is not commitment"
-    ],
-    "slug": "Compliance is not commitment",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "The organization is the work",
-        "title": "The organization is the work",
-        "slug": "The organization is the work"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      },
-      {
-        "title": "Improve the operating cadence",
-        "slug": "Improve the operating cadence"
-      },
-      {
-        "title": "Shared vision is descriptive, not prescriptive",
-        "slug": "Shared vision is descriptive, not prescriptive"
-      },
-      {
-        "title": "The organization is the work",
-        "slug": "The organization is the work"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Conversion is fleeting, maturation is stable"
-    ],
-    "slug": "Conversion is fleeting, maturation is stable",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Ideas need to be grappled with",
-        "title": "Ideas need to be grappled with",
-        "slug": "Ideas need to be grappled with"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Correlation is not causation"
-    ],
-    "slug": "Correlation is not causation",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Create a fanbase around your brand"
-    ],
-    "slug": "Create a fanbase around your brand",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Build your loyalty program with tiers, not balances",
-        "title": "Build your loyalty program with tiers, not balances",
-        "slug": "Build your loyalty program with tiers, not balances"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Cross-functionality creates silos"
-    ],
-    "slug": "Cross-functionality creates silos",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Cross-functionality is a spectrum",
-        "title": "Cross-functionality is a spectrum",
-        "slug": "Cross-functionality is a spectrum"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Cross-functionality is a spectrum",
-        "slug": "Cross-functionality is a spectrum"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Cross-functionality is a spectrum"
-    ],
-    "slug": "Cross-functionality is a spectrum",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Cross-functionality removes dependencies",
-        "title": "Cross-functionality removes dependencies",
-        "slug": "Cross-functionality removes dependencies"
-      },
-      {
-        "matchedId": "Cross-functionality creates silos",
-        "title": "Cross-functionality creates silos",
-        "slug": "Cross-functionality creates silos"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Cross-functionality creates silos",
-        "slug": "Cross-functionality creates silos"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Cross-functionality promotes shared vision"
-    ],
-    "slug": "Cross-functionality promotes shared vision",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Cross-functionality removes dependencies"
-    ],
-    "slug": "Cross-functionality removes dependencies",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Cross-functionality is a spectrum",
-        "slug": "Cross-functionality is a spectrum"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Cultural brands are bidirectional"
-    ],
-    "slug": "Cultural brands are bidirectional",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Advertising may work by cultural imprinting",
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "Advertising may work by cultural imprinting"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Cultural fragmentation causes market fragmentation",
-        "slug": "Cultural fragmentation causes market fragmentation"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Cultural fragmentation causes market fragmentation"
-    ],
-    "slug": "Cultural fragmentation causes market fragmentation",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Personalization may be harmful",
-        "title": "Personalization may be harmful",
-        "slug": "Personalization may be harmful"
-      },
-      {
-        "matchedId": "Cultural brands are bidirectional",
-        "title": "Cultural brands are bidirectional",
-        "slug": "Cultural brands are bidirectional"
-      },
-      {
-        "matchedId": "Excessive cultural fragmentation causes social isolation",
-        "title": "Excessive cultural fragmentation causes social isolation",
-        "slug": "Excessive cultural fragmentation causes social isolation"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Brand management aims to turn brands into landmarks",
-        "slug": "Brand management aims to turn brands into landmarks"
-      },
-      {
-        "title": "Information abundance causes cultural fragmentation",
-        "slug": "Information abundance causes cultural fragmentation"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Curation creates brand depth"
-    ],
-    "slug": "Curation creates brand depth",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Customer loyalty is behavioral"
-    ],
-    "slug": "Customer loyalty is behavioral",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Market penetration trumps market segmentation",
-        "title": "Market penetration trumps market segmentation",
-        "slug": "Market penetration trumps market segmentation"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Loyalty programs don’t drive direct growth",
-        "slug": "Loyalty programs don't drive direct growth"
-      },
-      {
-        "title": "Market penetration trumps market segmentation",
-        "slug": "Market penetration trumps market segmentation"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Data must be activated"
-    ],
-    "slug": "Data must be activated",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Decentralized identity could save advertising"
-    ],
-    "slug": "Decentralized identity could save advertising",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Defensiveness inhibits learning"
-    ],
-    "slug": "Defensiveness inhibits learning",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Define a meeting OS"
-    ],
-    "slug": "Define a meeting OS",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Structure sets you free",
-        "title": "Structure sets you free",
-        "slug": "Structure sets you free"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Define decision-making"
-    ],
-    "slug": "Define decision-making",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Design an operating cadence",
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Define your unit of immutability"
-    ],
-    "slug": "Define your unit of immutability",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Design an operating cadence"
-    ],
-    "slug": "Design an operating cadence",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Structure sets you free",
-        "title": "Structure sets you free",
-        "slug": "Structure sets you free"
-      },
-      {
-        "matchedId": "Define a meeting OS",
-        "title": "Define a meeting OS",
-        "slug": "Define a meeting OS"
-      },
-      {
-        "matchedId": "Eliminate bias systematically",
-        "title": "Eliminate bias systematically",
-        "slug": "Eliminate bias systematically"
-      },
-      {
-        "matchedId": "Build experimentation guidelines",
-        "title": "Build experimentation guidelines",
-        "slug": "Build experimentation guidelines"
-      },
-      {
-        "matchedId": "Improve the operating cadence",
-        "title": "Improve the operating cadence",
-        "slug": "Improve the operating cadence"
-      },
-      {
-        "matchedId": "An operating cadence needs shared vision",
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Define decision-making",
-        "slug": "Define decision-making"
-      },
-      {
-        "title": "Misaligned product demand is detrimental",
-        "slug": "Misaligned product demand is detrimental"
-      },
-      {
-        "title": "Serendipity requires randomness",
-        "slug": "Serendipity requires randomness"
-      },
-      {
-        "title": "Unknown habits impede learning",
-        "slug": "Unknown habits impede learning"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Discussion is not dialogue"
-    ],
-    "slug": "Discussion is not dialogue",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Don’t play life on hard mode"
-    ],
-    "slug": "Don't play life on hard mode",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Prioritize strengths over weaknesses",
-        "title": "Prioritize strengths over weaknesses",
-        "slug": "Prioritize strengths over weaknesses"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Dreams matter because of their function"
-    ],
-    "slug": "Dreams matter because of their function",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "DTC has long been about arbitrage"
-    ],
-    "slug": "Dtc has long been about arbitrage",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Economies of scale are not exclusive"
-    ],
-    "slug": "Economies of scale are not exclusive",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Effective change requires collaboration"
-    ],
-    "slug": "Effective change requires collaboration",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Innovation needs a platform",
-        "title": "Innovation needs a platform",
-        "slug": "Innovation needs a platform"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Good consulting requires client collaboration",
-        "slug": "Good consulting requires client collaboration"
-      },
-      {
-        "title": "Innovation needs a platform",
-        "slug": "Innovation needs a platform"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Eliminate bias systematically"
-    ],
-    "slug": "Eliminate bias systematically",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Information quality is decision quality",
-        "title": "Information quality is decision quality",
-        "slug": "Information quality is decision quality"
-      },
-      {
-        "matchedId": "Reason from first principles",
-        "title": "Reason from first principles",
-        "slug": "Reason from first principles"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      },
-      {
-        "title": "Information quality is decision quality",
-        "slug": "Information quality is decision quality"
-      },
-      {
-        "title": "Reason from first principles",
-        "slug": "Reason from first principles"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Eliminate the cost of mistake"
-    ],
-    "slug": "Eliminate the cost of mistake",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Emotions aren’t always correct"
-    ],
-    "slug": "Emotions aren't always correct",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Every sales channel has its purpose"
-    ],
-    "slug": "Every sales channel has its purpose",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Wholesale is for breadth, DTC is for depth",
-        "title": "Wholesale is for breadth, DTC is for depth",
-        "slug": "Wholesale is for breadth, DTC is for depth"
-      },
-      {
-        "matchedId": "Wholesale boosts brand awareness",
-        "title": "Wholesale boosts brand awareness",
-        "slug": "Wholesale boosts brand awareness"
-      },
-      {
-        "matchedId": "Sales channels must be integrated",
-        "title": "Sales channels must be integrated",
-        "slug": "Sales channels must be integrated"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Marketing must build physical availability",
-        "slug": "Marketing must build physical availability"
-      },
-      {
-        "title": "Sales channels must be integrated",
-        "slug": "Sales channels must be integrated"
-      },
-      {
-        "title": "Wholesale is for breadth, DTC is for depth",
-        "slug": "Wholesale is for breadth, DTC is for depth"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Excessive cultural fragmentation causes social isolation"
-    ],
-    "slug": "Excessive cultural fragmentation causes social isolation",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Common enemies unite individuals",
-        "title": "Common enemies unite individuals",
-        "slug": "Common enemies unite individuals"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Cultural fragmentation causes market fragmentation",
-        "slug": "Cultural fragmentation causes market fragmentation"
-      },
-      {
-        "title": "Information abundance causes cultural fragmentation",
-        "slug": "Information abundance causes cultural fragmentation"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Explicit knowledge can be captured"
-    ],
-    "slug": "Explicit knowledge can be captured",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Explore three solutions for a problems"
-    ],
-    "slug": "Explore three solutions for a problems",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Focus on aspirations and afflictions"
-    ],
-    "slug": "Focus on aspirations and afflictions",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Focus on controllable input metrics"
-    ],
-    "slug": "Focus on controllable input metrics",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Align teams before empowering them",
-        "slug": "Align teams before empowering them"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Focus on directional lift rather than ROAS"
-    ],
-    "slug": "Focus on directional lift rather than ROAS",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Attribution is not incrementality",
-        "title": "Attribution is not incrementality",
-        "slug": "Attribution is not incrementality"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Focus on second-order positivity"
-    ],
-    "slug": "Focus on second-order positivity",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Focus on the new reality"
-    ],
-    "slug": "Focus on the new reality",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Focus on the process, not the outcome"
-    ],
-    "slug": "Focus on the process, not the outcome",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Focusing on monetary value impoverishes cultural work",
-        "slug": "Focusing on monetary value impoverishes cultural work"
-      },
-      {
-        "title": "Good cooking requires time",
-        "slug": "Good cooking requires time"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Focus on what’s not changing"
-    ],
-    "slug": "Focus on what's not changing",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Focusing on monetary value impoverishes cultural work"
-    ],
-    "slug": "Focusing on monetary value impoverishes cultural work",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Most ideas can only be post-rationalized",
-        "title": "Most ideas can only be post-rationalized",
-        "slug": "Most ideas can only be post-rationalized"
-      },
-      {
-        "matchedId": "Money is like oxygen",
-        "title": "Money is like oxygen",
-        "slug": "Money is like oxygen"
-      },
-      {
-        "matchedId": "Focus on the process, not the outcome",
-        "title": "Focus on the process, not the outcome",
-        "slug": "Focus on the process, not the outcome"
-      },
-      {
-        "matchedId": "NFTs create transparency into the value of cultural artifacts",
-        "title": "NFTs create transparency into the value of cultural artifacts",
-        "slug": "NFTs create transparency into the value of cultural artifacts"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "NFTs create transparency into the value of cultural artifacts",
-        "slug": "NFTs create transparency into the value of cultural artifacts"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Foresight is creation, not prediction"
-    ],
-    "slug": "Foresight is creation, not prediction",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Most ideas can only be post-rationalized",
-        "slug": "Most ideas can only be post-rationalized"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Freedom is only valuable when forgone"
-    ],
-    "slug": "Freedom is only valuable when forgone",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Fusion alters our reality"
-    ],
-    "slug": "Fusion alters our reality",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Good consulting requires client collaboration"
-    ],
-    "slug": "Good consulting requires client collaboration",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Effective change requires collaboration",
-        "title": "Effective change requires collaboration",
-        "slug": "Effective change requires collaboration"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Good cooking requires time"
-    ],
-    "slug": "Good cooking requires time",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Focus on the process, not the outcome",
-        "title": "Focus on the process, not the outcome",
-        "slug": "Focus on the process, not the outcome"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Good management requires consistency"
-    ],
-    "slug": "Good management requires consistency",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Advertising must be consistent",
-        "title": "Advertising must be consistent",
-        "slug": "Advertising must be consistent"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Advertising must be consistent",
-        "slug": "Advertising must be consistent"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Good operators instrument"
-    ],
-    "slug": "Good operators instrument",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Good strategies are simple"
-    ],
-    "slug": "Good strategies are simple",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Good strategy is simple"
-    ],
-    "slug": "Good strategy is simple",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Strategy requires focus",
-        "title": "Strategy requires focus",
-        "slug": "Strategy requires focus"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Strategy requires focus",
-        "slug": "Strategy requires focus"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Groups always have structure"
-    ],
-    "slug": "Groups always have structure",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Hard work is overrated"
-    ],
-    "slug": "Hard work is overrated",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Hire coachable people"
-    ],
-    "slug": "Hire coachable people",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Hire for attitude, not for skills"
-    ],
-    "slug": "Hire for attitude, not for skills",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Hiring is a network effect"
-    ],
-    "slug": "Hiring is a network effect",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Hiring is an approximation of the job"
-    ],
-    "slug": "Hiring is an approximation of the job",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Ideas need to be grappled with"
-    ],
-    "slug": "Ideas need to be grappled with",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "turn-transient-notes-into-evergreen-notes",
-        "title": "turn-transient-notes-into-evergreen-notes",
-        "slug": "turn-transient-notes-into-evergreen-notes"
-      },
-      {
-        "matchedId": "Be wary of flawless ideas",
-        "title": "Be wary of flawless ideas",
-        "slug": "Be wary of flawless ideas"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Be wary of flawless ideas",
-        "slug": "Be wary of flawless ideas"
-      },
-      {
-        "title": "Build experimentation guidelines",
-        "slug": "Build experimentation guidelines"
-      },
-      {
-        "title": "Conversion is fleeting, maturation is stable",
-        "slug": "Conversion is fleeting, maturation is stable"
-      },
-      {
-        "title": "Memory is for context",
-        "slug": "Memory is for context"
-      },
-      {
-        "title": "turn-transient-notes-into-evergreen-notes",
-        "slug": "turn-transient-notes-into-evergreen-notes"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Improve the operating cadence"
-    ],
-    "slug": "Improve the operating cadence",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "An operating cadence needs shared vision",
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      },
-      {
-        "matchedId": "Compliance is not commitment",
-        "title": "Compliance is not commitment",
-        "slug": "Compliance is not commitment"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      },
-      {
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Improvements must be protected"
-    ],
-    "slug": "Improvements must be protected",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "In the future, commerce will be everywhere"
-    ],
-    "slug": "In the future, commerce will be everywhere",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Media and commerce are blending",
-        "slug": "Media and commerce are blending"
-      },
-      {
-        "title": "Social media is leading to product-centric commerce",
-        "slug": "Social media is leading to product-centric commerce"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Increasing agency reduces stress"
-    ],
-    "slug": "Increasing agency reduces stress",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Social support reduces stress",
-        "slug": "Social support reduces stress"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Information abundance causes cultural fragmentation"
-    ],
-    "slug": "Information abundance causes cultural fragmentation",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Excessive cultural fragmentation causes social isolation",
-        "title": "Excessive cultural fragmentation causes social isolation",
-        "slug": "Excessive cultural fragmentation causes social isolation"
-      },
-      {
-        "matchedId": "Cultural fragmentation causes market fragmentation",
-        "title": "Cultural fragmentation causes market fragmentation",
-        "slug": "Cultural fragmentation causes market fragmentation"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Information quality is decision quality"
-    ],
-    "slug": "Information quality is decision quality",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Eliminate bias systematically",
-        "title": "Eliminate bias systematically",
-        "slug": "Eliminate bias systematically"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Eliminate bias systematically",
-        "slug": "Eliminate bias systematically"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Innovation needs a platform"
-    ],
-    "slug": "Innovation needs a platform",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Regulation can create opportunity",
-        "title": "Regulation can create opportunity",
-        "slug": "Regulation can create opportunity"
-      },
-      {
-        "matchedId": "Effective change requires collaboration",
-        "title": "Effective change requires collaboration",
-        "slug": "Effective change requires collaboration"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Change requires an activation energy",
-        "slug": "Change requires an activation energy"
-      },
-      {
-        "title": "Effective change requires collaboration",
-        "slug": "Effective change requires collaboration"
-      },
-      {
-        "title": "Regulation can create opportunity",
-        "slug": "Regulation can create opportunity"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Kindness begets kindness"
-    ],
-    "slug": "Kindness begets kindness",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Lean is about cheap iteration"
-    ],
-    "slug": "Lean is about cheap iteration",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Learning is a four-phase process"
-    ],
-    "slug": "Learning is a four-phase process",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Tacit knowledge cannot be captured",
-        "slug": "Tacit knowledge cannot be captured"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Learning is the work"
-    ],
-    "slug": "Learning is the work",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Light buyers favor large brands"
-    ],
-    "slug": "Light buyers favor large brands",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Marketing must build availability",
-        "title": "Marketing must build availability",
-        "slug": "Marketing must build availability"
-      },
-      {
-        "matchedId": "Brand growth comes from light buyers",
-        "title": "Brand growth comes from light buyers",
-        "slug": "Brand growth comes from light buyers"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Brand growth comes from light buyers",
-        "slug": "Brand growth comes from light buyers"
-      },
-      {
-        "title": "Marketing must build availability",
-        "slug": "Marketing must build availability"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Lofty visions require personal mastery"
-    ],
-    "slug": "Lofty visions require personal mastery",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Look for collab partners that are aligned with you"
-    ],
-    "slug": "Look for collab partners that are aligned with you",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Loyalty programs don’t drive direct growth"
-    ],
-    "slug": "Loyalty programs don't drive direct growth",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Brand growth comes from light buyers",
-        "title": "Brand growth comes from light buyers",
-        "slug": "Brand growth comes from light buyers"
-      },
-      {
-        "matchedId": "Customer loyalty is behavioral",
-        "title": "Customer loyalty is behavioral",
-        "slug": "Customer loyalty is behavioral"
-      },
-      {
-        "matchedId": "Marketing must build mental availability",
-        "title": "Marketing must build mental availability",
-        "slug": "Marketing must build mental availability"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Make people feel good about themselves to make them like you"
-    ],
-    "slug": "Make people feel good about themselves to make them like you",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Managers operate on two horizons"
-    ],
-    "slug": "Managers operate on two horizons",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Market penetration trumps market segmentation"
-    ],
-    "slug": "Market penetration trumps market segmentation",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Customer loyalty is behavioral",
-        "title": "Customer loyalty is behavioral",
-        "slug": "Customer loyalty is behavioral"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Customer loyalty is behavioral",
-        "slug": "Customer loyalty is behavioral"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Market share is a self-reinforcing feedback loop"
-    ],
-    "slug": "Market share is a self-reinforcing feedback loop",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Reinforcing feedback loops can be self-enhancing or self-destructive",
-        "title": "Reinforcing feedback loops can be self-enhancing or self-destructive",
-        "slug": "Reinforcing feedback loops can be self-enhancing or self-destructive"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Marketing must build availability"
-    ],
-    "slug": "Marketing must build availability",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Marketing must build physical availability",
-        "title": "Marketing must build physical availability",
-        "slug": "Marketing must build physical availability"
-      },
-      {
-        "matchedId": "Marketing must build mental availability",
-        "title": "Marketing must build mental availability",
-        "slug": "Marketing must build mental availability"
-      },
-      {
-        "matchedId": "Light buyers favor large brands",
-        "title": "Light buyers favor large brands",
-        "slug": "Light buyers favor large brands"
-      },
-      {
-        "matchedId": "Advertising must be consistent",
-        "title": "Advertising must be consistent",
-        "slug": "Advertising must be consistent"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "Advertising may work by cultural imprinting"
-      },
-      {
-        "title": "Light buyers favor large brands",
-        "slug": "Light buyers favor large brands"
-      },
-      {
-        "title": "Wholesale boosts brand awareness",
-        "slug": "Wholesale boosts brand awareness"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Marketing must build mental availability"
-    ],
-    "slug": "Marketing must build mental availability",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Loyalty programs don’t drive direct growth",
-        "slug": "Loyalty programs don't drive direct growth"
-      },
-      {
-        "title": "Marketing must build availability",
-        "slug": "Marketing must build availability"
-      },
-      {
-        "title": "Marketing must build physical availability",
-        "slug": "Marketing must build physical availability"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Marketing must build physical availability"
-    ],
-    "slug": "Marketing must build physical availability",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Brand growth comes from light buyers",
-        "title": "Brand growth comes from light buyers",
-        "slug": "Brand growth comes from light buyers"
-      },
-      {
-        "matchedId": "Every sales channel has its purpose",
-        "title": "Every sales channel has its purpose",
-        "slug": "Every sales channel has its purpose"
-      },
-      {
-        "matchedId": "Marketing must build mental availability",
-        "title": "Marketing must build mental availability",
-        "slug": "Marketing must build mental availability"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Marketing must build availability",
-        "slug": "Marketing must build availability"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Marketplaces are usually 80-20"
-    ],
-    "slug": "Marketplaces are usually 80-20",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Marketplaces require dedicated teams",
-        "slug": "Marketplaces require dedicated teams"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Marketplaces require dedicated teams"
-    ],
-    "slug": "Marketplaces require dedicated teams",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Marketplaces are usually 80-20",
-        "title": "Marketplaces are usually 80-20",
-        "slug": "Marketplaces are usually 80-20"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Media and commerce are blending"
-    ],
-    "slug": "Media and commerce are blending",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "In the future, commerce will be everywhere",
-        "title": "In the future, commerce will be everywhere",
-        "slug": "In the future, commerce will be everywhere"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Social media is leading to product-centric commerce",
-        "slug": "Social media is leading to product-centric commerce"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Mediums create new agency"
-    ],
-    "slug": "Mediums create new agency",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Membership is a type of synergy"
-    ],
-    "slug": "Membership is a type of synergy",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Synergies help unrelated assets succeed",
-        "title": "Synergies help unrelated assets succeed",
-        "slug": "Synergies help unrelated assets succeed"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Synergies help unrelated assets succeed",
-        "slug": "Synergies help unrelated assets succeed"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Memory is for context"
-    ],
-    "slug": "Memory is for context",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Ideas need to be grappled with",
-        "title": "Ideas need to be grappled with",
-        "slug": "Ideas need to be grappled with"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Merchandising is turning into a real business"
-    ],
-    "slug": "Merchandising is turning into a real business",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Metaverse generates a lot of first-party data"
-    ],
-    "slug": "Metaverse generates a lot of first-party data",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Metaverse is for behemoths and natives",
-        "title": "Metaverse is for behemoths and natives",
-        "slug": "Metaverse is for behemoths and natives"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Metaverse is for behemoths and natives"
-    ],
-    "slug": "Metaverse is for behemoths and natives",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Metaverse generates a lot of first-party data",
-        "slug": "Metaverse generates a lot of first-party data"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Misaligned product demand is detrimental"
-    ],
-    "slug": "Misaligned product demand is detrimental",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Design an operating cadence",
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Money is like oxygen"
-    ],
-    "slug": "Money is like oxygen",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Focusing on monetary value impoverishes cultural work",
-        "slug": "Focusing on monetary value impoverishes cultural work"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Most ideas can only be post-rationalized"
-    ],
-    "slug": "Most ideas can only be post-rationalized",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Foresight is creation, not prediction",
-        "title": "Foresight is creation, not prediction",
-        "slug": "Foresight is creation, not prediction"
-      },
-      {
-        "matchedId": "Post-rationalization can lead to survivorship bias",
-        "title": "Post-rationalization can lead to survivorship bias",
-        "slug": "Post-rationalization can lead to survivorship bias"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Focusing on monetary value impoverishes cultural work",
-        "slug": "Focusing on monetary value impoverishes cultural work"
-      },
-      {
-        "title": "Post-rationalization can lead to survivorship bias",
-        "slug": "Post-rationalization can lead to survivorship bias"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Multi-brand retailers create moats through CX"
-    ],
-    "slug": "Multi-brand retailers create moats through CX",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "NFTs create transparency into the value of cultural artifacts"
-    ],
-    "slug": "NFTs create transparency into the value of cultural artifacts",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Focusing on monetary value impoverishes cultural work",
-        "title": "Focusing on monetary value impoverishes cultural work",
-        "slug": "Focusing on monetary value impoverishes cultural work"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Focusing on monetary value impoverishes cultural work",
-        "slug": "Focusing on monetary value impoverishes cultural work"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Optimism requires diversification"
-    ],
-    "slug": "Optimism requires diversification",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Optionality can hinder risk-taking",
-        "title": "Optionality can hinder risk-taking",
-        "slug": "Optionality can hinder risk-taking"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Optionality can hinder risk-taking",
-        "slug": "Optionality can hinder risk-taking"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Optionality can hinder risk-taking"
-    ],
-    "slug": "Optionality can hinder risk-taking",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Optimism requires diversification",
-        "title": "Optimism requires diversification",
-        "slug": "Optimism requires diversification"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Optimism requires diversification",
-        "slug": "Optimism requires diversification"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Org design is structure, incentives, and culture"
-    ],
-    "slug": "Org design is about structure, incentives, and culture",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "We get what we reward for",
-        "title": "We get what we reward for",
-        "slug": "We get what we reward for"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Org design is iteration"
-    ],
-    "slug": "Organizational design is iterative",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "People change places, not the other way around"
-    ],
-    "slug": "People change places, not the other way around",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "People problems are often situation problems"
-    ],
-    "slug": "People problems are often situation problems",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Personalization may be harmful"
-    ],
-    "slug": "Personalization may be harmful",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "AI allows hyper-personalization",
-        "title": "AI allows hyper-personalization",
-        "slug": "AI allows hyper-personalization"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "AI allows hyper-personalization",
-        "slug": "AI allows hyper-personalization"
-      },
-      {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "Advertising may work by cultural imprinting"
-      },
-      {
-        "title": "Advertising must be consistent",
-        "slug": "Advertising must be consistent"
-      },
-      {
-        "title": "Cultural fragmentation causes market fragmentation",
-        "slug": "Cultural fragmentation causes market fragmentation"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Physical design is hard to change"
-    ],
-    "slug": "Physical design is hard to change",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Point to the new tower"
-    ],
-    "slug": "Point to the new tower",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Points are better than money for loyalty programs"
-    ],
-    "slug": "Points are better than money for loyalty programs",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Build your loyalty program with tiers, not balances",
-        "title": "Build your loyalty program with tiers, not balances",
-        "slug": "Build your loyalty program with tiers, not balances"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Popularity is the new rarity"
-    ],
-    "slug": "Popularity is the new rarity",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Post-rationalization can lead to survivorship bias"
-    ],
-    "slug": "Post-rationalization can lead to survivorship bias",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Most ideas can only be post-rationalized",
-        "title": "Most ideas can only be post-rationalized",
-        "slug": "Most ideas can only be post-rationalized"
-      },
-      {
-        "matchedId": "The map is not the territory",
-        "title": "The map is not the territory",
-        "slug": "The map is not the territory"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Be wary of flawless ideas",
-        "slug": "Be wary of flawless ideas"
-      },
-      {
-        "title": "Most ideas can only be post-rationalized",
-        "slug": "Most ideas can only be post-rationalized"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Prestige is decoupled from wealth"
-    ],
-    "slug": "Prestige is decoupled from wealth",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Prioritize strengths over weaknesses"
-    ],
-    "slug": "Prioritize strengths over weaknesses",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Be wary of flawless ideas",
-        "title": "Be wary of flawless ideas",
-        "slug": "Be wary of flawless ideas"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Don’t play life on hard mode",
-        "slug": "Don't play life on hard mode"
-      },
-      {
-        "title": "Strategy requires focus",
-        "slug": "Strategy requires focus"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Product management is about the customer"
-    ],
-    "slug": "Product management is about the customer",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Product strategy has four steps"
-    ],
-    "slug": "Product strategy has four steps",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Strategy deals with present challenges",
-        "title": "Strategy deals with present challenges",
-        "slug": "Strategy deals with present challenges"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Productivity is goal plus strategy"
-    ],
-    "slug": "Productivity is goal plus strategy",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Psychological safety is a compromise"
-    ],
-    "slug": "Psychological safety is a compromise",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Psychological safety is a team factor"
-    ],
-    "slug": "Psychological safety is a team factor",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Pursue your personal Venn diagram"
-    ],
-    "slug": "Pursue your personal venn diagram",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Re-evaluate your strengths"
-    ],
-    "slug": "Re-evaluate your strengths",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Reason from first principles"
-    ],
-    "slug": "Reason from first principles",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Eliminate bias systematically",
-        "title": "Eliminate bias systematically",
-        "slug": "Eliminate bias systematically"
-      },
-      {
-        "matchedId": "Unknown habits impede learning",
-        "title": "Unknown habits impede learning",
-        "slug": "Unknown habits impede learning"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Eliminate bias systematically",
-        "slug": "Eliminate bias systematically"
-      },
-      {
-        "title": "Unknown habits impede learning",
-        "slug": "Unknown habits impede learning"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Regulation can create opportunity"
-    ],
-    "slug": "Regulation can create opportunity",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Innovation needs a platform",
-        "title": "Innovation needs a platform",
-        "slug": "Innovation needs a platform"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Innovation needs a platform",
-        "slug": "Innovation needs a platform"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Reinforcing feedback loops can be self-enhancing or self-destructive"
-    ],
-    "slug": "Reinforcing feedback loops can be self-enhancing or self-destructive",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Market share is a self-reinforcing feedback loop",
-        "slug": "Market share is a self-reinforcing feedback loop"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Risk protects from competition"
-    ],
-    "slug": "Risk protects from competition",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "There are four types of product risk",
-        "title": "There are four types of product risk",
-        "slug": "There are four types of product risk"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "There are four types of product risk",
-        "slug": "There are four types of product risk"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Sales channels must be integrated"
-    ],
-    "slug": "Sales channels must be integrated",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Every sales channel has its purpose",
-        "title": "Every sales channel has its purpose",
-        "slug": "Every sales channel has its purpose"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Every sales channel has its purpose",
-        "slug": "Every sales channel has its purpose"
-      },
-      {
-        "title": "Wholesale is for breadth, DTC is for depth",
-        "slug": "Wholesale is for breadth, DTC is for depth"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Selection bias skews decisions in retail"
-    ],
-    "slug": "Selection bias skews decisions in retail",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Serendipity requires randomness"
-    ],
-    "slug": "Serendipity requires randomness",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Design an operating cadence",
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      },
-      {
-        "matchedId": "Build experimentation guidelines",
-        "title": "Build experimentation guidelines",
-        "slug": "Build experimentation guidelines"
-      },
-      {
-        "matchedId": "Unknown habits impede learning",
-        "title": "Unknown habits impede learning",
-        "slug": "Unknown habits impede learning"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Shared vision is built through hiring"
-    ],
-    "slug": "Shared vision is built through hiring",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Shared vision is descriptive, not prescriptive",
-        "title": "Shared vision is descriptive, not prescriptive",
-        "slug": "Shared vision is descriptive, not prescriptive"
-      },
-      {
-        "matchedId": "Shared vision is built through inquiry",
-        "title": "Shared vision is built through inquiry",
-        "slug": "Shared vision is built through inquiry"
-      },
-      {
-        "matchedId": "Bright spots catalyze change",
-        "title": "Bright spots catalyze change",
-        "slug": "Bright spots catalyze change"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Shared vision is built through inquiry",
-        "slug": "Shared vision is built through inquiry"
-      },
-      {
-        "title": "Shared vision is descriptive, not prescriptive",
-        "slug": "Shared vision is descriptive, not prescriptive"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Shared vision is built through inquiry"
-    ],
-    "slug": "Shared vision is built through inquiry",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Shared vision is built through hiring",
-        "title": "Shared vision is built through hiring",
-        "slug": "Shared vision is built through hiring"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Shared vision is built through hiring",
-        "slug": "Shared vision is built through hiring"
-      },
-      {
-        "title": "Shared vision is descriptive, not prescriptive",
-        "slug": "Shared vision is descriptive, not prescriptive"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Shared vision is descriptive, not prescriptive"
-    ],
-    "slug": "Shared vision is descriptive, not prescriptive",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "An operating cadence needs shared vision",
-        "title": "An operating cadence needs shared vision",
-        "slug": "An operating cadence needs shared vision"
-      },
-      {
-        "matchedId": "Shared vision promotes systems thinking",
-        "title": "Shared vision promotes systems thinking",
-        "slug": "Shared vision promotes systems thinking"
-      },
-      {
-        "matchedId": "Compliance is not commitment",
-        "title": "Compliance is not commitment",
-        "slug": "Compliance is not commitment"
-      },
-      {
-        "matchedId": "Shared vision is built through hiring",
-        "title": "Shared vision is built through hiring",
-        "slug": "Shared vision is built through hiring"
-      },
-      {
-        "matchedId": "Shared vision is built through inquiry",
-        "title": "Shared vision is built through inquiry",
-        "slug": "Shared vision is built through inquiry"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Brands should stand for purpose, not search for it",
-        "slug": "Brands should stand for purpose, not search for it"
-      },
-      {
-        "title": "Shared vision is built through hiring",
-        "slug": "Shared vision is built through hiring"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Shared vision promotes systems thinking"
-    ],
-    "slug": "Shared vision promotes systems thinking",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Shared vision is descriptive, not prescriptive",
-        "slug": "Shared vision is descriptive, not prescriptive"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Shopify is becoming consumer-facing"
-    ],
-    "slug": "Shopify is becoming consumer-facing",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Small orgs give you breadth, large orgs give you scale"
-    ],
-    "slug": "Small orgs give you breadth, large orgs give you scale",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Social commerce puts people over brands"
-    ],
-    "slug": "Social commerce puts people over brands",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Social media is leading to product-centric commerce"
-    ],
-    "slug": "Social media is leading to product-centric commerce",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Media and commerce are blending",
-        "title": "Media and commerce are blending",
-        "slug": "Media and commerce are blending"
-      },
-      {
-        "matchedId": "In the future, commerce will be everywhere",
-        "title": "In the future, commerce will be everywhere",
-        "slug": "In the future, commerce will be everywhere"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Social support reduces stress"
-    ],
-    "slug": "Social support reduces stress",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Increasing agency reduces stress",
-        "title": "Increasing agency reduces stress",
-        "slug": "Increasing agency reduces stress"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Software engineering"
-    ],
-    "slug": "Software engineering",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Split teams after the seams emerge"
-    ],
-    "slug": "Split teams after the seams emerge",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Align teams before empowering them",
-        "title": "Align teams before empowering them",
-        "slug": "Align teams before empowering them"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Stores have a double nature"
-    ],
-    "slug": "Stores have a double nature",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Use stores as fulfillment nodes",
-        "title": "Use stores as fulfillment nodes",
-        "slug": "Use stores as fulfillment nodes"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Strategy deals with present challenges"
-    ],
-    "slug": "Strategy deals with present challenges",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Strategy requires focus",
-        "title": "Strategy requires focus",
-        "slug": "Strategy requires focus"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Product strategy has four steps",
-        "slug": "Product strategy has four steps"
-      },
-      {
-        "title": "Strategy requires focus",
-        "slug": "Strategy requires focus"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Strategy requires focus"
-    ],
-    "slug": "Strategy requires focus",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Strategy deals with present challenges",
-        "title": "Strategy deals with present challenges",
-        "slug": "Strategy deals with present challenges"
-      },
-      {
-        "matchedId": "Prioritize strengths over weaknesses",
-        "title": "Prioritize strengths over weaknesses",
-        "slug": "Prioritize strengths over weaknesses"
-      },
-      {
-        "matchedId": "Good strategy is simple",
-        "title": "Good strategy is simple",
-        "slug": "Good strategy is simple"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Good strategy is simple",
-        "slug": "Good strategy is simple"
-      },
-      {
-        "title": "Strategy deals with present challenges",
-        "slug": "Strategy deals with present challenges"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Stress isn’t the same for everyone"
-    ],
-    "slug": "Stress isn't the same for everyone",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Structure makes willpower unnecessary"
-    ],
-    "slug": "Structure makes willpower unnecessary",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Structure sets you free",
-        "title": "Structure sets you free",
-        "slug": "Structure sets you free"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Structure sets you free"
-    ],
-    "slug": "Structure sets you free",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Build experimentation guidelines",
-        "slug": "Build experimentation guidelines"
-      },
-      {
-        "title": "Define a meeting OS",
-        "slug": "Define a meeting OS"
-      },
-      {
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      },
-      {
-        "title": "Structure makes willpower unnecessary",
-        "slug": "Structure makes willpower unnecessary"
-      },
-      {
-        "title": "Unknown habits impede learning",
-        "slug": "Unknown habits impede learning"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Synergies help unrelated assets succeed"
-    ],
-    "slug": "Synergies help unrelated assets succeed",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Membership is a type of synergy",
-        "title": "Membership is a type of synergy",
-        "slug": "Membership is a type of synergy"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Membership is a type of synergy",
-        "slug": "Membership is a type of synergy"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Systems happen all at once"
-    ],
-    "slug": "Systems happen all at once",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Systems must be inspected"
-    ],
-    "slug": "Systems must be inspected",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Systems of engagement consume data"
-    ],
-    "slug": "Systems of engagement consume data",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Systems of record hold data",
-        "title": "Systems of record hold data",
-        "slug": "Systems of record hold data"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Systems of record hold data",
-        "slug": "Systems of record hold data"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Systems of record hold data"
-    ],
-    "slug": "Systems of record hold data",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Systems of engagement consume data",
-        "title": "Systems of engagement consume data",
-        "slug": "Systems of engagement consume data"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Systems of engagement consume data",
-        "slug": "Systems of engagement consume data"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Tacit knowledge cannot be captured"
-    ],
-    "slug": "Tacit knowledge cannot be captured",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Learning is a four-phase process",
-        "title": "Learning is a four-phase process",
-        "slug": "Learning is a four-phase process"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Taking yourself seriously impedes learning"
-    ],
-    "slug": "Taking yourself seriously impedes learning",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Teach how to decide"
-    ],
-    "slug": "Teach how to decide",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The consumer-creator line is fading"
-    ],
-    "slug": "The consumer-creator line is fading",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The good life is an individual affair"
-    ],
-    "slug": "The good life is an individual affair",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The map is not the territory"
-    ],
-    "slug": "The map is not the territory",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Chaotic systems are not random",
-        "slug": "Chaotic systems are not random"
-      },
-      {
-        "title": "Post-rationalization can lead to survivorship bias",
-        "slug": "Post-rationalization can lead to survivorship bias"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "The new luxury is about taste, not wealth"
-    ],
-    "slug": "The new luxury is about taste, not wealth",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Wiseness is knowing what’s worth wanting",
-        "slug": "Wiseness is knowing what's worth wanting"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "The organization is the work"
-    ],
-    "slug": "The organization is the work",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Compliance is not commitment",
-        "title": "Compliance is not commitment",
-        "slug": "Compliance is not commitment"
-      },
-      {
-        "matchedId": "Compliance is not commitment",
-        "title": "Compliance is not commitment",
-        "slug": "Compliance is not commitment"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Compliance is not commitment",
-        "slug": "Compliance is not commitment"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "The wellness industry promotes unfairness"
-    ],
-    "slug": "The wellness industry promotes unfairness",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "There are four types of product risk"
-    ],
-    "slug": "There are four types of product risk",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Risk protects from competition",
-        "title": "Risk protects from competition",
-        "slug": "Risk protects from competition"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Risk protects from competition",
-        "slug": "Risk protects from competition"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "There are three definitions of intelligence"
-    ],
-    "slug": "There are three definitions of intelligence",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "There are three types of failure"
-    ],
-    "slug": "There are three types of failure",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "There are three types of non-fiction books"
-    ],
-    "slug": "There are three types of non-fiction books",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Things that don’t scale keep you grounded"
-    ],
-    "slug": "Things that don't scale keep you grounded",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "To win, redefine success"
-    ],
-    "slug": "To win, redefine success",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Turn your brand into social capital"
-    ],
-    "slug": "Turn your brand into social capital",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Brands need to activate their purpose",
-        "title": "Brands need to activate their purpose",
-        "slug": "Brands need to activate their purpose"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Brands need to activate their purpose",
-        "slug": "Brands need to activate their purpose"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Understand the rules before breaking them"
-    ],
-    "slug": "Understand the rules before breaking them",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Best practices are a floor, not a ceiling",
-        "slug": "Best practices are a floor, not a ceiling"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Unknown habits impede learning"
-    ],
-    "slug": "Unknown habits impede learning",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Structure sets you free",
-        "title": "Structure sets you free",
-        "slug": "Structure sets you free"
-      },
-      {
-        "matchedId": "Design an operating cadence",
-        "title": "Design an operating cadence",
-        "slug": "Design an operating cadence"
-      },
-      {
-        "matchedId": "Reason from first principles",
-        "title": "Reason from first principles",
-        "slug": "Reason from first principles"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Reason from first principles",
-        "slug": "Reason from first principles"
-      },
-      {
-        "title": "Serendipity requires randomness",
-        "slug": "Serendipity requires randomness"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Use stores as fulfillment nodes"
-    ],
-    "slug": "Use stores as fulfillment nodes",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Stores have a double nature",
-        "slug": "Stores have a double nature"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Use the TERA quotient for building trust"
-    ],
-    "slug": "Use the TERA quotient to build trust",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Use your loyalty program to get insights"
-    ],
-    "slug": "Use your loyalty program to get insights",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Vertical integration comes with regulatory benefits"
-    ],
-    "slug": "Vertical integration comes with regulatory benefits",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Vertical integration requires stable demand",
-        "slug": "Vertical integration requires stable demand"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Vertical integration requires stable demand"
-    ],
-    "slug": "Vertical integration requires stable demand",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Vertical integration comes with regulatory benefits",
-        "title": "Vertical integration comes with regulatory benefits",
-        "slug": "Vertical integration comes with regulatory benefits"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "We get what we reward for"
-    ],
-    "slug": "We get what we reward for",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Org design is structure, incentives, and culture",
-        "slug": "Org design is about structure, incentives, and culture"
-      },
-      {
-        "title": "communities-of-practice-form-organically",
-        "slug": "communities-of-practice-form-organically"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Web3 experiences lack composability"
-    ],
-    "slug": "Web3 experiences lack composability",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Wholesale boosts brand awareness"
-    ],
-    "slug": "Wholesale boosts brand awareness",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Marketing must build availability",
-        "title": "Marketing must build availability",
-        "slug": "Marketing must build availability"
-      },
-      {
-        "matchedId": "Marketing must build availability",
-        "title": "Marketing must build availability",
-        "slug": "Marketing must build availability"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Every sales channel has its purpose",
-        "slug": "Every sales channel has its purpose"
-      },
-      {
-        "title": "Wholesale is for breadth, DTC is for depth",
-        "slug": "Wholesale is for breadth, DTC is for depth"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Wholesale is for breadth, DTC is for depth"
-    ],
-    "slug": "Wholesale is for breadth, DTC is for depth",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Every sales channel has its purpose",
-        "title": "Every sales channel has its purpose",
-        "slug": "Every sales channel has its purpose"
-      },
-      {
-        "matchedId": "Wholesale boosts brand awareness",
-        "title": "Wholesale boosts brand awareness",
-        "slug": "Wholesale boosts brand awareness"
-      },
-      {
-        "matchedId": "Sales channels must be integrated",
-        "title": "Sales channels must be integrated",
-        "slug": "Sales channels must be integrated"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Every sales channel has its purpose",
-        "slug": "Every sales channel has its purpose"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Wiseness is knowing what’s worth wanting"
-    ],
-    "slug": "Wiseness is knowing what's worth wanting",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "The new luxury is about taste, not wealth",
-        "title": "The new luxury is about taste, not wealth",
-        "slug": "The new luxury is about taste, not wealth"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Work the policy, not the exception"
-    ],
-    "slug": "Work the policy, not the exception",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Work toward proximate objectives"
-    ],
-    "slug": "Work toward proximate objectives",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Writing is thinking across time"
-    ],
-    "slug": "Writing is thinking across time",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "turn-transient-notes-into-evergreen-notes",
-        "slug": "turn-transient-notes-into-evergreen-notes"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Writing shouldn’t start with a blank page"
-    ],
-    "slug": "Writing shouldn't start with a blank page",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "You can only coach the person in front of you"
-    ],
-    "slug": "You can only coach the person in front of you",
+    "slug": "common-enemies-unite-individuals",
+    "status": "seedling",
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -3462,27 +467,23 @@
       "communities-of-practice-are-loosely-knit"
     ],
     "slug": "communities-of-practice-are-loosely-knit",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
         "matchedId": "communities-of-practice-form-organically",
         "title": "communities-of-practice-form-organically",
         "slug": "communities-of-practice-form-organically"
-      },
-      {
-        "matchedId": "Communities of practice combat cross-functional silos",
-        "title": "Communities of practice combat cross-functional silos",
-        "slug": "Communities of practice combat cross-functional silos"
       }
     ],
     "inboundLinks": [
       {
         "title": "Communities of practice combat cross-functional silos",
-        "slug": "Communities of practice combat cross-functional silos"
+        "slug": "communities-of-practice-combat-cross-functional-silos"
       },
       {
         "title": "Communities of practice exhibit a two-way feedback loop",
-        "slug": "Communities of practice exhibit a two-way feedback loop"
+        "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop"
       },
       {
         "title": "communities-of-practice-form-organically",
@@ -3492,9 +493,11 @@
   },
   {
     "ids": [
-      "communities-of-practice-form-organically"
+      "Communities of practice combat cross-functional silos",
+      "Communities of practice combat cross-functional silos"
     ],
-    "slug": "communities-of-practice-form-organically",
+    "slug": "communities-of-practice-combat-cross-functional-silos",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -3503,9 +506,51 @@
         "slug": "communities-of-practice-are-loosely-knit"
       },
       {
-        "matchedId": "We get what we reward for",
-        "title": "We get what we reward for",
-        "slug": "We get what we reward for"
+        "matchedId": "Cross-functionality creates silos",
+        "title": "Cross-functionality creates silos",
+        "slug": "cross-functionality-creates-silos"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Cross-functionality creates silos",
+        "slug": "cross-functionality-creates-silos"
+      },
+      {
+        "title": "Cross-functionality removes dependencies",
+        "slug": "cross-functionality-removes-dependencies"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Communities of practice exhibit a two-way feedback loop",
+      "Communities of practice exhibit a two-way feedback loop"
+    ],
+    "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "communities-of-practice-are-loosely-knit",
+        "title": "communities-of-practice-are-loosely-knit",
+        "slug": "communities-of-practice-are-loosely-knit"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "communities-of-practice-form-organically"
+    ],
+    "slug": "communities-of-practice-form-organically",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "communities-of-practice-are-loosely-knit",
+        "title": "communities-of-practice-are-loosely-knit",
+        "slug": "communities-of-practice-are-loosely-knit"
       }
     ],
     "inboundLinks": [
@@ -3517,20 +562,27 @@
   },
   {
     "ids": [
+      "Compliance is not commitment",
+      "Compliance is not commitment"
+    ],
+    "slug": "compliance-is-not-commitment",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "composable-commerce-is-a-spectrum"
     ],
     "slug": "composable-commerce-is-a-spectrum",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
         "matchedId": "composable-commerce",
         "title": "composable-commerce",
         "slug": "composable-commerce"
-      },
-      {
-        "matchedId": "Be wary of flawless ideas",
-        "title": "Be wary of flawless ideas",
-        "slug": "Be wary of flawless ideas"
       }
     ],
     "inboundLinks": [
@@ -3545,6 +597,7 @@
       "composable-commerce-may-be-a-choice"
     ],
     "slug": "composable-commerce-may-be-a-choice",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -3565,6 +618,7 @@
       "composable-commerce-may-be-a-necessity"
     ],
     "slug": "composable-commerce-may-be-a-necessity",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": [
@@ -3579,6 +633,7 @@
       "composable-commerce"
     ],
     "slug": "composable-commerce",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -3610,11 +665,768 @@
   },
   {
     "ids": [
+      "Conversion is fleeting, maturation is stable",
+      "Conversion is fleeting, maturation is stable"
+    ],
+    "slug": "conversion-is-fleeting-maturation-is-stable",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Correlation is not causation",
+      "Correlation is not causation"
+    ],
+    "slug": "correlation-is-not-causation",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Be wary of flawless ideas",
+        "slug": "be-wary-of-flawless-ideas"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Create a fanbase around your brand",
+      "Create a fanbase around your brand"
+    ],
+    "slug": "create-a-fanbase-around-your-brand",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cross-functionality creates silos",
+      "Cross-functionality creates silos"
+    ],
+    "slug": "cross-functionality-creates-silos",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Communities of practice combat cross-functional silos",
+        "title": "Communities of practice combat cross-functional silos",
+        "slug": "communities-of-practice-combat-cross-functional-silos"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Communities of practice combat cross-functional silos",
+        "slug": "communities-of-practice-combat-cross-functional-silos"
+      },
+      {
+        "title": "Cross-functionality removes dependencies",
+        "slug": "cross-functionality-removes-dependencies"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Cross-functionality is a spectrum",
+      "Cross-functionality is a spectrum"
+    ],
+    "slug": "cross-functionality-is-a-spectrum",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Cross-functionality removes dependencies",
+        "slug": "cross-functionality-removes-dependencies"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Cross-functionality promotes shared vision",
+      "Cross-functionality promotes shared vision"
+    ],
+    "slug": "cross-functionality-promotes-shared-vision",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cross-functionality removes dependencies",
+      "Cross-functionality removes dependencies"
+    ],
+    "slug": "cross-functionality-removes-dependencies",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Cross-functionality is a spectrum",
+        "title": "Cross-functionality is a spectrum",
+        "slug": "cross-functionality-is-a-spectrum"
+      },
+      {
+        "matchedId": "Communities of practice combat cross-functional silos",
+        "title": "Communities of practice combat cross-functional silos",
+        "slug": "communities-of-practice-combat-cross-functional-silos"
+      },
+      {
+        "matchedId": "Cross-functionality creates silos",
+        "title": "Cross-functionality creates silos",
+        "slug": "cross-functionality-creates-silos"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cultural brands are bidirectional",
+      "Cultural brands are bidirectional"
+    ],
+    "slug": "cultural-brands-are-bidirectional",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cultural fragmentation causes market fragmentation",
+      "Cultural fragmentation causes market fragmentation"
+    ],
+    "slug": "cultural-fragmentation-causes-market-fragmentation",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Information abundance causes cultural fragmentation",
+        "title": "Information abundance causes cultural fragmentation",
+        "slug": "information-abundance-causes-cultural-fragmentation"
+      },
+      {
+        "matchedId": "Brand management aims to turn brands into landmarks",
+        "title": "Brand management aims to turn brands into landmarks",
+        "slug": "brand-management-aims-to-turn-brands-into-landmarks"
+      },
+      {
+        "matchedId": "Advertising may work by cultural imprinting",
+        "title": "Advertising may work by cultural imprinting",
+        "slug": "advertising-may-work-by-cultural-imprinting"
+      },
+      {
+        "matchedId": "AI allows hyper-personalization",
+        "title": "AI allows hyper-personalization",
+        "slug": "ai-allows-hyper-personalization"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Personalization may be harmful",
+        "slug": "personalization-may-be-harmful"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Curation creates brand depth",
+      "Curation creates brand depth"
+    ],
+    "slug": "curation-creates-brand-depth",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Customer loyalty is behavioral",
+      "Customer loyalty is behavioral"
+    ],
+    "slug": "customer-loyalty-is-behavioral",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Marketing must build availability",
+        "title": "Marketing must build availability",
+        "slug": "marketing-must-build-availability"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Data must be activated",
+      "Data must be activated"
+    ],
+    "slug": "data-must-be-activated",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Decentralized identity could save advertising",
+      "Decentralized identity could save advertising"
+    ],
+    "slug": "decentralized-identity-could-save-advertising",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Defensiveness inhibits learning",
+      "Defensiveness inhibits learning"
+    ],
+    "slug": "defensiveness-inhibits-learning",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Define a meeting OS",
+      "Define a meeting OS"
+    ],
+    "slug": "define-a-meeting-os",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Define decision-making",
+      "Define decision-making"
+    ],
+    "slug": "define-decision-making",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Define your unit of immutability",
+      "Define your unit of immutability"
+    ],
+    "slug": "define-your-unit-of-immutability",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Design an operating cadence",
+      "Design an operating cadence"
+    ],
+    "slug": "design-an-operating-cadence",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Discussion is not dialogue",
+      "Discussion is not dialogue"
+    ],
+    "slug": "discussion-is-not-dialogue",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Don’t play life on hard mode",
+      "Don’t play life on hard mode"
+    ],
+    "slug": "dont-play-life-on-hard-mode",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dreams matter because of their function",
+      "Dreams matter because of their function"
+    ],
+    "slug": "dreams-matter-because-of-their-function",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "DTC has long been about arbitrage",
+      "DTC has long been about arbitrage"
+    ],
+    "slug": "dtc-has-long-been-about-arbitrage",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Economies of scale are not exclusive",
+      "Economies of scale are not exclusive"
+    ],
+    "slug": "economies-of-scale-are-not-exclusive",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Effective change requires collaboration",
+      "Effective change requires collaboration"
+    ],
+    "slug": "effective-change-requires-collaboration",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Eliminate bias systematically",
+      "Eliminate bias systematically"
+    ],
+    "slug": "eliminate-bias-systematically",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Eliminate the cost of mistake",
+      "Eliminate the cost of mistake"
+    ],
+    "slug": "eliminate-the-cost-of-mistake",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Emotions aren’t always correct",
+      "Emotions aren’t always correct"
+    ],
+    "slug": "emotions-arent-always-correct",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "empathize-with-difficult-people"
     ],
     "slug": "empathize-with-difficult-people",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Every sales channel has its purpose",
+      "Every sales channel has its purpose"
+    ],
+    "slug": "every-sales-channel-has-its-purpose",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Excessive cultural fragmentation causes social isolation",
+      "Excessive cultural fragmentation causes social isolation"
+    ],
+    "slug": "excessive-cultural-fragmentation-causes-social-isolation",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Information abundance causes cultural fragmentation",
+        "title": "Information abundance causes cultural fragmentation",
+        "slug": "information-abundance-causes-cultural-fragmentation"
+      },
+      {
+        "matchedId": "Social support reduces stress",
+        "title": "Social support reduces stress",
+        "slug": "social-support-reduces-stress"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Explicit knowledge can be captured",
+      "Explicit knowledge can be captured"
+    ],
+    "slug": "explicit-knowledge-can-be-captured",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Tacit knowledge cannot be captured",
+        "title": "Tacit knowledge cannot be captured",
+        "slug": "tacit-knowledge-cannot-be-captured"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Tacit knowledge cannot be captured",
+        "slug": "tacit-knowledge-cannot-be-captured"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Explore three solutions for a problems",
+      "Explore three solutions for a problems"
+    ],
+    "slug": "explore-three-solutions-for-a-problems",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Focus on aspirations and afflictions",
+      "Focus on aspirations and afflictions"
+    ],
+    "slug": "focus-on-aspirations-and-afflictions",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Focus on controllable input metrics",
+      "Focus on controllable input metrics"
+    ],
+    "slug": "focus-on-controllable-input-metrics",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Focus on directional lift rather than ROAS",
+      "Focus on directional lift rather than ROAS"
+    ],
+    "slug": "focus-on-directional-lift-rather-than-roas",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Focus on second-order positivity",
+      "Focus on second-order positivity"
+    ],
+    "slug": "focus-on-second-order-positivity",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Focus on the new reality",
+      "Focus on the new reality"
+    ],
+    "slug": "focus-on-the-new-reality",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Focus on the process, not the outcome",
+      "Focus on the process, not the outcome"
+    ],
+    "slug": "focus-on-the-process-not-the-outcome",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Focus on what’s not changing",
+      "Focus on what’s not changing"
+    ],
+    "slug": "focus-on-whats-not-changing",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Focusing on monetary value impoverishes cultural work",
+      "Focusing on monetary value impoverishes cultural work"
+    ],
+    "slug": "focusing-on-monetary-value-impoverishes-cultural-work",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Foresight is creation, not prediction",
+      "Foresight is creation, not prediction"
+    ],
+    "slug": "foresight-is-creation-not-prediction",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Freedom is only valuable when forgone",
+      "Freedom is only valuable when forgone"
+    ],
+    "slug": "freedom-is-only-valuable-when-forgone",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fusion alters our reality",
+      "Fusion alters our reality"
+    ],
+    "slug": "fusion-alters-our-reality",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good consulting requires client collaboration",
+      "Good consulting requires client collaboration"
+    ],
+    "slug": "good-consulting-requires-client-collaboration",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good cooking requires time",
+      "Good cooking requires time"
+    ],
+    "slug": "good-cooking-requires-time",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good management requires consistency",
+      "Good management requires consistency"
+    ],
+    "slug": "good-management-requires-consistency",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good operators instrument",
+      "Good operators instrument"
+    ],
+    "slug": "good-operators-instrument",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good strategies are simple",
+      "Good strategies are simple"
+    ],
+    "slug": "good-strategies-are-simple",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good strategy is simple",
+      "Good strategy is simple"
+    ],
+    "slug": "good-strategy-is-simple",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Groups always have structure",
+      "Groups always have structure"
+    ],
+    "slug": "groups-always-have-structure",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hard work is overrated",
+      "Hard work is overrated"
+    ],
+    "slug": "hard-work-is-overrated",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hire coachable people",
+      "Hire coachable people"
+    ],
+    "slug": "hire-coachable-people",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hire for attitude, not for skills",
+      "Hire for attitude, not for skills"
+    ],
+    "slug": "hire-for-attitude-not-for-skills",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hiring is a network effect",
+      "Hiring is a network effect"
+    ],
+    "slug": "hiring-is-a-network-effect",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hiring is an approximation of the job",
+      "Hiring is an approximation of the job"
+    ],
+    "slug": "hiring-is-an-approximation-of-the-job",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ideas need to be grappled with",
+      "Ideas need to be grappled with"
+    ],
+    "slug": "ideas-need-to-be-grappled-with",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "turn-transient-notes-into-evergreen-notes",
+        "title": "turn-transient-notes-into-evergreen-notes",
+        "slug": "turn-transient-notes-into-evergreen-notes"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Improve the operating cadence",
+      "Improve the operating cadence"
+    ],
+    "slug": "improve-the-operating-cadence",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Improvements must be protected",
+      "Improvements must be protected"
+    ],
+    "slug": "improvements-must-be-protected",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "In the future, commerce will be everywhere",
+      "In the future, commerce will be everywhere"
+    ],
+    "slug": "in-the-future-commerce-will-be-everywhere",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Increasing agency reduces stress",
+      "Increasing agency reduces stress"
+    ],
+    "slug": "increasing-agency-reduces-stress",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Social support reduces stress",
+        "title": "Social support reduces stress",
+        "slug": "social-support-reduces-stress"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3622,6 +1434,706 @@
       "influencer-partnerships-should-be-long-term"
     ],
     "slug": "influencer-partnerships-should-be-long-term",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Information abundance causes cultural fragmentation",
+      "Information abundance causes cultural fragmentation"
+    ],
+    "slug": "information-abundance-causes-cultural-fragmentation",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Cultural fragmentation causes market fragmentation",
+        "slug": "cultural-fragmentation-causes-market-fragmentation"
+      },
+      {
+        "title": "Excessive cultural fragmentation causes social isolation",
+        "slug": "excessive-cultural-fragmentation-causes-social-isolation"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Information quality is decision quality",
+      "Information quality is decision quality"
+    ],
+    "slug": "information-quality-is-decision-quality",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Innovation needs a platform",
+      "Innovation needs a platform"
+    ],
+    "slug": "innovation-needs-a-platform",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Kindness begets kindness",
+      "Kindness begets kindness"
+    ],
+    "slug": "kindness-begets-kindness",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lean is about cheap iteration",
+      "Lean is about cheap iteration"
+    ],
+    "slug": "lean-is-about-cheap-iteration",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Learning is a four-phase process",
+      "Learning is a four-phase process"
+    ],
+    "slug": "learning-is-a-four-phase-process",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Understand the rules before breaking them",
+        "title": "Understand the rules before breaking them",
+        "slug": "understand-the-rules-before-breaking-them"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Learning is the work",
+      "Learning is the work"
+    ],
+    "slug": "learning-is-the-work",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Life is seasonal",
+      "Life is seasonal"
+    ],
+    "slug": "life-is-seasonal",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Light buyers favor large brands",
+      "Light buyers favor large brands"
+    ],
+    "slug": "light-buyers-favor-large-brands",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lofty visions require personal mastery",
+      "Lofty visions require personal mastery"
+    ],
+    "slug": "lofty-visions-require-personal-mastery",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Look for collab partners that are aligned with you",
+      "Look for collab partners that are aligned with you"
+    ],
+    "slug": "look-for-collab-partners-that-are-aligned-with-you",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Loyalty programs don’t drive direct growth",
+      "Loyalty programs don’t drive direct growth"
+    ],
+    "slug": "loyalty-programs-dont-drive-direct-growth",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Make people feel good about themselves to make them like you",
+      "Make people feel good about themselves to make them like you"
+    ],
+    "slug": "make-people-feel-good-about-themselves-to-make-them-like-you",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Managers operate on two horizons",
+      "Managers operate on two horizons"
+    ],
+    "slug": "managers-operate-on-two-horizons",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Market penetration trumps market segmentation",
+      "Market penetration trumps market segmentation"
+    ],
+    "slug": "market-penetration-trumps-market-segmentation",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Marketing must build mental availability",
+        "title": "Marketing must build mental availability",
+        "slug": "marketing-must-build-mental-availability"
+      },
+      {
+        "matchedId": "Marketing must build physical availability",
+        "title": "Marketing must build physical availability",
+        "slug": "marketing-must-build-physical-availability"
+      },
+      {
+        "matchedId": "Advertising must be consistent",
+        "title": "Advertising must be consistent",
+        "slug": "advertising-must-be-consistent"
+      },
+      {
+        "matchedId": "Advertising must be memorable",
+        "title": "Advertising must be memorable",
+        "slug": "advertising-must-be-memorable"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Market share is a self-reinforcing feedback loop",
+      "Market share is a self-reinforcing feedback loop"
+    ],
+    "slug": "market-share-is-a-self-reinforcing-feedback-loop",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Marketing must build physical availability",
+        "title": "Marketing must build physical availability",
+        "slug": "marketing-must-build-physical-availability"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Marketing must build availability",
+      "Marketing must build availability"
+    ],
+    "slug": "marketing-must-build-availability",
+    "status": "evergreen",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Advertising may work by cultural imprinting",
+        "slug": "advertising-may-work-by-cultural-imprinting"
+      },
+      {
+        "title": "Customer loyalty is behavioral",
+        "slug": "customer-loyalty-is-behavioral"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Marketing must build mental availability",
+      "Marketing must build mental availability"
+    ],
+    "slug": "marketing-must-build-mental-availability",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Marketing must build physical availability",
+        "title": "Marketing must build physical availability",
+        "slug": "marketing-must-build-physical-availability"
+      },
+      {
+        "matchedId": "Advertising must be memorable",
+        "title": "Advertising must be memorable",
+        "slug": "advertising-must-be-memorable"
+      },
+      {
+        "matchedId": "Advertising must be consistent",
+        "title": "Advertising must be consistent",
+        "slug": "advertising-must-be-consistent"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Advertising must be consistent",
+        "slug": "advertising-must-be-consistent"
+      },
+      {
+        "title": "Advertising must be memorable",
+        "slug": "advertising-must-be-memorable"
+      },
+      {
+        "title": "Market penetration trumps market segmentation",
+        "slug": "market-penetration-trumps-market-segmentation"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Marketing must build physical availability",
+      "Marketing must build physical availability"
+    ],
+    "slug": "marketing-must-build-physical-availability",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Market penetration trumps market segmentation",
+        "slug": "market-penetration-trumps-market-segmentation"
+      },
+      {
+        "title": "Market share is a self-reinforcing feedback loop",
+        "slug": "market-share-is-a-self-reinforcing-feedback-loop"
+      },
+      {
+        "title": "Marketing must build mental availability",
+        "slug": "marketing-must-build-mental-availability"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Marketplaces are usually 80-20",
+      "Marketplaces are usually 80-20"
+    ],
+    "slug": "marketplaces-are-usually-80-20",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Marketplaces require dedicated teams",
+      "Marketplaces require dedicated teams"
+    ],
+    "slug": "marketplaces-require-dedicated-teams",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Media and commerce are blending",
+      "Media and commerce are blending"
+    ],
+    "slug": "media-and-commerce-are-blending",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mediums create new agency",
+      "Mediums create new agency"
+    ],
+    "slug": "mediums-create-new-agency",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Membership is a type of synergy",
+      "Membership is a type of synergy"
+    ],
+    "slug": "membership-is-a-type-of-synergy",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Memory is for context",
+      "Memory is for context"
+    ],
+    "slug": "memory-is-for-context",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Merchandising is turning into a real business",
+      "Merchandising is turning into a real business"
+    ],
+    "slug": "merchandising-is-turning-into-a-real-business",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Metaverse generates a lot of first-party data",
+      "Metaverse generates a lot of first-party data"
+    ],
+    "slug": "metaverse-generates-a-lot-of-first-party-data",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Metaverse is for behemoths and natives",
+      "Metaverse is for behemoths and natives"
+    ],
+    "slug": "metaverse-is-for-behemoths-and-natives",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Misaligned product demand is detrimental",
+      "Misaligned product demand is detrimental"
+    ],
+    "slug": "misaligned-product-demand-is-detrimental",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Money is like oxygen",
+      "Money is like oxygen"
+    ],
+    "slug": "money-is-like-oxygen",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Most ideas can only be post-rationalized",
+      "Most ideas can only be post-rationalized"
+    ],
+    "slug": "most-ideas-can-only-be-post-rationalized",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Chaotic systems are not random",
+        "title": "Chaotic systems are not random",
+        "slug": "chaotic-systems-are-not-random"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Multi-brand retailers create moats through CX",
+      "Multi-brand retailers create moats through CX"
+    ],
+    "slug": "multi-brand-retailers-create-moats-through-cx",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "NFTs create transparency into the value of cultural artifacts",
+      "NFTs create transparency into the value of cultural artifacts"
+    ],
+    "slug": "nf-ts-create-transparency-into-the-value-of-cultural-artifacts",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Optimism requires diversification",
+      "Optimism requires diversification"
+    ],
+    "slug": "optimism-requires-diversification",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Optionality can hinder risk-taking",
+      "Optionality can hinder risk-taking"
+    ],
+    "slug": "optionality-can-hinder-risk-taking",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Org design is structure, incentives, and culture",
+      "Org design is structure, incentives, and culture"
+    ],
+    "slug": "org-design-is-about-structure-incentives-and-culture",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Org design is iteration",
+      "Org design is iteration"
+    ],
+    "slug": "organizational-design-is-iterative",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "People change places, not the other way around",
+      "People change places, not the other way around"
+    ],
+    "slug": "people-change-places-not-the-other-way-around",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "People problems are often situation problems",
+      "People problems are often situation problems"
+    ],
+    "slug": "people-problems-are-often-situation-problems",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Personalization may be harmful",
+      "Personalization may be harmful"
+    ],
+    "slug": "personalization-may-be-harmful",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Cultural fragmentation causes market fragmentation",
+        "title": "Cultural fragmentation causes market fragmentation",
+        "slug": "cultural-fragmentation-causes-market-fragmentation"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Physical design is hard to change",
+      "Physical design is hard to change"
+    ],
+    "slug": "physical-design-is-hard-to-change",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Point to the new tower",
+      "Point to the new tower"
+    ],
+    "slug": "point-to-the-new-tower",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Re-evaluate your strengths",
+        "slug": "re-evaluate-your-strengths"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Points are better than money for loyalty programs",
+      "Points are better than money for loyalty programs"
+    ],
+    "slug": "points-are-better-than-money-for-loyalty-programs",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Popularity is the new rarity",
+      "Popularity is the new rarity"
+    ],
+    "slug": "popularity-is-the-new-rarity",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Post-rationalization can lead to survivorship bias",
+      "Post-rationalization can lead to survivorship bias"
+    ],
+    "slug": "post-rationalization-can-lead-to-survivorship-bias",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Be wary of flawless ideas",
+        "title": "Be wary of flawless ideas",
+        "slug": "be-wary-of-flawless-ideas"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Prestige is decoupled from wealth",
+      "Prestige is decoupled from wealth"
+    ],
+    "slug": "prestige-is-decoupled-from-wealth",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Prioritize strengths over weaknesses",
+      "Prioritize strengths over weaknesses"
+    ],
+    "slug": "prioritize-strengths-over-weaknesses",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Product management is about the customer",
+      "Product management is about the customer"
+    ],
+    "slug": "product-management-is-about-the-customer",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Product strategy has four steps",
+      "Product strategy has four steps"
+    ],
+    "slug": "product-strategy-has-four-steps",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Productivity is goal plus strategy",
+      "Productivity is goal plus strategy"
+    ],
+    "slug": "productivity-is-goal-plus-strategy",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Psychological safety is a compromise",
+      "Psychological safety is a compromise"
+    ],
+    "slug": "psychological-safety-is-a-compromise",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Psychological safety is a team factor",
+      "Psychological safety is a team factor"
+    ],
+    "slug": "psychological-safety-is-a-team-factor",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pursue your personal Venn diagram",
+      "Pursue your personal Venn diagram"
+    ],
+    "slug": "pursue-your-personal-venn-diagram",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -3631,6 +2143,57 @@
       "queerness-is-about-eschewing-normality"
     ],
     "slug": "queerness-is-about-eschewing-normality",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Re-evaluate your strengths",
+      "Re-evaluate your strengths"
+    ],
+    "slug": "re-evaluate-your-strengths",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Point to the new tower",
+        "title": "Point to the new tower",
+        "slug": "point-to-the-new-tower"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Reason from first principles",
+      "Reason from first principles"
+    ],
+    "slug": "reason-from-first-principles",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Regulation can create opportunity",
+      "Regulation can create opportunity"
+    ],
+    "slug": "regulation-can-create-opportunity",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Reinforcing feedback loops can be self-enhancing or self-destructive",
+      "Reinforcing feedback loops can be self-enhancing or self-destructive"
+    ],
+    "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -3640,6 +2203,7 @@
       "renewable-resources-are-flow-limited"
     ],
     "slug": "renewable-resources-are-flow-limited",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -3649,6 +2213,7 @@
       "resale-is-not-enough"
     ],
     "slug": "resale-is-not-enough",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -3658,6 +2223,374 @@
       "retention-doesnt-grow-brands"
     ],
     "slug": "retention-doesnt-grow-brands",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Risk protects from competition",
+      "Risk protects from competition"
+    ],
+    "slug": "risk-protects-from-competition",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sales channels must be integrated",
+      "Sales channels must be integrated"
+    ],
+    "slug": "sales-channels-must-be-integrated",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Selection bias skews decisions in retail",
+      "Selection bias skews decisions in retail"
+    ],
+    "slug": "selection-bias-skews-decisions-in-retail",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Serendipity requires randomness",
+      "Serendipity requires randomness"
+    ],
+    "slug": "serendipity-requires-randomness",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Shared vision is built through hiring",
+      "Shared vision is built through hiring"
+    ],
+    "slug": "shared-vision-is-built-through-hiring",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Shared vision is built through inquiry",
+      "Shared vision is built through inquiry"
+    ],
+    "slug": "shared-vision-is-built-through-inquiry",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Shared vision is descriptive, not prescriptive",
+      "Shared vision is descriptive, not prescriptive"
+    ],
+    "slug": "shared-vision-is-descriptive-not-prescriptive",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Shared vision promotes systems thinking",
+      "Shared vision promotes systems thinking"
+    ],
+    "slug": "shared-vision-promotes-systems-thinking",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Shopify is becoming consumer-facing",
+      "Shopify is becoming consumer-facing"
+    ],
+    "slug": "shopify-is-becoming-consumer-facing",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Small orgs give you breadth, large orgs give you scale",
+      "Small orgs give you breadth, large orgs give you scale"
+    ],
+    "slug": "small-orgs-give-you-breadth-large-orgs-give-you-scale",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Social commerce puts people over brands",
+      "Social commerce puts people over brands"
+    ],
+    "slug": "social-commerce-puts-people-over-brands",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Social media is leading to product-centric commerce",
+      "Social media is leading to product-centric commerce"
+    ],
+    "slug": "social-media-is-leading-to-product-centric-commerce",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Social support reduces stress",
+      "Social support reduces stress"
+    ],
+    "slug": "social-support-reduces-stress",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Excessive cultural fragmentation causes social isolation",
+        "slug": "excessive-cultural-fragmentation-causes-social-isolation"
+      },
+      {
+        "title": "Increasing agency reduces stress",
+        "slug": "increasing-agency-reduces-stress"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Software engineering",
+      "Software engineering"
+    ],
+    "slug": "software-engineering",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Split teams after the seams emerge",
+      "Split teams after the seams emerge"
+    ],
+    "slug": "split-teams-after-the-seams-emerge",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Stores have a double nature",
+      "Stores have a double nature"
+    ],
+    "slug": "stores-have-a-double-nature",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Strategy deals with present challenges",
+      "Strategy deals with present challenges"
+    ],
+    "slug": "strategy-deals-with-present-challenges",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Strategy requires focus",
+      "Strategy requires focus"
+    ],
+    "slug": "strategy-requires-focus",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Work toward proximate objectives",
+        "title": "Work toward proximate objectives",
+        "slug": "work-toward-proximate-objectives"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Stress isn’t the same for everyone",
+      "Stress isn’t the same for everyone"
+    ],
+    "slug": "stress-isnt-the-same-for-everyone",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Structure makes willpower unnecessary",
+      "Structure makes willpower unnecessary"
+    ],
+    "slug": "structure-makes-willpower-unnecessary",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Structure sets you free",
+      "Structure sets you free"
+    ],
+    "slug": "structure-sets-you-free",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Synergies help unrelated assets succeed",
+      "Synergies help unrelated assets succeed"
+    ],
+    "slug": "synergies-help-unrelated-assets-succeed",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Systems happen all at once",
+      "Systems happen all at once"
+    ],
+    "slug": "systems-happen-all-at-once",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Systems must be inspected",
+      "Systems must be inspected"
+    ],
+    "slug": "systems-must-be-inspected",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Systems of engagement consume data",
+      "Systems of engagement consume data"
+    ],
+    "slug": "systems-of-engagement-consume-data",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Systems of record hold data",
+      "Systems of record hold data"
+    ],
+    "slug": "systems-of-record-hold-data",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tacit knowledge cannot be captured",
+      "Tacit knowledge cannot be captured"
+    ],
+    "slug": "tacit-knowledge-cannot-be-captured",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Explicit knowledge can be captured",
+        "title": "Explicit knowledge can be captured",
+        "slug": "explicit-knowledge-can-be-captured"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Explicit knowledge can be captured",
+        "slug": "explicit-knowledge-can-be-captured"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Taking yourself seriously impedes learning",
+      "Taking yourself seriously impedes learning"
+    ],
+    "slug": "taking-yourself-seriously-impedes-learning",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Teach how to decide",
+      "Teach how to decide"
+    ],
+    "slug": "teach-how-to-decide",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The consumer-creator line is fading",
+      "The consumer-creator line is fading"
+    ],
+    "slug": "the-consumer-creator-line-is-fading",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The good life is an individual affair",
+      "The good life is an individual affair"
+    ],
+    "slug": "the-good-life-is-an-individual-affair",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -3667,6 +2600,133 @@
       "the-internet-favors-discounting"
     ],
     "slug": "the-internet-favors-discounting",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The map is not the territory",
+      "The map is not the territory"
+    ],
+    "slug": "the-map-is-not-the-territory",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "Chaotic systems are not random",
+        "title": "Chaotic systems are not random",
+        "slug": "chaotic-systems-are-not-random"
+      },
+      {
+        "matchedId": "Be wary of flawless ideas",
+        "title": "Be wary of flawless ideas",
+        "slug": "be-wary-of-flawless-ideas"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Be wary of flawless ideas",
+        "slug": "be-wary-of-flawless-ideas"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "The new luxury is about taste, not wealth",
+      "The new luxury is about taste, not wealth"
+    ],
+    "slug": "the-new-luxury-is-about-taste-not-wealth",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The organization is the work",
+      "The organization is the work"
+    ],
+    "slug": "the-organization-is-the-work",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The wellness industry promotes unfairness",
+      "The wellness industry promotes unfairness"
+    ],
+    "slug": "the-wellness-industry-promotes-unfairness",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "There are four types of product risk",
+      "There are four types of product risk"
+    ],
+    "slug": "there-are-four-types-of-product-risk",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "There are three definitions of intelligence",
+      "There are three definitions of intelligence"
+    ],
+    "slug": "there-are-three-definitions-of-intelligence",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "There are three types of failure",
+      "There are three types of failure"
+    ],
+    "slug": "there-are-three-types-of-failure",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "There are three types of non-fiction books",
+      "There are three types of non-fiction books"
+    ],
+    "slug": "there-are-three-types-of-non-fiction-books",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Things that don’t scale keep you grounded",
+      "Things that don’t scale keep you grounded"
+    ],
+    "slug": "things-that-dont-scale-keep-you-grounded",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "To win, redefine success",
+      "To win, redefine success"
+    ],
+    "slug": "to-win-redefine-success",
+    "status": null,
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -3676,24 +2736,233 @@
       "turn-transient-notes-into-evergreen-notes"
     ],
     "slug": "turn-transient-notes-into-evergreen-notes",
+    "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "Ideas need to be grappled with",
-        "title": "Ideas need to be grappled with",
-        "slug": "Ideas need to be grappled with"
-      },
-      {
-        "matchedId": "Writing is thinking across time",
-        "title": "Writing is thinking across time",
-        "slug": "Writing is thinking across time"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Ideas need to be grappled with",
-        "slug": "Ideas need to be grappled with"
+        "slug": "ideas-need-to-be-grappled-with"
       }
     ]
+  },
+  {
+    "ids": [
+      "Turn your brand into social capital",
+      "Turn your brand into social capital"
+    ],
+    "slug": "turn-your-brand-into-social-capital",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Understand the rules before breaking them",
+      "Understand the rules before breaking them"
+    ],
+    "slug": "understand-the-rules-before-breaking-them",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Learning is a four-phase process",
+        "slug": "learning-is-a-four-phase-process"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Unknown habits impede learning",
+      "Unknown habits impede learning"
+    ],
+    "slug": "unknown-habits-impede-learning",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Use stores as fulfillment nodes",
+      "Use stores as fulfillment nodes"
+    ],
+    "slug": "use-stores-as-fulfillment-nodes",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Use the TERA quotient for building trust",
+      "Use the TERA quotient for building trust"
+    ],
+    "slug": "use-the-tera-quotient-to-build-trust",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Use your loyalty program to get insights",
+      "Use your loyalty program to get insights"
+    ],
+    "slug": "use-your-loyalty-program-to-get-insights",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vertical integration comes with regulatory benefits",
+      "Vertical integration comes with regulatory benefits"
+    ],
+    "slug": "vertical-integration-comes-with-regulatory-benefits",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vertical integration requires stable demand",
+      "Vertical integration requires stable demand"
+    ],
+    "slug": "vertical-integration-requires-stable-demand",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "We get what we reward for",
+      "We get what we reward for"
+    ],
+    "slug": "we-get-what-we-reward-for",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Web3 experiences lack composability",
+      "Web3 experiences lack composability"
+    ],
+    "slug": "web3-experiences-lack-composability",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Wholesale boosts brand awareness",
+      "Wholesale boosts brand awareness"
+    ],
+    "slug": "wholesale-boosts-brand-awareness",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Wholesale is for breadth, DTC is for depth",
+      "Wholesale is for breadth, DTC is for depth"
+    ],
+    "slug": "wholesale-is-for-breadth-dtc-is-for-depth",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Wiseness is knowing what’s worth wanting",
+      "Wiseness is knowing what’s worth wanting"
+    ],
+    "slug": "wiseness-is-knowing-whats-worth-wanting",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Work the policy, not the exception",
+      "Work the policy, not the exception"
+    ],
+    "slug": "work-the-policy-not-the-exception",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Work toward proximate objectives",
+      "Work toward proximate objectives"
+    ],
+    "slug": "work-toward-proximate-objectives",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Strategy requires focus",
+        "slug": "strategy-requires-focus"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Writing is thinking across time",
+      "Writing is thinking across time"
+    ],
+    "slug": "writing-is-thinking-across-time",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Writing shouldn’t start with a blank page",
+      "Writing shouldn’t start with a blank page"
+    ],
+    "slug": "writing-shouldnt-start-with-a-blank-page",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "You can only coach the person in front of you",
+      "You can only coach the person in front of you"
+    ],
+    "slug": "you-can-only-coach-the-person-in-front-of-you",
+    "status": null,
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "December 2024",
+      "December 2024"
+    ],
+    "slug": "2024-12",
+    "status": "evergreen",
+    "contentType": "nows",
+    "outboundLinks": [],
+    "inboundLinks": []
   }
 ]
