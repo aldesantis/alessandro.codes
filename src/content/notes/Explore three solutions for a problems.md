@@ -1,9 +1,0 @@
----
-permalink: n/explore-three-solutions-for-a-problems
-slug: explore-three-solutions-for-a-problems
-status: 
-title: Explore three solutions for a problems
----
-# Explore three solutions for a problems
-
-If you’re only exploring two solutions for a given problem, you’re probably falling prey to dichotomous thinking. Force yourself to explore at least one additional solution.

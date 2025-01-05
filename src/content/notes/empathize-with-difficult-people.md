@@ -1,9 +1,0 @@
----
-permalink: n/empathize-with-difficult-people
-slug: empathize-with-difficult-people
-status: 
-title: empathize-with-difficult-people
----
-# empathize-with-difficult-people
-
-As counterintuitive as it may seem, the best way to deal with difficult people is to get in their shoes and understand where they’re coming from. This may seem like doing them a favor and excusing poor behavior, but in reality, it helps us be less reactive and more effective, because we’re counteracting the stress hormones that naturally fill our bodies in tense situations.

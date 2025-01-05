@@ -1,9 +1,0 @@
----
-permalink: n/web3-experiences-lack-composability
-slug: web3-experiences-lack-composability
-status: 
-title: Web3 experiences lack composability
----
-# Web3 experiences lack composability
-
-Web2 products are more composable than web3, thanks to the presence of underlying standards. Web3 products are still very much isolated because every product is a walled garden.
