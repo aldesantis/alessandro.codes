@@ -20,20 +20,3 @@ export function getMdxComponents() {
     Link: Link,
   };
 }
-
-export function buildContentEntryUrl({
-  contentType,
-  id,
-}: {
-  contentType: string;
-  id: string;
-}): string | null {
-  switch (contentType) {
-    case "essay":
-      return `/essays/${id}`;
-    case "note":
-      return `/notes/${id}`;
-    default:
-      return null;
-  }
-}
