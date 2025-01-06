@@ -9,11 +9,9 @@ import { remarkWikiLink } from "./src/lib/plugins/remarkWikiLink.mjs";
 
 import mdx from "@astrojs/mdx";
 
-import react from "@astrojs/react";
-
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), icon(), mdx(), react()],
+  integrations: [tailwind(), icon(), mdx()],
   markdown: {
     remarkPlugins: [
       remarkReadingTime,

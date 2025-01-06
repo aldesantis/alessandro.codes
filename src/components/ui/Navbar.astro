@@ -1,6 +1,7 @@
 ---
 import Link from "@components/ui/Link.astro";
-import NavbarDropdown from "@components/ui/NavbarDropdown.tsx";
+import Dropdown from "@components/ui/dropdowns/Dropdown.astro";
+import DropdownItem from "@components/ui/dropdowns/DropdownItem.astro";
 
 const currentPath = Astro.url.pathname;
 
@@ -10,30 +11,143 @@ const links = [
 ];
 ---
 
-<div class="py-4 border-b mb-8">
-  <div class="container">
-    <nav class="flex items-center justify-between font-sans">
-      <div class="flex flex-1">
-        <Link href="/" class="font-semibold" variant="secondary">
-          Alessandro Desantis
-        </Link>
+<div class="relative">
+  <div class="py-4 border-b mb-8">
+    <div class="container" data-js-navbar>
+      <nav class="flex items-center justify-between font-sans">
+        <div class="flex flex-1">
+          <Link href="/" class="font-semibold" variant="secondary">
+            Alessandro Desantis
+          </Link>
+        </div>
+
+        <div
+          class:list={[
+            "hidden flex-col gap-y-4",
+            "sm:flex sm:flex-row sm:gap-x-4",
+            "flex-1 justify-end",
+          ]}
+        >
+          {
+            links.map(({ href, text, matchPattern }) => (
+              <div>
+                <Link
+                  href={href}
+                  variant="secondary"
+                  active={!!currentPath.match(matchPattern)}
+                >
+                  {text}
+                </Link>
+              </div>
+            ))
+          }
+
+          <Dropdown label="The Garden ↓">
+            <DropdownItem
+              href="/notes"
+              active={currentPath.startsWith("/notes")}>Notes</DropdownItem
+            >
+            <DropdownItem
+              href="/essays"
+              active={currentPath.startsWith("/essays")}>Essays</DropdownItem
+            >
+          </Dropdown>
+        </div>
+
+        <button
+          class="sm:hidden hover:text-orange-700"
+          aria-label="Toggle menu"
+          data-js-mobile-toggle
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
+
+  <div
+    class="fixed inset-y-0 right-0 w-64 bg-zinc-100 shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50 sm:hidden"
+    data-js-mobile-menu
+  >
+    <nav class="flex flex-col font-sans p-6 h-full">
+      <div class="flex justify-end">
+        <button
+          class="p-2 hover:text-orange-700"
+          aria-label="Close menu"
+          data-js-mobile-close
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
       </div>
 
-      <div class="flex flex-1 justify-end gap-x-4">
-        {
-          links.map(({ href, text, matchPattern }) => (
-            <Link
-              href={href}
-              variant="secondary"
-              active={!!currentPath.match(matchPattern)}
-            >
-              {text}
-            </Link>
-          ))
-        }
-
-        <NavbarDropdown client:load />
+      <div class="flex flex-col space-y-2">
+        <Link href="/" variant="secondary">Home</Link>
+        <Link href="/now" variant="secondary">Now</Link>
+        <Link href="/notes" variant="secondary">Notes</Link>
+        <Link href="/essays" variant="secondary">Essays</Link>
       </div>
     </nav>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const navbar = document.querySelector("[data-js-navbar]");
+    const mobileMenu = document.querySelector("[data-js-mobile-menu]");
+    const mobileToggle = document.querySelector("[data-js-mobile-toggle]");
+    const mobileClose = document.querySelector("[data-js-mobile-close]");
+
+    function openMenu() {
+      mobileMenu.classList.remove("translate-x-full");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeMenu() {
+      mobileMenu.classList.add("translate-x-full");
+      document.body.style.overflow = "";
+    }
+
+    mobileToggle.addEventListener("click", openMenu);
+    mobileClose.addEventListener("click", closeMenu);
+
+    document.addEventListener("click", (event) => {
+      if (
+        !navbar.contains(event.target) &&
+        !mobileMenu.contains(event.target)
+      ) {
+        closeMenu();
+      }
+    });
+
+    // Close menu on escape key
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeMenu();
+      }
+    });
+  });
+</script>
