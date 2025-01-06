@@ -1,4 +1,5 @@
 ---
+import Card from "@components/ui/Card.astro";
 import Link from "@components/ui/Link.astro";
 import type { CollectionEntry } from "astro:content";
 
@@ -9,12 +10,14 @@ interface Props {
 const { notes } = Astro.props;
 ---
 
-<ul>
-  {
-    notes.map((note) => (
-      <li class="font-sans text-lg">
-        <Link href={`/notes/${note.id}`}>{note.data.title}</Link>
-      </li>
-    ))
-  }
-</ul>
+<Card>
+  <ul>
+    {
+      notes.map((note) => (
+        <li class="font-sans text-lg">
+          <Link href={`/notes/${note.id}`}>{note.data.title}</Link>
+        </li>
+      ))
+    }
+  </ul>
+</Card>
