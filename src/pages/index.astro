@@ -7,6 +7,7 @@ import EssayCard from "@components/essays/EssayCard.astro";
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
+import NoteList from "@components/notes/NoteList.astro";
 
 const featuredProjects = await getCollection(
   "projects",
@@ -14,6 +15,7 @@ const featuredProjects = await getCollection(
 );
 
 const essays = await getCollection("essays");
+const notes = (await getCollection("notes")).slice(0, 10);
 ---
 
 <Layout>
@@ -56,6 +58,25 @@ const essays = await getCollection("essays");
         <div class="grid md:grid-cols-2 gap-4">
           {featuredProjects.map((project) => <ProjectCard project={project} />)}
         </div>
+      </div>
+    </Section>
+
+    <Section>
+      <div slot="heading" class="font-sans">
+        <SectionHeading
+          title="Notes"
+          subtitle="Working theories and reflections in various stages of maturation."
+        />
+
+        <div class="mt-2">
+          <ArrowLink class="text-sm" href="/notes" arrowDirection="right">
+            View all
+          </ArrowLink>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <NoteList notes={notes} />
       </div>
     </Section>
 

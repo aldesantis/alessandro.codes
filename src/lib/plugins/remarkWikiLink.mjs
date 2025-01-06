@@ -1,6 +1,20 @@
 import { visit } from "unist-util-visit";
 import linkMaps from "../../data/links.json";
 
+function buildContentEntryUrl({
+  contentType,
+  slug,
+}) {
+  switch (contentType) {
+    case "essays":
+      return `/essays/${slug}`;
+    case "notes":
+      return `/notes/${slug}`;
+    default:
+      return null;
+  }
+}
+
 export function remarkWikiLink() {
   return (tree) => {
     visit(tree, "text", (node, index, parent) => {
@@ -32,7 +46,9 @@ export function remarkWikiLink() {
         let newChild;
 
         if (matchedPost) {
-          if (matchedPost.contentType === "essays") {
+          const url = buildContentEntryUrl(matchedPost);
+  
+          if (url) {
             // Create the InternalTooltipLink component
             newChild = {
               type: "mdxJsxFlowElement",
@@ -41,7 +57,7 @@ export function remarkWikiLink() {
                 {
                   type: "mdxJsxAttribute",
                   name: "href",
-                  value: `/essays/${matchedPost.slug}`,
+                  value: url,
                 },
               ],
               // Use displayText if provided, otherwise use linkDestination

@@ -1,0 +1,23 @@
+---
+import NoteList from "@components/notes/NoteList.astro";
+import Hero from "@components/ui/Hero.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const notes = await getCollection("notes");
+---
+
+<Layout>
+  <title slot="head">Essays | Alessandro Desantis</title>
+
+  <Hero>
+    <span slot="heading">Notes</span>
+    <span slot="subheading">
+      Working theories and reflections in various stages of maturation.
+    </span>
+  </Hero>
+
+  <div>
+    <NoteList notes={notes} />
+  </div>
+</Layout>

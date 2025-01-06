@@ -1,0 +1,43 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { getCollection, render } from "astro:content";
+import Prose from "@components/ui/Prose.astro";
+import ArrowLink from "@components/ui/ArrowLink.astro";
+import { getMdxComponents } from "src/lib/utils";
+
+export async function getStaticPaths() {
+  const notes = await getCollection("notes");
+
+  return notes.map((note) => ({
+    params: { id: note.id },
+    props: { note },
+  }));
+}
+
+const { note } = Astro.props;
+const { Content } = await render(note);
+---
+
+<title slot="head">{note.data.title} | Alessandro Desantis</title>
+
+<Layout>
+  <div class="grid grid-cols-12">
+    <div class="col-span-12 lg:col-span-8">
+      <div class="-mb-8 col-span-8">
+        <ArrowLink
+          href="/notes"
+          arrowDirection="left"
+          class="font-sans font-semibold uppercase"
+        >
+          Notes
+        </ArrowLink>
+      </div>
+
+      <Prose>
+        <h1>{note.data.title}</h1>
+
+        <Content components={getMdxComponents()} />
+      </Prose>
+    </div>
+  </div>
+</Layout>

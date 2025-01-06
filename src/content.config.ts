@@ -31,6 +31,13 @@ export const collections = {
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/essays" }),
   }),
 
+  notes: defineCollection({
+    schema: z.object({
+      title: z.string(),
+    }),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/notes" }),
+  }),
+
   nows: defineCollection({
     schema: z.object({
       title: z.string(),
