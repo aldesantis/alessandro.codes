@@ -3003,6 +3003,23 @@
   },
   {
     "ids": [
+      "Perfectionism delays convergence",
+      "perfectionism-delays-convergence"
+    ],
+    "slug": "perfectionism-delays-convergence",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "strategy-requires-focus",
+        "title": "Strategy requires focus",
+        "slug": "strategy-requires-focus"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Personalization may be harmful",
       "personalization-may-be-harmful"
     ],
@@ -3769,6 +3786,10 @@
         "slug": "good-strategy-is-simple"
       },
       {
+        "title": "Perfectionism delays convergence",
+        "slug": "perfectionism-delays-convergence"
+      },
+      {
         "title": "Strategy deals with present challenges",
         "slug": "strategy-deals-with-present-challenges"
       }
@@ -4529,6 +4550,28 @@
     "status": "evergreen",
     "contentType": "nows",
     "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "January 2025",
+        "slug": "2025-01"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "January 2025",
+      "2025-01"
+    ],
+    "slug": "2025-01",
+    "status": "budding",
+    "contentType": "nows",
+    "outboundLinks": [
+      {
+        "matchedId": "2024-12",
+        "title": "December 2024",
+        "slug": "2024-12"
+      }
+    ],
     "inboundLinks": []
   }
 ]
