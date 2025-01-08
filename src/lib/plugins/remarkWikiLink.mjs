@@ -10,6 +10,8 @@ function buildContentEntryUrl({
       return `/essays/${slug}`;
     case "notes":
       return `/notes/${slug}`;
+      case "nows":
+        return `/now/${slug}`;
     default:
       return null;
   }
