@@ -41,7 +41,7 @@
         "slug": "personalization-may-be-harmful"
       },
       {
-        "matchedId": "Marketing must build availability",
+        "matchedId": "marketing-must-build-availability",
         "title": "Marketing must build availability",
         "slug": "marketing-must-build-availability"
       }
@@ -72,7 +72,7 @@
         "slug": "good-management-requires-consistency"
       },
       {
-        "matchedId": "Marketing must build mental availability",
+        "matchedId": "marketing-must-build-mental-availability",
         "title": "Marketing must build mental availability",
         "slug": "marketing-must-build-mental-availability"
       },
@@ -119,7 +119,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Marketing must build mental availability",
+        "matchedId": "marketing-must-build-mental-availability",
         "title": "Marketing must build mental availability",
         "slug": "marketing-must-build-mental-availability"
       },
@@ -342,17 +342,17 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "The map is not the territory",
+        "matchedId": "the-map-is-not-the-territory",
         "title": "The map is not the territory",
         "slug": "the-map-is-not-the-territory"
       },
       {
-        "matchedId": "Chaotic systems are not random",
+        "matchedId": "chaotic-systems-are-not-random",
         "title": "Chaotic systems are not random",
         "slug": "chaotic-systems-are-not-random"
       },
       {
-        "matchedId": "Correlation is not causation",
+        "matchedId": "correlation-is-not-causation",
         "title": "Correlation is not causation",
         "slug": "correlation-is-not-causation"
       },
@@ -789,7 +789,7 @@
         "slug": "communities-of-practice-are-loosely-knit"
       },
       {
-        "matchedId": "Cross-functionality creates silos",
+        "matchedId": "cross-functionality-creates-silos",
         "title": "Cross-functionality creates silos",
         "slug": "cross-functionality-creates-silos"
       },
@@ -1067,7 +1067,7 @@
         "slug": "cross-functionality-is-a-spectrum"
       },
       {
-        "matchedId": "Communities of practice combat cross-functional silos",
+        "matchedId": "communities-of-practice-combat-cross-functional-silos",
         "title": "Communities of practice combat cross-functional silos",
         "slug": "communities-of-practice-combat-cross-functional-silos"
       }
@@ -1139,17 +1139,17 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Cross-functionality is a spectrum",
+        "matchedId": "cross-functionality-is-a-spectrum",
         "title": "Cross-functionality is a spectrum",
         "slug": "cross-functionality-is-a-spectrum"
       },
       {
-        "matchedId": "Communities of practice combat cross-functional silos",
+        "matchedId": "communities-of-practice-combat-cross-functional-silos",
         "title": "Communities of practice combat cross-functional silos",
         "slug": "communities-of-practice-combat-cross-functional-silos"
       },
       {
-        "matchedId": "Cross-functionality creates silos",
+        "matchedId": "cross-functionality-creates-silos",
         "title": "Cross-functionality creates silos",
         "slug": "cross-functionality-creates-silos"
       }
@@ -1193,22 +1193,22 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Information abundance causes cultural fragmentation",
+        "matchedId": "information-abundance-causes-cultural-fragmentation",
         "title": "Information abundance causes cultural fragmentation",
         "slug": "information-abundance-causes-cultural-fragmentation"
       },
       {
-        "matchedId": "Brand management aims to turn brands into landmarks",
+        "matchedId": "brand-management-aims-to-turn-brands-into-landmarks",
         "title": "Brand management aims to turn brands into landmarks",
         "slug": "brand-management-aims-to-turn-brands-into-landmarks"
       },
       {
-        "matchedId": "Advertising may work by cultural imprinting",
+        "matchedId": "advertising-may-work-by-cultural-imprinting",
         "title": "Advertising may work by cultural imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
-        "matchedId": "AI allows hyper-personalization",
+        "matchedId": "ai-allows-hyper-personalization",
         "title": "AI allows hyper-personalization",
         "slug": "ai-allows-hyper-personalization"
       },
@@ -1269,7 +1269,7 @@
         "slug": "market-penetration-trumps-market-segmentation"
       },
       {
-        "matchedId": "Marketing must build availability",
+        "matchedId": "marketing-must-build-availability",
         "title": "Marketing must build availability",
         "slug": "marketing-must-build-availability"
       }
@@ -1651,7 +1651,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Information abundance causes cultural fragmentation",
+        "matchedId": "information-abundance-causes-cultural-fragmentation",
         "title": "Information abundance causes cultural fragmentation",
         "slug": "information-abundance-causes-cultural-fragmentation"
       },
@@ -1661,7 +1661,7 @@
         "slug": "common-enemies-unite-individuals"
       },
       {
-        "matchedId": "Social support reduces stress",
+        "matchedId": "social-support-reduces-stress",
         "title": "Social support reduces stress",
         "slug": "social-support-reduces-stress"
       }
@@ -1687,7 +1687,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Tacit knowledge cannot be captured",
+        "matchedId": "tacit-knowledge-cannot-be-captured",
         "title": "Tacit knowledge cannot be captured",
         "slug": "tacit-knowledge-cannot-be-captured"
       }
@@ -2169,7 +2169,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Social support reduces stress",
+        "matchedId": "social-support-reduces-stress",
         "title": "Social support reduces stress",
         "slug": "social-support-reduces-stress"
       }
@@ -2311,7 +2311,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Understand the rules before breaking them",
+        "matchedId": "understand-the-rules-before-breaking-them",
         "title": "Understand the rules before breaking them",
         "slug": "understand-the-rules-before-breaking-them"
       }
@@ -2467,22 +2467,22 @@
         "slug": "customer-loyalty-is-behavioral"
       },
       {
-        "matchedId": "Marketing must build mental availability",
+        "matchedId": "marketing-must-build-mental-availability",
         "title": "Marketing must build mental availability",
         "slug": "marketing-must-build-mental-availability"
       },
       {
-        "matchedId": "Marketing must build physical availability",
+        "matchedId": "marketing-must-build-physical-availability",
         "title": "Marketing must build physical availability",
         "slug": "marketing-must-build-physical-availability"
       },
       {
-        "matchedId": "Advertising must be consistent",
+        "matchedId": "advertising-must-be-consistent",
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent"
       },
       {
-        "matchedId": "Advertising must be memorable",
+        "matchedId": "advertising-must-be-memorable",
         "title": "Advertising must be memorable",
         "slug": "advertising-must-be-memorable"
       }
@@ -2504,7 +2504,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Marketing must build physical availability",
+        "matchedId": "marketing-must-build-physical-availability",
         "title": "Marketing must build physical availability",
         "slug": "marketing-must-build-physical-availability"
       },
@@ -2575,17 +2575,17 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Marketing must build physical availability",
+        "matchedId": "marketing-must-build-physical-availability",
         "title": "Marketing must build physical availability",
         "slug": "marketing-must-build-physical-availability"
       },
       {
-        "matchedId": "Advertising must be memorable",
+        "matchedId": "advertising-must-be-memorable",
         "title": "Advertising must be memorable",
         "slug": "advertising-must-be-memorable"
       },
       {
-        "matchedId": "Advertising must be consistent",
+        "matchedId": "advertising-must-be-consistent",
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent"
       }
@@ -2853,7 +2853,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Chaotic systems are not random",
+        "matchedId": "chaotic-systems-are-not-random",
         "title": "Chaotic systems are not random",
         "slug": "chaotic-systems-are-not-random"
       },
@@ -3028,7 +3028,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Cultural fragmentation causes market fragmentation",
+        "matchedId": "cultural-fragmentation-causes-market-fragmentation",
         "title": "Cultural fragmentation causes market fragmentation",
         "slug": "cultural-fragmentation-causes-market-fragmentation"
       },
@@ -3132,7 +3132,7 @@
         "slug": "the-map-is-not-the-territory"
       },
       {
-        "matchedId": "Be wary of flawless ideas",
+        "matchedId": "be-wary-of-flawless-ideas",
         "title": "Be wary of flawless ideas",
         "slug": "be-wary-of-flawless-ideas"
       }
@@ -3282,7 +3282,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Point to the new tower",
+        "matchedId": "point-to-the-new-tower",
         "title": "Point to the new tower",
         "slug": "point-to-the-new-tower"
       }
@@ -3765,7 +3765,7 @@
         "slug": "strategy-deals-with-present-challenges"
       },
       {
-        "matchedId": "Work toward proximate objectives",
+        "matchedId": "work-toward-proximate-objectives",
         "title": "Work toward proximate objectives",
         "slug": "work-toward-proximate-objectives"
       },
@@ -3953,7 +3953,7 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Explicit knowledge can be captured",
+        "matchedId": "explicit-knowledge-can-be-captured",
         "title": "Explicit knowledge can be captured",
         "slug": "explicit-knowledge-can-be-captured"
       },
@@ -4034,12 +4034,12 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "Chaotic systems are not random",
+        "matchedId": "chaotic-systems-are-not-random",
         "title": "Chaotic systems are not random",
         "slug": "chaotic-systems-are-not-random"
       },
       {
-        "matchedId": "Be wary of flawless ideas",
+        "matchedId": "be-wary-of-flawless-ideas",
         "title": "Be wary of flawless ideas",
         "slug": "be-wary-of-flawless-ideas"
       }
