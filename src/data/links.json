@@ -23,7 +23,6 @@
   },
   {
     "ids": [
-      "Advertising May Work By Cultural Imprinting",
       "Advertising may work by cultural imprinting",
       "advertising-may-work-by-cultural-imprinting"
     ],
@@ -85,11 +84,11 @@
     ],
     "inboundLinks": [
       {
-        "title": "Advertising May Work By Cultural Imprinting",
+        "title": "Advertising may work by cultural imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
-        "title": "Composable Commerce Is A Spectrum",
+        "title": "Advertising must be memorable",
         "slug": "advertising-must-be-memorable"
       },
       {
@@ -112,7 +111,6 @@
   },
   {
     "ids": [
-      "Composable Commerce Is A Spectrum",
       "Advertising must be memorable",
       "advertising-must-be-memorable"
     ],
@@ -246,7 +244,7 @@
         "slug": "align-teams-before-empowering-them"
       },
       {
-        "title": "Build experimentation guidelines are guidelines",
+        "title": "Build experimentation guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -603,7 +601,6 @@
   },
   {
     "ids": [
-      "Build experimentation guidelines are guidelines",
       "Build experimentation guidelines",
       "build-experimentation-guidelines"
     ],
@@ -1182,7 +1179,7 @@
     "outboundLinks": [
       {
         "matchedId": "advertising-may-work-by-cultural-imprinting",
-        "title": "Advertising May Work By Cultural Imprinting",
+        "title": "Advertising may work by cultural imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       }
     ],
@@ -1214,7 +1211,7 @@
       },
       {
         "matchedId": "advertising-may-work-by-cultural-imprinting",
-        "title": "Advertising May Work By Cultural Imprinting",
+        "title": "Advertising may work by cultural imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
@@ -1411,7 +1408,7 @@
       },
       {
         "matchedId": "build-experimentation-guidelines",
-        "title": "Build experimentation guidelines are guidelines",
+        "title": "Build experimentation guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -1458,7 +1455,6 @@
   {
     "ids": [
       "Don’t play life on hard mode",
-      "Don't play life on hard mode",
       "dont-play-life-on-hard-mode"
     ],
     "slug": "dont-play-life-on-hard-mode",
@@ -1586,7 +1582,6 @@
   {
     "ids": [
       "Emotions aren’t always correct",
-      "Emotions aren't always correct",
       "emotions-arent-always-correct"
     ],
     "slug": "emotions-arent-always-correct",
@@ -1813,7 +1808,6 @@
   {
     "ids": [
       "Focus on what’s not changing",
-      "Focus on what's not changing",
       "focus-on-whats-not-changing"
     ],
     "slug": "focus-on-whats-not-changing",
@@ -2095,7 +2089,7 @@
         "slug": "be-wary-of-flawless-ideas"
       },
       {
-        "title": "Build experimentation guidelines are guidelines",
+        "title": "Build experimentation guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -2417,7 +2411,6 @@
   {
     "ids": [
       "Loyalty programs don’t drive direct growth",
-      "Loyalty programs don't drive direct growth",
       "loyalty-programs-dont-drive-direct-growth"
     ],
     "slug": "loyalty-programs-dont-drive-direct-growth",
@@ -2500,7 +2493,7 @@
       },
       {
         "matchedId": "advertising-must-be-memorable",
-        "title": "Composable Commerce Is A Spectrum",
+        "title": "Advertising must be memorable",
         "slug": "advertising-must-be-memorable"
       }
     ],
@@ -2565,7 +2558,7 @@
     ],
     "inboundLinks": [
       {
-        "title": "Advertising May Work By Cultural Imprinting",
+        "title": "Advertising may work by cultural imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
@@ -2598,7 +2591,7 @@
       },
       {
         "matchedId": "advertising-must-be-memorable",
-        "title": "Composable Commerce Is A Spectrum",
+        "title": "Advertising must be memorable",
         "slug": "advertising-must-be-memorable"
       },
       {
@@ -2613,7 +2606,7 @@
         "slug": "advertising-must-be-consistent"
       },
       {
-        "title": "Composable Commerce Is A Spectrum",
+        "title": "Advertising must be memorable",
         "slug": "advertising-must-be-memorable"
       },
       {
@@ -2988,8 +2981,7 @@
   },
   {
     "ids": [
-      "Organizational design is iteration",
-      "Org design is iteration",
+      "Organizational design is iterative",
       "organizational-design-is-iterative"
     ],
     "slug": "organizational-design-is-iterative",
@@ -3059,7 +3051,7 @@
     ],
     "inboundLinks": [
       {
-        "title": "Advertising May Work By Cultural Imprinting",
+        "title": "Advertising may work by cultural imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
@@ -3486,7 +3478,7 @@
       },
       {
         "matchedId": "build-experimentation-guidelines",
-        "title": "Build experimentation guidelines are guidelines",
+        "title": "Build experimentation guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -3821,7 +3813,6 @@
   {
     "ids": [
       "Stress isn’t the same for everyone",
-      "Stress isn't the same for everyone",
       "stress-isnt-the-same-for-everyone"
     ],
     "slug": "stress-isnt-the-same-for-everyone",
@@ -3858,7 +3849,7 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "title": "Build experimentation guidelines are guidelines",
+        "title": "Build experimentation guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -4197,7 +4188,6 @@
   {
     "ids": [
       "Things that don’t scale keep you grounded",
-      "Things that don't scale keep you grounded",
       "things-that-dont-scale-keep-you-grounded"
     ],
     "slug": "things-that-dont-scale-keep-you-grounded",
@@ -4490,7 +4480,6 @@
   {
     "ids": [
       "Wiseness is knowing what’s worth wanting",
-      "Wiseness is knowing what's worth wanting",
       "wiseness-is-knowing-whats-worth-wanting"
     ],
     "slug": "wiseness-is-knowing-whats-worth-wanting",
@@ -4551,7 +4540,6 @@
   {
     "ids": [
       "Writing shouldn’t start with a blank page",
-      "Writing shouldn't start with a blank page",
       "writing-shouldnt-start-with-a-blank-page"
     ],
     "slug": "writing-shouldnt-start-with-a-blank-page",
