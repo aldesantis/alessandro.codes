@@ -244,7 +244,7 @@
         "slug": "align-teams-before-empowering-them"
       },
       {
-        "title": "Build experimentation guidelines",
+        "title": "Build experimentation guidelines are guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -369,7 +369,7 @@
     ],
     "inboundLinks": [
       {
-        "title": "composable-commerce-is-a-spectrum",
+        "title": "Composable commerce is a spectrum",
         "slug": "composable-commerce-is-a-spectrum"
       },
       {
@@ -601,6 +601,7 @@
   },
   {
     "ids": [
+      "Build experimentation guidelines are guidelines",
       "Build experimentation guidelines",
       "build-experimentation-guidelines"
     ],
@@ -637,6 +638,7 @@
   },
   {
     "ids": [
+      "Build your loyalty program with tiers not balances",
       "Build your loyalty program with tiers, not balances",
       "build-your-loyalty-program-with-tiers-not-balances"
     ],
@@ -742,6 +744,7 @@
   },
   {
     "ids": [
+      "Communities of practice are loosely knit",
       "communities-of-practice-are-loosely-knit"
     ],
     "slug": "communities-of-practice-are-loosely-knit",
@@ -750,7 +753,7 @@
     "outboundLinks": [
       {
         "matchedId": "communities-of-practice-form-organically",
-        "title": "communities-of-practice-form-organically",
+        "title": "Communities of practice form organically",
         "slug": "communities-of-practice-form-organically"
       },
       {
@@ -769,7 +772,7 @@
         "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop"
       },
       {
-        "title": "communities-of-practice-form-organically",
+        "title": "Communities of practice form organically",
         "slug": "communities-of-practice-form-organically"
       }
     ]
@@ -785,7 +788,7 @@
     "outboundLinks": [
       {
         "matchedId": "communities-of-practice-are-loosely-knit",
-        "title": "communities-of-practice-are-loosely-knit",
+        "title": "Communities of practice are loosely knit",
         "slug": "communities-of-practice-are-loosely-knit"
       },
       {
@@ -801,7 +804,7 @@
     ],
     "inboundLinks": [
       {
-        "title": "communities-of-practice-are-loosely-knit",
+        "title": "Communities of practice are loosely knit",
         "slug": "communities-of-practice-are-loosely-knit"
       },
       {
@@ -825,7 +828,7 @@
     "outboundLinks": [
       {
         "matchedId": "communities-of-practice-are-loosely-knit",
-        "title": "communities-of-practice-are-loosely-knit",
+        "title": "Communities of practice are loosely knit",
         "slug": "communities-of-practice-are-loosely-knit"
       },
       {
@@ -847,6 +850,7 @@
   },
   {
     "ids": [
+      "Communities of practice form organically",
       "communities-of-practice-form-organically"
     ],
     "slug": "communities-of-practice-form-organically",
@@ -855,7 +859,7 @@
     "outboundLinks": [
       {
         "matchedId": "communities-of-practice-are-loosely-knit",
-        "title": "communities-of-practice-are-loosely-knit",
+        "title": "Communities of practice are loosely knit",
         "slug": "communities-of-practice-are-loosely-knit"
       },
       {
@@ -866,7 +870,7 @@
     ],
     "inboundLinks": [
       {
-        "title": "communities-of-practice-are-loosely-knit",
+        "title": "Communities of practice are loosely knit",
         "slug": "communities-of-practice-are-loosely-knit"
       }
     ]
@@ -907,6 +911,7 @@
   },
   {
     "ids": [
+      "Composable commerce is a spectrum",
       "composable-commerce-is-a-spectrum"
     ],
     "slug": "composable-commerce-is-a-spectrum",
@@ -915,7 +920,7 @@
     "outboundLinks": [
       {
         "matchedId": "composable-commerce",
-        "title": "composable-commerce",
+        "title": "Composable commerce",
         "slug": "composable-commerce"
       },
       {
@@ -926,13 +931,14 @@
     ],
     "inboundLinks": [
       {
-        "title": "composable-commerce",
+        "title": "Composable commerce",
         "slug": "composable-commerce"
       }
     ]
   },
   {
     "ids": [
+      "Composable commerce may be a choice",
       "composable-commerce-may-be-a-choice"
     ],
     "slug": "composable-commerce-may-be-a-choice",
@@ -941,19 +947,20 @@
     "outboundLinks": [
       {
         "matchedId": "composable-commerce",
-        "title": "composable-commerce",
+        "title": "Composable commerce",
         "slug": "composable-commerce"
       }
     ],
     "inboundLinks": [
       {
-        "title": "composable-commerce",
+        "title": "Composable commerce",
         "slug": "composable-commerce"
       }
     ]
   },
   {
     "ids": [
+      "Composable commerce may be a necessity",
       "composable-commerce-may-be-a-necessity"
     ],
     "slug": "composable-commerce-may-be-a-necessity",
@@ -962,13 +969,14 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "title": "composable-commerce",
+        "title": "Composable commerce",
         "slug": "composable-commerce"
       }
     ]
   },
   {
     "ids": [
+      "Composable commerce",
       "composable-commerce"
     ],
     "slug": "composable-commerce",
@@ -977,27 +985,27 @@
     "outboundLinks": [
       {
         "matchedId": "composable-commerce-may-be-a-choice",
-        "title": "composable-commerce-may-be-a-choice",
+        "title": "Composable commerce may be a choice",
         "slug": "composable-commerce-may-be-a-choice"
       },
       {
         "matchedId": "composable-commerce-may-be-a-necessity",
-        "title": "composable-commerce-may-be-a-necessity",
+        "title": "Composable commerce may be a necessity",
         "slug": "composable-commerce-may-be-a-necessity"
       },
       {
         "matchedId": "composable-commerce-is-a-spectrum",
-        "title": "composable-commerce-is-a-spectrum",
+        "title": "Composable commerce is a spectrum",
         "slug": "composable-commerce-is-a-spectrum"
       }
     ],
     "inboundLinks": [
       {
-        "title": "composable-commerce-is-a-spectrum",
+        "title": "Composable commerce is a spectrum",
         "slug": "composable-commerce-is-a-spectrum"
       },
       {
-        "title": "composable-commerce-may-be-a-choice",
+        "title": "Composable commerce may be a choice",
         "slug": "composable-commerce-may-be-a-choice"
       }
     ]
@@ -1046,7 +1054,7 @@
     "outboundLinks": [
       {
         "matchedId": "build-your-loyalty-program-with-tiers-not-balances",
-        "title": "Build your loyalty program with tiers, not balances",
+        "title": "Build your loyalty program with tiers not balances",
         "slug": "build-your-loyalty-program-with-tiers-not-balances"
       }
     ],
@@ -1348,6 +1356,7 @@
   },
   {
     "ids": [
+      "Define decision making",
       "Define decision-making",
       "define-decision-making"
     ],
@@ -1400,7 +1409,7 @@
       },
       {
         "matchedId": "build-experimentation-guidelines",
-        "title": "Build experimentation guidelines",
+        "title": "Build experimentation guidelines are guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -1416,7 +1425,7 @@
     ],
     "inboundLinks": [
       {
-        "title": "Define decision-making",
+        "title": "Define decision making",
         "slug": "define-decision-making"
       },
       {
@@ -1447,6 +1456,7 @@
   {
     "ids": [
       "Don’t play life on hard mode",
+      "Don't play life on hard mode",
       "dont-play-life-on-hard-mode"
     ],
     "slug": "dont-play-life-on-hard-mode",
@@ -1574,6 +1584,7 @@
   {
     "ids": [
       "Emotions aren’t always correct",
+      "Emotions aren't always correct",
       "emotions-arent-always-correct"
     ],
     "slug": "emotions-arent-always-correct",
@@ -1593,6 +1604,7 @@
   },
   {
     "ids": [
+      "Empathize with difficult people",
       "empathize-with-difficult-people"
     ],
     "slug": "empathize-with-difficult-people",
@@ -1799,6 +1811,7 @@
   {
     "ids": [
       "Focus on what’s not changing",
+      "Focus on what's not changing",
       "focus-on-whats-not-changing"
     ],
     "slug": "focus-on-whats-not-changing",
@@ -2065,7 +2078,7 @@
     "outboundLinks": [
       {
         "matchedId": "turn-transient-notes-into-evergreen-notes",
-        "title": "turn-transient-notes-into-evergreen-notes",
+        "title": "Turn transient notes into evergreen notes",
         "slug": "turn-transient-notes-into-evergreen-notes"
       },
       {
@@ -2080,7 +2093,7 @@
         "slug": "be-wary-of-flawless-ideas"
       },
       {
-        "title": "Build experimentation guidelines",
+        "title": "Build experimentation guidelines are guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -2092,7 +2105,7 @@
         "slug": "memory-is-for-context"
       },
       {
-        "title": "turn-transient-notes-into-evergreen-notes",
+        "title": "Turn transient notes into evergreen notes",
         "slug": "turn-transient-notes-into-evergreen-notes"
       }
     ]
@@ -2183,6 +2196,7 @@
   },
   {
     "ids": [
+      "Influencer partnerships should be long term",
       "influencer-partnerships-should-be-long-term"
     ],
     "slug": "influencer-partnerships-should-be-long-term",
@@ -2401,6 +2415,7 @@
   {
     "ids": [
       "Loyalty programs don’t drive direct growth",
+      "Loyalty programs don't drive direct growth",
       "loyalty-programs-dont-drive-direct-growth"
     ],
     "slug": "loyalty-programs-dont-drive-direct-growth",
@@ -2953,6 +2968,7 @@
   },
   {
     "ids": [
+      "Org design is about structure, incentives, and culture",
       "Org design is structure, incentives, and culture",
       "org-design-is-about-structure-incentives-and-culture"
     ],
@@ -2970,6 +2986,7 @@
   },
   {
     "ids": [
+      "Organizational design is iteration",
       "Org design is iteration",
       "organizational-design-is-iterative"
     ],
@@ -3095,7 +3112,7 @@
     "outboundLinks": [
       {
         "matchedId": "build-your-loyalty-program-with-tiers-not-balances",
-        "title": "Build your loyalty program with tiers, not balances",
+        "title": "Build your loyalty program with tiers not balances",
         "slug": "build-your-loyalty-program-with-tiers-not-balances"
       }
     ],
@@ -3264,6 +3281,7 @@
   },
   {
     "ids": [
+      "Queerness is about eschewing normality",
       "queerness-is-about-eschewing-normality"
     ],
     "slug": "queerness-is-about-eschewing-normality",
@@ -3360,6 +3378,7 @@
   },
   {
     "ids": [
+      "Renewable resources are flow limited",
       "renewable-resources-are-flow-limited"
     ],
     "slug": "renewable-resources-are-flow-limited",
@@ -3370,6 +3389,7 @@
   },
   {
     "ids": [
+      "Resale is not enough",
       "resale-is-not-enough"
     ],
     "slug": "resale-is-not-enough",
@@ -3380,6 +3400,7 @@
   },
   {
     "ids": [
+      "Retention doesn’t grow brands",
       "retention-doesnt-grow-brands"
     ],
     "slug": "retention-doesnt-grow-brands",
@@ -3463,7 +3484,7 @@
       },
       {
         "matchedId": "build-experimentation-guidelines",
-        "title": "Build experimentation guidelines",
+        "title": "Build experimentation guidelines are guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -3798,6 +3819,7 @@
   {
     "ids": [
       "Stress isn’t the same for everyone",
+      "Stress isn't the same for everyone",
       "stress-isnt-the-same-for-everyone"
     ],
     "slug": "stress-isnt-the-same-for-everyone",
@@ -3834,7 +3856,7 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "title": "Build experimentation guidelines",
+        "title": "Build experimentation guidelines are guidelines",
         "slug": "build-experimentation-guidelines"
       },
       {
@@ -3994,6 +4016,7 @@
   },
   {
     "ids": [
+      "The consumer creator line is fading",
       "The consumer-creator line is fading",
       "the-consumer-creator-line-is-fading"
     ],
@@ -4016,6 +4039,7 @@
   },
   {
     "ids": [
+      "The internet favors discounting",
       "the-internet-favors-discounting"
     ],
     "slug": "the-internet-favors-discounting",
@@ -4171,6 +4195,7 @@
   {
     "ids": [
       "Things that don’t scale keep you grounded",
+      "Things that don't scale keep you grounded",
       "things-that-dont-scale-keep-you-grounded"
     ],
     "slug": "things-that-dont-scale-keep-you-grounded",
@@ -4192,6 +4217,7 @@
   },
   {
     "ids": [
+      "Turn transient notes into evergreen notes",
       "turn-transient-notes-into-evergreen-notes"
     ],
     "slug": "turn-transient-notes-into-evergreen-notes",
@@ -4376,11 +4402,11 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "title": "communities-of-practice-form-organically",
+        "title": "Communities of practice form organically",
         "slug": "communities-of-practice-form-organically"
       },
       {
-        "title": "Org design is structure, incentives, and culture",
+        "title": "Org design is about structure, incentives, and culture",
         "slug": "org-design-is-about-structure-incentives-and-culture"
       }
     ]
@@ -4462,6 +4488,7 @@
   {
     "ids": [
       "Wiseness is knowing what’s worth wanting",
+      "Wiseness is knowing what's worth wanting",
       "wiseness-is-knowing-whats-worth-wanting"
     ],
     "slug": "wiseness-is-knowing-whats-worth-wanting",
@@ -4514,7 +4541,7 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "title": "turn-transient-notes-into-evergreen-notes",
+        "title": "Turn transient notes into evergreen notes",
         "slug": "turn-transient-notes-into-evergreen-notes"
       }
     ]
@@ -4522,6 +4549,7 @@
   {
     "ids": [
       "Writing shouldn’t start with a blank page",
+      "Writing shouldn't start with a blank page",
       "writing-shouldnt-start-with-a-blank-page"
     ],
     "slug": "writing-shouldnt-start-with-a-blank-page",
