@@ -23,6 +23,7 @@
   },
   {
     "ids": [
+      "Advertising May Work By Cultural Imprinting",
       "Advertising may work by cultural imprinting",
       "advertising-may-work-by-cultural-imprinting"
     ],
@@ -84,11 +85,11 @@
     ],
     "inboundLinks": [
       {
-        "title": "Advertising may work by cultural imprinting",
+        "title": "Advertising May Work By Cultural Imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
-        "title": "Advertising must be memorable",
+        "title": "Composable Commerce Is A Spectrum",
         "slug": "advertising-must-be-memorable"
       },
       {
@@ -111,6 +112,7 @@
   },
   {
     "ids": [
+      "Composable Commerce Is A Spectrum",
       "Advertising must be memorable",
       "advertising-must-be-memorable"
     ],
@@ -1180,7 +1182,7 @@
     "outboundLinks": [
       {
         "matchedId": "advertising-may-work-by-cultural-imprinting",
-        "title": "Advertising may work by cultural imprinting",
+        "title": "Advertising May Work By Cultural Imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       }
     ],
@@ -1212,7 +1214,7 @@
       },
       {
         "matchedId": "advertising-may-work-by-cultural-imprinting",
-        "title": "Advertising may work by cultural imprinting",
+        "title": "Advertising May Work By Cultural Imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
@@ -2498,7 +2500,7 @@
       },
       {
         "matchedId": "advertising-must-be-memorable",
-        "title": "Advertising must be memorable",
+        "title": "Composable Commerce Is A Spectrum",
         "slug": "advertising-must-be-memorable"
       }
     ],
@@ -2563,7 +2565,7 @@
     ],
     "inboundLinks": [
       {
-        "title": "Advertising may work by cultural imprinting",
+        "title": "Advertising May Work By Cultural Imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
@@ -2596,7 +2598,7 @@
       },
       {
         "matchedId": "advertising-must-be-memorable",
-        "title": "Advertising must be memorable",
+        "title": "Composable Commerce Is A Spectrum",
         "slug": "advertising-must-be-memorable"
       },
       {
@@ -2611,7 +2613,7 @@
         "slug": "advertising-must-be-consistent"
       },
       {
-        "title": "Advertising must be memorable",
+        "title": "Composable Commerce Is A Spectrum",
         "slug": "advertising-must-be-memorable"
       },
       {
@@ -3057,7 +3059,7 @@
     ],
     "inboundLinks": [
       {
-        "title": "Advertising may work by cultural imprinting",
+        "title": "Advertising May Work By Cultural Imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting"
       },
       {
