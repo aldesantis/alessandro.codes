@@ -18,7 +18,13 @@
     "slug": "accelerate-existing-customer-behavior",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -39,6 +45,11 @@
         "matchedId": "personalization-may-be-harmful",
         "title": "Personalization may be harmful",
         "slug": "personalization-may-be-harmful"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
       },
       {
         "matchedId": "marketing-must-build-availability",
@@ -80,6 +91,11 @@
         "matchedId": "personalization-may-be-harmful",
         "title": "Personalization may be harmful",
         "slug": "personalization-may-be-harmful"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
       }
     ],
     "inboundLinks": [
@@ -280,7 +296,13 @@
     "slug": "appeal-to-emotion-and-reason-for-changing-things",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "switch",
+        "title": "Switch",
+        "slug": "Switch"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -318,7 +340,13 @@
     "slug": "authenticity-is-a-learned-skill",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "from-start-up-to-grown-up",
+        "title": "From Start-Up to Grown-Up",
+        "slug": "from-start-up-to-grown-up"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -329,7 +357,13 @@
     "slug": "avoid-open-ended-next-steps-in-sales",
     "status": "seedling",
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "rainmaking-conversations",
+        "title": "Rainmaking Conversations",
+        "slug": "rainmaking-conversations"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -398,7 +432,13 @@
     "slug": "being-right-is-dictated-by-facts-not-opinions",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "clear-thinking",
+        "title": "Clear Thinking",
+        "slug": "clear-thinking"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -439,6 +479,16 @@
     "contentType": "notes",
     "outboundLinks": [
       {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
+      },
+      {
         "matchedId": "loyalty-programs-dont-drive-direct-growth",
         "title": "Loyalty programs don’t drive direct growth",
         "slug": "loyalty-programs-dont-drive-direct-growth"
@@ -477,6 +527,11 @@
         "matchedId": "cultural-fragmentation-causes-market-fragmentation",
         "title": "Cultural fragmentation causes market fragmentation",
         "slug": "cultural-fragmentation-causes-market-fragmentation"
+      },
+      {
+        "matchedId": "the-new-strategic-brand-management",
+        "title": "The New Strategic Brand Management",
+        "slug": "the-new-strategic-brand-management"
       }
     ],
     "inboundLinks": [
@@ -580,7 +635,13 @@
     "slug": "bright-spots-catalyze-change",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "switch",
+        "title": "Switch",
+        "slug": "Switch"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Shared vision is built through hiring",
@@ -686,6 +747,11 @@
         "matchedId": "the-map-is-not-the-territory",
         "title": "The map is not the territory",
         "slug": "the-map-is-not-the-territory"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
       }
     ],
     "inboundLinks": [
@@ -887,6 +953,11 @@
         "matchedId": "the-organization-is-the-work",
         "title": "The organization is the work",
         "slug": "the-organization-is-the-work"
+      },
+      {
+        "matchedId": "the-fifth-discipline",
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline"
       }
     ],
     "inboundLinks": [
@@ -1258,7 +1329,13 @@
     "slug": "curation-creates-brand-depth",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-business-of-aspiration",
+        "title": "The Business of Aspiration",
+        "slug": "the-business-of-aspiration"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -1279,6 +1356,11 @@
         "matchedId": "marketing-must-build-availability",
         "title": "Marketing must build availability",
         "slug": "marketing-must-build-availability"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
       }
     ],
     "inboundLinks": [
@@ -1465,6 +1547,11 @@
         "matchedId": "prioritize-strengths-over-weaknesses",
         "title": "Prioritize strengths over weaknesses",
         "slug": "prioritize-strengths-over-weaknesses"
+      },
+      {
+        "matchedId": "clear-thinking",
+        "title": "Clear Thinking",
+        "slug": "clear-thinking"
       }
     ],
     "inboundLinks": [
@@ -1504,7 +1591,13 @@
     "slug": "economies-of-scale-are-not-exclusive",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-crux",
+        "title": "The Crux",
+        "slug": "the-crux"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -1520,6 +1613,11 @@
         "matchedId": "innovation-needs-a-platform",
         "title": "Innovation needs a platform",
         "slug": "innovation-needs-a-platform"
+      },
+      {
+        "matchedId": "the-mckinsey-way",
+        "title": "The McKinsey Way",
+        "slug": "the-mckinsey-way"
       }
     ],
     "inboundLinks": [
@@ -1551,6 +1649,11 @@
         "matchedId": "reason-from-first-principles",
         "title": "Reason from first principles",
         "slug": "reason-from-first-principles"
+      },
+      {
+        "matchedId": "clear-thinking",
+        "title": "Clear Thinking",
+        "slug": "clear-thinking"
       }
     ],
     "inboundLinks": [
@@ -1699,6 +1802,11 @@
         "matchedId": "tacit-knowledge-cannot-be-captured",
         "title": "Tacit knowledge cannot be captured",
         "slug": "tacit-knowledge-cannot-be-captured"
+      },
+      {
+        "matchedId": "how-to-take-smart-notes",
+        "title": "How to Take Smart Notes",
+        "slug": "how-to-take-smart-notes"
       }
     ],
     "inboundLinks": [
@@ -1727,7 +1835,13 @@
     "slug": "focus-on-aspirations-and-afflictions",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "rainmaking-conversations",
+        "title": "Rainmaking Conversations",
+        "slug": "rainmaking-conversations"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -1782,7 +1896,13 @@
     "slug": "focus-on-the-new-reality",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "rainmaking-conversations",
+        "title": "Rainmaking Conversations",
+        "slug": "rainmaking-conversations"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -1910,6 +2030,16 @@
         "matchedId": "effective-change-requires-collaboration",
         "title": "Effective change requires collaboration",
         "slug": "effective-change-requires-collaboration"
+      },
+      {
+        "matchedId": "flawless-consulting",
+        "title": "Flawless Consulting",
+        "slug": "flawless-consulting"
+      },
+      {
+        "matchedId": "the-trusted-advisor",
+        "title": "The Trusted Advisor",
+        "slug": "the-trusted-advisor"
       }
     ],
     "inboundLinks": []
@@ -1944,6 +2074,16 @@
         "matchedId": "advertising-must-be-consistent",
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent"
+      },
+      {
+        "matchedId": "trillion-dollar-coach",
+        "title": "Trillion Dollar Coach",
+        "slug": "trillion-dollar-coach"
+      },
+      {
+        "matchedId": "the-fifth-discipline",
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline"
       }
     ],
     "inboundLinks": [
@@ -2016,7 +2156,13 @@
     "slug": "hard-work-is-overrated",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "100-truths-you-will-learn-too-late",
+        "title": "100 Truths You Will Learn Too Late",
+        "slug": "100-truths-you-will-learn-too-late"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2027,7 +2173,13 @@
     "slug": "hire-coachable-people",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "trillion-dollar-coach",
+        "title": "Trillion Dollar Coach",
+        "slug": "trillion-dollar-coach"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2145,7 +2297,13 @@
     "slug": "improvements-must-be-protected",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "good-strategybad-strategy",
+        "title": "Good Strategy/Bad Strategy",
+        "slug": "good-strategybad-strategy"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2245,6 +2403,11 @@
         "matchedId": "eliminate-bias-systematically",
         "title": "Eliminate bias systematically",
         "slug": "eliminate-bias-systematically"
+      },
+      {
+        "matchedId": "thinking-in-systems",
+        "title": "Thinking in Systems",
+        "slug": "thinking-in-systems"
       }
     ],
     "inboundLinks": [
@@ -2272,6 +2435,11 @@
         "matchedId": "effective-change-requires-collaboration",
         "title": "Effective change requires collaboration",
         "slug": "effective-change-requires-collaboration"
+      },
+      {
+        "matchedId": "the-fifth-discipline",
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline"
       }
     ],
     "inboundLinks": [
@@ -2297,7 +2465,13 @@
     "slug": "kindness-begets-kindness",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "rainmaking-conversations",
+        "title": "Rainmaking Conversations",
+        "slug": "rainmaking-conversations"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2365,6 +2539,11 @@
     "contentType": "notes",
     "outboundLinks": [
       {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
+      },
+      {
         "matchedId": "marketing-must-build-availability",
         "title": "Marketing must build availability",
         "slug": "marketing-must-build-availability"
@@ -2394,7 +2573,13 @@
     "slug": "lofty-visions-require-personal-mastery",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-fifth-discipline",
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2448,7 +2633,13 @@
     "slug": "make-people-feel-good-about-themselves-to-make-them-like-you",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "how-to-talk-to-anyone",
+        "title": "How to Talk to Anyone",
+        "slug": "how-to-talk-to-anyone"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2459,7 +2650,13 @@
     "slug": "managers-operate-on-two-horizons",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "scaling-up-excellence",
+        "title": "Scaling Up Excellence",
+        "slug": "scaling-up-excellence"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2495,6 +2692,11 @@
         "matchedId": "advertising-must-be-memorable",
         "title": "Advertising must be memorable",
         "slug": "advertising-must-be-memorable"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
       }
     ],
     "inboundLinks": [
@@ -2554,6 +2756,11 @@
         "matchedId": "advertising-must-be-consistent",
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
       }
     ],
     "inboundLinks": [
@@ -2640,6 +2847,11 @@
         "matchedId": "brand-growth-comes-from-light-buyers",
         "title": "Brand growth comes from light buyers",
         "slug": "brand-growth-comes-from-light-buyers"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
       },
       {
         "matchedId": "every-sales-channel-has-its-purpose",
@@ -2845,7 +3057,13 @@
     "slug": "money-is-like-oxygen",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-fifth-discipline",
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Focusing on monetary value impoverishes cultural work",
@@ -3009,7 +3227,18 @@
     "slug": "people-problems-are-often-situation-problems",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "switch",
+        "title": "Switch",
+        "slug": "Switch"
+      },
+      {
+        "matchedId": "100-truths-you-will-learn-too-late",
+        "title": "100 Truths You Will Learn Too Late",
+        "slug": "100-truths-you-will-learn-too-late"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3025,6 +3254,11 @@
         "matchedId": "strategy-requires-focus",
         "title": "Strategy requires focus",
         "slug": "strategy-requires-focus"
+      },
+      {
+        "matchedId": "building-a-second-brain",
+        "title": "Building a Second Brain",
+        "slug": "building-a-second-brain"
       }
     ],
     "inboundLinks": []
@@ -3047,6 +3281,11 @@
         "matchedId": "ai-allows-hyper-personalization",
         "title": "AI allows hyper-personalization",
         "slug": "ai-allows-hyper-personalization"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
       }
     ],
     "inboundLinks": [
@@ -3076,7 +3315,13 @@
     "slug": "physical-design-is-hard-to-change",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking-in-systems",
+        "title": "Thinking in Systems",
+        "slug": "thinking-in-systems"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3188,6 +3433,16 @@
         "matchedId": "be-wary-of-flawless-ideas",
         "title": "Be wary of flawless ideas",
         "slug": "be-wary-of-flawless-ideas"
+      },
+      {
+        "matchedId": "good-strategybad-strategy",
+        "title": "Good Strategy/Bad Strategy",
+        "slug": "good-strategybad-strategy"
+      },
+      {
+        "matchedId": "the-crux",
+        "title": "The Crux",
+        "slug": "the-crux"
       }
     ],
     "inboundLinks": [
@@ -3225,6 +3480,11 @@
         "matchedId": "strategy-deals-with-present-challenges",
         "title": "Strategy deals with present challenges",
         "slug": "strategy-deals-with-present-challenges"
+      },
+      {
+        "matchedId": "empowered",
+        "title": "Empowered",
+        "slug": "Empowered"
       }
     ],
     "inboundLinks": []
@@ -3237,7 +3497,13 @@
     "slug": "productivity-is-goal-plus-strategy",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "good-strategybad-strategy",
+        "title": "Good Strategy/Bad Strategy",
+        "slug": "good-strategybad-strategy"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3248,7 +3514,13 @@
     "slug": "psychological-safety-is-a-compromise",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-fearless-organization",
+        "title": "The Fearless Organization",
+        "slug": "the-fearless-organization"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3259,7 +3531,13 @@
     "slug": "psychological-safety-is-a-team-factor",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-fearless-organization",
+        "title": "The Fearless Organization",
+        "slug": "the-fearless-organization"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3297,6 +3575,11 @@
         "matchedId": "point-to-the-new-tower",
         "title": "Point to the new tower",
         "slug": "point-to-the-new-tower"
+      },
+      {
+        "matchedId": "empowered",
+        "title": "Empowered",
+        "slug": "Empowered"
       }
     ],
     "inboundLinks": []
@@ -3362,7 +3645,13 @@
     "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking-in-systems",
+        "title": "Thinking in Systems",
+        "slug": "thinking-in-systems"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Market share is a self-reinforcing feedback loop",
@@ -3378,7 +3667,13 @@
     "slug": "renewable-resources-are-flow-limited",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking-in-systems",
+        "title": "Thinking in Systems",
+        "slug": "thinking-in-systems"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3400,7 +3695,13 @@
     "slug": "retention-doesnt-grow-brands",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3584,6 +3885,11 @@
         "matchedId": "shared-vision-is-built-through-inquiry",
         "title": "Shared vision is built through inquiry",
         "slug": "shared-vision-is-built-through-inquiry"
+      },
+      {
+        "matchedId": "the-fifth-discipline",
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline"
       }
     ],
     "inboundLinks": [
@@ -3605,7 +3911,13 @@
     "slug": "shared-vision-promotes-systems-thinking",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-fifth-discipline",
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Shared vision is descriptive, not prescriptive",
@@ -3643,7 +3955,13 @@
     "slug": "social-commerce-puts-people-over-brands",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-business-of-aspiration",
+        "title": "The Business of Aspiration",
+        "slug": "the-business-of-aspiration"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3664,6 +3982,11 @@
         "matchedId": "in-the-future-commerce-will-be-everywhere",
         "title": "In the future, commerce will be everywhere",
         "slug": "in-the-future-commerce-will-be-everywhere"
+      },
+      {
+        "matchedId": "the-business-of-aspiration",
+        "title": "The Business of Aspiration",
+        "slug": "the-business-of-aspiration"
       }
     ],
     "inboundLinks": []
@@ -3752,6 +4075,26 @@
         "matchedId": "strategy-requires-focus",
         "title": "Strategy requires focus",
         "slug": "strategy-requires-focus"
+      },
+      {
+        "matchedId": "escaping-the-build-trap",
+        "title": "Escaping the Build Trap",
+        "slug": "escaping-the-build-trap"
+      },
+      {
+        "matchedId": "empowered",
+        "title": "Empowered",
+        "slug": "Empowered"
+      },
+      {
+        "matchedId": "good-strategybad-strategy",
+        "title": "Good Strategy/Bad Strategy",
+        "slug": "good-strategybad-strategy"
+      },
+      {
+        "matchedId": "the-crux",
+        "title": "The Crux",
+        "slug": "the-crux"
       }
     ],
     "inboundLinks": [
@@ -3900,7 +4243,13 @@
     "slug": "systems-happen-all-at-once",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking-in-systems",
+        "title": "Thinking in Systems",
+        "slug": "thinking-in-systems"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -3911,7 +4260,13 @@
     "slug": "systems-must-be-inspected",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking-in-systems",
+        "title": "Thinking in Systems",
+        "slug": "thinking-in-systems"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -4084,7 +4439,13 @@
     "slug": "the-new-luxury-is-about-taste-not-wealth",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-business-of-aspiration",
+        "title": "The Business of Aspiration",
+        "slug": "the-business-of-aspiration"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Wiseness is knowing what’s worth wanting",
@@ -4143,6 +4504,11 @@
         "matchedId": "risk-protects-from-competition",
         "title": "Risk protects from competition",
         "slug": "risk-protects-from-competition"
+      },
+      {
+        "matchedId": "empowered",
+        "title": "Empowered",
+        "slug": "Empowered"
       }
     ],
     "inboundLinks": [
@@ -4171,7 +4537,13 @@
     "slug": "there-are-three-types-of-failure",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-fearless-organization",
+        "title": "The Fearless Organization",
+        "slug": "the-fearless-organization"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -4247,6 +4619,11 @@
         "matchedId": "brands-need-to-activate-their-purpose",
         "title": "Brands need to activate their purpose",
         "slug": "brands-need-to-activate-their-purpose"
+      },
+      {
+        "matchedId": "the-business-of-aspiration",
+        "title": "The Business of Aspiration",
+        "slug": "the-business-of-aspiration"
       }
     ],
     "inboundLinks": [
@@ -4299,6 +4676,11 @@
         "matchedId": "reason-from-first-principles",
         "title": "Reason from first principles",
         "slug": "reason-from-first-principles"
+      },
+      {
+        "matchedId": "scaling-up-excellence",
+        "title": "Scaling Up Excellence",
+        "slug": "scaling-up-excellence"
       }
     ],
     "inboundLinks": [
@@ -4336,7 +4718,13 @@
     "slug": "use-the-tera-quotient-to-build-trust",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-coaching-habit",
+        "title": "The Coaching Habit",
+        "slug": "the-coaching-habit"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -4513,7 +4901,13 @@
     "slug": "work-toward-proximate-objectives",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "the-crux",
+        "title": "The Crux",
+        "slug": "the-crux"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Strategy requires focus",
@@ -4545,7 +4939,13 @@
     "slug": "writing-shouldnt-start-with-a-blank-page",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "how-to-take-smart-notes",
+        "title": "How to Take Smart Notes",
+        "slug": "how-to-take-smart-notes"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -4591,5 +4991,1085 @@
       }
     ],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "$100M Leads",
+      "$100m-leads"
+    ],
+    "slug": "$100m-leads",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "100 Truths You Will Learn Too Late",
+      "100-truths-you-will-learn-too-late"
+    ],
+    "slug": "100-truths-you-will-learn-too-late",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Hard work is overrated",
+        "slug": "hard-work-is-overrated"
+      },
+      {
+        "title": "People problems are often situation problems",
+        "slug": "people-problems-are-often-situation-problems"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "12 Rules for Life",
+      "12-rules-for-life"
+    ],
+    "slug": "12-rules-for-life",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Alchemy"
+    ],
+    "slug": "Alchemy",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Empowered"
+    ],
+    "slug": "Empowered",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Product strategy has four steps",
+        "slug": "product-strategy-has-four-steps"
+      },
+      {
+        "title": "Re-evaluate your strengths",
+        "slug": "re-evaluate-your-strengths"
+      },
+      {
+        "title": "Strategy deals with present challenges",
+        "slug": "strategy-deals-with-present-challenges"
+      },
+      {
+        "title": "There are four types of product risk",
+        "slug": "there-are-four-types-of-product-risk"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Exhalation"
+    ],
+    "slug": "Exhalation",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gravitas"
+    ],
+    "slug": "Gravitas",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [
+      {
+        "matchedId": "gravitas",
+        "title": "Gravitas",
+        "slug": "Gravitas"
+      },
+      {
+        "matchedId": "gravitas",
+        "title": "Gravitas",
+        "slug": "Gravitas"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Gravitas",
+        "slug": "Gravitas"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Inspired"
+    ],
+    "slug": "Inspired",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Obsessed"
+    ],
+    "slug": "Obsessed",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Switch"
+    ],
+    "slug": "Switch",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Appeal to emotion and reason for changing things",
+        "slug": "appeal-to-emotion-and-reason-for-changing-things"
+      },
+      {
+        "title": "Bright spots catalyze change",
+        "slug": "bright-spots-catalyze-change"
+      },
+      {
+        "title": "People problems are often situation problems",
+        "slug": "people-problems-are-often-situation-problems"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Ave Mary",
+      "ave-mary"
+    ],
+    "slug": "ave-mary",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Building a Second Brain",
+      "building-a-second-brain"
+    ],
+    "slug": "building-a-second-brain",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Perfectionism delays convergence",
+        "slug": "perfectionism-delays-convergence"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Clear Thinking",
+      "clear-thinking"
+    ],
+    "slug": "clear-thinking",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Being right is dictated by facts, not opinions",
+        "slug": "being-right-is-dictated-by-facts-not-opinions"
+      },
+      {
+        "title": "Don’t play life on hard mode",
+        "slug": "dont-play-life-on-hard-mode"
+      },
+      {
+        "title": "Eliminate bias systematically",
+        "slug": "eliminate-bias-systematically"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Continuous Discovery Habits",
+      "continuous-discovery-habits"
+    ],
+    "slug": "continuous-discovery-habits",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Creative Dysregulation",
+      "creative-dysregulation"
+    ],
+    "slug": "creative-dysregulation",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Crucial Conversations Tools for Talking When Stakes Are High",
+      "crucial-conversations-tools-for-talking-when-stakes-are-high"
+    ],
+    "slug": "crucial-conversations-tools-for-talking-when-stakes-are-high",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dare La Vita",
+      "dare-la-vita"
+    ],
+    "slug": "dare-la-vita",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "eCommerce Engine - Roadmap on How to Transform Your DTC Brand Into an 8-Figure Powerhouse",
+      "ecommerce-engine---roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse"
+    ],
+    "slug": "ecommerce-engine---roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ego Is the Enemy",
+      "ego-is-the-enemy"
+    ],
+    "slug": "ego-is-the-enemy",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Escaping the Build Trap",
+      "escaping-the-build-trap"
+    ],
+    "slug": "escaping-the-build-trap",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Strategy deals with present challenges",
+        "slug": "strategy-deals-with-present-challenges"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Everybody’s Normal Till You Get to Know Them",
+      "everybody's-normal-till-you-get-to-know-them"
+    ],
+    "slug": "everybody's-normal-till-you-get-to-know-them",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Finite and Infinite Games",
+      "finite-and-infinite-games"
+    ],
+    "slug": "finite-and-infinite-games",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Flawless Consulting",
+      "flawless-consulting"
+    ],
+    "slug": "flawless-consulting",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Good consulting requires client collaboration",
+        "slug": "good-consulting-requires-client-collaboration"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "From Impossible to Inevitable",
+      "from-impossible-to-inevitable"
+    ],
+    "slug": "from-impossible-to-inevitable",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "From Start-Up to Grown-Up",
+      "from-start-up-to-grown-up"
+    ],
+    "slug": "from-start-up-to-grown-up",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Authenticity is a learned skill",
+        "slug": "authenticity-is-a-learned-skill"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Get Together",
+      "get-together"
+    ],
+    "slug": "get-together",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good Strategy/Bad Strategy",
+      "good-strategybad-strategy"
+    ],
+    "slug": "good-strategybad-strategy",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Improvements must be protected",
+        "slug": "improvements-must-be-protected"
+      },
+      {
+        "title": "Prioritize strengths over weaknesses",
+        "slug": "prioritize-strengths-over-weaknesses"
+      },
+      {
+        "title": "Productivity is goal plus strategy",
+        "slug": "productivity-is-goal-plus-strategy"
+      },
+      {
+        "title": "Strategy deals with present challenges",
+        "slug": "strategy-deals-with-present-challenges"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "High Output Management",
+      "high-output-management"
+    ],
+    "slug": "high-output-management",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How Brands Grow",
+      "how-brands-grow"
+    ],
+    "slug": "how-brands-grow",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Accelerate existing customer behavior",
+        "slug": "accelerate-existing-customer-behavior"
+      },
+      {
+        "title": "Advertising may work by cultural imprinting",
+        "slug": "advertising-may-work-by-cultural-imprinting"
+      },
+      {
+        "title": "Advertising must be consistent",
+        "slug": "advertising-must-be-consistent"
+      },
+      {
+        "title": "Brand growth comes from light buyers",
+        "slug": "brand-growth-comes-from-light-buyers"
+      },
+      {
+        "title": "Chaotic systems are not random",
+        "slug": "chaotic-systems-are-not-random"
+      },
+      {
+        "title": "Customer loyalty is behavioral",
+        "slug": "customer-loyalty-is-behavioral"
+      },
+      {
+        "title": "Light buyers favor large brands",
+        "slug": "light-buyers-favor-large-brands"
+      },
+      {
+        "title": "Market penetration trumps market segmentation",
+        "slug": "market-penetration-trumps-market-segmentation"
+      },
+      {
+        "title": "Marketing must build availability",
+        "slug": "marketing-must-build-availability"
+      },
+      {
+        "title": "Marketing must build physical availability",
+        "slug": "marketing-must-build-physical-availability"
+      },
+      {
+        "title": "Personalization may be harmful",
+        "slug": "personalization-may-be-harmful"
+      },
+      {
+        "title": "Retention doesn’t grow brands",
+        "slug": "retention-doesnt-grow-brands"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "How to Take Smart Notes",
+      "how-to-take-smart-notes"
+    ],
+    "slug": "how-to-take-smart-notes",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Explicit knowledge can be captured",
+        "slug": "explicit-knowledge-can-be-captured"
+      },
+      {
+        "title": "Writing shouldn’t start with a blank page",
+        "slug": "writing-shouldnt-start-with-a-blank-page"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "How to Talk to Anyone",
+      "how-to-talk-to-anyone"
+    ],
+    "slug": "how-to-talk-to-anyone",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Make people feel good about themselves to make them like you",
+        "slug": "make-people-feel-good-about-themselves-to-make-them-like-you"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "How to Work a Room",
+      "how-to-work-a-room"
+    ],
+    "slug": "how-to-work-a-room",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il Bambino Scomparso",
+      "il-bambino-scomparso"
+    ],
+    "slug": "il-bambino-scomparso",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il Regno",
+      "il-regno"
+    ],
+    "slug": "il-regno",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Improve Your Social Skills",
+      "improve-your-social-skills"
+    ],
+    "slug": "improve-your-social-skills",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Io Sono Vivo Voi Siete Morti",
+      "io-sono-vivo-voi-siete-morti"
+    ],
+    "slug": "io-sono-vivo-voi-siete-morti",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Love All the People",
+      "love-all-the-people"
+    ],
+    "slug": "love-all-the-people",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "L’Avvocato Dell’Atomo",
+      "l’avvocato-dell’atomo"
+    ],
+    "slug": "l’avvocato-dell’atomo",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "L’insostenibile Leggerezza Dell’essere",
+      "l’insostenibile-leggerezza-dell’essere"
+    ],
+    "slug": "l’insostenibile-leggerezza-dell’essere",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ma Chi Me Lo Fa Fare? Come Il Lavoro Ci Ha Illuso",
+      "ma-chi-me-lo-fa-fare-come-il-lavoro-ci-ha-illuso"
+    ],
+    "slug": "ma-chi-me-lo-fa-fare-come-il-lavoro-ci-ha-illuso",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Madame Bovary",
+      "madame-bovary"
+    ],
+    "slug": "madame-bovary",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Managing the Professional Service Firm",
+      "managing-the-professional-service-firm"
+    ],
+    "slug": "managing-the-professional-service-firm",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Marketers Are From Mars, Consumers Are From New Jersey",
+      "marketers-are-from-mars,-consumers-are-from-new-jersey"
+    ],
+    "slug": "marketers-are-from-mars,-consumers-are-from-new-jersey",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Measure What Matters",
+      "measure-what-matters"
+    ],
+    "slug": "measure-what-matters",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Noi, Bambine Ad Auschwitz",
+      "noi,-bambine-ad-auschwitz"
+    ],
+    "slug": "noi,-bambine-ad-auschwitz",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "People, Power, and Profits",
+      "people,-power,-and-profits"
+    ],
+    "slug": "people,-power,-and-profits",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Predictable Prospecting",
+      "predictable-prospecting"
+    ],
+    "slug": "predictable-prospecting",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Professional Services Marketing",
+      "professional-services-marketing"
+    ],
+    "slug": "professional-services-marketing",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rainmaking Conversations",
+      "rainmaking-conversations"
+    ],
+    "slug": "rainmaking-conversations",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Avoid open-ended next steps in sales",
+        "slug": "avoid-open-ended-next-steps-in-sales"
+      },
+      {
+        "title": "Focus on aspirations and afflictions",
+        "slug": "focus-on-aspirations-and-afflictions"
+      },
+      {
+        "title": "Focus on the new reality",
+        "slug": "focus-on-the-new-reality"
+      },
+      {
+        "title": "Kindness begets kindness",
+        "slug": "kindness-begets-kindness"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Salt, Fat, Acid, Heat",
+      "salt,-fat,-acid,-heat"
+    ],
+    "slug": "salt,-fat,-acid,-heat",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Scaling Up Excellence",
+      "scaling-up-excellence"
+    ],
+    "slug": "scaling-up-excellence",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Managers operate on two horizons",
+        "slug": "managers-operate-on-two-horizons"
+      },
+      {
+        "title": "Unknown habits impede learning",
+        "slug": "unknown-habits-impede-learning"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Sorry I’m Late, I Didn’t Want to Come",
+      "sorry-i'm-late,-i-didn't-want-to-come"
+    ],
+    "slug": "sorry-i'm-late,-i-didn't-want-to-come",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The 15 Commitments of Conscious Leadership",
+      "the-15-commitments-of-conscious-leadership"
+    ],
+    "slug": "the-15-commitments-of-conscious-leadership",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Art of Gathering",
+      "the-art-of-gathering"
+    ],
+    "slug": "the-art-of-gathering",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Boutique",
+      "the-boutique"
+    ],
+    "slug": "the-boutique",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Business of Aspiration",
+      "the-business-of-aspiration"
+    ],
+    "slug": "the-business-of-aspiration",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Curation creates brand depth",
+        "slug": "curation-creates-brand-depth"
+      },
+      {
+        "title": "Social commerce puts people over brands",
+        "slug": "social-commerce-puts-people-over-brands"
+      },
+      {
+        "title": "Social media is leading to product-centric commerce",
+        "slug": "social-media-is-leading-to-product-centric-commerce"
+      },
+      {
+        "title": "The new luxury is about taste, not wealth",
+        "slug": "the-new-luxury-is-about-taste-not-wealth"
+      },
+      {
+        "title": "Turn your brand into social capital",
+        "slug": "turn-your-brand-into-social-capital"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "The Challenger Sale",
+      "the-challenger-sale"
+    ],
+    "slug": "the-challenger-sale",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Charisma Myth",
+      "the-charisma-myth"
+    ],
+    "slug": "the-charisma-myth",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Coaching Habit",
+      "the-coaching-habit"
+    ],
+    "slug": "the-coaching-habit",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Use the TERA quotient for building trust",
+        "slug": "use-the-tera-quotient-to-build-trust"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "The Crux",
+      "the-crux"
+    ],
+    "slug": "the-crux",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Economies of scale are not exclusive",
+        "slug": "economies-of-scale-are-not-exclusive"
+      },
+      {
+        "title": "Prioritize strengths over weaknesses",
+        "slug": "prioritize-strengths-over-weaknesses"
+      },
+      {
+        "title": "Strategy deals with present challenges",
+        "slug": "strategy-deals-with-present-challenges"
+      },
+      {
+        "title": "Work toward proximate objectives",
+        "slug": "work-toward-proximate-objectives"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "The Fearless Organization",
+      "the-fearless-organization"
+    ],
+    "slug": "the-fearless-organization",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Psychological safety is a compromise",
+        "slug": "psychological-safety-is-a-compromise"
+      },
+      {
+        "title": "Psychological safety is a team factor",
+        "slug": "psychological-safety-is-a-team-factor"
+      },
+      {
+        "title": "There are three types of failure",
+        "slug": "there-are-three-types-of-failure"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "The Fifth Discipline",
+      "the-fifth-discipline"
+    ],
+    "slug": "the-fifth-discipline",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Compliance is not commitment",
+        "slug": "compliance-is-not-commitment"
+      },
+      {
+        "title": "Good management requires consistency",
+        "slug": "good-management-requires-consistency"
+      },
+      {
+        "title": "Innovation needs a platform",
+        "slug": "innovation-needs-a-platform"
+      },
+      {
+        "title": "Lofty visions require personal mastery",
+        "slug": "lofty-visions-require-personal-mastery"
+      },
+      {
+        "title": "Money is like oxygen",
+        "slug": "money-is-like-oxygen"
+      },
+      {
+        "title": "Shared vision is descriptive, not prescriptive",
+        "slug": "shared-vision-is-descriptive-not-prescriptive"
+      },
+      {
+        "title": "Shared vision promotes systems thinking",
+        "slug": "shared-vision-promotes-systems-thinking"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "The McKinsey Way",
+      "the-mckinsey-way"
+    ],
+    "slug": "the-mckinsey-way",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Effective change requires collaboration",
+        "slug": "effective-change-requires-collaboration"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "The New Strategic Brand Management",
+      "the-new-strategic-brand-management"
+    ],
+    "slug": "the-new-strategic-brand-management",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Brand management aims to turn brands into landmarks",
+        "slug": "brand-management-aims-to-turn-brands-into-landmarks"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "The Trusted Advisor",
+      "the-trusted-advisor"
+    ],
+    "slug": "the-trusted-advisor",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Good consulting requires client collaboration",
+        "slug": "good-consulting-requires-client-collaboration"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Thinking in Systems",
+      "thinking-in-systems"
+    ],
+    "slug": "thinking-in-systems",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Information quality is decision quality",
+        "slug": "information-quality-is-decision-quality"
+      },
+      {
+        "title": "Physical design is hard to change",
+        "slug": "physical-design-is-hard-to-change"
+      },
+      {
+        "title": "Reinforcing feedback loops can be self-enhancing or self-destructive",
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive"
+      },
+      {
+        "title": "Renewable resources are flow limited",
+        "slug": "renewable-resources-are-flow-limited"
+      },
+      {
+        "title": "Systems happen all at once",
+        "slug": "systems-happen-all-at-once"
+      },
+      {
+        "title": "Systems must be inspected",
+        "slug": "systems-must-be-inspected"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "To Sell Is Human",
+      "to-sell-is-human"
+    ],
+    "slug": "to-sell-is-human",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tranquility by Tuesday",
+      "tranquility-by-tuesday"
+    ],
+    "slug": "tranquility-by-tuesday",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Trillion Dollar Coach",
+      "trillion-dollar-coach"
+    ],
+    "slug": "trillion-dollar-coach",
+    "status": null,
+    "contentType": "readwise/books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Good management requires consistency",
+        "slug": "good-management-requires-consistency"
+      },
+      {
+        "title": "Hire coachable people",
+        "slug": "hire-coachable-people"
+      }
+    ]
   }
 ]

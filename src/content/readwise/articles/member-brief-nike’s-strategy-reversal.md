@@ -1,0 +1,29 @@
+---
+aliases:
+  - "Member Brief: Nike’s Strategy Reversal"
+author: 2PM
+imageUrl: https://2pml.com/wp-content/uploads/2023/06/chart-06.09.2023-scaled.jpg
+permalink: l/articles/member-brief-nike-s-strategy-reversal
+publishedOn: 2023-06-09
+source: reader
+status: 
+title: "Member Brief: Nike’s Strategy Reversal"
+url: https://2pml.com/2023/06/09/reversal/
+---
+# Member Brief: Nike’s Strategy Reversal
+
+![rw-book-cover](https://2pml.com/wp-content/uploads/2023/06/chart-06.09.2023-scaled.jpg)
+
+## Metadata
+
+- Author: [[2PM]]
+- Full Title: Member Brief: Nike’s Strategy Reversal
+- Category: #articles
+- Document Tags: [[dtc]] [[omnichannel]] [[retail]] [[wholesale]]
+- Summary: A cautionary tale, perhaps: if Nike pulls the plug on its DTC emphasis, omnichannel strategies may be the way to go. In February 2022, we detailed Nike’s push towards direct-to-consumer chann…
+- URL: https://2pml.com/2023/06/09/reversal/
+
+## Highlights
+
+- While DTC allows brands to nurture relationships with consumers, boost profitability, and control the narrative around their products, it is not without its pitfalls. Excess inventory, reduced brand exposure, and the loss of valuable multi-brand experiences are risks that companies need to carefully consider. ([View Highlight](https://read.readwise.io/read/01h666mtqa322b5smjxnkswg3y))
+    - Tags: [[wholesale]] [[ecommerce]] [[retail]] [[dtc]] [[strategy]]

@@ -1,0 +1,28 @@
+---
+aliases:
+  - Walmart Is Going After Amazon in a New Way — And Borrowing a Strategy From Target
+author: Dominick Reuter
+imageUrl: https://i.insider.com/65738b9858e7c0c29a2b5651?width=1200&format=jpeg
+permalink: l/articles/walmart-is-going-after-amazon-in-a-new-way-and-borrowing-a-strategy-from-target
+publishedOn: 2023-12-11
+source: reader
+status: 
+title: Walmart Is Going After Amazon in a New Way — And Borrowing a Strategy From Target
+url: https://www.businessinsider.com/walmart-going-after-amazon-with-ecommerce-strategy-from-target-2023-12?utm_source=mrdis&utm_campaign=ecommerceweekly&utm_medium=email&r=US&IR=T
+---
+# Walmart Is Going After Amazon in a New Way — And Borrowing a Strategy From Target
+
+![rw-book-cover](https://i.insider.com/65738b9858e7c0c29a2b5651?width=1200&format=jpeg)
+
+## Metadata
+
+- Author: [[Dominick Reuter]]
+- Full Title: Walmart Is Going After Amazon in a New Way — And Borrowing a Strategy From Target
+- Category: #articles
+- Document Tags: [[ecommerce]] [[physical]] [[retail]]
+- Summary: Walmart is adopting a strategy from Target by leveraging its physical stores to fulfill orders for its growing e-commerce business. Target has found success with this approach, and Walmart hopes it will give them an edge in their competition with Amazon. Both Walmart and Target are prioritizing fulfilling e-commerce orders from their retail stores, recognizing the importance of physical locations in digital sales. By utilizing their extensive physical retail presence, Walmart and Target aim to compete with Amazon in terms of speed and delivery capabilities.
+- URL: https://www.businessinsider.com/walmart-going-after-amazon-with-ecommerce-strategy-from-target-2023-12?utm_source=mrdis&utm_campaign=ecommerceweekly&utm_medium=email&r=US&IR=T
+
+## Highlights
+
+- Tapping into their considerable physical retail presence offers Walmart and Target the opportunity to meet or exceed Amazon in one metric that founder Jeff Bezos cared a lot about: speed. ([View Highlight](https://read.readwise.io/read/01hk82cw59dg8fgmfsthmyhj7t))

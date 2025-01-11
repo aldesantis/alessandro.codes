@@ -18,4 +18,7 @@ export default defineConfig({
       remarkWikiLink,
     ],
   },
+  image: {
+    domains: ["m.media-amazon.com", "covers.openlibrary.org"],
+  }
 });

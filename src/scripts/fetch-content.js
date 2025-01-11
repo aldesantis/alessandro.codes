@@ -5,7 +5,7 @@ import matter from 'gray-matter';
 
 const REPO_URL = 'git@github.com:aldesantis/digital-garden.git';
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content');
-const RETAIN_DIRS = ['essays', 'notes', 'nows', 'readwise'];
+const RETAIN_DIRS = ['essays', 'notes', 'nows', 'readwise', 'readwise/books'];
 
 async function cleanDirectory(dir) {
   try {

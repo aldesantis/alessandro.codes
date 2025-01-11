@@ -1,0 +1,24 @@
+---
+import BookCard from "@components/books/BookCard.astro";
+import Hero from "@components/ui/Hero.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const books = await getCollection("books");
+---
+
+<Layout>
+  <title slot="head">Books | Alessandro Desantis</title>
+
+  <Hero>
+    <span slot="heading">Books</span>
+    <span slot="subheading">
+      Long-form musings on life, commerce, strategy, and anything that catches
+      my attention.
+    </span>
+  </Hero>
+
+  <div class="grid lg:grid-cols-4 gap-8">
+    {books.map((book) => <BookCard book={book} />)}
+  </div>
+</Layout>

@@ -1,0 +1,30 @@
+---
+aliases:
+  - When I Stopped Trying to Self-Optimize, I Got Better
+author: Francis Sanzaro
+imageUrl: https://static01.nyt.com/images/2023/09/19/opinion/sunday/16Sanzaro/16Sanzaro-facebookJumbo.jpg
+permalink: l/articles/when-i-stopped-trying-to-self-optimize-i-got-better
+publishedOn: 2023-09-17
+source: reader
+status: 
+title: When I Stopped Trying to Self-Optimize, I Got Better
+url: https://www.nytimes.com/2023/09/17/opinion/sports-zen-mental-subtraction.html/
+---
+# When I Stopped Trying to Self-Optimize, I Got Better
+
+![rw-book-cover](https://static01.nyt.com/images/2023/09/19/opinion/sunday/16Sanzaro/16Sanzaro-facebookJumbo.jpg)
+
+## Metadata
+
+- Author: [[Francis Sanzaro]]
+- Full Title: When I Stopped Trying to Self-Optimize, I Got Better
+- Category: #articles
+- Document Tags: [[favorite]] [[happiness]] [[productivity]]
+- Summary: The growth mind-set. The abundance mind-set. The gratitude mind-set. I threw them all away.
+- URL: https://www.nytimes.com/2023/09/17/opinion/sports-zen-mental-subtraction.html/
+
+## Highlights
+
+- My experience in the years since that climb has taught me, unequivocally, that the body has no sense of concepts like success or failure. Concepts originate in the mind, and it is so with life as it is with sport. ([View Highlight](https://read.readwise.io/read/01hcf27xg59qrrjkx2jwvm39e2))
+- A great performance is nothing more than a lovely moment, and lovely moments are everywhere. To arrive there, you need to prune away what is causing anticipation and frustration — impatience with those you love, jealousy toward a friend or anger at your children. ([View Highlight](https://read.readwise.io/read/01hcf29bsq1tq4xfe5ebj3qxfj))
+    - Tags: [[productivity]]

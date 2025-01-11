@@ -1,0 +1,26 @@
+---
+aliases:
+  - Never Give This Up, No Matter What
+author: Mark Manson
+imageUrl: https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png
+permalink: l/articles/never-give-this-up-no-matter-what
+publishedOn: 2023-09-04
+source: reader
+status: 
+title: Never Give This Up, No Matter What
+url: ""
+---
+# Never Give This Up, No Matter What
+
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png)
+
+## Metadata
+
+- Author: [[Mark Manson]]
+- Full Title: Never Give This Up, No Matter What
+- Category: #articles
+- Summary: What’s one area of your life where you can stand up for yourself and prioritize your self-respect and values over the perception or judgment of others? Challenge yourself to do that once this week.
+
+## Highlights
+
+- The person you have to spend the most time listening to in your life is yourself. Try not to lose their respect. ([View Highlight](https://read.readwise.io/read/01h9gb9xscxb3z21rqpvyfzwep))

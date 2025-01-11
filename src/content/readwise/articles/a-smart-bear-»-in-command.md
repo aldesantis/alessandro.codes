@@ -1,0 +1,28 @@
+---
+aliases:
+  - A Smart Bear » In command
+author: Jason Cohen
+imageUrl: https://longform.asmartbear.com/in-command/thumbnail-1200w.png
+permalink: l/articles/a-smart-bear-in-command
+publishedOn: 2023-07-30
+source: reader
+status: 
+title: A Smart Bear » In command
+url: https://longform.asmartbear.com/in-command?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
+---
+# A Smart Bear » In command
+
+![rw-book-cover](https://longform.asmartbear.com/in-command/thumbnail-1200w.png)
+
+## Metadata
+
+- Author: [[Jason Cohen]]
+- Full Title: A Smart Bear » In command
+- Category: #articles
+- Document Tags: [[engineering]] [[favorite]] [[leadership]] [[startups]]
+- Summary: Being “in control” is impossible, perhaps not even desirable. Being “in command” is ideal: honest, introspective, agile, aware, and proactive.
+- URL: https://longform.asmartbear.com/in-command?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
+
+## Highlights
+
+- Being “in command” doesn’t mean you’re constantly telling people what to do. It means you’re acting as an editor, not a writer, unless being a writer is necessary to make progress. And if _that_ is happening constantly, that you make a change on the team so that it’s _not_ happening constantly. ([View Highlight](https://read.readwise.io/read/01h83ysprh9kczg5nxnmth8rf9))
