@@ -19,8 +19,8 @@ const cover = await fetchBookCover(book);
         <Image
           src={cover.default}
           alt={`${book.data.title} cover`}
-          inferSize={true}
-          class="max-h-[400px] w-auto"
+          height="800"
+          class="h-[400px] w-auto"
         />
       )
     }
