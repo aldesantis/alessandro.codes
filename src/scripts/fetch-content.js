@@ -5,7 +5,7 @@ import matter from 'gray-matter';
 
 const REPO_URL = 'git@github.com:aldesantis/digital-garden.git';
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content');
-const RETAIN_DIRS = ['essays', 'notes', 'nows', 'readwise', 'readwise/books'];
+const RETAIN_DIRS = ['essays', 'notes', 'nows', 'books']; // Updated retain dirs
 
 async function cleanDirectory(dir) {
   try {
@@ -20,6 +20,36 @@ async function cleanDirectory(dir) {
 async function cloneRepository() {
   console.log('Cloning repository...');
   execSync(`git clone ${REPO_URL} ${CONTENT_DIR}`, { stdio: 'inherit' });
+}
+
+async function moveReadwiseBooks() {
+  console.log('Moving books to books...');
+  const sourcePath = path.join(CONTENT_DIR, 'readwise', 'books');
+  const targetPath = path.join(CONTENT_DIR, 'books');
+
+  try {
+    // Ensure source directory exists
+    await fs.access(sourcePath);
+    
+    // Create target directory if it doesn't exist
+    await fs.mkdir(targetPath, { recursive: true });
+    
+    // Move all files from source to target
+    const files = await fs.readdir(sourcePath);
+    for (const file of files) {
+      const sourceFile = path.join(sourcePath, file);
+      const targetFile = path.join(targetPath, file);
+      await fs.rename(sourceFile, targetFile);
+    }
+    
+    // Remove the now-empty books directory from readwise
+    await cleanDirectory(sourcePath);
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      console.error('Error moving books:', error);
+      throw error;
+    }
+  }
 }
 
 async function removeUnwantedDirs() {
@@ -83,6 +113,7 @@ async function main() {
   try {
     await cleanDirectory(CONTENT_DIR);
     await cloneRepository();
+    await moveReadwiseBooks(); // Added this step
     await removeUnwantedDirs();
     await processMarkdownFiles();
     console.log('Repository processing completed successfully!');

@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 import chalk from 'chalk';
 import { setTimeout } from 'timers/promises';
 
-const CONTENT_DIR = path.join(process.cwd(), 'src/content/readwise/books');
+const CONTENT_DIR = path.join(process.cwd(), 'src/content/books');
 const COVERS_DIR = path.join(process.cwd(), 'src/assets/covers');
 const RATE_LIMIT_DELAY = 1000; // 1 second between requests
 const MAX_RETRIES = 3;

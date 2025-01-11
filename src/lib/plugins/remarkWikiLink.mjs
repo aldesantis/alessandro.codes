@@ -9,7 +9,7 @@ function buildContentEntryUrl({ contentType, slug }) {
       return `/notes/${slug}`;
     case "nows":
       return `/now/${slug}`;
-    case "readwise/books":
+    case "books":
       return `/books/${slug}`;
     default:
       return null;

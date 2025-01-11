@@ -53,7 +53,7 @@ export const collections = {
     }),
     loader: glob({
       pattern: "**/*.{md,mdx}",
-      base: "./src/content/readwise/books",
+      base: "./src/content/books",
     }),
   }),
 };
