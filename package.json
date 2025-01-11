@@ -8,14 +8,14 @@
     "preview": "astro preview",
     "astro": "astro",
     "generate-links": "node src/scripts/generate-links.js",
-    "fetch-content": "node src/scripts/fetch-content.js"
+    "fetch-content": "node src/scripts/fetch-content.js",
+    "fetch-covers": "node src/scripts/fetch-covers.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.3",
     "@astrojs/tailwind": "^5.1.4",
     "astro": "^5.1.2",
     "astro-icon": "^1.1.5",
-    "gray-matter": "^4.0.3",
     "mdast-util-to-string": "^4.0.0",
     "reading-time": "^1.5.0",
     "tailwindcss": "^3.4.17"
@@ -25,6 +25,9 @@
     "@iconify-json/fa6-regular": "^1.2.3",
     "@iconify-json/fa6-solid": "^1.2.3",
     "@tailwindcss/typography": "^0.5.15",
+    "chalk": "^5.4.1",
+    "gray-matter": "^4.0.3",
+    "node-fetch": "^3.3.2",
     "prettier": "^3.4.2",
     "prettier-plugin-astro": "^0.14.1"
   }

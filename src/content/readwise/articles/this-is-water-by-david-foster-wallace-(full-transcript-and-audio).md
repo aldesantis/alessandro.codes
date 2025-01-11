@@ -1,0 +1,30 @@
+---
+aliases:
+  - This is Water by David Foster Wallace (Full Transcript and Audio)
+author: Farnam Street
+imageUrl: https://149664534.v2.pressablecdn.com/wp-content/uploads/2015/06/cropped-farnamstreet-300x300.png
+permalink: l/articles/this-is-water-by-david-foster-wallace-full-transcript-and-audio
+publishedOn: 2012-04-28
+source: reader
+status: 
+title: This is Water by David Foster Wallace (Full Transcript and Audio)
+url: https://fs.blog/david-foster-wallace-this-is-water/
+---
+# This is Water by David Foster Wallace (Full Transcript and Audio)
+
+![rw-book-cover](https://149664534.v2.pressablecdn.com/wp-content/uploads/2015/06/cropped-farnamstreet-300x300.png)
+
+## Metadata
+
+- Author: [[Farnam Street]]
+- Full Title: This is Water by David Foster Wallace (Full Transcript and Audio)
+- Category: #articles
+- Document Tags: [[personal-growth]]
+- Summary: David Foster Wallace’s commencement speech at Kenyon College explores the idea that the most important realities in life are often the hardest to see and talk about. He challenges the notion that a liberal arts education is about teaching students how to think, arguing instead that it is about teaching them what to think about. Wallace emphasizes the importance of choosing what to pay attention to and how to construct meaning from experience, rather than being driven by default settings and self-centeredness. He encourages graduates to be aware of their own certainties and to consider alternative perspectives, ultimately suggesting that this kind of critical awareness is the key to living a compassionate and meaningful life.
+- URL: https://fs.blog/david-foster-wallace-this-is-water/
+
+## Highlights
+
+- in the day-to-day trenches of adult life, there is actually no such thing as atheism. There is no such thing as not worshipping. Everybody worships. The only choice we get is what to worship. ([View Highlight](https://read.readwise.io/read/01hjv70dg4zx40vykg2specbk9))
+- The really important kind of freedom involves attention and awareness and discipline, and being able truly to care about other people and to sacrifice for them over and over in myriad petty, unsexy ways every day. ([View Highlight](https://read.readwise.io/read/01hjv720a1fjqjw795ve14fkr6))
+    - Tags: [[freedom]] [[personal-growth]]

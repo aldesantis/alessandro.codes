@@ -44,4 +44,16 @@ export const collections = {
     }),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/nows" }),
   }),
+
+  books: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      author: z.string(),
+      coverUrl: z.string().optional(),
+    }),
+    loader: glob({
+      pattern: "**/*.{md,mdx}",
+      base: "./src/content/readwise/books",
+    }),
+  }),
 };

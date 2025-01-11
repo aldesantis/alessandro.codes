@@ -20,3 +20,15 @@ export function getMdxComponents() {
     Link: Link,
   };
 }
+
+export async function fetchBookCover(
+  book: CollectionEntry<"books">
+): Promise<{ default: ImageMetadata } | undefined> {
+  const images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/assets/covers/*.jpg"
+  );
+
+  const cover = images[`/src/assets/covers/${book.id}.jpg`];
+
+  return cover && (await cover());
+}

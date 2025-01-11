@@ -1,0 +1,26 @@
+---
+aliases:
+  - Brain Rot [12.30.2024]
+author: Dani - This Outfit Does Not Exist
+imageUrl: https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png
+permalink: l/articles/brain-rot-12-30-2024
+publishedOn: 2024-12-31
+source: reader
+status: 
+title: Brain Rot [12.30.2024]
+url: ""
+---
+# Brain Rot [12.30.2024]
+
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
+
+## Metadata
+
+- Author: [[Dani - This Outfit Does Not Exist]]
+- Full Title: Brain Rot [12.30.2024]
+- Category: #articles
+- Summary: SOME PERSONAL NEWS 💬 Last week I announced that my digital fashion platform DRAUP had been acquired by TRIBUTE BRAND — the first company creating clothes for fashion’s new realities.
+
+## Highlights
+
+- The bad part of getting older is that you become an NPC, the good part is being an NPC rocks. Nothing like walking down the street with a thought bubble that’s just a sandwich you’re looking forward to. Protagonism is best left to teens and the insane ([View Highlight](https://read.readwise.io/read/01jge1xcftc2nh264c0w6b7c8t))

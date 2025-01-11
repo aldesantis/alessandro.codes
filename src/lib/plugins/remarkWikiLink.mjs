@@ -1,17 +1,16 @@
 import { visit } from "unist-util-visit";
 import linkMaps from "../../data/links.json";
 
-function buildContentEntryUrl({
-  contentType,
-  slug,
-}) {
+function buildContentEntryUrl({ contentType, slug }) {
   switch (contentType) {
     case "essays":
       return `/essays/${slug}`;
     case "notes":
       return `/notes/${slug}`;
-      case "nows":
-        return `/now/${slug}`;
+    case "nows":
+      return `/now/${slug}`;
+    case "readwise/books":
+      return `/books/${slug}`;
     default:
       return null;
   }
@@ -21,7 +20,9 @@ export function remarkWikiLink() {
   return (tree) => {
     visit(tree, "text", (node, index, parent) => {
       // Updated regex to capture both parts of the link
-      const matches = Array.from(node.value.matchAll(/\[\[(.*?)(?:\|(.*?))?\]\]/g));
+      const matches = Array.from(
+        node.value.matchAll(/\[\[(.*?)(?:\|(.*?))?\]\]/g)
+      );
       if (!matches.length) return;
 
       const children = [];
@@ -42,14 +43,16 @@ export function remarkWikiLink() {
 
         // Find the matching post in linkMaps using the linkDestination
         const matchedPost = linkMaps.find((post) =>
-          post.ids.some((id) => id.toLowerCase() === linkDestination.toLowerCase())
+          post.ids.some(
+            (id) => id.toLowerCase() === linkDestination.toLowerCase()
+          )
         );
 
         let newChild;
 
         if (matchedPost) {
           const url = buildContentEntryUrl(matchedPost);
-  
+
           if (url) {
             // Create the InternalTooltipLink component
             newChild = {
@@ -63,10 +66,14 @@ export function remarkWikiLink() {
                 },
               ],
               // Use displayText if provided, otherwise use linkDestination
-              children: [{ 
-                type: "text", 
-                value: displayText ? displayText.trim() : linkDestination.trim() 
-              }],
+              children: [
+                {
+                  type: "text",
+                  value: displayText
+                    ? displayText.trim()
+                    : linkDestination.trim(),
+                },
+              ],
             };
           }
         }

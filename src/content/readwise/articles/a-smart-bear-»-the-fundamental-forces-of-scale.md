@@ -1,0 +1,29 @@
+---
+aliases:
+  - A Smart Bear » The fundamental forces of scale
+author: Jason Cohen
+imageUrl: https://longform.asmartbear.com/scale/thumbnail-1200w.png
+permalink: l/articles/a-smart-bear-the-fundamental-forces-of-scale
+publishedOn: 2023-09-24
+source: reader
+status: 
+title: A Smart Bear » The fundamental forces of scale
+url: https://longform.asmartbear.com/scale?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
+---
+# A Smart Bear » The fundamental forces of scale
+
+![rw-book-cover](https://longform.asmartbear.com/scale/thumbnail-1200w.png)
+
+## Metadata
+
+- Author: [[Jason Cohen]]
+- Full Title: A Smart Bear » The fundamental forces of scale
+- Category: #articles
+- Document Tags: [[org-design]] [[scaling]] [[startups]]
+- Summary: These forces make larger companies slower and more difficult to execute, but also more effective when harnessed and leveraged.
+- URL: https://longform.asmartbear.com/scale?utm_source=convertkit&utm_medium=email&utm_campaign=asmartbear_newsletter
+
+## Highlights
+
+- [At scale, rare things become common](https://longform.asmartbear.com/scale-rare/), as fully explored in the linked companion article. ([View Highlight](https://read.readwise.io/read/01hcbf4qd89kfpcnjsvk8vww0s))
+- New companies get to start from scratch, but at-scale companies must transform. New companies like to make fun of large companies for how hard it is to transform, neglecting that the cause of the difficulty might also be generating $100,000,000 in revenue this year6. ([View Highlight](https://read.readwise.io/read/01hj9520f38y6qzne9v8m314zk))

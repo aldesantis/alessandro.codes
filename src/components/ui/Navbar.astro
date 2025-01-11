@@ -51,6 +51,10 @@ const links = [
               href="/essays"
               active={currentPath.startsWith("/essays")}>Essays</DropdownItem
             >
+            <DropdownItem
+              href="/books"
+              active={currentPath.startsWith("/books")}>Books</DropdownItem
+            >
           </Dropdown>
         </div>
 
@@ -109,6 +113,7 @@ const links = [
         <Link href="/now" variant="secondary">Now</Link>
         <Link href="/notes" variant="secondary">Notes</Link>
         <Link href="/essays" variant="secondary">Essays</Link>
+        <Link href="/books" variant="secondary">Books</Link>
       </div>
     </nav>
   </div>

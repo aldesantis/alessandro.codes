@@ -1,0 +1,28 @@
+---
+aliases:
+  - "Memo: eCommerce Deceleration"
+author: 2PM
+imageUrl: https://2pml.com/wp-content/uploads/2024/07/1-new.png
+permalink: l/articles/memo-ecommerce-deceleration
+publishedOn: 2024-07-10
+source: reader
+status: 
+title: "Memo: eCommerce Deceleration"
+url: https://2pml.com/2024/07/09/decelerate/
+---
+# Memo: eCommerce Deceleration
+
+![rw-book-cover](https://2pml.com/wp-content/uploads/2024/07/1-new.png)
+
+## Metadata
+
+- Author: [[2PM]]
+- Full Title: Memo: eCommerce Deceleration
+- Category: #articles
+- Document Tags: [[ecommerce]] [[economy]] [[omnichannel]] [[physical]] [[retail]] [[trends]]
+- Summary: Global eCommerce revenues experienced rapid growth due to the pandemic but are expected to slow down significantly by 2029. To adapt to this changing landscape, businesses should focus on omnichannel strategies and partnerships with physical retailers. Integrating online and offline channels can enhance customer experiences and drive growth in the future.
+- URL: https://2pml.com/2024/07/09/decelerate/
+
+## Highlights
+
+- The annual growth rate of eCommerce is expected to contract significantly between 2025 and 2029, compelling businesses to reassess their operational efficiency strategies. This anticipated slowdown highlights the need for a more robust focus on omnichannel growth, operational efficiency, and physical retail partnerships. ([View Highlight](https://read.readwise.io/read/01j2zx6qzy007rpjfpdkq2vs2m))

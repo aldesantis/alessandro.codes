@@ -1,0 +1,30 @@
+---
+aliases:
+  - The Playbook for Navigating Uncertainty
+author: conscious.is
+imageUrl: https://assets-global.website-files.com/595c3564695a724580257cb3/6462cece934bb533f855a191_annie-spratt-2BHWQnj1QhM-unsplash.jpg
+permalink: l/articles/the-playbook-for-navigating-uncertainty
+publishedOn: 2023-05-16
+source: reader
+status: 
+title: The Playbook for Navigating Uncertainty
+url: https://conscious.is/blogs/the-playbook-for-navigating-uncertainty?mc_cid=f0de273f36&mc_eid=0f71759f49
+---
+# The Playbook for Navigating Uncertainty
+
+![rw-book-cover](https://assets-global.website-files.com/595c3564695a724580257cb3/6462cece934bb533f855a191_annie-spratt-2BHWQnj1QhM-unsplash.jpg)
+
+## Metadata
+
+- Author: [[conscious.is]]
+- Full Title: The Playbook for Navigating Uncertainty
+- Category: #articles
+- Document Tags: [[leadership]] [[personal-growth]]
+- Summary: Read The Playbook for Navigating Uncertainty write about Lead your team through challenges with confidence with our guide to navigating uncertainty.
+- URL: https://conscious.is/blogs/the-playbook-for-navigating-uncertainty?mc_cid=f0de273f36&mc_eid=0f71759f49
+
+## Highlights
+
+- When faced with the chaos and uncertainty, ask yourself:
+  How can I take resonsibility for internally sourcing approval, control, and security? ([View Highlight](https://read.readwise.io/read/01h2qb10nx9hs6yf7h41r0f4as))
+    - Tags: [[personal-growth]]
