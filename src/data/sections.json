@@ -1,0 +1,14 @@
+{
+  "essays": {
+    "description": "Non-fictional (and occasionally fictional) musings to make sense of the world."
+  },
+  "notes": {
+    "description": "Reflections, frameworks, and working theories in various stages of maturation."
+  },
+  "books": {
+    "description": "Books I am reading or have read, along with my highlights and thoughts."
+  },
+  "software": {
+    "description": "Open-source projects for personal and professional use—mostly Ruby and JavaScript."
+  }
+}
