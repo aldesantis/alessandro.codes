@@ -300,7 +300,7 @@
       {
         "matchedId": "switch",
         "title": "Switch",
-        "slug": "Switch"
+        "slug": "switch"
       }
     ],
     "inboundLinks": []
@@ -639,7 +639,7 @@
       {
         "matchedId": "switch",
         "title": "Switch",
-        "slug": "Switch"
+        "slug": "switch"
       }
     ],
     "inboundLinks": [
@@ -1913,7 +1913,13 @@
     "slug": "focus-on-the-process-not-the-outcome",
     "status": "seedling",
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "long-feedback-loops-create-frustration",
+        "title": "Long feedback loops create frustration",
+        "slug": "long-feedback-loops-create-frustration"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Focusing on monetary value impoverishes cultural work",
@@ -1922,6 +1928,10 @@
       {
         "title": "Good cooking requires time",
         "slug": "good-cooking-requires-time"
+      },
+      {
+        "title": "Long feedback loops create frustration",
+        "slug": "long-feedback-loops-create-frustration"
       }
     ]
   },
@@ -2584,6 +2594,28 @@
   },
   {
     "ids": [
+      "Long feedback loops create frustration",
+      "long-feedback-loops-create-frustration"
+    ],
+    "slug": "long-feedback-loops-create-frustration",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "focus-on-the-process-not-the-outcome",
+        "title": "Focus on the process, not the outcome",
+        "slug": "focus-on-the-process-not-the-outcome"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Focus on the process, not the outcome",
+        "slug": "focus-on-the-process-not-the-outcome"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Look for collab partners that are aligned with you",
       "look-for-collab-partners-that-are-aligned-with-you"
     ],
@@ -3231,7 +3263,7 @@
       {
         "matchedId": "switch",
         "title": "Switch",
-        "slug": "Switch"
+        "slug": "switch"
       },
       {
         "matchedId": "100-truths-you-will-learn-too-late",
@@ -3484,7 +3516,7 @@
       {
         "matchedId": "empowered",
         "title": "Empowered",
-        "slug": "Empowered"
+        "slug": "empowered"
       }
     ],
     "inboundLinks": []
@@ -3579,7 +3611,7 @@
       {
         "matchedId": "empowered",
         "title": "Empowered",
-        "slug": "Empowered"
+        "slug": "empowered"
       }
     ],
     "inboundLinks": []
@@ -4084,7 +4116,7 @@
       {
         "matchedId": "empowered",
         "title": "Empowered",
-        "slug": "Empowered"
+        "slug": "empowered"
       },
       {
         "matchedId": "good-strategybad-strategy",
@@ -4508,7 +4540,7 @@
       {
         "matchedId": "empowered",
         "title": "Empowered",
-        "slug": "Empowered"
+        "slug": "empowered"
       }
     ],
     "inboundLinks": [
@@ -4793,6 +4825,17 @@
   },
   {
     "ids": [
+      "Wealth has diminishing marginal utility",
+      "wealth-has-diminishing-marginal-utility"
+    ],
+    "slug": "wealth-has-diminishing-marginal-utility",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Web3 experiences lack composability",
       "web3-experiences-lack-composability"
     ],
@@ -5036,119 +5079,14 @@
   },
   {
     "ids": [
-      "Alchemy"
+      "Alchemy",
+      "alchemy"
     ],
-    "slug": "Alchemy",
+    "slug": "alchemy",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
     "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Empowered"
-    ],
-    "slug": "Empowered",
-    "status": null,
-    "contentType": "books",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Product strategy has four steps",
-        "slug": "product-strategy-has-four-steps"
-      },
-      {
-        "title": "Re-evaluate your strengths",
-        "slug": "re-evaluate-your-strengths"
-      },
-      {
-        "title": "Strategy deals with present challenges",
-        "slug": "strategy-deals-with-present-challenges"
-      },
-      {
-        "title": "There are four types of product risk",
-        "slug": "there-are-four-types-of-product-risk"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Exhalation"
-    ],
-    "slug": "Exhalation",
-    "status": null,
-    "contentType": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Gravitas"
-    ],
-    "slug": "Gravitas",
-    "status": null,
-    "contentType": "books",
-    "outboundLinks": [
-      {
-        "matchedId": "gravitas",
-        "title": "Gravitas",
-        "slug": "Gravitas"
-      },
-      {
-        "matchedId": "gravitas",
-        "title": "Gravitas",
-        "slug": "Gravitas"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Gravitas",
-        "slug": "Gravitas"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Inspired"
-    ],
-    "slug": "Inspired",
-    "status": null,
-    "contentType": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Obsessed"
-    ],
-    "slug": "Obsessed",
-    "status": null,
-    "contentType": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Switch"
-    ],
-    "slug": "Switch",
-    "status": null,
-    "contentType": "books",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Appeal to emotion and reason for changing things",
-        "slug": "appeal-to-emotion-and-reason-for-changing-things"
-      },
-      {
-        "title": "Bright spots catalyze change",
-        "slug": "bright-spots-catalyze-change"
-      },
-      {
-        "title": "People problems are often situation problems",
-        "slug": "people-problems-are-often-situation-problems"
-      }
-    ]
   },
   {
     "ids": [
@@ -5269,6 +5207,34 @@
   },
   {
     "ids": [
+      "Empowered",
+      "empowered"
+    ],
+    "slug": "empowered",
+    "status": null,
+    "contentType": "books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Product strategy has four steps",
+        "slug": "product-strategy-has-four-steps"
+      },
+      {
+        "title": "Re-evaluate your strengths",
+        "slug": "re-evaluate-your-strengths"
+      },
+      {
+        "title": "Strategy deals with present challenges",
+        "slug": "strategy-deals-with-present-challenges"
+      },
+      {
+        "title": "There are four types of product risk",
+        "slug": "there-are-four-types-of-product-risk"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Escaping the Build Trap",
       "escaping-the-build-trap"
     ],
@@ -5289,6 +5255,17 @@
       "everybody's-normal-till-you-get-to-know-them"
     ],
     "slug": "everybody's-normal-till-you-get-to-know-them",
+    "status": null,
+    "contentType": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Exhalation",
+      "exhalation"
+    ],
+    "slug": "exhalation",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
@@ -5384,6 +5361,43 @@
       {
         "title": "Strategy deals with present challenges",
         "slug": "strategy-deals-with-present-challenges"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Gravitas",
+      "gravitas"
+    ],
+    "slug": "gravitas",
+    "status": null,
+    "contentType": "books",
+    "outboundLinks": [
+      {
+        "matchedId": "gravitas",
+        "title": "Gravitas",
+        "slug": "gravitas"
+      },
+      {
+        "matchedId": "gravitas",
+        "title": "Gravitas",
+        "slug": "gravitas"
+      },
+      {
+        "matchedId": "gravitas",
+        "title": "Gravitas",
+        "slug": "gravitas"
+      },
+      {
+        "matchedId": "gravitas",
+        "title": "Gravitas",
+        "slug": "gravitas"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Gravitas",
+        "slug": "gravitas"
       }
     ]
   },
@@ -5540,6 +5554,17 @@
   },
   {
     "ids": [
+      "Inspired",
+      "inspired"
+    ],
+    "slug": "inspired",
+    "status": null,
+    "contentType": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Io Sono Vivo Voi Siete Morti",
       "io-sono-vivo-voi-siete-morti"
     ],
@@ -5650,6 +5675,17 @@
   },
   {
     "ids": [
+      "Obsessed",
+      "obsessed"
+    ],
+    "slug": "obsessed",
+    "status": null,
+    "contentType": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "People, Power, and Profits",
       "people,-power,-and-profits"
     ],
@@ -5750,6 +5786,30 @@
     "contentType": "books",
     "outboundLinks": [],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Switch",
+      "switch"
+    ],
+    "slug": "switch",
+    "status": null,
+    "contentType": "books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Appeal to emotion and reason for changing things",
+        "slug": "appeal-to-emotion-and-reason-for-changing-things"
+      },
+      {
+        "title": "Bright spots catalyze change",
+        "slug": "bright-spots-catalyze-change"
+      },
+      {
+        "title": "People problems are often situation problems",
+        "slug": "people-problems-are-often-situation-problems"
+      }
+    ]
   },
   {
     "ids": [
