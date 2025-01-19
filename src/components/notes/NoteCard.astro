@@ -1,0 +1,28 @@
+---
+import Card from "@components/ui/Card.astro";
+import Link from "@components/ui/Link.astro";
+import type { CollectionEntry } from "astro:content";
+import NoteMeta from "@components/notes/NoteMeta.astro";
+import { getFirstParagraph, renderToString } from "src/lib/content";
+
+interface Props {
+  note: CollectionEntry<"notes">;
+}
+
+const { note } = Astro.props;
+const renderedNote = await renderToString(note);
+---
+
+<Card>
+  <Link href={`/notes/${note.id}`}>
+    <h3 class="text-lg font-sans">{note.data.title}</h3>
+  </Link>
+
+  <NoteMeta note={note} />
+
+  <div
+    class="mt-2 text-sm font-serif font-sm overflow-x-clip overflow-ellipsis"
+  >
+    <Fragment set:html={getFirstParagraph(renderedNote)} />
+  </div>
+</Card>

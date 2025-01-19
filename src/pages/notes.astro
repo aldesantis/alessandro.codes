@@ -1,14 +1,14 @@
 ---
-import NoteList from "@components/notes/NoteList.astro";
+import NoteCard from "@components/notes/NoteCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getCollection } from "astro:content";
+import { getSortedNotes } from "src/lib/content/notes";
 
-const notes = await getCollection("notes");
+const notes = await getSortedNotes();
 ---
 
 <Layout>
-  <title slot="head">Essays | Alessandro Desantis</title>
+  <title slot="head">Notes | Alessandro Desantis</title>
 
   <Hero>
     <span slot="heading">Notes</span>
@@ -17,7 +17,7 @@ const notes = await getCollection("notes");
     </span>
   </Hero>
 
-  <div>
-    <NoteList notes={notes} />
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {notes.map((note) => <NoteCard note={note} />)}
   </div>
 </Layout>

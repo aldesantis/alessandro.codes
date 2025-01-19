@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+export interface Props {
+  note: CollectionEntry<"notes">;
+}
+
+const { note } = Astro.props;
+
+const statusLabel = {
+  seedling: "Seedling",
+  budding: "Budding",
+  evergreen: "Evergreen",
+}[note.data.status];
+
+const statusIcon = {
+  seedling: "🌱",
+  budding: "🌿",
+  evergreen: "🌳",
+}[note.data.status];
+---
+
+<span>
+  <span>{statusIcon}</span>
+  <span>{statusLabel}</span>
+</span>

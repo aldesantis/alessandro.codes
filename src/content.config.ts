@@ -34,6 +34,7 @@ export const collections = {
   notes: defineCollection({
     schema: z.object({
       title: z.string(),
+      status: z.enum(["seedling", "budding", "evergreen"]),
     }),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/notes" }),
   }),

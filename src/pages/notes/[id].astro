@@ -4,6 +4,7 @@ import { getCollection, render } from "astro:content";
 import Prose from "@components/ui/Prose.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import { getMdxComponents } from "src/lib/utils";
+import NoteMeta from "@components/notes/NoteMeta.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("notes");
@@ -35,6 +36,7 @@ const { Content } = await render(note);
 
       <Prose>
         <h1>{note.data.title}</h1>
+        <NoteMeta note={note} />
 
         <Content components={getMdxComponents()} />
       </Prose>
