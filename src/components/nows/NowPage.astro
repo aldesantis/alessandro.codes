@@ -4,7 +4,8 @@ import Link from "@components/ui/Link.astro";
 import Prose from "@components/ui/Prose.astro";
 import Layout from "@layouts/Layout.astro";
 import { render, type CollectionEntry } from "astro:content";
-import { getSortedNows, getMdxComponents } from "src/lib/utils";
+import { getMdxComponents } from "src/lib/content";
+import { getSortedNows } from "src/lib/content/nows";
 
 interface Props {
   now: CollectionEntry<"nows">;
@@ -34,7 +35,7 @@ const nows = await getSortedNows();
       </Prose>
     </div>
 
-    <div class="hidden lg:col-span-4">
+    <div class="hidden lg:block lg:col-span-4">
       <div class="text-lg font-semibold font-sans">Archive</div>
       <ul>
         {

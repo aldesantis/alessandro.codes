@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { Image } from "astro:assets";
-import { fetchBookCover } from "src/lib/utils";
+import { fetchBookCover } from "src/lib/content/books";
 import type { ComponentProps } from "astro/types";
 
 export type Props = Omit<ComponentProps<typeof Image>, "src" | "alt"> & {
