@@ -6,6 +6,7 @@ import Layout from "@layouts/Layout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getMdxComponents } from "src/lib/content";
 import { getSortedNows } from "src/lib/content/nows";
+import sections from "src/data/sections.json";
 
 interface Props {
   now: CollectionEntry<"nows">;
@@ -25,7 +26,7 @@ const nows = await getSortedNows();
       <Hero>
         <span slot="heading">Now</span>
         <span slot="subheading">
-          A loosely updated diary of things I consume, think, and produce.
+          {sections.nows.description}
         </span>
       </Hero>
 

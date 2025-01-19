@@ -3,6 +3,7 @@ import BookCard from "@components/books/BookCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import { getSortedBooks } from "src/lib/content/books";
+import sections from "src/data/sections.json";
 
 const books = await getSortedBooks();
 ---
@@ -13,7 +14,7 @@ const books = await getSortedBooks();
   <Hero>
     <span slot="heading">Books</span>
     <span slot="subheading">
-      Books I have read that have shaped my worldview.
+      {sections.books.description}
     </span>
   </Hero>
 

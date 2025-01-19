@@ -3,6 +3,7 @@ import NoteCard from "@components/notes/NoteCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import { getSortedNotes } from "src/lib/content/notes";
+import sections from "src/data/sections.json";
 
 const notes = await getSortedNotes();
 ---
@@ -13,7 +14,7 @@ const notes = await getSortedNotes();
   <Hero>
     <span slot="heading">Notes</span>
     <span slot="subheading">
-      Working theories and reflections in various stages of maturation.
+      {sections.notes.description}
     </span>
   </Hero>
 

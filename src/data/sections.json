@@ -10,5 +10,8 @@
   },
   "software": {
     "description": "Open-source projects for personal and professional use—mostly Ruby and JavaScript."
+  },
+  "nows": {
+    "description": "A loosely updated diary of things I consume, think, and produce."
   }
 }

@@ -3,6 +3,7 @@ import EssayCard from "@components/essays/EssayCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import sections from "src/data/sections.json";
 
 const essays = await getCollection("essays");
 ---
@@ -12,10 +13,9 @@ const essays = await getCollection("essays");
 
   <Hero>
     <span slot="heading">Essays</span>
-    <span slot="subheading"
-      >Long-form musings on life, commerce, strategy, and anything that catches
-      my attention.</span
-    >
+    <span slot="subheading">
+      {sections.essays.description}
+    </span>
   </Hero>
 
   <div class="grid lg:grid-cols-2 gap-8">
