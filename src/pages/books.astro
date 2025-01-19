@@ -2,9 +2,9 @@
 import BookCard from "@components/books/BookCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getCollection } from "astro:content";
+import { getSortedBooks } from "src/lib/content/books";
 
-const books = await getCollection("books");
+const books = await getSortedBooks();
 ---
 
 <Layout>
