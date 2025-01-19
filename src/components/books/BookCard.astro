@@ -1,31 +1,22 @@
 ---
 import Link from "@components/ui/Link.astro";
 import type { CollectionEntry } from "astro:content";
-import { Image } from "astro:assets";
-import { fetchBookCover } from "src/lib/utils";
+import BookCover from "@components/books/BookCover.astro";
+import BookMeta from "@components/books/BookMeta.astro";
 
 export interface Props {
   book: CollectionEntry<"books">;
 }
 
 const { book } = Astro.props;
-const cover = await fetchBookCover(book);
 ---
 
 <div>
   <Link href={`/books/${book.id}`}>
-    {
-      cover && (
-        <Image
-          src={cover.default}
-          alt={`${book.data.title} cover`}
-          height="800"
-          class="h-[400px] w-auto"
-        />
-      )
-    }
+    <BookCover book={book} class="max-h-[400px] w-auto" height="800" />
+
     <h3 class="mt-2 text-lg font-sans">{book.data.title}</h3>
   </Link>
 
-  <div class="font-sans text-sm text-stone-700">{book.data.author}</div>
+  <BookMeta book={book} />
 </div>

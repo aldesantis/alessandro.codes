@@ -49,7 +49,7 @@ export const collections = {
     schema: z.object({
       title: z.string(),
       author: z.string(),
-      coverUrl: z.string().optional(),
+      lastHighlightedOn: z.coerce.date(),
     }),
     loader: glob({
       pattern: "**/*.{md,mdx}",

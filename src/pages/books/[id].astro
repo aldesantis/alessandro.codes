@@ -4,6 +4,8 @@ import { getCollection, render } from "astro:content";
 import Prose from "@components/ui/Prose.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import { getMdxComponents } from "src/lib/utils";
+import BookCover from "@components/books/BookCover.astro";
+import BookMeta from "@components/books/BookMeta.astro";
 
 export async function getStaticPaths() {
   const books = await getCollection("books");
@@ -21,9 +23,19 @@ const { Content } = await render(book);
 <title slot="head">{book.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <div class="grid grid-cols-12">
+  <div class="grid grid-cols-12 gap-8">
+    <div class="col-span-12 lg:col-span-4 lg:order-last">
+      <div class="sticky top-4">
+        <BookCover
+          book={book}
+          width="800"
+          class="max-w-[250px] lg:max-w-[400px] h-auto lg:ml-auto"
+        />
+      </div>
+    </div>
+
     <div class="col-span-12 lg:col-span-8">
-      <div class="-mb-8 col-span-8">
+      <div class="-mb-8">
         <ArrowLink
           href="/books"
           arrowDirection="left"
@@ -35,6 +47,7 @@ const { Content } = await render(book);
 
       <Prose>
         <h1>{book.data.title}</h1>
+        <BookMeta book={book} />
 
         <Content components={getMdxComponents()} />
       </Prose>

@@ -17,7 +17,7 @@ const books = await getCollection("books");
     </span>
   </Hero>
 
-  <div class="grid lg:grid-cols-4 gap-8">
+  <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
     {books.map((book) => <BookCard book={book} />)}
   </div>
 </Layout>

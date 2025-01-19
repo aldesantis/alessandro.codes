@@ -1,7 +1,7 @@
 ---
 import Card from "@components/ui/Card.astro";
 import Link from "@components/ui/Link.astro";
-import EssayHints from "@components/essays/EssayHints.astro";
+import EssayMeta from "@components/essays/EssayMeta.astro";
 import type { CollectionEntry } from "astro:content";
 
 export interface Props {
@@ -16,7 +16,7 @@ const { essay } = Astro.props;
     <h3 class="text-lg font-sans">{essay.data.title}</h3>
   </Link>
 
-  <EssayHints essay={essay} />
+  <EssayMeta essay={essay} />
 
   <p class="mt-2 text-sm font-serif font-sm">
     {essay.data.excerpt}
