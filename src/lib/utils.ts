@@ -28,7 +28,7 @@ export async function fetchBookCover(
     "/src/assets/covers/*.jpg"
   );
 
-  const cover = images[`/src/assets/covers/${book.id}.jpg`];
+  const cover = images[`/src/assets/covers/${book.id.toLowerCase()}.jpg`];
 
   return cover && (await cover());
 }
