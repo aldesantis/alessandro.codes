@@ -5,7 +5,7 @@ import matter from 'gray-matter';
 
 const REPO_URL = 'git@github.com:aldesantis/digital-garden.git';
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content');
-const RETAIN_DIRS = ['essays', 'notes', 'nows', 'books']; // Updated retain dirs
+const RETAIN_DIRS = ['essays', 'notes', 'nows', 'books'];
 
 async function cleanDirectory(dir) {
   try {
@@ -86,10 +86,14 @@ async function processMarkdownFiles() {
         // Parse frontmatter and content
         const { data, content: markdownContent } = matter(content);
         
-        // Remove the first H1 heading
-        const processedContent = markdownContent
+        // Remove the first H1 heading and the Metadata section
+        let processedContent = markdownContent
           .replace(/^#\s+[^\n]+\n/, '')  // Remove first H1 heading
+          .replace(/##\s+Metadata[\s\S]*?(?=##|$)/, '') // Remove Metadata section and its content
           .trim();
+        
+        // Remove any extra newlines that might have been created
+        processedContent = processedContent.replace(/\n{3,}/g, '\n\n');
         
         // Reconstruct the file with frontmatter
         const newContent = matter.stringify(processedContent, data);
@@ -113,7 +117,7 @@ async function main() {
   try {
     await cleanDirectory(CONTENT_DIR);
     await cloneRepository();
-    await moveReadwiseBooks(); // Added this step
+    await moveReadwiseBooks();
     await removeUnwantedDirs();
     await processMarkdownFiles();
     console.log('Repository processing completed successfully!');
