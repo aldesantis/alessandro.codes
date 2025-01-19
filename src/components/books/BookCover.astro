@@ -8,13 +8,8 @@ export type Props = Omit<ComponentProps<typeof Image>, "src" | "alt"> & {
   book: CollectionEntry<"books">;
 };
 
-const { book, class: originalClass, ...props } = Astro.props;
+const { book, ...props } = Astro.props;
 const cover = await fetchBookCover(book);
 ---
 
-<Image
-  src={cover.default}
-  alt={`${book.data.title} cover`}
-  class:list={["rounded-sm", originalClass]}
-  {...props}
-/>
+<Image src={cover.default} alt={`${book.data.title} cover`} {...props} />

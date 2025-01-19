@@ -44,17 +44,23 @@ const links = [
 
           <Dropdown label="The Garden ↓">
             <DropdownItem
-              href="/notes"
-              active={currentPath.startsWith("/notes")}>Notes</DropdownItem
-            >
-            <DropdownItem
               href="/essays"
-              active={currentPath.startsWith("/essays")}>Essays</DropdownItem
+              active={currentPath.startsWith("/essays")}
             >
+              Essays
+            </DropdownItem>
+            <DropdownItem
+              href="/notes"
+              active={currentPath.startsWith("/notes")}
+            >
+              Notes
+            </DropdownItem>
             <DropdownItem
               href="/books"
-              active={currentPath.startsWith("/books")}>Books</DropdownItem
+              active={currentPath.startsWith("/books")}
             >
+              Books
+            </DropdownItem>
           </Dropdown>
         </div>
 
@@ -111,8 +117,8 @@ const links = [
       <div class="flex flex-col space-y-2">
         <Link href="/" variant="secondary">Home</Link>
         <Link href="/now" variant="secondary">Now</Link>
-        <Link href="/notes" variant="secondary">Notes</Link>
         <Link href="/essays" variant="secondary">Essays</Link>
+        <Link href="/notes" variant="secondary">Notes</Link>
         <Link href="/books" variant="secondary">Books</Link>
       </div>
     </nav>
