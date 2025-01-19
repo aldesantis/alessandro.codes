@@ -1,9 +1,8 @@
 ---
-import Link from "@components/ui/Link.astro";
 import type { CollectionEntry } from "astro:content";
 import BookCover from "@components/books/BookCover.astro";
 import BookMeta from "@components/books/BookMeta.astro";
-import Card from "@components/ui/Card.astro";
+import LinkedCard from "@components/ui/LinkedCard.astro";
 
 export interface Props {
   book: CollectionEntry<"books">;
@@ -12,16 +11,14 @@ export interface Props {
 const { book } = Astro.props;
 ---
 
-<Card>
+<LinkedCard href={`/books/${book.id}`}>
   <div slot="cover">
-    <Link href={`/books/${book.id}`}>
-      <BookCover book={book} class="object-cover object-top w-full" />
-    </Link>
+    <BookCover book={book} class="object-cover object-top w-full" />
   </div>
 
-  <Link href={`/books/${book.id}`}>
-    <h3 class="mt-2 text-lg font-sans">{book.data.title}</h3>
-  </Link>
+  <h3 class="mt-2 text-lg font-sans" slot="title">
+    {book.data.title}
+  </h3>
 
   <BookMeta book={book} />
-</Card>
+</LinkedCard>

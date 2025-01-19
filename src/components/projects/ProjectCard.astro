@@ -1,6 +1,5 @@
 ---
-import Card from "@components/ui/Card.astro";
-import Link from "@components/ui/Link.astro";
+import LinkedCard from "@components/ui/LinkedCard.astro";
 import type { CollectionEntry } from "astro:content";
 
 export interface Props {
@@ -10,10 +9,7 @@ export interface Props {
 const { name, url, description } = Astro.props.project.data;
 ---
 
-<Card>
-  <Link href={url} target="_blank">
-    <h3 class="font-sans text-lg">{name}</h3>
-  </Link>
-
+<LinkedCard href={url} target="_blank">
+  <h3 slot="title">{name}</h3>
   <p class="text-sm mt-1 font-serif font-sm">{description}</p>
-</Card>
+</LinkedCard>

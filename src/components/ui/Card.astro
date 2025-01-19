@@ -1,4 +1,17 @@
-<div class="bg-white rounded overflow-hidden flex flex-col group">
+---
+interface Props {
+  class?: string;
+}
+
+const { class: originalClass } = Astro.props;
+---
+
+<div
+  class:list={[
+    "bg-white rounded overflow-hidden flex flex-col group",
+    originalClass,
+  ]}
+>
   <div class="w-full">
     <slot name="cover" />
   </div>
