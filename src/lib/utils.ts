@@ -23,12 +23,16 @@ export function getMdxComponents() {
 
 export async function fetchBookCover(
   book: CollectionEntry<"books">
-): Promise<{ default: ImageMetadata } | undefined> {
+): Promise<{ default: ImageMetadata }> {
   const images = import.meta.glob<{ default: ImageMetadata }>(
     "/src/assets/covers/*.jpg"
   );
 
   const cover = images[`/src/assets/covers/${book.id.toLowerCase()}.jpg`];
 
-  return cover && (await cover());
+  if (!cover) {
+    throw new Error(`Cannot find cover for ${book.id}`);
+  }
+
+  return await cover();
 }
