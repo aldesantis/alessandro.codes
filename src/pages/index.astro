@@ -8,6 +8,7 @@ import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import NoteList from "@components/notes/NoteList.astro";
+import BookCard from "@components/books/BookCard.astro";
 
 const featuredProjects = await getCollection(
   "projects",
@@ -16,6 +17,7 @@ const featuredProjects = await getCollection(
 
 const essays = await getCollection("essays");
 const notes = (await getCollection("notes")).slice(0, 10);
+const books = (await getCollection("books")).slice(0, 6);
 ---
 
 <Layout>
@@ -96,6 +98,25 @@ const notes = (await getCollection("notes")).slice(0, 10);
 
       <div class="space-y-4">
         {essays.map((essay) => <EssayCard essay={essay} />)}
+      </div>
+    </Section>
+
+    <Section>
+      <div slot="heading" class="font-sans">
+        <SectionHeading
+          title="Books"
+          subtitle="Books I have read that have shaped my worldview."
+        />
+
+        <div class="mt-2">
+          <ArrowLink class="text-sm" href="/books" arrowDirection="right">
+            View all
+          </ArrowLink>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4">
+        {books.map((book) => <BookCard book={book} />)}
       </div>
     </Section>
   </div>

@@ -47,6 +47,11 @@
         "slug": "personalization-may-be-harmful"
       },
       {
+        "matchedId": "marketers-are-from-mars-consumers-are-from-new-jersey",
+        "title": "Marketers Are From Mars, Consumers Are From New Jersey",
+        "slug": "marketers-are-from-mars-consumers-are-from-new-jersey"
+      },
+      {
         "matchedId": "how-brands-grow",
         "title": "How Brands Grow",
         "slug": "how-brands-grow"
@@ -96,6 +101,11 @@
         "matchedId": "how-brands-grow",
         "title": "How Brands Grow",
         "slug": "how-brands-grow"
+      },
+      {
+        "matchedId": "marketers-are-from-mars-consumers-are-from-new-jersey",
+        "title": "Marketers Are From Mars, Consumers Are From New Jersey",
+        "slug": "marketers-are-from-mars-consumers-are-from-new-jersey"
       }
     ],
     "inboundLinks": [
@@ -143,6 +153,11 @@
         "matchedId": "advertising-must-be-consistent",
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent"
+      },
+      {
+        "matchedId": "marketers-are-from-mars-consumers-are-from-new-jersey",
+        "title": "Marketers Are From Mars, Consumers Are From New Jersey",
+        "slug": "marketers-are-from-mars-consumers-are-from-new-jersey"
       }
     ],
     "inboundLinks": [
@@ -1361,6 +1376,11 @@
         "matchedId": "how-brands-grow",
         "title": "How Brands Grow",
         "slug": "how-brands-grow"
+      },
+      {
+        "matchedId": "marketers-are-from-mars-consumers-are-from-new-jersey",
+        "title": "Marketers Are From Mars, Consumers Are From New Jersey",
+        "slug": "marketers-are-from-mars-consumers-are-from-new-jersey"
       }
     ],
     "inboundLinks": [
@@ -2307,13 +2327,7 @@
     "slug": "improvements-must-be-protected",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "good-strategybad-strategy",
-        "title": "Good Strategy/Bad Strategy",
-        "slug": "good-strategybad-strategy"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -3467,11 +3481,6 @@
         "slug": "be-wary-of-flawless-ideas"
       },
       {
-        "matchedId": "good-strategybad-strategy",
-        "title": "Good Strategy/Bad Strategy",
-        "slug": "good-strategybad-strategy"
-      },
-      {
         "matchedId": "the-crux",
         "title": "The Crux",
         "slug": "the-crux"
@@ -3529,13 +3538,7 @@
     "slug": "productivity-is-goal-plus-strategy",
     "status": null,
     "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "good-strategybad-strategy",
-        "title": "Good Strategy/Bad Strategy",
-        "slug": "good-strategybad-strategy"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -4117,11 +4120,6 @@
         "matchedId": "empowered",
         "title": "Empowered",
         "slug": "empowered"
-      },
-      {
-        "matchedId": "good-strategybad-strategy",
-        "title": "Good Strategy/Bad Strategy",
-        "slug": "good-strategybad-strategy"
       },
       {
         "matchedId": "the-crux",
@@ -5037,17 +5035,6 @@
   },
   {
     "ids": [
-      "$100M Leads",
-      "$100m-leads"
-    ],
-    "slug": "$100m-leads",
-    "status": null,
-    "contentType": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "100 Truths You Will Learn Too Late",
       "100-truths-you-will-learn-too-late"
     ],
@@ -5065,6 +5052,17 @@
         "slug": "people-problems-are-often-situation-problems"
       }
     ]
+  },
+  {
+    "ids": [
+      "$100M Leads",
+      "100m-leads"
+    ],
+    "slug": "100m-leads",
+    "status": null,
+    "contentType": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -5186,9 +5184,9 @@
   {
     "ids": [
       "eCommerce Engine - Roadmap on How to Transform Your DTC Brand Into an 8-Figure Powerhouse",
-      "ecommerce-engine---roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse"
+      "ecommerce-engine-roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse"
     ],
-    "slug": "ecommerce-engine---roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse",
+    "slug": "ecommerce-engine-roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
@@ -5252,9 +5250,9 @@
   {
     "ids": [
       "Everybody’s Normal Till You Get to Know Them",
-      "everybody's-normal-till-you-get-to-know-them"
+      "everybodys-normal-till-you-get-to-know-them"
     ],
-    "slug": "everybody's-normal-till-you-get-to-know-them",
+    "slug": "everybodys-normal-till-you-get-to-know-them",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
@@ -5339,30 +5337,13 @@
   {
     "ids": [
       "Good Strategy/Bad Strategy",
-      "good-strategybad-strategy"
+      "good-strategy-bad-strategy"
     ],
-    "slug": "good-strategybad-strategy",
+    "slug": "good-strategy-bad-strategy",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Improvements must be protected",
-        "slug": "improvements-must-be-protected"
-      },
-      {
-        "title": "Prioritize strengths over weaknesses",
-        "slug": "prioritize-strengths-over-weaknesses"
-      },
-      {
-        "title": "Productivity is goal plus strategy",
-        "slug": "productivity-is-goal-plus-strategy"
-      },
-      {
-        "title": "Strategy deals with present challenges",
-        "slug": "strategy-deals-with-present-challenges"
-      }
-    ]
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -5373,16 +5354,6 @@
     "status": null,
     "contentType": "books",
     "outboundLinks": [
-      {
-        "matchedId": "gravitas",
-        "title": "Gravitas",
-        "slug": "gravitas"
-      },
-      {
-        "matchedId": "gravitas",
-        "title": "Gravitas",
-        "slug": "gravitas"
-      },
       {
         "matchedId": "gravitas",
         "title": "Gravitas",
@@ -5643,13 +5614,30 @@
   {
     "ids": [
       "Marketers Are From Mars, Consumers Are From New Jersey",
-      "marketers-are-from-mars,-consumers-are-from-new-jersey"
+      "marketers-are-from-mars-consumers-are-from-new-jersey"
     ],
-    "slug": "marketers-are-from-mars,-consumers-are-from-new-jersey",
+    "slug": "marketers-are-from-mars-consumers-are-from-new-jersey",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Advertising may work by cultural imprinting",
+        "slug": "advertising-may-work-by-cultural-imprinting"
+      },
+      {
+        "title": "Advertising must be consistent",
+        "slug": "advertising-must-be-consistent"
+      },
+      {
+        "title": "Advertising must be memorable",
+        "slug": "advertising-must-be-memorable"
+      },
+      {
+        "title": "Customer loyalty is behavioral",
+        "slug": "customer-loyalty-is-behavioral"
+      }
+    ]
   },
   {
     "ids": [
@@ -5665,9 +5653,9 @@
   {
     "ids": [
       "Noi, Bambine Ad Auschwitz",
-      "noi,-bambine-ad-auschwitz"
+      "noi-bambine-ad-auschwitz"
     ],
-    "slug": "noi,-bambine-ad-auschwitz",
+    "slug": "noi-bambine-ad-auschwitz",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
@@ -5687,9 +5675,9 @@
   {
     "ids": [
       "People, Power, and Profits",
-      "people,-power,-and-profits"
+      "people-power-and-profits"
     ],
-    "slug": "people,-power,-and-profits",
+    "slug": "people-power-and-profits",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
@@ -5748,9 +5736,9 @@
   {
     "ids": [
       "Salt, Fat, Acid, Heat",
-      "salt,-fat,-acid,-heat"
+      "salt-fat-acid-heat"
     ],
-    "slug": "salt,-fat,-acid,-heat",
+    "slug": "salt-fat-acid-heat",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
@@ -5779,9 +5767,9 @@
   {
     "ids": [
       "Sorry I’m Late, I Didn’t Want to Come",
-      "sorry-i'm-late,-i-didn't-want-to-come"
+      "sorry-im-late-i-didnt-want-to-come"
     ],
-    "slug": "sorry-i'm-late,-i-didn't-want-to-come",
+    "slug": "sorry-im-late-i-didnt-want-to-come",
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
