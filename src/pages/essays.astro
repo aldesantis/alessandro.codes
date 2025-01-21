@@ -2,10 +2,10 @@
 import EssayCard from "@components/essays/EssayCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getCollection } from "astro:content";
 import sections from "src/data/sections.json";
+import { getSortedEssays } from "src/lib/content/essays";
 
-const essays = await getCollection("essays");
+const essays = await getSortedEssays();
 ---
 
 <Layout>

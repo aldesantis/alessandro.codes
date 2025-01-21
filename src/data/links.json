@@ -1,11 +1,198 @@
 [
   {
     "ids": [
+      "Agency, deconstruct thyself",
+      "agency-deconstruct-thyself"
+    ],
+    "slug": "agency-deconstruct-thyself",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "All hail the superapp",
+      "all-hail-the-superapp"
+    ],
+    "slug": "all-hail-the-superapp",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Apology of the regulator",
+      "apology-of-the-regulator"
+    ],
+    "slug": "apology-of-the-regulator",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Beauty and the Beast",
+      "beauty-and-the-beast"
+    ],
+    "slug": "beauty-and-the-beast",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Holding the space",
+      "holding-the-space"
+    ],
+    "slug": "holding-the-space",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Maslow and brands",
+      "maslow-and-brands"
+    ],
+    "slug": "maslow-and-brands",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Media x commerce",
+      "media-x-commerce"
+    ],
+    "slug": "media-x-commerce",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Members only",
+      "members-only"
+    ],
+    "slug": "members-only",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Redefining the Digital Value Chain for Multi-Brand Retail",
       "multi-brand-retail-value-chain"
     ],
     "slug": "multi-brand-retail-value-chain",
-    "status": null,
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Outage outrage",
+      "outage-outrage"
+    ],
+    "slug": "outage-outrage",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rise of the cultural brand",
+      "rise-of-the-cultural-brand"
+    ],
+    "slug": "rise-of-the-cultural-brand",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Span of control",
+      "span-of-control"
+    ],
+    "slug": "span-of-control",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The collapse of commerce",
+      "the-collapse-of-commerce"
+    ],
+    "slug": "the-collapse-of-commerce",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The curation opportunity",
+      "the-curation-opportunity"
+    ],
+    "slug": "the-curation-opportunity",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The eCommerce rat race",
+      "the-ecommerce-rat-race"
+    ],
+    "slug": "the-ecommerce-rat-race",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The playbook delusion",
+      "the-playbook-delusion"
+    ],
+    "slug": "the-playbook-delusion",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Shopify play",
+      "the-shopify-play"
+    ],
+    "slug": "the-shopify-play",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Web3 rightshifting",
+      "the-web3-rightshifting"
+    ],
+    "slug": "the-web3-rightshifting",
+    "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
     "inboundLinks": []
