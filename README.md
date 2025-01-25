@@ -15,4 +15,4 @@ This is a static website built with modern web technologies that serves as both 
 
 ## License
 
-All content is copyright © Alessandro Desantis unless otherwise noted. Code is available under the MIT license.
+All content is copyright © Alessandro Desantis unless otherwise noted.
