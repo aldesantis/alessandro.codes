@@ -9,7 +9,6 @@
     "astro": "astro",
     "generate-links": "node src/scripts/generate-links.js",
     "fetch-content": "node src/scripts/fetch-content.js",
-    "fetch-covers": "node src/scripts/fetch-covers.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.6",
