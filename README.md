@@ -11,7 +11,7 @@ This is a static website built with modern web technologies that serves as both 
 1. Clone the repository
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
-4. Visit `http://localhost:3000`
+4. Visit `http://localhost:4321`
 
 ## License
 

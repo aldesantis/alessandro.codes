@@ -8,7 +8,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "generate-links": "node src/scripts/generate-links.js",
-    "fetch-content": "node src/scripts/fetch-content.js",
+    "fetch-content": "node src/scripts/fetch-content.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.6",
