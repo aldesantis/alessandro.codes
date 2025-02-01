@@ -1,0 +1,300 @@
+---
+aliases:
+  - ':extend’s Gotchas'
+excerpt: "Are you getting what you want from\_LESS?"
+publishedOn: 2014-07-05T00:00:00.000Z
+status: evergreen
+title: ':extend’s Gotchas'
+---
+LESS has a useful feature called :extend. Basically, it extends (d’oh!) the given CSS selector to match the current element.
+
+## A basic example
+
+Suppose you have the following LESS file:
+
+```less
+.alert {
+  font-weight: bold;
+}
+
+.alert-error {
+  &:extend(.alert);
+  color: red;
+}
+```
+
+Here’s the resulting CSS:
+
+```css
+.alert,
+.alert-error {
+  font-weight: bold;
+}
+
+.alert-error {
+  color: red;
+}
+```
+
+In many situations, this approach is used instead of mixins to avoid duplicating CSS code.
+
+## How it works
+
+You might think there’s some magic going on here, right? Surely the LESS preprocessor is busy doing lots of smart calculations to figure out the exact CSS you expect to get.
+
+Or is it?
+
+If you read [the documentation about Extend](http://lesscss.org/features/#extend-feature), you’ll find out that this feature is much dumber than you think. As the docs put it:
+
+> You can think of this mode of operation as essentially doing a non-destructive search and replace.
+
+Yep. All **:extend** does is search for all the occurrences of the extended selector and append the current selector to them, so that the same styles get applied.
+
+After all, this works as advertised. Most of the time.
+
+## Extending compound selectors
+
+By default, however, LESS will only match your selector if it’s written exactly as it appears in your code. This means that compound selectors won’t get extended unless they are separated by a comma.
+
+Take this LESS code, for example:
+
+```less
+span.alert {
+  font-weight: bold;
+}
+
+.alert-error {
+  &:extend(.alert);
+  color: red;
+}
+```
+
+And here’s the CSS output:
+
+```css
+span.alert {
+  font-weight: bold;
+}
+
+.alert-error {
+  color: red;
+}
+```
+
+As you can see, **span.alert** did not get extended because LESS couldn’t find a **.alert** selector.
+
+Pseudo-classes won’t work, either:
+
+```less
+.alert {
+  font-weight: bold;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.alert-error {
+  &:extend(.alert);
+  color: red;
+}
+```
+
+The code above will generate this CSS:
+
+```css
+.alert,
+.alert-error {
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.alert:hover {
+  opacity: 1;
+}
+
+.alert-error {
+  color: red;
+}
+```
+
+### :extend all
+
+Sometimes, this behaviour is wanted. There are some cases, however, where you want to extend partial occurrences:
+
+- if you don’t know how the selector appears exactly in the original code (e.g. when you’re working with a framework like Bootstrap);
+- if you want to match pseudo-classes.
+
+For this situations, you have **:extend all**. You can use it to match partial occurences of the extended selector. This includes pseudo-classes and compound selectors.
+
+Let’s rewrite the example above to use it:
+
+```less
+.alert {
+  font-weight: bold;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.alert-error {
+  &:extend(.alert all);
+  color: red;
+}
+```
+
+The resulting CSS is:
+
+```css
+.alert,
+.alert-error {
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.alert:hover,
+.alert-error:hover {
+  opacity: 1;
+}
+
+.alert-error {
+  color: red;
+}
+```
+
+Now we’re getting the expected result. Neat!
+
+But wait, this is about to get horribly wrong.
+
+## Where it falls short
+
+We have the following LESS code:
+
+```less
+input.form-input {
+  font-size: 12px;
+  border: 1px solid grey;
+  &:hover {
+    border-color: orange;
+  }
+}
+```
+
+Which generates the following CSS:
+
+```css
+input.form-input {
+  font-size: 12px;
+  border: 1px solid grey;
+}
+
+input.form-input:hover {
+  border-color: orange;
+}
+```
+
+### Selector type mismatch
+
+Now, suppose you don’t have any control over the code above (perhaps it’s from a CSS framework). Still, you want all the inputs to get the same styles as **.form-input**, without having to apply the class.
+
+So here’s what you write:
+
+```less
+input {
+  &:extend(.form-input all);
+}
+```
+
+And here’s the monstrosity you get:
+
+```css
+input.form-input,
+inputinput {
+  font-size: 12px;
+  border: 1px solid grey;
+}
+
+input.form-input:hover,
+inputinput:hover {
+  border-color: orange;
+}
+```
+
+**inputinput?** WTF just happened?!
+
+Well, as the documentation states, the extend directive simply searches and replaces all the occurrences of the given selector. “Extend all” matches partial occurrences as well, so **input.form-input** became **inputinput**.
+
+The only way to solve this is to extend **input.form-input**:
+
+```less
+input.form-input {
+  font-size: 12px;
+  border: 1px solid grey;
+  &:hover {
+    border-color: orange;
+  }
+}
+
+input {
+  &:extend(input.form-input all);
+}
+```
+
+This will work as expected.
+
+If you don’t know how the selector appears in the original code, you’ll have to find out.
+
+### Compound selectors
+
+Here’s another situation where extend falls short. This time, you want to apply the **.form-input** styles to all the inputs in a **.text-huge** container and enlarge their font.
+
+You write this LESS code:
+
+```less
+input.form-input {
+  font-size: 12px;
+  border: 1px solid grey;
+  &:hover {
+    border-color: orange;
+  }
+}
+
+.text-huge input {
+  &:extend(.form-input all);
+  font-size: 16px;
+}
+```
+
+And you get this CSS output:
+
+```css
+input.form-input,
+input.text-huge input {
+  font-size: 12px;
+  border: 1px solid grey;
+}
+
+input.form-input:hover,
+input.text-huge input:hover {
+  border-color: orange;
+}
+
+.text-huge input {
+  font-size: 16px;
+}
+```
+
+See the problem? **text-huge** is the container’s class, not the input’s! And yet, the styles will only get applied to an input contained in another input with the **text-huge** class.
+
+This is a more subtle problem, one you might not even notice in some cases: this CSS code is valid, but it’s not what you meant.
+
+Again, you can solve this by using the full selector (**input.form-input**).
+
+## Conclusions
+
+**:extend** is a dangerous feature, quite easy to misuse. Also, it’s likely to generate long selector chains, sometimes applying useless styles.
+
+For shorter collections of CSS styles, mixins are probably more appropriate, as long as you don’t mind a little code duplication.
+
+However, if you really need to use **:extend**, be very careful and try to make sure that the CSS output is exactly what you wanted it to be.

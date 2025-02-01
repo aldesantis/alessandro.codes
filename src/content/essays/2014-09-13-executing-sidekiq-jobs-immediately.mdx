@@ -1,0 +1,37 @@
+---
+aliases:
+  - Executing Sidekiq Jobs Immediately
+excerpt: 'Or: How To Save a few bucks when developing your MVP.'
+publishedOn: 2014-09-13T00:00:00.000Z
+status: evergreen
+title: Executing Sidekiq Jobs Immediately
+---
+When you’re working on a side project and you don’t expect to get a cent out of it, you want to keep operational costs to a minimum.
+
+If you have ever deployed your Rails application to Heroku, you’re probably familiar with the concept of dynos. Dynos are used to run your application’s processes. Heroku provides you with one free dyno, which is enough to run the app’s web server.
+
+But if you’re using a background processing library like Sidekiq, you need at least an additional dyno, often called a “worker”. It will pick up and execute all the jobs pushed to Sidekiq’s queue. This additional dyno will cost you $34.50/month on Heroku. When you’re on a budget, it’s a considerable cost.
+
+Since your app will not run into heavy traffic during the development of the [MVP](http://en.wikipedia.org/wiki/Minimum_viable_product), what you can do to save a few bucks in the first weeks is setup Sidekiq to execute jobs immediately instead of pushing them to a queue. This way, you won’t need the additional dyno and you’ll be able to run your app for free.
+
+All you have to do is put the following into a Rails initializer:
+
+```ruby
+if ENV['DISABLE_ASYNC']
+  require 'sidekiq/testing' Sidekiq::Testing.inline!
+end
+```
+
+The inline mode will execute any jobs immediately and is usually enabled for testing purposes, but we’ll use it in development.
+
+Commit and push your changes to Heroku.
+
+Now you’ll have to set the **DISABLE\_ASYNC** environment variable. If you have the Heroku toolbelt installed, you can execute this command from your project’s root directory:
+
+```
+heroku config:set DISABLE_ASYNC=true
+```
+
+Now all jobs will be executed at once.
+
+**NOTE: Remember to disable this feature before launching your project, otherwise you might run into serious performance issues. There’s a reason if you decided to execute those tasks asynchronously in the first place, isn’t there? ☺**

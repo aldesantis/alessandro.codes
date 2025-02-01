@@ -24,9 +24,15 @@ export const collections = {
   essays: defineCollection({
     schema: z.object({
       title: z.string(),
-      publishedOn: z.coerce.date().optional(),
+      publishedOn: z.coerce.date(),
       canonical: z.string().url().optional(),
       excerpt: z.string(),
+      publish: z
+        .string()
+        .optional()
+        .default("true")
+        .transform((v) => (v == "false" ? false : true))
+        .pipe(z.boolean()),
     }),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/essays" }),
   }),

@@ -1,0 +1,261 @@
+---
+aliases:
+  - UI Components in Rails
+  - "UI Components in\_Rails"
+excerpt: The journey towards an object-oriented approach.
+publishedOn: 2013-12-24T00:00:00.000Z
+status: evergreen
+title: "UI Components in\_Rails"
+---
+In the process of developing my CRUD application, I eventually decided that I needed to DRY up my code and build a set of reusable UI components. Those would be things like toolbars, attributes lists and similar.
+
+I was inspired by [Active Admin](http://www.activeadmin.info/)’s syntax. To display specific attributes of an Active Record resource I could write something like this:
+
+```ruby
+attributes_table_for article do
+  row :id
+  row :name
+  row :content do |article|
+    simple_format article.content
+  end
+end
+```
+
+I wanted to have lots of sensible defaults, but I also wanted the ability to override them (usually this would involve blocks or _Proc_ objects).
+
+So I set out and started experimenting.
+
+# Helpers
+
+At first I was like “Hey, that’s what helpers are for!”, so I wrote a couple of helpers like this one:
+
+```ruby
+module AttributesListHelper
+  def attributes_list_for(resource, *attributes)
+    content_tag(:dl) do
+      attributes.flatten.map do |attribute|
+        [
+          content_tag(:dt, t("activerecord.attributes.#{resource.class.to_s.underscore}.#{attribute}")),
+          content_tag(:dd, h(resource.send(attribute)))
+        ].join("\n").html_safe
+      end.join("\n").html_safe
+    end
+  end
+end
+```
+
+I gazed at the screen, contemplating the elegance of my code. It was simple. It was pretty. It worked:
+
+```
+<%= attributes_list_for article, :id, :name, :content %>
+```
+
+However, it lacked the feature to pass custom logic for rendering an attribute. I changed the helper slightly so that I could use _simple_format_ for the _content_ attribute. Then I tweaked it so that it would work with decorated records as well. Finally, I improved it a bit more to accept either _Proc_s or custom methods for rendering.
+
+This was the final result:
+
+```ruby
+module AttributesListHelper
+  def attributes_list_for(resource, attributes)
+    resource = resource.object if resource.respond_to?(:object)
+    i18n_domain = "activerecord.attributes.#{resource.class.to_s.underscore}"
+
+    content_tag(:dl) do  
+      attributes.each.map do |attribute|  
+        if attribute.is_a?(Array)  
+          name = attribute[0]  
+   
+          if attribute[1].is_a?(Proc)  
+            value = attribute[1].call(resource)  
+          else  
+            value = resource.send(attribute[1])  
+          end  
+        else  
+          name = attribute  
+          value = resource.send(attribute)  
+        end
+
+        name = t("#{i18n_domain}.#{name}")
+
+        [  
+          content_tag(:dt, name),  
+          content_tag(:dd, h(value))  
+        ].join("\n").html_safe  
+      end.join("\n").html_safe  
+    end  
+  end
+end
+```
+
+Not so beautiful anymore, uh? Let’s have a look at the calling code:
+
+```ruby
+<%= attributes_list_for(article, [
+  :id,
+  :name,
+  [:content, Proc.new{ |a| simple_format a.content }]
+]) %>
+```
+
+I don’t know about you, but I don’t like it. It still works, but it’s neither simple nor pretty. It’s also quite difficult to test unless we want to search into the resulting HTML.
+
+Helpers? Nope.
+
+# Arbre
+
+Knowing that Active Admin’s developers had built [Arbre](https://github.com/gregbell/arbre) exactly for this specific situations, I tried to use the gem.
+
+Unfortunately I don’t have any code to show you because the application’s repository has since been reset (yay! for committing production API keys), but an hour and about a hundred lines of code later I was frustrated: although I really liked Arbre’s hierarchical approach, I found it too complicated and counter-intuitive to build the components. It felt like the gem was getting in the way instead of helping.
+
+In addition, I decided that I didn’t really need the level of abstraction provided by Arbre. It turns your whole DOM tree into an object, allowing to create an entire HTML document without, you know… writing HTML. In fact, Active Admin’s views are rendered completely by Arbre.
+
+Instead, I only wanted to create small widgets — a bit more structured than helpers, a bit less than Arbre components.
+
+Arbre? Nope.
+
+# Cells
+
+[Cells](https://github.com/apotonick/cells) (and their relative [Apotomo](https://github.com/apotonick/apotomo)) are very similar to controllers in that they have actions and views, and can be rendered from your views like this:
+
+```ruby
+render_cell(:attributes_list, :show,
+  resource: article,
+  attributes: [
+    :id,
+    :name,
+    content: Proc.new{ |a| simple_format a.content }
+  ]
+)
+```
+
+So I wrote an _AttributesListCell_ that prepared the labels and values to be rendered by the view.
+
+As you can see there are some advantages:
+
+- the component’s logic is encapsulated in a class;
+- logic and view are separated;
+- testing is easier.
+
+Still, the syntax was ugly. I knew I could do better.
+
+Cells? Nope.
+
+# Time for some plain old Ruby
+
+Determined to solve this once and for all, I wrote two simple classes which I put in _app/components/attributes_list.rb_:
+
+```ruby
+class AttributesList
+  include ActionView::Context
+  include ActionView::Helpers::TagHelper
+
+  attr_accessor :rows
+
+  def initialize
+    @rows = []
+  end
+
+  def render_for(resource)
+    content_tag(:dt) do
+      rows.map do |row|
+        row.render_for(resource)
+      end.join(“\n”).html_safe
+    end
+  end
+
+  class Row
+    include ActionView::Context
+    include ActionView::Helpers::TagHelper
+
+    attr_reader :attribute  
+  
+    def initialize(attribute)  
+      @attribute = attribute  
+    end  
+  
+    def label_for(resource)  
+      I18n.t "activerecord.attributes.#{resource.class.to_s.underscore}.#{attribute}"  
+    end  
+  
+    def value_for(resource)  
+      resource.send(attribute)  
+    end  
+  
+    def render_for(resource)  
+      [  
+        content_tag(:dt, label_for(resource)),  
+        content_tag(:dd, value_for(resource))  
+      ].join("\n").html_safe  
+    end
+  end
+end
+```
+
+Elegance at last! Here I have all the perks I had dreamed of:
+
+- encapsulation;
+- extensibility;
+- testability.
+
+Logic and presentation may not be separated, but I don’t need that for such simple components.
+
+The calling syntax is far from perfect, though:
+
+```ruby
+list = AttributesList.new
+
+list.rows << Row.new(:id)
+list.rows << Row.new(:name)
+list.rows << Row.new(:content)
+
+list.render_for(article)
+```
+
+I wanted my components to expose a DSL, but being new to the Ruby (on Rails) world I had no idea how to do it.
+
+## **Docile to the rescue!**
+
+Luckily, I found [Docile](https://github.com/ms-ati/docile). This small gem allows you to create your very own DSL with extreme ease.
+
+The documentation provides plenty of examples, so I will just focus on my specific case here. All I’ve done was removing the _attr_accessor_ and adding a _row_ method to the _AttributesList_ class:
+
+```ruby
+class AttributesList
+  # ...
+
+  def row(*args)
+    @rows << Row.new(*args)
+    self # Here’s the magic!
+  end
+
+  # ...
+end
+```
+
+Then I created an _attributes_list_for_ helper:
+
+```ruby
+module AttributesListHelper
+  def attributes_list_for(resource, &block)
+    Docile.dsl_eval(AttributesList.new, &block).render_for(resource)
+  end
+end
+```
+
+That single line instantiates a new _AttributesList_ object, evaluates the given block in the object’s context and returns the result of _render_for_. I can now write my attributes list as:
+
+```ruby
+attributes_list_for(article) do
+  row :id
+  row :name
+  row :content
+end
+```
+
+Neat, right? At this point I was able to add all sorts of features to my component, like lots of options and the ability to use _Proc_s or blocks to render an attribute. After all, the class is (mostly) plain old Ruby!
+
+## One size doesn’t fit all
+
+How you should go about implementing a set of reusable components depends on you. If I didn’t need many features I would’ve probably kept my helpers or cells. I didn’t find Arbre comfortable enough to work with, but the tool works perfectly for the guys behind Active Admin, so it’s surely my fault.
+
+I suggest you consider your needs carefully and choose the most suitable approach.

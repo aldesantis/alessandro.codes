@@ -1,0 +1,58 @@
+---
+aliases:
+  - Evolution Techniques for RESTful APIs
+  - "Evolution Techniques for RESTful\_APIs"
+excerpt: >-
+  This is a follow-up to UIs for Machines: Design Principles for HTTP APIs. One
+  of the principles outlined in the original article is Evolution, and it
+  suggests that developers should strive to keep their API relevant and up to
+  date without sacrificing usability and backwards compatibility.
+publishedOn: 2019-02-27T00:00:00.000Z
+status: evergreen
+title: Evolution Techniques for RESTful APIs
+---
+This is a follow-up to _UIs for Machines: Design Principles for HTTP APIs_. One of the principles outlined in the original article is _Evolution_, and it suggests that developers should strive to keep their API relevant and up to date _without_ sacrificing usability and backwards compatibility.
+
+While this is trivial to accomplish for GraphQL APIs, where one can always add fields and never touch old ones with minimal performance overhead, it’s not as simple for RESTful APIs, where the API has multiple endpoints that can be deprecated independently and resource attributes are usually computed regardless of whether the client will actually need them or not.
+
+With that said, there are a few patterns you can adopt in a RESTful API to ensure the deprecation and evolution cycle is as graceful as possible. This article aims at providing a technical and conceptual framework you can use for evolving your API without causing pain to your users.
+
+## If You Can’t Measure It, You Can’t Change It
+
+Understanding user behavior is the first step towards avoiding disruptive changes: once you have a sense of how users interact with your API, you can take extra care when working on those parts they use most often. An example is having a different deprecation policy for critical endpoints, or even avoiding deprecation altogether in favor of creating a new API version.
+
+Of course, you will already have a sense of what parts of the API your users rely the most on, but without actual numbers this will only be based on your gut, and you don’t want to go with your gut when refactoring software.
+
+The good thing is that measuring user behavior is actually much easier in a RESTful API than in a traditional Web application: if you reason in terms of endpoints, all you need to do is track HTTP requests. You could even go as far as tracking requests by user ID, so that you know which users rely on an endpoint and can notify them personally when a feature they use is about to get changed (or removed).
+
+There are very good commercial solutions for monitoring API usage, but if you’re just starting out, it should be trivial to implement a basic logging system in any modern Web framework (here’s [how you would do it](https://gist.github.com/aldesantis/cceae9bebeed01c854509d46d01bef50) in a standard Rails application for example).
+
+## Go the Extra Mile with Versioning
+
+Versioning is a technique widely recommended and adopted in APIs, and for very good (and obvious) reasons. Unfortunately, respecting a versioning policy can be especially hard without the proper infrastructure in place — which is why a lot of APIs have a hard time not breaking their contracts. Endpoint behavior updating without notice, resources changing in format, arguments becoming required are all consequences of a badly enforced versioning scheme.
+
+When versioning schemes _are_ enforced properly, on the other hand, two common problems are that users of old versions get locked out, or that new versions are never released. Maintaining multiple API versions can be tricky, and it’s rare for development teams to have the required manpower, time and money. Even when these resources are available, developers might not have the right experience or skillset.
+
+One way to dramatically reduce the maintenance burden is to adopt HTTP request migrations. Inspired by [Stripe’s versioning strategy](https://stripe.com/blog/api-versioning), these remove the need to maintain multiple codebases while also ensuring users can stay on old API versions indefinitely.
+
+The way request migrations work is by having developers programmatically specify the changes in the request/response format introduced by a new API version. When a request comes in from a user that is not using the latest version, the application can alter the request so that it’s compatible with the latest version. The response is also altered to match what the old API version would have produced.
+
+There are caveats, of course: request migrations are not always feasible and they carry a performance burden which gets heavier as new versions are released without clients updating their code. However, the performance cost can be mitigated, for instance by enforcing a maximum number of versions a user can be behind before they are forced to update, and the benefits are immense in terms of user happiness and maintenance effort.
+
+If you are working on a Ruby API, [pragma-migration](http://github.com/pragmarb/pragma-migration) is an experiment at bringing HTTP migrations to all Rack-based frameworks. Check it out!
+
+## (Over)Communicate
+
+If there’s only one technique you can adopt from this article, then forget about request migrations and metrics and just focus on communicating with your users — do everything in your power to keep them in the loop about what’s going on. Here are some ideas:
+
+- **Send a newsletter.** If you collect user emails, send a monthly recap about your API: talk about what has been accomplished in the past month and what’s next. This is a nice way to keep your users engaged and ensuring they’re always up to date about any interface changes/additions.
+- **Write a changelog.** You should do this regardless. Keep a changelog on your API and make it public. Require developers to document any public interface changes in the changelog. If it’s the first time you write a changelog, check out my article, [The Changelog-Versioning Revolution](https://medium.com/@aldesantis/the-changelog-versioning-revolution-8f2d0ab53caa?source=your_stories_page---------------------------), and [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+- **Use HTTP headers.** HTTP has a standard Warning header that can be used to note any useful information about the request/response. You can use this to indicate that the client is using a deprecated endpoint/payload structure. If you provide API bindings, you could also ensure that these messages are logged somewhere for your user to inspect.
+
+These are solutions that have worked for me or others in the past, but by no means should you feel constrained by them. Feel free to use whatever communication channel you’re comfortable with. More importantly, use a channel your users will actually use. All the newsletters in the world won’t help you if no one reads them.
+
+## YMMV
+
+In this article, I have presented several different options for evolving your APIs. While it may be tempting to just adopt all of them to ensure the best possible experience for your users, keep in mind that their implementation can be costly in terms of development and maintenance effort, so figure out what works best for your use case and what you can afford to do.
+
+Also, if you have any other ideas or tools for API evolution, make sure to hit that respond button!

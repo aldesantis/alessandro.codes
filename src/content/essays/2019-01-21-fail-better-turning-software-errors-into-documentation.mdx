@@ -1,0 +1,79 @@
+---
+aliases:
+  - 'Fail Better: Turning Software Errors into Documentation'
+excerpt: >-
+  The open-source community has done a great job of promoting good documentation
+  as a necessary trait for the success of a software project, whether it be a
+  utility library, a larger framework or a standalone program.
+publishedOn: 2019-01-21T00:00:00.000Z
+status: evergreen
+title: 'Fail Better: Turning Software Errors into Documentation'
+---
+The open-source community has done a great job of promoting good documentation as a necessary trait for the success of a software project, whether it be a utility library, a larger framework or a standalone program.
+
+A project worth using will usually provide excellent documentation resources that go into different levels of detail: the maintainers of a library, for instance, might publish both a user’s manual that covers common use cases and a more detailed API reference for those adopters who want to inspect the inner workings of the code.
+
+But even with all the work we, as a community, are putting into documenting our projects, there’s an incredible underappreciation for the teaching potential of error messages. I believe that, by making an effort to put ourselves in our users’ shoes, we can leverage this potential to create products that are easier to use on a daily basis and debug when something goes wrong, making our users happier.
+
+## The Power of Context
+
+I’m going to use [Pragma](https://github.com/pragmarb), one of my open source projects, as an example for the rest of this article.
+
+Pragma is a Ruby framework for building RESTful APIs. It provides more tools than the traditional API library and it’s fairly opinionated, allowing users to create complex and highly usable APIs in a matter of minutes. However, since it is meant to support very complex APIs, it also puts an emphasis on good and maintainable design, which makes for a steeper learning curve than what Ruby/Rails users are accustomed to.
+
+The project is fairly well documented, but its complexity means that users face a lot of challenges, especially at the beginning of their journey. I used to get the same questions about the same error messages over and over again. Most of these errors could be easily avoided by reading the project’s documentation thoroughly, but I realized how unrealistic it was to expect users to know a project’s documentation by heart.
+
+Furthermore, even if users did know the documentation that well, they still wouldn’t have the context that is needed to link an error to its solution. When you’re looking at that null reference error, your brain does not immediately remember that it’s because a certain parameter must be set, because the error does not provide enough context for you to make that connection. This forces you to look at the documentation or the dependency’s source code, which is a complete waste of time.
+
+Instead, if we managed to identify runtime issues in advance and provide the context users need to understand and correct them, we could turn mysterious errors into an opportunity for learning, reducing the time spent investigating and fixing bugs by an order of magnitude. This is also a good way to minimize the likelihood of the user repeating the same mistake in the future, since they’re learning about it on the field and not just on paper.
+
+## Identify Slippery Slopes
+
+The first step towards improving errors in a software project is to identify as many slippery slopes as we can. I define slippery slopes (also sometimes called “gotchas”) as the areas in a software where users are most likely to make a mistake, due to their complexity or counterintuitiveness.
+
+The problem with slippery slopes is that they’re not easy to identify for the maintainer. “Of course that’s how it works!” is a recurring comment in the software industry, but unfortunately it’s most often made by those who authored the software, not those using it. In part, this is because we could all do a better job of creating interfaces that work _for_ our users, not against them. However, the truth is that there will always be intricate aspects in a software project. This happens most often when the problem domain was so complex that it led to an equally complex implementation.
+
+So, if it’s hard for us to identify slippery slopes, how do we do it? There are two techniques, and I suggest employing both of them if possible:
+
+- **Understand what makes you unique.** What makes your project different from the others? Don’t just think about projects in the same field — also consider best practices for the language and ecosystem. For instance, if convention over configuration is the standard, but you expect explicit configuration, that’s a slippery slope.
+- **Ask your users.** If you already have a user base, they are your best source of knowledge about your software. Look at recurring questions and complaints, as well as the most common “Not an issue” bug reports. What is it that users find it hardest to understand about your project?
+
+Make a list of these slippery slopes, then understand if you can apply defensive programming techniques to identify user error in advance. This could be as simple as an if statement or a more complex algorithm that tries to determine user intentions.
+
+Remember to keep in mind the performance and complexity impact of your solution and don’t overdo it: you don’t need to predict every possible mistake —instead, strive to make the greatest possible impact with the smallest possible effort.
+
+## Problem-Cause-Solution
+
+Once you have the proper error detection technique in place, you need to write the actual error that will be displayed to your users. While improving the error messages for Pragma, I came up with a pattern to follow for good error messages, which I call Problem-Cause-Solution (P-C-S):
+
+- **Problem:** explain the problem, why you’re halting execution in the first place. Perhaps a value is out of range or null and your program cannot proceed. This part is usually quite similar to what your interpreter or compiler would normally say about the error.
+- **Cause:** this is the possible cause of the problem. Why is that value null? Did your user forget to set it somewhere? There could be many potential causes, and that’s absolutely fine: you don’t need to identify the exact issue, just provide context to help users debug it.
+- **Solution:** how can the user solve the problem? Again, there could be many potential solutions. For instance, you might tell users to either adhere to your project’s conventions or use explicit configuration. You can get very smart here and use user input to provide them with code they can simply copy-paste to fix the error.
+
+If you have any documentation on the error, it’s also helpful to link to it here, since users will likely read it much more carefully than usual at this point.
+
+## Applying P-C-S to Pragma
+
+One of Pragma’s slippery slopes was its reliance on convention over configuration: if classes are not defined in predefined locations, the framework cannot automatically perform certain tasks (like finding a record in your database). Users have the option to specify the location manually, but this is buried deep in the API reference since it’s not a common use case.
+
+Still, users who misplaced their classes or forgot to specify a custom location would run into errors like the following, which is not helpful at all:
+
+NoMethodError: undefined method \`new’ for nil:NilClass
+
+I identified this slippery slope and wrote a simple if statement that would raise a better error if a class is not where it’s expected to be. This is what the error looks like now:
+
+You are attempting to use the Model macro, but no \`model.class\` skill is defined.
+
+This can happen when a required class (e.g. the contract class) is not in the expected location.
+
+To solve the problem, move the class to its expected location or, if you want to provide the class manually, add the following to your operation:
+
+    self\['model.class'\] = MyCustomClass
+
+If you don’t have the class, you will have to skip the macro that requires it.
+
+Clear, concise and informative. To my surprise, I also encountered this error a few times and was delighted by how helpful it was and how quickly I was able to fix the problem without having to gain additional context.
+
+## Over to You!
+
+Do you have a standard for detecting and documenting errors in your project? Are there any examples of good error handling that you have seen and use as inspiration? Leave a response to this story by hitting the comment icon!
