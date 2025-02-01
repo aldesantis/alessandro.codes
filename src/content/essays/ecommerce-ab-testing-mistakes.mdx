@@ -1,0 +1,137 @@
+---
+aliases:
+  - ecommerce-ab-tests
+  - How to Make Your E-Commerce A/B Tests Useless
+canonical: 'https://nebulab.com/blog/ecommerce-ab-testing-mistakes'
+excerpt: Mistakes to avoid.
+publishedOn: 2023-03-29T00:00:00.000Z
+status: evergreen
+title: ecommerce-ab-tests
+---
+In our [latest article](https://nebulab.com/blog/ecommerce-ab-testing), we wrote about the value of A/B testing (also referred to as “split testing”) and how eCommerce brands can set up and scale an effective A/B testing strategy. By getting the fundamentals right, brands can use A/B testing to generate unbiased, data-informed market insights. Large brands often run tens of experiments at any given time and use the results to directly inform their product strategy.
+
+However, we also touched briefly on the hidden complexity behind an A/B testing operation: in fact, **one of the curses of A/B testing is its apparent simplicity.** It’s easy to get lured into signing up for an A/B testing tool without a clear understanding of how it works, only to find ourselves weeks later with tests that are inconclusive or just plain incorrect.
+
+This article will dig deeper into this complexity, highlighting some of the most common pitfalls brands face when running experiments. We will also discuss the scenarios in which A/B testing is _not_ the way to go and the alternative practices brands should adopt instead.
+
+## The 7 Most Common A/B Testing Mistakes
+
+A/B testing is a form of statical hypothesis testing. As such, it is prone to all the typical pitfalls of statistical analysis: most notably, **if the data you’re using to run the analysis is incorrect, biased, or skewed in any way, the results of your analysis are also very likely to display the same problems**–garbage in, garbage out.
+
+Even with modern A/B testing platforms, it is still unbelievably easy to skew the results of an A/B test. Your tools can help you write less code and run the math for you, but they won’t be able to make strategic decisions for you–such as which metric to pick–or to shield your test from external factors–such as a concurrent A/B test skewing your test population.
+
+With this in mind, let’s see some of the most common mistakes and oversights a brand might make when designing, executing, and analyzing an A/B test.
+
+### 1. Type I and Type II errors
+
+All A/B tests are subject to two different types of errors:
+
+- **Type I errors (false positives)** occur when we detect a non-existent difference between the experiment and the control group, i.e., we conclude that our experiment affected our target metric when it actually didn’t.
+- **Type II errors (false negatives)** occur when we fail to detect a difference between the experiment and the control group, i.e., we conclude that our experiment failed to affect our target metric when it actually did.
+
+We can guard our tests against Type I and Type II errors by picking an appropriate statistical significance and power: the _higher_ our significance, the more resilient our test will be against Type I errors; the _lower_ our power, the more resilient our test will be against Type II errors. Combined, these numbers represent our desired confidence in the test result.
+
+As an example, if we pick a significance of 80% and a power of 5%, it means that:
+
+- There’s only a 20% probability that our experiment group will outperform our control group by chance.
+- There’s only a 5% probability that our control group will outperform our experiment group by chance.
+
+**Higher confidence levels mean we can take more drastic actions as a result of our test but also require larger test populations,** which may be challenging to reach for smaller brands.
+
+An 80% significance and a 5% power is a good starting point for most A/B tests, but you should use your judgment: in some tests, the cost of making a mistake in either direction might be higher or lower than usual; in others, you might only want to worry about false positives or false negatives.
+
+### 2. Novelty Effect and Change Aversion
+
+Two interesting dynamics can threaten the validity of A/B tests, and they both stem from how your users react to change. These are more relevant for products with a high percentage of returning users, so you should be extra careful if your brand offers subscriptions, for instance, as they could prevent you from getting reliable results.
+
+**The Novelty Effect occurs when users engage with a product more than usual because they’re fascinated by a new feature or a change in an existing feature.** For instance, users might purchase more if you introduce a brand-new loyalty program to drive incremental recurring revenue. However, as they adapt to the change, most people will gradually regress to the average user behavior patterns.
+
+Change Aversion is the exact opposite and often happens with significant redesigns of existing functionality: **you might find that affectionate users engage less with your experiment,** as they were used to the previous way of doing things and don’t like that their workflows got disrupted. Over time, they will likely get used to the new design and re-engage with your brand as usual.
+
+For both problems, **the solution is to segment your A/B test results by new and existing users.** By analyzing the performance of these two buckets separately, you can more easily isolate the effect of your experiment from the effect induced by novelty/change aversion. Of course, you’ll have to figure out what counts as a “new” or “existing” user, and it might differ depending on the test you’re running.
+
+### 3. Network Effect
+
+**The Network Effect occurs when users of an A/B test influence each other,** effectively “leaking” outside the bucket they belong to (i.e., the control group interacts with the experiment, or the experiment group reverts to control). This most often occurs with “social” functionality, where users interact with each other directly.
+
+Consider the case of a second-hand marketplace that wants to offer users the ability to exchange goods directly without a cash transaction. By definition, such a feature will require two users to participate: the sender and the receiver. One quick solution would be to assign users randomly to the experiment or control group and only allow users in the experiment group to use the new functionality. However, this might lead to a sub-par UX, causing frustration and skewing the test results.
+
+Instead, **you should cluster users into groups, with all users in the same group being more likely to interact with each other.** For instance, you might cluster users by state, assuming that most of your marketplace’s transactions happen within the same state. You would then assign each state to the control or experiment group. Users might still interact across different states, influencing each other, but clustering helps minimize the likelihood of spillover.
+
+The Network Effect is relatively uncommon in eCommerce, but it’s still worth understanding if your brand allows users to interact with each other (as in the case of a marketplace). It can lead to unexpected results and can be incredibly sneaky to detect. As a rule of thumb, you should always consider whether any tests you’re designing have the potential to introduce a network effect and plan accordingly.
+
+### 4. History Effect
+
+**The History Effect occurs when an event in the outside world affects the results of your A/B test.** This can be anything from a marketing campaign to a shopping holiday. These events are likely to change the behavioral patterns of your visitors compared to the average, which will cause you to extrapolate incorrect insights.
+
+For example, let’s assume you’re testing whether offering a discount in exchange for newsletter signups significantly increases subscribers. If you decide to run the test during a site-wide sale (e.g., because of Black Friday/Cyber Monday), your test might be inconclusive.
+
+**To mitigate the History Effect, ensure you have solid processes to ensure you’re not running A/B tests concurrently with major media coverage and PR events.** It also helps to run your A/B tests for at least two complete business cycles, which typically translates into 2-4 weeks for most brands.
+
+### 5. Simpson’s Paradox
+
+**Simpson’s Paradox is a particularly sneaky type of error that occurs whenever you inadvertently introduce weighted averages into an A/B test,** which can happen in a few cases:
+
+- **When you adjust the traffic split for an A/B test during test execution.** Example: you start your test at 50%/50%, then change it to 90%/10% when you see that the experiment is outperforming the control.
+- **When your website traffic segmentation is not consistent across different variants of your test.** Example: you segment your test by returning vs. new visitors, but you have 1,000 new customers visit the experiment, and only 500 visit the control.
+
+In these scenarios, you might find that any correlation identified in individual test segments disappears or is inverted in your aggregate results. This is because the aggregate result calculation effectively becomes a weighted average, and your larger segments will “overwhelm” the smaller ones.
+
+You can find a more academic explanation of Simpson’s paradox [here](https://learn.microsoft.com/en-us/archive/msdn-magazine/2005/december/test-run-software-testing-paradoxes), but there are a few things you can do to prevent Simpson’s Paradox from finding its way into your test results:
+
+- **Ensuring your test populations are accurately randomized** and evenly distributed among different test variants. In other words, you should have the same number of visitors from each segment to each variant of your test.
+- **Running an A/A test** (i.e., a “fake” A/B test where both variants are the same) can be helpful to ensure proper randomization.
+- **Looking at test results across different segments** ensuring and not just at the aggregates so that you can spot any inconsistencies.
+- **Relying on your A/B platform’s built-in capabilities,** e.g., Optimizely’s [Stats Accelerator](https://support.optimizely.com/hc/en-us/articles/5326213705101-Stats-Accelerator-Acceleration-Under-Time-Varying-Signals), to make your tests more resilient to Simpson’s Paradox.
+
+### 6. P-hacking
+
+P-hacking is an extremely common A/B testing pitfall–so much so that it used to be _encouraged_ by A/B testing tools such as Optimizely. Simply put, **P-hacking is the practice of changing a test’s original parameters to reach a pre-determined conclusion.** This can come in different forms:
+
+- Some teams stop a test as soon as it reaches statistical significance rather than letting it run for its established duration.
+- Some teams increase the test population until they reach statistical significance.
+
+**P-hacking is often caused by pressure from your leadership or digital marketing team** to get a specific result from an A/B test or to maximize the impact of a successful experiment as quickly as possible. Unfortunately, this is not how traditional A/B testing works: once you have established your sample size, you simply need to let your run test run its course and evaluate the results only at the end.
+
+Because this methodology isn’t particularly well-suited to the speed at which startups typically move, many A/B testing platforms ended up implementing alternative algorithms. Optimizely, for instance, introduced Stats Engine in 2015, which allows A/B testers to peek at test results without the risk of taking action prematurely–you can learn more about how it works in [this introductory article](https://www.optimizely.com/insights/blog/statistics-for-the-internet-age-the-story-behind-optimizelys-new-stats-engine/) by the Optimizely team.
+
+While features such as Optimizely’s Stats Engine or VWO’s Bayesian engine help A/B testing teams avoid pitfalls such as P-hacking, they don’t eliminate the need for proper test planning.
+
+### 7. Instrumentation Effect
+
+While most pitfalls outlined in this article are statistical, the Instrumentation Effect is much simpler: **it occurs when your analytics, A/B testing infrastructure, or test implementation don’t work correctly**, skewing test results. Here are a few examples:
+
+- Your analytics setup sometimes reports conversions twice, skewing the total number of conversions you use to evaluate your test results.
+- Your A/B testing setup sometimes puts the same customer in different buckets throughout the same A/B test.
+- One of your test variants has a user experience edge case that prevents specific customers from completing their interaction with the webpage.
+
+Because these bugs happen at the very source of your data, no statistical methods can solve any of these problems for you. Instead, you need to regularly and rigorously test every part of your A/B testing infrastructure:
+
+- Before running an experiment, **make sure that all the metrics you are interested in are being reported accurately.**
+- **Test your experiments for usability and integrity** with the same attention you’d reserve to a permanent feature.
+- **Run A/A tests to verify that your A/B testing setup works correctly** and that your upstream data collection is reliable.
+
+## A/B Testing Is Not a One-Size-Fits-All Methodology
+
+Reading this article, you might think that we want to discourage eCommerce brands from running A/B testing, and you’d be–at least partially–correct. It’s not that A/B testing doesn’t have its place in an eCommerce brand’s strategy. But **the effort involved in planning, executing, and analyzing an A/B test, assuming that you want to get significant results, is often not sustainable by most early-stage brands.**
+
+Anyone not adequately trained in the statistical techniques behind A/B testing will have a tough time guarding their tests against the pitfalls we’ve outlined–which, by the way, are a subset of all the different statistical and practical errors A/B testers can incur. Tools can help mitigate some of these errors to an extent, but they can’t turn an inexperienced team into data analysis experts overnight.
+
+Furthermore, **A/B testing is very often not the best research methodology.** There are many scenarios in which A/B testing falls short.
+
+- First and foremost: **A/B testing, by its very nature, is focused on short-term gains.** As we have seen, these can sometimes come at the expense of long-term business results: focusing on click-through and conversion rates might come at the expense of retention and customer LTV.
+- As a result of the above: **A/B testing tends to deprioritize disruptive innovation,** leading teams to focus on incremental gains instead—its typical application is in conversion-rate optimization. If your brand is working on a massive product launch, or a brand new membership program, A/B testing will not offer any meaningful insights into how your customers might respond.
+- **The cost of designing and launching an A/B test is high:** every test you run effectively creates two “branches” in your digital experience. This means your team will have to tiptoe around your A/B test until it’s run its entire course, slowing down further innovation and improvements in that product area.
+- **A/B testing is a quantitative and evaluative research methodology.** As such, it needs an initial hypothesis to validate–and one that can be clearly and unequivocally validated with a data-driven approach. Anything requiring generative or qualitative research, which often involves talking to your customers, is not a good fit for A/B testing.
+
+## Start A/B Testing When You Have Product Management Fundamentals
+
+So, are we suggesting that retailers shouldn’t A/B test? Not at all: A/B testing has its place, and when employed correctly, it can be instrumental in improving a business’s KPIs and bottom line. To dismiss A/B testing as too complicated to be worth the effort would be incredibly short-sighted and detrimental.
+
+However, **many eCommerce businesses dive head-first into A/B testing without proper product management fundamentals.** We’re talking about generative and evaluative research methodologies such as heatmaps, user interviews, user testing, on-site surveys, session replays, historical analytics, feature flags, and many other techniques.
+
+These practices have a broader set of potential use cases and are also a prerequisite for being able to A/B test intentionally. Plus, they’re almost always _simpler_ to implement and leverage than an effective A/B testing infrastructure!
+
+The next time you–or someone else on your team–want to run an A/B test, stop for a moment and ask yourself: **is there a more straightforward, more efficient way to answer this question/validate this testing hypothesis?** You might be surprised about how many alternatives you have at your disposal.
+
+In the next few weeks, we’ll be exploring precisely these product fundamentals, explaining when and how they are best used, and how you can orchestrate them together to form the basis of a strong product management practice for your eCommerce brand.

@@ -1,0 +1,105 @@
+---
+aliases:
+  - Using RFCs to Drive Organizational Change
+canonical: 'https://nebulab.com/blog/driving-organizational-change-with-rfcs'
+excerpt: Experimenting with structured change management.
+publishedOn: 2020-01-09T00:00:00.000Z
+status: evergreen
+title: Using RFCs to Drive Organizational Change
+---
+Once the number of decision-makers in a company increases, it becomes increasingly more difficult to gather feedback and get stakeholder buy-in on organization-wide changes and policies.
+
+Conference calls and instant messaging, the two communication mediums of choice at most modern companies, are not the right tool for the job: their fast-paced nature and volatility makes it difficult for people to collect and organize their thoughts before sending them out to their colleagues for evaluation.
+
+## Feedback takes time
+
+For most of us, it takes hours or even days to analyze a new idea from all possible angles and structure it properly, but in a chat or a call, you only have minutes to do it before losing people’s attention. This makes these tools the perfect place for quick back and forth, but not a good choice for decisions or projects with a wider scope.
+
+The same goes for feedback: **if you really want someone’s opinion on your plan, you need to give them time to think it through.** You are not going to have someone’s full attention by Slack-ing them in the middle of the morning - the best you can hope for is a thumbs-up. It gets even worse when people are sick or on vacation: in this case, you risk completely missing out on their feedback because they were simply not in the right place at the right time.
+
+At Nebulab, we started experiencing a few of these problems and then some more. With four directors handling all aspects of the company’s operations and a marketing and design department to coordinate with, we started experiencing a lot of frustration when trying to propose new initiatives that affected the entire company.
+
+Furthermore, people would be too busy to leave their feedback on new ideas or simply miss them in the daily sea of Slack messages. When left, feedback would then sometimes be misplaced and/or forgotten, which caused a lot of friction and slowed down the implementation of new initiatives.
+
+We knew there _had_ to be a better way to discuss ideas and make decisions. We just didn’t expect it would come all the way from 1969.
+
+## Enter the world of RFCs
+
+The Internet has had a structured format for gathering feedback and describing initiatives for quite a long time: in 1969, Steve Connor wrote the very first RFC (Request for Comments) at UCLA to organize the work of the new ARPAnet research program. In fact, RFCs were the first online publication series.
+
+Over the years, RFCs have been used as a way to gather peer review on new ideas, architectures and protocols by many official bodies and independent authors all over the world. While some RFCs end up becoming Internet standards, for the vast majority of them the purpose is to gather initial feedback on an idea to refine it and make it ready for real-world usage.
+
+We thought RFCs would be the perfect format to propose new ideas and initiatives in Nebulab.
+
+## Our RFC template
+
+We knew we’d need to tweak the format slightly: RFCs used by the IETF tend to be very formal, because they describe standards that will be potentially adopted by the entire Internet, but in our case we just wanted to propose changes for our company.
+
+With this goal in mind, we listed a few constraints for our RFCs:
+
+- They had to allow us to **explain an idea in detail** and reply to reasonable objections in advance rather than on the spot.
+- They had to provide us with a **centralized place to gather peer feedback** and implement it before being rolled out.
+- They had to provide **a clear framework for experimenting** with new ideas before making them official company policies.
+
+We quickly sketched a first draft of our RFC template in Google Docs. We chose Google Docs because it makes it extremely easy to organize files, share them with the right people and gather and implement feedback in the form of inline comments.
+
+This is what we came up with:
+
+![](https://cdn.sanity.io/images/kqgmf0g2/production/1c6b4aade8b264af3c9ff37d121b518e9d0de0b3-1278x1526.png?fit=clip)
+
+I’ll skip the header, since it’s quite self-explanatory. Instead, let’s walk through the other sections one at a time.
+
+## Why, what, how
+
+First of all, we want to explain _why_ we are proposing this change. This really forces us to think about the problem we’re trying to solve and the outcome we want to achieve. This is probably the most important part of the entire RFC: **the best-designed initiative in the world won’t do your company much good if it’s solving the wrong problem**, and putting it in writing helps you ensure you deeply understand the challenge at hand.
+
+Next, we explain the solution we are proposing to the problem. These are the implementation details, and we usually go quite in depth here about what we want to do and how we plan to do it. This allows peers to visualize our solution and provide feedback to propose improvements and better alternatives to our plan, as well as to find any drawbacks or areas of the company that we forgot to cover.
+
+Finally, we describe the roll-out plan for our initiative. When you start with a brand new policy or project, it’s not enough to simply dive into the execution. Instead, **you need to create the proper structure to support your initiative**, communicate it to the relevant team members and ensure everyone’s on board and clear on how to execute. We quickly realized that this initial phase can make or break our ideas, so it can’t be left to chance.
+
+The first three sections give you a pretty good overview of the problem we’re solving and how we want to solve it, but how can we go about validating our solution?
+
+## Define what success looks like
+
+This is where the _Metrics_ section comes in. For each RFC, we do our best to list two or three metrics that we can use to evaluate the proposal and determine whether it’s working as expected or not.
+
+This is necessary because it’s very easy for new ideas to start accumulating on people’s plates and drag on even when it’s clear they aren’t working. No one wants to shoot an idea in the head, especially when it’s not ours, but **every new policy and every new initiative come with a burden:** management needs to document it and team members need to understand it and execute on it.
+
+By having clear metrics, we can revisit an RFC and quickly determine if it solved the problem it was designed for or not.
+
+This is what we use the _Status_ column for: when an RFC is first created, it’s a _Draft_. Then, once it’s ready to be shared with relevant team members, it becomes a _Proposal_. At this point, any feedback is integrated and the RFC is finalized and rolled, and it becomes _Experimental_. When we revisit the RFC and determine whether it’s working or not, it becomes either _Effective_ or _Abandoned_.
+
+## Plan for the future
+
+You may have noticed the template also has a _Future possibilities_ section. This is because we encourage people to keep their initial RFC for an initiative as lean as possible, which allows them to quickly validate ideas before deciding whether to continue with their development or not.
+
+So, for instance, for an RFC that describes a new type of service Nebulab could offer to its clients, future possibilities may include productizing that service so that we can provide the same value to clients with a fraction of the work. However, this is definitely not something we want to do in the initial phase of the implementation, since it would cost us a lot of time before we even know if the service resonates with our customers.
+
+By planning for future possibilities in advance, you can write down any ideas while they’re still fresh in your mind without spending the time to implement them.
+
+## Asking for and integrating feedback
+
+As I mentioned, one of the reasons we chose Google Docs is because it makes it extremely easy to leave inline feedback on a document, and the comments system allows the author of the document to reply to the feedback, reach a conclusion and incorporate it in the original content (or drop it).
+
+When we’re working on an RFC, we usually ask for **30% feedback, 60% feedback and 90% feedback** so that we can adjust the document at different stages of its lifecycle. This concept is better explained in [an article by Trello](https://blog.trello.com/avoid-the-seagull-effect-30/60/90-feedback-framework) which we strongly invite you to read. It can be applied to all kinds of feedback, not just RFCs, and **it can truly transform how a company thinks about feedback and collaboration.**
+
+In the case of an RFC, an important aspect to keep in mind is that, because of their experimental nature, the author(s) have complete freedom on which feedback to accept and which to discard. Your RFC is your baby and you can decide how you want to raise it - after all, that’s why we have a structured way to determine success!
+
+## When NOT to use RFCs
+
+I want to end on a note of caution: RFCs can be a great tool for driving change across a company. As we’ve seen, they give us a structured way to document a transformation, get buy-in from teammates and evaluate the results. However, they’re not a one-size-fits-all tool, and there are a few scenarios where I’d advise against using an RFC:
+
+- **When the change is so small it doesn’t warrant a full-blown discussion.** This can be the case for instance with small implementation changes for existing initiatives. At the end of the day, you set this boundary, but make sure to use your judgment.
+- **When the change has limited scope (i.e. it only affects a team of the company).** In this case, you’re probably better off discussing the change with the individuals involved directly rather than trying to capture all the details in advance.
+- **When you don’t actually care about the feedback.** We strongly encourage people to own their aspects of the business here at Nebulab and we give them all the freedom they need to do it. If you feel very strongly about a choice and you can validate it easily and with little to no repercussions, then just go for it.
+
+As always, your mileage may vary, but we’re pretty sure most companies could benefit immensely from having a more structured approach to organizational change.
+
+## Additional resources
+
+The following articles have been a source of inspiration for our RFC process and we strongly recommend them:
+
+- [A Structured RFC Process](https://philcalcado.com/2018/11/19/a_structured_rfc_process.html)
+- [Avoid The Seagull Effect: The 30/60/90 Framework For Feedback](https://blog.trello.com/avoid-the-seagull-effect-30/60/90-feedback-framework)
+
+Finally, [we have published our RFC template](https://docs.google.com/document/d/1cSNTB0ECzyiuTMm2Rb8RiGtN_iizzmjWJZiztljTv4w/edit), so that you can easily fork it and use it at your company!

@@ -23,6 +23,17 @@
   },
   {
     "ids": [
+      "6 Design Principles for Your HTTP APIs",
+      "api-design"
+    ],
+    "slug": "api-design",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Apology of the regulator",
       "apology-of-the-regulator"
     ],
@@ -38,6 +49,128 @@
       "beauty-and-the-beast"
     ],
     "slug": "beauty-and-the-beast",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Digital Product Passports and Retail’s New Growth Opportunity",
+      "digital-product-passport-cx"
+    ],
+    "slug": "digital-product-passport-cx",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Scaling DTC Brands Through Product-Led Growth",
+      "dtc-product-led-growth"
+    ],
+    "slug": "dtc-product-led-growth",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Supercharge Your DTC Growth with Product Management",
+      "dtc-product-management"
+    ],
+    "slug": "dtc-product-management",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "ecommerce-ab-tests",
+      "How to Make Your E-Commerce A/B Tests Useless",
+      "ecommerce-ab-testing-mistakes"
+    ],
+    "slug": "ecommerce-ab-testing-mistakes",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "eCommerce A/B Testing: Strategies for Success",
+      "ecommerce-ab-testing-strategies"
+    ],
+    "slug": "ecommerce-ab-testing-strategies",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Building Content Infrastructures for eCommerce Brands",
+      "ecommerce-content-stack"
+    ],
+    "slug": "ecommerce-content-stack",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Ultimate Guide to E-Commerce Loyalty Programs",
+      "ecommerce-loyalty-programs"
+    ],
+    "slug": "ecommerce-loyalty-programs",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The GTDT Model for Intentional eCommerce Personalization",
+      "ecommerce-personalization"
+    ],
+    "slug": "ecommerce-personalization",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Transformative Nature of Ownership in Engineering Orgs",
+      "engineering-ownership"
+    ],
+    "slug": "engineering-ownership",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Experience-Led Commerce: Turning Customer Experience Into Your New Growth Engine",
+      "experience-led-commerce"
+    ],
+    "slug": "experience-led-commerce",
+    "status": "seedling",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Feedback-Centric Organization",
+      "feedback-centric-organization"
+    ],
+    "slug": "feedback-centric-organization",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -89,6 +222,17 @@
   },
   {
     "ids": [
+      "Why Memberships Are The Future of Customer Loyalty",
+      "membership-programs"
+    ],
+    "slug": "membership-programs",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Redefining the Digital Value Chain for Multi-Brand Retail",
       "multi-brand-retail-value-chain"
     ],
@@ -104,6 +248,17 @@
       "outage-outrage"
     ],
     "slug": "outage-outrage",
+    "status": "evergreen",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Using RFCs to Drive Organizational Change",
+      "rfcs"
+    ],
+    "slug": "rfcs",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -3370,6 +3525,28 @@
   },
   {
     "ids": [
+      "Non-fiction must revolve around a shiny dime",
+      "non-fiction-must-revolve-around-a-shiny-dime"
+    ],
+    "slug": "non-fiction-must-revolve-around-a-shiny-dime",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "there-are-three-types-of-non-fiction-works",
+        "title": "There are three types of non-fiction works",
+        "slug": "there-are-three-types-of-non-fiction-works"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "There are three types of non-fiction works",
+        "slug": "there-are-three-types-of-non-fiction-works"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Optimism requires diversification",
       "optimism-requires-diversification"
     ],
@@ -4765,14 +4942,30 @@
   },
   {
     "ids": [
-      "There are three types of non-fiction books",
-      "there-are-three-types-of-non-fiction-books"
+      "There are three types of non-fiction works",
+      "there-are-three-types-of-non-fiction-works"
     ],
-    "slug": "there-are-three-types-of-non-fiction-books",
+    "slug": "there-are-three-types-of-non-fiction-works",
     "status": "seedling",
     "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
+    "outboundLinks": [
+      {
+        "matchedId": "non-fiction-must-revolve-around-a-shiny-dime",
+        "title": "Non-fiction must revolve around a shiny dime",
+        "slug": "non-fiction-must-revolve-around-a-shiny-dime"
+      },
+      {
+        "matchedId": "non-fiction-must-revolve-around-a-shiny-dime",
+        "title": "Non-fiction must revolve around a shiny dime",
+        "slug": "non-fiction-must-revolve-around-a-shiny-dime"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Non-fiction must revolve around a shiny dime",
+        "slug": "non-fiction-must-revolve-around-a-shiny-dime"
+      }
+    ]
   },
   {
     "ids": [
@@ -5684,6 +5877,17 @@
     ],
     "slug": "il-bambino-scomparso",
     "status": null,
+    "contentType": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il Conte Di Montecristo",
+      "il-conte-di-montecristo"
+    ],
+    "slug": "il-conte-di-montecristo",
+    "status": "seedling",
     "contentType": "books",
     "outboundLinks": [],
     "inboundLinks": []

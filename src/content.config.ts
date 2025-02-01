@@ -24,7 +24,7 @@ export const collections = {
   essays: defineCollection({
     schema: z.object({
       title: z.string(),
-      publishedOn: z.coerce.date(),
+      publishedOn: z.coerce.date().optional(),
       canonical: z.string().url().optional(),
       excerpt: z.string(),
     }),
