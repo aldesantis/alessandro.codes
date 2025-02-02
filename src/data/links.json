@@ -3,9 +3,9 @@
     "ids": [
       "UI Components in Rails",
       "UI Components in Rails",
-      "2013-12-24-ui-components-in-rails"
+      "2013-12-24-rails-ui-components"
     ],
-    "slug": "2013-12-24-ui-components-in-rails",
+    "slug": "2013-12-24-rails-ui-components",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -14,9 +14,9 @@
   {
     "ids": [
       "The Evolution of an Introvert",
-      "2014-03-16-the-evolution-of-an-introvert"
+      "2014-03-16-introvert"
     ],
-    "slug": "2014-03-16-the-evolution-of-an-introvert",
+    "slug": "2014-03-16-introvert",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -25,9 +25,9 @@
   {
     "ids": [
       "The Imperative Manifesto",
-      "2014-03-19-the-imperative-manifesto"
+      "2014-03-19-manifesto"
     ],
-    "slug": "2014-03-19-the-imperative-manifesto",
+    "slug": "2014-03-19-manifesto",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -36,9 +36,9 @@
   {
     "ids": [
       "L’educazione proibita",
-      "2014-03-25-leducazione-proibita"
+      "2014-03-25-educazione-proibita"
     ],
-    "slug": "2014-03-25-leducazione-proibita",
+    "slug": "2014-03-25-educazione-proibita",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -58,7 +58,7 @@
   {
     "ids": [
       "Meditate with Purpose",
-      "Meditate with Purpose",
+      "Meditate with\\_Purpose",
       "2014-04-06-meditate-with-purpose"
     ],
     "slug": "2014-04-06-meditate-with-purpose",
@@ -116,6 +116,7 @@
   {
     "ids": [
       "Movimento e Quiete",
+      "Movimento e\\_Quiete",
       "2014-08-09-movimento-e-quiete"
     ],
     "slug": "2014-08-09-movimento-e-quiete",
@@ -127,9 +128,9 @@
   {
     "ids": [
       "Sul liceo e sull’accanimento terapeutico",
-      "2014-08-18-sul-liceo-e-sullaccanimento-terapeutico"
+      "2014-08-18-liceo"
     ],
-    "slug": "2014-08-18-sul-liceo-e-sullaccanimento-terapeutico",
+    "slug": "2014-08-18-liceo",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -139,9 +140,9 @@
     "ids": [
       "Testing Active Record Concerns with RSpec and Temping",
       "Testing Active Record Concerns with RSpec and Temping",
-      "2014-08-23-testing-active-record-concerns-with-rspec-and-temping"
+      "2014-08-23-testing-active-record-concerns"
     ],
-    "slug": "2014-08-23-testing-active-record-concerns-with-rspec-and-temping",
+    "slug": "2014-08-23-testing-active-record-concerns",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -183,9 +184,9 @@
   {
     "ids": [
       "Il caso dell’orsa Daniza",
-      "2014-09-15-il-caso-dellorsa-daniza"
+      "2014-09-15-daniza"
     ],
-    "slug": "2014-09-15-il-caso-dellorsa-daniza",
+    "slug": "2014-09-15-daniza",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -194,9 +195,9 @@
   {
     "ids": [
       "25 Things I Learned on Software Development",
-      "2014-09-20-25-things-i-learned-on-software-development"
+      "2014-09-20-25-things-on-software"
     ],
-    "slug": "2014-09-20-25-things-i-learned-on-software-development",
+    "slug": "2014-09-20-25-things-on-software",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -251,9 +252,9 @@
     "ids": [
       "Sul privilegio di soffrire",
       "Sul privilegio di soffrire",
-      "2015-09-27-sul-privilegio-di-soffrire"
+      "2015-09-27-soffrire"
     ],
-    "slug": "2015-09-27-sul-privilegio-di-soffrire",
+    "slug": "2015-09-27-soffrire",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -318,9 +319,9 @@
   {
     "ids": [
       "Critica appassionata dell’(in)utilità della frequenza obbligatoria",
-      "2016-03-16-critica-appassionata-dellinutilita-della-frequenza-obbligatoria"
+      "2016-03-16-frequenza-obbligatoria"
     ],
-    "slug": "2016-03-16-critica-appassionata-dellinutilita-della-frequenza-obbligatoria",
+    "slug": "2016-03-16-frequenza-obbligatoria",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -339,7 +340,7 @@
   },
   {
     "ids": [
-      "Questo è.",
+      "Questo è",
       "2016-08-27-questo-e"
     ],
     "slug": "2016-08-27-questo-e",
@@ -352,9 +353,9 @@
     "ids": [
       "BSBS: Building Solid Billing Systems",
       "BSBS: Building Solid Billing Systems",
-      "2016-11-29-bsbs-building-solid-billing-systems"
+      "2016-11-29-bsbs"
     ],
-    "slug": "2016-11-29-bsbs-building-solid-billing-systems",
+    "slug": "2016-11-29-bsbs",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -375,9 +376,9 @@
   {
     "ids": [
       "The Superhero",
-      "2017-05-01-the-superhero"
+      "2017-05-01-superhero"
     ],
-    "slug": "2017-05-01-the-superhero",
+    "slug": "2017-05-01-superhero",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -386,9 +387,9 @@
   {
     "ids": [
       "The CTO Manifesto",
-      "2017-05-05-the-cto-manifesto"
+      "2017-05-05-cto-manifesto"
     ],
-    "slug": "2017-05-05-the-cto-manifesto",
+    "slug": "2017-05-05-cto-manifesto",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -397,9 +398,9 @@
   {
     "ids": [
       "Leadership: Five Lessons in Five Months",
-      "2017-09-05-leadership-five-lessons-in-five-months"
+      "2017-09-05-leadership-lessons"
     ],
-    "slug": "2017-09-05-leadership-five-lessons-in-five-months",
+    "slug": "2017-09-05-leadership-lessons",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -409,9 +410,9 @@
     "ids": [
       "The No-Bullshit Guide to Hiring",
       "The No-Bullshit Guide to Hiring",
-      "2017-10-11-the-no-bullshit-guide-to-hiring"
+      "2017-10-11-hiring"
     ],
-    "slug": "2017-10-11-the-no-bullshit-guide-to-hiring",
+    "slug": "2017-10-11-hiring",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -476,9 +477,9 @@
   {
     "ids": [
       "The Hype Cycle: What It Is and How to Game It",
-      "2017-11-27-the-hype-cycle-what-it-is-and-how-to-game-it"
+      "2017-11-27-hype-cycle"
     ],
-    "slug": "2017-11-27-the-hype-cycle-what-it-is-and-how-to-game-it",
+    "slug": "2017-11-27-hype-cycle",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -488,9 +489,9 @@
     "ids": [
       "In Defense of Human Testing",
       "In Defense of Human Testing",
-      "2017-12-04-in-defense-of-human-testing"
+      "2017-12-04-manual-testing"
     ],
-    "slug": "2017-12-04-in-defense-of-human-testing",
+    "slug": "2017-12-04-manual-testing",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -499,9 +500,9 @@
   {
     "ids": [
       "The Changelog-Versioning Revolution",
-      "2017-12-11-the-changelog-versioning-revolution"
+      "2017-12-11-changelogs"
     ],
-    "slug": "2017-12-11-the-changelog-versioning-revolution",
+    "slug": "2017-12-11-changelogs",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -510,9 +511,9 @@
   {
     "ids": [
       "The One Skill You Need in Order to Thrive in Life, at Work and Everywhere",
-      "2017-12-18-the-one-skill-you-need-in-order-to-thrive-in-life-at-work-and-everywhere"
+      "2017-12-18-consistency"
     ],
-    "slug": "2017-12-18-the-one-skill-you-need-in-order-to-thrive-in-life-at-work-and-everywhere",
+    "slug": "2017-12-18-consistency",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -534,9 +535,9 @@
     "ids": [
       "The Three Tenets of API Design (1/3): Be Boring",
       "The Three Tenets of API Design (1/3): Be Boring",
-      "2018-01-08-the-three-tenets-of-api-design-13-be-boring"
+      "2018-01-08-api-design-1"
     ],
-    "slug": "2018-01-08-the-three-tenets-of-api-design-13-be-boring",
+    "slug": "2018-01-08-api-design-1",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -546,9 +547,9 @@
     "ids": [
       "The Three Tenets of API Design (2/3): Embrace HTTP",
       "The Three Tenets of API Design (2/3): Embrace HTTP",
-      "2018-01-15-the-three-tenets-of-api-design-23-embrace-http"
+      "2018-01-15-api-design-2"
     ],
-    "slug": "2018-01-15-the-three-tenets-of-api-design-23-embrace-http",
+    "slug": "2018-01-15-api-design-2",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -558,9 +559,9 @@
     "ids": [
       "The Three Tenets of API Design (3/3): Respect REST",
       "The Three Tenets of API Design (3/3): Respect REST",
-      "2018-01-22-the-three-tenets-of-api-design-33-respect-rest"
+      "2018-01-22-api-design-3"
     ],
-    "slug": "2018-01-22-the-three-tenets-of-api-design-33-respect-rest",
+    "slug": "2018-01-22-api-design-3",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -603,9 +604,9 @@
     "ids": [
       "My 2018 Annual Review",
       "My 2018 Annual Review",
-      "2019-01-07-my-2018-annual-review"
+      "2019-01-07-2018-review"
     ],
-    "slug": "2019-01-07-my-2018-annual-review",
+    "slug": "2019-01-07-2018-review",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -614,9 +615,9 @@
   {
     "ids": [
       "Fail Better: Turning Software Errors into Documentation",
-      "2019-01-21-fail-better-turning-software-errors-into-documentation"
+      "2019-01-21-fail-better"
     ],
-    "slug": "2019-01-21-fail-better-turning-software-errors-into-documentation",
+    "slug": "2019-01-21-fail-better",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -649,9 +650,9 @@
     "ids": [
       "Evolution Techniques for RESTful APIs",
       "Evolution Techniques for RESTful APIs",
-      "2019-02-27-evolution-techniques-for-restful-apis"
+      "2019-02-27-api-evolution"
     ],
-    "slug": "2019-02-27-evolution-techniques-for-restful-apis",
+    "slug": "2019-02-27-api-evolution",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -661,9 +662,9 @@
     "ids": [
       "Coach Them Until It Hurts",
       "Coach Them Until It Hurts",
-      "2019-09-29-coach-them-until-it-hurts"
+      "2019-09-29-coaching"
     ],
-    "slug": "2019-09-29-coach-them-until-it-hurts",
+    "slug": "2019-09-29-coaching",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -705,9 +706,9 @@
   {
     "ids": [
       "Sul bisogno di muoversi",
-      "2021-08-20-sul-bisogno-di-muoversi"
+      "2021-08-20-muoversi"
     ],
-    "slug": "2021-08-20-sul-bisogno-di-muoversi",
+    "slug": "2021-08-20-muoversi",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -737,7 +738,6 @@
   },
   {
     "ids": [
-      "ecommerce-ab-tests",
       "How to Make Your E-Commerce A/B Tests Useless",
       "2023-03-29-ecommerce-ab-testing-mistakes"
     ],
