@@ -2,11 +2,13 @@
 aliases:
   - Executing Sidekiq Jobs Immediately
 excerpt: Save $34.50/month by running Sidekiq jobs instantly on your free Heroku dyno
-publishedOn: 2014-09-13T00:00:00.000Z
+publishedOn: '2014-09-13'
+slug: executing-sidekiq-jobs-immediately
 status: evergreen
 title: Executing Sidekiq Jobs Immediately
-slug: executing-sidekiq-jobs-immediately
 ---
+# Executing Sidekiq Jobs Immediately
+
 When you’re working on a side project and you don’t expect to get a cent out of it, you want to keep operational costs to a minimum.
 
 If you have ever deployed your Rails application to Heroku, you’re probably familiar with the concept of dynos. Dynos are used to run your application’s processes. Heroku provides you with one free dyno, which is enough to run the app’s web server.
@@ -27,7 +29,7 @@ The inline mode will execute any jobs immediately and is usually enabled for tes
 
 Commit and push your changes to Heroku.
 
-Now you’ll have to set the **DISABLE\_ASYNC** environment variable. If you have the Heroku toolbelt installed, you can execute this command from your project’s root directory:
+Now you’ll have to set the **DISABLE_ASYNC** environment variable. If you have the Heroku toolbelt installed, you can execute this command from your project’s root directory:
 
 ```
 heroku config:set DISABLE_ASYNC=true

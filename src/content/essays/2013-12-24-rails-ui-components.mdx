@@ -1,14 +1,14 @@
 ---
 aliases:
-  - UI Components in Rails
   - "UI Components in\_Rails"
-excerpt: >-
-  Building UI components with plain Ruby: from messy helpers to elegant DSLs
-  that bring order to your Rails views.
-publishedOn: 2013-12-24T00:00:00.000Z
+  - UI Components in Rails
+  - UI Components in\_Rails
+  - UI Components in\_Rails
+excerpt: ''
+publishedOn: '2013-12-24'
+slug: rails-ui-components
 status: evergreen
 title: "UI Components in\_Rails"
-slug: rails-ui-components
 ---
 In the process of developing my CRUD application, I eventually decided that I needed to DRY up my code and build a set of reusable UI components. Those would be things like toolbars, attributes lists and similar.
 
@@ -53,7 +53,7 @@ I gazed at the screen, contemplating the elegance of my code. It was simple. It 
 <%= attributes_list_for article, :id, :name, :content %>
 ```
 
-However, it lacked the feature to pass custom logic for rendering an attribute. I changed the helper slightly so that I could use _simple_format_ for the _content_ attribute. Then I tweaked it so that it would work with decorated records as well. Finally, I improved it a bit more to accept either _Proc_s or custom methods for rendering.
+However, it lacked the feature to pass custom logic for rendering an attribute. I changed the helper slightly so that I could use _simple_format_ for the _content_ attribute. Then I tweaked it so that it would work with decorated records as well. Finally, I improved it a bit more to accept either \_Proc_s or custom methods for rendering.
 
 This was the final result:
 
@@ -63,29 +63,29 @@ module AttributesListHelper
     resource = resource.object if resource.respond_to?(:object)
     i18n_domain = "activerecord.attributes.#{resource.class.to_s.underscore}"
 
-    content_tag(:dl) do  
-      attributes.each.map do |attribute|  
-        if attribute.is_a?(Array)  
-          name = attribute[0]  
-   
-          if attribute[1].is_a?(Proc)  
-            value = attribute[1].call(resource)  
-          else  
-            value = resource.send(attribute[1])  
-          end  
-        else  
-          name = attribute  
-          value = resource.send(attribute)  
+    content_tag(:dl) do
+      attributes.each.map do |attribute|
+        if attribute.is_a?(Array)
+          name = attribute[0]
+
+          if attribute[1].is_a?(Proc)
+            value = attribute[1].call(resource)
+          else
+            value = resource.send(attribute[1])
+          end
+        else
+          name = attribute
+          value = resource.send(attribute)
         end
 
         name = t("#{i18n_domain}.#{name}")
 
-        [  
-          content_tag(:dt, name),  
-          content_tag(:dd, h(value))  
-        ].join("\n").html_safe  
-      end.join("\n").html_safe  
-    end  
+        [
+          content_tag(:dt, name),
+          content_tag(:dd, h(value))
+        ].join("\n").html_safe
+      end.join("\n").html_safe
+    end
   end
 end
 ```
@@ -170,25 +170,25 @@ class AttributesList
     include ActionView::Context
     include ActionView::Helpers::TagHelper
 
-    attr_reader :attribute  
-  
-    def initialize(attribute)  
-      @attribute = attribute  
-    end  
-  
-    def label_for(resource)  
-      I18n.t "activerecord.attributes.#{resource.class.to_s.underscore}.#{attribute}"  
-    end  
-  
-    def value_for(resource)  
-      resource.send(attribute)  
-    end  
-  
-    def render_for(resource)  
-      [  
-        content_tag(:dt, label_for(resource)),  
-        content_tag(:dd, value_for(resource))  
-      ].join("\n").html_safe  
+    attr_reader :attribute
+
+    def initialize(attribute)
+      @attribute = attribute
+    end
+
+    def label_for(resource)
+      I18n.t "activerecord.attributes.#{resource.class.to_s.underscore}.#{attribute}"
+    end
+
+    def value_for(resource)
+      resource.send(attribute)
+    end
+
+    def render_for(resource)
+      [
+        content_tag(:dt, label_for(resource)),
+        content_tag(:dd, value_for(resource))
+      ].join("\n").html_safe
     end
   end
 end
@@ -255,7 +255,7 @@ attributes_list_for(article) do
 end
 ```
 
-Neat, right? At this point I was able to add all sorts of features to my component, like lots of options and the ability to use _Proc_s or blocks to render an attribute. After all, the class is (mostly) plain old Ruby!
+Neat, right? At this point I was able to add all sorts of features to my component, like lots of options and the ability to use \_Proc_s or blocks to render an attribute. After all, the class is (mostly) plain old Ruby!
 
 ## One size doesn’t fit all
 

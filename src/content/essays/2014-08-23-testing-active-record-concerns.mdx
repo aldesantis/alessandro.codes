@@ -1,15 +1,17 @@
 ---
 aliases:
   - Testing Active Record Concerns with RSpec and Temping
-  - "Testing Active Record Concerns with RSpec and\_Temping"
+  - Testing Active Record Concerns with RSpec and\_Temping
 excerpt: >-
   Testing Rails concerns doesn't have to be messy. Here's a clean way using
   temporary models
-publishedOn: 2014-08-23T00:00:00.000Z
+publishedOn: '2014-08-23'
+slug: testing-active-record-concerns
 status: evergreen
 title: Testing Active Record Concerns with RSpec and Temping
-slug: testing-active-record-concerns
 ---
+# Testing Active Record Concerns with RSpec and Temping
+
 I won’t even attempt to discuss the utility of concerns. To some people, they’re a dangerous way of hiding dependency and just syntactic sugar for include/extend. To others, they should be used whenever possible. To me, concerns are just a tool. I try not to use them too much, but I don’t freak out when I see them either.
 
 Instead, I’m going to focus on the practical side of the matter: what is the best approach to testing your concerns?
@@ -34,11 +36,11 @@ module Processable
   def mark_as_processed!
     update_column :processed, true
   end
-  
+
   def mark_as_unprocessed!
     update_column :processed, false
   end
-  
+
   def status
     if processed?
       :processed
@@ -46,7 +48,7 @@ module Processable
       :unprocessed
     end
   end
-  
+
   def unprocessed?
     !processed?
   end
@@ -93,7 +95,7 @@ RSpec.describe Processable do
   end
 
   subject { ProcessableModel.new }
-  
+
   # ...
 end
 ```
@@ -102,14 +104,14 @@ What we’re doing, here, is tell Temping to create a temporary model named **Pr
 
 After the model has been set up, you can do whatever you want: Create new instances, call class and instance methods and pretty much anything else you would do with an Active Record model.
 
-For example, let’s test the **mark\_as\_processed!** method:
+For example, let’s test the **mark_as_processed!** method:
 
 ```ruby
 require 'rails_helper'
 
 RSpec.describe Processable do
   # ...
-  
+
   describe '#mark_as_processed!' do
     it 'updates the processed column to true' do
       subject
@@ -121,7 +123,7 @@ RSpec.describe Processable do
       subject.mark_as_processed!
     end
   end
-  
+
   # ...
 end
 ```

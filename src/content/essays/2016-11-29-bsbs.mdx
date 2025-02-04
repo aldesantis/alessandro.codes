@@ -1,15 +1,18 @@
 ---
 aliases:
+  - 'BSBS: Building Solid Billing\_Systems'
   - 'BSBS: Building Solid Billing Systems'
   - "BSBS: Building Solid Billing\_Systems"
 excerpt: >-
   Building billing systems: where a typo can cost thousands, and every decimal
   point matters.
-publishedOn: 2016-11-29T00:00:00.000Z
+publishedOn: '2016-11-29'
+slug: bsbs
 status: evergreen
 title: "BSBS: Building Solid Billing\_Systems"
-slug: bsbs
 ---
+# BSBS: Building Solid Billing Systems
+
 One of my first tasks at [InterConn](http://www.interconn.it) was to set up a billing system. We did not have many requirements, so we evaluated a lot of SaaS options. Now, there’s no shortage of billing SaaS — unfortunately, though, none of them could handle our particular rated billing process, except for JBilling, which was awesome but definitely out of our budget’s reach (in retrospect, Stripe _might_ have been a good solution — I just didn’t know about it at the time).
 
 So I set out to develop an in-house solution that could handle this task. A couple of months later, we had our MVP. The UI was based on [ActiveAdmin](http://activeadmin.info) — it was solid and it worked, but it was not very pretty or flexible (no modals for creating parent resources on the fly?!). As this was one of my first Ruby (on Rails) jobs, the codebase was a mess: I had stuffed everything into models and background jobs and there were no tests, because it’s much more fun to test things with your browser, right? Right?!
@@ -60,7 +63,7 @@ This query is not only hard to read: it performs badly.
 
 What if, instead, you could write it like this?
 
-All you need to do is add a _total\_cents_ column to your _invoices_ table and make sure to update it whenever the total of the invoice changes (e.g. an item is added, edited or removed). The advantages are alluring:
+All you need to do is add a _total_cents_ column to your _invoices_ table and make sure to update it whenever the total of the invoice changes (e.g. an item is added, edited or removed). The advantages are alluring:
 
 - no complex SQL queries as the one above;
 - no performance bottlenecks;
@@ -101,7 +104,7 @@ You will be able to do whatever you want with your invoices, like adding another
 
 Even if invoice items can refer to both products and services, you will only ever have to deal with one type (_InvoiceItem_) when listing items, because all the details have been abstracted for you.
 
-* * *
+---
 
 The recommendations I presented in this article are not enough for building a solid billing system: that requires a lot of thought as well as trial-and-error (possibly not with live data). If at all possible, you should avoid developing such a system yourself: there are a lot of off-the-shelf solutions and one of them is probably perfect for you — it’s just a matter of finding it.
 
