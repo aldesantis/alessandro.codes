@@ -3,6 +3,7 @@
     "ids": [
       "UI Components in Rails",
       "UI Components in Rails",
+      "UI Components in\\_Rails",
       "2013-12-24-rails-ui-components"
     ],
     "slug": "2013-12-24-rails-ui-components",
@@ -58,7 +59,7 @@
   {
     "ids": [
       "Meditate with Purpose",
-      "Meditate with\\_Purpose",
+      "Meditate with\\\\_Purpose",
       "2014-04-06-meditate-with-purpose"
     ],
     "slug": "2014-04-06-meditate-with-purpose",
@@ -71,6 +72,7 @@
     "ids": [
       "Do Reinvent the Wheel",
       "Do Reinvent the Wheel",
+      "Do Reinvent the\\_Wheel",
       "2014-04-17-do-reinvent-the-wheel"
     ],
     "slug": "2014-04-17-do-reinvent-the-wheel",
@@ -93,7 +95,7 @@
   {
     "ids": [
       "Elogio della satira",
-      "Elogio della satira",
+      "Elogio della\\_satira",
       "2014-05-26-elogio-della-satira"
     ],
     "slug": "2014-05-26-elogio-della-satira",
@@ -117,6 +119,7 @@
     "ids": [
       "Movimento e Quiete",
       "Movimento e\\_Quiete",
+      "Movimento e\\\\_Quiete",
       "2014-08-09-movimento-e-quiete"
     ],
     "slug": "2014-08-09-movimento-e-quiete",
@@ -139,7 +142,7 @@
   {
     "ids": [
       "Testing Active Record Concerns with RSpec and Temping",
-      "Testing Active Record Concerns with RSpec and Temping",
+      "Testing Active Record Concerns with RSpec and\\_Temping",
       "2014-08-23-testing-active-record-concerns"
     ],
     "slug": "2014-08-23-testing-active-record-concerns",
@@ -228,7 +231,7 @@
   {
     "ids": [
       "Massa e critica",
-      "Massa e critica",
+      "Massa e\\_critica",
       "2015-03-14-massa-e-critica"
     ],
     "slug": "2015-03-14-massa-e-critica",
@@ -251,7 +254,7 @@
   {
     "ids": [
       "Sul privilegio di soffrire",
-      "Sul privilegio di soffrire",
+      "Sul privilegio di\\_soffrire",
       "2015-09-27-soffrire"
     ],
     "slug": "2015-09-27-soffrire",
@@ -275,6 +278,7 @@
     "ids": [
       "Quello che non ti dico",
       "Quello che non ti dico",
+      "Quello che non ti\\_dico",
       "2015-12-08-quello-che-non-ti-dico"
     ],
     "slug": "2015-12-08-quello-che-non-ti-dico",
@@ -352,6 +356,7 @@
   {
     "ids": [
       "BSBS: Building Solid Billing Systems",
+      "BSBS: Building Solid Billing\\_Systems",
       "BSBS: Building Solid Billing Systems",
       "2016-11-29-bsbs"
     ],
@@ -364,7 +369,7 @@
   {
     "ids": [
       "Quando sai di amarla",
-      "Quando sai di amarla",
+      "Quando sai di\\_amarla",
       "2017-03-18-quando-sai-di-amarla"
     ],
     "slug": "2017-03-18-quando-sai-di-amarla",
@@ -409,7 +414,7 @@
   {
     "ids": [
       "The No-Bullshit Guide to Hiring",
-      "The No-Bullshit Guide to Hiring",
+      "The No-Bullshit Guide to\\_Hiring",
       "2017-10-11-hiring"
     ],
     "slug": "2017-10-11-hiring",
@@ -455,6 +460,7 @@
     "ids": [
       "I Want to Quit",
       "I Want to Quit",
+      "I Want to\\_Quit",
       "2017-11-13-i-want-to-quit"
     ],
     "slug": "2017-11-13-i-want-to-quit",
@@ -477,6 +483,7 @@
   {
     "ids": [
       "The Hype Cycle: What It Is and How to Game It",
+      "The Hype Cycle: What It Is and How to Game\\_It",
       "2017-11-27-hype-cycle"
     ],
     "slug": "2017-11-27-hype-cycle",
@@ -488,7 +495,7 @@
   {
     "ids": [
       "In Defense of Human Testing",
-      "In Defense of Human Testing",
+      "In Defense of Human\\_Testing",
       "2017-12-04-manual-testing"
     ],
     "slug": "2017-12-04-manual-testing",
@@ -523,6 +530,7 @@
     "ids": [
       "People vs Process",
       "People vs Process",
+      "People vs\\_Process",
       "2017-12-25-people-vs-process"
     ],
     "slug": "2017-12-25-people-vs-process",
@@ -534,7 +542,7 @@
   {
     "ids": [
       "The Three Tenets of API Design (1/3): Be Boring",
-      "The Three Tenets of API Design (1/3): Be Boring",
+      "The Three Tenets of API Design (1/3): Be\\_Boring",
       "2018-01-08-api-design-1"
     ],
     "slug": "2018-01-08-api-design-1",
@@ -546,7 +554,7 @@
   {
     "ids": [
       "The Three Tenets of API Design (2/3): Embrace HTTP",
-      "The Three Tenets of API Design (2/3): Embrace HTTP",
+      "The Three Tenets of API Design (2/3): Embrace\\_HTTP",
       "2018-01-15-api-design-2"
     ],
     "slug": "2018-01-15-api-design-2",
@@ -603,6 +611,7 @@
     "ids": [
       "My 2018 Annual Review",
       "My 2018 Annual Review",
+      "My 2018 Annual\\_Review",
       "2019-01-07-2018-review"
     ],
     "slug": "2019-01-07-2018-review",
@@ -625,7 +634,7 @@
   {
     "ids": [
       "Le mani di Roma",
-      "Le mani di Roma",
+      "Le mani di\\_Roma",
       "2019-02-07-le-mani-di-roma"
     ],
     "slug": "2019-02-07-le-mani-di-roma",
@@ -648,7 +657,7 @@
   {
     "ids": [
       "Evolution Techniques for RESTful APIs",
-      "Evolution Techniques for RESTful APIs",
+      "Evolution Techniques for RESTful\\_APIs",
       "2019-02-27-api-evolution"
     ],
     "slug": "2019-02-27-api-evolution",
@@ -660,7 +669,7 @@
   {
     "ids": [
       "Coach Them Until It Hurts",
-      "Coach Them Until It Hurts",
+      "Coach Them Until It\\_Hurts",
       "2019-09-29-coaching"
     ],
     "slug": "2019-09-29-coaching",
@@ -1018,6 +1027,16 @@
     "slug": "2025-02-05-experience-led-commerce",
     "status": "seedling",
     "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Untitled"
+    ],
+    "slug": "Untitled",
+    "status": "seedling",
+    "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
   },
@@ -1398,7 +1417,7 @@
       "be-wary-of-flawless-ideas"
     ],
     "slug": "be-wary-of-flawless-ideas",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -1456,7 +1475,7 @@
       "being-right-is-dictated-by-facts-not-opinions"
     ],
     "slug": "being-right-is-dictated-by-facts-not-opinions",
-    "status": "seedling",
+    "status": "evergreen",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -2271,7 +2290,7 @@
       "cultural-brands-are-bidirectional"
     ],
     "slug": "cultural-brands-are-bidirectional",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -4134,7 +4153,7 @@
       "most-ideas-can-only-be-post-rationalized"
     ],
     "slug": "most-ideas-can-only-be-post-rationalized",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -4726,6 +4745,17 @@
         "slug": "market-share-is-a-self-reinforcing-feedback-loop"
       }
     ]
+  },
+  {
+    "ids": [
+      "Relax is not idleness",
+      "relax-is-not-idleness"
+    ],
+    "slug": "relax-is-not-idleness",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
