@@ -7,8 +7,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "fetch-content": "node src/scripts/fetch-content.js",
     "generate-links": "node src/scripts/generate-links.js",
-    "fetch-content": "node src/scripts/fetch-content.js"
+    "update-content": "npm run fetch-content && npm run generate-links && git add src/data/links.json src/content && git commit -m 'Update content' && git push"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.6",
