@@ -1021,6 +1021,7 @@
   },
   {
     "ids": [
+      "Why Customer Experience Is The ",
       "Experience-Led Commerce: Turning Customer Experience Into Your New Growth Engine",
       "2025-02-05-experience-led-commerce"
     ],
@@ -1421,6 +1422,11 @@
     "contentType": "notes",
     "outboundLinks": [
       {
+        "matchedId": "stories-are-not-facts",
+        "title": "Stories are not facts",
+        "slug": "stories-are-not-facts"
+      },
+      {
         "matchedId": "the-map-is-not-the-territory",
         "title": "The map is not the territory",
         "slug": "the-map-is-not-the-territory"
@@ -1464,6 +1470,10 @@
         "slug": "prioritize-strengths-over-weaknesses"
       },
       {
+        "title": "Stories are not facts",
+        "slug": "stories-are-not-facts"
+      },
+      {
         "title": "The map is not the territory",
         "slug": "the-map-is-not-the-territory"
       }
@@ -1478,6 +1488,11 @@
     "status": "evergreen",
     "contentType": "notes",
     "outboundLinks": [
+      {
+        "matchedId": "stories-are-not-facts",
+        "title": "Stories are not facts",
+        "slug": "stories-are-not-facts"
+      },
       {
         "matchedId": "clear-thinking",
         "title": "Clear Thinking",
@@ -2301,10 +2316,31 @@
     ],
     "inboundLinks": [
       {
+        "title": "Cultural brands promote remixing",
+        "slug": "cultural-brands-promote-remixing"
+      },
+      {
         "title": "Cultural fragmentation causes market fragmentation",
         "slug": "cultural-fragmentation-causes-market-fragmentation"
       }
     ]
+  },
+  {
+    "ids": [
+      "Cultural brands promote remixing",
+      "cultural-brands-promote-remixing"
+    ],
+    "slug": "cultural-brands-promote-remixing",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "cultural-brands-are-bidirectional",
+        "title": "Cultural brands are bidirectional",
+        "slug": "cultural-brands-are-bidirectional"
+      }
+    ],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -2461,7 +2497,12 @@
         "slug": "emotions-arent-always-correct"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
+      }
+    ]
   },
   {
     "ids": [
@@ -2534,9 +2575,9 @@
         "slug": "define-a-meeting-os"
       },
       {
-        "matchedId": "eliminate-bias-systematically",
-        "title": "Eliminate bias systematically",
-        "slug": "eliminate-bias-systematically"
+        "matchedId": "eliminate-bias-in-decision-making",
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
       },
       {
         "matchedId": "build-experimentation-guidelines",
@@ -2558,6 +2599,10 @@
       {
         "title": "Define decision making",
         "slug": "define-decision-making"
+      },
+      {
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
       },
       {
         "title": "Misaligned product demand is detrimental",
@@ -2683,10 +2728,10 @@
   },
   {
     "ids": [
-      "Eliminate bias systematically",
-      "eliminate-bias-systematically"
+      "Eliminate bias in decision-making",
+      "eliminate-bias-in-decision-making"
     ],
-    "slug": "eliminate-bias-systematically",
+    "slug": "eliminate-bias-in-decision-making",
     "status": "seedling",
     "contentType": "notes",
     "outboundLinks": [
@@ -2699,6 +2744,21 @@
         "matchedId": "reason-from-first-principles",
         "title": "Reason from first principles",
         "slug": "reason-from-first-principles"
+      },
+      {
+        "matchedId": "stories-are-not-facts",
+        "title": "Stories are not facts",
+        "slug": "stories-are-not-facts"
+      },
+      {
+        "matchedId": "defensiveness-inhibits-learning",
+        "title": "Defensiveness inhibits learning",
+        "slug": "defensiveness-inhibits-learning"
+      },
+      {
+        "matchedId": "design-an-operating-cadence",
+        "title": "Design an operating cadence",
+        "slug": "design-an-operating-cadence"
       },
       {
         "matchedId": "clear-thinking",
@@ -2769,7 +2829,7 @@
       "every-sales-channel-has-its-purpose"
     ],
     "slug": "every-sales-channel-has-its-purpose",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -3454,9 +3514,9 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "eliminate-bias-systematically",
-        "title": "Eliminate bias systematically",
-        "slug": "eliminate-bias-systematically"
+        "matchedId": "eliminate-bias-in-decision-making",
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
       },
       {
         "matchedId": "thinking-in-systems",
@@ -3466,8 +3526,8 @@
     ],
     "inboundLinks": [
       {
-        "title": "Eliminate bias systematically",
-        "slug": "eliminate-bias-systematically"
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
       }
     ]
   },
@@ -4504,11 +4564,11 @@
   },
   {
     "ids": [
-      "Prestige is decoupled from wealth",
-      "prestige-is-decoupled-from-wealth"
+      "Prestige is not wealth",
+      "prestige-is-not-wealth"
     ],
-    "slug": "prestige-is-decoupled-from-wealth",
-    "status": "seedling",
+    "slug": "prestige-is-not-wealth",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -4681,9 +4741,9 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "eliminate-bias-systematically",
-        "title": "Eliminate bias systematically",
-        "slug": "eliminate-bias-systematically"
+        "matchedId": "eliminate-bias-in-decision-making",
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
       },
       {
         "matchedId": "unknown-habits-impede-learning",
@@ -4693,8 +4753,8 @@
     ],
     "inboundLinks": [
       {
-        "title": "Eliminate bias systematically",
-        "slug": "eliminate-bias-systematically"
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
       },
       {
         "title": "Unknown habits impede learning",
@@ -4830,7 +4890,7 @@
       "sales-channels-must-be-integrated"
     ],
     "slug": "sales-channels-must-be-integrated",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -5159,6 +5219,45 @@
       }
     ],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Stories are not facts",
+      "stories-are-not-facts"
+    ],
+    "slug": "stories-are-not-facts",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "be-wary-of-flawless-ideas",
+        "title": "Be wary of flawless ideas",
+        "slug": "be-wary-of-flawless-ideas"
+      },
+      {
+        "matchedId": "the-map-is-not-the-territory",
+        "title": "The map is not the territory",
+        "slug": "the-map-is-not-the-territory"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Be wary of flawless ideas",
+        "slug": "be-wary-of-flawless-ideas"
+      },
+      {
+        "title": "Being right is dictated by facts, not opinions",
+        "slug": "being-right-is-dictated-by-facts-not-opinions"
+      },
+      {
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
+      },
+      {
+        "title": "The map is not the territory",
+        "slug": "the-map-is-not-the-territory"
+      }
+    ]
   },
   {
     "ids": [
@@ -5495,13 +5594,18 @@
       "the-map-is-not-the-territory"
     ],
     "slug": "the-map-is-not-the-territory",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
         "matchedId": "chaotic-systems-are-not-random",
         "title": "Chaotic systems are not random",
         "slug": "chaotic-systems-are-not-random"
+      },
+      {
+        "matchedId": "stories-are-not-facts",
+        "title": "Stories are not facts",
+        "slug": "stories-are-not-facts"
       },
       {
         "matchedId": "be-wary-of-flawless-ideas",
@@ -5521,6 +5625,10 @@
       {
         "title": "Post-rationalization can lead to survivorship bias",
         "slug": "post-rationalization-can-lead-to-survivorship-bias"
+      },
+      {
+        "title": "Stories are not facts",
+        "slug": "stories-are-not-facts"
       }
     ]
   },
@@ -6211,8 +6319,8 @@
         "slug": "dont-play-life-on-hard-mode"
       },
       {
-        "title": "Eliminate bias systematically",
-        "slug": "eliminate-bias-systematically"
+        "title": "Eliminate bias in decision-making",
+        "slug": "eliminate-bias-in-decision-making"
       }
     ]
   },
