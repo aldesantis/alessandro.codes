@@ -2,11 +2,14 @@
 import type { CollectionEntry } from "astro:content";
 import Meta from "@components/ui/Meta.astro";
 import { formatDate } from "src/lib/utils";
+import Link from "@components/ui/Link.astro";
+
 export interface Props {
   article: CollectionEntry<"articles">;
+  showOriginal?: boolean;
 }
 
-const { article } = Astro.props;
+const { article, showOriginal = false } = Astro.props;
 ---
 
 <Meta>
@@ -14,5 +17,15 @@ const { article } = Astro.props;
   {
     article.data.publishedOn &&
       ` • Published on ${formatDate(article.data.publishedOn)}`
+  }
+  {
+    showOriginal && (
+      <>
+        •
+        <Link href={article.data.url} target="_blank">
+          Source
+        </Link>
+      </>
+    )
   }
 </Meta>
