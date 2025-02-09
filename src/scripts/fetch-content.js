@@ -115,9 +115,15 @@ async function processMarkdownFiles() {
         
         // Remove the first H1 heading and the Metadata section
         let processedContent = markdownContent
-          .replace(/^#\s+[^\n]+\n/, '')  // Remove first H1 heading
+          .replace(/^#\s+[^\n]+\n+/, '')  // Remove first H1 heading and following newlines
           .replace(/##\s+Metadata[\s\S]*?(?=##|$)/, '') // Remove Metadata section and its content
           .trim();
+        
+        // Find any H1 heading after frontmatter
+        const h1Match = processedContent.match(/^\s*#\s+[^\n]+\n+/);
+        if (h1Match) {
+          processedContent = processedContent.slice(h1Match[0].length).trim();
+        }
         
         // Remove any extra newlines that might have been created
         processedContent = processedContent.replace(/\n{3,}/g, '\n\n');

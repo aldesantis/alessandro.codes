@@ -11,8 +11,6 @@ slug: bsbs
 status: evergreen
 title: "BSBS: Building Solid Billing\_Systems"
 ---
-# BSBS: Building Solid Billing Systems
-
 One of my first tasks at [InterConn](http://www.interconn.it) was to set up a billing system. We did not have many requirements, so we evaluated a lot of SaaS options. Now, there’s no shortage of billing SaaS — unfortunately, though, none of them could handle our particular rated billing process, except for JBilling, which was awesome but definitely out of our budget’s reach (in retrospect, Stripe _might_ have been a good solution — I just didn’t know about it at the time).
 
 So I set out to develop an in-house solution that could handle this task. A couple of months later, we had our MVP. The UI was based on [ActiveAdmin](http://activeadmin.info) — it was solid and it worked, but it was not very pretty or flexible (no modals for creating parent resources on the fly?!). As this was one of my first Ruby (on Rails) jobs, the codebase was a mess: I had stuffed everything into models and background jobs and there were no tests, because it’s much more fun to test things with your browser, right? Right?!
