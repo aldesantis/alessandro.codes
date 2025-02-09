@@ -1,0 +1,45 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { getCollection, render } from "astro:content";
+import Prose from "@components/ui/Prose.astro";
+import ArrowLink from "@components/ui/ArrowLink.astro";
+import { getMdxComponents } from "src/lib/content";
+import ArticleMeta from "@components/articles/ArticleMeta.astro";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles");
+
+  return articles.map((article) => ({
+    params: { id: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+---
+
+<title slot="head">{article.data.title} | Alessandro Desantis</title>
+
+<Layout>
+  <div class="grid grid-cols-12 gap-8">
+    <div class="col-span-12 lg:col-span-8">
+      <div class="-mb-8">
+        <ArrowLink
+          href="/"
+          arrowDirection="left"
+          class="font-sans font-semibold uppercase"
+        >
+          Home
+        </ArrowLink>
+      </div>
+
+      <Prose>
+        <h1>{article.data.title}</h1>
+        <ArticleMeta article={article} />
+
+        <Content components={getMdxComponents()} />
+      </Prose>
+    </div>
+  </div>
+</Layout>

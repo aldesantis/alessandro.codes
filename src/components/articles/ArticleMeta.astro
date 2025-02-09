@@ -1,0 +1,29 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Meta from "@components/ui/Meta.astro";
+import Link from "@components/ui/Link.astro";
+import { formatDate } from "src/lib/utils";
+export interface Props {
+  article: CollectionEntry<"articles">;
+}
+
+const { article } = Astro.props;
+---
+
+<Meta>
+  {article.data.author}
+  {
+    article.data.publishedOn &&
+      ` • Published on ${formatDate(article.data.publishedOn)}`
+  }
+  {
+    article.data.url && (
+      <>
+        •
+        <Link href={article.data.url} target="_blank">
+          Read original
+        </Link>
+      </>
+    )
+  }
+</Meta>

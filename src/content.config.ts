@@ -63,4 +63,18 @@ export const collections = {
       base: "./src/content/books",
     }),
   }),
+
+  articles: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      author: z.string(),
+      publishedOn: z.coerce.date(),
+      lastHighlightedOn: z.coerce.date(),
+      url: z.string(),
+    }),
+    loader: glob({
+      pattern: "**/*.{md,mdx}",
+      base: "./src/content/articles",
+    }),
+  }),
 };

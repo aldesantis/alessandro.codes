@@ -2,10 +2,10 @@ import fs from 'fs/promises';
 import path from 'path';
 import { execSync } from 'child_process';
 import matter from 'gray-matter';
-
+import slugify from 'slugify';
 const REPO_URL = 'git@github.com:aldesantis/digital-garden.git';
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content');
-const RETAIN_DIRS = ['essays', 'notes', 'nows', 'books'];
+const RETAIN_DIRS = ['essays', 'notes', 'nows', 'books', 'articles'];
 
 async function cleanDirectory(dir) {
   try {
@@ -22,32 +22,59 @@ async function cloneRepository() {
   execSync(`git clone ${REPO_URL} ${CONTENT_DIR}`, { stdio: 'inherit' });
 }
 
-async function moveReadwiseBooks() {
-  console.log('Moving books to books...');
-  const sourcePath = path.join(CONTENT_DIR, 'readwise', 'books');
-  const targetPath = path.join(CONTENT_DIR, 'books');
+function slugifyFileName(fileName) {
+  const fileExt = path.extname(fileName);
+  const baseName = path.basename(fileName, fileExt);
+  
+  return slugify(baseName, { lower: true, strict: true }) + fileExt;
+}
 
-  try {
-    // Ensure source directory exists
-    await fs.access(sourcePath);
-    
-    // Create target directory if it doesn't exist
-    await fs.mkdir(targetPath, { recursive: true });
-    
-    // Move all files from source to target
-    const files = await fs.readdir(sourcePath);
-    for (const file of files) {
-      const sourceFile = path.join(sourcePath, file);
-      const targetFile = path.join(targetPath, file);
-      await fs.rename(sourceFile, targetFile);
-    }
-    
-    // Remove the now-empty books directory from readwise
-    await cleanDirectory(sourcePath);
-  } catch (error) {
-    if (error.code !== 'ENOENT') {
-      console.error('Error moving books:', error);
-      throw error;
+async function moveReadwiseContent() {
+  console.log('Adjusting paths for Readwise content...');
+  const contentTypes = ['books', 'articles'];
+
+  for (const type of contentTypes) {
+    console.log(`Adjusting paths for ${type}...`);
+    const sourcePath = path.join(CONTENT_DIR, 'readwise', type);
+    const targetPath = path.join(CONTENT_DIR, type);
+
+    try {
+      // Ensure source directory exists
+      await fs.access(sourcePath);
+      
+      // Create target directory if it doesn't exist
+      await fs.mkdir(targetPath, { recursive: true });
+      
+      // Move all files from source to target
+      const files = await fs.readdir(sourcePath);
+      for (const file of files) {
+        const sourceFile = path.join(sourcePath, file);
+        const targetFile = path.join(targetPath, slugifyFileName(file));
+
+        // Read the file content
+        const content = await fs.readFile(sourceFile, 'utf8');
+        const { data, content: markdownContent } = matter(content);
+
+        // Add original filename to aliases
+        const baseName = path.basename(file, path.extname(file));
+        data.aliases = data.aliases || [];
+        if (!data.aliases.includes(baseName)) {
+          data.aliases.push(baseName);
+        }
+
+        // Write updated content to new location
+        const newContent = matter.stringify(markdownContent, data);
+        await fs.writeFile(targetFile, newContent);
+        await fs.unlink(sourceFile);
+      }
+      
+      // Remove the now-empty directory from readwise
+      await cleanDirectory(sourcePath);
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        console.error(`Error moving ${type}:`, error);
+        throw error;
+      }
     }
   }
 }
@@ -69,7 +96,7 @@ async function removeUnwantedDirs() {
 }
 
 async function processMarkdownFiles() {
-  console.log('Processing markdown files...');
+  console.log('Processing Markdown files...');
   
   for (const dir of RETAIN_DIRS) {
     const dirPath = path.join(CONTENT_DIR, dir);
@@ -117,7 +144,7 @@ async function main() {
   try {
     await cleanDirectory(CONTENT_DIR);
     await cloneRepository();
-    await moveReadwiseBooks();
+    await moveReadwiseContent();
     await removeUnwantedDirs();
     await processMarkdownFiles();
     console.log('Repository processing completed successfully!');

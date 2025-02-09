@@ -11,7 +11,8 @@ const CONTENT_TYPES = [
   "essays",
   "notes",
   "nows",
-  "books"
+  "books",
+  "articles"
 ];
 
 // Function to extract text between double brackets, now handling labeled links

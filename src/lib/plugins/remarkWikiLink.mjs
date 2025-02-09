@@ -1,7 +1,7 @@
 import { visit } from "unist-util-visit";
 import linkMaps from "../../data/links.json";
 
-function buildContentEntryUrl({ contentType, slug }) {
+async function buildContentEntryUrl({ contentType, slug }) {
   switch (contentType) {
     case "essays":
       return `/essays/${slug}`;
@@ -11,12 +11,14 @@ function buildContentEntryUrl({ contentType, slug }) {
       return `/now/${slug}`;
     case "books":
       return `/books/${slug}`;
+    case "articles":
+      return `/articles/${slug}`;
     default:
       return null;
   }
 }
 
-export function remarkWikiLink() {
+export async function remarkWikiLink() {
   return (tree) => {
     visit(tree, "text", (node, index, parent) => {
       // Updated regex to capture both parts of the link

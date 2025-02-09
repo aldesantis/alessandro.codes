@@ -1,0 +1,19 @@
+---
+import type { CollectionEntry } from "astro:content";
+import ArticleMeta from "@components/articles/ArticleMeta.astro";
+import LinkedCard from "@components/ui/LinkedCard.astro";
+
+export interface Props {
+  article: CollectionEntry<"articles">;
+}
+
+const { article } = Astro.props;
+---
+
+<LinkedCard href={`/articles/${article.id}`}>
+  <h3 class="mt-2 text-lg font-sans" slot="title">
+    {article.data.title}
+  </h3>
+
+  <ArticleMeta article={article} />
+</LinkedCard>
