@@ -2,18 +2,24 @@
 import type { CollectionEntry } from "astro:content";
 import ArticleMeta from "@components/articles/ArticleMeta.astro";
 import LinkedCard from "@components/ui/LinkedCard.astro";
+import { getFirstParagraph, renderToString } from "src/lib/content";
 
 export interface Props {
   article: CollectionEntry<"articles">;
 }
 
 const { article } = Astro.props;
+const renderedArticle = await renderToString(article);
 ---
 
 <LinkedCard href={`/articles/${article.id}`}>
-  <h3 class="mt-2 text-lg font-sans" slot="title">
-    {article.data.title}
-  </h3>
+  <h3 class="mt-2 text-lg font-sans" slot="title">{article.data.title}</h3>
 
   <ArticleMeta article={article} />
+
+  <div
+    class="mt-2 text-sm font-serif font-sm overflow-x-clip overflow-ellipsis"
+  >
+    <Fragment set:html={getFirstParagraph(renderedArticle)} />
+  </div>
 </LinkedCard>

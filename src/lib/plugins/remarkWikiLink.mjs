@@ -21,10 +21,10 @@ async function buildContentEntryUrl({ contentType, slug }) {
 export async function remarkWikiLink() {
   return (tree) => {
     visit(tree, "text", (node, index, parent) => {
-      // Updated regex to capture both parts of the link
       const matches = Array.from(
         node.value.matchAll(/\[\[(.*?)(?:\|(.*?))?\]\]/g)
       );
+
       if (!matches.length) return;
 
       const children = [];
@@ -44,7 +44,7 @@ export async function remarkWikiLink() {
         }
 
         // Find the matching post in linkMaps using the linkDestination
-        const matchedPost = linkMaps.find((post) =>
+        const matchedPost = linkMaps.find((post) => 
           post.ids.some(
             (id) => id.toLowerCase() === linkDestination.toLowerCase()
           )
@@ -56,7 +56,6 @@ export async function remarkWikiLink() {
           const url = buildContentEntryUrl(matchedPost);
 
           if (url) {
-            // Create the InternalTooltipLink component
             newChild = {
               type: "mdxJsxFlowElement",
               name: "Link",
@@ -67,7 +66,6 @@ export async function remarkWikiLink() {
                   value: url,
                 },
               ],
-              // Use displayText if provided, otherwise use linkDestination
               children: [
                 {
                   type: "text",
