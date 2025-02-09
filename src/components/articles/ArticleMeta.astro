@@ -19,7 +19,7 @@ const { article, showOriginal = false } = Astro.props;
       ` • Published on ${formatDate(article.data.publishedOn)}`
   }
   {
-    showOriginal && (
+    showOriginal && article.data.url && (
       <>
         •
         <Link href={article.data.url} target="_blank">
