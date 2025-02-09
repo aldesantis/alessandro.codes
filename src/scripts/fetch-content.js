@@ -29,7 +29,7 @@ function slugifyFileName(fileName) {
   return slugify(baseName, { lower: true, strict: true }) + fileExt;
 }
 
-async function moveReadwiseContent() {
+async function processReadwiseContent() {
   console.log('Adjusting paths for Readwise content...');
   const contentTypes = ['books', 'articles'];
 
@@ -49,7 +49,12 @@ async function moveReadwiseContent() {
       const files = await fs.readdir(sourcePath);
       for (const file of files) {
         const sourceFile = path.join(sourcePath, file);
-        const targetFile = path.join(targetPath, slugifyFileName(file));
+        const fileName = slugifyFileName(file);
+        const extension = path.extname(fileName);
+        const truncatedName = fileName.length > 100 ? 
+          fileName.slice(0, 100 - extension.length) + extension : 
+          fileName;
+        const targetFile = path.join(targetPath, truncatedName);
 
         // Read the file content
         const content = await fs.readFile(sourceFile, 'utf8');
@@ -62,8 +67,11 @@ async function moveReadwiseContent() {
           data.aliases.push(baseName);
         }
 
+        // Escape any MDX components in the content
+        const escapedContent = markdownContent.replace(/</g, '\\<');
+
         // Write updated content to new location
-        const newContent = matter.stringify(markdownContent, data);
+        const newContent = matter.stringify(escapedContent, data);
         await fs.writeFile(targetFile, newContent);
         await fs.unlink(sourceFile);
       }
@@ -150,7 +158,7 @@ async function main() {
   try {
     await cleanDirectory(CONTENT_DIR);
     await cloneRepository();
-    await moveReadwiseContent();
+    await processReadwiseContent();
     await removeUnwantedDirs();
     await processMarkdownFiles();
     console.log('Repository processing completed successfully!');

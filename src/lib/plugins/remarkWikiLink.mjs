@@ -1,7 +1,7 @@
 import { visit } from "unist-util-visit";
 import linkMaps from "../../data/links.json";
 
-async function buildContentEntryUrl({ contentType, slug }) {
+function buildContentEntryUrl({ contentType, slug }) {
   switch (contentType) {
     case "essays":
       return `/essays/${slug}`;
@@ -18,7 +18,7 @@ async function buildContentEntryUrl({ contentType, slug }) {
   }
 }
 
-export async function remarkWikiLink() {
+export function remarkWikiLink() {
   return (tree) => {
     visit(tree, "text", (node, index, parent) => {
       const matches = Array.from(
