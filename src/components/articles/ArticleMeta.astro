@@ -19,6 +19,10 @@ const { article, showOriginal = false } = Astro.props;
       ` • Published on ${formatDate(article.data.publishedOn)}`
   }
   {
+    article.data.lastHighlightedOn &&
+      ` • Read on ${formatDate(article.data.lastHighlightedOn)}`
+  }
+  {
     showOriginal && article.data.url && (
       <>
         •
