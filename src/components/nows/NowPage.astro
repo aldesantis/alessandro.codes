@@ -2,6 +2,7 @@
 import Hero from "@components/ui/Hero.astro";
 import Link from "@components/ui/Link.astro";
 import Prose from "@components/ui/Prose.astro";
+import Collapsible from "@components/ui/Collapsible.astro";
 import Layout from "@layouts/Layout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getMdxComponents } from "src/lib/content";
@@ -29,6 +30,26 @@ const nows = await getSortedNows();
           {sections.nows.description}
         </span>
       </Hero>
+
+      <div class="mb-8 lg:hidden">
+        <Collapsible label="Archive">
+          <ul class="space-y-2">
+            {
+              nows.map((archiveNow) => (
+                <li>
+                  <Link
+                    class="font-sans block py-1"
+                    href={`/now/${archiveNow.id}`}
+                    active={archiveNow.id === now.id}
+                  >
+                    {archiveNow.data.title}
+                  </Link>
+                </li>
+              ))
+            }
+          </ul>
+        </Collapsible>
+      </div>
 
       <Prose>
         <h2>{now.data.title}</h2>

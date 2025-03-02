@@ -1,0 +1,64 @@
+---
+interface Props {
+  label: string;
+  class?: string;
+}
+
+const { label, class: className } = Astro.props;
+// Generate a random ID for the collapsible
+const randomId = `collapsible-${Math.random().toString(36).substring(2, 10)}`;
+---
+
+<div class:list={["collapsible", className]}>
+  <input
+    type="checkbox"
+    id={randomId}
+    class="collapsible-checkbox sr-only"
+    aria-hidden="true"
+  />
+  <label
+    for={randomId}
+    class="collapsible-label flex w-full items-center justify-between rounded-lg bg-white p-4 shadow-sm hover:bg-zinc-100 transition-colors cursor-pointer"
+  >
+    <span class="text-lg font-semibold font-sans">{label}</span>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-5 w-5 transform transition-transform duration-200"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clip-rule="evenodd"></path>
+    </svg>
+  </label>
+  <div
+    class="collapsible-content overflow-hidden transition-all duration-300 ease-in-out max-h-0"
+  >
+    <div class="p-4 bg-white rounded-b-lg">
+      <slot />
+    </div>
+  </div>
+</div>
+
+<style>
+  .collapsible-checkbox:checked + .collapsible-label svg {
+    transform: rotate(180deg);
+  }
+
+  .collapsible-content {
+    transition-duration: 300ms;
+  }
+
+  .collapsible-checkbox:checked ~ .collapsible-content {
+    max-height: 1000px;
+    overflow-y: scroll;
+    transition-duration: 500ms;
+  }
+
+  .collapsible-label:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+</style>
