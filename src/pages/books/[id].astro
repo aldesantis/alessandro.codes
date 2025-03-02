@@ -6,6 +6,8 @@ import ArrowLink from "@components/ui/ArrowLink.astro";
 import { getMdxComponents } from "src/lib/content";
 import BookCover from "@components/books/BookCover.astro";
 import BookMeta from "@components/books/BookMeta.astro";
+import { getLinks } from "src/lib/links";
+import ContentLinks from "@components/content/ContentLinks.astro";
 
 export async function getStaticPaths() {
   const books = await getCollection("books");
@@ -18,22 +20,13 @@ export async function getStaticPaths() {
 
 const { book } = Astro.props;
 const { Content } = await render(book);
+const { outboundLinks, inboundLinks } = getLinks(book.id);
 ---
 
 <title slot="head">{book.data.title} | Alessandro Desantis</title>
 
 <Layout>
   <div class="grid grid-cols-12 gap-8">
-    <div class="col-span-12 lg:col-span-4 lg:order-last">
-      <div class="sticky top-4">
-        <BookCover
-          book={book}
-          width="800"
-          class="max-w-[250px] lg:max-w-[400px] h-auto lg:ml-auto"
-        />
-      </div>
-    </div>
-
     <div class="col-span-12 lg:col-span-8">
       <div class="-mb-8">
         <ArrowLink
@@ -51,6 +44,16 @@ const { Content } = await render(book);
 
         <Content components={getMdxComponents()} />
       </Prose>
+    </div>
+
+    <div class="col-span-12 lg:col-span-4">
+      <BookCover
+        book={book}
+        width="800"
+        class="max-w-[250px] lg:max-w-[400px] h-auto rounded mb-4"
+      />
+
+      <ContentLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
     </div>
   </div>
 </Layout>
