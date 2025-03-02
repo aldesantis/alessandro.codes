@@ -6717,7 +6717,6 @@
   {
     "ids": [
       "February 2025",
-      "January 2025",
       "2025-02"
     ],
     "slug": "2025-02",
@@ -8790,6 +8789,16 @@
   },
   {
     "ids": [
+      "About Practice",
+      "about-practice"
+    ],
+    "slug": "about-practice",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Achieving Success Is Boring",
       "achieving-success-is-boring"
     ],
@@ -8812,6 +8821,17 @@
         "slug": "advertising-may-work-by-cultural-imprinting"
       }
     ]
+  },
+  {
+    "ids": [
+      "Advice for a friend who wants to start a blog Advice for a friend who wants to start a blog",
+      "advice-for-a-friend-who-wants-to-start-a-blog — advice-for-a-friend-who-wants-to-start-a-blog",
+      "advice-for-a-friend-who-wants-to-start-a-blog-advice-for-a-friend-who-wants-to-start-a-blog"
+    ],
+    "slug": "advice-for-a-friend-who-wants-to-start-a-blog-advice-for-a-friend-who-wants-to-start-a-blog",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -9698,6 +9718,16 @@
   },
   {
     "ids": [
+      "Brain Food: Double the Pleasure",
+      "brain-food-double-the-pleasure"
+    ],
+    "slug": "brain-food-double-the-pleasure",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Brain Food: Earned Success",
       "brain-food-earned-success"
     ],
@@ -9934,6 +9964,16 @@
   },
   {
     "ids": [
+      "Brain Food: The Hardest Truth",
+      "brain-food-the-hardest-truth"
+    ],
+    "slug": "brain-food-the-hardest-truth",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Brain Food: The Invisible Advantage",
       "brain-food-the-invisible-advantage"
     ],
@@ -10028,6 +10068,16 @@
       "brain-food-unconventional-and-determined"
     ],
     "slug": "brain-food-unconventional-and-determined",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brain Food: Underestimating What Works",
+      "brain-food-underestimating-what-works"
+    ],
+    "slug": "brain-food-underestimating-what-works",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10282,6 +10332,17 @@
       "carl-brauns-writing-lessons-for-clear-thinking-and-productive-communication"
     ],
     "slug": "carl-brauns-writing-lessons-for-clear-thinking-and-productive-communication",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "✍️ Carving Out Time for Content Taxonomy Alignment",
+      "✍️-carving-out-time-for-content-taxonomy-alignment",
+      "carving-out-time-for-content-taxonomy-alignment"
+    ],
+    "slug": "carving-out-time-for-content-taxonomy-alignment",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10794,6 +10855,16 @@
   },
   {
     "ids": [
+      "Delete or Die: Notes From the World Governments Summit, the Tucker Carlson Summit, and the Brutalist",
+      "delete-or-die-notes-from-the-world-governments-summit-the-tucker-carlson-summit-and-the-brutalist"
+    ],
+    "slug": "delete-or-die-notes-from-the-world-governments-summit-the-tucker-carlson-summit-and-the-brutalist",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Demystifying the Fashion Marketing Funnel",
       "demystifying-the-fashion-marketing-funnel"
     ],
@@ -10884,6 +10955,16 @@
       "digital-fashion-in-2023-an-obituary-to-a-false-start"
     ],
     "slug": "digital-fashion-in-2023-an-obituary-to-a-false-start",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Digital Garden Terms of Service",
+      "digital-garden-terms-of-service"
+    ],
+    "slug": "digital-garden-terms-of-service",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11368,6 +11449,16 @@
   },
   {
     "ids": [
+      "Everyone Is Numbing Out",
+      "everyone-is-numbing-out"
+    ],
+    "slug": "everyone-is-numbing-out",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Everyone’s a Sellout Now",
       "everyone’s-a-sellout-now",
       "everyones-a-sellout-now"
@@ -11436,6 +11527,16 @@
       "experiences-wont-make-you-happier-than-possessions"
     ],
     "slug": "experiences-wont-make-you-happier-than-possessions",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Explore vs Execute",
+      "explore-vs-execute"
+    ],
+    "slug": "explore-vs-execute",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11568,6 +11669,16 @@
       "feeling-invisible-worlds-spatial-computing-haptics-and-a-future-of-perception"
     ],
     "slug": "feeling-invisible-worlds-spatial-computing-haptics-and-a-future-of-perception",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ferdinand de Saussure - Wikipedia",
+      "ferdinand-de-saussure-wikipedia"
+    ],
+    "slug": "ferdinand-de-saussure-wikipedia",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11732,6 +11843,17 @@
       "from-trash-to-treasure-turn-product-led-leftovers-into-a-content-super-source"
     ],
     "slug": "from-trash-to-treasure-turn-product-led-leftovers-into-a-content-super-source",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "\"Fuck You Money” Is Useless Without the “Fuck You”",
+      "fuck-you-money”-is-useless-without-the-“fuck-you”",
+      "fuck-you-money-is-useless-without-the-fuck-you"
+    ],
+    "slug": "fuck-you-money-is-useless-without-the-fuck-you",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12328,6 +12450,16 @@
   },
   {
     "ids": [
+      "How I Read",
+      "how-i-read"
+    ],
+    "slug": "how-i-read",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How I Think About Debt",
       "how-i-think-about-debt"
     ],
@@ -12671,6 +12803,16 @@
       "how-to-find-the-real-reason-conversions-dropped"
     ],
     "slug": "how-to-find-the-real-reason-conversions-dropped",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Future-Proof Your Career Against the AI Apocalypse",
+      "how-to-future-proof-your-career-against-the-ai-apocalypse"
+    ],
+    "slug": "how-to-future-proof-your-career-against-the-ai-apocalypse",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13120,6 +13262,17 @@
   },
   {
     "ids": [
+      "Inside Coupang’s Tug of War With Farfetch",
+      "inside-coupang’s-tug-of-war-with-farfetch",
+      "inside-coupangs-tug-of-war-with-farfetch"
+    ],
+    "slug": "inside-coupangs-tug-of-war-with-farfetch",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Inside Fashion’s Music Merch Opportunity",
       "inside-fashion’s-music-merch-opportunity",
       "inside-fashions-music-merch-opportunity"
@@ -13315,10 +13468,30 @@
   },
   {
     "ids": [
+      "Introduction: 9999",
+      "introduction-9999"
+    ],
+    "slug": "introduction-9999",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Is a Game Changer For",
       "is-a-game-changer-for"
     ],
     "slug": "is-a-game-changer-for",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Is Customer Experience More Important Than the Product?",
+      "is-customer-experience-more-important-than-the-product"
+    ],
+    "slug": "is-customer-experience-more-important-than-the-product",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13370,6 +13543,16 @@
       "is-this-metas-big-fashion-moment"
     ],
     "slug": "is-this-metas-big-fashion-moment",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Is Your Love Healthy?",
+      "is-your-love-healthy"
+    ],
+    "slug": "is-your-love-healthy",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13676,10 +13859,30 @@
   },
   {
     "ids": [
+      "LLMs Turn Every Question Into an Answer",
+      "llms-turn-every-question-into-an-answer"
+    ],
+    "slug": "llms-turn-every-question-into-an-answer",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Looking for Alice",
       "looking-for-alice"
     ],
     "slug": "looking-for-alice",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Love the Mission or Love the Game",
+      "love-the-mission-or-love-the-game"
+    ],
+    "slug": "love-the-mission-or-love-the-game",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14154,6 +14357,17 @@
       "microsoft-word-knowledge-management-within-a-consultancy-firmdoc"
     ],
     "slug": "microsoft-word-knowledge-management-within-a-consultancy-firmdoc",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Millions of Luxury Products Have Digital IDs. Is Anyone Using Them?",
+      "millions-of-luxury-products-have-digital-ids.-is-anyone-using-them",
+      "millions-of-luxury-products-have-digital-ids-is-anyone-using-them"
+    ],
+    "slug": "millions-of-luxury-products-have-digital-ids-is-anyone-using-them",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14645,6 +14859,17 @@
   },
   {
     "ids": [
+      "Opinion | No, You Don’t Get an a for Effort - The New York Times",
+      "opinion--no-you-don’t-get-an-a-for-effort-the-new-york-times",
+      "opinion-no-you-dont-get-an-a-for-effort-the-new-york-times"
+    ],
+    "slug": "opinion-no-you-dont-get-an-a-for-effort-the-new-york-times",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Opinion | The Great Delusion Behind Twitter - The New York Times",
       "opinion--the-great-delusion-behind-twitter-the-new-york-times",
       "opinion-the-great-delusion-behind-twitter-the-new-york-times"
@@ -14742,6 +14967,16 @@
   },
   {
     "ids": [
+      "Overcoming Resistance to Extreme Programming",
+      "overcoming-resistance-to-extreme-programming"
+    ],
+    "slug": "overcoming-resistance-to-extreme-programming",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Overfitting",
       "overfitting"
     ],
@@ -14792,6 +15027,26 @@
   },
   {
     "ids": [
+      "Permissionless Brands",
+      "permissionless-brands"
+    ],
+    "slug": "permissionless-brands",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Personal Firewalls",
+      "personal-firewalls"
+    ],
+    "slug": "personal-firewalls",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Peter Bevelin on Seeking Wisdom, Mental Models, Learning, and a Lot More - Farnam Street",
       "peter-bevelin-on-seeking-wisdom-mental-models-learning-and-a-lot-more-farnam-street"
     ],
@@ -14831,6 +15086,16 @@
       "post-dtc-the-seven-brand-eras"
     ],
     "slug": "post-dtc-the-seven-brand-eras",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Post-Mehification",
+      "post-mehification"
+    ],
+    "slug": "post-mehification",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -15168,6 +15433,16 @@
   },
   {
     "ids": [
+      "Returning to the Umami Theory of Value",
+      "returning-to-the-umami-theory-of-value"
+    ],
+    "slug": "returning-to-the-umami-theory-of-value",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Revealed: The Social Media 'Game'",
       "revealed-the-social-media-game"
     ],
@@ -15182,6 +15457,16 @@
       "revisiting-physical-retail"
     ],
     "slug": "revisiting-physical-retail",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Revisiting Travel",
+      "revisiting-travel"
+    ],
+    "slug": "revisiting-travel",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16026,6 +16311,16 @@
   },
   {
     "ids": [
+      "The Art of Asking Smarter Questions",
+      "the-art-of-asking-smarter-questions"
+    ],
+    "slug": "the-art-of-asking-smarter-questions",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Audience Trust Battery",
       "the-audience-trust-battery"
     ],
@@ -16199,6 +16494,16 @@
   },
   {
     "ids": [
+      "The Cold Outbound Playbook",
+      "the-cold-outbound-playbook"
+    ],
+    "slug": "the-cold-outbound-playbook",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Collapse of Self-Worth in the Digital Age",
       "the-collapse-of-self-worth-in-the-digital-age"
     ],
@@ -16358,6 +16663,16 @@
       "the-eu-goes-too-far"
     ],
     "slug": "the-eu-goes-too-far",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Expanding Dark Forest and Generative AI",
+      "the-expanding-dark-forest-and-generative-ai"
+    ],
+    "slug": "the-expanding-dark-forest-and-generative-ai",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16550,6 +16865,16 @@
   },
   {
     "ids": [
+      "The High Price of Going Cheap",
+      "the-high-price-of-going-cheap"
+    ],
+    "slug": "the-high-price-of-going-cheap",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Importance of Being Pragmatic With Founders",
       "the-importance-of-being-pragmatic-with-founders"
     ],
@@ -16622,6 +16947,17 @@
       "the-legend-of-the-corpse-reviver-and-can-legacy-commerce-platforms-be-revived-through-composabili"
     ],
     "slug": "the-legend-of-the-corpse-reviver-and-can-legacy-commerce-platforms-be-revived-through-composabili",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Long, Slow, Stupid, Fun Way | #259",
+      "the-long-slow-stupid-fun-way--259",
+      "the-long-slow-stupid-fun-way-259"
+    ],
+    "slug": "the-long-slow-stupid-fun-way-259",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16857,6 +17193,16 @@
         "slug": "dtc-has-long-been-about-arbitrage"
       }
     ]
+  },
+  {
+    "ids": [
+      "The Noetic Spiral",
+      "the-noetic-spiral"
+    ],
+    "slug": "the-noetic-spiral",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -17198,6 +17544,17 @@
       "the-supermarket-of-software"
     ],
     "slug": "the-supermarket-of-software",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "“The Surveillance Generation”",
+      "“the-surveillance-generation”",
+      "the-surveillance-generation"
+    ],
+    "slug": "the-surveillance-generation",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17927,6 +18284,16 @@
       "walmart-sets-sights-on-retail-media-as-content-and-commerce-blur"
     ],
     "slug": "walmart-sets-sights-on-retail-media-as-content-and-commerce-blur",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "We Believe in a Future Where Developers Are Amplified, Not Automated",
+      "we-believe-in-a-future-where-developers-are-amplified-not-automated"
+    ],
+    "slug": "we-believe-in-a-future-where-developers-are-amplified-not-automated",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18983,6 +19350,16 @@
   },
   {
     "ids": [
+      "Writing With ChatGPT",
+      "writing-with-chatgpt"
+    ],
+    "slug": "writing-with-chatgpt",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Writing Wrapped",
       "writing-wrapped"
     ],
@@ -18997,6 +19374,16 @@
       "wtf-is-the-fediverse"
     ],
     "slug": "wtf-is-the-fediverse",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Yann LeCun on a Vision to Make AI Systems Learn and Reason Like Animals and Humans",
+      "yann-lecun-on-a-vision-to-make-ai-systems-learn-and-reason-like-animals-and-humans"
+    ],
+    "slug": "yann-lecun-on-a-vision-to-make-ai-systems-learn-and-reason-like-animals-and-humans",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
