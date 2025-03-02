@@ -1,7 +1,24 @@
 import { visit } from "unist-util-visit";
 import linkMaps from "../../data/links.json";
+import fs from 'fs/promises';
+import path from 'path';
+import matter from 'gray-matter';
 
-function buildContentEntryUrl({ contentType, slug }) {
+async function getArticleUrl(slug) {
+  try {
+    const filePath = path.join(process.cwd(), `src/content/articles/${slug}.mdx`);
+    const fileContent = await fs.readFile(filePath, 'utf-8');
+
+    const { data } = matter(fileContent);
+    
+    return data.url || null;
+  } catch (error) {
+    console.error(`Error reading article frontmatter for ${slug}:`, error);
+    return null;
+  }
+}
+
+async function buildContentEntryUrl({ contentType, slug }) {
   switch (contentType) {
     case "essays":
       return `/essays/${slug}`;
@@ -12,14 +29,16 @@ function buildContentEntryUrl({ contentType, slug }) {
     case "books":
       return `/books/${slug}`;
     case "articles":
-      return `/articles/${slug}`;
+      return await getArticleUrl(slug);
     default:
       return null;
   }
 }
 
 export function remarkWikiLink() {
-  return (tree) => {
+  return async (tree) => {
+    const promises = [];
+    
     visit(tree, "text", (node, index, parent) => {
       const matches = Array.from(
         node.value.matchAll(/\[\[(.*?)(?:\|(.*?))?\]\]/g)
@@ -27,80 +46,91 @@ export function remarkWikiLink() {
 
       if (!matches.length) return;
 
-      const children = [];
-      let lastIndex = 0;
+      // Create a promise for processing this node
+      const processNode = async () => {
+        const children = [];
+        let lastIndex = 0;
 
-      matches.forEach((match) => {
-        const [fullMatch, linkDestination, displayText] = match;
-        const startIndex = match.index;
-        const endIndex = startIndex + fullMatch.length;
+        // Process matches sequentially
+        for (const match of matches) {
+          const [fullMatch, linkDestination, displayText] = match;
+          const startIndex = match.index;
+          const endIndex = startIndex + fullMatch.length;
 
-        // Add text before the match
-        if (startIndex > lastIndex) {
+          // Add text before the match
+          if (startIndex > lastIndex) {
+            children.push({
+              type: "text",
+              value: node.value.slice(lastIndex, startIndex),
+            });
+          }
+
+          // Find the matching post in linkMaps using the linkDestination
+          const matchedPost = linkMaps.find((post) => 
+            post.ids.some(
+              (id) => id.toLowerCase() === linkDestination.toLowerCase()
+            )
+          );
+
+          let newChild;
+
+          if (matchedPost) {
+            const url = await buildContentEntryUrl(matchedPost);
+
+            if (url) {
+              newChild = {
+                type: "mdxJsxFlowElement",
+                name: "Link",
+                attributes: [
+                  {
+                    type: "mdxJsxAttribute",
+                    name: "href",
+                    value: url,
+                  },
+                ],
+                children: [
+                  {
+                    type: "text",
+                    value: displayText
+                      ? displayText.trim()
+                      : linkDestination.trim(),
+                  },
+                ],
+              };
+            }
+          }
+
+          if (!newChild) {
+            // If no match found, preserve the original wiki syntax
+            newChild = {
+              type: "text",
+              value: fullMatch,
+            };
+          }
+
+          children.push(newChild);
+
+          lastIndex = endIndex;
+        }
+
+        // Add any remaining text
+        if (lastIndex < node.value.length) {
           children.push({
             type: "text",
-            value: node.value.slice(lastIndex, startIndex),
+            value: node.value.slice(lastIndex),
           });
         }
 
-        // Find the matching post in linkMaps using the linkDestination
-        const matchedPost = linkMaps.find((post) => 
-          post.ids.some(
-            (id) => id.toLowerCase() === linkDestination.toLowerCase()
-          )
-        );
+        // Replace the original node with our new children
+        parent.children.splice(index, 1, ...children);
+      };
 
-        let newChild;
-
-        if (matchedPost) {
-          const url = buildContentEntryUrl(matchedPost);
-
-          if (url) {
-            newChild = {
-              type: "mdxJsxFlowElement",
-              name: "Link",
-              attributes: [
-                {
-                  type: "mdxJsxAttribute",
-                  name: "href",
-                  value: url,
-                },
-              ],
-              children: [
-                {
-                  type: "text",
-                  value: displayText
-                    ? displayText.trim()
-                    : linkDestination.trim(),
-                },
-              ],
-            };
-          }
-        }
-
-        if (!newChild) {
-          // If no match found, preserve the original wiki syntax
-          newChild = {
-            type: "text",
-            value: fullMatch,
-          };
-        }
-
-        children.push(newChild);
-
-        lastIndex = endIndex;
-      });
-
-      // Add any remaining text
-      if (lastIndex < node.value.length) {
-        children.push({
-          type: "text",
-          value: node.value.slice(lastIndex),
-        });
-      }
-
-      // Replace the original node with our new children
-      parent.children.splice(index, 1, ...children);
+      promises.push(processNode());
     });
+
+    // Wait for all node processing to complete
+    await Promise.all(promises);
+    
+    return tree;
   };
 }

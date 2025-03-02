@@ -13,8 +13,6 @@ import { getSortedNotes } from "src/lib/content/notes";
 import NoteCard from "@components/notes/NoteCard.astro";
 import sections from "src/data/sections.json";
 import { getSortedEssays } from "src/lib/content/essays";
-import { getSortedArticles } from "src/lib/content/articles";
-import ArticleCard from "@components/articles/ArticleCard.astro";
 
 const featuredProjects = await getCollection(
   "projects",
@@ -24,7 +22,6 @@ const featuredProjects = await getCollection(
 const essays = (await getSortedEssays()).slice(0, 6);
 const notes = (await getSortedNotes()).slice(0, 6);
 const books = (await getSortedBooks()).slice(0, 6);
-const articles = (await getSortedArticles()).slice(0, 6);
 ---
 
 <Layout>
@@ -90,25 +87,6 @@ const articles = (await getSortedArticles()).slice(0, 6);
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {books.map((book) => <BookCard book={book} />)}
-      </div>
-    </Section>
-
-    <Section>
-      <div slot="heading">
-        <SectionHeading
-          title="Articles"
-          subtitle={sections.articles.description}
-        />
-
-        <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/articles" arrowDirection="right">
-            View all
-          </ArrowLink>
-        </div>
-      </div>
-
-      <div class="grid sm:grid-cols-2 gap-4">
-        {articles.map((article) => <ArticleCard article={article} />)}
       </div>
     </Section>
 
