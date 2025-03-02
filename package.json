@@ -12,9 +12,9 @@
     "update-content": "npm run fetch-content && npm run generate-links && git add src/data/links.json src/content && git commit -m 'Update content' && git push"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.0.6",
-    "@astrojs/tailwind": "^5.1.4",
-    "astro": "^5.1.7",
+    "@astrojs/mdx": "^4.1.0",
+    "@astrojs/tailwind": "^6.0.0",
+    "astro": "^5.4.1",
     "astro-icon": "^1.1.5",
     "cheerio": "^1.0.0",
     "mdast-util-to-string": "^4.0.0",
