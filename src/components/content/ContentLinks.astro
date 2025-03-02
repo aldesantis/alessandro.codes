@@ -1,0 +1,107 @@
+---
+import Link from "@components/ui/Link.astro";
+import Collapsible from "@components/ui/Collapsible.astro";
+import type { Link as LinkType } from "src/lib/links";
+import { buildContentEntryUrl } from "src/lib/plugins/remarkWikiLink.mjs";
+
+interface Props {
+  outboundLinks: LinkType[];
+  inboundLinks: LinkType[];
+}
+
+const { outboundLinks, inboundLinks } = Astro.props;
+
+const hasLinks = outboundLinks.length > 0 || inboundLinks.length > 0;
+
+if (!hasLinks) {
+  return null;
+}
+---
+
+<div class="mt-8 mb-8 lg:hidden space-y-4">
+  {
+    outboundLinks.length > 0 && (
+      <Collapsible label="Links to">
+        <ul class="space-y-1">
+          {outboundLinks.map((link: LinkType) => (
+            <li>
+              <Link
+                class="font-sans"
+                href={buildContentEntryUrl({
+                  contentType: link.contentType,
+                  slug: link.slug,
+                })}
+              >
+                {link.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Collapsible>
+    )
+  }
+
+  {
+    inboundLinks.length > 0 && (
+      <Collapsible label="Linked from">
+        <ul class="space-y-1">
+          {inboundLinks.map((link: LinkType) => (
+            <li>
+              <Link
+                class="font-sans"
+                href={buildContentEntryUrl({
+                  contentType: link.contentType,
+                  slug: link.slug,
+                })}
+              >
+                {link.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Collapsible>
+    )
+  }
+</div>
+
+<div class="hidden lg:block">
+  {
+    outboundLinks.length > 0 && (
+      <div class="mb-6">
+        <div class="text-xl font-semibold font-sans">Links to</div>
+        <ul>
+          {outboundLinks.map((link: LinkType) => (
+            <li>
+              <Link class="font-sans" href={buildContentEntryUrl(link)}>
+                {link.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+
+  {
+    inboundLinks.length > 0 && (
+      <div class="mb-6">
+        <div class="text-xl font-semibold font-sans">Linked from</div>
+        <ul>
+          {inboundLinks.map((link: LinkType) => (
+            <li>
+              <Link
+                class="font-sans"
+                href={buildContentEntryUrl({
+                  contentType: link.contentType,
+                  slug: link.slug,
+                })}
+              >
+                {link.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+</div>

@@ -1,24 +1,7 @@
 import { visit } from "unist-util-visit";
 import linkMaps from "../../data/links.json";
-import fs from 'fs/promises';
-import path from 'path';
-import matter from 'gray-matter';
 
-async function getArticleUrl(slug) {
-  try {
-    const filePath = path.join(process.cwd(), `src/content/articles/${slug}.mdx`);
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-
-    const { data } = matter(fileContent);
-    
-    return data.url || null;
-  } catch (error) {
-    console.error(`Error reading article frontmatter for ${slug}:`, error);
-    return null;
-  }
-}
-
-async function buildContentEntryUrl({ contentType, slug }) {
+export function buildContentEntryUrl({ contentType, slug }) {
   switch (contentType) {
     case "essays":
       return `/essays/${slug}`;
@@ -29,7 +12,7 @@ async function buildContentEntryUrl({ contentType, slug }) {
     case "books":
       return `/books/${slug}`;
     case "articles":
-      return await getArticleUrl(slug);
+      return `/articles/${slug}`
     default:
       return null;
   }

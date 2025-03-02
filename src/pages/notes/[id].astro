@@ -5,6 +5,8 @@ import Prose from "@components/ui/Prose.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import { getMdxComponents } from "src/lib/content";
 import NoteMeta from "@components/notes/NoteMeta.astro";
+import { getLinks } from "src/lib/links";
+import ContentLinks from "@components/content/ContentLinks.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("notes");
@@ -17,6 +19,7 @@ export async function getStaticPaths() {
 
 const { note } = Astro.props;
 const { Content } = await render(note);
+const { outboundLinks, inboundLinks } = getLinks(note.id);
 ---
 
 <title slot="head">{note.data.title} | Alessandro Desantis</title>
@@ -40,6 +43,10 @@ const { Content } = await render(note);
 
         <Content components={getMdxComponents()} />
       </Prose>
+    </div>
+
+    <div class="col-span-12 lg:col-span-4">
+      <ContentLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
     </div>
   </div>
 </Layout>

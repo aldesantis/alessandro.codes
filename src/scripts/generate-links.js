@@ -120,6 +120,7 @@ const getAllPostData = () => {
           slug: match.slug,
           growthStage: match.growthStage,
           description: match.description,
+          contentType: match.contentType
         });
       }
     });
@@ -140,6 +141,7 @@ const getAllPostData = () => {
           slug: innerPost.slug,
           growthStage: innerPost.growthStage,
           description: innerPost.description,
+          contentType: innerPost.contentType
         });
       }
     }
