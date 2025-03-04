@@ -1,0 +1,17 @@
+---
+import Meta from "@components/ui/Meta.astro";
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "src/lib/utils";
+
+export interface Props {
+  talk: CollectionEntry<"talks">;
+}
+
+const { talk } = Astro.props;
+
+const formattedDate = formatDate(talk.data.date);
+---
+
+<Meta>
+  {formattedDate}
+</Meta>

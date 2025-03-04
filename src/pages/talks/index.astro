@@ -1,0 +1,24 @@
+---
+import TalkCard from "@components/talks/TalkCard.astro";
+import Hero from "@components/ui/Hero.astro";
+import Layout from "@layouts/Layout.astro";
+import sections from "src/data/sections.json";
+import { getSortedTalks } from "src/lib/content/talks";
+
+const talks = await getSortedTalks();
+---
+
+<Layout>
+  <title slot="head">Talks | Alessandro Desantis</title>
+
+  <Hero>
+    <span slot="heading">Talks</span>
+    <span slot="subheading">
+      {sections.talks.description}
+    </span>
+  </Hero>
+
+  <div class="grid lg:grid-cols-2 gap-8">
+    {talks.map((talk) => <TalkCard talk={talk} />)}
+  </div>
+</Layout>

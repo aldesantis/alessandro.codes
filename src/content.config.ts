@@ -21,6 +21,17 @@ export const collections = {
     loader: file("src/data/socials.json"),
   }),
 
+  talks: defineCollection({
+    schema: z.object({
+      date: z.coerce.date(),
+      slug: z.string(),
+      title: z.string(),
+      description: z.string(),
+      url: z.string().url(),
+    }),
+    loader: file("src/data/talks.json"),
+  }),
+
   essays: defineCollection({
     schema: z.object({
       title: z.string(),

@@ -1,24 +1,26 @@
 ---
 import type { ComponentProps } from "astro/types";
 import Card from "@components/ui/Card.astro";
+import { isInternalUrl } from "src/lib/utils";
 
 type Props = ComponentProps<typeof Card> & {
   href: string;
   target?: string;
 };
 
-const { href, target = "_self", class: originalClass, ...props } = Astro.props;
+const { href, class: originalClass, ...props } = Astro.props;
 ---
 
 <a
   href={href}
-  target={target}
-  class="block bg-white rounded overflow-hidden transform transition-transform hover:scale-105"
+  class="block transform transition-transform hover:scale-105"
+  target={isInternalUrl(href) ? "_self" : "_blank"}
 >
   <Card {...props} class:list={["", originalClass]}>
     <slot name="cover" slot="cover" />
     <div
       class="text-lg font-sans transition-all text-orange-400 group-hover:text-orange-700"
+      slot="title"
     >
       <slot name="title" />
     </div>

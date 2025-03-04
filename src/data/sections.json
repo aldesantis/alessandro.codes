@@ -13,5 +13,8 @@
   },
   "nows": {
     "description": "A loosely updated diary of things I consume, think, and produce."
+  },
+  "talks": {
+    "description": "Talks and interviews I have given on various occasions."
   }
 }
