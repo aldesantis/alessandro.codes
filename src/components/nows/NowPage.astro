@@ -8,7 +8,7 @@ import { render, type CollectionEntry } from "astro:content";
 import { getMdxComponents } from "src/lib/content";
 import { getSortedNows } from "src/lib/content/nows";
 import sections from "src/data/sections.json";
-
+import LinkList from "@components/ui/LinkList.astro";
 interface Props {
   now: CollectionEntry<"nows">;
 }
@@ -33,12 +33,12 @@ const nows = await getSortedNows();
 
       <div class="mb-8 lg:hidden">
         <Collapsible label="Archive">
-          <ul class="space-y-2">
+          <LinkList>
             {
               nows.map((archiveNow) => (
                 <li>
                   <Link
-                    class="font-sans block py-1"
+                    class="font-sans block"
                     href={`/now/${archiveNow.id}`}
                     active={archiveNow.id === now.id}
                   >
@@ -47,7 +47,7 @@ const nows = await getSortedNows();
                 </li>
               ))
             }
-          </ul>
+          </LinkList>
         </Collapsible>
       </div>
 

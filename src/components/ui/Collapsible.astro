@@ -47,6 +47,10 @@ const randomId = `collapsible-${Math.random().toString(36).substring(2, 10)}`;
     transform: rotate(180deg);
   }
 
+  .collapsible-checkbox:checked + .collapsible-label {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
   .collapsible-content {
     transition-duration: 300ms;
   }

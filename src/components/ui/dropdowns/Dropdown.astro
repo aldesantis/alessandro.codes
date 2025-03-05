@@ -33,8 +33,6 @@ const { label } = Astro.props;
       this.menu = this.querySelector(".dropdown-menu");
       this.isOpen = false;
 
-      console.log(this.button, this.menu, this.isOpen);
-
       this.button?.addEventListener("click", () => this.toggleMenu());
       document.addEventListener("click", (e) => this.handleClickOutside(e));
       document.addEventListener("keydown", (e) => this.handleKeyDown(e));

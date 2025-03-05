@@ -1,0 +1,44 @@
+---
+import Link from "@components/ui/Link.astro";
+import LinkList from "@components/ui/LinkList.astro";
+export interface Props {
+  title: string;
+  headings: {
+    depth: number;
+    text: string;
+    slug: string;
+  }[];
+}
+
+const { headings, title } = Astro.props;
+
+const headingsWithTitle = [
+  {
+    depth: 1,
+    text: title,
+    slug: "",
+  },
+  ...headings,
+];
+---
+
+<LinkList>
+  {
+    headingsWithTitle.map((heading) => (
+      <div
+        class:list={[
+          heading.depth === 2 && "pl-4",
+          heading.depth === 3 && "pl-8",
+        ]}
+      >
+        <Link
+          href={`#${heading.slug}`}
+          variant="secondary"
+          class="font-sans text-sm"
+        >
+          {heading.text}
+        </Link>
+      </div>
+    ))
+  }
+</LinkList>

@@ -47,7 +47,9 @@ const getDataForBacklinks = (fileNames, filePath) =>
 
       const { content, data } = matter(file);
 
-      const slug = fileName.replace(/\.mdx?$/, "").replace(/\.md?$/, "");
+      // Use slug from frontmatter if available, otherwise derive from filename
+      const slugFromFrontmatter = data.slug;
+      const slug = slugFromFrontmatter || fileName.replace(/\.mdx?$/, "").replace(/\.md?$/, "");
 
       const { title, aliases, status, description, publish } = data;
 

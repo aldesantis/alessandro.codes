@@ -4,9 +4,9 @@
       "UI Components in Rails",
       "UI Components in Rails",
       "UI Components in\\_Rails",
-      "2013-12-24-rails-ui-components"
+      "rails-ui-components"
     ],
-    "slug": "2013-12-24-rails-ui-components",
+    "slug": "rails-ui-components",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -15,9 +15,9 @@
   {
     "ids": [
       "The Evolution of an Introvert",
-      "2014-03-16-introvert"
+      "introvert"
     ],
-    "slug": "2014-03-16-introvert",
+    "slug": "introvert",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -26,9 +26,9 @@
   {
     "ids": [
       "The Imperative Manifesto",
-      "2014-03-19-manifesto"
+      "manifesto"
     ],
-    "slug": "2014-03-19-manifesto",
+    "slug": "manifesto",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -37,9 +37,9 @@
   {
     "ids": [
       "L’educazione proibita",
-      "2014-03-25-educazione-proibita"
+      "educazione-proibita"
     ],
-    "slug": "2014-03-25-educazione-proibita",
+    "slug": "educazione-proibita",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -48,9 +48,9 @@
   {
     "ids": [
       "Be Childish",
-      "2014-04-03-be-childish"
+      "be-childish"
     ],
-    "slug": "2014-04-03-be-childish",
+    "slug": "be-childish",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -60,9 +60,9 @@
     "ids": [
       "Meditate with Purpose",
       "Meditate with\\\\_Purpose",
-      "2014-04-06-meditate-with-purpose"
+      "meditate-with-purpose"
     ],
-    "slug": "2014-04-06-meditate-with-purpose",
+    "slug": "meditate-with-purpose",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -73,9 +73,9 @@
       "Do Reinvent the Wheel",
       "Do Reinvent the Wheel",
       "Do Reinvent the\\_Wheel",
-      "2014-04-17-do-reinvent-the-wheel"
+      "do-reinvent-the-wheel"
     ],
-    "slug": "2014-04-17-do-reinvent-the-wheel",
+    "slug": "do-reinvent-the-wheel",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -84,9 +84,9 @@
   {
     "ids": [
       "Charlotte",
-      "2014-05-12-charlotte"
+      "charlotte"
     ],
-    "slug": "2014-05-12-charlotte",
+    "slug": "charlotte",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -96,9 +96,9 @@
     "ids": [
       "Elogio della satira",
       "Elogio della\\_satira",
-      "2014-05-26-elogio-della-satira"
+      "elogio-della-satira"
     ],
-    "slug": "2014-05-26-elogio-della-satira",
+    "slug": "elogio-della-satira",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -107,9 +107,9 @@
   {
     "ids": [
       ":extend’s Gotchas",
-      "2014-07-05-extends-gotchas"
+      "extends-gotchas"
     ],
-    "slug": "2014-07-05-extends-gotchas",
+    "slug": "extends-gotchas",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -120,9 +120,9 @@
       "Movimento e Quiete",
       "Movimento e\\_Quiete",
       "Movimento e\\\\_Quiete",
-      "2014-08-09-movimento-e-quiete"
+      "movimento-e-quiete"
     ],
-    "slug": "2014-08-09-movimento-e-quiete",
+    "slug": "movimento-e-quiete",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -131,9 +131,9 @@
   {
     "ids": [
       "Sul liceo e sull’accanimento terapeutico",
-      "2014-08-18-liceo"
+      "liceo"
     ],
-    "slug": "2014-08-18-liceo",
+    "slug": "liceo",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -143,9 +143,9 @@
     "ids": [
       "Testing Active Record Concerns with RSpec and Temping",
       "Testing Active Record Concerns with RSpec and\\_Temping",
-      "2014-08-23-testing-active-record-concerns"
+      "testing-active-record-concerns"
     ],
-    "slug": "2014-08-23-testing-active-record-concerns",
+    "slug": "testing-active-record-concerns",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -154,9 +154,9 @@
   {
     "ids": [
       "Il Milite Ignoto: Prologo",
-      "2014-09-01-il-milite-ignoto"
+      "il-milite-ignoto"
     ],
-    "slug": "2014-09-01-il-milite-ignoto",
+    "slug": "il-milite-ignoto",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -165,9 +165,9 @@
   {
     "ids": [
       "People Are Assholes",
-      "2014-09-12-people-are-assholes"
+      "people-are-assholes"
     ],
-    "slug": "2014-09-12-people-are-assholes",
+    "slug": "people-are-assholes",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -176,9 +176,9 @@
   {
     "ids": [
       "Executing Sidekiq Jobs Immediately",
-      "2014-09-13-executing-sidekiq-jobs-immediately"
+      "executing-sidekiq-jobs-immediately"
     ],
-    "slug": "2014-09-13-executing-sidekiq-jobs-immediately",
+    "slug": "executing-sidekiq-jobs-immediately",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -187,9 +187,9 @@
   {
     "ids": [
       "Il caso dell’orsa Daniza",
-      "2014-09-15-daniza"
+      "daniza"
     ],
-    "slug": "2014-09-15-daniza",
+    "slug": "daniza",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -198,9 +198,9 @@
   {
     "ids": [
       "25 Things I Learned on Software Development",
-      "2014-09-20-25-things-on-software"
+      "25-things-on-software"
     ],
-    "slug": "2014-09-20-25-things-on-software",
+    "slug": "25-things-on-software",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -209,9 +209,9 @@
   {
     "ids": [
       "Logophobia",
-      "2014-09-22-logophobia"
+      "logophobia"
     ],
-    "slug": "2014-09-22-logophobia",
+    "slug": "logophobia",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -220,9 +220,9 @@
   {
     "ids": [
       "Il Vecchietto",
-      "2014-09-30-il-vecchietto"
+      "il-vecchietto"
     ],
-    "slug": "2014-09-30-il-vecchietto",
+    "slug": "il-vecchietto",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -232,9 +232,9 @@
     "ids": [
       "Massa e critica",
       "Massa e\\_critica",
-      "2015-03-14-massa-e-critica"
+      "massa-e-critica"
     ],
-    "slug": "2015-03-14-massa-e-critica",
+    "slug": "massa-e-critica",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -243,9 +243,9 @@
   {
     "ids": [
       "Quasi",
-      "2015-06-28-quasi"
+      "quasi"
     ],
-    "slug": "2015-06-28-quasi",
+    "slug": "quasi",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -255,9 +255,9 @@
     "ids": [
       "Sul privilegio di soffrire",
       "Sul privilegio di\\_soffrire",
-      "2015-09-27-soffrire"
+      "soffrire"
     ],
-    "slug": "2015-09-27-soffrire",
+    "slug": "soffrire",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -266,9 +266,9 @@
   {
     "ids": [
       "Amore",
-      "2015-11-02-amore"
+      "amore"
     ],
-    "slug": "2015-11-02-amore",
+    "slug": "amore",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -279,9 +279,9 @@
       "Quello che non ti dico",
       "Quello che non ti dico",
       "Quello che non ti\\_dico",
-      "2015-12-08-quello-che-non-ti-dico"
+      "quello-che-non-ti-dico"
     ],
-    "slug": "2015-12-08-quello-che-non-ti-dico",
+    "slug": "quello-che-non-ti-dico",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -290,9 +290,9 @@
   {
     "ids": [
       "Straniero",
-      "2016-01-21-straniero"
+      "straniero"
     ],
-    "slug": "2016-01-21-straniero",
+    "slug": "straniero",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -301,9 +301,9 @@
   {
     "ids": [
       "Composizione",
-      "2016-02-02-composizione"
+      "composizione"
     ],
-    "slug": "2016-02-02-composizione",
+    "slug": "composizione",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -312,9 +312,9 @@
   {
     "ids": [
       "Akram",
-      "2016-02-04-akram"
+      "akram"
     ],
-    "slug": "2016-02-04-akram",
+    "slug": "akram",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -323,9 +323,9 @@
   {
     "ids": [
       "Critica appassionata dell’(in)utilità della frequenza obbligatoria",
-      "2016-03-16-frequenza-obbligatoria"
+      "frequenza-obbligatoria"
     ],
-    "slug": "2016-03-16-frequenza-obbligatoria",
+    "slug": "frequenza-obbligatoria",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -334,9 +334,9 @@
   {
     "ids": [
       "Ritmo",
-      "2016-06-01-ritmo"
+      "ritmo"
     ],
-    "slug": "2016-06-01-ritmo",
+    "slug": "ritmo",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -345,9 +345,9 @@
   {
     "ids": [
       "Questo è",
-      "2016-08-27-questo-e"
+      "questo-e"
     ],
-    "slug": "2016-08-27-questo-e",
+    "slug": "questo-e",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -358,9 +358,9 @@
       "BSBS: Building Solid Billing Systems",
       "BSBS: Building Solid Billing\\_Systems",
       "BSBS: Building Solid Billing Systems",
-      "2016-11-29-bsbs"
+      "bsbs"
     ],
-    "slug": "2016-11-29-bsbs",
+    "slug": "bsbs",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -370,9 +370,9 @@
     "ids": [
       "Quando sai di amarla",
       "Quando sai di\\_amarla",
-      "2017-03-18-quando-sai-di-amarla"
+      "quando-sai-di-amarla"
     ],
-    "slug": "2017-03-18-quando-sai-di-amarla",
+    "slug": "quando-sai-di-amarla",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -381,9 +381,9 @@
   {
     "ids": [
       "The Superhero",
-      "2017-05-01-superhero"
+      "superhero"
     ],
-    "slug": "2017-05-01-superhero",
+    "slug": "superhero",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -392,9 +392,9 @@
   {
     "ids": [
       "The CTO Manifesto",
-      "2017-05-05-cto-manifesto"
+      "cto-manifesto"
     ],
-    "slug": "2017-05-05-cto-manifesto",
+    "slug": "cto-manifesto",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -403,9 +403,9 @@
   {
     "ids": [
       "Leadership: Five Lessons in Five Months",
-      "2017-09-05-leadership-lessons"
+      "leadership-lessons"
     ],
-    "slug": "2017-09-05-leadership-lessons",
+    "slug": "leadership-lessons",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -415,9 +415,9 @@
     "ids": [
       "The No-Bullshit Guide to Hiring",
       "The No-Bullshit Guide to\\_Hiring",
-      "2017-10-11-hiring"
+      "hiring"
     ],
-    "slug": "2017-10-11-hiring",
+    "slug": "hiring",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -426,9 +426,9 @@
   {
     "ids": [
       "Status Quo",
-      "2017-10-25-status-quo"
+      "status-quo"
     ],
-    "slug": "2017-10-25-status-quo",
+    "slug": "status-quo",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -437,9 +437,9 @@
   {
     "ids": [
       "Ombra",
-      "2017-11-01-ombra"
+      "ombra"
     ],
-    "slug": "2017-11-01-ombra",
+    "slug": "ombra",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -448,9 +448,9 @@
   {
     "ids": [
       "Alice",
-      "2017-11-06-alice"
+      "alice"
     ],
-    "slug": "2017-11-06-alice",
+    "slug": "alice",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -461,9 +461,9 @@
       "I Want to Quit",
       "I Want to Quit",
       "I Want to\\_Quit",
-      "2017-11-13-i-want-to-quit"
+      "i-want-to-quit"
     ],
-    "slug": "2017-11-13-i-want-to-quit",
+    "slug": "i-want-to-quit",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -472,9 +472,9 @@
   {
     "ids": [
       "Everything Is an Investment",
-      "2017-11-20-everything-is-an-investment"
+      "everything-is-an-investment"
     ],
-    "slug": "2017-11-20-everything-is-an-investment",
+    "slug": "everything-is-an-investment",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -484,9 +484,9 @@
     "ids": [
       "The Hype Cycle: What It Is and How to Game It",
       "The Hype Cycle: What It Is and How to Game\\_It",
-      "2017-11-27-hype-cycle"
+      "hype-cycle"
     ],
-    "slug": "2017-11-27-hype-cycle",
+    "slug": "hype-cycle",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -496,9 +496,9 @@
     "ids": [
       "In Defense of Human Testing",
       "In Defense of Human\\_Testing",
-      "2017-12-04-manual-testing"
+      "manual-testing"
     ],
-    "slug": "2017-12-04-manual-testing",
+    "slug": "manual-testing",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -507,9 +507,9 @@
   {
     "ids": [
       "The Changelog-Versioning Revolution",
-      "2017-12-11-changelogs"
+      "changelogs"
     ],
-    "slug": "2017-12-11-changelogs",
+    "slug": "changelogs",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -518,9 +518,9 @@
   {
     "ids": [
       "The One Skill You Need in Order to Thrive in Life, at Work and Everywhere",
-      "2017-12-18-consistency"
+      "consistency"
     ],
-    "slug": "2017-12-18-consistency",
+    "slug": "consistency",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -531,9 +531,9 @@
       "People vs Process",
       "People vs Process",
       "People vs\\_Process",
-      "2017-12-25-people-vs-process"
+      "people-vs-process"
     ],
-    "slug": "2017-12-25-people-vs-process",
+    "slug": "people-vs-process",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -543,9 +543,9 @@
     "ids": [
       "The Three Tenets of API Design (1/3): Be Boring",
       "The Three Tenets of API Design (1/3): Be\\_Boring",
-      "2018-01-08-api-design-1"
+      "api-design-1"
     ],
-    "slug": "2018-01-08-api-design-1",
+    "slug": "api-design-1",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -555,9 +555,9 @@
     "ids": [
       "The Three Tenets of API Design (2/3): Embrace HTTP",
       "The Three Tenets of API Design (2/3): Embrace\\_HTTP",
-      "2018-01-15-api-design-2"
+      "api-design-2"
     ],
-    "slug": "2018-01-15-api-design-2",
+    "slug": "api-design-2",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -566,9 +566,9 @@
   {
     "ids": [
       "The Three Tenets of API Design (3/3): Respect REST",
-      "2018-01-22-api-design-3"
+      "api-design-3"
     ],
-    "slug": "2018-01-22-api-design-3",
+    "slug": "api-design-3",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -577,9 +577,9 @@
   {
     "ids": [
       "Maestra",
-      "2018-02-12-maestra"
+      "maestra"
     ],
-    "slug": "2018-02-12-maestra",
+    "slug": "maestra",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -588,9 +588,9 @@
   {
     "ids": [
       "Menzogne",
-      "2018-03-01-menzogne"
+      "menzogne"
     ],
-    "slug": "2018-03-01-menzogne",
+    "slug": "menzogne",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -599,9 +599,9 @@
   {
     "ids": [
       "March Reflection",
-      "2018-08-20-march-reflection"
+      "march-reflection"
     ],
-    "slug": "2018-08-20-march-reflection",
+    "slug": "march-reflection",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -612,9 +612,9 @@
       "My 2018 Annual Review",
       "My 2018 Annual Review",
       "My 2018 Annual\\_Review",
-      "2019-01-07-2018-review"
+      "2018-review"
     ],
-    "slug": "2019-01-07-2018-review",
+    "slug": "2018-review",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -623,9 +623,9 @@
   {
     "ids": [
       "Fail Better: Turning Software Errors into Documentation",
-      "2019-01-21-fail-better"
+      "fail-better"
     ],
-    "slug": "2019-01-21-fail-better",
+    "slug": "fail-better",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -635,9 +635,9 @@
     "ids": [
       "Le mani di Roma",
       "Le mani di\\_Roma",
-      "2019-02-07-le-mani-di-roma"
+      "le-mani-di-roma"
     ],
-    "slug": "2019-02-07-le-mani-di-roma",
+    "slug": "le-mani-di-roma",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -646,9 +646,9 @@
   {
     "ids": [
       "6 Design Principles for Your HTTP APIs",
-      "2019-02-13-api-design"
+      "api-design"
     ],
-    "slug": "2019-02-13-api-design",
+    "slug": "api-design",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -658,9 +658,9 @@
     "ids": [
       "Evolution Techniques for RESTful APIs",
       "Evolution Techniques for RESTful\\_APIs",
-      "2019-02-27-api-evolution"
+      "api-evolution"
     ],
-    "slug": "2019-02-27-api-evolution",
+    "slug": "api-evolution",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -670,20 +670,41 @@
     "ids": [
       "Coach Them Until It Hurts",
       "Coach Them Until It\\_Hurts",
-      "2019-09-29-coaching"
+      "coaching"
     ],
-    "slug": "2019-09-29-coaching",
+    "slug": "coaching",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Empowered",
+        "slug": "empowered",
+        "contentType": "books"
+      },
+      {
+        "title": "The 15 Commitments of Conscious Leadership",
+        "slug": "the-15-commitments-of-conscious-leadership",
+        "contentType": "books"
+      },
+      {
+        "title": "The Coaching Habit",
+        "slug": "the-coaching-habit",
+        "contentType": "books"
+      },
+      {
+        "title": "Trillion Dollar Coach",
+        "slug": "trillion-dollar-coach",
+        "contentType": "books"
+      }
+    ]
   },
   {
     "ids": [
       "Using RFCs to Drive Organizational Change",
-      "2020-01-09-rfcs"
+      "rfcs"
     ],
-    "slug": "2020-01-09-rfcs",
+    "slug": "rfcs",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -692,9 +713,9 @@
   {
     "ids": [
       "The Transformative Nature of Ownership in Engineering Orgs",
-      "2020-04-30-engineering-ownership"
+      "engineering-ownership"
     ],
-    "slug": "2020-04-30-engineering-ownership",
+    "slug": "engineering-ownership",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -703,9 +724,9 @@
   {
     "ids": [
       "The Feedback-Centric Organization",
-      "2020-11-16-feedback-centric-organization"
+      "feedback-centric-organization"
     ],
-    "slug": "2020-11-16-feedback-centric-organization",
+    "slug": "feedback-centric-organization",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -714,9 +735,9 @@
   {
     "ids": [
       "Sul bisogno di muoversi",
-      "2021-08-20-muoversi"
+      "muoversi"
     ],
-    "slug": "2021-08-20-muoversi",
+    "slug": "muoversi",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -725,9 +746,9 @@
   {
     "ids": [
       "The GTDT Model for Intentional eCommerce Personalization",
-      "2023-01-03-ecommerce-personalization"
+      "ecommerce-personalization"
     ],
-    "slug": "2023-01-03-ecommerce-personalization",
+    "slug": "ecommerce-personalization",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -736,9 +757,9 @@
   {
     "ids": [
       "eCommerce A/B Testing: Strategies for Success",
-      "2023-03-07-ecommerce-ab-testing-strategies"
+      "ecommerce-ab-testing-strategies"
     ],
-    "slug": "2023-03-07-ecommerce-ab-testing-strategies",
+    "slug": "ecommerce-ab-testing-strategies",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -747,9 +768,9 @@
   {
     "ids": [
       "How to Make Your E-Commerce A/B Tests Useless",
-      "2023-03-29-ecommerce-ab-testing-mistakes"
+      "ecommerce-ab-testing-mistakes"
     ],
-    "slug": "2023-03-29-ecommerce-ab-testing-mistakes",
+    "slug": "ecommerce-ab-testing-mistakes",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -758,9 +779,9 @@
   {
     "ids": [
       "Scaling DTC Brands Through Product-Led Growth",
-      "2023-04-27-dtc-product-led-growth"
+      "dtc-product-led-growth"
     ],
-    "slug": "2023-04-27-dtc-product-led-growth",
+    "slug": "dtc-product-led-growth",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -769,9 +790,9 @@
   {
     "ids": [
       "Supercharge Your DTC Growth with Product Management",
-      "2023-05-24-dtc-product-management"
+      "dtc-product-management"
     ],
-    "slug": "2023-05-24-dtc-product-management",
+    "slug": "dtc-product-management",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -780,9 +801,9 @@
   {
     "ids": [
       "Building Content Infrastructures for eCommerce Brands",
-      "2023-06-26-ecommerce-content-stack"
+      "ecommerce-content-stack"
     ],
-    "slug": "2023-06-26-ecommerce-content-stack",
+    "slug": "ecommerce-content-stack",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -791,9 +812,9 @@
   {
     "ids": [
       "The playbook delusion",
-      "2023-06-26-the-playbook-delusion"
+      "the-playbook-delusion"
     ],
-    "slug": "2023-06-26-the-playbook-delusion",
+    "slug": "the-playbook-delusion",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -802,9 +823,9 @@
   {
     "ids": [
       "Media x commerce",
-      "2023-07-10-media-x-commerce"
+      "media-x-commerce"
     ],
-    "slug": "2023-07-10-media-x-commerce",
+    "slug": "media-x-commerce",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -813,9 +834,9 @@
   {
     "ids": [
       "Why Memberships Are The Future of Customer Loyalty",
-      "2023-08-02-membership-programs"
+      "membership-programs"
     ],
-    "slug": "2023-08-02-membership-programs",
+    "slug": "membership-programs",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -824,9 +845,9 @@
   {
     "ids": [
       "Members only",
-      "2023-08-09-members-only"
+      "members-only"
     ],
-    "slug": "2023-08-09-members-only",
+    "slug": "members-only",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -835,9 +856,9 @@
   {
     "ids": [
       "The Shopify play",
-      "2023-08-23-the-shopify-play"
+      "the-shopify-play"
     ],
-    "slug": "2023-08-23-the-shopify-play",
+    "slug": "the-shopify-play",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -846,9 +867,9 @@
   {
     "ids": [
       "The eCommerce rat race",
-      "2023-09-06-the-ecommerce-rat-race"
+      "the-ecommerce-rat-race"
     ],
-    "slug": "2023-09-06-the-ecommerce-rat-race",
+    "slug": "the-ecommerce-rat-race",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -857,9 +878,9 @@
   {
     "ids": [
       "Beauty and the Beast",
-      "2023-10-04-beauty-and-the-beast"
+      "beauty-and-the-beast"
     ],
-    "slug": "2023-10-04-beauty-and-the-beast",
+    "slug": "beauty-and-the-beast",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -868,9 +889,9 @@
   {
     "ids": [
       "Rise of the cultural brand",
-      "2023-10-18-rise-of-the-cultural-brand"
+      "rise-of-the-cultural-brand"
     ],
-    "slug": "2023-10-18-rise-of-the-cultural-brand",
+    "slug": "rise-of-the-cultural-brand",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -879,9 +900,9 @@
   {
     "ids": [
       "All hail the superapp",
-      "2023-11-02-all-hail-the-superapp"
+      "all-hail-the-superapp"
     ],
-    "slug": "2023-11-02-all-hail-the-superapp",
+    "slug": "all-hail-the-superapp",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -890,20 +911,27 @@
   {
     "ids": [
       "Outage outrage",
-      "2023-11-15-outage-outrage"
+      "outage-outrage"
     ],
-    "slug": "2023-11-15-outage-outrage",
+    "slug": "outage-outrage",
     "status": "evergreen",
     "contentType": "essays",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing-must-build-availability",
+        "title": "Marketing must build availability",
+        "slug": "marketing-must-build-availability",
+        "contentType": "notes"
+      }
+    ],
     "inboundLinks": []
   },
   {
     "ids": [
       "The curation opportunity",
-      "2023-11-29-the-curation-opportunity"
+      "the-curation-opportunity"
     ],
-    "slug": "2023-11-29-the-curation-opportunity",
+    "slug": "the-curation-opportunity",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -912,9 +940,9 @@
   {
     "ids": [
       "Apology of the regulator",
-      "2023-12-13-apology-of-the-regulator"
+      "apology-of-the-regulator"
     ],
-    "slug": "2023-12-13-apology-of-the-regulator",
+    "slug": "apology-of-the-regulator",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -923,9 +951,9 @@
   {
     "ids": [
       "Agency, deconstruct thyself",
-      "2024-01-10-agency-deconstruct-thyself"
+      "agency-deconstruct-thyself"
     ],
-    "slug": "2024-01-10-agency-deconstruct-thyself",
+    "slug": "agency-deconstruct-thyself",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -934,9 +962,9 @@
   {
     "ids": [
       "Maslow and brands",
-      "2024-01-24-maslow-and-brands"
+      "maslow-and-brands"
     ],
-    "slug": "2024-01-24-maslow-and-brands",
+    "slug": "maslow-and-brands",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -945,9 +973,9 @@
   {
     "ids": [
       "The Web3 rightshifting",
-      "2024-02-21-the-web3-rightshifting"
+      "the-web3-rightshifting"
     ],
-    "slug": "2024-02-21-the-web3-rightshifting",
+    "slug": "the-web3-rightshifting",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -956,9 +984,9 @@
   {
     "ids": [
       "The Ultimate Guide to E-Commerce Loyalty Programs",
-      "2024-03-20-ecommerce-loyalty-programs"
+      "ecommerce-loyalty-programs"
     ],
-    "slug": "2024-03-20-ecommerce-loyalty-programs",
+    "slug": "ecommerce-loyalty-programs",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -967,9 +995,9 @@
   {
     "ids": [
       "The collapse of commerce",
-      "2024-03-20-the-collapse-of-commerce"
+      "the-collapse-of-commerce"
     ],
-    "slug": "2024-03-20-the-collapse-of-commerce",
+    "slug": "the-collapse-of-commerce",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -978,9 +1006,9 @@
   {
     "ids": [
       "Holding the space",
-      "2024-04-18-holding-the-space"
+      "holding-the-space"
     ],
-    "slug": "2024-04-18-holding-the-space",
+    "slug": "holding-the-space",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -989,9 +1017,9 @@
   {
     "ids": [
       "Span of control",
-      "2024-06-10-span-of-control"
+      "span-of-control"
     ],
-    "slug": "2024-06-10-span-of-control",
+    "slug": "span-of-control",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -1000,9 +1028,9 @@
   {
     "ids": [
       "Digital Product Passports and Retail’s New Growth Opportunity",
-      "2024-07-24-digital-product-passport-cx"
+      "digital-product-passport-cx"
     ],
-    "slug": "2024-07-24-digital-product-passport-cx",
+    "slug": "digital-product-passport-cx",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -1011,9 +1039,9 @@
   {
     "ids": [
       "Redefining the Digital Value Chain for Multi-Brand Retail",
-      "2024-12-04-multi-brand-retail-value-chain"
+      "multi-brand-retail-value-chain"
     ],
-    "slug": "2024-12-04-multi-brand-retail-value-chain",
+    "slug": "multi-brand-retail-value-chain",
     "status": "evergreen",
     "contentType": "essays",
     "outboundLinks": [],
@@ -1024,9 +1052,9 @@
       "Why Customer Experience Is The",
       "Experience-Led Commerce: Turning Customer Experience Into Your New Growth Engine",
       "Why Customer Experience Is The ",
-      "2025-02-05-experience-led-commerce"
+      "experience-led-commerce"
     ],
-    "slug": "2025-02-05-experience-led-commerce",
+    "slug": "experience-led-commerce",
     "status": "seedling",
     "contentType": "essays",
     "outboundLinks": [],
@@ -4518,6 +4546,11 @@
     ],
     "inboundLinks": [
       {
+        "title": "Outage outrage",
+        "slug": "outage-outrage",
+        "contentType": "essays"
+      },
+      {
         "title": "Advertising may work by cultural imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting",
         "contentType": "notes"
@@ -7583,7 +7616,20 @@
     "slug": "empowered",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Product strategy has four steps",
@@ -8235,7 +8281,20 @@
     "slug": "the-15-commitments-of-conscious-leadership",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8327,7 +8386,68 @@
     "slug": "the-coaching-habit",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Use the TERA quotient for building trust",
@@ -8575,7 +8695,14 @@
     "slug": "trillion-dollar-coach",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Good management requires consistency",
