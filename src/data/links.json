@@ -916,14 +916,7 @@
     "slug": "outage-outrage",
     "status": "evergreen",
     "contentType": "essays",
-    "outboundLinks": [
-      {
-        "matchedId": "marketing-must-build-availability",
-        "title": "Marketing must build availability",
-        "slug": "marketing-must-build-availability",
-        "contentType": "notes"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -4545,11 +4538,6 @@
       }
     ],
     "inboundLinks": [
-      {
-        "title": "Outage outrage",
-        "slug": "outage-outrage",
-        "contentType": "essays"
-      },
       {
         "title": "Advertising may work by cultural imprinting",
         "slug": "advertising-may-work-by-cultural-imprinting",
