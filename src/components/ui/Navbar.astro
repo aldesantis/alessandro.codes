@@ -1,7 +1,6 @@
 ---
 import Link from "@components/ui/Link.astro";
 import SearchIcon from "@components/ui/SearchIcon.astro";
-import CommandPalette from "@components/ui/command-palette/CommandPalette.astro";
 
 const currentPath = Astro.url.pathname;
 
@@ -28,7 +27,7 @@ const links = [
         <div
           class:list={[
             "hidden flex-col gap-y-4",
-            "sm:flex sm:flex-row sm:gap-x-4",
+            "md:flex md:flex-row md:gap-x-4",
             "flex-1 justify-end",
           ]}
         >
@@ -49,31 +48,41 @@ const links = [
           <button
             class="flex items-center hover:text-orange-700 transition-colors"
             aria-label="Search"
-            data-js-search-toggle
+            data-js-command-palette-toggle
           >
             <SearchIcon />
           </button>
         </div>
 
-        <button
-          class="sm:hidden hover:text-orange-700"
-          aria-label="Toggle menu"
-          data-js-mobile-toggle
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+        <div class="flex items-center gap-x-4 md:hidden">
+          <button
+            class="hover:text-orange-700 transition-colors"
+            aria-label="Search"
+            data-js-command-palette-toggle
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
+            <SearchIcon />
+          </button>
+
+          <button
+            class="hover:text-orange-700"
+            aria-label="Toggle menu"
+            data-js-mobile-toggle
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
       </nav>
     </div>
   </div>
@@ -117,15 +126,6 @@ const links = [
             </Link>
           ))
         }
-
-        <button
-          class="flex items-center hover:text-orange-700 transition-colors"
-          aria-label="Search"
-          data-js-search-toggle-mobile
-        >
-          <SearchIcon />
-          <span class="ml-2">Search</span>
-        </button>
       </div>
     </nav>
   </div>
@@ -137,10 +137,6 @@ const links = [
     const mobileMenu = document.querySelector("[data-js-mobile-menu]");
     const mobileToggle = document.querySelector("[data-js-mobile-toggle]");
     const mobileClose = document.querySelector("[data-js-mobile-close]");
-    const searchToggle = document.querySelector("[data-js-search-toggle]");
-    const searchToggleMobile = document.querySelector(
-      "[data-js-search-toggle-mobile]"
-    );
 
     if (!navbar || !mobileMenu || !mobileToggle || !mobileClose) {
       console.error("Required navbar elements not found");
@@ -181,41 +177,5 @@ const links = [
         closeMenu();
       }
     });
-
-    function openCommandPalette() {
-      const commandPalette = document.getElementById("command-palette");
-
-      if (commandPalette) {
-        closeMenu();
-
-        commandPalette.classList.remove("hidden");
-
-        const dialogPanel = document.getElementById("dialog-panel");
-        const searchInput = document.getElementById(
-          "search-input"
-        ) as HTMLInputElement;
-
-        if (dialogPanel && searchInput) {
-          setTimeout(() => {
-            dialogPanel.classList.remove("scale-95", "opacity-0");
-            searchInput.focus();
-          }, 10);
-        }
-      }
-    }
-
-    if (searchToggle) {
-      searchToggle.addEventListener("click", (event) => {
-        event.stopPropagation();
-        openCommandPalette();
-      });
-    }
-
-    if (searchToggleMobile) {
-      searchToggleMobile.addEventListener("click", (event) => {
-        event.stopPropagation();
-        openCommandPalette();
-      });
-    }
   });
 </script>

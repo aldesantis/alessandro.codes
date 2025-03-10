@@ -52,6 +52,17 @@ export function initCommandPalette(): void {
   document.removeEventListener("click", documentClickHandler);
   document.addEventListener("click", documentClickHandler);
 
+  // Add event listeners to all command palette toggle elements
+  document
+    .querySelectorAll("[data-js-command-palette-toggle]")
+    .forEach((element) => {
+      element.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        openCommandPalette();
+      });
+    });
+
   /**
    * Open the command palette
    */
