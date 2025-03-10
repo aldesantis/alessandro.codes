@@ -1,76 +1,92 @@
 import type { ContentItem } from "./ContentItem";
 
 /**
- * Initialize the command palette
+ * Command Palette - A keyboard-accessible search interface
+ *
+ * Features:
+ * - Keyboard navigation (↑/↓, Enter, Esc)
+ * - Keyboard shortcut (Cmd+K / Ctrl+K)
+ * - Search with debouncing
+ * - Visual status indicators
+ * - Grouped search results
  */
 export function initCommandPalette(): void {
-  // Get DOM elements
-  const commandPalette = document.getElementById("command-palette")!;
-  const backdrop = document.getElementById("backdrop")!;
-  const dialogPanel = document.getElementById("dialog-panel")!;
-  const searchInput = document.getElementById(
-    "search-input"
-  ) as HTMLInputElement;
-  const resultsContainer = document.getElementById("results-container")!;
-  const noResults = document.getElementById("no-results")!;
+  // ======== DOM Elements ========
+  const elements = {
+    commandPalette: document.getElementById("command-palette"),
+    backdrop: document.getElementById("backdrop"),
+    dialogPanel: document.getElementById("dialog-panel"),
+    searchInput: document.getElementById(
+      "search-input"
+    ) as HTMLInputElement | null,
+    resultsContainer: document.getElementById("results-container"),
+    noResults: document.getElementById("no-results"),
+  };
 
-  // Check if all elements exist
-  if (
-    !commandPalette ||
-    !backdrop ||
-    !dialogPanel ||
-    !searchInput ||
-    !resultsContainer ||
-    !noResults
-  ) {
+  // Validate all required elements exist
+  if (Object.values(elements).some((element) => !element)) {
     console.error("Command palette elements not found");
     return;
   }
 
-  // State variables
-  let selectedIndex = -1;
-  let filteredItems: ContentItem[] = [];
-  let searchTimeout: number | null = null;
-  let isLoading = false;
+  // Type assertion after validation
+  const { commandPalette, backdrop, dialogPanel, noResults, resultsContainer } =
+    elements as Record<keyof typeof elements, HTMLElement>;
 
-  // Set up document click handler for closing the palette
-  const documentClickHandler = (e: MouseEvent) => {
-    // Only process if command palette is visible
-    if (commandPalette.classList.contains("hidden")) {
-      return;
-    }
+  // Handle searchInput separately with correct type
+  const searchInput = elements.searchInput as HTMLInputElement;
 
-    const target = e.target as Node;
-
-    // If the click is outside the dialog panel, close the command palette
-    if (!dialogPanel.contains(target) && document.contains(target)) {
-      closeCommandPalette();
-    }
+  // ======== State ========
+  type CommandPaletteState = {
+    selectedIndex: number;
+    filteredItems: ContentItem[];
+    searchTimeout: number | null;
+    isLoading: boolean;
   };
 
-  // Remove any existing handler and add the new one
-  document.removeEventListener("click", documentClickHandler);
-  document.addEventListener("click", documentClickHandler);
+  const state: CommandPaletteState = {
+    selectedIndex: -1,
+    filteredItems: [],
+    searchTimeout: null,
+    isLoading: false,
+  };
 
-  // Add event listeners to all command palette toggle elements
-  document
-    .querySelectorAll("[data-js-command-palette-toggle]")
-    .forEach((element) => {
-      element.addEventListener("click", (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        openCommandPalette();
-      });
-    });
+  // ======== Constants ========
+  const ANIMATION_DURATION = 200; // ms
+  const DEBOUNCE_DELAY = 300; // ms
 
+  const STATUS_ICONS = {
+    seedling: "🌱",
+    budding: "🌿",
+    evergreen: "🌳",
+  } as const;
+
+  const STATUS_COLORS = {
+    seedling: {
+      selected: "bg-green-700 text-white",
+      default: "bg-green-100 text-green-800",
+    },
+    budding: {
+      selected: "bg-yellow-700 text-white",
+      default: "bg-yellow-100 text-yellow-800",
+    },
+    evergreen: {
+      selected: "bg-blue-700 text-white",
+      default: "bg-blue-100 text-blue-800",
+    },
+  } as const;
+
+  // ======== UI Control Functions ========
   /**
-   * Open the command palette
+   * Open the command palette and focus the search input
    */
   function openCommandPalette(): void {
     // Prevent scrolling of the page when command palette is open
     document.body.style.overflow = "hidden";
 
     commandPalette.classList.remove("hidden");
+
+    // Small delay to ensure the transition works properly
     setTimeout(() => {
       dialogPanel.classList.remove("scale-95", "opacity-0");
       searchInput.focus();
@@ -78,32 +94,32 @@ export function initCommandPalette(): void {
   }
 
   /**
-   * Close the command palette
+   * Close the command palette and reset the search
    */
   function closeCommandPalette(): void {
-    // Re-enable scrolling when command palette is closed
+    // Re-enable scrolling
     document.body.style.overflow = "";
 
-    // Add opacity-0 class to backdrop for fade-out animation
+    // Start animations
     backdrop.classList.add("opacity-0");
-    // Add animation classes to dialog panel
     dialogPanel.classList.add("scale-95", "opacity-0");
 
-    // Wait for animations to complete before hiding the command palette
+    // Wait for animations to complete before hiding
     setTimeout(() => {
       commandPalette.classList.add("hidden");
       searchInput.value = "";
       updateResults("");
-      // Reset backdrop opacity for next opening
       backdrop.classList.remove("opacity-0");
-    }, 200);
+    }, ANIMATION_DURATION);
   }
 
+  // ======== Formatting Functions ========
   /**
    * Format a date for display
    */
   function formatDate(date?: Date): string {
     if (!date) return "";
+
     return new Date(date).toLocaleDateString("en-US", {
       year: "numeric",
       month: "short",
@@ -112,69 +128,60 @@ export function initCommandPalette(): void {
   }
 
   /**
-   * Get status badge for notes
+   * Get HTML for a status badge
    */
   function getStatusBadge(
     status?: string,
     isSelected: boolean = false
   ): string {
-    if (!status) return "";
+    if (!status || !(status in STATUS_ICONS)) return "";
 
-    const statusIcons = {
-      seedling: "🌱",
-      budding: "🌿",
-      evergreen: "🌳",
-    };
+    const statusKey = status as keyof typeof STATUS_ICONS;
+    const icon = STATUS_ICONS[statusKey];
+    const colorClass = isSelected
+      ? STATUS_COLORS[statusKey].selected
+      : STATUS_COLORS[statusKey].default;
 
-    const statusColors = {
-      seedling: isSelected
-        ? "bg-green-700 text-white"
-        : "bg-green-100 text-green-800",
-      budding: isSelected
-        ? "bg-yellow-700 text-white"
-        : "bg-yellow-100 text-yellow-800",
-      evergreen: isSelected
-        ? "bg-blue-700 text-white"
-        : "bg-blue-100 text-blue-800",
-    };
-
-    const icon = statusIcons[status as keyof typeof statusIcons] || "";
-    const color = statusColors[status as keyof typeof statusColors] || "";
-    return `<span class="text-xs px-2 py-0.5 rounded-full ${color}">${icon} ${status}</span>`;
+    return `<span class="text-xs px-2 py-0.5 rounded-full ${colorClass}">${icon} ${status}</span>`;
   }
 
+  // ======== Search Functions ========
   /**
    * Fetch search results from the API
    */
   async function fetchSearchResults(query: string): Promise<ContentItem[]> {
     if (!query) return [];
 
-    isLoading = true;
+    state.isLoading = true;
+
     try {
       const response = await fetch(
         `/api/search?q=${encodeURIComponent(query)}`
       );
+
       if (!response.ok) {
         throw new Error(
           `Error fetching search results: ${response.statusText}`
         );
       }
+
       const data = await response.json();
       return data.items;
     } catch (error) {
       console.error("Error fetching search results:", error);
       return [];
     } finally {
-      isLoading = false;
+      state.isLoading = false;
     }
   }
 
   /**
-   * Update the results based on the search query
+   * Update the results based on the search query with debouncing
    */
   function updateResults(query: string): void {
+    // Reset state for empty query
     if (query === "") {
-      filteredItems = [];
+      state.filteredItems = [];
       resultsContainer.classList.add("hidden");
       noResults.classList.add("hidden");
       return;
@@ -186,86 +193,92 @@ export function initCommandPalette(): void {
     resultsContainer.classList.remove("hidden");
     noResults.classList.add("hidden");
 
-    // Debounce the search to avoid too many API calls
-    if (searchTimeout) {
-      window.clearTimeout(searchTimeout);
+    // Debounce the search
+    if (state.searchTimeout) {
+      window.clearTimeout(state.searchTimeout);
     }
 
-    searchTimeout = window.setTimeout(async () => {
-      // Fetch results from API
-      filteredItems = await fetchSearchResults(query);
+    state.searchTimeout = window.setTimeout(async () => {
+      // Fetch results
+      state.filteredItems = await fetchSearchResults(query);
 
-      if (filteredItems.length === 0) {
+      // Handle no results case
+      if (state.filteredItems.length === 0) {
         resultsContainer.classList.add("hidden");
         noResults.classList.remove("hidden");
         return;
       }
 
+      // Show results
       resultsContainer.classList.remove("hidden");
       noResults.classList.add("hidden");
 
-      // Group items by type
-      const groupedByType = new Map<string, ContentItem[]>();
-
-      // Group the items by type
-      for (const item of filteredItems) {
-        if (!groupedByType.has(item.type)) {
-          groupedByType.set(item.type, []);
-        }
-
-        const typeItems = groupedByType.get(item.type);
-        if (typeItems) {
-          typeItems.push(item);
-        }
-      }
-
-      let html = "";
-      let currentIndex = 0;
-
-      groupedByType.forEach((items, type) => {
-        html += `<div class="px-4 pt-2 pb-1 text-xs font-semibold text-gray-500 uppercase">${type}s</div>`;
-
-        for (const item of items) {
-          const isSelected = currentIndex === selectedIndex;
-          html += `
-            <a 
-              href="${item.url}"
-              class="block cursor-pointer px-4 py-2 select-none ${isSelected ? "bg-orange-600 text-white" : ""}" 
-              data-index="${currentIndex}" 
-              data-id="${item.id}"
-            >
-              <div class="flex justify-between items-center">
-                <span>${item.name}</span>
-                <div class="flex items-center gap-2">
-                  ${item.status ? getStatusBadge(item.status, isSelected) : ""}
-                  ${item.date ? `<span class="text-xs ${isSelected ? "text-orange-100" : "text-gray-400"}">${formatDate(item.date)}</span>` : ""}
-                </div>
-              </div>
-            </a>
-          `;
-          currentIndex++;
-        }
-      });
-
-      resultsContainer.innerHTML = html;
-      addEventListenersToResults();
-    }, 300); // 300ms debounce
+      renderSearchResults();
+    }, DEBOUNCE_DELAY);
   }
 
+  /**
+   * Render search results grouped by type
+   */
+  function renderSearchResults(): void {
+    // Group items by type
+    const groupedByType = state.filteredItems.reduce((groups, item) => {
+      if (!groups.has(item.type)) {
+        groups.set(item.type, []);
+      }
+      groups.get(item.type)!.push(item);
+      return groups;
+    }, new Map<string, ContentItem[]>());
+
+    let html = "";
+    let currentIndex = 0;
+
+    // Generate HTML for each group
+    groupedByType.forEach((items, type) => {
+      html += `<div class="px-4 pt-2 pb-1 text-xs font-semibold text-gray-500 uppercase">${type}s</div>`;
+
+      for (const item of items) {
+        const isSelected = currentIndex === state.selectedIndex;
+        html += `
+          <a 
+            href="${item.url}"
+            class="block cursor-pointer px-4 py-2 select-none ${isSelected ? "bg-orange-600 text-white" : ""}" 
+            data-index="${currentIndex}" 
+            data-id="${item.id}"
+          >
+            <div class="flex justify-between items-center">
+              <span>${item.name}</span>
+              <div class="flex items-center gap-2">
+                ${item.status ? getStatusBadge(item.status, isSelected) : ""}
+                ${item.date ? `<span class="text-xs ${isSelected ? "text-orange-100" : "text-gray-400"}">${formatDate(item.date)}</span>` : ""}
+              </div>
+            </div>
+          </a>
+        `;
+        currentIndex++;
+      }
+    });
+
+    resultsContainer.innerHTML = html;
+    addEventListenersToResults();
+  }
+
+  // ======== Navigation Functions ========
   /**
    * Add event listeners to result items
    */
   function addEventListenersToResults(): void {
     document.querySelectorAll("[data-index]").forEach((item) => {
-      item.addEventListener("click", (e) => {
-        // Close the command palette when an item is clicked
-        // The browser will handle the navigation via the href attribute
+      // Handle click
+      item.addEventListener("click", () => {
+        // The browser will handle navigation via the href attribute
         closeCommandPalette();
       });
 
+      // Handle hover
       item.addEventListener("mouseenter", (e) => {
         const target = e.currentTarget as HTMLElement;
-        selectedIndex = parseInt(target.dataset.index || "0");
+        state.selectedIndex = parseInt(target.dataset.index || "0");
         highlightSelected();
       });
     });
@@ -275,57 +288,35 @@ export function initCommandPalette(): void {
    * Highlight the selected item
    */
   function highlightSelected(): void {
-    document.querySelectorAll("[data-index]").forEach((item) => {
-      const element = item as HTMLElement;
-      const itemIndex = parseInt(element.dataset.index || "0");
-      const currentItem = filteredItems[itemIndex];
+    document.querySelectorAll("[data-index]").forEach((element) => {
+      const item = element as HTMLElement;
+      const itemIndex = parseInt(item.dataset.index || "0");
+      const isSelected = itemIndex === state.selectedIndex;
+      const currentItem = state.filteredItems[itemIndex];
 
-      if (itemIndex === selectedIndex) {
-        element.classList.add("bg-orange-600", "text-white");
-        // Also update text color for date
-        const dateSpan = element.querySelector("span:last-child");
-        if (dateSpan) {
-          dateSpan.classList.remove("text-gray-400");
-          dateSpan.classList.add("text-orange-100");
-        }
-
-        // Update status badge if present
-        const statusBadge = element.querySelector(".rounded-full");
-        if (statusBadge && currentItem?.status) {
-          // Remove old classes and add selected classes
-          statusBadge.className = `text-xs px-2 py-0.5 rounded-full ${
-            currentItem.status === "seedling"
-              ? "bg-green-700 text-white"
-              : currentItem.status === "budding"
-                ? "bg-yellow-700 text-white"
-                : currentItem.status === "evergreen"
-                  ? "bg-blue-700 text-white"
-                  : ""
-          }`;
-        }
+      // Toggle main item highlight
+      if (isSelected) {
+        item.classList.add("bg-orange-600", "text-white");
       } else {
-        element.classList.remove("bg-orange-600", "text-white");
-        // Reset text color for date
-        const dateSpan = element.querySelector("span:last-child");
-        if (dateSpan) {
-          dateSpan.classList.remove("text-orange-100");
-          dateSpan.classList.add("text-gray-400");
-        }
+        item.classList.remove("bg-orange-600", "text-white");
+      }
 
-        // Reset status badge if present
-        const statusBadge = element.querySelector(".rounded-full");
-        if (statusBadge && currentItem?.status) {
-          // Remove selected classes and add normal classes
-          statusBadge.className = `text-xs px-2 py-0.5 rounded-full ${
-            currentItem.status === "seedling"
-              ? "bg-green-100 text-green-800"
-              : currentItem.status === "budding"
-                ? "bg-yellow-100 text-yellow-800"
-                : currentItem.status === "evergreen"
-                  ? "bg-blue-100 text-blue-800"
-                  : ""
-          }`;
-        }
+      // Update date text color if present
+      const dateSpan = item.querySelector("span:last-child");
+      if (dateSpan) {
+        dateSpan.classList.toggle("text-orange-100", isSelected);
+        dateSpan.classList.toggle("text-gray-400", !isSelected);
+      }
+
+      // Update status badge if present
+      const statusBadge = item.querySelector(".rounded-full");
+      if (statusBadge && currentItem?.status) {
+        const status = currentItem.status as keyof typeof STATUS_COLORS;
+        const colorClass = isSelected
+          ? STATUS_COLORS[status].selected
+          : STATUS_COLORS[status].default;
+
+        statusBadge.className = `text-xs px-2 py-0.5 rounded-full ${colorClass}`;
       }
     });
   }
@@ -334,54 +325,110 @@ export function initCommandPalette(): void {
    * Select an item and navigate to its URL
    */
   function selectItem(item: ContentItem): void {
-    // Use window.location for keyboard navigation
     window.location.href = item.url;
     closeCommandPalette();
   }
 
-  // Event listener for search input
-  searchInput.addEventListener("input", (e) => {
-    const target = e.target as HTMLInputElement;
-    const query = target.value;
-    selectedIndex = -1;
-    updateResults(query);
-  });
-
-  // Event listener for keyboard navigation
-  searchInput.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") {
-      closeCommandPalette();
-    } else if (e.key === "ArrowDown") {
-      e.preventDefault();
-      selectedIndex = Math.min(selectedIndex + 1, filteredItems.length - 1);
-      if (selectedIndex === -1 && filteredItems.length > 0) {
-        selectedIndex = 0;
-      }
-      highlightSelected();
-    } else if (e.key === "ArrowUp") {
-      e.preventDefault();
-      selectedIndex = Math.max(selectedIndex - 1, 0);
-      highlightSelected();
-    } else if (e.key === "Enter") {
-      e.preventDefault();
-      if (selectedIndex >= 0 && selectedIndex < filteredItems.length) {
-        const item = filteredItems[selectedIndex];
-        if (item) {
-          selectItem(item);
-        }
-      }
+  // ======== Event Handlers ========
+  /**
+   * Handle document clicks to close the palette when clicking outside
+   */
+  const handleDocumentClick = (e: MouseEvent) => {
+    // Only process if command palette is visible
+    if (commandPalette.classList.contains("hidden")) {
+      return;
     }
-  });
 
-  // Event listener for keyboard shortcut (Cmd+K or Ctrl+K)
-  document.addEventListener("keydown", (e) => {
+    const target = e.target as Node;
+
+    // Close if click is outside the dialog panel
+    if (!dialogPanel.contains(target) && document.contains(target)) {
+      closeCommandPalette();
+    }
+  };
+
+  /**
+   * Handle keyboard navigation in search results
+   */
+  const handleSearchKeydown = (e: KeyboardEvent) => {
+    switch (e.key) {
+      case "Escape":
+        closeCommandPalette();
+        break;
+
+      case "ArrowDown":
+        e.preventDefault();
+        state.selectedIndex = Math.min(
+          state.selectedIndex + 1,
+          state.filteredItems.length - 1
+        );
+
+        // Initialize selection if none exists
+        if (state.selectedIndex === -1 && state.filteredItems.length > 0) {
+          state.selectedIndex = 0;
+        }
+
+        highlightSelected();
+        break;
+
+      case "ArrowUp":
+        e.preventDefault();
+        state.selectedIndex = Math.max(state.selectedIndex - 1, 0);
+        highlightSelected();
+        break;
+
+      case "Enter":
+        e.preventDefault();
+        if (
+          state.selectedIndex >= 0 &&
+          state.selectedIndex < state.filteredItems.length
+        ) {
+          const item = state.filteredItems[state.selectedIndex];
+          if (item) {
+            selectItem(item);
+          }
+        }
+        break;
+    }
+  };
+
+  /**
+   * Handle global keyboard shortcut (Cmd+K or Ctrl+K)
+   */
+  const handleGlobalKeydown = (e: KeyboardEvent) => {
     if ((e.metaKey || e.ctrlKey) && e.key === "k") {
       e.preventDefault();
+
       if (commandPalette.classList.contains("hidden")) {
         openCommandPalette();
       } else {
         closeCommandPalette();
       }
     }
+  };
+
+  // ======== Initialize ========
+  // Set up event listeners
+  document.removeEventListener("click", handleDocumentClick);
+  document.addEventListener("click", handleDocumentClick);
+
+  searchInput.addEventListener("input", (e) => {
+    const query = (e.target as HTMLInputElement).value;
+    state.selectedIndex = -1;
+    updateResults(query);
   });
+
+  searchInput.addEventListener("keydown", handleSearchKeydown);
+  document.addEventListener("keydown", handleGlobalKeydown);
+
+  // Add event listeners to command palette toggle elements
+  document
+    .querySelectorAll("[data-js-command-palette-toggle]")
+    .forEach((element) => {
+      element.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        openCommandPalette();
+      });
+    });
 }
