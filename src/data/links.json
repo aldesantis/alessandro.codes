@@ -1073,65 +1073,6 @@
   },
   {
     "ids": [
-      "Advertising may work by cultural imprinting",
-      "advertising-may-work-by-cultural-imprinting"
-    ],
-    "slug": "advertising-may-work-by-cultural-imprinting",
-    "status": "seedling",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "advertising-must-be-consistent",
-        "title": "Advertising must be consistent",
-        "slug": "advertising-must-be-consistent",
-        "contentType": "notes"
-      },
-      {
-        "matchedId": "personalization-may-be-harmful",
-        "title": "Personalization may be harmful",
-        "slug": "personalization-may-be-harmful",
-        "contentType": "notes"
-      },
-      {
-        "matchedId": "ads-dont-work-that-way",
-        "title": "Ads Don’t Work That Way",
-        "slug": "ads-dont-work-that-way",
-        "contentType": "articles"
-      },
-      {
-        "matchedId": "marketers-are-from-mars-consumers-are-from-new-jersey",
-        "title": "Marketers Are From Mars, Consumers Are From New Jersey",
-        "slug": "marketers-are-from-mars-consumers-are-from-new-jersey",
-        "contentType": "books"
-      },
-      {
-        "matchedId": "how-brands-grow",
-        "title": "How Brands Grow",
-        "slug": "how-brands-grow",
-        "contentType": "books"
-      },
-      {
-        "matchedId": "marketing-must-build-availability",
-        "title": "Marketing must build availability",
-        "slug": "marketing-must-build-availability",
-        "contentType": "notes"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "title": "Cultural brands are bidirectional",
-        "slug": "cultural-brands-are-bidirectional",
-        "contentType": "notes"
-      },
-      {
-        "title": "Cultural fragmentation causes market fragmentation",
-        "slug": "cultural-fragmentation-causes-market-fragmentation",
-        "contentType": "notes"
-      }
-    ]
-  },
-  {
-    "ids": [
       "Advertising must be consistent",
       "advertising-must-be-consistent"
     ],
@@ -1171,11 +1112,6 @@
       }
     ],
     "inboundLinks": [
-      {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "advertising-may-work-by-cultural-imprinting",
-        "contentType": "notes"
-      },
       {
         "title": "Advertising must be memorable",
         "slug": "advertising-must-be-memorable",
@@ -1519,7 +1455,7 @@
       "be-wary-of-flawless-ideas"
     ],
     "slug": "be-wary-of-flawless-ideas",
-    "status": "budding",
+    "status": "evergreen",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -1805,7 +1741,7 @@
       "brands-need-to-activate-their-purpose"
     ],
     "slug": "brands-need-to-activate-their-purpose",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -1813,6 +1749,18 @@
         "title": "Turn your brand into social capital",
         "slug": "turn-your-brand-into-social-capital",
         "contentType": "notes"
+      },
+      {
+        "matchedId": "brands-should-stand-for-purpose-not-search-for-it",
+        "title": "Brands should stand for purpose, not search for it",
+        "slug": "brands-should-stand-for-purpose-not-search-for-it",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "insiders-158-are-modern-brands-“post-purpose”",
+        "title": "Insiders #158 Are Modern Brands “Post-Purpose”?",
+        "slug": "insiders-158-are-modern-brands-post-purpose",
+        "contentType": "articles"
       }
     ],
     "inboundLinks": [
@@ -1848,6 +1796,11 @@
       {
         "title": "Brand purpose should be generative",
         "slug": "brand-purpose-should-be-generative",
+        "contentType": "notes"
+      },
+      {
+        "title": "Brands need to activate their purpose",
+        "slug": "brands-need-to-activate-their-purpose",
         "contentType": "notes"
       }
     ]
@@ -1916,6 +1869,12 @@
         "contentType": "notes"
       },
       {
+        "matchedId": "product-development-attempts-to-systematize-success",
+        "title": "Product development attempts to systematize success",
+        "slug": "product-development-attempts-to-systematize-success",
+        "contentType": "notes"
+      },
+      {
         "matchedId": "ideas-need-to-be-grappled-with",
         "title": "Ideas need to be grappled with",
         "slug": "ideas-need-to-be-grappled-with",
@@ -1932,6 +1891,11 @@
       {
         "title": "Design an operating cadence",
         "slug": "design-an-operating-cadence",
+        "contentType": "notes"
+      },
+      {
+        "title": "Product development attempts to systematize success",
+        "slug": "product-development-attempts-to-systematize-success",
         "contentType": "notes"
       },
       {
@@ -2591,12 +2555,6 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "advertising-may-work-by-cultural-imprinting",
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "advertising-may-work-by-cultural-imprinting",
-        "contentType": "notes"
-      },
-      {
         "matchedId": "how-to-build-brand-energy",
         "title": "How to Build Brand Energy",
         "slug": "how-to-build-brand-energy",
@@ -2665,12 +2623,6 @@
         "matchedId": "brand-management-aims-to-turn-brands-into-landmarks",
         "title": "Brand management aims to turn brands into landmarks",
         "slug": "brand-management-aims-to-turn-brands-into-landmarks",
-        "contentType": "notes"
-      },
-      {
-        "matchedId": "advertising-may-work-by-cultural-imprinting",
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "advertising-may-work-by-cultural-imprinting",
         "contentType": "notes"
       },
       {
@@ -3401,24 +3353,6 @@
     "status": "seedling",
     "contentType": "notes",
     "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Focus on the new reality",
-      "focus-on-the-new-reality"
-    ],
-    "slug": "focus-on-the-new-reality",
-    "status": "seedling",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "rainmaking-conversations",
-        "title": "Rainmaking Conversations",
-        "slug": "rainmaking-conversations",
-        "contentType": "books"
-      }
-    ],
     "inboundLinks": []
   },
   {
@@ -4179,24 +4113,6 @@
   },
   {
     "ids": [
-      "Lean is about cheap iteration",
-      "lean-is-about-cheap-iteration"
-    ],
-    "slug": "lean-is-about-cheap-iteration",
-    "status": "seedling",
-    "contentType": "notes",
-    "outboundLinks": [
-      {
-        "matchedId": "product-development-as-iterated-taste",
-        "title": "Product Development as Iterated Taste",
-        "slug": "product-development-as-iterated-taste",
-        "contentType": "articles"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Learning is a four-phase process",
       "learning-is-a-four-phase-process"
     ],
@@ -4220,6 +4136,11 @@
       {
         "title": "Tacit knowledge is hard to capture",
         "slug": "tacit-knowledge-is-hard-to-capture",
+        "contentType": "notes"
+      },
+      {
+        "title": "Understand the rules before breaking them",
+        "slug": "understand-the-rules-before-breaking-them",
         "contentType": "notes"
       }
     ]
@@ -4538,11 +4459,6 @@
       }
     ],
     "inboundLinks": [
-      {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "advertising-may-work-by-cultural-imprinting",
-        "contentType": "notes"
-      },
       {
         "title": "Customer loyalty is behavioral",
         "slug": "customer-loyalty-is-behavioral",
@@ -5232,11 +5148,6 @@
     ],
     "inboundLinks": [
       {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "advertising-may-work-by-cultural-imprinting",
-        "contentType": "notes"
-      },
-      {
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent",
         "contentType": "notes"
@@ -5277,14 +5188,20 @@
       "point-to-the-new-tower"
     ],
     "slug": "point-to-the-new-tower",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "give-away-your-legos-and-other-commandments-for-scaling-startups",
+        "matchedId": "‘give-away-your-legos’-and-other-commandments-for-scaling-startups",
         "title": "‘Give Away Your Legos’ and Other Commandments for Scaling Startups",
         "slug": "give-away-your-legos-and-other-commandments-for-scaling-startups",
         "contentType": "articles"
+      },
+      {
+        "matchedId": "rainmaking-conversations",
+        "title": "Rainmaking Conversations",
+        "slug": "rainmaking-conversations",
+        "contentType": "books"
       }
     ],
     "inboundLinks": [
@@ -5432,6 +5349,42 @@
       {
         "title": "Strategy requires focus",
         "slug": "strategy-requires-focus",
+        "contentType": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Product development attempts to systematize success",
+      "product-development-attempts-to-systematize-success"
+    ],
+    "slug": "product-development-attempts-to-systematize-success",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "build-experimentation-guidelines",
+        "title": "Build experimentation guidelines",
+        "slug": "build-experimentation-guidelines",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "structure-sets-you-free",
+        "title": "Structure sets you free",
+        "slug": "structure-sets-you-free",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "product-development-as-iterated-taste",
+        "title": "Product Development as Iterated Taste",
+        "slug": "product-development-as-iterated-taste",
+        "contentType": "articles"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Build experimentation guidelines",
+        "slug": "build-experimentation-guidelines",
         "contentType": "notes"
       }
     ]
@@ -6006,17 +5959,6 @@
   },
   {
     "ids": [
-      "Shopify is becoming consumer-facing",
-      "shopify-is-becoming-consumer-facing"
-    ],
-    "slug": "shopify-is-becoming-consumer-facing",
-    "status": "seedling",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Small orgs give you breadth, large orgs give you scale",
       "small-orgs-give-you-breadth-large-orgs-give-you-scale"
     ],
@@ -6374,6 +6316,11 @@
         "contentType": "notes"
       },
       {
+        "title": "Product development attempts to systematize success",
+        "slug": "product-development-attempts-to-systematize-success",
+        "contentType": "notes"
+      },
+      {
         "title": "Structure makes willpower unnecessary",
         "slug": "structure-makes-willpower-unnecessary",
         "contentType": "notes"
@@ -6418,6 +6365,12 @@
     "status": "seedling",
     "contentType": "notes",
     "outboundLinks": [
+      {
+        "matchedId": "thinking-in-systems",
+        "title": "Thinking in Systems",
+        "slug": "thinking-in-systems",
+        "contentType": "books"
+      },
       {
         "matchedId": "thinking-in-systems",
         "title": "Thinking in Systems",
@@ -6660,12 +6613,6 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "cultural-capital-is-no-substitute-for-cold-hard-cash",
-        "title": "Cultural Capital Is No Substitute for Cold, Hard Cash",
-        "slug": "cultural-capital-is-no-substitute-for-cold-hard-cash",
-        "contentType": "articles"
-      },
-      {
         "matchedId": "the-business-of-aspiration",
         "title": "The Business of Aspiration",
         "slug": "the-business-of-aspiration",
@@ -6676,11 +6623,17 @@
         "title": "INSIDERS 018: Meet CARLY",
         "slug": "insiders-018-meet-carly",
         "contentType": "articles"
+      },
+      {
+        "matchedId": "cultural-capital-is-no-substitute-for-cold-hard-cash",
+        "title": "Cultural Capital Is No Substitute for Cold, Hard Cash",
+        "slug": "cultural-capital-is-no-substitute-for-cold-hard-cash",
+        "contentType": "articles"
       }
     ],
     "inboundLinks": [
       {
-        "title": "Wiseness is knowing what’s worth wanting",
+        "title": "Wisdom is knowing what’s worth wanting",
         "slug": "wiseness-is-knowing-whats-worth-wanting",
         "contentType": "notes"
       }
@@ -6949,7 +6902,14 @@
     "slug": "understand-the-rules-before-breaking-them",
     "status": "seedling",
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "learning-is-a-four-phase-process",
+        "title": "Learning is a four-phase process",
+        "slug": "learning-is-a-four-phase-process",
+        "contentType": "notes"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Best practices are a floor, not a ceiling",
@@ -7071,23 +7031,6 @@
   },
   {
     "ids": [
-      "Vertical integration comes with regulatory benefits",
-      "vertical-integration-comes-with-regulatory-benefits"
-    ],
-    "slug": "vertical-integration-comes-with-regulatory-benefits",
-    "status": "seedling",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Vertical integration requires stable demand",
-        "slug": "vertical-integration-requires-stable-demand",
-        "contentType": "notes"
-      }
-    ]
-  },
-  {
-    "ids": [
       "Vertical integration requires stable demand",
       "vertical-integration-requires-stable-demand"
     ],
@@ -7095,12 +7038,6 @@
     "status": "seedling",
     "contentType": "notes",
     "outboundLinks": [
-      {
-        "matchedId": "vertical-integration-comes-with-regulatory-benefits",
-        "title": "Vertical integration comes with regulatory benefits",
-        "slug": "vertical-integration-comes-with-regulatory-benefits",
-        "contentType": "notes"
-      },
       {
         "matchedId": "should-dtc-brands-open-their-own-factories",
         "title": "Should DTC Brands Open Their Own Factories?",
@@ -7246,11 +7183,11 @@
   },
   {
     "ids": [
-      "Wiseness is knowing what’s worth wanting",
+      "Wisdom is knowing what’s worth wanting",
       "wiseness-is-knowing-whats-worth-wanting"
     ],
     "slug": "wiseness-is-knowing-whats-worth-wanting",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -7820,11 +7757,6 @@
         "contentType": "notes"
       },
       {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "advertising-may-work-by-cultural-imprinting",
-        "contentType": "notes"
-      },
-      {
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent",
         "contentType": "notes"
@@ -8071,11 +8003,6 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "advertising-may-work-by-cultural-imprinting",
-        "contentType": "notes"
-      },
-      {
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent",
         "contentType": "notes"
@@ -8179,13 +8106,13 @@
         "contentType": "notes"
       },
       {
-        "title": "Focus on the new reality",
-        "slug": "focus-on-the-new-reality",
+        "title": "Kindness begets kindness",
+        "slug": "kindness-begets-kindness",
         "contentType": "notes"
       },
       {
-        "title": "Kindness begets kindness",
-        "slug": "kindness-begets-kindness",
+        "title": "Point to the new tower",
+        "slug": "point-to-the-new-tower",
         "contentType": "notes"
       }
     ]
@@ -9805,13 +9732,7 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Advertising may work by cultural imprinting",
-        "slug": "advertising-may-work-by-cultural-imprinting",
-        "contentType": "notes"
-      }
-    ]
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -10261,6 +10182,16 @@
     ],
     "slug": "are-nft-projects-now-over-for-retailers",
     "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Are We Too Impatient to Be Intelligent?",
+      "are-we-too-impatient-to-be-intelligent"
+    ],
+    "slug": "are-we-too-impatient-to-be-intelligent",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10730,7 +10661,7 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "title": "Wiseness is knowing what’s worth wanting",
+        "title": "Wisdom is knowing what’s worth wanting",
         "slug": "wiseness-is-knowing-whats-worth-wanting",
         "contentType": "notes"
       }
@@ -11441,6 +11372,16 @@
     ],
     "slug": "can-mytheresa-keep-its-place-at-the-top-of-luxury-e-commerce-in-2025",
     "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Can We Still Curate This World?",
+      "can-we-still-curate-this-world"
+    ],
+    "slug": "can-we-still-curate-this-world",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12697,6 +12638,17 @@
     ],
     "slug": "even-high-income-americans-are-shopping-more-at-discount-retailers",
     "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Every (Good) Consultant Is an Org Design Consultant",
+      "every-(good)-consultant-is-an-org-design-consultant",
+      "every-good-consultant-is-an-org-design-consultant"
+    ],
+    "slug": "every-good-consultant-is-an-org-design-consultant",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14897,7 +14849,13 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Brands need to activate their purpose",
+        "slug": "brands-need-to-activate-their-purpose",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -16210,6 +16168,17 @@
   },
   {
     "ids": [
+      "Navigating the (Spider)Webs of Power",
+      "navigating-the-(spider)webs-of-power",
+      "navigating-the-spiderwebs-of-power"
+    ],
+    "slug": "navigating-the-spiderwebs-of-power",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Never Give This Up, No Matter What",
       "never-give-this-up-no-matter-what"
     ],
@@ -16868,8 +16837,8 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "title": "Lean is about cheap iteration",
-        "slug": "lean-is-about-cheap-iteration",
+        "title": "Product development attempts to systematize success",
+        "slug": "product-development-attempts-to-systematize-success",
         "contentType": "notes"
       }
     ]
@@ -18840,6 +18809,17 @@
     ],
     "slug": "the-key-trends-driving-the-fashion-industry-to-get-connected",
     "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Landscape & the Work",
+      "the-landscape-&-the-work",
+      "the-landscape-and-the-work"
+    ],
+    "slug": "the-landscape-and-the-work",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
