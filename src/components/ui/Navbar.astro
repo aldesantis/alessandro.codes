@@ -1,7 +1,5 @@
 ---
 import Link from "@components/ui/Link.astro";
-import Dropdown from "@components/ui/dropdowns/Dropdown.astro";
-import DropdownItem from "@components/ui/dropdowns/DropdownItem.astro";
 
 const currentPath = Astro.url.pathname;
 
@@ -9,6 +7,9 @@ const links = [
   { href: "/", text: "Home", matchPattern: /^\/$/ },
   { href: "/now", text: "Now", matchPattern: /^\/now/ },
   { href: "/talks", text: "Talks", matchPattern: /^\/talks/ },
+  { href: "/essays", text: "Essays", matchPattern: /^\/essays/ },
+  { href: "/notes", text: "Notes", matchPattern: /^\/notes/ },
+  { href: "/books", text: "Books", matchPattern: /^\/books/ },
 ];
 ---
 
@@ -42,27 +43,6 @@ const links = [
               </div>
             ))
           }
-
-          <Dropdown label="The Garden ↓">
-            <DropdownItem
-              href="/essays"
-              active={currentPath.startsWith("/essays")}
-            >
-              Essays
-            </DropdownItem>
-            <DropdownItem
-              href="/notes"
-              active={currentPath.startsWith("/notes")}
-            >
-              Notes
-            </DropdownItem>
-            <DropdownItem
-              href="/books"
-              active={currentPath.startsWith("/books")}
-            >
-              Books
-            </DropdownItem>
-          </Dropdown>
         </div>
 
         <button
@@ -116,12 +96,17 @@ const links = [
       </div>
 
       <div class="flex flex-col space-y-2">
-        <Link href="/" variant="secondary">Home</Link>
-        <Link href="/now" variant="secondary">Now</Link>
-        <Link href="/talks" variant="secondary">Talks</Link>
-        <Link href="/essays" variant="secondary">Essays</Link>
-        <Link href="/notes" variant="secondary">Notes</Link>
-        <Link href="/books" variant="secondary">Books</Link>
+        {
+          links.map(({ href, text, matchPattern }) => (
+            <Link
+              href={href}
+              variant="secondary"
+              active={!!currentPath.match(matchPattern)}
+            >
+              {text}
+            </Link>
+          ))
+        }
       </div>
     </nav>
   </div>
