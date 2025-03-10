@@ -23,28 +23,27 @@ const { Content } = await render(note);
 <title slot="head">{note.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <div class="grid grid-cols-12">
-    <div class="col-span-12 lg:col-span-8">
-      <div class="-mb-8 col-span-8">
-        <ArrowLink
-          href="/notes"
-          arrowDirection="left"
-          class="font-sans font-semibold uppercase"
-        >
-          Notes
-        </ArrowLink>
-      </div>
+  <div class="lg:-mb-8">
+    <ArrowLink
+      href="/notes"
+      arrowDirection="left"
+      class="font-sans font-semibold uppercase"
+    >
+      Notes
+    </ArrowLink>
+  </div>
 
+  <div class="grid grid-cols-12">
+    <div class="col-span-12 mt-4 lg:col-span-4 lg:order-2">
+      <ContentSidebar entry={note} />
+    </div>
+
+    <div class="col-span-12 lg:col-span-8 lg:order-1">
       <Prose>
         <h1>{note.data.title}</h1>
         <NoteMeta note={note} />
-
         <Content components={getMdxComponents()} />
       </Prose>
-    </div>
-
-    <div class="col-span-12 lg:col-span-4">
-      <ContentSidebar entry={note} />
     </div>
   </div>
 </Layout>

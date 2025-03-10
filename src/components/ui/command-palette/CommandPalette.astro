@@ -1,61 +1,5 @@
 ---
 import SearchIcon from "../SearchIcon.astro";
-import { getSortedEssays } from "src/lib/content/essays";
-import { getSortedNotes } from "src/lib/content/notes";
-import { getSortedNows } from "src/lib/content/nows";
-import { getSortedBooks } from "src/lib/content/books";
-import type { ContentItem } from "./ContentItem";
-
-async function getCommandPaletteItems(): Promise<ContentItem[]> {
-  const essays = await getSortedEssays();
-  const notes = await getSortedNotes();
-  const nows = await getSortedNows();
-  const books = await getSortedBooks();
-
-  const essayItems: ContentItem[] = essays.map((essay) => {
-    return {
-      id: essay.id,
-      name: essay.data.title,
-      url: `/essays/${essay.id}`,
-      type: "Essay",
-      date: essay.data.publishedOn,
-    };
-  });
-
-  const noteItems: ContentItem[] = notes.map((note) => {
-    return {
-      id: note.id,
-      name: note.data.title,
-      url: `/notes/${note.id}`,
-      type: "Note",
-      status: note.data.status,
-    };
-  });
-
-  const nowItems: ContentItem[] = nows.map((now) => {
-    return {
-      id: now.id,
-      name: now.data.title,
-      url: `/now/${now.id}`,
-      type: "Now",
-    };
-  });
-
-  const bookItems: ContentItem[] = books.map((book) => {
-    return {
-      id: book.id,
-      name: book.data.title,
-      url: `/books/${book.id}`,
-      type: "Book",
-      date: book.data.lastHighlightedOn,
-    };
-  });
-
-  return [...essayItems, ...noteItems, ...nowItems, ...bookItems];
-}
-
-// Get all content items for the command palette
-const contentItems = await getCommandPaletteItems();
 ---
 
 <div id="command-palette" class="relative z-10 hidden font-sans">
@@ -94,21 +38,7 @@ const contentItems = await getCommandPaletteItems();
   import { initCommandPalette } from "./command-palette";
 
   document.addEventListener("DOMContentLoaded", () => {
-    const contentItems = JSON.parse(
-      document
-        .getElementById("command-palette-data")
-        ?.getAttribute("data-items") || "[]"
-    );
-
     // Initialize the command palette
-    initCommandPalette(contentItems);
+    initCommandPalette();
   });
 </script>
-
-<!-- Hidden element to pass data from server to client -->
-<div
-  id="command-palette-data"
-  data-items={JSON.stringify(contentItems)}
-  class="hidden"
->
-</div>

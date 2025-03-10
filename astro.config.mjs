@@ -9,16 +9,22 @@ import { remarkWikiLink } from "./src/lib/plugins/remarkWikiLink.mjs";
 
 import mdx from "@astrojs/mdx";
 
+import vercel from "@astrojs/vercel";
+
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), icon(), mdx()],
+
   markdown: {
     remarkPlugins: [
       remarkReadingTime,
       remarkWikiLink,
     ],
   },
+
   image: {
     domains: ["m.media-amazon.com", "covers.openlibrary.org"],
-  }
+  },
+
+  adapter: vercel()
 });

@@ -1,9 +1,9 @@
 import type { ContentItem } from "./ContentItem";
 
 /**
- * Initialize the command palette with the given content items
+ * Initialize the command palette
  */
-export function initCommandPalette(contentItems: ContentItem[]): void {
+export function initCommandPalette(): void {
   // Get DOM elements
   const commandPalette = document.getElementById("command-palette")!;
   const backdrop = document.getElementById("backdrop")!;
@@ -30,6 +30,8 @@ export function initCommandPalette(contentItems: ContentItem[]): void {
   // State variables
   let selectedIndex = -1;
   let filteredItems: ContentItem[] = [];
+  let searchTimeout: number | null = null;
+  let isLoading = false;
 
   /**
    * Open the command palette
@@ -105,6 +107,32 @@ export function initCommandPalette(contentItems: ContentItem[]): void {
   }
 
   /**
+   * Fetch search results from the API
+   */
+  async function fetchSearchResults(query: string): Promise<ContentItem[]> {
+    if (!query) return [];
+
+    isLoading = true;
+    try {
+      const response = await fetch(
+        `/api/search?q=${encodeURIComponent(query)}`
+      );
+      if (!response.ok) {
+        throw new Error(
+          `Error fetching search results: ${response.statusText}`
+        );
+      }
+      const data = await response.json();
+      return data.items;
+    } catch (error) {
+      console.error("Error fetching search results:", error);
+      return [];
+    } finally {
+      isLoading = false;
+    }
+  }
+
+  /**
    * Update the results based on the search query
    */
   function updateResults(query: string): void {
@@ -115,67 +143,76 @@ export function initCommandPalette(contentItems: ContentItem[]): void {
       return;
     }
 
-    // Search in title and type
-    filteredItems = contentItems.filter(
-      (item) =>
-        item.name.toLowerCase().includes(query.toLowerCase()) ||
-        item.type.toLowerCase().includes(query.toLowerCase())
-    );
-
-    if (filteredItems.length === 0) {
-      resultsContainer.classList.add("hidden");
-      noResults.classList.remove("hidden");
-      return;
-    }
-
+    // Show loading state
+    resultsContainer.innerHTML =
+      '<div class="px-4 py-2 text-gray-500">Loading...</div>';
     resultsContainer.classList.remove("hidden");
     noResults.classList.add("hidden");
 
-    // Group items by type
-    const groupedByType = new Map<string, ContentItem[]>();
-
-    // Group the items by type
-    for (const item of filteredItems) {
-      if (!groupedByType.has(item.type)) {
-        groupedByType.set(item.type, []);
-      }
-
-      const typeItems = groupedByType.get(item.type);
-      if (typeItems) {
-        typeItems.push(item);
-      }
+    // Debounce the search to avoid too many API calls
+    if (searchTimeout) {
+      window.clearTimeout(searchTimeout);
     }
 
-    let html = "";
-    let currentIndex = 0;
+    searchTimeout = window.setTimeout(async () => {
+      // Fetch results from API
+      filteredItems = await fetchSearchResults(query);
 
-    groupedByType.forEach((items, type) => {
-      html += `<div class="px-4 pt-2 pb-1 text-xs font-semibold text-gray-500 uppercase">${type}s</div>`;
-
-      for (const item of items) {
-        const isSelected = currentIndex === selectedIndex;
-        html += `
-          <a 
-            href="${item.url}"
-            class="block cursor-pointer px-4 py-2 select-none ${isSelected ? "bg-orange-600 text-white" : ""}" 
-            data-index="${currentIndex}" 
-            data-id="${item.id}"
-          >
-            <div class="flex justify-between items-center">
-              <span>${item.name}</span>
-              <div class="flex items-center gap-2">
-                ${item.status ? getStatusBadge(item.status, isSelected) : ""}
-                ${item.date ? `<span class="text-xs ${isSelected ? "text-orange-100" : "text-gray-400"}">${formatDate(item.date)}</span>` : ""}
-              </div>
-            </div>
-          </a>
-        `;
-        currentIndex++;
+      if (filteredItems.length === 0) {
+        resultsContainer.classList.add("hidden");
+        noResults.classList.remove("hidden");
+        return;
       }
-    });
 
-    resultsContainer.innerHTML = html;
-    addEventListenersToResults();
+      resultsContainer.classList.remove("hidden");
+      noResults.classList.add("hidden");
+
+      // Group items by type
+      const groupedByType = new Map<string, ContentItem[]>();
+
+      // Group the items by type
+      for (const item of filteredItems) {
+        if (!groupedByType.has(item.type)) {
+          groupedByType.set(item.type, []);
+        }
+
+        const typeItems = groupedByType.get(item.type);
+        if (typeItems) {
+          typeItems.push(item);
+        }
+      }
+
+      let html = "";
+      let currentIndex = 0;
+
+      groupedByType.forEach((items, type) => {
+        html += `<div class="px-4 pt-2 pb-1 text-xs font-semibold text-gray-500 uppercase">${type}s</div>`;
+
+        for (const item of items) {
+          const isSelected = currentIndex === selectedIndex;
+          html += `
+            <a 
+              href="${item.url}"
+              class="block cursor-pointer px-4 py-2 select-none ${isSelected ? "bg-orange-600 text-white" : ""}" 
+              data-index="${currentIndex}" 
+              data-id="${item.id}"
+            >
+              <div class="flex justify-between items-center">
+                <span>${item.name}</span>
+                <div class="flex items-center gap-2">
+                  ${item.status ? getStatusBadge(item.status, isSelected) : ""}
+                  ${item.date ? `<span class="text-xs ${isSelected ? "text-orange-100" : "text-gray-400"}">${formatDate(item.date)}</span>` : ""}
+                </div>
+              </div>
+            </a>
+          `;
+          currentIndex++;
+        }
+      });
+
+      resultsContainer.innerHTML = html;
+      addEventListenersToResults();
+    }, 300); // 300ms debounce
   }
 
   /**
