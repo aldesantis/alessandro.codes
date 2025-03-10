@@ -1,0 +1,114 @@
+---
+import SearchIcon from "../SearchIcon.astro";
+import { getSortedEssays } from "src/lib/content/essays";
+import { getSortedNotes } from "src/lib/content/notes";
+import { getSortedNows } from "src/lib/content/nows";
+import { getSortedBooks } from "src/lib/content/books";
+import type { ContentItem } from "./ContentItem";
+
+async function getCommandPaletteItems(): Promise<ContentItem[]> {
+  const essays = await getSortedEssays();
+  const notes = await getSortedNotes();
+  const nows = await getSortedNows();
+  const books = await getSortedBooks();
+
+  const essayItems: ContentItem[] = essays.map((essay) => {
+    return {
+      id: essay.id,
+      name: essay.data.title,
+      url: `/essays/${essay.id}`,
+      type: "Essay",
+      date: essay.data.publishedOn,
+    };
+  });
+
+  const noteItems: ContentItem[] = notes.map((note) => {
+    return {
+      id: note.id,
+      name: note.data.title,
+      url: `/notes/${note.id}`,
+      type: "Note",
+      status: note.data.status,
+    };
+  });
+
+  const nowItems: ContentItem[] = nows.map((now) => {
+    return {
+      id: now.id,
+      name: now.data.title,
+      url: `/now/${now.id}`,
+      type: "Now",
+    };
+  });
+
+  const bookItems: ContentItem[] = books.map((book) => {
+    return {
+      id: book.id,
+      name: book.data.title,
+      url: `/books/${book.id}`,
+      type: "Book",
+      date: book.data.lastHighlightedOn,
+    };
+  });
+
+  return [...essayItems, ...noteItems, ...nowItems, ...bookItems];
+}
+
+// Get all content items for the command palette
+const contentItems = await getCommandPaletteItems();
+---
+
+<div id="command-palette" class="relative z-10 hidden font-sans">
+  <div class="fixed inset-0 bg-gray-500/25 transition-opacity" id="backdrop">
+  </div>
+
+  <div class="fixed inset-0 z-10 w-screen overflow-y-auto p-4 sm:p-6 md:p-20">
+    <div
+      id="dialog-panel"
+      class="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white ring-1 shadow-2xl ring-black/5 transition-all scale-95 opacity-0"
+    >
+      <div class="grid grid-cols-1">
+        <input
+          id="search-input"
+          type="text"
+          class="col-start-1 row-start-1 h-12 w-full pr-4 pl-11 text-base text-gray-900 outline-none placeholder:text-gray-400 sm:text-sm"
+          placeholder="Search essays, notes, and more..."
+          autocomplete="off"
+        />
+        <SearchIcon />
+      </div>
+
+      <div
+        id="results-container"
+        class="max-h-72 scroll-py-2 overflow-y-auto py-2 text-sm text-gray-800 hidden"
+      >
+      </div>
+      <div id="no-results" class="p-4 text-sm text-gray-500 hidden">
+        No results found.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { initCommandPalette } from "./command-palette";
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const contentItems = JSON.parse(
+      document
+        .getElementById("command-palette-data")
+        ?.getAttribute("data-items") || "[]"
+    );
+
+    // Initialize the command palette
+    initCommandPalette(contentItems);
+  });
+</script>
+
+<!-- Hidden element to pass data from server to client -->
+<div
+  id="command-palette-data"
+  data-items={JSON.stringify(contentItems)}
+  class="hidden"
+>
+</div>
