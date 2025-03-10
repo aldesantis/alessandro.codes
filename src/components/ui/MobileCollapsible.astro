@@ -1,0 +1,22 @@
+---
+import Collapsible from "@components/ui/Collapsible.astro";
+
+interface Props {
+  label: string;
+}
+
+const { label } = Astro.props;
+---
+
+<div>
+  <div class="lg:hidden">
+    <Collapsible label={label}>
+      <slot />
+    </Collapsible>
+  </div>
+
+  <div class="hidden lg:block">
+    <div class="text-xl font-semibold font-sans mb-0.5">{label}</div>
+    <slot />
+  </div>
+</div>

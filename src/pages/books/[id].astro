@@ -6,8 +6,7 @@ import ArrowLink from "@components/ui/ArrowLink.astro";
 import { getMdxComponents } from "src/lib/content";
 import BookCover from "@components/books/BookCover.astro";
 import BookMeta from "@components/books/BookMeta.astro";
-import { getLinks } from "src/lib/links";
-import ContentLinks from "@components/content/ContentLinks.astro";
+import ContentSidebar from "@components/content/ContentSidebar.astro";
 
 export async function getStaticPaths() {
   const books = await getCollection("books");
@@ -20,40 +19,38 @@ export async function getStaticPaths() {
 
 const { book } = Astro.props;
 const { Content } = await render(book);
-const { outboundLinks, inboundLinks } = getLinks(book.id);
 ---
 
 <title slot="head">{book.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <div class="grid grid-cols-12 gap-8">
-    <div class="col-span-12 lg:col-span-8">
-      <div class="-mb-8">
-        <ArrowLink
-          href="/books"
-          arrowDirection="left"
-          class="font-sans font-semibold uppercase"
-        >
-          Books
-        </ArrowLink>
-      </div>
+  <div class="lg:-mb-8">
+    <ArrowLink
+      href="/books"
+      arrowDirection="left"
+      class="font-sans font-semibold uppercase"
+    >
+      Books
+    </ArrowLink>
+  </div>
 
+  <div class="grid grid-cols-12">
+    <div class="col-span-12 mt-4 lg:col-span-4 lg:order-2">
+      <ContentSidebar entry={book}>
+        <BookCover
+          book={book}
+          width="800"
+          class="max-w-[250px] lg:max-w-[400px] h-auto rounded"
+        />
+      </ContentSidebar>
+    </div>
+
+    <div class="col-span-12 lg:col-span-8 lg:order-1">
       <Prose>
         <h1>{book.data.title}</h1>
         <BookMeta book={book} />
-
         <Content components={getMdxComponents()} />
       </Prose>
-    </div>
-
-    <div class="col-span-12 lg:col-span-4">
-      <BookCover
-        book={book}
-        width="800"
-        class="max-w-[250px] lg:max-w-[400px] h-auto rounded mb-4"
-      />
-
-      <ContentLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
     </div>
   </div>
 </Layout>

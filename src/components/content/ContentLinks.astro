@@ -1,9 +1,9 @@
 ---
 import Link from "@components/ui/Link.astro";
-import Collapsible from "@components/ui/Collapsible.astro";
 import type { Link as LinkType } from "src/lib/links";
 import { buildContentEntryUrl } from "src/lib/plugins/remarkWikiLink.mjs";
 import LinkList from "@components/ui/LinkList.astro";
+import MobileCollapsible from "@components/ui/MobileCollapsible.astro";
 
 interface Props {
   outboundLinks: LinkType[];
@@ -11,98 +11,56 @@ interface Props {
 }
 
 const { outboundLinks, inboundLinks } = Astro.props;
-
-const hasLinks = outboundLinks.length > 0 || inboundLinks.length > 0;
-
-if (!hasLinks) {
-  return null;
-}
 ---
 
-<div class="mt-8 mb-8 lg:hidden space-y-4">
+<MobileCollapsible label="Links to">
   {
-    outboundLinks.length > 0 && (
-      <Collapsible label="Links to">
-        <LinkList>
-          {outboundLinks.map((link: LinkType) => (
-            <li>
-              <Link
-                class="font-sans"
-                href={buildContentEntryUrl({
-                  contentType: link.contentType,
-                  slug: link.slug,
-                })}
-              >
-                {link.title}
-              </Link>
-            </li>
-          ))}
-        </LinkList>
-      </Collapsible>
-    )
-  }
-
-  {
-    inboundLinks.length > 0 && (
-      <Collapsible label="Linked from">
-        <LinkList>
-          {inboundLinks.map((link: LinkType) => (
-            <li>
-              <Link
-                class="font-sans"
-                href={buildContentEntryUrl({
-                  contentType: link.contentType,
-                  slug: link.slug,
-                })}
-              >
-                {link.title}
-              </Link>
-            </li>
-          ))}
-        </LinkList>
-      </Collapsible>
-    )
-  }
-</div>
-
-<div class="hidden lg:block">
-  {
-    outboundLinks.length > 0 && (
-      <div class="mb-6">
-        <div class="text-xl font-semibold font-sans">Links to</div>
-        <LinkList>
-          {outboundLinks.map((link: LinkType) => (
-            <li>
-              <Link class="font-sans" href={buildContentEntryUrl(link)}>
-                {link.title}
-              </Link>
-            </li>
-          ))}
-        </LinkList>
+    outboundLinks.length > 0 ? (
+      <LinkList>
+        {outboundLinks.map((link: LinkType) => (
+          <li>
+            <Link
+              class="font-sans"
+              href={buildContentEntryUrl({
+                contentType: link.contentType,
+                slug: link.slug,
+              })}
+            >
+              {link.title}
+            </Link>
+          </li>
+        ))}
+      </LinkList>
+    ) : (
+      <div class="font-sans text-sm">
+        This entry doesn't have any outbound links yet.
       </div>
     )
   }
+</MobileCollapsible>
 
+<MobileCollapsible label="Linked from">
   {
-    inboundLinks.length > 0 && (
-      <div class="mb-6">
-        <div class="text-xl font-semibold font-sans">Linked from</div>
-        <LinkList>
-          {inboundLinks.map((link: LinkType) => (
-            <li>
-              <Link
-                class="font-sans"
-                href={buildContentEntryUrl({
-                  contentType: link.contentType,
-                  slug: link.slug,
-                })}
-              >
-                {link.title}
-              </Link>
-            </li>
-          ))}
-        </LinkList>
+    inboundLinks.length > 0 ? (
+      <LinkList>
+        {inboundLinks.map((link: LinkType) => (
+          <li>
+            <Link
+              class="font-sans"
+              href={buildContentEntryUrl({
+                contentType: link.contentType,
+                slug: link.slug,
+              })}
+            >
+              {link.title}
+            </Link>
+          </li>
+        ))}
+      </LinkList>
+    ) : (
+      <div class="font-sans text-sm">
+        This entry doesn't have any inbound links yet.
       </div>
     )
   }
-</div>
+</MobileCollapsible>

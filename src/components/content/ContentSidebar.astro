@@ -1,0 +1,22 @@
+---
+import TableOfContents from "@components/content/TableOfContents.astro";
+import ContentLinks from "@components/content/ContentLinks.astro";
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+import { getLinks } from "src/lib/links";
+
+export interface Props {
+  entry: CollectionEntry<"essays" | "notes" | "nows" | "books" | "articles">;
+}
+
+const { entry } = Astro.props;
+const { headings } = await render(entry);
+const { outboundLinks, inboundLinks } = getLinks(entry.id);
+---
+
+<div class="space-y-4">
+  <slot />
+
+  <TableOfContents headings={headings} title={entry.data.title} />
+  <ContentLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
+</div>

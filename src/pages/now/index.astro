@@ -1,8 +1,8 @@
 ---
 import { getSortedNows } from "src/lib/content/nows";
-import NowPage from "@components/nows/NowPage.astro";
 
 const latestNow = (await getSortedNows())[0]!;
----
+const latestNowUrl = `/now/${latestNow.id}`;
 
-<NowPage now={latestNow} />
+return Astro.redirect(latestNowUrl, 301);
+---

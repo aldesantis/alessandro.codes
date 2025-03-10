@@ -4,12 +4,8 @@ import { getCollection, render } from "astro:content";
 import EssayMeta from "@components/essays/EssayMeta.astro";
 import Prose from "@components/ui/Prose.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import Collapsible from "@components/ui/Collapsible.astro";
-import TableOfContents from "@components/content/TableOfContents.astro";
 import { getMdxComponents } from "src/lib/content";
-import { getLinks } from "src/lib/links";
-import ContentLinks from "@components/content/ContentLinks.astro";
-
+import ContentSidebar from "@components/content/ContentSidebar.astro";
 export async function getStaticPaths() {
   const essays = await getCollection("essays");
 
@@ -20,8 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { essay } = Astro.props;
-const { Content, headings } = await render(essay);
-const { outboundLinks, inboundLinks } = getLinks(essay.id);
+const { Content } = await render(essay);
 ---
 
 <title slot="head">{essay.data.title} | Alessandro Desantis</title>
@@ -33,38 +28,27 @@ const { outboundLinks, inboundLinks } = getLinks(essay.id);
 }
 
 <Layout>
+  <div class="lg:-mb-8">
+    <ArrowLink
+      href="/essays"
+      arrowDirection="left"
+      class="font-sans font-semibold uppercase"
+    >
+      Essays
+    </ArrowLink>
+  </div>
+
   <div class="grid grid-cols-12">
-    <div class="col-span-12 lg:col-span-8">
-      <div class="lg:-mb-8 col-span-8">
-        <ArrowLink
-          href="/essays"
-          arrowDirection="left"
-          class="font-sans font-semibold uppercase"
-        >
-          Essays
-        </ArrowLink>
-      </div>
+    <div class="col-span-12 mt-4 lg:col-span-4 lg:order-2">
+      <ContentSidebar entry={essay} />
+    </div>
 
-      <div class="lg:hidden">
-        <Collapsible label="Table of contents" class="mt-4">
-          <TableOfContents headings={headings} title={essay.data.title} />
-        </Collapsible>
-      </div>
-
+    <div class="col-span-12 lg:col-span-8 lg:order-1">
       <Prose>
         <h1>{essay.data.title}</h1>
         <EssayMeta essay={essay} />
         <Content components={getMdxComponents()} />
       </Prose>
-    </div>
-
-    <div class="col-span-12 lg:col-span-4">
-      <div class="hidden lg:flex lg:flex-col font-sans">
-        <div class="text-xl font-semibold">Table of contents</div>
-        <TableOfContents headings={headings} title={essay.data.title} />
-      </div>
-
-      <ContentLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
     </div>
   </div>
 </Layout>
