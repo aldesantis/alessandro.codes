@@ -52,7 +52,7 @@ export function initCommandPalette(): void {
   };
 
   // ======== Constants ========
-  const ANIMATION_DURATION = 200; // ms
+  const ANIMATION_DURATION = 300; // ms
   const DEBOUNCE_DELAY = 300; // ms
 
   const STATUS_ICONS = {
@@ -84,13 +84,23 @@ export function initCommandPalette(): void {
     // Prevent scrolling of the page when command palette is open
     document.body.style.overflow = "hidden";
 
+    // Make the command palette visible but keep elements in initial state
     commandPalette.classList.remove("hidden");
 
-    // Small delay to ensure the transition works properly
+    // Ensure backdrop starts with opacity-0 if not already present
+    backdrop.classList.add("opacity-0");
+
+    // Force a reflow to ensure transitions work properly
+    void backdrop.offsetWidth;
+
+    // Start animations
+    backdrop.classList.remove("opacity-0");
+
+    // Small delay to ensure the transition works properly and create a staggered effect
     setTimeout(() => {
       dialogPanel.classList.remove("scale-95", "opacity-0");
       searchInput.focus();
-    }, 10);
+    }, 50);
   }
 
   /**
@@ -105,12 +115,13 @@ export function initCommandPalette(): void {
     dialogPanel.classList.add("scale-95", "opacity-0");
 
     // Wait for animations to complete before hiding
+    // Use a slightly longer timeout to match the new duration-300 CSS
     setTimeout(() => {
       commandPalette.classList.add("hidden");
       searchInput.value = "";
       updateResults("");
       backdrop.classList.remove("opacity-0");
-    }, ANIMATION_DURATION);
+    }, ANIMATION_DURATION + 100);
   }
 
   // ======== Formatting Functions ========
@@ -183,6 +194,15 @@ export function initCommandPalette(): void {
     if (query === "") {
       state.filteredItems = [];
       resultsContainer.classList.add("hidden");
+      noResults.classList.add("hidden");
+      return;
+    }
+
+    // Don't search if query is less than 3 characters
+    if (query.length < 3) {
+      resultsContainer.innerHTML =
+        '<div class="px-4 py-2 text-gray-500">Type at least 3 characters to search...</div>';
+      resultsContainer.classList.remove("hidden");
       noResults.classList.add("hidden");
       return;
     }
