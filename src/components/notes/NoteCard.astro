@@ -17,9 +17,7 @@ const renderedNote = await renderToString(note);
 
   <NoteMeta note={note} />
 
-  <div
-    class="mt-2 text-sm font-serif font-sm overflow-x-clip overflow-ellipsis"
-  >
+  <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
     <Fragment set:html={getFirstParagraph(renderedNote)} />
   </div>
 </LinkedCard>

@@ -2,12 +2,15 @@
 import LinkedCard from "@components/ui/LinkedCard.astro";
 import EssayMeta from "@components/essays/EssayMeta.astro";
 import type { CollectionEntry } from "astro:content";
+import { getFirstParagraph, renderToString } from "src/lib/content";
 
 export interface Props {
   essay: CollectionEntry<"essays">;
 }
 
 const { essay } = Astro.props;
+
+const renderedEssay = await renderToString(essay);
 ---
 
 <LinkedCard href={`/essays/${essay.id}`}>
@@ -15,7 +18,7 @@ const { essay } = Astro.props;
 
   <EssayMeta essay={essay} />
 
-  <p class="mt-2 text-sm font-serif font-sm">
-    {essay.data.excerpt}
-  </p>
+  <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
+    <Fragment set:html={getFirstParagraph(renderedEssay)} />
+  </div>
 </LinkedCard>
