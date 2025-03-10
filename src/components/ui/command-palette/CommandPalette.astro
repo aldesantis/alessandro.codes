@@ -3,13 +3,16 @@ import SearchIcon from "../SearchIcon.astro";
 ---
 
 <div id="command-palette" class="relative z-10 hidden font-sans">
-  <div class="fixed inset-0 bg-gray-500/25 transition-opacity" id="backdrop">
+  <div
+    class="fixed inset-0 bg-gray-500/25 transition-opacity duration-200 backdrop-click"
+    id="backdrop"
+  >
   </div>
 
   <div class="fixed inset-0 z-10 w-screen overflow-y-auto p-4 sm:p-6 md:p-20">
     <div
       id="dialog-panel"
-      class="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white ring-1 shadow-2xl ring-black/5 transition-all scale-95 opacity-0"
+      class="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white ring-1 shadow-2xl ring-black/5 transition-all duration-200 scale-95 opacity-0"
     >
       <div class="grid grid-cols-1">
         <input

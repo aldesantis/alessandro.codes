@@ -1,5 +1,7 @@
 ---
 import Link from "@components/ui/Link.astro";
+import SearchIcon from "@components/ui/SearchIcon.astro";
+import CommandPalette from "@components/ui/command-palette/CommandPalette.astro";
 
 const currentPath = Astro.url.pathname;
 
@@ -43,6 +45,14 @@ const links = [
               </div>
             ))
           }
+
+          <button
+            class="flex items-center hover:text-orange-700 transition-colors"
+            aria-label="Search"
+            data-js-search-toggle
+          >
+            <SearchIcon />
+          </button>
         </div>
 
         <button
@@ -107,6 +117,15 @@ const links = [
             </Link>
           ))
         }
+
+        <button
+          class="flex items-center hover:text-orange-700 transition-colors"
+          aria-label="Search"
+          data-js-search-toggle-mobile
+        >
+          <SearchIcon />
+          <span class="ml-2">Search</span>
+        </button>
       </div>
     </nav>
   </div>
@@ -118,15 +137,28 @@ const links = [
     const mobileMenu = document.querySelector("[data-js-mobile-menu]");
     const mobileToggle = document.querySelector("[data-js-mobile-toggle]");
     const mobileClose = document.querySelector("[data-js-mobile-close]");
+    const searchToggle = document.querySelector("[data-js-search-toggle]");
+    const searchToggleMobile = document.querySelector(
+      "[data-js-search-toggle-mobile]"
+    );
+
+    if (!navbar || !mobileMenu || !mobileToggle || !mobileClose) {
+      console.error("Required navbar elements not found");
+      return;
+    }
 
     function openMenu() {
-      mobileMenu.classList.remove("translate-x-full");
-      document.body.style.overflow = "hidden";
+      if (mobileMenu) {
+        mobileMenu.classList.remove("translate-x-full");
+        document.body.style.overflow = "hidden";
+      }
     }
 
     function closeMenu() {
-      mobileMenu.classList.add("translate-x-full");
-      document.body.style.overflow = "";
+      if (mobileMenu) {
+        mobileMenu.classList.add("translate-x-full");
+        document.body.style.overflow = "";
+      }
     }
 
     mobileToggle.addEventListener("click", openMenu);
@@ -134,18 +166,56 @@ const links = [
 
     document.addEventListener("click", (event) => {
       if (
+        event.target instanceof Node &&
+        navbar &&
         !navbar.contains(event.target) &&
+        mobileMenu &&
         !mobileMenu.contains(event.target)
       ) {
         closeMenu();
       }
     });
 
-    // Close menu on escape key
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape") {
         closeMenu();
       }
     });
+
+    function openCommandPalette() {
+      const commandPalette = document.getElementById("command-palette");
+
+      if (commandPalette) {
+        closeMenu();
+
+        commandPalette.classList.remove("hidden");
+
+        const dialogPanel = document.getElementById("dialog-panel");
+        const searchInput = document.getElementById(
+          "search-input"
+        ) as HTMLInputElement;
+
+        if (dialogPanel && searchInput) {
+          setTimeout(() => {
+            dialogPanel.classList.remove("scale-95", "opacity-0");
+            searchInput.focus();
+          }, 10);
+        }
+      }
+    }
+
+    if (searchToggle) {
+      searchToggle.addEventListener("click", (event) => {
+        event.stopPropagation();
+        openCommandPalette();
+      });
+    }
+
+    if (searchToggleMobile) {
+      searchToggleMobile.addEventListener("click", (event) => {
+        event.stopPropagation();
+        openCommandPalette();
+      });
+    }
   });
 </script>

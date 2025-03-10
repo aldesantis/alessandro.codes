@@ -33,6 +33,25 @@ export function initCommandPalette(): void {
   let searchTimeout: number | null = null;
   let isLoading = false;
 
+  // Set up document click handler for closing the palette
+  const documentClickHandler = (e: MouseEvent) => {
+    // Only process if command palette is visible
+    if (commandPalette.classList.contains("hidden")) {
+      return;
+    }
+
+    const target = e.target as Node;
+
+    // If the click is outside the dialog panel, close the command palette
+    if (!dialogPanel.contains(target) && document.contains(target)) {
+      closeCommandPalette();
+    }
+  };
+
+  // Remove any existing handler and add the new one
+  document.removeEventListener("click", documentClickHandler);
+  document.addEventListener("click", documentClickHandler);
+
   /**
    * Open the command palette
    */
@@ -54,11 +73,18 @@ export function initCommandPalette(): void {
     // Re-enable scrolling when command palette is closed
     document.body.style.overflow = "";
 
+    // Add opacity-0 class to backdrop for fade-out animation
+    backdrop.classList.add("opacity-0");
+    // Add animation classes to dialog panel
     dialogPanel.classList.add("scale-95", "opacity-0");
+
+    // Wait for animations to complete before hiding the command palette
     setTimeout(() => {
       commandPalette.classList.add("hidden");
       searchInput.value = "";
       updateResults("");
+      // Reset backdrop opacity for next opening
+      backdrop.classList.remove("opacity-0");
     }, 200);
   }
 
@@ -334,19 +360,6 @@ export function initCommandPalette(): void {
         }
       }
     }
-  });
-
-  // Event listener for backdrop click
-  backdrop.addEventListener("click", (e) => {
-    // Make sure the click was directly on the backdrop
-    if (e.target === backdrop) {
-      closeCommandPalette();
-    }
-  });
-
-  // Prevent clicks on the dialog panel from closing the palette
-  dialogPanel.addEventListener("click", (e) => {
-    e.stopPropagation();
   });
 
   // Event listener for keyboard shortcut (Cmd+K or Ctrl+K)
