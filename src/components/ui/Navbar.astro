@@ -1,20 +1,18 @@
 ---
 import Link from "@components/ui/Link.astro";
 import SearchIcon from "@components/ui/SearchIcon.astro";
-import navigation from "src/data/navigation.json";
 import Dropdown from "@components/ui/dropdowns/Dropdown.astro";
 import DropdownItem from "@components/ui/dropdowns/DropdownItem.astro";
+import {
+  getHeaderNavigation,
+  isDropdownActive,
+  isItemActive,
+  type NavigationItem,
+  type NavigationChild,
+} from "src/lib/navigation";
 
 const currentPath = Astro.url.pathname;
-
-// Helper function to check if a dropdown should be active
-function isDropdownActive(item: any, currentPath: string): boolean {
-  if (!item.children) return false;
-  return item.children.some((child: any) => {
-    if (!child.matchPattern) return false;
-    return new RegExp(child.matchPattern).test(currentPath);
-  });
-}
+const headerNavigation = getHeaderNavigation();
 ---
 
 <div class="relative">
@@ -35,49 +33,40 @@ function isDropdownActive(item: any, currentPath: string): boolean {
           ]}
         >
           {
-            navigation
-              .filter((item) => item.header)
-              .map((item) => {
-                if (item.children && item.children.length > 0) {
-                  const isActive = isDropdownActive(item, currentPath);
-                  return (
-                    <div class:list={[isActive && "text-orange-700"]}>
-                      <Dropdown label={item.text}>
-                        {item.children.map((child) => (
-                          <DropdownItem
-                            href={child.href}
-                            active={
-                              child.matchPattern
-                                ? new RegExp(child.matchPattern).test(
-                                    currentPath
-                                  )
-                                : false
-                            }
-                          >
-                            {child.text}
-                          </DropdownItem>
-                        ))}
-                      </Dropdown>
-                    </div>
-                  );
-                }
-
+            headerNavigation.map((item: NavigationItem) => {
+              if (item.children && item.children.length > 0) {
+                return (
+                  <div
+                    class:list={[
+                      isDropdownActive(item, currentPath) && "text-orange-700",
+                    ]}
+                  >
+                    <Dropdown label={item.text}>
+                      {item.children.map((child: NavigationChild) => (
+                        <DropdownItem
+                          href={child.href}
+                          active={isItemActive(child, currentPath)}
+                        >
+                          {child.text}
+                        </DropdownItem>
+                      ))}
+                    </Dropdown>
+                  </div>
+                );
+              } else {
                 return (
                   <div>
                     <Link
                       href={item.href}
                       variant="secondary"
-                      active={
-                        item.matchPattern
-                          ? new RegExp(item.matchPattern).test(currentPath)
-                          : false
-                      }
+                      active={isItemActive(item, currentPath)}
                     >
                       {item.text}
                     </Link>
                   </div>
                 );
-              })
+              }
+            })
           }
 
           <button
@@ -151,41 +140,31 @@ function isDropdownActive(item: any, currentPath: string): boolean {
 
       <div class="flex flex-col space-y-2">
         {
-          navigation
-            .filter((item) => item.header)
-            .flatMap((item) => {
-              if (item.children && item.children.length > 0) {
-                // Return only the children items, not the parent
-                return item.children.map((child) => (
-                  <Link
-                    href={child.href}
-                    variant="secondary"
-                    active={
-                      child.matchPattern
-                        ? new RegExp(child.matchPattern).test(currentPath)
-                        : false
-                    }
-                  >
-                    {child.text}
-                  </Link>
-                ));
-              }
-
+          headerNavigation.flatMap((item: NavigationItem) => {
+            if (item.children && item.children.length > 0) {
+              // Return only the children items, not the parent
+              return item.children.map((child: NavigationChild) => (
+                <Link
+                  href={child.href}
+                  variant="secondary"
+                  active={isItemActive(child, currentPath)}
+                >
+                  {child.text}
+                </Link>
+              ));
+            } else {
               // Return regular items as is
               return [
                 <Link
                   href={item.href}
                   variant="secondary"
-                  active={
-                    item.matchPattern
-                      ? new RegExp(item.matchPattern).test(currentPath)
-                      : false
-                  }
+                  active={isItemActive(item, currentPath)}
                 >
                   {item.text}
                 </Link>,
               ];
-            })
+            }
+          })
         }
       </div>
     </nav>

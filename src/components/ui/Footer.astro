@@ -2,36 +2,10 @@
 import { Icon } from "astro-icon/components";
 import Link from "@components/ui/Link.astro";
 import { getCollection } from "astro:content";
-import navigation from "src/data/navigation.json";
+import { getFooterNavigation, type NavigationChild } from "src/lib/navigation";
 
 const socials = await getCollection("socials");
-
-// Define types for navigation items
-type NavigationChild = {
-  href: string;
-  text: string;
-  matchPattern?: string;
-  header: boolean;
-  footer: boolean;
-};
-
-type NavigationItem = NavigationChild & {
-  children?: NavigationChild[];
-};
-
-// Flatten navigation items to include children
-const flattenedNavigation = navigation
-  .filter(
-    (item: NavigationItem) =>
-      item.footer ||
-      (item.children && item.children.some((child) => child.footer))
-  )
-  .flatMap((item: NavigationItem) => {
-    if (item.children && item.children.length > 0) {
-      return item.children.filter((child) => child.footer);
-    }
-    return item.footer ? [item] : [];
-  });
+const footerNavigation = getFooterNavigation();
 ---
 
 <div class="border-t mt-8 py-8">
@@ -62,7 +36,7 @@ const flattenedNavigation = navigation
 
     <div class="hidden md:grid grid-cols-2 gap-x-16 gap-y-1">
       {
-        flattenedNavigation.map((item: NavigationChild) => (
+        footerNavigation.map((item: NavigationChild) => (
           <div class="text-sm lg:text-base font-sans">
             <Link href={item.href} variant="secondary">
               {item.text}
