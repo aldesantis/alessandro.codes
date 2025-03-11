@@ -5,6 +5,33 @@ import { getCollection } from "astro:content";
 import navigation from "src/data/navigation.json";
 
 const socials = await getCollection("socials");
+
+// Define types for navigation items
+type NavigationChild = {
+  href: string;
+  text: string;
+  matchPattern?: string;
+  header: boolean;
+  footer: boolean;
+};
+
+type NavigationItem = NavigationChild & {
+  children?: NavigationChild[];
+};
+
+// Flatten navigation items to include children
+const flattenedNavigation = navigation
+  .filter(
+    (item: NavigationItem) =>
+      item.footer ||
+      (item.children && item.children.some((child) => child.footer))
+  )
+  .flatMap((item: NavigationItem) => {
+    if (item.children && item.children.length > 0) {
+      return item.children.filter((child) => child.footer);
+    }
+    return item.footer ? [item] : [];
+  });
 ---
 
 <div class="border-t mt-8 py-8">
@@ -35,15 +62,13 @@ const socials = await getCollection("socials");
 
     <div class="hidden md:grid grid-cols-2 gap-x-16 gap-y-1">
       {
-        navigation
-          .filter((item) => item.footer)
-          .map((item) => (
-            <div class="text-sm lg:text-base font-sans">
-              <Link href={item.href} variant="secondary">
-                {item.text}
-              </Link>
-            </div>
-          ))
+        flattenedNavigation.map((item: NavigationChild) => (
+          <div class="text-sm lg:text-base font-sans">
+            <Link href={item.href} variant="secondary">
+              {item.text}
+            </Link>
+          </div>
+        ))
       }
     </div>
   </div>

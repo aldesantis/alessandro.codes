@@ -28,38 +28,46 @@
     "footer": true
   },
   {
-    "href": "/topics",
-    "text": "Topics",
-    "matchPattern": "^/topics",
+    "href": "#",
+    "text": "The Garden",
     "header": true,
-    "footer": true
-  },
-  {
-    "href": "/talks",
-    "text": "Talks",
-    "matchPattern": "^/talks$",
-    "header": true,
-    "footer": true
-  },
-  {
-    "href": "/essays",
-    "text": "Essays",
-    "matchPattern": "^/essays",
-    "header": true,
-    "footer": true
-  },
-  {
-    "href": "/notes",
-    "text": "Notes",
-    "matchPattern": "^/notes",
-    "header": true,
-    "footer": true
-  },
-  {
-    "href": "/books",
-    "text": "Books",
-    "matchPattern": "^/books",
-    "header": true,
-    "footer": true
+    "footer": false,
+    "children": [
+      {
+        "href": "/topics",
+        "text": "Topics",
+        "matchPattern": "^/topics",
+        "header": false,
+        "footer": true
+      },
+      {
+        "href": "/talks",
+        "text": "Talks",
+        "matchPattern": "^/talks$",
+        "header": false,
+        "footer": true
+      },
+      {
+        "href": "/essays",
+        "text": "Essays",
+        "matchPattern": "^/essays",
+        "header": false,
+        "footer": true
+      },
+      {
+        "href": "/notes",
+        "text": "Notes",
+        "matchPattern": "^/notes",
+        "header": false,
+        "footer": true
+      },
+      {
+        "href": "/books",
+        "text": "Books",
+        "matchPattern": "^/books",
+        "header": false,
+        "footer": true
+      }
+    ]
   }
 ]

@@ -2,8 +2,19 @@
 import Link from "@components/ui/Link.astro";
 import SearchIcon from "@components/ui/SearchIcon.astro";
 import navigation from "src/data/navigation.json";
+import Dropdown from "@components/ui/dropdowns/Dropdown.astro";
+import DropdownItem from "@components/ui/dropdowns/DropdownItem.astro";
 
 const currentPath = Astro.url.pathname;
+
+// Helper function to check if a dropdown should be active
+function isDropdownActive(item: any, currentPath: string): boolean {
+  if (!item.children) return false;
+  return item.children.some((child: any) => {
+    if (!child.matchPattern) return false;
+    return new RegExp(child.matchPattern).test(currentPath);
+  });
+}
 ---
 
 <div class="relative">
@@ -26,17 +37,47 @@ const currentPath = Astro.url.pathname;
           {
             navigation
               .filter((item) => item.header)
-              .map(({ href, text, matchPattern }) => (
-                <div>
-                  <Link
-                    href={href}
-                    variant="secondary"
-                    active={!!currentPath.match(matchPattern)}
-                  >
-                    {text}
-                  </Link>
-                </div>
-              ))
+              .map((item) => {
+                if (item.children && item.children.length > 0) {
+                  const isActive = isDropdownActive(item, currentPath);
+                  return (
+                    <div class:list={[isActive && "text-orange-700"]}>
+                      <Dropdown label={item.text}>
+                        {item.children.map((child) => (
+                          <DropdownItem
+                            href={child.href}
+                            active={
+                              child.matchPattern
+                                ? new RegExp(child.matchPattern).test(
+                                    currentPath
+                                  )
+                                : false
+                            }
+                          >
+                            {child.text}
+                          </DropdownItem>
+                        ))}
+                      </Dropdown>
+                    </div>
+                  );
+                }
+
+                return (
+                  <div>
+                    <Link
+                      href={item.href}
+                      variant="secondary"
+                      active={
+                        item.matchPattern
+                          ? new RegExp(item.matchPattern).test(currentPath)
+                          : false
+                      }
+                    >
+                      {item.text}
+                    </Link>
+                  </div>
+                );
+              })
           }
 
           <button
@@ -82,7 +123,7 @@ const currentPath = Astro.url.pathname;
   </div>
 
   <div
-    class="fixed inset-y-0 right-0 w-64 bg-zinc-50 shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50 sm:hidden"
+    class="fixed inset-y-0 right-0 w-64 bg-zinc-50 shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50 md:hidden"
     data-js-mobile-menu
   >
     <nav class="flex flex-col font-sans p-6 h-full">
@@ -112,15 +153,39 @@ const currentPath = Astro.url.pathname;
         {
           navigation
             .filter((item) => item.header)
-            .map(({ href, text, matchPattern }) => (
-              <Link
-                href={href}
-                variant="secondary"
-                active={!!currentPath.match(matchPattern)}
-              >
-                {text}
-              </Link>
-            ))
+            .flatMap((item) => {
+              if (item.children && item.children.length > 0) {
+                // Return only the children items, not the parent
+                return item.children.map((child) => (
+                  <Link
+                    href={child.href}
+                    variant="secondary"
+                    active={
+                      child.matchPattern
+                        ? new RegExp(child.matchPattern).test(currentPath)
+                        : false
+                    }
+                  >
+                    {child.text}
+                  </Link>
+                ));
+              }
+
+              // Return regular items as is
+              return [
+                <Link
+                  href={item.href}
+                  variant="secondary"
+                  active={
+                    item.matchPattern
+                      ? new RegExp(item.matchPattern).test(currentPath)
+                      : false
+                  }
+                >
+                  {item.text}
+                </Link>,
+              ];
+            })
         }
       </div>
     </nav>
