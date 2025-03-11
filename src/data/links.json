@@ -4142,11 +4142,6 @@
         "title": "Understand the rules before breaking them",
         "slug": "understand-the-rules-before-breaking-them",
         "contentType": "notes"
-      },
-      {
-        "title": "Knowledge",
-        "slug": "knowledge",
-        "contentType": "topics"
       }
     ]
   },
@@ -4478,11 +4473,6 @@
         "title": "Wholesale boosts brand awareness",
         "slug": "wholesale-boosts-brand-awareness",
         "contentType": "notes"
-      },
-      {
-        "title": "Marketing",
-        "slug": "marketing",
-        "contentType": "topics"
       }
     ]
   },
@@ -8187,11 +8177,6 @@
         "title": "Writing shouldn’t start with a blank page",
         "slug": "writing-shouldnt-start-with-a-blank-page",
         "contentType": "notes"
-      },
-      {
-        "title": "Knowledge",
-        "slug": "knowledge",
-        "contentType": "topics"
       }
     ]
   },
@@ -24649,26 +24634,7 @@
     "slug": "knowledge",
     "status": "budding",
     "contentType": "topics",
-    "outboundLinks": [
-      {
-        "matchedId": "Learning is a four-phase process",
-        "title": "Learning is a four-phase process",
-        "slug": "learning-is-a-four-phase-process",
-        "contentType": "notes"
-      },
-      {
-        "matchedId": "Learning is a four-phase process",
-        "title": "Learning is a four-phase process",
-        "slug": "learning-is-a-four-phase-process",
-        "contentType": "notes"
-      },
-      {
-        "matchedId": "How to Take Smart Notes",
-        "title": "How to Take Smart Notes",
-        "slug": "how-to-take-smart-notes",
-        "contentType": "books"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Taking yourself seriously impedes learning",
@@ -25074,14 +25040,7 @@
     "slug": "marketing",
     "status": "seedling",
     "contentType": "topics",
-    "outboundLinks": [
-      {
-        "matchedId": "Marketing must build availability",
-        "title": "Marketing must build availability",
-        "slug": "marketing-must-build-availability",
-        "contentType": "notes"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "$100M Leads",
