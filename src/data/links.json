@@ -24589,7 +24589,7 @@
       "commerce"
     ],
     "slug": "commerce",
-    "status": null,
+    "status": "seedling",
     "contentType": "topics",
     "outboundLinks": [],
     "inboundLinks": []
