@@ -1,20 +1,9 @@
 ---
 import Link from "@components/ui/Link.astro";
 import SearchIcon from "@components/ui/SearchIcon.astro";
+import navigation from "src/data/navigation.json";
 
 const currentPath = Astro.url.pathname;
-
-const links = [
-  { href: "/", text: "Home", matchPattern: /^\/$/ },
-  { href: "/about", text: "About", matchPattern: /^\/about/ },
-  { href: "/colophon", text: "Colophon", matchPattern: /^\/colophon/ },
-  { href: "/now", text: "Now", matchPattern: /^\/now/ },
-  { href: "/topics", text: "Topics", matchPattern: /^\/topics/ },
-  { href: "/talks", text: "Talks", matchPattern: /^\/talks/ },
-  { href: "/essays", text: "Essays", matchPattern: /^\/essays/ },
-  { href: "/notes", text: "Notes", matchPattern: /^\/notes/ },
-  { href: "/books", text: "Books", matchPattern: /^\/books/ },
-];
 ---
 
 <div class="relative">
@@ -35,17 +24,19 @@ const links = [
           ]}
         >
           {
-            links.map(({ href, text, matchPattern }) => (
-              <div>
-                <Link
-                  href={href}
-                  variant="secondary"
-                  active={!!currentPath.match(matchPattern)}
-                >
-                  {text}
-                </Link>
-              </div>
-            ))
+            navigation
+              .filter((item) => item.header)
+              .map(({ href, text, matchPattern }) => (
+                <div>
+                  <Link
+                    href={href}
+                    variant="secondary"
+                    active={!!currentPath.match(matchPattern)}
+                  >
+                    {text}
+                  </Link>
+                </div>
+              ))
           }
 
           <button
@@ -119,15 +110,17 @@ const links = [
 
       <div class="flex flex-col space-y-2">
         {
-          links.map(({ href, text, matchPattern }) => (
-            <Link
-              href={href}
-              variant="secondary"
-              active={!!currentPath.match(matchPattern)}
-            >
-              {text}
-            </Link>
-          ))
+          navigation
+            .filter((item) => item.header)
+            .map(({ href, text, matchPattern }) => (
+              <Link
+                href={href}
+                variant="secondary"
+                active={!!currentPath.match(matchPattern)}
+              >
+                {text}
+              </Link>
+            ))
         }
       </div>
     </nav>

@@ -2,12 +2,15 @@
 import { Icon } from "astro-icon/components";
 import Link from "@components/ui/Link.astro";
 import { getCollection } from "astro:content";
+import navigation from "src/data/navigation.json";
 
 const socials = await getCollection("socials");
 ---
 
 <div class="border-t mt-8 py-8">
-  <div class="flex container">
+  <div
+    class="flex flex-col md:flex-row container justify-between space-y-8 md:space-y-0"
+  >
     <div>
       <div class="text-xl font-serif text-stone-700">See you soon?</div>
 
@@ -28,6 +31,20 @@ const socials = await getCollection("socials");
       <div class="text-xs mt-3 text-stone-500 font-sans">
         © 2025 Alessandro Desantis
       </div>
+    </div>
+
+    <div class="hidden md:grid grid-cols-2 gap-x-16 gap-y-1">
+      {
+        navigation
+          .filter((item) => item.footer)
+          .map((item) => (
+            <div class="text-sm lg:text-base font-sans">
+              <Link href={item.href} variant="secondary">
+                {item.text}
+              </Link>
+            </div>
+          ))
+      }
     </div>
   </div>
 </div>

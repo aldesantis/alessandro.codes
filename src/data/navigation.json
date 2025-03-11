@@ -1,0 +1,65 @@
+[
+  {
+    "href": "/",
+    "text": "Home",
+    "matchPattern": "^/$",
+    "header": true,
+    "footer": true
+  },
+  {
+    "href": "/about",
+    "text": "About",
+    "matchPattern": "^/about$",
+    "header": true,
+    "footer": true
+  },
+  {
+    "href": "/colophon",
+    "text": "Colophon",
+    "matchPattern": "^/colophon$",
+    "header": false,
+    "footer": true
+  },
+  {
+    "href": "/now",
+    "text": "Now",
+    "matchPattern": "^/now",
+    "header": true,
+    "footer": true
+  },
+  {
+    "href": "/topics",
+    "text": "Topics",
+    "matchPattern": "^/topics",
+    "header": true,
+    "footer": true
+  },
+  {
+    "href": "/talks",
+    "text": "Talks",
+    "matchPattern": "^/talks$",
+    "header": true,
+    "footer": true
+  },
+  {
+    "href": "/essays",
+    "text": "Essays",
+    "matchPattern": "^/essays",
+    "header": true,
+    "footer": true
+  },
+  {
+    "href": "/notes",
+    "text": "Notes",
+    "matchPattern": "^/notes",
+    "header": true,
+    "footer": true
+  },
+  {
+    "href": "/books",
+    "text": "Books",
+    "matchPattern": "^/books",
+    "header": true,
+    "footer": true
+  }
+]
