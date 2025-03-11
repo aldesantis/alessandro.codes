@@ -88,4 +88,12 @@ export const collections = {
       base: "./src/content/articles",
     }),
   }),
+
+  topics: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      status: z.enum(["seedling", "budding", "evergreen"]),
+    }),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/topics" }),
+  }),
 };

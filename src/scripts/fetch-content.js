@@ -5,7 +5,7 @@ import matter from 'gray-matter';
 import slugify from 'slugify';
 const REPO_URL = 'git@github.com:aldesantis/digital-garden.git';
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content');
-const RETAIN_DIRS = ['essays', 'notes', 'nows', 'books', 'articles'];
+const RETAIN_DIRS = ['essays', 'notes', 'nows', 'books', 'articles', 'topics'];
 
 async function cleanDirectory(dir) {
   try {
@@ -31,7 +31,7 @@ function slugifyFileName(fileName) {
 
 async function processReadwiseContent() {
   console.log('Adjusting paths for Readwise content...');
-  const contentTypes = ['books', 'articles'];
+  const contentTypes = ['books', 'articles', 'topics'];
 
   for (const type of contentTypes) {
     console.log(`Adjusting paths for ${type}...`);
@@ -154,6 +154,29 @@ async function processMarkdownFiles() {
   }
 }
 
+async function processStaticPages() {
+  const staticPages = ['about.md', 'colophon.md'];
+  
+  console.log('Processing static pages...');
+  
+  for (const page of staticPages) {
+    const filePath = path.join(CONTENT_DIR, page);
+    const newFilePath = filePath.replace(/\.md$/, '.mdx');
+    
+    try {
+      console.log(`Processing ${page}...`);
+      await fs.rename(filePath, newFilePath);
+      console.log(`${page} processed successfully!`);
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        console.error(`Error processing ${page}:`, error);
+      } else {
+        console.log(`${page} not found, skipping.`);
+      }
+    }
+  }
+}
+
 async function main() {
   try {
     await cleanDirectory(CONTENT_DIR);
@@ -161,6 +184,7 @@ async function main() {
     await processReadwiseContent();
     await removeUnwantedDirs();
     await processMarkdownFiles();
+    await processStaticPages();
     console.log('Repository processing completed successfully!');
   } catch (error) {
     console.error('Error processing repository:', error);

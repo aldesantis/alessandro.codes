@@ -6,7 +6,9 @@ import { render } from "astro:content";
 import { getLinks } from "src/lib/links";
 
 export interface Props {
-  entry: CollectionEntry<"essays" | "notes" | "nows" | "books" | "articles">;
+  entry: CollectionEntry<
+    "essays" | "notes" | "nows" | "books" | "articles" | "topics"
+  >;
 }
 
 const { entry } = Astro.props;

@@ -1,0 +1,15 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Prose from "@components/ui/Prose.astro";
+import { getMdxComponents } from "src/lib/content";
+
+import { Content } from "src/content/about.mdx";
+---
+
+<Layout>
+  <title slot="head">About | Alessandro Desantis</title>
+
+  <Prose>
+    <Content components={getMdxComponents()} />
+  </Prose>
+</Layout>

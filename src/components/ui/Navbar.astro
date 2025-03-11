@@ -6,7 +6,10 @@ const currentPath = Astro.url.pathname;
 
 const links = [
   { href: "/", text: "Home", matchPattern: /^\/$/ },
+  { href: "/about", text: "About", matchPattern: /^\/about/ },
+  { href: "/colophon", text: "Colophon", matchPattern: /^\/colophon/ },
   { href: "/now", text: "Now", matchPattern: /^\/now/ },
+  { href: "/topics", text: "Topics", matchPattern: /^\/topics/ },
   { href: "/talks", text: "Talks", matchPattern: /^\/talks/ },
   { href: "/essays", text: "Essays", matchPattern: /^\/essays/ },
   { href: "/notes", text: "Notes", matchPattern: /^\/notes/ },

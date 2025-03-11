@@ -1,53 +1,45 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import { getCollection, render } from "astro:content";
-import EssayMeta from "@components/essays/EssayMeta.astro";
 import Prose from "@components/ui/Prose.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import { getMdxComponents } from "src/lib/content";
 import ContentSidebar from "@components/content/ContentSidebar.astro";
 
 export async function getStaticPaths() {
-  const essays = await getCollection("essays");
+  const topics = await getCollection("topics");
 
-  return essays.map((essay) => ({
-    params: { id: essay.id },
-    props: { essay },
+  return topics.map((topic) => ({
+    params: { id: topic.id },
+    props: { topic },
   }));
 }
 
-const { essay } = Astro.props;
-const { Content } = await render(essay);
+const { topic } = Astro.props;
+const { Content } = await render(topic);
 ---
 
-<title slot="head">{essay.data.title} | Alessandro Desantis</title>
-<meta name="description" content={essay.data.excerpt} slot="head" />
-{
-  essay.data.canonical && (
-    <link rel="canonical" href={essay.data.canonical} slot="head" />
-  )
-}
+<title slot="head">{topic.data.title} | Alessandro Desantis</title>
 
 <Layout>
   <div class="lg:-mb-8">
     <ArrowLink
-      href="/essays"
+      href="/topics"
       arrowDirection="left"
       class="font-sans font-semibold uppercase"
     >
-      Essays
+      Topics
     </ArrowLink>
   </div>
 
   <div class="grid grid-cols-12">
     <div class="col-span-12 mt-4 lg:col-span-4 lg:order-2">
-      <ContentSidebar entry={essay} />
+      <ContentSidebar entry={topic} />
     </div>
 
     <div class="col-span-12 lg:col-span-8 lg:order-1">
       <Prose>
-        <h1>{essay.data.title}</h1>
-        <EssayMeta essay={essay} />
+        <h1>{topic.data.title}</h1>
         <Content components={getMdxComponents()} />
       </Prose>
     </div>

@@ -16,5 +16,8 @@
   },
   "talks": {
     "description": "Talks and interviews I have given on various occasions."
+  },
+  "topics": {
+    "description": "Topics I am exploring and thinking about in the garden."
   }
 }

@@ -13,6 +13,8 @@ export function buildContentEntryUrl({ contentType, slug }) {
       return `/books/${slug}`;
     case "articles":
       return `/articles/${slug}`
+    case "topics":
+      return `/topics/${slug}`
     default:
       return null;
   }

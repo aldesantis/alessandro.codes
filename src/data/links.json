@@ -4142,6 +4142,11 @@
         "title": "Understand the rules before breaking them",
         "slug": "understand-the-rules-before-breaking-them",
         "contentType": "notes"
+      },
+      {
+        "title": "Knowledge",
+        "slug": "knowledge",
+        "contentType": "topics"
       }
     ]
   },
@@ -4473,6 +4478,11 @@
         "title": "Wholesale boosts brand awareness",
         "slug": "wholesale-boosts-brand-awareness",
         "contentType": "notes"
+      },
+      {
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
       }
     ]
   },
@@ -6490,7 +6500,14 @@
     "slug": "taking-yourself-seriously-impedes-learning",
     "status": "seedling",
     "contentType": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "knowledge",
+        "title": "Knowledge",
+        "slug": "knowledge",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7365,7 +7382,20 @@
     "slug": "100-truths-you-will-learn-too-late",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Hard work is overrated",
@@ -7387,7 +7417,20 @@
     "slug": "100m-leads",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7431,7 +7474,14 @@
     "slug": "building-a-second-brain",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Perfectionism delays convergence",
@@ -7448,7 +7498,98 @@
     "slug": "clear-thinking",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Being right is dictated by facts, not opinions",
@@ -7508,7 +7649,14 @@
     "slug": "dare-la-vita",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7530,7 +7678,14 @@
     "slug": "ego-is-the-enemy",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7543,6 +7698,24 @@
     "contentType": "books",
     "outboundLinks": [
       {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "coaching",
         "title": "Coach Them Until It Hurts",
         "slug": "coaching",
@@ -7553,6 +7726,18 @@
         "title": "Coach Them Until It Hurts",
         "slug": "coaching",
         "contentType": "essays"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
       }
     ],
     "inboundLinks": [
@@ -7586,7 +7771,14 @@
     "slug": "escaping-the-build-trap",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Strategy deals with present challenges",
@@ -7658,7 +7850,32 @@
     "slug": "from-impossible-to-inevitable",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7669,7 +7886,44 @@
     "slug": "from-start-up-to-grown-up",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Authenticity is a learned skill",
@@ -7697,7 +7951,32 @@
     "slug": "good-strategy-bad-strategy",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7738,7 +8017,14 @@
     "slug": "high-output-management",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7749,7 +8035,74 @@
     "slug": "how-brands-grow",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Accelerate existing customer behavior",
@@ -7816,7 +8169,14 @@
     "slug": "how-to-take-smart-notes",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "knowledge",
+        "title": "Knowledge",
+        "slug": "knowledge",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Explicit knowledge is easy to capture",
@@ -7827,6 +8187,11 @@
         "title": "Writing shouldn’t start with a blank page",
         "slug": "writing-shouldnt-start-with-a-blank-page",
         "contentType": "notes"
+      },
+      {
+        "title": "Knowledge",
+        "slug": "knowledge",
+        "contentType": "topics"
       }
     ]
   },
@@ -7855,7 +8220,14 @@
     "slug": "how-to-work-a-room",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7910,7 +8282,26 @@
     "slug": "inspired",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7967,7 +8358,14 @@
     "slug": "ma-chi-me-lo-fa-fare-come-il-lavoro-ci-ha-illuso",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8000,7 +8398,20 @@
     "slug": "marketers-are-from-mars-consumers-are-from-new-jersey",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Advertising must be consistent",
@@ -8027,7 +8438,32 @@
     "slug": "measure-what-matters",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8082,7 +8518,128 @@
     "slug": "professional-services-marketing",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8093,7 +8650,20 @@
     "slug": "rainmaking-conversations",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Avoid open-ended next steps in sales",
@@ -8136,7 +8706,86 @@
     "slug": "scaling-up-excellence",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Managers operate on two horizons",
@@ -8169,7 +8818,32 @@
     "slug": "switch",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Appeal to emotion and reason for changing things",
@@ -8198,16 +8872,82 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
       },
       {
         "matchedId": "coaching",
         "title": "Coach Them Until It Hurts",
         "slug": "coaching",
         "contentType": "essays"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
       }
     ],
     "inboundLinks": []
@@ -8242,7 +8982,62 @@
     "slug": "the-business-of-aspiration",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Curation creates brand depth",
@@ -8309,10 +9104,10 @@
         "contentType": "essays"
       },
       {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
       },
       {
         "matchedId": "coaching",
@@ -8327,10 +9122,10 @@
         "contentType": "essays"
       },
       {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
       },
       {
         "matchedId": "coaching",
@@ -8345,6 +9140,18 @@
         "contentType": "essays"
       },
       {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "coaching",
         "title": "Coach Them Until It Hurts",
         "slug": "coaching",
@@ -8355,6 +9162,42 @@
         "title": "Coach Them Until It Hurts",
         "slug": "coaching",
         "contentType": "essays"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "coaching",
+        "title": "Coach Them Until It Hurts",
+        "slug": "coaching",
+        "contentType": "essays"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
       },
       {
         "matchedId": "coaching",
@@ -8379,7 +9222,38 @@
     "slug": "the-crux",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Economies of scale are not exclusive",
@@ -8411,7 +9285,38 @@
     "slug": "the-fearless-organization",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Psychological safety is a compromise",
@@ -8438,7 +9343,230 @@
     "slug": "the-fifth-discipline",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Build experimentation guidelines",
@@ -8507,7 +9635,50 @@
     "slug": "the-new-strategic-brand-management",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Brand management aims to turn brands into landmarks",
@@ -8612,10 +9783,58 @@
     "contentType": "books",
     "outboundLinks": [
       {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "coaching",
         "title": "Coach Them Until It Hurts",
         "slug": "coaching",
         "contentType": "essays"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
       }
     ],
     "inboundLinks": [
@@ -8650,7 +9869,14 @@
     "slug": "022-commodification-cripples-culture",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8661,7 +9887,20 @@
     "slug": "10-consulting-trends-2024-edition",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8683,7 +9922,20 @@
     "slug": "10-rules-of-ip-brands",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8764,7 +10016,14 @@
     "slug": "12m-from-one-form-tweak-yes-please",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8932,7 +10191,14 @@
     "slug": "2",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Dasein - Wikipedia",
@@ -8984,7 +10250,14 @@
     "slug": "21-examples-of-successful-co-branding-partnerships",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9035,7 +10308,38 @@
     "slug": "3-pillars-of-digital-luxury",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9148,7 +10452,14 @@
     "slug": "5-minute-whiteboard-measurement-vs-attribution",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9270,7 +10581,14 @@
     "slug": "8-lessons-from-the-best-remote-companies-in-the-world",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9312,7 +10630,26 @@
     "slug": "90percent-of-startups-fail-to-acquire-new-customers",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9416,7 +10753,26 @@
     "slug": "a-few-great-writing-prompts",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9427,7 +10783,14 @@
     "slug": "a-few-things-i-believe-about-ai",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "engineering",
+        "title": "Engineering",
+        "slug": "engineering",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9521,7 +10884,44 @@
     "slug": "a-smart-bear-excuse-me-is-there-a-problem",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9687,7 +11087,14 @@
     "slug": "a-very-big-part-of-our-media-spend-why-peace-out-skincare-is-increasingly-branching-out-from-tikt",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9731,7 +11138,44 @@
     "slug": "ads-dont-work-that-way",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9754,7 +11198,14 @@
     "slug": "advice-for-using-goal-frameworks",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9811,7 +11262,26 @@
     "slug": "ai-and-the-future-of-programming",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "engineering",
+        "title": "Engineering",
+        "slug": "engineering",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "engineering",
+        "title": "Engineering",
+        "slug": "engineering",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "engineering",
+        "title": "Engineering",
+        "slug": "engineering",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9822,7 +11292,14 @@
     "slug": "ai-can-jump-start-consumer-brands-investors-and-founders-say",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "AI allows hyper-personalization",
@@ -9909,7 +11386,20 @@
     "slug": "although-metas-ad-revenue-is-recovering-retail-media-may-prove-its-biggest-competition",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9979,7 +11469,14 @@
     "slug": "amazons-slow-shift-to-marketplace",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -10439,7 +11936,20 @@
     "slug": "be-a-thermostat-not-a-thermometer",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -10553,7 +12063,14 @@
     "slug": "bill-watterson-some-thoughts-on-the-real-world-by-one-who-glimpsed-it-and-fled-kenyon-college-199",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Relax is not idleness",
@@ -10659,7 +12176,14 @@
     "slug": "brain-food-causing-extraordinary",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Wisdom is knowing what’s worth wanting",
@@ -10720,7 +12244,14 @@
     "slug": "brain-food-consistently-boring",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Good strategies are simple",
@@ -10821,7 +12352,14 @@
     "slug": "brain-food-internally-driven",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11074,7 +12612,14 @@
     "slug": "brain-food-the-unexpected-path-to-success",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11293,7 +12838,14 @@
     "slug": "building-in-public-first-10k-wtf-have-i-done",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11420,7 +12972,20 @@
     "slug": "carl-brauns-writing-lessons-for-clear-thinking-and-productive-communication",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11541,7 +13106,14 @@
     "slug": "collective-ownership-of-code-and-text",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Eliminate the cost of mistake",
@@ -11558,7 +13130,14 @@
     "slug": "commerce-can-no-longer-be-where-creative-goes-to-die",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11616,7 +13195,38 @@
     "slug": "conscious-competition",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11639,7 +13249,14 @@
     "slug": "consumer-products-report-2024-resetting-the-growth-agenda",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11694,7 +13311,14 @@
     "slug": "consumers-want-more-from-digital-product-passports-new-survey-says",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11763,7 +13387,14 @@
     "slug": "corteiz-goods-by-ana-andjelic-the-sociology-of-businesscorteiz-goods",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11893,6 +13524,12 @@
     "contentType": "articles",
     "outboundLinks": [
       {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "8",
         "title": "🎓",
         "slug": "8",
@@ -11932,7 +13569,14 @@
     "slug": "death-of-a-flywheel",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11966,7 +13610,14 @@
     "slug": "decision-making-for-ceos-simplified",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -12311,7 +13962,14 @@
     "slug": "dont-try-to-run-before-you-can-walk",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -12420,7 +14078,14 @@
     "slug": "dtc-briefing-brands-adjust-to-conflicting-consumer-signals-heading-into-summer",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -12466,7 +14131,14 @@
     "slug": "dtc-briefing-startups-are-gearing-up-for-meta-to-prioritize-traffic-to-facebook-and-instagram-sho",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -12769,7 +14441,26 @@
     "slug": "experiences-wont-make-you-happier-than-possessions",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -12836,7 +14527,20 @@
     "slug": "failure-to-face-the-truth",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Strategy deals with present challenges",
@@ -12853,7 +14557,14 @@
     "slug": "false-consensus-effect-definition-and-examples",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -12886,7 +14597,14 @@
     "slug": "fashion-briefing-against-all-odds-web3-loyalty-programs-are-flourishing",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13063,7 +14781,14 @@
     "slug": "fostering-a-culture-of-accountability",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13166,7 +14891,14 @@
     "slug": "functional-versus-unit-organizations-by-steven-sinofsky-learning-by-shipping",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Org design is about structure, incentives, and culture",
@@ -13368,7 +15100,32 @@
     "slug": "give-away-your-legos-and-other-commandments-for-scaling-startups",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Hiring is a network effect",
@@ -13436,7 +15193,20 @@
     "slug": "googles-latest-cookie-alternative-tests-show-promise-and-loads-of-caveats",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13460,7 +15230,14 @@
     "slug": "growth-looks-different-than-you-think",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13505,7 +15282,20 @@
     "slug": "heuristics-for-effective-software-development-organizations-a-continuously-evolving-list-allen-ho",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13596,7 +15386,14 @@
     "slug": "how-big-tech-runs-tech-projects-and-the-curious-absence-of-scrum",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13619,7 +15416,14 @@
     "slug": "how-brands-create-value-by-ana-andjelichow-brands-create-value",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13652,7 +15456,14 @@
     "slug": "how-brands-make-culture",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Cultural brands are bidirectional",
@@ -13688,7 +15499,14 @@
     "slug": "how-creators-influence-brands-and-why-they-listen",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Influencer partnerships should be long term",
@@ -13723,7 +15541,14 @@
     "slug": "how-do-you-create-a-great-marketing-strategy-5-minute-whiteboard",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13779,7 +15604,14 @@
     "slug": "how-hard-should-i-push-myself",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "The anticipation of danger causes stress",
@@ -13851,7 +15683,26 @@
     "slug": "how-influencer-marketing-will-evolve-in-2024-according-to-executives-and-creators",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Influencer partnerships should be long term",
@@ -14009,7 +15860,14 @@
     "slug": "how-to-be-more-agentic",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14075,7 +15933,14 @@
     "slug": "how-to-build-brand-energy",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Cultural brands are bidirectional",
@@ -14147,7 +16012,14 @@
     "slug": "how-to-do-a-collaboration-right",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Look for collab partners that are aligned with you",
@@ -14164,7 +16036,14 @@
     "slug": "how-to-do-great-work",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "knowledge",
+        "title": "Knowledge",
+        "slug": "knowledge",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14175,7 +16054,20 @@
     "slug": "how-to-do-hard-things",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Fusion alters our reality",
@@ -14204,7 +16096,14 @@
     "slug": "how-to-find-the-real-reason-conversions-dropped",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14237,7 +16136,14 @@
     "slug": "how-to-get-brand-partnerships-right",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14294,7 +16200,14 @@
     "slug": "how-to-make-your-brand-feel-alive-when-you-only-have-one-product",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14329,7 +16242,26 @@
     "slug": "how-to-measure-hard-to-measure-marketing-channels",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14509,7 +16441,26 @@
     "slug": "hunting-tech-debt-via-org-charts",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "engineering",
+        "title": "Engineering",
+        "slug": "engineering",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Groups always have structure",
@@ -14667,7 +16618,14 @@
     "slug": "influencer-agencies-report-mixed-experiences-with-tiktok-shop",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14678,7 +16636,56 @@
     "slug": "influencer-marketing-for-e-commerce",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14726,7 +16733,14 @@
     "slug": "inside-fashions-music-merch-opportunity",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Merchandising is turning into a real business",
@@ -14743,7 +16757,14 @@
     "slug": "inside-the-viral-heinz-x-absolut-collab-that-sent-pasta-sauce-sales-soaring",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14771,7 +16792,14 @@
     "slug": "insiders-080-rethinking-brand-power-structures",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14880,7 +16908,14 @@
     "slug": "insiders-169-static-pileup-the-pursuit-of-cool-in-the-age-of-algorithms",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14968,7 +17003,14 @@
     "slug": "is-a-game-changer-for",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15187,7 +17229,32 @@
     "slug": "leading-distributed-the-remote-guide-to-management",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15233,7 +17300,20 @@
     "slug": "lessons-learned-from-a-startup-that-didnt-make-it",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Misaligned product demand is detrimental",
@@ -15325,7 +17405,14 @@
     "slug": "linkedinabmguidefinal201113",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15359,7 +17446,14 @@
     "slug": "liquidity-is-back-on-the-menu-boys",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15443,7 +17537,14 @@
     "slug": "luck-skill-or-hard-workwhich-is-it",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15526,7 +17627,32 @@
     "slug": "luxury-x-crypto-by-ana-andjelicluxury-x-crypto",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15585,7 +17711,14 @@
     "slug": "made-sold-and-marketed-by-china",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15630,7 +17763,44 @@
     "slug": "marketing-analytics-attribution-is-not-incrementality",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15686,7 +17856,14 @@
     "slug": "meetings-are-the-work",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15720,7 +17897,14 @@
     "slug": "member-brief-dtc-and-hope",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15788,7 +17972,14 @@
     "slug": "members-only-where-shopify-will-be-in-one-year",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15805,6 +17996,12 @@
         "title": "Retail Media Networks",
         "slug": "retail-media-networks",
         "contentType": "articles"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
       }
     ],
     "inboundLinks": []
@@ -15998,7 +18195,14 @@
     "slug": "momentum-consolidation-and-breakout",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16075,7 +18279,20 @@
     "slug": "move-over-influencers-here-come-curators",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16086,7 +18303,14 @@
     "slug": "multi-channel-attribution-definitions-models-and-a-reality-check",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16121,7 +18345,14 @@
     "slug": "my-48m-social-media-sales-funnel",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16132,7 +18363,14 @@
     "slug": "my-email-playbook-for-fashion-brands",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16200,7 +18438,14 @@
     "slug": "new-rules-of-brand-marketing",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16258,7 +18503,14 @@
     "slug": "no-314-on-linear-commerce",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Media and commerce are blending",
@@ -16286,7 +18538,26 @@
     "slug": "no-margin-no-mission",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Money is like oxygen",
@@ -16475,7 +18746,14 @@
     "slug": "one-moment-in-a-decade",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16510,7 +18788,32 @@
     "slug": "operating-well-what-i-learned-at-stripe",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16592,7 +18895,20 @@
     "slug": "org-structure-isnt-everything-in-org-design",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16705,7 +19021,14 @@
     "slug": "passages-saved-from-ios",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16738,7 +19061,14 @@
     "slug": "peter-bevelin-on-seeking-wisdom-mental-models-learning-and-a-lot-more-farnam-street",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "We get what we reward for",
@@ -17063,7 +19393,20 @@
     "slug": "research-the-influence-of-shared-joy-on-consumption",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -17255,7 +19598,14 @@
     "slug": "roblox-marketers-feel-the-tensioninside-brands-next-challenge-on-the-platform",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -17386,7 +19736,14 @@
     "slug": "seo-in-an-ai-world-first-draft-of-a-strategyseo-in-an-ai-world-first-draft-of-a-strategy",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -17444,7 +19801,14 @@
     "slug": "shopify-shop-q2-2024-earnings-call-transcript",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "engineering",
+        "title": "Engineering",
+        "slug": "engineering",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -17519,7 +19883,14 @@
     "slug": "show-your-work",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -17635,7 +20006,14 @@
     "slug": "solo-stove-ignites-the-age-old-brand-versus-performance-marketing-debate",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Brand marketing is performance marketing",
@@ -17811,7 +20189,26 @@
     "slug": "strange-attraction",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Chaotic systems are not random",
@@ -17943,7 +20340,14 @@
     "slug": "targeting-taste-communities-by-ana-andjelictargeting-taste-communities",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -17989,7 +20393,14 @@
     "slug": "telling-incredible-stories",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -18000,7 +20411,14 @@
     "slug": "telling-the-800-lb-gorilla-to-shove-it-up-his-ass",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -18058,7 +20476,14 @@
     "slug": "the-age-of-soloculture-quick-study",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Information abundance causes cultural fragmentation",
@@ -18467,7 +20892,14 @@
     "slug": "the-email-marketing-playbook-we-wish-we-had",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -18685,7 +21117,14 @@
     "slug": "the-great-flattening",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -18786,7 +21225,14 @@
     "slug": "the-iterative-adjacent-possible",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Work toward proximate objectives",
@@ -18883,7 +21329,20 @@
     "slug": "the-media-buyer-25",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -18895,7 +21354,14 @@
     "slug": "the-media-buyer-40-mmm-is-mandatory-in-2024",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -18929,7 +21395,14 @@
     "slug": "the-meta-trending-trends-2024",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking",
+        "title": "Thinking",
+        "slug": "thinking",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Foresight is creation, not prediction",
@@ -18946,7 +21419,56 @@
     "slug": "the-mindsets-and-practices-of-excellent-ceos",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Eliminate bias in decision-making",
@@ -18987,7 +21509,14 @@
     "slug": "the-multi-billion-dollar-winner-of-the-us-election-meta-and-google",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19009,7 +21538,20 @@
     "slug": "the-narrative-structure-of-the-strategic-fairytale-plan",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19020,7 +21562,14 @@
     "slug": "the-nature-and-creation-of-chaordic-organizations",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19042,7 +21591,14 @@
     "slug": "the-new-fashion-creativity",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19100,7 +21656,14 @@
     "slug": "the-next-growth-market",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "DTC has long been about arbitrage",
@@ -19297,7 +21860,14 @@
     "slug": "the-problem-with-being-nice-all-the-time",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19352,7 +21922,14 @@
     "slug": "the-rise-and-rise-of-on-running",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19442,7 +22019,14 @@
     "slug": "the-society-of-spectacle-by-ana-andjelicthe-society-of-spectacle",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19521,7 +22105,32 @@
     "slug": "the-systems-thinker-communities-of-practice-learning-as-a-social-system-the-systems-thinker",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Communities of practice are loosely knit",
@@ -19560,7 +22169,14 @@
     "slug": "the-taste-map-by-ana-andjelic-the-sociology-of-businessthe-taste-map",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19662,7 +22278,20 @@
     "slug": "the-tyranny-of-structurelessness",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Groups always have structure",
@@ -19702,7 +22331,104 @@
     "slug": "the-ultimate-guide-to-writing-online",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Writing shouldn’t start with a blank page",
@@ -19731,7 +22457,14 @@
     "slug": "the-untold-story-of-buffers-values-why-we-created-them-and-why-it-hurt",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20050,7 +22783,20 @@
     "slug": "tiktoks-plan-to-cash-in-on-its-popularity-among-gen-z-shoppers-has-a-big-flaw",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20138,7 +22884,14 @@
     "slug": "toward-a-new-model-for-corporate-learning-and-development",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20234,7 +22987,32 @@
     "slug": "unlock-the-power-of-effective-writing-insights-from-steven-pinker",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20538,7 +23316,14 @@
     "slug": "what-i-think-about-when-i-edit",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "writing",
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20561,7 +23346,14 @@
     "slug": "what-investors-want-from-dtc-brands",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "web3",
+        "title": "Web3",
+        "slug": "web3",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20628,7 +23420,14 @@
     "slug": "what-is-the-alexander-technique",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Alexander Technique allows you to expand the space between stimulus and response",
@@ -20645,7 +23444,14 @@
     "slug": "what-is-underneath-productivity",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20712,7 +23518,20 @@
     "slug": "what-momentum-looks-like",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20870,7 +23689,14 @@
     "slug": "while-meta-tries-to-push-advantage-shopping-campaigns-some-agencies-arent-yet-convinced",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20893,7 +23719,14 @@
     "slug": "whos-your-audience-by-ana-andjelicwhos-your-audience",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20904,7 +23737,14 @@
     "slug": "why-2024-will-be-the-year-of-the-brand",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21015,7 +23855,14 @@
     "slug": "why-buy-one-get-one-free-offers-are-more-complicated-than-you-remember",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21082,7 +23929,14 @@
     "slug": "why-creator-led-content-marketing-is-the-future-of-search",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21225,7 +24079,14 @@
     "slug": "why-is-fashion-diving-into-new-industries",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21248,7 +24109,14 @@
     "slug": "why-life-cant-be-simpler",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21392,7 +24260,14 @@
     "slug": "why-walmart-is-buying-a-tv-brand",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21414,7 +24289,20 @@
     "slug": "why-you-should-give-up-on-your-dreams",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "psychology",
+        "title": "Psychology",
+        "slug": "psychology",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21448,7 +24336,14 @@
     "slug": "work-the-policy-not-the-exceptions",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Work the policy, not the exception",
@@ -21465,7 +24360,26 @@
     "slug": "working-backwards",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Turn transient notes into evergreen notes",
@@ -21601,7 +24515,26 @@
     "slug": "you-cant-hack-product-positioning",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21625,7 +24558,14 @@
     "slug": "you-probably-shouldnt-work-at-a-startup-napkin-math-every",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21648,7 +24588,1194 @@
     "slug": "zero-1st-2nd-3rd-part-data-exponea",
     "status": "seedling",
     "contentType": "articles",
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Commerce",
+      "commerce"
+    ],
+    "slug": "commerce",
+    "status": null,
+    "contentType": "topics",
     "outboundLinks": [],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Engineering",
+      "engineering"
+    ],
+    "slug": "engineering",
+    "status": "seedling",
+    "contentType": "topics",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "A Few Things I Believe About AI",
+        "slug": "a-few-things-i-believe-about-ai",
+        "contentType": "articles"
+      },
+      {
+        "title": "AI and the Future of Programming",
+        "slug": "ai-and-the-future-of-programming",
+        "contentType": "articles"
+      },
+      {
+        "title": "Hunting Tech Debt via Org Charts",
+        "slug": "hunting-tech-debt-via-org-charts",
+        "contentType": "articles"
+      },
+      {
+        "title": "Shopify (SHOP) Q2 2024 Earnings Call Transcript",
+        "slug": "shopify-shop-q2-2024-earnings-call-transcript",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Knowledge",
+      "knowledge"
+    ],
+    "slug": "knowledge",
+    "status": "budding",
+    "contentType": "topics",
+    "outboundLinks": [
+      {
+        "matchedId": "Learning is a four-phase process",
+        "title": "Learning is a four-phase process",
+        "slug": "learning-is-a-four-phase-process",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "Learning is a four-phase process",
+        "title": "Learning is a four-phase process",
+        "slug": "learning-is-a-four-phase-process",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "How to Take Smart Notes",
+        "title": "How to Take Smart Notes",
+        "slug": "how-to-take-smart-notes",
+        "contentType": "books"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Taking yourself seriously impedes learning",
+        "slug": "taking-yourself-seriously-impedes-learning",
+        "contentType": "notes"
+      },
+      {
+        "title": "How to Take Smart Notes",
+        "slug": "how-to-take-smart-notes",
+        "contentType": "books"
+      },
+      {
+        "title": "How to Do Great Work",
+        "slug": "how-to-do-great-work",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Leadership",
+      "leadership"
+    ],
+    "slug": "leadership",
+    "status": "seedling",
+    "contentType": "topics",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "100 Truths You Will Learn Too Late",
+        "slug": "100-truths-you-will-learn-too-late",
+        "contentType": "books"
+      },
+      {
+        "title": "Clear Thinking",
+        "slug": "clear-thinking",
+        "contentType": "books"
+      },
+      {
+        "title": "Empowered",
+        "slug": "empowered",
+        "contentType": "books"
+      },
+      {
+        "title": "Escaping the Build Trap",
+        "slug": "escaping-the-build-trap",
+        "contentType": "books"
+      },
+      {
+        "title": "From Start-Up to Grown-Up",
+        "slug": "from-start-up-to-grown-up",
+        "contentType": "books"
+      },
+      {
+        "title": "Good Strategy/Bad Strategy",
+        "slug": "good-strategy-bad-strategy",
+        "contentType": "books"
+      },
+      {
+        "title": "High Output Management",
+        "slug": "high-output-management",
+        "contentType": "books"
+      },
+      {
+        "title": "How to Work a Room",
+        "slug": "how-to-work-a-room",
+        "contentType": "books"
+      },
+      {
+        "title": "Inspired",
+        "slug": "inspired",
+        "contentType": "books"
+      },
+      {
+        "title": "Scaling Up Excellence",
+        "slug": "scaling-up-excellence",
+        "contentType": "books"
+      },
+      {
+        "title": "The 15 Commitments of Conscious Leadership",
+        "slug": "the-15-commitments-of-conscious-leadership",
+        "contentType": "books"
+      },
+      {
+        "title": "The Crux",
+        "slug": "the-crux",
+        "contentType": "books"
+      },
+      {
+        "title": "The Fearless Organization",
+        "slug": "the-fearless-organization",
+        "contentType": "books"
+      },
+      {
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline",
+        "contentType": "books"
+      },
+      {
+        "title": "Trillion Dollar Coach",
+        "slug": "trillion-dollar-coach",
+        "contentType": "books"
+      },
+      {
+        "title": "8 Lessons From the Best Remote Companies in the World",
+        "slug": "8-lessons-from-the-best-remote-companies-in-the-world",
+        "contentType": "articles"
+      },
+      {
+        "title": "Be a Thermostat, Not a Thermometer",
+        "slug": "be-a-thermostat-not-a-thermometer",
+        "contentType": "articles"
+      },
+      {
+        "title": "Brain Food: The Unexpected Path to Success",
+        "slug": "brain-food-the-unexpected-path-to-success",
+        "contentType": "articles"
+      },
+      {
+        "title": "Carl Braun’s Writing Lessons for Clear Thinking and Productive Communication",
+        "slug": "carl-brauns-writing-lessons-for-clear-thinking-and-productive-communication",
+        "contentType": "articles"
+      },
+      {
+        "title": "Collective Ownership of Code and Text",
+        "slug": "collective-ownership-of-code-and-text",
+        "contentType": "articles"
+      },
+      {
+        "title": "Conscious Competition",
+        "slug": "conscious-competition",
+        "contentType": "articles"
+      },
+      {
+        "title": "Death of a Flywheel",
+        "slug": "death-of-a-flywheel",
+        "contentType": "articles"
+      },
+      {
+        "title": "Decision Making for CEO’s Simplified",
+        "slug": "decision-making-for-ceos-simplified",
+        "contentType": "articles"
+      },
+      {
+        "title": "Failure to Face the Truth",
+        "slug": "failure-to-face-the-truth",
+        "contentType": "articles"
+      },
+      {
+        "title": "Fostering a Culture of Accountability",
+        "slug": "fostering-a-culture-of-accountability",
+        "contentType": "articles"
+      },
+      {
+        "title": "Functional Versus Unit Organizations | by Steven Sinofsky | Learning by Shipping",
+        "slug": "functional-versus-unit-organizations-by-steven-sinofsky-learning-by-shipping",
+        "contentType": "articles"
+      },
+      {
+        "title": "‘Give Away Your Legos’ and Other Commandments for Scaling Startups",
+        "slug": "give-away-your-legos-and-other-commandments-for-scaling-startups",
+        "contentType": "articles"
+      },
+      {
+        "title": "Growth Looks Different Than You Think.",
+        "slug": "growth-looks-different-than-you-think",
+        "contentType": "articles"
+      },
+      {
+        "title": "Heuristics for Effective Software Development Organizations: A Continuously Evolving List.* | Allen Holub",
+        "slug": "heuristics-for-effective-software-development-organizations-a-continuously-evolving-list-allen-ho",
+        "contentType": "articles"
+      },
+      {
+        "title": "Hunting Tech Debt via Org Charts",
+        "slug": "hunting-tech-debt-via-org-charts",
+        "contentType": "articles"
+      },
+      {
+        "title": "Leading Distributed: The Remote Guide to Management",
+        "slug": "leading-distributed-the-remote-guide-to-management",
+        "contentType": "articles"
+      },
+      {
+        "title": "Luck, Skill or Hard Work…which Is It?",
+        "slug": "luck-skill-or-hard-workwhich-is-it",
+        "contentType": "articles"
+      },
+      {
+        "title": "Meetings _Are_ the Work",
+        "slug": "meetings-are-the-work",
+        "contentType": "articles"
+      },
+      {
+        "title": "No Margin, No Mission",
+        "slug": "no-margin-no-mission",
+        "contentType": "articles"
+      },
+      {
+        "title": "Operating Well: What I Learned at Stripe",
+        "slug": "operating-well-what-i-learned-at-stripe",
+        "contentType": "articles"
+      },
+      {
+        "title": "Org Structure Isn’t Everything in Org Design",
+        "slug": "org-structure-isnt-everything-in-org-design",
+        "contentType": "articles"
+      },
+      {
+        "title": "Peter Bevelin on Seeking Wisdom, Mental Models, Learning, and a Lot More - Farnam Street",
+        "slug": "peter-bevelin-on-seeking-wisdom-mental-models-learning-and-a-lot-more-farnam-street",
+        "contentType": "articles"
+      },
+      {
+        "title": "Telling incredible stories",
+        "slug": "telling-incredible-stories",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Iterative Adjacent Possible",
+        "slug": "the-iterative-adjacent-possible",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Mindsets and Practices of Excellent CEOs",
+        "slug": "the-mindsets-and-practices-of-excellent-ceos",
+        "contentType": "articles"
+      },
+      {
+        "title": "The narrative structure of the strategic Fairytale Plan",
+        "slug": "the-narrative-structure-of-the-strategic-fairytale-plan",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Nature and Creation of Chaordic Organizations",
+        "slug": "the-nature-and-creation-of-chaordic-organizations",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Problem With Being “Nice” All the Time…",
+        "slug": "the-problem-with-being-nice-all-the-time",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Systems Thinker – Communities of Practice: Learning as a Social System - The Systems Thinker",
+        "slug": "the-systems-thinker-communities-of-practice-learning-as-a-social-system-the-systems-thinker",
+        "contentType": "articles"
+      },
+      {
+        "title": "What Is Underneath Productivity?",
+        "slug": "what-is-underneath-productivity",
+        "contentType": "articles"
+      },
+      {
+        "title": "Working Backwards",
+        "slug": "working-backwards",
+        "contentType": "articles"
+      },
+      {
+        "title": "You Probably Shouldn’t Work at a Startup - Napkin Math - Every",
+        "slug": "you-probably-shouldnt-work-at-a-startup-napkin-math-every",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Management",
+      "management"
+    ],
+    "slug": "management",
+    "status": "seedling",
+    "contentType": "topics",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "100 Truths You Will Learn Too Late",
+        "slug": "100-truths-you-will-learn-too-late",
+        "contentType": "books"
+      },
+      {
+        "title": "Clear Thinking",
+        "slug": "clear-thinking",
+        "contentType": "books"
+      },
+      {
+        "title": "Empowered",
+        "slug": "empowered",
+        "contentType": "books"
+      },
+      {
+        "title": "From Start-Up to Grown-Up",
+        "slug": "from-start-up-to-grown-up",
+        "contentType": "books"
+      },
+      {
+        "title": "Inspired",
+        "slug": "inspired",
+        "contentType": "books"
+      },
+      {
+        "title": "Measure What Matters",
+        "slug": "measure-what-matters",
+        "contentType": "books"
+      },
+      {
+        "title": "Scaling Up Excellence",
+        "slug": "scaling-up-excellence",
+        "contentType": "books"
+      },
+      {
+        "title": "Switch",
+        "slug": "switch",
+        "contentType": "books"
+      },
+      {
+        "title": "The Coaching Habit",
+        "slug": "the-coaching-habit",
+        "contentType": "books"
+      },
+      {
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline",
+        "contentType": "books"
+      },
+      {
+        "title": "Trillion Dollar Coach",
+        "slug": "trillion-dollar-coach",
+        "contentType": "books"
+      },
+      {
+        "title": "Advice for Using Goal Frameworks",
+        "slug": "advice-for-using-goal-frameworks",
+        "contentType": "articles"
+      },
+      {
+        "title": "Heuristics for Effective Software Development Organizations: A Continuously Evolving List.* | Allen Holub",
+        "slug": "heuristics-for-effective-software-development-organizations-a-continuously-evolving-list-allen-ho",
+        "contentType": "articles"
+      },
+      {
+        "title": "How Big Tech Runs Tech Projects and the Curious Absence of Scrum",
+        "slug": "how-big-tech-runs-tech-projects-and-the-curious-absence-of-scrum",
+        "contentType": "articles"
+      },
+      {
+        "title": "Hunting Tech Debt via Org Charts",
+        "slug": "hunting-tech-debt-via-org-charts",
+        "contentType": "articles"
+      },
+      {
+        "title": "No Margin, No Mission",
+        "slug": "no-margin-no-mission",
+        "contentType": "articles"
+      },
+      {
+        "title": "One Moment in a Decade",
+        "slug": "one-moment-in-a-decade",
+        "contentType": "articles"
+      },
+      {
+        "title": "Operating Well: What I Learned at Stripe",
+        "slug": "operating-well-what-i-learned-at-stripe",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Mindsets and Practices of Excellent CEOs",
+        "slug": "the-mindsets-and-practices-of-excellent-ceos",
+        "contentType": "articles"
+      },
+      {
+        "title": "The TYRANNY of STRUCTURELESSNESS",
+        "slug": "the-tyranny-of-structurelessness",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Untold Story of Buffer’s Values: Why We Created Them, and Why It Hurt",
+        "slug": "the-untold-story-of-buffers-values-why-we-created-them-and-why-it-hurt",
+        "contentType": "articles"
+      },
+      {
+        "title": "Toward a New Model for Corporate Learning and Development",
+        "slug": "toward-a-new-model-for-corporate-learning-and-development",
+        "contentType": "articles"
+      },
+      {
+        "title": "Work the Policy, Not the Exceptions.",
+        "slug": "work-the-policy-not-the-exceptions",
+        "contentType": "articles"
+      },
+      {
+        "title": "Working Backwards",
+        "slug": "working-backwards",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Marketing",
+      "marketing"
+    ],
+    "slug": "marketing",
+    "status": "seedling",
+    "contentType": "topics",
+    "outboundLinks": [
+      {
+        "matchedId": "Marketing must build availability",
+        "title": "Marketing must build availability",
+        "slug": "marketing-must-build-availability",
+        "contentType": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "$100M Leads",
+        "slug": "100m-leads",
+        "contentType": "books"
+      },
+      {
+        "title": "From Impossible to Inevitable",
+        "slug": "from-impossible-to-inevitable",
+        "contentType": "books"
+      },
+      {
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow",
+        "contentType": "books"
+      },
+      {
+        "title": "Marketers Are From Mars, Consumers Are From New Jersey",
+        "slug": "marketers-are-from-mars-consumers-are-from-new-jersey",
+        "contentType": "books"
+      },
+      {
+        "title": "Professional Services Marketing",
+        "slug": "professional-services-marketing",
+        "contentType": "books"
+      },
+      {
+        "title": "Rainmaking Conversations",
+        "slug": "rainmaking-conversations",
+        "contentType": "books"
+      },
+      {
+        "title": "The Business of Aspiration",
+        "slug": "the-business-of-aspiration",
+        "contentType": "books"
+      },
+      {
+        "title": "The New Strategic Brand Management",
+        "slug": "the-new-strategic-brand-management",
+        "contentType": "books"
+      },
+      {
+        "title": "10 Consulting Trends: 2024 Edition",
+        "slug": "10-consulting-trends-2024-edition",
+        "contentType": "articles"
+      },
+      {
+        "title": "10 Rules of IP Brands",
+        "slug": "10-rules-of-ip-brands",
+        "contentType": "articles"
+      },
+      {
+        "title": "📦 - $12M From One Form Tweak? Yes Please",
+        "slug": "12m-from-one-form-tweak-yes-please",
+        "contentType": "articles"
+      },
+      {
+        "title": "🎓",
+        "slug": "2",
+        "contentType": "articles"
+      },
+      {
+        "title": "21 Examples of Successful Co-Branding Partnerships",
+        "slug": "21-examples-of-successful-co-branding-partnerships",
+        "contentType": "articles"
+      },
+      {
+        "title": "5-Minute Whiteboard: Measurement vs. Attribution",
+        "slug": "5-minute-whiteboard-measurement-vs-attribution",
+        "contentType": "articles"
+      },
+      {
+        "title": "“90% of Startups Fail to Acquire New Customers",
+        "slug": "90percent-of-startups-fail-to-acquire-new-customers",
+        "contentType": "articles"
+      },
+      {
+        "title": "A Few Great Writing Prompts",
+        "slug": "a-few-great-writing-prompts",
+        "contentType": "articles"
+      },
+      {
+        "title": "A Smart Bear » Excuse me, is there a problem?",
+        "slug": "a-smart-bear-excuse-me-is-there-a-problem",
+        "contentType": "articles"
+      },
+      {
+        "title": "‘A Very Big Part of Our Media Spend’: Why Peace Out Skincare Is Increasingly Branching Out From TikTok",
+        "slug": "a-very-big-part-of-our-media-spend-why-peace-out-skincare-is-increasingly-branching-out-from-tikt",
+        "contentType": "articles"
+      },
+      {
+        "title": "Ads Don’t Work That Way",
+        "slug": "ads-dont-work-that-way",
+        "contentType": "articles"
+      },
+      {
+        "title": "AI Can Jump-Start Consumer Brands, Investors and Founders Say",
+        "slug": "ai-can-jump-start-consumer-brands-investors-and-founders-say",
+        "contentType": "articles"
+      },
+      {
+        "title": "Although Meta’s Ad Revenue Is Recovering, Retail Media May Prove Its Biggest Competition",
+        "slug": "although-metas-ad-revenue-is-recovering-retail-media-may-prove-its-biggest-competition",
+        "contentType": "articles"
+      },
+      {
+        "title": "Amazon’s Slow Shift to Marketplace",
+        "slug": "amazons-slow-shift-to-marketplace",
+        "contentType": "articles"
+      },
+      {
+        "title": "Building in Public - First 10k + WTF Have I Done?!",
+        "slug": "building-in-public-first-10k-wtf-have-i-done",
+        "contentType": "articles"
+      },
+      {
+        "title": "Commerce Can No Longer Be Where Creative Goes to Die",
+        "slug": "commerce-can-no-longer-be-where-creative-goes-to-die",
+        "contentType": "articles"
+      },
+      {
+        "title": "Consumer Products Report 2024: Resetting the Growth Agenda",
+        "slug": "consumer-products-report-2024-resetting-the-growth-agenda",
+        "contentType": "articles"
+      },
+      {
+        "title": "Corteiz Goods - by Ana Andjelic - The Sociology of Business",
+        "slug": "corteiz-goods-by-ana-andjelic-the-sociology-of-businesscorteiz-goods",
+        "contentType": "articles"
+      },
+      {
+        "title": "Don’t Try to Run Before You Can Walk",
+        "slug": "dont-try-to-run-before-you-can-walk",
+        "contentType": "articles"
+      },
+      {
+        "title": "DTC Briefing: Brands Adjust to Conflicting Consumer Signals Heading Into Summer",
+        "slug": "dtc-briefing-brands-adjust-to-conflicting-consumer-signals-heading-into-summer",
+        "contentType": "articles"
+      },
+      {
+        "title": "DTC Briefing: Startups Are Gearing Up for Meta to Prioritize Traffic to Facebook and Instagram Shops",
+        "slug": "dtc-briefing-startups-are-gearing-up-for-meta-to-prioritize-traffic-to-facebook-and-instagram-sho",
+        "contentType": "articles"
+      },
+      {
+        "title": "Google’s Latest Cookie Alternative Tests Show Promise — And Loads of Caveats",
+        "slug": "googles-latest-cookie-alternative-tests-show-promise-and-loads-of-caveats",
+        "contentType": "articles"
+      },
+      {
+        "title": "How brands create value - by Ana Andjelic",
+        "slug": "how-brands-create-value-by-ana-andjelichow-brands-create-value",
+        "contentType": "articles"
+      },
+      {
+        "title": "How Brands Make Culture",
+        "slug": "how-brands-make-culture",
+        "contentType": "articles"
+      },
+      {
+        "title": "How Creators Influence Brands — And Why They Listen",
+        "slug": "how-creators-influence-brands-and-why-they-listen",
+        "contentType": "articles"
+      },
+      {
+        "title": "How Do You Create a Great Marketing Strategy? | 5-Minute Whiteboard",
+        "slug": "how-do-you-create-a-great-marketing-strategy-5-minute-whiteboard",
+        "contentType": "articles"
+      },
+      {
+        "title": "How Influencer Marketing Will Evolve in 2024, According to Executives and Creators",
+        "slug": "how-influencer-marketing-will-evolve-in-2024-according-to-executives-and-creators",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Build Brand Energy",
+        "slug": "how-to-build-brand-energy",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Do a Collaboration Right",
+        "slug": "how-to-do-a-collaboration-right",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Find the Real Reason Conversions Dropped.",
+        "slug": "how-to-find-the-real-reason-conversions-dropped",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Get Brand Partnerships Right",
+        "slug": "how-to-get-brand-partnerships-right",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Make Your Brand Feel Alive When You Only Have One Product",
+        "slug": "how-to-make-your-brand-feel-alive-when-you-only-have-one-product",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Measure “Hard-to-Measure” Marketing Channels",
+        "slug": "how-to-measure-hard-to-measure-marketing-channels",
+        "contentType": "articles"
+      },
+      {
+        "title": "Influencer Agencies Report Mixed Experiences With TikTok Shop",
+        "slug": "influencer-agencies-report-mixed-experiences-with-tiktok-shop",
+        "contentType": "articles"
+      },
+      {
+        "title": "Influencer Marketing for E-Commerce",
+        "slug": "influencer-marketing-for-e-commerce",
+        "contentType": "articles"
+      },
+      {
+        "title": "Inside Fashion’s Music Merch Opportunity",
+        "slug": "inside-fashions-music-merch-opportunity",
+        "contentType": "articles"
+      },
+      {
+        "title": "Inside the Viral Heinz X Absolut Collab That Sent Pasta Sauce Sales Soaring",
+        "slug": "inside-the-viral-heinz-x-absolut-collab-that-sent-pasta-sauce-sales-soaring",
+        "contentType": "articles"
+      },
+      {
+        "title": "Insiders #080: Rethinking Brand Power Structures",
+        "slug": "insiders-080-rethinking-brand-power-structures",
+        "contentType": "articles"
+      },
+      {
+        "title": "Insiders #169: Static Pileup: The Pursuit of Cool in the Age of Algorithms",
+        "slug": "insiders-169-static-pileup-the-pursuit-of-cool-in-the-age-of-algorithms",
+        "contentType": "articles"
+      },
+      {
+        "title": "Is a Game Changer For",
+        "slug": "is-a-game-changer-for",
+        "contentType": "articles"
+      },
+      {
+        "title": "Lessons Learned From a Startup That Didn’t Make It",
+        "slug": "lessons-learned-from-a-startup-that-didnt-make-it",
+        "contentType": "articles"
+      },
+      {
+        "title": "LinkedIn_ABM_Guide_Final_201113",
+        "slug": "linkedinabmguidefinal201113",
+        "contentType": "articles"
+      },
+      {
+        "title": "Liquidity Is Back on the Menu, Boys",
+        "slug": "liquidity-is-back-on-the-menu-boys",
+        "contentType": "articles"
+      },
+      {
+        "title": "Luxury x Crypto - by Ana Andjelic",
+        "slug": "luxury-x-crypto-by-ana-andjelicluxury-x-crypto",
+        "contentType": "articles"
+      },
+      {
+        "title": "Made, Sold, and Marketed by China",
+        "slug": "made-sold-and-marketed-by-china",
+        "contentType": "articles"
+      },
+      {
+        "title": "Marketing Analytics: Attribution Is Not Incrementality",
+        "slug": "marketing-analytics-attribution-is-not-incrementality",
+        "contentType": "articles"
+      },
+      {
+        "title": "Member Brief: DTC and Hope",
+        "slug": "member-brief-dtc-and-hope",
+        "contentType": "articles"
+      },
+      {
+        "title": "Members Only: Where Shopify Will Be in One Year",
+        "slug": "members-only-where-shopify-will-be-in-one-year",
+        "contentType": "articles"
+      },
+      {
+        "title": "Memo: All About RMN",
+        "slug": "memo-all-about-rmn",
+        "contentType": "articles"
+      },
+      {
+        "title": "Move Over Influencers, Here Come Curators",
+        "slug": "move-over-influencers-here-come-curators",
+        "contentType": "articles"
+      },
+      {
+        "title": "Multi-Channel Attribution: Definitions, Models and a Reality Check",
+        "slug": "multi-channel-attribution-definitions-models-and-a-reality-check",
+        "contentType": "articles"
+      },
+      {
+        "title": "My $4.8M Social Media Sales Funnel",
+        "slug": "my-48m-social-media-sales-funnel",
+        "contentType": "articles"
+      },
+      {
+        "title": "My Email Playbook for Fashion Brands",
+        "slug": "my-email-playbook-for-fashion-brands",
+        "contentType": "articles"
+      },
+      {
+        "title": "New Rules of Brand Marketing",
+        "slug": "new-rules-of-brand-marketing",
+        "contentType": "articles"
+      },
+      {
+        "title": "No. 314: On Linear Commerce",
+        "slug": "no-314-on-linear-commerce",
+        "contentType": "articles"
+      },
+      {
+        "title": "Passages Saved From iOS",
+        "slug": "passages-saved-from-ios",
+        "contentType": "articles"
+      },
+      {
+        "title": "Research: The Influence of Shared Joy on Consumption",
+        "slug": "research-the-influence-of-shared-joy-on-consumption",
+        "contentType": "articles"
+      },
+      {
+        "title": "SEO in an AI world: first draft of a strategy",
+        "slug": "seo-in-an-ai-world-first-draft-of-a-strategyseo-in-an-ai-world-first-draft-of-a-strategy",
+        "contentType": "articles"
+      },
+      {
+        "title": "Solo Stove Ignites the Age-Old Brand Versus Performance Marketing Debate",
+        "slug": "solo-stove-ignites-the-age-old-brand-versus-performance-marketing-debate",
+        "contentType": "articles"
+      },
+      {
+        "title": "Strange Attraction",
+        "slug": "strange-attraction",
+        "contentType": "articles"
+      },
+      {
+        "title": "Targeting taste communities - by Ana Andjelic",
+        "slug": "targeting-taste-communities-by-ana-andjelictargeting-taste-communities",
+        "contentType": "articles"
+      },
+      {
+        "title": "Telling the 800-Lb Gorilla to Shove It Up His Ass",
+        "slug": "telling-the-800-lb-gorilla-to-shove-it-up-his-ass",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Age of Soloculture — Quick Study",
+        "slug": "the-age-of-soloculture-quick-study",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Email Marketing Playbook We Wish We Had",
+        "slug": "the-email-marketing-playbook-we-wish-we-had",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Great Flattening",
+        "slug": "the-great-flattening",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Media Buyer #25",
+        "slug": "the-media-buyer-25",
+        "contentType": "articles"
+      },
+      {
+        "title": "💦 The Media Buyer #40: MMM is MANDATORY in 2024",
+        "slug": "the-media-buyer-40-mmm-is-mandatory-in-2024",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Multi-Billion Dollar Winner of the US Election: Meta & Google",
+        "slug": "the-multi-billion-dollar-winner-of-the-us-election-meta-and-google",
+        "contentType": "articles"
+      },
+      {
+        "title": "The New Fashion Creativity",
+        "slug": "the-new-fashion-creativity",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Next Growth Market",
+        "slug": "the-next-growth-market",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Rise and Rise of on Running",
+        "slug": "the-rise-and-rise-of-on-running",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Society of Spectacle - by Ana Andjelic",
+        "slug": "the-society-of-spectacle-by-ana-andjelicthe-society-of-spectacle",
+        "contentType": "articles"
+      },
+      {
+        "title": "The taste map - by Ana Andjelic - The Sociology of Business",
+        "slug": "the-taste-map-by-ana-andjelic-the-sociology-of-businessthe-taste-map",
+        "contentType": "articles"
+      },
+      {
+        "title": "TikTok’s Plan to Cash in on Its Popularity Among Gen-Z Shoppers Has a Big Flaw",
+        "slug": "tiktoks-plan-to-cash-in-on-its-popularity-among-gen-z-shoppers-has-a-big-flaw",
+        "contentType": "articles"
+      },
+      {
+        "title": "What Momentum Looks Like",
+        "slug": "what-momentum-looks-like",
+        "contentType": "articles"
+      },
+      {
+        "title": "While Meta Tries to Push Advantage+ Shopping Campaigns, Some Agencies Aren’t Yet Convinced",
+        "slug": "while-meta-tries-to-push-advantage-shopping-campaigns-some-agencies-arent-yet-convinced",
+        "contentType": "articles"
+      },
+      {
+        "title": "Who’s your audience? - by Ana Andjelic",
+        "slug": "whos-your-audience-by-ana-andjelicwhos-your-audience",
+        "contentType": "articles"
+      },
+      {
+        "title": "Why 2024 Will Be the Year of the Brand",
+        "slug": "why-2024-will-be-the-year-of-the-brand",
+        "contentType": "articles"
+      },
+      {
+        "title": "Why Buy-One, Get-One-Free Offers Are More Complicated Than You Remember",
+        "slug": "why-buy-one-get-one-free-offers-are-more-complicated-than-you-remember",
+        "contentType": "articles"
+      },
+      {
+        "title": "Why Creator-Led Content Marketing Is the Future of Search",
+        "slug": "why-creator-led-content-marketing-is-the-future-of-search",
+        "contentType": "articles"
+      },
+      {
+        "title": "Why Is Fashion Diving Into New Industries?",
+        "slug": "why-is-fashion-diving-into-new-industries",
+        "contentType": "articles"
+      },
+      {
+        "title": "Why Walmart Is Buying a TV Brand",
+        "slug": "why-walmart-is-buying-a-tv-brand",
+        "contentType": "articles"
+      },
+      {
+        "title": "You Can’t Hack Product Positioning",
+        "slug": "you-cant-hack-product-positioning",
+        "contentType": "articles"
+      },
+      {
+        "title": "Zero-1st-2nd-3rd-Part-Data-Exponea",
+        "slug": "zero-1st-2nd-3rd-part-data-exponea",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Psychology",
+      "psychology"
+    ],
+    "slug": "psychology",
+    "status": "seedling",
+    "contentType": "topics",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Clear Thinking",
+        "slug": "clear-thinking",
+        "contentType": "books"
+      },
+      {
+        "title": "Dare La Vita",
+        "slug": "dare-la-vita",
+        "contentType": "books"
+      },
+      {
+        "title": "Ego Is the Enemy",
+        "slug": "ego-is-the-enemy",
+        "contentType": "books"
+      },
+      {
+        "title": "Ma Chi Me Lo Fa Fare? Come Il Lavoro Ci Ha Illuso",
+        "slug": "ma-chi-me-lo-fa-fare-come-il-lavoro-ci-ha-illuso",
+        "contentType": "books"
+      },
+      {
+        "title": "The 15 Commitments of Conscious Leadership",
+        "slug": "the-15-commitments-of-conscious-leadership",
+        "contentType": "books"
+      },
+      {
+        "title": "Be a Thermostat, Not a Thermometer",
+        "slug": "be-a-thermostat-not-a-thermometer",
+        "contentType": "articles"
+      },
+      {
+        "title": "Bill Watterson: ‘Some Thoughts on the Real World by One Who Glimpsed It and Fled’, Kenyon College - 1990",
+        "slug": "bill-watterson-some-thoughts-on-the-real-world-by-one-who-glimpsed-it-and-fled-kenyon-college-199",
+        "contentType": "articles"
+      },
+      {
+        "title": "Brain Food: Internally Driven",
+        "slug": "brain-food-internally-driven",
+        "contentType": "articles"
+      },
+      {
+        "title": "Dasein - Wikipedia",
+        "slug": "dasein-wikipedia",
+        "contentType": "articles"
+      },
+      {
+        "title": "Experiences Won’t Make You Happier Than Possessions",
+        "slug": "experiences-wont-make-you-happier-than-possessions",
+        "contentType": "articles"
+      },
+      {
+        "title": "False Consensus Effect: Definition and Examples",
+        "slug": "false-consensus-effect-definition-and-examples",
+        "contentType": "articles"
+      },
+      {
+        "title": "How Hard Should I Push Myself?",
+        "slug": "how-hard-should-i-push-myself",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Do Hard Things",
+        "slug": "how-to-do-hard-things",
+        "contentType": "articles"
+      },
+      {
+        "title": "Momentum, Consolidation, and Breakout",
+        "slug": "momentum-consolidation-and-breakout",
+        "contentType": "articles"
+      },
+      {
+        "title": "What Is the Alexander Technique?",
+        "slug": "what-is-the-alexander-technique",
+        "contentType": "articles"
+      },
+      {
+        "title": "Why Life Can’t Be Simpler",
+        "slug": "why-life-cant-be-simpler",
+        "contentType": "articles"
+      },
+      {
+        "title": "Why You Should Give Up on Your Dreams",
+        "slug": "why-you-should-give-up-on-your-dreams",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Thinking",
+      "thinking"
+    ],
+    "slug": "thinking",
+    "status": "seedling",
+    "contentType": "topics",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Building a Second Brain",
+        "slug": "building-a-second-brain",
+        "contentType": "books"
+      },
+      {
+        "title": "Clear Thinking",
+        "slug": "clear-thinking",
+        "contentType": "books"
+      },
+      {
+        "title": "Brain Food: Causing Extraordinary",
+        "slug": "brain-food-causing-extraordinary",
+        "contentType": "articles"
+      },
+      {
+        "title": "Brain Food: Consistently Boring",
+        "slug": "brain-food-consistently-boring",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Be More Agentic",
+        "slug": "how-to-be-more-agentic",
+        "contentType": "articles"
+      },
+      {
+        "title": "The META Trending Trends: 2024",
+        "slug": "the-meta-trending-trends-2024",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Web3",
+      "web3"
+    ],
+    "slug": "web3",
+    "status": "seedling",
+    "contentType": "topics",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "#022 Commodification Cripples Culture",
+        "slug": "022-commodification-cripples-culture",
+        "contentType": "articles"
+      },
+      {
+        "title": "3 Pillars of Digital Luxury",
+        "slug": "3-pillars-of-digital-luxury",
+        "contentType": "articles"
+      },
+      {
+        "title": "Consumers Want More From Digital Product Passports, New Survey Says",
+        "slug": "consumers-want-more-from-digital-product-passports-new-survey-says",
+        "contentType": "articles"
+      },
+      {
+        "title": "Fashion Briefing: Against All Odds, Web3 Loyalty Programs Are Flourishing",
+        "slug": "fashion-briefing-against-all-odds-web3-loyalty-programs-are-flourishing",
+        "contentType": "articles"
+      },
+      {
+        "title": "Luxury x Crypto - by Ana Andjelic",
+        "slug": "luxury-x-crypto-by-ana-andjelicluxury-x-crypto",
+        "contentType": "articles"
+      },
+      {
+        "title": "Roblox Marketers Feel the Tension—inside Brands’ Next Challenge on the Platform",
+        "slug": "roblox-marketers-feel-the-tensioninside-brands-next-challenge-on-the-platform",
+        "contentType": "articles"
+      },
+      {
+        "title": "What Investors Want From DTC Brands",
+        "slug": "what-investors-want-from-dtc-brands",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Writing",
+      "writing"
+    ],
+    "slug": "writing",
+    "status": "seedling",
+    "contentType": "topics",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "A Few Great Writing Prompts",
+        "slug": "a-few-great-writing-prompts",
+        "contentType": "articles"
+      },
+      {
+        "title": "Carl Braun’s Writing Lessons for Clear Thinking and Productive Communication",
+        "slug": "carl-brauns-writing-lessons-for-clear-thinking-and-productive-communication",
+        "contentType": "articles"
+      },
+      {
+        "title": "Show Your Work",
+        "slug": "show-your-work",
+        "contentType": "articles"
+      },
+      {
+        "title": "Strange Attraction",
+        "slug": "strange-attraction",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Ultimate Guide to Writing Online",
+        "slug": "the-ultimate-guide-to-writing-online",
+        "contentType": "articles"
+      },
+      {
+        "title": "Unlock the Power of Effective Writing: Insights From Steven Pinker",
+        "slug": "unlock-the-power-of-effective-writing-insights-from-steven-pinker",
+        "contentType": "articles"
+      },
+      {
+        "title": "What I Think About When I Edit",
+        "slug": "what-i-think-about-when-i-edit",
+        "contentType": "articles"
+      }
+    ]
   }
 ]
