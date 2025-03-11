@@ -38,6 +38,7 @@ const headerNavigation = getHeaderNavigation();
                 return (
                   <div
                     class:list={[
+                      "whitespace-nowrap",
                       isDropdownActive(item, currentPath) && "text-orange-700",
                     ]}
                   >
@@ -55,7 +56,7 @@ const headerNavigation = getHeaderNavigation();
                 );
               } else {
                 return (
-                  <div>
+                  <div class="whitespace-nowrap">
                     <Link
                       href={item.href}
                       variant="secondary"
