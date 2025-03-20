@@ -1055,11 +1055,22 @@
   },
   {
     "ids": [
+      "The Experience-Led Commerce Framework Explained",
+      "2025-03-17-xlc-explained"
+    ],
+    "slug": "2025-03-17-xlc-explained",
+    "status": "seedling",
+    "contentType": "essays",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Accelerate existing customer behavior",
       "accelerate-existing-customer-behavior"
     ],
     "slug": "accelerate-existing-customer-behavior",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
@@ -1067,6 +1078,12 @@
         "title": "How Brands Grow",
         "slug": "how-brands-grow",
         "contentType": "books"
+      },
+      {
+        "matchedId": "three-simple-retention-frameworks",
+        "title": "Three Simple Retention Frameworks",
+        "slug": "three-simple-retention-frameworks",
+        "contentType": "articles"
       }
     ],
     "inboundLinks": []
@@ -1811,17 +1828,34 @@
       "bright-spots-catalyze-change"
     ],
     "slug": "bright-spots-catalyze-change",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
+      {
+        "matchedId": "effective-change-requires-collaboration",
+        "title": "Effective change requires collaboration",
+        "slug": "effective-change-requires-collaboration",
+        "contentType": "notes"
+      },
       {
         "matchedId": "switch",
         "title": "Switch",
         "slug": "switch",
         "contentType": "books"
+      },
+      {
+        "matchedId": "why-you-should-go-all-in-on-erp",
+        "title": "Why You Should Go All-in on ERP",
+        "slug": "why-you-should-go-all-in-on-erp",
+        "contentType": "articles"
       }
     ],
     "inboundLinks": [
+      {
+        "title": "Point to the new tower",
+        "slug": "point-to-the-new-tower",
+        "contentType": "notes"
+      },
       {
         "title": "Shared vision is built through hiring",
         "slug": "shared-vision-is-built-through-hiring",
@@ -3025,6 +3059,11 @@
     ],
     "inboundLinks": [
       {
+        "title": "Bright spots catalyze change",
+        "slug": "bright-spots-catalyze-change",
+        "contentType": "notes"
+      },
+      {
         "title": "Great consulting requires client collaboration",
         "slug": "great-consulting-requires-client-collaboration",
         "contentType": "notes"
@@ -3035,6 +3074,30 @@
         "contentType": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Efficiency must be defensible",
+      "efficiency-must-be-defensible"
+    ],
+    "slug": "efficiency-must-be-defensible",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "good-strategy-bad-strategy",
+        "title": "Good Strategy/Bad Strategy",
+        "slug": "good-strategy-bad-strategy",
+        "contentType": "books"
+      },
+      {
+        "matchedId": "exploring-the-map",
+        "title": "Exploring the Map",
+        "slug": "exploring-the-map",
+        "contentType": "articles"
+      }
+    ],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -3894,17 +3957,6 @@
         "contentType": "notes"
       }
     ]
-  },
-  {
-    "ids": [
-      "Improvements must be protected",
-      "improvements-must-be-protected"
-    ],
-    "slug": "improvements-must-be-protected",
-    "status": "seedling",
-    "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
   },
   {
     "ids": [
@@ -5191,6 +5243,12 @@
     "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
+      {
+        "matchedId": "bright-spots-catalyze-change",
+        "title": "Bright spots catalyze change",
+        "slug": "bright-spots-catalyze-change",
+        "contentType": "notes"
+      },
       {
         "matchedId": "‘give-away-your-legos’-and-other-commandments-for-scaling-startups",
         "title": "‘Give Away Your Legos’ and Other Commandments for Scaling Startups",
@@ -7113,6 +7171,24 @@
   },
   {
     "ids": [
+      "Weirdness is the seed of humor",
+      "weirdness-is-the-seed-of-humor"
+    ],
+    "slug": "weirdness-is-the-seed-of-humor",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "how-to-be-funny-in-public-speaking",
+        "title": "How to Be Funny in Public Speaking",
+        "slug": "how-to-be-funny-in-public-speaking",
+        "contentType": "articles"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Wholesale boosts brand awareness",
       "wholesale-boosts-brand-awareness"
     ],
@@ -7967,7 +8043,13 @@
         "contentType": "topics"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Efficiency must be defensible",
+        "slug": "efficiency-must-be-defensible",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -10826,6 +10908,18 @@
   },
   {
     "ids": [
+      "A Smart Bear » a Life-Changing Challenge Guided by Pascal’s Wager",
+      "a-smart-bear-»-a-life-changing-challenge-guided-by-pascal’s-wager",
+      "a-smart-bear-a-life-changing-challenge-guided-by-pascals-wager"
+    ],
+    "slug": "a-smart-bear-a-life-changing-challenge-guided-by-pascals-wager",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "A Smart Bear » Avoid blundering: 80% of a winning strategy",
       "a-smart-bear-»-avoid-blundering-80%-of-a-winning-strategy",
       "a-smart-bear-avoid-blundering-80percent-of-a-winning-strategy"
@@ -10843,6 +10937,18 @@
       "a-smart-bear-change-damned-if-you-do-damned-more-if-you-dont"
     ],
     "slug": "a-smart-bear-change-damned-if-you-do-damned-more-if-you-dont",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "A Smart Bear » Darwinian Advice for “Going Viral”",
+      "a-smart-bear-»-darwinian-advice-for-“going-viral”",
+      "a-smart-bear-darwinian-advice-for-going-viral"
+    ],
+    "slug": "a-smart-bear-darwinian-advice-for-going-viral",
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
@@ -14480,7 +14586,13 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Efficiency must be defensible",
+        "slug": "efficiency-must-be-defensible",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -15835,7 +15947,13 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Weirdness is the seed of humor",
+        "slug": "weirdness-is-the-seed-of-humor",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -16942,6 +17060,17 @@
       "insiders-183-mythopoeic-brands"
     ],
     "slug": "insiders-183-mythopoeic-brands",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Insiders #184: Coexist: Avoiding Agentic Ghettos",
+      "insiders-184-coexist-avoiding-agentic-ghettos"
+    ],
+    "slug": "insiders-184-coexist-avoiding-agentic-ghettos",
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
@@ -19310,6 +19439,18 @@
       "quiet-compounding"
     ],
     "slug": "quiet-compounding",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rapporto_Customer__Experience_Da_Uno_a_Zero_Click",
+      "rapporto_customer__experience_da_uno_a_zero_click",
+      "rapportocustomerexperiencedaunoazeroclick"
+    ],
+    "slug": "rapportocustomerexperiencedaunoazeroclick",
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
@@ -22424,6 +22565,17 @@
   },
   {
     "ids": [
+      "The Uncomfortable Truth: Data Lies, Making Anything “Real”",
+      "the-uncomfortable-truth-data-lies-making-anything-real"
+    ],
+    "slug": "the-uncomfortable-truth-data-lies-making-anything-real",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Ungated Manifesto",
       "the-ungated-manifesto"
     ],
@@ -22656,7 +22808,13 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Accelerate existing customer behavior",
+        "slug": "accelerate-existing-customer-behavior",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -24299,7 +24457,13 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Bright spots catalyze change",
+        "slug": "bright-spots-catalyze-change",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -24560,6 +24724,17 @@
       "your-soul-for-a-country-club-membership"
     ],
     "slug": "your-soul-for-a-country-club-membership",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "You’re Not Special",
+      "youre-not-special"
+    ],
+    "slug": "youre-not-special",
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
