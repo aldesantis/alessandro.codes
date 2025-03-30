@@ -19,6 +19,12 @@ const essays = await getSortedEssays();
   </Hero>
 
   <div class="grid lg:grid-cols-2 gap-8">
-    {essays.map((essay) => <EssayCard essay={essay} />)}
+    {
+      essays.length > 0 ? (
+        essays.map((essay) => <EssayCard essay={essay} />)
+      ) : (
+        <p>Nothing here yet! Check back soon.</p>
+      )
+    }
   </div>
 </Layout>
