@@ -26,5 +26,9 @@ export default defineConfig({
     domains: ["m.media-amazon.com", "covers.openlibrary.org"],
   },
 
+  server: {
+    host: true,
+  },
+  
   adapter: vercel()
 });

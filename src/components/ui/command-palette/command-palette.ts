@@ -268,7 +268,7 @@ export function initCommandPalette(): void {
           >
             <div class="flex justify-between items-center">
               <span>${item.name}</span>
-              <div class="flex items-center gap-2">
+              <div class="hidden sm:flex items-center gap-2">
                 ${item.status ? getStatusBadge(item.status, isSelected) : ""}
                 ${item.date ? `<span class="text-xs ${isSelected ? "text-orange-100" : "text-gray-400"}">${formatDate(item.date)}</span>` : ""}
               </div>
