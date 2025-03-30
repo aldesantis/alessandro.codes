@@ -1,1071 +1,6 @@
 [
   {
     "ids": [
-      "UI Components in Rails",
-      "UI Components in Rails",
-      "UI Components in\\_Rails",
-      "rails-ui-components"
-    ],
-    "slug": "rails-ui-components",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Evolution of an Introvert",
-      "introvert"
-    ],
-    "slug": "introvert",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Imperative Manifesto",
-      "manifesto"
-    ],
-    "slug": "manifesto",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "L’educazione proibita",
-      "educazione-proibita"
-    ],
-    "slug": "educazione-proibita",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Be Childish",
-      "be-childish"
-    ],
-    "slug": "be-childish",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Meditate with Purpose",
-      "Meditate with\\\\_Purpose",
-      "meditate-with-purpose"
-    ],
-    "slug": "meditate-with-purpose",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Do Reinvent the Wheel",
-      "Do Reinvent the Wheel",
-      "Do Reinvent the\\_Wheel",
-      "do-reinvent-the-wheel"
-    ],
-    "slug": "do-reinvent-the-wheel",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Charlotte",
-      "charlotte"
-    ],
-    "slug": "charlotte",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Elogio della satira",
-      "Elogio della\\_satira",
-      "elogio-della-satira"
-    ],
-    "slug": "elogio-della-satira",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      ":extend’s Gotchas",
-      "extends-gotchas"
-    ],
-    "slug": "extends-gotchas",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Movimento e Quiete",
-      "Movimento e\\_Quiete",
-      "Movimento e\\\\_Quiete",
-      "movimento-e-quiete"
-    ],
-    "slug": "movimento-e-quiete",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Sul liceo e sull’accanimento terapeutico",
-      "liceo"
-    ],
-    "slug": "liceo",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Testing Active Record Concerns with RSpec and Temping",
-      "Testing Active Record Concerns with RSpec and\\_Temping",
-      "testing-active-record-concerns"
-    ],
-    "slug": "testing-active-record-concerns",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Il Milite Ignoto: Prologo",
-      "il-milite-ignoto"
-    ],
-    "slug": "il-milite-ignoto",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "People Are Assholes",
-      "people-are-assholes"
-    ],
-    "slug": "people-are-assholes",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Executing Sidekiq Jobs Immediately",
-      "executing-sidekiq-jobs-immediately"
-    ],
-    "slug": "executing-sidekiq-jobs-immediately",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Il caso dell’orsa Daniza",
-      "daniza"
-    ],
-    "slug": "daniza",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "25 Things I Learned on Software Development",
-      "25-things-on-software"
-    ],
-    "slug": "25-things-on-software",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Logophobia",
-      "logophobia"
-    ],
-    "slug": "logophobia",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Il Vecchietto",
-      "il-vecchietto"
-    ],
-    "slug": "il-vecchietto",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Massa e critica",
-      "Massa e\\_critica",
-      "massa-e-critica"
-    ],
-    "slug": "massa-e-critica",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Quasi",
-      "quasi"
-    ],
-    "slug": "quasi",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Sul privilegio di soffrire",
-      "Sul privilegio di\\_soffrire",
-      "soffrire"
-    ],
-    "slug": "soffrire",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Amore",
-      "amore"
-    ],
-    "slug": "amore",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Quello che non ti dico",
-      "Quello che non ti dico",
-      "Quello che non ti\\_dico",
-      "quello-che-non-ti-dico"
-    ],
-    "slug": "quello-che-non-ti-dico",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Straniero",
-      "straniero"
-    ],
-    "slug": "straniero",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Composizione",
-      "composizione"
-    ],
-    "slug": "composizione",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Akram",
-      "akram"
-    ],
-    "slug": "akram",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Critica appassionata dell’(in)utilità della frequenza obbligatoria",
-      "frequenza-obbligatoria"
-    ],
-    "slug": "frequenza-obbligatoria",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Ritmo",
-      "ritmo"
-    ],
-    "slug": "ritmo",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Questo è",
-      "questo-e"
-    ],
-    "slug": "questo-e",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "BSBS: Building Solid Billing Systems",
-      "BSBS: Building Solid Billing\\_Systems",
-      "BSBS: Building Solid Billing Systems",
-      "bsbs"
-    ],
-    "slug": "bsbs",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Quando sai di amarla",
-      "Quando sai di\\_amarla",
-      "quando-sai-di-amarla"
-    ],
-    "slug": "quando-sai-di-amarla",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Superhero",
-      "superhero"
-    ],
-    "slug": "superhero",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The CTO Manifesto",
-      "cto-manifesto"
-    ],
-    "slug": "cto-manifesto",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Leadership: Five Lessons in Five Months",
-      "leadership-lessons"
-    ],
-    "slug": "leadership-lessons",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The No-Bullshit Guide to Hiring",
-      "The No-Bullshit Guide to\\_Hiring",
-      "hiring"
-    ],
-    "slug": "hiring",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Status Quo",
-      "status-quo"
-    ],
-    "slug": "status-quo",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Ombra",
-      "ombra"
-    ],
-    "slug": "ombra",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Alice",
-      "alice"
-    ],
-    "slug": "alice",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "I Want to Quit",
-      "I Want to Quit",
-      "I Want to\\_Quit",
-      "i-want-to-quit"
-    ],
-    "slug": "i-want-to-quit",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Everything Is an Investment",
-      "everything-is-an-investment"
-    ],
-    "slug": "everything-is-an-investment",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Hype Cycle: What It Is and How to Game It",
-      "The Hype Cycle: What It Is and How to Game\\_It",
-      "hype-cycle"
-    ],
-    "slug": "hype-cycle",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "In Defense of Human Testing",
-      "In Defense of Human\\_Testing",
-      "manual-testing"
-    ],
-    "slug": "manual-testing",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Changelog-Versioning Revolution",
-      "changelogs"
-    ],
-    "slug": "changelogs",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The One Skill You Need in Order to Thrive in Life, at Work and Everywhere",
-      "consistency"
-    ],
-    "slug": "consistency",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "People vs Process",
-      "People vs Process",
-      "People vs\\_Process",
-      "people-vs-process"
-    ],
-    "slug": "people-vs-process",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Three Tenets of API Design (1/3): Be Boring",
-      "The Three Tenets of API Design (1/3): Be\\_Boring",
-      "api-design-1"
-    ],
-    "slug": "api-design-1",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Three Tenets of API Design (2/3): Embrace HTTP",
-      "The Three Tenets of API Design (2/3): Embrace\\_HTTP",
-      "api-design-2"
-    ],
-    "slug": "api-design-2",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Three Tenets of API Design (3/3): Respect REST",
-      "api-design-3"
-    ],
-    "slug": "api-design-3",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Maestra",
-      "maestra"
-    ],
-    "slug": "maestra",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Menzogne",
-      "menzogne"
-    ],
-    "slug": "menzogne",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "March Reflection",
-      "march-reflection"
-    ],
-    "slug": "march-reflection",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "My 2018 Annual Review",
-      "My 2018 Annual Review",
-      "My 2018 Annual\\_Review",
-      "2018-review"
-    ],
-    "slug": "2018-review",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Fail Better: Turning Software Errors into Documentation",
-      "fail-better"
-    ],
-    "slug": "fail-better",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Le mani di Roma",
-      "Le mani di\\_Roma",
-      "le-mani-di-roma"
-    ],
-    "slug": "le-mani-di-roma",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "6 Design Principles for Your HTTP APIs",
-      "api-design"
-    ],
-    "slug": "api-design",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Evolution Techniques for RESTful APIs",
-      "Evolution Techniques for RESTful\\_APIs",
-      "api-evolution"
-    ],
-    "slug": "api-evolution",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Coach Them Until It Hurts",
-      "Coach Them Until It\\_Hurts",
-      "coaching"
-    ],
-    "slug": "coaching",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "Empowered",
-        "slug": "empowered",
-        "contentType": "books"
-      },
-      {
-        "title": "The 15 Commitments of Conscious Leadership",
-        "slug": "the-15-commitments-of-conscious-leadership",
-        "contentType": "books"
-      },
-      {
-        "title": "The Coaching Habit",
-        "slug": "the-coaching-habit",
-        "contentType": "books"
-      },
-      {
-        "title": "Trillion Dollar Coach",
-        "slug": "trillion-dollar-coach",
-        "contentType": "books"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Using RFCs to Drive Organizational Change",
-      "rfcs"
-    ],
-    "slug": "rfcs",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Transformative Nature of Ownership in Engineering Orgs",
-      "engineering-ownership"
-    ],
-    "slug": "engineering-ownership",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Feedback-Centric Organization",
-      "feedback-centric-organization"
-    ],
-    "slug": "feedback-centric-organization",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Sul bisogno di muoversi",
-      "muoversi"
-    ],
-    "slug": "muoversi",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The GTDT Model for Intentional eCommerce Personalization",
-      "ecommerce-personalization"
-    ],
-    "slug": "ecommerce-personalization",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "eCommerce A/B Testing: Strategies for Success",
-      "ecommerce-ab-testing-strategies"
-    ],
-    "slug": "ecommerce-ab-testing-strategies",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "How to Make Your E-Commerce A/B Tests Useless",
-      "ecommerce-ab-testing-mistakes"
-    ],
-    "slug": "ecommerce-ab-testing-mistakes",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Scaling DTC Brands Through Product-Led Growth",
-      "dtc-product-led-growth"
-    ],
-    "slug": "dtc-product-led-growth",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Supercharge Your DTC Growth with Product Management",
-      "dtc-product-management"
-    ],
-    "slug": "dtc-product-management",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Building Content Infrastructures for eCommerce Brands",
-      "ecommerce-content-stack"
-    ],
-    "slug": "ecommerce-content-stack",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The playbook delusion",
-      "the-playbook-delusion"
-    ],
-    "slug": "the-playbook-delusion",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Media x commerce",
-      "media-x-commerce"
-    ],
-    "slug": "media-x-commerce",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Why Memberships Are The Future of Customer Loyalty",
-      "membership-programs"
-    ],
-    "slug": "membership-programs",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Members only",
-      "members-only"
-    ],
-    "slug": "members-only",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Shopify play",
-      "the-shopify-play"
-    ],
-    "slug": "the-shopify-play",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The eCommerce rat race",
-      "the-ecommerce-rat-race"
-    ],
-    "slug": "the-ecommerce-rat-race",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Beauty and the Beast",
-      "beauty-and-the-beast"
-    ],
-    "slug": "beauty-and-the-beast",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Rise of the cultural brand",
-      "rise-of-the-cultural-brand"
-    ],
-    "slug": "rise-of-the-cultural-brand",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "All hail the superapp",
-      "all-hail-the-superapp"
-    ],
-    "slug": "all-hail-the-superapp",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Outage outrage",
-      "outage-outrage"
-    ],
-    "slug": "outage-outrage",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The curation opportunity",
-      "the-curation-opportunity"
-    ],
-    "slug": "the-curation-opportunity",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Apology of the regulator",
-      "apology-of-the-regulator"
-    ],
-    "slug": "apology-of-the-regulator",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Agency, deconstruct thyself",
-      "agency-deconstruct-thyself"
-    ],
-    "slug": "agency-deconstruct-thyself",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Maslow and brands",
-      "maslow-and-brands"
-    ],
-    "slug": "maslow-and-brands",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Web3 rightshifting",
-      "the-web3-rightshifting"
-    ],
-    "slug": "the-web3-rightshifting",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Ultimate Guide to E-Commerce Loyalty Programs",
-      "ecommerce-loyalty-programs"
-    ],
-    "slug": "ecommerce-loyalty-programs",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The collapse of commerce",
-      "the-collapse-of-commerce"
-    ],
-    "slug": "the-collapse-of-commerce",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Holding the space",
-      "holding-the-space"
-    ],
-    "slug": "holding-the-space",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Span of control",
-      "span-of-control"
-    ],
-    "slug": "span-of-control",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Digital Product Passports and Retail’s New Growth Opportunity",
-      "digital-product-passport-cx"
-    ],
-    "slug": "digital-product-passport-cx",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Redefining the Digital Value Chain for Multi-Brand Retail",
-      "multi-brand-retail-value-chain"
-    ],
-    "slug": "multi-brand-retail-value-chain",
-    "status": "evergreen",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Why Customer Experience Is The",
-      "Experience-Led Commerce: Turning Customer Experience Into Your New Growth Engine",
-      "Why Customer Experience Is The ",
-      "experience-led-commerce"
-    ],
-    "slug": "experience-led-commerce",
-    "status": "seedling",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The Experience-Led Commerce Framework Explained",
-      "2025-03-17-xlc-explained"
-    ],
-    "slug": "2025-03-17-xlc-explained",
-    "status": "seedling",
-    "contentType": "essays",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Accelerate existing customer behavior",
       "accelerate-existing-customer-behavior"
     ],
@@ -3683,6 +2618,30 @@
         "contentType": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Good writing is personal, observational, and playful",
+      "good-writing-is-personal-observational-and-playful"
+    ],
+    "slug": "good-writing-is-personal-observational-and-playful",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "weirdness-is-the-seed-of-humor",
+        "title": "Weirdness is the seed of humor",
+        "slug": "weirdness-is-the-seed-of-humor",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "the-ultimate-guide-to-writing-online",
+        "title": "The Ultimate Guide to Writing Online",
+        "slug": "the-ultimate-guide-to-writing-online",
+        "contentType": "articles"
+      }
+    ],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -7185,7 +6144,13 @@
         "contentType": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Good writing is personal, observational, and playful",
+        "slug": "good-writing-is-personal-observational-and-playful",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -7780,18 +6745,6 @@
         "title": "Leadership",
         "slug": "leadership",
         "contentType": "topics"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
       },
       {
         "matchedId": "management",
@@ -8969,12 +7922,6 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -8985,12 +7932,6 @@
         "title": "Leadership",
         "slug": "leadership",
         "contentType": "topics"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
       },
       {
         "matchedId": "leadership",
@@ -9165,46 +8106,16 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
         "matchedId": "management",
         "title": "Management",
         "slug": "management",
         "contentType": "topics"
       },
       {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
         "matchedId": "management",
         "title": "Management",
         "slug": "management",
         "contentType": "topics"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
       },
       {
         "matchedId": "management",
@@ -9219,40 +8130,10 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
         "matchedId": "management",
         "title": "Management",
         "slug": "management",
         "contentType": "topics"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
       },
       {
         "matchedId": "management",
@@ -9267,10 +8148,10 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
+        "matchedId": "management",
+        "title": "Management",
+        "slug": "management",
+        "contentType": "topics"
       }
     ],
     "inboundLinks": [
@@ -9884,12 +8765,6 @@
         "title": "Management",
         "slug": "management",
         "contentType": "topics"
-      },
-      {
-        "matchedId": "coaching",
-        "title": "Coach Them Until It Hurts",
-        "slug": "coaching",
-        "contentType": "essays"
       },
       {
         "matchedId": "leadership",
@@ -10512,6 +9387,16 @@
   },
   {
     "ids": [
+      "45 Life Lessons",
+      "45-life-lessons"
+    ],
+    "slug": "45-life-lessons",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "5-Minute Whiteboard: Measurement vs. Attribution",
       "5-minute-whiteboard-measurement-vs.-attribution",
       "5-minute-whiteboard-measurement-vs-attribution"
@@ -10527,6 +9412,16 @@
         "contentType": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "5 New Thinking Styles for",
+      "5-new-thinking-styles-for"
+    ],
+    "slug": "5-new-thinking-styles-for",
+    "contentType": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -11925,6 +10820,16 @@
   },
   {
     "ids": [
+      "Avoid the Nightmare Bicycle",
+      "avoid-the-nightmare-bicycle"
+    ],
+    "slug": "avoid-the-nightmare-bicycle",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Avoiding Stupidity Is Easier Than Seeking Brilliance",
       "avoiding-stupidity-is-easier-than-seeking-brilliance"
     ],
@@ -13093,6 +11998,16 @@
   },
   {
     "ids": [
+      "Case Study: A24",
+      "case-study-a24"
+    ],
+    "slug": "case-study-a24",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Cat Psychology & Domestication: Are We Good Owners?",
       "cat-psychology-&-domestication-are-we-good-owners",
       "cat-psychology-and-domestication-are-we-good-owners"
@@ -13133,6 +12048,16 @@
     ],
     "slug": "chi-e-stefano-bonaccini",
     "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Choosing to Walk",
+      "choosing-to-walk"
+    ],
+    "slug": "choosing-to-walk",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13318,6 +12243,16 @@
         "contentType": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Consulting vs Coaching",
+      "consulting-vs-coaching"
+    ],
+    "slug": "consulting-vs-coaching",
+    "contentType": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -13993,6 +12928,16 @@
     ],
     "slug": "do-you-doubt-yourself-good",
     "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Doing Weeknotes",
+      "doing-weeknotes"
+    ],
+    "slug": "doing-weeknotes",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16515,6 +15460,17 @@
   },
   {
     "ids": [
+      "How Yancey Strickler ‘Scrolls’ Offline",
+      "how-yancey-strickler-‘scrolls’-offline",
+      "how-yancey-strickler-scrolls-offline"
+    ],
+    "slug": "how-yancey-strickler-scrolls-offline",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How Zenni Optical Boosted Per-Session Revenue 34% With Sharper Search",
       "how-zenni-optical-boosted-per-session-revenue-34%-with-sharper-search",
       "how-zenni-optical-boosted-per-session-revenue-34percent-with-sharper-search"
@@ -17089,6 +16045,16 @@
   },
   {
     "ids": [
+      "Insiders #188: Architecting Desire: How Retail-Hospitality Hybrids Are Changing Consumption",
+      "insiders-188-architecting-desire-how-retail-hospitality-hybrids-are-changing-consumption"
+    ],
+    "slug": "insiders-188-architecting-desire-how-retail-hospitality-hybrids-are-changing-consumption",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Intellectual Menopause",
       "intellectual-menopause"
     ],
@@ -17273,6 +16239,16 @@
     ],
     "slug": "its-very-weird-to-have-a-skull-full-of-poisonits-very-weird-to-have-a-skull-full-of-poison",
     "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Junkfeeds",
+      "junkfeeds"
+    ],
+    "slug": "junkfeeds",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19190,6 +18166,16 @@
         "contentType": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Playing 'Civilization 7' Is Like Being a Ruthless Corporate Consultant",
+      "playing-civilization-7-is-like-being-a-ruthless-corporate-consultant"
+    ],
+    "slug": "playing-civilization-7-is-like-being-a-ruthless-corporate-consultant",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -22557,6 +21543,11 @@
     ],
     "inboundLinks": [
       {
+        "title": "Good writing is personal, observational, and playful",
+        "slug": "good-writing-is-personal-observational-and-playful",
+        "contentType": "notes"
+      },
+      {
         "title": "Writing shouldn’t start with a blank page",
         "slug": "writing-shouldnt-start-with-a-blank-page",
         "contentType": "notes"
@@ -24374,6 +23365,16 @@
   },
   {
     "ids": [
+      "Why Stitch Fix Is Focusing on Its Human Stylists When Everyone Else Is Talking About AI",
+      "why-stitch-fix-is-focusing-on-its-human-stylists-when-everyone-else-is-talking-about-ai"
+    ],
+    "slug": "why-stitch-fix-is-focusing-on-its-human-stylists-when-everyone-else-is-talking-about-ai",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Why the SaaS Marketing Funnel Doesn’t Work",
       "why-the-saas-marketing-funnel-doesn’t-work",
       "why-the-saas-marketing-funnel-doesnt-work"
@@ -24464,6 +23465,16 @@
         "contentType": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Will AI agents eat SaaS?",
+      "will-ai-agents-eat-saas"
+    ],
+    "slug": "will-ai-agents-eat-saas",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
