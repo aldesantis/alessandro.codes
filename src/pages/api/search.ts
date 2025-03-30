@@ -2,8 +2,16 @@ import { getSortedEssays } from "src/lib/content/essays";
 import { getSortedNotes } from "src/lib/content/notes";
 import { getSortedNows } from "src/lib/content/nows";
 import { getSortedBooks } from "src/lib/content/books";
-import type { ContentItem } from "src/components/ui/command-palette/ContentItem";
 import type { APIRoute } from "astro";
+
+interface ContentItem {
+  id: string;
+  name: string;
+  url: string;
+  type: string;
+  date?: Date;
+  status?: "seedling" | "budding" | "evergreen";
+}
 
 export const prerender = false;
 

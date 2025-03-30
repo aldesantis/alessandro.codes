@@ -2,21 +2,25 @@
 import SearchIcon from "../SearchIcon.astro";
 ---
 
-<div id="command-palette" class="relative z-10 hidden font-sans">
+<div
+  data-controller="command-palette"
+  data-command-palette-target="palette"
+  class="relative z-10 hidden font-sans"
+>
   <div
+    data-command-palette-target="backdrop"
     class="fixed inset-0 bg-gray-500/25 transition-opacity duration-300 ease-in-out backdrop-click"
-    id="backdrop"
   >
   </div>
 
   <div class="fixed inset-0 z-10 w-screen overflow-y-auto p-4 sm:p-6 md:p-20">
     <div
-      id="dialog-panel"
+      data-command-palette-target="dialog"
       class="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white ring-1 shadow-2xl ring-black/5 transition-all duration-300 ease-in-out scale-95 opacity-0"
     >
       <div class="grid grid-cols-1">
         <input
-          id="search-input"
+          data-command-palette-target="search"
           type="text"
           class="col-start-1 row-start-1 h-12 w-full pr-4 pl-11 text-base text-gray-900 outline-none placeholder:text-gray-400 sm:text-sm"
           placeholder="Search essays, notes, and more..."
@@ -26,11 +30,14 @@ import SearchIcon from "../SearchIcon.astro";
       </div>
 
       <div
-        id="results-container"
+        data-command-palette-target="results"
         class="max-h-72 scroll-py-2 overflow-y-auto py-2 text-sm text-gray-800 hidden"
       >
       </div>
-      <div id="no-results" class="p-4 text-sm text-gray-500 hidden">
+      <div
+        data-command-palette-target="noResults"
+        class="p-4 text-sm text-gray-500 hidden"
+      >
         No results found.
       </div>
     </div>
@@ -38,10 +45,9 @@ import SearchIcon from "../SearchIcon.astro";
 </div>
 
 <script>
-  import { initCommandPalette } from "./command-palette";
+  import CommandPaletteController from "./command-palette-controller";
+  import { Application } from "@hotwired/stimulus";
 
-  document.addEventListener("DOMContentLoaded", () => {
-    // Initialize the command palette
-    initCommandPalette();
-  });
+  const application = Application.start();
+  application.register("command-palette", CommandPaletteController);
 </script>

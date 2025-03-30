@@ -6,9 +6,11 @@ interface Props {
 const { label } = Astro.props;
 ---
 
-<astro-dropdown class="dropdown relative inline-block text-left">
+<div data-controller="dropdown" class="relative inline-block text-left">
   <button
     type="button"
+    data-dropdown-target="button"
+    data-action="click->dropdown#toggle"
     aria-haspopup="true"
     aria-expanded="false"
     class="dropdown-button inline-flex w-full hover:text-orange-700 cursor-pointer"
@@ -18,69 +20,19 @@ const { label } = Astro.props;
   </button>
 
   <div
+    data-dropdown-target="menu"
     class="dropdown-menu absolute right-0 z-10 mt-2 min-w-32 origin-top-right rounded-md bg-zinc-50 shadow-md ring-1 ring-black/5 hidden opacity-0 scale-95 transition-all ease-out duration-100"
   >
     <div class="py-1">
       <slot />
     </div>
   </div>
-</astro-dropdown>
+</div>
 
 <script>
-  class Dropdown extends HTMLElement {
-    constructor() {
-      super();
-      this.button = this.querySelector(".dropdown-button");
-      this.menu = this.querySelector(".dropdown-menu");
-      this.isOpen = false;
+  import DropdownController from "./dropdown-controller";
+  import { Application } from "@hotwired/stimulus";
 
-      this.button?.addEventListener("click", () => this.toggleMenu());
-      document.addEventListener("click", (e) => this.handleClickOutside(e));
-      document.addEventListener("keydown", (e) => this.handleKeyDown(e));
-    }
-
-    toggleMenu() {
-      if (this.isOpen) {
-        this.closeMenu();
-      } else {
-        this.openMenu();
-      }
-    }
-
-    openMenu() {
-      this.menu?.classList.remove("hidden", "opacity-0", "scale-95");
-      this.menu?.classList.add("opacity-100", "scale-100");
-      this.button?.setAttribute("aria-expanded", "true");
-      this.isOpen = true;
-    }
-
-    closeMenu() {
-      this.menu?.classList.remove("opacity-100", "scale-100");
-      this.menu?.classList.add("opacity-0", "scale-95");
-
-      // Wait for transition to complete before hiding
-      setTimeout(() => {
-        if (!this.isOpen) {
-          this.menu?.classList.add("hidden");
-        }
-      }, 100);
-
-      this.button?.setAttribute("aria-expanded", "false");
-      this.isOpen = false;
-    }
-
-    handleClickOutside(event) {
-      if (!this.contains(event.target) && this.isOpen) {
-        this.closeMenu();
-      }
-    }
-
-    handleKeyDown(event) {
-      if (event.key === "Escape" && this.isOpen) {
-        this.closeMenu();
-      }
-    }
-  }
-
-  customElements.define("astro-dropdown", Dropdown);
+  const application = Application.start();
+  application.register("dropdown", DropdownController);
 </script>
