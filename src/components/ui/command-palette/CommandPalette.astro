@@ -7,6 +7,23 @@ import SearchIcon from "../SearchIcon.astro";
   data-command-palette-target="palette"
   class="relative z-10 hidden font-sans"
 >
+  <template data-command-palette-target="groupTemplate">
+    <div class="px-4 pt-2 pb-1 text-xs font-semibold text-gray-500 uppercase">
+    </div>
+  </template>
+
+  <template data-command-palette-target="itemTemplate">
+    <a class="block cursor-pointer px-4 py-2 select-none">
+      <div class="flex justify-between items-center">
+        <span></span>
+        <div class="hidden sm:flex items-center gap-2">
+          <span class="status-badge"></span>
+          <span class="date-text"></span>
+        </div>
+      </div>
+    </a>
+  </template>
+
   <div
     data-command-palette-target="backdrop"
     class="fixed inset-0 bg-gray-500/25 transition-opacity duration-300 ease-in-out backdrop-click"

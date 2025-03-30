@@ -8,6 +8,8 @@ export default class CommandPaletteController extends Controller {
     "search",
     "results",
     "noResults",
+    "groupTemplate",
+    "itemTemplate"
   ];
 
   // State
@@ -231,36 +233,57 @@ export default class CommandPaletteController extends Controller {
       return groups;
     }, new Map());
 
-    let html = "";
+    // Clear previous results
+    this.resultsTarget.innerHTML = '';
     let currentIndex = 0;
 
     // Generate HTML for each group
     groupedByType.forEach((items, type) => {
-      html += `<div class="px-4 pt-2 pb-1 text-xs font-semibold text-gray-500 uppercase">${type}s</div>`;
+      // Create group header
+      const groupElement = this.groupTemplateTarget.content.cloneNode(true);
+      groupElement.querySelector('div').textContent = `${type}s`;
+      this.resultsTarget.appendChild(groupElement);
 
+      // Create items for this group
       for (const item of items) {
         const isSelected = currentIndex === this.selectedIndex;
-        html += `
-          <a 
-            href="${item.url}"
-            class="block cursor-pointer px-4 py-2 select-none ${isSelected ? "bg-orange-600 text-white" : ""}" 
-            data-index="${currentIndex}" 
-            data-id="${item.id}"
-          >
-            <div class="flex justify-between items-center">
-              <span>${item.name}</span>
-              <div class="hidden sm:flex items-center gap-2">
-                ${item.status ? this.getStatusBadge(item.status, isSelected) : ""}
-                ${item.date ? `<span class="text-xs ${isSelected ? "text-orange-100" : "text-gray-400"}">${this.formatDate(item.date)}</span>` : ""}
-              </div>
-            </div>
-          </a>
-        `;
+        const itemElement = this.itemTemplateTarget.content.cloneNode(true);
+        const itemLink = itemElement.querySelector('a');
+
+        // Set up the item link
+        itemLink.href = item.url;
+        itemLink.dataset.index = currentIndex;
+        itemLink.dataset.id = item.id;
+        if (isSelected) {
+          itemLink.classList.add('bg-orange-600', 'text-white');
+        }
+
+        // Set the item name
+        itemLink.querySelector('span').textContent = item.name;
+
+        // Set up status badge if present
+        const statusBadge = itemLink.querySelector('.status-badge');
+        if (item.status) {
+          statusBadge.innerHTML = this.getStatusBadge(item.status, isSelected);
+        } else {
+          statusBadge.remove();
+        }
+
+        // Set up date if present
+        const dateText = itemLink.querySelector('.date-text');
+        if (item.date) {
+          dateText.textContent = this.formatDate(item.date);
+          dateText.classList.toggle('text-orange-100', isSelected);
+          dateText.classList.toggle('text-gray-400', !isSelected);
+        } else {
+          dateText.remove();
+        }
+
+        this.resultsTarget.appendChild(itemElement);
         currentIndex++;
       }
     });
 
-    this.resultsTarget.innerHTML = html;
     this.addEventListenersToResults();
   }
 
