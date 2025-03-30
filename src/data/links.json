@@ -1335,6 +1335,40 @@
   },
   {
     "ids": [
+      "Consulting involves tension",
+      "consulting-involves-tension"
+    ],
+    "slug": "consulting-involves-tension",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "March 2025",
+        "slug": "2025-03",
+        "contentType": "nows"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Consulting maximizes diversity",
+      "consulting-maximizes-diversity"
+    ],
+    "slug": "consulting-maximizes-diversity",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "March 2025",
+        "slug": "2025-03",
+        "contentType": "nows"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Conversion is fleeting, maturation is stable",
       "conversion-is-fleeting-maturation-is-stable"
     ],
@@ -6382,7 +6416,7 @@
       "2025-01"
     ],
     "slug": "2025-01",
-    "status": "budding",
+    "status": "evergreen",
     "contentType": "nows",
     "outboundLinks": [
       {
@@ -6400,9 +6434,39 @@
       "2025-02"
     ],
     "slug": "2025-02",
-    "status": "budding",
+    "status": "evergreen",
     "contentType": "nows",
     "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "March 2025",
+      "2025-03"
+    ],
+    "slug": "2025-03",
+    "status": "evergreen",
+    "contentType": "nows",
+    "outboundLinks": [
+      {
+        "matchedId": "consulting-involves-tension",
+        "title": "Consulting involves tension",
+        "slug": "consulting-involves-tension",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "consulting-maximizes-diversity",
+        "title": "Consulting maximizes diversity",
+        "slug": "consulting-maximizes-diversity",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "il-conte-di-montecristo",
+        "title": "Il Conte Di Montecristo",
+        "slug": "il-conte-di-montecristo",
+        "contentType": "books"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7270,7 +7334,13 @@
     "status": "seedling",
     "contentType": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "March 2025",
+        "slug": "2025-03",
+        "contentType": "nows"
+      }
+    ]
   },
   {
     "ids": [
@@ -9391,6 +9461,7 @@
       "45-life-lessons"
     ],
     "slug": "45-life-lessons",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -9420,6 +9491,7 @@
       "5-new-thinking-styles-for"
     ],
     "slug": "5-new-thinking-styles-for",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10824,6 +10896,7 @@
       "avoid-the-nightmare-bicycle"
     ],
     "slug": "avoid-the-nightmare-bicycle",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12002,6 +12075,7 @@
       "case-study-a24"
     ],
     "slug": "case-study-a24",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12058,6 +12132,7 @@
       "choosing-to-walk"
     ],
     "slug": "choosing-to-walk",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12251,6 +12326,7 @@
       "consulting-vs-coaching"
     ],
     "slug": "consulting-vs-coaching",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12938,6 +13014,7 @@
       "doing-weeknotes"
     ],
     "slug": "doing-weeknotes",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -15465,6 +15542,7 @@
       "how-yancey-strickler-scrolls-offline"
     ],
     "slug": "how-yancey-strickler-scrolls-offline",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16049,6 +16127,7 @@
       "insiders-188-architecting-desire-how-retail-hospitality-hybrids-are-changing-consumption"
     ],
     "slug": "insiders-188-architecting-desire-how-retail-hospitality-hybrids-are-changing-consumption",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16249,6 +16328,7 @@
       "junkfeeds"
     ],
     "slug": "junkfeeds",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18169,10 +18249,11 @@
   },
   {
     "ids": [
-      "Playing 'Civilization 7' Is Like Being a Ruthless Corporate Consultant",
+      "Playing ‘Civilization 7’ Is Like Being a Ruthless Corporate Consultant",
       "playing-civilization-7-is-like-being-a-ruthless-corporate-consultant"
     ],
     "slug": "playing-civilization-7-is-like-being-a-ruthless-corporate-consultant",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -23369,6 +23450,7 @@
       "why-stitch-fix-is-focusing-on-its-human-stylists-when-everyone-else-is-talking-about-ai"
     ],
     "slug": "why-stitch-fix-is-focusing-on-its-human-stylists-when-everyone-else-is-talking-about-ai",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -23472,6 +23554,7 @@
       "will-ai-agents-eat-saas"
     ],
     "slug": "will-ai-agents-eat-saas",
+    "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
     "inboundLinks": []
