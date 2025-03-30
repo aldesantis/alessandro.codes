@@ -1352,6 +1352,23 @@
   },
   {
     "ids": [
+      "Consulting is conversation",
+      "consulting-is-conversation"
+    ],
+    "slug": "consulting-is-conversation",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "March 2025",
+        "slug": "2025-03",
+        "contentType": "nows"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Consulting maximizes diversity",
       "consulting-maximizes-diversity"
     ],
@@ -6452,6 +6469,12 @@
         "matchedId": "consulting-involves-tension",
         "title": "Consulting involves tension",
         "slug": "consulting-involves-tension",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "consulting-is-conversation",
+        "title": "Consulting is conversation",
+        "slug": "consulting-is-conversation",
         "contentType": "notes"
       },
       {
