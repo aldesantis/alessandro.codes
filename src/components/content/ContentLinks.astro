@@ -25,6 +25,7 @@ const { outboundLinks, inboundLinks } = Astro.props;
                 contentType: link.contentType,
                 slug: link.slug,
               })}
+              variant="muted"
             >
               {link.title}
             </Link>
@@ -32,9 +33,7 @@ const { outboundLinks, inboundLinks } = Astro.props;
         ))}
       </LinkList>
     ) : (
-      <div class="font-sans text-sm">
-        This entry doesn't have any outbound links yet.
-      </div>
+      <div class="font-sans text-sm">Nothing yet!</div>
     )
   }
 </MobileCollapsible>
@@ -51,6 +50,7 @@ const { outboundLinks, inboundLinks } = Astro.props;
                 contentType: link.contentType,
                 slug: link.slug,
               })}
+              variant="muted"
             >
               {link.title}
             </Link>
@@ -58,9 +58,7 @@ const { outboundLinks, inboundLinks } = Astro.props;
         ))}
       </LinkList>
     ) : (
-      <div class="font-sans text-sm">
-        This entry doesn't have any inbound links yet.
-      </div>
+      <div class="font-sans text-sm">Nothing yet!</div>
     )
   }
 </MobileCollapsible>
