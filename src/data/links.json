@@ -2702,6 +2702,11 @@
         "title": "An operating cadence needs shared vision",
         "slug": "an-operating-cadence-needs-shared-vision",
         "contentType": "notes"
+      },
+      {
+        "title": "April 2025",
+        "slug": "2025-04",
+        "contentType": "nows"
       }
     ]
   },
@@ -6759,6 +6764,24 @@
         "title": "Il Conte Di Montecristo",
         "slug": "il-conte-di-montecristo",
         "contentType": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "April 2025",
+      "2025-04"
+    ],
+    "slug": "2025-04",
+    "status": "budding",
+    "contentType": "nows",
+    "outboundLinks": [
+      {
+        "matchedId": "freedom-is-only-valuable-when-forgone",
+        "title": "Freedom is only valuable when forgone",
+        "slug": "freedom-is-only-valuable-when-forgone",
+        "contentType": "notes"
       }
     ],
     "inboundLinks": []
