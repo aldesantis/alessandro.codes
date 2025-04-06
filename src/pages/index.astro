@@ -2,10 +2,8 @@
 import Link from "@components/ui/Link.astro";
 import SectionHeading from "@components/ui/sections/SectionHeading.astro";
 import Section from "@components/ui/sections/Section.astro";
-import ProjectCard from "@components/projects/ProjectCard.astro";
 import EssayCard from "@components/essays/EssayCard.astro";
 import Layout from "@layouts/Layout.astro";
-import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import BookCard from "@components/books/BookCard.astro";
 import { getSortedBooks } from "src/lib/content/books";
@@ -13,11 +11,6 @@ import { getSortedNotes } from "src/lib/content/notes";
 import NoteCard from "@components/notes/NoteCard.astro";
 import sections from "src/data/sections.json";
 import { getSortedEssays } from "src/lib/content/essays";
-
-const featuredProjects = await getCollection(
-  "projects",
-  (project) => project.data.featured
-);
 
 const essays = (await getSortedEssays()).slice(0, 6);
 const notes = (await getSortedNotes()).slice(0, 6);
@@ -32,11 +25,17 @@ const books = (await getSortedBooks()).slice(0, 6);
       <p class="font-serif text-3xl lg:text-5xl">
         <span class="animate-wave inline-block">👋</span>, I’m <span
           class="font-bold">Alessandro</span
-        >&mdash;a writer, engineer, and strategist based in Rome, Italy.
+        >&mdash;a <Link href="/topics/writing">writer</Link>,
+        <Link href="/topics/software-engineering">engineer</Link>, and
+        <Link href="/topics/strategy">strategist</Link> based in Rome, Italy.
       </p>
-      <p class="text-stone-700 font-serif">
-        Currently, I am the Chief Strategy Officer at
-        <Link href="https://nebulab.com">Nebulab</Link>.
+      <p class="text-stone-700 font-serif text-xl">
+        Currently, I am a Partner at
+        <Link href="https://nebulab.com">Nebulab</Link>, an international
+        consultancy working with mid-market and enterprise consumer brands to
+        design, launch, and scale their digital <Link href="/topics/commerce"
+          >commerce</Link
+        > experiences.
       </p>
     </div>
 
