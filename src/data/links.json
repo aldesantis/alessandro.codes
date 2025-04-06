@@ -70,6 +70,11 @@
         "contentType": "notes"
       },
       {
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      },
+      {
         "title": "Good management requires consistency",
         "slug": "good-management-requires-consistency",
         "contentType": "notes"
@@ -120,6 +125,11 @@
       }
     ],
     "inboundLinks": [
+      {
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      },
       {
         "title": "Market penetration trumps market segmentation",
         "slug": "market-penetration-trumps-market-segmentation",
@@ -730,6 +740,77 @@
   },
   {
     "ids": [
+      "Brands serve two purposes",
+      "brands-serve-two-purposes"
+    ],
+    "slug": "brands-serve-two-purposes",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "the-new-strategic-brand-management",
+        "title": "The New Strategic Brand Management",
+        "slug": "the-new-strategic-brand-management",
+        "contentType": "books"
+      },
+      {
+        "matchedId": "advertising-must-be-memorable",
+        "title": "Advertising must be memorable",
+        "slug": "advertising-must-be-memorable",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "advertising-must-be-consistent",
+        "title": "Advertising must be consistent",
+        "slug": "advertising-must-be-consistent",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "advertising-must-be-consistent",
+        "title": "Advertising must be consistent",
+        "slug": "advertising-must-be-consistent",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "commerce-is-the-most-democratic-form-of-art",
+        "title": "Commerce is the most democratic form of art",
+        "slug": "commerce-is-the-most-democratic-form-of-art",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "cultural-brands-are-bidirectional",
+        "title": "Cultural brands are bidirectional",
+        "slug": "cultural-brands-are-bidirectional",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "cultural-brands-promote-remixing",
+        "title": "Cultural brands promote remixing",
+        "slug": "cultural-brands-promote-remixing",
+        "contentType": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Commerce is the most democratic form of art",
+        "slug": "commerce-is-the-most-democratic-form-of-art",
+        "contentType": "notes"
+      },
+      {
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Brands should stand for purpose, not search for it",
       "brands-should-stand-for-purpose-not-search-for-it"
     ],
@@ -989,6 +1070,41 @@
       }
     ],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Commerce is the most democratic form of art",
+      "commerce-is-the-most-democratic-form-of-art"
+    ],
+    "slug": "commerce-is-the-most-democratic-form-of-art",
+    "status": "budding",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "commerce",
+        "title": "Commerce",
+        "slug": "commerce",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "brands-serve-two-purposes",
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      },
+      {
+        "title": "Commerce",
+        "slug": "commerce",
+        "contentType": "topics"
+      }
+    ]
   },
   {
     "ids": [
@@ -1347,6 +1463,11 @@
         "title": "March 2025",
         "slug": "2025-03",
         "contentType": "nows"
+      },
+      {
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
       }
     ]
   },
@@ -1364,6 +1485,30 @@
         "title": "March 2025",
         "slug": "2025-03",
         "contentType": "nows"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Consulting is the gift of perspective",
+      "consulting-is-the-gift-of-perspective"
+    ],
+    "slug": "consulting-is-the-gift-of-perspective",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "there-are-three-types-of-consulting",
+        "title": "There are three types of consulting",
+        "slug": "there-are-three-types-of-consulting",
+        "contentType": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
       }
     ]
   },
@@ -1589,6 +1734,11 @@
     ],
     "inboundLinks": [
       {
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      },
+      {
         "title": "Cultural brands promote remixing",
         "slug": "cultural-brands-promote-remixing",
         "contentType": "notes"
@@ -1622,7 +1772,13 @@
         "contentType": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -2323,9 +2479,19 @@
     ],
     "inboundLinks": [
       {
+        "title": "Learning is a four-phase process",
+        "slug": "learning-is-a-four-phase-process",
+        "contentType": "notes"
+      },
+      {
         "title": "Tacit knowledge is hard to capture",
         "slug": "tacit-knowledge-is-hard-to-capture",
         "contentType": "notes"
+      },
+      {
+        "title": "Knowledge management",
+        "slug": "knowledge-management",
+        "contentType": "topics"
       }
     ]
   },
@@ -2667,6 +2833,11 @@
         "title": "Strategy requires focus",
         "slug": "strategy-requires-focus",
         "contentType": "notes"
+      },
+      {
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
       }
     ]
   },
@@ -3179,14 +3350,32 @@
       "learning-is-a-four-phase-process"
     ],
     "slug": "learning-is-a-four-phase-process",
-    "status": "seedling",
+    "status": "evergreen",
     "contentType": "notes",
     "outboundLinks": [
+      {
+        "matchedId": "explicit-knowledge-can-be-captured",
+        "title": "Explicit knowledge is easy to capture",
+        "slug": "explicit-knowledge-can-be-captured",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "tacit-knowledge-is-hard-to-capture",
+        "title": "Tacit knowledge is hard to capture",
+        "slug": "tacit-knowledge-is-hard-to-capture",
+        "contentType": "notes"
+      },
       {
         "matchedId": "understand-the-rules-before-breaking-them",
         "title": "Understand the rules before breaking them",
         "slug": "understand-the-rules-before-breaking-them",
         "contentType": "notes"
+      },
+      {
+        "matchedId": "developing-talent-in-r&d",
+        "title": "Developing Talent in R&D",
+        "slug": "developing-talent-in-randd",
+        "contentType": "articles"
       }
     ],
     "inboundLinks": [
@@ -3204,6 +3393,11 @@
         "title": "Understand the rules before breaking them",
         "slug": "understand-the-rules-before-breaking-them",
         "contentType": "notes"
+      },
+      {
+        "title": "Knowledge management",
+        "slug": "knowledge-management",
+        "contentType": "topics"
       }
     ]
   },
@@ -3535,6 +3729,11 @@
         "title": "Wholesale boosts brand awareness",
         "slug": "wholesale-boosts-brand-awareness",
         "contentType": "notes"
+      },
+      {
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
       }
     ]
   },
@@ -5267,6 +5466,11 @@
         "title": "Strategy requires focus",
         "slug": "strategy-requires-focus",
         "contentType": "notes"
+      },
+      {
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
       }
     ]
   },
@@ -5319,6 +5523,23 @@
         "title": "Strategy deals with present challenges",
         "slug": "strategy-deals-with-present-challenges",
         "contentType": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Strategy requires original insights",
+      "strategy-requires-original-insights"
+    ],
+    "slug": "strategy-requires-original-insights",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
       }
     ]
   },
@@ -5547,6 +5768,16 @@
         "title": "Explicit knowledge is easy to capture",
         "slug": "explicit-knowledge-can-be-captured",
         "contentType": "notes"
+      },
+      {
+        "title": "Learning is a four-phase process",
+        "slug": "learning-is-a-four-phase-process",
+        "contentType": "notes"
+      },
+      {
+        "title": "Knowledge management",
+        "slug": "knowledge-management",
+        "contentType": "topics"
       }
     ]
   },
@@ -5560,9 +5791,9 @@
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "knowledge",
-        "title": "Knowledge",
-        "slug": "knowledge",
+        "matchedId": "knowledge-management",
+        "title": "Knowledge management",
+        "slug": "knowledge-management",
         "contentType": "topics"
       }
     ],
@@ -5770,6 +6001,17 @@
   },
   {
     "ids": [
+      "There are five levels of meeting maturity",
+      "there-are-five-levels-of-meeting-maturity"
+    ],
+    "slug": "there-are-five-levels-of-meeting-maturity",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "There are four types of product risk",
       "there-are-four-types-of-product-risk"
     ],
@@ -5814,6 +6056,35 @@
     "contentType": "notes",
     "outboundLinks": [],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "There are three types of consulting",
+      "there-are-three-types-of-consulting"
+    ],
+    "slug": "there-are-three-types-of-consulting",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [
+      {
+        "matchedId": "flawless-consulting",
+        "title": "Flawless Consulting",
+        "slug": "flawless-consulting",
+        "contentType": "books"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Consulting is the gift of perspective",
+        "slug": "consulting-is-the-gift-of-perspective",
+        "contentType": "notes"
+      },
+      {
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ]
   },
   {
     "ids": [
@@ -6506,12 +6777,6 @@
         "title": "Leadership",
         "slug": "leadership",
         "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
       }
     ],
     "inboundLinks": [
@@ -6594,9 +6859,9 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -6618,93 +6883,21 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
         "contentType": "topics"
       },
       {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
         "contentType": "topics"
       }
     ],
@@ -6756,7 +6949,14 @@
     "slug": "crucial-conversations-tools-for-talking-when-stakes-are-high",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -6767,14 +6967,7 @@
     "slug": "dare-la-vita",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -6796,14 +6989,7 @@
     "slug": "ego-is-the-enemy",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -6816,9 +7002,15 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
@@ -6828,15 +7020,9 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "leadership",
-        "title": "Leadership",
-        "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
@@ -6878,6 +7064,12 @@
     "status": null,
     "contentType": "books",
     "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
       {
         "matchedId": "leadership",
         "title": "Leadership",
@@ -6934,7 +7126,146 @@
     "slug": "flawless-consulting",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Great consulting begets authenticity",
@@ -6945,6 +7276,16 @@
         "title": "Great consulting requires client collaboration",
         "slug": "great-consulting-requires-client-collaboration",
         "contentType": "notes"
+      },
+      {
+        "title": "There are three types of consulting",
+        "slug": "there-are-three-types-of-consulting",
+        "contentType": "notes"
+      },
+      {
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
       }
     ]
   },
@@ -6958,6 +7299,24 @@
     "contentType": "books",
     "outboundLinks": [
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
@@ -6967,6 +7326,12 @@
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
@@ -6994,39 +7359,15 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
         "contentType": "topics"
       }
     ],
@@ -7059,9 +7400,27 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "leadership",
-        "title": "Leadership",
-        "slug": "leadership",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
@@ -7071,15 +7430,69 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "leadership",
-        "title": "Leadership",
-        "slug": "leadership",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -7088,6 +7501,11 @@
         "title": "Efficiency must be defensible",
         "slug": "efficiency-must-be-defensible",
         "contentType": "notes"
+      },
+      {
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
       }
     ]
   },
@@ -7270,6 +7688,11 @@
         "title": "Retention doesn’t grow brands",
         "slug": "retention-doesnt-grow-brands",
         "contentType": "notes"
+      },
+      {
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
       }
     ]
   },
@@ -7283,9 +7706,9 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "knowledge",
-        "title": "Knowledge",
-        "slug": "knowledge",
+        "matchedId": "knowledge-management",
+        "title": "Knowledge management",
+        "slug": "knowledge-management",
         "contentType": "topics"
       }
     ],
@@ -7403,15 +7826,15 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -7424,6 +7847,17 @@
     ],
     "slug": "io-sono-vivo-voi-siete-morti",
     "status": null,
+    "contentType": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "La Strega Di Portobello",
+      "la-strega-di-portobello"
+    ],
+    "slug": "la-strega-di-portobello",
+    "status": "seedling",
     "contentType": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -7471,14 +7905,7 @@
     "slug": "ma-chi-me-lo-fa-fare-come-il-lavoro-ci-ha-illuso",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -7501,7 +7928,13 @@
     "status": null,
     "contentType": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ]
   },
   {
     "ids": [
@@ -7540,6 +7973,11 @@
         "title": "Customer loyalty is behavioral",
         "slug": "customer-loyalty-is-behavioral",
         "contentType": "notes"
+      },
+      {
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
       }
     ]
   },
@@ -7551,32 +7989,7 @@
     "slug": "measure-what-matters",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -7639,9 +8052,123 @@
         "contentType": "topics"
       },
       {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
@@ -7657,9 +8184,99 @@
         "contentType": "topics"
       },
       {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
@@ -7675,9 +8292,15 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
@@ -7693,9 +8316,9 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
@@ -7705,9 +8328,9 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
@@ -7717,39 +8340,51 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       },
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       }
     ],
@@ -7765,15 +8400,267 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       }
     ],
@@ -7821,24 +8708,6 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -7851,45 +8720,9 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
         "contentType": "topics"
       },
       {
@@ -7931,32 +8764,7 @@
     "slug": "switch",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Appeal to emotion and reason for changing things",
@@ -7991,21 +8799,9 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
         "contentType": "topics"
       },
       {
@@ -8072,7 +8868,38 @@
     "slug": "the-boutique",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8186,7 +9013,14 @@
     "slug": "the-charisma-myth",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -8197,56 +9031,7 @@
     "slug": "the-coaching-habit",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Use the TERA quotient for building trust",
@@ -8265,9 +9050,57 @@
     "contentType": "books",
     "outboundLinks": [
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
@@ -8283,15 +9116,9 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "leadership",
-        "title": "Leadership",
-        "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "leadership",
-        "title": "Leadership",
-        "slug": "leadership",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -8315,6 +9142,11 @@
         "title": "Work toward proximate objectives",
         "slug": "work-toward-proximate-objectives",
         "contentType": "notes"
+      },
+      {
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
       }
     ]
   },
@@ -8554,12 +9386,6 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -8572,27 +9398,15 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
@@ -8659,7 +9473,14 @@
     "slug": "the-mckinsey-way",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Effective change requires collaboration",
@@ -8708,6 +9529,12 @@
         "contentType": "topics"
       },
       {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
@@ -8725,6 +9552,16 @@
         "title": "Brand management aims to turn brands into landmarks",
         "slug": "brand-management-aims-to-turn-brands-into-landmarks",
         "contentType": "notes"
+      },
+      {
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      },
+      {
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
       }
     ]
   },
@@ -8736,7 +9573,26 @@
     "slug": "the-trusted-advisor",
     "status": null,
     "contentType": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Great consulting begets authenticity",
@@ -8747,6 +9603,11 @@
         "title": "Great consulting requires client collaboration",
         "slug": "great-consulting-requires-client-collaboration",
         "contentType": "notes"
+      },
+      {
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
       }
     ]
   },
@@ -8789,6 +9650,11 @@
         "title": "Systems must be inspected",
         "slug": "systems-must-be-inspected",
         "contentType": "notes"
+      },
+      {
+        "title": "Systems thinking",
+        "slug": "systems-thinking",
+        "contentType": "topics"
       }
     ]
   },
@@ -8824,12 +9690,6 @@
     "contentType": "books",
     "outboundLinks": [
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -8848,27 +9708,9 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
         "contentType": "topics"
       }
     ],
@@ -8904,14 +9746,7 @@
     "slug": "022-commodification-cripples-culture",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -8930,9 +9765,21 @@
         "contentType": "topics"
       },
       {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
         "contentType": "topics"
       }
     ],
@@ -8993,7 +9840,14 @@
     "slug": "100-rules-to-live-by",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9343,38 +10197,7 @@
     "slug": "3-pillars-of-digital-luxury",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -9824,6 +10647,12 @@
         "contentType": "topics"
       },
       {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "writing",
         "title": "Writing",
         "slug": "writing",
@@ -9893,7 +10722,14 @@
     "slug": "a-perfect-storm-created-a-renaissance-in-chess-covid-driving-people-to-occupy-their-minds-in-phys",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -9985,6 +10821,12 @@
         "contentType": "topics"
       },
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
@@ -10014,7 +10856,14 @@
     "slug": "a-smart-bear-extreme-brainstorming-questions-to-trigger-new-better-ideas",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -10098,7 +10947,26 @@
     "slug": "a-smart-bear-the-three-kinds-of-leverage-that-anchor-effective-strategies",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -10279,14 +11147,7 @@
     "slug": "advice-for-using-goal-frameworks",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -10398,7 +11259,14 @@
     "slug": "ai-leapfrogging-how-ai-will-transform-lagging-industries",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -10410,7 +11278,14 @@
     "slug": "alignment-autonomy",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -10527,7 +11402,14 @@
     "slug": "amazons-fast-delivery-moat",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11034,12 +11916,6 @@
         "title": "Leadership",
         "slug": "leadership",
         "contentType": "topics"
-      },
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
       }
     ],
     "inboundLinks": []
@@ -11052,7 +11928,14 @@
     "slug": "be-more-assertive-with-customers",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11110,7 +11993,14 @@
     "slug": "better-tools-bigger-companies",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -11155,14 +12045,7 @@
     "slug": "bill-watterson-some-thoughts-on-the-real-world-by-one-who-glimpsed-it-and-fled-kenyon-college-199",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Relax is not idleness",
@@ -11268,14 +12151,7 @@
     "slug": "brain-food-causing-extraordinary",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Wisdom is knowing what’s worth wanting",
@@ -11338,9 +12214,9 @@
     "contentType": "articles",
     "outboundLinks": [
       {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -11371,7 +12247,14 @@
     "slug": "brain-food-earned-success",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Work toward proximate objectives",
@@ -11379,6 +12262,17 @@
         "contentType": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Brain Food: Embracing Life",
+      "brain-food-embracing-life"
+    ],
+    "slug": "brain-food-embracing-life",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -11444,14 +12338,7 @@
     "slug": "brain-food-internally-driven",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -12123,7 +13010,14 @@
     "slug": "changing-times",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -12436,14 +13330,7 @@
     "slug": "consumers-want-more-from-digital-product-passports-new-survey-says",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -12513,6 +13400,12 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
       {
         "matchedId": "marketing",
         "title": "Marketing",
@@ -12649,12 +13542,6 @@
     "contentType": "articles",
     "outboundLinks": [
       {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "8",
         "title": "🎓",
         "slug": "8",
@@ -12696,6 +13583,42 @@
     "contentType": "articles",
     "outboundLinks": [
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -12736,6 +13659,12 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
       {
         "matchedId": "leadership",
         "title": "Leadership",
@@ -12850,7 +13779,13 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Learning is a four-phase process",
+        "slug": "learning-is-a-four-phase-process",
+        "contentType": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -13099,6 +14034,12 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
       {
         "matchedId": "marketing",
         "title": "Marketing",
@@ -13353,7 +14294,14 @@
     "slug": "early-arriver-arbitrage",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Arrive early to new arenas",
@@ -13577,26 +14525,7 @@
     "slug": "experiences-wont-make-you-happier-than-possessions",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -13671,9 +14600,21 @@
     "contentType": "articles",
     "outboundLinks": [
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
@@ -13693,20 +14634,24 @@
   },
   {
     "ids": [
+      "‘Fake It Till You Make It’ - The Fastest Way to Validate Your Brand",
+      "fake-it-till-you-make-it-the-fastest-way-to-validate-your-brand"
+    ],
+    "slug": "fake-it-till-you-make-it-the-fastest-way-to-validate-your-brand",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "False Consensus Effect: Definition and Examples",
       "false-consensus-effect-definition-and-examples"
     ],
     "slug": "false-consensus-effect-definition-and-examples",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -13739,14 +14684,7 @@
     "slug": "fashion-briefing-against-all-odds-web3-loyalty-programs-are-flourishing",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -13865,7 +14803,14 @@
     "slug": "follow-curiosity",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -13889,7 +14834,14 @@
     "slug": "foresight-as-activism-researching-vs-making-culture",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Foresight is creation, not prediction",
@@ -14116,7 +15068,14 @@
     "slug": "fwd-5-full-pages-notes-of-customer-experience-golden-nuggets",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "customer-experience",
+        "title": "Customer experience",
+        "slug": "customer-experience",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14195,7 +15154,14 @@
     "slug": "getting-ready-to-move-upmarket",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14353,6 +15319,17 @@
   },
   {
     "ids": [
+      "GPT-4o and the Art of AI Adoption",
+      "gpt-4o-and-the-art-of-ai-adoption"
+    ],
+    "slug": "gpt-4o-and-the-art-of-ai-adoption",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "🍀 Growth Levers to Pull",
       "🍀-growth-levers-to-pull",
       "growth-levers-to-pull"
@@ -14401,7 +15378,14 @@
     "slug": "hard-reset",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14412,7 +15396,14 @@
     "slug": "harvard-business-review",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14429,12 +15420,6 @@
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
         "contentType": "topics"
       }
     ],
@@ -14528,14 +15513,7 @@
     "slug": "how-big-tech-runs-tech-projects-and-the-curious-absence-of-scrum",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -14563,6 +15541,18 @@
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -14702,7 +15692,14 @@
     "slug": "how-do-you-know-when-to-stop-versus-when-to-push-through-you-dont-not-even-in-hindsight-but-these",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -14746,14 +15743,7 @@
     "slug": "how-hard-should-i-push-myself",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "The anticipation of danger causes stress",
@@ -15008,14 +15998,7 @@
     "slug": "how-to-be-more-agentic",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -15186,9 +16169,21 @@
     "contentType": "articles",
     "outboundLinks": [
       {
-        "matchedId": "knowledge",
-        "title": "Knowledge",
-        "slug": "knowledge",
+        "matchedId": "knowledge-management",
+        "title": "Knowledge management",
+        "slug": "knowledge-management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -15202,20 +16197,7 @@
     "slug": "how-to-do-hard-things",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Fusion alters our reality",
@@ -15603,12 +16585,6 @@
     "contentType": "articles",
     "outboundLinks": [
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "engineering",
         "title": "Engineering",
         "slug": "engineering",
@@ -15722,7 +16698,32 @@
     "slug": "in-defense-of-strategy",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -15993,7 +16994,20 @@
     "slug": "insiders-149-the-allure-of-subscriptions-the-shiny-ball-of-recurring-revenue",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16212,6 +17226,18 @@
       "is-digital-fashion-still-in-fashion"
     ],
     "slug": "is-digital-fashion-still-in-fashion",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Is It Just Shopify’s World and We’re Just Living in It? Oh, and a Canadian Cocktail, Eh?",
+      "is-it-just-shopify’s-world-and-we’re-just-living-in-it-oh-and-a-canadian-cocktail-eh",
+      "is-it-just-shopifys-world-and-were-just-living-in-it-oh-and-a-canadian-cocktail-eh"
+    ],
+    "slug": "is-it-just-shopifys-world-and-were-just-living-in-it-oh-and-a-canadian-cocktail-eh",
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
@@ -16495,15 +17521,39 @@
     "contentType": "articles",
     "outboundLinks": [
       {
-        "matchedId": "marketing",
-        "title": "Marketing",
-        "slug": "marketing",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -16575,7 +17625,14 @@
     "slug": "light-labor-day-reading-7-predictions-about-the-future-of-dtc",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -16599,6 +17656,12 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      },
       {
         "matchedId": "marketing",
         "title": "Marketing",
@@ -16825,24 +17888,6 @@
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
         "contentType": "topics"
       }
     ],
@@ -17120,7 +18165,14 @@
     "slug": "member-brief-nikes-strategy-reversal",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -17388,14 +18440,7 @@
     "slug": "momentum-consolidation-and-breakout",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -17417,7 +18462,20 @@
     "slug": "monopolistic-competition-definition-how-it-works-pros-and-cons",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -17739,9 +18797,9 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       },
       {
@@ -17939,14 +18997,7 @@
     "slug": "one-moment-in-a-decade",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -17982,24 +19033,6 @@
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
       {
         "matchedId": "leadership",
         "title": "Leadership",
@@ -18192,7 +19225,32 @@
     "slug": "part-4-the-only-thing-that-matters",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -18814,14 +19872,7 @@
     "slug": "roblox-marketers-feel-the-tensioninside-brands-next-challenge-on-the-platform",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -18832,7 +19883,20 @@
     "slug": "rocks-pebbles-sand-how-to-implement-in-practice",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -18912,7 +19976,14 @@
     "slug": "seek-first-to-understand",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "consulting",
+        "title": "Consulting",
+        "slug": "consulting",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19453,7 +20524,14 @@
     "slug": "superlinear-returns",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -19562,6 +20640,12 @@
         "title": "Marketing",
         "slug": "marketing",
         "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
       }
     ],
     "inboundLinks": []
@@ -19629,9 +20713,21 @@
     "contentType": "articles",
     "outboundLinks": [
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -19716,7 +20812,20 @@
     "slug": "the-ai-startup-litmus-test",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20443,6 +21552,12 @@
     "contentType": "articles",
     "outboundLinks": [
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -20611,14 +21726,7 @@
     "slug": "the-meta-trending-trends-2024",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "thinking",
-        "title": "Thinking",
-        "slug": "thinking",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Foresight is creation, not prediction",
@@ -20643,18 +21751,6 @@
         "contentType": "topics"
       },
       {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -20664,24 +21760,6 @@
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
         "contentType": "topics"
       }
     ],
@@ -20762,6 +21840,12 @@
         "contentType": "topics"
       },
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -20826,7 +21910,38 @@
     "slug": "the-new-moats-are-just-the-old-moats",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -20990,7 +22105,20 @@
     "slug": "the-perils-of-niching-down",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -21378,6 +22506,18 @@
   },
   {
     "ids": [
+      "👁️ THE TARIFFPOCALYPSE COMETH",
+      "👁️-the-tariffpocalypse-cometh",
+      "the-tariffpocalypse-cometh"
+    ],
+    "slug": "the-tariffpocalypse-cometh",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The taste map - by Ana Andjelic - The Sociology of Business",
       "the-taste-map-by-ana-andjelic-the-sociology-of-business◙the-taste-map",
       "the-taste-map-by-ana-andjelic-the-sociology-of-businessthe-taste-map"
@@ -21494,20 +22634,7 @@
     "slug": "the-tyranny-of-structurelessness",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Groups always have structure",
@@ -21689,14 +22816,7 @@
     "slug": "the-untold-story-of-buffers-values-why-we-created-them-and-why-it-hurt",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -22122,14 +23242,7 @@
     "slug": "toward-a-new-model-for-corporate-learning-and-development",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -22584,14 +23697,7 @@
     "slug": "what-investors-want-from-dtc-brands",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "web3",
-        "title": "Web3",
-        "slug": "web3",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -22658,14 +23764,7 @@
     "slug": "what-is-the-alexander-technique",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Alexander Technique allows you to expand the space between stimulus and response",
@@ -22802,7 +23901,14 @@
     "slug": "what-strategy-questions-are-you-asking",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -22860,7 +23966,20 @@
     "slug": "when-to-dig-a-moat-not-boring-by-packy-mccormickwhen-to-dig-a-moat",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Risk protects from competition",
@@ -23347,14 +24466,7 @@
     "slug": "why-life-cant-be-simpler",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -23538,20 +24650,7 @@
     "slug": "why-you-should-give-up-on-your-dreams",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "psychology",
-        "title": "Psychology",
-        "slug": "psychology",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -23602,14 +24701,7 @@
     "slug": "work-the-policy-not-the-exceptions",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Work the policy, not the exception",
@@ -23637,12 +24729,6 @@
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "management",
-        "title": "Management",
-        "slug": "management",
         "contentType": "topics"
       }
     ],
@@ -23789,6 +24875,18 @@
         "contentType": "topics"
       },
       {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
@@ -23798,6 +24896,18 @@
         "matchedId": "marketing",
         "title": "Marketing",
         "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "strategy",
+        "title": "Strategy",
+        "slug": "strategy",
         "contentType": "topics"
       }
     ],
@@ -23881,10 +24991,192 @@
       "commerce"
     ],
     "slug": "commerce",
+    "status": "budding",
+    "contentType": "topics",
+    "outboundLinks": [
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "customer-experience",
+        "title": "Customer experience",
+        "slug": "customer-experience",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "commerce-is-the-most-democratic-form-of-art",
+        "title": "Commerce is the most democratic form of art",
+        "slug": "commerce-is-the-most-democratic-form-of-art",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Commerce is the most democratic form of art",
+        "slug": "commerce-is-the-most-democratic-form-of-art",
+        "contentType": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Consulting",
+      "consulting"
+    ],
+    "slug": "consulting",
+    "status": "budding",
+    "contentType": "topics",
+    "outboundLinks": [
+      {
+        "matchedId": "consulting-involves-tension",
+        "title": "Consulting involves tension",
+        "slug": "consulting-involves-tension",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "consulting-is-the-gift-of-perspective",
+        "title": "Consulting is the gift of perspective",
+        "slug": "consulting-is-the-gift-of-perspective",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "there-are-three-types-of-consulting",
+        "title": "There are three types of consulting",
+        "slug": "there-are-three-types-of-consulting",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "managing-the-professional-service-firm",
+        "title": "Managing the Professional Service Firm",
+        "slug": "managing-the-professional-service-firm",
+        "contentType": "books"
+      },
+      {
+        "matchedId": "the-trusted-advisor",
+        "title": "The Trusted Advisor",
+        "slug": "the-trusted-advisor",
+        "contentType": "books"
+      },
+      {
+        "matchedId": "flawless-consulting",
+        "title": "Flawless Consulting",
+        "slug": "flawless-consulting",
+        "contentType": "books"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Crucial Conversations Tools for Talking When Stakes Are High",
+        "slug": "crucial-conversations-tools-for-talking-when-stakes-are-high",
+        "contentType": "books"
+      },
+      {
+        "title": "Flawless Consulting",
+        "slug": "flawless-consulting",
+        "contentType": "books"
+      },
+      {
+        "title": "Professional Services Marketing",
+        "slug": "professional-services-marketing",
+        "contentType": "books"
+      },
+      {
+        "title": "Rainmaking Conversations",
+        "slug": "rainmaking-conversations",
+        "contentType": "books"
+      },
+      {
+        "title": "The Boutique",
+        "slug": "the-boutique",
+        "contentType": "books"
+      },
+      {
+        "title": "The Charisma Myth",
+        "slug": "the-charisma-myth",
+        "contentType": "books"
+      },
+      {
+        "title": "The McKinsey Way",
+        "slug": "the-mckinsey-way",
+        "contentType": "books"
+      },
+      {
+        "title": "The New Strategic Brand Management",
+        "slug": "the-new-strategic-brand-management",
+        "contentType": "books"
+      },
+      {
+        "title": "The Trusted Advisor",
+        "slug": "the-trusted-advisor",
+        "contentType": "books"
+      },
+      {
+        "title": "10 Consulting Trends: 2024 Edition",
+        "slug": "10-consulting-trends-2024-edition",
+        "contentType": "articles"
+      },
+      {
+        "title": "A Few Great Writing Prompts",
+        "slug": "a-few-great-writing-prompts",
+        "contentType": "articles"
+      },
+      {
+        "title": "Be More Assertive With Customers",
+        "slug": "be-more-assertive-with-customers",
+        "contentType": "articles"
+      },
+      {
+        "title": "Light Labor Day Reading: 7 Predictions About the Future of DTC",
+        "slug": "light-labor-day-reading-7-predictions-about-the-future-of-dtc",
+        "contentType": "articles"
+      },
+      {
+        "title": "LinkedIn_ABM_Guide_Final_201113",
+        "slug": "linkedinabmguidefinal201113",
+        "contentType": "articles"
+      },
+      {
+        "title": "Monopolistic Competition: Definition, How It Works, Pros and Cons",
+        "slug": "monopolistic-competition-definition-how-it-works-pros-and-cons",
+        "contentType": "articles"
+      },
+      {
+        "title": "Seek First to Understand",
+        "slug": "seek-first-to-understand",
+        "contentType": "articles"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Customer experience",
+      "customer-experience"
+    ],
+    "slug": "customer-experience",
     "status": "seedling",
     "contentType": "topics",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Fwd: 5 Full Pages/Notes of Customer Experience Golden Nuggets",
+        "slug": "fwd-5-full-pages-notes-of-customer-experience-golden-nuggets",
+        "contentType": "articles"
+      },
+      {
+        "title": "Commerce",
+        "slug": "commerce",
+        "contentType": "topics"
+      }
+    ]
   },
   {
     "ids": [
@@ -23920,13 +25212,32 @@
   },
   {
     "ids": [
-      "Knowledge",
-      "knowledge"
+      "Knowledge management",
+      "knowledge-management"
     ],
-    "slug": "knowledge",
+    "slug": "knowledge-management",
     "status": "budding",
     "contentType": "topics",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "tacit-knowledge-is-hard-to-capture",
+        "title": "Tacit knowledge is hard to capture",
+        "slug": "tacit-knowledge-is-hard-to-capture",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "explicit-knowledge-can-be-captured",
+        "title": "Explicit knowledge is easy to capture",
+        "slug": "explicit-knowledge-can-be-captured",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "learning-is-a-four-phase-process",
+        "title": "Learning is a four-phase process",
+        "slug": "learning-is-a-four-phase-process",
+        "contentType": "notes"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Taking yourself seriously impedes learning",
@@ -24194,146 +25505,50 @@
   },
   {
     "ids": [
-      "Management",
-      "management"
-    ],
-    "slug": "management",
-    "status": "seedling",
-    "contentType": "topics",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "100 Truths You Will Learn Too Late",
-        "slug": "100-truths-you-will-learn-too-late",
-        "contentType": "books"
-      },
-      {
-        "title": "Clear Thinking",
-        "slug": "clear-thinking",
-        "contentType": "books"
-      },
-      {
-        "title": "Empowered",
-        "slug": "empowered",
-        "contentType": "books"
-      },
-      {
-        "title": "From Start-Up to Grown-Up",
-        "slug": "from-start-up-to-grown-up",
-        "contentType": "books"
-      },
-      {
-        "title": "Inspired",
-        "slug": "inspired",
-        "contentType": "books"
-      },
-      {
-        "title": "Measure What Matters",
-        "slug": "measure-what-matters",
-        "contentType": "books"
-      },
-      {
-        "title": "Scaling Up Excellence",
-        "slug": "scaling-up-excellence",
-        "contentType": "books"
-      },
-      {
-        "title": "Switch",
-        "slug": "switch",
-        "contentType": "books"
-      },
-      {
-        "title": "The Coaching Habit",
-        "slug": "the-coaching-habit",
-        "contentType": "books"
-      },
-      {
-        "title": "The Fifth Discipline",
-        "slug": "the-fifth-discipline",
-        "contentType": "books"
-      },
-      {
-        "title": "Trillion Dollar Coach",
-        "slug": "trillion-dollar-coach",
-        "contentType": "books"
-      },
-      {
-        "title": "Advice for Using Goal Frameworks",
-        "slug": "advice-for-using-goal-frameworks",
-        "contentType": "articles"
-      },
-      {
-        "title": "Heuristics for Effective Software Development Organizations: A Continuously Evolving List.* | Allen Holub",
-        "slug": "heuristics-for-effective-software-development-organizations-a-continuously-evolving-list-allen-ho",
-        "contentType": "articles"
-      },
-      {
-        "title": "How Big Tech Runs Tech Projects and the Curious Absence of Scrum",
-        "slug": "how-big-tech-runs-tech-projects-and-the-curious-absence-of-scrum",
-        "contentType": "articles"
-      },
-      {
-        "title": "Hunting Tech Debt via Org Charts",
-        "slug": "hunting-tech-debt-via-org-charts",
-        "contentType": "articles"
-      },
-      {
-        "title": "No Margin, No Mission",
-        "slug": "no-margin-no-mission",
-        "contentType": "articles"
-      },
-      {
-        "title": "One Moment in a Decade",
-        "slug": "one-moment-in-a-decade",
-        "contentType": "articles"
-      },
-      {
-        "title": "Operating Well: What I Learned at Stripe",
-        "slug": "operating-well-what-i-learned-at-stripe",
-        "contentType": "articles"
-      },
-      {
-        "title": "The Mindsets and Practices of Excellent CEOs",
-        "slug": "the-mindsets-and-practices-of-excellent-ceos",
-        "contentType": "articles"
-      },
-      {
-        "title": "The TYRANNY of STRUCTURELESSNESS",
-        "slug": "the-tyranny-of-structurelessness",
-        "contentType": "articles"
-      },
-      {
-        "title": "The Untold Story of Buffer’s Values: Why We Created Them, and Why It Hurt",
-        "slug": "the-untold-story-of-buffers-values-why-we-created-them-and-why-it-hurt",
-        "contentType": "articles"
-      },
-      {
-        "title": "Toward a New Model for Corporate Learning and Development",
-        "slug": "toward-a-new-model-for-corporate-learning-and-development",
-        "contentType": "articles"
-      },
-      {
-        "title": "Work the Policy, Not the Exceptions.",
-        "slug": "work-the-policy-not-the-exceptions",
-        "contentType": "articles"
-      },
-      {
-        "title": "Working Backwards",
-        "slug": "working-backwards",
-        "contentType": "articles"
-      }
-    ]
-  },
-  {
-    "ids": [
       "Marketing",
       "marketing"
     ],
     "slug": "marketing",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "topics",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "marketing-must-build-availability",
+        "title": "Marketing must build availability",
+        "slug": "marketing-must-build-availability",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "brands-serve-two-purposes",
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "the-new-strategic-brand-management",
+        "title": "The New Strategic Brand Management",
+        "slug": "the-new-strategic-brand-management",
+        "contentType": "books"
+      },
+      {
+        "matchedId": "how-brands-grow",
+        "title": "How Brands Grow",
+        "slug": "how-brands-grow",
+        "contentType": "books"
+      },
+      {
+        "matchedId": "marketers-are-from-mars-consumers-are-from-new-jersey",
+        "title": "Marketers Are From Mars, Consumers Are From New Jersey",
+        "slug": "marketers-are-from-mars-consumers-are-from-new-jersey",
+        "contentType": "books"
+      }
+    ],
     "inboundLinks": [
+      {
+        "title": "Brands serve two purposes",
+        "slug": "brands-serve-two-purposes",
+        "contentType": "notes"
+      },
       {
         "title": "$100M Leads",
         "slug": "100m-leads",
@@ -24793,115 +26008,60 @@
         "title": "Zero-1st-2nd-3rd-Part-Data-Exponea",
         "slug": "zero-1st-2nd-3rd-part-data-exponea",
         "contentType": "articles"
+      },
+      {
+        "title": "Commerce",
+        "slug": "commerce",
+        "contentType": "topics"
       }
     ]
   },
   {
     "ids": [
-      "Psychology",
-      "psychology"
+      "Strategy",
+      "strategy"
     ],
-    "slug": "psychology",
-    "status": "seedling",
+    "slug": "strategy",
+    "status": "budding",
     "contentType": "topics",
-    "outboundLinks": [],
-    "inboundLinks": [
+    "outboundLinks": [
       {
-        "title": "Clear Thinking",
-        "slug": "clear-thinking",
+        "matchedId": "good-strategy-bad-strategy",
+        "title": "Good Strategy/Bad Strategy",
+        "slug": "good-strategy-bad-strategy",
         "contentType": "books"
       },
       {
-        "title": "Dare La Vita",
-        "slug": "dare-la-vita",
+        "matchedId": "the-crux",
+        "title": "The Crux",
+        "slug": "the-crux",
         "contentType": "books"
       },
       {
-        "title": "Ego Is the Enemy",
-        "slug": "ego-is-the-enemy",
-        "contentType": "books"
+        "matchedId": "good-strategy-is-simple",
+        "title": "Good strategy is simple",
+        "slug": "good-strategy-is-simple",
+        "contentType": "notes"
       },
       {
-        "title": "Ma Chi Me Lo Fa Fare? Come Il Lavoro Ci Ha Illuso",
-        "slug": "ma-chi-me-lo-fa-fare-come-il-lavoro-ci-ha-illuso",
-        "contentType": "books"
+        "matchedId": "strategy-deals-with-present-challenges",
+        "title": "Strategy deals with present challenges",
+        "slug": "strategy-deals-with-present-challenges",
+        "contentType": "notes"
       },
       {
-        "title": "The 15 Commitments of Conscious Leadership",
-        "slug": "the-15-commitments-of-conscious-leadership",
-        "contentType": "books"
+        "matchedId": "strategy-requires-original-insights",
+        "title": "Strategy requires original insights",
+        "slug": "strategy-requires-original-insights",
+        "contentType": "notes"
       },
       {
-        "title": "Be a Thermostat, Not a Thermometer",
-        "slug": "be-a-thermostat-not-a-thermometer",
-        "contentType": "articles"
-      },
-      {
-        "title": "Bill Watterson: ‘Some Thoughts on the Real World by One Who Glimpsed It and Fled’, Kenyon College - 1990",
-        "slug": "bill-watterson-some-thoughts-on-the-real-world-by-one-who-glimpsed-it-and-fled-kenyon-college-199",
-        "contentType": "articles"
-      },
-      {
-        "title": "Brain Food: Internally Driven",
-        "slug": "brain-food-internally-driven",
-        "contentType": "articles"
-      },
-      {
-        "title": "Dasein - Wikipedia",
-        "slug": "dasein-wikipedia",
-        "contentType": "articles"
-      },
-      {
-        "title": "Experiences Won’t Make You Happier Than Possessions",
-        "slug": "experiences-wont-make-you-happier-than-possessions",
-        "contentType": "articles"
-      },
-      {
-        "title": "False Consensus Effect: Definition and Examples",
-        "slug": "false-consensus-effect-definition-and-examples",
-        "contentType": "articles"
-      },
-      {
-        "title": "How Hard Should I Push Myself?",
-        "slug": "how-hard-should-i-push-myself",
-        "contentType": "articles"
-      },
-      {
-        "title": "How to Do Hard Things",
-        "slug": "how-to-do-hard-things",
-        "contentType": "articles"
-      },
-      {
-        "title": "Momentum, Consolidation, and Breakout",
-        "slug": "momentum-consolidation-and-breakout",
-        "contentType": "articles"
-      },
-      {
-        "title": "What Is the Alexander Technique?",
-        "slug": "what-is-the-alexander-technique",
-        "contentType": "articles"
-      },
-      {
-        "title": "Why Life Can’t Be Simpler",
-        "slug": "why-life-cant-be-simpler",
-        "contentType": "articles"
-      },
-      {
-        "title": "Why You Should Give Up on Your Dreams",
-        "slug": "why-you-should-give-up-on-your-dreams",
-        "contentType": "articles"
+        "matchedId": "systems-thinking",
+        "title": "Systems thinking",
+        "slug": "systems-thinking",
+        "contentType": "topics"
       }
-    ]
-  },
-  {
-    "ids": [
-      "Thinking",
-      "thinking"
     ],
-    "slug": "thinking",
-    "status": "seedling",
-    "contentType": "topics",
-    "outboundLinks": [],
     "inboundLinks": [
       {
         "title": "Building a Second Brain",
@@ -24914,8 +26074,98 @@
         "contentType": "books"
       },
       {
-        "title": "Brain Food: Causing Extraordinary",
-        "slug": "brain-food-causing-extraordinary",
+        "title": "Empowered",
+        "slug": "empowered",
+        "contentType": "books"
+      },
+      {
+        "title": "Escaping the Build Trap",
+        "slug": "escaping-the-build-trap",
+        "contentType": "books"
+      },
+      {
+        "title": "From Impossible to Inevitable",
+        "slug": "from-impossible-to-inevitable",
+        "contentType": "books"
+      },
+      {
+        "title": "Good Strategy/Bad Strategy",
+        "slug": "good-strategy-bad-strategy",
+        "contentType": "books"
+      },
+      {
+        "title": "Inspired",
+        "slug": "inspired",
+        "contentType": "books"
+      },
+      {
+        "title": "Professional Services Marketing",
+        "slug": "professional-services-marketing",
+        "contentType": "books"
+      },
+      {
+        "title": "Rainmaking Conversations",
+        "slug": "rainmaking-conversations",
+        "contentType": "books"
+      },
+      {
+        "title": "The Boutique",
+        "slug": "the-boutique",
+        "contentType": "books"
+      },
+      {
+        "title": "The Crux",
+        "slug": "the-crux",
+        "contentType": "books"
+      },
+      {
+        "title": "The Fifth Discipline",
+        "slug": "the-fifth-discipline",
+        "contentType": "books"
+      },
+      {
+        "title": "100 Rules to Live By",
+        "slug": "100-rules-to-live-by",
+        "contentType": "articles"
+      },
+      {
+        "title": "A perfect storm created a renaissance in chess: COVID driving people to occupy their minds in physical isolation, the hit Netflix show “The Queen’s Gambit,” and a surge of chess Twitch streamers and YouTubers fueling that nascent interest in chess with equal parts education and entertainment.",
+        "slug": "a-perfect-storm-created-a-renaissance-in-chess-covid-driving-people-to-occupy-their-minds-in-phys",
+        "contentType": "articles"
+      },
+      {
+        "title": "A Smart Bear » Excuse me, is there a problem?",
+        "slug": "a-smart-bear-excuse-me-is-there-a-problem",
+        "contentType": "articles"
+      },
+      {
+        "title": "A Smart Bear » Extreme brainstorming questions to trigger new, better ideas",
+        "slug": "a-smart-bear-extreme-brainstorming-questions-to-trigger-new-better-ideas",
+        "contentType": "articles"
+      },
+      {
+        "title": "A Smart Bear » The three kinds of leverage that anchor effective strategies",
+        "slug": "a-smart-bear-the-three-kinds-of-leverage-that-anchor-effective-strategies",
+        "contentType": "articles"
+      },
+      {
+        "title": "AI Leapfrogging: How AI Will Transform “Lagging” Industries",
+        "slug": "ai-leapfrogging-how-ai-will-transform-lagging-industries",
+        "contentType": "articles"
+      },
+      {
+        "title": "Alignment > Autonomy",
+        "slug": "alignment-autonomy",
+        "contentType": "articles"
+      },
+      {
+        "title": "Amazon’s Fast Delivery Moat",
+        "slug": "amazons-fast-delivery-moat",
+        "contentType": "articles"
+      },
+      {
+        "title": "Better Tools, Bigger Companies",
+        "slug": "better-tools-bigger-companies",
         "contentType": "articles"
       },
       {
@@ -24924,61 +26174,203 @@
         "contentType": "articles"
       },
       {
-        "title": "How to Be More Agentic",
-        "slug": "how-to-be-more-agentic",
+        "title": "Brain Food: Earned Success",
+        "slug": "brain-food-earned-success",
         "contentType": "articles"
       },
       {
-        "title": "The META Trending Trends: 2024",
-        "slug": "the-meta-trending-trends-2024",
+        "title": "Changing Times",
+        "slug": "changing-times",
+        "contentType": "articles"
+      },
+      {
+        "title": "Corteiz Goods - by Ana Andjelic - The Sociology of Business",
+        "slug": "corteiz-goods-by-ana-andjelic-the-sociology-of-businesscorteiz-goods",
+        "contentType": "articles"
+      },
+      {
+        "title": "Death of a Flywheel",
+        "slug": "death-of-a-flywheel",
+        "contentType": "articles"
+      },
+      {
+        "title": "Decision Making for CEO’s Simplified",
+        "slug": "decision-making-for-ceos-simplified",
+        "contentType": "articles"
+      },
+      {
+        "title": "Don’t Try to Run Before You Can Walk",
+        "slug": "dont-try-to-run-before-you-can-walk",
+        "contentType": "articles"
+      },
+      {
+        "title": "Early-Arriver Arbitrage",
+        "slug": "early-arriver-arbitrage",
+        "contentType": "articles"
+      },
+      {
+        "title": "Failure to Face the Truth",
+        "slug": "failure-to-face-the-truth",
+        "contentType": "articles"
+      },
+      {
+        "title": "Follow Curiosity",
+        "slug": "follow-curiosity",
+        "contentType": "articles"
+      },
+      {
+        "title": "Foresight as Activism: Researching vs. Making Culture",
+        "slug": "foresight-as-activism-researching-vs-making-culture",
+        "contentType": "articles"
+      },
+      {
+        "title": "Getting Ready to Move Upmarket",
+        "slug": "getting-ready-to-move-upmarket",
+        "contentType": "articles"
+      },
+      {
+        "title": "Hard Reset",
+        "slug": "hard-reset",
+        "contentType": "articles"
+      },
+      {
+        "title": "Harvard Business Review",
+        "slug": "harvard-business-review",
+        "contentType": "articles"
+      },
+      {
+        "title": "How brands create value - by Ana Andjelic",
+        "slug": "how-brands-create-value-by-ana-andjelichow-brands-create-value",
+        "contentType": "articles"
+      },
+      {
+        "title": "How Do You Know When to Stop, Versus When to Push Through? You Don’t, Not Even in Hindsight. But These Guiding Questions Can Help.",
+        "slug": "how-do-you-know-when-to-stop-versus-when-to-push-through-you-dont-not-even-in-hindsight-but-these",
+        "contentType": "articles"
+      },
+      {
+        "title": "How to Do Great Work",
+        "slug": "how-to-do-great-work",
+        "contentType": "articles"
+      },
+      {
+        "title": "In Defense of Strategy",
+        "slug": "in-defense-of-strategy",
+        "contentType": "articles"
+      },
+      {
+        "title": "Insiders #149: The Allure of Subscriptions: The Shiny Ball of Recurring Revenue",
+        "slug": "insiders-149-the-allure-of-subscriptions-the-shiny-ball-of-recurring-revenue",
+        "contentType": "articles"
+      },
+      {
+        "title": "Lessons Learned From a Startup That Didn’t Make It",
+        "slug": "lessons-learned-from-a-startup-that-didnt-make-it",
+        "contentType": "articles"
+      },
+      {
+        "title": "Member Brief: Nike’s Strategy Reversal",
+        "slug": "member-brief-nikes-strategy-reversal",
+        "contentType": "articles"
+      },
+      {
+        "title": "Monopolistic Competition: Definition, How It Works, Pros and Cons",
+        "slug": "monopolistic-competition-definition-how-it-works-pros-and-cons",
+        "contentType": "articles"
+      },
+      {
+        "title": "No Margin, No Mission",
+        "slug": "no-margin-no-mission",
+        "contentType": "articles"
+      },
+      {
+        "title": "Part 4 The only thing that matters",
+        "slug": "part-4-the-only-thing-that-matters",
+        "contentType": "articles"
+      },
+      {
+        "title": "Rocks, Pebbles, Sand: How to implement in practice",
+        "slug": "rocks-pebbles-sand-how-to-implement-in-practice",
+        "contentType": "articles"
+      },
+      {
+        "title": "Superlinear Returns",
+        "slug": "superlinear-returns",
+        "contentType": "articles"
+      },
+      {
+        "title": "Targeting taste communities - by Ana Andjelic",
+        "slug": "targeting-taste-communities-by-ana-andjelictargeting-taste-communities",
+        "contentType": "articles"
+      },
+      {
+        "title": "Telling the 800-Lb Gorilla to Shove It Up His Ass",
+        "slug": "telling-the-800-lb-gorilla-to-shove-it-up-his-ass",
+        "contentType": "articles"
+      },
+      {
+        "title": "The AI Startup Litmus Test",
+        "slug": "the-ai-startup-litmus-test",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Iterative Adjacent Possible",
+        "slug": "the-iterative-adjacent-possible",
+        "contentType": "articles"
+      },
+      {
+        "title": "The narrative structure of the strategic Fairytale Plan",
+        "slug": "the-narrative-structure-of-the-strategic-fairytale-plan",
+        "contentType": "articles"
+      },
+      {
+        "title": "The New Moats are just the Old Moats.",
+        "slug": "the-new-moats-are-just-the-old-moats",
+        "contentType": "articles"
+      },
+      {
+        "title": "The Perils of Niching Down",
+        "slug": "the-perils-of-niching-down",
+        "contentType": "articles"
+      },
+      {
+        "title": "What Strategy Questions Are You Asking?",
+        "slug": "what-strategy-questions-are-you-asking",
+        "contentType": "articles"
+      },
+      {
+        "title": "When to Dig a Moat - Not Boring by Packy McCormick",
+        "slug": "when-to-dig-a-moat-not-boring-by-packy-mccormickwhen-to-dig-a-moat",
+        "contentType": "articles"
+      },
+      {
+        "title": "You Can’t Hack Product Positioning",
+        "slug": "you-cant-hack-product-positioning",
         "contentType": "articles"
       }
     ]
   },
   {
     "ids": [
-      "Web3",
-      "web3"
+      "Systems thinking",
+      "systems-thinking"
     ],
-    "slug": "web3",
+    "slug": "systems-thinking",
     "status": "seedling",
     "contentType": "topics",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "thinking-in-systems",
+        "title": "Thinking in Systems",
+        "slug": "thinking-in-systems",
+        "contentType": "books"
+      }
+    ],
     "inboundLinks": [
       {
-        "title": "#022 Commodification Cripples Culture",
-        "slug": "022-commodification-cripples-culture",
-        "contentType": "articles"
-      },
-      {
-        "title": "3 Pillars of Digital Luxury",
-        "slug": "3-pillars-of-digital-luxury",
-        "contentType": "articles"
-      },
-      {
-        "title": "Consumers Want More From Digital Product Passports, New Survey Says",
-        "slug": "consumers-want-more-from-digital-product-passports-new-survey-says",
-        "contentType": "articles"
-      },
-      {
-        "title": "Fashion Briefing: Against All Odds, Web3 Loyalty Programs Are Flourishing",
-        "slug": "fashion-briefing-against-all-odds-web3-loyalty-programs-are-flourishing",
-        "contentType": "articles"
-      },
-      {
-        "title": "Luxury x Crypto - by Ana Andjelic",
-        "slug": "luxury-x-crypto-by-ana-andjelicluxury-x-crypto",
-        "contentType": "articles"
-      },
-      {
-        "title": "Roblox Marketers Feel the Tension—inside Brands’ Next Challenge on the Platform",
-        "slug": "roblox-marketers-feel-the-tensioninside-brands-next-challenge-on-the-platform",
-        "contentType": "articles"
-      },
-      {
-        "title": "What Investors Want From DTC Brands",
-        "slug": "what-investors-want-from-dtc-brands",
-        "contentType": "articles"
+        "title": "Strategy",
+        "slug": "strategy",
+        "contentType": "topics"
       }
     ]
   },
