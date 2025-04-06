@@ -301,6 +301,11 @@
         "title": "Shared vision is descriptive, not prescriptive",
         "slug": "shared-vision-is-descriptive-not-prescriptive",
         "contentType": "notes"
+      },
+      {
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
       }
     ]
   },
@@ -952,6 +957,11 @@
         "title": "Serendipity requires randomness",
         "slug": "serendipity-requires-randomness",
         "contentType": "notes"
+      },
+      {
+        "title": "Software should be tested in production",
+        "slug": "software-should-be-tested-in-production",
+        "contentType": "notes"
       }
     ]
   },
@@ -994,7 +1004,13 @@
         "contentType": "notes"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ]
   },
   {
     "ids": [
@@ -2086,6 +2102,11 @@
         "title": "Unknown habits impede learning",
         "slug": "unknown-habits-impede-learning",
         "contentType": "notes"
+      },
+      {
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
       }
     ]
   },
@@ -2357,6 +2378,17 @@
       "empathize-with-difficult-people"
     ],
     "slug": "empathize-with-difficult-people",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Engineers should own the product",
+      "engineers-should-own-the-product"
+    ],
+    "slug": "engineers-should-own-the-product",
     "status": "seedling",
     "contentType": "notes",
     "outboundLinks": [],
@@ -2785,6 +2817,11 @@
         "title": "Advertising must be consistent",
         "slug": "advertising-must-be-consistent",
         "contentType": "notes"
+      },
+      {
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
       }
     ]
   },
@@ -4176,6 +4213,23 @@
   },
   {
     "ids": [
+      "MVP is not half-assed",
+      "mvp-is-not-half-assed"
+    ],
+    "slug": "mvp-is-not-half-assed",
+    "status": "seedling",
+    "contentType": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "title": "Software engineering",
+        "slug": "software-engineering",
+        "contentType": "topics"
+      }
+    ]
+  },
+  {
+    "ids": [
       "NFTs create transparency into the value of cultural artifacts",
       "nf-ts-create-transparency-into-the-value-of-cultural-artifacts"
     ],
@@ -4299,7 +4353,13 @@
         "contentType": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      }
+    ]
   },
   {
     "ids": [
@@ -5325,14 +5385,27 @@
   },
   {
     "ids": [
-      "Software engineering",
-      "software-engineering"
+      "Software should be tested in production",
+      "software-should-be-tested-in-production"
     ],
-    "slug": "software-engineering",
+    "slug": "software-should-be-tested-in-production",
     "status": "seedling",
     "contentType": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
+    "outboundLinks": [
+      {
+        "matchedId": "build-experimentation-guidelines",
+        "title": "Build experimentation guidelines",
+        "slug": "build-experimentation-guidelines",
+        "contentType": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Software engineering",
+        "slug": "software-engineering",
+        "contentType": "topics"
+      }
+    ]
   },
   {
     "ids": [
@@ -5977,6 +6050,11 @@
         "title": "Compliance is not commitment",
         "slug": "compliance-is-not-commitment",
         "contentType": "notes"
+      },
+      {
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
       }
     ]
   },
@@ -6648,6 +6726,11 @@
         "title": "Turn transient notes into evergreen notes",
         "slug": "turn-transient-notes-into-evergreen-notes",
         "contentType": "notes"
+      },
+      {
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
       }
     ]
   },
@@ -10692,14 +10775,7 @@
     "slug": "a-few-things-i-believe-about-ai",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "engineering",
-        "title": "Engineering",
-        "slug": "engineering",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -11227,26 +11303,7 @@
     "slug": "ai-and-the-future-of-programming",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "engineering",
-        "title": "Engineering",
-        "slug": "engineering",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "engineering",
-        "title": "Engineering",
-        "slug": "engineering",
-        "contentType": "topics"
-      },
-      {
-        "matchedId": "engineering",
-        "title": "Engineering",
-        "slug": "engineering",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -16608,12 +16665,6 @@
     "contentType": "articles",
     "outboundLinks": [
       {
-        "matchedId": "engineering",
-        "title": "Engineering",
-        "slug": "engineering",
-        "contentType": "topics"
-      },
-      {
         "matchedId": "leadership",
         "title": "Leadership",
         "slug": "leadership",
@@ -20111,14 +20162,7 @@
     "slug": "shopify-shop-q2-2024-earnings-call-transcript",
     "status": "seedling",
     "contentType": "articles",
-    "outboundLinks": [
-      {
-        "matchedId": "engineering",
-        "title": "Engineering",
-        "slug": "engineering",
-        "contentType": "topics"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -22805,6 +22849,11 @@
         "title": "Writing shouldn’t start with a blank page",
         "slug": "writing-shouldnt-start-with-a-blank-page",
         "contentType": "notes"
+      },
+      {
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
       }
     ]
   },
@@ -25047,6 +25096,11 @@
         "title": "Commerce is the most democratic form of art",
         "slug": "commerce-is-the-most-democratic-form-of-art",
         "contentType": "notes"
+      },
+      {
+        "title": "Customer experience",
+        "slug": "customer-experience",
+        "contentType": "topics"
       }
     ]
   },
@@ -25185,9 +25239,22 @@
       "customer-experience"
     ],
     "slug": "customer-experience",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "topics",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "commerce",
+        "title": "Commerce",
+        "slug": "commerce",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "marketing",
+        "title": "Marketing",
+        "slug": "marketing",
+        "contentType": "topics"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "Fwd: 5 Full Pages/Notes of Customer Experience Golden Nuggets",
@@ -25198,38 +25265,6 @@
         "title": "Commerce",
         "slug": "commerce",
         "contentType": "topics"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Engineering",
-      "engineering"
-    ],
-    "slug": "engineering",
-    "status": "seedling",
-    "contentType": "topics",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "title": "A Few Things I Believe About AI",
-        "slug": "a-few-things-i-believe-about-ai",
-        "contentType": "articles"
-      },
-      {
-        "title": "AI and the Future of Programming",
-        "slug": "ai-and-the-future-of-programming",
-        "contentType": "articles"
-      },
-      {
-        "title": "Hunting Tech Debt via Org Charts",
-        "slug": "hunting-tech-debt-via-org-charts",
-        "contentType": "articles"
-      },
-      {
-        "title": "Shopify (SHOP) Q2 2024 Earnings Call Transcript",
-        "slug": "shopify-shop-q2-2024-earnings-call-transcript",
-        "contentType": "articles"
       }
     ]
   },
@@ -25276,6 +25311,16 @@
         "title": "How to Do Great Work",
         "slug": "how-to-do-great-work",
         "contentType": "articles"
+      },
+      {
+        "title": "Systems thinking",
+        "slug": "systems-thinking",
+        "contentType": "topics"
+      },
+      {
+        "title": "Writing",
+        "slug": "writing",
+        "contentType": "topics"
       }
     ]
   },
@@ -25285,9 +25330,58 @@
       "leadership"
     ],
     "slug": "leadership",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "topics",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "software-engineering",
+        "title": "Software engineering",
+        "slug": "software-engineering",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "systems-thinking",
+        "title": "Systems thinking",
+        "slug": "systems-thinking",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "the-organization-is-the-work",
+        "title": "The organization is the work",
+        "slug": "the-organization-is-the-work",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "an-operating-cadence-needs-shared-vision",
+        "title": "An operating cadence needs shared vision",
+        "slug": "an-operating-cadence-needs-shared-vision",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "org-design-is-about-structure-incentives-and-culture",
+        "title": "Org design is about structure, incentives, and culture",
+        "slug": "org-design-is-about-structure-incentives-and-culture",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "design-an-operating-cadence",
+        "title": "Design an operating cadence",
+        "slug": "design-an-operating-cadence",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "good-management-requires-consistency",
+        "title": "Good management requires consistency",
+        "slug": "good-management-requires-consistency",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "change-requires-an-activation-energy",
+        "title": "Change requires an activation energy",
+        "slug": "change-requires-an-activation-energy",
+        "contentType": "notes"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "100 Truths You Will Learn Too Late",
@@ -25523,6 +25617,11 @@
         "title": "You Probably Shouldn’t Work at a Startup - Napkin Math - Every",
         "slug": "you-probably-shouldnt-work-at-a-startup-napkin-math-every",
         "contentType": "articles"
+      },
+      {
+        "title": "Systems thinking",
+        "slug": "systems-thinking",
+        "contentType": "topics"
       }
     ]
   },
@@ -26036,6 +26135,41 @@
         "title": "Commerce",
         "slug": "commerce",
         "contentType": "topics"
+      },
+      {
+        "title": "Customer experience",
+        "slug": "customer-experience",
+        "contentType": "topics"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Software engineering",
+      "software-engineering"
+    ],
+    "slug": "software-engineering",
+    "status": "budding",
+    "contentType": "topics",
+    "outboundLinks": [
+      {
+        "matchedId": "software-should-be-tested-in-production",
+        "title": "Software should be tested in production",
+        "slug": "software-should-be-tested-in-production",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "mvp-is-not-half-assed",
+        "title": "MVP is not half-assed",
+        "slug": "mvp-is-not-half-assed",
+        "contentType": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
       }
     ]
   },
@@ -26383,6 +26517,18 @@
     "contentType": "topics",
     "outboundLinks": [
       {
+        "matchedId": "knowledge-management",
+        "title": "Knowledge management",
+        "slug": "knowledge-management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "leadership",
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
+      {
         "matchedId": "thinking-in-systems",
         "title": "Thinking in Systems",
         "slug": "thinking-in-systems",
@@ -26390,6 +26536,11 @@
       }
     ],
     "inboundLinks": [
+      {
+        "title": "Leadership",
+        "slug": "leadership",
+        "contentType": "topics"
+      },
       {
         "title": "Strategy",
         "slug": "strategy",
@@ -26403,9 +26554,28 @@
       "writing"
     ],
     "slug": "writing",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "topics",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "matchedId": "writing-is-thinking-across-time",
+        "title": "Writing is thinking across time",
+        "slug": "writing-is-thinking-across-time",
+        "contentType": "notes"
+      },
+      {
+        "matchedId": "knowledge-management",
+        "title": "Knowledge management",
+        "slug": "knowledge-management",
+        "contentType": "topics"
+      },
+      {
+        "matchedId": "the-ultimate-guide-to-writing-online",
+        "title": "The Ultimate Guide to Writing Online",
+        "slug": "the-ultimate-guide-to-writing-online",
+        "contentType": "articles"
+      }
+    ],
     "inboundLinks": [
       {
         "title": "A Few Great Writing Prompts",
