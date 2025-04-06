@@ -1,0 +1,40 @@
+---
+import ContentSidebar from "@components/content/ContentSidebar.astro";
+import Prose from "@components/ui/Prose.astro";
+import { getMdxComponents } from "src/lib/content";
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+
+export interface ContentLayoutProps {
+  entry: CollectionEntry<
+    "essays" | "notes" | "nows" | "books" | "articles" | "topics"
+  >;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<div class="mb-4 space-y-2">
+  <slot name="navigation" />
+
+  <h1 class="text-4xl font-semibold font-sans mt-2">
+    {entry.data.title}
+  </h1>
+
+  <slot name="meta" />
+</div>
+
+<div class="grid grid-cols-12 gap-8">
+  <div class="col-span-12 lg:col-span-4 lg:order-2">
+    <slot name="sidebar">
+      <ContentSidebar entry={entry} />
+    </slot>
+  </div>
+
+  <div class="col-span-12 lg:col-span-8 lg:order-1">
+    <Prose>
+      <Content components={getMdxComponents()} />
+    </Prose>
+  </div>
+</div>

@@ -1,12 +1,11 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import { getCollection, render } from "astro:content";
-import Prose from "@components/ui/Prose.astro";
+import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import { getMdxComponents } from "src/lib/content";
 import BookCover from "@components/books/BookCover.astro";
 import BookMeta from "@components/books/BookMeta.astro";
 import ContentSidebar from "@components/content/ContentSidebar.astro";
+import ContentLayout from "@components/content/ContentLayout.astro";
 
 export async function getStaticPaths() {
   const books = await getCollection("books");
@@ -18,39 +17,29 @@ export async function getStaticPaths() {
 }
 
 const { book } = Astro.props;
-const { Content } = await render(book);
 ---
 
 <title slot="head">{book.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <div class="lg:-mb-8">
+  <ContentLayout entry={book}>
     <ArrowLink
       href="/books"
       arrowDirection="left"
       class="font-sans font-semibold uppercase"
+      slot="navigation"
     >
       Books
     </ArrowLink>
-  </div>
 
-  <div class="grid grid-cols-12">
-    <div class="col-span-12 mt-4 lg:col-span-4 lg:order-2">
-      <ContentSidebar entry={book}>
-        <BookCover
-          book={book}
-          width="800"
-          class="max-w-[250px] lg:max-w-[400px] h-auto rounded"
-        />
-      </ContentSidebar>
-    </div>
+    <BookMeta book={book} slot="meta" />
 
-    <div class="col-span-12 lg:col-span-8 lg:order-1">
-      <Prose>
-        <h1>{book.data.title}</h1>
-        <BookMeta book={book} />
-        <Content components={getMdxComponents()} />
-      </Prose>
-    </div>
-  </div>
+    <ContentSidebar entry={book} slot="sidebar">
+      <BookCover
+        book={book}
+        width="800"
+        class="max-w-[250px] lg:max-w-[400px] h-auto rounded"
+      />
+    </ContentSidebar>
+  </ContentLayout>
 </Layout>

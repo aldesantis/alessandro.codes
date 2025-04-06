@@ -1,12 +1,9 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import { getCollection, render } from "astro:content";
-import Prose from "@components/ui/Prose.astro";
+import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import { getMdxComponents } from "src/lib/content";
+import ContentLayout from "@components/content/ContentLayout.astro";
 import NoteMeta from "@components/notes/NoteMeta.astro";
-import ContentSidebar from "@components/content/ContentSidebar.astro";
-
 export async function getStaticPaths() {
   const notes = await getCollection("notes");
 
@@ -17,33 +14,21 @@ export async function getStaticPaths() {
 }
 
 const { note } = Astro.props;
-const { Content } = await render(note);
 ---
 
 <title slot="head">{note.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <div class="lg:-mb-8">
+  <ContentLayout entry={note}>
     <ArrowLink
       href="/notes"
       arrowDirection="left"
       class="font-sans font-semibold uppercase"
+      slot="navigation"
     >
       Notes
     </ArrowLink>
-  </div>
 
-  <div class="grid grid-cols-12">
-    <div class="col-span-12 mt-4 lg:col-span-4 lg:order-2">
-      <ContentSidebar entry={note} />
-    </div>
-
-    <div class="col-span-12 lg:col-span-8 lg:order-1">
-      <Prose>
-        <h1>{note.data.title}</h1>
-        <NoteMeta note={note} />
-        <Content components={getMdxComponents()} />
-      </Prose>
-    </div>
-  </div>
+    <NoteMeta note={note} slot="meta" />
+  </ContentLayout>
 </Layout>

@@ -1,12 +1,9 @@
 ---
 import { getCollection } from "astro:content";
-import Prose from "@components/ui/Prose.astro";
 import Layout from "@layouts/Layout.astro";
-import { render } from "astro:content";
-import { getMdxComponents } from "src/lib/content";
-import ContentSidebar from "@components/content/ContentSidebar.astro";
 import { getSortedNows } from "src/lib/content/nows";
 import Link from "@components/ui/Link.astro";
+import ContentLayout from "@components/content/ContentLayout.astro";
 
 export async function getStaticPaths() {
   const nows = await getCollection("nows");
@@ -18,7 +15,6 @@ export async function getStaticPaths() {
 }
 
 const { now } = Astro.props;
-const { Content } = await render(now);
 
 const allNows = await getSortedNows();
 const currentIndex = allNows.findIndex((item) => item.id === now.id);
@@ -27,41 +23,30 @@ const prevNow =
 const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
 ---
 
+<title slot="head">{now.data.title} | Alessandro Desantis</title>
+
 <Layout>
-  <title slot="head">{now.data.title} | Alessandro Desantis</title>
+  <ContentLayout entry={now}>
+    <div class="flex justify-between max-w-[65ch]" slot="navigation">
+      {
+        prevNow ? (
+          <Link href={`/now/${prevNow.id}`} class="font-sans">
+            &LeftArrow;
+            {prevNow.data.title}
+          </Link>
+        ) : (
+          <div />
+        )
+      }
 
-  <div class="grid grid-cols-12">
-    <div class="col-span-12 lg:col-span-4 lg:order-2">
-      <ContentSidebar entry={now} />
+      {
+        nextNow && (
+          <Link href={`/now/${nextNow.id}`} class="font-sans">
+            {nextNow.data.title}
+            &RightArrow;
+          </Link>
+        )
+      }
     </div>
-
-    <div class="col-span-12 lg:col-span-8 lg:order-1">
-      <div class="flex justify-between max-w-[65ch] -mb-8">
-        {
-          prevNow ? (
-            <Link href={`/now/${prevNow.id}`} class="font-sans">
-              &LeftArrow;
-              {prevNow.data.title}
-            </Link>
-          ) : (
-            <div />
-          )
-        }
-
-        {
-          nextNow && (
-            <Link href={`/now/${nextNow.id}`} class="font-sans">
-              {nextNow.data.title}
-              &RightArrow;
-            </Link>
-          )
-        }
-      </div>
-
-      <Prose>
-        <h1>{now.data.title}</h1>
-        <Content components={getMdxComponents()} />
-      </Prose>
-    </div>
-  </div>
+  </ContentLayout>
 </Layout>

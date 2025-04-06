@@ -1,10 +1,8 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
-import { getCollection, render } from "astro:content";
-import Prose from "@components/ui/Prose.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import { getMdxComponents } from "src/lib/content";
-import ContentSidebar from "@components/content/ContentSidebar.astro";
+import ContentLayout from "@components/content/ContentLayout.astro";
 
 export async function getStaticPaths() {
   const topics = await getCollection("topics");
@@ -16,32 +14,19 @@ export async function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
-const { Content } = await render(topic);
 ---
 
 <title slot="head">{topic.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <div class="lg:-mb-8">
+  <ContentLayout entry={topic}>
     <ArrowLink
       href="/topics"
       arrowDirection="left"
       class="font-sans font-semibold uppercase"
+      slot="navigation"
     >
       Topics
     </ArrowLink>
-  </div>
-
-  <div class="grid grid-cols-12">
-    <div class="col-span-12 mt-4 lg:col-span-4 lg:order-2">
-      <ContentSidebar entry={topic} />
-    </div>
-
-    <div class="col-span-12 lg:col-span-8 lg:order-1">
-      <Prose>
-        <h1>{topic.data.title}</h1>
-        <Content components={getMdxComponents()} />
-      </Prose>
-    </div>
-  </div>
+  </ContentLayout>
 </Layout>
