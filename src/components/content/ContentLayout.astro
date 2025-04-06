@@ -15,26 +15,34 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 ---
 
-<div class="mb-4 space-y-2">
-  <slot name="navigation" />
-
-  <h1 class="text-4xl font-semibold font-sans mt-2">
-    {entry.data.title}
-  </h1>
-
-  <slot name="meta" />
-</div>
-
 <div class="grid grid-cols-12 gap-8">
-  <div class="col-span-12 lg:col-span-4 lg:order-2">
-    <slot name="sidebar">
-      <ContentSidebar entry={entry} />
-    </slot>
-  </div>
+  <div class="col-span-12 lg:col-span-8">
+    <div class="mb-4">
+      <slot name="navigation" />
 
-  <div class="col-span-12 lg:col-span-8 lg:order-1">
+      <h1 class="text-4xl font-semibold font-sans mt-2 mb-1">
+        {entry.data.title}
+      </h1>
+
+      <div class="mb-2">
+        <slot name="meta" />
+      </div>
+
+      <div class="lg:hidden mb-8">
+        <slot name="sidebar">
+          <ContentSidebar entry={entry} />
+        </slot>
+      </div>
+    </div>
+
     <Prose>
       <Content components={getMdxComponents()} />
     </Prose>
+  </div>
+
+  <div class="hidden lg:block col-span-12 lg:col-span-4">
+    <slot name="sidebar">
+      <ContentSidebar entry={entry} />
+    </slot>
   </div>
 </div>
