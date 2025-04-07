@@ -37,8 +37,7 @@ const { book } = Astro.props;
     <ContentSidebar entry={book} slot="sidebar">
       <BookCover
         book={book}
-        height="800"
-        class="w-full max-w-[400px] h-auto aspect-[2/3] rounded mt-4 lg:mt-0"
+        class="w-full max-w-[250px] lg:max-w-full h-auto aspect-[2/3] rounded mt-4 lg:mt-0"
       />
     </ContentSidebar>
   </ContentLayout>
