@@ -1,0 +1,27 @@
+---
+import type { CollectionEntry } from "astro:content";
+import EssayCard from "@components/essays/EssayCard.astro";
+import BookCard from "@components/books/BookCard.astro";
+import NoteCard from "@components/notes/NoteCard.astro";
+import TopicCard from "@components/topics/TopicCard.astro";
+
+type ContentType = "essays" | "books" | "notes" | "topics";
+
+interface Props {
+  content: CollectionEntry<ContentType>;
+}
+
+const { content } = Astro.props;
+---
+
+{
+  content.collection === "essays" ? (
+    <EssayCard essay={content as CollectionEntry<"essays">} />
+  ) : content.collection === "books" ? (
+    <BookCard book={content as CollectionEntry<"books">} />
+  ) : content.collection === "notes" ? (
+    <NoteCard note={content as CollectionEntry<"notes">} />
+  ) : content.collection === "topics" ? (
+    <TopicCard topic={content as CollectionEntry<"topics">} />
+  ) : null
+}

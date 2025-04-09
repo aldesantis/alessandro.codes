@@ -2,7 +2,12 @@
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import ContentLayout from "@components/content/ContentLayout.astro";
+import { render } from "astro:content";
+import { getMdxComponents } from "src/lib/content";
+import Prose from "@components/ui/Prose.astro";
+import { getLinks } from "src/lib/links";
+import ContentCard from "@components/content/ContentCard.astro";
+import type { CollectionEntry } from "astro:content";
 
 export async function getStaticPaths() {
   const topics = await getCollection("topics");
@@ -14,19 +19,79 @@ export async function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
+const { Content } = await render(topic);
+const { outboundLinks, inboundLinks } = getLinks(topic.id);
+
+// Get all related content
+const allLinks = [...outboundLinks, ...inboundLinks];
+const uniqueLinks = Array.from(new Set(allLinks.map((link) => link.slug)))
+  .map((slug) => allLinks.find((link) => link.slug === slug))
+  .filter((link): link is NonNullable<typeof link> => link !== undefined);
+
+// Fetch the actual content items
+const essays = await getCollection("essays");
+const books = await getCollection("books");
+const notes = await getCollection("notes");
+const topics = await getCollection("topics");
+
+const relatedContent = uniqueLinks
+  .map((link) => {
+    switch (link.contentType) {
+      case "essays":
+        return essays.find((e) => e.id === link.slug);
+      case "books":
+        return books.find((b) => b.id === link.slug);
+      case "notes":
+        return notes.find((n) => n.id === link.slug);
+      case "topics":
+        return topics.find((t) => t.id === link.slug);
+      default:
+        return null;
+    }
+  })
+  .filter(
+    (
+      content
+    ): content is CollectionEntry<"essays" | "books" | "notes" | "topics"> =>
+      content !== null && content !== undefined
+  );
 ---
 
 <title slot="head">{topic.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <ContentLayout entry={topic}>
-    <ArrowLink
-      href="/topics"
-      arrowDirection="left"
-      class="font-sans font-semibold uppercase"
-      slot="navigation"
-    >
-      Topics
-    </ArrowLink>
-  </ContentLayout>
+  <div class="max-w-3xl mx-auto">
+    <div class="mb-4">
+      <ArrowLink
+        href="/topics"
+        arrowDirection="left"
+        class="font-sans font-semibold uppercase"
+        slot="navigation"
+      >
+        Topics
+      </ArrowLink>
+    </div>
+
+    <h1 class="text-4xl font-semibold font-sans mt-2 mb-1">
+      {topic.data.title}
+    </h1>
+
+    <Prose>
+      <Content components={getMdxComponents()} />
+    </Prose>
+  </div>
+
+  {
+    relatedContent.length > 0 && (
+      <div class="mt-12">
+        <div class="columns-1 sm:columns-3 lg:columns-4 gap-6 [column-fill:balance]">
+          {relatedContent.map((content) => (
+            <div class="break-inside-avoid mb-6">
+              <ContentCard content={content} />
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
 </Layout>
