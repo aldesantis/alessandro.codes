@@ -11,13 +11,27 @@ interface Props {
 }
 
 const { outboundLinks, inboundLinks } = Astro.props;
+
+// Helper function to deduplicate links based on slug
+const deduplicateLinks = (links: LinkType[]): LinkType[] => {
+  const seen = new Set<string>();
+  return links.filter((link) => {
+    const key = `${link.contentType}-${link.slug}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+};
+
+const uniqueOutboundLinks = deduplicateLinks(outboundLinks);
+const uniqueInboundLinks = deduplicateLinks(inboundLinks);
 ---
 
 <MobileCollapsible label="Links to">
   {
-    outboundLinks.length > 0 ? (
+    uniqueOutboundLinks.length > 0 ? (
       <LinkList>
-        {outboundLinks.map((link: LinkType) => (
+        {uniqueOutboundLinks.map((link: LinkType) => (
           <li>
             <Link
               class="font-sans"
@@ -40,9 +54,9 @@ const { outboundLinks, inboundLinks } = Astro.props;
 
 <MobileCollapsible label="Linked from">
   {
-    inboundLinks.length > 0 ? (
+    uniqueInboundLinks.length > 0 ? (
       <LinkList>
-        {inboundLinks.map((link: LinkType) => (
+        {uniqueInboundLinks.map((link: LinkType) => (
           <li>
             <Link
               class="font-sans"
