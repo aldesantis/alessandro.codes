@@ -54,7 +54,8 @@ const relatedContent = uniqueLinks
       content
     ): content is CollectionEntry<"essays" | "books" | "notes" | "topics"> =>
       content !== null && content !== undefined
-  );
+  )
+  .sort(() => Math.random() - 0.5);
 ---
 
 <title slot="head">{topic.data.title} | Alessandro Desantis</title>
