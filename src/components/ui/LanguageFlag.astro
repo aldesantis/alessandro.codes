@@ -1,0 +1,12 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+export interface Props {
+  language: CollectionEntry<"talks">["data"]["language"];
+}
+
+const { language } = Astro.props;
+const flag = language === "en" ? "🇬🇧" : "🇮🇹";
+---
+
+<span>{flag}</span>

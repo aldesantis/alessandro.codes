@@ -1,5 +1,6 @@
 ---
 import Meta from "@components/ui/Meta.astro";
+import LanguageFlag from "@components/ui/LanguageFlag.astro";
 import type { CollectionEntry } from "astro:content";
 import { formatDate } from "src/lib/utils";
 
@@ -13,5 +14,8 @@ const formattedDate = formatDate(talk.data.date);
 ---
 
 <Meta>
+  <div class="mr-1">
+    <LanguageFlag language={talk.data.language} />
+  </div>
   {formattedDate}
 </Meta>

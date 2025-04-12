@@ -28,6 +28,7 @@ export const collections = {
       title: z.string(),
       description: z.string(),
       url: z.string().url(),
+      language: z.enum(["en", "it"]),
     }),
     loader: file("src/data/talks.json"),
   }),

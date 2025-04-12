@@ -1,17 +1,28 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 
 export function getYouTubeEmbedUrl(url: string): string {
-  const videoIdMatch = url.match(
-    /(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([^&\s?]+)/
-  );
-  const videoId = videoIdMatch ? videoIdMatch[1] : null;
+  try {
+    const videoUrl = new URL(url);
+    const videoId =
+      videoUrl.searchParams.get("v") || videoUrl.pathname.split("/").pop();
 
-  if (!videoId) {
-    console.warn(`Could not extract video ID from URL: ${url}`);
+    if (!videoId) {
+      console.warn(`Could not extract video ID from URL: ${url}`);
+      return url;
+    }
+
+    const embedUrl = new URL(`https://www.youtube.com/embed/${videoId}`);
+
+    const timestamp = videoUrl.searchParams.get("t");
+    if (timestamp) {
+      embedUrl.searchParams.set("start", timestamp.replace("s", ""));
+    }
+
+    return embedUrl.toString();
+  } catch (error) {
+    console.warn(`Invalid URL format: ${url}`);
     return url;
   }
-
-  return `https://www.youtube.com/embed/${videoId}`;
 }
 
 export async function getSortedTalks(): Promise<CollectionEntry<"talks">[]> {
