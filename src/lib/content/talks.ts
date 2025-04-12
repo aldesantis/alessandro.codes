@@ -27,7 +27,7 @@ export function getYouTubeEmbedUrl(url: string): string {
 
 export async function getSortedTalks(): Promise<CollectionEntry<"talks">[]> {
   const talks = (await getCollection("talks")).sort((a, b) =>
-    a.data.date > b.data.date ? -1 : 1
+    a.data.createdAt > b.data.createdAt ? -1 : 1
   );
 
   return talks;

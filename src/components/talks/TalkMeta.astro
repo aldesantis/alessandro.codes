@@ -10,7 +10,7 @@ export interface Props {
 
 const { talk } = Astro.props;
 
-const formattedDate = formatDate(talk.data.date);
+const formattedDate = formatDate(talk.data.createdAt);
 ---
 
 <Meta>

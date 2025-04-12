@@ -23,12 +23,13 @@ export const collections = {
 
   talks: defineCollection({
     schema: z.object({
-      date: z.coerce.date(),
       slug: z.string(),
       title: z.string(),
       description: z.string(),
       url: z.string().url(),
       language: z.enum(["en", "it"]),
+      createdAt: z.coerce.date().optional().default(new Date()),
+      updatedAt: z.coerce.date().optional().default(new Date()),
     }),
     loader: file("src/data/talks.json"),
   }),
@@ -45,6 +46,8 @@ export const collections = {
         .default("true")
         .transform((v) => (v == "false" ? false : true))
         .pipe(z.boolean()),
+      createdAt: z.coerce.date().optional().default(new Date()),
+      updatedAt: z.coerce.date().optional().default(new Date()),
     }),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/essays" }),
   }),
@@ -53,6 +56,8 @@ export const collections = {
     schema: z.object({
       title: z.string(),
       status: z.enum(["seedling", "budding", "evergreen"]),
+      createdAt: z.coerce.date().optional().default(new Date()),
+      updatedAt: z.coerce.date().optional().default(new Date()),
     }),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/notes" }),
   }),
@@ -60,6 +65,8 @@ export const collections = {
   nows: defineCollection({
     schema: z.object({
       title: z.string(),
+      createdAt: z.coerce.date().optional().default(new Date()),
+      updatedAt: z.coerce.date().optional().default(new Date()),
     }),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/nows" }),
   }),
@@ -69,6 +76,8 @@ export const collections = {
       title: z.string(),
       author: z.string(),
       lastHighlightedOn: z.coerce.date(),
+      createdAt: z.coerce.date().optional().default(new Date()),
+      updatedAt: z.coerce.date().optional().default(new Date()),
     }),
     loader: glob({
       pattern: "**/*.{md,mdx}",
@@ -83,6 +92,8 @@ export const collections = {
       publishedOn: z.coerce.date(),
       lastHighlightedOn: z.coerce.date(),
       url: z.string(),
+      createdAt: z.coerce.date().optional().default(new Date()),
+      updatedAt: z.coerce.date().optional().default(new Date()),
     }),
     loader: glob({
       pattern: "**/*.{md,mdx}",
@@ -94,6 +105,8 @@ export const collections = {
     schema: z.object({
       title: z.string(),
       status: z.enum(["seedling", "budding", "evergreen"]),
+      createdAt: z.coerce.date().optional().default(new Date()),
+      updatedAt: z.coerce.date().optional().default(new Date()),
     }),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/topics" }),
   }),
