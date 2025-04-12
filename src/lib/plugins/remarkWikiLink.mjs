@@ -31,18 +31,17 @@ export function remarkWikiLink() {
 
       if (!matches.length) return;
 
-      // Create a promise for processing this node
       const processNode = async () => {
         const children = [];
         let lastIndex = 0;
 
-        // Process matches sequentially
         for (const match of matches) {
           const [fullMatch, linkDestination, displayText] = match;
           const startIndex = match.index;
           const endIndex = startIndex + fullMatch.length;
 
-          // Add text before the match
+          const label = (displayText || linkDestination).trim();
+
           if (startIndex > lastIndex) {
             children.push({
               type: "text",
@@ -50,7 +49,6 @@ export function remarkWikiLink() {
             });
           }
 
-          // Find the matching post in linkMaps using the linkDestination
           const matchedPost = linkMaps.find((post) => 
             post.ids.some(
               (id) => id.toLowerCase() === linkDestination.toLowerCase()
@@ -76,9 +74,7 @@ export function remarkWikiLink() {
                 children: [
                   {
                     type: "text",
-                    value: displayText
-                      ? displayText.trim()
-                      : linkDestination.trim(),
+                    value: label,
                   },
                 ],
               };
@@ -86,10 +82,9 @@ export function remarkWikiLink() {
           }
 
           if (!newChild) {
-            // If no match found, preserve the original wiki syntax
             newChild = {
               type: "text",
-              value: fullMatch,
+              value: label,
             };
           }
 
@@ -98,7 +93,6 @@ export function remarkWikiLink() {
           lastIndex = endIndex;
         }
 
-        // Add any remaining text
         if (lastIndex < node.value.length) {
           children.push({
             type: "text",
@@ -106,14 +100,12 @@ export function remarkWikiLink() {
           });
         }
 
-        // Replace the original node with our new children
         parent.children.splice(index, 1, ...children);
       };
 
       promises.push(processNode());
     });
 
-    // Wait for all node processing to complete
     await Promise.all(promises);
     
     return tree;
