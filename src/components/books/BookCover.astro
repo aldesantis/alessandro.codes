@@ -2,14 +2,23 @@
 import type { CollectionEntry } from "astro:content";
 import { Image } from "astro:assets";
 import { fetchBookCover } from "src/lib/content/books";
-import type { ComponentProps } from "astro/types";
 
-export type Props = Omit<ComponentProps<typeof Image>, "src" | "alt"> & {
+interface Props {
   book: CollectionEntry<"books">;
-};
+  class?: string;
+}
 
-const { book, ...props } = Astro.props;
+const { book, class: className } = Astro.props;
 const cover = await fetchBookCover(book);
 ---
 
-<Image src={cover.default} alt={`${book.data.title} cover`} {...props} />
+<Image
+  src={cover.default}
+  alt={`${book.data.title} cover`}
+  loading="lazy"
+  decoding="async"
+  quality={50}
+  format="webp"
+  width={600}
+  class={className}
+/>
