@@ -1,0 +1,13 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+export interface Props {
+  content: CollectionEntry<"books">;
+}
+
+const { content } = Astro.props;
+---
+
+<div class="text-sm text-stone-500 font-sans">
+  <span>By {content.data.author}</span>
+</div>

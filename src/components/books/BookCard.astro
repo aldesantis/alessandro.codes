@@ -1,6 +1,6 @@
 ---
 import LinkedCard from "@components/ui/LinkedCard.astro";
-import ContentMeta from "@components/content/ContentMeta.astro";
+import BookMeta from "@components/books/BookMeta.astro";
 import BookCover from "@components/books/BookCover.astro";
 import type { CollectionEntry } from "astro:content";
 
@@ -20,5 +20,5 @@ const { book } = Astro.props;
     {book.data.title}
   </h3>
 
-  <ContentMeta content={book} />
+  <BookMeta content={book} />
 </LinkedCard>

@@ -1,0 +1,18 @@
+---
+import type { ReferenceDataEntry } from "astro:content";
+
+export interface Props {
+  topics?: ReferenceDataEntry<"topics", string>[];
+}
+
+const { topics } = Astro.props;
+---
+
+{
+  topics && topics.length > 0 && (
+    <>
+      <span class="mx-0.5">•</span>
+      <span>{topics.map((topic) => topic.id).join(", ")}</span>
+    </>
+  )
+}

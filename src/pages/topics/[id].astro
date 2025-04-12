@@ -6,6 +6,7 @@ import { render } from "astro:content";
 import { getMdxComponents, getRelatedContent } from "src/lib/content";
 import Prose from "@components/ui/Prose.astro";
 import ContentCard from "@components/content/ContentCard.astro";
+import TopicMeta from "@components/topics/TopicMeta.astro";
 
 export async function getStaticPaths() {
   const topics = await getCollection("topics");
@@ -34,11 +35,15 @@ const relatedContent = await getRelatedContent(topic);
       >
         Topics
       </ArrowLink>
-    </div>
 
-    <h1 class="text-4xl font-semibold font-sans mt-2 mb-1">
-      {topic.data.title}
-    </h1>
+      <h1 class="text-4xl font-semibold font-sans mt-2 mb-1">
+        {topic.data.title}
+      </h1>
+
+      <div class="mb-2">
+        <TopicMeta content={topic} />
+      </div>
+    </div>
 
     <Prose>
       <Content components={getMdxComponents()} />
@@ -48,7 +53,7 @@ const relatedContent = await getRelatedContent(topic);
   {
     relatedContent.length > 0 && (
       <div class="mt-12">
-        <div class="columns-1 sm:columns-3 lg:columns-4 gap-6 [column-fill:balance]">
+        <div class="columns-1 sm:columns-3 gap-6 [column-fill:balance]">
           {relatedContent.map((content) => (
             <div class="break-inside-avoid mb-6">
               <ContentCard content={content} />

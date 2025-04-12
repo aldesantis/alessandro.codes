@@ -3,7 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import ContentLayout from "@components/content/ContentLayout.astro";
-import ContentMeta from "@components/content/ContentMeta.astro";
+import EssayMeta from "@components/essays/EssayMeta.astro";
 
 export async function getStaticPaths() {
   const essays = await getCollection("essays");
@@ -30,6 +30,6 @@ const { essay } = Astro.props;
       Essays
     </ArrowLink>
 
-    <ContentMeta content={essay} slot="meta" />
+    <EssayMeta content={essay} slot="meta" />
   </ContentLayout>
 </Layout>
