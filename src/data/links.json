@@ -2719,11 +2719,17 @@
       "freedom-is-only-valuable-when-forgone"
     ],
     "slug": "freedom-is-only-valuable-when-forgone",
-    "status": "seedling",
+    "status": "budding",
     "contentType": "notes",
     "outboundLinks": [
       {
-        "matchedId": "This is Water by David Foster Wallace (Full Transcript and Audio)",
+        "matchedId": "100-truths-you-will-learn-too-late",
+        "title": "100 Truths You Will Learn Too Late",
+        "slug": "100-truths-you-will-learn-too-late",
+        "contentType": "books"
+      },
+      {
+        "matchedId": "this-is-water-by-david-foster-wallace-(full-transcript-and-audio)",
         "title": "This is Water by David Foster Wallace (Full Transcript and Audio)",
         "slug": "this-is-water-by-david-foster-wallace-full-transcript-and-audio",
         "contentType": "articles"
@@ -6886,6 +6892,11 @@
       }
     ],
     "inboundLinks": [
+      {
+        "title": "Freedom is only valuable when forgone",
+        "slug": "freedom-is-only-valuable-when-forgone",
+        "contentType": "notes"
+      },
       {
         "title": "Hard work is overrated",
         "slug": "hard-work-is-overrated",
@@ -12614,6 +12625,17 @@
       "brain-food-the-invisible-advantage"
     ],
     "slug": "brain-food-the-invisible-advantage",
+    "status": "seedling",
+    "contentType": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brain Food: The Loudest Signals",
+      "brain-food-the-loudest-signals"
+    ],
+    "slug": "brain-food-the-loudest-signals",
     "status": "seedling",
     "contentType": "articles",
     "outboundLinks": [],
