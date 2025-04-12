@@ -1,10 +1,10 @@
 ---
-import type { CollectionEntry } from "astro:content";
-import BookCover from "@components/books/BookCover.astro";
-import BookMeta from "@components/books/BookMeta.astro";
 import LinkedCard from "@components/ui/LinkedCard.astro";
+import ContentMeta from "@components/content/ContentMeta.astro";
+import BookCover from "@components/books/BookCover.astro";
+import type { CollectionEntry } from "astro:content";
 
-export interface Props {
+interface Props {
   book: CollectionEntry<"books">;
 }
 
@@ -20,5 +20,5 @@ const { book } = Astro.props;
     {book.data.title}
   </h3>
 
-  <BookMeta book={book} />
+  <ContentMeta content={book} />
 </LinkedCard>

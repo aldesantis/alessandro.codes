@@ -1,6 +1,6 @@
 ---
 import LinkedCard from "@components/ui/LinkedCard.astro";
-import TalkMeta from "@components/talks/TalkMeta.astro";
+import ContentMeta from "@components/content/ContentMeta.astro";
 import type { CollectionEntry } from "astro:content";
 import { getYouTubeEmbedUrl } from "../../lib/content/talks";
 
@@ -15,7 +15,7 @@ const embedUrl = getYouTubeEmbedUrl(talk.data.url);
 <LinkedCard href={talk.data.url}>
   <h3 slot="title" class="font-sans text-lg">{talk.data.title}</h3>
 
-  <TalkMeta talk={talk} />
+  <ContentMeta content={talk} />
 
   <p class="mt-2 text-sm font-serif font-sm">
     {talk.data.description}

@@ -1,5 +1,20 @@
-import { z, defineCollection } from "astro:content";
+import { z, defineCollection, reference } from "astro:content";
 import { file, glob } from "astro/loaders";
+
+const baseSchema = z.object({
+  title: z.string(),
+  status: z.enum(["seedling", "budding", "evergreen"]),
+  topics: z.array(reference("topics")).optional(),
+  createdAt: z.coerce.date().optional().default(new Date()),
+  updatedAt: z.coerce.date().optional().default(new Date()),
+});
+
+const readwiseSchema = z.object({
+  author: z.string(),
+  publishedOn: z.coerce.date(),
+  lastHighlightedOn: z.coerce.date(),
+  url: z.string().nullable(),
+});
 
 export const collections = {
   projects: defineCollection({
@@ -22,63 +37,47 @@ export const collections = {
   }),
 
   talks: defineCollection({
-    schema: z.object({
-      slug: z.string(),
-      title: z.string(),
-      description: z.string(),
-      url: z.string().url(),
-      language: z.enum(["en", "it"]),
-      createdAt: z.coerce.date().optional().default(new Date()),
-      updatedAt: z.coerce.date().optional().default(new Date()),
-    }),
+    schema: baseSchema.extend(
+      z.object({
+        slug: z.string(),
+        title: z.string(),
+        description: z.string(),
+        url: z.string().url(),
+        language: z.enum(["en", "it"]),
+      }).shape
+    ),
     loader: file("src/data/talks.json"),
   }),
 
+  topics: defineCollection({
+    schema: baseSchema.extend(
+      z.object({
+        title: z.string(),
+      }).shape
+    ),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/topics" }),
+  }),
+
   essays: defineCollection({
-    schema: z.object({
-      title: z.string(),
-      publishedOn: z.coerce.date(),
-      canonical: z.string().url().optional(),
-      excerpt: z.string(),
-      publish: z
-        .string()
-        .optional()
-        .default("true")
-        .transform((v) => (v == "false" ? false : true))
-        .pipe(z.boolean()),
-      createdAt: z.coerce.date().optional().default(new Date()),
-      updatedAt: z.coerce.date().optional().default(new Date()),
-    }),
+    schema: baseSchema.extend(
+      z.object({
+        title: z.string(),
+      }).shape
+    ),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/essays" }),
   }),
 
   notes: defineCollection({
-    schema: z.object({
-      title: z.string(),
-      status: z.enum(["seedling", "budding", "evergreen"]),
-      createdAt: z.coerce.date().optional().default(new Date()),
-      updatedAt: z.coerce.date().optional().default(new Date()),
-    }),
+    schema: baseSchema.extend(
+      z.object({
+        title: z.string(),
+      }).shape
+    ),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/notes" }),
   }),
 
-  nows: defineCollection({
-    schema: z.object({
-      title: z.string(),
-      createdAt: z.coerce.date().optional().default(new Date()),
-      updatedAt: z.coerce.date().optional().default(new Date()),
-    }),
-    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/nows" }),
-  }),
-
   books: defineCollection({
-    schema: z.object({
-      title: z.string(),
-      author: z.string(),
-      lastHighlightedOn: z.coerce.date(),
-      createdAt: z.coerce.date().optional().default(new Date()),
-      updatedAt: z.coerce.date().optional().default(new Date()),
-    }),
+    schema: baseSchema.extend(readwiseSchema.shape),
     loader: glob({
       pattern: "**/*.{md,mdx}",
       base: "./src/content/books",
@@ -86,28 +85,15 @@ export const collections = {
   }),
 
   articles: defineCollection({
-    schema: z.object({
-      title: z.string(),
-      author: z.string(),
-      publishedOn: z.coerce.date(),
-      lastHighlightedOn: z.coerce.date(),
-      url: z.string(),
-      createdAt: z.coerce.date().optional().default(new Date()),
-      updatedAt: z.coerce.date().optional().default(new Date()),
-    }),
+    schema: baseSchema.extend(readwiseSchema.shape),
     loader: glob({
       pattern: "**/*.{md,mdx}",
       base: "./src/content/articles",
     }),
   }),
 
-  topics: defineCollection({
-    schema: z.object({
-      title: z.string(),
-      status: z.enum(["seedling", "budding", "evergreen"]),
-      createdAt: z.coerce.date().optional().default(new Date()),
-      updatedAt: z.coerce.date().optional().default(new Date()),
-    }),
-    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/topics" }),
+  nows: defineCollection({
+    schema: baseSchema,
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/nows" }),
   }),
 };

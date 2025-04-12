@@ -1,8 +1,6 @@
 ---
-import type { CollectionEntry } from "astro:content";
-
 export interface Props {
-  language: CollectionEntry<"talks">["data"]["language"];
+  language: "en" | "it";
 }
 
 const { language } = Astro.props;

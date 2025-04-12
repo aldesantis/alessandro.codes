@@ -1,0 +1,123 @@
+---
+import LanguageFlag from "@components/ui/LanguageFlag.astro";
+import ContentStatus from "@components/content/ContentStatus.astro";
+import RelativeDate from "@components/ui/RelativeDate.astro";
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+
+export interface Props {
+  content: CollectionEntry<"essays" | "talks" | "notes" | "books">;
+}
+
+const { content } = Astro.props;
+const { remarkPluginFrontmatter } = await render(content);
+
+const metadataItems = [];
+
+if (
+  ["essays", "notes"].includes(content.collection) &&
+  "status" in content.data
+) {
+  metadataItems.push({
+    type: "status",
+    data: content.data.status,
+  });
+}
+
+if (content.collection === "talks" && "language" in content.data) {
+  metadataItems.push({
+    type: "language",
+    data: content.data.language,
+  });
+}
+
+if (
+  ["essays", "notes"].includes(content.collection) &&
+  "createdAt" in content.data
+) {
+  metadataItems.push({
+    type: "createdAt",
+    data: content.data.createdAt,
+  });
+}
+
+if (
+  ["essays", "notes"].includes(content.collection) &&
+  "updatedAt" in content.data
+) {
+  metadataItems.push({
+    type: "updatedAt",
+    data: content.data.updatedAt,
+  });
+}
+
+if (
+  ["essays", "notes"].includes(content.collection) &&
+  "readingTime" in remarkPluginFrontmatter
+) {
+  metadataItems.push({
+    type: "readingTime",
+    data: remarkPluginFrontmatter.readingTime,
+  });
+}
+
+if (["books"].includes(content.collection) && "author" in content.data) {
+  metadataItems.push({
+    type: "author",
+    data: content.data.author,
+  });
+}
+
+if (
+  ["essays", "notes", "books", "articles", "talks"].includes(
+    content.collection
+  ) &&
+  "topics" in content.data
+) {
+  metadataItems.push({
+    type: "topics",
+    data: content.data.topics,
+  });
+}
+---
+
+<div class="text-sm text-stone-500 font-sans">
+  {
+    metadataItems.map((item, index) => (
+      <>
+        {item.type === "status" && (
+          <span>
+            <ContentStatus status={item.data} />
+          </span>
+        )}
+        {item.type === "language" && (
+          <span>
+            <LanguageFlag language={item.data} />
+          </span>
+        )}
+        {item.type === "createdAt" && (
+          <span>
+            Planted <RelativeDate date={item.data} />
+          </span>
+        )}
+        {item.type === "updatedAt" && (
+          <span>
+            Tended <RelativeDate date={item.data} />
+          </span>
+        )}
+        {item.type === "readingTime" && (
+          <span>
+            {item.data} min{item.data != 1 ? "s" : ""} read
+          </span>
+        )}
+        {item.type === "author" && <span>By {item.data}</span>}
+        {item.type === "topics" && (
+          <span>
+            {item.data?.map((topic: { id: string }) => topic.id).join(", ")}
+          </span>
+        )}
+        {index < metadataItems.length - 1 && <span class="mx-0.5">•</span>}
+      </>
+    ))
+  }
+</div>

@@ -3,7 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import BookCover from "@components/books/BookCover.astro";
-import BookMeta from "@components/books/BookMeta.astro";
+import ContentMeta from "@components/content/ContentMeta.astro";
 import ContentSidebar from "@components/content/ContentSidebar.astro";
 import ContentLayout from "@components/content/ContentLayout.astro";
 
@@ -32,7 +32,7 @@ const { book } = Astro.props;
       Books
     </ArrowLink>
 
-    <BookMeta book={book} slot="meta" />
+    <ContentMeta content={book} slot="meta" />
 
     <ContentSidebar entry={book} slot="sidebar">
       <BookCover

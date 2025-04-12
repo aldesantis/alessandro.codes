@@ -6,7 +6,8 @@
     "title": "The Web3 Rightshifting",
     "description": "Tim Richardson (Your Basket Is Empty) and I chatting about the potential of Web3 to create new customer touchpoints in digital commere.",
     "url": "https://www.youtube.com/watch?v=muY7lghDQJQ",
-    "language": "en"
+    "language": "en",
+    "status": "evergreen"
   },
   {
     "createdAt": "2019-11-26",
@@ -15,7 +16,8 @@
     "title": "Extensions Are Dead, Long Live Extensions!",
     "description": "My talk at the 2019 SolidusConf covering the future of Solidus extensions, including automation, governance, and best practices.",
     "url": "https://www.youtube.com/watch?v=7iKjxcyLzmI",
-    "language": "en"
+    "language": "en",
+    "status": "evergreen"
   },
   {
     "createdAt": "2024-12-11",
@@ -24,7 +26,8 @@
     "title": "Elevating Customer Journeys in Digital Commerce",
     "description": "An interview with James Hodges from Simply Commerce about how brands can elevate their CX through thoughtful data activation.",
     "url": "https://www.youtube.com/watch?v=mzDm--Ns1GA",
-    "language": "en"
+    "language": "en",
+    "status": "evergreen"
   },
   {
     "createdAt": "2024-10-24",
@@ -33,7 +36,8 @@
     "title": "Maximizing Your Marketing ROI through Customer Experience",
     "description": "My presentation for the Nebulab team on how consumer brands can apply Experience-Led Growth to escape ROAS hell.",
     "url": "https://www.youtube.com/watch?v=UteMDMOfem4",
-    "language": "en"
+    "language": "en",
+    "status": "evergreen"
   },
   {
     "createdAt": "2025-04-09",
@@ -42,6 +46,7 @@
     "title": "Ecommerce Italia 2025",
     "description": "An interview I gave at Casaleggio Associati’s “Ecommerce Italia 2025” conference about the intersection of AI and commerce.",
     "url": "https://www.youtube.com/watch?v=cNb1dAF2kO4&t=7199s",
-    "language": "it"
+    "language": "it",
+    "status": "evergreen"
   }
 ]

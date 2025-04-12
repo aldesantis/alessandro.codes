@@ -1,7 +1,7 @@
 ---
 import LinkedCard from "@components/ui/LinkedCard.astro";
+import ContentMeta from "@components/content/ContentMeta.astro";
 import type { CollectionEntry } from "astro:content";
-import NoteMeta from "@components/notes/NoteMeta.astro";
 import { getFirstParagraph, renderToString } from "src/lib/content";
 
 interface Props {
@@ -15,7 +15,7 @@ const renderedNote = await renderToString(note);
 <LinkedCard href={`/notes/${note.id}`}>
   <h3 slot="title">{note.data.title}</h3>
 
-  <NoteMeta note={note} />
+  <ContentMeta content={note} />
 
   <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
     <Fragment set:html={getFirstParagraph(renderedNote)} />

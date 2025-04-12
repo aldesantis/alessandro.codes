@@ -1,6 +1,6 @@
 ---
 import LinkedCard from "@components/ui/LinkedCard.astro";
-import EssayMeta from "@components/essays/EssayMeta.astro";
+import ContentMeta from "@components/content/ContentMeta.astro";
 import type { CollectionEntry } from "astro:content";
 import { getFirstParagraph, renderToString } from "src/lib/content";
 
@@ -16,7 +16,7 @@ const renderedEssay = await renderToString(essay);
 <LinkedCard href={`/essays/${essay.id}`}>
   <h3 slot="title">{essay.data.title}</h3>
 
-  <EssayMeta essay={essay} />
+  <ContentMeta content={essay} />
 
   <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
     <Fragment set:html={getFirstParagraph(renderedEssay)} />
