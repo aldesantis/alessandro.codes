@@ -16,10 +16,13 @@ const { remarkPluginFrontmatter } = await render(content);
 
 <div class="text-sm text-stone-500 font-sans">
   <span><ContentStatus status={content.data.status} /></span>
+
   <span class="mx-0.5">•</span>
+
   <span>
     Watered <RelativeDate date={content.data.updatedAt} />
   </span>
+
   {
     !compact && (
       <>
@@ -30,6 +33,16 @@ const { remarkPluginFrontmatter } = await render(content);
       </>
     )
   }
+
+  {
+    !compact && content.data.topics && content.data.topics.length > 0 && (
+      <>
+        <span class="mx-0.5">•</span>
+        <TopicList topics={content.data.topics} />
+      </>
+    )
+  }
+
   {
     !compact && (
       <>
@@ -41,5 +54,4 @@ const { remarkPluginFrontmatter } = await render(content);
       </>
     )
   }
-  <TopicList topics={content.data.topics} />
 </div>
