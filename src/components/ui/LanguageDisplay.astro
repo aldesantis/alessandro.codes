@@ -1,4 +1,6 @@
 ---
+import Tooltip from "@components/ui/Tooltip.astro";
+
 export interface Props {
   language: "en" | "it";
 }
@@ -8,4 +10,6 @@ const flag = language === "en" ? "🇬🇧" : "🇮🇹";
 const languageName = language === "en" ? "English" : "Italian";
 ---
 
-<span>{flag} {languageName}</span>
+<Tooltip tooltip={languageName} underline={false}>
+  {flag}
+</Tooltip>

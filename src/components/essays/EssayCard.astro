@@ -16,7 +16,7 @@ const renderedEssay = await renderToString(essay);
 <LinkedCard href={`/essays/${essay.id}`}>
   <h3 slot="title">{essay.data.title}</h3>
 
-  <EssayMeta content={essay} />
+  <EssayMeta content={essay} compact />
 
   <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
     <Fragment set:html={getFirstParagraph(renderedEssay)} />

@@ -1,13 +1,16 @@
 ---
 interface Props {
   tooltip: string;
+  underline?: boolean;
 }
 
-const { tooltip } = Astro.props;
+const { tooltip, underline = true } = Astro.props;
 ---
 
 <span class="group/tooltip relative inline-block cursor-help">
-  <span class="underline decoration-dotted underline-offset-2">
+  <span
+    class={underline ? "underline decoration-dotted underline-offset-2" : ""}
+  >
     <slot />
   </span>
   <span

@@ -7,28 +7,19 @@ import { render } from "astro:content";
 
 export interface Props {
   content: CollectionEntry<"essays">;
+  compact?: boolean;
 }
 
-const { content } = Astro.props;
+const { content, compact = false } = Astro.props;
 const { remarkPluginFrontmatter } = await render(content);
 ---
 
 <div class="text-sm text-stone-500 font-sans">
   <span><ContentStatus status={content.data.status} /></span>
   <span class="mx-0.5">•</span>
-  <span>Planted <RelativeDate date={content.data.createdAt} /></span>
+  <span>Published <RelativeDate date={content.data.createdAt} /></span>
   {
-    content.data.updatedAt && (
-      <>
-        <span class="mx-0.5">•</span>
-        <span>
-          Tended <RelativeDate date={content.data.updatedAt} />
-        </span>
-      </>
-    )
-  }
-  {
-    remarkPluginFrontmatter.readingTime && (
+    !compact && remarkPluginFrontmatter.readingTime && (
       <>
         <span class="mx-0.5">•</span>
         <span>

@@ -16,7 +16,7 @@ const renderedTopic = await renderToString(topic);
 <LinkedCard href={`/topics/${topic.id}`}>
   <h3 slot="title">{topic.data.title}</h3>
 
-  <TopicMeta content={topic} />
+  <TopicMeta content={topic} compact />
 
   <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
     <Fragment set:html={getFirstParagraph(renderedTopic)} />
