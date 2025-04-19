@@ -1,6 +1,6 @@
 ---
 import Link from "@components/ui/Link.astro";
-import type { Link as LinkType } from "src/lib/links";
+import type { GardenEntryLink as LinkType } from "src/lib/garden/links";
 import { buildContentEntryUrl } from "src/lib/plugins/remarkWikiLink.mjs";
 import LinkList from "@components/ui/LinkList.astro";
 import MobileCollapsible from "@components/ui/MobileCollapsible.astro";
@@ -16,7 +16,7 @@ const { outboundLinks, inboundLinks } = Astro.props;
 const deduplicateLinks = (links: LinkType[]): LinkType[] => {
   const seen = new Set<string>();
   return links.filter((link) => {
-    const key = `${link.contentType}-${link.slug}`;
+    const key = `${link.type}-${link.slug}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -36,7 +36,7 @@ const uniqueInboundLinks = deduplicateLinks(inboundLinks);
             <Link
               class="font-sans"
               href={buildContentEntryUrl({
-                contentType: link.contentType,
+                type: link.type,
                 slug: link.slug,
               })}
               variant="muted"
@@ -61,7 +61,7 @@ const uniqueInboundLinks = deduplicateLinks(inboundLinks);
             <Link
               class="font-sans"
               href={buildContentEntryUrl({
-                contentType: link.contentType,
+                type: link.type,
                 slug: link.slug,
               })}
               variant="muted"

@@ -1,8 +1,8 @@
 import { visit } from "unist-util-visit";
-import linkMaps from "../../data/links.json";
+import linkMaps from "../../data/index.json";
 
-export function buildContentEntryUrl({ contentType, slug }) {
-  switch (contentType) {
+export function buildContentEntryUrl({ type, slug }) {
+  switch (type) {
     case "essays":
       return `/essays/${slug}`;
     case "notes":

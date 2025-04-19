@@ -2,7 +2,7 @@
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { getSortedEssays } from "src/lib/garden/essays";
+import { getSortedEssays } from "src/lib/garden";
 import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
 
 const essays = await getSortedEssays();

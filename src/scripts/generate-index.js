@@ -69,43 +69,43 @@ const getDataForBacklinks = (fileNames, filePath) =>
     })
     .filter(Boolean); // Remove null entries (drafts)
 
-const getAllPostData = () => {
-  return CONTENT_TYPES.flatMap((contentType) => {
-    const fullPath = path.join(CONTENT_PATH, contentType);
+const getAllGardenEntryData = () => {
+  return CONTENT_TYPES.flatMap((type) => {
+    const fullPath = path.join(CONTENT_PATH, type);
 
     const files = getFilesFromDir(fullPath);
     const data = getDataForBacklinks(files, fullPath);
 
-    return data.map((d) => ({...d, contentType}));
+    return data.map((d) => ({...d, type}));
   });
 };
 
 // Main execution
 (function () {
-  // Get content and frontmatter for each post
-  const totalPostData = getAllPostData();
+  // Get content and frontmatter for each garden entry
+  const totalGardenEntryData = getAllGardenEntryData();
 
   // Create initial objects with identifiers and empty link arrays
-  const posts = totalPostData.map(
-    ({ title, aliases, slug, status, description, contentType }) => ({
+  const gardenEntries = totalGardenEntryData.map(
+    ({ title, aliases, slug, status, description, type }) => ({
       ids: [...new Set([title, ...(aliases || []), slug])],
       slug,
       status,
       description,
-      contentType,
+      type,
       outboundLinks: [],
       inboundLinks: [],
     })
   );
 
   // Get all outbound links
-  totalPostData.forEach((postData, index) => {
-    const { content } = postData;
+  totalGardenEntryData.forEach((entryData, index) => {
+    const { content } = entryData;
     const bracketContents = bracketsExtractor(content);
 
     bracketContents?.forEach((linkPath) => {
-      // Find matching post by title or alias
-      const match = posts.find((p) => {
+      // Find matching entry by title or alias
+      const match = gardenEntries.find((p) => {
         const normalisedLinkPath = linkPath
           .replace(/\n/g, "")
           .replace(/\s+/g, " ")
@@ -117,43 +117,39 @@ const getAllPostData = () => {
 
       if (match) {
         // Add to outbound links
-        posts[index].outboundLinks.push({
+        gardenEntries[index].outboundLinks.push({
           matchedId: linkPath,
           title: match.ids[0],
           slug: match.slug,
-          growthStage: match.growthStage,
-          description: match.description,
-          contentType: match.contentType
+          type: match.type
         });
       }
     });
   });
 
   // Get inbound links
-  for (const outerPost of posts) {
-    const outerPostTitle = outerPost.ids[0];
+  for (const outerEntry of gardenEntries) {
+    const outerEntryTitle = outerEntry.ids[0];
 
-    for (const innerPost of posts) {
-      const innerPostTitle = innerPost.ids[0];
+    for (const innerEntry of gardenEntries) {
+      const innerEntryTitle = innerEntry.ids[0];
 
       if (
-        innerPost.outboundLinks.some((link) => link.title === outerPostTitle)
+        innerEntry.outboundLinks.some((link) => link.title === outerEntryTitle)
       ) {
-        outerPost.inboundLinks.push({
-          title: innerPostTitle,
-          slug: innerPost.slug,
-          growthStage: innerPost.growthStage,
-          description: innerPost.description,
-          contentType: innerPost.contentType
+        outerEntry.inboundLinks.push({
+          title: innerEntryTitle,
+          slug: innerEntry.slug,
+          type: innerEntry.type
         });
       }
     }
   }
 
-  // Write to links.json
+  // Write to index.json
   fs.writeFileSync(
-    path.join(__dirname, "../data/links.json"),
-    JSON.stringify(posts, null, 2)
+    path.join(__dirname, "../data/index.json"),
+    JSON.stringify(gardenEntries, null, 2)
   );
-  console.log("✨ Generated links.json");
+  console.log("✨ Generated garden index in index.json");
 })();

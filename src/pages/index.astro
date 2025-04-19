@@ -2,15 +2,13 @@
 import Link from "@components/ui/Link.astro";
 import SectionHeading from "@components/ui/sections/SectionHeading.astro";
 import Section from "@components/ui/sections/Section.astro";
-import EssayCard from "@components/garden/essays/EssayCard.astro";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import BookCard from "@components/garden/books/BookCard.astro";
-import { getSortedBooks } from "src/lib/garden/books";
-import { getSortedNotes } from "src/lib/garden/notes";
-import NoteCard from "@components/garden/notes/NoteCard.astro";
+import { getSortedBooks } from "src/lib/garden";
+import { getSortedNotes } from "src/lib/garden";
 import sections from "src/data/sections.json";
-import { getSortedEssays } from "src/lib/garden/essays";
+import { getSortedEssays } from "src/lib/garden";
+import GardenEntriesGrid from "@components/garden/GardenEntriesGrid.astro";
 
 const essays = (await getSortedEssays()).slice(0, 6);
 const notes = (await getSortedNotes()).slice(0, 6);
@@ -23,7 +21,7 @@ const books = (await getSortedBooks()).slice(0, 6);
   <div class="space-y-12">
     <div class="space-y-6">
       <p class="font-serif text-3xl lg:text-5xl">
-        <span class="animate-wave inline-block">👋</span>, I’m <span
+        <span class="animate-wave inline-block">👋</span>, I'm <span
           class="font-bold">Alessandro</span
         >&mdash;a <Link href="/topics/writing">writer</Link>,
         <Link href="/topics/software-engineering">engineer</Link>, and
@@ -56,11 +54,7 @@ const books = (await getSortedBooks()).slice(0, 6);
             </div>
           </div>
 
-          <div class="grid lg:grid-cols-2 gap-4">
-            {essays.map((essay) => (
-              <EssayCard essay={essay} />
-            ))}
-          </div>
+          <GardenEntriesGrid items={essays} itemSize="L" />
         </Section>
       )
     }
@@ -76,9 +70,7 @@ const books = (await getSortedBooks()).slice(0, 6);
         </div>
       </div>
 
-      <div class="grid lg:grid-cols-2 gap-4">
-        {notes.map((note) => <NoteCard note={note} />)}
-      </div>
+      <GardenEntriesGrid items={notes} itemSize="L" />
     </Section>
 
     <Section>
@@ -92,9 +84,7 @@ const books = (await getSortedBooks()).slice(0, 6);
         </div>
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {books.map((book) => <BookCard book={book} />)}
-      </div>
+      <GardenEntriesGrid items={books} itemSize="M" />
     </Section>
   </div>
 </Layout>

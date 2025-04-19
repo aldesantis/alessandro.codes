@@ -1,9 +1,27 @@
-import { type CollectionEntry, getCollection } from "astro:content";
-import { getLinks } from "src/lib/links";
+import { getCollection, type CollectionEntry } from "astro:content";
+import links from "src/data/index.json";
+import type { ImageMetadata } from "astro";
 
-export type GardenEntry = CollectionEntry<
-  "essays" | "books" | "notes" | "topics" | "talks"
->;
+export type GardenEntryType =
+  | "essays"
+  | "books"
+  | "notes"
+  | "topics"
+  | "talks"
+  | "nows";
+
+export type GardenEntry = CollectionEntry<GardenEntryType>;
+
+export interface GardenEntryLink {
+  title: string;
+  slug: string;
+  type: GardenEntryType;
+}
+
+export interface GardenEntryLinks {
+  outboundLinks: GardenEntryLink[];
+  inboundLinks: GardenEntryLink[];
+}
 
 function getGardenEntryDate(content: GardenEntry): Date {
   if (content.collection === "books") {
@@ -32,7 +50,7 @@ export async function getSortedGardenEntries(): Promise<GardenEntry[]> {
 export async function getRelatedGardenEntries(
   entry: GardenEntry
 ): Promise<GardenEntry[]> {
-  const { outboundLinks, inboundLinks } = getLinks(entry.id);
+  const { outboundLinks, inboundLinks } = getGardenEntryLinks(entry.id);
 
   const allLinks = [...outboundLinks, ...inboundLinks];
   const uniqueLinks = Array.from(new Set(allLinks.map((link) => link.slug)))
@@ -47,7 +65,7 @@ export async function getRelatedGardenEntries(
 
   return uniqueLinks
     .map((link) => {
-      switch (link.contentType) {
+      switch (link.type) {
         case "essays":
           return essays.find((e) => e.id === link.slug);
         case "books":
@@ -67,4 +85,126 @@ export async function getRelatedGardenEntries(
         content !== null && content !== undefined
     )
     .sort(sortGardenEntriesByDate);
+}
+
+export function getGardenEntryLinks(gardenEntryId: string): GardenEntryLinks {
+  const gardenEntryData = links.find(
+    (entry) => entry.slug === gardenEntryId || entry.ids.includes(gardenEntryId)
+  );
+
+  if (!gardenEntryData) {
+    return { outboundLinks: [], inboundLinks: [] };
+  }
+
+  return {
+    outboundLinks: gardenEntryData.outboundLinks,
+    inboundLinks: gardenEntryData.inboundLinks,
+  };
+}
+
+export async function getSortedEssays(): Promise<CollectionEntry<"essays">[]> {
+  const essays = (await getCollection("essays")).sort((a, b) =>
+    a.data.updatedAt! > b.data.updatedAt! ? -1 : 1
+  );
+
+  return essays;
+}
+
+export async function getSortedBooks() {
+  const books = (await getCollection("books")).sort((a, b) =>
+    new Date(a.data.lastHighlightedOn) > new Date(b.data.lastHighlightedOn)
+      ? -1
+      : 1
+  );
+
+  return books;
+}
+
+export async function fetchBookCover(
+  book: CollectionEntry<"books">
+): Promise<{ default: ImageMetadata }> {
+  const images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/assets/covers/*.jpg"
+  );
+
+  const cover = images[`/src/assets/covers/${book.id.toLowerCase()}.jpg`];
+
+  if (!cover) {
+    throw new Error(`Cannot find cover for ${book.id}`);
+  }
+
+  return await cover();
+}
+
+export async function getSortedTopics(): Promise<CollectionEntry<"topics">[]> {
+  const topics = await getCollection("topics");
+
+  return topics.sort((a, b) => {
+    const dateA = new Date(a.data.updatedAt);
+    const dateB = new Date(b.data.updatedAt);
+    return dateB.getTime() - dateA.getTime();
+  });
+}
+
+export function getYouTubeEmbedUrl(url: string): string {
+  try {
+    const videoUrl = new URL(url);
+    const videoId =
+      videoUrl.searchParams.get("v") || videoUrl.pathname.split("/").pop();
+
+    if (!videoId) {
+      console.warn(`Could not extract video ID from URL: ${url}`);
+      return url;
+    }
+
+    const embedUrl = new URL(`https://www.youtube.com/embed/${videoId}`);
+
+    const timestamp = videoUrl.searchParams.get("t");
+    if (timestamp) {
+      embedUrl.searchParams.set("start", timestamp.replace("s", ""));
+    }
+
+    return embedUrl.toString();
+  } catch (error) {
+    console.warn(`Invalid URL format: ${url}`);
+    return url;
+  }
+}
+
+export async function getSortedTalks(): Promise<CollectionEntry<"talks">[]> {
+  const talks = (await getCollection("talks")).sort((a, b) =>
+    a.data.createdAt > b.data.createdAt ? -1 : 1
+  );
+
+  return talks;
+}
+
+export async function getSortedNotes() {
+  const statusPriorities = {
+    seedling: 0,
+    budding: 1,
+    evergreen: 2,
+  };
+
+  const notes = (await getCollection("notes")).sort((a, b) => {
+    // First, compare by updatedAt in descending order
+    if (a.data.updatedAt! > b.data.updatedAt!) return -1;
+    if (a.data.updatedAt! < b.data.updatedAt!) return 1;
+
+    // If updatedAt is the same, use status as a tiebreaker
+    const statusPriorityA = statusPriorities[a.data.status];
+    const statusPriorityB = statusPriorities[b.data.status];
+
+    return statusPriorityA > statusPriorityB ? -1 : 1;
+  });
+
+  return notes;
+}
+
+export async function getSortedNows(): Promise<CollectionEntry<"nows">[]> {
+  const nows = (await getCollection("nows")).sort((a, b) =>
+    a.id > b.id ? -1 : 1
+  );
+
+  return nows;
 }

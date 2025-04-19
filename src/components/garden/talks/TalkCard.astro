@@ -2,7 +2,7 @@
 import LinkedCard from "@components/ui/LinkedCard.astro";
 import TalkMeta from "@components/garden/talks/TalkMeta.astro";
 import type { CollectionEntry } from "astro:content";
-import { getYouTubeEmbedUrl } from "src/lib/garden/talks";
+import { getYouTubeEmbedUrl } from "src/lib/garden";
 
 interface Props {
   talk: CollectionEntry<"talks">;

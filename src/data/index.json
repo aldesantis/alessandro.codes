@@ -24,7 +24,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Advertising must be consistent", "advertising-must-be-consistent"],
+    "ids": [
+      "Advertising must be consistent",
+      "advertising-must-be-consistent"
+    ],
     "slug": "advertising-must-be-consistent",
     "status": "seedling",
     "type": "notes",
@@ -94,7 +97,10 @@
     ]
   },
   {
-    "ids": ["Advertising must be memorable", "advertising-must-be-memorable"],
+    "ids": [
+      "Advertising must be memorable",
+      "advertising-must-be-memorable"
+    ],
     "slug": "advertising-must-be-memorable",
     "status": "seedling",
     "type": "notes",
@@ -340,7 +346,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Arrive early to new arenas", "arrive-early-to-new-arenas"],
+    "ids": [
+      "Arrive early to new arenas",
+      "arrive-early-to-new-arenas"
+    ],
     "slug": "arrive-early-to-new-arenas",
     "status": "seedling",
     "type": "notes",
@@ -408,7 +417,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Be wary of flawless ideas", "be-wary-of-flawless-ideas"],
+    "ids": [
+      "Be wary of flawless ideas",
+      "be-wary-of-flawless-ideas"
+    ],
     "slug": "be-wary-of-flawless-ideas",
     "status": "evergreen",
     "type": "notes",
@@ -732,7 +744,10 @@
     ]
   },
   {
-    "ids": ["Brands serve two purposes", "brands-serve-two-purposes"],
+    "ids": [
+      "Brands serve two purposes",
+      "brands-serve-two-purposes"
+    ],
     "slug": "brands-serve-two-purposes",
     "status": "budding",
     "type": "notes",
@@ -829,7 +844,10 @@
     ]
   },
   {
-    "ids": ["Bright spots catalyze change", "bright-spots-catalyze-change"],
+    "ids": [
+      "Bright spots catalyze change",
+      "bright-spots-catalyze-change"
+    ],
     "slug": "bright-spots-catalyze-change",
     "status": "budding",
     "type": "notes",
@@ -995,7 +1013,10 @@
     ]
   },
   {
-    "ids": ["Chaotic systems are not random", "chaotic-systems-are-not-random"],
+    "ids": [
+      "Chaotic systems are not random",
+      "chaotic-systems-are-not-random"
+    ],
     "slug": "chaotic-systems-are-not-random",
     "status": "seedling",
     "type": "notes",
@@ -1038,7 +1059,10 @@
     ]
   },
   {
-    "ids": ["Codebases are for humans", "codebases-are-for-humans"],
+    "ids": [
+      "Codebases are for humans",
+      "codebases-are-for-humans"
+    ],
     "slug": "codebases-are-for-humans",
     "status": "seedling",
     "type": "notes",
@@ -1285,7 +1309,10 @@
     ]
   },
   {
-    "ids": ["Compliance is not commitment", "compliance-is-not-commitment"],
+    "ids": [
+      "Compliance is not commitment",
+      "compliance-is-not-commitment"
+    ],
     "slug": "compliance-is-not-commitment",
     "status": "seedling",
     "type": "notes",
@@ -1398,7 +1425,10 @@
     ]
   },
   {
-    "ids": ["Composable commerce", "composable-commerce"],
+    "ids": [
+      "Composable commerce",
+      "composable-commerce"
+    ],
     "slug": "composable-commerce",
     "status": "seedling",
     "type": "notes",
@@ -1436,7 +1466,10 @@
     ]
   },
   {
-    "ids": ["Consulting involves tension", "consulting-involves-tension"],
+    "ids": [
+      "Consulting involves tension",
+      "consulting-involves-tension"
+    ],
     "slug": "consulting-involves-tension",
     "status": "seedling",
     "type": "notes",
@@ -1455,7 +1488,10 @@
     ]
   },
   {
-    "ids": ["Consulting is conversation", "consulting-is-conversation"],
+    "ids": [
+      "Consulting is conversation",
+      "consulting-is-conversation"
+    ],
     "slug": "consulting-is-conversation",
     "status": "seedling",
     "type": "notes",
@@ -1493,7 +1529,10 @@
     ]
   },
   {
-    "ids": ["Consulting maximizes diversity", "consulting-maximizes-diversity"],
+    "ids": [
+      "Consulting maximizes diversity",
+      "consulting-maximizes-diversity"
+    ],
     "slug": "consulting-maximizes-diversity",
     "status": "seedling",
     "type": "notes",
@@ -1525,7 +1564,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Correlation is not causation", "correlation-is-not-causation"],
+    "ids": [
+      "Correlation is not causation",
+      "correlation-is-not-causation"
+    ],
     "slug": "correlation-is-not-causation",
     "status": "seedling",
     "type": "notes",
@@ -1825,7 +1867,10 @@
     ]
   },
   {
-    "ids": ["Curation creates brand depth", "curation-creates-brand-depth"],
+    "ids": [
+      "Curation creates brand depth",
+      "curation-creates-brand-depth"
+    ],
     "slug": "curation-creates-brand-depth",
     "status": "seedling",
     "type": "notes",
@@ -1840,7 +1885,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Customer loyalty is behavioral", "customer-loyalty-is-behavioral"],
+    "ids": [
+      "Customer loyalty is behavioral",
+      "customer-loyalty-is-behavioral"
+    ],
     "slug": "customer-loyalty-is-behavioral",
     "status": "seedling",
     "type": "notes",
@@ -1884,7 +1932,10 @@
     ]
   },
   {
-    "ids": ["Data must be activated", "data-must-be-activated"],
+    "ids": [
+      "Data must be activated",
+      "data-must-be-activated"
+    ],
     "slug": "data-must-be-activated",
     "status": "seedling",
     "type": "notes",
@@ -1927,7 +1978,10 @@
     ]
   },
   {
-    "ids": ["Define a meeting OS", "define-a-meeting-os"],
+    "ids": [
+      "Define a meeting OS",
+      "define-a-meeting-os"
+    ],
     "slug": "define-a-meeting-os",
     "status": "seedling",
     "type": "notes",
@@ -1978,7 +2032,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Design an operating cadence", "design-an-operating-cadence"],
+    "ids": [
+      "Design an operating cadence",
+      "design-an-operating-cadence"
+    ],
     "slug": "design-an-operating-cadence",
     "status": "seedling",
     "type": "notes",
@@ -2054,7 +2111,10 @@
     ]
   },
   {
-    "ids": ["Discussion is not dialogue", "discussion-is-not-dialogue"],
+    "ids": [
+      "Discussion is not dialogue",
+      "discussion-is-not-dialogue"
+    ],
     "slug": "discussion-is-not-dialogue",
     "status": "seedling",
     "type": "notes",
@@ -2062,7 +2122,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Don’t play life on hard mode", "dont-play-life-on-hard-mode"],
+    "ids": [
+      "Don’t play life on hard mode",
+      "dont-play-life-on-hard-mode"
+    ],
     "slug": "dont-play-life-on-hard-mode",
     "status": "seedling",
     "type": "notes",
@@ -2176,7 +2239,10 @@
     ]
   },
   {
-    "ids": ["Efficiency must be defensible", "efficiency-must-be-defensible"],
+    "ids": [
+      "Efficiency must be defensible",
+      "efficiency-must-be-defensible"
+    ],
     "slug": "efficiency-must-be-defensible",
     "status": "budding",
     "type": "notes",
@@ -2267,7 +2333,10 @@
     ]
   },
   {
-    "ids": ["Eliminate the cost of mistake", "eliminate-the-cost-of-mistake"],
+    "ids": [
+      "Eliminate the cost of mistake",
+      "eliminate-the-cost-of-mistake"
+    ],
     "slug": "eliminate-the-cost-of-mistake",
     "status": "seedling",
     "type": "notes",
@@ -2282,7 +2351,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Emotions aren’t always correct", "emotions-arent-always-correct"],
+    "ids": [
+      "Emotions aren’t always correct",
+      "emotions-arent-always-correct"
+    ],
     "slug": "emotions-arent-always-correct",
     "status": "seedling",
     "type": "notes",
@@ -2565,7 +2637,10 @@
     ]
   },
   {
-    "ids": ["Focus on what’s not changing", "focus-on-whats-not-changing"],
+    "ids": [
+      "Focus on what’s not changing",
+      "focus-on-whats-not-changing"
+    ],
     "slug": "focus-on-whats-not-changing",
     "status": "seedling",
     "type": "notes",
@@ -2674,7 +2749,10 @@
     ]
   },
   {
-    "ids": ["Fusion alters our reality", "fusion-alters-our-reality"],
+    "ids": [
+      "Fusion alters our reality",
+      "fusion-alters-our-reality"
+    ],
     "slug": "fusion-alters-our-reality",
     "status": "seedling",
     "type": "notes",
@@ -2695,7 +2773,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Good cooking requires time", "good-cooking-requires-time"],
+    "ids": [
+      "Good cooking requires time",
+      "good-cooking-requires-time"
+    ],
     "slug": "good-cooking-requires-time",
     "status": "seedling",
     "type": "notes",
@@ -2751,7 +2832,10 @@
     ]
   },
   {
-    "ids": ["Good operators instrument", "good-operators-instrument"],
+    "ids": [
+      "Good operators instrument",
+      "good-operators-instrument"
+    ],
     "slug": "good-operators-instrument",
     "status": "seedling",
     "type": "notes",
@@ -2759,7 +2843,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Good strategies are simple", "good-strategies-are-simple"],
+    "ids": [
+      "Good strategies are simple",
+      "good-strategies-are-simple"
+    ],
     "slug": "good-strategies-are-simple",
     "status": "seedling",
     "type": "notes",
@@ -2774,7 +2861,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Good strategy is simple", "good-strategy-is-simple"],
+    "ids": [
+      "Good strategy is simple",
+      "good-strategy-is-simple"
+    ],
     "slug": "good-strategy-is-simple",
     "status": "seedling",
     "type": "notes",
@@ -2896,7 +2986,10 @@
     ]
   },
   {
-    "ids": ["Groups always have structure", "groups-always-have-structure"],
+    "ids": [
+      "Groups always have structure",
+      "groups-always-have-structure"
+    ],
     "slug": "groups-always-have-structure",
     "status": "seedling",
     "type": "notes",
@@ -2917,7 +3010,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Hard work is overrated", "hard-work-is-overrated"],
+    "ids": [
+      "Hard work is overrated",
+      "hard-work-is-overrated"
+    ],
     "slug": "hard-work-is-overrated",
     "status": "seedling",
     "type": "notes",
@@ -2932,7 +3028,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Hire coachable people", "hire-coachable-people"],
+    "ids": [
+      "Hire coachable people",
+      "hire-coachable-people"
+    ],
     "slug": "hire-coachable-people",
     "status": "seedling",
     "type": "notes",
@@ -2958,7 +3057,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Hiring is a network effect", "hiring-is-a-network-effect"],
+    "ids": [
+      "Hiring is a network effect",
+      "hiring-is-a-network-effect"
+    ],
     "slug": "hiring-is-a-network-effect",
     "status": "seedling",
     "type": "notes",
@@ -2984,7 +3086,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Ideas need to be grappled with", "ideas-need-to-be-grappled-with"],
+    "ids": [
+      "Ideas need to be grappled with",
+      "ideas-need-to-be-grappled-with"
+    ],
     "slug": "ideas-need-to-be-grappled-with",
     "status": "seedling",
     "type": "notes",
@@ -3048,7 +3153,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Improve the operating cadence", "improve-the-operating-cadence"],
+    "ids": [
+      "Improve the operating cadence",
+      "improve-the-operating-cadence"
+    ],
     "slug": "improve-the-operating-cadence",
     "status": "seedling",
     "type": "notes",
@@ -3221,7 +3329,10 @@
     ]
   },
   {
-    "ids": ["Innovation needs a platform", "innovation-needs-a-platform"],
+    "ids": [
+      "Innovation needs a platform",
+      "innovation-needs-a-platform"
+    ],
     "slug": "innovation-needs-a-platform",
     "status": "seedling",
     "type": "notes",
@@ -3264,7 +3375,10 @@
     ]
   },
   {
-    "ids": ["Kindness begets kindness", "kindness-begets-kindness"],
+    "ids": [
+      "Kindness begets kindness",
+      "kindness-begets-kindness"
+    ],
     "slug": "kindness-begets-kindness",
     "status": "seedling",
     "type": "notes",
@@ -3336,7 +3450,10 @@
     ]
   },
   {
-    "ids": ["Learning is the work", "learning-is-the-work"],
+    "ids": [
+      "Learning is the work",
+      "learning-is-the-work"
+    ],
     "slug": "learning-is-the-work",
     "status": "seedling",
     "type": "notes",
@@ -3344,7 +3461,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Life is seasonal", "life-is-seasonal"],
+    "ids": [
+      "Life is seasonal",
+      "life-is-seasonal"
+    ],
     "slug": "life-is-seasonal",
     "status": "seedling",
     "type": "notes",
@@ -3784,7 +3904,10 @@
     ]
   },
   {
-    "ids": ["Marketplaces are usually 80-20", "marketplaces-are-usually-80-20"],
+    "ids": [
+      "Marketplaces are usually 80-20",
+      "marketplaces-are-usually-80-20"
+    ],
     "slug": "marketplaces-are-usually-80-20",
     "status": "seedling",
     "type": "notes",
@@ -3865,7 +3988,10 @@
     ]
   },
   {
-    "ids": ["Mediums create new agency", "mediums-create-new-agency"],
+    "ids": [
+      "Mediums create new agency",
+      "mediums-create-new-agency"
+    ],
     "slug": "mediums-create-new-agency",
     "status": "seedling",
     "type": "notes",
@@ -3897,7 +4023,10 @@
     ]
   },
   {
-    "ids": ["Memory is for context", "memory-is-for-context"],
+    "ids": [
+      "Memory is for context",
+      "memory-is-for-context"
+    ],
     "slug": "memory-is-for-context",
     "status": "seedling",
     "type": "notes",
@@ -3995,7 +4124,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Money is like oxygen", "money-is-like-oxygen"],
+    "ids": [
+      "Money is like oxygen",
+      "money-is-like-oxygen"
+    ],
     "slug": "money-is-like-oxygen",
     "status": "seedling",
     "type": "notes",
@@ -4086,7 +4218,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["MVP is not half-assed", "mvp-is-not-half-assed"],
+    "ids": [
+      "MVP is not half-assed",
+      "mvp-is-not-half-assed"
+    ],
     "slug": "mvp-is-not-half-assed",
     "status": "seedling",
     "type": "notes",
@@ -4310,7 +4445,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Personalization may be harmful", "personalization-may-be-harmful"],
+    "ids": [
+      "Personalization may be harmful",
+      "personalization-may-be-harmful"
+    ],
     "slug": "personalization-may-be-harmful",
     "status": "seedling",
     "type": "notes",
@@ -4377,7 +4515,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Point to the new tower", "point-to-the-new-tower"],
+    "ids": [
+      "Point to the new tower",
+      "point-to-the-new-tower"
+    ],
     "slug": "point-to-the-new-tower",
     "status": "budding",
     "type": "notes",
@@ -4434,7 +4575,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Popularity is the new rarity", "popularity-is-the-new-rarity"],
+    "ids": [
+      "Popularity is the new rarity",
+      "popularity-is-the-new-rarity"
+    ],
     "slug": "popularity-is-the-new-rarity",
     "status": "seedling",
     "type": "notes",
@@ -4489,7 +4633,10 @@
     ]
   },
   {
-    "ids": ["Prestige is not wealth", "prestige-is-not-wealth"],
+    "ids": [
+      "Prestige is not wealth",
+      "prestige-is-not-wealth"
+    ],
     "slug": "prestige-is-not-wealth",
     "status": "budding",
     "type": "notes",
@@ -4711,7 +4858,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Re-evaluate your strengths", "re-evaluate-your-strengths"],
+    "ids": [
+      "Re-evaluate your strengths",
+      "re-evaluate-your-strengths"
+    ],
     "slug": "re-evaluate-your-strengths",
     "status": "seedling",
     "type": "notes",
@@ -4732,7 +4882,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Reason from first principles", "reason-from-first-principles"],
+    "ids": [
+      "Reason from first principles",
+      "reason-from-first-principles"
+    ],
     "slug": "reason-from-first-principles",
     "status": "seedling",
     "type": "notes",
@@ -4812,7 +4965,10 @@
     ]
   },
   {
-    "ids": ["Relax is not idleness", "relax-is-not-idleness"],
+    "ids": [
+      "Relax is not idleness",
+      "relax-is-not-idleness"
+    ],
     "slug": "relax-is-not-idleness",
     "status": "seedling",
     "type": "notes",
@@ -4845,7 +5001,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Resale is not enough", "resale-is-not-enough"],
+    "ids": [
+      "Resale is not enough",
+      "resale-is-not-enough"
+    ],
     "slug": "resale-is-not-enough",
     "status": "seedling",
     "type": "notes",
@@ -4860,7 +5019,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Retention doesn’t grow brands", "retention-doesnt-grow-brands"],
+    "ids": [
+      "Retention doesn’t grow brands",
+      "retention-doesnt-grow-brands"
+    ],
     "slug": "retention-doesnt-grow-brands",
     "status": "seedling",
     "type": "notes",
@@ -4875,7 +5037,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Risk protects from competition", "risk-protects-from-competition"],
+    "ids": [
+      "Risk protects from competition",
+      "risk-protects-from-competition"
+    ],
     "slug": "risk-protects-from-competition",
     "status": "budding",
     "type": "notes",
@@ -5190,7 +5355,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Social support reduces stress", "social-support-reduces-stress"],
+    "ids": [
+      "Social support reduces stress",
+      "social-support-reduces-stress"
+    ],
     "slug": "social-support-reduces-stress",
     "status": "seedling",
     "type": "notes",
@@ -5264,7 +5432,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Stores have a double nature", "stores-have-a-double-nature"],
+    "ids": [
+      "Stores have a double nature",
+      "stores-have-a-double-nature"
+    ],
     "slug": "stores-have-a-double-nature",
     "status": "seedling",
     "type": "notes",
@@ -5279,7 +5450,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Stories are not facts", "stories-are-not-facts"],
+    "ids": [
+      "Stories are not facts",
+      "stories-are-not-facts"
+    ],
     "slug": "stories-are-not-facts",
     "status": "seedling",
     "type": "notes",
@@ -5385,7 +5559,10 @@
     ]
   },
   {
-    "ids": ["Strategy requires focus", "strategy-requires-focus"],
+    "ids": [
+      "Strategy requires focus",
+      "strategy-requires-focus"
+    ],
     "slug": "strategy-requires-focus",
     "status": "seedling",
     "type": "notes",
@@ -5487,7 +5664,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Structure sets you free", "structure-sets-you-free"],
+    "ids": [
+      "Structure sets you free",
+      "structure-sets-you-free"
+    ],
     "slug": "structure-sets-you-free",
     "status": "seedling",
     "type": "notes",
@@ -5550,7 +5730,10 @@
     ]
   },
   {
-    "ids": ["Systems happen all at once", "systems-happen-all-at-once"],
+    "ids": [
+      "Systems happen all at once",
+      "systems-happen-all-at-once"
+    ],
     "slug": "systems-happen-all-at-once",
     "status": "seedling",
     "type": "notes",
@@ -5571,7 +5754,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Systems must be inspected", "systems-must-be-inspected"],
+    "ids": [
+      "Systems must be inspected",
+      "systems-must-be-inspected"
+    ],
     "slug": "systems-must-be-inspected",
     "status": "seedling",
     "type": "notes",
@@ -5610,7 +5796,10 @@
     ]
   },
   {
-    "ids": ["Systems of record hold data", "systems-of-record-hold-data"],
+    "ids": [
+      "Systems of record hold data",
+      "systems-of-record-hold-data"
+    ],
     "slug": "systems-of-record-hold-data",
     "status": "seedling",
     "type": "notes",
@@ -5695,7 +5884,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Teach how to decide", "teach-how-to-decide"],
+    "ids": [
+      "Teach how to decide",
+      "teach-how-to-decide"
+    ],
     "slug": "teach-how-to-decide",
     "status": "seedling",
     "type": "notes",
@@ -5751,7 +5943,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The map is not the territory", "the-map-is-not-the-territory"],
+    "ids": [
+      "The map is not the territory",
+      "the-map-is-not-the-territory"
+    ],
     "slug": "the-map-is-not-the-territory",
     "status": "budding",
     "type": "notes",
@@ -5835,7 +6030,10 @@
     ]
   },
   {
-    "ids": ["The organization is the work", "the-organization-is-the-work"],
+    "ids": [
+      "The organization is the work",
+      "the-organization-is-the-work"
+    ],
     "slug": "the-organization-is-the-work",
     "status": "seedling",
     "type": "notes",
@@ -6043,7 +6241,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["To win, redefine success", "to-win-redefine-success"],
+    "ids": [
+      "To win, redefine success",
+      "to-win-redefine-success"
+    ],
     "slug": "to-win-redefine-success",
     "status": "seedling",
     "type": "notes",
@@ -6158,7 +6359,10 @@
     ]
   },
   {
-    "ids": ["Unknown habits impede learning", "unknown-habits-impede-learning"],
+    "ids": [
+      "Unknown habits impede learning",
+      "unknown-habits-impede-learning"
+    ],
     "slug": "unknown-habits-impede-learning",
     "status": "seedling",
     "type": "notes",
@@ -6279,7 +6483,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["We get what we reward for", "we-get-what-we-reward-for"],
+    "ids": [
+      "We get what we reward for",
+      "we-get-what-we-reward-for"
+    ],
     "slug": "we-get-what-we-reward-for",
     "status": "seedling",
     "type": "notes",
@@ -6333,7 +6540,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Weirdness is the seed of humor", "weirdness-is-the-seed-of-humor"],
+    "ids": [
+      "Weirdness is the seed of humor",
+      "weirdness-is-the-seed-of-humor"
+    ],
     "slug": "weirdness-is-the-seed-of-humor",
     "status": "seedling",
     "type": "notes",
@@ -6566,7 +6776,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["December 2024", "2024-12"],
+    "ids": [
+      "December 2024",
+      "2024-12"
+    ],
     "slug": "2024-12",
     "status": "evergreen",
     "type": "nows",
@@ -6580,7 +6793,10 @@
     ]
   },
   {
-    "ids": ["January 2025", "2025-01"],
+    "ids": [
+      "January 2025",
+      "2025-01"
+    ],
     "slug": "2025-01",
     "status": "evergreen",
     "type": "nows",
@@ -6595,7 +6811,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["February 2025", "2025-02"],
+    "ids": [
+      "February 2025",
+      "2025-02"
+    ],
     "slug": "2025-02",
     "status": "evergreen",
     "type": "nows",
@@ -6603,7 +6822,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["March 2025", "2025-03"],
+    "ids": [
+      "March 2025",
+      "2025-03"
+    ],
     "slug": "2025-03",
     "status": "evergreen",
     "type": "nows",
@@ -6636,7 +6858,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["April 2025", "2025-04"],
+    "ids": [
+      "April 2025",
+      "2025-04"
+    ],
     "slug": "2025-04",
     "status": "budding",
     "type": "nows",
@@ -6685,7 +6910,10 @@
     ]
   },
   {
-    "ids": ["$100M Leads", "100m-leads"],
+    "ids": [
+      "$100M Leads",
+      "100m-leads"
+    ],
     "slug": "100m-leads",
     "status": "evergreen",
     "type": "books",
@@ -6706,7 +6934,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["12 Rules for Life", "12-rules-for-life"],
+    "ids": [
+      "12 Rules for Life",
+      "12-rules-for-life"
+    ],
     "slug": "12-rules-for-life",
     "status": "evergreen",
     "type": "books",
@@ -6714,7 +6945,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Alchemy", "alchemy"],
+    "ids": [
+      "Alchemy",
+      "alchemy"
+    ],
     "slug": "alchemy",
     "status": "evergreen",
     "type": "books",
@@ -6722,7 +6956,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Ave Mary", "ave-mary"],
+    "ids": [
+      "Ave Mary",
+      "ave-mary"
+    ],
     "slug": "ave-mary",
     "status": "evergreen",
     "type": "books",
@@ -6730,7 +6967,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Building a Second Brain", "building-a-second-brain"],
+    "ids": [
+      "Building a Second Brain",
+      "building-a-second-brain"
+    ],
     "slug": "building-a-second-brain",
     "status": "evergreen",
     "type": "books",
@@ -6751,7 +6991,10 @@
     ]
   },
   {
-    "ids": ["Clear Thinking", "clear-thinking"],
+    "ids": [
+      "Clear Thinking",
+      "clear-thinking"
+    ],
     "slug": "clear-thinking",
     "status": "evergreen",
     "type": "books",
@@ -6794,7 +7037,10 @@
     ]
   },
   {
-    "ids": ["Continuous Discovery Habits", "continuous-discovery-habits"],
+    "ids": [
+      "Continuous Discovery Habits",
+      "continuous-discovery-habits"
+    ],
     "slug": "continuous-discovery-habits",
     "status": "evergreen",
     "type": "books",
@@ -6802,7 +7048,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Creative Dysregulation", "creative-dysregulation"],
+    "ids": [
+      "Creative Dysregulation",
+      "creative-dysregulation"
+    ],
     "slug": "creative-dysregulation",
     "status": "evergreen",
     "type": "books",
@@ -6828,7 +7077,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Dare La Vita", "dare-la-vita"],
+    "ids": [
+      "Dare La Vita",
+      "dare-la-vita"
+    ],
     "slug": "dare-la-vita",
     "status": "evergreen",
     "type": "books",
@@ -6847,7 +7099,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Ego Is the Enemy", "ego-is-the-enemy"],
+    "ids": [
+      "Ego Is the Enemy",
+      "ego-is-the-enemy"
+    ],
     "slug": "ego-is-the-enemy",
     "status": "evergreen",
     "type": "books",
@@ -6855,7 +7110,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Empowered", "empowered"],
+    "ids": [
+      "Empowered",
+      "empowered"
+    ],
     "slug": "empowered",
     "status": "evergreen",
     "type": "books",
@@ -6915,7 +7173,10 @@
     ]
   },
   {
-    "ids": ["Escaping the Build Trap", "escaping-the-build-trap"],
+    "ids": [
+      "Escaping the Build Trap",
+      "escaping-the-build-trap"
+    ],
     "slug": "escaping-the-build-trap",
     "status": "evergreen",
     "type": "books",
@@ -6953,7 +7214,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Exhalation", "exhalation"],
+    "ids": [
+      "Exhalation",
+      "exhalation"
+    ],
     "slug": "exhalation",
     "status": "evergreen",
     "type": "books",
@@ -6961,7 +7225,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Finite and Infinite Games", "finite-and-infinite-games"],
+    "ids": [
+      "Finite and Infinite Games",
+      "finite-and-infinite-games"
+    ],
     "slug": "finite-and-infinite-games",
     "status": "evergreen",
     "type": "books",
@@ -6969,7 +7236,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Flawless Consulting", "flawless-consulting"],
+    "ids": [
+      "Flawless Consulting",
+      "flawless-consulting"
+    ],
     "slug": "flawless-consulting",
     "status": "evergreen",
     "type": "books",
@@ -7137,7 +7407,10 @@
     ]
   },
   {
-    "ids": ["From Impossible to Inevitable", "from-impossible-to-inevitable"],
+    "ids": [
+      "From Impossible to Inevitable",
+      "from-impossible-to-inevitable"
+    ],
     "slug": "from-impossible-to-inevitable",
     "status": "evergreen",
     "type": "books",
@@ -7194,7 +7467,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["From Start-Up to Grown-Up", "from-start-up-to-grown-up"],
+    "ids": [
+      "From Start-Up to Grown-Up",
+      "from-start-up-to-grown-up"
+    ],
     "slug": "from-start-up-to-grown-up",
     "status": "evergreen",
     "type": "books",
@@ -7221,7 +7497,10 @@
     ]
   },
   {
-    "ids": ["Get Together", "get-together"],
+    "ids": [
+      "Get Together",
+      "get-together"
+    ],
     "slug": "get-together",
     "status": "evergreen",
     "type": "books",
@@ -7229,7 +7508,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Good Strategy/Bad Strategy", "good-strategy-bad-strategy"],
+    "ids": [
+      "Good Strategy/Bad Strategy",
+      "good-strategy-bad-strategy"
+    ],
     "slug": "good-strategy-bad-strategy",
     "status": "evergreen",
     "type": "books",
@@ -7345,7 +7627,10 @@
     ]
   },
   {
-    "ids": ["Gravitas", "gravitas"],
+    "ids": [
+      "Gravitas",
+      "gravitas"
+    ],
     "slug": "gravitas",
     "status": "evergreen",
     "type": "books",
@@ -7372,7 +7657,10 @@
     ]
   },
   {
-    "ids": ["High Output Management", "high-output-management"],
+    "ids": [
+      "High Output Management",
+      "high-output-management"
+    ],
     "slug": "high-output-management",
     "status": "evergreen",
     "type": "books",
@@ -7387,7 +7675,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How Brands Grow", "how-brands-grow"],
+    "ids": [
+      "How Brands Grow",
+      "how-brands-grow"
+    ],
     "slug": "how-brands-grow",
     "status": "evergreen",
     "type": "books",
@@ -7523,7 +7814,10 @@
     ]
   },
   {
-    "ids": ["How to Take Smart Notes", "how-to-take-smart-notes"],
+    "ids": [
+      "How to Take Smart Notes",
+      "how-to-take-smart-notes"
+    ],
     "slug": "how-to-take-smart-notes",
     "status": "evergreen",
     "type": "books",
@@ -7549,7 +7843,10 @@
     ]
   },
   {
-    "ids": ["How to Talk to Anyone", "how-to-talk-to-anyone"],
+    "ids": [
+      "How to Talk to Anyone",
+      "how-to-talk-to-anyone"
+    ],
     "slug": "how-to-talk-to-anyone",
     "status": "evergreen",
     "type": "books",
@@ -7563,7 +7860,10 @@
     ]
   },
   {
-    "ids": ["How to Work a Room", "how-to-work-a-room"],
+    "ids": [
+      "How to Work a Room",
+      "how-to-work-a-room"
+    ],
     "slug": "how-to-work-a-room",
     "status": "evergreen",
     "type": "books",
@@ -7578,7 +7878,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Il Bambino Scomparso", "il-bambino-scomparso"],
+    "ids": [
+      "Il Bambino Scomparso",
+      "il-bambino-scomparso"
+    ],
     "slug": "il-bambino-scomparso",
     "status": "evergreen",
     "type": "books",
@@ -7586,7 +7889,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Il Conte Di Montecristo", "il-conte-di-montecristo"],
+    "ids": [
+      "Il Conte Di Montecristo",
+      "il-conte-di-montecristo"
+    ],
     "slug": "il-conte-di-montecristo",
     "status": "seedling",
     "type": "books",
@@ -7600,7 +7906,10 @@
     ]
   },
   {
-    "ids": ["Il Regno", "il-regno"],
+    "ids": [
+      "Il Regno",
+      "il-regno"
+    ],
     "slug": "il-regno",
     "status": "evergreen",
     "type": "books",
@@ -7608,7 +7917,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Improve Your Social Skills", "improve-your-social-skills"],
+    "ids": [
+      "Improve Your Social Skills",
+      "improve-your-social-skills"
+    ],
     "slug": "improve-your-social-skills",
     "status": "evergreen",
     "type": "books",
@@ -7616,7 +7928,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Inspired", "inspired"],
+    "ids": [
+      "Inspired",
+      "inspired"
+    ],
     "slug": "inspired",
     "status": "evergreen",
     "type": "books",
@@ -7643,7 +7958,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Io Sono Vivo Voi Siete Morti", "io-sono-vivo-voi-siete-morti"],
+    "ids": [
+      "Io Sono Vivo Voi Siete Morti",
+      "io-sono-vivo-voi-siete-morti"
+    ],
     "slug": "io-sono-vivo-voi-siete-morti",
     "status": "evergreen",
     "type": "books",
@@ -7651,7 +7969,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["La Strega Di Portobello", "la-strega-di-portobello"],
+    "ids": [
+      "La Strega Di Portobello",
+      "la-strega-di-portobello"
+    ],
     "slug": "la-strega-di-portobello",
     "status": "seedling",
     "type": "books",
@@ -7683,7 +8004,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Love All the People", "love-all-the-people"],
+    "ids": [
+      "Love All the People",
+      "love-all-the-people"
+    ],
     "slug": "love-all-the-people",
     "status": "evergreen",
     "type": "books",
@@ -7702,7 +8026,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Madame Bovary", "madame-bovary"],
+    "ids": [
+      "Madame Bovary",
+      "madame-bovary"
+    ],
     "slug": "madame-bovary",
     "status": "evergreen",
     "type": "books",
@@ -7772,7 +8099,10 @@
     ]
   },
   {
-    "ids": ["Measure What Matters", "measure-what-matters"],
+    "ids": [
+      "Measure What Matters",
+      "measure-what-matters"
+    ],
     "slug": "measure-what-matters",
     "status": "evergreen",
     "type": "books",
@@ -7780,7 +8110,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Noi, Bambine Ad Auschwitz", "noi-bambine-ad-auschwitz"],
+    "ids": [
+      "Noi, Bambine Ad Auschwitz",
+      "noi-bambine-ad-auschwitz"
+    ],
     "slug": "noi-bambine-ad-auschwitz",
     "status": "evergreen",
     "type": "books",
@@ -7788,7 +8121,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Obsessed", "obsessed"],
+    "ids": [
+      "Obsessed",
+      "obsessed"
+    ],
     "slug": "obsessed",
     "status": "evergreen",
     "type": "books",
@@ -7796,7 +8132,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["People, Power, and Profits", "people-power-and-profits"],
+    "ids": [
+      "People, Power, and Profits",
+      "people-power-and-profits"
+    ],
     "slug": "people-power-and-profits",
     "status": "evergreen",
     "type": "books",
@@ -7804,7 +8143,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Predictable Prospecting", "predictable-prospecting"],
+    "ids": [
+      "Predictable Prospecting",
+      "predictable-prospecting"
+    ],
     "slug": "predictable-prospecting",
     "status": "evergreen",
     "type": "books",
@@ -8166,7 +8508,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Rainmaking Conversations", "rainmaking-conversations"],
+    "ids": [
+      "Rainmaking Conversations",
+      "rainmaking-conversations"
+    ],
     "slug": "rainmaking-conversations",
     "status": "evergreen",
     "type": "books",
@@ -8460,7 +8805,10 @@
     ]
   },
   {
-    "ids": ["Salt, Fat, Acid, Heat", "salt-fat-acid-heat"],
+    "ids": [
+      "Salt, Fat, Acid, Heat",
+      "salt-fat-acid-heat"
+    ],
     "slug": "salt-fat-acid-heat",
     "status": "evergreen",
     "type": "books",
@@ -8468,7 +8816,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Scaling Up Excellence", "scaling-up-excellence"],
+    "ids": [
+      "Scaling Up Excellence",
+      "scaling-up-excellence"
+    ],
     "slug": "scaling-up-excellence",
     "status": "evergreen",
     "type": "books",
@@ -8523,7 +8874,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Switch", "switch"],
+    "ids": [
+      "Switch",
+      "switch"
+    ],
     "slug": "switch",
     "status": "evergreen",
     "type": "books",
@@ -8613,7 +8967,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Art of Gathering", "the-art-of-gathering"],
+    "ids": [
+      "The Art of Gathering",
+      "the-art-of-gathering"
+    ],
     "slug": "the-art-of-gathering",
     "status": "evergreen",
     "type": "books",
@@ -8621,7 +8978,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Boutique", "the-boutique"],
+    "ids": [
+      "The Boutique",
+      "the-boutique"
+    ],
     "slug": "the-boutique",
     "status": "evergreen",
     "type": "books",
@@ -8660,7 +9020,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Business of Aspiration", "the-business-of-aspiration"],
+    "ids": [
+      "The Business of Aspiration",
+      "the-business-of-aspiration"
+    ],
     "slug": "the-business-of-aspiration",
     "status": "evergreen",
     "type": "books",
@@ -8749,7 +9112,10 @@
     ]
   },
   {
-    "ids": ["The Challenger Sale", "the-challenger-sale"],
+    "ids": [
+      "The Challenger Sale",
+      "the-challenger-sale"
+    ],
     "slug": "the-challenger-sale",
     "status": "evergreen",
     "type": "books",
@@ -8757,7 +9123,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Charisma Myth", "the-charisma-myth"],
+    "ids": [
+      "The Charisma Myth",
+      "the-charisma-myth"
+    ],
     "slug": "the-charisma-myth",
     "status": "evergreen",
     "type": "books",
@@ -8772,7 +9141,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Coaching Habit", "the-coaching-habit"],
+    "ids": [
+      "The Coaching Habit",
+      "the-coaching-habit"
+    ],
     "slug": "the-coaching-habit",
     "status": "evergreen",
     "type": "books",
@@ -8786,7 +9158,10 @@
     ]
   },
   {
-    "ids": ["The Crux", "the-crux"],
+    "ids": [
+      "The Crux",
+      "the-crux"
+    ],
     "slug": "the-crux",
     "status": "evergreen",
     "type": "books",
@@ -8893,7 +9268,10 @@
     ]
   },
   {
-    "ids": ["The Fearless Organization", "the-fearless-organization"],
+    "ids": [
+      "The Fearless Organization",
+      "the-fearless-organization"
+    ],
     "slug": "the-fearless-organization",
     "status": "evergreen",
     "type": "books",
@@ -8948,7 +9326,10 @@
     ]
   },
   {
-    "ids": ["The Fifth Discipline", "the-fifth-discipline"],
+    "ids": [
+      "The Fifth Discipline",
+      "the-fifth-discipline"
+    ],
     "slug": "the-fifth-discipline",
     "status": "evergreen",
     "type": "books",
@@ -9202,7 +9583,10 @@
     ]
   },
   {
-    "ids": ["The McKinsey Way", "the-mckinsey-way"],
+    "ids": [
+      "The McKinsey Way",
+      "the-mckinsey-way"
+    ],
     "slug": "the-mckinsey-way",
     "status": "evergreen",
     "type": "books",
@@ -9299,7 +9683,10 @@
     ]
   },
   {
-    "ids": ["The Trusted Advisor", "the-trusted-advisor"],
+    "ids": [
+      "The Trusted Advisor",
+      "the-trusted-advisor"
+    ],
     "slug": "the-trusted-advisor",
     "status": "evergreen",
     "type": "books",
@@ -9342,7 +9729,10 @@
     ]
   },
   {
-    "ids": ["Thinking in Systems", "thinking-in-systems"],
+    "ids": [
+      "Thinking in Systems",
+      "thinking-in-systems"
+    ],
     "slug": "thinking-in-systems",
     "status": "evergreen",
     "type": "books",
@@ -9386,7 +9776,10 @@
     ]
   },
   {
-    "ids": ["To Sell Is Human", "to-sell-is-human"],
+    "ids": [
+      "To Sell Is Human",
+      "to-sell-is-human"
+    ],
     "slug": "to-sell-is-human",
     "status": "evergreen",
     "type": "books",
@@ -9394,7 +9787,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Tranquility by Tuesday", "tranquility-by-tuesday"],
+    "ids": [
+      "Tranquility by Tuesday",
+      "tranquility-by-tuesday"
+    ],
     "slug": "tranquility-by-tuesday",
     "status": "evergreen",
     "type": "books",
@@ -9402,7 +9798,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Trillion Dollar Coach", "trillion-dollar-coach"],
+    "ids": [
+      "Trillion Dollar Coach",
+      "trillion-dollar-coach"
+    ],
     "slug": "trillion-dollar-coach",
     "status": "evergreen",
     "type": "books",
@@ -9446,7 +9845,10 @@
     ]
   },
   {
-    "ids": ["🥗", ""],
+    "ids": [
+      "🥗",
+      ""
+    ],
     "slug": "",
     "status": "seedling",
     "type": "articles",
@@ -9512,7 +9914,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["10 Rules of IP Brands", "10-rules-of-ip-brands"],
+    "ids": [
+      "10 Rules of IP Brands",
+      "10-rules-of-ip-brands"
+    ],
     "slug": "10-rules-of-ip-brands",
     "status": "seedling",
     "type": "articles",
@@ -9545,7 +9950,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["100 Rules to Live By", "100-rules-to-live-by"],
+    "ids": [
+      "100 Rules to Live By",
+      "100-rules-to-live-by"
+    ],
     "slug": "100-rules-to-live-by",
     "status": "seedling",
     "type": "articles",
@@ -9560,7 +9968,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["100 Tips For A Better Life", "100-tips-for-a-better-life"],
+    "ids": [
+      "100 Tips For A Better Life",
+      "100-tips-for-a-better-life"
+    ],
     "slug": "100-tips-for-a-better-life",
     "status": "seedling",
     "type": "articles",
@@ -9633,7 +10044,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["15 Token Thoughts", "15-token-thoughts"],
+    "ids": [
+      "15 Token Thoughts",
+      "15-token-thoughts"
+    ],
     "slug": "15-token-thoughts",
     "status": "seedling",
     "type": "articles",
@@ -9775,7 +10189,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🎓", "🎓-2", "2"],
+    "ids": [
+      "🎓",
+      "🎓-2",
+      "2"
+    ],
     "slug": "2",
     "status": "seedling",
     "type": "articles",
@@ -9889,7 +10307,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["3 Pillars of Digital Luxury", "3-pillars-of-digital-luxury"],
+    "ids": [
+      "3 Pillars of Digital Luxury",
+      "3-pillars-of-digital-luxury"
+    ],
     "slug": "3-pillars-of-digital-luxury",
     "status": "seedling",
     "type": "articles",
@@ -9897,7 +10318,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🎓", "🎓-3", "3"],
+    "ids": [
+      "🎓",
+      "🎓-3",
+      "3"
+    ],
     "slug": "3",
     "status": "seedling",
     "type": "articles",
@@ -9911,7 +10336,10 @@
     ]
   },
   {
-    "ids": ["30 Useful Concepts", "30-useful-concepts"],
+    "ids": [
+      "30 Useful Concepts",
+      "30-useful-concepts"
+    ],
     "slug": "30-useful-concepts",
     "status": "seedling",
     "type": "articles",
@@ -9973,7 +10401,11 @@
     ]
   },
   {
-    "ids": ["🎓", "🎓-4", "4"],
+    "ids": [
+      "🎓",
+      "🎓-4",
+      "4"
+    ],
     "slug": "4",
     "status": "seedling",
     "type": "articles",
@@ -9987,7 +10419,10 @@
     ]
   },
   {
-    "ids": ["45 Life Lessons", "45-life-lessons"],
+    "ids": [
+      "45 Life Lessons",
+      "45-life-lessons"
+    ],
     "slug": "45-life-lessons",
     "status": "seedling",
     "type": "articles",
@@ -10014,7 +10449,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["5 New Thinking Styles for", "5-new-thinking-styles-for"],
+    "ids": [
+      "5 New Thinking Styles for",
+      "5-new-thinking-styles-for"
+    ],
     "slug": "5-new-thinking-styles-for",
     "status": "seedling",
     "type": "articles",
@@ -10033,7 +10471,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🎓", "🎓-5", "5"],
+    "ids": [
+      "🎓",
+      "🎓-5",
+      "5"
+    ],
     "slug": "5",
     "status": "seedling",
     "type": "articles",
@@ -10047,7 +10489,10 @@
     ]
   },
   {
-    "ids": ["50 Things I Know", "50-things-i-know"],
+    "ids": [
+      "50 Things I Know",
+      "50-things-i-know"
+    ],
     "slug": "50-things-i-know",
     "status": "seedling",
     "type": "articles",
@@ -10066,7 +10511,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🎓", "🎓-6", "6"],
+    "ids": [
+      "🎓",
+      "🎓-6",
+      "6"
+    ],
     "slug": "6",
     "status": "seedling",
     "type": "articles",
@@ -10092,7 +10541,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🎓", "🎓-7", "7"],
+    "ids": [
+      "🎓",
+      "🎓-7",
+      "7"
+    ],
     "slug": "7",
     "status": "seedling",
     "type": "articles",
@@ -10106,7 +10559,11 @@
     ]
   },
   {
-    "ids": ["📝 #70: The Next NFTs", "📝-70-the-next-nfts", "70-the-next-nfts"],
+    "ids": [
+      "📝 #70: The Next NFTs",
+      "📝-70-the-next-nfts",
+      "70-the-next-nfts"
+    ],
     "slug": "70-the-next-nfts",
     "status": "seedling",
     "type": "articles",
@@ -10132,7 +10589,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🎓", "🎓-8", "8"],
+    "ids": [
+      "🎓",
+      "🎓-8",
+      "8"
+    ],
     "slug": "8",
     "status": "seedling",
     "type": "articles",
@@ -10189,7 +10650,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["#93: You Are What You Consume", "93-you-are-what-you-consume"],
+    "ids": [
+      "#93: You Are What You Consume",
+      "93-you-are-what-you-consume"
+    ],
     "slug": "93-you-are-what-you-consume",
     "status": "seedling",
     "type": "articles",
@@ -10279,7 +10743,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["A Few Great Writing Prompts", "a-few-great-writing-prompts"],
+    "ids": [
+      "A Few Great Writing Prompts",
+      "a-few-great-writing-prompts"
+    ],
     "slug": "a-few-great-writing-prompts",
     "status": "seedling",
     "type": "articles",
@@ -10323,7 +10790,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["A Funny Thing About Curiosity", "a-funny-thing-about-curiosity"],
+    "ids": [
+      "A Funny Thing About Curiosity",
+      "a-funny-thing-about-curiosity"
+    ],
     "slug": "a-funny-thing-about-curiosity",
     "status": "seedling",
     "type": "articles",
@@ -10343,7 +10813,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["A Month of the Vision Pro", "a-month-of-the-vision-pro"],
+    "ids": [
+      "A Month of the Vision Pro",
+      "a-month-of-the-vision-pro"
+    ],
     "slug": "a-month-of-the-vision-pro",
     "status": "seedling",
     "type": "articles",
@@ -10654,7 +11127,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["A Unified Theory of Fucks", "a-unified-theory-of-fucks"],
+    "ids": [
+      "A Unified Theory of Fucks",
+      "a-unified-theory-of-fucks"
+    ],
     "slug": "a-unified-theory-of-fucks",
     "status": "seedling",
     "type": "articles",
@@ -10692,7 +11168,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["About Practice", "about-practice"],
+    "ids": [
+      "About Practice",
+      "about-practice"
+    ],
     "slug": "about-practice",
     "status": "seedling",
     "type": "articles",
@@ -10700,7 +11179,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Achieving Success Is Boring", "achieving-success-is-boring"],
+    "ids": [
+      "Achieving Success Is Boring",
+      "achieving-success-is-boring"
+    ],
     "slug": "achieving-success-is-boring",
     "status": "seedling",
     "type": "articles",
@@ -10708,7 +11190,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Ads Don’t Work That Way", "ads-dont-work-that-way"],
+    "ids": [
+      "Ads Don’t Work That Way",
+      "ads-dont-work-that-way"
+    ],
     "slug": "ads-dont-work-that-way",
     "status": "seedling",
     "type": "articles",
@@ -10895,7 +11380,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Alive Playground", "alive-playground-2"],
+    "ids": [
+      "Alive Playground",
+      "alive-playground-2"
+    ],
     "slug": "alive-playground-2",
     "status": "seedling",
     "type": "articles",
@@ -10903,7 +11391,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Alive Playground", "alive-playground"],
+    "ids": [
+      "Alive Playground",
+      "alive-playground"
+    ],
     "slug": "alive-playground",
     "status": "seedling",
     "type": "articles",
@@ -10911,7 +11402,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["All In", "all-in"],
+    "ids": [
+      "All In",
+      "all-in"
+    ],
     "slug": "all-in",
     "status": "seedling",
     "type": "articles",
@@ -11086,7 +11580,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["An Unexpected Book Launch", "an-unexpected-book-launch"],
+    "ids": [
+      "An Unexpected Book Launch",
+      "an-unexpected-book-launch"
+    ],
     "slug": "an-unexpected-book-launch",
     "status": "seedling",
     "type": "articles",
@@ -11116,7 +11613,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["And My Own Ultimate Ignorance", "and-my-own-ultimate-ignorance"],
+    "ids": [
+      "And My Own Ultimate Ignorance",
+      "and-my-own-ultimate-ignorance"
+    ],
     "slug": "and-my-own-ultimate-ignorance",
     "status": "seedling",
     "type": "articles",
@@ -11193,7 +11693,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Applying Pivot Points", "applying-pivot-points"],
+    "ids": [
+      "Applying Pivot Points",
+      "applying-pivot-points"
+    ],
     "slug": "applying-pivot-points",
     "status": "seedling",
     "type": "articles",
@@ -11384,7 +11887,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Avoid the Nightmare Bicycle", "avoid-the-nightmare-bicycle"],
+    "ids": [
+      "Avoid the Nightmare Bicycle",
+      "avoid-the-nightmare-bicycle"
+    ],
     "slug": "avoid-the-nightmare-bicycle",
     "status": "seedling",
     "type": "articles",
@@ -11403,7 +11909,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Awareness is a User Interface", "awareness-is-a-user-interface"],
+    "ids": [
+      "Awareness is a User Interface",
+      "awareness-is-a-user-interface"
+    ],
     "slug": "awareness-is-a-user-interface",
     "status": "seedling",
     "type": "articles",
@@ -11434,7 +11943,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["B2b", "b2b"],
+    "ids": [
+      "B2b",
+      "b2b"
+    ],
     "slug": "b2b",
     "status": "seedling",
     "type": "articles",
@@ -11448,7 +11960,10 @@
     ]
   },
   {
-    "ids": ["Balance", "balance"],
+    "ids": [
+      "Balance",
+      "balance"
+    ],
     "slug": "balance",
     "status": "seedling",
     "type": "articles",
@@ -11562,7 +12077,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Better Tools, Bigger Companies", "better-tools-bigger-companies"],
+    "ids": [
+      "Better Tools, Bigger Companies",
+      "better-tools-bigger-companies"
+    ],
     "slug": "better-tools-bigger-companies",
     "status": "seedling",
     "type": "articles",
@@ -11577,7 +12095,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Beware the Metagame", "beware-the-metagame"],
+    "ids": [
+      "Beware the Metagame",
+      "beware-the-metagame"
+    ],
     "slug": "beware-the-metagame",
     "status": "seedling",
     "type": "articles",
@@ -11636,7 +12157,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Blank Page", "blank-page"],
+    "ids": [
+      "Blank Page",
+      "blank-page"
+    ],
     "slug": "blank-page",
     "status": "seedling",
     "type": "articles",
@@ -11667,7 +12191,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Alignment", "brain-food-alignment"],
+    "ids": [
+      "Brain Food: Alignment",
+      "brain-food-alignment"
+    ],
     "slug": "brain-food-alignment",
     "status": "seedling",
     "type": "articles",
@@ -11686,7 +12213,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Apprenticeship", "brain-food-apprenticeship"],
+    "ids": [
+      "Brain Food: Apprenticeship",
+      "brain-food-apprenticeship"
+    ],
     "slug": "brain-food-apprenticeship",
     "status": "seedling",
     "type": "articles",
@@ -11694,7 +12224,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Better Used", "brain-food-better-used"],
+    "ids": [
+      "Brain Food: Better Used",
+      "brain-food-better-used"
+    ],
     "slug": "brain-food-better-used",
     "status": "seedling",
     "type": "articles",
@@ -11730,7 +12263,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Charlie Munger", "brain-food-charlie-munger"],
+    "ids": [
+      "Brain Food: Charlie Munger",
+      "brain-food-charlie-munger"
+    ],
     "slug": "brain-food-charlie-munger",
     "status": "seedling",
     "type": "articles",
@@ -11738,7 +12274,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Cold Water", "brain-food-cold-water"],
+    "ids": [
+      "Brain Food: Cold Water",
+      "brain-food-cold-water"
+    ],
     "slug": "brain-food-cold-water",
     "status": "seedling",
     "type": "articles",
@@ -11792,7 +12331,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Earned Success", "brain-food-earned-success"],
+    "ids": [
+      "Brain Food: Earned Success",
+      "brain-food-earned-success"
+    ],
     "slug": "brain-food-earned-success",
     "status": "seedling",
     "type": "articles",
@@ -11813,7 +12355,10 @@
     ]
   },
   {
-    "ids": ["Brain Food: Embracing Life", "brain-food-embracing-life"],
+    "ids": [
+      "Brain Food: Embracing Life",
+      "brain-food-embracing-life"
+    ],
     "slug": "brain-food-embracing-life",
     "status": "seedling",
     "type": "articles",
@@ -11832,7 +12377,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Find the Contrast", "brain-food-find-the-contrast"],
+    "ids": [
+      "Brain Food: Find the Contrast",
+      "brain-food-find-the-contrast"
+    ],
     "slug": "brain-food-find-the-contrast",
     "status": "seedling",
     "type": "articles",
@@ -11874,7 +12422,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Internally Driven", "brain-food-internally-driven"],
+    "ids": [
+      "Brain Food: Internally Driven",
+      "brain-food-internally-driven"
+    ],
     "slug": "brain-food-internally-driven",
     "status": "seedling",
     "type": "articles",
@@ -11893,7 +12444,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Letting Go", "brain-food-letting-go"],
+    "ids": [
+      "Brain Food: Letting Go",
+      "brain-food-letting-go"
+    ],
     "slug": "brain-food-letting-go",
     "status": "seedling",
     "type": "articles",
@@ -11901,7 +12455,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Mastery of Oneself", "brain-food-mastery-of-oneself"],
+    "ids": [
+      "Brain Food: Mastery of Oneself",
+      "brain-food-mastery-of-oneself"
+    ],
     "slug": "brain-food-mastery-of-oneself",
     "status": "seedling",
     "type": "articles",
@@ -11909,7 +12466,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Necessary Virtues", "brain-food-necessary-virtues"],
+    "ids": [
+      "Brain Food: Necessary Virtues",
+      "brain-food-necessary-virtues"
+    ],
     "slug": "brain-food-necessary-virtues",
     "status": "seedling",
     "type": "articles",
@@ -11917,7 +12477,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Not Typical", "brain-food-not-typical"],
+    "ids": [
+      "Brain Food: Not Typical",
+      "brain-food-not-typical"
+    ],
     "slug": "brain-food-not-typical",
     "status": "seedling",
     "type": "articles",
@@ -11925,7 +12488,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Nothing to Lose", "brain-food-nothing-to-lose"],
+    "ids": [
+      "Brain Food: Nothing to Lose",
+      "brain-food-nothing-to-lose"
+    ],
     "slug": "brain-food-nothing-to-lose",
     "status": "seedling",
     "type": "articles",
@@ -11933,7 +12499,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Obsessed", "brain-food-obsessed"],
+    "ids": [
+      "Brain Food: Obsessed",
+      "brain-food-obsessed"
+    ],
     "slug": "brain-food-obsessed",
     "status": "seedling",
     "type": "articles",
@@ -11963,7 +12532,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Positive Inertia", "brain-food-positive-inertia"],
+    "ids": [
+      "Brain Food: Positive Inertia",
+      "brain-food-positive-inertia"
+    ],
     "slug": "brain-food-positive-inertia",
     "status": "seedling",
     "type": "articles",
@@ -11982,7 +12554,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Simple Truths", "brain-food-simple-truths"],
+    "ids": [
+      "Brain Food: Simple Truths",
+      "brain-food-simple-truths"
+    ],
     "slug": "brain-food-simple-truths",
     "status": "seedling",
     "type": "articles",
@@ -11990,7 +12565,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Small Surface Area", "brain-food-small-surface-area"],
+    "ids": [
+      "Brain Food: Small Surface Area",
+      "brain-food-small-surface-area"
+    ],
     "slug": "brain-food-small-surface-area",
     "status": "seedling",
     "type": "articles",
@@ -12009,7 +12587,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Superlinear", "brain-food-superlinear"],
+    "ids": [
+      "Brain Food: Superlinear",
+      "brain-food-superlinear"
+    ],
     "slug": "brain-food-superlinear",
     "status": "seedling",
     "type": "articles",
@@ -12028,7 +12609,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: The Hardest Truth", "brain-food-the-hardest-truth"],
+    "ids": [
+      "Brain Food: The Hardest Truth",
+      "brain-food-the-hardest-truth"
+    ],
     "slug": "brain-food-the-hardest-truth",
     "status": "seedling",
     "type": "articles",
@@ -12058,7 +12642,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: The Next Corner", "brain-food-the-next-corner"],
+    "ids": [
+      "Brain Food: The Next Corner",
+      "brain-food-the-next-corner"
+    ],
     "slug": "brain-food-the-next-corner",
     "status": "seedling",
     "type": "articles",
@@ -12066,7 +12653,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: The Perfect Pause", "brain-food-the-perfect-pause"],
+    "ids": [
+      "Brain Food: The Perfect Pause",
+      "brain-food-the-perfect-pause"
+    ],
     "slug": "brain-food-the-perfect-pause",
     "status": "seedling",
     "type": "articles",
@@ -12085,7 +12675,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: The Right Grip", "brain-food-the-right-grip"],
+    "ids": [
+      "Brain Food: The Right Grip",
+      "brain-food-the-right-grip"
+    ],
     "slug": "brain-food-the-right-grip",
     "status": "seedling",
     "type": "articles",
@@ -12111,7 +12704,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Three Filters", "brain-food-three-filters"],
+    "ids": [
+      "Brain Food: Three Filters",
+      "brain-food-three-filters"
+    ],
     "slug": "brain-food-three-filters",
     "status": "seedling",
     "type": "articles",
@@ -12119,7 +12715,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Tiny Delights", "brain-food-tiny-delights"],
+    "ids": [
+      "Brain Food: Tiny Delights",
+      "brain-food-tiny-delights"
+    ],
     "slug": "brain-food-tiny-delights",
     "status": "seedling",
     "type": "articles",
@@ -12127,7 +12726,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Toward Simplicity", "brain-food-toward-simplicity"],
+    "ids": [
+      "Brain Food: Toward Simplicity",
+      "brain-food-toward-simplicity"
+    ],
     "slug": "brain-food-toward-simplicity",
     "status": "seedling",
     "type": "articles",
@@ -12168,7 +12770,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Winning Edge", "brain-food-winning-edge"],
+    "ids": [
+      "Brain Food: Winning Edge",
+      "brain-food-winning-edge"
+    ],
     "slug": "brain-food-winning-edge",
     "status": "seedling",
     "type": "articles",
@@ -12187,7 +12792,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brain Food: Your Mental Diet", "brain-food-your-mental-diet"],
+    "ids": [
+      "Brain Food: Your Mental Diet",
+      "brain-food-your-mental-diet"
+    ],
     "slug": "brain-food-your-mental-diet",
     "status": "seedling",
     "type": "articles",
@@ -12207,7 +12815,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["“Brand” Alone Won’t Save Brands", "brand-alone-wont-save-brands"],
+    "ids": [
+      "“Brand” Alone Won’t Save Brands",
+      "brand-alone-wont-save-brands"
+    ],
     "slug": "brand-alone-wont-save-brands",
     "status": "seedling",
     "type": "articles",
@@ -12238,7 +12849,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Brand Is Dead", "brand-is-dead"],
+    "ids": [
+      "Brand Is Dead",
+      "brand-is-dead"
+    ],
     "slug": "brand-is-dead",
     "status": "seedling",
     "type": "articles",
@@ -12252,7 +12866,10 @@
     ]
   },
   {
-    "ids": ["Brands After Vibes", "brands-after-vibes"],
+    "ids": [
+      "Brands After Vibes",
+      "brands-after-vibes"
+    ],
     "slug": "brands-after-vibes",
     "status": "seedling",
     "type": "articles",
@@ -12272,7 +12889,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Breakfast at Tiffany’s", "breakfast-at-tiffanys"],
+    "ids": [
+      "Breakfast at Tiffany’s",
+      "breakfast-at-tiffanys"
+    ],
     "slug": "breakfast-at-tiffanys",
     "status": "seedling",
     "type": "articles",
@@ -12462,7 +13082,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Case Study: A24", "case-study-a24"],
+    "ids": [
+      "Case Study: A24",
+      "case-study-a24"
+    ],
     "slug": "case-study-a24",
     "status": "seedling",
     "type": "articles",
@@ -12482,7 +13105,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Changing Times", "changing-times"],
+    "ids": [
+      "Changing Times",
+      "changing-times"
+    ],
     "slug": "changing-times",
     "status": "seedling",
     "type": "articles",
@@ -12520,7 +13146,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Choosing to Walk", "choosing-to-walk"],
+    "ids": [
+      "Choosing to Walk",
+      "choosing-to-walk"
+    ],
     "slug": "choosing-to-walk",
     "status": "seedling",
     "type": "articles",
@@ -12528,7 +13157,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Climbing the Wrong Hill", "climbing-the-wrong-hill"],
+    "ids": [
+      "Climbing the Wrong Hill",
+      "climbing-the-wrong-hill"
+    ],
     "slug": "climbing-the-wrong-hill",
     "status": "seedling",
     "type": "articles",
@@ -12666,7 +13298,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Conscious Competition", "conscious-competition"],
+    "ids": [
+      "Conscious Competition",
+      "conscious-competition"
+    ],
     "slug": "conscious-competition",
     "status": "seedling",
     "type": "articles",
@@ -12705,7 +13340,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Consulting vs Coaching", "consulting-vs-coaching"],
+    "ids": [
+      "Consulting vs Coaching",
+      "consulting-vs-coaching"
+    ],
     "slug": "consulting-vs-coaching",
     "status": "seedling",
     "type": "articles",
@@ -12754,7 +13392,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Consumer Trends 2024 Mid-Year", "consumer-trends-2024-mid-year"],
+    "ids": [
+      "Consumer Trends 2024 Mid-Year",
+      "consumer-trends-2024-mid-year"
+    ],
     "slug": "consumer-trends-2024-mid-year",
     "status": "seedling",
     "type": "articles",
@@ -12762,7 +13403,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Consumer-Trends-2024", "consumer-trends-2024"],
+    "ids": [
+      "Consumer-Trends-2024",
+      "consumer-trends-2024"
+    ],
     "slug": "consumer-trends-2024",
     "status": "seedling",
     "type": "articles",
@@ -12826,7 +13470,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Cool Self", "cool-self"],
+    "ids": [
+      "Cool Self",
+      "cool-self"
+    ],
     "slug": "cool-self",
     "status": "seedling",
     "type": "articles",
@@ -12834,7 +13481,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🎓 Core Course", "🎓-core-course", "core-course"],
+    "ids": [
+      "🎓 Core Course",
+      "🎓-core-course",
+      "core-course"
+    ],
     "slug": "core-course",
     "status": "seedling",
     "type": "articles",
@@ -12867,7 +13518,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Create Things That Come Alive", "create-things-that-come-alive"],
+    "ids": [
+      "Create Things That Come Alive",
+      "create-things-that-come-alive"
+    ],
     "slug": "create-things-that-come-alive",
     "status": "seedling",
     "type": "articles",
@@ -12886,7 +13540,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Credible Exit", "credible-exit"],
+    "ids": [
+      "Credible Exit",
+      "credible-exit"
+    ],
     "slug": "credible-exit",
     "status": "seedling",
     "type": "articles",
@@ -12894,7 +13551,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Crypto’s", "cryptos"],
+    "ids": [
+      "Crypto’s",
+      "cryptos"
+    ],
     "slug": "cryptos",
     "status": "seedling",
     "type": "articles",
@@ -12902,7 +13562,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Cultivating Flow", "cultivating-flow"],
+    "ids": [
+      "Cultivating Flow",
+      "cultivating-flow"
+    ],
     "slug": "cultivating-flow",
     "status": "seedling",
     "type": "articles",
@@ -12939,7 +13602,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Customer-Driven Retail", "customer-driven-retail"],
+    "ids": [
+      "Customer-Driven Retail",
+      "customer-driven-retail"
+    ],
     "slug": "customer-driven-retail",
     "status": "seedling",
     "type": "articles",
@@ -12958,7 +13624,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Dancing With Systems", "dancing-with-systems"],
+    "ids": [
+      "Dancing With Systems",
+      "dancing-with-systems"
+    ],
     "slug": "dancing-with-systems",
     "status": "seedling",
     "type": "articles",
@@ -12966,7 +13635,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Dasein - Wikipedia", "dasein-wikipedia"],
+    "ids": [
+      "Dasein - Wikipedia",
+      "dasein-wikipedia"
+    ],
     "slug": "dasein-wikipedia",
     "status": "seedling",
     "type": "articles",
@@ -13004,7 +13676,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Death of a Flywheel", "death-of-a-flywheel"],
+    "ids": [
+      "Death of a Flywheel",
+      "death-of-a-flywheel"
+    ],
     "slug": "death-of-a-flywheel",
     "status": "seedling",
     "type": "articles",
@@ -13169,7 +13844,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Design Of This Website", "design-of-this-website"],
+    "ids": [
+      "Design Of This Website",
+      "design-of-this-website"
+    ],
     "slug": "design-of-this-website",
     "status": "seedling",
     "type": "articles",
@@ -13278,7 +13956,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Digital Product Passport", "digital-product-passport"],
+    "ids": [
+      "Digital Product Passport",
+      "digital-product-passport"
+    ],
     "slug": "digital-product-passport",
     "status": "seedling",
     "type": "articles",
@@ -13343,7 +14024,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Do Quests, Not Goals", "do-quests-not-goals"],
+    "ids": [
+      "Do Quests, Not Goals",
+      "do-quests-not-goals"
+    ],
     "slug": "do-quests-not-goals",
     "status": "seedling",
     "type": "articles",
@@ -13362,7 +14046,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Do We Collaborate Too Much?", "do-we-collaborate-too-much"],
+    "ids": [
+      "Do We Collaborate Too Much?",
+      "do-we-collaborate-too-much"
+    ],
     "slug": "do-we-collaborate-too-much",
     "status": "seedling",
     "type": "articles",
@@ -13382,7 +14069,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Doing Weeknotes", "doing-weeknotes"],
+    "ids": [
+      "Doing Weeknotes",
+      "doing-weeknotes"
+    ],
     "slug": "doing-weeknotes",
     "status": "seedling",
     "type": "articles",
@@ -13474,7 +14164,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🥗 Don’t", "🥗-don’t", "dont"],
+    "ids": [
+      "🥗 Don’t",
+      "🥗-don’t",
+      "dont"
+    ],
     "slug": "dont",
     "status": "seedling",
     "type": "articles",
@@ -13684,7 +14378,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["E-Commerce Needs Walmart", "e-commerce-needs-walmart"],
+    "ids": [
+      "E-Commerce Needs Walmart",
+      "e-commerce-needs-walmart"
+    ],
     "slug": "e-commerce-needs-walmart",
     "status": "seedling",
     "type": "articles",
@@ -13692,7 +14389,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Early-Arriver Arbitrage", "early-arriver-arbitrage"],
+    "ids": [
+      "Early-Arriver Arbitrage",
+      "early-arriver-arbitrage"
+    ],
     "slug": "early-arriver-arbitrage",
     "status": "seedling",
     "type": "articles",
@@ -13839,7 +14539,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Everyone Is Numbing Out", "everyone-is-numbing-out"],
+    "ids": [
+      "Everyone Is Numbing Out",
+      "everyone-is-numbing-out"
+    ],
     "slug": "everyone-is-numbing-out",
     "status": "seedling",
     "type": "articles",
@@ -13859,7 +14562,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Everything Is Merch", "everything-is-merch"],
+    "ids": [
+      "Everything Is Merch",
+      "everything-is-merch"
+    ],
     "slug": "everything-is-merch",
     "status": "seedling",
     "type": "articles",
@@ -13890,7 +14596,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Expansion, Always, in All Ways", "expansion-always-in-all-ways"],
+    "ids": [
+      "Expansion, Always, in All Ways",
+      "expansion-always-in-all-ways"
+    ],
     "slug": "expansion-always-in-all-ways",
     "status": "seedling",
     "type": "articles",
@@ -13922,7 +14631,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Explore vs Execute", "explore-vs-execute"],
+    "ids": [
+      "Explore vs Execute",
+      "explore-vs-execute"
+    ],
     "slug": "explore-vs-execute",
     "status": "seedling",
     "type": "articles",
@@ -13942,7 +14654,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Exploring the Map", "exploring-the-map"],
+    "ids": [
+      "Exploring the Map",
+      "exploring-the-map"
+    ],
     "slug": "exploring-the-map",
     "status": "seedling",
     "type": "articles",
@@ -13967,7 +14682,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Failed, Not a Failure", "failed-not-a-failure"],
+    "ids": [
+      "Failed, Not a Failure",
+      "failed-not-a-failure"
+    ],
     "slug": "failed-not-a-failure",
     "status": "seedling",
     "type": "articles",
@@ -13975,7 +14693,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Failure to Face the Truth", "failure-to-face-the-truth"],
+    "ids": [
+      "Failure to Face the Truth",
+      "failure-to-face-the-truth"
+    ],
     "slug": "failure-to-face-the-truth",
     "status": "seedling",
     "type": "articles",
@@ -14120,7 +14841,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Filter Bubbles", "filter-bubbles"],
+    "ids": [
+      "Filter Bubbles",
+      "filter-bubbles"
+    ],
     "slug": "filter-bubbles",
     "status": "seedling",
     "type": "articles",
@@ -14128,7 +14852,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Finding the White Hot Center", "finding-the-white-hot-center"],
+    "ids": [
+      "Finding the White Hot Center",
+      "finding-the-white-hot-center"
+    ],
     "slug": "finding-the-white-hot-center",
     "status": "seedling",
     "type": "articles",
@@ -14171,7 +14898,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Follow Curiosity", "follow-curiosity"],
+    "ids": [
+      "Follow Curiosity",
+      "follow-curiosity"
+    ],
     "slug": "follow-curiosity",
     "status": "seedling",
     "type": "articles",
@@ -14270,7 +15000,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Four LinkedIn Growth Tips", "four-linkedin-growth-tips"],
+    "ids": [
+      "Four LinkedIn Growth Tips",
+      "four-linkedin-growth-tips"
+    ],
     "slug": "four-linkedin-growth-tips",
     "status": "seedling",
     "type": "articles",
@@ -14459,7 +15192,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Gathering Structures", "gathering-structures"],
+    "ids": [
+      "Gathering Structures",
+      "gathering-structures"
+    ],
     "slug": "gathering-structures",
     "status": "seedling",
     "type": "articles",
@@ -14513,7 +15249,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Getting Ready to Move Upmarket", "getting-ready-to-move-upmarket"],
+    "ids": [
+      "Getting Ready to Move Upmarket",
+      "getting-ready-to-move-upmarket"
+    ],
     "slug": "getting-ready-to-move-upmarket",
     "status": "seedling",
     "type": "articles",
@@ -14723,7 +15462,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Hard Edges, Soft Middle", "hard-edges-soft-middle"],
+    "ids": [
+      "Hard Edges, Soft Middle",
+      "hard-edges-soft-middle"
+    ],
     "slug": "hard-edges-soft-middle",
     "status": "seedling",
     "type": "articles",
@@ -14731,7 +15473,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Hard Reset", "hard-reset"],
+    "ids": [
+      "Hard Reset",
+      "hard-reset"
+    ],
     "slug": "hard-reset",
     "status": "seedling",
     "type": "articles",
@@ -14746,7 +15491,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Harvard Business Review", "harvard-business-review"],
+    "ids": [
+      "Harvard Business Review",
+      "harvard-business-review"
+    ],
     "slug": "harvard-business-review",
     "status": "seedling",
     "type": "articles",
@@ -14935,7 +15683,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How Brands Make Culture", "how-brands-make-culture"],
+    "ids": [
+      "How Brands Make Culture",
+      "how-brands-make-culture"
+    ],
     "slug": "how-brands-make-culture",
     "status": "seedling",
     "type": "articles",
@@ -15087,7 +15838,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How Hard Should I Push Myself?", "how-hard-should-i-push-myself"],
+    "ids": [
+      "How Hard Should I Push Myself?",
+      "how-hard-should-i-push-myself"
+    ],
     "slug": "how-hard-should-i-push-myself",
     "status": "seedling",
     "type": "articles",
@@ -15111,7 +15865,10 @@
     ]
   },
   {
-    "ids": ["How I Became ‘Collapse Aware’", "how-i-became-collapse-aware"],
+    "ids": [
+      "How I Became ‘Collapse Aware’",
+      "how-i-became-collapse-aware"
+    ],
     "slug": "how-i-became-collapse-aware",
     "status": "seedling",
     "type": "articles",
@@ -15119,7 +15876,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How I Read", "how-i-read"],
+    "ids": [
+      "How I Read",
+      "how-i-read"
+    ],
     "slug": "how-i-read",
     "status": "seedling",
     "type": "articles",
@@ -15127,7 +15887,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How I Think About Debt", "how-i-think-about-debt"],
+    "ids": [
+      "How I Think About Debt",
+      "how-i-think-about-debt"
+    ],
     "slug": "how-i-think-about-debt",
     "status": "seedling",
     "type": "articles",
@@ -15330,7 +16093,10 @@
     ]
   },
   {
-    "ids": ["How to Be More Agentic", "how-to-be-more-agentic"],
+    "ids": [
+      "How to Be More Agentic",
+      "how-to-be-more-agentic"
+    ],
     "slug": "how-to-be-more-agentic",
     "status": "seedling",
     "type": "articles",
@@ -15338,7 +16104,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Be Successful", "how-to-be-successful"],
+    "ids": [
+      "How to Be Successful",
+      "how-to-be-successful"
+    ],
     "slug": "how-to-be-successful",
     "status": "seedling",
     "type": "articles",
@@ -15357,7 +16126,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Break Into Wholesale", "how-to-break-into-wholesale"],
+    "ids": [
+      "How to Break Into Wholesale",
+      "how-to-break-into-wholesale"
+    ],
     "slug": "how-to-break-into-wholesale",
     "status": "seedling",
     "type": "articles",
@@ -15387,7 +16159,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Build Brand Energy", "how-to-build-brand-energy"],
+    "ids": [
+      "How to Build Brand Energy",
+      "how-to-build-brand-energy"
+    ],
     "slug": "how-to-build-brand-energy",
     "status": "seedling",
     "type": "articles",
@@ -15435,7 +16210,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Develop Character", "how-to-develop-character"],
+    "ids": [
+      "How to Develop Character",
+      "how-to-develop-character"
+    ],
     "slug": "how-to-develop-character",
     "status": "seedling",
     "type": "articles",
@@ -15443,7 +16221,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Develop Product Sense", "how-to-develop-product-sense"],
+    "ids": [
+      "How to Develop Product Sense",
+      "how-to-develop-product-sense"
+    ],
     "slug": "how-to-develop-product-sense",
     "status": "seedling",
     "type": "articles",
@@ -15481,7 +16262,10 @@
     ]
   },
   {
-    "ids": ["How to Do Great Work", "how-to-do-great-work"],
+    "ids": [
+      "How to Do Great Work",
+      "how-to-do-great-work"
+    ],
     "slug": "how-to-do-great-work",
     "status": "seedling",
     "type": "articles",
@@ -15508,7 +16292,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Do Hard Things", "how-to-do-hard-things"],
+    "ids": [
+      "How to Do Hard Things",
+      "how-to-do-hard-things"
+    ],
     "slug": "how-to-do-hard-things",
     "status": "seedling",
     "type": "articles",
@@ -15563,7 +16350,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Get Ahead of Trends", "how-to-get-ahead-of-trends"],
+    "ids": [
+      "How to Get Ahead of Trends",
+      "how-to-get-ahead-of-trends"
+    ],
     "slug": "how-to-get-ahead-of-trends",
     "status": "seedling",
     "type": "articles",
@@ -15741,7 +16531,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Prepare for an Upturn", "how-to-prepare-for-an-upturn"],
+    "ids": [
+      "How to Prepare for an Upturn",
+      "how-to-prepare-for-an-upturn"
+    ],
     "slug": "how-to-prepare-for-an-upturn",
     "status": "seedling",
     "type": "articles",
@@ -15795,7 +16588,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Think About Your 2024", "how-to-think-about-your-2024"],
+    "ids": [
+      "How to Think About Your 2024",
+      "how-to-think-about-your-2024"
+    ],
     "slug": "how-to-think-about-your-2024",
     "status": "seedling",
     "type": "articles",
@@ -15803,7 +16599,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["How to Think in Writing", "how-to-think-in-writing"],
+    "ids": [
+      "How to Think in Writing",
+      "how-to-think-in-writing"
+    ],
     "slug": "how-to-think-in-writing",
     "status": "seedling",
     "type": "articles",
@@ -15868,7 +16667,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Hugging the X-Axis", "hugging-the-x-axis"],
+    "ids": [
+      "Hugging the X-Axis",
+      "hugging-the-x-axis"
+    ],
     "slug": "hugging-the-x-axis",
     "status": "seedling",
     "type": "articles",
@@ -15905,7 +16707,10 @@
     ]
   },
   {
-    "ids": ["I Like Dumb Plans", "i-like-dumb-plans"],
+    "ids": [
+      "I Like Dumb Plans",
+      "i-like-dumb-plans"
+    ],
     "slug": "i-like-dumb-plans",
     "status": "seedling",
     "type": "articles",
@@ -15982,7 +16787,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["In Defense of Strategy", "in-defense-of-strategy"],
+    "ids": [
+      "In Defense of Strategy",
+      "in-defense-of-strategy"
+    ],
     "slug": "in-defense-of-strategy",
     "status": "seedling",
     "type": "articles",
@@ -16015,7 +16823,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["In Defense of ‘Tarpit Ideas’", "in-defense-of-tarpit-ideas"],
+    "ids": [
+      "In Defense of ‘Tarpit Ideas’",
+      "in-defense-of-tarpit-ideas"
+    ],
     "slug": "in-defense-of-tarpit-ideas",
     "status": "seedling",
     "type": "articles",
@@ -16034,7 +16845,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["In Praise of Memorization", "in-praise-of-memorization"],
+    "ids": [
+      "In Praise of Memorization",
+      "in-praise-of-memorization"
+    ],
     "slug": "in-praise-of-memorization",
     "status": "seedling",
     "type": "articles",
@@ -16211,7 +17025,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["INSIDERS 018: Meet CARLY", "insiders-018-meet-carly"],
+    "ids": [
+      "INSIDERS 018: Meet CARLY",
+      "insiders-018-meet-carly"
+    ],
     "slug": "insiders-018-meet-carly",
     "status": "seedling",
     "type": "articles",
@@ -16301,7 +17118,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Insiders #153: SaaS Fashion", "insiders-153-saas-fashion"],
+    "ids": [
+      "Insiders #153: SaaS Fashion",
+      "insiders-153-saas-fashion"
+    ],
     "slug": "insiders-153-saas-fashion",
     "status": "seedling",
     "type": "articles",
@@ -16446,7 +17266,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Intellectual Menopause", "intellectual-menopause"],
+    "ids": [
+      "Intellectual Menopause",
+      "intellectual-menopause"
+    ],
     "slug": "intellectual-menopause",
     "status": "seedling",
     "type": "articles",
@@ -16454,7 +17277,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Introduction: 9999", "introduction-9999"],
+    "ids": [
+      "Introduction: 9999",
+      "introduction-9999"
+    ],
     "slug": "introduction-9999",
     "status": "seedling",
     "type": "articles",
@@ -16462,7 +17288,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Is a Game Changer For", "is-a-game-changer-for"],
+    "ids": [
+      "Is a Game Changer For",
+      "is-a-game-changer-for"
+    ],
     "slug": "is-a-game-changer-for",
     "status": "seedling",
     "type": "articles",
@@ -16522,7 +17351,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Is the E-Commerce Dream Over?", "is-the-e-commerce-dream-over"],
+    "ids": [
+      "Is the E-Commerce Dream Over?",
+      "is-the-e-commerce-dream-over"
+    ],
     "slug": "is-the-e-commerce-dream-over",
     "status": "seedling",
     "type": "articles",
@@ -16553,7 +17385,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Is Your Love Healthy?", "is-your-love-healthy"],
+    "ids": [
+      "Is Your Love Healthy?",
+      "is-your-love-healthy"
+    ],
     "slug": "is-your-love-healthy",
     "status": "seedling",
     "type": "articles",
@@ -16573,7 +17408,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["“It’s a balance”", "“it’s-a-balance”", "its-a-balance"],
+    "ids": [
+      "“It’s a balance”",
+      "“it’s-a-balance”",
+      "its-a-balance"
+    ],
     "slug": "its-a-balance",
     "status": "seedling",
     "type": "articles",
@@ -16629,7 +17468,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Junkfeeds", "junkfeeds"],
+    "ids": [
+      "Junkfeeds",
+      "junkfeeds"
+    ],
     "slug": "junkfeeds",
     "status": "seedling",
     "type": "articles",
@@ -16637,7 +17479,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Keep Coming Back", "keep-coming-back"],
+    "ids": [
+      "Keep Coming Back",
+      "keep-coming-back"
+    ],
     "slug": "keep-coming-back",
     "status": "seedling",
     "type": "articles",
@@ -16645,7 +17490,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["⚡ KISS’", "⚡-kiss’", "kiss"],
+    "ids": [
+      "⚡ KISS’",
+      "⚡-kiss’",
+      "kiss"
+    ],
     "slug": "kiss",
     "status": "seedling",
     "type": "articles",
@@ -16653,7 +17502,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Kyle Denhoff’s Post", "kyle-denhoff’s-post", "kyle-denhoffs-post"],
+    "ids": [
+      "Kyle Denhoff’s Post",
+      "kyle-denhoff’s-post",
+      "kyle-denhoffs-post"
+    ],
     "slug": "kyle-denhoffs-post",
     "status": "seedling",
     "type": "articles",
@@ -16672,7 +17525,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Latest | linus.zone", "latest--linus.zone", "latest-linuszone"],
+    "ids": [
+      "Latest | linus.zone",
+      "latest--linus.zone",
+      "latest-linuszone"
+    ],
     "slug": "latest-linuszone",
     "status": "seedling",
     "type": "articles",
@@ -16805,7 +17662,10 @@
     ]
   },
   {
-    "ids": ["Let the others find you", "let-the-others-find-you"],
+    "ids": [
+      "Let the others find you",
+      "let-the-others-find-you"
+    ],
     "slug": "let-the-others-find-you",
     "status": "seedling",
     "type": "articles",
@@ -16884,7 +17744,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["LinkedIn_ABM_Guide_Final_201113", "linkedinabmguidefinal201113"],
+    "ids": [
+      "LinkedIn_ABM_Guide_Final_201113",
+      "linkedinabmguidefinal201113"
+    ],
     "slug": "linkedinabmguidefinal201113",
     "status": "seedling",
     "type": "articles",
@@ -16946,7 +17809,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Little Existential Crisis", "little-existential-crisis"],
+    "ids": [
+      "Little Existential Crisis",
+      "little-existential-crisis"
+    ],
     "slug": "little-existential-crisis",
     "status": "seedling",
     "type": "articles",
@@ -16954,7 +17820,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Live Fuller, Not Bigger", "live-fuller-not-bigger"],
+    "ids": [
+      "Live Fuller, Not Bigger",
+      "live-fuller-not-bigger"
+    ],
     "slug": "live-fuller-not-bigger",
     "status": "seedling",
     "type": "articles",
@@ -16979,7 +17848,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Looking for Alice", "looking-for-alice"],
+    "ids": [
+      "Looking for Alice",
+      "looking-for-alice"
+    ],
     "slug": "looking-for-alice",
     "status": "seedling",
     "type": "articles",
@@ -16998,7 +17870,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["LSD microdosing RCT", "lsd-microdosing-rct"],
+    "ids": [
+      "LSD microdosing RCT",
+      "lsd-microdosing-rct"
+    ],
     "slug": "lsd-microdosing-rct",
     "status": "seedling",
     "type": "articles",
@@ -17061,7 +17936,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Luxury Is for the Elite, Again", "luxury-is-for-the-elite-again"],
+    "ids": [
+      "Luxury Is for the Elite, Again",
+      "luxury-is-for-the-elite-again"
+    ],
     "slug": "luxury-is-for-the-elite-again",
     "status": "seedling",
     "type": "articles",
@@ -17201,7 +18079,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Many Other Shoes Are Dropping", "many-other-shoes-are-dropping"],
+    "ids": [
+      "Many Other Shoes Are Dropping",
+      "many-other-shoes-are-dropping"
+    ],
     "slug": "many-other-shoes-are-dropping",
     "status": "seedling",
     "type": "articles",
@@ -17302,7 +18183,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Meetings _Are_ the Work", "meetings-are-the-work"],
+    "ids": [
+      "Meetings _Are_ the Work",
+      "meetings-are-the-work"
+    ],
     "slug": "meetings-are-the-work",
     "status": "seedling",
     "type": "articles",
@@ -17317,7 +18201,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Member Brief: CLUB EBITDA", "member-brief-club-ebitda"],
+    "ids": [
+      "Member Brief: CLUB EBITDA",
+      "member-brief-club-ebitda"
+    ],
     "slug": "member-brief-club-ebitda",
     "status": "seedling",
     "type": "articles",
@@ -17337,7 +18224,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Member Brief: DTC and Hope", "member-brief-dtc-and-hope"],
+    "ids": [
+      "Member Brief: DTC and Hope",
+      "member-brief-dtc-and-hope"
+    ],
     "slug": "member-brief-dtc-and-hope",
     "status": "seedling",
     "type": "articles",
@@ -17434,7 +18324,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Memo: All About RMN", "memo-all-about-rmn"],
+    "ids": [
+      "Memo: All About RMN",
+      "memo-all-about-rmn"
+    ],
     "slug": "memo-all-about-rmn",
     "status": "seedling",
     "type": "articles",
@@ -17455,7 +18348,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Memo: eCommerce Deceleration", "memo-ecommerce-deceleration"],
+    "ids": [
+      "Memo: eCommerce Deceleration",
+      "memo-ecommerce-deceleration"
+    ],
     "slug": "memo-ecommerce-deceleration",
     "status": "seedling",
     "type": "articles",
@@ -17497,7 +18393,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Memo: Subscription Box Fatigue", "memo-subscription-box-fatigue"],
+    "ids": [
+      "Memo: Subscription Box Fatigue",
+      "memo-subscription-box-fatigue"
+    ],
     "slug": "memo-subscription-box-fatigue",
     "status": "seedling",
     "type": "articles",
@@ -17505,7 +18404,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Memo: The Returns Coup", "memo-the-returns-coup"],
+    "ids": [
+      "Memo: The Returns Coup",
+      "memo-the-returns-coup"
+    ],
     "slug": "memo-the-returns-coup",
     "status": "seedling",
     "type": "articles",
@@ -17513,7 +18415,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Memo: Where Grocery Is Going", "memo-where-grocery-is-going"],
+    "ids": [
+      "Memo: Where Grocery Is Going",
+      "memo-where-grocery-is-going"
+    ],
     "slug": "memo-where-grocery-is-going",
     "status": "seedling",
     "type": "articles",
@@ -17566,7 +18471,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Metric-Less Success", "metric-less-success"],
+    "ids": [
+      "Metric-Less Success",
+      "metric-less-success"
+    ],
     "slug": "metric-less-success",
     "status": "seedling",
     "type": "articles",
@@ -17610,7 +18518,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Mindful and Mindless Work", "mindful-and-mindless-work"],
+    "ids": [
+      "Mindful and Mindless Work",
+      "mindful-and-mindless-work"
+    ],
     "slug": "mindful-and-mindless-work",
     "status": "seedling",
     "type": "articles",
@@ -17686,7 +18597,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["More, Faster, Better", "more-faster-better"],
+    "ids": [
+      "More, Faster, Better",
+      "more-faster-better"
+    ],
     "slug": "more-faster-better",
     "status": "seedling",
     "type": "articles",
@@ -17807,7 +18721,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["My Last Five Years of Work", "my-last-five-years-of-work"],
+    "ids": [
+      "My Last Five Years of Work",
+      "my-last-five-years-of-work"
+    ],
     "slug": "my-last-five-years-of-work",
     "status": "seedling",
     "type": "articles",
@@ -17861,7 +18778,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["New Rules of Brand Marketing", "new-rules-of-brand-marketing"],
+    "ids": [
+      "New Rules of Brand Marketing",
+      "new-rules-of-brand-marketing"
+    ],
     "slug": "new-rules-of-brand-marketing",
     "status": "seedling",
     "type": "articles",
@@ -17947,7 +18867,10 @@
     ]
   },
   {
-    "ids": ["No Canon for Old Memes", "no-canon-for-old-memes"],
+    "ids": [
+      "No Canon for Old Memes",
+      "no-canon-for-old-memes"
+    ],
     "slug": "no-canon-for-old-memes",
     "status": "seedling",
     "type": "articles",
@@ -17955,7 +18878,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["No Margin, No Mission", "no-margin-no-mission"],
+    "ids": [
+      "No Margin, No Mission",
+      "no-margin-no-mission"
+    ],
     "slug": "no-margin-no-mission",
     "status": "seedling",
     "type": "articles",
@@ -17988,7 +18914,11 @@
     ]
   },
   {
-    "ids": ["🎓 No, women don’t", "🎓-no-women-don’t", "no-women-dont"],
+    "ids": [
+      "🎓 No, women don’t",
+      "🎓-no-women-don’t",
+      "no-women-dont"
+    ],
     "slug": "no-women-dont",
     "status": "seedling",
     "type": "articles",
@@ -18008,7 +18938,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Nostalgia Isn’t Enough", "nostalgia-isnt-enough"],
+    "ids": [
+      "Nostalgia Isn’t Enough",
+      "nostalgia-isnt-enough"
+    ],
     "slug": "nostalgia-isnt-enough",
     "status": "seedling",
     "type": "articles",
@@ -18044,7 +18977,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Notes on “Taste”", "notes-on-“taste”", "notes-on-taste"],
+    "ids": [
+      "Notes on “Taste”",
+      "notes-on-“taste”",
+      "notes-on-taste"
+    ],
     "slug": "notes-on-taste",
     "status": "seedling",
     "type": "articles",
@@ -18076,7 +19013,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Obituary for a Quiet Life", "obituary-for-a-quiet-life"],
+    "ids": [
+      "Obituary for a Quiet Life",
+      "obituary-for-a-quiet-life"
+    ],
     "slug": "obituary-for-a-quiet-life",
     "status": "seedling",
     "type": "articles",
@@ -18107,7 +19047,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["On Feeling Connected", "on-feeling-connected"],
+    "ids": [
+      "On Feeling Connected",
+      "on-feeling-connected"
+    ],
     "slug": "on-feeling-connected",
     "status": "seedling",
     "type": "articles",
@@ -18126,7 +19069,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["On Power", "on-power"],
+    "ids": [
+      "On Power",
+      "on-power"
+    ],
     "slug": "on-power",
     "status": "seedling",
     "type": "articles",
@@ -18140,7 +19086,10 @@
     ]
   },
   {
-    "ids": ["One Moment in a Decade", "one-moment-in-a-decade"],
+    "ids": [
+      "One Moment in a Decade",
+      "one-moment-in-a-decade"
+    ],
     "slug": "one-moment-in-a-decade",
     "status": "seedling",
     "type": "articles",
@@ -18343,7 +19292,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Overfitting", "overfitting"],
+    "ids": [
+      "Overfitting",
+      "overfitting"
+    ],
     "slug": "overfitting",
     "status": "seedling",
     "type": "articles",
@@ -18351,7 +19303,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Part 2: Time Is of My Essence", "part-2-time-is-of-my-essence"],
+    "ids": [
+      "Part 2: Time Is of My Essence",
+      "part-2-time-is-of-my-essence"
+    ],
     "slug": "part-2-time-is-of-my-essence",
     "status": "seedling",
     "type": "articles",
@@ -18406,7 +19361,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Passages Saved From iOS", "passages-saved-from-ios"],
+    "ids": [
+      "Passages Saved From iOS",
+      "passages-saved-from-ios"
+    ],
     "slug": "passages-saved-from-ios",
     "status": "seedling",
     "type": "articles",
@@ -18421,7 +19379,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Permissionless Brands", "permissionless-brands"],
+    "ids": [
+      "Permissionless Brands",
+      "permissionless-brands"
+    ],
     "slug": "permissionless-brands",
     "status": "seedling",
     "type": "articles",
@@ -18429,7 +19390,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Personal Firewalls", "personal-firewalls"],
+    "ids": [
+      "Personal Firewalls",
+      "personal-firewalls"
+    ],
     "slug": "personal-firewalls",
     "status": "seedling",
     "type": "articles",
@@ -18494,7 +19458,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Post-Dtc: The Seven Brand Eras", "post-dtc-the-seven-brand-eras"],
+    "ids": [
+      "Post-Dtc: The Seven Brand Eras",
+      "post-dtc-the-seven-brand-eras"
+    ],
     "slug": "post-dtc-the-seven-brand-eras",
     "status": "seedling",
     "type": "articles",
@@ -18502,7 +19469,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Post-Mehification", "post-mehification"],
+    "ids": [
+      "Post-Mehification",
+      "post-mehification"
+    ],
     "slug": "post-mehification",
     "status": "seedling",
     "type": "articles",
@@ -18527,7 +19497,10 @@
     ]
   },
   {
-    "ids": ["Preparing for the Future", "preparing-for-the-future"],
+    "ids": [
+      "Preparing for the Future",
+      "preparing-for-the-future"
+    ],
     "slug": "preparing-for-the-future",
     "status": "seedling",
     "type": "articles",
@@ -18574,7 +19547,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Product Fail", "product-fail"],
+    "ids": [
+      "Product Fail",
+      "product-fail"
+    ],
     "slug": "product-fail",
     "status": "seedling",
     "type": "articles",
@@ -18582,7 +19558,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Product-Led Branding", "product-led-branding"],
+    "ids": [
+      "Product-Led Branding",
+      "product-led-branding"
+    ],
     "slug": "product-led-branding",
     "status": "seedling",
     "type": "articles",
@@ -18590,7 +19569,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Product-Led Organization", "product-led-organization"],
+    "ids": [
+      "Product-Led Organization",
+      "product-led-organization"
+    ],
     "slug": "product-led-organization",
     "status": "seedling",
     "type": "articles",
@@ -18616,7 +19598,10 @@
     ]
   },
   {
-    "ids": ["Product Wars", "product-wars"],
+    "ids": [
+      "Product Wars",
+      "product-wars"
+    ],
     "slug": "product-wars",
     "status": "seedling",
     "type": "articles",
@@ -18635,7 +19620,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Progress Is Not Automatic", "progress-is-not-automatic"],
+    "ids": [
+      "Progress Is Not Automatic",
+      "progress-is-not-automatic"
+    ],
     "slug": "progress-is-not-automatic",
     "status": "seedling",
     "type": "articles",
@@ -18667,7 +19655,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Quadrupling NRABucks to $6B", "quadrupling-nrabucks-to-6b"],
+    "ids": [
+      "Quadrupling NRABucks to $6B",
+      "quadrupling-nrabucks-to-6b"
+    ],
     "slug": "quadrupling-nrabucks-to-6b",
     "status": "seedling",
     "type": "articles",
@@ -18687,7 +19678,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Quiet Compounding", "quiet-compounding"],
+    "ids": [
+      "Quiet Compounding",
+      "quiet-compounding"
+    ],
     "slug": "quiet-compounding",
     "status": "seedling",
     "type": "articles",
@@ -18729,7 +19723,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Rejecting Specialization", "rejecting-specialization"],
+    "ids": [
+      "Rejecting Specialization",
+      "rejecting-specialization"
+    ],
     "slug": "rejecting-specialization",
     "status": "seedling",
     "type": "articles",
@@ -18737,7 +19734,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Repeat Returns Offenders", "repeat-returns-offenders"],
+    "ids": [
+      "Repeat Returns Offenders",
+      "repeat-returns-offenders"
+    ],
     "slug": "repeat-returns-offenders",
     "status": "seedling",
     "type": "articles",
@@ -18745,7 +19745,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["research as leisure activity", "research-as-leisure-activity"],
+    "ids": [
+      "research as leisure activity",
+      "research-as-leisure-activity"
+    ],
     "slug": "research-as-leisure-activity",
     "status": "seedling",
     "type": "articles",
@@ -18789,7 +19792,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Retail Media Networks", "retail-media-networks"],
+    "ids": [
+      "Retail Media Networks",
+      "retail-media-networks"
+    ],
     "slug": "retail-media-networks",
     "status": "seedling",
     "type": "articles",
@@ -18825,7 +19831,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Rethinking Best Practices", "rethinking-best-practices"],
+    "ids": [
+      "Rethinking Best Practices",
+      "rethinking-best-practices"
+    ],
     "slug": "rethinking-best-practices",
     "status": "seedling",
     "type": "articles",
@@ -18839,7 +19848,10 @@
     ]
   },
   {
-    "ids": ["Rethinking the Brand ROI", "rethinking-the-brand-roi"],
+    "ids": [
+      "Rethinking the Brand ROI",
+      "rethinking-the-brand-roi"
+    ],
     "slug": "rethinking-the-brand-roi",
     "status": "seedling",
     "type": "articles",
@@ -18881,7 +19893,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Revisiting Physical Retail", "revisiting-physical-retail"],
+    "ids": [
+      "Revisiting Physical Retail",
+      "revisiting-physical-retail"
+    ],
     "slug": "revisiting-physical-retail",
     "status": "seedling",
     "type": "articles",
@@ -18889,7 +19904,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Revisiting Travel", "revisiting-travel"],
+    "ids": [
+      "Revisiting Travel",
+      "revisiting-travel"
+    ],
     "slug": "revisiting-travel",
     "status": "seedling",
     "type": "articles",
@@ -18920,7 +19938,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Ribbonfarm Is Retiring", "ribbonfarm-is-retiring"],
+    "ids": [
+      "Ribbonfarm Is Retiring",
+      "ribbonfarm-is-retiring"
+    ],
     "slug": "ribbonfarm-is-retiring",
     "status": "seedling",
     "type": "articles",
@@ -19044,7 +20065,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Seek First to Understand", "seek-first-to-understand"],
+    "ids": [
+      "Seek First to Understand",
+      "seek-first-to-understand"
+    ],
     "slug": "seek-first-to-understand",
     "status": "seedling",
     "type": "articles",
@@ -19059,7 +20083,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Selective Optimism", "selective-optimism"],
+    "ids": [
+      "Selective Optimism",
+      "selective-optimism"
+    ],
     "slug": "selective-optimism",
     "status": "seedling",
     "type": "articles",
@@ -19138,7 +20165,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Shopify Owns DTC", "shopify-owns-dtc"],
+    "ids": [
+      "Shopify Owns DTC",
+      "shopify-owns-dtc"
+    ],
     "slug": "shopify-owns-dtc",
     "status": "seedling",
     "type": "articles",
@@ -19222,7 +20252,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Show Your Work", "show-your-work"],
+    "ids": [
+      "Show Your Work",
+      "show-your-work"
+    ],
     "slug": "show-your-work",
     "status": "seedling",
     "type": "articles",
@@ -19295,7 +20328,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["So You Wanna De-Bog Yourself", "so-you-wanna-de-bog-yourself"],
+    "ids": [
+      "So You Wanna De-Bog Yourself",
+      "so-you-wanna-de-bog-yourself"
+    ],
     "slug": "so-you-wanna-de-bog-yourself",
     "status": "seedling",
     "type": "articles",
@@ -19420,7 +20456,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Squad Wealth", "squad-wealth"],
+    "ids": [
+      "Squad Wealth",
+      "squad-wealth"
+    ],
     "slug": "squad-wealth",
     "status": "seedling",
     "type": "articles",
@@ -19440,7 +20479,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Starbucks’ Digital Dilemna", "starbucks-digital-dilemna"],
+    "ids": [
+      "Starbucks’ Digital Dilemna",
+      "starbucks-digital-dilemna"
+    ],
     "slug": "starbucks-digital-dilemna",
     "status": "seedling",
     "type": "articles",
@@ -19470,7 +20512,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Status Limbo", "status-limbo"],
+    "ids": [
+      "Status Limbo",
+      "status-limbo"
+    ],
     "slug": "status-limbo",
     "status": "seedling",
     "type": "articles",
@@ -19490,7 +20535,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Stop Talking About Web3", "stop-talking-about-web3"],
+    "ids": [
+      "Stop Talking About Web3",
+      "stop-talking-about-web3"
+    ],
     "slug": "stop-talking-about-web3",
     "status": "seedling",
     "type": "articles",
@@ -19510,7 +20558,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Strange Attraction", "strange-attraction"],
+    "ids": [
+      "Strange Attraction",
+      "strange-attraction"
+    ],
     "slug": "strange-attraction",
     "status": "seedling",
     "type": "articles",
@@ -19555,7 +20606,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Superlinear Returns", "superlinear-returns"],
+    "ids": [
+      "Superlinear Returns",
+      "superlinear-returns"
+    ],
     "slug": "superlinear-returns",
     "status": "seedling",
     "type": "articles",
@@ -19582,7 +20636,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["🍀 Swipe These", "🍀-swipe-these", "swipe-these"],
+    "ids": [
+      "🍀 Swipe These",
+      "🍀-swipe-these",
+      "swipe-these"
+    ],
     "slug": "swipe-these",
     "status": "seedling",
     "type": "articles",
@@ -19613,7 +20671,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Tactical Mindfulness", "tactical-mindfulness"],
+    "ids": [
+      "Tactical Mindfulness",
+      "tactical-mindfulness"
+    ],
     "slug": "tactical-mindfulness",
     "status": "seedling",
     "type": "articles",
@@ -19691,7 +20752,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["TBM 277: Bring Back Fun", "tbm-277-bring-back-fun"],
+    "ids": [
+      "TBM 277: Bring Back Fun",
+      "tbm-277-bring-back-fun"
+    ],
     "slug": "tbm-277-bring-back-fun",
     "status": "seedling",
     "type": "articles",
@@ -19711,7 +20775,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Telling incredible stories", "telling-incredible-stories"],
+    "ids": [
+      "Telling incredible stories",
+      "telling-incredible-stories"
+    ],
     "slug": "telling-incredible-stories",
     "status": "seedling",
     "type": "articles",
@@ -19827,7 +20894,10 @@
     ]
   },
   {
-    "ids": ["The AI Startup Litmus Test", "the-ai-startup-litmus-test"],
+    "ids": [
+      "The AI Startup Litmus Test",
+      "the-ai-startup-litmus-test"
+    ],
     "slug": "the-ai-startup-litmus-test",
     "status": "seedling",
     "type": "articles",
@@ -19870,7 +20940,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Ambling Mind", "the-ambling-mind"],
+    "ids": [
+      "The Ambling Mind",
+      "the-ambling-mind"
+    ],
     "slug": "the-ambling-mind",
     "status": "seedling",
     "type": "articles",
@@ -19900,7 +20973,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Audience Trust Battery", "the-audience-trust-battery"],
+    "ids": [
+      "The Audience Trust Battery",
+      "the-audience-trust-battery"
+    ],
     "slug": "the-audience-trust-battery",
     "status": "seedling",
     "type": "articles",
@@ -19998,7 +21074,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Capital of Ideas", "the-capital-of-ideas"],
+    "ids": [
+      "The Capital of Ideas",
+      "the-capital-of-ideas"
+    ],
     "slug": "the-capital-of-ideas",
     "status": "seedling",
     "type": "articles",
@@ -20023,7 +21102,10 @@
     ]
   },
   {
-    "ids": ["The Case Against Travel", "the-case-against-travel"],
+    "ids": [
+      "The Case Against Travel",
+      "the-case-against-travel"
+    ],
     "slug": "the-case-against-travel",
     "status": "seedling",
     "type": "articles",
@@ -20060,7 +21142,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Case for Nike", "the-case-for-nike"],
+    "ids": [
+      "The Case for Nike",
+      "the-case-for-nike"
+    ],
     "slug": "the-case-for-nike",
     "status": "seedling",
     "type": "articles",
@@ -20068,7 +21153,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Cautionary Tale of Nike", "the-cautionary-tale-of-nike"],
+    "ids": [
+      "The Cautionary Tale of Nike",
+      "the-cautionary-tale-of-nike"
+    ],
     "slug": "the-cautionary-tale-of-nike",
     "status": "seedling",
     "type": "articles",
@@ -20076,7 +21164,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Cold Outbound Playbook", "the-cold-outbound-playbook"],
+    "ids": [
+      "The Cold Outbound Playbook",
+      "the-cold-outbound-playbook"
+    ],
     "slug": "the-cold-outbound-playbook",
     "status": "seedling",
     "type": "articles",
@@ -20118,7 +21209,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Creative Economy", "the-creative-economy"],
+    "ids": [
+      "The Creative Economy",
+      "the-creative-economy"
+    ],
     "slug": "the-creative-economy",
     "status": "seedling",
     "type": "articles",
@@ -20160,7 +21254,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Diversity Myth", "the-diversity-myth"],
+    "ids": [
+      "The Diversity Myth",
+      "the-diversity-myth"
+    ],
     "slug": "the-diversity-myth",
     "status": "seedling",
     "type": "articles",
@@ -20220,7 +21317,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The End of Blitzscaling", "the-end-of-blitzscaling"],
+    "ids": [
+      "The End of Blitzscaling",
+      "the-end-of-blitzscaling"
+    ],
     "slug": "the-end-of-blitzscaling",
     "status": "seedling",
     "type": "articles",
@@ -20228,7 +21328,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The End of Productivity", "the-end-of-productivity"],
+    "ids": [
+      "The End of Productivity",
+      "the-end-of-productivity"
+    ],
     "slug": "the-end-of-productivity",
     "status": "seedling",
     "type": "articles",
@@ -20271,7 +21374,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Failure File", "the-failure-file"],
+    "ids": [
+      "The Failure File",
+      "the-failure-file"
+    ],
     "slug": "the-failure-file",
     "status": "seedling",
     "type": "articles",
@@ -20302,7 +21408,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Four Big Risks", "the-four-big-risks"],
+    "ids": [
+      "The Four Big Risks",
+      "the-four-big-risks"
+    ],
     "slug": "the-four-big-risks",
     "status": "seedling",
     "type": "articles",
@@ -20310,7 +21419,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Fresh Start Fallacy", "the-fresh-start-fallacy"],
+    "ids": [
+      "The Fresh Start Fallacy",
+      "the-fresh-start-fallacy"
+    ],
     "slug": "the-fresh-start-fallacy",
     "status": "seedling",
     "type": "articles",
@@ -20318,7 +21430,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Friendship Problem", "the-friendship-problem"],
+    "ids": [
+      "The Friendship Problem",
+      "the-friendship-problem"
+    ],
     "slug": "the-friendship-problem",
     "status": "seedling",
     "type": "articles",
@@ -20409,7 +21524,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Great Flattening", "the-great-flattening"],
+    "ids": [
+      "The Great Flattening",
+      "the-great-flattening"
+    ],
     "slug": "the-great-flattening",
     "status": "seedling",
     "type": "articles",
@@ -20446,7 +21564,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Hidden Power of Exercise", "the-hidden-power-of-exercise"],
+    "ids": [
+      "The Hidden Power of Exercise",
+      "the-hidden-power-of-exercise"
+    ],
     "slug": "the-hidden-power-of-exercise",
     "status": "seedling",
     "type": "articles",
@@ -20465,7 +21586,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The High Price of Going Cheap", "the-high-price-of-going-cheap"],
+    "ids": [
+      "The High Price of Going Cheap",
+      "the-high-price-of-going-cheap"
+    ],
     "slug": "the-high-price-of-going-cheap",
     "status": "seedling",
     "type": "articles",
@@ -20538,7 +21662,10 @@
     ]
   },
   {
-    "ids": ["The Key to Self-Discipline", "the-key-to-self-discipline"],
+    "ids": [
+      "The Key to Self-Discipline",
+      "the-key-to-self-discipline"
+    ],
     "slug": "the-key-to-self-discipline",
     "status": "seedling",
     "type": "articles",
@@ -20615,7 +21742,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Media Buyer #25", "the-media-buyer-25"],
+    "ids": [
+      "The Media Buyer #25",
+      "the-media-buyer-25"
+    ],
     "slug": "the-media-buyer-25",
     "status": "seedling",
     "type": "articles",
@@ -20678,7 +21808,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The META Trending Trends: 2024", "the-meta-trending-trends-2024"],
+    "ids": [
+      "The META Trending Trends: 2024",
+      "the-meta-trending-trends-2024"
+    ],
     "slug": "the-meta-trending-trends-2024",
     "status": "seedling",
     "type": "articles",
@@ -20740,7 +21873,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Moral Bucket List", "the-moral-bucket-list"],
+    "ids": [
+      "The Moral Bucket List",
+      "the-moral-bucket-list"
+    ],
     "slug": "the-moral-bucket-list",
     "status": "seedling",
     "type": "articles",
@@ -20826,7 +21962,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The New Commerce Opportunity", "the-new-commerce-opportunity"],
+    "ids": [
+      "The New Commerce Opportunity",
+      "the-new-commerce-opportunity"
+    ],
     "slug": "the-new-commerce-opportunity",
     "status": "seedling",
     "type": "articles",
@@ -20834,7 +21973,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The New Fashion Creativity", "the-new-fashion-creativity"],
+    "ids": [
+      "The New Fashion Creativity",
+      "the-new-fashion-creativity"
+    ],
     "slug": "the-new-fashion-creativity",
     "status": "seedling",
     "type": "articles",
@@ -20892,7 +22034,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The New Systems of Survival", "the-new-systems-of-survival"],
+    "ids": [
+      "The New Systems of Survival",
+      "the-new-systems-of-survival"
+    ],
     "slug": "the-new-systems-of-survival",
     "status": "seedling",
     "type": "articles",
@@ -20924,7 +22069,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Next Growth Market", "the-next-growth-market"],
+    "ids": [
+      "The Next Growth Market",
+      "the-next-growth-market"
+    ],
     "slug": "the-next-growth-market",
     "status": "seedling",
     "type": "articles",
@@ -20945,7 +22093,10 @@
     ]
   },
   {
-    "ids": ["The Noetic Spiral", "the-noetic-spiral"],
+    "ids": [
+      "The Noetic Spiral",
+      "the-noetic-spiral"
+    ],
     "slug": "the-noetic-spiral",
     "status": "seedling",
     "type": "articles",
@@ -20986,7 +22137,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Paradox of Control", "the-paradox-of-control"],
+    "ids": [
+      "The Paradox of Control",
+      "the-paradox-of-control"
+    ],
     "slug": "the-paradox-of-control",
     "status": "seedling",
     "type": "articles",
@@ -20994,7 +22148,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Paradox of Cringe", "the-paradox-of-cringe"],
+    "ids": [
+      "The Paradox of Cringe",
+      "the-paradox-of-cringe"
+    ],
     "slug": "the-paradox-of-cringe",
     "status": "seedling",
     "type": "articles",
@@ -21002,7 +22159,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Paradox of Family", "the-paradox-of-family"],
+    "ids": [
+      "The Paradox of Family",
+      "the-paradox-of-family"
+    ],
     "slug": "the-paradox-of-family",
     "status": "seedling",
     "type": "articles",
@@ -21027,7 +22187,10 @@
     ]
   },
   {
-    "ids": ["The Perils of Niching Down", "the-perils-of-niching-down"],
+    "ids": [
+      "The Perils of Niching Down",
+      "the-perils-of-niching-down"
+    ],
     "slug": "the-perils-of-niching-down",
     "status": "seedling",
     "type": "articles",
@@ -21093,7 +22256,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Prestige-Prosperity Gap", "the-prestige-prosperity-gap"],
+    "ids": [
+      "The Prestige-Prosperity Gap",
+      "the-prestige-prosperity-gap"
+    ],
     "slug": "the-prestige-prosperity-gap",
     "status": "seedling",
     "type": "articles",
@@ -21149,7 +22315,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Quiet Art of Attention", "the-quiet-art-of-attention"],
+    "ids": [
+      "The Quiet Art of Attention",
+      "the-quiet-art-of-attention"
+    ],
     "slug": "the-quiet-art-of-attention",
     "status": "seedling",
     "type": "articles",
@@ -21157,7 +22326,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Reason Chewy Has an Edge", "the-reason-chewy-has-an-edge"],
+    "ids": [
+      "The Reason Chewy Has an Edge",
+      "the-reason-chewy-has-an-edge"
+    ],
     "slug": "the-reason-chewy-has-an-edge",
     "status": "seedling",
     "type": "articles",
@@ -21217,7 +22389,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Sarumans and the Radagasts", "the-sarumans-and-the-radagasts"],
+    "ids": [
+      "The Sarumans and the Radagasts",
+      "the-sarumans-and-the-radagasts"
+    ],
     "slug": "the-sarumans-and-the-radagasts",
     "status": "seedling",
     "type": "articles",
@@ -21288,7 +22463,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Startup Drake Equation", "the-startup-drake-equation"],
+    "ids": [
+      "The Startup Drake Equation",
+      "the-startup-drake-equation"
+    ],
     "slug": "the-startup-drake-equation",
     "status": "seedling",
     "type": "articles",
@@ -21296,7 +22474,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The State of the Culture, 2024", "the-state-of-the-culture-2024"],
+    "ids": [
+      "The State of the Culture, 2024",
+      "the-state-of-the-culture-2024"
+    ],
     "slug": "the-state-of-the-culture-2024",
     "status": "seedling",
     "type": "articles",
@@ -21326,7 +22507,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Supermarket of Software", "the-supermarket-of-software"],
+    "ids": [
+      "The Supermarket of Software",
+      "the-supermarket-of-software"
+    ],
     "slug": "the-supermarket-of-software",
     "status": "seedling",
     "type": "articles",
@@ -21399,7 +22583,10 @@
     ]
   },
   {
-    "ids": ["The Tale of Two DTCs", "the-tale-of-two-dtcs"],
+    "ids": [
+      "The Tale of Two DTCs",
+      "the-tale-of-two-dtcs"
+    ],
     "slug": "the-tale-of-two-dtcs",
     "status": "seedling",
     "type": "articles",
@@ -21438,7 +22625,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Three-Faced Interface", "the-three-faced-interface"],
+    "ids": [
+      "The Three-Faced Interface",
+      "the-three-faced-interface"
+    ],
     "slug": "the-three-faced-interface",
     "status": "seedling",
     "type": "articles",
@@ -21487,7 +22677,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Trouble with Optionality", "the-trouble-with-optionality"],
+    "ids": [
+      "The Trouble with Optionality",
+      "the-trouble-with-optionality"
+    ],
     "slug": "the-trouble-with-optionality",
     "status": "seedling",
     "type": "articles",
@@ -21501,7 +22694,10 @@
     ]
   },
   {
-    "ids": ["The True Cost of Returns", "the-true-cost-of-returns"],
+    "ids": [
+      "The True Cost of Returns",
+      "the-true-cost-of-returns"
+    ],
     "slug": "the-true-cost-of-returns",
     "status": "seedling",
     "type": "articles",
@@ -21509,7 +22705,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Truth About Courage", "the-truth-about-courage"],
+    "ids": [
+      "The Truth About Courage",
+      "the-truth-about-courage"
+    ],
     "slug": "the-truth-about-courage",
     "status": "seedling",
     "type": "articles",
@@ -21534,7 +22733,10 @@
     ]
   },
   {
-    "ids": ["The Tyranny Of Time", "the-tyranny-of-time"],
+    "ids": [
+      "The Tyranny Of Time",
+      "the-tyranny-of-time"
+    ],
     "slug": "the-tyranny-of-time",
     "status": "seedling",
     "type": "articles",
@@ -21689,7 +22891,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Ungated Manifesto", "the-ungated-manifesto"],
+    "ids": [
+      "The Ungated Manifesto",
+      "the-ungated-manifesto"
+    ],
     "slug": "the-ungated-manifesto",
     "status": "seedling",
     "type": "articles",
@@ -21709,7 +22914,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Web3 Talent Gap", "the-web3-talent-gap"],
+    "ids": [
+      "The Web3 Talent Gap",
+      "the-web3-talent-gap"
+    ],
     "slug": "the-web3-talent-gap",
     "status": "seedling",
     "type": "articles",
@@ -21717,7 +22925,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["The Wisdom of Silence", "the-wisdom-of-silence"],
+    "ids": [
+      "The Wisdom of Silence",
+      "the-wisdom-of-silence"
+    ],
     "slug": "the-wisdom-of-silence",
     "status": "seedling",
     "type": "articles",
@@ -21759,7 +22970,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Think Slow", "think-slow"],
+    "ids": [
+      "Think Slow",
+      "think-slow"
+    ],
     "slug": "think-slow",
     "status": "seedling",
     "type": "articles",
@@ -21796,7 +23010,10 @@
     ]
   },
   {
-    "ids": ["This Is Your Brain on Books", "this-is-your-brain-on-books"],
+    "ids": [
+      "This Is Your Brain on Books",
+      "this-is-your-brain-on-books"
+    ],
     "slug": "this-is-your-brain-on-books",
     "status": "seedling",
     "type": "articles",
@@ -21828,7 +23045,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["This Question Means Everything", "this-question-means-everything"],
+    "ids": [
+      "This Question Means Everything",
+      "this-question-means-everything"
+    ],
     "slug": "this-question-means-everything",
     "status": "seedling",
     "type": "articles",
@@ -21872,7 +23092,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Three Retention Commandments", "three-retention-commandments"],
+    "ids": [
+      "Three Retention Commandments",
+      "three-retention-commandments"
+    ],
     "slug": "three-retention-commandments",
     "status": "seedling",
     "type": "articles",
@@ -21937,7 +23160,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["TIkTok-Native Brands", "tiktok-native-brands"],
+    "ids": [
+      "TIkTok-Native Brands",
+      "tiktok-native-brands"
+    ],
     "slug": "tiktok-native-brands",
     "status": "seedling",
     "type": "articles",
@@ -22026,7 +23252,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Tiny Stupid Habits", "tiny-stupid-habits"],
+    "ids": [
+      "Tiny Stupid Habits",
+      "tiny-stupid-habits"
+    ],
     "slug": "tiny-stupid-habits",
     "status": "seedling",
     "type": "articles",
@@ -22123,7 +23352,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Triumph of the Marketplace", "triumph-of-the-marketplace"],
+    "ids": [
+      "Triumph of the Marketplace",
+      "triumph-of-the-marketplace"
+    ],
     "slug": "triumph-of-the-marketplace",
     "status": "seedling",
     "type": "articles",
@@ -22142,7 +23374,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Truth Is Overrated", "truth-is-overrated"],
+    "ids": [
+      "Truth Is Overrated",
+      "truth-is-overrated"
+    ],
     "slug": "truth-is-overrated",
     "status": "seedling",
     "type": "articles",
@@ -22317,7 +23552,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["WE EXIST TO Beat INDIFFERENCE", "we-exist-to-beat-indifference"],
+    "ids": [
+      "WE EXIST TO Beat INDIFFERENCE",
+      "we-exist-to-beat-indifference"
+    ],
     "slug": "we-exist-to-beat-indifference",
     "status": "seedling",
     "type": "articles",
@@ -22347,7 +23585,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["We Need More Calm Companies", "we-need-more-calm-companies"],
+    "ids": [
+      "We Need More Calm Companies",
+      "we-need-more-calm-companies"
+    ],
     "slug": "we-need-more-calm-companies",
     "status": "seedling",
     "type": "articles",
@@ -22355,7 +23596,11 @@
     "inboundLinks": []
   },
   {
-    "ids": ["⚡️ Web3‘s Win", "⚡️-web3s-win", "web3s-win"],
+    "ids": [
+      "⚡️ Web3‘s Win",
+      "⚡️-web3s-win",
+      "web3s-win"
+    ],
     "slug": "web3s-win",
     "status": "seedling",
     "type": "articles",
@@ -22386,7 +23631,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What AI Looks Like in 2025", "what-ai-looks-like-in-2025"],
+    "ids": [
+      "What AI Looks Like in 2025",
+      "what-ai-looks-like-in-2025"
+    ],
     "slug": "what-ai-looks-like-in-2025",
     "status": "seedling",
     "type": "articles",
@@ -22427,7 +23675,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What Even is a Brand Universe?", "what-even-is-a-brand-universe"],
+    "ids": [
+      "What Even is a Brand Universe?",
+      "what-even-is-a-brand-universe"
+    ],
     "slug": "what-even-is-a-brand-universe",
     "status": "seedling",
     "type": "articles",
@@ -22459,7 +23710,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What Happened to Foxtrot?", "what-happened-to-foxtrot"],
+    "ids": [
+      "What Happened to Foxtrot?",
+      "what-happened-to-foxtrot"
+    ],
     "slug": "what-happened-to-foxtrot",
     "status": "seedling",
     "type": "articles",
@@ -22478,7 +23732,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What I Got Wrong About VR", "what-i-got-wrong-about-vr"],
+    "ids": [
+      "What I Got Wrong About VR",
+      "what-i-got-wrong-about-vr"
+    ],
     "slug": "what-i-got-wrong-about-vr",
     "status": "seedling",
     "type": "articles",
@@ -22497,7 +23754,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What I Think About When I Edit", "what-i-think-about-when-i-edit"],
+    "ids": [
+      "What I Think About When I Edit",
+      "what-i-think-about-when-i-edit"
+    ],
     "slug": "what-i-think-about-when-i-edit",
     "status": "seedling",
     "type": "articles",
@@ -22568,7 +23828,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What Is Product Led Growth?", "what-is-product-led-growth"],
+    "ids": [
+      "What Is Product Led Growth?",
+      "what-is-product-led-growth"
+    ],
     "slug": "what-is-product-led-growth",
     "status": "seedling",
     "type": "articles",
@@ -22635,7 +23898,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What Is Zero-Party Data?", "what-is-zero-party-data"],
+    "ids": [
+      "What Is Zero-Party Data?",
+      "what-is-zero-party-data"
+    ],
     "slug": "what-is-zero-party-data",
     "status": "seedling",
     "type": "articles",
@@ -22654,7 +23920,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What Makes a Brand Magical?", "what-makes-a-brand-magical"],
+    "ids": [
+      "What Makes a Brand Magical?",
+      "what-makes-a-brand-magical"
+    ],
     "slug": "what-makes-a-brand-magical",
     "status": "seedling",
     "type": "articles",
@@ -22673,7 +23942,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What Momentum Looks Like", "what-momentum-looks-like"],
+    "ids": [
+      "What Momentum Looks Like",
+      "what-momentum-looks-like"
+    ],
     "slug": "what-momentum-looks-like",
     "status": "seedling",
     "type": "articles",
@@ -22705,7 +23977,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["What Retail CEOs Don’t Know", "what-retail-ceos-dont-know"],
+    "ids": [
+      "What Retail CEOs Don’t Know",
+      "what-retail-ceos-dont-know"
+    ],
     "slug": "what-retail-ceos-dont-know",
     "status": "seedling",
     "type": "articles",
@@ -22813,7 +24088,10 @@
     ]
   },
   {
-    "ids": ["When to Do What You Love", "when-to-do-what-you-love"],
+    "ids": [
+      "When to Do What You Love",
+      "when-to-do-what-you-love"
+    ],
     "slug": "when-to-do-what-you-love",
     "status": "seedling",
     "type": "articles",
@@ -22832,7 +24110,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Where to Draw the Line?", "where-to-draw-the-line"],
+    "ids": [
+      "Where to Draw the Line?",
+      "where-to-draw-the-line"
+    ],
     "slug": "where-to-draw-the-line",
     "status": "seedling",
     "type": "articles",
@@ -22840,7 +24121,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Where to Start With Strategy?", "where-to-start-with-strategy"],
+    "ids": [
+      "Where to Start With Strategy?",
+      "where-to-start-with-strategy"
+    ],
     "slug": "where-to-start-with-strategy",
     "status": "seedling",
     "type": "articles",
@@ -22927,7 +24211,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Why AI Will Save the World", "why-ai-will-save-the-world"],
+    "ids": [
+      "Why AI Will Save the World",
+      "why-ai-will-save-the-world"
+    ],
     "slug": "why-ai-will-save-the-world",
     "status": "seedling",
     "type": "articles",
@@ -22957,7 +24244,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Why Brand Comes First", "why-brand-comes-first"],
+    "ids": [
+      "Why Brand Comes First",
+      "why-brand-comes-first"
+    ],
     "slug": "why-brand-comes-first",
     "status": "seedling",
     "type": "articles",
@@ -23050,7 +24340,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Why Content Is King", "why-content-is-king"],
+    "ids": [
+      "Why Content Is King",
+      "why-content-is-king"
+    ],
     "slug": "why-content-is-king",
     "status": "seedling",
     "type": "articles",
@@ -23058,7 +24351,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Why Costco Is So Loved", "why-costco-is-so-loved"],
+    "ids": [
+      "Why Costco Is So Loved",
+      "why-costco-is-so-loved"
+    ],
     "slug": "why-costco-is-so-loved",
     "status": "seedling",
     "type": "articles",
@@ -23095,7 +24391,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Why Cultural Obsessives Matter", "why-cultural-obsessives-matter"],
+    "ids": [
+      "Why Cultural Obsessives Matter",
+      "why-cultural-obsessives-matter"
+    ],
     "slug": "why-cultural-obsessives-matter",
     "status": "seedling",
     "type": "articles",
@@ -23242,7 +24541,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Why Is It So Hard to Change?", "why-is-it-so-hard-to-change"],
+    "ids": [
+      "Why Is It So Hard to Change?",
+      "why-is-it-so-hard-to-change"
+    ],
     "slug": "why-is-it-so-hard-to-change",
     "status": "seedling",
     "type": "articles",
@@ -23424,7 +24726,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Why We Avoid Taking Action", "why-we-avoid-taking-action"],
+    "ids": [
+      "Why We Avoid Taking Action",
+      "why-we-avoid-taking-action"
+    ],
     "slug": "why-we-avoid-taking-action",
     "status": "seedling",
     "type": "articles",
@@ -23460,7 +24765,10 @@
     ]
   },
   {
-    "ids": ["Will AI agents eat SaaS?", "will-ai-agents-eat-saas"],
+    "ids": [
+      "Will AI agents eat SaaS?",
+      "will-ai-agents-eat-saas"
+    ],
     "slug": "will-ai-agents-eat-saas",
     "status": "seedling",
     "type": "articles",
@@ -23497,7 +24805,10 @@
     ]
   },
   {
-    "ids": ["Working Backwards", "working-backwards"],
+    "ids": [
+      "Working Backwards",
+      "working-backwards"
+    ],
     "slug": "working-backwards",
     "status": "seedling",
     "type": "articles",
@@ -23524,7 +24835,10 @@
     ]
   },
   {
-    "ids": ["Workshops as Portals", "workshops-as-portals"],
+    "ids": [
+      "Workshops as Portals",
+      "workshops-as-portals"
+    ],
     "slug": "workshops-as-portals",
     "status": "seedling",
     "type": "articles",
@@ -23532,7 +24846,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Would You Date Yourself?", "would-you-date-yourself"],
+    "ids": [
+      "Would You Date Yourself?",
+      "would-you-date-yourself"
+    ],
     "slug": "would-you-date-yourself",
     "status": "seedling",
     "type": "articles",
@@ -23540,7 +24857,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Writer-Builders", "writer-builders"],
+    "ids": [
+      "Writer-Builders",
+      "writer-builders"
+    ],
     "slug": "writer-builders",
     "status": "seedling",
     "type": "articles",
@@ -23548,7 +24868,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Writing With ChatGPT", "writing-with-chatgpt"],
+    "ids": [
+      "Writing With ChatGPT",
+      "writing-with-chatgpt"
+    ],
     "slug": "writing-with-chatgpt",
     "status": "seedling",
     "type": "articles",
@@ -23556,7 +24879,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Writing Wrapped", "writing-wrapped"],
+    "ids": [
+      "Writing Wrapped",
+      "writing-wrapped"
+    ],
     "slug": "writing-wrapped",
     "status": "seedling",
     "type": "articles",
@@ -23564,7 +24890,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["WTF Is the Fediverse?", "wtf-is-the-fediverse"],
+    "ids": [
+      "WTF Is the Fediverse?",
+      "wtf-is-the-fediverse"
+    ],
     "slug": "wtf-is-the-fediverse",
     "status": "seedling",
     "type": "articles",
@@ -23722,7 +25051,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["You’re Not Special", "youre-not-special"],
+    "ids": [
+      "You’re Not Special",
+      "youre-not-special"
+    ],
     "slug": "youre-not-special",
     "status": "seedling",
     "type": "articles",
@@ -23748,7 +25080,10 @@
     "inboundLinks": []
   },
   {
-    "ids": ["Commerce", "commerce"],
+    "ids": [
+      "Commerce",
+      "commerce"
+    ],
     "slug": "commerce",
     "status": "budding",
     "type": "topics",
@@ -23792,7 +25127,10 @@
     ]
   },
   {
-    "ids": ["Consulting", "consulting"],
+    "ids": [
+      "Consulting",
+      "consulting"
+    ],
     "slug": "consulting",
     "status": "budding",
     "type": "topics",
@@ -23918,7 +25256,10 @@
     ]
   },
   {
-    "ids": ["Customer experience", "customer-experience"],
+    "ids": [
+      "Customer experience",
+      "customer-experience"
+    ],
     "slug": "customer-experience",
     "status": "budding",
     "type": "topics",
@@ -23950,7 +25291,10 @@
     ]
   },
   {
-    "ids": ["Knowledge management", "knowledge-management"],
+    "ids": [
+      "Knowledge management",
+      "knowledge-management"
+    ],
     "slug": "knowledge-management",
     "status": "budding",
     "type": "topics",
@@ -24003,7 +25347,10 @@
     ]
   },
   {
-    "ids": ["Leadership", "leadership"],
+    "ids": [
+      "Leadership",
+      "leadership"
+    ],
     "slug": "leadership",
     "status": "budding",
     "type": "topics",
@@ -24301,7 +25648,10 @@
     ]
   },
   {
-    "ids": ["Marketing", "marketing"],
+    "ids": [
+      "Marketing",
+      "marketing"
+    ],
     "slug": "marketing",
     "status": "budding",
     "type": "topics",
@@ -24816,7 +26166,10 @@
     ]
   },
   {
-    "ids": ["Software engineering", "software-engineering"],
+    "ids": [
+      "Software engineering",
+      "software-engineering"
+    ],
     "slug": "software-engineering",
     "status": "budding",
     "type": "topics",
@@ -24843,7 +26196,10 @@
     ]
   },
   {
-    "ids": ["Strategy", "strategy"],
+    "ids": [
+      "Strategy",
+      "strategy"
+    ],
     "slug": "strategy",
     "status": "budding",
     "type": "topics",
@@ -25174,7 +26530,10 @@
     ]
   },
   {
-    "ids": ["Systems thinking", "systems-thinking"],
+    "ids": [
+      "Systems thinking",
+      "systems-thinking"
+    ],
     "slug": "systems-thinking",
     "status": "seedling",
     "type": "topics",
@@ -25212,7 +26571,10 @@
     ]
   },
   {
-    "ids": ["Writing", "writing"],
+    "ids": [
+      "Writing",
+      "writing"
+    ],
     "slug": "writing",
     "status": "budding",
     "type": "topics",

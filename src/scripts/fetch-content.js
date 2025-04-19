@@ -31,9 +31,9 @@ function slugifyFileName(fileName) {
 
 async function processReadwiseContent() {
   console.log('Adjusting paths for Readwise content...');
-  const contentTypes = ['books', 'articles', 'topics'];
+  const types = ['books', 'articles', 'topics'];
 
-  for (const type of contentTypes) {
+  for (const type of types) {
     console.log(`Adjusting paths for ${type}...`);
     const sourcePath = path.join(CONTENT_DIR, 'readwise', type);
     const targetPath = path.join(CONTENT_DIR, type);
