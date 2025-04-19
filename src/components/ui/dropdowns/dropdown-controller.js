@@ -4,13 +4,14 @@ export default class DropdownController extends Controller {
   static targets = ["button", "menu"];
 
   connect() {
-    // Set up event listeners
-    document.addEventListener("mouseleave", this.handleMouseLeave.bind(this));
+    this.closeTimeout = null;
     document.addEventListener("keydown", this.handleKeyDown.bind(this));
   }
 
   disconnect() {
-    document.removeEventListener("mouseleave", this.handleMouseLeave.bind(this));
+    if (this.closeTimeout) {
+      clearTimeout(this.closeTimeout);
+    }
     document.removeEventListener("keydown", this.handleKeyDown.bind(this));
   }
 
@@ -23,6 +24,9 @@ export default class DropdownController extends Controller {
   }
 
   open() {
+    if (this.closeTimeout) {
+      clearTimeout(this.closeTimeout);
+    }
     this.menuTarget.classList.remove("hidden", "opacity-0", "scale-95");
     this.menuTarget.classList.add("opacity-100", "scale-100");
     this.buttonTarget.setAttribute("aria-expanded", "true");
@@ -30,25 +34,22 @@ export default class DropdownController extends Controller {
   }
 
   close() {
-    this.menuTarget.classList.remove("opacity-100", "scale-100");
-    this.menuTarget.classList.add("opacity-0", "scale-95");
+    this.closeTimeout = setTimeout(() => {
+      if (!this.element.contains(document.activeElement)) {
+        this.menuTarget.classList.remove("opacity-100", "scale-100");
+        this.menuTarget.classList.add("opacity-0", "scale-95");
 
-    // Wait for transition to complete before hiding
-    setTimeout(() => {
-      if (!this.isOpen) {
-        this.menuTarget.classList.add("hidden");
+        // Wait for transition to complete before hiding
+        setTimeout(() => {
+          if (!this.isOpen) {
+            this.menuTarget.classList.add("hidden");
+          }
+        }, 100);
+
+        this.buttonTarget.setAttribute("aria-expanded", "false");
+        this.isOpen = false;
       }
     }, 100);
-
-    this.buttonTarget.setAttribute("aria-expanded", "false");
-    this.isOpen = false;
-  }
-
-  handleMouseLeave(event) {
-    // Only close if we're leaving the entire dropdown area
-    if (!this.element.contains(event.relatedTarget) && this.isOpen) {
-      this.close();
-    }
   }
 
   handleKeyDown(event) {

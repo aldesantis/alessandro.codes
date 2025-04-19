@@ -7,11 +7,14 @@ interface Props {
 const { label, href = "#" } = Astro.props;
 ---
 
-<div data-controller="dropdown" class="relative inline-block text-left">
+<div
+  data-controller="dropdown"
+  class="relative inline-block text-left"
+  data-action="mouseenter->dropdown#open mouseleave->dropdown#close"
+>
   <a
     href={href}
     data-dropdown-target="button"
-    data-action="mouseenter->dropdown#open mouseleave->dropdown#close"
     class="dropdown-button inline-flex w-full hover:text-orange-700 cursor-pointer"
   >
     {label}
