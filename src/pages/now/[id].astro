@@ -1,9 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
-import { getSortedNows } from "src/lib/content/nows";
+import { getSortedNows } from "src/lib/garden/nows";
 import Link from "@components/ui/Link.astro";
-import ContentLayout from "@components/content/ContentLayout.astro";
+import ContentLayout from "@components/garden/GardenEntryDetail.astro";
 
 export async function getStaticPaths() {
   const nows = await getCollection("nows");

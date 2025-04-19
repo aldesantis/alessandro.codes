@@ -1,4 +1,4 @@
-import navigation from "../data/navigation.json";
+import navigation from "src/data/navigation.json";
 
 // Define types for navigation items
 export type NavigationChild = {

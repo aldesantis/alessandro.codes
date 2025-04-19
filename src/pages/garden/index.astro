@@ -1,10 +1,10 @@
 ---
-import ContentCard from "@components/content/ContentCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getSortedGardenContent } from "src/lib/content/garden";
+import { getSortedGardenEntries } from "src/lib/garden";
+import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
 
-const content = await getSortedGardenContent();
+const content = await getSortedGardenEntries();
 ---
 
 <Layout>
@@ -17,17 +17,5 @@ const content = await getSortedGardenContent();
     </span>
   </Hero>
 
-  <div class="columns-1 sm:columns-2 lg:columns-3 gap-8 [column-fill:balance]">
-    {
-      content.length > 0 ? (
-        content.map((item) => (
-          <div class="break-inside-avoid mb-8">
-            <ContentCard content={item} />
-          </div>
-        ))
-      ) : (
-        <p>Nothing here yet! Check back soon.</p>
-      )
-    }
-  </div>
+  <ContentGrid items={content} itemSize="M" />
 </Layout>

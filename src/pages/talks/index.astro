@@ -1,9 +1,9 @@
 ---
-import TalkCard from "@components/talks/TalkCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { getSortedTalks } from "src/lib/content/talks";
+import { getSortedTalks } from "src/lib/garden/talks";
+import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
 
 const talks = await getSortedTalks();
 ---
@@ -18,7 +18,5 @@ const talks = await getSortedTalks();
     </span>
   </Hero>
 
-  <div class="grid lg:grid-cols-2 gap-8">
-    {talks.map((talk) => <TalkCard talk={talk} />)}
-  </div>
+  <ContentGrid items={talks} itemSize="L" />
 </Layout>

@@ -1,8 +1,8 @@
 ---
 import LinkedCard from "@components/ui/LinkedCard.astro";
-import EssayMeta from "@components/essays/EssayMeta.astro";
+import EssayMeta from "@components/garden/essays/EssayMeta.astro";
 import type { CollectionEntry } from "astro:content";
-import { getFirstParagraph, renderToString } from "src/lib/content";
+import { getFirstParagraph, renderToString } from "src/lib/rendering";
 
 export interface Props {
   essay: CollectionEntry<"essays">;

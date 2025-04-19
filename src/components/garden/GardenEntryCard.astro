@@ -1,15 +1,14 @@
 ---
-import type { CollectionEntry } from "astro:content";
-import EssayCard from "@components/essays/EssayCard.astro";
-import BookCard from "@components/books/BookCard.astro";
-import NoteCard from "@components/notes/NoteCard.astro";
-import TopicCard from "@components/topics/TopicCard.astro";
-import TalkCard from "@components/talks/TalkCard.astro";
-
-type ContentType = "essays" | "books" | "notes" | "topics" | "talks";
+import type { GardenEntry } from "src/lib/garden";
+import EssayCard from "@components/garden/essays/EssayCard.astro";
+import BookCard from "@components/garden/books/BookCard.astro";
+import NoteCard from "@components/garden/notes/NoteCard.astro";
+import TopicCard from "@components/garden/topics/TopicCard.astro";
+import TalkCard from "@components/garden/talks/TalkCard.astro";
+import { type CollectionEntry } from "astro:content";
 
 interface Props {
-  content: CollectionEntry<ContentType>;
+  content: GardenEntry;
 }
 
 const { content } = Astro.props;

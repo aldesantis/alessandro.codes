@@ -17,16 +17,6 @@ const readwiseSchema = z.object({
 });
 
 export const collections = {
-  projects: defineCollection({
-    schema: z.object({
-      name: z.string(),
-      url: z.string().url(),
-      description: z.string(),
-      featured: z.boolean().optional().default(false),
-    }),
-    loader: file("src/data/projects.json"),
-  }),
-
   socials: defineCollection({
     schema: z.object({
       name: z.string(),

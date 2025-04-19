@@ -1,5 +1,5 @@
 ---
-import { getSortedNows } from "src/lib/content/nows";
+import { getSortedNows } from "src/lib/garden/nows";
 
 const latestNow = (await getSortedNows())[0]!;
 const latestNowUrl = `/now/${latestNow.id}`;

@@ -3,10 +3,11 @@ import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import { render } from "astro:content";
-import { getMdxComponents, getRelatedContent } from "src/lib/content";
+import { getMdxComponents } from "src/lib/rendering";
 import Prose from "@components/ui/Prose.astro";
-import ContentCard from "@components/content/ContentCard.astro";
-import TopicMeta from "@components/topics/TopicMeta.astro";
+import TopicMeta from "@components/garden/topics/TopicMeta.astro";
+import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
+import { getRelatedGardenEntries } from "src/lib/garden";
 
 export async function getStaticPaths() {
   const topics = await getCollection("topics");
@@ -19,7 +20,7 @@ export async function getStaticPaths() {
 
 const { topic } = Astro.props;
 const { Content } = await render(topic);
-const relatedContent = await getRelatedContent(topic);
+const relatedContent = await getRelatedGardenEntries(topic);
 ---
 
 <title slot="head">{topic.data.title} | Alessandro Desantis</title>
@@ -53,13 +54,7 @@ const relatedContent = await getRelatedContent(topic);
   {
     relatedContent.length > 0 && (
       <div class="mt-12">
-        <div class="columns-1 sm:columns-3 gap-6 [column-fill:balance]">
-          {relatedContent.map((content) => (
-            <div class="break-inside-avoid mb-6">
-              <ContentCard content={content} />
-            </div>
-          ))}
-        </div>
+        <ContentGrid items={relatedContent} itemSize="M" />
       </div>
     )
   }

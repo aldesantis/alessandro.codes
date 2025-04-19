@@ -1,9 +1,9 @@
 ---
-import TopicCard from "@components/topics/TopicCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { getSortedTopics } from "src/lib/content/topics";
+import { getSortedTopics } from "src/lib/garden/topics";
+import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
 
 const topics = await getSortedTopics();
 ---
@@ -18,7 +18,5 @@ const topics = await getSortedTopics();
     </span>
   </Hero>
 
-  <div class="grid lg:grid-cols-2 gap-8">
-    {topics.map((topic) => <TopicCard topic={topic} />)}
-  </div>
+  <ContentGrid items={topics} itemSize="M" />
 </Layout>

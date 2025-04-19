@@ -2,10 +2,10 @@
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import BookCover from "@components/books/BookCover.astro";
-import ContentSidebar from "@components/content/ContentSidebar.astro";
-import ContentLayout from "@components/content/ContentLayout.astro";
-import BookMeta from "@components/books/BookMeta.astro";
+import BookCover from "@components/garden/books/BookCover.astro";
+import ContentSidebar from "@components/garden/GardenEntrySidebar.astro";
+import ContentLayout from "@components/garden/GardenEntryDetail.astro";
+import BookMeta from "@components/garden/books/BookMeta.astro";
 
 export async function getStaticPaths() {
   const books = await getCollection("books");

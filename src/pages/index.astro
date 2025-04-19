@@ -2,15 +2,15 @@
 import Link from "@components/ui/Link.astro";
 import SectionHeading from "@components/ui/sections/SectionHeading.astro";
 import Section from "@components/ui/sections/Section.astro";
-import EssayCard from "@components/essays/EssayCard.astro";
+import EssayCard from "@components/garden/essays/EssayCard.astro";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import BookCard from "@components/books/BookCard.astro";
-import { getSortedBooks } from "src/lib/content/books";
-import { getSortedNotes } from "src/lib/content/notes";
-import NoteCard from "@components/notes/NoteCard.astro";
+import BookCard from "@components/garden/books/BookCard.astro";
+import { getSortedBooks } from "src/lib/garden/books";
+import { getSortedNotes } from "src/lib/garden/notes";
+import NoteCard from "@components/garden/notes/NoteCard.astro";
 import sections from "src/data/sections.json";
-import { getSortedEssays } from "src/lib/content/essays";
+import { getSortedEssays } from "src/lib/garden/essays";
 
 const essays = (await getSortedEssays()).slice(0, 6);
 const notes = (await getSortedNotes()).slice(0, 6);

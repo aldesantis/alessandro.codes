@@ -2,8 +2,8 @@
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import ContentLayout from "@components/content/ContentLayout.astro";
-import EssayMeta from "@components/essays/EssayMeta.astro";
+import ContentLayout from "@components/garden/GardenEntryDetail.astro";
+import EssayMeta from "@components/garden/essays/EssayMeta.astro";
 
 export async function getStaticPaths() {
   const essays = await getCollection("essays");

@@ -1,9 +1,9 @@
 ---
-import BookCard from "@components/books/BookCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getSortedBooks } from "src/lib/content/books";
+import { getSortedBooks } from "src/lib/garden/books";
 import sections from "src/data/sections.json";
+import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
 
 const books = await getSortedBooks();
 ---
@@ -18,7 +18,5 @@ const books = await getSortedBooks();
     </span>
   </Hero>
 
-  <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-    {books.map((book) => <BookCard book={book} />)}
-  </div>
+  <ContentGrid items={books} itemSize="S" />
 </Layout>

@@ -1,4 +1,4 @@
-import linksData from "../data/links.json";
+import linksData from "src/data/links.json";
 
 export interface Link {
   title: string;

@@ -1,0 +1,36 @@
+---
+import ContentCard from "@components/garden/GardenEntryCard.astro";
+import type { GardenEntry } from "src/lib/garden/garden";
+
+interface Props {
+  items: GardenEntry[];
+  itemSize: "S" | "M" | "L";
+}
+
+const { items, itemSize } = Astro.props;
+
+function getColumnsForSize(size: "S" | "M" | "L"): string {
+  switch (size) {
+    case "S":
+      return "columns-1 sm:columns-2 lg:columns-4";
+    case "M":
+      return "columns-1 sm:columns-2 lg:columns-3";
+    case "L":
+      return "columns-1 sm:columns-2 lg:columns-2";
+  }
+}
+---
+
+<div class={`${getColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}>
+  {
+    items.length > 0 ? (
+      items.map((item) => (
+        <div class="break-inside-avoid mb-4">
+          <ContentCard content={item} slot="item" />
+        </div>
+      ))
+    ) : (
+      <p>Nothing here yet! Check back soon.</p>
+    )
+  }
+</div>

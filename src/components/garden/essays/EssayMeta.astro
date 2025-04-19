@@ -1,12 +1,12 @@
 ---
-import ContentStatus from "@components/content/ContentStatus.astro";
+import ContentStatus from "@components/garden/GardenEntryStatus.astro";
 import RelativeDate from "@components/ui/RelativeDate.astro";
-import TopicList from "@components/topics/TopicList.astro";
+import TopicList from "@components/garden/topics/TopicList.astro";
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
 
 export interface Props {
-  content: CollectionEntry<"notes">;
+  content: CollectionEntry<"essays">;
   compact?: boolean;
 }
 
@@ -19,16 +19,16 @@ const { remarkPluginFrontmatter } = await render(content);
 
   <span class="mx-0.5">•</span>
 
-  <span>
-    Watered <RelativeDate date={content.data.updatedAt} />
-  </span>
+  <span>Published <RelativeDate date={content.data.createdAt} /></span>
 
   {
-    !compact && (
+    !compact && remarkPluginFrontmatter.readingTime && (
       <>
         <span class="mx-0.5">•</span>
+
         <span>
-          Planted <RelativeDate date={content.data.createdAt} />
+          {remarkPluginFrontmatter.readingTime} min
+          {remarkPluginFrontmatter.readingTime != 1 ? "s" : ""} read
         </span>
       </>
     )
@@ -38,19 +38,8 @@ const { remarkPluginFrontmatter } = await render(content);
     !compact && content.data.topics && content.data.topics.length > 0 && (
       <>
         <span class="mx-0.5">•</span>
-        <TopicList topics={content.data.topics} />
-      </>
-    )
-  }
 
-  {
-    !compact && (
-      <>
-        <span class="mx-0.5">•</span>
-        <span>
-          {remarkPluginFrontmatter.readingTime} min
-          {remarkPluginFrontmatter.readingTime != 1 ? "s" : ""} read
-        </span>
+        <TopicList topics={content.data.topics} />
       </>
     )
   }

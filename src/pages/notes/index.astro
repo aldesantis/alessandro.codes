@@ -1,9 +1,9 @@
 ---
-import NoteCard from "@components/notes/NoteCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getSortedNotes } from "src/lib/content/notes";
+import { getSortedNotes } from "src/lib/garden/notes";
 import sections from "src/data/sections.json";
+import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
 
 const notes = await getSortedNotes();
 ---
@@ -18,7 +18,5 @@ const notes = await getSortedNotes();
     </span>
   </Hero>
 
-  <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-4">
-    {notes.map((note) => <NoteCard note={note} />)}
-  </div>
+  <ContentGrid items={notes} itemSize="M" />
 </Layout>

@@ -1,7 +1,7 @@
-import { getSortedEssays } from "src/lib/content/essays";
-import { getSortedNotes } from "src/lib/content/notes";
-import { getSortedNows } from "src/lib/content/nows";
-import { getSortedBooks } from "src/lib/content/books";
+import { getSortedEssays } from "src/lib/garden/essays";
+import { getSortedNotes } from "src/lib/garden/notes";
+import { getSortedNows } from "src/lib/garden/nows";
+import { getSortedBooks } from "src/lib/garden/books";
 import type { APIRoute } from "astro";
 
 interface ContentItem {

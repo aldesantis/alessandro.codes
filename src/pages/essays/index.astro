@@ -1,9 +1,9 @@
 ---
-import EssayCard from "@components/essays/EssayCard.astro";
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { getSortedEssays } from "src/lib/content/essays";
+import { getSortedEssays } from "src/lib/garden/essays";
+import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
 
 const essays = await getSortedEssays();
 ---
@@ -18,13 +18,5 @@ const essays = await getSortedEssays();
     </span>
   </Hero>
 
-  <div class="grid lg:grid-cols-2 gap-8">
-    {
-      essays.length > 0 ? (
-        essays.map((essay) => <EssayCard essay={essay} />)
-      ) : (
-        <p>Nothing here yet! Check back soon.</p>
-      )
-    }
-  </div>
+  <ContentGrid items={essays} itemSize="L" />
 </Layout>
