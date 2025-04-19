@@ -15,7 +15,7 @@ const currentPath = Astro.url.pathname;
 const headerNavigation = getHeaderNavigation();
 ---
 
-<div class="relative">
+<div class="relative" data-controller="navbar">
   <div class="py-4 border-b">
     <div class="container" data-js-navbar>
       <nav class="flex items-center justify-between font-sans">
@@ -91,7 +91,8 @@ const headerNavigation = getHeaderNavigation();
           <button
             class="hover:text-orange-700"
             aria-label="Toggle menu"
-            data-js-mobile-toggle
+            data-navbar-target="mobileToggle"
+            data-action="click->navbar#openMenu"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -114,14 +115,15 @@ const headerNavigation = getHeaderNavigation();
 
   <div
     class="fixed inset-y-0 right-0 w-64 bg-zinc-50 shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50 md:hidden"
-    data-js-mobile-menu
+    data-navbar-target="mobileMenu"
   >
     <nav class="flex flex-col font-sans p-6 h-full">
       <div class="flex justify-end">
         <button
           class="p-2 hover:text-orange-700"
           aria-label="Close menu"
-          data-js-mobile-close
+          data-navbar-target="mobileClose"
+          data-action="click->navbar#closeMenu"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -173,50 +175,9 @@ const headerNavigation = getHeaderNavigation();
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const navbar = document.querySelector("[data-js-navbar]");
-    const mobileMenu = document.querySelector("[data-js-mobile-menu]");
-    const mobileToggle = document.querySelector("[data-js-mobile-toggle]");
-    const mobileClose = document.querySelector("[data-js-mobile-close]");
+  import NavbarController from "./navbar-controller";
+  import { Application } from "@hotwired/stimulus";
 
-    if (!navbar || !mobileMenu || !mobileToggle || !mobileClose) {
-      console.error("Required navbar elements not found");
-      return;
-    }
-
-    function openMenu() {
-      if (mobileMenu) {
-        mobileMenu.classList.remove("translate-x-full");
-        document.body.style.overflow = "hidden";
-      }
-    }
-
-    function closeMenu() {
-      if (mobileMenu) {
-        mobileMenu.classList.add("translate-x-full");
-        document.body.style.overflow = "";
-      }
-    }
-
-    mobileToggle.addEventListener("click", openMenu);
-    mobileClose.addEventListener("click", closeMenu);
-
-    document.addEventListener("click", (event) => {
-      if (
-        event.target instanceof Node &&
-        navbar &&
-        !navbar.contains(event.target) &&
-        mobileMenu &&
-        !mobileMenu.contains(event.target)
-      ) {
-        closeMenu();
-      }
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") {
-        closeMenu();
-      }
-    });
-  });
+  const application = Application.start();
+  application.register("navbar", NavbarController);
 </script>
