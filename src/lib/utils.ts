@@ -5,7 +5,7 @@ export function isInternalUrl(url: string): boolean {
     const parsedUrl = new URL(url, base);
 
     return parsedUrl.hostname === base.hostname && !parsedUrl.pathname.startsWith("/articles");
-  } catch (e) {
+  } catch {
     return false;
   }
 }

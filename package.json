@@ -7,8 +7,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "prettier --check . && astro check",
-    "format": "prettier --write .",
+    "lint": "prettier --check . && eslint . && astro check",
+    "format": "prettier --write . && eslint --fix .",
     "fetch-content": "node src/scripts/fetch-content.js",
     "generate-index": "node src/scripts/generate-index.js",
     "update-content": "npm run fetch-content && npm run generate-index && git add src/data/index.json src/content && git commit -m 'Update content' && git push"
@@ -35,9 +35,14 @@
     "@iconify-json/fa6-regular": "^1.2.3",
     "@iconify-json/fa6-solid": "^1.2.3",
     "@tailwindcss/typography": "^0.5.15",
+    "@typescript-eslint/eslint-plugin": "^8.30.1",
+    "@typescript-eslint/parser": "^8.30.1",
     "chalk": "^5.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-astro": "^1.3.1",
     "node-fetch": "^3.3.2",
     "prettier": "^3.4.2",
-    "prettier-plugin-astro": "^0.14.1"
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript-eslint": "^8.30.1"
   }
 }

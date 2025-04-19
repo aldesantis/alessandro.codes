@@ -27,7 +27,7 @@ const bracketsExtractor = (content) => {
 const getFilesFromDir = (dir) => {
   try {
     return fs.readdirSync(dir).filter((file) => file.endsWith(".md") || file.endsWith(".mdx"));
-  } catch (e) {
+  } catch {
     console.warn(`No directory found for ${dir}`);
     return [];
   }
@@ -45,19 +45,13 @@ const getDataForBacklinks = (fileNames, filePath) =>
       const slugFromFrontmatter = data.slug;
       const slug = slugFromFrontmatter || fileName.replace(/\.mdx?$/, "").replace(/\.md?$/, "");
 
-      const { title, aliases, status, description, publish } = data;
-
-      // Skip draft posts
-      if (publish === false) {
-        return null;
-      }
+      const { title, aliases } = data;
 
       return {
         content,
         slug,
         title,
         aliases,
-        status,
       };
     })
     .filter(Boolean); // Remove null entries (drafts)
@@ -79,11 +73,9 @@ const getAllGardenEntryData = () => {
   const totalGardenEntryData = getAllGardenEntryData();
 
   // Create initial objects with identifiers and empty link arrays
-  const gardenEntries = totalGardenEntryData.map(({ title, aliases, slug, status, description, type }) => ({
+  const gardenEntries = totalGardenEntryData.map(({ title, aliases, slug, type }) => ({
     ids: [...new Set([title, ...(aliases || []), slug])],
     slug,
-    status,
-    description,
     type,
     outboundLinks: [],
     inboundLinks: [],

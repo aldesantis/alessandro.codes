@@ -147,7 +147,7 @@ export function getYouTubeEmbedUrl(url: string): string {
     }
 
     return embedUrl.toString();
-  } catch (error) {
+  } catch {
     console.warn(`Invalid URL format: ${url}`);
     return url;
   }
