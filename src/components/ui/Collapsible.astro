@@ -12,12 +12,7 @@ const randomId = `collapsible-${Math.random().toString(36).substring(2, 10)}`;
 ---
 
 <div class:list={["collapsible", className]}>
-  <input
-    type="checkbox"
-    id={randomId}
-    class="collapsible-checkbox sr-only"
-    aria-hidden="true"
-  />
+  <input type="checkbox" id={randomId} class="collapsible-checkbox sr-only" aria-hidden="true" />
   <label
     for={randomId}
     class="collapsible-label flex w-full items-center justify-between border-b border-zinc-200 py-2 cursor-pointer hover:text-zinc-600 transition-colors"
@@ -25,9 +20,7 @@ const randomId = `collapsible-${Math.random().toString(36).substring(2, 10)}`;
     <span class="text-base font-medium font-sans">{label}</span>
     <ChevronDownIcon />
   </label>
-  <div
-    class="collapsible-content overflow-hidden transition-all duration-300 ease-in-out max-h-0"
-  >
+  <div class="collapsible-content overflow-hidden transition-all duration-300 ease-in-out max-h-0">
     <div class="py-2">
       <slot />
     </div>

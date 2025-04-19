@@ -2,20 +2,14 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import links from "src/data/index.json";
 import type { ImageMetadata } from "astro";
 
-export type GardenEntryType =
-  | "essays"
-  | "books"
-  | "notes"
-  | "topics"
-  | "talks"
-  | "nows";
+export type GardenEntryType = "essays" | "books" | "notes" | "topics" | "talks" | "nows";
 
 export type GardenEntry = CollectionEntry<GardenEntryType>;
 
 export interface GardenEntryLink {
   title: string;
   slug: string;
-  type: GardenEntryType;
+  type: string;
 }
 
 export interface GardenEntryLinks {
@@ -33,6 +27,7 @@ function getGardenEntryDate(content: GardenEntry): Date {
 function sortGardenEntriesByDate(a: GardenEntry, b: GardenEntry): number {
   const dateA = getGardenEntryDate(a);
   const dateB = getGardenEntryDate(b);
+
   return dateB.getTime() - dateA.getTime();
 }
 
@@ -47,9 +42,7 @@ export async function getSortedGardenEntries(): Promise<GardenEntry[]> {
   return allContent.sort(sortGardenEntriesByDate);
 }
 
-export async function getRelatedGardenEntries(
-  entry: GardenEntry
-): Promise<GardenEntry[]> {
+export async function getRelatedGardenEntries(entry: GardenEntry): Promise<GardenEntry[]> {
   const { outboundLinks, inboundLinks } = getGardenEntryLinks(entry.id);
 
   const allLinks = [...outboundLinks, ...inboundLinks];
@@ -62,6 +55,7 @@ export async function getRelatedGardenEntries(
   const notes = await getCollection("notes");
   const topics = await getCollection("topics");
   const talks = await getCollection("talks");
+  const nows = await getCollection("nows");
 
   return uniqueLinks
     .map((link) => {
@@ -76,21 +70,18 @@ export async function getRelatedGardenEntries(
           return topics.find((t) => t.id === link.slug);
         case "talks":
           return talks.find((t) => t.id === link.slug);
+        case "nows":
+          return nows.find((n) => n.id === link.slug);
         default:
           return null;
       }
     })
-    .filter(
-      (content): content is GardenEntry =>
-        content !== null && content !== undefined
-    )
+    .filter((content): content is GardenEntry => content !== null && content !== undefined)
     .sort(sortGardenEntriesByDate);
 }
 
 export function getGardenEntryLinks(gardenEntryId: string): GardenEntryLinks {
-  const gardenEntryData = links.find(
-    (entry) => entry.slug === gardenEntryId || entry.ids.includes(gardenEntryId)
-  );
+  const gardenEntryData = links.find((entry) => entry.slug === gardenEntryId || entry.ids.includes(gardenEntryId));
 
   if (!gardenEntryData) {
     return { outboundLinks: [], inboundLinks: [] };
@@ -103,29 +94,21 @@ export function getGardenEntryLinks(gardenEntryId: string): GardenEntryLinks {
 }
 
 export async function getSortedEssays(): Promise<CollectionEntry<"essays">[]> {
-  const essays = (await getCollection("essays")).sort((a, b) =>
-    a.data.updatedAt! > b.data.updatedAt! ? -1 : 1
-  );
+  const essays = (await getCollection("essays")).sort((a, b) => (a.data.updatedAt! > b.data.updatedAt! ? -1 : 1));
 
   return essays;
 }
 
 export async function getSortedBooks() {
   const books = (await getCollection("books")).sort((a, b) =>
-    new Date(a.data.lastHighlightedOn) > new Date(b.data.lastHighlightedOn)
-      ? -1
-      : 1
+    new Date(a.data.lastHighlightedOn) > new Date(b.data.lastHighlightedOn) ? -1 : 1
   );
 
   return books;
 }
 
-export async function fetchBookCover(
-  book: CollectionEntry<"books">
-): Promise<{ default: ImageMetadata }> {
-  const images = import.meta.glob<{ default: ImageMetadata }>(
-    "/src/assets/covers/*.jpg"
-  );
+export async function fetchBookCover(book: CollectionEntry<"books">): Promise<{ default: ImageMetadata }> {
+  const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/covers/*.jpg");
 
   const cover = images[`/src/assets/covers/${book.id.toLowerCase()}.jpg`];
 
@@ -149,8 +132,7 @@ export async function getSortedTopics(): Promise<CollectionEntry<"topics">[]> {
 export function getYouTubeEmbedUrl(url: string): string {
   try {
     const videoUrl = new URL(url);
-    const videoId =
-      videoUrl.searchParams.get("v") || videoUrl.pathname.split("/").pop();
+    const videoId = videoUrl.searchParams.get("v") || videoUrl.pathname.split("/").pop();
 
     if (!videoId) {
       console.warn(`Could not extract video ID from URL: ${url}`);
@@ -172,9 +154,7 @@ export function getYouTubeEmbedUrl(url: string): string {
 }
 
 export async function getSortedTalks(): Promise<CollectionEntry<"talks">[]> {
-  const talks = (await getCollection("talks")).sort((a, b) =>
-    a.data.createdAt > b.data.createdAt ? -1 : 1
-  );
+  const talks = (await getCollection("talks")).sort((a, b) => (a.data.createdAt > b.data.createdAt ? -1 : 1));
 
   return talks;
 }
@@ -202,9 +182,7 @@ export async function getSortedNotes() {
 }
 
 export async function getSortedNows(): Promise<CollectionEntry<"nows">[]> {
-  const nows = (await getCollection("nows")).sort((a, b) =>
-    a.id > b.id ? -1 : 1
-  );
+  const nows = (await getCollection("nows")).sort((a, b) => (a.id > b.id ? -1 : 1));
 
   return nows;
 }

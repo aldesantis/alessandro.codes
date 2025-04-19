@@ -2,13 +2,11 @@
 import ContentSidebar from "@components/garden/GardenEntrySidebar.astro";
 import Prose from "@components/ui/Prose.astro";
 import { getMdxComponents } from "src/lib/rendering";
-import type { CollectionEntry } from "astro:content";
+import type { GardenEntry } from "src/lib/garden";
 import { render } from "astro:content";
 
 export interface ContentLayoutProps {
-  entry: CollectionEntry<
-    "essays" | "notes" | "nows" | "books" | "articles" | "topics"
-  >;
+  entry: GardenEntry;
 }
 
 const { entry } = Astro.props;
@@ -41,9 +39,7 @@ const { Content } = await render(entry);
   </div>
 
   <div class="hidden lg:block lg:col-span-4">
-    <div
-      class="bg-white shadow-lg rounded-lg p-4 sticky top-4 max-h-[82vh] overflow-y-auto"
-    >
+    <div class="bg-white shadow-lg rounded-lg p-4 sticky top-4 max-h-[82vh] overflow-y-auto">
       <slot name="sidebar">
         <ContentSidebar entry={entry} />
       </slot>

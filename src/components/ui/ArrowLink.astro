@@ -13,16 +13,12 @@ const { arrowDirection, class: originalClass, ...props } = Astro.props;
   <span
     class:list={[
       "inline-flex items-center transition-transform duration-200",
-      arrowDirection === "left"
-        ? "-translate-x-6 group-hover:translate-x-0"
-        : "translate-x-0",
+      arrowDirection === "left" ? "-translate-x-6 group-hover:translate-x-0" : "translate-x-0",
     ]}
   >
     {
       arrowDirection === "left" && (
-        <span class="mr-2 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-          ←
-        </span>
+        <span class="mr-2 opacity-0 transition-opacity duration-200 group-hover:opacity-100">←</span>
       )
     }
 

@@ -18,10 +18,7 @@ const { href, ...props } = Astro.props;
 >
   <Card {...props}>
     <slot name="cover" slot="cover" />
-    <div
-      class="text-lg font-sans transition-all text-orange-400 group-hover:text-orange-700"
-      slot="title"
-    >
+    <div class="text-lg font-sans transition-all text-orange-400 group-hover:text-orange-700" slot="title">
       <slot name="title" />
     </div>
     <slot />

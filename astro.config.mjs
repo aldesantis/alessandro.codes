@@ -16,10 +16,7 @@ export default defineConfig({
   integrations: [tailwind(), icon(), mdx()],
 
   markdown: {
-    remarkPlugins: [
-      remarkReadingTime,
-      remarkWikiLink,
-    ],
+    remarkPlugins: [remarkReadingTime, remarkWikiLink],
   },
 
   image: {
@@ -29,6 +26,6 @@ export default defineConfig({
   server: {
     host: true,
   },
-  
-  adapter: vercel()
+
+  adapter: vercel(),
 });

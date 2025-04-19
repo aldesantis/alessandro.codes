@@ -16,10 +16,7 @@ export type NavigationItem = NavigationChild & {
 /**
  * Checks if a dropdown should be active based on the current path
  */
-export function isDropdownActive(
-  item: NavigationItem,
-  currentPath: string
-): boolean {
+export function isDropdownActive(item: NavigationItem, currentPath: string): boolean {
   if (!item.children) return false;
   return item.children.some((child) => {
     if (!child.matchPattern) return false;
@@ -30,10 +27,7 @@ export function isDropdownActive(
 /**
  * Checks if a navigation item is active based on the current path
  */
-export function isItemActive(
-  item: NavigationChild,
-  currentPath: string
-): boolean {
+export function isItemActive(item: NavigationChild, currentPath: string): boolean {
   if (!item.matchPattern) return false;
   return new RegExp(item.matchPattern).test(currentPath);
 }
@@ -50,11 +44,7 @@ export function getHeaderNavigation(): NavigationItem[] {
  */
 export function getFooterNavigation(): NavigationChild[] {
   return navigation
-    .filter(
-      (item: NavigationItem) =>
-        item.footer ||
-        (item.children && item.children.some((child) => child.footer))
-    )
+    .filter((item: NavigationItem) => item.footer || (item.children && item.children.some((child) => child.footer)))
     .flatMap((item: NavigationItem) => {
       if (item.children && item.children.length > 0) {
         return item.children.filter((child) => child.footer);

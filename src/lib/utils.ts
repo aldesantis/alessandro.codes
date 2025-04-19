@@ -4,10 +4,7 @@ export function isInternalUrl(url: string): boolean {
   try {
     const parsedUrl = new URL(url, base);
 
-    return (
-      parsedUrl.hostname === base.hostname &&
-      !parsedUrl.pathname.startsWith("/articles")
-    );
+    return parsedUrl.hostname === base.hostname && !parsedUrl.pathname.startsWith("/articles");
   } catch (e) {
     return false;
   }

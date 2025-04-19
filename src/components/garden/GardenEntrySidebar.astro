@@ -6,9 +6,7 @@ import { render } from "astro:content";
 import { getGardenEntryLinks } from "src/lib/garden";
 
 export interface Props {
-  entry: CollectionEntry<
-    "essays" | "notes" | "nows" | "books" | "articles" | "topics"
-  >;
+  entry: CollectionEntry<"essays" | "notes" | "nows" | "books" | "articles" | "topics">;
 }
 
 const { entry } = Astro.props;

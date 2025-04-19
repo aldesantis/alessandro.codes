@@ -27,17 +27,8 @@ const headingsWithTitle = [
   <LinkList>
     {
       headingsWithTitle.map((heading) => (
-        <div
-          class:list={[
-            heading.depth === 2 && "pl-4",
-            heading.depth === 3 && "pl-8",
-          ]}
-        >
-          <Link
-            href={`#${heading.slug}`}
-            variant="muted"
-            class="font-sans text-sm"
-          >
+        <div class:list={[heading.depth === 2 && "pl-4", heading.depth === 3 && "pl-8"]}>
+          <Link href={`#${heading.slug}`} variant="muted" class="font-sans text-sm">
             {heading.text}
           </Link>
         </div>

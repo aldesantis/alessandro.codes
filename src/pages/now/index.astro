@@ -6,3 +6,6 @@ const latestNowUrl = `/now/${latestNow.id}`;
 
 return Astro.redirect(latestNowUrl, 301);
 ---
+
+{/* This is only needed to prevent an unused variable error in `astro check` */}
+<p>Redirecting to <a href={latestNowUrl}>{latestNowUrl}</a>...</p>

@@ -14,3 +14,6 @@ const { articleUrl } = Astro.props;
 
 return Astro.redirect(articleUrl, 301);
 ---
+
+{/* This is only needed to prevent an unused variable error in `astro check` */}
+<p>Redirecting to <a href={articleUrl}>{articleUrl}</a>...</p>

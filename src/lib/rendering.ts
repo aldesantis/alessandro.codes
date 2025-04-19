@@ -6,9 +6,7 @@ import * as cheerio from "cheerio";
 import Link from "@components/ui/Link.astro";
 import type { AnyEntryMap, CollectionEntry } from "astro:content";
 
-export async function renderToString(
-  entry: CollectionEntry<keyof AnyEntryMap>
-): Promise<string> {
+export async function renderToString(entry: CollectionEntry<keyof AnyEntryMap>): Promise<string> {
   const renderers = await loadRenderers([mdxContainerRenderer()]);
   const container = await AstroContainer.create({
     renderers,

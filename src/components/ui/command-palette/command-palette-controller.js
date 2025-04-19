@@ -1,16 +1,7 @@
 import { Controller } from "@hotwired/stimulus";
 
 export default class CommandPaletteController extends Controller {
-  static targets = [
-    "palette",
-    "backdrop",
-    "dialog",
-    "search",
-    "results",
-    "noResults",
-    "groupTemplate",
-    "itemTemplate"
-  ];
+  static targets = ["palette", "backdrop", "dialog", "search", "results", "noResults", "groupTemplate", "itemTemplate"];
 
   // State
   selectedIndex = -1;
@@ -46,42 +37,25 @@ export default class CommandPaletteController extends Controller {
   connect() {
     // Set up event listeners
     document.addEventListener("click", this.handleDocumentClick.bind(this));
-    this.searchTarget.addEventListener(
-      "input",
-      this.handleSearchInput.bind(this)
-    );
-    this.searchTarget.addEventListener(
-      "keydown",
-      this.handleSearchKeydown.bind(this)
-    );
+    this.searchTarget.addEventListener("input", this.handleSearchInput.bind(this));
+    this.searchTarget.addEventListener("keydown", this.handleSearchKeydown.bind(this));
     document.addEventListener("keydown", this.handleGlobalKeydown.bind(this));
 
     // Add event listeners to command palette toggle elements
-    document
-      .querySelectorAll("[data-js-command-palette-toggle]")
-      .forEach((element) => {
-        element.addEventListener("click", (e) => {
-          e.preventDefault();
-          e.stopPropagation();
-          this.open();
-        });
+    document.querySelectorAll("[data-js-command-palette-toggle]").forEach((element) => {
+      element.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.open();
       });
+    });
   }
 
   disconnect() {
     document.removeEventListener("click", this.handleDocumentClick.bind(this));
-    this.searchTarget.removeEventListener(
-      "input",
-      this.handleSearchInput.bind(this)
-    );
-    this.searchTarget.removeEventListener(
-      "keydown",
-      this.handleSearchKeydown.bind(this)
-    );
-    document.removeEventListener(
-      "keydown",
-      this.handleGlobalKeydown.bind(this)
-    );
+    this.searchTarget.removeEventListener("input", this.handleSearchInput.bind(this));
+    this.searchTarget.removeEventListener("keydown", this.handleSearchKeydown.bind(this));
+    document.removeEventListener("keydown", this.handleGlobalKeydown.bind(this));
   }
 
   // UI Control Methods
@@ -141,9 +115,7 @@ export default class CommandPaletteController extends Controller {
 
     const statusKey = status;
     const icon = this.STATUS_ICONS[statusKey];
-    const colorClass = isSelected
-      ? this.STATUS_COLORS[statusKey].selected
-      : this.STATUS_COLORS[statusKey].default;
+    const colorClass = isSelected ? this.STATUS_COLORS[statusKey].selected : this.STATUS_COLORS[statusKey].default;
 
     return `<span class="text-xs px-2 py-0.5 rounded-full ${colorClass}">${icon} ${status}</span>`;
   }
@@ -155,14 +127,10 @@ export default class CommandPaletteController extends Controller {
     this.isLoading = true;
 
     try {
-      const response = await fetch(
-        `/api/search?q=${encodeURIComponent(query)}`
-      );
+      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
 
       if (!response.ok) {
-        throw new Error(
-          `Error fetching search results: ${response.statusText}`
-        );
+        throw new Error(`Error fetching search results: ${response.statusText}`);
       }
 
       const data = await response.json();
@@ -194,8 +162,7 @@ export default class CommandPaletteController extends Controller {
     }
 
     // Show loading state
-    this.resultsTarget.innerHTML =
-      '<div class="px-4 py-2 text-gray-500">Loading...</div>';
+    this.resultsTarget.innerHTML = '<div class="px-4 py-2 text-gray-500">Loading...</div>';
     this.resultsTarget.classList.remove("hidden");
     this.noResultsTarget.classList.add("hidden");
 
@@ -234,35 +201,35 @@ export default class CommandPaletteController extends Controller {
     }, new Map());
 
     // Clear previous results
-    this.resultsTarget.innerHTML = '';
+    this.resultsTarget.innerHTML = "";
     let currentIndex = 0;
 
     // Generate HTML for each group
     groupedByType.forEach((items, type) => {
       // Create group header
       const groupElement = this.groupTemplateTarget.content.cloneNode(true);
-      groupElement.querySelector('div').textContent = `${type}s`;
+      groupElement.querySelector("div").textContent = `${type}s`;
       this.resultsTarget.appendChild(groupElement);
 
       // Create items for this group
       for (const item of items) {
         const isSelected = currentIndex === this.selectedIndex;
         const itemElement = this.itemTemplateTarget.content.cloneNode(true);
-        const itemLink = itemElement.querySelector('a');
+        const itemLink = itemElement.querySelector("a");
 
         // Set up the item link
         itemLink.href = item.url;
         itemLink.dataset.index = currentIndex;
         itemLink.dataset.id = item.id;
         if (isSelected) {
-          itemLink.classList.add('bg-orange-600', 'text-white');
+          itemLink.classList.add("bg-orange-600", "text-white");
         }
 
         // Set the item name
-        itemLink.querySelector('span').textContent = item.name;
+        itemLink.querySelector("span").textContent = item.name;
 
         // Set up status badge if present
-        const statusBadge = itemLink.querySelector('.status-badge');
+        const statusBadge = itemLink.querySelector(".status-badge");
         if (item.status) {
           statusBadge.innerHTML = this.getStatusBadge(item.status, isSelected);
         } else {
@@ -270,11 +237,11 @@ export default class CommandPaletteController extends Controller {
         }
 
         // Set up date if present
-        const dateText = itemLink.querySelector('.date-text');
+        const dateText = itemLink.querySelector(".date-text");
         if (item.date) {
           dateText.textContent = this.formatDate(item.date);
-          dateText.classList.toggle('text-orange-100', isSelected);
-          dateText.classList.toggle('text-gray-400', !isSelected);
+          dateText.classList.toggle("text-orange-100", isSelected);
+          dateText.classList.toggle("text-gray-400", !isSelected);
         } else {
           dateText.remove();
         }
@@ -330,9 +297,7 @@ export default class CommandPaletteController extends Controller {
       const statusBadge = item.querySelector(".rounded-full");
       if (statusBadge && currentItem?.status) {
         const status = currentItem.status;
-        const colorClass = isSelected
-          ? this.STATUS_COLORS[status].selected
-          : this.STATUS_COLORS[status].default;
+        const colorClass = isSelected ? this.STATUS_COLORS[status].selected : this.STATUS_COLORS[status].default;
 
         statusBadge.className = `text-xs px-2 py-0.5 rounded-full ${colorClass}`;
       }
@@ -373,10 +338,7 @@ export default class CommandPaletteController extends Controller {
 
       case "ArrowDown":
         e.preventDefault();
-        this.selectedIndex = Math.min(
-          this.selectedIndex + 1,
-          this.filteredItems.length - 1
-        );
+        this.selectedIndex = Math.min(this.selectedIndex + 1, this.filteredItems.length - 1);
 
         // Initialize selection if none exists
         if (this.selectedIndex === -1 && this.filteredItems.length > 0) {
@@ -394,10 +356,7 @@ export default class CommandPaletteController extends Controller {
 
       case "Enter":
         e.preventDefault();
-        if (
-          this.selectedIndex >= 0 &&
-          this.selectedIndex < this.filteredItems.length
-        ) {
+        if (this.selectedIndex >= 0 && this.selectedIndex < this.filteredItems.length) {
           const item = this.filteredItems[this.selectedIndex];
           if (item) {
             this.selectItem(item);

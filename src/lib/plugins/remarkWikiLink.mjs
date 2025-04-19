@@ -12,9 +12,9 @@ export function buildContentEntryUrl({ type, slug }) {
     case "books":
       return `/books/${slug}`;
     case "articles":
-      return `/articles/${slug}`
+      return `/articles/${slug}`;
     case "topics":
-      return `/topics/${slug}`
+      return `/topics/${slug}`;
     default:
       return null;
   }
@@ -23,11 +23,9 @@ export function buildContentEntryUrl({ type, slug }) {
 export function remarkWikiLink() {
   return async (tree) => {
     const promises = [];
-    
+
     visit(tree, "text", (node, index, parent) => {
-      const matches = Array.from(
-        node.value.matchAll(/\[\[(.*?)(?:\|(.*?))?\]\]/g)
-      );
+      const matches = Array.from(node.value.matchAll(/\[\[(.*?)(?:\|(.*?))?\]\]/g));
 
       if (!matches.length) return;
 
@@ -49,16 +47,14 @@ export function remarkWikiLink() {
             });
           }
 
-          const matchedPost = linkMaps.find((post) => 
-            post.ids.some(
-              (id) => id.toLowerCase() === linkDestination.toLowerCase()
-            )
+          const matchedPost = linkMaps.find((post) =>
+            post.ids.some((id) => id.toLowerCase() === linkDestination.toLowerCase())
           );
 
           let newChild;
 
           if (matchedPost) {
-            const url = await buildContentEntryUrl(matchedPost);
+            const url = buildContentEntryUrl(matchedPost);
 
             if (url) {
               newChild = {
@@ -107,7 +103,7 @@ export function remarkWikiLink() {
     });
 
     await Promise.all(promises);
-    
+
     return tree;
   };
 }

@@ -4,14 +4,17 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "lint": "prettier --check . && astro check",
+    "format": "prettier --write .",
     "fetch-content": "node src/scripts/fetch-content.js",
     "generate-index": "node src/scripts/generate-index.js",
     "update-content": "npm run fetch-content && npm run generate-index && git add src/data/index.json src/content && git commit -m 'Update content' && git push"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^4.1.0",
     "@astrojs/tailwind": "^6.0.0",
     "@astrojs/vercel": "^8.1.1",
@@ -24,7 +27,8 @@
     "mdast-util-to-string": "^4.0.0",
     "reading-time": "^1.5.0",
     "slugify": "^1.6.6",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@iconify-json/fa6-brands": "^1.2.5",

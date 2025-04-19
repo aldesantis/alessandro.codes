@@ -18,8 +18,7 @@ const { now } = Astro.props;
 
 const allNows = await getSortedNows();
 const currentIndex = allNows.findIndex((item) => item.id === now.id);
-const prevNow =
-  currentIndex < allNows.length - 1 ? allNows[currentIndex + 1] : null;
+const prevNow = currentIndex < allNows.length - 1 ? allNows[currentIndex + 1] : null;
 const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
 ---
 

@@ -7,12 +7,7 @@ export interface Props extends HTMLAttributes<"a"> {
   active?: boolean;
 }
 
-const {
-  class: originalClass,
-  variant = "primary",
-  active,
-  ...props
-} = Astro.props;
+const { class: originalClass, variant = "primary", active, ...props } = Astro.props;
 ---
 
 <a

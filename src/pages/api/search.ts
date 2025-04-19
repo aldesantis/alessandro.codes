@@ -35,8 +35,7 @@ export const GET: APIRoute = async ({ request }) => {
   // Filter items based on query
   const filteredItems = contentItems.filter(
     (item) =>
-      item.name.toLowerCase().includes(query.toLowerCase()) ||
-      item.type.toLowerCase().includes(query.toLowerCase())
+      item.name.toLowerCase().includes(query.toLowerCase()) || item.type.toLowerCase().includes(query.toLowerCase())
   );
 
   return new Response(JSON.stringify({ items: filteredItems }), {
@@ -59,7 +58,7 @@ async function getCommandPaletteItems(): Promise<ContentItem[]> {
       name: essay.data.title,
       url: `/essays/${essay.id}`,
       type: "Essay",
-      date: essay.data.publishedOn,
+      date: essay.data.createdAt,
     };
   });
 

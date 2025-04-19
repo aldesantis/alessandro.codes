@@ -28,4 +28,5 @@ export default {
   bracketSpacing: true,
   arrowParens: "always",
   endOfLine: "lf",
+  singleQuote: false,
 };

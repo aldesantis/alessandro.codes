@@ -1,1 +1,5 @@
 src/components/garden/topics/TopicList.astro 
+
+# Ignore all Markdown files
+**/*.md
+**/*.mdx 

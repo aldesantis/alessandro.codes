@@ -21,17 +21,17 @@ const books = (await getSortedBooks()).slice(0, 6);
   <div class="space-y-12">
     <div class="space-y-6">
       <p class="font-serif text-3xl lg:text-5xl">
-        <span class="animate-wave inline-block">👋</span>, I'm <span
-          class="font-bold">Alessandro</span
-        >&mdash;a <Link href="/topics/writing">writer</Link>,
+        <span class="animate-wave inline-block">👋</span>, I'm <span class="font-bold">Alessandro</span>&mdash;a <Link
+          href="/topics/writing">writer</Link
+        >,
         <Link href="/topics/software-engineering">engineer</Link>, and
         <Link href="/topics/strategy">strategist</Link> based in Rome, Italy.
       </p>
       <p class="text-stone-700 font-serif text-xl">
         Currently, I am a Partner at
         <Link href="https://nebulab.com">Nebulab</Link>, an international
-        <Link href="/topics/consulting">consultancy</Link> working with mid-market
-        and enterprise consumer brands to design, launch, and scale their digital
+        <Link href="/topics/consulting">consultancy</Link> working with mid-market and enterprise consumer brands to design,
+        launch, and scale their digital
         <Link href="/topics/commerce">commerce</Link> experiences.
       </p>
     </div>
@@ -42,10 +42,7 @@ const books = (await getSortedBooks()).slice(0, 6);
       essays.length > 0 && (
         <Section>
           <div slot="heading">
-            <SectionHeading
-              title="Essays"
-              subtitle={sections.essays.description}
-            />
+            <SectionHeading title="Essays" subtitle={sections.essays.description} />
 
             <div class="mt-2 font-sans">
               <ArrowLink class="text-sm" href="/essays" arrowDirection="right">
@@ -64,9 +61,7 @@ const books = (await getSortedBooks()).slice(0, 6);
         <SectionHeading title="Notes" subtitle={sections.notes.description} />
 
         <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/notes" arrowDirection="right">
-            View all
-          </ArrowLink>
+          <ArrowLink class="text-sm" href="/notes" arrowDirection="right"> View all </ArrowLink>
         </div>
       </div>
 
@@ -78,9 +73,7 @@ const books = (await getSortedBooks()).slice(0, 6);
         <SectionHeading title="Books" subtitle={sections.books.description} />
 
         <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/books" arrowDirection="right">
-            View all
-          </ArrowLink>
+          <ArrowLink class="text-sm" href="/books" arrowDirection="right"> View all </ArrowLink>
         </div>
       </div>
 

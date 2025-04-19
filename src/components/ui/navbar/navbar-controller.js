@@ -39,4 +39,4 @@ export default class NavbarController extends Controller {
       this.closeMenu();
     }
   }
-} 
+}

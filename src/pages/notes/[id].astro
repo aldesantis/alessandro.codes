@@ -21,12 +21,7 @@ const { note } = Astro.props;
 
 <Layout>
   <ContentLayout entry={note}>
-    <ArrowLink
-      href="/notes"
-      arrowDirection="left"
-      class="font-sans font-semibold uppercase"
-      slot="navigation"
-    >
+    <ArrowLink href="/notes" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
       Notes
     </ArrowLink>
 
