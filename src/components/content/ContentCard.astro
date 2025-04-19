@@ -4,8 +4,9 @@ import EssayCard from "@components/essays/EssayCard.astro";
 import BookCard from "@components/books/BookCard.astro";
 import NoteCard from "@components/notes/NoteCard.astro";
 import TopicCard from "@components/topics/TopicCard.astro";
+import TalkCard from "@components/talks/TalkCard.astro";
 
-type ContentType = "essays" | "books" | "notes" | "topics";
+type ContentType = "essays" | "books" | "notes" | "topics" | "talks";
 
 interface Props {
   content: CollectionEntry<ContentType>;
@@ -23,5 +24,7 @@ const { content } = Astro.props;
     <NoteCard note={content as CollectionEntry<"notes">} />
   ) : content.collection === "topics" ? (
     <TopicCard topic={content as CollectionEntry<"topics">} />
+  ) : content.collection === "talks" ? (
+    <TalkCard talk={content as CollectionEntry<"talks">} />
   ) : null
 }

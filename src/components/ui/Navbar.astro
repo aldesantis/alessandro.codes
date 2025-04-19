@@ -44,7 +44,7 @@ const headerNavigation = getHeaderNavigation();
                       isDropdownActive(item, currentPath) && "text-orange-700",
                     ]}
                   >
-                    <Dropdown label={item.text}>
+                    <Dropdown label={item.text} href={item.href}>
                       {item.children.map((child: NavigationChild) => (
                         <DropdownItem
                           href={child.href}
@@ -123,18 +123,27 @@ const headerNavigation = getHeaderNavigation();
         {
           headerNavigation.flatMap((item: NavigationItem) => {
             if (item.children && item.children.length > 0) {
-              // Return only the children items, not the parent
-              return item.children.map((child: NavigationChild) => (
+              return [
                 <Link
-                  href={child.href}
+                  href={item.href}
                   variant="secondary"
-                  active={isItemActive(child, currentPath)}
+                  active={isDropdownActive(item, currentPath)}
+                  class="font-semibold"
                 >
-                  {child.text}
-                </Link>
-              ));
+                  {item.text}
+                </Link>,
+                ...item.children.map((child: NavigationChild) => (
+                  <Link
+                    href={child.href}
+                    variant="secondary"
+                    active={isItemActive(child, currentPath)}
+                    class="pl-4"
+                  >
+                    {child.text}
+                  </Link>
+                )),
+              ];
             } else {
-              // Return regular items as is
               return [
                 <Link
                   href={item.href}

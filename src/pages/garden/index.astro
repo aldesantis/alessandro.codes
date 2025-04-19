@@ -1,0 +1,33 @@
+---
+import ContentCard from "@components/content/ContentCard.astro";
+import Hero from "@components/ui/Hero.astro";
+import Layout from "@layouts/Layout.astro";
+import { getSortedGardenContent } from "src/lib/content/garden";
+
+const content = await getSortedGardenContent();
+---
+
+<Layout>
+  <title slot="head">The Garden | Alessandro Desantis</title>
+
+  <Hero>
+    <span slot="heading">The Garden</span>
+    <span slot="subheading">
+      A collection of everything I'm thinking about, reading, and writing.
+    </span>
+  </Hero>
+
+  <div class="columns-1 sm:columns-2 lg:columns-3 gap-8 [column-fill:balance]">
+    {
+      content.length > 0 ? (
+        content.map((item) => (
+          <div class="break-inside-avoid mb-8">
+            <ContentCard content={item} />
+          </div>
+        ))
+      ) : (
+        <p>Nothing here yet! Check back soon.</p>
+      )
+    }
+  </div>
+</Layout>

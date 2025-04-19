@@ -5,12 +5,12 @@ export default class DropdownController extends Controller {
 
   connect() {
     // Set up event listeners
-    document.addEventListener("click", this.handleClickOutside.bind(this));
+    document.addEventListener("mouseleave", this.handleMouseLeave.bind(this));
     document.addEventListener("keydown", this.handleKeyDown.bind(this));
   }
 
   disconnect() {
-    document.removeEventListener("click", this.handleClickOutside.bind(this));
+    document.removeEventListener("mouseleave", this.handleMouseLeave.bind(this));
     document.removeEventListener("keydown", this.handleKeyDown.bind(this));
   }
 
@@ -44,8 +44,9 @@ export default class DropdownController extends Controller {
     this.isOpen = false;
   }
 
-  handleClickOutside(event) {
-    if (!this.element.contains(event.target) && this.isOpen) {
+  handleMouseLeave(event) {
+    // Only close if we're leaving the entire dropdown area
+    if (!this.element.contains(event.relatedTarget) && this.isOpen) {
       this.close();
     }
   }

@@ -1,23 +1,22 @@
 ---
 interface Props {
   label: string;
+  href?: string;
 }
 
-const { label } = Astro.props;
+const { label, href = "#" } = Astro.props;
 ---
 
 <div data-controller="dropdown" class="relative inline-block text-left">
-  <button
-    type="button"
+  <a
+    href={href}
     data-dropdown-target="button"
-    data-action="click->dropdown#toggle"
-    aria-haspopup="true"
-    aria-expanded="false"
+    data-action="mouseenter->dropdown#open mouseleave->dropdown#close"
     class="dropdown-button inline-flex w-full hover:text-orange-700 cursor-pointer"
   >
     {label}
     &DownArrow;
-  </button>
+  </a>
 
   <div
     data-dropdown-target="menu"
