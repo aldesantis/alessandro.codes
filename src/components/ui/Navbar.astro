@@ -1,6 +1,8 @@
 ---
 import Link from "@components/ui/Link.astro";
-import SearchIcon from "@components/ui/SearchIcon.astro";
+import SearchIcon from "@components/ui/icons/SearchIcon.astro";
+import MenuIcon from "@components/ui/icons/MenuIcon.astro";
+import CloseIcon from "@components/ui/icons/CloseIcon.astro";
 import Dropdown from "@components/ui/dropdowns/Dropdown.astro";
 import DropdownItem from "@components/ui/dropdowns/DropdownItem.astro";
 import {
@@ -94,19 +96,7 @@ const headerNavigation = getHeaderNavigation();
             data-navbar-target="mobileToggle"
             data-action="click->navbar#openMenu"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
+            <MenuIcon />
           </button>
         </div>
       </nav>
@@ -125,19 +115,7 @@ const headerNavigation = getHeaderNavigation();
           data-navbar-target="mobileClose"
           data-action="click->navbar#closeMenu"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
+          <CloseIcon />
         </button>
       </div>
 
