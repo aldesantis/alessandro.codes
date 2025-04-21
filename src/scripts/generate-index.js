@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const CONTENT_PATH = path.join(__dirname, "../content");
-const CONTENT_TYPES = ["essays", "notes", "nows", "books", "articles", "topics"];
+const CONTENT_TYPES = ["essays", "notes", "nows", "books", "articles", "topics", "recipes"];
 
 // Function to extract text between double brackets, now handling labeled links
 const bracketsExtractor = (content) => {

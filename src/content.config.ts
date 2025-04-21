@@ -86,4 +86,15 @@ export const collections = {
     schema: baseSchema,
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/nows" }),
   }),
+
+  recipes: defineCollection({
+    schema: baseSchema.extend(
+      z.object({
+        cuisine: z.enum(["tex-mex", "mediterranean", "bbq", "japanese", "indian", "american"]).optional(),
+        diet: z.enum(["omnivore", "vegetarian", "vegan", "pescetarian"]),
+        type: z.enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"]),
+      }).shape
+    ),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/recipes" }),
+  }),
 };
