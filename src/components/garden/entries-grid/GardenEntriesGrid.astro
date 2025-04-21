@@ -29,9 +29,9 @@ function getColumnsForSize(size: "S" | "M" | "L"): string {
 
 <div data-controller="garden-entries-grid" class="space-y-4">
   <div class="flex gap-2">
+    {showTypeFilters && <GardenTypeFilterDropdown />}
     {showStatusFilters && <GardenStatusFilterDropdown />}
     {showTopicFilters && <GardenTopicFilterDropdown />}
-    {showTypeFilters && <GardenTypeFilterDropdown />}
   </div>
 
   <div data-garden-entries-grid-target="grid" class={`${getColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}>
