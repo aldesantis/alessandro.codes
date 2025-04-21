@@ -9370,6 +9370,16 @@
   },
   {
     "ids": [
+      "The Secrets of Consulting",
+      "the-secrets-of-consulting"
+    ],
+    "slug": "the-secrets-of-consulting",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Trusted Advisor",
       "the-trusted-advisor"
     ],
