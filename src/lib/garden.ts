@@ -57,7 +57,19 @@ export async function getRelatedGardenEntries(entry: GardenEntry): Promise<Garde
   const talks = await getCollection("talks");
   const nows = await getCollection("nows");
 
-  return uniqueLinks
+  // Get entries that have this topic in their topics frontmatter
+  const entriesWithTopic =
+    entry.collection === "topics"
+      ? [
+          ...essays.filter((e) => e.data.topics?.some((t) => t.id === entry.id)),
+          ...books.filter((b) => b.data.topics?.some((t) => t.id === entry.id)),
+          ...notes.filter((n) => n.data.topics?.some((t) => t.id === entry.id)),
+          ...talks.filter((t) => t.data.topics?.some((t) => t.id === entry.id)),
+          ...nows.filter((n) => n.data.topics?.some((t) => t.id === entry.id)),
+        ]
+      : [];
+
+  const linkedEntries = uniqueLinks
     .map((link) => {
       switch (link.type) {
         case "essays":
@@ -76,8 +88,17 @@ export async function getRelatedGardenEntries(entry: GardenEntry): Promise<Garde
           return null;
       }
     })
-    .filter((content): content is GardenEntry => content !== null && content !== undefined)
-    .sort(sortGardenEntriesByDate);
+    .filter((content): content is GardenEntry => content !== null && content !== undefined);
+
+  // Combine linked entries with entries that have the topic
+  const allRelatedEntries = [...linkedEntries, ...entriesWithTopic];
+
+  // Remove duplicates based on entry ID
+  const uniqueEntries = Array.from(new Set(allRelatedEntries.map((entry) => entry.id)))
+    .map((id) => allRelatedEntries.find((entry) => entry.id === id))
+    .filter((entry): entry is GardenEntry => entry !== undefined);
+
+  return uniqueEntries.sort(sortGardenEntriesByDate);
 }
 
 export function getGardenEntryLinks(gardenEntryId: string): GardenEntryLinks {
