@@ -11,16 +11,9 @@ interface Props {
 const { label, href = "#", active = false } = Astro.props;
 ---
 
-<div
-  data-controller="dropdown"
-  class="relative inline-block text-left"
->
+<div data-controller="dropdown" class="relative inline-block text-left">
   <div class="flex items-center gap-1">
-    <Link
-      href={href}
-      variant="secondary"
-      active={active}
-    >
+    <Link href={href} variant="secondary" active={active}>
       {label}
     </Link>
     <Link

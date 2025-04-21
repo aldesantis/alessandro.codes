@@ -8,9 +8,9 @@ import type { GardenEntry } from "src/lib/garden";
 interface Props {
   items: GardenEntry[];
   itemSize: "S" | "M" | "L";
-  showStatusFilters?: boolean
-  showTopicFilters?: boolean
-  showTypeFilters?: boolean
+  showStatusFilters?: boolean;
+  showTopicFilters?: boolean;
+  showTypeFilters?: boolean;
 }
 
 const { items, itemSize, showStatusFilters = false, showTopicFilters = false, showTypeFilters = false } = Astro.props;
@@ -27,27 +27,21 @@ function getColumnsForSize(size: "S" | "M" | "L"): string {
 }
 ---
 
-<div 
-  data-controller="garden-entries-grid"
-  class="space-y-4"
->
+<div data-controller="garden-entries-grid" class="space-y-4">
   <div class="flex gap-4">
     {showStatusFilters && <GardenStatusFilterDropdown />}
     {showTopicFilters && <GardenTopicFilterDropdown />}
     {showTypeFilters && <GardenTypeFilterDropdown />}
   </div>
 
-  <div 
-    data-garden-entries-grid-target="grid"
-    class={`${getColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}
-  >
+  <div data-garden-entries-grid-target="grid" class={`${getColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}>
     {
       items.length > 0 ? (
         items.map((item) => (
-          <div 
-            class="break-inside-avoid mb-4" 
+          <div
+            class="break-inside-avoid mb-4"
             data-status={item.data.status}
-            data-topics={item.data.topics?.map(t => t.id).join(',')}
+            data-topics={item.data.topics?.map((t) => t.id).join(",")}
             data-type={item.collection}
             data-garden-entries-grid-target="item"
           >

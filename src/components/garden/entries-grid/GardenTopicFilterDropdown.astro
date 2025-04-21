@@ -5,8 +5,8 @@ import { getCollection } from "astro:content";
 const topics = await getCollection("topics");
 ---
 
-<GardenFilterDropdown 
-  label="Filter by topic" 
-  filterCategory="topics" 
-  items={topics.map(t => ({ id: t.id, label: t.data.title }))} 
-/> 
+<GardenFilterDropdown
+  label="Filter by topic"
+  filterCategory="topics"
+  items={topics.map((t) => ({ id: t.id, label: t.data.title }))}
+/>

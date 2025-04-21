@@ -1,6 +1,6 @@
 ---
-import GardenFilterItem from './GardenFilterItem.astro';
-import ChevronDownIcon from '@components/ui/icons/ChevronDownIcon.astro';
+import GardenFilterItem from "./GardenFilterItem.astro";
+import ChevronDownIcon from "@components/ui/icons/ChevronDownIcon.astro";
 
 interface Props {
   label: string;
@@ -11,10 +11,7 @@ interface Props {
 const { label, filterCategory, items } = Astro.props;
 ---
 
-<div
-  data-controller="garden-filter-dropdown"
-  class="relative font-sans"
->
+<div data-controller="garden-filter-dropdown" class="relative font-sans">
   <button
     type="button"
     data-garden-filter-dropdown-target="button"
@@ -26,7 +23,7 @@ const { label, filterCategory, items } = Astro.props;
       "text-gray-700 text-xs",
       "transition-all duration-200",
       "focus:outline-none focus:bg-orange-500 focus:text-white",
-      "hover:bg-orange-500 hover:text-white"
+      "hover:bg-orange-500 hover:text-white",
     ]}
   >
     {label}
@@ -39,25 +36,12 @@ const { label, filterCategory, items } = Astro.props;
       "absolute left-0 z-10 mt-1 w-56 origin-top-right hidden",
       "rounded-md border-2 border-orange-500 bg-white",
       "transition-all duration-200 ease-out opacity-0 scale-95",
-      "[&[data-open]]:opacity-100 [&[data-open]]:scale-100"
+      "[&[data-open]]:opacity-100 [&[data-open]]:scale-100",
     ]}
   >
     <div class="py-0.5">
-      <GardenFilterItem
-        id="all"
-        label="All"
-        filterCategory={filterCategory}
-        isAll={true}
-      />
-      {
-        items.map((item) => (
-          <GardenFilterItem
-            id={item.id}
-            label={item.label}
-            filterCategory={filterCategory}
-          />
-        ))
-      }
+      <GardenFilterItem id="all" label="All" filterCategory={filterCategory} isAll={true} />
+      {items.map((item) => <GardenFilterItem id={item.id} label={item.label} filterCategory={filterCategory} />)}
     </div>
   </div>
 </div>
@@ -72,11 +56,11 @@ const { label, filterCategory, items } = Astro.props;
 
     override connect() {
       this.close();
-      document.addEventListener('click', this.handleClickOutside.bind(this));
+      document.addEventListener("click", this.handleClickOutside.bind(this));
     }
 
     override disconnect() {
-      document.removeEventListener('click', this.handleClickOutside.bind(this));
+      document.removeEventListener("click", this.handleClickOutside.bind(this));
     }
 
     handleClickOutside(event: MouseEvent) {
@@ -87,7 +71,7 @@ const { label, filterCategory, items } = Astro.props;
 
     toggle() {
       console.log("toggle");
-      if (this.menuTarget.classList.contains('hidden')) {
+      if (this.menuTarget.classList.contains("hidden")) {
         this.open();
       } else {
         this.close();
@@ -108,4 +92,4 @@ const { label, filterCategory, items } = Astro.props;
   import { Application } from "@hotwired/stimulus";
   const application = Application.start();
   application.register("garden-filter-dropdown", GardenFilterDropdownController);
-</script> 
+</script>

@@ -4,12 +4,8 @@ import GardenFilterDropdown from "./GardenFilterDropdown.astro";
 const statusItems = [
   { id: "evergreen", label: "🌳 Evergreen" },
   { id: "budding", label: "🌿 Budding" },
-  { id: "seedling", label: "🌱 Seedling" }
+  { id: "seedling", label: "🌱 Seedling" },
 ];
 ---
 
-<GardenFilterDropdown 
-  label="Filter by status" 
-  filterCategory="status" 
-  items={statusItems} 
-/> 
+<GardenFilterDropdown label="Filter by status" filterCategory="status" items={statusItems} />
