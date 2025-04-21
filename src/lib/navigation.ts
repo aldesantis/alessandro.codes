@@ -17,6 +17,10 @@ export type NavigationItem = NavigationChild & {
  * Checks if a dropdown should be active based on the current path
  */
 export function isDropdownActive(item: NavigationItem, currentPath: string): boolean {
+  // Check if parent href matches current path
+  if (item.href === currentPath) return true;
+
+  // Check if any child matches
   if (!item.children) return false;
   return item.children.some((child) => {
     if (!child.matchPattern) return false;

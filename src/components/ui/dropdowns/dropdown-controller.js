@@ -6,6 +6,7 @@ export default class DropdownController extends Controller {
   connect() {
     this.closeTimeout = null;
     document.addEventListener("keydown", this.handleKeyDown.bind(this));
+    document.addEventListener("click", this.handleClickOutside.bind(this));
   }
 
   disconnect() {
@@ -13,9 +14,17 @@ export default class DropdownController extends Controller {
       clearTimeout(this.closeTimeout);
     }
     document.removeEventListener("keydown", this.handleKeyDown.bind(this));
+    document.removeEventListener("click", this.handleClickOutside.bind(this));
   }
 
-  toggle() {
+  handleClickOutside(event) {
+    if (this.isOpen && !this.element.contains(event.target)) {
+      this.close();
+    }
+  }
+
+  toggle(event) {
+    event.stopPropagation();
     if (this.isOpen) {
       this.close();
     } else {
@@ -35,20 +44,15 @@ export default class DropdownController extends Controller {
 
   close() {
     this.closeTimeout = setTimeout(() => {
-      if (!this.element.contains(document.activeElement)) {
-        this.menuTarget.classList.remove("opacity-100", "scale-100");
-        this.menuTarget.classList.add("opacity-0", "scale-95");
+      this.menuTarget.classList.remove("opacity-100", "scale-100");
+      this.menuTarget.classList.add("opacity-0", "scale-95");
 
-        // Wait for transition to complete before hiding
-        setTimeout(() => {
-          if (!this.isOpen) {
-            this.menuTarget.classList.add("hidden");
-          }
-        }, 100);
-
+      // Wait for transition to complete before hiding
+      setTimeout(() => {
+        this.menuTarget.classList.add("hidden");
         this.buttonTarget.setAttribute("aria-expanded", "false");
         this.isOpen = false;
-      }
+      }, 100);
     }, 100);
   }
 

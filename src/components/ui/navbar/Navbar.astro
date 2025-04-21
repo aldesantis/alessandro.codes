@@ -30,8 +30,12 @@ const headerNavigation = getHeaderNavigation();
             headerNavigation.map((item: NavigationItem) => {
               if (item.children && item.children.length > 0) {
                 return (
-                  <div class:list={["whitespace-nowrap", isDropdownActive(item, currentPath) && "text-orange-700"]}>
-                    <Dropdown label={item.text} href={item.href}>
+                  <div class="whitespace-nowrap">
+                    <Dropdown 
+                      label={item.text} 
+                      href={item.href}
+                      active={isDropdownActive(item, currentPath)}
+                    >
                       {item.children.map((child: NavigationChild) => (
                         <DropdownItem href={child.href} active={isItemActive(child, currentPath)}>
                           {child.text}
