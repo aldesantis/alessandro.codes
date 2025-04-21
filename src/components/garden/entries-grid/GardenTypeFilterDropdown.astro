@@ -1,0 +1,16 @@
+---
+import GardenFilterDropdown from "./GardenFilterDropdown.astro";
+
+const entryTypes = [
+  { id: "essays", label: "Essays" },
+  { id: "books", label: "Books" },
+  { id: "notes", label: "Notes" },
+  { id: "talks", label: "Talks" },
+];
+---
+
+<GardenFilterDropdown 
+  label="Filter by type" 
+  filterCategory="types" 
+  items={entryTypes} 
+/> 

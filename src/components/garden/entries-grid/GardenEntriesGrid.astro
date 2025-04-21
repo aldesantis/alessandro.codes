@@ -1,24 +1,19 @@
 ---
 import GardenEntryCard from "@components/garden/GardenEntryCard.astro";
-import GardenFilterDropdown from "./GardenFilterDropdown.astro";
+import GardenStatusFilterDropdown from "./GardenStatusFilterDropdown.astro";
+import GardenTopicFilterDropdown from "./GardenTopicFilterDropdown.astro";
+import GardenTypeFilterDropdown from "./GardenTypeFilterDropdown.astro";
 import type { GardenEntry } from "src/lib/garden";
-import { getCollection } from "astro:content";
 
 interface Props {
   items: GardenEntry[];
   itemSize: "S" | "M" | "L";
   showStatusFilters?: boolean
   showTopicFilters?: boolean
+  showTypeFilters?: boolean
 }
 
-const { items, itemSize, showStatusFilters = false, showTopicFilters = false } = Astro.props;
-const topics = await getCollection("topics");
-
-const statusItems = [
-  { id: "evergreen", label: "🌳 Evergreen" },
-  { id: "budding", label: "🌿 Budding" },
-  { id: "seedling", label: "🌱 Seedling" }
-];
+const { items, itemSize, showStatusFilters = false, showTopicFilters = false, showTypeFilters = false } = Astro.props;
 
 function getColumnsForSize(size: "S" | "M" | "L"): string {
   switch (size) {
@@ -37,21 +32,9 @@ function getColumnsForSize(size: "S" | "M" | "L"): string {
   class="space-y-4"
 >
   <div class="flex gap-4">
-    {showStatusFilters && (
-      <GardenFilterDropdown 
-        label="Filter by status" 
-        filterCategory="status" 
-        items={statusItems} 
-      />
-    )}
-    
-    {showTopicFilters && (
-      <GardenFilterDropdown 
-        label="Filter by topic" 
-        filterCategory="topics" 
-        items={topics.map(t => ({ id: t.id, label: t.data.title }))} 
-      />
-    )}
+    {showStatusFilters && <GardenStatusFilterDropdown />}
+    {showTopicFilters && <GardenTopicFilterDropdown />}
+    {showTypeFilters && <GardenTypeFilterDropdown />}
   </div>
 
   <div 
@@ -65,6 +48,7 @@ function getColumnsForSize(size: "S" | "M" | "L"): string {
             class="break-inside-avoid mb-4" 
             data-status={item.data.status}
             data-topics={item.data.topics?.map(t => t.id).join(',')}
+            data-type={item.collection}
             data-garden-entries-grid-target="item"
           >
             <GardenEntryCard content={item} slot="item" />

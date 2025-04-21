@@ -3,7 +3,7 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
   static targets = ["grid", "item", "checkbox", "allCheckbox"]
   static values = {
-    filters: { type: Object, default: { status: ["all"], topics: ["all"] } }
+    filters: { type: Object, default: { status: ["all"], topics: ["all"], types: ["all"] } }
   }
 
   connect() {
@@ -61,19 +61,21 @@ export default class extends Controller {
     this.itemTargets.forEach(item => {
       const status = item.dataset.status
       const topics = item.dataset.topics ? item.dataset.topics.split(',').filter(Boolean) : []
+      const type = item.dataset.type
       
-      const isVisible = this.isItemVisible(status, topics)
+      const isVisible = this.isItemVisible(status, topics, type)
       item.classList.toggle('hidden', !isVisible)
     })
   }
 
-  isItemVisible(status, topics) {
-    const { status: statusFilters, topics: topicFilters } = this.filtersValue
+  isItemVisible(status, topics, type) {
+    const { status: statusFilters, topics: topicFilters, types: typeFilters } = this.filtersValue
     
     const statusMatch = statusFilters.includes('all') || statusFilters.includes(status)
     const topicsMatch = topicFilters.includes('all') || 
                        (topics.length > 0 && topics.some(topic => topicFilters.includes(topic)))
+    const typeMatch = typeFilters.includes('all') || typeFilters.includes(type)
     
-    return statusMatch && topicsMatch
+    return statusMatch && topicsMatch && typeMatch
   }
 } 
