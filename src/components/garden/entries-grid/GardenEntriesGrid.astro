@@ -1,0 +1,86 @@
+---
+import GardenEntryCard from "@components/garden/GardenEntryCard.astro";
+import GardenFilterDropdown from "./GardenFilterDropdown.astro";
+import type { GardenEntry } from "src/lib/garden";
+import { getCollection } from "astro:content";
+
+interface Props {
+  items: GardenEntry[];
+  itemSize: "S" | "M" | "L";
+  showStatusFilters?: boolean
+  showTopicFilters?: boolean
+}
+
+const { items, itemSize, showStatusFilters = false, showTopicFilters = false } = Astro.props;
+const topics = await getCollection("topics");
+
+const statusItems = [
+  { id: "evergreen", label: "🌳 Evergreen" },
+  { id: "budding", label: "🌿 Budding" },
+  { id: "seedling", label: "🌱 Seedling" }
+];
+
+function getColumnsForSize(size: "S" | "M" | "L"): string {
+  switch (size) {
+    case "S":
+      return "columns-1 sm:columns-2 lg:columns-4";
+    case "M":
+      return "columns-1 sm:columns-2 lg:columns-3";
+    case "L":
+      return "columns-1 sm:columns-2 lg:columns-2";
+  }
+}
+---
+
+<div 
+  data-controller="garden-entries-grid"
+  class="space-y-4"
+>
+  <div class="flex gap-4">
+    {showStatusFilters && (
+      <GardenFilterDropdown 
+        label="Filter by status" 
+        filterCategory="status" 
+        items={statusItems} 
+      />
+    )}
+    
+    {showTopicFilters && (
+      <GardenFilterDropdown 
+        label="Filter by topic" 
+        filterCategory="topics" 
+        items={topics.map(t => ({ id: t.id, label: t.data.title }))} 
+      />
+    )}
+  </div>
+
+  <div 
+    data-garden-entries-grid-target="grid"
+    class={`${getColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}
+  >
+    {
+      items.length > 0 ? (
+        items.map((item) => (
+          <div 
+            class="break-inside-avoid mb-4" 
+            data-status={item.data.status}
+            data-topics={item.data.topics?.map(t => t.id).join(',')}
+            data-garden-entries-grid-target="item"
+          >
+            <GardenEntryCard content={item} slot="item" />
+          </div>
+        ))
+      ) : (
+        <p>Nothing here yet! Check back soon.</p>
+      )
+    }
+  </div>
+</div>
+
+<script>
+  import GardenEntriesGridController from "./garden-entries-grid-controller";
+  import { Application } from "@hotwired/stimulus";
+
+  const application = Application.start();
+  application.register("garden-entries-grid", GardenEntriesGridController);
+</script>

@@ -1,0 +1,20 @@
+---
+interface Props {
+  filterType: string;
+  label: string;
+  filterCategory: string;
+}
+
+const { filterType, label, filterCategory } = Astro.props;
+---
+
+<button
+  data-garden-entries-grid-target="filterButton"
+  data-action="click->garden-entries-grid#filterBy"
+  data-filter-type={filterType}
+  data-filter-category={filterCategory}
+  data-active="false"
+  class="px-3 py-1 text-sm rounded-full border-2 border-orange-400 bg-transparent text-orange-400 hover:bg-orange-400 hover:text-white font-sans transition-colors data-[active=true]:bg-orange-400 data-[active=true]:text-white"
+>
+  {label}
+</button> 

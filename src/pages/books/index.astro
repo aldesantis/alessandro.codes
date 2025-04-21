@@ -3,7 +3,7 @@ import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import { getSortedBooks } from "src/lib/garden";
 import sections from "src/data/sections.json";
-import ContentGrid from "@components/garden/GardenEntriesGrid.astro";
+import ContentGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
 
 const books = await getSortedBooks();
 ---
@@ -18,5 +18,5 @@ const books = await getSortedBooks();
     </span>
   </Hero>
 
-  <ContentGrid items={books} itemSize="S" />
+  <ContentGrid items={books} itemSize="S" showTopicFilters />
 </Layout>

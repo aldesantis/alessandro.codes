@@ -1,0 +1,111 @@
+---
+import GardenFilterItem from './GardenFilterItem.astro';
+import ChevronDownIcon from '@components/ui/icons/ChevronDownIcon.astro';
+
+interface Props {
+  label: string;
+  filterCategory: "status" | "topics";
+  items: { id: string; label: string }[];
+}
+
+const { label, filterCategory, items } = Astro.props;
+---
+
+<div
+  data-controller="garden-filter-dropdown"
+  class="relative font-sans"
+>
+  <button
+    type="button"
+    data-garden-filter-dropdown-target="button"
+    data-action="click->garden-filter-dropdown#toggle"
+    class:list={[
+      "group inline-flex items-center justify-center gap-2",
+      "rounded-full border-2 border-orange-500 bg-transparent",
+      "px-3 py-1.5",
+      "text-gray-700 text-xs",
+      "transition-all duration-200",
+      "focus:outline-none focus:bg-orange-500 focus:text-white",
+      "hover:bg-orange-500 hover:text-white"
+    ]}
+  >
+    {label}
+    <ChevronDownIcon class="w-3 h-3 transition-all duration-200 group-hover:text-white group-focus:text-white" />
+  </button>
+
+  <div
+    data-garden-filter-dropdown-target="menu"
+    class:list={[
+      "absolute left-0 z-10 mt-1 w-56 origin-top-right hidden",
+      "rounded-md border-2 border-orange-500 bg-white",
+      "transition-all duration-200 ease-out opacity-0 scale-95",
+      "[&[data-open]]:opacity-100 [&[data-open]]:scale-100"
+    ]}
+  >
+    <div class="py-0.5">
+      <GardenFilterItem
+        id="all"
+        label="All"
+        filterCategory={filterCategory}
+        isAll={true}
+      />
+      {
+        items.map((item) => (
+          <GardenFilterItem
+            id={item.id}
+            label={item.label}
+            filterCategory={filterCategory}
+          />
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<script>
+  import { Controller } from "@hotwired/stimulus";
+
+  class GardenFilterDropdownController extends Controller {
+    static override targets = ["button", "menu"];
+    declare readonly buttonTarget: HTMLElement;
+    declare readonly menuTarget: HTMLElement;
+
+    override connect() {
+      this.close();
+      document.addEventListener('click', this.handleClickOutside.bind(this));
+    }
+
+    override disconnect() {
+      document.removeEventListener('click', this.handleClickOutside.bind(this));
+    }
+
+    handleClickOutside(event: MouseEvent) {
+      if (!this.element.contains(event.target as Node)) {
+        this.close();
+      }
+    }
+
+    toggle() {
+      console.log("toggle");
+      if (this.menuTarget.classList.contains('hidden')) {
+        this.open();
+      } else {
+        this.close();
+      }
+    }
+
+    open() {
+      this.menuTarget.classList.remove("hidden");
+      this.menuTarget.setAttribute("data-open", "");
+    }
+
+    close() {
+      this.menuTarget.classList.add("hidden");
+      this.menuTarget.removeAttribute("data-open");
+    }
+  }
+
+  import { Application } from "@hotwired/stimulus";
+  const application = Application.start();
+  application.register("garden-filter-dropdown", GardenFilterDropdownController);
+</script> 
