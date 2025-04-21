@@ -20,7 +20,7 @@ const { remarkPluginFrontmatter } = await render(content);
   <span class="mx-0.5">•</span>
 
   <span>
-    Watered <RelativeDate date={content.data.updatedAt} />
+    Revisited <RelativeDate date={content.data.updatedAt} />
   </span>
 
   {
@@ -28,7 +28,7 @@ const { remarkPluginFrontmatter } = await render(content);
       <>
         <span class="mx-0.5">•</span>
         <span>
-          Planted <RelativeDate date={content.data.createdAt} />
+          Created <RelativeDate date={content.data.createdAt} />
         </span>
       </>
     )
