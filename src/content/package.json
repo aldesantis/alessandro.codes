@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "set-topics": "node scripts/set-topics.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cli-progress": "^3.12.0",
+    "glob": "^11.0.1",
+    "gray-matter": "^4.0.3"
+  }
+}
