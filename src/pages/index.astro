@@ -8,7 +8,7 @@ import { getSortedBooks } from "src/lib/garden";
 import { getSortedNotes } from "src/lib/garden";
 import sections from "src/data/sections.json";
 import { getSortedEssays } from "src/lib/garden";
-import GardenEntriesGrid from "@components/garden/GardenEntriesGrid.astro";
+import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
 
 const essays = (await getSortedEssays()).slice(0, 6);
 const notes = (await getSortedNotes()).slice(0, 6);
