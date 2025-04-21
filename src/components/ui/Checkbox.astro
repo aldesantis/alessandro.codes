@@ -1,0 +1,32 @@
+---
+interface Props {
+  checked?: boolean;
+  disabled?: boolean;
+  name?: string;
+  value?: string;
+  required?: boolean;
+  [key: string]: any;
+}
+
+const { checked = false, disabled, name, value, required, ...rest } = Astro.props;
+---
+
+<div class="relative flex h-4 w-4 items-center justify-center">
+  <input
+    type="checkbox"
+    class="peer h-4 w-4 appearance-none rounded-sm border-2 border-gray-300 bg-white checked:border-orange-600 checked:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500"
+    {checked}
+    {disabled}
+    {name}
+    {value}
+    {required}
+    {...rest}
+  />
+  <svg
+    fill="none"
+    viewBox="0 0 14 14"
+    class="pointer-events-none absolute h-3 w-3 stroke-white opacity-0 peer-checked:opacity-100"
+  >
+    <path d="M3 8L6 11L11 3.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </svg>
+</div> 
