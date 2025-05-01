@@ -1,23 +1,15 @@
 import fs from "fs/promises";
+import * as fse from "fs-extra";
 import path from "path";
-import { execSync } from "child_process";
-import matter from "gray-matter";
-import slugify from "slugify";
+import os from "os";
+import { glob } from "glob";
 
-const REPO_URL = "git@github.com:aldesantis/digital-garden.git";
-const CONTENT_DIR = path.join(process.cwd(), "src", "content");
-const RETAIN_DIRS = ["essays", "notes", "nows", "books", "articles", "topics", "recipes"] as const;
-
-type RetainDir = (typeof RETAIN_DIRS)[number];
-
-interface FrontMatter {
-  aliases?: string[];
-  [key: string]: unknown;
-}
+import { type TransformerResult } from "src/digital-garden/transformers";
+import config from "../scripts/config";
 
 async function cleanDirectory(dir: string): Promise<void> {
   try {
-    await fs.rm(dir, { recursive: true, force: true });
+    await fse.remove(dir);
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
       throw error;
@@ -25,177 +17,59 @@ async function cleanDirectory(dir: string): Promise<void> {
   }
 }
 
-async function cloneRepository(): Promise<void> {
-  console.log("Cloning repository...");
-  execSync(`git clone ${REPO_URL} ${CONTENT_DIR}`, { stdio: "inherit" });
-}
+async function processContent(): Promise<void> {
+  await cleanDirectory(config.contentDir);
 
-function slugifyFileName(fileName: string): string {
-  const fileExt = path.extname(fileName);
-  const baseName = path.basename(fileName, fileExt);
+  const tmpPath = path.join(os.tmpdir(), `digital-garden-source-${Math.random().toString(36).substring(2, 15)}`);
+  await fse.mkdirp(tmpPath);
 
-  return slugify(baseName, { lower: true, strict: true }) + fileExt;
-}
+  console.log("Fetching content from source to temporary directory...");
+  await config.source(tmpPath);
 
-async function processReadwiseContent(): Promise<void> {
-  console.log("Adjusting paths for Readwise content...");
-  const types = ["books", "articles", "topics"] as const;
+  for (const contentType of config.contentTypes) {
+    console.log(`Processing ${contentType.id} files...`);
 
-  for (const type of types) {
-    console.log(`Adjusting paths for ${type}...`);
-    const sourcePath = path.join(CONTENT_DIR, "readwise", type);
-    const targetPath = path.join(CONTENT_DIR, type);
+    const files = await glob(contentType.pattern, { cwd: tmpPath });
 
-    try {
-      // Ensure source directory exists
-      await fs.access(sourcePath);
-
-      // Create target directory if it doesn't exist
-      await fs.mkdir(targetPath, { recursive: true });
-
-      // Move all files from source to target
-      const files = await fs.readdir(sourcePath);
-      for (const file of files) {
-        const sourceFile = path.join(sourcePath, file);
-        const fileName = slugifyFileName(file);
-        const extension = path.extname(fileName);
-        const truncatedName = fileName.length > 100 ? fileName.slice(0, 100 - extension.length) + extension : fileName;
-        const targetFile = path.join(targetPath, truncatedName);
-
-        // Read the file content
-        const content = await fs.readFile(sourceFile, "utf8");
-        const { data, content: markdownContent } = matter(content) as { data: FrontMatter; content: string };
-
-        // Add original filename to aliases
-        const baseName = path.basename(file, path.extname(file));
-        data.aliases = data.aliases || [];
-        if (!data.aliases.includes(baseName)) {
-          data.aliases.push(baseName);
-        }
-
-        // Escape any MDX components in the content
-        const escapedContent = markdownContent.replace(/</g, "\\<");
-
-        // Write updated content to new location
-        const newContent = matter.stringify(escapedContent, data);
-        await fs.writeFile(targetFile, newContent);
-        await fs.unlink(sourceFile);
-      }
-
-      // Remove the now-empty directory from readwise
-      await cleanDirectory(sourcePath);
-    } catch (error) {
-      if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
-        console.error(`Error moving ${type}:`, error);
-        throw error;
-      }
-    }
-  }
-}
-
-async function removeUnwantedDirs(): Promise<void> {
-  console.log("Removing unwanted directories...");
-  const entries = await fs.readdir(CONTENT_DIR, { withFileTypes: true });
-
-  for (const entry of entries) {
-    if (entry.name === ".git" || entry.name.startsWith(".")) {
-      await cleanDirectory(path.join(CONTENT_DIR, entry.name));
+    if (files.length === 0) {
+      console.warn(`No files found for ${contentType.id} matching pattern: ${contentType.pattern}`);
       continue;
     }
 
-    if (entry.isDirectory() && !RETAIN_DIRS.includes(entry.name as RetainDir)) {
-      await cleanDirectory(path.join(CONTENT_DIR, entry.name));
-    }
-  }
-}
+    for (const file of files) {
+      const sourcePath = path.join(tmpPath, file);
+      const fileContent = await fs.readFile(sourcePath, "utf8");
 
-async function processMarkdownFiles(): Promise<void> {
-  console.log("Processing Markdown files...");
+      const result = await contentType.transformers.reduce<Promise<TransformerResult>>(
+        async (acc, transformer) => {
+          const currentResult = await acc;
 
-  for (const dir of RETAIN_DIRS) {
-    const dirPath = path.join(CONTENT_DIR, dir);
+          if (!currentResult) {
+            return null;
+          }
 
-    try {
-      const files = await fs.readdir(dirPath);
+          const result = await transformer(currentResult.path, currentResult.content);
 
-      for (const file of files) {
-        if (!file.endsWith(".md")) continue;
+          return result || currentResult;
+        },
+        Promise.resolve({
+          path: path.join(config.contentDir, path.relative(tmpPath, sourcePath)),
+          content: fileContent,
+        })
+      );
 
-        const filePath = path.join(dirPath, file);
-        const content = await fs.readFile(filePath, "utf8");
-
-        // Parse frontmatter and content
-        const { data, content: markdownContent } = matter(content) as { data: FrontMatter; content: string };
-
-        // Remove the first H1 heading and the Metadata section
-        let processedContent = markdownContent
-          .replace(/^#\s+[^\n]+\n+/, "") // Remove first H1 heading and following newlines
-          .replace(/##\s+Metadata[\s\S]*?(?=##|$)/, "") // Remove Metadata section and its content
-          .trim();
-
-        // Find any H1 heading after frontmatter
-        const h1Match = processedContent.match(/^\s*#\s+[^\n]+\n+/);
-        if (h1Match) {
-          processedContent = processedContent.slice(h1Match[0].length).trim();
-        }
-
-        // Remove any extra newlines that might have been created
-        processedContent = processedContent.replace(/\n{3,}/g, "\n\n");
-
-        // Reconstruct the file with frontmatter
-        const newContent = matter.stringify(processedContent, data);
-
-        // Write to new .mdx file
-        const newFilePath = filePath.replace(/\.md$/, ".mdx");
-        await fs.writeFile(newFilePath, newContent);
-
-        // Remove original .md file
-        await fs.unlink(filePath);
-      }
-    } catch (error) {
-      if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
-        console.error(`Error processing directory ${dir}:`, error);
+      if (result) {
+        await fse.mkdirp(path.dirname(result.path));
+        await fs.writeFile(result.path, result.content);
       }
     }
   }
-}
 
-async function processStaticPages(): Promise<void> {
-  const staticPages = ["about.md", "colophon.md"] as const;
-
-  console.log("Processing static pages...");
-
-  for (const page of staticPages) {
-    const filePath = path.join(CONTENT_DIR, page);
-    const newFilePath = filePath.replace(/\.md$/, ".mdx");
-
-    try {
-      console.log(`Processing ${page}...`);
-      await fs.rename(filePath, newFilePath);
-      console.log(`${page} processed successfully!`);
-    } catch (error) {
-      if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
-        console.error(`Error processing ${page}:`, error);
-      } else {
-        console.log(`${page} not found, skipping.`);
-      }
-    }
-  }
+  await cleanDirectory(tmpPath);
 }
 
 async function main(): Promise<void> {
-  try {
-    await cleanDirectory(CONTENT_DIR);
-    await cloneRepository();
-    await processReadwiseContent();
-    await removeUnwantedDirs();
-    await processMarkdownFiles();
-    await processStaticPages();
-    console.log("Repository processing completed successfully!");
-  } catch (error) {
-    console.error("Error processing repository:", error);
-    process.exit(1);
-  }
+  await processContent();
 }
 
 main();
