@@ -1,6 +1,6 @@
 import matter from "gray-matter";
 
-import type { Transformer } from "src/digital-garden/transformers";
+import type { Transformer } from "src/garden/transformers";
 
 interface RemoveSectionOptions {
   headingLevel: number;

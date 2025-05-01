@@ -1,4 +1,4 @@
-import type { Transformer } from "src/digital-garden/transformers";
+import type { Transformer } from "src/garden/transformers";
 import path from "path";
 
 const moveToDirectory = (targetDir: string): Transformer => {

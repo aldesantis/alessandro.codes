@@ -1,6 +1,6 @@
 import path from "path";
-import type { DigitalGardenConfig } from "./src/digital-garden/config";
-import { gitSource } from "src/digital-garden/sources";
+import type { DigitalGardenConfig } from "./src/garden/config";
+import { gitSource } from "src/garden/sources";
 import {
   normalizeFilename,
   escapeMdx,
@@ -9,7 +9,7 @@ import {
   removeSection,
   renameMdToMdx,
   moveToDirectory,
-} from "src/digital-garden/transformers";
+} from "src/garden/transformers";
 
 const transformers = [
   renameMdToMdx(),

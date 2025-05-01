@@ -4,9 +4,9 @@ import path from "path";
 import os from "os";
 import { glob } from "glob";
 
-import { type TransformerResult } from "src/digital-garden/transformers";
+import { type TransformerResult } from "src/garden/transformers";
 import config from "garden.config";
-import type { DigitalGardenContentType } from "src/digital-garden/config";
+import type { DigitalGardenContentType } from "src/garden/config";
 
 async function cleanDirectory(dir: string): Promise<void> {
   try {

@@ -2,7 +2,7 @@ import path from "path";
 import slugify from "slugify";
 import emojiRegex from "emoji-regex";
 
-import type { Transformer } from "src/digital-garden/transformers";
+import type { Transformer } from "src/garden/transformers";
 
 function limitFilenameLength(fileName: string, maxLength: number): string {
   const extension = path.extname(fileName);
