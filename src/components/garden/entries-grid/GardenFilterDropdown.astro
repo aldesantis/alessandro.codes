@@ -36,7 +36,7 @@ const { label, filterCategory, items } = Astro.props;
       "absolute left-0 z-10 mt-2 min-w-fit origin-top-right",
       "rounded-md bg-zinc-50 shadow-md ring-1 ring-black/5",
       "hidden opacity-0 scale-95",
-      "transition-all ease-out duration-100"
+      "transition-all ease-out duration-100",
     ]}
   >
     <div class="py-1">
@@ -97,7 +97,7 @@ const { label, filterCategory, items } = Astro.props;
     close() {
       this.menuTarget.classList.remove("opacity-100", "scale-100");
       this.menuTarget.classList.add("opacity-0", "scale-95");
-      
+
       this.closeTimeout = setTimeout(() => {
         this.menuTarget.classList.add("hidden");
         this.isOpen = false;

@@ -41,8 +41,8 @@ export default defineConfig({
         cssVariable: "--font-source-sans",
         weights: [400, 500, 600, 700],
         styles: ["normal"],
-      }
-    ]
+      },
+    ],
   },
 
   adapter: vercel(),

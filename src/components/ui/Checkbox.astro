@@ -1,26 +1,16 @@
 ---
-interface Props {
-  checked?: boolean;
-  disabled?: boolean;
-  name?: string;
-  value?: string;
-  required?: boolean;
-  [key: string]: any;
-}
+import type { HTMLAttributes } from "astro/types";
 
-const { checked = false, disabled, name, value, required, ...rest } = Astro.props;
+type Props = HTMLAttributes<"input">;
+
+const props = Astro.props;
 ---
 
 <div class="relative flex h-4 w-4 items-center justify-center">
   <input
+    {...props}
     type="checkbox"
     class="peer h-4 w-4 appearance-none rounded-sm border-2 border-gray-300 bg-white checked:border-orange-600 checked:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500"
-    {checked}
-    {disabled}
-    {name}
-    {value}
-    {required}
-    {...rest}
   />
   <svg
     fill="none"
@@ -29,4 +19,4 @@ const { checked = false, disabled, name, value, required, ...rest } = Astro.prop
   >
     <path d="M3 8L6 11L11 3.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
   </svg>
-</div> 
+</div>
