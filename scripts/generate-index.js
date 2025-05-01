@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const CONTENT_PATH = path.join(__dirname, "../content");
+const CONTENT_PATH = path.join(__dirname, "../src/content");
 const CONTENT_TYPES = ["essays", "notes", "nows", "books", "articles", "topics", "recipes"];
 
 // Function to extract text between double brackets, now handling labeled links
@@ -123,6 +123,6 @@ const getAllGardenEntryData = () => {
   }
 
   // Write to index.json
-  fs.writeFileSync(path.join(__dirname, "../data/index.json"), JSON.stringify(gardenEntries, null, 2));
+  fs.writeFileSync(path.join(__dirname, "../src/data/index.json"), JSON.stringify(gardenEntries, null, 2));
   console.log("✨ Generated garden index in index.json");
 })();
