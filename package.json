@@ -10,8 +10,8 @@
     "lint": "prettier --check . && eslint . && astro check",
     "format": "prettier --write . && eslint --fix .",
     "fetch-content": "npx tsx scripts/fetch-content.ts",
-    "generate-index": "npx tsx scripts/generate-index.ts",
-    "update-content": "npm run fetch-content && npm run generate-index && git add src/data/index.json src/content && git commit -m 'Update content' && git push"
+    "index-content": "npx tsx scripts/index-content.ts",
+    "update-content": "npm run fetch-content && npm run index-content && git add src/data/index.json src/content && git commit -m 'Update content' && git push"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

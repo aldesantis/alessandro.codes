@@ -1,9 +1,10 @@
 ---
 import Link from "@components/ui/Link.astro";
-import type { GardenEntryLink as LinkType } from "src/lib/garden";
+import type { GardenIndexEntryLink as LinkType } from "src/lib/types/garden";
 import { buildContentEntryUrl } from "src/lib/plugins/remarkWikiLink.mjs";
 import LinkList from "@components/ui/LinkList.astro";
 import MobileCollapsible from "@components/ui/MobileCollapsible.astro";
+import { getCollection } from "astro:content";
 
 interface Props {
   outboundLinks: LinkType[];
@@ -25,6 +26,35 @@ const deduplicateLinks = (links: LinkType[]): LinkType[] => {
 
 const uniqueOutboundLinks = deduplicateLinks(outboundLinks);
 const uniqueInboundLinks = deduplicateLinks(inboundLinks);
+
+const essays = await getCollection("essays");
+const books = await getCollection("books");
+const notes = await getCollection("notes");
+const topics = await getCollection("topics");
+const talks = await getCollection("talks");
+const nows = await getCollection("nows");
+const articles = await getCollection("articles");
+
+const getLinkTitle = (link: LinkType): string => {
+  switch (link.type) {
+    case "essays":
+      return essays.find((e) => e.id === link.slug)?.data.title || link.slug;
+    case "books":
+      return books.find((b) => b.id === link.slug)?.data.title || link.slug;
+    case "notes":
+      return notes.find((n) => n.id === link.slug)?.data.title || link.slug;
+    case "topics":
+      return topics.find((t) => t.id === link.slug)?.data.title || link.slug;
+    case "talks":
+      return talks.find((t) => t.id === link.slug)?.data.title || link.slug;
+    case "nows":
+      return nows.find((n) => n.id === link.slug)?.data.title || link.slug;
+    case "articles":
+      return articles.find((a) => a.id === link.slug)?.data.title || link.slug;
+    default:
+      return link.slug;
+  }
+};
 ---
 
 <MobileCollapsible label="Links to">
@@ -41,7 +71,7 @@ const uniqueInboundLinks = deduplicateLinks(inboundLinks);
               })}
               variant="muted"
             >
-              {link.title}
+              {getLinkTitle(link)}
             </Link>
           </li>
         ))}
@@ -66,7 +96,7 @@ const uniqueInboundLinks = deduplicateLinks(inboundLinks);
               })}
               variant="muted"
             >
-              {link.title}
+              {getLinkTitle(link)}
             </Link>
           </li>
         ))}

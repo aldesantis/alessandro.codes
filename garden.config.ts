@@ -8,6 +8,7 @@ import {
   removeFirstH1,
   removeSection,
   renameMdToMdx,
+  addContentTypeToMetadata,
 } from "src/garden/transformers";
 
 const transformers = [
@@ -17,6 +18,7 @@ const transformers = [
   removeFirstH1(),
   removeSection({ headingLevel: 2, title: "Metadata" }),
   escapeMdx(),
+  addContentTypeToMetadata(),
 ];
 
 const config: DigitalGardenConfig = {

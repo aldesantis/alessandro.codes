@@ -1,20 +1,15 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import links from "src/data/index.json";
 import type { ImageMetadata } from "astro";
+import type { GardenIndexEntryLink } from "src/lib/types/garden";
 
 export type GardenEntryType = "essays" | "books" | "notes" | "topics" | "talks" | "nows";
 
 export type GardenEntry = CollectionEntry<GardenEntryType>;
 
-export interface GardenEntryLink {
-  title: string;
-  slug: string;
-  type: string;
-}
-
 export interface GardenEntryLinks {
-  outboundLinks: GardenEntryLink[];
-  inboundLinks: GardenEntryLink[];
+  outboundLinks: GardenIndexEntryLink[];
+  inboundLinks: GardenIndexEntryLink[];
 }
 
 function getGardenEntryDate(content: GardenEntry): Date {

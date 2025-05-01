@@ -42,7 +42,7 @@ async function transformContent(contentType: DigitalGardenContentType, tmpPath: 
     const result = await contentType.transformers.reduce<Promise<TransformerResult>>(
       async (acc, transformer) => {
         const currentResult = await acc;
-        return await transformer(currentResult.path, currentResult.content);
+        return await transformer(currentResult.path, currentResult.content, contentType);
       },
       Promise.resolve({
         path: sourcePath,

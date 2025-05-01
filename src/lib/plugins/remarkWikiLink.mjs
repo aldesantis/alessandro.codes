@@ -1,5 +1,6 @@
 import { visit } from "unist-util-visit";
 import linkMaps from "../../data/index.json";
+import { extractWikilinks } from "../utils/wikilink.mjs";
 
 export function buildContentEntryUrl({ type, slug }) {
   switch (type) {
@@ -25,20 +26,20 @@ export function remarkWikiLink() {
     const promises = [];
 
     visit(tree, "text", (node, index, parent) => {
-      const matches = Array.from(node.value.matchAll(/\[\[(.*?)(?:\|(.*?))?\]\]/g));
+      const wikilinks = extractWikilinks(node.value);
 
-      if (!matches.length) return;
+      if (!wikilinks.length) return;
 
       const processNode = async () => {
         const children = [];
         let lastIndex = 0;
 
-        for (const match of matches) {
-          const [fullMatch, linkDestination, displayText] = match;
-          const startIndex = match.index;
-          const endIndex = startIndex + fullMatch.length;
+        for (const { linkDestination, displayText } of wikilinks) {
+          const match = node.value.match(new RegExp(`\\[\\[${linkDestination}(?:\\|${displayText})?\\]\\]`));
+          if (!match) continue;
 
-          const label = (displayText || linkDestination).trim();
+          const startIndex = match.index;
+          const endIndex = startIndex + match[0].length;
 
           if (startIndex > lastIndex) {
             children.push({
@@ -70,7 +71,7 @@ export function remarkWikiLink() {
                 children: [
                   {
                     type: "text",
-                    value: label,
+                    value: displayText,
                   },
                 ],
               };
@@ -80,7 +81,7 @@ export function remarkWikiLink() {
           if (!newChild) {
             newChild = {
               type: "text",
-              value: label,
+              value: displayText,
             };
           }
 
