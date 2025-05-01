@@ -5,7 +5,7 @@ import os from "os";
 import { glob } from "glob";
 
 import { type TransformerResult } from "src/digital-garden/transformers";
-import config from "../scripts/config";
+import config from "garden.config";
 import type { DigitalGardenContentType } from "src/digital-garden/config";
 
 async function cleanDirectory(dir: string): Promise<void> {

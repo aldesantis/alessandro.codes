@@ -1,5 +1,5 @@
 import path from "path";
-import type { DigitalGardenConfig } from "../src/digital-garden/config";
+import type { DigitalGardenConfig } from "./src/digital-garden/config";
 import { gitSource } from "src/digital-garden/sources";
 import {
   normalizeFilename,
