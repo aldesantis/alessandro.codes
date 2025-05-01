@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from "astro/config";
+import { defineConfig, fontProviders } from "astro/config";
 
 import tailwind from "@astrojs/tailwind";
 
@@ -25,6 +25,24 @@ export default defineConfig({
 
   server: {
     host: true,
+  },
+
+  experimental: {
+    fonts: [
+      {
+        provider: fontProviders.google(),
+        name: "Domine",
+        cssVariable: "--font-domine",
+        weights: [400, 500, 600, 700],
+      },
+      {
+        provider: fontProviders.google(),
+        name: "Source Sans 3",
+        cssVariable: "--font-source-sans",
+        weights: [400, 500, 600, 700],
+        styles: ["normal"],
+      }
+    ]
   },
 
   adapter: vercel(),

@@ -1,6 +1,5 @@
 ---
-import { formatDistanceToNow, format } from "date-fns";
-import Tooltip from "@components/ui/Tooltip.astro";
+import { format } from "date-fns";
 
 interface Props {
   date: string | Date;
@@ -8,8 +7,40 @@ interface Props {
 
 const { date } = Astro.props;
 const parsedDate = new Date(date);
-const relativeTime = formatDistanceToNow(parsedDate, { addSuffix: true });
 const absoluteDate = format(parsedDate, "MMMM d, yyyy 'at' h:mm a");
 ---
 
-<Tooltip tooltip={absoluteDate}>{relativeTime}</Tooltip>
+<span 
+  title={absoluteDate} 
+  data-controller="relative-date"
+  data-absolute-date={parsedDate.toISOString()}
+>
+  {absoluteDate.toLocaleString()}
+</span>
+
+<script>
+  import { Controller } from "@hotwired/stimulus";
+  import { formatDistanceToNow } from 'date-fns';
+  import { Application } from "@hotwired/stimulus";
+
+  export default class RelativeDateController extends Controller {
+    static override targets = ["date"];
+
+    override connect() {
+      this.updateRelativeDate();
+    }
+
+    updateRelativeDate() {
+      const absoluteDate = (this.element as HTMLElement).dataset.absoluteDate;
+      
+      if (absoluteDate) {
+        const date = new Date(absoluteDate);
+        this.element.textContent = formatDistanceToNow(date, { addSuffix: true });
+      }
+    }
+  } 
+
+
+  const application = Application.start();
+  application.register("relative-date", RelativeDateController);
+</script>

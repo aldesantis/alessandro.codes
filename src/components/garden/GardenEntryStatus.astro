@@ -1,6 +1,4 @@
 ---
-import Tooltip from "@components/ui/Tooltip.astro";
-
 export interface Props {
   status: "seedling" | "budding" | "evergreen";
 }
@@ -20,6 +18,6 @@ const statusIcon = {
 }[status];
 ---
 
-<Tooltip tooltip={statusLabel} underline={false}>
+<span title={statusLabel}>
   {statusIcon}
-</Tooltip>
+</span>

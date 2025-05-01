@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Source Sans 3"', "sans-serif"],
-        serif: ["Domine", "serif"],
+        sans: ['var(--font-source-sans)', "sans-serif"],
+        serif: ['var(--font-domine)', "serif"],
       },
       container: {
         center: true,

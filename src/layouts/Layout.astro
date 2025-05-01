@@ -2,6 +2,7 @@
 import Navbar from "@components/ui/navbar/Navbar.astro";
 import Footer from "@components/ui/Footer.astro";
 import CommandPalette from "@components/ui/command-palette/CommandPalette.astro";
+import { Font } from 'astro:assets';
 ---
 
 <!doctype html>
@@ -12,12 +13,8 @@ import CommandPalette from "@components/ui/command-palette/CommandPalette.astro"
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
-      rel="stylesheet"
-    />
+    <Font cssVariable="--font-domine" preload />
+    <Font cssVariable="--font-source-sans" preload />
 
     <slot name="head" />
   </head>
@@ -40,6 +37,6 @@ import CommandPalette from "@components/ui/command-palette/CommandPalette.astro"
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: "Domine", system-ui, sans-serif;
+    font-family: var(--font-domine), system-ui, sans-serif;
   }
 </style>
