@@ -8,7 +8,6 @@ import {
   removeFirstH1,
   removeSection,
   renameMdToMdx,
-  moveToDirectory,
 } from "src/garden/transformers";
 
 const transformers = [
@@ -34,42 +33,50 @@ const config: DigitalGardenConfig = {
     {
       id: "essays",
       pattern: "essays/*.{md,mdx}",
-      transformers: [...transformers, moveToDirectory("src/content/essays")],
+      destinationPath: "essays",
+      transformers,
     },
     {
       id: "notes",
       pattern: "notes/*.{md,mdx}",
-      transformers: [...transformers, moveToDirectory("src/content/notes")],
+      destinationPath: "notes",
+      transformers,
     },
     {
       id: "nows",
       pattern: "nows/*.{md,mdx}",
-      transformers: [...transformers, moveToDirectory("src/content/nows")],
+      destinationPath: "nows",
+      transformers,
     },
     {
       id: "topics",
       pattern: "topics/*.{md,mdx}",
-      transformers: [...transformers, moveToDirectory("src/content/topics")],
+      destinationPath: "topics",
+      transformers,
     },
     {
       id: "books",
       pattern: "readwise/books/*.{md,mdx}",
-      transformers: [...transformers, moveToDirectory("src/content/books")],
+      destinationPath: "books",
+      transformers,
     },
     {
       id: "articles",
       pattern: "readwise/articles/*.{md,mdx}",
-      transformers: [...transformers, moveToDirectory("src/content/articles")],
+      destinationPath: "articles",
+      transformers,
     },
     {
       id: "recipes",
       pattern: "recipes/*.{md,mdx}",
-      transformers: [...transformers, moveToDirectory("src/content/recipes")],
+      destinationPath: "recipes",
+      transformers,
     },
     {
       id: "pages",
       pattern: "{about,colophon}.{md,mdx}",
-      transformers: [...transformers, moveToDirectory("src/content")],
+      destinationPath: ".",
+      transformers,
     },
   ],
 };

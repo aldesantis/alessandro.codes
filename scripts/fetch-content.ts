@@ -45,13 +45,14 @@ async function transformContent(contentType: DigitalGardenContentType, tmpPath: 
         return await transformer(currentResult.path, currentResult.content);
       },
       Promise.resolve({
-        path: path.join(config.contentDir, path.relative(tmpPath, sourcePath)),
+        path: sourcePath,
         content: fileContent,
       })
     );
 
-    await fse.mkdirp(path.dirname(result.path));
-    await fs.writeFile(result.path, result.content);
+    const destinationPath = path.join(config.contentDir, contentType.destinationPath, path.basename(result.path));
+    await fse.mkdirp(path.dirname(destinationPath));
+    await fs.writeFile(destinationPath, result.content);
   }
 }
 
