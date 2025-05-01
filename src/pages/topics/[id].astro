@@ -7,7 +7,7 @@ import { getMdxComponents } from "src/lib/rendering";
 import Prose from "@components/ui/Prose.astro";
 import TopicMeta from "@components/garden/topics/TopicMeta.astro";
 import ContentGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
-import { getRelatedEntries } from "src/lib/garden/garden";
+import { getRelatedEntries } from "src/lib/garden/entries";
 
 export async function getStaticPaths() {
   const topics = await getCollection("topics");

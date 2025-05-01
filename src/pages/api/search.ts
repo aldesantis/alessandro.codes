@@ -1,6 +1,6 @@
-import { getEntries } from "src/lib/garden/garden";
+import { getEntries } from "src/lib/garden/entries";
 import type { APIRoute } from "astro";
-import type { GardenEntry } from "src/lib/garden/garden";
+import type { GardenEntry } from "src/lib/garden/entries";
 
 interface ContentItem {
   id: string;

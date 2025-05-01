@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 
 import { extractWikilinkDestinations } from "src/lib/utils/wikilink.mjs";
 import config from "garden.config";
-import type { EntryLink, EntryIndexRecord } from "src/lib/garden/garden";
+import type { EntryLink, EntryIndexRecord } from "src/lib/garden/entries";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

@@ -3,7 +3,7 @@ import TableOfContents from "@components/ui/Toc.astro";
 import ContentLinks from "@components/garden/GardenEntryLinks.astro";
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
-import { getEntryIndexRecord } from "src/lib/garden/garden";
+import { getEntryIndexRecord } from "src/lib/garden/entries";
 
 export interface Props {
   entry: CollectionEntry<"essays" | "notes" | "nows" | "books" | "articles" | "topics">;

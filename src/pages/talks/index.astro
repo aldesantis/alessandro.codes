@@ -2,7 +2,7 @@
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { getEntries } from "src/lib/garden/garden";
+import { getEntries } from "src/lib/garden/entries";
 import ContentGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
 
 const talks = await getEntries(["talks"]);
