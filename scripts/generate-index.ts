@@ -120,7 +120,7 @@ const getAllGardenEntryData = (): GardenEntryData[] => {
         return p.ids.some((id) => id.toLowerCase() === normalisedLinkPath.toLowerCase());
       });
 
-      if (match && match.ids[0]) {
+      if (match && match.ids[0] && gardenEntries[index]) {
         // Add to outbound links
         gardenEntries[index].outboundLinks.push({
           matchedId: linkPath,
