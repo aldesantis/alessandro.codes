@@ -7,10 +7,35 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const CONTENT_PATH = path.join(__dirname, "../src/content");
-const CONTENT_TYPES = ["essays", "notes", "nows", "books", "articles", "topics", "recipes"];
+const CONTENT_TYPES = ["essays", "notes", "nows", "books", "articles", "topics", "recipes"] as const;
+
+type ContentType = (typeof CONTENT_TYPES)[number];
+
+interface GardenEntryData {
+  content: string;
+  slug: string;
+  title: string;
+  aliases?: string[];
+  type: ContentType;
+}
+
+interface Link {
+  matchedId?: string;
+  title: string;
+  slug: string;
+  type: ContentType;
+}
+
+interface GardenEntry {
+  ids: string[];
+  slug: string;
+  type: ContentType;
+  outboundLinks: Link[];
+  inboundLinks: Link[];
+}
 
 // Function to extract text between double brackets, now handling labeled links
-const bracketsExtractor = (content) => {
+const bracketsExtractor = (content: string): string[] | null => {
   if (!content) return null;
   const matches = content.match(/\[\[(.*?)\]\]/g);
   if (!matches) return null;
@@ -19,12 +44,12 @@ const bracketsExtractor = (content) => {
     // If there's a pipe, take the part before it (the actual link path)
     // Otherwise use the whole content
     const [linkPath] = innerContent.split("|");
-    return linkPath.trim();
+    return linkPath?.trim() ?? "";
   });
 };
 
 // Get all content files from a directory
-const getFilesFromDir = (dir) => {
+const getFilesFromDir = (dir: string): string[] => {
   try {
     return fs.readdirSync(dir).filter((file) => file.endsWith(".md") || file.endsWith(".mdx"));
   } catch {
@@ -34,7 +59,7 @@ const getFilesFromDir = (dir) => {
 };
 
 // Get data for backlinks
-const getDataForBacklinks = (fileNames, filePath) =>
+const getDataForBacklinks = (fileNames: string[], filePath: string): GardenEntryData[] =>
   fileNames
     .map((fileName) => {
       const file = fs.readFileSync(path.join(filePath, fileName), "utf8");
@@ -54,9 +79,9 @@ const getDataForBacklinks = (fileNames, filePath) =>
         aliases,
       };
     })
-    .filter(Boolean); // Remove null entries (drafts)
+    .filter(Boolean) as GardenEntryData[]; // Remove null entries (drafts)
 
-const getAllGardenEntryData = () => {
+const getAllGardenEntryData = (): GardenEntryData[] => {
   return CONTENT_TYPES.flatMap((type) => {
     const fullPath = path.join(CONTENT_PATH, type);
 
@@ -73,7 +98,7 @@ const getAllGardenEntryData = () => {
   const totalGardenEntryData = getAllGardenEntryData();
 
   // Create initial objects with identifiers and empty link arrays
-  const gardenEntries = totalGardenEntryData.map(({ title, aliases, slug, type }) => ({
+  const gardenEntries: GardenEntry[] = totalGardenEntryData.map(({ title, aliases, slug, type }) => ({
     ids: [...new Set([title, ...(aliases || []), slug])],
     slug,
     type,
@@ -87,13 +112,15 @@ const getAllGardenEntryData = () => {
     const bracketContents = bracketsExtractor(content);
 
     bracketContents?.forEach((linkPath) => {
+      if (!linkPath) return;
+
       // Find matching entry by title or alias
       const match = gardenEntries.find((p) => {
         const normalisedLinkPath = linkPath.replace(/\n/g, "").replace(/\s+/g, " ").trim();
         return p.ids.some((id) => id.toLowerCase() === normalisedLinkPath.toLowerCase());
       });
 
-      if (match) {
+      if (match && match.ids[0]) {
         // Add to outbound links
         gardenEntries[index].outboundLinks.push({
           matchedId: linkPath,
@@ -107,10 +134,10 @@ const getAllGardenEntryData = () => {
 
   // Get inbound links
   for (const outerEntry of gardenEntries) {
-    const outerEntryTitle = outerEntry.ids[0];
+    const outerEntryTitle = outerEntry.ids[0] ?? "";
 
     for (const innerEntry of gardenEntries) {
-      const innerEntryTitle = innerEntry.ids[0];
+      const innerEntryTitle = innerEntry.ids[0] ?? "";
 
       if (innerEntry.outboundLinks.some((link) => link.title === outerEntryTitle)) {
         outerEntry.inboundLinks.push({

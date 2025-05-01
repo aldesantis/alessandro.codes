@@ -9,8 +9,8 @@
     "astro": "astro",
     "lint": "prettier --check . && eslint . && astro check",
     "format": "prettier --write . && eslint --fix .",
-    "fetch-content": "node scripts/fetch-content.js",
-    "generate-index": "node scripts/generate-index.js",
+    "fetch-content": "npx tsx scripts/fetch-content.ts",
+    "generate-index": "npx tsx scripts/generate-index.ts",
     "update-content": "npm run fetch-content && npm run generate-index && git add src/data/index.json src/content && git commit -m 'Update content' && git push"
   },
   "dependencies": {
