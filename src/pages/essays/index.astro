@@ -2,10 +2,10 @@
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { getSortedEssays } from "src/lib/garden";
+import { getEntries } from "src/lib/garden/garden";
 import ContentGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
 
-const essays = await getSortedEssays();
+const essays = await getEntries(["essays"]);
 ---
 
 <Layout>

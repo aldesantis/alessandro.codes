@@ -3,7 +3,7 @@ import GardenEntryCard from "@components/garden/GardenEntryCard.astro";
 import GardenStatusFilterDropdown from "./GardenStatusFilterDropdown.astro";
 import GardenTopicFilterDropdown from "./GardenTopicFilterDropdown.astro";
 import GardenTypeFilterDropdown from "./GardenTypeFilterDropdown.astro";
-import type { GardenEntry } from "src/lib/garden";
+import type { GardenEntry } from "src/lib/garden/garden";
 
 interface Props {
   items: GardenEntry[];
@@ -41,7 +41,7 @@ function getColumnsForSize(size: "S" | "M" | "L"): string {
           <div
             class="break-inside-avoid mb-4"
             data-status={item.data.status}
-            data-topics={item.data.topics?.map((t) => t.id).join(",")}
+            data-topics={item.data.topics?.map((t: { id: string }) => t.id).join(",")}
             data-type={item.collection}
             data-garden-entries-grid-target="item"
           >

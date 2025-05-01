@@ -1,8 +1,6 @@
-import { getSortedEssays } from "src/lib/garden";
-import { getSortedNotes } from "src/lib/garden";
-import { getSortedNows } from "src/lib/garden";
-import { getSortedBooks } from "src/lib/garden";
+import { getEntries } from "src/lib/garden/garden";
 import type { APIRoute } from "astro";
+import type { GardenEntry } from "src/lib/garden/garden";
 
 interface ContentItem {
   id: string;
@@ -47,12 +45,13 @@ export const GET: APIRoute = async ({ request }) => {
 };
 
 async function getCommandPaletteItems(): Promise<ContentItem[]> {
-  const essays = await getSortedEssays();
-  const notes = await getSortedNotes();
-  const nows = await getSortedNows();
-  const books = await getSortedBooks();
+  const entries = await getEntries(["essays", "notes", "nows", "books"]);
+  const essays = entries.filter((e) => e.collection === "essays");
+  const notes = entries.filter((e) => e.collection === "notes");
+  const nows = entries.filter((e) => e.collection === "nows");
+  const books = entries.filter((e) => e.collection === "books");
 
-  const essayItems: ContentItem[] = essays.map((essay) => {
+  const essayItems: ContentItem[] = essays.map((essay: GardenEntry) => {
     return {
       id: essay.id,
       name: essay.data.title,
@@ -62,7 +61,7 @@ async function getCommandPaletteItems(): Promise<ContentItem[]> {
     };
   });
 
-  const noteItems: ContentItem[] = notes.map((note) => {
+  const noteItems: ContentItem[] = notes.map((note: GardenEntry) => {
     return {
       id: note.id,
       name: note.data.title,
@@ -72,7 +71,7 @@ async function getCommandPaletteItems(): Promise<ContentItem[]> {
     };
   });
 
-  const nowItems: ContentItem[] = nows.map((now) => {
+  const nowItems: ContentItem[] = nows.map((now: GardenEntry) => {
     return {
       id: now.id,
       name: now.data.title,
@@ -81,13 +80,13 @@ async function getCommandPaletteItems(): Promise<ContentItem[]> {
     };
   });
 
-  const bookItems: ContentItem[] = books.map((book) => {
+  const bookItems: ContentItem[] = books.map((book: GardenEntry) => {
     return {
       id: book.id,
       name: book.data.title,
       url: `/books/${book.id}`,
       type: "Book",
-      date: book.data.lastHighlightedOn,
+      date: book.data.updatedAt,
     };
   });
 

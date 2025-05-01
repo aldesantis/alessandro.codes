@@ -29,14 +29,13 @@ export const collections = {
   talks: defineCollection({
     schema: baseSchema.extend(
       z.object({
-        slug: z.string(),
         title: z.string(),
         description: z.string(),
         url: z.string().url(),
         language: z.enum(["en", "it"]),
       }).shape
     ),
-    loader: file("src/data/talks.json"),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/talks" }),
   }),
 
   topics: defineCollection({

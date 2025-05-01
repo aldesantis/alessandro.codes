@@ -1,4 +1,4 @@
-import type { Transformer } from "src/garden/transformers";
+import type { Transformer } from "src/lib/garden/transformers";
 import path from "path";
 
 const renameMdToMdx = (): Transformer => {

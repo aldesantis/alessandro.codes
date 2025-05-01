@@ -4,15 +4,13 @@ import SectionHeading from "@components/ui/sections/SectionHeading.astro";
 import Section from "@components/ui/sections/Section.astro";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import { getSortedBooks } from "src/lib/garden";
-import { getSortedNotes } from "src/lib/garden";
+import { getEntries } from "src/lib/garden/garden";
 import sections from "src/data/sections.json";
-import { getSortedEssays } from "src/lib/garden";
 import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
 
-const essays = (await getSortedEssays()).slice(0, 6);
-const notes = (await getSortedNotes()).slice(0, 6);
-const books = (await getSortedBooks()).slice(0, 6);
+const essays = (await getEntries(["essays"])).slice(0, 6);
+const notes = (await getEntries(["notes"])).slice(0, 6);
+const books = (await getEntries(["books"])).slice(0, 6);
 ---
 
 <Layout>

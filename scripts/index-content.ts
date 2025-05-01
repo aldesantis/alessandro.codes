@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 
 import { extractWikilinkDestinations } from "src/lib/utils/wikilink.mjs";
 import config from "garden.config";
-import type { GardenIndexEntryLink, GardenIndexEntry } from "src/lib/types/garden";
+import type { EntryLink, EntryIndexRecord } from "src/lib/garden/garden";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -74,7 +74,7 @@ async function parseAllMarkdownFiles(): Promise<FileData[]> {
 /**
  * Creates a garden entry from entry data
  */
-function buildGardenIndexEntry(entryData: FileData): GardenIndexEntry {
+function buildGardenIndexEntry(entryData: FileData): EntryIndexRecord {
   return {
     ids: [...new Set([entryData.title, ...(entryData.aliases || []), entryData.slug])],
     slug: entryData.slug,
@@ -89,11 +89,11 @@ function buildGardenIndexEntry(entryData: FileData): GardenIndexEntry {
  */
 function extractOutboundLinks(
   fileData: FileData,
-  GardenIndexEntry: GardenIndexEntry,
-  allEntries: GardenIndexEntry[]
-): GardenIndexEntry {
+  GardenIndexEntry: EntryIndexRecord,
+  allEntries: EntryIndexRecord[]
+): EntryIndexRecord {
   const linkPaths = extractWikilinkDestinations(fileData.content);
-  const outboundLinks: GardenIndexEntryLink[] = [];
+  const outboundLinks: EntryLink[] = [];
 
   for (const linkPath of linkPaths) {
     if (!linkPath) {
@@ -130,8 +130,8 @@ function extractOutboundLinks(
 /**
  * Processes inbound links for a garden entry
  */
-function extractInboundLinks(entry: GardenIndexEntry, allEntries: GardenIndexEntry[]): GardenIndexEntry {
-  const inboundLinks: GardenIndexEntryLink[] = [];
+function extractInboundLinks(entry: EntryIndexRecord, allEntries: EntryIndexRecord[]): EntryIndexRecord {
+  const inboundLinks: EntryLink[] = [];
 
   for (const otherEntry of allEntries) {
     if (!otherEntry.outboundLinks.some((link) => link.slug === entry.slug && link.type === entry.type)) {
@@ -161,7 +161,7 @@ function extractInboundLinks(entry: GardenIndexEntry, allEntries: GardenIndexEnt
 /**
  * Writes the garden index to a JSON file
  */
-async function writeGardenIndex(entries: GardenIndexEntry[]): Promise<void> {
+async function writeGardenIndex(entries: EntryIndexRecord[]): Promise<void> {
   const outputPath = path.join(__dirname, "../src/data/index.json");
   await fs.writeFile(outputPath, JSON.stringify(entries, null, 2));
   console.log("✨ Generated garden index in index.json");

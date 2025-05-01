@@ -1,7 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
-import { getSortedNows } from "src/lib/garden";
+import { getEntries } from "src/lib/garden/garden";
+import type { GardenEntry } from "src/lib/garden/garden";
 import Link from "@components/ui/Link.astro";
 import ContentLayout from "@components/garden/GardenEntryDetail.astro";
 
@@ -16,8 +17,8 @@ export async function getStaticPaths() {
 
 const { now } = Astro.props;
 
-const allNows = await getSortedNows();
-const currentIndex = allNows.findIndex((item) => item.id === now.id);
+const allNows = await getEntries(["nows"]);
+const currentIndex = allNows.findIndex((item: GardenEntry) => item.id === now.id);
 const prevNow = currentIndex < allNows.length - 1 ? allNows[currentIndex + 1] : null;
 const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
 ---

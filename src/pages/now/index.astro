@@ -1,7 +1,7 @@
 ---
-import { getSortedNows } from "src/lib/garden";
+import { getEntries } from "src/lib/garden/garden";
 
-const latestNow = (await getSortedNows())[0]!;
+const latestNow = (await getEntries(["nows"]))[0]!;
 const latestNowUrl = `/now/${latestNow.id}`;
 
 return Astro.redirect(latestNowUrl, 301);

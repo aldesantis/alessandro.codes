@@ -7,7 +7,7 @@ import { getMdxComponents } from "src/lib/rendering";
 import Prose from "@components/ui/Prose.astro";
 import TopicMeta from "@components/garden/topics/TopicMeta.astro";
 import ContentGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
-import { getRelatedGardenEntries } from "src/lib/garden";
+import { getRelatedEntries } from "src/lib/garden/garden";
 
 export async function getStaticPaths() {
   const topics = await getCollection("topics");
@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 
 const { topic } = Astro.props;
 const { Content } = await render(topic);
-const relatedContent = await getRelatedGardenEntries(topic);
+const relatedContent = await getRelatedEntries(topic);
 ---
 
 <title slot="head">{topic.data.title} | Alessandro Desantis</title>

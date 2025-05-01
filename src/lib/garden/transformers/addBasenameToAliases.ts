@@ -1,7 +1,7 @@
 import path from "path";
 import matter from "gray-matter";
 
-import type { Transformer } from "src/garden/transformers";
+import type { Transformer } from "src/lib/garden/transformers";
 
 const addBasenameToAliases = (): Transformer => {
   return async (originalPath: string, originalContent: string) => {
