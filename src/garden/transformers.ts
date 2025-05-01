@@ -9,7 +9,7 @@ import moveToDirectory from "src/garden/transformers/moveToDirectory";
 export type TransformerResult = {
   path: string;
   content: string;
-} | null;
+};
 
 export type Transformer = (originalPath: string, originalContent: string) => Promise<TransformerResult>;
 

@@ -5,8 +5,8 @@ import os from "os";
 import { glob } from "glob";
 
 import { type TransformerResult } from "src/garden/transformers";
-import config from "garden.config";
 import type { DigitalGardenContentType } from "src/garden/config";
+import config from "garden.config";
 
 async function cleanDirectory(dir: string): Promise<void> {
   try {
@@ -42,14 +42,7 @@ async function transformContent(contentType: DigitalGardenContentType, tmpPath: 
     const result = await contentType.transformers.reduce<Promise<TransformerResult>>(
       async (acc, transformer) => {
         const currentResult = await acc;
-
-        if (!currentResult) {
-          return null;
-        }
-
-        const result = await transformer(currentResult.path, currentResult.content);
-
-        return result || currentResult;
+        return await transformer(currentResult.path, currentResult.content);
       },
       Promise.resolve({
         path: path.join(config.contentDir, path.relative(tmpPath, sourcePath)),
@@ -57,10 +50,8 @@ async function transformContent(contentType: DigitalGardenContentType, tmpPath: 
       })
     );
 
-    if (result) {
-      await fse.mkdirp(path.dirname(result.path));
-      await fs.writeFile(result.path, result.content);
-    }
+    await fse.mkdirp(path.dirname(result.path));
+    await fs.writeFile(result.path, result.content);
   }
 }
 
