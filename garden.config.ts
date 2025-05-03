@@ -11,7 +11,7 @@ import {
   renameMdToMdx,
   addContentTypeToMetadata,
 } from "src/lib/garden/transformers";
-import type { DigitalGardenConfig } from "src/lib/garden/config";
+import type { Configuration } from "src/lib/garden/config";
 
 const transformers = [
   renameMdToMdx(),
@@ -23,7 +23,7 @@ const transformers = [
   addContentTypeToMetadata(),
 ];
 
-const config: DigitalGardenConfig = {
+const config: Configuration = {
   // Where do we fetch the content from?
   source: gitSource({
     repositoryUrl: "git@github.com:aldesantis/digital-garden.git",

@@ -5,7 +5,7 @@ import os from "os";
 import { glob } from "glob";
 
 import { type TransformerResult } from "src/lib/garden/transformers";
-import type { DigitalGardenContentType } from "src/lib/garden/config";
+import type { EntryType } from "src/lib/garden/config";
 
 import config from "garden.config";
 
@@ -28,7 +28,7 @@ async function fetchContent(): Promise<string> {
   return tmpPath;
 }
 
-async function transformContent(contentType: DigitalGardenContentType, tmpPath: string): Promise<void> {
+async function transformContent(contentType: EntryType, tmpPath: string): Promise<void> {
   const files = await glob(contentType.pattern, { cwd: tmpPath });
 
   if (files.length === 0) {

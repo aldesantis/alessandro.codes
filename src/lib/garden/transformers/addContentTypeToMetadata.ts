@@ -1,10 +1,10 @@
 import matter from "gray-matter";
 
 import type { Transformer } from "src/lib/garden/transformers";
-import type { DigitalGardenContentType } from "../config";
+import type { EntryType } from "../config";
 
 const addContentTypeToMetadata = (): Transformer => {
-  return async (originalPath: string, originalContent: string, contentType: DigitalGardenContentType) => {
+  return async (originalPath: string, originalContent: string, contentType: EntryType) => {
     const { data, content } = matter(originalContent);
 
     // Add the content type ID to the metadata
