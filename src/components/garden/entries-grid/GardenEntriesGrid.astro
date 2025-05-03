@@ -15,14 +15,14 @@ interface Props {
 
 const { items, itemSize, showStatusFilters = false, showTopicFilters = false, showTypeFilters = false } = Astro.props;
 
-function getColumnsForSize(size: "S" | "M" | "L"): string {
+function getGridColumnsForSize(size: "S" | "M" | "L"): string {
   switch (size) {
     case "S":
-      return "columns-1 sm:columns-2 lg:columns-4";
+      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4";
     case "M":
-      return "columns-1 sm:columns-2 lg:columns-3";
+      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3";
     case "L":
-      return "columns-1 sm:columns-2 lg:columns-2";
+      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-2";
   }
 }
 ---
@@ -34,12 +34,12 @@ function getColumnsForSize(size: "S" | "M" | "L"): string {
     {showTopicFilters && <GardenTopicFilterDropdown />}
   </div>
 
-  <div data-garden-entries-grid-target="grid" class={`${getColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}>
+  <div data-garden-entries-grid-target="grid" class={`grid ${getGridColumnsForSize(itemSize)} gap-4`}>
     {
       items.length > 0 ? (
         items.map((item) => (
           <div
-            class="break-inside-avoid mb-4"
+            class="mb-4"
             data-status={item.data.status}
             data-topics={item.data.topics?.map((t: { id: string }) => t.id).join(",")}
             data-type={item.collection}
