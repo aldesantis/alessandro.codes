@@ -2518,6 +2518,10 @@
       {
         "slug": "marketers-are-from-mars-consumers-are-from-new-jersey",
         "type": "books"
+      },
+      {
+        "slug": "how-brands-grow",
+        "type": "books"
       }
     ],
     "inboundLinks": [
@@ -5193,7 +5197,12 @@
     ],
     "slug": "life-is-seasonal",
     "type": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "4-the-type-2-manifesto-by-zoe-scaman-the-type-2-manifesto",
+        "type": "articles"
+      }
+    ],
     "inboundLinks": [
       {
         "slug": "colophon",
@@ -8290,6 +8299,10 @@
         "type": "notes"
       },
       {
+        "slug": "advertising-must-be-memorable",
+        "type": "notes"
+      },
+      {
         "slug": "brand-growth-comes-from-light-buyers",
         "type": "notes"
       },
@@ -9555,7 +9568,12 @@
     "slug": "4-the-type-2-manifesto-by-zoe-scaman-the-type-2-manifesto",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "life-is-seasonal",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -22142,6 +22160,17 @@
       "will-trump-tariffs-wreck-american-e-commerce-again"
     ],
     "slug": "will-trump-tariffs-wreck-american-e-commerce-again",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Will We See the First Programmable Organisations In 2025?",
+      "will-we-see-the-first-programmable-organisations-in-2025 — will-we-see-the-first-programmable-organisations-in-2025",
+      "will-we-see-the-first-programmable-organisations-in-2025-will-we-see-the-first-programmable-organisa"
+    ],
+    "slug": "will-we-see-the-first-programmable-organisations-in-2025-will-we-see-the-first-programmable-organisa",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
