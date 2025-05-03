@@ -35,6 +35,12 @@ const config: DigitalGardenConfig = {
   // What transformations do we want to apply to the content?
   contentTypes: [
     {
+      id: "assets",
+      pattern: "assets/**/*",
+      destinationPath: "assets",
+      transformers: [],
+    },
+    {
       id: "essays",
       pattern: "essays/*.{md,mdx}",
       destinationPath: "essays",

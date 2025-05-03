@@ -37,6 +37,16 @@ async function transformContent(contentType: DigitalGardenContentType, tmpPath: 
 
   for (const file of files) {
     const sourcePath = path.join(tmpPath, file);
+
+    // For assets (binary files), copy directly without transformation
+    if (contentType.id === "assets") {
+      const destinationPath = path.join(config.contentDir, contentType.destinationPath, path.basename(sourcePath));
+      await fse.mkdirp(path.dirname(destinationPath));
+      await fs.copyFile(sourcePath, destinationPath);
+      continue;
+    }
+
+    // For text files, proceed with transformation
     const fileContent = await fs.readFile(sourcePath, "utf8");
 
     const result = await contentType.transformers.reduce<Promise<TransformerResult>>(

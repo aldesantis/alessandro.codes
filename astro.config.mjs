@@ -1,11 +1,11 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
-
 import tailwind from "@astrojs/tailwind";
-
 import icon from "astro-icon";
+
 import { remarkReadingTime } from "./src/lib/plugins/remarkReadingTime.mjs";
 import { remarkWikiLink } from "./src/lib/plugins/remarkWikiLink.mjs";
+import { remarkWikiImage } from "./src/lib/plugins/remarkWikiImage.mjs";
 
 import mdx from "@astrojs/mdx";
 
@@ -16,11 +16,11 @@ export default defineConfig({
   integrations: [tailwind(), icon(), mdx()],
 
   markdown: {
-    remarkPlugins: [remarkReadingTime, remarkWikiLink],
-  },
-
-  image: {
-    domains: ["m.media-amazon.com", "covers.openlibrary.org"],
+    remarkPlugins: [
+      remarkReadingTime, 
+      remarkWikiLink, 
+      [remarkWikiImage, { assetsPath: '../assets' }]
+    ],
   },
 
   server: {

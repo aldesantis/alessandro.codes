@@ -35,7 +35,7 @@ export function remarkWikiLink() {
         let lastIndex = 0;
 
         for (const { linkDestination, displayText } of wikilinks) {
-          const match = node.value.match(new RegExp(`\\[\\[${linkDestination}(?:\\|${displayText})?\\]\\]`));
+          const match = node.value.match(new RegExp(`(?<!\\!)\\[\\[${linkDestination}(?:\\|${displayText})?\\]\\]`));
           if (!match) continue;
 
           const startIndex = match.index;
