@@ -3,8 +3,8 @@ import path from "path";
 import matter from "gray-matter";
 import { fileURLToPath } from "url";
 
-import { extractWikilinkDestinations } from "src/lib/utils/wikilink.mjs";
 import config from "garden.config";
+import { extractWikilinks } from "src/lib/utils/wikilink.mjs";
 import type { EntryLink, EntryIndexRecord } from "src/lib/garden/entries";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -92,7 +92,7 @@ function extractOutboundLinks(
   GardenIndexEntry: EntryIndexRecord,
   allEntries: EntryIndexRecord[]
 ): EntryIndexRecord {
-  const linkPaths = extractWikilinkDestinations(fileData.content);
+  const linkPaths = extractWikilinks(fileData.content).map(({ linkDestination }) => linkDestination);
   const outboundLinks: EntryLink[] = [];
 
   for (const linkPath of linkPaths) {

@@ -16,21 +16,3 @@ export function extractWikilinks(content) {
     };
   });
 }
-
-/**
- * Extracts raw link destinations from wikilinks in text content
- * @param {string} content - The text content to extract wikilinks from
- * @returns {string[]} - Array of extracted link destinations
- */
-export function extractWikilinkDestinations(content) {
-  if (!content) return [];
-
-  const matches = content.match(/\[\[(.*?)\]\]/g);
-  if (!matches) return [];
-
-  return matches.map((match) => {
-    const innerContent = match.slice(2, -2);
-    const [linkPath] = innerContent.split("|");
-    return linkPath?.trim() ?? "";
-  });
-}

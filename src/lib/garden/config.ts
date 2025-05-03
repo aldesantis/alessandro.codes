@@ -7,10 +7,11 @@ export interface DigitalGardenContentType {
   pattern: string;
   destinationPath: string;
   transformers: Transformer[];
+  urlBuilder?: (slug: string) => string;
 }
 
 export interface DigitalGardenConfig {
   source: DigitalGardenSource;
   contentDir: string;
-  contentTypes: DigitalGardenContentType[];
+  entryTypes: DigitalGardenContentType[];
 }

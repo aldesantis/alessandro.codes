@@ -1,7 +1,6 @@
 import path from "path";
 import matter from "gray-matter";
-import type { DigitalGardenConfig } from "./src/lib/garden/config";
-import type { TransformerResult } from "./src/lib/garden/transformers";
+
 import { gitSource } from "src/lib/garden/sources";
 import {
   normalizeFilename,
@@ -12,6 +11,7 @@ import {
   renameMdToMdx,
   addContentTypeToMetadata,
 } from "src/lib/garden/transformers";
+import type { DigitalGardenConfig } from "src/lib/garden/config";
 
 const transformers = [
   renameMdToMdx(),
@@ -33,7 +33,7 @@ const config: DigitalGardenConfig = {
   contentDir: path.join(process.cwd(), "src", "content"),
 
   // What transformations do we want to apply to the content?
-  contentTypes: [
+  entryTypes: [
     {
       id: "assets",
       pattern: "assets/**/*",
@@ -45,22 +45,25 @@ const config: DigitalGardenConfig = {
       pattern: "essays/*.{md,mdx}",
       destinationPath: "essays",
       transformers,
+      urlBuilder: (slug) => `/essays/${slug}`,
     },
     {
       id: "notes",
       pattern: "notes/*.{md,mdx}",
       destinationPath: "notes",
       transformers,
+      urlBuilder: (slug) => `/notes/${slug}`,
     },
     {
       id: "nows",
       pattern: "nows/*.{md,mdx}",
       destinationPath: "nows",
+      urlBuilder: (slug) => `/now/${slug}`,
       transformers: [
         ...transformers,
 
         // Extract date from slug and set it as updatedAt for proper sorting
-        async (originalPath: string, originalContent: string): Promise<TransformerResult> => {
+        async (originalPath, originalContent) => {
           const { data, content } = matter(originalContent);
 
           const dateMatch = originalPath.match(/(\d{4}-\d{2})/);
@@ -68,8 +71,8 @@ const config: DigitalGardenConfig = {
             throw new Error(`No date found in path for nows entry: ${originalPath}`);
           }
 
-          const [year, month] = dateMatch[1].split("-").map(Number);
-          const date = new Date(year!, month!, 0);
+          const [year, month] = dateMatch[1].split("-").map(Number) as [number, number];
+          const date = new Date(year, month, 0);
 
           const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
 
@@ -82,16 +85,18 @@ const config: DigitalGardenConfig = {
       pattern: "topics/*.{md,mdx}",
       destinationPath: "topics",
       transformers,
+      urlBuilder: (slug) => `/topics/${slug}`,
     },
     {
       id: "books",
       pattern: "readwise/books/*.{md,mdx}",
       destinationPath: "books",
+      urlBuilder: (slug) => `/books/${slug}`,
       transformers: [
         ...transformers,
 
         // Copy the lastHighlightedOn date to the updatedAt date for proper sorting
-        async (originalPath: string, originalContent: string): Promise<TransformerResult> => {
+        async (originalPath, originalContent) => {
           const { data, content } = matter(originalContent);
 
           const date = new Date(data.lastHighlightedOn);
@@ -107,6 +112,7 @@ const config: DigitalGardenConfig = {
       pattern: "readwise/articles/*.{md,mdx}",
       destinationPath: "articles",
       transformers,
+      urlBuilder: (slug) => `/articles/${slug}`,
     },
     {
       id: "recipes",
@@ -122,7 +128,7 @@ const config: DigitalGardenConfig = {
         ...transformers,
 
         // Copy the createdAt date to the updatedAt date for proper sorting
-        async (originalPath: string, originalContent: string): Promise<TransformerResult> => {
+        async (originalPath, originalContent) => {
           const { data, content } = matter(originalContent);
 
           const date = new Date(data.createdAt);
@@ -142,16 +148,6 @@ const config: DigitalGardenConfig = {
   ],
 };
 
-export const GARDEN_CONTENT_TYPE_IDS = [
-  "essays",
-  "notes",
-  "nows",
-  "topics",
-  "books",
-  "articles",
-  "recipes",
-  "talks",
-] as const;
-export type GardenContentTypeId = (typeof GARDEN_CONTENT_TYPE_IDS)[number];
+export const entryTypeIds = ["essays", "notes", "nows", "topics", "books", "articles", "recipes", "talks"] as const;
 
 export default config;

@@ -6,6 +6,7 @@ import { glob } from "glob";
 
 import { type TransformerResult } from "src/lib/garden/transformers";
 import type { DigitalGardenContentType } from "src/lib/garden/config";
+
 import config from "garden.config";
 
 async function cleanDirectory(dir: string): Promise<void> {
@@ -73,7 +74,7 @@ async function processContent(): Promise<void> {
   console.log("Fetching content from source...");
   const tmpPath = await fetchContent();
 
-  for (const contentType of config.contentTypes) {
+  for (const contentType of config.entryTypes) {
     console.log(`Processing content type ${contentType.id}...`);
     await transformContent(contentType, tmpPath);
   }
