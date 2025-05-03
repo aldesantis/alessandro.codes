@@ -5,7 +5,8 @@ import os from "os";
 import { glob } from "glob";
 
 import { type TransformerResult } from "src/lib/garden/transformers";
-import type { DigitalGardenContentType } from "src/lib/garden/config";
+import type { EntryType } from "src/lib/garden/config";
+
 import config from "garden.config";
 
 async function cleanDirectory(dir: string): Promise<void> {
@@ -27,8 +28,9 @@ async function fetchContent(): Promise<string> {
   return tmpPath;
 }
 
-async function transformContent(contentType: DigitalGardenContentType, tmpPath: string): Promise<void> {
-  const files = await glob(contentType.pattern, { cwd: tmpPath });
+async function transformContent(contentType: EntryType, tmpPath: string): Promise<void> {
+  const basePath = path.join(tmpPath, contentType.basePath || "");
+  const files = await glob(contentType.pattern, { cwd: basePath });
 
   if (files.length === 0) {
     console.warn(`No files found for ${contentType.id} (${contentType.pattern})`);
@@ -36,7 +38,19 @@ async function transformContent(contentType: DigitalGardenContentType, tmpPath: 
   }
 
   for (const file of files) {
-    const sourcePath = path.join(tmpPath, file);
+    const sourcePath = path.join(basePath, file);
+
+    // Non-markdown files are copied directly without transformation.
+    const fileExtension = path.extname(sourcePath).toLowerCase();
+    if (fileExtension !== ".md" && fileExtension !== ".mdx") {
+      const destinationPath = path.join(config.contentDir, contentType.destinationPath, file);
+
+      await fse.mkdirp(path.dirname(destinationPath));
+      await fse.copy(sourcePath, destinationPath);
+
+      continue;
+    }
+
     const fileContent = await fs.readFile(sourcePath, "utf8");
 
     const result = await contentType.transformers.reduce<Promise<TransformerResult>>(
@@ -45,12 +59,13 @@ async function transformContent(contentType: DigitalGardenContentType, tmpPath: 
         return await transformer(currentResult.path, currentResult.content, contentType);
       },
       Promise.resolve({
-        path: sourcePath,
+        path: file,
         content: fileContent,
       })
     );
 
-    const destinationPath = path.join(config.contentDir, contentType.destinationPath, path.basename(result.path));
+    const destinationPath = path.join(config.contentDir, contentType.destinationPath, result.path);
+
     await fse.mkdirp(path.dirname(destinationPath));
     await fs.writeFile(destinationPath, result.content);
   }
@@ -63,7 +78,7 @@ async function processContent(): Promise<void> {
   console.log("Fetching content from source...");
   const tmpPath = await fetchContent();
 
-  for (const contentType of config.contentTypes) {
+  for (const contentType of config.entryTypes) {
     console.log(`Processing content type ${contentType.id}...`);
     await transformContent(contentType, tmpPath);
   }

@@ -1,9 +1,10 @@
 import { getCollection, type CollectionEntry } from "astro:content";
+import { entryTypeIds } from "garden.config";
 
 import entryIndex from "src/data/index.json";
-import { GARDEN_CONTENT_TYPE_IDS, type GardenContentTypeId } from "garden.config";
 
-export type GardenEntry = CollectionEntry<GardenContentTypeId>;
+export type GardenEntryTypeId = (typeof entryTypeIds)[number];
+export type GardenEntry = CollectionEntry<GardenEntryTypeId>;
 
 export interface EntryLink {
   slug: string;
@@ -34,7 +35,7 @@ function sortEntries(a: GardenEntry, b: GardenEntry): number {
   return statusPriorityA > statusPriorityB ? -1 : 1;
 }
 
-export async function getEntries<T extends GardenContentTypeId>(contentTypes: T[]): Promise<CollectionEntry<T>[]> {
+export async function getEntries<T extends GardenEntryTypeId>(contentTypes: T[]): Promise<CollectionEntry<T>[]> {
   const allContent = await Promise.all(
     contentTypes.map(async (contentTypeId) => {
       const collection = await getCollection(contentTypeId);
@@ -47,7 +48,7 @@ export async function getEntries<T extends GardenContentTypeId>(contentTypes: T[
   return sortedContent;
 }
 
-export async function getEntry<T extends GardenContentTypeId>(
+export async function getEntry<T extends GardenEntryTypeId>(
   contentTypeId: T,
   entryId: string
 ): Promise<GardenEntry | null> {
@@ -87,11 +88,11 @@ export async function getRelatedEntries(entry: GardenEntry): Promise<GardenEntry
     .filter((link) => link !== undefined);
 
   const relatedEntries = (
-    await Promise.all(uniqueLinks.map((link) => getEntry(link.type as GardenContentTypeId, link.slug)))
+    await Promise.all(uniqueLinks.map((link) => getEntry(link.type as GardenEntryTypeId, link.slug)))
   ).filter((entry): entry is GardenEntry => entry !== null);
 
   if (entry.collection === "topics") {
-    const relatedEntriesByTopic = (await getEntries([...GARDEN_CONTENT_TYPE_IDS])).filter((e) =>
+    const relatedEntriesByTopic = (await getEntries([...entryTypeIds])).filter((e) =>
       e.data.topics?.some((t) => t.id === entry.id)
     );
 

@@ -1,16 +1,17 @@
-import type { Transformer } from "./transformers";
+import type { Transformer } from "src/lib/garden/transformers";
+import type { Source } from "src/lib/garden/sources";
 
-export type DigitalGardenSource = (destination: string) => Promise<void>;
-
-export interface DigitalGardenContentType {
+export interface EntryType {
   id: string;
+  basePath?: string;
   pattern: string;
   destinationPath: string;
   transformers: Transformer[];
+  urlBuilder?: (slug: string) => string;
 }
 
-export interface DigitalGardenConfig {
-  source: DigitalGardenSource;
+export interface Configuration {
+  source: Source;
   contentDir: string;
-  contentTypes: DigitalGardenContentType[];
+  entryTypes: EntryType[];
 }

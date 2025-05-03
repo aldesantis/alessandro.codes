@@ -1,24 +1,11 @@
 import { visit } from "unist-util-visit";
-import linkMaps from "../../data/index.json";
+
+import entryIndex from "../../data/index.json";
 import { extractWikilinks } from "../utils/wikilink.mjs";
 
 export function buildContentEntryUrl({ type, slug }) {
-  switch (type) {
-    case "essays":
-      return `/essays/${slug}`;
-    case "notes":
-      return `/notes/${slug}`;
-    case "nows":
-      return `/now/${slug}`;
-    case "books":
-      return `/books/${slug}`;
-    case "articles":
-      return `/articles/${slug}`;
-    case "topics":
-      return `/topics/${slug}`;
-    default:
-      return null;
-  }
+  // TODO: this should use urlBuilder from garden.config.ts
+  return `/${type}/${slug}`;
 }
 
 export function remarkWikiLink() {
@@ -35,7 +22,7 @@ export function remarkWikiLink() {
         let lastIndex = 0;
 
         for (const { linkDestination, displayText } of wikilinks) {
-          const match = node.value.match(new RegExp(`\\[\\[${linkDestination}(?:\\|${displayText})?\\]\\]`));
+          const match = node.value.match(new RegExp(`(?<!\\!)\\[\\[${linkDestination}(?:\\|${displayText})?\\]\\]`));
           if (!match) continue;
 
           const startIndex = match.index;
@@ -48,14 +35,14 @@ export function remarkWikiLink() {
             });
           }
 
-          const matchedPost = linkMaps.find((post) =>
-            post.ids.some((id) => id.toLowerCase() === linkDestination.toLowerCase())
+          const indexRecord = entryIndex.find((record) =>
+            record.ids.some((id) => id.toLowerCase() === linkDestination.toLowerCase())
           );
 
           let newChild;
 
-          if (matchedPost) {
-            const url = buildContentEntryUrl(matchedPost);
+          if (indexRecord) {
+            const url = buildContentEntryUrl(indexRecord);
 
             if (url) {
               newChild = {

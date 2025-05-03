@@ -4,7 +4,7 @@ import type { EntryLink as LinkType } from "src/lib/garden/entries";
 import { buildContentEntryUrl } from "src/lib/plugins/remarkWikiLink.mjs";
 import LinkList from "@components/ui/LinkList.astro";
 import MobileCollapsible from "@components/ui/MobileCollapsible.astro";
-import { getCollection } from "astro:content";
+import { getEntries, type GardenEntryTypeId } from "src/lib/garden/entries";
 
 interface Props {
   outboundLinks: LinkType[];
@@ -13,7 +13,6 @@ interface Props {
 
 const { outboundLinks, inboundLinks } = Astro.props;
 
-// Helper function to deduplicate links based on slug
 const deduplicateLinks = (links: LinkType[]): LinkType[] => {
   const seen = new Set<string>();
   return links.filter((link) => {
@@ -27,33 +26,9 @@ const deduplicateLinks = (links: LinkType[]): LinkType[] => {
 const uniqueOutboundLinks = deduplicateLinks(outboundLinks);
 const uniqueInboundLinks = deduplicateLinks(inboundLinks);
 
-const essays = await getCollection("essays");
-const books = await getCollection("books");
-const notes = await getCollection("notes");
-const topics = await getCollection("topics");
-const talks = await getCollection("talks");
-const nows = await getCollection("nows");
-const articles = await getCollection("articles");
-
-const getLinkTitle = (link: LinkType): string => {
-  switch (link.type) {
-    case "essays":
-      return essays.find((e) => e.id === link.slug)?.data.title || link.slug;
-    case "books":
-      return books.find((b) => b.id === link.slug)?.data.title || link.slug;
-    case "notes":
-      return notes.find((n) => n.id === link.slug)?.data.title || link.slug;
-    case "topics":
-      return topics.find((t) => t.id === link.slug)?.data.title || link.slug;
-    case "talks":
-      return talks.find((t) => t.id === link.slug)?.data.title || link.slug;
-    case "nows":
-      return nows.find((n) => n.id === link.slug)?.data.title || link.slug;
-    case "articles":
-      return articles.find((a) => a.id === link.slug)?.data.title || link.slug;
-    default:
-      return link.slug;
-  }
+const getLinkTitle = async (link: LinkType): Promise<string> => {
+  const entries = await getEntries([link.type as GardenEntryTypeId]);
+  return entries.find((e) => e.id === link.slug)?.data.title || link.slug;
 };
 ---
 
