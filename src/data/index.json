@@ -3165,6 +3165,10 @@
         "type": "notes"
       },
       {
+        "slug": "most-ideas-can-only-be-post-rationalized",
+        "type": "notes"
+      },
+      {
         "slug": "product-development-attempts-to-systematize-success",
         "type": "notes"
       },
@@ -4633,6 +4637,21 @@
   },
   {
     "ids": [
+      "Gatherings must have a purpose",
+      "gatherings-must-have-a-purpose"
+    ],
+    "slug": "gatherings-must-have-a-purpose",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "the-art-of-gathering",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Good cooking requires time",
       "good-cooking-requires-time"
     ],
@@ -5294,6 +5313,21 @@
   },
   {
     "ids": [
+      "Low-price buyers don’t exist",
+      "low-price-buyers-dont-exist"
+    ],
+    "slug": "low-price-buyers-dont-exist",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "how-brands-grow",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Loyalty programs don’t drive direct growth",
       "loyalty-programs-dont-drive-direct-growth"
     ],
@@ -5766,6 +5800,10 @@
         "type": "notes"
       },
       {
+        "slug": "build-experimentation-guidelines",
+        "type": "notes"
+      },
+      {
         "slug": "foresight-is-creation-not-prediction",
         "type": "notes"
       },
@@ -5774,11 +5812,15 @@
         "type": "notes"
       },
       {
-        "slug": "foresight-as-activism-researching-vs-making-culture",
+        "slug": "the-sarumans-and-the-radagasts",
         "type": "articles"
       },
       {
-        "slug": "the-sarumans-and-the-radagasts",
+        "slug": "alchemy",
+        "type": "books"
+      },
+      {
+        "slug": "foresight-as-activism-researching-vs-making-culture",
         "type": "articles"
       }
     ],
@@ -7919,7 +7961,12 @@
     "slug": "alchemy",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "most-ideas-can-only-be-post-rationalized",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -8316,6 +8363,10 @@
       },
       {
         "slug": "light-buyers-favor-large-brands",
+        "type": "notes"
+      },
+      {
+        "slug": "low-price-buyers-dont-exist",
         "type": "notes"
       },
       {
@@ -8780,7 +8831,12 @@
     "slug": "the-art-of-gathering",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "gatherings-must-have-a-purpose",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
