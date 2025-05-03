@@ -3,9 +3,8 @@ import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import { getEntries } from "src/lib/garden/entries";
 import ContentGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
-import { entryTypeIds } from "garden.config";
 
-const content = await getEntries([...entryTypeIds]);
+const content = await getEntries(["essays", "books", "notes", "talks"]);
 ---
 
 <Layout>
@@ -16,5 +15,5 @@ const content = await getEntries([...entryTypeIds]);
     <span slot="subheading"> A collection of everything I'm thinking about, reading, and writing. </span>
   </Hero>
 
-  <ContentGrid items={content} itemSize="M" showTopicFilters showStatusFilters showTypeFilters />
+  <ContentGrid items={content} itemSize="M" showTopicFilters showStatusFilters showTypeFilters layoutType="masonry" />
 </Layout>

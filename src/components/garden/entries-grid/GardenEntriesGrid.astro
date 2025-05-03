@@ -11,9 +11,17 @@ interface Props {
   showStatusFilters?: boolean;
   showTopicFilters?: boolean;
   showTypeFilters?: boolean;
+  layoutType?: "grid" | "masonry";
 }
 
-const { items, itemSize, showStatusFilters = false, showTopicFilters = false, showTypeFilters = false } = Astro.props;
+const { 
+  items, 
+  itemSize, 
+  showStatusFilters = false, 
+  showTopicFilters = false, 
+  showTypeFilters = false,
+  layoutType = "grid" 
+} = Astro.props;
 
 function getGridColumnsForSize(size: "S" | "M" | "L"): string {
   switch (size) {
@@ -25,6 +33,17 @@ function getGridColumnsForSize(size: "S" | "M" | "L"): string {
       return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-2";
   }
 }
+
+function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
+  switch (size) {
+    case "S":
+      return "columns-1 sm:columns-2 lg:columns-4";
+    case "M":
+      return "columns-1 sm:columns-2 lg:columns-3";
+    case "L":
+      return "columns-1 sm:columns-2 lg:columns-2";
+  }
+}
 ---
 
 <div data-controller="garden-entries-grid" class="space-y-4">
@@ -34,12 +53,18 @@ function getGridColumnsForSize(size: "S" | "M" | "L"): string {
     {showTopicFilters && <GardenTopicFilterDropdown />}
   </div>
 
-  <div data-garden-entries-grid-target="grid" class={`grid ${getGridColumnsForSize(itemSize)} gap-4`}>
+  <div 
+    data-garden-entries-grid-target="grid" 
+    class={layoutType === "grid" 
+      ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
+      : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`
+    }
+  >
     {
       items.length > 0 ? (
         items.map((item) => (
           <div
-            class="mb-4"
+            class={layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid"}
             data-status={item.data.status}
             data-topics={item.data.topics?.map((t: { id: string }) => t.id).join(",")}
             data-type={item.collection}
