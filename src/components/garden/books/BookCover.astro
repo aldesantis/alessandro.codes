@@ -4,9 +4,9 @@ import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 
 async function fetchBookCover(book: CollectionEntry<"books">): Promise<{ default: ImageMetadata }> {
-  const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/covers/*.jpg");
+  const images = import.meta.glob<{ default: ImageMetadata }>("/src/content/assets/covers/*.jpg");
 
-  const cover = images[`/src/assets/covers/${book.id.toLowerCase()}.jpg`];
+  const cover = images[`/src/content/assets/covers/${book.id.toLowerCase()}.jpg`];
 
   if (!cover) {
     throw new Error(`Cannot find cover for ${book.id}`);

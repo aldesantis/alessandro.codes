@@ -36,27 +36,31 @@ const config: Configuration = {
   entryTypes: [
     {
       id: "assets",
-      pattern: "assets/**/*",
+      basePath: "assets",
+      pattern: "**/*.{jpg,png,gif,svg,webp}",
       destinationPath: "assets",
       transformers: [],
     },
     {
       id: "essays",
-      pattern: "essays/*.{md,mdx}",
+      basePath: "essays",
+      pattern: "*.{md,mdx}",
       destinationPath: "essays",
       transformers,
       urlBuilder: (slug) => `/essays/${slug}`,
     },
     {
       id: "notes",
-      pattern: "notes/*.{md,mdx}",
+      basePath: "notes",
+      pattern: "*.{md,mdx}",
       destinationPath: "notes",
       transformers,
       urlBuilder: (slug) => `/notes/${slug}`,
     },
     {
       id: "nows",
-      pattern: "nows/*.{md,mdx}",
+      basePath: "nows",
+      pattern: "*.{md,mdx}",
       destinationPath: "nows",
       urlBuilder: (slug) => `/now/${slug}`,
       transformers: [
@@ -82,14 +86,16 @@ const config: Configuration = {
     },
     {
       id: "topics",
-      pattern: "topics/*.{md,mdx}",
+      basePath: "topics",
+      pattern: "*.{md,mdx}",
       destinationPath: "topics",
       transformers,
       urlBuilder: (slug) => `/topics/${slug}`,
     },
     {
       id: "books",
-      pattern: "readwise/books/*.{md,mdx}",
+      basePath: "readwise/books",
+      pattern: "*.{md,mdx}",
       destinationPath: "books",
       urlBuilder: (slug) => `/books/${slug}`,
       transformers: [
@@ -109,20 +115,23 @@ const config: Configuration = {
     },
     {
       id: "articles",
-      pattern: "readwise/articles/*.{md,mdx}",
+      basePath: "readwise/articles",
+      pattern: "*.{md,mdx}",
       destinationPath: "articles",
       transformers,
       urlBuilder: (slug) => `/articles/${slug}`,
     },
     {
       id: "recipes",
-      pattern: "recipes/*.{md,mdx}",
+      basePath: "recipes",
+      pattern: "*.{md,mdx}",
       destinationPath: "recipes",
       transformers,
     },
     {
       id: "talks",
-      pattern: "talks/*.{md,mdx}",
+      basePath: "talks",
+      pattern: "*.{md,mdx}",
       destinationPath: "talks",
       transformers: [
         ...transformers,

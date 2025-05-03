@@ -29,7 +29,8 @@ async function fetchContent(): Promise<string> {
 }
 
 async function transformContent(contentType: EntryType, tmpPath: string): Promise<void> {
-  const files = await glob(contentType.pattern, { cwd: tmpPath });
+  const basePath = path.join(tmpPath, contentType.basePath || "");
+  const files = await glob(contentType.pattern, { cwd: basePath });
 
   if (files.length === 0) {
     console.warn(`No files found for ${contentType.id} (${contentType.pattern})`);
@@ -37,17 +38,19 @@ async function transformContent(contentType: EntryType, tmpPath: string): Promis
   }
 
   for (const file of files) {
-    const sourcePath = path.join(tmpPath, file);
+    const sourcePath = path.join(basePath, file);
 
-    // For assets (binary files), copy directly without transformation
-    if (contentType.id === "assets") {
-      const destinationPath = path.join(config.contentDir, contentType.destinationPath, path.basename(sourcePath));
+    // Non-markdown files are copied directly without transformation.
+    const fileExtension = path.extname(sourcePath).toLowerCase();
+    if (fileExtension !== ".md" && fileExtension !== ".mdx") {
+      const destinationPath = path.join(config.contentDir, contentType.destinationPath, file);
+
       await fse.mkdirp(path.dirname(destinationPath));
-      await fs.copyFile(sourcePath, destinationPath);
+      await fse.copy(sourcePath, destinationPath);
+
       continue;
     }
 
-    // For text files, proceed with transformation
     const fileContent = await fs.readFile(sourcePath, "utf8");
 
     const result = await contentType.transformers.reduce<Promise<TransformerResult>>(
@@ -56,12 +59,13 @@ async function transformContent(contentType: EntryType, tmpPath: string): Promis
         return await transformer(currentResult.path, currentResult.content, contentType);
       },
       Promise.resolve({
-        path: sourcePath,
+        path: file,
         content: fileContent,
       })
     );
 
-    const destinationPath = path.join(config.contentDir, contentType.destinationPath, path.basename(result.path));
+    const destinationPath = path.join(config.contentDir, contentType.destinationPath, result.path);
+
     await fse.mkdirp(path.dirname(destinationPath));
     await fs.writeFile(destinationPath, result.content);
   }

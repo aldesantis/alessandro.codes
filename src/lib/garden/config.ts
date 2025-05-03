@@ -3,6 +3,7 @@ import type { Source } from "src/lib/garden/sources";
 
 export interface EntryType {
   id: string;
+  basePath?: string;
   pattern: string;
   destinationPath: string;
   transformers: Transformer[];
