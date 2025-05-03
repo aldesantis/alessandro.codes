@@ -1,10 +1,11 @@
 ---
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getEntries, GARDEN_CONTENT_TYPE_IDS } from "src/lib/garden/entries";
+import { getEntries } from "src/lib/garden/entries";
 import ContentGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
+import { entryTypeIds } from "garden.config";
 
-const content = await getEntries([...GARDEN_CONTENT_TYPE_IDS]);
+const content = await getEntries([...entryTypeIds]);
 ---
 
 <Layout>

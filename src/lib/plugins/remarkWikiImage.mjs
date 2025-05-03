@@ -7,7 +7,7 @@ const WIKILINK_IMAGE_REGEX = /!\[\[([^|\]]+)(?:\|([^|\]]+))?\]\]/g;
 const MARKDOWN_IMAGE_REGEX = /!\[([^|\]]+)(?:\|([^|\]]+))?\]\(([^)]+)\)/g;
 
 function isRemoteUrl(url) {
-  return url.startsWith('http://') || url.startsWith('https://');
+  return url.startsWith("http://") || url.startsWith("https://");
 }
 
 function resolveImagePath(imagePath, altText, assetsPath) {
@@ -15,35 +15,35 @@ function resolveImagePath(imagePath, altText, assetsPath) {
   if (isRemoteUrl(imagePath)) {
     return {
       path: imagePath,
-      alt: altText || imagePath.split('/').pop()
+      alt: altText || imagePath.split("/").pop(),
     };
   }
 
   // If the path contains a folder separator, use it as is
-  if (imagePath.includes('/')) {
+  if (imagePath.includes("/")) {
     return {
       path: `${assetsPath}/${imagePath}`,
-      alt: altText || imagePath.split('/').pop()
+      alt: altText || imagePath.split("/").pop(),
     };
   }
-  
+
   // For simple filenames, just use the filename
   return {
     path: `${assetsPath}/${imagePath}`,
-    alt: altText || imagePath
+    alt: altText || imagePath,
   };
 }
 
 export function remarkWikiImage(options) {
   const { assetsPath } = options;
-  
+
   return async (tree) => {
     const promises = [];
-    
+
     visit(tree, "text", (node, index, parent) => {
       const wikilinkMatches = [...node.value.matchAll(WIKILINK_IMAGE_REGEX)];
       const markdownMatches = [...node.value.matchAll(MARKDOWN_IMAGE_REGEX)];
-      
+
       if (!wikilinkMatches.length && !markdownMatches.length) return;
 
       const processNode = async () => {
@@ -70,7 +70,7 @@ export function remarkWikiImage(options) {
             type: "image",
             url: imageUrl,
             alt: alt || "",
-            title: null
+            title: null,
           });
 
           lastIndex = endIndex;
@@ -96,7 +96,7 @@ export function remarkWikiImage(options) {
             type: "image",
             url: imageUrl,
             alt: resolvedAlt || "",
-            title: null
+            title: null,
           });
 
           lastIndex = endIndex;
@@ -119,4 +119,4 @@ export function remarkWikiImage(options) {
 
     return tree;
   };
-} 
+}

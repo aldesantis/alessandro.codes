@@ -16,11 +16,7 @@ export default defineConfig({
   integrations: [tailwind(), icon(), mdx()],
 
   markdown: {
-    remarkPlugins: [
-      remarkReadingTime, 
-      remarkWikiLink, 
-      [remarkWikiImage, { assetsPath: '../assets' }]
-    ],
+    remarkPlugins: [remarkReadingTime, remarkWikiLink, [remarkWikiImage, { assetsPath: "../assets" }]],
   },
 
   server: {
