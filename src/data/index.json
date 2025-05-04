@@ -4106,7 +4106,7 @@
         "type": "notes"
       },
       {
-        "slug": "unknown-habits-impede-learning",
+        "slug": "unknown-habits-impede-growth",
         "type": "notes"
       }
     ]
@@ -6444,8 +6444,12 @@
         "type": "notes"
       },
       {
-        "slug": "unknown-habits-impede-learning",
+        "slug": "unknown-habits-impede-growth",
         "type": "notes"
+      },
+      {
+        "slug": "working-backwards",
+        "type": "articles"
       }
     ],
     "inboundLinks": [
@@ -6454,7 +6458,7 @@
         "type": "notes"
       },
       {
-        "slug": "unknown-habits-impede-learning",
+        "slug": "unknown-habits-impede-growth",
         "type": "notes"
       }
     ]
@@ -6645,15 +6649,15 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "unknown-habits-impede-growth",
+        "type": "notes"
+      },
+      {
         "slug": "design-an-operating-cadence",
         "type": "notes"
       },
       {
         "slug": "build-experimentation-guidelines",
-        "type": "notes"
-      },
-      {
-        "slug": "unknown-habits-impede-learning",
         "type": "notes"
       },
       {
@@ -7108,7 +7112,7 @@
         "type": "notes"
       },
       {
-        "slug": "unknown-habits-impede-learning",
+        "slug": "unknown-habits-impede-growth",
         "type": "notes"
       }
     ]
@@ -7686,10 +7690,10 @@
   },
   {
     "ids": [
-      "Unknown habits impede learning",
-      "unknown-habits-impede-learning"
+      "Unknown habits impede growth",
+      "unknown-habits-impede-growth"
     ],
-    "slug": "unknown-habits-impede-learning",
+    "slug": "unknown-habits-impede-growth",
     "type": "notes",
     "outboundLinks": [
       {
@@ -8896,7 +8900,7 @@
         "type": "notes"
       },
       {
-        "slug": "unknown-habits-impede-learning",
+        "slug": "unknown-habits-impede-growth",
         "type": "notes"
       }
     ]
@@ -22499,6 +22503,10 @@
     "inboundLinks": [
       {
         "slug": "focus-on-your-controllables",
+        "type": "notes"
+      },
+      {
+        "slug": "reason-from-first-principles",
         "type": "notes"
       },
       {
