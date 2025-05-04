@@ -8867,6 +8867,16 @@
   },
   {
     "ids": [
+      "Secret Tradecraft of Elite Advisors",
+      "secret-tradecraft-of-elite-advisors"
+    ],
+    "slug": "secret-tradecraft-of-elite-advisors",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Sorry I’m Late, I Didn’t Want to Come",
       "sorry-im-late-i-didnt-want-to-come"
     ],
@@ -9232,6 +9242,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "The Win Without Pitching Manifesto",
+      "the-win-without-pitching-manifesto"
+    ],
+    "slug": "the-win-without-pitching-manifesto",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
