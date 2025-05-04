@@ -3339,11 +3339,11 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "communities-of-practice-form-organically",
+        "slug": "communities-of-practice-develop-organically",
         "type": "notes"
       },
       {
-        "slug": "communities-of-practice-combat-cross-functional-silos",
+        "slug": "communities-of-practice-mitigate-silos",
         "type": "notes"
       },
       {
@@ -3353,25 +3353,21 @@
     ],
     "inboundLinks": [
       {
-        "slug": "communities-of-practice-combat-cross-functional-silos",
+        "slug": "communities-of-practice-develop-organically",
         "type": "notes"
       },
       {
-        "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop",
-        "type": "notes"
-      },
-      {
-        "slug": "communities-of-practice-form-organically",
+        "slug": "communities-of-practice-mitigate-silos",
         "type": "notes"
       }
     ]
   },
   {
     "ids": [
-      "Communities of practice combat cross-functional silos",
-      "communities-of-practice-combat-cross-functional-silos"
+      "Communities of practice develop organically",
+      "communities-of-practice-develop-organically"
     ],
-    "slug": "communities-of-practice-combat-cross-functional-silos",
+    "slug": "communities-of-practice-develop-organically",
     "type": "notes",
     "outboundLinks": [
       {
@@ -3379,11 +3375,63 @@
         "type": "notes"
       },
       {
-        "slug": "cross-functionality-creates-silos",
+        "slug": "we-get-what-we-reward-for",
         "type": "notes"
       },
       {
         "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "communities-of-practice-are-loosely-knit",
+        "type": "notes"
+      },
+      {
+        "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Communities of practice exhibit a two-way feedback loop",
+      "communities-of-practice-exhibit-a-two-way-feedback-loop"
+    ],
+    "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "communities-of-practice-develop-organically",
+        "type": "notes"
+      },
+      {
+        "slug": "the-systems-thinker-communities-of-practice-learning-as-a-social-system-the-systems-thinker",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "communities-of-practice-develop-organically",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Communities of practice mitigate silos",
+      "communities-of-practice-mitigate-silos"
+    ],
+    "slug": "communities-of-practice-mitigate-silos",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "cross-functionality-creates-silos",
+        "type": "notes"
+      },
+      {
+        "slug": "communities-of-practice-are-loosely-knit",
         "type": "notes"
       },
       {
@@ -3402,54 +3450,6 @@
       },
       {
         "slug": "cross-functionality-removes-dependencies",
-        "type": "notes"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Communities of practice exhibit a two-way feedback loop",
-      "communities-of-practice-exhibit-a-two-way-feedback-loop"
-    ],
-    "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "communities-of-practice-are-loosely-knit",
-        "type": "notes"
-      },
-      {
-        "slug": "the-systems-thinker-communities-of-practice-learning-as-a-social-system-the-systems-thinker",
-        "type": "articles"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "slug": "communities-of-practice-combat-cross-functional-silos",
-        "type": "notes"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Communities of practice form organically",
-      "communities-of-practice-form-organically"
-    ],
-    "slug": "communities-of-practice-form-organically",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "communities-of-practice-are-loosely-knit",
-        "type": "notes"
-      },
-      {
-        "slug": "we-get-what-we-reward-for",
-        "type": "notes"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "slug": "communities-of-practice-are-loosely-knit",
         "type": "notes"
       }
     ]
@@ -3672,10 +3672,19 @@
     ],
     "slug": "correlation-is-not-causation",
     "type": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "selection-bias-hinders-decision-making",
+        "type": "notes"
+      }
+    ],
     "inboundLinks": [
       {
         "slug": "be-wary-of-flawless-ideas",
+        "type": "notes"
+      },
+      {
+        "slug": "selection-bias-hinders-decision-making",
         "type": "notes"
       }
     ]
@@ -3712,13 +3721,13 @@
         "type": "notes"
       },
       {
-        "slug": "communities-of-practice-combat-cross-functional-silos",
+        "slug": "communities-of-practice-mitigate-silos",
         "type": "notes"
       }
     ],
     "inboundLinks": [
       {
-        "slug": "communities-of-practice-combat-cross-functional-silos",
+        "slug": "communities-of-practice-mitigate-silos",
         "type": "notes"
       },
       {
@@ -3782,7 +3791,7 @@
         "type": "notes"
       },
       {
-        "slug": "communities-of-practice-combat-cross-functional-silos",
+        "slug": "communities-of-practice-mitigate-silos",
         "type": "notes"
       },
       {
@@ -5243,6 +5252,10 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "rest-is-not-idleness",
+        "type": "notes"
+      },
+      {
         "slug": "4-the-type-2-manifesto-by-zoe-scaman-the-type-2-manifesto",
         "type": "articles"
       },
@@ -5255,6 +5268,10 @@
       {
         "slug": "colophon",
         "type": "pages"
+      },
+      {
+        "slug": "rest-is-not-idleness",
+        "type": "notes"
       }
     ]
   },
@@ -6484,21 +6501,6 @@
   },
   {
     "ids": [
-      "Relax is not idleness",
-      "relax-is-not-idleness"
-    ],
-    "slug": "relax-is-not-idleness",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "bill-watterson-some-thoughts-on-the-real-world-by-one-who-glimpsed-it-and-fled-kenyon-college-1990",
-        "type": "articles"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Renewable resources are flow limited",
       "renewable-resources-are-flow-limited"
     ],
@@ -6526,6 +6528,30 @@
       }
     ],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rest is not idleness",
+      "rest-is-not-idleness"
+    ],
+    "slug": "rest-is-not-idleness",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "life-is-seasonal",
+        "type": "notes"
+      },
+      {
+        "slug": "bill-watterson-some-thoughts-on-the-real-world-by-one-who-glimpsed-it-and-fled-kenyon-college-1990",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "life-is-seasonal",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -6592,13 +6618,23 @@
   },
   {
     "ids": [
-      "Selection bias skews decisions in retail",
-      "selection-bias-skews-decisions-in-retail"
+      "Selection bias hinders decision-making",
+      "selection-bias-hinders-decision-making"
     ],
-    "slug": "selection-bias-skews-decisions-in-retail",
+    "slug": "selection-bias-hinders-decision-making",
     "type": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
+    "outboundLinks": [
+      {
+        "slug": "correlation-is-not-causation",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "correlation-is-not-causation",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -7767,7 +7803,7 @@
     ],
     "inboundLinks": [
       {
-        "slug": "communities-of-practice-form-organically",
+        "slug": "communities-of-practice-develop-organically",
         "type": "notes"
       },
       {
@@ -11139,7 +11175,7 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "slug": "relax-is-not-idleness",
+        "slug": "rest-is-not-idleness",
         "type": "notes"
       }
     ]
@@ -20515,11 +20551,11 @@
         "type": "notes"
       },
       {
-        "slug": "communities-of-practice-combat-cross-functional-silos",
+        "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop",
         "type": "notes"
       },
       {
-        "slug": "communities-of-practice-exhibit-a-two-way-feedback-loop",
+        "slug": "communities-of-practice-mitigate-silos",
         "type": "notes"
       }
     ]

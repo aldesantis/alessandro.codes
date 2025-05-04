@@ -1,0 +1,37 @@
+---
+aliases:
+  - Selection bias hinders decision-making
+  - selection-bias-hinders-decision-making
+createdAt: 2025-01-19T15:42:49.000Z
+status: evergreen
+title: Selection bias hinders decision-making
+topics:
+  - strategy
+updatedAt: 2025-05-04T13:51:01.000Z
+contentType: notes
+---
+Selection bias happens whenever we draw a conclusion based on a skewed data sample, which hinders the validity of such a conclusion. It is quite tricky to spot, but once you’re trained to see it, you start seeing it everywhere.
+
+## Selection bias in action
+
+A typical example involves mobile apps for e-commerce brands. Whenever an e-commerce team launches a mobile app, it finds that the conversion rate for customers shopping through the app is astronomically higher than that for customers shopping on the web. As a result, the brand concludes that the mobile app is causing customers to convert more, and they double down on the app.
+
+In most cases, however, customers who download and shop through a brand’s mobile app are already converting more, regardless of their shopping channel. In other words, the mobile app is taking undue credit for an effect it never created (higher CVRs).
+
+Loyalty programs suffer from similar problems, as do most business initiatives where the target audience is not representative of our business’s general population—or where one or more parties have an interest in skewing the truth.
+
+## Dealing with selection bias
+
+In the mobile app example, there are two ways we can determine whether the higher conversion rate is coming from the app itself or selection bias:
+
+- **Propensity Score Matching:** If we can identify what traits make a customer a good fit for our mobile app (i.e., what is a loyal customer?), we can then compare the performance of the customers in that group who have downloaded the app vs. customers in that group who have not downloaded the app.
+- **Difference-in-differences:** This approach compares the change in conversion rates for app users before and after downloading the app with the change in conversion rates for non-app users over the same time period. By looking at the “difference between the differences,” we can isolate the true causal effect of the app.
+
+## Related
+
+- Selection bias is similar, but not the same, as [[correlation-is-not-causation|confusing correlation with causation]].
+
+## References
+
+- [Using Propensity Score Matching to Uncover Shopify Capital’s Effect on Business Growth](https://shopify.engineering/propensity-score-matching-shopify-capital)
+- [The Ultimate Guide to E-Commerce Loyalty Programs](https://nebulab.com/blog/ecommerce-loyalty-programs)
