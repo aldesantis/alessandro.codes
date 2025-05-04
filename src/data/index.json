@@ -2418,7 +2418,27 @@
     "type": "nows",
     "outboundLinks": [
       {
+        "slug": "life-is-seasonal",
+        "type": "notes"
+      },
+      {
+        "slug": "information-abundance-causes-cultural-fragmentation",
+        "type": "notes"
+      },
+      {
+        "slug": "most-ideas-can-only-be-post-rationalized",
+        "type": "notes"
+      },
+      {
         "slug": "freedom-is-only-valuable-when-forgone",
+        "type": "notes"
+      },
+      {
+        "slug": "writing-is-thinking-across-time",
+        "type": "notes"
+      },
+      {
+        "slug": "taking-yourself-seriously-impedes-learning",
         "type": "notes"
       }
     ],
@@ -5101,6 +5121,10 @@
     ],
     "inboundLinks": [
       {
+        "slug": "2025-04",
+        "type": "nows"
+      },
+      {
         "slug": "cultural-fragmentation-causes-market-fragmentation",
         "type": "notes"
       },
@@ -5268,6 +5292,10 @@
       {
         "slug": "colophon",
         "type": "pages"
+      },
+      {
+        "slug": "2025-04",
+        "type": "nows"
       },
       {
         "slug": "rest-is-not-idleness",
@@ -5871,6 +5899,10 @@
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "2025-04",
+        "type": "nows"
+      },
       {
         "slug": "focusing-on-monetary-value-impoverishes-cultural-work",
         "type": "notes"
@@ -7292,7 +7324,12 @@
         "type": "topics"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "2025-04",
+        "type": "nows"
+      }
+    ]
   },
   {
     "ids": [
@@ -7990,6 +8027,10 @@
       {
         "slug": "writing",
         "type": "topics"
+      },
+      {
+        "slug": "2025-04",
+        "type": "nows"
       },
       {
         "slug": "turn-transient-notes-into-evergreen-notes",
