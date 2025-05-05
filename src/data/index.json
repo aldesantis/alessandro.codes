@@ -3476,6 +3476,25 @@
   },
   {
     "ids": [
+      "Competitive advantage is your value-cost gap",
+      "competitive-advantage-is-your-value-cost-gap"
+    ],
+    "slug": "competitive-advantage-is-your-value-cost-gap",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "good-strategy-is-simple",
+        "type": "notes"
+      },
+      {
+        "slug": "good-strategy-bad-strategy",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Compliance is not commitment",
       "compliance-is-not-commitment"
     ],
@@ -3600,6 +3619,21 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Consultants have an expiration date",
+      "consultants-have-an-expiration-date"
+    ],
+    "slug": "consultants-have-an-expiration-date",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "the-secrets-of-consulting",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -4783,12 +4817,20 @@
       {
         "slug": "strategy-requires-focus",
         "type": "notes"
+      },
+      {
+        "slug": "good-strategy-bad-strategy",
+        "type": "books"
       }
     ],
     "inboundLinks": [
       {
         "slug": "strategy",
         "type": "topics"
+      },
+      {
+        "slug": "competitive-advantage-is-your-value-cost-gap",
+        "type": "notes"
       },
       {
         "slug": "strategy-requires-focus",
@@ -5949,6 +5991,21 @@
       {
         "slug": "focusing-on-monetary-value-impoverishes-cultural-work",
         "type": "notes"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Non-belief is still belief",
+      "non-belief-is-still-belief"
+    ],
+    "slug": "non-belief-is-still-belief",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "this-is-water-by-david-foster-wallace-full-transcript-and-audio",
+        "type": "articles"
       }
     ],
     "inboundLinks": []
@@ -7343,6 +7400,21 @@
   },
   {
     "ids": [
+      "Technology is default neutral",
+      "technology-is-default-neutral"
+    ],
+    "slug": "technology-is-default-neutral",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "people-power-and-profits",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The consumer creator line is fading",
       "The consumer-creator line is fading",
       "the-consumer-creator-line-is-fading"
@@ -8460,7 +8532,15 @@
         "type": "topics"
       },
       {
+        "slug": "competitive-advantage-is-your-value-cost-gap",
+        "type": "notes"
+      },
+      {
         "slug": "efficiency-must-be-defensible",
+        "type": "notes"
+      },
+      {
+        "slug": "good-strategy-is-simple",
         "type": "notes"
       }
     ]
@@ -8837,7 +8917,12 @@
     "slug": "people-power-and-profits",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "technology-is-default-neutral",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -9294,7 +9379,12 @@
     "slug": "the-secrets-of-consulting",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "consultants-have-an-expiration-date",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -20879,6 +20969,10 @@
     "inboundLinks": [
       {
         "slug": "freedom-is-only-valuable-when-forgone",
+        "type": "notes"
+      },
+      {
+        "slug": "non-belief-is-still-belief",
         "type": "notes"
       }
     ]
