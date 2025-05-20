@@ -8320,6 +8320,16 @@
   },
   {
     "ids": [
+      "Data Science for Business",
+      "data-science-for-business"
+    ],
+    "slug": "data-science-for-business",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "eCommerce Engine - Roadmap on How to Transform Your DTC Brand Into an 8-Figure Powerhouse",
       "ecommerce-engine-roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse"
     ],
@@ -8808,6 +8818,17 @@
       "love-all-the-people"
     ],
     "slug": "love-all-the-people",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "M. Il Figlio Del Secolo",
+      "m.-il-figlio-del-secolo",
+      "m-il-figlio-del-secolo"
+    ],
+    "slug": "m-il-figlio-del-secolo",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -9898,6 +9919,17 @@
   },
   {
     "ids": [
+      "#4: Strategic uncertainty - by Vaughn Tan",
+      "4-strategic-uncertainty-by-vaughn-tan — 4-strategic-uncertainty",
+      "4-strategic-uncertainty-by-vaughn-tan-4-strategic-uncertainty"
+    ],
+    "slug": "4-strategic-uncertainty-by-vaughn-tan-4-strategic-uncertainty",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "(4) the Type 2 Manifesto - By Zoe Scaman",
       "(4)-the-type-2-manifesto-by-zoe-scaman — the-type-2-manifesto",
       "4-the-type-2-manifesto-by-zoe-scaman-the-type-2-manifesto"
@@ -10936,6 +10968,16 @@
       "applying-pivot-points"
     ],
     "slug": "applying-pivot-points",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Apprenticeship Online",
+      "apprenticeship-online"
+    ],
+    "slug": "apprenticeship-online",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12161,6 +12203,16 @@
   },
   {
     "ids": [
+      "Case Study: On",
+      "case-study-on"
+    ],
+    "slug": "case-study-on",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Cat Psychology & Domestication: Are We Good Owners?",
       "cat-psychology-&-domestication-are-we-good-owners",
       "cat-psychology-and-domestication-are-we-good-owners"
@@ -12970,6 +13022,17 @@
       "do-you-doubt-yourself-good"
     ],
     "slug": "do-you-doubt-yourself-good",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Does OpenAI’s Deep Research Put Me Out of a Job?",
+      "does-openai’s-deep-research-put-me-out-of-a-job",
+      "does-openais-deep-research-put-me-out-of-a-job"
+    ],
+    "slug": "does-openais-deep-research-put-me-out-of-a-job",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13881,6 +13944,16 @@
   },
   {
     "ids": [
+      "Everything Is a Product",
+      "everything-is-a-product"
+    ],
+    "slug": "everything-is-a-product",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Everything Is Merch",
       "everything-is-merch"
     ],
@@ -14587,6 +14660,16 @@
   },
   {
     "ids": [
+      "Goodbye Hallucinations, Hello AI Research: Advanced Tactics for Content Teams",
+      "goodbye-hallucinations-hello-ai-research-advanced-tactics-for-content-teams"
+    ],
+    "slug": "goodbye-hallucinations-hello-ai-research-advanced-tactics-for-content-teams",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Google Has No Choice but to Bet Big on YouTube",
       "google-has-no-choice-but-to-bet-big-on-youtube"
     ],
@@ -14685,6 +14768,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Headless Brands",
+      "headless-brands"
+    ],
+    "slug": "headless-brands",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -15962,6 +16055,16 @@
   },
   {
     "ids": [
+      "Inside the New DTC Playbook: Beyond Digital Ads",
+      "inside-the-new-dtc-playbook-beyond-digital-ads"
+    ],
+    "slug": "inside-the-new-dtc-playbook-beyond-digital-ads",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Inside the Viral Heinz X Absolut Collab That Sent Pasta Sauce Sales Soaring",
       "inside-the-viral-heinz-x-absolut-collab-that-sent-pasta-sauce-sales-soaring"
     ],
@@ -16362,6 +16465,16 @@
       "its-very-weird-to-have-a-skull-full-of-poisonits-very-weird-to-have-a-skull-full-of-poison"
     ],
     "slug": "its-very-weird-to-have-a-skull-full-of-poisonits-very-weird-to-have-a-skull-full-of-poison",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Jan 14 A career ending mistake",
+      "jan-14-a-career-ending-mistake"
+    ],
+    "slug": "jan-14-a-career-ending-mistake",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18243,6 +18356,16 @@
   },
   {
     "ids": [
+      "Read This Before You Start Doing Pre-Orders and Waiting Lists",
+      "read-this-before-you-start-doing-pre-orders-and-waiting-lists"
+    ],
+    "slug": "read-this-before-you-start-doing-pre-orders-and-waiting-lists",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Read Your Writing in a Robot Voice",
       "read-your-writing-in-a-robot-voice"
     ],
@@ -18750,6 +18873,16 @@
       "should-i-care-about-digital-product-passports"
     ],
     "slug": "should-i-care-about-digital-product-passports",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Should You Put Off Life for the Future?",
+      "should-you-put-off-life-for-the-future"
+    ],
+    "slug": "should-you-put-off-life-for-the-future",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19739,6 +19872,16 @@
   },
   {
     "ids": [
+      "The Four Ps of Marketing",
+      "the-four-ps-of-marketing"
+    ],
+    "slug": "the-four-ps-of-marketing",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Fresh Start Fallacy",
       "the-fresh-start-fallacy"
     ],
@@ -20201,6 +20344,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The New Merchandising Strategy",
+      "the-new-merchandising-strategy"
+    ],
+    "slug": "the-new-merchandising-strategy",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -21043,6 +21196,16 @@
   },
   {
     "ids": [
+      "Thoughts for Sale",
+      "thoughts-for-sale"
+    ],
+    "slug": "thoughts-for-sale",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Three Retention Commandments",
       "three-retention-commandments"
     ],
@@ -21177,6 +21340,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Time management",
+      "time-management"
+    ],
+    "slug": "time-management",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -22206,6 +22379,17 @@
   },
   {
     "ids": [
+      "Why Correlation Usually ≠ Causation",
+      "why-correlation-usually-≠-causation",
+      "why-correlation-usually-causation"
+    ],
+    "slug": "why-correlation-usually-causation",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Why Costco Is So Loved",
       "why-costco-is-so-loved"
     ],
@@ -22436,6 +22620,16 @@
   },
   {
     "ids": [
+      "Why One Brand Is Dropping Its Prices While Tariffs Are Pushing Costs Up Across Retail",
+      "why-one-brand-is-dropping-its-prices-while-tariffs-are-pushing-costs-up-across-retail"
+    ],
+    "slug": "why-one-brand-is-dropping-its-prices-while-tariffs-are-pushing-costs-up-across-retail",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Why People Fail to Make Important Choices",
       "why-people-fail-to-make-important-choices"
     ],
@@ -22500,6 +22694,16 @@
       "why-stitch-fix-is-focusing-on-its-human-stylists-when-everyone-else-is-talking-about-ai"
     ],
     "slug": "why-stitch-fix-is-focusing-on-its-human-stylists-when-everyone-else-is-talking-about-ai",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Why Streetwear and NFTs Are a Perfect Match",
+      "why-streetwear-and-nfts-are-a-perfect-match"
+    ],
+    "slug": "why-streetwear-and-nfts-are-a-perfect-match",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22666,6 +22870,16 @@
       "would-you-date-yourself"
     ],
     "slug": "would-you-date-yourself",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Write Smarter, Not Harder: How to Use AI Without Losing Your Soul",
+      "write-smarter-not-harder-how-to-use-ai-without-losing-your-soul"
+    ],
+    "slug": "write-smarter-not-harder-how-to-use-ai-without-losing-your-soul",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
