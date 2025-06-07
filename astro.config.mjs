@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
-import tailwind from "@astrojs/tailwind";
 import icon from "astro-icon";
 
 import { remarkReadingTime } from "./src/lib/plugins/remarkReadingTime.mjs";
@@ -11,9 +10,11 @@ import mdx from "@astrojs/mdx";
 
 import vercel from "@astrojs/vercel";
 
+import tailwindcss from "@tailwindcss/vite";
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), icon(), mdx()],
+  integrations: [icon(), mdx()],
 
   markdown: {
     remarkPlugins: [remarkReadingTime, remarkWikiLink, [remarkWikiImage, { assetsPath: "../assets" }]],
@@ -42,4 +43,8 @@ export default defineConfig({
   },
 
   adapter: vercel(),
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
