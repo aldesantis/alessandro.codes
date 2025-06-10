@@ -21,13 +21,19 @@ export function remarkWikiLink() {
         const children = [];
         let lastIndex = 0;
 
-        for (const { linkDestination, displayText } of wikilinks) {
-          const match = node.value.match(new RegExp(`(?<!\\!)\\[\\[([^\\]\\|]+)(?:\\|([^\\]]+))?\\]\\]`));
-          if (!match) continue;
+        // Use matchAll to get all matches with their positions
+        const matches = Array.from(node.value.matchAll(/(?<!!)(\[\[([^\]|]+)(?:\|([^\]]+))?\]\])/g));
+        
+        for (let i = 0; i < matches.length; i++) {
+          const match = matches[i];
+          const wikilink = wikilinks[i];
+          
+          if (!match || !wikilink) continue;
 
           const startIndex = match.index;
           const endIndex = startIndex + match[0].length;
 
+          // Add text before the wikilink
           if (startIndex > lastIndex) {
             children.push({
               type: "text",
@@ -36,7 +42,7 @@ export function remarkWikiLink() {
           }
 
           const indexRecord = entryIndex.find((record) =>
-            record.ids.some((id) => id.toLowerCase() === linkDestination.toLowerCase())
+            record.ids.some((id) => id.toLowerCase() === wikilink.linkDestination.toLowerCase())
           );
 
           let newChild;
@@ -58,7 +64,7 @@ export function remarkWikiLink() {
                 children: [
                   {
                     type: "text",
-                    value: displayText,
+                    value: wikilink.displayText,
                   },
                 ],
               };
@@ -68,15 +74,15 @@ export function remarkWikiLink() {
           if (!newChild) {
             newChild = {
               type: "text",
-              value: displayText,
+              value: wikilink.displayText,
             };
           }
 
           children.push(newChild);
-
           lastIndex = endIndex;
         }
 
+        // Add remaining text after the last wikilink
         if (lastIndex < node.value.length) {
           children.push({
             type: "text",
