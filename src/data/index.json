@@ -4633,7 +4633,7 @@
         "type": "notes"
       },
       {
-        "slug": "money-is-like-oxygen",
+        "slug": "money-is-oxygen",
         "type": "notes"
       },
       {
@@ -5881,10 +5881,11 @@
   },
   {
     "ids": [
+      "Money is oxygen",
       "Money is like oxygen",
-      "money-is-like-oxygen"
+      "money-is-oxygen"
     ],
-    "slug": "money-is-like-oxygen",
+    "slug": "money-is-oxygen",
     "type": "notes",
     "outboundLinks": [
       {
@@ -6130,10 +6131,10 @@
   },
   {
     "ids": [
-      "People problems are often situation problems",
-      "people-problems-are-often-situation-problems"
+      "People problems are often situational problems",
+      "people-problems-are-often-situational-problems"
     ],
-    "slug": "people-problems-are-often-situation-problems",
+    "slug": "people-problems-are-often-situational-problems",
     "type": "notes",
     "outboundLinks": [
       {
@@ -8162,7 +8163,7 @@
         "type": "notes"
       },
       {
-        "slug": "people-problems-are-often-situation-problems",
+        "slug": "people-problems-are-often-situational-problems",
         "type": "notes"
       }
     ]
@@ -9090,7 +9091,7 @@
         "type": "notes"
       },
       {
-        "slug": "people-problems-are-often-situation-problems",
+        "slug": "people-problems-are-often-situational-problems",
         "type": "notes"
       }
     ]
@@ -9327,7 +9328,7 @@
         "type": "notes"
       },
       {
-        "slug": "money-is-like-oxygen",
+        "slug": "money-is-oxygen",
         "type": "notes"
       },
       {
@@ -9490,6 +9491,16 @@
       "to-sell-is-human"
     ],
     "slug": "to-sell-is-human",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Traction",
+      "traction"
+    ],
+    "slug": "traction",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11025,6 +11036,16 @@
   },
   {
     "ids": [
+      "Are You a Post-Achievement Professional?",
+      "are-you-a-post-achievement-professional"
+    ],
+    "slug": "are-you-a-post-achievement-professional",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "As a New Era Beckons, What Came Before?",
       "as-a-new-era-beckons-what-came-before"
     ],
@@ -12183,6 +12204,17 @@
   },
   {
     "ids": [
+      "Capturing luck with “or” instead of “and”",
+      "capturing-luck-with-“or”-instead-of-“and”",
+      "capturing-luck-with-or-instead-of-and"
+    ],
+    "slug": "capturing-luck-with-or-instead-of-and",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Carl Braun’s Writing Lessons for Clear Thinking and Productive Communication",
       "carl-braun’s-writing-lessons-for-clear-thinking-and-productive-communication",
       "carl-brauns-writing-lessons-for-clear-thinking-and-productive-communication"
@@ -12217,6 +12249,16 @@
       "case-study-on"
     ],
     "slug": "case-study-on",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Case Study: Skims",
+      "case-study-skims"
+    ],
+    "slug": "case-study-skims",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12798,6 +12840,16 @@
       "deep-dive-the-new-dtc-growth-market"
     ],
     "slug": "deep-dive-the-new-dtc-growth-market",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Deep Research and Knowledge Value",
+      "deep-research-and-knowledge-value"
+    ],
+    "slug": "deep-research-and-knowledge-value",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14823,6 +14875,17 @@
   },
   {
     "ids": [
+      "Hermann Hesse on Little Joys, Breaking the Trance of Busyness, and the Most Important Habit for Living with Presence",
+      "hermann-hesse-on-little-joys-breaking-the-trance-of-busyness-and-the-most-important-habit-for-living-with-presence",
+      "hermann-hesse-on-little-joys-breaking-the-trance-of-busyness-and-the-most-important-habit-for-living"
+    ],
+    "slug": "hermann-hesse-on-little-joys-breaking-the-trance-of-busyness-and-the-most-important-habit-for-living",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Heuristics for Effective Software Development Organizations: A Continuously Evolving List.* | Allen Holub",
       "heuristics-for-effective-software-development-organizations-a-continuously-evolving-list.--allen-holub",
       "heuristics-for-effective-software-development-organizations-a-continuously-evolving-list-allen-holub"
@@ -15769,6 +15832,16 @@
   },
   {
     "ids": [
+      "How to Scale TikTok Ads",
+      "how-to-scale-tiktok-ads"
+    ],
+    "slug": "how-to-scale-tiktok-ads",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How to Sell What Your Customers Really Want",
       "how-to-sell-what-your-customers-really-want"
     ],
@@ -16392,6 +16465,16 @@
   },
   {
     "ids": [
+      "Invisible Duels",
+      "invisible-duels"
+    ],
+    "slug": "invisible-duels",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Is a Game Changer For",
       "is-a-game-changer-for"
     ],
@@ -16505,6 +16588,17 @@
       "its-a-balance"
     ],
     "slug": "its-a-balance",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "It’s Been a Big Month for Consumer M&A, but Investors Are Still Waiting for IPOS",
+      "its-been-a-big-month-for-consumer-m&a-but-investors-are-still-waiting-for-ipos",
+      "its-been-a-big-month-for-consumer-manda-but-investors-are-still-waiting-for-ipos"
+    ],
+    "slug": "its-been-a-big-month-for-consumer-manda-but-investors-are-still-waiting-for-ipos",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17811,7 +17905,7 @@
     ],
     "inboundLinks": [
       {
-        "slug": "money-is-like-oxygen",
+        "slug": "money-is-oxygen",
         "type": "notes"
       }
     ]
@@ -18834,6 +18928,16 @@
       "seconds-to-strategy-how-your-relationship-with-time-shapes-your-career"
     ],
     "slug": "seconds-to-strategy-how-your-relationship-with-time-shapes-your-career",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Secrets to Running DTC Sweepstakes",
+      "secrets-to-running-dtc-sweepstakes"
+    ],
+    "slug": "secrets-to-running-dtc-sweepstakes",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21218,6 +21322,16 @@
   },
   {
     "ids": [
+      "The Weekend Leverage",
+      "the-weekend-leverage"
+    ],
+    "slug": "the-weekend-leverage",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Wisdom of Silence",
       "the-wisdom-of-silence"
     ],
@@ -22740,6 +22854,16 @@
       "why-is-it-so-hard-to-change"
     ],
     "slug": "why-is-it-so-hard-to-change",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Why Is Quality So Rare?",
+      "why-is-quality-so-rare"
+    ],
+    "slug": "why-is-quality-so-rare",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
