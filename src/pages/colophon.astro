@@ -1,15 +1,25 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Prose from "@components/ui/Prose.astro";
+import TableOfContents from "@components/ui/Toc.astro";
 import { getMdxComponents } from "src/lib/rendering";
+import SidebarLayout from "@layouts/SidebarLayout.astro";
 
-import { Content } from "src/content/colophon.mdx";
+import { Content, getHeadings } from "src/content/colophon.mdx";
 ---
 
-<Layout>
-  <title slot="head">Colophon | Alessandro Desantis</title>
+<title slot="head">Colophon | Alessandro Desantis</title>
 
-  <Prose>
-    <Content components={getMdxComponents()} />
-  </Prose>
+<Layout>
+  <SidebarLayout>
+    <Fragment slot="title">
+      Colophon
+    </Fragment>
+
+    <TableOfContents headings={getHeadings()} title="Colophon" slot="sidebar" />
+
+    <Prose>
+      <Content components={getMdxComponents()} />
+    </Prose>
+  </SidebarLayout>
 </Layout>
