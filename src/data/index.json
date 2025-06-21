@@ -6150,6 +6150,16 @@
   },
   {
     "ids": [
+      "People speak with facts, not opinions",
+      "people-speak-with-facts-not-opinions"
+    ],
+    "slug": "people-speak-with-facts-not-opinions",
+    "type": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Perfectionism delays convergence",
       "perfectionism-delays-convergence"
     ],
@@ -8142,6 +8152,16 @@
   },
   {
     "ids": [
+      "You should not brainstorm in a group",
+      "you-should-not-brainstorm-in-a-group"
+    ],
+    "slug": "you-should-not-brainstorm-in-a-group",
+    "type": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "100 Truths You Will Learn Too Late",
       "100-truths-you-will-learn-too-late"
     ],
@@ -8830,6 +8850,17 @@
       "m-il-figlio-del-secolo"
     ],
     "slug": "m-il-figlio-del-secolo",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "M. l’Uomo Della Provvidenza",
+      "m.-luomo-della-provvidenza",
+      "m-luomo-della-provvidenza"
+    ],
+    "slug": "m-luomo-della-provvidenza",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
