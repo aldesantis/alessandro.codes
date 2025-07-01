@@ -8215,6 +8215,16 @@
   },
   {
     "ids": [
+      "Agile Estimating and Planning",
+      "agile-estimating-and-planning"
+    ],
+    "slug": "agile-estimating-and-planning",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Alchemy",
       "alchemy"
     ],
@@ -11181,6 +11191,16 @@
   },
   {
     "ids": [
+      "Authenticity as Dialogue",
+      "authenticity-as-dialogue"
+    ],
+    "slug": "authenticity-as-dialogue",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Avoid the Nightmare Bicycle",
       "avoid-the-nightmare-bicycle"
     ],
@@ -11436,6 +11456,16 @@
       "bof-the-secrets-to-mytheresas-success"
     ],
     "slug": "bof-the-secrets-to-mytheresas-success",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brain Food: A Good Email",
+      "brain-food-a-good-email"
+    ],
+    "slug": "brain-food-a-good-email",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13052,6 +13082,16 @@
       "dip-043-names-and-meaning-and-aesthetics"
     ],
     "slug": "dip-043-names-and-meaning-and-aesthetics",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "DIP 045: Life Is Plastic",
+      "dip-045-life-is-plastic"
+    ],
+    "slug": "dip-045-life-is-plastic",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21414,6 +21454,16 @@
   },
   {
     "ids": [
+      "This Fortune 500 Enables Its Employees to Create AI Solutions to Workplace Problems",
+      "this-fortune-500-enables-its-employees-to-create-ai-solutions-to-workplace-problems"
+    ],
+    "slug": "this-fortune-500-enables-its-employees-to-create-ai-solutions-to-workplace-problems",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "This Is How Amazon Measures Itself",
       "this-is-how-amazon-measures-itself"
     ],
@@ -22404,6 +22454,16 @@
       "what-will-retail-look-like-in-five-years-top-industry-executives-share-their-predictions"
     ],
     "slug": "what-will-retail-look-like-in-five-years-top-industry-executives-share-their-predictions",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Whatnot Found Live Commerce’s Sweet Spot",
+      "whatnot-found-live-commerces-sweet-spot"
+    ],
+    "slug": "whatnot-found-live-commerces-sweet-spot",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
