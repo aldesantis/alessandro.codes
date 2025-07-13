@@ -2446,6 +2446,16 @@
   },
   {
     "ids": [
+      "July 2025",
+      "2025-07"
+    ],
+    "slug": "2025-07",
+    "type": "nows",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Accelerate existing customer behavior",
       "accelerate-existing-customer-behavior"
     ],
