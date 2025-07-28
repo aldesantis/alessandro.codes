@@ -7598,21 +7598,6 @@
   },
   {
     "ids": [
-      "The wellness industry promotes unfairness",
-      "the-wellness-industry-promotes-unfairness"
-    ],
-    "slug": "the-wellness-industry-promotes-unfairness",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "tiny-stupid-habits",
-        "type": "articles"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "There are five levels of meeting maturity",
       "there-are-five-levels-of-meeting-maturity"
     ],
@@ -22259,12 +22244,7 @@
     "slug": "tiny-stupid-habits",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "slug": "the-wellness-industry-promotes-unfairness",
-        "type": "notes"
-      }
-    ]
+    "inboundLinks": []
   },
   {
     "ids": [
