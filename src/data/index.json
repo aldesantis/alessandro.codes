@@ -2610,11 +2610,20 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "awareness-allows-you-to-redirect-attention",
+        "type": "notes"
+      },
+      {
         "slug": "what-is-the-alexander-technique",
         "type": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "awareness-allows-you-to-redirect-attention",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -2785,6 +2794,26 @@
       }
     ],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Awareness allows you to redirect attention",
+      "awareness-allows-you-to-redirect-attention"
+    ],
+    "slug": "awareness-allows-you-to-redirect-attention",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "alexander-technique-allows-you-to-expand-the-space-between-stimulus-and-response",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "alexander-technique-allows-you-to-expand-the-space-between-stimulus-and-response",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -8371,6 +8400,17 @@
   },
   {
     "ids": [
+      "E-Commerce C.O.R.E.",
+      "e-commerce-c.o.r.e.",
+      "e-commerce-core"
+    ],
+    "slug": "e-commerce-core",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "eCommerce Engine - Roadmap on How to Transform Your DTC Brand Into an 8-Figure Powerhouse",
       "ecommerce-engine-roadmap-on-how-to-transform-your-dtc-brand-into-an-8-figure-powerhouse"
     ],
@@ -8465,6 +8505,16 @@
       "exhalation"
     ],
     "slug": "exhalation",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fascismo E Populismo",
+      "fascismo-e-populismo"
+    ],
+    "slug": "fascismo-e-populismo",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -8859,6 +8909,17 @@
       "love-all-the-people"
     ],
     "slug": "love-all-the-people",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "M. Gli Ultimi Giorni Dell&#39;Europa",
+      "m.-gli-ultimi-giorni-dell&39;europa",
+      "m-gli-ultimi-giorni-delland39europa"
+    ],
+    "slug": "m-gli-ultimi-giorni-delland39europa",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10024,6 +10085,17 @@
   },
   {
     "ids": [
+      "40 Thoughts On Turning 40 | #287",
+      "40-thoughts-on-turning-40--287",
+      "40-thoughts-on-turning-40-287"
+    ],
+    "slug": "40-thoughts-on-turning-40-287",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "45 Life Lessons",
       "45-life-lessons"
     ],
@@ -11117,6 +11189,16 @@
   },
   {
     "ids": [
+      "Armageddon",
+      "armageddon"
+    ],
+    "slug": "armageddon",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "As a New Era Beckons, What Came Before?",
       "as-a-new-era-beckons-what-came-before"
     ],
@@ -11691,6 +11773,16 @@
       "brain-food-find-the-contrast"
     ],
     "slug": "brain-food-find-the-contrast",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brain Food: Focus on Yourself",
+      "brain-food-focus-on-yourself"
+    ],
+    "slug": "brain-food-focus-on-yourself",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12413,6 +12505,17 @@
   },
   {
     "ids": [
+      "Chronic Pain Afflicts Billions of People. It’s Time for a Revolution. - The New York Times",
+      "chronic-pain-afflicts-billions-of-people.-it’s-time-for-a-revolution.-the-new-york-times",
+      "chronic-pain-afflicts-billions-of-people-its-time-for-a-revolution-the-new-york-times"
+    ],
+    "slug": "chronic-pain-afflicts-billions-of-people-its-time-for-a-revolution-the-new-york-times",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Climbing the Wrong Hill",
       "climbing-the-wrong-hill"
     ],
@@ -12522,6 +12625,16 @@
       "confessions-of-a-founder-closing-her-beauty-brand-dtc-isnt-working-right-now"
     ],
     "slug": "confessions-of-a-founder-closing-her-beauty-brand-dtc-isnt-working-right-now",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Confessions of an AI Addict",
+      "confessions-of-an-ai-addict"
+    ],
+    "slug": "confessions-of-an-ai-addict",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12783,6 +12896,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Cultural Influence Is Not About Hiring Influencers",
+      "cultural-influence-is-not-about-hiring-influencers"
+    ],
+    "slug": "cultural-influence-is-not-about-hiring-influencers",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -13904,6 +14027,17 @@
   },
   {
     "ids": [
+      "🕵🏻‍♂️ Account-Based Content",
+      "🕵🏻‍♂️-account-based-content",
+      "emoji-1f575-1f3fb-200d-2642-fe0f-account-based-content"
+    ],
+    "slug": "emoji-1f575-1f3fb-200d-2642-fe0f-account-based-content",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "😐",
       "emoji-1f610"
     ],
@@ -14211,6 +14345,16 @@
   },
   {
     "ids": [
+      "Expertise Conundrum",
+      "expertise-conundrum"
+    ],
+    "slug": "expertise-conundrum",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Explore vs Execute",
       "explore-vs-execute"
     ],
@@ -14363,6 +14507,17 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Fear of Disappointing People You’ve Already Impressed Is More Paralyzing Than Fear of Impressing Nobody at All.",
+      "fear-of-disappointing-people-youve-already-impressed-is-more-paralyzing-than-fear-of-impressing-nobody-at-all.",
+      "fear-of-disappointing-people-youve-already-impressed-is-more-paralyzing-than-fear-of-impressing-nobo"
+    ],
+    "slug": "fear-of-disappointing-people-youve-already-impressed-is-more-paralyzing-than-fear-of-impressing-nobo",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -14703,6 +14858,17 @@
       "gartner-predicts-ai-agents-will-transform-work-but-disillusionment-is-growing"
     ],
     "slug": "gartner-predicts-ai-agents-will-transform-work-but-disillusionment-is-growing",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gartner Survey Reveals Personalization Can Triple the Likelihood of Customer Regret at Key Journey Points",
+      "gartner-survey-reveals-personalization-can-triple-the-likelihood-of-customer-regret-at-key-journey-points",
+      "gartner-survey-reveals-personalization-can-triple-the-likelihood-of-customer-regret-at-key-journey-p"
+    ],
+    "slug": "gartner-survey-reveals-personalization-can-triple-the-likelihood-of-customer-regret-at-key-journey-p",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -15088,6 +15254,16 @@
   },
   {
     "ids": [
+      "How AI Erodes or Enhances Expertise",
+      "how-ai-erodes-or-enhances-expertise"
+    ],
+    "slug": "how-ai-erodes-or-enhances-expertise",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How Amazon Prime Backed the Retail Industry Into a Corner",
       "how-amazon-prime-backed-the-retail-industry-into-a-corner"
     ],
@@ -15234,6 +15410,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "How ButcherBox Infused Its Unique Identity Into Its Loyalty Program",
+      "how-butcherbox-infused-its-unique-identity-into-its-loyalty-program"
+    ],
+    "slug": "how-butcherbox-infused-its-unique-identity-into-its-loyalty-program",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -15424,6 +15610,16 @@
   },
   {
     "ids": [
+      "How Marketers Can Respond With Empathy to Consumer Tariff Shocks",
+      "how-marketers-can-respond-with-empathy-to-consumer-tariff-shocks"
+    ],
+    "slug": "how-marketers-can-respond-with-empathy-to-consumer-tariff-shocks",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How Morning Brew’s Referral Program Built an Audience of 1.5 Million Subscribers",
       "how-morning-brew’s-referral-program-built-an-audience-of-1.5-million-subscribers",
       "how-morning-brews-referral-program-built-an-audience-of-15-million-subscribers"
@@ -15526,6 +15722,16 @@
       "how-to-achieve-the-extraordinary"
     ],
     "slug": "how-to-achieve-the-extraordinary",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Acquire Customers With Instagram Ads in 2025",
+      "how-to-acquire-customers-with-instagram-ads-in-2025"
+    ],
+    "slug": "how-to-acquire-customers-with-instagram-ads-in-2025",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -15831,6 +16037,16 @@
   },
   {
     "ids": [
+      "How to Have a Career Even When OpenAI’s O3 Drops",
+      "how-to-have-a-career-even-when-openais-o3-drops"
+    ],
+    "slug": "how-to-have-a-career-even-when-openais-o3-drops",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How to Have Happy Customers & Followers",
       "how-to-have-happy-customers-&-followers",
       "how-to-have-happy-customers-and-followers"
@@ -15968,6 +16184,16 @@
       "how-to-sell-what-your-customers-really-want"
     ],
     "slug": "how-to-sell-what-your-customers-really-want",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Sleep Better",
+      "how-to-sleep-better"
+    ],
+    "slug": "how-to-sleep-better",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16132,6 +16358,16 @@
   },
   {
     "ids": [
+      "I Want to Do Everything, So I Do Nothing",
+      "i-want-to-do-everything-so-i-do-nothing"
+    ],
+    "slug": "i-want-to-do-everything-so-i-do-nothing",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "I Wish I Learned This So Much Sooner.",
       "i-wish-i-learned-this-so-much-sooner.",
       "i-wish-i-learned-this-so-much-sooner"
@@ -16158,6 +16394,16 @@
       "if-you-were-rich-would-you-fold-laundry-by-rae-katzif-you-were-rich-would-you-fold-laundry"
     ],
     "slug": "if-you-were-rich-would-you-fold-laundry-by-rae-katzif-you-were-rich-would-you-fold-laundry",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Improv and the Search for Product Market Fit",
+      "improv-and-the-search-for-product-market-fit"
+    ],
+    "slug": "improv-and-the-search-for-product-market-fit",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16203,6 +16449,17 @@
       "in-defense-of-tarpit-ideas"
     ],
     "slug": "in-defense-of-tarpit-ideas",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "In Graphic Detail: AI Platforms Are Driving More Traffic — But Not Enough to Offset ‘Zero-Click’ Search",
+      "in-graphic-detail-ai-platforms-are-driving-more-traffic-—-but-not-enough-to-offset-‘zero-click’-search",
+      "in-graphic-detail-ai-platforms-are-driving-more-traffic-but-not-enough-to-offset-zero-click-search"
+    ],
+    "slug": "in-graphic-detail-ai-platforms-are-driving-more-traffic-but-not-enough-to-offset-zero-click-search",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16561,6 +16818,17 @@
       "insiders-188-architecting-desire-how-retail-hospitality-hybrids-are-changing-consumption"
     ],
     "slug": "insiders-188-architecting-desire-how-retail-hospitality-hybrids-are-changing-consumption",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Insiders #200: The New Semester of Influence: Where FOMO, Family Economics, and the Creator Economy Collide",
+      "insiders-200-the-new-semester-of-influence-where-fomo-family-economics-and-the-creator-economy-collide",
+      "insiders-200-the-new-semester-of-influence-where-fomo-family-economics-and-the-creator-economy-colli"
+    ],
+    "slug": "insiders-200-the-new-semester-of-influence-where-fomo-family-economics-and-the-creator-economy-colli",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17107,6 +17375,17 @@
   },
   {
     "ids": [
+      "Lowe’s Loyalty Program’s Core Objective? Drive One More Trip",
+      "lowe’s-loyalty-program’s-core-objective-drive-one-more-trip",
+      "lowes-loyalty-programs-core-objective-drive-one-more-trip"
+    ],
+    "slug": "lowes-loyalty-programs-core-objective-drive-one-more-trip",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "LSD microdosing RCT",
       "lsd-microdosing-rct"
     ],
@@ -17277,6 +17556,17 @@
       "majority-of-consumers-feel-emotionally-manipulated-by-ai-shopping-assistants"
     ],
     "slug": "majority-of-consumers-feel-emotionally-manipulated-by-ai-shopping-assistants",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Make Something Heavy.",
+      "make-something-heavy.",
+      "make-something-heavy"
+    ],
+    "slug": "make-something-heavy",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17624,6 +17914,17 @@
   },
   {
     "ids": [
+      "Meta’s AI Abundance",
+      "meta’s-ai-abundance",
+      "metas-ai-abundance"
+    ],
+    "slug": "metas-ai-abundance",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Meta’s AI Vision: Automating Creative and Personalizing Ads in Real Time",
       "meta’s-ai-vision-automating-creative-and-personalizing-ads-in-real-time",
       "metas-ai-vision-automating-creative-and-personalizing-ads-in-real-time"
@@ -17682,6 +17983,17 @@
       "mindful-and-mindless-work"
     ],
     "slug": "mindful-and-mindless-work",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Models, Models Every Where, So Let’s Have a Think",
+      "models-models-every-where-so-let’s-have-a-think",
+      "models-models-every-where-so-lets-have-a-think"
+    ],
+    "slug": "models-models-every-where-so-lets-have-a-think",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17916,6 +18228,16 @@
       "navigating-the-spiderwebs-of-power"
     ],
     "slug": "navigating-the-spiderwebs-of-power",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Neosemantic Design: Beyond Metaphor in Human-Machine Communication",
+      "neosemantic-design-beyond-metaphor-in-human-machine-communication"
+    ],
+    "slug": "neosemantic-design-beyond-metaphor-in-human-machine-communication",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18696,6 +19018,16 @@
   },
   {
     "ids": [
+      "Pure Independence",
+      "pure-independence"
+    ],
+    "slug": "pure-independence",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Pursuits That Can’t Scale",
       "pursuits-that-can’t-scale",
       "pursuits-that-cant-scale"
@@ -19182,6 +19514,17 @@
   },
   {
     "ids": [
+      "Seven Strategy Tensions … and Misunderstandings",
+      "seven-strategy-tensions-…-and-misunderstandings",
+      "seven-strategy-tensions-and-misunderstandings"
+    ],
+    "slug": "seven-strategy-tensions-and-misunderstandings",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Shein Found Amazon’s Weakness",
       "shein-found-amazon’s-weakness",
       "shein-found-amazons-weakness"
@@ -19397,6 +19740,17 @@
       "socialcommentaryvol6-by-matt-klein-zinesocialcommentaryvol6"
     ],
     "slug": "socialcommentaryvol6-by-matt-klein-zinesocialcommentaryvol6",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Software With a Soul: AI’s Underestimated Frontier",
+      "software-with-a-soul-ai’s-underestimated-frontier",
+      "software-with-a-soul-ais-underestimated-frontier"
+    ],
+    "slug": "software-with-a-soul-ais-underestimated-frontier",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19817,6 +20171,16 @@
   },
   {
     "ids": [
+      "The AI Expertise Conundrum",
+      "the-ai-expertise-conundrum"
+    ],
+    "slug": "the-ai-expertise-conundrum",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The AI Startup Litmus Test",
       "the-ai-startup-litmus-test"
     ],
@@ -20055,6 +20419,16 @@
   },
   {
     "ids": [
+      "The Cognitive Hacks I Wish I Learned 30 Years Ago",
+      "the-cognitive-hacks-i-wish-i-learned-30-years-ago"
+    ],
+    "slug": "the-cognitive-hacks-i-wish-i-learned-30-years-ago",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Cold Outbound Playbook",
       "the-cold-outbound-playbook"
     ],
@@ -20285,6 +20659,16 @@
   },
   {
     "ids": [
+      "The Founder’s Dilemma",
+      "the-founders-dilemma"
+    ],
+    "slug": "the-founders-dilemma",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Four Big Risks - Silicon Valley Product Group : Silicon Valley Product",
       "the-four-big-risks-silicon-valley-product-group--silicon-valley-product",
       "the-four-big-risks-silicon-valley-product-group-silicon-valley-product"
@@ -20491,6 +20875,17 @@
       "the-industry-verdict-on-alessandro-micheles-valentino-debut"
     ],
     "slug": "the-industry-verdict-on-alessandro-micheles-valentino-debut",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Insidious Charms of the Entrepreneurial Work Ethic | the New Yorker",
+      "the-insidious-charms-of-the-entrepreneurial-work-ethic--the-new-yorker",
+      "the-insidious-charms-of-the-entrepreneurial-work-ethic-the-new-yorker"
+    ],
+    "slug": "the-insidious-charms-of-the-entrepreneurial-work-ethic-the-new-yorker",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21063,6 +21458,16 @@
   },
   {
     "ids": [
+      "The Quality Advantage",
+      "the-quality-advantage"
+    ],
+    "slug": "the-quality-advantage",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Quiet Art of Attention",
       "the-quiet-art-of-attention"
     ],
@@ -21124,6 +21529,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Rise of the Software Creator",
+      "the-rise-of-the-software-creator"
+    ],
+    "slug": "the-rise-of-the-software-creator",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -22123,6 +22538,16 @@
       "walmart-sets-sights-on-retail-media-as-content-and-commerce-blur"
     ],
     "slug": "walmart-sets-sights-on-retail-media-as-content-and-commerce-blur",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Want to Deliver Better Customer Experience? Align It With Your Brand Experience",
+      "want-to-deliver-better-customer-experience-align-it-with-your-brand-experience"
+    ],
+    "slug": "want-to-deliver-better-customer-experience-align-it-with-your-brand-experience",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -23398,6 +23823,26 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Working on Complex Systems",
+      "working-on-complex-systems"
+    ],
+    "slug": "working-on-complex-systems",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Workout Prep",
+      "workout-prep"
+    ],
+    "slug": "workout-prep",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
