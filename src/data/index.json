@@ -9638,6 +9638,16 @@
   },
   {
     "ids": [
+      "User Story Mapping",
+      "user-story-mapping"
+    ],
+    "slug": "user-story-mapping",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "#022 Commodification Cripples Culture",
       "022-commodification-cripples-culture"
     ],
