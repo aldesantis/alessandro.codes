@@ -4636,11 +4636,11 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "how-do-you-know-when-to-stop-versus-when-to-push-through-you-dont-not-even-in-hindsight-but-these-gu",
-        "type": "articles"
+        "slug": "there-are-three-types-of-failure",
+        "type": "notes"
       },
       {
-        "slug": "there-are-three-types-of-failure",
+        "slug": "increasing-agency-reduces-stress",
         "type": "notes"
       },
       {
@@ -4650,11 +4650,23 @@
       {
         "slug": "clear-thinking",
         "type": "books"
+      },
+      {
+        "slug": "the-playbook-for-navigating-uncertainty",
+        "type": "articles"
+      },
+      {
+        "slug": "how-do-you-know-when-to-stop-versus-when-to-push-through-you-dont-not-even-in-hindsight-but-these-gu",
+        "type": "articles"
       }
     ],
     "inboundLinks": [
       {
         "slug": "align-teams-before-empowering-them",
+        "type": "notes"
+      },
+      {
+        "slug": "increasing-agency-reduces-stress",
         "type": "notes"
       }
     ]
@@ -5054,6 +5066,10 @@
       {
         "slug": "understanding-requires-effortful-engagement-andy-matuschak-notes-obsidian-publish",
         "type": "articles"
+      },
+      {
+        "slug": "how-to-take-smart-notes",
+        "type": "books"
       }
     ],
     "inboundLinks": [
@@ -5149,11 +5165,19 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "focus-on-your-controllables",
+        "type": "notes"
+      },
+      {
         "slug": "social-support-reduces-stress",
         "type": "notes"
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "focus-on-your-controllables",
+        "type": "notes"
+      },
       {
         "slug": "social-support-reduces-stress",
         "type": "notes"
@@ -8747,6 +8771,10 @@
         "type": "notes"
       },
       {
+        "slug": "ideas-need-to-be-grappled-with",
+        "type": "notes"
+      },
+      {
         "slug": "writing-shouldnt-start-with-a-blank-page",
         "type": "notes"
       }
@@ -8916,6 +8944,17 @@
       "m-il-figlio-del-secolo"
     ],
     "slug": "m-il-figlio-del-secolo",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "M. L’ora Del Destino",
+      "m.-l’ora-del-destino",
+      "m-lora-del-destino"
+    ],
+    "slug": "m-lora-del-destino",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10204,6 +10243,16 @@
   },
   {
     "ids": [
+      "9 Proven Growth Tactics You Can Implement Today",
+      "9-proven-growth-tactics-you-can-implement-today"
+    ],
+    "slug": "9-proven-growth-tactics-you-can-implement-today",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "“90% of Startups Fail to Acquire New Customers",
       "“90%-of-startups-fail-to-acquire-new-customers",
       "90percent-of-startups-fail-to-acquire-new-customers"
@@ -10783,6 +10832,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "AI Is Polytheistic, Not Monotheistic",
+      "ai-is-polytheistic-not-monotheistic"
+    ],
+    "slug": "ai-is-polytheistic-not-monotheistic",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -11399,6 +11458,16 @@
       "banks-are-dipping-their-toes-into-the-retail-media-waters"
     ],
     "slug": "banks-are-dipping-their-toes-into-the-retail-media-waters",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Baseline Fame",
+      "baseline-fame"
+    ],
+    "slug": "baseline-fame",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14043,6 +14112,17 @@
   },
   {
     "ids": [
+      "🚧 Why “Good Friction” in Checkout Might Be Your Secret Revenue Weapon",
+      "🚧 why-good-friction-in-checkout-might-be-your-secret-revenue-weapon",
+      "emoji-1f6a7-why-good-friction-in-checkout-might-be-your-secret-revenue-weapon"
+    ],
+    "slug": "emoji-1f6a7-why-good-friction-in-checkout-might-be-your-secret-revenue-weapon",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "🥗 Don’t",
       "🥗-don’t",
       "emoji-1f957-dont"
@@ -15605,6 +15685,16 @@
   },
   {
     "ids": [
+      "How Language Models Work",
+      "how-language-models-work"
+    ],
+    "slug": "how-language-models-work",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How Marketers Can Respond With Empathy to Consumer Tariff Shocks",
       "how-marketers-can-respond-with-empathy-to-consumer-tariff-shocks"
     ],
@@ -16830,6 +16920,16 @@
   },
   {
     "ids": [
+      "Insiders #202: From Plastic to Patek: What AI and Watchmaking Have in Common",
+      "insiders-202-from-plastic-to-patek-what-ai-and-watchmaking-have-in-common"
+    ],
+    "slug": "insiders-202-from-plastic-to-patek-what-ai-and-watchmaking-have-in-common",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Intellectual Menopause",
       "intellectual-menopause"
     ],
@@ -17375,6 +17475,16 @@
       "lowes-loyalty-programs-core-objective-drive-one-more-trip"
     ],
     "slug": "lowes-loyalty-programs-core-objective-drive-one-more-trip",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Loyalty Programs With Active Communities Appeal to Gen Z, Study Finds",
+      "loyalty-programs-with-active-communities-appeal-to-gen-z-study-finds"
+    ],
+    "slug": "loyalty-programs-with-active-communities-appeal-to-gen-z-study-finds",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18796,6 +18906,16 @@
   },
   {
     "ids": [
+      "Placeholders of Life",
+      "placeholders-of-life"
+    ],
+    "slug": "placeholders-of-life",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Playing ‘Civilization 7’ Is Like Being a Ruthless Corporate Consultant",
       "playing-civilization-7-is-like-being-a-ruthless-corporate-consultant"
     ],
@@ -19070,6 +19190,16 @@
       "quiet-compounding"
     ],
     "slug": "quiet-compounding",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rabbitholes as Portals",
+      "rabbitholes-as-portals"
+    ],
+    "slug": "rabbitholes-as-portals",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19967,6 +20097,17 @@
   },
   {
     "ids": [
+      "SURPRISE! It’s a Blind Box World.",
+      "surprise!-its-a-blind-box-world.",
+      "surprise-its-a-blind-box-world"
+    ],
+    "slug": "surprise-its-a-blind-box-world",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "SWLW #579: The Value of Canonicity, Early Stage Startup Handbook, and More.",
       "swlw-579-the-value-of-canonicity-early-stage-startup-handbook-and-more.",
       "swlw-579-the-value-of-canonicity-early-stage-startup-handbook-and-more"
@@ -20163,6 +20304,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "The AI Agency Delusion",
+      "the-ai-agency-delusion"
+    ],
+    "slug": "the-ai-agency-delusion",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -20815,6 +20966,16 @@
   },
   {
     "ids": [
+      "The Growth Maze vs the Idea Maze",
+      "the-growth-maze-vs-the-idea-maze"
+    ],
+    "slug": "the-growth-maze-vs-the-idea-maze",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Harsh Truth Everyone Needs to Hear",
       "the-harsh-truth-everyone-needs-to-hear"
     ],
@@ -21157,6 +21318,16 @@
   },
   {
     "ids": [
+      "The New DTC Rebranding Playbook",
+      "the-new-dtc-rebranding-playbook"
+    ],
+    "slug": "the-new-dtc-rebranding-playbook",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The New Fashion Creativity",
       "the-new-fashion-creativity"
     ],
@@ -21366,7 +21537,12 @@
     "slug": "the-playbook-for-navigating-uncertainty",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "focus-on-your-controllables",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -21939,6 +22115,16 @@
       "the-wisdom-of-silence"
     ],
     "slug": "the-wisdom-of-silence",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The World Needs More of You",
+      "the-world-needs-more-of-you"
+    ],
+    "slug": "the-world-needs-more-of-you",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -23996,6 +24182,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Your Dreams Demand Your Best Hours",
+      "your-dreams-demand-your-best-hours"
+    ],
+    "slug": "your-dreams-demand-your-best-hours",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
