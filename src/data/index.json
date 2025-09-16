@@ -8682,6 +8682,16 @@
   },
   {
     "ids": [
+      "How Big Things Get Done",
+      "how-big-things-get-done"
+    ],
+    "slug": "how-big-things-get-done",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How Brands Grow",
       "how-brands-grow"
     ],
@@ -8944,6 +8954,17 @@
       "m-il-figlio-del-secolo"
     ],
     "slug": "m-il-figlio-del-secolo",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "M. La Fine E Il Principio",
+      "m.-la-fine-e-il-principio",
+      "m-la-fine-e-il-principio"
+    ],
+    "slug": "m-la-fine-e-il-principio",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13300,6 +13321,16 @@
       "digital-product-passport"
     ],
     "slug": "digital-product-passport",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Digital Product Passports: Lessons From an Early Adopter",
+      "digital-product-passports-lessons-from-an-early-adopter"
+    ],
+    "slug": "digital-product-passports-lessons-from-an-early-adopter",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21844,6 +21875,16 @@
       "the-stores-defining-a-new-era-of-multi-brand-retail"
     ],
     "slug": "the-stores-defining-a-new-era-of-multi-brand-retail",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Strategic Independent",
+      "the-strategic-independent"
+    ],
+    "slug": "the-strategic-independent",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
