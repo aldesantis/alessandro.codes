@@ -1324,7 +1324,6 @@
   {
     "ids": [
       "Elevating Customer Journeys in Digital Commerce",
-      "Elevating Customer Journeys in Digital Commerce with Alessandro Desantis",
       "ecommerce-customer-journey"
     ],
     "slug": "ecommerce-customer-journey",
@@ -1348,6 +1347,16 @@
       "experience-led-growth"
     ],
     "slug": "experience-led-growth",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Performance o identità? Come conciliare crescita e coerenza di brand nel fashion digitale",
+      "netcomm-focus-fashion-and-beauty-2025"
+    ],
+    "slug": "netcomm-focus-fashion-and-beauty-2025",
     "type": "talks",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10763,6 +10772,17 @@
   },
   {
     "ids": [
+      "Adstock: Significato, Definizione - GlossarioMarketing.it",
+      "adstock-significato-definizione-glossariomarketing.it",
+      "adstock-significato-definizione-glossariomarketingit"
+    ],
+    "slug": "adstock-significato-definizione-glossariomarketingit",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Advice for a friend who wants to start a blog",
       "advice-for-a-friend-who-wants-to-start-a-blog — advice-for-a-friend-who-wants-to-start-a-blog",
       "advice-for-a-friend-who-wants-to-start-a-blog-advice-for-a-friend-who-wants-to-start-a-blog"
@@ -12260,6 +12280,16 @@
   },
   {
     "ids": [
+      "Brain Food: You’re Probably Right",
+      "brain-food-youre-probably-right"
+    ],
+    "slug": "brain-food-youre-probably-right",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Brain Rot [12.30.2024]",
       "brain-rot-[12.30.2024]",
       "brain-rot-12302024"
@@ -12352,6 +12382,17 @@
       "breaking-down-product-data-silos"
     ],
     "slug": "breaking-down-product-data-silos",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Bubbles and the Invention-Imagination Gap | How to Read AI Usage Studies | a Conversation With De Kai",
+      "bubbles-and-the-invention-imagination-gap--how-to-read-ai-usage-studies--a-conversation-with-de-kai",
+      "bubbles-and-the-invention-imagination-gap-how-to-read-ai-usage-studies-a-conversation-with-de-kai"
+    ],
+    "slug": "bubbles-and-the-invention-imagination-gap-how-to-read-ai-usage-studies-a-conversation-with-de-kai",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13362,6 +13403,16 @@
       "direct-response-product-and-brand-marketing-know-the-difference"
     ],
     "slug": "direct-response-product-and-brand-marketing-know-the-difference",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dispatch 013: ARIA Safeguarded AI Programme, New Faces, and a Splattering of Ink Lab Notes",
+      "dispatch-013-aria-safeguarded-ai-programme-new-faces-and-a-splattering-of-ink-lab-notes"
+    ],
+    "slug": "dispatch-013-aria-safeguarded-ai-programme-new-faces-and-a-splattering-of-ink-lab-notes",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16961,6 +17012,16 @@
   },
   {
     "ids": [
+      "Insiders #208: Why Shoptalk Chose Swift Over Strategy",
+      "insiders-208-why-shoptalk-chose-swift-over-strategy"
+    ],
+    "slug": "insiders-208-why-shoptalk-chose-swift-over-strategy",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Intellectual Menopause",
       "intellectual-menopause"
     ],
@@ -17115,6 +17176,16 @@
       "its-been-a-big-month-for-consumer-manda-but-investors-are-still-waiting-for-ipos"
     ],
     "slug": "its-been-a-big-month-for-consumer-manda-but-investors-are-still-waiting-for-ipos",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "It’s Not Failing You Fear",
+      "its-not-failing-you-fear"
+    ],
+    "slug": "its-not-failing-you-fear",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
