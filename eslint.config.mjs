@@ -10,7 +10,7 @@ export default [
   ...tseslint.configs.recommended,
   ...astro.configs.recommended,
   {
-    ignores: [".astro/*", ".vercel/*", ".vscode/*", "dist/*", "node_modules/*"],
+    ignores: [".astro/*", ".vercel/*", ".vscode/*", "dist/*", "node_modules/*", ".garden-source/*"],
   },
   {
     languageOptions: {
