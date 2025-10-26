@@ -23,11 +23,11 @@ export function remarkWikiLink() {
 
         // Use matchAll to get all matches with their positions
         const matches = Array.from(node.value.matchAll(/(?<!!)(\[\[([^\]|]+)(?:\|([^\]]+))?\]\])/g));
-        
+
         for (let i = 0; i < matches.length; i++) {
           const match = matches[i];
           const wikilink = wikilinks[i];
-          
+
           if (!match || !wikilink) continue;
 
           const startIndex = match.index;

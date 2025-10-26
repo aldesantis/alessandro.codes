@@ -14,13 +14,13 @@ interface Props {
   layoutType?: "grid" | "masonry";
 }
 
-const { 
-  items, 
-  itemSize, 
-  showStatusFilters = false, 
-  showTopicFilters = false, 
+const {
+  items,
+  itemSize,
+  showStatusFilters = false,
+  showTopicFilters = false,
   showTypeFilters = false,
-  layoutType = "grid" 
+  layoutType = "grid",
 } = Astro.props;
 
 function getGridColumnsForSize(size: "S" | "M" | "L"): string {
@@ -53,12 +53,11 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
     {showTopicFilters && <GardenTopicFilterDropdown />}
   </div>
 
-  <div 
-    data-garden-entries-grid-target="grid" 
-    class={layoutType === "grid" 
+  <div
+    data-garden-entries-grid-target="grid"
+    class={layoutType === "grid"
       ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
-      : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`
-    }
+      : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}
   >
     {
       items.length > 0 ? (

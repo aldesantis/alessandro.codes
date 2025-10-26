@@ -19,7 +19,7 @@ const { Content } = await render(entry);
     {entry.data.title}
   </Fragment>
 
-    <ContentSidebar entry={entry} slot="sidebar"/>  
+  <ContentSidebar entry={entry} slot="sidebar" />
   <Prose>
     <Content components={getMdxComponents()} />
   </Prose>
