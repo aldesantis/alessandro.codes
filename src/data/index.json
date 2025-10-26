@@ -1323,60 +1323,10 @@
   },
   {
     "ids": [
-      "Elevating Customer Journeys in Digital Commerce",
-      "ecommerce-customer-journey"
-    ],
-    "slug": "ecommerce-customer-journey",
-    "type": "talks",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Ecommerce Italia 2025",
-      "ecommerce-italia-2025"
-    ],
-    "slug": "ecommerce-italia-2025",
-    "type": "talks",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Experience-Led Commerce: La Customer Experience come nuovo motore di crescita",
-      "experience-led-commerce"
-    ],
-    "slug": "experience-led-commerce",
-    "type": "talks",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Maximizing Your Marketing ROI through Customer Experience",
-      "experience-led-growth"
-    ],
-    "slug": "experience-led-growth",
-    "type": "talks",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Performance o identità? Come conciliare crescita e coerenza di brand nel fashion digitale",
-      "netcomm-focus-fashion-and-beauty-2025"
-    ],
-    "slug": "netcomm-focus-fashion-and-beauty-2025",
-    "type": "talks",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Extensions Are Dead, Long Live Extensions!",
-      "solidus-extensions"
+      "2019-11-25-solidusconf-2019"
     ],
-    "slug": "solidus-extensions",
+    "slug": "2019-11-25-solidusconf-2019",
     "type": "talks",
     "outboundLinks": [],
     "inboundLinks": []
@@ -1384,9 +1334,59 @@
   {
     "ids": [
       "The Web3 Rightshifting",
-      "web3-rightshifting"
+      "2024-03-20-web3-rightshifting"
     ],
-    "slug": "web3-rightshifting",
+    "slug": "2024-03-20-web3-rightshifting",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Maximizing Your Marketing ROI through Customer Experience",
+      "2024-10-23-experience-led-growth"
+    ],
+    "slug": "2024-10-23-experience-led-growth",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Elevating Customer Journeys in Digital Commerce",
+      "2024-12-10-ecommerce-customer-journey"
+    ],
+    "slug": "2024-12-10-ecommerce-customer-journey",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ecommerce Italia 2025",
+      "2025-04-08-ecommerce-italia-2025"
+    ],
+    "slug": "2025-04-08-ecommerce-italia-2025",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Performance o identità? Come conciliare crescita e coerenza di brand nel fashion digitale",
+      "2025-09-22-netcomm-focus-fashion-and-beauty-2025"
+    ],
+    "slug": "2025-09-22-netcomm-focus-fashion-and-beauty-2025",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Elevating Customer Journeys in Digital Commerce",
+      "2025-09-23-experience-led-commerce"
+    ],
+    "slug": "2025-09-23-experience-led-commerce",
     "type": "talks",
     "outboundLinks": [],
     "inboundLinks": []
