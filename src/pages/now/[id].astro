@@ -4,7 +4,7 @@ import Layout from "@layouts/Layout.astro";
 import { getEntries } from "src/lib/garden/entries";
 import type { GardenEntry } from "src/lib/garden/entries";
 import Link from "@components/ui/Link.astro";
-import ContentLayout from "@components/garden/GardenEntryDetail.astro";
+import GardenEntryDetail from "@components/garden/GardenEntryDetail.astro";
 
 export async function getStaticPaths() {
   const nows = await getCollection("nows");
@@ -26,7 +26,7 @@ const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
 <title slot="head">{now.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <ContentLayout entry={now}>
+  <GardenEntryDetail entry={now}>
     <div class="flex justify-between max-w-[65ch]" slot="navigation">
       {
         prevNow ? (
@@ -48,5 +48,5 @@ const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
         )
       }
     </div>
-  </ContentLayout>
+  </GardenEntryDetail>
 </Layout>

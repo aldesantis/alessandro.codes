@@ -1,7 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Prose from "@components/ui/Prose.astro";
-import TableOfContents from "@components/ui/Toc.astro";
+import Toc from "@components/ui/Toc.astro";
 import { getMdxComponents } from "src/lib/rendering";
 import SidebarLayout from "@layouts/SidebarLayout.astro";
 
@@ -14,7 +14,7 @@ import { Content, getHeadings } from "src/content/colophon.mdx";
   <SidebarLayout>
     <Fragment slot="title"> Colophon </Fragment>
 
-    <TableOfContents headings={getHeadings()} title="Colophon" slot="sidebar" />
+    <Toc headings={getHeadings()} title="Colophon" slot="sidebar" />
 
     <Prose>
       <Content components={getMdxComponents()} />

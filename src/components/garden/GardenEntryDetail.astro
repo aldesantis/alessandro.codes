@@ -1,5 +1,5 @@
 ---
-import ContentSidebar from "@components/garden/GardenEntrySidebar.astro";
+import GardenEntrySidebar from "@components/garden/GardenEntrySidebar.astro";
 import Prose from "@components/ui/Prose.astro";
 import { getMdxComponents } from "src/lib/rendering";
 import type { GardenEntry } from "src/lib/garden/entries";
@@ -20,7 +20,7 @@ const { Content } = await render(entry);
   </Fragment>
 
   <slot name="sidebar" slot="sidebar">
-    <ContentSidebar entry={entry} />
+    <GardenEntrySidebar entry={entry} />
   </slot>
 
   <Prose>

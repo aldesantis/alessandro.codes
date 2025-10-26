@@ -1,6 +1,6 @@
 ---
-import TableOfContents from "@components/ui/Toc.astro";
-import ContentLinks from "@components/garden/GardenEntryLinks.astro";
+import Toc from "@components/ui/Toc.astro";
+import GardenEntryLinks from "@components/garden/GardenEntryLinks.astro";
 import { render } from "astro:content";
 import { getEntryIndexRecord, type GardenEntry } from "src/lib/garden/entries";
 
@@ -16,6 +16,6 @@ const { outboundLinks, inboundLinks } = getEntryIndexRecord(entry.id);
 <div class="space-y-4">
   <slot />
 
-  <TableOfContents headings={headings} title={entry.data.title} />
-  <ContentLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
+  <Toc headings={headings} title={entry.data.title} />
+  <GardenEntryLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
 </div>

@@ -1,5 +1,5 @@
 ---
-import ContentStatus from "@components/garden/GardenEntryStatus.astro";
+import GardenEntryStatus from "@components/garden/GardenEntryStatus.astro";
 import RelativeDate from "@components/ui/RelativeDate.astro";
 import TopicList from "@components/garden/topics/TopicList.astro";
 import type { CollectionEntry } from "astro:content";
@@ -15,7 +15,7 @@ const { remarkPluginFrontmatter } = await render(content);
 ---
 
 <div class="text-sm text-stone-500 font-sans">
-  <span><ContentStatus status={content.data.status} /></span>
+  <span><GardenEntryStatus status={content.data.status} /></span>
 
   <span class="mx-0.5">•</span>
 

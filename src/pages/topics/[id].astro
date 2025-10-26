@@ -6,7 +6,7 @@ import { render } from "astro:content";
 import { getMdxComponents } from "src/lib/rendering";
 import Prose from "@components/ui/Prose.astro";
 import TopicMeta from "@components/garden/topics/TopicMeta.astro";
-import ContentGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
+import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
 import { getRelatedEntries } from "src/lib/garden/entries";
 
 export async function getStaticPaths() {
@@ -50,7 +50,7 @@ const relatedContent = await getRelatedEntries(topic);
     relatedContent.length > 0 && (
       <div class="mt-12">
         <hr class="mb-6" />
-        <ContentGrid items={relatedContent} itemSize="M" showStatusFilters showTypeFilters layoutType="masonry" />
+        <GardenEntriesGrid items={relatedContent} itemSize="M" showStatusFilters showTypeFilters layoutType="masonry" />
       </div>
     )
   }
