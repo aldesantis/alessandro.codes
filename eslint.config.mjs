@@ -3,14 +3,15 @@
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import astro from "eslint-plugin-astro";
-import { globalIgnores } from "eslint/config";
 import globals from "globals";
 
-export default tseslint.config(
+export default [
   eslint.configs.recommended,
-  tseslint.configs.recommended,
-  astro.configs.recommended,
-  globalIgnores([".astro/*", ".vercel/*", ".vscode/*", "dist/*", "node_modules/*"]),
+  ...tseslint.configs.recommended,
+  ...astro.configs.recommended,
+  {
+    ignores: [".astro/*", ".vercel/*", ".vscode/*", "dist/*", "node_modules/*"],
+  },
   {
     languageOptions: {
       globals: {
@@ -18,5 +19,5 @@ export default tseslint.config(
         ...globals.node,
       },
     },
-  }
-);
+  },
+];
