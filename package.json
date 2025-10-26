@@ -14,13 +14,13 @@
     "update-content": "npm run fetch-content && npm run index-content && npm run build && git add src/data/index.json src/content && git commit -m 'Update content' && git push"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/mdx": "^4.3.5",
-    "@astrojs/vercel": "^8.2.7",
+    "@astrojs/check": "^0.9.5",
+    "@astrojs/mdx": "^4.3.8",
+    "@astrojs/vercel": "^9.0.0",
     "@hotwired/stimulus": "^3.2.2",
     "@tailwindcss/vite": "^4.1.13",
     "@types/glob": "^9.0.0",
-    "astro": "^5.13.7",
+    "astro": "^5.15.1",
     "astro-icon": "^1.1.5",
     "cheerio": "^1.1.2",
     "date-fns": "^4.1.0",
