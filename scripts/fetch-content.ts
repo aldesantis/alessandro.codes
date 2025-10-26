@@ -1,7 +1,6 @@
 import fs from "fs/promises";
 import * as fse from "fs-extra";
 import path from "path";
-import os from "os";
 import { glob } from "glob";
 
 import { type TransformerResult } from "src/lib/garden/transformers";
@@ -20,12 +19,13 @@ async function cleanDirectory(dir: string): Promise<void> {
 }
 
 async function fetchContent(): Promise<string> {
-  const tmpPath = path.join(os.tmpdir(), `digital-garden-source-${Math.random().toString(36).substring(2, 15)}`);
-  await fse.mkdirp(tmpPath);
+  // Use a persistent hidden directory in the project root
+  const cacheDir = path.join(process.cwd(), ".garden-source");
+  await fse.mkdirp(cacheDir);
 
-  await config.source(tmpPath);
+  await config.source(cacheDir);
 
-  return tmpPath;
+  return cacheDir;
 }
 
 async function transformContent(contentType: EntryType, tmpPath: string): Promise<void> {
@@ -83,8 +83,8 @@ async function processContent(): Promise<void> {
     await transformContent(contentType, tmpPath);
   }
 
-  console.log("Cleaning temporary directory...");
-  await cleanDirectory(tmpPath);
+  // Don't delete the cached source directory anymore
+  console.log("Content fetching complete!");
 }
 
 async function main(): Promise<void> {
