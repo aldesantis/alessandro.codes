@@ -49,7 +49,7 @@ const relatedContent = await getRelatedEntries(topic);
   {
     relatedContent.length > 0 && (
       <div class="mt-12">
-        <hr class="mb-6" />
+        <hr class="mb-6 border-gray-200" />
         <GardenEntriesGrid items={relatedContent} itemSize="M" showStatusFilters showTypeFilters layoutType="masonry" />
       </div>
     )
