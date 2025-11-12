@@ -2896,25 +2896,6 @@
   },
   {
     "ids": [
-      "Being right is dictated by facts, not opinions",
-      "being-right-is-dictated-by-facts-not-opinions"
-    ],
-    "slug": "being-right-is-dictated-by-facts-not-opinions",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "stories-are-not-facts",
-        "type": "notes"
-      },
-      {
-        "slug": "clear-thinking",
-        "type": "books"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Best practices are a floor, not a ceiling",
       "best-practices-are-a-floor-not-a-ceiling"
     ],
@@ -6232,16 +6213,6 @@
   },
   {
     "ids": [
-      "People speak with facts, not opinions",
-      "people-speak-with-facts-not-opinions"
-    ],
-    "slug": "people-speak-with-facts-not-opinions",
-    "type": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Perfectionism delays convergence",
       "perfectionism-delays-convergence"
     ],
@@ -6338,6 +6309,10 @@
     "inboundLinks": [
       {
         "slug": "re-evaluate-your-strengths",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier",
         "type": "notes"
       },
       {
@@ -7104,11 +7079,19 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "the-map-is-not-the-territory",
+        "type": "notes"
+      },
+      {
         "slug": "be-wary-of-flawless-ideas",
         "type": "notes"
       },
       {
-        "slug": "the-map-is-not-the-territory",
+        "slug": "truth-is-a-function-of-facts-not-opinions",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier",
         "type": "notes"
       },
       {
@@ -7122,15 +7105,19 @@
         "type": "notes"
       },
       {
-        "slug": "being-right-is-dictated-by-facts-not-opinions",
-        "type": "notes"
-      },
-      {
         "slug": "eliminate-bias-in-decision-making",
         "type": "notes"
       },
       {
+        "slug": "swimming-downstream-is-easier",
+        "type": "notes"
+      },
+      {
         "slug": "the-map-is-not-the-territory",
+        "type": "notes"
+      },
+      {
+        "slug": "truth-is-a-function-of-facts-not-opinions",
         "type": "notes"
       }
     ]
@@ -7295,6 +7282,35 @@
       },
       {
         "slug": "unknown-habits-impede-growth",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Swimming downstream is easier",
+      "Swimming upstream makes you effective",
+      "swimming-downstream-is-easier"
+    ],
+    "slug": "swimming-downstream-is-easier",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "understand-the-rules-before-breaking-them",
+        "type": "notes"
+      },
+      {
+        "slug": "stories-are-not-facts",
+        "type": "notes"
+      },
+      {
+        "slug": "point-to-the-new-tower",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "stories-are-not-facts",
         "type": "notes"
       }
     ]
@@ -7777,6 +7793,30 @@
   },
   {
     "ids": [
+      "Truth is a function of facts, not opinions",
+      "truth-is-a-function-of-facts-not-opinions"
+    ],
+    "slug": "truth-is-a-function-of-facts-not-opinions",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "stories-are-not-facts",
+        "type": "notes"
+      },
+      {
+        "slug": "clear-thinking",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "stories-are-not-facts",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Turn transient notes into evergreen notes",
       "turn-transient-notes-into-evergreen-notes"
     ],
@@ -7867,6 +7907,10 @@
       },
       {
         "slug": "learning-is-a-four-phase-process",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier",
         "type": "notes"
       },
       {
@@ -8354,10 +8398,6 @@
     ],
     "inboundLinks": [
       {
-        "slug": "being-right-is-dictated-by-facts-not-opinions",
-        "type": "notes"
-      },
-      {
         "slug": "dont-play-life-on-hard-mode",
         "type": "notes"
       },
@@ -8367,6 +8407,10 @@
       },
       {
         "slug": "focus-on-your-controllables",
+        "type": "notes"
+      },
+      {
+        "slug": "truth-is-a-function-of-facts-not-opinions",
         "type": "notes"
       }
     ]
