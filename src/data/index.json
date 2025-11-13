@@ -4394,7 +4394,12 @@
         "type": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "work-toward-proximate-objectives",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -5171,11 +5176,19 @@
       {
         "slug": "social-support-reduces-stress",
         "type": "notes"
+      },
+      {
+        "slug": "self-complexity-increases-resiliency",
+        "type": "notes"
       }
     ],
     "inboundLinks": [
       {
         "slug": "focus-on-your-controllables",
+        "type": "notes"
+      },
+      {
+        "slug": "self-complexity-increases-resiliency",
         "type": "notes"
       },
       {
@@ -6799,6 +6812,34 @@
   },
   {
     "ids": [
+      "Self-complexity increases resiliency",
+      "self-complexity-increases-resiliency"
+    ],
+    "slug": "self-complexity-increases-resiliency",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "increasing-agency-reduces-stress",
+        "type": "notes"
+      },
+      {
+        "slug": "social-support-reduces-stress",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "increasing-agency-reduces-stress",
+        "type": "notes"
+      },
+      {
+        "slug": "social-support-reduces-stress",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Serendipity requires randomness",
       "serendipity-requires-randomness"
     ],
@@ -7001,6 +7042,10 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "self-complexity-increases-resiliency",
+        "type": "notes"
+      },
+      {
         "slug": "increasing-agency-reduces-stress",
         "type": "notes"
       },
@@ -7016,6 +7061,10 @@
       },
       {
         "slug": "increasing-agency-reduces-stress",
+        "type": "notes"
+      },
+      {
+        "slug": "self-complexity-increases-resiliency",
         "type": "notes"
       }
     ]
@@ -8185,6 +8234,10 @@
     "slug": "work-toward-proximate-objectives",
     "type": "notes",
     "outboundLinks": [
+      {
+        "slug": "eliminate-the-cost-of-mistake",
+        "type": "notes"
+      },
       {
         "slug": "the-crux",
         "type": "books"
@@ -13455,6 +13508,16 @@
   },
   {
     "ids": [
+      "Degrowth: Everything You Wanted to Know but Were Afraid to Ask",
+      "degrowth-everything-you-wanted-to-know-but-were-afraid-to-ask"
+    ],
+    "slug": "degrowth-everything-you-wanted-to-know-but-were-afraid-to-ask",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Delete or Die: Notes From the World Governments Summit, the Tucker Carlson Summit, and the Brutalist",
       "delete-or-die-notes-from-the-world-governments-summit-the-tucker-carlson-summit-and-the-brutalist"
     ],
@@ -16768,6 +16831,16 @@
       "how-to-think-in-writing"
     ],
     "slug": "how-to-think-in-writing",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Use AI Without Becoming Stupid",
+      "how-to-use-ai-without-becoming-stupid"
+    ],
+    "slug": "how-to-use-ai-without-becoming-stupid",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22824,6 +22897,16 @@
       "the-ungated-manifesto"
     ],
     "slug": "the-ungated-manifesto",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Unimagined Orange and New Frontiers in Management Consultancy",
+      "the-unimagined-orange-and-new-frontiers-in-management-consultancy"
+    ],
+    "slug": "the-unimagined-orange-and-new-frontiers-in-management-consultancy",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
