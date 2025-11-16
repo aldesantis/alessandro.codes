@@ -2475,6 +2475,16 @@
   },
   {
     "ids": [
+      "November 2025",
+      "2025-10"
+    ],
+    "slug": "2025-10",
+    "type": "nows",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Accelerate existing customer behavior",
       "accelerate-existing-customer-behavior"
     ],
@@ -4640,6 +4650,10 @@
     "slug": "focus-on-your-controllables",
     "type": "notes",
     "outboundLinks": [
+      {
+        "slug": "systems-are-limited-to-one-input-at-a-time",
+        "type": "notes"
+      },
       {
         "slug": "there-are-three-types-of-failure",
         "type": "notes"
@@ -7228,6 +7242,10 @@
         "type": "notes"
       },
       {
+        "slug": "systems-are-limited-to-one-input-at-a-time",
+        "type": "notes"
+      },
+      {
         "slug": "work-toward-proximate-objectives",
         "type": "notes"
       },
@@ -7251,6 +7269,10 @@
       },
       {
         "slug": "strategy-deals-with-present-challenges",
+        "type": "notes"
+      },
+      {
+        "slug": "systems-are-limited-to-one-input-at-a-time",
         "type": "notes"
       }
     ]
@@ -7386,6 +7408,34 @@
   },
   {
     "ids": [
+      "Systems are limited to one input at a time",
+      "systems-are-limited-to-one-input-at-a-time"
+    ],
+    "slug": "systems-are-limited-to-one-input-at-a-time",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "systems-happen-all-at-once",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-focus",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "focus-on-your-controllables",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-focus",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Systems happen all at once",
       "systems-happen-all-at-once"
     ],
@@ -7397,7 +7447,12 @@
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "systems-are-limited-to-one-input-at-a-time",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -14660,6 +14715,17 @@
       "emoji-270d-fe0f-how-to-scale-production-without-sacrificing-quality"
     ],
     "slug": "emoji-270d-fe0f-how-to-scale-production-without-sacrificing-quality",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "✍️ the Counterbalance of Art in a World of AI Personalization",
+      "✍️-the-counterbalance-of-art-in-a-world-of-ai-personalization",
+      "emoji-270d-fe0f-the-counterbalance-of-art-in-a-world-of-ai-personalization"
+    ],
+    "slug": "emoji-270d-fe0f-the-counterbalance-of-art-in-a-world-of-ai-personalization",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
