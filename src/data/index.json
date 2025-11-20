@@ -2906,6 +2906,30 @@
   },
   {
     "ids": [
+      "Beliefs come in packages",
+      "beliefs-come-in-packages"
+    ],
+    "slug": "beliefs-come-in-packages",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "queerness-eschews-normality",
+        "type": "notes"
+      },
+      {
+        "slug": "30-useful-concepts",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "queerness-eschews-normality",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Best practices are a floor, not a ceiling",
       "best-practices-are-a-floor-not-a-ceiling"
     ],
@@ -2913,7 +2937,7 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "understand-the-rules-before-breaking-them",
+        "slug": "learn-the-rules-before-breaking-them",
         "type": "notes"
       },
       {
@@ -3157,7 +3181,11 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "effective-change-requires-collaboration",
+        "slug": "change-requires-collaboration",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
         "type": "notes"
       },
       {
@@ -3179,7 +3207,7 @@
         "type": "notes"
       },
       {
-        "slug": "systems-strive-for-self-preservation",
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
         "type": "notes"
       }
     ]
@@ -3292,6 +3320,42 @@
       {
         "slug": "leadership",
         "type": "topics"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Change requires collaboration",
+      "change-requires-collaboration"
+    ],
+    "slug": "change-requires-collaboration",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "innovation-needs-a-platform",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
+        "type": "notes"
+      },
+      {
+        "slug": "the-mckinsey-way",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "bright-spots-catalyze-change",
+        "type": "notes"
+      },
+      {
+        "slug": "great-consulting-requires-client-collaboration",
+        "type": "notes"
+      },
+      {
+        "slug": "innovation-needs-a-platform",
+        "type": "notes"
       }
     ]
   },
@@ -4290,38 +4354,6 @@
   },
   {
     "ids": [
-      "Effective change requires collaboration",
-      "effective-change-requires-collaboration"
-    ],
-    "slug": "effective-change-requires-collaboration",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "innovation-needs-a-platform",
-        "type": "notes"
-      },
-      {
-        "slug": "the-mckinsey-way",
-        "type": "books"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "slug": "bright-spots-catalyze-change",
-        "type": "notes"
-      },
-      {
-        "slug": "great-consulting-requires-client-collaboration",
-        "type": "notes"
-      },
-      {
-        "slug": "innovation-needs-a-platform",
-        "type": "notes"
-      }
-    ]
-  },
-  {
-    "ids": [
       "Efficiency must be defensible",
       "efficiency-must-be-defensible"
     ],
@@ -4963,7 +4995,7 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "effective-change-requires-collaboration",
+        "slug": "change-requires-collaboration",
         "type": "notes"
       },
       {
@@ -5307,7 +5339,7 @@
         "type": "notes"
       },
       {
-        "slug": "effective-change-requires-collaboration",
+        "slug": "change-requires-collaboration",
         "type": "notes"
       },
       {
@@ -5321,7 +5353,7 @@
         "type": "notes"
       },
       {
-        "slug": "effective-change-requires-collaboration",
+        "slug": "change-requires-collaboration",
         "type": "notes"
       },
       {
@@ -5347,6 +5379,46 @@
   },
   {
     "ids": [
+      "Learn the rules before breaking them",
+      "learn-the-rules-before-breaking-them"
+    ],
+    "slug": "learn-the-rules-before-breaking-them",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "systems-strive-for-self-preservation",
+        "type": "notes"
+      },
+      {
+        "slug": "learning-is-a-four-phase-process",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
+        "type": "notes"
+      },
+      {
+        "slug": "seek-first-to-understand",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "best-practices-are-a-floor-not-a-ceiling",
+        "type": "notes"
+      },
+      {
+        "slug": "learning-is-a-four-phase-process",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Learning is a four-phase process",
       "learning-is-a-four-phase-process"
     ],
@@ -5362,7 +5434,7 @@
         "type": "notes"
       },
       {
-        "slug": "understand-the-rules-before-breaking-them",
+        "slug": "learn-the-rules-before-breaking-them",
         "type": "notes"
       },
       {
@@ -5380,11 +5452,11 @@
         "type": "notes"
       },
       {
-        "slug": "tacit-knowledge-is-hard-to-capture",
+        "slug": "learn-the-rules-before-breaking-them",
         "type": "notes"
       },
       {
-        "slug": "understand-the-rules-before-breaking-them",
+        "slug": "tacit-knowledge-is-hard-to-capture",
         "type": "notes"
       }
     ]
@@ -6321,6 +6393,10 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
+        "type": "notes"
+      },
+      {
         "slug": "bright-spots-catalyze-change",
         "type": "notes"
       },
@@ -6339,11 +6415,7 @@
         "type": "notes"
       },
       {
-        "slug": "swimming-downstream-is-easier",
-        "type": "notes"
-      },
-      {
-        "slug": "systems-strive-for-self-preservation",
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
         "type": "notes"
       }
     ]
@@ -6588,13 +6660,24 @@
   },
   {
     "ids": [
+      "Queerness eschews normality",
       "Queerness is about eschewing normality",
-      "queerness-is-about-eschewing-normality"
+      "queerness-eschews-normality"
     ],
-    "slug": "queerness-is-about-eschewing-normality",
+    "slug": "queerness-eschews-normality",
     "type": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
+    "outboundLinks": [
+      {
+        "slug": "beliefs-come-in-packages",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "beliefs-come-in-packages",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -7154,7 +7237,7 @@
         "type": "notes"
       },
       {
-        "slug": "swimming-downstream-is-easier",
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
         "type": "notes"
       },
       {
@@ -7172,7 +7255,7 @@
         "type": "notes"
       },
       {
-        "slug": "swimming-downstream-is-easier",
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
         "type": "notes"
       },
       {
@@ -7359,29 +7442,56 @@
   },
   {
     "ids": [
-      "Swimming downstream is easier",
-      "Swimming upstream makes you effective",
-      "swimming-downstream-is-easier"
+      "Swimming downstream is easier than swimming upstream",
+      "swimming-downstream-is-easier-than-swimming-upstream"
     ],
-    "slug": "swimming-downstream-is-easier",
+    "slug": "swimming-downstream-is-easier-than-swimming-upstream",
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "understand-the-rules-before-breaking-them",
+        "slug": "systems-strive-for-self-preservation",
         "type": "notes"
       },
       {
-        "slug": "stories-are-not-facts",
+        "slug": "learn-the-rules-before-breaking-them",
         "type": "notes"
       },
       {
         "slug": "point-to-the-new-tower",
         "type": "notes"
+      },
+      {
+        "slug": "stories-are-not-facts",
+        "type": "notes"
+      },
+      {
+        "slug": "bright-spots-catalyze-change",
+        "type": "notes"
       }
     ],
     "inboundLinks": [
       {
+        "slug": "bright-spots-catalyze-change",
+        "type": "notes"
+      },
+      {
+        "slug": "change-requires-collaboration",
+        "type": "notes"
+      },
+      {
+        "slug": "learn-the-rules-before-breaking-them",
+        "type": "notes"
+      },
+      {
+        "slug": "point-to-the-new-tower",
+        "type": "notes"
+      },
+      {
         "slug": "stories-are-not-facts",
+        "type": "notes"
+      },
+      {
+        "slug": "systems-strive-for-self-preservation",
         "type": "notes"
       }
     ]
@@ -7522,15 +7632,7 @@
         "type": "notes"
       },
       {
-        "slug": "understand-the-rules-before-breaking-them",
-        "type": "notes"
-      },
-      {
-        "slug": "bright-spots-catalyze-change",
-        "type": "notes"
-      },
-      {
-        "slug": "point-to-the-new-tower",
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
         "type": "notes"
       },
       {
@@ -7540,7 +7642,11 @@
     ],
     "inboundLinks": [
       {
-        "slug": "understand-the-rules-before-breaking-them",
+        "slug": "learn-the-rules-before-breaking-them",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
         "type": "notes"
       }
     ]
@@ -7979,46 +8085,6 @@
     "inboundLinks": [
       {
         "slug": "brands-need-to-activate-their-purpose",
-        "type": "notes"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Understand the rules before breaking them",
-      "understand-the-rules-before-breaking-them"
-    ],
-    "slug": "understand-the-rules-before-breaking-them",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "systems-strive-for-self-preservation",
-        "type": "notes"
-      },
-      {
-        "slug": "learning-is-a-four-phase-process",
-        "type": "notes"
-      },
-      {
-        "slug": "seek-first-to-understand",
-        "type": "articles"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "slug": "best-practices-are-a-floor-not-a-ceiling",
-        "type": "notes"
-      },
-      {
-        "slug": "learning-is-a-four-phase-process",
-        "type": "notes"
-      },
-      {
-        "slug": "swimming-downstream-is-easier",
-        "type": "notes"
-      },
-      {
-        "slug": "systems-strive-for-self-preservation",
         "type": "notes"
       }
     ]
@@ -9714,7 +9780,7 @@
     ],
     "inboundLinks": [
       {
-        "slug": "effective-change-requires-collaboration",
+        "slug": "change-requires-collaboration",
         "type": "notes"
       }
     ]
@@ -10324,7 +10390,12 @@
     "slug": "30-useful-concepts",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "beliefs-come-in-packages",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -20327,11 +20398,11 @@
     ],
     "inboundLinks": [
       {
-        "slug": "systems-strive-for-self-preservation",
+        "slug": "learn-the-rules-before-breaking-them",
         "type": "notes"
       },
       {
-        "slug": "understand-the-rules-before-breaking-them",
+        "slug": "systems-strive-for-self-preservation",
         "type": "notes"
       }
     ]
@@ -23848,6 +23919,17 @@
       "what-happens-when-the-creative-class-makes-their-own-currencies"
     ],
     "slug": "what-happens-when-the-creative-class-makes-their-own-currencies",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "What I Do When I Can’t Sleep",
+      "what-i-do-when-i-can’t-sleep",
+      "what-i-do-when-i-cant-sleep"
+    ],
+    "slug": "what-i-do-when-i-cant-sleep",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
