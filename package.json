@@ -15,13 +15,13 @@
     "update-content": "npm run fetch-content && npm run index-content && npm run build && git add src/data/index.json src/content && git commit -m 'Update content' && git push"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.5",
+    "@astrojs/check": "^0.9.6",
     "@astrojs/mdx": "^4.3.12",
-    "@astrojs/vercel": "^9.0.1",
+    "@astrojs/vercel": "^9.0.2",
     "@hotwired/stimulus": "^3.2.2",
     "@tailwindcss/vite": "^4.1.17",
     "@types/glob": "^9.0.0",
-    "astro": "^5.16.0",
+    "astro": "^5.16.1",
     "astro-icon": "^1.1.5",
     "cheerio": "^1.1.2",
     "date-fns": "^4.1.0",
@@ -47,7 +47,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-astro": "^1.5.0",
     "node-fetch": "^3.3.2",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.0",
     "prettier-plugin-astro": "^0.14.1",
     "typescript-eslint": "^8.48.0"
   }
