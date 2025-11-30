@@ -56,6 +56,11 @@ async function transformContent(contentType: EntryType, tmpPath: string): Promis
     const result = await contentType.transformers.reduce<Promise<TransformerResult>>(
       async (acc, transformer) => {
         const currentResult = await acc;
+
+        if (currentResult === null) {
+          return null;
+        }
+
         return await transformer(currentResult.path, currentResult.content, contentType);
       },
       Promise.resolve({
@@ -63,6 +68,10 @@ async function transformContent(contentType: EntryType, tmpPath: string): Promis
         content: fileContent,
       })
     );
+
+    if (result === null) {
+      continue;
+    }
 
     const destinationPath = path.join(config.contentDir, contentType.destinationPath, result.path);
 
