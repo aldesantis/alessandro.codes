@@ -7,6 +7,16 @@ const baseSchema = z.object({
   topics: z.array(reference("topics")).optional(),
   createdAt: z.coerce.date().optional().default(new Date()),
   updatedAt: z.coerce.date().optional().default(new Date()),
+  draft: z
+    .preprocess((val) => {
+      if (typeof val === "string") {
+        if (val.toLowerCase() === "true") return true;
+        if (val.toLowerCase() === "false") return false;
+      }
+      return val;
+    }, z.boolean())
+    .optional()
+    .default(false),
 });
 
 const readwiseSchema = z.object({

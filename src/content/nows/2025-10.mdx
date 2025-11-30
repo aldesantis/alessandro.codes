@@ -3,21 +3,100 @@ aliases:
   - November 2025
   - 2025-10
 createdAt: 2025-07-13T16:11:01.000Z
-status: seedling
+status: budding
 title: November 2025
 updatedAt: '2025-10-30T23:00:00.000Z'
 contentType: nows
 ---
-- Multiplayer commerce concept
-- Strategy: easier said than done
-- Thinking about friendships. Life is seasonal.
-- Tried Figma Make for slides. Neat.
+The last of these updates was in [[2025-07|July]] (which I’m terribly sorry about), and quite a bit has happened since then.
+
+I’ll do my best to collect my thoughts and give you the highest highs and the lowest lows. Still, I should preface this by saying that Cloe constantly makes fun of me for how bad I am at reconstructing what has happened to me.
+
+So, in no particular order…
+
+## I moderated a conference
+
+It was called Experience-Led Commerce, and it was Nebulab’s first attempt at hosting our own events. On September 23 in Milan, we gathered some incredible speakers from world-renowned brands such as Puma and Venchi, along with a hand-selected audience of e-commerce executives and operators, to discuss questions such as:
+
+- What it takes for brands to be truly omnichannel
+- Whether customer loyalty exists (and whether it’s worth it)
+- Why it’s hard to be _actually_ data-driven in e-commerce
+
+Despite this being our first experiment, we had some pretty lofty goals: we wanted it to be relaxed, but not shabby; sophisticated, but not inaccessible; contrarian, but not alienating. We wanted to give people something that would take them out of their tactical day-to-day and make them think about something bigger and give them a new perspective, even if only for a second; we wanted _something to remember._
+
+The logistics were absolutely brutal. I thought I had been pretty pessimistic when estimating how much work this would be. As it turned out, I had been conservative.
+
+The main problem with hosting an event of any kind is the number of tradeoffs and dependencies you need to juggle:
+
+- If your location is too big, it will feel empty (and you will have wasted a lot of money). But if it’s too small, you’ll make some people unhappy (and you’re not maximizing your ROI, given that, once you’ve done everything else, the marginal cost of adding one attendee is basically zero).
+- If you invite people too late, you won’t know how many attendees you’re going to have until the very last moment, and you risk not having enough people to fill the room. But if you invite them too early, you risk people forgetting about the thing and not showing up at all.
+- If you don’t overbook, you’re most likely not going to reach your attendee target (typical no-show rates are 25-50%, ours was 24%). But if you _do_ overbook, you risk scrambling at the last minute to accommodate the people you were so sure wouldn’t show up.
+- Most speakers take forever to get back to you (unless you pay them, which was not our case—we did reimburse travel and accommodation when needed, though). But you can’t reach out to too many people at once, or you’ll end up looking like an idiot when you ask someone and then tell them the slot’s been taken.
+
+Overall, it took us about six months from start to finish. Personally, I spent the last six/eight weeks before the event not really doing anything that wasn’t coordinating speakers, inviting people, and rehearsing my keynote. It was unnerving.
+
+And it was a smashing success.
+
+Everything, literally everything, from the location to the content to the vibes was _just right_. We talked, we ate, we laughed, and we learned a thing or two.
+
+10/10 would do it again. 10/10 will do it again.
+
+If you speak Italian, or you have the patience for YouTube’s subtitle translation, you can watch the whole thing [here](https://www.youtube.com/watch?v=YHeJFhHWFWo&list=PLYXan6YtnaXISi35mNGzxHEf8oO2FkIL-).
+
+One day, I might publish an essay on the things I’ve learned about hosting events, but I feel like it’s way too early for that.
+
+## I made Powerpoint less boring
+
+Around the end of November, I had the privilege of pitching Nebulab’s services to one of the largest fashion conglomerates in Italy (and in Europe). I can’t share the name yet, but you’ll hear about them soon, if everything goes well.
+
+We knew that they deeply cared about the aesthetics and that our deck would have to be absolutely flawless if we wanted to get our message across, but I didn’t want to bother our design team with putting together something custom in Figma.
+
+This conundrum made me realize how modern presentation software _sucks_:
+
+- All existing solutions are either too rigid (e.g., Gamma) or too freeform (e.g., Google Slides, Figma Slides). I want something that lets me decide how much freedom I want on a case-by-case basis, starting from existing building blocks but allowing me to break out of the cage if I really want to.
+- I want presentations that afford interactivity and allow me to leverage the full spectrum of capabilities offered by the modern Web, rather than being constrained to the same boring layouts and UI components over and over again.
+- In the age of AI, it drives me nuts that I can’t vibe-code a presentation. Even though most software nowadays gives you an LLM to talk to, it’s usually pretty dumb. I want real reasoning and agentic capabilities.
+
+Not being a designer, I made a quick-and-dirty prototype in Figma Make for this particular client, painstakingly cleaned up the vibe-coded mess, and wrapped it into a private NPM package called Igniter.
+
+Igniter comes with several benefits that are just the natural result of it being regular React code:
+
+- It allows you to create whatever slide you can dream of, as long as you can express it in HTML, CSS, and JS. This includes complex user interactions, 3D animations, real-time API calls, and anything else you want.
+- It gives you a set of reusable blocks, from individual UI components to slide layouts to completely pre-packaged slides (e.g., we have a reusable “About Us” section that we use to present Nebulab).
+- It ships with a repository template for building your own presentations, complete with an `AGENTS.md` file that lets you vibe-code your presentations while respecting Igniter’s best practices.
+
+The main con is that you need at least _some_ coding skills to use it. Luckily, AI is making those more and more accessible. (Plus, I could easily get around that problem by hooking it up to a CMS such as Builder.io, but I won’t.)
+
+At the moment, it’s very specific to Nebulab, but I plan to make it more generic, open-source it, and write a proper breakdown at some point.
+
+If nothing else, our first Igniter-based pitch went really well. That has to count for something, right?
+
+## I tried (and failed) to codify my taste
+
+I read a lot. Like, _a lot._ In fact, I consider reading and writing to be upstream of many of the good things that have happened to me, both personally and professionally.
+
+Unfortunately, the more you read, the more you realize how the majority of the content available on the Internet is mediocre: poorly veiled product placements, ephemeral news that is old by the time you get around to reading it, longitudinal studies that suffer from basic cognitive biases (e.g., the number of reports that casually conflate correlation and causation will never cease to amaze me).
+
+There are gems out there, but they’re increasingly hard to find.
+
+One strategy for finding the gems is to be conservative with the media you consume. There are some authors and publications out there who can be trusted to consistently put out incredible content, and I happily follow quite a few of them.
+
+On the other hand, though, I’ve experienced more than one breakthrough over the years by reading op-eds that were completely unrelated to my fields of interest, or commercial lead magnets where 99% of the content was awful but 1% gave me a new perspective on a topic I felt stuck on. To leave this serendipity behind would mean to end up in an echo chamber of my own making.
+
+So how does one maintain that serendipity without running out of time in the day?
+
+Lately, I’ve been trying to answer this exact question with the help of machine learning and generative AI. I haven’t really had any breakthroughs yet, but I plan to keep working on it and publish an essay when I have something more tangible to share.
 
 ## What I’m…
 
 - **Reading:**
-- **Listening:**
-- **Watching:** Pluribus!
+	- https://alessandro.codes/books/slack
+	- https://alessandro.codes/books/flowers-for-algernon and https://alessandro.codes/books/the-touch
+	- https://alessandro.codes/books/how-big-things-get-done
+	- https://alessandro.codes/books/finite-and-infinite-games
+- **Listening:** Not much.
+- **Watching:**
+	- Pluribus. Interesting considerations about groupthink, artificial intelligence, and our generation’s general obsession with happiness.
 - **Cooking:**
-	- Pumpkin in all its forms: risotto, muffins, etc.
-	- Great pinsa carbonara
+	- Pumpkin, in all forms and shapes: pumpkin risotto, pumpkin pasta, pumpkin muffins. Is there anything you can’t do with a good pumpkin?!
+	- I’ve been making a mean pinsa carbonara. Not the healthiest thing in the world, but boy does it taste good.

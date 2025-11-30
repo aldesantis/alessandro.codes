@@ -10,11 +10,13 @@ import {
   removeSection,
   renameMdToMdx,
   addContentTypeToMetadata,
+  removeDrafts,
 } from "src/lib/garden/transformers";
 import type { Configuration } from "src/lib/garden/config";
 
 const transformers = [
   renameMdToMdx(),
+  removeDrafts(),
   addBasenameToAliases(),
   normalizeFilename(),
   removeFirstH1(),
