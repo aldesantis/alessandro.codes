@@ -47,9 +47,4 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-
-  redirects: {
-    "/nows": "/now",
-    "/nows/[...slug]": "/now/[...slug]"
-  }
 });

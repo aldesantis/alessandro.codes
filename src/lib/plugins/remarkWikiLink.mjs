@@ -5,7 +5,8 @@ import { extractWikilinks } from "../utils/wikilink.mjs";
 
 export function buildContentEntryUrl({ type, slug }) {
   // TODO: this should use urlBuilder from garden.config.ts
-  return `/${type}/${slug}`;
+
+  return `/${type === "nows" ? "now" : type}/${slug}`;
 }
 
 export function remarkWikiLink() {
