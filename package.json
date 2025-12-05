@@ -20,7 +20,7 @@
     "@hotwired/stimulus": "^3.2.2",
     "@tailwindcss/vite": "^4.1.17",
     "@types/glob": "^9.0.0",
-    "astro": "^5.16.3",
+    "astro": "^5.16.4",
     "astro-icon": "^1.1.5",
     "cheerio": "^1.1.2",
     "date-fns": "^4.1.0",
@@ -40,14 +40,14 @@
     "@iconify-json/fa6-solid": "^1.2.4",
     "@tailwindcss/typography": "^0.5.19",
     "@types/fs-extra": "^11.0.4",
-    "@typescript-eslint/eslint-plugin": "^8.48.0",
-    "@typescript-eslint/parser": "^8.48.0",
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
     "chalk": "^5.6.2",
     "eslint": "^9.39.1",
     "eslint-plugin-astro": "^1.5.0",
     "node-fetch": "^3.3.2",
-    "prettier": "^3.7.3",
+    "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
-    "typescript-eslint": "^8.48.0"
+    "typescript-eslint": "^8.48.1"
   }
 }
