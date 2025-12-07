@@ -1393,6 +1393,16 @@
   },
   {
     "ids": [
+      "We Were Free the Second We Stopped Pretending",
+      "2025-11-05-struggle-bus"
+    ],
+    "slug": "2025-11-05-struggle-bus",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "December 2024",
       "2024-12"
     ],
@@ -9022,6 +9032,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Trustworthy Online Controlled Experiments",
+      "trustworthy-online-controlled-experiments"
+    ],
+    "slug": "trustworthy-online-controlled-experiments",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
