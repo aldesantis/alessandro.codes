@@ -1513,7 +1513,7 @@
     "outboundLinks": [],
     "inboundLinks": [
       {
-        "slug": "2025-10",
+        "slug": "2025-11",
         "type": "nows"
       }
     ]
@@ -1521,14 +1521,34 @@
   {
     "ids": [
       "November 2025",
-      "2025-10"
+      "2025-11"
     ],
-    "slug": "2025-10",
+    "slug": "2025-11",
     "type": "nows",
     "outboundLinks": [
       {
         "slug": "2025-07",
         "type": "nows"
+      },
+      {
+        "slug": "slack",
+        "type": "books"
+      },
+      {
+        "slug": "flowers-for-algernon",
+        "type": "books"
+      },
+      {
+        "slug": "the-touch",
+        "type": "books"
+      },
+      {
+        "slug": "how-big-things-get-done",
+        "type": "books"
+      },
+      {
+        "slug": "finite-and-infinite-games",
+        "type": "books"
       }
     ],
     "inboundLinks": []
@@ -7823,7 +7843,12 @@
     "slug": "finite-and-infinite-games",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "2025-11",
+        "type": "nows"
+      }
+    ]
   },
   {
     "ids": [
@@ -7865,7 +7890,12 @@
     "slug": "flowers-for-algernon",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "2025-11",
+        "type": "nows"
+      }
+    ]
   },
   {
     "ids": [
@@ -7985,7 +8015,12 @@
     "slug": "how-big-things-get-done",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "2025-11",
+        "type": "nows"
+      }
+    ]
   },
   {
     "ids": [
@@ -8535,7 +8570,12 @@
     "slug": "slack",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "2025-11",
+        "type": "nows"
+      }
+    ]
   },
   {
     "ids": [
@@ -8900,7 +8940,12 @@
     "slug": "the-touch",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "2025-11",
+        "type": "nows"
+      }
+    ]
   },
   {
     "ids": [

@@ -1,0 +1,82 @@
+---
+aliases:
+  - November 2025
+  - 2025-11
+createdAt: 2025-07-13T16:11:01.000Z
+status: evergreen
+title: November 2025
+updatedAt: '2025-11-29T23:00:00.000Z'
+contentType: nows
+---
+The last of these updates was in [[2025-07|July]] (which I’m terribly sorry about), and quite a bit has happened since then.
+
+I’ll do my best to collect my thoughts and give you the highest highs and the lowest lows. Still, I should preface this by saying that my wife constantly makes fun of me for how bad I am at reconstructing what has happened to me.
+
+So, in no particular order…
+
+## I moderated an event
+
+It was called Experience-Led Commerce, and it was Nebulab’s first attempt at hosting our own events. On September 23 in Milan, we gathered some incredible speakers from world-renowned brands such as Puma and Venchi, along with a hand-selected audience of e-commerce executives and operators, to discuss questions such as:
+
+- What it takes for brands to be truly omnichannel
+- Whether customer loyalty exists (and whether it’s worth it)
+- Why it’s hard to be _actually_ data-driven in e-commerce
+
+Despite this being our first experiment, we had some pretty lofty goals: we wanted it to be relaxed but not shabby; sophisticated but not inaccessible; contrarian but not alienating. We wanted to give people something that would take them out of their tactical day-to-day, make them think about something bigger, and give them a new perspective, even if only for a second; we wanted _something to remember._
+
+The logistics were absolutely brutal. I had been pretty pessimistic when estimating how much work this would be. As it turned out, I had been conservative.
+
+The main problem with hosting an event of any kind is the number of trade-offs and dependencies you need to juggle: the location must be _just the right size_; people must be invited _just at the right time_, you need to do _just the right amount_ of overbooking, and on and on it goes.
+
+Overall, it took us about six months from start to finish. Personally, I spent the last six/eight weeks before the event not really doing anything that wasn’t coordinating speakers, inviting people, and rehearsing my keynote. It was unnerving.
+
+And it was a smashing success.
+
+Everything, literally everything, from the location to the content to the vibes was _just right_. We talked, we ate, we laughed, and we learned a thing or two. Even though I don’t particularly enjoy big crowds, and even though I’d much rather write in public than speak in public, I found it beautiful and thought-provoking and exhilarating—in no small part thanks to the incredible speakers we had.
+
+10/10 would do it again. 10/10 _will_ do it again.
+
+If you speak Italian, or you have the patience for YouTube’s subtitle translation, you can watch the whole thing [here](https://www.youtube.com/watch?v=YHeJFhHWFWo&list=PLYXan6YtnaXISi35mNGzxHEf8oO2FkIL-).
+
+One day, I might publish an essay on the things I’ve learned about hosting events, but I feel like it’s a bit early for that.
+
+## I made Powerpoint less boring
+
+Around the end of November, we had the privilege of pitching Nebulab’s services to one of the largest fashion conglomerates in Italy (and in Europe). I can’t share the name yet, but you’ll hear about them soon, if everything goes well.
+
+We knew that they deeply cared about the aesthetics of the presentation, and that our deck would have to be absolutely flawless if we wanted to get our message across. With this in mind, I set out to make something that would wow and that we could (ideally) reuse.
+
+In the process of doing this, I realized how much modern presentation software sucks:
+
+- All existing solutions are either too rigid, limiting you to a few pre-built UI blocks that you have no control over, or too freeform, forcing you to painstakingly build every slide from scratch. There is no in-between.
+- You are severely limited in the type of designs/experience you can create, unless you go with something like Figma, which is an excellent choice for designers but much less so for everyone else.
+- There is no concept of vibe-coding a presentation. Some tools have an AI assistant you can talk to, but it’s usually pretty dumb, lacking any real advanced agentic capabilities (searching the Web, using MCP servers, etc.)
+
+Because I had some time to spare, I decided to try to solve these pains once and for all. Specifically, I wanted a presentation framework that would:
+
+- Let me decide how much freedom I want on a case-by-case basis, allowing me to either pick from a set of pre-built slides, a set of pre-built components, or just build the entire slide from scratch.
+- Give me the full power of modern Web technologies (Tailwind, React, Three.js, and anything else my heart desires) while still allowing me to fall back to a good old PDF presentation because you never know.
+- Allow me to vibe-code the presentation by working in a real IDE, rather than in some constrained UI with a dumbed-down ChatGPT wrapper.
+
+Not being a designer, I made a quick-and-dirty prototype in Figma Make to get the visuals right. Then, I painstakingly cleaned up the vibe-coded mess and wrapped it into a private NPM package I called Igniter—as in, it _ignites_ the hearts of anyone who sees such a presentation.
+
+Igniter is just a good old set of Tailwind-styled, React-powered components that allow you to build a Web presentation. It comes with a set of reusable UI components, slide layouts, and entire slides for common use cases we face at Nebulab, but it also allows you to build slides from scratch if you want. Plus, it lets you either export your presentation as a PDF or deploy it to Vercel+Cloudflare with a single command.
+
+At the moment, it’s very specific to Nebulab, but I plan to make it more generic, open-source it, and write a proper breakdown at some point.
+
+If nothing else, it made _my_ life slightly better, so I’m hopeful it can do the same for others!
+
+## What I’m…
+
+- **Reading:**
+	- [[slack|Slack]]. The anti-optimization manifesto. Slack makes the case for why we’re not meant to squeeze every last ounce of efficiency out of our personal and professional lives. I found it original and refreshing.
+	- [[flowers-for-algernon|Flowers for Algernon]]. I read this one in one long sleepless night, and it brought me to tears. It talks about oneness, belonging, love, and what it means to find, lose, and perhaps find oneself once more.
+	- [[the-touch|The Touch]]. From the same author as Flowers for Algernon, I found it much less relatable, although I suspect it’s just a matter of my personal background. The topics are interesting, but the overarching metaphors a bit too alienating.
+	- [[how-big-things-get-done|How Big Things Get Done]]. It was recommended by a fellow agency founder, given our industry’s tragic allergy to punctuality. I am pretty torn about it: the author makes some interesting arguments (e.g., about fat-tailed distributions and estimation by looking at the past), but I felt like a lot of his takeaways were very specific to physical mega-projects rather than software projects. I think I might want to re-read this one and engage with it some more.
+	- [[finite-and-infinite-games|Finite and Infinite Games]]. The concept of infinite games has always been very close to my heart: way before I had the right words to describe it, I had this vague feeling that what I really enjoy about my life is the journey, not the destination. If you’re that sort of person, Finite and Infinite Games gives you a more rigorous framework to think about this dichotomy. The writing is beautiful, but I found the book overly long and artificially intellectual in some parts.
+- **Listening:** Not much and mostly old stuff, to be honest! I’m a creature of habit when it comes to music: the busier I am, the more I tend to retreat into what I know.
+- **Watching:**
+	- [Pluribus](https://www.imdb.com/it/title/tt22202452/). Interesting considerations about groupthink, free will, and humanity’s recent and deleterious obsession with happiness.
+- **Cooking:**
+	- Pumpkin, in all forms and shapes: pumpkin risotto, pumpkin pasta, pumpkin muffins. Is there anything you can’t do with a good pumpkin?!
+	- I’ve been making a mean pinsa carbonara. Not the healthiest thing in the world, but boy does it taste good.
