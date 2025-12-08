@@ -4,7 +4,7 @@ import { getEntries } from "src/lib/garden/entries";
 const latestNow = (await getEntries(["nows"]))[0]!;
 const latestNowUrl = `/now/${latestNow.id}`;
 
-return Astro.redirect(latestNowUrl, 301);
+return Astro.redirect(latestNowUrl, 307);
 ---
 
 {/* This is only needed to prevent an unused variable error in `astro check` */}
