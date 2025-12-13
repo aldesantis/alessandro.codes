@@ -1754,6 +1754,16 @@
   },
   {
     "ids": [
+      "All problems are system problems",
+      "all-problems-are-system-problems"
+    ],
+    "slug": "all-problems-are-system-problems",
+    "type": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "An operating cadence needs shared vision",
       "an-operating-cadence-needs-shared-vision"
     ],
@@ -8228,6 +8238,16 @@
   },
   {
     "ids": [
+      "La Casa Degli Sguardi",
+      "la-casa-degli-sguardi"
+    ],
+    "slug": "la-casa-degli-sguardi",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "La Strega Di Portobello",
       "la-strega-di-portobello"
     ],
@@ -13766,6 +13786,17 @@
   },
   {
     "ids": [
+      "📦 - Unstable Ad Account 😬",
+      "📦-unstable-ad-account-😬",
+      "emoji-1f4e6-unstable-ad-account-emoji-1f62c"
+    ],
+    "slug": "emoji-1f4e6-unstable-ad-account-emoji-1f62c",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "🕵🏻‍♂️ Account-Based Content",
       "🕵🏻‍♂️-account-based-content",
       "emoji-1f575-1f3fb-200d-2642-fe0f-account-based-content"
@@ -13911,6 +13942,17 @@
       "emoji-270d-fe0f-how-to-scale-production-without-sacrificing-quality"
     ],
     "slug": "emoji-270d-fe0f-how-to-scale-production-without-sacrificing-quality",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "✍️ It’s a New Era of Content Measurement",
+      "✍️-it’s-a-new-era-of-content-measurement",
+      "emoji-270d-fe0f-its-a-new-era-of-content-measurement"
+    ],
+    "slug": "emoji-270d-fe0f-its-a-new-era-of-content-measurement",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14182,6 +14224,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Extended mind thesis",
+      "extended-mind-thesis"
+    ],
+    "slug": "extended-mind-thesis",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -16267,6 +16319,16 @@
   },
   {
     "ids": [
+      "I Used to Be a High-Performing Robot",
+      "i-used-to-be-a-high-performing-robot"
+    ],
+    "slug": "i-used-to-be-a-high-performing-robot",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "I Want to Do Everything, So I Do Nothing",
       "i-want-to-do-everything-so-i-do-nothing"
     ],
@@ -16303,6 +16365,16 @@
       "if-you-were-rich-would-you-fold-laundry-by-rae-katzif-you-were-rich-would-you-fold-laundry"
     ],
     "slug": "if-you-were-rich-would-you-fold-laundry-by-rae-katzif-you-were-rich-would-you-fold-laundry",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "I’m Writing a Book",
+      "im-writing-a-book"
+    ],
+    "slug": "im-writing-a-book",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21902,6 +21974,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Software Engineering Kawagara Moment",
+      "the-software-engineering-kawagara-moment"
+    ],
+    "slug": "the-software-engineering-kawagara-moment",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {

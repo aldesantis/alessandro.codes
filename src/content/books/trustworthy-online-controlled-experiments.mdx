@@ -35,3 +35,13 @@ contentType: books
 - Twyman’s Law: “Any statistic that appears interesting is almost certainly a mistake”
 - Experience tells us that many extreme results are more likely to be the result of an error in instrumentation (e.g., logging), loss of data (or duplication of data), or a computational error.
 - The p-value is the probability of obtaining a result equal to or more extreme than what was observed, assuming that the Null hypothesis is true. The conditioning on the Null hypothesis is critical.
+- Generalizations across populations are usually questionable; features that work on one site may not work on another, but the solution is usually easy: rerun the experiment.
+- When you see anomalous data, think of Twyman’s law and investigate the issue.
+- There is a fundamental shift that happens when teams change from shipping a feature when it does not hurt key metrics, to NOT SHIPPING a feature unless it improves key metrics.
+- For experimentation to succeed and scale, there must also be a culture around intellectual integrity—the learning matters most, not the results or whether we ship the change.
+- In discussing organizational metrics, the taxonomy commonly used is goals, drivers, and guardrails.
+- Goal metrics, also called success metrics or true north metrics, reflect what the organization ultimately cares about.
+- Driver metrics, also called sign post metrics, surrogate metrics, indirect or predictive metrics, tend to be shorter-term, faster-moving, and more-sensitive metrics than goal metrics.
+- Guardrail metrics guard against violated assumptions and come in two types: metrics that protect the business and metrics that assess the trustworthiness and internal validity of experiment results.
+- Taking the time and effort to investigate metrics and modify existing metrics has high EVI. It is not enough to be agile and to measure, you must make sure your metrics guide you in the right direction. Certain metrics may evolve more quickly than others. For example, driver, guardrail, and data quality metrics may evolve more quickly than goal metrics, often because those are driven by methodology improvements rather than fundamental business or environmental evolutions.
+- You can use the movement of metrics in experiments to identify how they relate to each other.
