@@ -8584,6 +8584,16 @@
   },
   {
     "ids": [
+      "Sempre Tornare",
+      "sempre-tornare"
+    ],
+    "slug": "sempre-tornare",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Slack",
       "slack"
     ],
@@ -19310,6 +19320,16 @@
   },
   {
     "ids": [
+      "Resiliency and Scale",
+      "resiliency-and-scale"
+    ],
+    "slug": "resiliency-and-scale",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Resisting Audience Capture: How to Maintain Integrity & Sanity Online",
       "resisting-audience-capture-how-to-maintain-integrity-&-sanity-online",
       "resisting-audience-capture-how-to-maintain-integrity-and-sanity-online"
@@ -23043,6 +23063,16 @@
       "what-bass-pro-shops-can-teach-american-retailers"
     ],
     "slug": "what-bass-pro-shops-can-teach-american-retailers",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "What Becomes Valuable When AI Makes Creative Work Easy",
+      "what-becomes-valuable-when-ai-makes-creative-work-easy"
+    ],
+    "slug": "what-becomes-valuable-when-ai-makes-creative-work-easy",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
