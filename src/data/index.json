@@ -10068,6 +10068,17 @@
   },
   {
     "ids": [
+      "A Smart Bear » Mission, Vision, poTAYto, poTAHto",
+      "a-smart-bear-»-mission-vision-potayto-potahto",
+      "a-smart-bear-mission-vision-potayto-potahto"
+    ],
+    "slug": "a-smart-bear-mission-vision-potayto-potahto",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "A Smart Bear » Startup identity & the sadness of a successful exit",
       "a-smart-bear-»-startup-identity-&-the-sadness-of-a-successful-exit",
       "a-smart-bear-startup-identity-and-the-sadness-of-a-successful-exit"
@@ -14886,6 +14897,16 @@
   },
   {
     "ids": [
+      "“Good Engineering Management” Is a Fad",
+      "good-engineering-management-is-a-fad"
+    ],
+    "slug": "good-engineering-management-is-a-fad",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Good Strategy Is Embedded, Not Purely Abstracted",
       "good-strategy-is-embedded-not-purely-abstracted"
     ],
@@ -16003,6 +16024,16 @@
       "how-to-improve-your-creative-thinking"
     ],
     "slug": "how-to-improve-your-creative-thinking",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Make Taste Worth $100 Billion",
+      "how-to-make-taste-worth-100-billion"
+    ],
+    "slug": "how-to-make-taste-worth-100-billion",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18197,6 +18228,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Munger’s Two Track Analysis",
+      "mungers-two-track-analysis"
+    ],
+    "slug": "mungers-two-track-analysis",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
