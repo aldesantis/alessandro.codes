@@ -101,6 +101,7 @@ function extractOutboundLinks(
     }
 
     const normalizedPath = linkPath.replace(/\n/g, "").replace(/\s+/g, " ").trim();
+
     const match = allEntries.find((p) => p.ids.some((id) => id.toLowerCase() === normalizedPath.toLowerCase()));
 
     if (!match) {

@@ -1403,6 +1403,806 @@
   },
   {
     "ids": [
+      "Ali di pollo in salsa BBQ",
+      "ali-di-pollo-in-salsa-bbq"
+    ],
+    "slug": "ali-di-pollo-in-salsa-bbq",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Aloo gobi",
+      "aloo-gobi"
+    ],
+    "slug": "aloo-gobi",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Bacon cheeseburger",
+      "bacon-cheeseburger"
+    ],
+    "slug": "bacon-cheeseburger",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Banana pancake con le fragole",
+      "banana-pancake-con-le-fragole"
+    ],
+    "slug": "banana-pancake-con-le-fragole",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Bistecca di cavolfiore",
+      "bistecca-di-cavolfiore"
+    ],
+    "slug": "bistecca-di-cavolfiore",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Bowl di vermicelli con pollo al miso",
+      "bowl-di-vermicelli-con-pollo-al-miso"
+    ],
+    "slug": "bowl-di-vermicelli-con-pollo-al-miso",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Breakfast smoothie con banana, avena e burro d’arachidi",
+      "breakfast-smoothie-con-banana-avena-e-burro-darachidi"
+    ],
+    "slug": "breakfast-smoothie-con-banana-avena-e-burro-darachidi",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brodo di gamberi",
+      "brodo-di-gamberi"
+    ],
+    "slug": "brodo-di-gamberi",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Burger di pulled mushroom e coleslaw",
+      "burger-di-pulled-mushroom-e-coleslaw"
+    ],
+    "slug": "burger-di-pulled-mushroom-e-coleslaw",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Burrito con insalata di fagioli neri",
+      "burrito-con-insalata-di-fagioli-neri"
+    ],
+    "slug": "burrito-con-insalata-di-fagioli-neri",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Burrito di pollo con guacamole al lime",
+      "burrito-di-pollo-con-guacamole-al-lime"
+    ],
+    "slug": "burrito-di-pollo-con-guacamole-al-lime",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Calamari ripieni",
+      "calamari-ripieni"
+    ],
+    "slug": "calamari-ripieni",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cavolo nero saltato in padella",
+      "cavolo-nero-saltato-in-padella"
+    ],
+    "slug": "cavolo-nero-saltato-in-padella",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chips di cavolo nero alla paprika",
+      "chips-di-cavolo-nero-alla-paprika"
+    ],
+    "slug": "chips-di-cavolo-nero-alla-paprika",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Coleslaw",
+      "coleslaw"
+    ],
+    "slug": "coleslaw",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Crepes",
+      "crepes"
+    ],
+    "slug": "crepes",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Farro con tonno, olive e pomodorini",
+      "farro-con-tonno-olive-e-pomodorini"
+    ],
+    "slug": "farro-con-tonno-olive-e-pomodorini",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Farro con tonno, pomodorini e olive",
+      "farro-con-tonno-pomodorini-e-olive"
+    ],
+    "slug": "farro-con-tonno-pomodorini-e-olive",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Filetto al pepe verde",
+      "filetto-al-pepe-verde"
+    ],
+    "slug": "filetto-al-pepe-verde",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fusilli al ragù di orata",
+      "fusilli-al-ragu-di-orata"
+    ],
+    "slug": "fusilli-al-ragu-di-orata",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fusilli con tonno e zucchine",
+      "fusilli-con-tonno-e-zucchine"
+    ],
+    "slug": "fusilli-con-tonno-e-zucchine",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gateau di patate",
+      "gateau-di-patate"
+    ],
+    "slug": "gateau-di-patate",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gnocchetti di cavolfiore bicolore, vellutata di porri e patate, chips di cavolo nero",
+      "gnocchetti-di-cavolfiore-bicolore-vellutata-di-porri-e-patate-chips-di-cavolo-nero"
+    ],
+    "slug": "gnocchetti-di-cavolfiore-bicolore-vellutata-di-porri-e-patate-chips-di-cavolo-nero",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gnocchetti di cavolfiore bicolore",
+      "gnocchetti-di-cavolfiore-bicolore"
+    ],
+    "slug": "gnocchetti-di-cavolfiore-bicolore",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gricia",
+      "gricia"
+    ],
+    "slug": "gricia",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gyoza",
+      "gyoza"
+    ],
+    "slug": "gyoza",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Insalata di brie e pesche caramellate",
+      "insalata-di-brie-e-pesche-caramellate"
+    ],
+    "slug": "insalata-di-brie-e-pesche-caramellate",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Insalata di fagioli neri",
+      "insalata-di-fagioli-neri"
+    ],
+    "slug": "insalata-di-fagioli-neri",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Insalata mista",
+      "insalata-mista"
+    ],
+    "slug": "insalata-mista",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Involtini di verza vegetariani",
+      "involtini-di-verza-vegetariani"
+    ],
+    "slug": "involtini-di-verza-vegetariani",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Maionese al wasabi",
+      "maionese-al-wasabi"
+    ],
+    "slug": "maionese-al-wasabi",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Masala di ceci",
+      "masala-di-ceci"
+    ],
+    "slug": "masala-di-ceci",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Muffin alla zucca",
+      "muffin-alla-zucca"
+    ],
+    "slug": "muffin-alla-zucca",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Muffin con gocce di cioccolato",
+      "muffin-con-gocce-di-cioccolato"
+    ],
+    "slug": "muffin-con-gocce-di-cioccolato",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Orata al forno",
+      "orata-al-forno"
+    ],
+    "slug": "orata-al-forno",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pane tostato con burro d'arachidi e banana",
+      "pane-tostato-con-burro-darachidi-e-banana"
+    ],
+    "slug": "pane-tostato-con-burro-darachidi-e-banana",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pasta con nduja e pomodorini",
+      "pasta-con-nduja-e-pomodorini"
+    ],
+    "slug": "pasta-con-nduja-e-pomodorini",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pasta e ceci",
+      "pasta-e-ceci"
+    ],
+    "slug": "pasta-e-ceci",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Patate al forno",
+      "patate-al-forno"
+    ],
+    "slug": "patate-al-forno",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Patatine fritte",
+      "patatine-fritte"
+    ],
+    "slug": "patatine-fritte",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Penne al baffo",
+      "penne-al-baffo"
+    ],
+    "slug": "penne-al-baffo",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pinsa alla carbonara",
+      "pinsa-alla-carbonara"
+    ],
+    "slug": "pinsa-alla-carbonara",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pinsa con burrata mortadella e pistacchio",
+      "pinsa-con-burrata-mortadella-e-pistacchio"
+    ],
+    "slug": "pinsa-con-burrata-mortadella-e-pistacchio",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pinsa con salmone, burrata, songino, olio evo, limone e glassa d’aceto balsamico",
+      "pinsa-con-salmone-burrata-songino-olio-evo-limone-e-glassa-daceto-balsamico"
+    ],
+    "slug": "pinsa-con-salmone-burrata-songino-olio-evo-limone-e-glassa-daceto-balsamico",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pollo al curry",
+      "pollo-al-curry"
+    ],
+    "slug": "pollo-al-curry",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pollo alla cacciatora",
+      "pollo-alla-cacciatora"
+    ],
+    "slug": "pollo-alla-cacciatora",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Polpette di lenticchie",
+      "polpette-di-lenticchie"
+    ],
+    "slug": "polpette-di-lenticchie",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pulled mushroom",
+      "pulled-mushroom"
+    ],
+    "slug": "pulled-mushroom",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Quiche con spinaci e pomodori",
+      "quiche-con-spinaci-e-pomodori"
+    ],
+    "slug": "quiche-con-spinaci-e-pomodori",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rigatoni con crema di peperoni e stracciatella",
+      "rigatoni-con-crema-di-peperoni-e-stracciatella"
+    ],
+    "slug": "rigatoni-con-crema-di-peperoni-e-stracciatella",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Risotto con zucca e salsiccia",
+      "risotto-con-zucca-e-salsiccia"
+    ],
+    "slug": "risotto-con-zucca-e-salsiccia",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Risotto zucca e gorgonzola",
+      "risotto-zucca-e-gorgonzola"
+    ],
+    "slug": "risotto-zucca-e-gorgonzola",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rosti di patate",
+      "rosti-di-patate"
+    ],
+    "slug": "rosti-di-patate",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Salmone in crosta di pistacchio",
+      "salmone-in-crosta-di-pistacchio"
+    ],
+    "slug": "salmone-in-crosta-di-pistacchio",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Salsa masala",
+      "salsa-masala"
+    ],
+    "slug": "salsa-masala",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Salsa tonkatsu",
+      "salsa-tonkatsu"
+    ],
+    "slug": "salsa-tonkatsu",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Salsiccia e patate",
+      "salsiccia-e-patate"
+    ],
+    "slug": "salsiccia-e-patate",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sandwich con salmone e avocado",
+      "sandwich-con-salmone-e-avocado"
+    ],
+    "slug": "sandwich-con-salmone-e-avocado",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sandwich di pollo con parmigiano e songino",
+      "sandwich-di-pollo-con-parmigiano-e-songino"
+    ],
+    "slug": "sandwich-di-pollo-con-parmigiano-e-songino",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Scaloppine di seitan ai funghi",
+      "scaloppine-di-seitan-ai-funghi"
+    ],
+    "slug": "scaloppine-di-seitan-ai-funghi",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti aglio e olio",
+      "spaghetti-aglio-e-olio"
+    ],
+    "slug": "spaghetti-aglio-e-olio",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti alla puttanesca",
+      "spaghetti-alla-puttanesca"
+    ],
+    "slug": "spaghetti-alla-puttanesca",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti burro e alici",
+      "spaghetti-burro-e-alici"
+    ],
+    "slug": "spaghetti-burro-e-alici",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti cacio e pepe con le pere",
+      "spaghetti-cacio-e-pepe-con-le-pere"
+    ],
+    "slug": "spaghetti-cacio-e-pepe-con-le-pere",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti cacio e pepe",
+      "spaghetti-cacio-e-pepe"
+    ],
+    "slug": "spaghetti-cacio-e-pepe",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti con gamberi e pomodorini",
+      "spaghetti-con-gamberi-e-pomodorini"
+    ],
+    "slug": "spaghetti-con-gamberi-e-pomodorini",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti con pesto, pomodorini e bottarga di muggine",
+      "spaghetti-con-pesto-pomodorini-e-bottarga-di-muggine"
+    ],
+    "slug": "spaghetti-con-pesto-pomodorini-e-bottarga-di-muggine",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti con vongole e pesto al pistacchio",
+      "spaghetti-con-vongole-e-pesto-al-pistacchio"
+    ],
+    "slug": "spaghetti-con-vongole-e-pesto-al-pistacchio",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spatzle con guanciale e crema di parmigiano",
+      "spatzle-con-guanciale-e-crema-di-parmigiano"
+    ],
+    "slug": "spatzle-con-guanciale-e-crema-di-parmigiano",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spezzatino di manzo",
+      "spezzatino-di-manzo"
+    ],
+    "slug": "spezzatino-di-manzo",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Strudel con zucca, speck e provola",
+      "strudel-con-zucca-speck-e-provola"
+    ],
+    "slug": "strudel-con-zucca-speck-e-provola",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "T-bone CBT",
+      "t-bone-cbt"
+    ],
+    "slug": "t-bone-cbt",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tartare di salmone",
+      "tartare-di-salmone"
+    ],
+    "slug": "tartare-di-salmone",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tartare di tonno",
+      "tartare-di-tonno"
+    ],
+    "slug": "tartare-di-tonno",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tonkatsu di maiale",
+      "tonkatsu-di-maiale"
+    ],
+    "slug": "tonkatsu-di-maiale",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tortiglioni radicchio e noci",
+      "tortiglioni-radicchio-e-noci"
+    ],
+    "slug": "tortiglioni-radicchio-e-noci",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Uova ripiene di tonno e maionese",
+      "uova-ripiene-di-tonno-e-maionese"
+    ],
+    "slug": "uova-ripiene-di-tonno-e-maionese",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Veggie burger",
+      "veggie-burger"
+    ],
+    "slug": "veggie-burger",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vellutata di porri e patate",
+      "vellutata-di-porri-e-patate"
+    ],
+    "slug": "vellutata-di-porri-e-patate",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Yogurt greco con frutta, fiocchi d'avena e cioccolato fondente",
+      "yogurt-greco-con-frutta-fiocchi-davena-e-cioccolato-fondente"
+    ],
+    "slug": "yogurt-greco-con-frutta-fiocchi-davena-e-cioccolato-fondente",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "December 2024",
       "2024-12"
     ],

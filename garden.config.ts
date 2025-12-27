@@ -1,7 +1,7 @@
 import path from "path";
 import matter from "gray-matter";
 
-import { gitSource } from "src/lib/garden/sources";
+import { gitSource, notionSource } from "src/lib/garden/sources";
 import {
   normalizeFilename,
   escapeMdx,
@@ -11,150 +11,201 @@ import {
   renameMdToMdx,
   addContentTypeToMetadata,
   removeDrafts,
+  demoteHeadings,
+  normalizeMetadata,
 } from "src/lib/garden/transformers";
 import type { Configuration } from "src/lib/garden/config";
 
-const transformers = [
+const baseTransformers = [
   renameMdToMdx(),
   removeDrafts(),
   addBasenameToAliases(),
   normalizeFilename(),
-  removeFirstH1(),
-  removeSection({ headingLevel: 2, title: "Metadata" }),
   escapeMdx(),
   addContentTypeToMetadata(),
 ];
 
-const config: Configuration = {
-  // Where do we fetch the content from?
-  source: gitSource({
-    repositoryUrl: "git@github.com:aldesantis/digital-garden.git",
-  }),
+const digitalGardenTransformers = [
+  removeFirstH1(),
+  removeSection({ headingLevel: 2, title: "Metadata" }),
+  ...baseTransformers,
+];
 
-  // Where do we store the processed content?
+const recipeTransformers = [
+  demoteHeadings(),
+  normalizeMetadata({
+    normalizeKeysFor: ["Type", "Cuisine", "Diet", "Status", "Name"],
+    normalizeValuesFor: ["Type", "Cuisine", "Diet", "Status"],
+    keyMappings: {
+      Name: "title",
+    },
+    valueMappings: {
+      Status: {
+        Idea: "seedling",
+        "Next Up": "seedling",
+        "In Progress": "budding",
+        Perfected: "evergreen",
+      },
+    },
+  }),
+  ...baseTransformers,
+];
+
+const config: Configuration = {
+  // Where do we store the content?
   contentDir: path.join(process.cwd(), "src", "content"),
 
-  // What transformations do we want to apply to the content?
-  entryTypes: [
+  // Where do we fetch the content from and what transformations do we want to apply?
+  sources: [
     {
-      id: "assets",
-      basePath: "assets",
-      pattern: "**/*.{jpg,png,gif,svg,webp}",
-      destinationPath: "assets",
-      transformers: [],
-    },
-    {
-      id: "essays",
-      basePath: "essays",
-      pattern: "*.{md,mdx}",
-      destinationPath: "essays",
-      transformers,
-      urlBuilder: (slug) => `/essays/${slug}`,
-    },
-    {
-      id: "notes",
-      basePath: "notes",
-      pattern: "*.{md,mdx}",
-      destinationPath: "notes",
-      transformers,
-      urlBuilder: (slug) => `/notes/${slug}`,
-    },
-    {
-      id: "nows",
-      basePath: "nows",
-      pattern: "*.{md,mdx}",
-      destinationPath: "nows",
-      urlBuilder: (slug) => `/now/${slug}`,
-      transformers: [
-        ...transformers,
+      id: "digital-garden",
+      source: gitSource({
+        repositoryUrl: "git@github.com:aldesantis/digital-garden.git",
+      }),
+      entryTypes: [
+        {
+          id: "assets",
+          basePath: "assets",
+          pattern: "**/*.{jpg,png,gif,svg,webp}",
+          destinationPath: "assets",
+          transformers: [],
+        },
+        {
+          id: "essays",
+          basePath: "essays",
+          pattern: "*.{md,mdx}",
+          destinationPath: "essays",
+          transformers: digitalGardenTransformers,
+          urlBuilder: (slug) => `/essays/${slug}`,
+        },
+        {
+          id: "notes",
+          basePath: "notes",
+          pattern: "*.{md,mdx}",
+          destinationPath: "notes",
+          transformers: digitalGardenTransformers,
+          urlBuilder: (slug) => `/notes/${slug}`,
+        },
+        {
+          id: "nows",
+          basePath: "nows",
+          pattern: "*.{md,mdx}",
+          destinationPath: "nows",
+          urlBuilder: (slug) => `/now/${slug}`,
+          transformers: [
+            ...digitalGardenTransformers,
 
-        // Extract date from slug and set it as updatedAt for proper sorting
-        async (originalPath, originalContent) => {
-          const { data, content } = matter(originalContent);
+            // Extract date from slug and set it as updatedAt for proper sorting
+            async (originalPath, originalContent) => {
+              const { data, content } = matter(originalContent);
 
-          const dateMatch = originalPath.match(/(\d{4}-\d{2})/);
-          if (!dateMatch?.[1]) {
-            throw new Error(`No date found in path for nows entry: ${originalPath}`);
-          }
+              const dateMatch = originalPath.match(/(\d{4}-\d{2})/);
+              if (!dateMatch?.[1]) {
+                throw new Error(`No date found in path for nows entry: ${originalPath}`);
+              }
 
-          const [year, month] = dateMatch[1].split("-").map(Number) as [number, number];
-          const date = new Date(year, month, 0);
+              const [year, month] = dateMatch[1].split("-").map(Number) as [number, number];
+              const date = new Date(year, month, 0);
 
-          const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
+              const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
 
-          return { path: originalPath, content: updatedContent };
+              return { path: originalPath, content: updatedContent };
+            },
+          ],
+        },
+        {
+          id: "topics",
+          basePath: "topics",
+          pattern: "*.{md,mdx}",
+          destinationPath: "topics",
+          transformers: digitalGardenTransformers,
+          urlBuilder: (slug) => `/topics/${slug}`,
+        },
+        {
+          id: "books",
+          basePath: "readwise/books",
+          pattern: "*.{md,mdx}",
+          destinationPath: "books",
+          urlBuilder: (slug) => `/books/${slug}`,
+          transformers: [
+            ...digitalGardenTransformers,
+
+            // Copy the lastHighlightedOn date to the updatedAt date for proper sorting
+            async (originalPath, originalContent) => {
+              const { data, content } = matter(originalContent);
+
+              const date = new Date(data.lastHighlightedOn);
+
+              const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
+
+              return { path: originalPath, content: updatedContent };
+            },
+          ],
+        },
+        {
+          id: "articles",
+          basePath: "readwise/articles",
+          pattern: "*.{md,mdx}",
+          destinationPath: "articles",
+          transformers: digitalGardenTransformers,
+          urlBuilder: (slug) => `/articles/${slug}`,
+        },
+        {
+          id: "recipes",
+          basePath: "recipes",
+          pattern: "*.{md,mdx}",
+          destinationPath: "recipes",
+          transformers: digitalGardenTransformers,
+        },
+        {
+          id: "talks",
+          basePath: "talks",
+          pattern: "*.{md,mdx}",
+          destinationPath: "talks",
+          transformers: [
+            ...digitalGardenTransformers,
+
+            // Copy the createdAt date to the updatedAt date for proper sorting
+            async (originalPath, originalContent) => {
+              const { data, content } = matter(originalContent);
+
+              const date = new Date(data.createdAt);
+
+              const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
+
+              return { path: originalPath, content: updatedContent };
+            },
+          ],
+        },
+        {
+          id: "pages",
+          pattern: "{about,colophon}.{md,mdx}",
+          destinationPath: ".",
+          transformers: digitalGardenTransformers,
         },
       ],
     },
-    {
-      id: "topics",
-      basePath: "topics",
-      pattern: "*.{md,mdx}",
-      destinationPath: "topics",
-      transformers,
-      urlBuilder: (slug) => `/topics/${slug}`,
-    },
-    {
-      id: "books",
-      basePath: "readwise/books",
-      pattern: "*.{md,mdx}",
-      destinationPath: "books",
-      urlBuilder: (slug) => `/books/${slug}`,
-      transformers: [
-        ...transformers,
 
-        // Copy the lastHighlightedOn date to the updatedAt date for proper sorting
-        async (originalPath, originalContent) => {
-          const { data, content } = matter(originalContent);
-
-          const date = new Date(data.lastHighlightedOn);
-
-          const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
-
-          return { path: originalPath, content: updatedContent };
-        },
-      ],
-    },
-    {
-      id: "articles",
-      basePath: "readwise/articles",
-      pattern: "*.{md,mdx}",
-      destinationPath: "articles",
-      transformers,
-      urlBuilder: (slug) => `/articles/${slug}`,
-    },
     {
       id: "recipes",
-      basePath: "recipes",
-      pattern: "*.{md,mdx}",
-      destinationPath: "recipes",
-      transformers,
-    },
-    {
-      id: "talks",
-      basePath: "talks",
-      pattern: "*.{md,mdx}",
-      destinationPath: "talks",
-      transformers: [
-        ...transformers,
-
-        // Copy the createdAt date to the updatedAt date for proper sorting
-        async (originalPath, originalContent) => {
-          const { data, content } = matter(originalContent);
-
-          const date = new Date(data.createdAt);
-
-          const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
-
-          return { path: originalPath, content: updatedContent };
+      source: notionSource({
+        dataSourceId: "fbf8923a-215b-4db0-8bab-051358d67347",
+        apiToken: process.env.NOTION_API_TOKEN!,
+        filter: {
+          property: "Status",
+          status: {
+            equals: "Perfected",
+          },
+        },
+      }),
+      entryTypes: [
+        {
+          id: "recipes",
+          pattern: "*.{md,mdx}",
+          destinationPath: "recipes",
+          transformers: recipeTransformers,
         },
       ],
-    },
-    {
-      id: "pages",
-      pattern: "{about,colophon}.{md,mdx}",
-      destinationPath: ".",
-      transformers,
     },
   ],
 };
