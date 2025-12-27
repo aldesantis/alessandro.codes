@@ -100,7 +100,7 @@ export const collections = {
     schema: baseSchema.extend(
       z.object({
         cuisine: z.enum(["tex-mex", "mediterranean", "bbq", "asian", "indian", "american"]).optional(),
-        diet: z.enum(["omnivore", "vegetarian", "vegan", "pescetarian"]),
+        diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescetarian"])),
         type: z.enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"]),
       }).shape
     ),

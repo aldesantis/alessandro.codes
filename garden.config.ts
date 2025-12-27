@@ -34,8 +34,8 @@ const digitalGardenTransformers = [
 const recipeTransformers = [
   demoteHeadings(),
   normalizeMetadata({
-    normalizeKeysFor: ["Type", "Cuisine", "Diet", "Status", "Name"],
-    normalizeValuesFor: ["Type", "Cuisine", "Diet", "Status"],
+    normalizeKeysFor: ["Type", "Cuisine", "Diets", "Status", "Name"],
+    normalizeValuesFor: ["Type", "Cuisine", "Diets", "Status"],
     keyMappings: {
       Name: "title",
     },
