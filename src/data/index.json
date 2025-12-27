@@ -11180,11 +11180,31 @@
   },
   {
     "ids": [
+      "BLUF: The Military Standard That Can Make Your Writing More Powerful",
+      "bluf-the-military-standard-that-can-make-your-writing-more-powerful"
+    ],
+    "slug": "bluf-the-military-standard-that-can-make-your-writing-more-powerful",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "BOF: The Secrets to Mytheresa’s Success",
       "bof-the-secrets-to-mytheresa’s-success",
       "bof-the-secrets-to-mytheresas-success"
     ],
     "slug": "bof-the-secrets-to-mytheresas-success",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Boring and Uncomfortable",
+      "boring-and-uncomfortable"
+    ],
+    "slug": "boring-and-uncomfortable",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -15758,6 +15778,16 @@
       "how-to-break-into-wholesale"
     ],
     "slug": "how-to-break-into-wholesale",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Build a Marketing Budget",
+      "how-to-build-a-marketing-budget"
+    ],
+    "slug": "how-to-build-a-marketing-budget",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22405,6 +22435,16 @@
       "the-zombie-cocktail-and-dxp-the-zombie-software-category-that-just-wont-die"
     ],
     "slug": "the-zombie-cocktail-and-dxp-the-zombie-software-category-that-just-wont-die",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "There Is No Normal",
+      "there-is-no-normal"
+    ],
+    "slug": "there-is-no-normal",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
