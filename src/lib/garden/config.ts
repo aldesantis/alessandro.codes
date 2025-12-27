@@ -10,8 +10,13 @@ export interface EntryType {
   urlBuilder?: (slug: string) => string;
 }
 
-export interface Configuration {
+export interface SourceConfig {
+  id: string;
   source: Source;
-  contentDir: string;
   entryTypes: EntryType[];
+}
+
+export interface Configuration {
+  contentDir: string;
+  sources: SourceConfig[];
 }
