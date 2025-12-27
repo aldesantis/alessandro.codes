@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client";
 import { NotionToMarkdown } from "notion-to-md";
-import { writeFile, mkdir } from "fs/promises";
+import { writeFile, mkdir, rm } from "fs/promises";
 import { existsSync } from "fs";
 import path from "path";
 import slugify from "slugify";
@@ -50,6 +50,8 @@ function convertPropertyToFrontmatterValue(property: PageObjectResponse["propert
       return property.number;
     case "select":
       return property.select?.name ?? null;
+    case "status":
+      return property.status?.name ?? null;
     case "multi_select":
       return property.multi_select.map((select) => select.name);
     case "date":
@@ -195,10 +197,12 @@ export default function notionSource(config: NotionConfiguration): Source {
 
     const n2m = new NotionToMarkdown({ notionClient: notion });
 
-    // Ensure destination directory exists
-    if (!existsSync(destination)) {
-      await mkdir(destination, { recursive: true });
+    if (existsSync(destination)) {
+      await rm(destination, { recursive: true, force: true });
     }
+
+    // Ensure destination directory exists
+    await mkdir(destination, { recursive: true });
 
     console.log(`Fetching pages from Notion database: ${config.dataSourceId}...`);
 
@@ -216,7 +220,7 @@ export default function notionSource(config: NotionConfiguration): Source {
           const slugifiedTitle = slugifyTitle(title || "untitled");
           const pageId = extractPageId(page.id);
           // Ensure we have a valid filename even if slugified title is empty
-          const filename = slugifiedTitle ? `${pageId}-${slugifiedTitle}.md` : `${pageId}.md`;
+          const filename = slugifiedTitle ? `${slugifiedTitle}.md` : `${pageId}.md`;
 
           // Extract properties for frontmatter
           const frontmatter = extractFrontmatter(page.properties);

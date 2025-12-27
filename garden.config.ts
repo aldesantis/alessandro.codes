@@ -1,7 +1,7 @@
 import path from "path";
 import matter from "gray-matter";
 
-import { gitSource } from "src/lib/garden/sources";
+import { gitSource, notionSource } from "src/lib/garden/sources";
 import {
   normalizeFilename,
   escapeMdx,
@@ -11,18 +11,44 @@ import {
   renameMdToMdx,
   addContentTypeToMetadata,
   removeDrafts,
+  demoteHeadings,
+  normalizeMetadata,
 } from "src/lib/garden/transformers";
 import type { Configuration } from "src/lib/garden/config";
 
-const transformers = [
+const baseTransformers = [
   renameMdToMdx(),
   removeDrafts(),
   addBasenameToAliases(),
   normalizeFilename(),
-  removeFirstH1(),
-  removeSection({ headingLevel: 2, title: "Metadata" }),
   escapeMdx(),
   addContentTypeToMetadata(),
+];
+
+const digitalGardenTransformers = [
+  removeFirstH1(),
+  removeSection({ headingLevel: 2, title: "Metadata" }),
+  ...baseTransformers,
+];
+
+const recipeTransformers = [
+  demoteHeadings(),
+  normalizeMetadata({
+    normalizeKeysFor: ["Type", "Cuisine", "Diet", "Status", "Name"],
+    normalizeValuesFor: ["Type", "Cuisine", "Diet", "Status"],
+    keyMappings: {
+      Name: "title",
+    },
+    valueMappings: {
+      Status: {
+        Idea: "seedling",
+        "Next Up": "seedling",
+        "In Progress": "budding",
+        Perfected: "evergreen",
+      },
+    },
+  }),
+  ...baseTransformers,
 ];
 
 const config: Configuration = {
@@ -49,7 +75,7 @@ const config: Configuration = {
           basePath: "essays",
           pattern: "*.{md,mdx}",
           destinationPath: "essays",
-          transformers,
+          transformers: digitalGardenTransformers,
           urlBuilder: (slug) => `/essays/${slug}`,
         },
         {
@@ -57,7 +83,7 @@ const config: Configuration = {
           basePath: "notes",
           pattern: "*.{md,mdx}",
           destinationPath: "notes",
-          transformers,
+          transformers: digitalGardenTransformers,
           urlBuilder: (slug) => `/notes/${slug}`,
         },
         {
@@ -67,7 +93,7 @@ const config: Configuration = {
           destinationPath: "nows",
           urlBuilder: (slug) => `/now/${slug}`,
           transformers: [
-            ...transformers,
+            ...digitalGardenTransformers,
 
             // Extract date from slug and set it as updatedAt for proper sorting
             async (originalPath, originalContent) => {
@@ -92,7 +118,7 @@ const config: Configuration = {
           basePath: "topics",
           pattern: "*.{md,mdx}",
           destinationPath: "topics",
-          transformers,
+          transformers: digitalGardenTransformers,
           urlBuilder: (slug) => `/topics/${slug}`,
         },
         {
@@ -102,7 +128,7 @@ const config: Configuration = {
           destinationPath: "books",
           urlBuilder: (slug) => `/books/${slug}`,
           transformers: [
-            ...transformers,
+            ...digitalGardenTransformers,
 
             // Copy the lastHighlightedOn date to the updatedAt date for proper sorting
             async (originalPath, originalContent) => {
@@ -121,7 +147,7 @@ const config: Configuration = {
           basePath: "readwise/articles",
           pattern: "*.{md,mdx}",
           destinationPath: "articles",
-          transformers,
+          transformers: digitalGardenTransformers,
           urlBuilder: (slug) => `/articles/${slug}`,
         },
         {
@@ -129,7 +155,7 @@ const config: Configuration = {
           basePath: "recipes",
           pattern: "*.{md,mdx}",
           destinationPath: "recipes",
-          transformers,
+          transformers: digitalGardenTransformers,
         },
         {
           id: "talks",
@@ -137,7 +163,7 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "talks",
           transformers: [
-            ...transformers,
+            ...digitalGardenTransformers,
 
             // Copy the createdAt date to the updatedAt date for proper sorting
             async (originalPath, originalContent) => {
@@ -155,7 +181,29 @@ const config: Configuration = {
           id: "pages",
           pattern: "{about,colophon}.{md,mdx}",
           destinationPath: ".",
-          transformers,
+          transformers: digitalGardenTransformers,
+        },
+      ],
+    },
+
+    {
+      id: "recipes",
+      source: notionSource({
+        dataSourceId: "fbf8923a-215b-4db0-8bab-051358d67347",
+        apiToken: process.env.NOTION_API_TOKEN!,
+        filter: {
+          property: "Status",
+          status: {
+            equals: "Perfected",
+          },
+        },
+      }),
+      entryTypes: [
+        {
+          id: "recipes",
+          pattern: "*.{md,mdx}",
+          destinationPath: "recipes",
+          transformers: recipeTransformers,
         },
       ],
     },

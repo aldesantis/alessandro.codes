@@ -8,6 +8,8 @@ import removeSection from "src/lib/garden/transformers/removeSection";
 import renameMdToMdx from "src/lib/garden/transformers/renameMdToMdx";
 import addContentTypeToMetadata from "src/lib/garden/transformers/addContentTypeToMetadata";
 import removeDrafts from "src/lib/garden/transformers/removeDrafts";
+import demoteHeadings from "src/lib/garden/transformers/demoteHeadings";
+import normalizeMetadata from "src/lib/garden/transformers/normalizeMetadata";
 
 export type TransformerResult = {
   path: string;
@@ -29,4 +31,6 @@ export {
   renameMdToMdx,
   addContentTypeToMetadata,
   removeDrafts,
+  demoteHeadings,
+  normalizeMetadata,
 };
