@@ -129,13 +129,15 @@ function convertPropertyToFrontmatterValue(property: PageObjectResponse["propert
   }
 }
 
-function extractFrontmatter(properties: PageObjectResponse["properties"]): Record<string, unknown> {
+function extractFrontmatter(page: PageObjectResponse): Record<string, unknown> {
   const frontmatter: Record<string, unknown> = {};
 
-  for (const [key, property] of Object.entries(properties)) {
+  for (const [key, property] of Object.entries(page.properties)) {
     const value = convertPropertyToFrontmatterValue(property);
     frontmatter[key] = value;
   }
+
+  frontmatter.notionId = page.id;
 
   return frontmatter;
 }
@@ -223,7 +225,7 @@ export default function notionSource(config: NotionConfiguration): Source {
           const filename = slugifiedTitle ? `${slugifiedTitle}.md` : `${pageId}.md`;
 
           // Extract properties for frontmatter
-          const frontmatter = extractFrontmatter(page.properties);
+          const frontmatter = extractFrontmatter(page);
 
           // Convert page blocks to markdown
           const mdBlocks = await n2m.pageToMarkdown(page.id);

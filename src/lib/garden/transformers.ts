@@ -10,6 +10,7 @@ import addContentTypeToMetadata from "src/lib/garden/transformers/addContentType
 import removeDrafts from "src/lib/garden/transformers/removeDrafts";
 import demoteHeadings from "src/lib/garden/transformers/demoteHeadings";
 import normalizeMetadata from "src/lib/garden/transformers/normalizeMetadata";
+import convertNotionLinksToWikilinks from "src/lib/garden/transformers/convertNotionLinksToWikilinks";
 
 export type TransformerResult = {
   path: string;
@@ -33,4 +34,5 @@ export {
   removeDrafts,
   demoteHeadings,
   normalizeMetadata,
+  convertNotionLinksToWikilinks,
 };

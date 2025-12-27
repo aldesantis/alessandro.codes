@@ -13,6 +13,7 @@ import {
   removeDrafts,
   demoteHeadings,
   normalizeMetadata,
+  convertNotionLinksToWikilinks,
 } from "src/lib/garden/transformers";
 import type { Configuration } from "src/lib/garden/config";
 
@@ -48,6 +49,7 @@ const recipeTransformers = [
       },
     },
   }),
+  convertNotionLinksToWikilinks(),
   ...baseTransformers,
 ];
 
