@@ -6,6 +6,7 @@ import NoteCard from "@components/garden/notes/NoteCard.astro";
 import TopicCard from "@components/garden/topics/TopicCard.astro";
 import TalkCard from "@components/garden/talks/TalkCard.astro";
 import { type CollectionEntry } from "astro:content";
+import RecipeCard from "@components/garden/recipes/RecipeCard.astro";
 
 interface Props {
   content: GardenEntry;
@@ -15,15 +16,22 @@ const { content } = Astro.props;
 ---
 
 {
-  content.collection === "essays" ? (
-    <EssayCard essay={content as CollectionEntry<"essays">} />
-  ) : content.collection === "books" ? (
-    <BookCard book={content as CollectionEntry<"books">} />
-  ) : content.collection === "notes" ? (
-    <NoteCard note={content as CollectionEntry<"notes">} />
-  ) : content.collection === "topics" ? (
-    <TopicCard topic={content as CollectionEntry<"topics">} />
-  ) : content.collection === "talks" ? (
-    <TalkCard talk={content as CollectionEntry<"talks">} />
-  ) : null
+  (() => {
+    switch (content.collection) {
+      case "essays":
+        return <EssayCard essay={content as CollectionEntry<"essays">} />;
+      case "books":
+        return <BookCard book={content as CollectionEntry<"books">} />;
+      case "notes":
+        return <NoteCard note={content as CollectionEntry<"notes">} />;
+      case "topics":
+        return <TopicCard topic={content as CollectionEntry<"topics">} />;
+      case "talks":
+        return <TalkCard talk={content as CollectionEntry<"talks">} />;
+      case "recipes":
+        return <RecipeCard recipe={content as CollectionEntry<"recipes">} />;
+      default:
+        throw new Error(`Unknown collection: ${content.collection}`);
+    }
+  })()
 }

@@ -1,0 +1,23 @@
+---
+import LinkedCard from "@components/ui/LinkedCard.astro";
+import RecipeMeta from "@components/garden/recipes/RecipeMeta.astro";
+import type { CollectionEntry } from "astro:content";
+import { getFirstParagraph, renderToString } from "src/lib/rendering";
+
+interface Props {
+  recipe: CollectionEntry<"recipes">;
+}
+
+const { recipe } = Astro.props;
+const renderedRecipe = await renderToString(recipe);
+---
+
+<LinkedCard href={`/recipes/${recipe.id}`}>
+  <h3 slot="title">{recipe.data.title}</h3>
+
+  <RecipeMeta content={recipe} compact />
+
+  <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
+    <Fragment set:html={getFirstParagraph(renderedRecipe)} />
+  </div>
+</LinkedCard>

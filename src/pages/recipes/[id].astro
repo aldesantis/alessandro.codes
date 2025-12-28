@@ -1,0 +1,30 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import ArrowLink from "@components/ui/ArrowLink.astro";
+import GardenEntryDetail from "@components/garden/GardenEntryDetail.astro";
+import RecipeMeta from "@components/garden/recipes/RecipeMeta.astro";
+
+export async function getStaticPaths() {
+  const recipes = await getCollection("recipes");
+
+  return recipes.map((recipe) => ({
+    params: { id: recipe.id },
+    props: { recipe },
+  }));
+}
+
+const { recipe } = Astro.props;
+---
+
+<title slot="head">{recipe.data.title} | Alessandro Desantis</title>
+
+<Layout>
+  <GardenEntryDetail entry={recipe}>
+    <ArrowLink href="/recipes" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+      Recipes
+    </ArrowLink>
+
+    <RecipeMeta content={recipe} slot="meta" />
+  </GardenEntryDetail>
+</Layout>

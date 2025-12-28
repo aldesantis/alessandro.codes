@@ -19,5 +19,8 @@
   },
   "topics": {
     "description": "Areas of knowledge that I am exploring and thinking about."
+  },
+  "recipes": {
+    "description": "Recipes I have created and shared with friends and family."
   }
 }

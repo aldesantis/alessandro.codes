@@ -4,27 +4,34 @@ import { file, glob } from "astro/loaders";
 const baseSchema = z.object({
   title: z.string(),
   status: z.enum(["seedling", "budding", "evergreen"]),
-  topics: z.array(reference("topics")).optional(),
-  createdAt: z.coerce.date().optional().default(new Date()),
-  updatedAt: z.coerce.date().optional().default(new Date()),
-  draft: z
-    .preprocess((val) => {
-      if (typeof val === "string") {
-        if (val.toLowerCase() === "true") return true;
-        if (val.toLowerCase() === "false") return false;
-      }
-      return val;
-    }, z.boolean())
-    .optional()
-    .default(false),
 });
 
-const readwiseSchema = z.object({
-  author: z.string(),
-  publishedOn: z.coerce.date(),
-  lastHighlightedOn: z.coerce.date(),
-  url: z.string().nullable(),
-});
+const obsidianSchema = baseSchema.extend(
+  z.object({
+    topics: z.array(reference("topics")).optional(),
+    createdAt: z.coerce.date().optional().default(new Date()),
+    updatedAt: z.coerce.date().optional().default(new Date()),
+    draft: z
+      .preprocess((val) => {
+        if (typeof val === "string") {
+          if (val.toLowerCase() === "true") return true;
+          if (val.toLowerCase() === "false") return false;
+        }
+        return val;
+      }, z.boolean())
+      .optional()
+      .default(false),
+  }).shape
+);
+
+const readwiseSchema = obsidianSchema.extend(
+  z.object({
+    author: z.string(),
+    publishedOn: z.coerce.date(),
+    lastHighlightedOn: z.coerce.date(),
+    url: z.string().nullable(),
+  }).shape
+);
 
 export const collections = {
   socials: defineCollection({
@@ -37,9 +44,8 @@ export const collections = {
   }),
 
   talks: defineCollection({
-    schema: baseSchema.extend(
+    schema: obsidianSchema.extend(
       z.object({
-        title: z.string(),
         description: z.string(),
         url: z.string().url(),
         language: z.enum(["en", "it"]),
@@ -49,34 +55,22 @@ export const collections = {
   }),
 
   topics: defineCollection({
-    schema: baseSchema.extend(
-      z.object({
-        title: z.string(),
-      }).shape
-    ),
+    schema: obsidianSchema,
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/topics" }),
   }),
 
   essays: defineCollection({
-    schema: baseSchema.extend(
-      z.object({
-        title: z.string(),
-      }).shape
-    ),
+    schema: obsidianSchema,
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/essays" }),
   }),
 
   notes: defineCollection({
-    schema: baseSchema.extend(
-      z.object({
-        title: z.string(),
-      }).shape
-    ),
+    schema: obsidianSchema,
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/notes" }),
   }),
 
   books: defineCollection({
-    schema: baseSchema.extend(readwiseSchema.shape),
+    schema: readwiseSchema,
     loader: glob({
       pattern: "**/*.{md,mdx}",
       base: "./src/content/books",
@@ -84,7 +78,7 @@ export const collections = {
   }),
 
   articles: defineCollection({
-    schema: baseSchema.extend(readwiseSchema.shape),
+    schema: readwiseSchema,
     loader: glob({
       pattern: "**/*.{md,mdx}",
       base: "./src/content/articles",
@@ -92,7 +86,7 @@ export const collections = {
   }),
 
   nows: defineCollection({
-    schema: baseSchema,
+    schema: obsidianSchema,
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/nows" }),
   }),
 
@@ -100,8 +94,10 @@ export const collections = {
     schema: baseSchema.extend(
       z.object({
         cuisine: z.enum(["tex-mex", "mediterranean", "bbq", "asian", "indian", "american"]).optional(),
-        diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescetarian"])),
-        type: z.enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"]),
+        diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescetarian"])).optional(),
+        type: z
+          .enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"])
+          .optional(),
       }).shape
     ),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/recipes" }),

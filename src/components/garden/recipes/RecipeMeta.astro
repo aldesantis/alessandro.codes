@@ -1,0 +1,15 @@
+---
+import GardenEntryStatus from "@components/garden/GardenEntryStatus.astro";
+import type { CollectionEntry } from "astro:content";
+
+export interface Props {
+  content: CollectionEntry<"recipes">;
+  compact?: boolean;
+}
+
+const { content } = Astro.props;
+---
+
+<div class="text-sm text-stone-500 font-sans">
+  <span><GardenEntryStatus status={content.data.status} /></span>
+</div>

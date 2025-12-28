@@ -1,0 +1,22 @@
+---
+import Hero from "@components/ui/Hero.astro";
+import Layout from "@layouts/Layout.astro";
+import { getEntries } from "src/lib/garden/entries";
+import sections from "src/data/sections.json";
+import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
+
+const recipes = await getEntries(["recipes"]);
+---
+
+<Layout>
+  <title slot="head">Recipes | Alessandro Desantis</title>
+
+  <Hero>
+    <span slot="heading">Recipes</span>
+    <span slot="subheading">
+      {sections.recipes.description}
+    </span>
+  </Hero>
+
+  <GardenEntriesGrid items={recipes} itemSize="M" showStatusFilters />
+</Layout>
