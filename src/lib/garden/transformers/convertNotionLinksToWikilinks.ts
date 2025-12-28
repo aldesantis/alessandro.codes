@@ -7,7 +7,7 @@ const convertNotionLinksToWikilinks = (): Transformer => {
 
     const notionLinkPattern = /\[([^\]]+)\]\(https:\/\/www\.notion\.so\/([a-f0-9]{32})(?:\?[^\s)]*)?(?:\s+)?\)/gi;
 
-    const convertedContent = markdownContent.replace(notionLinkPattern, (match, label, pageId) => {
+    const convertedContent = markdownContent.replace(notionLinkPattern, (_, label, pageId) => {
       return `[[${pageId}|${label}]]`;
     });
 

@@ -137,7 +137,7 @@ function extractFrontmatter(page: PageObjectResponse): Record<string, unknown> {
     frontmatter[key] = value;
   }
 
-  frontmatter.notionId = page.id;
+  frontmatter.aliases = [page.id, page.id.replace(/-/g, "")];
 
   return frontmatter;
 }

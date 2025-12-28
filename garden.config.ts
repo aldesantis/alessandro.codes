@@ -153,13 +153,6 @@ const config: Configuration = {
           urlBuilder: (slug) => `/articles/${slug}`,
         },
         {
-          id: "recipes",
-          basePath: "recipes",
-          pattern: "*.{md,mdx}",
-          destinationPath: "recipes",
-          transformers: digitalGardenTransformers,
-        },
-        {
           id: "talks",
           basePath: "talks",
           pattern: "*.{md,mdx}",
