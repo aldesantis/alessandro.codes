@@ -14,12 +14,12 @@ import convertNotionLinksToWikilinks from "src/lib/garden/transformers/convertNo
 
 export type TransformerResult = {
   path: string;
-  content: string;
+  content: string | Buffer;
 } | null;
 
 export type Transformer = (
   originalPath: string,
-  originalContent: string,
+  originalContent: string | Buffer,
   contentType: EntryType
 ) => Promise<TransformerResult>;
 

@@ -3,7 +3,12 @@ import matter from "gray-matter";
 import type { Transformer } from "src/lib/garden/transformers";
 
 const removeDrafts = (): Transformer => {
-  return async (originalPath: string, originalContent: string) => {
+  return async (originalPath: string, originalContent: string | Buffer) => {
+    // Skip binary files
+    if (Buffer.isBuffer(originalContent)) {
+      return { path: originalPath, content: originalContent };
+    }
+
     const { data } = matter(originalContent);
 
     if (data.draft === true || data.draft === "true") {

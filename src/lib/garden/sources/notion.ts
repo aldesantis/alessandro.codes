@@ -6,6 +6,8 @@ import path from "path";
 import slugify from "slugify";
 import emojiRegex from "emoji-regex";
 import matter from "gray-matter";
+import fetch from "node-fetch";
+import fse from "fs-extra";
 import type { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 
 import type { Source } from "src/lib/garden/sources";
@@ -38,6 +40,62 @@ function slugifyTitle(title: string): string {
 function extractPageId(pageId: string): string {
   // Notion page IDs are UUIDs with dashes, remove dashes for filename
   return pageId.replace(/-/g, "");
+}
+
+function getFileExtensionFromUrl(url: string): string | null {
+  try {
+    const urlPath = new URL(url).pathname;
+    const ext = path.extname(urlPath).toLowerCase();
+    if (ext && [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"].includes(ext)) {
+      return ext === ".jpeg" ? ".jpg" : ext;
+    }
+  } catch {
+    // Invalid URL
+  }
+  return null; // No valid extension found
+}
+
+function getFileExtensionFromContentType(contentType: string | null): string {
+  if (!contentType) return ".jpg";
+
+  const mimeToExt: Record<string, string> = {
+    "image/jpeg": ".jpg",
+    "image/jpg": ".jpg",
+    "image/png": ".png",
+    "image/gif": ".gif",
+    "image/webp": ".webp",
+    "image/svg+xml": ".svg",
+  };
+
+  return mimeToExt[contentType.toLowerCase()] || ".jpg";
+}
+
+async function downloadFile(url: string, filePath: string, index?: number): Promise<string | null> {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      console.warn(`Failed to download file from ${url}: ${response.statusText}`);
+      return null;
+    }
+
+    const fileBuffer = await response.arrayBuffer();
+
+    let ext = getFileExtensionFromUrl(url);
+    if (!ext) {
+      const contentType = response.headers.get("content-type");
+      ext = getFileExtensionFromContentType(contentType);
+    }
+
+    // Save the file with index-based filename
+    const filename = index !== undefined ? `${index}${ext}` : `0${ext}`;
+    const fullPath = path.join(filePath, filename);
+    await fse.writeFile(fullPath, Buffer.from(fileBuffer));
+
+    return filename;
+  } catch (error) {
+    console.warn(`Error downloading file from ${url}:`, error);
+    return null;
+  }
 }
 
 function convertPropertyToFrontmatterValue(property: PageObjectResponse["properties"][string]): unknown {
@@ -129,12 +187,40 @@ function convertPropertyToFrontmatterValue(property: PageObjectResponse["propert
   }
 }
 
-function extractFrontmatter(page: PageObjectResponse): Record<string, unknown> {
+async function extractFrontmatter(
+  page: PageObjectResponse,
+  destination: string,
+  slugifiedTitle: string
+): Promise<Record<string, unknown>> {
   const frontmatter: Record<string, unknown> = {};
 
   for (const [key, property] of Object.entries(page.properties)) {
-    const value = convertPropertyToFrontmatterValue(property);
-    frontmatter[key] = value;
+    if (property.type === "files") {
+      const files = property.files;
+
+      const slugifiedPropertyName = slugifyTitle(key);
+      const filesDir = path.join(destination, "files", slugifiedTitle, slugifiedPropertyName);
+      await fse.mkdirp(filesDir);
+
+      for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+        if (!file) continue;
+
+        let fileUrl: string | null = null;
+        if (file.type === "external") {
+          fileUrl = file.external.url;
+        } else {
+          fileUrl = file.file.url;
+        }
+
+        if (fileUrl && fileUrl.startsWith("http")) {
+          await downloadFile(fileUrl, filesDir, i);
+        }
+      }
+    } else {
+      const value = convertPropertyToFrontmatterValue(property);
+      frontmatter[key] = value;
+    }
   }
 
   frontmatter.aliases = [page.id, page.id.replace(/-/g, "")];
@@ -178,7 +264,6 @@ async function getAllPages(
 }
 
 async function getPageTitle(page: PageObjectResponse): Promise<string> {
-  // Try to find a title property
   for (const [, property] of Object.entries(page.properties)) {
     if (property.type === "title") {
       const title = property.title.map((text) => text.plain_text).join("");
@@ -203,46 +288,37 @@ export default function notionSource(config: NotionConfiguration): Source {
       await rm(destination, { recursive: true, force: true });
     }
 
-    // Ensure destination directory exists
     await mkdir(destination, { recursive: true });
 
     console.log(`Fetching pages from Notion database: ${config.dataSourceId}...`);
 
     try {
-      // Get all pages from the database
       const pages = await getAllPages(notion, config.dataSourceId, { filter: config.filter });
 
       console.log(`Found ${pages.length} pages. Processing...`);
 
-      // Process each page
       for (const page of pages) {
         try {
-          // Get page title
           const title = await getPageTitle(page);
           const slugifiedTitle = slugifyTitle(title || "untitled");
           const pageId = extractPageId(page.id);
-          // Ensure we have a valid filename even if slugified title is empty
+
           const filename = slugifiedTitle ? `${slugifiedTitle}.md` : `${pageId}.md`;
 
-          // Extract properties for frontmatter
-          const frontmatter = extractFrontmatter(page);
+          const frontmatter = await extractFrontmatter(page, destination, slugifiedTitle);
 
-          // Convert page blocks to markdown
           const mdBlocks = await n2m.pageToMarkdown(page.id);
           const markdownContentResult = n2m.toMarkdownString(mdBlocks);
           const markdownContent = (markdownContentResult["parent"] as string) ?? "";
 
-          // Combine frontmatter and content
           const fileContent = matter.stringify(markdownContent, frontmatter);
 
-          // Write file to destination
           const filePath = path.join(destination, filename);
           await writeFile(filePath, fileContent, "utf-8");
 
           console.log(`  ✓ Processed: ${filename}`);
         } catch (error) {
           console.warn(`  ✗ Failed to process page ${page.id}:`, error, page);
-          // Continue processing other pages
         }
       }
 

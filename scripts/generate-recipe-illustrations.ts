@@ -1,6 +1,7 @@
 import { Client as NotionClient } from "@notionhq/client";
 import { NotionToMarkdown } from "notion-to-md";
 import fetch from "node-fetch";
+import FormData from "form-data";
 
 /* -------------------------------------------------------------------------- */
 /* Config */
@@ -9,6 +10,13 @@ import fetch from "node-fetch";
 const NOTION_TOKEN = process.env.NOTION_API_TOKEN;
 const NOTION_DATA_SOURCE_ID = "fbf8923a-215b-4db0-8bab-051358d67347";
 const FLUX_API_KEY = process.env.FLUX_API_KEY;
+
+if (!NOTION_TOKEN) {
+  throw new Error("NOTION_API_TOKEN environment variable is required");
+}
+if (!FLUX_API_KEY) {
+  throw new Error("FLUX_API_KEY environment variable is required");
+}
 
 const ILLUSTRATION_PROMPT_TEMPLATE = `
 Make an editorial illustration of the final plated dish from the following recipe, rendered in a soft modern humanist style. Show the completed dish as it would be served, beautifully plated and ready to eat. Minimal composition on a warm off‑white background. Organic, rounded shapes with subtle hand‑drawn imperfections. Flat illustration with extremely soft gradients and light watercolor or gouache texture, visible paper grain. Use a muted, desaturated color palette that complements the natural colors of the dish—keep tones soft and warm, avoiding bright or saturated colors. Very low contrast, no harsh shadows or lighting. Calm, thoughtful, essay‑like mood. Contemporary long‑form editorial illustration aesthetic. Focus on the final dish only—no cooking tools, ingredients, or preparation steps.
@@ -77,7 +85,7 @@ async function pollForResult(pollingUrl: string): Promise<string> {
       method: "GET",
       headers: {
         accept: "application/json",
-        "x-key": FLUX_API_KEY,
+        "x-key": FLUX_API_KEY!,
       },
     });
 
@@ -112,7 +120,7 @@ async function generateIllustration(recipeTitle: string, recipeText: string) {
     method: "POST",
     headers: {
       accept: "application/json",
-      "x-key": FLUX_API_KEY,
+      "x-key": FLUX_API_KEY!,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
@@ -139,20 +147,81 @@ async function generateIllustration(recipeTitle: string, recipeText: string) {
 }
 
 /* -------------------------------------------------------------------------- */
-/* 3. Update Notion page */
+/* 3. Upload image to Notion and update page */
 /* -------------------------------------------------------------------------- */
 
+async function uploadImageToNotion(imageUrl: string, filename: string = "illustration.jpg"): Promise<string> {
+  // Step 1: Download the image
+  const imageResponse = await fetch(imageUrl);
+  if (!imageResponse.ok) {
+    throw new Error(`Failed to download image: ${imageResponse.statusText}`);
+  }
+
+  const imageBuffer = await imageResponse.arrayBuffer();
+  const imageBlob = Buffer.from(imageBuffer);
+
+  // Step 2: Create a file upload object
+  const createUploadResponse = await fetch("https://api.notion.com/v1/file_uploads", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${NOTION_TOKEN!}`,
+      "Content-Type": "application/json",
+      "Notion-Version": "2022-06-28",
+    },
+    body: JSON.stringify({
+      name: filename,
+      content_type: "image/jpeg",
+    }),
+  });
+
+  if (!createUploadResponse.ok) {
+    const errorText = await createUploadResponse.text();
+    throw new Error(`Failed to create file upload: ${createUploadResponse.statusText} - ${errorText}`);
+  }
+
+  const uploadObject = (await createUploadResponse.json()) as { id: string; status: string };
+  const fileUploadId = uploadObject.id;
+
+  // Step 3: Upload the file content using multipart/form-data
+  const formData = new FormData();
+  formData.append("file", imageBlob, {
+    filename,
+    contentType: "image/jpeg",
+  });
+
+  const uploadContentResponse = await fetch(`https://api.notion.com/v1/file_uploads/${fileUploadId}/send`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${NOTION_TOKEN!}`,
+      "Notion-Version": "2022-06-28",
+      ...formData.getHeaders(),
+    },
+    body: formData,
+  });
+
+  if (!uploadContentResponse.ok) {
+    const errorText = await uploadContentResponse.text();
+    throw new Error(`Failed to upload file content: ${uploadContentResponse.statusText} - ${errorText}`);
+  }
+
+  // Return the file upload ID to use in the property
+  return fileUploadId;
+}
+
 async function attachIllustrationToNotion(pageId: string, imageUrl: string) {
+  // Upload the image to Notion first
+  const fileUploadId = await uploadImageToNotion(imageUrl);
+
+  // Then attach it to the page using the file_upload type (stored in Notion)
   await notion.pages.update({
     page_id: pageId,
     properties: {
       Illustration: {
         files: [
           {
-            type: "external",
-            name: "Illustration",
-            external: {
-              url: imageUrl,
+            type: "file_upload",
+            file_upload: {
+              id: fileUploadId,
             },
           },
         ],

@@ -25,7 +25,7 @@ function normalizeEmojis(text: string): string {
 }
 
 const normalizeFilename = (): Transformer => {
-  return async (originalPath: string, originalContent: string) => {
+  return async (originalPath: string, originalContent: string | Buffer) => {
     const parsedPath = path.parse(originalPath);
 
     const transformedEmojis = normalizeEmojis(parsedPath.name);

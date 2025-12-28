@@ -3,7 +3,12 @@ import matter from "gray-matter";
 import type { Transformer } from "src/lib/garden/transformers";
 
 const removeFirstH1 = (): Transformer => {
-  return async (originalPath: string, originalContent: string) => {
+  return async (originalPath: string, originalContent: string | Buffer) => {
+    // Skip binary files
+    if (Buffer.isBuffer(originalContent)) {
+      return { path: originalPath, content: originalContent };
+    }
+
     const { data, content: markdownContent } = matter(originalContent);
 
     // Remove the first H1 heading and following newlines

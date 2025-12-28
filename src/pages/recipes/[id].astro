@@ -2,6 +2,8 @@
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
+import RecipeIllustration from "@components/garden/recipes/RecipeIllustration.astro";
+import GardenEntrySidebar from "@components/garden/GardenEntrySidebar.astro";
 import GardenEntryDetail from "@components/garden/GardenEntryDetail.astro";
 import RecipeMeta from "@components/garden/recipes/RecipeMeta.astro";
 
@@ -26,5 +28,9 @@ const { recipe } = Astro.props;
     </ArrowLink>
 
     <RecipeMeta content={recipe} slot="meta" />
+
+    <GardenEntrySidebar entry={recipe} slot="sidebar">
+      <RecipeIllustration recipe={recipe} class="w-full max-w-[250px] lg:max-w-full h-auto rounded mt-4 lg:mt-0" />
+    </GardenEntrySidebar>
   </GardenEntryDetail>
 </Layout>

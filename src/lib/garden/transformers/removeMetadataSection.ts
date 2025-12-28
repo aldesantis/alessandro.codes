@@ -8,7 +8,12 @@ interface RemoveSectionOptions {
 }
 
 const removeSection = ({ headingLevel, title }: RemoveSectionOptions): Transformer => {
-  return async (originalPath: string, originalContent: string) => {
+  return async (originalPath: string, originalContent: string | Buffer) => {
+    // Skip binary files
+    if (Buffer.isBuffer(originalContent)) {
+      return { path: originalPath, content: originalContent };
+    }
+
     const { data, content: markdownContent } = matter(originalContent);
 
     // Create the heading pattern based on the level and title

@@ -40,18 +40,12 @@ async function transformContent(contentType: EntryType, tmpPath: string, content
   for (const file of files) {
     const sourcePath = path.join(basePath, file);
 
-    // Non-markdown files are copied directly without transformation.
+    // Read file as buffer for binary files, UTF-8 for text files
     const fileExtension = path.extname(sourcePath).toLowerCase();
-    if (fileExtension !== ".md" && fileExtension !== ".mdx") {
-      const destinationPath = path.join(contentDir, contentType.destinationPath, file);
-
-      await fse.mkdirp(path.dirname(destinationPath));
-      await fse.copy(sourcePath, destinationPath);
-
-      continue;
-    }
-
-    const fileContent = await fs.readFile(sourcePath, "utf8");
+    const isTextFile = fileExtension === ".md" || fileExtension === ".mdx";
+    const fileContent: string | Buffer = isTextFile
+      ? await fs.readFile(sourcePath, "utf8")
+      : await fs.readFile(sourcePath);
 
     const result = await contentType.transformers.reduce<Promise<TransformerResult>>(
       async (acc, transformer) => {
@@ -76,7 +70,13 @@ async function transformContent(contentType: EntryType, tmpPath: string, content
     const destinationPath = path.join(contentDir, contentType.destinationPath, result.path);
 
     await fse.mkdirp(path.dirname(destinationPath));
-    await fs.writeFile(destinationPath, result.content);
+
+    // Write buffer or string content appropriately
+    if (Buffer.isBuffer(result.content)) {
+      await fs.writeFile(destinationPath, result.content);
+    } else {
+      await fs.writeFile(destinationPath, result.content, "utf8");
+    }
   }
 }
 

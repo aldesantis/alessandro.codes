@@ -32,27 +32,6 @@ const digitalGardenTransformers = [
   ...baseTransformers,
 ];
 
-const recipeTransformers = [
-  demoteHeadings(),
-  normalizeMetadata({
-    normalizeKeysFor: ["Type", "Cuisine", "Diets", "Status", "Name"],
-    normalizeValuesFor: ["Type", "Cuisine", "Diets", "Status"],
-    keyMappings: {
-      Name: "title",
-    },
-    valueMappings: {
-      Status: {
-        Idea: "seedling",
-        "Next Up": "seedling",
-        "In Progress": "budding",
-        Perfected: "evergreen",
-      },
-    },
-  }),
-  convertNotionLinksToWikilinks(),
-  ...baseTransformers,
-];
-
 const config: Configuration = {
   // Where do we store the content?
   contentDir: path.join(process.cwd(), "src", "content"),
@@ -99,6 +78,11 @@ const config: Configuration = {
 
             // Extract date from slug and set it as updatedAt for proper sorting
             async (originalPath, originalContent) => {
+              // Skip binary files
+              if (Buffer.isBuffer(originalContent)) {
+                return { path: originalPath, content: originalContent };
+              }
+
               const { data, content } = matter(originalContent);
 
               const dateMatch = originalPath.match(/(\d{4}-\d{2})/);
@@ -134,6 +118,11 @@ const config: Configuration = {
 
             // Copy the lastHighlightedOn date to the updatedAt date for proper sorting
             async (originalPath, originalContent) => {
+              // Skip binary files
+              if (Buffer.isBuffer(originalContent)) {
+                return { path: originalPath, content: originalContent };
+              }
+
               const { data, content } = matter(originalContent);
 
               const date = new Date(data.lastHighlightedOn);
@@ -162,6 +151,11 @@ const config: Configuration = {
 
             // Copy the createdAt date to the updatedAt date for proper sorting
             async (originalPath, originalContent) => {
+              // Skip binary files
+              if (Buffer.isBuffer(originalContent)) {
+                return { path: originalPath, content: originalContent };
+              }
+
               const { data, content } = matter(originalContent);
 
               const date = new Date(data.createdAt);
@@ -187,10 +181,20 @@ const config: Configuration = {
         dataSourceId: "fbf8923a-215b-4db0-8bab-051358d67347",
         apiToken: process.env.NOTION_API_TOKEN!,
         filter: {
-          property: "Status",
-          status: {
-            equals: "Perfected",
-          },
+          and: [
+            {
+              property: "Illustration",
+              files: {
+                is_not_empty: true,
+              },
+            },
+            {
+              property: "Status",
+              status: {
+                equals: "Perfected",
+              },
+            },
+          ],
         },
       }),
       entryTypes: [
@@ -198,7 +202,45 @@ const config: Configuration = {
           id: "recipes",
           pattern: "*.{md,mdx}",
           destinationPath: "recipes",
-          transformers: recipeTransformers,
+          transformers: [
+            demoteHeadings(),
+            normalizeMetadata({
+              normalizeKeysFor: ["Type", "Cuisine", "Diets", "Status", "Name", "Illustration", "Serves"],
+              normalizeValuesFor: ["Type", "Cuisine", "Diets", "Status"],
+              keyMappings: {
+                Name: "title",
+              },
+              valueMappings: {
+                Status: {
+                  Idea: "seedling",
+                  "Next Up": "seedling",
+                  "In Progress": "budding",
+                  Perfected: "evergreen",
+                },
+              },
+            }),
+            convertNotionLinksToWikilinks(),
+            ...baseTransformers,
+          ],
+        },
+        {
+          id: "recipe-illustrations",
+          pattern: "files/**/*.{jpg,png,gif,svg,webp}",
+          destinationPath: "assets/recipes",
+          transformers: [
+            async (originalPath, originalContent) => {
+              const match = originalPath.match(/^files\/([^/]+)\/illustration\/0\.(jpg|png|gif|svg|webp)$/);
+              if (match) {
+                const [, recipeSlug, extension] = match;
+                return {
+                  path: `${recipeSlug}.${extension}`,
+                  content: originalContent,
+                };
+              }
+
+              return { path: originalPath, content: originalContent };
+            },
+          ],
         },
       ],
     },
