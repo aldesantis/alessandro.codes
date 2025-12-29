@@ -86,12 +86,21 @@ function formatDiets(diets: string[]): string {
   }
 
   {
-    !compact && content.data.diets && content.data.diets.length > 0 && (
+    content.data.diets && content.data.diets.length > 0 && (
       <>
         <span class="mx-0.5">•</span>
         <span>
           {content.data.diets.map((diet) => getDietEmoji(diet)).join(" ")} {formatDiets(content.data.diets)}
         </span>
+      </>
+    )
+  }
+
+  {
+    !compact && content.data.serves && (
+      <>
+        <span class="mx-0.5">•</span>
+        <span>Serves {content.data.serves}</span>
       </>
     )
   }

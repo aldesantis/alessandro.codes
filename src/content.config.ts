@@ -98,6 +98,7 @@ export const collections = {
         type: z
           .enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"])
           .optional(),
+        serves: z.preprocess((val) => (val === null ? undefined : val), z.number().optional()),
       }).shape
     ),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/recipes" }),
