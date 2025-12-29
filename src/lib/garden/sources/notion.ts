@@ -276,6 +276,35 @@ async function getPageTitle(page: PageObjectResponse): Promise<string> {
   return extractPageId(page.id);
 }
 
+async function processPage(
+  page: PageObjectResponse,
+  destination: string,
+  n2m: NotionToMarkdown
+): Promise<{ success: boolean; filename?: string; error?: unknown }> {
+  try {
+    const title = await getPageTitle(page);
+    const slugifiedTitle = slugifyTitle(title || "untitled");
+    const pageId = extractPageId(page.id);
+
+    const filename = slugifiedTitle ? `${slugifiedTitle}.md` : `${pageId}.md`;
+
+    const frontmatter = await extractFrontmatter(page, destination, slugifiedTitle);
+
+    const mdBlocks = await n2m.pageToMarkdown(page.id);
+    const markdownContentResult = n2m.toMarkdownString(mdBlocks);
+    const markdownContent = (markdownContentResult["parent"] as string) ?? "";
+
+    const fileContent = matter.stringify(markdownContent, frontmatter);
+
+    const filePath = path.join(destination, filename);
+    await writeFile(filePath, fileContent, "utf-8");
+
+    return { success: true, filename };
+  } catch (error) {
+    return { success: false, error };
+  }
+}
+
 export default function notionSource(config: NotionConfiguration): Source {
   return async (destination) => {
     const notion = new Client({
@@ -297,32 +326,35 @@ export default function notionSource(config: NotionConfiguration): Source {
 
       console.log(`Found ${pages.length} pages. Processing...`);
 
-      for (const page of pages) {
-        try {
-          const title = await getPageTitle(page);
-          const slugifiedTitle = slugifyTitle(title || "untitled");
-          const pageId = extractPageId(page.id);
+      const results = await Promise.allSettled(pages.map((page) => processPage(page, destination, n2m)));
 
-          const filename = slugifiedTitle ? `${slugifiedTitle}.md` : `${pageId}.md`;
+      let successCount = 0;
+      let failureCount = 0;
 
-          const frontmatter = await extractFrontmatter(page, destination, slugifiedTitle);
+      for (let i = 0; i < results.length; i++) {
+        const result = results[i];
+        const page = pages[i];
 
-          const mdBlocks = await n2m.pageToMarkdown(page.id);
-          const markdownContentResult = n2m.toMarkdownString(mdBlocks);
-          const markdownContent = (markdownContentResult["parent"] as string) ?? "";
+        if (!result || !page) continue;
 
-          const fileContent = matter.stringify(markdownContent, frontmatter);
-
-          const filePath = path.join(destination, filename);
-          await writeFile(filePath, fileContent, "utf-8");
-
-          console.log(`  ✓ Processed: ${filename}`);
-        } catch (error) {
-          console.warn(`  ✗ Failed to process page ${page.id}:`, error, page);
+        if (result.status === "fulfilled") {
+          const pageResult = result.value;
+          if (pageResult.success && pageResult.filename) {
+            console.log(`  ✓ Processed: ${pageResult.filename}`);
+            successCount++;
+          } else {
+            console.warn(`  ✗ Failed to process page ${page.id}:`, pageResult.error);
+            failureCount++;
+          }
+        } else {
+          console.warn(`  ✗ Failed to process page ${page.id}:`, result.reason);
+          failureCount++;
         }
       }
 
-      console.log(`Successfully processed ${pages.length} pages.`);
+      console.log(
+        `Successfully processed ${successCount} of ${pages.length} pages.${failureCount > 0 ? ` ${failureCount} failed.` : ""}`
+      );
     } catch (error) {
       console.error(`Error fetching from Notion database:`, error);
       throw error;
