@@ -26,8 +26,15 @@ function sortEntries(a: GardenEntry, b: GardenEntry): number {
     evergreen: 2,
   };
 
-  if (a.data.updatedAt! > b.data.updatedAt!) return -1;
-  if (a.data.updatedAt! < b.data.updatedAt!) return 1;
+  if ("updatedAt" in a.data && "updatedAt" in b.data) {
+    if (a.data.updatedAt! > b.data.updatedAt!) {
+      return -1;
+    }
+
+    if (a.data.updatedAt! < b.data.updatedAt!) {
+      return 1;
+    }
+  }
 
   const statusPriorityA = statusPriorities[a.data.status];
   const statusPriorityB = statusPriorities[b.data.status];
@@ -92,8 +99,8 @@ export async function getRelatedEntries(entry: GardenEntry): Promise<GardenEntry
   ).filter((entry): entry is GardenEntry => entry !== null);
 
   if (entry.collection === "topics") {
-    const relatedEntriesByTopic = (await getEntries([...entryTypeIds])).filter((e) =>
-      e.data.topics?.some((t) => t.id === entry.id)
+    const relatedEntriesByTopic = (await getEntries([...entryTypeIds])).filter(
+      (e) => "topics" in e.data && e.data.topics?.some((t: { id: string }) => t.id === entry.id)
     );
 
     relatedEntries.push(...relatedEntriesByTopic);

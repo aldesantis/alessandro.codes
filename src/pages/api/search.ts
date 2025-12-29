@@ -1,6 +1,5 @@
 import { getEntries } from "src/lib/garden/entries";
 import type { APIRoute } from "astro";
-import type { GardenEntry } from "src/lib/garden/entries";
 
 interface ContentItem {
   id: string;
@@ -45,13 +44,16 @@ export const GET: APIRoute = async ({ request }) => {
 };
 
 async function getCommandPaletteItems(): Promise<ContentItem[]> {
-  const entries = await getEntries(["essays", "notes", "nows", "books"]);
+  const entries = await getEntries(["essays", "notes", "nows", "books", "recipes", "talks"]);
+
   const essays = entries.filter((e) => e.collection === "essays");
   const notes = entries.filter((e) => e.collection === "notes");
   const nows = entries.filter((e) => e.collection === "nows");
   const books = entries.filter((e) => e.collection === "books");
+  const recipes = entries.filter((e) => e.collection === "recipes");
+  const talks = entries.filter((e) => e.collection === "talks");
 
-  const essayItems: ContentItem[] = essays.map((essay: GardenEntry) => {
+  const essayItems: ContentItem[] = essays.map((essay) => {
     return {
       id: essay.id,
       name: essay.data.title,
@@ -61,7 +63,7 @@ async function getCommandPaletteItems(): Promise<ContentItem[]> {
     };
   });
 
-  const noteItems: ContentItem[] = notes.map((note: GardenEntry) => {
+  const noteItems: ContentItem[] = notes.map((note) => {
     return {
       id: note.id,
       name: note.data.title,
@@ -71,16 +73,17 @@ async function getCommandPaletteItems(): Promise<ContentItem[]> {
     };
   });
 
-  const nowItems: ContentItem[] = nows.map((now: GardenEntry) => {
+  const nowItems: ContentItem[] = nows.map((now) => {
     return {
       id: now.id,
       name: now.data.title,
       url: `/now/${now.id}`,
       type: "Now",
+      date: now.data.updatedAt,
     };
   });
 
-  const bookItems: ContentItem[] = books.map((book: GardenEntry) => {
+  const bookItems: ContentItem[] = books.map((book) => {
     return {
       id: book.id,
       name: book.data.title,
@@ -90,5 +93,24 @@ async function getCommandPaletteItems(): Promise<ContentItem[]> {
     };
   });
 
-  return [...essayItems, ...noteItems, ...nowItems, ...bookItems];
+  const recipeItems: ContentItem[] = recipes.map((recipe) => {
+    return {
+      id: recipe.id,
+      name: recipe.data.title,
+      url: `/recipes/${recipe.id}`,
+      type: "Recipe",
+    };
+  });
+
+  const talkItems: ContentItem[] = talks.map((talk) => {
+    return {
+      id: talk.id,
+      name: talk.data.title,
+      url: `/talks/${talk.id}`,
+      type: "Talk",
+      date: talk.data.createdAt,
+    };
+  });
+
+  return [...essayItems, ...noteItems, ...nowItems, ...bookItems, ...recipeItems, ...talkItems];
 }

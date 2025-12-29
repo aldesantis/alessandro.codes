@@ -1,0 +1,98 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+export interface Props {
+  content: CollectionEntry<"recipes">;
+  compact?: boolean;
+}
+
+const { content, compact = false } = Astro.props;
+
+function getTypeEmoji(type: string): string {
+  const emojiMap: Record<string, string> = {
+    starter: "🥗",
+    "first-course": "🍝",
+    "main-course": "🍽️",
+    "single-dish": "🍲",
+    sauce: "🍯",
+    side: "🥔",
+    dessert: "🍰",
+    other: "🍴",
+  };
+  return emojiMap[type] || "🍴";
+}
+
+function getCuisineEmoji(cuisine: string): string {
+  const emojiMap: Record<string, string> = {
+    "tex-mex": "🌮",
+    mediterranean: "🫒",
+    bbq: "🍖",
+    asian: "🍜",
+    indian: "🍛",
+    american: "🍔",
+  };
+  return emojiMap[cuisine] || "🌍";
+}
+
+function getDietEmoji(diet: string): string {
+  const emojiMap: Record<string, string> = {
+    omnivore: "🥩",
+    vegetarian: "🥬",
+    vegan: "🌱",
+    pescetarian: "🐟",
+  };
+  return emojiMap[diet] || "🍽️";
+}
+
+function formatCuisine(cuisine: string): string {
+  return cuisine
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join("-");
+}
+
+function formatType(type: string): string {
+  return type
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+function formatDiets(diets: string[]): string {
+  return diets.map((diet) => diet.charAt(0).toUpperCase() + diet.slice(1)).join(", ");
+}
+---
+
+<div class="text-sm text-stone-500 font-sans">
+  {
+    content.data.type && (
+      <>
+        <span>
+          {getTypeEmoji(content.data.type)} {formatType(content.data.type)}
+        </span>
+      </>
+    )
+  }
+
+  {
+    content.data.cuisine && (
+      <>
+        <span class="mx-0.5">•</span>
+        <span>
+          {getCuisineEmoji(content.data.cuisine)} {formatCuisine(content.data.cuisine)}
+        </span>
+      </>
+    )
+  }
+
+  {
+    !compact && content.data.diets && content.data.diets.length > 0 && (
+      <>
+        <span class="mx-0.5">•</span>
+        <span>
+          {content.data.diets.map((diet) => getDietEmoji(diet)).join(" ")} {formatDiets(content.data.diets)}
+        </span>
+      </>
+    )
+  }
+</div>

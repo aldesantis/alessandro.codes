@@ -2,7 +2,7 @@ import type { Transformer } from "src/lib/garden/transformers";
 import path from "path";
 
 const renameMdToMdx = (): Transformer => {
-  return async (filePath: string, content: string) => {
+  return async (filePath: string, content: string | Buffer) => {
     if (path.extname(filePath) === ".md") {
       const newPath = path.format({
         ...path.parse(filePath),

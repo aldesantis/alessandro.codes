@@ -47,11 +47,17 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
 ---
 
 <div data-controller="garden-entries-grid" class="space-y-4">
-  <div class="flex gap-2">
-    {showTypeFilters && <GardenTypeFilterDropdown />}
-    {showStatusFilters && <GardenStatusFilterDropdown />}
-    {showTopicFilters && <GardenTopicFilterDropdown />}
-  </div>
+  {
+    showTypeFilters ||
+      showStatusFilters ||
+      (showTopicFilters && (
+        <div class="flex gap-2">
+          {showTypeFilters && <GardenTypeFilterDropdown />}
+          {showStatusFilters && <GardenStatusFilterDropdown />}
+          {showTopicFilters && <GardenTopicFilterDropdown />}
+        </div>
+      ))
+  }
 
   <div
     data-garden-entries-grid-target="grid"
@@ -65,7 +71,7 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
           <div
             class={layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid"}
             data-status={item.data.status}
-            data-topics={item.data.topics?.map((t: { id: string }) => t.id).join(",")}
+            data-topics={"topics" in item.data ? item.data.topics?.map((t: { id: string }) => t.id).join(",") : ""}
             data-type={item.collection}
             data-garden-entries-grid-target="item"
           >

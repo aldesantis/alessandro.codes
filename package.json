@@ -12,13 +12,15 @@
     "fetch-content": "npx tsx scripts/fetch-content.ts",
     "index-content": "npx tsx scripts/index-content.ts",
     "update-content": "npm run fetch-content && npm run index-content && npm run build && git add src/data/index.json src/content && git commit -m 'Update content' && git push",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "generate-recipe-illustrations": "npx tsx scripts/generate-recipe-illustrations.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/vercel": "^9.0.2",
     "@hotwired/stimulus": "^3.2.2",
+    "@notionhq/client": "^5.6.0",
     "@tailwindcss/vite": "^4.1.18",
     "@types/glob": "^9.0.0",
     "astro": "^5.16.6",
@@ -34,8 +36,7 @@
     "reading-time": "^1.5.0",
     "slugify": "^1.6.6",
     "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3",
-    "@notionhq/client": "^5.6.0"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@iconify-json/fa6-brands": "^1.2.6",
@@ -48,6 +49,7 @@
     "chalk": "^5.6.2",
     "eslint": "^9.39.2",
     "eslint-plugin-astro": "^1.5.0",
+    "form-data": "^4.0.5",
     "node-fetch": "^3.3.2",
     "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",

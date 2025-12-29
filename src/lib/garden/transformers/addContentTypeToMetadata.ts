@@ -4,7 +4,12 @@ import type { Transformer } from "src/lib/garden/transformers";
 import type { EntryType } from "../config";
 
 const addContentTypeToMetadata = (): Transformer => {
-  return async (originalPath: string, originalContent: string, contentType: EntryType) => {
+  return async (originalPath: string, originalContent: string | Buffer, contentType: EntryType) => {
+    // Skip binary files
+    if (Buffer.isBuffer(originalContent)) {
+      return { path: originalPath, content: originalContent };
+    }
+
     const { data, content } = matter(originalContent);
 
     // Add the content type ID to the metadata

@@ -76,7 +76,12 @@ function slugifyValue(value: unknown): unknown {
 const normalizeMetadata = (config: NormalizeMetadataConfig): Transformer => {
   const { normalizeKeysFor, normalizeValuesFor, keyMappings = {}, valueMappings = {} } = config;
 
-  return async (originalPath: string, originalContent: string) => {
+  return async (originalPath: string, originalContent: string | Buffer) => {
+    // Skip binary files
+    if (Buffer.isBuffer(originalContent)) {
+      return { path: originalPath, content: originalContent };
+    }
+
     const { data, content } = matter(originalContent);
 
     // Create new metadata object with slugified keys and values
