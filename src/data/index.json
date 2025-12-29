@@ -1439,6 +1439,18 @@
   },
   {
     "ids": [
+      "Beef stew",
+      "62c1d65c-df77-4a65-be53-abf677bfc562",
+      "62c1d65cdf774a65be53abf677bfc562",
+      "beef-stew"
+    ],
+    "slug": "beef-stew",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Beef tenderloin with green peppercorn sauce",
       "163be6a9-2e83-8077-98a9-f9a91155fdb2",
       "163be6a92e83807798a9f9a91155fdb2",
@@ -1567,6 +1579,18 @@
         "type": "recipes"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chicken cacciatore",
+      "afbce2fb-18eb-4a2c-b428-034f3b306315",
+      "afbce2fb18eb4a2cb428034f3b306315",
+      "chicken-cacciatore"
+    ],
+    "slug": "chicken-cacciatore",
+    "type": "recipes",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -1752,6 +1776,18 @@
   },
   {
     "ids": [
+      "Oven-roasted potatoes",
+      "ffe500a8-1ac3-4dc4-936b-c3193a12fc6f",
+      "ffe500a81ac34dc4936bc3193a12fc6f",
+      "oven-roasted-potatoes"
+    ],
+    "slug": "oven-roasted-potatoes",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Paprika kale chips",
       "2b8585d1-ca38-4c0e-bebd-f58e636acfc2",
       "2b8585d1ca384c0ebebdf58e636acfc2",
@@ -1766,6 +1802,30 @@
         "type": "recipes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Pasta and chickpeas",
+      "69ac0038-b027-4007-965d-67aa54387f5f",
+      "69ac0038b0274007965d67aa54387f5f",
+      "pasta-and-chickpeas"
+    ],
+    "slug": "pasta-and-chickpeas",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pasta with ’nduja and cherry tomatoes",
+      "d6169427-0905-410c-b85f-d4f66f161400",
+      "d61694270905410cb85fd4f66f161400",
+      "pasta-with-nduja-and-cherry-tomatoes"
+    ],
+    "slug": "pasta-with-nduja-and-cherry-tomatoes",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -1933,6 +1993,18 @@
       "pumpkin-speck-and-provola-strudel"
     ],
     "slug": "pumpkin-speck-and-provola-strudel",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Salmon and avocado sandwich",
+      "cd6e3824-0878-4036-b031-32c5ac5e0838",
+      "cd6e382408784036b03132c5ac5e0838",
+      "salmon-and-avocado-sandwich"
+    ],
+    "slug": "salmon-and-avocado-sandwich",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []

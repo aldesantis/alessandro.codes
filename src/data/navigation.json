@@ -67,6 +67,13 @@
         "matchPattern": "^/books",
         "header": false,
         "footer": true
+      },
+      {
+        "href": "/recipes",
+        "text": "Recipes",
+        "matchPattern": "^/recipes",
+        "header": false,
+        "footer": true
       }
     ]
   }

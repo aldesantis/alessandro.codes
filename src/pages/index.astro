@@ -11,6 +11,7 @@ import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid
 const essays = (await getEntries(["essays"])).slice(0, 6);
 const notes = (await getEntries(["notes"])).slice(0, 6);
 const books = (await getEntries(["books"])).slice(0, 6);
+const recipes = (await getEntries(["recipes"])).slice(0, 4);
 ---
 
 <Layout>
@@ -76,6 +77,18 @@ const books = (await getEntries(["books"])).slice(0, 6);
       </div>
 
       <GardenEntriesGrid items={books} itemSize="M" layoutType="masonry" />
+    </Section>
+
+    <Section>
+      <div slot="heading">
+        <SectionHeading title="Recipes" subtitle={sections.recipes.description} />
+
+        <div class="mt-2 font-sans">
+          <ArrowLink class="text-sm" href="/recipes" arrowDirection="right"> View all </ArrowLink>
+        </div>
+      </div>
+
+      <GardenEntriesGrid items={recipes} itemSize="L" layoutType="masonry" />
     </Section>
   </div>
 </Layout>

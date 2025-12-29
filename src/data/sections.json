@@ -1,15 +1,15 @@
 {
   "essays": {
-    "description": "Long-form pieces to help me make sense of and shape the world."
+    "description": "Long-form pieces to help me make sense of the world."
   },
   "notes": {
-    "description": "Frameworks and and working theories in various stages of maturation."
+    "description": "Frameworks and working theories in various stages of maturation."
   },
   "books": {
-    "description": "Books I am reading or have read, along with my highlights and thoughts."
+    "description": "Books I am reading or have read, along with my highlights and notes."
   },
   "software": {
-    "description": "OSS projects for personal and professional use."
+    "description": "Open-source projects for personal and professional use."
   },
   "nows": {
     "description": "A loosely updated diary of things I consume, think, and produce."
@@ -21,6 +21,6 @@
     "description": "Areas of knowledge that I am exploring and thinking about."
   },
   "recipes": {
-    "description": "Recipes I have created and shared with friends and family."
+    "description": "Recipes I have gathered and perfected over the years."
   }
 }

@@ -31,7 +31,7 @@ const { content } = Astro.props;
       case "recipes":
         return <RecipeCard recipe={content as CollectionEntry<"recipes">} />;
       default:
-        throw new Error(`Unknown collection: ${content.collection}`);
+        return null;
     }
   })()
 }
