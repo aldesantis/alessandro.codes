@@ -48,15 +48,13 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
 
 <div data-controller="garden-entries-grid" class="space-y-4">
   {
-    showTypeFilters ||
-      showStatusFilters ||
-      (showTopicFilters && (
-        <div class="flex gap-2">
-          {showTypeFilters && <GardenTypeFilterDropdown />}
-          {showStatusFilters && <GardenStatusFilterDropdown />}
-          {showTopicFilters && <GardenTopicFilterDropdown />}
-        </div>
-      ))
+    (showTypeFilters || showStatusFilters || showTopicFilters) && (
+      <div class="flex gap-2">
+        {showTypeFilters && <GardenTypeFilterDropdown />}
+        {showStatusFilters && <GardenStatusFilterDropdown />}
+        {showTopicFilters && <GardenTopicFilterDropdown />}
+      </div>
+    )
   }
 
   <div
