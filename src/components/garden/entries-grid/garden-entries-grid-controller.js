@@ -3,10 +3,20 @@ import { Controller } from "@hotwired/stimulus";
 export default class extends Controller {
   static targets = ["grid", "item", "checkbox", "allCheckbox"];
   static values = {
-    filters: { type: Object, default: { status: ["all"], topics: ["all"], types: ["all"] } },
+    filterCategories: { type: Array, default: [] },
+    filters: { type: Object, default: {} },
   };
 
   connect() {
+    if (this.filterCategoriesValue.length > 0 && Object.keys(this.filtersValue).length === 0) {
+      const initialFilters = {};
+
+      this.filterCategoriesValue.forEach((category) => {
+        initialFilters[category] = ["all"];
+      });
+
+      this.filtersValue = initialFilters;
+    }
     this.updateVisibility();
   }
 
@@ -26,7 +36,7 @@ export default class extends Controller {
 
   handleAllFilter(category, isChecked, checkbox) {
     if (isChecked) {
-      this.filtersValue[category] = ["all"];
+      this.filtersValue = { ...this.filtersValue, [category]: ["all"] };
       this.uncheckOtherCheckboxes(checkbox);
     } else {
       checkbox.checked = true; // Prevent unchecking "All" if it's the only one
@@ -34,19 +44,19 @@ export default class extends Controller {
   }
 
   handleSpecificFilter(category, filterType, isChecked) {
-    const currentFilters = this.filtersValue[category];
+    const currentFilters = this.filtersValue[category] || ["all"];
     const allCheckbox = this.allCheckboxTargets.find((cb) => cb.dataset.filterCategory === category);
 
     if (isChecked) {
       // Remove 'all' and add the new filter
       const newFilters = currentFilters.filter((f) => f !== "all");
-      this.filtersValue[category] = [...newFilters, filterType];
-      allCheckbox.checked = false;
+      this.filtersValue = { ...this.filtersValue, [category]: [...newFilters, filterType] };
+      if (allCheckbox) allCheckbox.checked = false;
     } else {
       // Remove the filter
       const newFilters = currentFilters.filter((f) => f !== filterType);
-      this.filtersValue[category] = newFilters.length ? newFilters : ["all"];
-      if (newFilters.length === 0) allCheckbox.checked = true;
+      this.filtersValue = { ...this.filtersValue, [category]: newFilters.length ? newFilters : ["all"] };
+      if (newFilters.length === 0 && allCheckbox) allCheckbox.checked = true;
     }
   }
 
@@ -59,23 +69,48 @@ export default class extends Controller {
 
   updateVisibility() {
     this.itemTargets.forEach((item) => {
-      const status = item.dataset.status;
-      const topics = item.dataset.topics ? item.dataset.topics.split(",").filter(Boolean) : [];
-      const type = item.dataset.type;
-
-      const isVisible = this.isItemVisible(status, topics, type);
+      const isVisible = this.isItemVisible(item);
       item.classList.toggle("hidden", !isVisible);
     });
   }
 
-  isItemVisible(status, topics, type) {
-    const { status: statusFilters, topics: topicFilters, types: typeFilters } = this.filtersValue;
+  isItemVisible(item) {
+    const filterableValuesJson = item.getAttribute("data-filterable-values");
+    if (!filterableValuesJson) {
+      return false;
+    }
 
-    const statusMatch = statusFilters.includes("all") || statusFilters.includes(status);
-    const topicsMatch =
-      topicFilters.includes("all") || (topics.length > 0 && topics.some((topic) => topicFilters.includes(topic)));
-    const typeMatch = typeFilters.includes("all") || typeFilters.includes(type);
+    let filterableValues;
+    try {
+      filterableValues = JSON.parse(filterableValuesJson);
+    } catch {
+      return false;
+    }
 
-    return statusMatch && topicsMatch && typeMatch;
+    for (const category of this.filterCategoriesValue) {
+      const selectedFilters = this.filtersValue[category] || ["all"];
+
+      if (selectedFilters.includes("all")) {
+        continue;
+      }
+
+      const entryValue = filterableValues[category];
+      if (!entryValue) {
+        return false;
+      }
+
+      let matches = false;
+      if (Array.isArray(entryValue)) {
+        matches = entryValue.length > 0 && entryValue.some((value) => selectedFilters.includes(value));
+      } else {
+        matches = selectedFilters.includes(entryValue);
+      }
+
+      if (!matches) {
+        return false;
+      }
+    }
+
+    return true;
   }
 }
