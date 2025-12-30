@@ -4,8 +4,11 @@ import Layout from "@layouts/Layout.astro";
 import { getEntries } from "src/lib/garden/entries";
 import sections from "src/data/sections.json";
 import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
+import { createStatusFilterConfig, createTopicFilterConfig } from "src/lib/garden/filters";
 
 const notes = await getEntries(["notes"]);
+
+const filters = [createStatusFilterConfig(), await createTopicFilterConfig()];
 ---
 
 <Layout>
@@ -18,5 +21,5 @@ const notes = await getEntries(["notes"]);
     </span>
   </Hero>
 
-  <GardenEntriesGrid items={notes} itemSize="M" showStatusFilters showTopicFilters />
+  <GardenEntriesGrid items={notes} itemSize="M" filters={filters} />
 </Layout>

@@ -1,11 +1,72 @@
 ---
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getEntries } from "src/lib/garden/entries";
+import { getEntries, type GardenEntry } from "src/lib/garden/entries";
 import sections from "src/data/sections.json";
 import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
+import type { FilterConfig } from "src/lib/garden/filters";
 
 const recipes = await getEntries(["recipes"]);
+
+const filters: FilterConfig[] = [
+  {
+    category: "cuisine",
+    label: "Cuisine",
+    items: [
+      { id: "tex-mex", label: "🌮 Tex-Mex" },
+      { id: "mediterranean", label: "🫒 Mediterranean" },
+      { id: "bbq", label: "🍖 BBQ" },
+      { id: "asian", label: "🍜 Asian" },
+      { id: "indian", label: "🍛 Indian" },
+      { id: "american", label: "🍔 American" },
+    ],
+    extractor: (entry: GardenEntry): string => {
+      if (entry.collection === "recipes" && entry.data.cuisine) {
+        return entry.data.cuisine;
+      }
+      
+      return "";
+    },
+  },
+  {
+    category: "diet",
+    label: "Diet",
+    items: [
+      { id: "omnivore", label: "🥩 Omnivore" },
+      { id: "vegetarian", label: "🥬 Vegetarian" },
+      { id: "vegan", label: "🌱 Vegan" },
+      { id: "pescatarian", label: "🐟 Pescatarian" },
+    ],
+    extractor: (entry: GardenEntry): string[] => {
+      if (entry.collection === "recipes") {
+        return entry.data.diets;
+      }
+
+      return [];
+    },
+  },
+  {
+    category: "recipe-type",
+    label: "Course",
+    items: [
+      { id: "starter", label: "🥗 Starter" },
+      { id: "first-course", label: "🍝 First Course" },
+      { id: "main-course", label: "🍽️ Main Course" },
+      { id: "single-dish", label: "🍲 Single Dish" },
+      { id: "sauce", label: "🍯 Sauce" },
+      { id: "side", label: "🥔 Side" },
+      { id: "dessert", label: "🍰 Dessert" },
+      { id: "other", label: "🍴 Other" },
+    ],
+    extractor: (entry: GardenEntry): string => {
+      if (entry.collection === "recipes" && entry.data.type) {
+        return entry.data.type;
+      }
+
+      return "";
+    },
+  },
+];
 ---
 
 <Layout>
@@ -18,5 +79,5 @@ const recipes = await getEntries(["recipes"]);
     </span>
   </Hero>
 
-  <GardenEntriesGrid items={recipes} itemSize="M" />
+  <GardenEntriesGrid items={recipes} itemSize="M" filters={filters} />
 </Layout>

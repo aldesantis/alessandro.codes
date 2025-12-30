@@ -1,27 +1,17 @@
 ---
 import GardenEntryCard from "@components/garden/GardenEntryCard.astro";
-import GardenStatusFilterDropdown from "./GardenStatusFilterDropdown.astro";
-import GardenTopicFilterDropdown from "./GardenTopicFilterDropdown.astro";
-import GardenTypeFilterDropdown from "./GardenTypeFilterDropdown.astro";
+import GardenFilterDropdown from "./GardenFilterDropdown.astro";
 import type { GardenEntry } from "src/lib/garden/entries";
+import type { FilterConfig } from "src/lib/garden/filters";
 
 interface Props {
   items: GardenEntry[];
   itemSize: "S" | "M" | "L";
-  showStatusFilters?: boolean;
-  showTopicFilters?: boolean;
-  showTypeFilters?: boolean;
+  filters?: FilterConfig[];
   layoutType?: "grid" | "masonry";
 }
 
-const {
-  items,
-  itemSize,
-  showStatusFilters = false,
-  showTopicFilters = false,
-  showTypeFilters = false,
-  layoutType = "grid",
-} = Astro.props;
+const { items: entries, itemSize, filters = [], layoutType = "grid" } = Astro.props;
 
 function getGridColumnsForSize(size: "S" | "M" | "L"): string {
   switch (size) {
@@ -44,15 +34,30 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
       return "columns-1 sm:columns-2 lg:columns-2";
   }
 }
+
+function buildFilterableValues(item: GardenEntry): Record<string, string | string[]> {
+  const values: Record<string, string | string[]> = {};
+
+  filters.forEach((filter) => {
+    const value = filter.extractor(item);
+    values[filter.category] = value;
+  });
+
+  return values;
+}
 ---
 
-<div data-controller="garden-entries-grid" class="space-y-4">
+<div
+  data-controller="garden-entries-grid"
+  data-garden-entries-grid-filter-categories-value={JSON.stringify(filters.map((filter) => filter.category))}
+  class="space-y-4"
+>
   {
-    (showTypeFilters || showStatusFilters || showTopicFilters) && (
+    filters.length > 0 && (
       <div class="flex gap-2">
-        {showTypeFilters && <GardenTypeFilterDropdown />}
-        {showStatusFilters && <GardenStatusFilterDropdown />}
-        {showTopicFilters && <GardenTopicFilterDropdown />}
+        {filters.map((filter) => (
+          <GardenFilterDropdown label={filter.label} filterCategory={filter.category} items={filter.items} />
+        ))}
       </div>
     )
   }
@@ -64,18 +69,18 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
       : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}
   >
     {
-      items.length > 0 ? (
-        items.map((item) => (
-          <div
-            class={layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid"}
-            data-status={item.data.status}
-            data-topics={"topics" in item.data ? item.data.topics?.map((t: { id: string }) => t.id).join(",") : ""}
-            data-type={item.collection}
-            data-garden-entries-grid-target="item"
-          >
-            <GardenEntryCard content={item} slot="item" />
-          </div>
-        ))
+      entries.length > 0 ? (
+        entries.map((item) => {
+          return (
+            <div
+              class={layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid"}
+              data-filterable-values={JSON.stringify(buildFilterableValues(item))}
+              data-garden-entries-grid-target="item"
+            >
+              <GardenEntryCard content={item} slot="item" />
+            </div>
+          );
+        })
       ) : (
         <p>Nothing here yet! Check back soon.</p>
       )
