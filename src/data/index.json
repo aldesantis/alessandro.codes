@@ -8831,6 +8831,16 @@
   },
   {
     "ids": [
+      "Guerra E Pace",
+      "guerra-e-pace"
+    ],
+    "slug": "guerra-e-pace",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "High Output Management",
       "high-output-management"
     ],
@@ -17785,6 +17795,17 @@
   },
   {
     "ids": [
+      "Introducing Not-Knowing.",
+      "introducing-not-knowing.",
+      "introducing-not-knowing"
+    ],
+    "slug": "introducing-not-knowing",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Introduction: 9999",
       "introduction-9999"
     ],
@@ -19913,6 +19934,16 @@
   },
   {
     "ids": [
+      "Practice as the Bar for Truth",
+      "practice-as-the-bar-for-truth"
+    ],
+    "slug": "practice-as-the-bar-for-truth",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Predicting a Brand’s Success: Signals to Look For",
       "predicting-a-brands-success-signals-to-look-for"
     ],
@@ -20549,6 +20580,16 @@
       "seek-goals-that-will-change-how-you-live"
     ],
     "slug": "seek-goals-that-will-change-how-you-live",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Seek Ideas at the Right Level of Abstraction",
+      "seek-ideas-at-the-right-level-of-abstraction"
+    ],
+    "slug": "seek-ideas-at-the-right-level-of-abstraction",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21444,6 +21485,16 @@
       "the-bare-minimum-you-must-do-for-retention-marketing"
     ],
     "slug": "the-bare-minimum-you-must-do-for-retention-marketing",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Base Rate Is a Hell of a Thing",
+      "the-base-rate-is-a-hell-of-a-thing"
+    ],
+    "slug": "the-base-rate-is-a-hell-of-a-thing",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
