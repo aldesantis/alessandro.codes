@@ -4,13 +4,13 @@ import { file, glob } from "astro/loaders";
 const baseSchema = z.object({
   title: z.string(),
   status: z.enum(["seedling", "budding", "evergreen"]),
+  createdAt: z.coerce.date().optional().default(new Date()),
+  updatedAt: z.coerce.date().optional().default(new Date()),
 });
 
 const obsidianSchema = baseSchema.extend(
   z.object({
     topics: z.array(reference("topics")).optional(),
-    createdAt: z.coerce.date().optional().default(new Date()),
-    updatedAt: z.coerce.date().optional().default(new Date()),
     draft: z
       .preprocess((val) => {
         if (typeof val === "string") {
@@ -94,7 +94,7 @@ export const collections = {
     schema: baseSchema.extend(
       z.object({
         cuisine: z.enum(["tex-mex", "mediterranean", "bbq", "asian", "indian", "american"]).optional(),
-        diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescetarian"])).optional(),
+        diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescatarian"])).optional(),
         type: z
           .enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"])
           .optional(),

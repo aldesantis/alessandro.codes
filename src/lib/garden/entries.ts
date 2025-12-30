@@ -26,14 +26,12 @@ function sortEntries(a: GardenEntry, b: GardenEntry): number {
     evergreen: 2,
   };
 
-  if ("updatedAt" in a.data && "updatedAt" in b.data) {
-    if (a.data.updatedAt! > b.data.updatedAt!) {
-      return -1;
-    }
+  if (a.data.updatedAt! > b.data.updatedAt!) {
+    return -1;
+  }
 
-    if (a.data.updatedAt! < b.data.updatedAt!) {
-      return 1;
-    }
+  if (a.data.updatedAt! < b.data.updatedAt!) {
+    return 1;
   }
 
   const statusPriorityA = statusPriorities[a.data.status];

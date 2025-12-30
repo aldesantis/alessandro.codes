@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import RelativeDate from "@components/ui/RelativeDate.astro";
 
 export interface Props {
   content: CollectionEntry<"recipes">;
@@ -39,7 +40,7 @@ function getDietEmoji(diet: string): string {
     omnivore: "🥩",
     vegetarian: "🥬",
     vegan: "🌱",
-    pescetarian: "🐟",
+    pescatarian: "🐟",
   };
   return emojiMap[diet] || "🍽️";
 }
@@ -65,8 +66,19 @@ function formatDiets(diets: string[]): string {
 
 <div class="text-sm text-stone-500 font-sans">
   {
+    content.data.updatedAt && (
+      <>
+        <span>
+          Revisited <RelativeDate date={content.data.updatedAt} />
+        </span>
+      </>
+    )
+  }
+
+  {
     content.data.type && (
       <>
+        <span class="mx-0.5">•</span>
         <span>
           {getTypeEmoji(content.data.type)} {formatType(content.data.type)}
         </span>
@@ -86,7 +98,7 @@ function formatDiets(diets: string[]): string {
   }
 
   {
-    content.data.diets && content.data.diets.length > 0 && (
+    !compact && content.data.diets && content.data.diets.length > 0 && (
       <>
         <span class="mx-0.5">•</span>
         <span>

@@ -223,6 +223,9 @@ async function extractFrontmatter(
     }
   }
 
+  frontmatter.createdAt = page.created_time;
+  frontmatter.updatedAt = page.last_edited_time;
+
   frontmatter.aliases = [page.id, page.id.replace(/-/g, "")];
 
   return frontmatter;
