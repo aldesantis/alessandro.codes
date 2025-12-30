@@ -2164,6 +2164,18 @@
   },
   {
     "ids": [
+      "Tuna tataki",
+      "2d8be6a9-2e83-80c3-85b8-eaed8a1477d1",
+      "2d8be6a92e8380c385b8eaed8a1477d1",
+      "tuna-tataki"
+    ],
+    "slug": "tuna-tataki",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Two-tone cauliflower gnocchi with leek and potato soup and kale chips",
       "156be6a9-2e83-80c7-ae85-eaf711bcc827",
       "156be6a92e8380c7ae85eaf711bcc827",
