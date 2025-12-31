@@ -4261,6 +4261,16 @@
   },
   {
     "ids": [
+      "Efficiency is not effectiveness",
+      "efficiency-is-not-effectiveness"
+    ],
+    "slug": "efficiency-is-not-effectiveness",
+    "type": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Efficiency must be defensible",
       "efficiency-must-be-defensible"
     ],
@@ -9783,6 +9793,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "The Pathless Path",
+      "the-pathless-path"
+    ],
+    "slug": "the-pathless-path",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
