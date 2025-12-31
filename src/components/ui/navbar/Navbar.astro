@@ -5,13 +5,7 @@ import MenuIcon from "@components/ui/icons/MenuIcon.astro";
 import CloseIcon from "@components/ui/icons/CloseIcon.astro";
 import Dropdown from "@components/ui/dropdowns/Dropdown.astro";
 import DropdownItem from "@components/ui/dropdowns/DropdownItem.astro";
-import {
-  getHeaderNavigation,
-  isDropdownActive,
-  isItemActive,
-  type NavigationItem,
-  type NavigationChild,
-} from "src/lib/navigation";
+import { getHeaderNavigation, isItemActive, type NavigationItem, type NavigationLeaf } from "src/lib/navigation";
 
 const currentPath = Astro.url.pathname;
 const headerNavigation = getHeaderNavigation();
@@ -22,7 +16,7 @@ const headerNavigation = getHeaderNavigation();
     <div class="container" data-js-navbar>
       <nav class="flex items-center justify-between font-sans">
         <div class="flex flex-1">
-          <Link href="/" class="font-semibold" variant="secondary"> Alessandro Desantis </Link>
+          <Link href="/" class="font-semibold" variant="secondary">Alessandro Desantis</Link>
         </div>
 
         <div class:list={["hidden flex-col gap-y-4", "md:flex md:flex-row md:gap-x-4", "flex-1 justify-end"]}>
@@ -31,8 +25,8 @@ const headerNavigation = getHeaderNavigation();
               if (item.children && item.children.length > 0) {
                 return (
                   <div class="whitespace-nowrap">
-                    <Dropdown label={item.text} href={item.href} active={isDropdownActive(item, currentPath)}>
-                      {item.children.map((child: NavigationChild) => (
+                    <Dropdown label={item.text} href={item.href} active={isItemActive(item, currentPath)}>
+                      {item.children.map((child: NavigationLeaf) => (
                         <DropdownItem href={child.href} active={isItemActive(child, currentPath)}>
                           {child.text}
                         </DropdownItem>
@@ -103,12 +97,12 @@ const headerNavigation = getHeaderNavigation();
                 <Link
                   href={item.href}
                   variant="secondary"
-                  active={isDropdownActive(item, currentPath)}
+                  active={isItemActive(item, currentPath)}
                   class="font-semibold"
                 >
                   {item.text}
                 </Link>,
-                ...item.children.map((child: NavigationChild) => (
+                ...item.children.map((child: NavigationLeaf) => (
                   <Link href={child.href} variant="secondary" active={isItemActive(child, currentPath)} class="pl-4">
                     {child.text}
                   </Link>

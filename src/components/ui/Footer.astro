@@ -2,7 +2,7 @@
 import { Icon } from "astro-icon/components";
 import Link from "@components/ui/Link.astro";
 import { getCollection } from "astro:content";
-import { getFooterNavigation, type NavigationChild } from "src/lib/navigation";
+import { getFooterNavigation, type NavigationLeaf } from "src/lib/navigation";
 import NewsletterForm from "@components/ui/NewsletterForm.astro";
 
 const socials = await getCollection("socials");
@@ -29,7 +29,7 @@ const footerNavigation = getFooterNavigation();
 
     <div class="hidden md:grid grid-cols-2 gap-x-16 gap-y-1">
       {
-        footerNavigation.map((item: NavigationChild) => (
+        footerNavigation.map((item: NavigationLeaf) => (
           <div class="text-sm lg:text-base font-sans">
             <Link href={item.href} variant="secondary">
               {item.text}

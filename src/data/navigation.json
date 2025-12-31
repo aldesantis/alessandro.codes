@@ -32,6 +32,7 @@
     "text": "The Garden",
     "header": true,
     "footer": false,
+    "matchPattern": "^/garden$",
     "children": [
       {
         "href": "/topics",
