@@ -1,4 +1,5 @@
 import { Controller } from "@hotwired/stimulus";
+import { actions } from "astro:actions";
 
 interface ContentItem {
   id: string;
@@ -7,10 +8,6 @@ interface ContentItem {
   type: string;
   date?: string;
   status?: "seedling" | "budding" | "evergreen";
-}
-
-interface SearchResponse {
-  items: ContentItem[];
 }
 
 type StatusType = "seedling" | "budding" | "evergreen";
@@ -165,14 +162,14 @@ export default class CommandPaletteController extends Controller {
     this.isLoading = true;
 
     try {
-      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+      const result = await actions.search({ query });
 
-      if (!response.ok) {
-        throw new Error(`Error fetching search results: ${response.statusText}`);
+      if (result.error) {
+        console.error("Error fetching search results:", result.error);
+        return [];
       }
 
-      const data = (await response.json()) as SearchResponse;
-      return data.items;
+      return result.data.items;
     } catch (error) {
       console.error("Error fetching search results:", error);
       return [];
