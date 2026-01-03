@@ -58,17 +58,16 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "essays",
           transformers: digitalGardenTransformers,
-          urlBuilder: (slug) => `/essays/${slug}`,
           search: {
             label: "Essay",
-            filter: (entry: GardenEntry, query: string) => {
+            buildUrlFn: (slug: string) => `/essays/${slug}`,
+            filterFn: (entry: GardenEntry, query: string) => {
               return entry.data.title.toLowerCase().includes(query.toLowerCase());
             },
-            toCommandPaletteItem: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
-              url: `/essays/${entry.id}`,
-              type: "Essay",
+              type: "essays",
               date: entry.data.createdAt ? new Date(entry.data.createdAt).toISOString() : undefined,
             }),
           },
@@ -79,17 +78,16 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "notes",
           transformers: digitalGardenTransformers,
-          urlBuilder: (slug) => `/notes/${slug}`,
           search: {
             label: "Note",
-            filter: (entry: GardenEntry, query: string) => {
+            filterFn: (entry: GardenEntry, query: string) => {
               return entry.data.title.toLowerCase().includes(query.toLowerCase());
             },
-            toCommandPaletteItem: (entry: GardenEntry) => ({
+            buildUrlFn: (slug: string) => `/notes/${slug}`,
+            buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
-              url: `/notes/${entry.id}`,
-              type: "Note",
+              type: "notes" as const,
               status: entry.data.status,
             }),
           },
@@ -99,7 +97,6 @@ const config: Configuration = {
           basePath: "nows",
           pattern: "*.{md,mdx}",
           destinationPath: "nows",
-          urlBuilder: (slug) => `/now/${slug}`,
           transformers: [
             ...digitalGardenTransformers,
 
@@ -127,14 +124,13 @@ const config: Configuration = {
           ],
           search: {
             label: "Now",
-            filter: (entry: GardenEntry, query: string) => {
-              return entry.data.title.toLowerCase().includes(query.toLowerCase());
-            },
-            toCommandPaletteItem: (entry: GardenEntry) => ({
+            buildUrlFn: (slug: string) => `/nows/${slug}`,
+            filterFn: (entry: GardenEntry, query: string) =>
+              entry.data.title.toLowerCase().includes(query.toLowerCase()),
+            buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
-              url: `/now/${entry.id}`,
-              type: "Now",
+              type: "nows" as const,
               date: entry.data.updatedAt ? new Date(entry.data.updatedAt).toISOString() : undefined,
             }),
           },
@@ -145,14 +141,12 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "topics",
           transformers: digitalGardenTransformers,
-          urlBuilder: (slug) => `/topics/${slug}`,
         },
         {
           id: "books" as const,
           basePath: "readwise/books",
           pattern: "*.{md,mdx}",
           destinationPath: "books",
-          urlBuilder: (slug) => `/books/${slug}`,
           transformers: [
             ...digitalGardenTransformers,
 
@@ -174,14 +168,15 @@ const config: Configuration = {
           ],
           search: {
             label: "Book",
-            filter: (entry: GardenEntry, query: string) => {
+            buildUrlFn: (slug: string) => `/books/${slug}`,
+            filterFn: (entry: GardenEntry, query: string) => {
               return entry.data.title.toLowerCase().includes(query.toLowerCase());
             },
-            toCommandPaletteItem: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
               url: `/books/${entry.id}`,
-              type: "Book",
+              type: "books",
               date: entry.data.updatedAt ? new Date(entry.data.updatedAt).toISOString() : undefined,
             }),
           },
@@ -192,7 +187,6 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "articles",
           transformers: digitalGardenTransformers,
-          urlBuilder: (slug) => `/articles/${slug}`,
         },
         {
           id: "talks",
@@ -220,14 +214,14 @@ const config: Configuration = {
           ],
           search: {
             label: "Talk",
-            filter: (entry: GardenEntry, query: string) => {
+            buildUrlFn: () => `/talks`,
+            filterFn: (entry: GardenEntry, query: string) => {
               return entry.data.title.toLowerCase().includes(query.toLowerCase());
             },
-            toCommandPaletteItem: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
-              url: `/talks`,
-              type: "Talk",
+              type: "talks",
               date: entry.data.createdAt ? new Date(entry.data.createdAt).toISOString() : undefined,
             }),
           },
@@ -290,14 +284,14 @@ const config: Configuration = {
           ],
           search: {
             label: "Recipe",
-            filter: (entry: GardenEntry, query: string) => {
+            filterFn: (entry: GardenEntry, query: string) => {
               return entry.data.title.toLowerCase().includes(query.toLowerCase());
             },
-            toCommandPaletteItem: (entry: GardenEntry) => ({
+            buildUrlFn: (slug: string) => `/recipes/${slug}`,
+            buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
-              url: `/recipes/${entry.id}`,
-              type: "Recipe",
+              type: "recipes",
             }),
           },
         },
