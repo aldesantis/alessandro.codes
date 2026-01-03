@@ -16,6 +16,7 @@ import {
   convertNotionLinksToWikilinks,
 } from "src/lib/garden/transformers";
 import type { Configuration } from "src/lib/garden/config";
+import type { GardenEntry } from "src/lib/garden/entries";
 
 const baseTransformers = [
   renameMdToMdx(),
@@ -58,6 +59,19 @@ const config: Configuration = {
           destinationPath: "essays",
           transformers: digitalGardenTransformers,
           urlBuilder: (slug) => `/essays/${slug}`,
+          search: {
+            label: "Essay",
+            filter: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            toCommandPaletteItem: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              url: `/essays/${entry.id}`,
+              type: "Essay",
+              date: entry.data.createdAt ? new Date(entry.data.createdAt).toISOString() : undefined,
+            }),
+          },
         },
         {
           id: "notes",
@@ -66,9 +80,22 @@ const config: Configuration = {
           destinationPath: "notes",
           transformers: digitalGardenTransformers,
           urlBuilder: (slug) => `/notes/${slug}`,
+          search: {
+            label: "Note",
+            filter: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            toCommandPaletteItem: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              url: `/notes/${entry.id}`,
+              type: "Note",
+              status: entry.data.status,
+            }),
+          },
         },
         {
-          id: "nows",
+          id: "nows" as const,
           basePath: "nows",
           pattern: "*.{md,mdx}",
           destinationPath: "nows",
@@ -98,6 +125,19 @@ const config: Configuration = {
               return { path: originalPath, content: updatedContent };
             },
           ],
+          search: {
+            label: "Now",
+            filter: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            toCommandPaletteItem: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              url: `/now/${entry.id}`,
+              type: "Now",
+              date: entry.data.updatedAt ? new Date(entry.data.updatedAt).toISOString() : undefined,
+            }),
+          },
         },
         {
           id: "topics",
@@ -108,7 +148,7 @@ const config: Configuration = {
           urlBuilder: (slug) => `/topics/${slug}`,
         },
         {
-          id: "books",
+          id: "books" as const,
           basePath: "readwise/books",
           pattern: "*.{md,mdx}",
           destinationPath: "books",
@@ -132,6 +172,19 @@ const config: Configuration = {
               return { path: originalPath, content: updatedContent };
             },
           ],
+          search: {
+            label: "Book",
+            filter: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            toCommandPaletteItem: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              url: `/books/${entry.id}`,
+              type: "Book",
+              date: entry.data.updatedAt ? new Date(entry.data.updatedAt).toISOString() : undefined,
+            }),
+          },
         },
         {
           id: "articles",
@@ -165,6 +218,19 @@ const config: Configuration = {
               return { path: originalPath, content: updatedContent };
             },
           ],
+          search: {
+            label: "Talk",
+            filter: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            toCommandPaletteItem: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              url: `/talks`,
+              type: "Talk",
+              date: entry.data.createdAt ? new Date(entry.data.createdAt).toISOString() : undefined,
+            }),
+          },
         },
         {
           id: "pages",
@@ -199,7 +265,7 @@ const config: Configuration = {
       }),
       entryTypes: [
         {
-          id: "recipes",
+          id: "recipes" as const,
           pattern: "*.{md,mdx}",
           destinationPath: "recipes",
           transformers: [
@@ -222,6 +288,18 @@ const config: Configuration = {
             convertNotionLinksToWikilinks(),
             ...baseTransformers,
           ],
+          search: {
+            label: "Recipe",
+            filter: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            toCommandPaletteItem: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              url: `/recipes/${entry.id}`,
+              type: "Recipe",
+            }),
+          },
         },
         {
           id: "recipe-illustrations",
@@ -249,4 +327,4 @@ const config: Configuration = {
 
 export const entryTypeIds = ["essays", "notes", "nows", "topics", "books", "articles", "recipes", "talks"] as const;
 
-export default config;
+export default config as Configuration;
