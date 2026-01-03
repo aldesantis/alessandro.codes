@@ -1,86 +1,33 @@
 import { defineAction } from "astro:actions";
 import { z } from "astro/zod";
-import { getEntries } from "src/lib/garden/entries";
 
-interface ContentItem {
-  id: string;
-  name: string;
-  url: string;
-  type: string;
-  date?: string;
-  status?: "seedling" | "budding" | "evergreen";
-}
+import { getEntries, type GardenEntryTypeId } from "src/lib/garden/entries";
+import type { ContentItem } from "src/lib/garden/config";
+import config from "garden.config";
 
-async function getCommandPaletteItems(): Promise<ContentItem[]> {
-  const entries = await getEntries(["essays", "notes", "nows", "books", "recipes", "talks"]);
+async function getCommandPaletteItems(query: string): Promise<ContentItem[]> {
+  const entryTypesWithSearch = config.sources
+    .flatMap((source) => source.entryTypes)
+    .filter((entryType) => entryType.search);
 
-  const essays = entries.filter((e) => e.collection === "essays");
-  const notes = entries.filter((e) => e.collection === "notes");
-  const nows = entries.filter((e) => e.collection === "nows");
-  const books = entries.filter((e) => e.collection === "books");
-  const recipes = entries.filter((e) => e.collection === "recipes");
-  const talks = entries.filter((e) => e.collection === "talks");
+  const entryTypeIds = entryTypesWithSearch.map((et) => et.id as GardenEntryTypeId);
+  const entries = await getEntries(entryTypeIds);
 
-  const essayItems: ContentItem[] = essays.map((essay) => {
-    return {
-      id: essay.id,
-      name: essay.data.title,
-      url: `/essays/${essay.id}`,
-      type: "Essay",
-      date: essay.data.createdAt ? new Date(essay.data.createdAt).toISOString() : undefined,
-    };
-  });
+  const items: ContentItem[] = [];
 
-  const noteItems: ContentItem[] = notes.map((note) => {
-    return {
-      id: note.id,
-      name: note.data.title,
-      url: `/notes/${note.id}`,
-      type: "Note",
-      status: note.data.status,
-    };
-  });
+  for (const entryType of entryTypesWithSearch) {
+    if (!entryType.search) {
+      continue;
+    }
 
-  const nowItems: ContentItem[] = nows.map((now) => {
-    return {
-      id: now.id,
-      name: now.data.title,
-      url: `/now/${now.id}`,
-      type: "Now",
-      date: now.data.updatedAt ? new Date(now.data.updatedAt).toISOString() : undefined,
-    };
-  });
+    const entriesForType = entries.filter((e) => e.collection === entryType.id);
+    const filteredEntries = entriesForType.filter((entry) => entryType.search!.filter(entry, query));
+    const transformedItems = filteredEntries.map((entry) => entryType.search!.toCommandPaletteItem(entry));
 
-  const bookItems: ContentItem[] = books.map((book) => {
-    return {
-      id: book.id,
-      name: book.data.title,
-      url: `/books/${book.id}`,
-      type: "Book",
-      date: book.data.updatedAt ? new Date(book.data.updatedAt).toISOString() : undefined,
-    };
-  });
+    items.push(...transformedItems);
+  }
 
-  const recipeItems: ContentItem[] = recipes.map((recipe) => {
-    return {
-      id: recipe.id,
-      name: recipe.data.title,
-      url: `/recipes/${recipe.id}`,
-      type: "Recipe",
-    };
-  });
-
-  const talkItems: ContentItem[] = talks.map((talk) => {
-    return {
-      id: talk.id,
-      name: talk.data.title,
-      url: `/talks`,
-      type: "Talk",
-      date: talk.data.createdAt ? new Date(talk.data.createdAt).toISOString() : undefined,
-    };
-  });
-
-  return [...essayItems, ...noteItems, ...nowItems, ...bookItems, ...recipeItems, ...talkItems];
+  return items;
 }
 
 export const search = defineAction({
@@ -92,9 +39,8 @@ export const search = defineAction({
       return { items: [] };
     }
 
-    const contentItems = await getCommandPaletteItems();
-    const filteredItems = contentItems.filter((item) => item.name.toLowerCase().includes(query.toLowerCase()));
+    const items = await getCommandPaletteItems(query);
 
-    return { items: filteredItems };
+    return { items };
   },
 });
