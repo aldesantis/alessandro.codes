@@ -1,12 +1,12 @@
 import type { Transformer } from "src/lib/garden/transformers";
 import type { Source } from "src/lib/garden/sources";
 import type { GardenEntry } from "./entries";
+import type { GardenEntryTypeId } from "./entries";
 
-export interface ContentItem {
+export interface SearchResult {
   id: string;
   name: string;
-  url: string;
-  type: string;
+  type: GardenEntryTypeId;
   date?: string;
   status?: "seedling" | "budding" | "evergreen";
 }
@@ -17,11 +17,11 @@ export interface EntryType {
   pattern: string;
   destinationPath: string;
   transformers: Transformer[];
-  urlBuilder?: (slug: string) => string;
   search?: {
     label: string;
-    filter: (entry: GardenEntry, query: string) => boolean;
-    toCommandPaletteItem: (entry: GardenEntry) => ContentItem;
+    filterFn: (entry: GardenEntry, query: string) => boolean;
+    buildSearchResultFn: (entry: GardenEntry) => SearchResult;
+    buildUrlFn: (slug: string) => string;
   };
 }
 

@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import { entryTypeIds } from "garden.config";
+import config, { entryTypeIds } from "garden.config";
+import type { EntryType } from "src/lib/garden/config";
 
 import entryIndex from "src/data/index.json";
 
@@ -109,4 +110,16 @@ export async function getRelatedEntries(entry: GardenEntry): Promise<GardenEntry
     .filter((entry): entry is GardenEntry => entry !== undefined);
 
   return uniqueEntries.sort(sortEntries);
+}
+
+export function getEntryTypeConfiguration(entryTypeId: GardenEntryTypeId): EntryType {
+  const entryTypeConfig = config.sources
+    .flatMap((source) => source.entryTypes)
+    .find((entryType) => entryType.id === entryTypeId);
+
+  if (!entryTypeConfig) {
+    throw new Error(`Entry type configuration not found for entry type ${entryTypeId}`);
+  }
+
+  return entryTypeConfig;
 }

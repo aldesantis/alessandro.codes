@@ -1,16 +1,12 @@
 import { Controller } from "@hotwired/stimulus";
 import { actions } from "astro:actions";
-
-interface ContentItem {
-  id: string;
-  name: string;
-  url: string;
-  type: string;
-  date?: string;
-  status?: "seedling" | "budding" | "evergreen";
-}
+import type { SearchResult } from "src/lib/garden/config";
 
 type StatusType = "seedling" | "budding" | "evergreen";
+
+type SearchResultResponse = SearchResult & {
+  url: string;
+};
 
 interface StatusColors {
   selected: string;
@@ -40,7 +36,7 @@ export default class CommandPaletteController extends Controller {
 
   // State
   selectedIndex: number = -1;
-  filteredItems: ContentItem[] = [];
+  filteredItems: SearchResultResponse[] = [];
   searchTimeout: number | null = null;
   isLoading: boolean = false;
 
@@ -156,7 +152,7 @@ export default class CommandPaletteController extends Controller {
   }
 
   // Search Methods
-  async fetchSearchResults(query: string): Promise<ContentItem[]> {
+  async fetchSearchResults(query: string): Promise<SearchResultResponse[]> {
     if (!query) return [];
 
     this.isLoading = true;
@@ -233,7 +229,7 @@ export default class CommandPaletteController extends Controller {
       }
       groups.get(item.type)!.push(item);
       return groups;
-    }, new Map<string, ContentItem[]>());
+    }, new Map<string, SearchResultResponse[]>());
 
     // Clear previous results
     this.resultsTarget.innerHTML = "";
@@ -346,7 +342,7 @@ export default class CommandPaletteController extends Controller {
     });
   }
 
-  selectItem(item: ContentItem): void {
+  selectItem(item: SearchResultResponse): void {
     window.location.href = item.url;
     this.close();
   }
