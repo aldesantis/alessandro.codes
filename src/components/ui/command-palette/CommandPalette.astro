@@ -50,11 +50,3 @@ import SearchIcon from "@components/ui/icons/SearchIcon.astro";
     </div>
   </div>
 </div>
-
-<script>
-  import CommandPaletteController from "./command-palette-controller";
-  import { Application } from "@hotwired/stimulus";
-
-  const application = Application.start();
-  application.register("command-palette", CommandPaletteController);
-</script>

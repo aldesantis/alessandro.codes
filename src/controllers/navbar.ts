@@ -1,15 +1,18 @@
 import { Controller } from "@hotwired/stimulus";
 
 export default class NavbarController extends Controller {
-  static targets = ["mobileMenu", "mobileToggle", "mobileClose"];
+  static override targets = ["mobileMenu", "mobileToggle", "mobileClose"];
+  declare readonly mobileMenuTarget: HTMLElement;
+  declare readonly mobileToggleTarget: HTMLElement;
+  declare readonly mobileCloseTarget: HTMLElement;
 
-  connect() {
+  override connect() {
     // Set up event listeners
     document.addEventListener("click", this.handleClickOutside.bind(this));
     document.addEventListener("keydown", this.handleKeyDown.bind(this));
   }
 
-  disconnect() {
+  override disconnect() {
     document.removeEventListener("click", this.handleClickOutside.bind(this));
     document.removeEventListener("keydown", this.handleKeyDown.bind(this));
   }
@@ -24,7 +27,7 @@ export default class NavbarController extends Controller {
     document.body.style.overflow = "";
   }
 
-  handleClickOutside(event) {
+  private handleClickOutside(event: MouseEvent) {
     if (
       event.target instanceof Node &&
       !this.element.contains(event.target) &&
@@ -34,7 +37,7 @@ export default class NavbarController extends Controller {
     }
   }
 
-  handleKeyDown(event) {
+  private handleKeyDown(event: KeyboardEvent) {
     if (event.key === "Escape") {
       this.closeMenu();
     }

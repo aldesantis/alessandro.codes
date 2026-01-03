@@ -1,15 +1,30 @@
 import { Controller } from "@hotwired/stimulus";
 
-export default class extends Controller {
-  static targets = ["grid", "item", "checkbox", "allCheckbox"];
-  static values = {
+interface FilterableValues {
+  [category: string]: string | string[];
+}
+
+interface Filters {
+  [category: string]: string[];
+}
+
+export default class GardenEntriesGridController extends Controller {
+  static override targets = ["grid", "item", "checkbox", "allCheckbox"];
+  static override values = {
     filterCategories: { type: Array, default: [] },
     filters: { type: Object, default: {} },
   };
 
-  connect() {
+  declare gridTarget: HTMLElement;
+  declare itemTargets: HTMLElement[];
+  declare checkboxTargets: HTMLInputElement[];
+  declare allCheckboxTargets: HTMLInputElement[];
+  declare filterCategoriesValue: string[];
+  declare filtersValue: Filters;
+
+  override connect(): void {
     if (this.filterCategoriesValue.length > 0 && Object.keys(this.filtersValue).length === 0) {
-      const initialFilters = {};
+      const initialFilters: Filters = {};
 
       this.filterCategoriesValue.forEach((category) => {
         initialFilters[category] = ["all"];
@@ -20,10 +35,14 @@ export default class extends Controller {
     this.updateVisibility();
   }
 
-  filter(event) {
-    const checkbox = event.currentTarget;
+  filter(event: Event): void {
+    const checkbox = event.currentTarget as HTMLInputElement;
     const { filterType, filterCategory } = checkbox.dataset;
     const isChecked = checkbox.checked;
+
+    if (!filterType || !filterCategory) {
+      return;
+    }
 
     if (filterType === "all") {
       this.handleAllFilter(filterCategory, isChecked, checkbox);
@@ -34,7 +53,7 @@ export default class extends Controller {
     this.updateVisibility();
   }
 
-  handleAllFilter(category, isChecked, checkbox) {
+  private handleAllFilter(category: string, isChecked: boolean, checkbox: HTMLInputElement): void {
     if (isChecked) {
       this.filtersValue = { ...this.filtersValue, [category]: ["all"] };
       this.uncheckOtherCheckboxes(checkbox);
@@ -43,7 +62,7 @@ export default class extends Controller {
     }
   }
 
-  handleSpecificFilter(category, filterType, isChecked) {
+  private handleSpecificFilter(category: string, filterType: string, isChecked: boolean): void {
     const currentFilters = this.filtersValue[category] || ["all"];
     const allCheckbox = this.allCheckboxTargets.find((cb) => cb.dataset.filterCategory === category);
 
@@ -55,34 +74,41 @@ export default class extends Controller {
     } else {
       // Remove the filter
       const newFilters = currentFilters.filter((f) => f !== filterType);
-      this.filtersValue = { ...this.filtersValue, [category]: newFilters.length ? newFilters : ["all"] };
+      this.filtersValue = {
+        ...this.filtersValue,
+        [category]: newFilters.length ? newFilters : ["all"],
+      };
       if (newFilters.length === 0 && allCheckbox) allCheckbox.checked = true;
     }
   }
 
-  uncheckOtherCheckboxes(checkbox) {
+  private uncheckOtherCheckboxes(checkbox: HTMLInputElement): void {
     const { filterCategory } = checkbox.dataset;
+    if (!filterCategory) {
+      return;
+    }
+
     this.checkboxTargets
       .filter((cb) => cb.dataset.filterCategory === filterCategory && cb.dataset.filterType !== "all")
       .forEach((cb) => (cb.checked = false));
   }
 
-  updateVisibility() {
+  private updateVisibility(): void {
     this.itemTargets.forEach((item) => {
       const isVisible = this.isItemVisible(item);
       item.classList.toggle("hidden", !isVisible);
     });
   }
 
-  isItemVisible(item) {
+  private isItemVisible(item: HTMLElement): boolean {
     const filterableValuesJson = item.getAttribute("data-filterable-values");
     if (!filterableValuesJson) {
       return false;
     }
 
-    let filterableValues;
+    let filterableValues: FilterableValues;
     try {
-      filterableValues = JSON.parse(filterableValuesJson);
+      filterableValues = JSON.parse(filterableValuesJson) as FilterableValues;
     } catch {
       return false;
     }
