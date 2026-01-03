@@ -2,11 +2,8 @@
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { getEntries } from "src/lib/garden/entries";
 import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
 import { createStatusFilterConfig } from "src/lib/garden/filters";
-
-const topics = await getEntries(["topics"]);
 
 const filters = [createStatusFilterConfig()];
 ---
@@ -21,5 +18,5 @@ const filters = [createStatusFilterConfig()];
     </span>
   </Hero>
 
-  <GardenEntriesGrid items={topics} itemSize="M" filters={filters} />
+  <GardenEntriesGrid entryTypes={["topics"]} itemSize="M" filters={filters} />
 </Layout>

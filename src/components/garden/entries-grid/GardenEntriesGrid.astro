@@ -1,16 +1,16 @@
 ---
 import GardenFilterDropdown from "./GardenFilterDropdown.astro";
-import type { GardenEntry } from "src/lib/garden/entries";
 import type { FilterConfig } from "src/lib/garden/filters";
+import type { GardenEntryTypeId } from "src/lib/garden/entries";
 
 interface Props {
-  items: GardenEntry[];
+  entryTypes: GardenEntryTypeId[];
   itemSize: "S" | "M" | "L";
   filters?: FilterConfig[];
   layoutType?: "grid" | "masonry";
 }
 
-const { items: entries, itemSize, filters = [], layoutType = "grid" } = Astro.props;
+const { entryTypes, itemSize, filters = [], layoutType = "grid" } = Astro.props;
 
 function getGridColumnsForSize(size: "S" | "M" | "L"): string {
   switch (size) {
@@ -34,21 +34,11 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
   }
 }
 
-function buildFilterableValues(item: GardenEntry): Record<string, string | string[]> {
-  const values: Record<string, string | string[]> = {};
-
-  filters.forEach((filter) => {
-    const value = filter.extractor(item);
-    values[filter.category] = value;
-  });
-
-  return values;
-}
 ---
 
 <div
-  data-controller="garden-entries-grid"
-  data-garden-entries-grid-filter-categories-value={JSON.stringify(filters.map((filter) => filter.category))}
+  data-controller="garden-filters garden-entries-grid"
+  data-garden-filters-filter-categories-value={JSON.stringify(filters.map((filter) => filter.category))}
   class="space-y-4"
 >
   {
@@ -63,27 +53,15 @@ function buildFilterableValues(item: GardenEntry): Record<string, string | strin
 
   <div
     data-garden-entries-grid-target="grid"
+    data-garden-entries-grid-entry-types-value={JSON.stringify(entryTypes)}
+    data-garden-entries-grid-layout-type-value={layoutType}
+    data-garden-entries-grid-item-size-value={itemSize}
     class={layoutType === "grid"
       ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
       : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}
   >
-    {
-      entries.length > 0 ? (
-        entries.map((item) => {
-          return (
-            <div
-              class={layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid"}
-              data-filterable-values={JSON.stringify(buildFilterableValues(item))}
-              data-garden-entries-grid-target="item"
-              data-controller="garden-lazy-card"
-              data-garden-lazy-card-entry-id-value={item.id}
-              data-garden-lazy-card-entry-collection-value={item.collection}
-            />
-          );
-        })
-      ) : (
-        <p>Nothing here yet! Check back soon.</p>
-      )
-    }
+    <div class="col-span-full flex items-center justify-center p-8">
+      <div class="text-gray-500 dark:text-gray-400">Loading entries...</div>
+    </div>
   </div>
 </div>

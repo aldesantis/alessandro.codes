@@ -1,12 +1,9 @@
 ---
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getEntries, type GardenEntry } from "src/lib/garden/entries";
 import sections from "src/data/sections.json";
 import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
 import type { FilterConfig } from "src/lib/garden/filters";
-
-const recipes = await getEntries(["recipes"]);
 
 const filters: FilterConfig[] = [
   {
@@ -20,13 +17,6 @@ const filters: FilterConfig[] = [
       { id: "indian", label: "🍛 Indian" },
       { id: "american", label: "🍔 American" },
     ],
-    extractor: (entry: GardenEntry): string => {
-      if (entry.collection === "recipes" && entry.data.cuisine) {
-        return entry.data.cuisine;
-      }
-
-      return "";
-    },
   },
   {
     category: "diet",
@@ -37,13 +27,6 @@ const filters: FilterConfig[] = [
       { id: "vegan", label: "🌱 Vegan" },
       { id: "pescatarian", label: "🐟 Pescatarian" },
     ],
-    extractor: (entry: GardenEntry): string[] => {
-      if (entry.collection === "recipes") {
-        return entry.data.diets;
-      }
-
-      return [];
-    },
   },
   {
     category: "recipe-type",
@@ -58,13 +41,6 @@ const filters: FilterConfig[] = [
       { id: "dessert", label: "🍰 Dessert" },
       { id: "other", label: "🍴 Other" },
     ],
-    extractor: (entry: GardenEntry): string => {
-      if (entry.collection === "recipes" && entry.data.type) {
-        return entry.data.type;
-      }
-
-      return "";
-    },
   },
 ];
 ---
@@ -79,5 +55,5 @@ const filters: FilterConfig[] = [
     </span>
   </Hero>
 
-  <GardenEntriesGrid items={recipes} itemSize="M" filters={filters} />
+  <GardenEntriesGrid entryTypes={["recipes"]} itemSize="M" filters={filters} />
 </Layout>
