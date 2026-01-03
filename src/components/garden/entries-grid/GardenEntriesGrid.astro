@@ -1,5 +1,4 @@
 ---
-import GardenEntryCard from "@components/garden/GardenEntryCard.astro";
 import GardenFilterDropdown from "./GardenFilterDropdown.astro";
 import type { GardenEntry } from "src/lib/garden/entries";
 import type { FilterConfig } from "src/lib/garden/filters";
@@ -76,9 +75,10 @@ function buildFilterableValues(item: GardenEntry): Record<string, string | strin
               class={layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid"}
               data-filterable-values={JSON.stringify(buildFilterableValues(item))}
               data-garden-entries-grid-target="item"
-            >
-              <GardenEntryCard content={item} slot="item" />
-            </div>
+              data-controller="garden-lazy-card"
+              data-garden-lazy-card-entry-id-value={item.id}
+              data-garden-lazy-card-entry-collection-value={item.collection}
+            />
           );
         })
       ) : (
