@@ -87,11 +87,3 @@ function buildFilterableValues(item: GardenEntry): Record<string, string | strin
     }
   </div>
 </div>
-
-<script>
-  import GardenEntriesGridController from "./garden-entries-grid-controller";
-  import { Application } from "@hotwired/stimulus";
-
-  const application = Application.start();
-  application.register("garden-entries-grid", GardenEntriesGridController);
-</script>
