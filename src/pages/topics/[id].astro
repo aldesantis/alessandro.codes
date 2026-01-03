@@ -23,6 +23,9 @@ const { topic } = Astro.props;
 const { Content } = await render(topic);
 const relatedContent = await getRelatedEntries(topic);
 
+// Extract unique entry types from related content
+const relatedEntryTypes = Array.from(new Set(relatedContent.map((entry) => entry.collection)));
+
 const filters = [createStatusFilterConfig(), createTypeFilterConfig()];
 ---
 
@@ -50,10 +53,10 @@ const filters = [createStatusFilterConfig(), createTypeFilterConfig()];
   </div>
 
   {
-    relatedContent.length > 0 && (
+    relatedEntryTypes.length > 0 && (
       <div class="mt-12">
         <hr class="mb-6 border-gray-200" />
-        <GardenEntriesGrid items={relatedContent} itemSize="M" filters={filters} layoutType="masonry" />
+        <GardenEntriesGrid entryTypes={relatedEntryTypes} itemSize="M" filters={filters} layoutType="masonry" />
       </div>
     )
   }
