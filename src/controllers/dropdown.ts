@@ -1,15 +1,20 @@
 import { Controller } from "@hotwired/stimulus";
 
 export default class DropdownController extends Controller {
-  static targets = ["button", "menu"];
+  static override targets = ["button", "menu"];
+  declare readonly buttonTarget: HTMLElement;
+  declare readonly menuTarget: HTMLElement;
 
-  connect() {
+  private closeTimeout: ReturnType<typeof setTimeout> | null = null;
+  private isOpen = false;
+
+  override connect() {
     this.closeTimeout = null;
     document.addEventListener("keydown", this.handleKeyDown.bind(this));
     document.addEventListener("click", this.handleClickOutside.bind(this));
   }
 
-  disconnect() {
+  override disconnect() {
     if (this.closeTimeout) {
       clearTimeout(this.closeTimeout);
     }
@@ -17,13 +22,13 @@ export default class DropdownController extends Controller {
     document.removeEventListener("click", this.handleClickOutside.bind(this));
   }
 
-  handleClickOutside(event) {
-    if (this.isOpen && !this.element.contains(event.target)) {
+  handleClickOutside(event: MouseEvent) {
+    if (this.isOpen && !this.element.contains(event.target as Node)) {
       this.close();
     }
   }
 
-  toggle(event) {
+  toggle(event: MouseEvent) {
     event.stopPropagation();
     if (this.isOpen) {
       this.close();
@@ -56,7 +61,7 @@ export default class DropdownController extends Controller {
     }, 100);
   }
 
-  handleKeyDown(event) {
+  handleKeyDown(event: KeyboardEvent) {
     if (event.key === "Escape" && this.isOpen) {
       this.close();
     }

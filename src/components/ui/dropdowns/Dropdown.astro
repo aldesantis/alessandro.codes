@@ -39,11 +39,3 @@ const { label, href = "#", active = false } = Astro.props;
     </div>
   </div>
 </div>
-
-<script>
-  import DropdownController from "./dropdown-controller";
-  import { Application } from "@hotwired/stimulus";
-
-  const application = Application.start();
-  application.register("dropdown", DropdownController);
-</script>

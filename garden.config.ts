@@ -16,6 +16,7 @@ import {
   convertNotionLinksToWikilinks,
 } from "src/lib/garden/transformers";
 import type { Configuration } from "src/lib/garden/config";
+import type { GardenEntry } from "src/lib/garden/entries";
 
 const baseTransformers = [
   renameMdToMdx(),
@@ -57,7 +58,19 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "essays",
           transformers: digitalGardenTransformers,
-          urlBuilder: (slug) => `/essays/${slug}`,
+          search: {
+            label: "Essay",
+            buildUrlFn: (slug: string) => `/essays/${slug}`,
+            filterFn: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            buildSearchResultFn: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              type: "essays",
+              date: entry.data.createdAt ? new Date(entry.data.createdAt).toISOString() : undefined,
+            }),
+          },
         },
         {
           id: "notes",
@@ -65,14 +78,25 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "notes",
           transformers: digitalGardenTransformers,
-          urlBuilder: (slug) => `/notes/${slug}`,
+          search: {
+            label: "Note",
+            filterFn: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            buildUrlFn: (slug: string) => `/notes/${slug}`,
+            buildSearchResultFn: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              type: "notes" as const,
+              status: entry.data.status,
+            }),
+          },
         },
         {
-          id: "nows",
+          id: "nows" as const,
           basePath: "nows",
           pattern: "*.{md,mdx}",
           destinationPath: "nows",
-          urlBuilder: (slug) => `/now/${slug}`,
           transformers: [
             ...digitalGardenTransformers,
 
@@ -98,6 +122,18 @@ const config: Configuration = {
               return { path: originalPath, content: updatedContent };
             },
           ],
+          search: {
+            label: "Now",
+            buildUrlFn: (slug: string) => `/nows/${slug}`,
+            filterFn: (entry: GardenEntry, query: string) =>
+              entry.data.title.toLowerCase().includes(query.toLowerCase()),
+            buildSearchResultFn: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              type: "nows" as const,
+              date: entry.data.updatedAt ? new Date(entry.data.updatedAt).toISOString() : undefined,
+            }),
+          },
         },
         {
           id: "topics",
@@ -105,14 +141,12 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "topics",
           transformers: digitalGardenTransformers,
-          urlBuilder: (slug) => `/topics/${slug}`,
         },
         {
-          id: "books",
+          id: "books" as const,
           basePath: "readwise/books",
           pattern: "*.{md,mdx}",
           destinationPath: "books",
-          urlBuilder: (slug) => `/books/${slug}`,
           transformers: [
             ...digitalGardenTransformers,
 
@@ -132,6 +166,20 @@ const config: Configuration = {
               return { path: originalPath, content: updatedContent };
             },
           ],
+          search: {
+            label: "Book",
+            buildUrlFn: (slug: string) => `/books/${slug}`,
+            filterFn: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            buildSearchResultFn: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              url: `/books/${entry.id}`,
+              type: "books",
+              date: entry.data.updatedAt ? new Date(entry.data.updatedAt).toISOString() : undefined,
+            }),
+          },
         },
         {
           id: "articles",
@@ -139,7 +187,6 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "articles",
           transformers: digitalGardenTransformers,
-          urlBuilder: (slug) => `/articles/${slug}`,
         },
         {
           id: "talks",
@@ -165,6 +212,19 @@ const config: Configuration = {
               return { path: originalPath, content: updatedContent };
             },
           ],
+          search: {
+            label: "Talk",
+            buildUrlFn: () => `/talks`,
+            filterFn: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            buildSearchResultFn: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              type: "talks",
+              date: entry.data.createdAt ? new Date(entry.data.createdAt).toISOString() : undefined,
+            }),
+          },
         },
         {
           id: "pages",
@@ -199,7 +259,7 @@ const config: Configuration = {
       }),
       entryTypes: [
         {
-          id: "recipes",
+          id: "recipes" as const,
           pattern: "*.{md,mdx}",
           destinationPath: "recipes",
           transformers: [
@@ -222,6 +282,18 @@ const config: Configuration = {
             convertNotionLinksToWikilinks(),
             ...baseTransformers,
           ],
+          search: {
+            label: "Recipe",
+            filterFn: (entry: GardenEntry, query: string) => {
+              return entry.data.title.toLowerCase().includes(query.toLowerCase());
+            },
+            buildUrlFn: (slug: string) => `/recipes/${slug}`,
+            buildSearchResultFn: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              type: "recipes",
+            }),
+          },
         },
         {
           id: "recipe-illustrations",
@@ -249,4 +321,4 @@ const config: Configuration = {
 
 export const entryTypeIds = ["essays", "notes", "nows", "topics", "books", "articles", "recipes", "talks"] as const;
 
-export default config;
+export default config as Configuration;
