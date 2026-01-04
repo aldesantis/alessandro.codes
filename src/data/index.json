@@ -2145,6 +2145,18 @@
   },
   {
     "ids": [
+      "Spaghetti carbonara",
+      "2c9be6a9-2e83-80ec-9153-cd5140d109c7",
+      "2c9be6a92e8380ec9153cd5140d109c7",
+      "spaghetti-carbonara"
+    ],
+    "slug": "spaghetti-carbonara",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Spaghetti with butter and anchovies",
       "2a6be6a9-2e83-8000-8f3c-e63fca8bbbcd",
       "2a6be6a92e8380008f3ce63fca8bbbcd",
