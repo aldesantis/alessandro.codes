@@ -2,10 +2,10 @@
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import RecipeIllustration from "@components/garden/recipes/RecipeIllustration.astro";
-import GardenEntrySidebar from "@components/garden/GardenEntrySidebar.astro";
-import GardenEntryDetail from "@components/garden/GardenEntryDetail.astro";
-import RecipeMeta from "@components/garden/recipes/RecipeMeta.astro";
+import RecipeIllustration from "@components/content/recipes/RecipeIllustration.astro";
+import ContentSidebar from "@components/content/ContentSidebar.astro";
+import ContentDetail from "@components/content/ContentDetail.astro";
+import RecipeMeta from "@components/content/recipes/RecipeMeta.astro";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
@@ -22,15 +22,15 @@ const { recipe } = Astro.props;
 <title slot="head">{recipe.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <GardenEntryDetail entry={recipe}>
+  <ContentDetail entry={recipe}>
     <ArrowLink href="/recipes" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
       Recipes
     </ArrowLink>
 
     <RecipeMeta content={recipe} slot="meta" />
 
-    <GardenEntrySidebar entry={recipe} slot="sidebar">
+    <ContentSidebar entry={recipe} slot="sidebar">
       <RecipeIllustration recipe={recipe} class="w-full max-w-[250px] lg:max-w-full h-auto rounded mt-4 lg:mt-0" />
-    </GardenEntrySidebar>
-  </GardenEntryDetail>
+    </ContentSidebar>
+  </ContentDetail>
 </Layout>

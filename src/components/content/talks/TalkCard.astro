@@ -1,0 +1,34 @@
+---
+import LinkedCard from "@components/ui/LinkedCard.astro";
+import TalkMeta from "@components/content/talks/TalkMeta.astro";
+import type { CollectionEntry } from "astro:content";
+import { getYouTubeEmbedUrl } from "src/lib/utils/youtube";
+
+interface Props {
+  talk: CollectionEntry<"talks">;
+}
+
+const { talk } = Astro.props;
+const embedUrl = getYouTubeEmbedUrl(talk.data.url);
+---
+
+<LinkedCard href={talk.data.url}>
+  <h3 slot="title" class="font-sans text-lg">{talk.data.title}</h3>
+
+  <TalkMeta content={talk} />
+
+  <p class="mt-2 text-sm font-serif font-sm">
+    {talk.data.description}
+  </p>
+
+  <div class="w-full" slot="cover">
+    <iframe
+      class="w-full"
+      style="aspect-ratio: 16/9;"
+      src={embedUrl}
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+  </div>
+</LinkedCard>

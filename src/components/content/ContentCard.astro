@@ -1,0 +1,37 @@
+---
+import type { GardenEntry } from "src/lib/garden/entries";
+import EssayCard from "@components/content/essays/EssayCard.astro";
+import BookCard from "@components/content/books/BookCard.astro";
+import NoteCard from "@components/content/notes/NoteCard.astro";
+import TopicCard from "@components/content/topics/TopicCard.astro";
+import TalkCard from "@components/content/talks/TalkCard.astro";
+import { type CollectionEntry } from "astro:content";
+import RecipeCard from "@components/content/recipes/RecipeCard.astro";
+
+interface Props {
+  content: GardenEntry;
+}
+
+const { content } = Astro.props;
+---
+
+{
+  (() => {
+    switch (content.collection) {
+      case "essays":
+        return <EssayCard essay={content as CollectionEntry<"essays">} />;
+      case "books":
+        return <BookCard book={content as CollectionEntry<"books">} />;
+      case "notes":
+        return <NoteCard note={content as CollectionEntry<"notes">} />;
+      case "topics":
+        return <TopicCard topic={content as CollectionEntry<"topics">} />;
+      case "talks":
+        return <TalkCard talk={content as CollectionEntry<"talks">} />;
+      case "recipes":
+        return <RecipeCard recipe={content as CollectionEntry<"recipes">} />;
+      default:
+        return null;
+    }
+  })()
+}

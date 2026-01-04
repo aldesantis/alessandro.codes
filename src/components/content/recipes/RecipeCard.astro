@@ -1,0 +1,22 @@
+---
+import LinkedCard from "@components/ui/LinkedCard.astro";
+import RecipeMeta from "@components/content/recipes/RecipeMeta.astro";
+import RecipeIllustration from "@components/content/recipes/RecipeIllustration.astro";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  recipe: CollectionEntry<"recipes">;
+}
+
+const { recipe } = Astro.props;
+---
+
+<LinkedCard href={`/recipes/${recipe.id}`}>
+  <div slot="cover">
+    <RecipeIllustration recipe={recipe} class="object-cover object-top w-full" />
+  </div>
+
+  <h3 slot="title">{recipe.data.title}</h3>
+
+  <RecipeMeta content={recipe} compact />
+</LinkedCard>

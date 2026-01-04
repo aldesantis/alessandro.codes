@@ -1,0 +1,32 @@
+---
+import ContentSidebar from "@components/content/ContentSidebar.astro";
+import Prose from "@components/ui/Prose.astro";
+import { getMdxComponents } from "src/lib/rendering";
+import type { GardenEntry } from "src/lib/garden/entries";
+import { render } from "astro:content";
+import SidebarLayout from "@layouts/SidebarLayout.astro";
+
+export interface Props {
+  entry: GardenEntry;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<SidebarLayout>
+  <slot name="meta" slot="meta" />
+  <slot name="navigation" slot="navigation" />
+
+  <Fragment slot="title">
+    {entry.data.title}
+  </Fragment>
+
+  <slot name="sidebar" slot="sidebar">
+    <ContentSidebar entry={entry} />
+  </slot>
+
+  <Prose>
+    <Content components={getMdxComponents()} />
+  </Prose>
+</SidebarLayout>

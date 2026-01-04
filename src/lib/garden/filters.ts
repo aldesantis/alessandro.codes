@@ -21,9 +21,9 @@ export function createStatusFilterConfig(): FilterConfig {
   };
 }
 
-export function createTypeFilterConfig(): FilterConfig {
+export function createCollectionFilterConfig(): FilterConfig {
   return {
-    category: "types",
+    category: "collections",
     label: "Type",
     items: [
       { id: "essays", label: "Essays" },

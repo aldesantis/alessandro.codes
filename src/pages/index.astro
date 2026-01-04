@@ -4,14 +4,8 @@ import SectionHeading from "@components/ui/sections/SectionHeading.astro";
 import Section from "@components/ui/sections/Section.astro";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import { getEntries } from "src/lib/garden/entries";
 import sections from "src/data/sections.json";
-import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
-
-const essays = (await getEntries(["essays"])).slice(0, 6);
-const notes = (await getEntries(["notes"])).slice(0, 6);
-const books = (await getEntries(["books"])).slice(0, 6);
-const recipes = (await getEntries(["recipes"])).slice(0, 4);
+import ContentGrid from "@components/content/grid/ContentGrid.astro";
 ---
 
 <Layout>
@@ -37,24 +31,6 @@ const recipes = (await getEntries(["recipes"])).slice(0, 4);
 
     <hr class="border-gray-200" />
 
-    {
-      essays.length > 0 && (
-        <Section>
-          <div slot="heading">
-            <SectionHeading title="Essays" subtitle={sections.essays.description} />
-
-            <div class="mt-2 font-sans">
-              <ArrowLink class="text-sm" href="/essays" arrowDirection="right">
-                View all
-              </ArrowLink>
-            </div>
-          </div>
-
-          <GardenEntriesGrid items={essays} itemSize="L" layoutType="masonry" />
-        </Section>
-      )
-    }
-
     <Section>
       <div slot="heading">
         <SectionHeading title="Notes" subtitle={sections.notes.description} />
@@ -64,7 +40,7 @@ const recipes = (await getEntries(["recipes"])).slice(0, 4);
         </div>
       </div>
 
-      <GardenEntriesGrid items={notes} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["notes"], limit: 6 }} itemSize="L" layoutType="masonry" />
     </Section>
 
     <Section>
@@ -76,7 +52,7 @@ const recipes = (await getEntries(["recipes"])).slice(0, 4);
         </div>
       </div>
 
-      <GardenEntriesGrid items={books} itemSize="M" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["books"], limit: 6 }} itemSize="M" layoutType="masonry" />
     </Section>
 
     <Section>
@@ -88,7 +64,7 @@ const recipes = (await getEntries(["recipes"])).slice(0, 4);
         </div>
       </div>
 
-      <GardenEntriesGrid items={recipes} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["recipes"], limit: 4 }} itemSize="L" layoutType="masonry" />
     </Section>
   </div>
 </Layout>

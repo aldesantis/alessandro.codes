@@ -2,8 +2,8 @@
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import GardenEntryDetail from "@components/garden/GardenEntryDetail.astro";
-import NoteMeta from "@components/garden/notes/NoteMeta.astro";
+import ContentDetail from "@components/content/ContentDetail.astro";
+import NoteMeta from "@components/content/notes/NoteMeta.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("notes");
@@ -20,11 +20,11 @@ const { note } = Astro.props;
 <title slot="head">{note.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <GardenEntryDetail entry={note}>
+  <ContentDetail entry={note}>
     <ArrowLink href="/notes" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
       Notes
     </ArrowLink>
 
     <NoteMeta content={note} slot="meta" />
-  </GardenEntryDetail>
+  </ContentDetail>
 </Layout>

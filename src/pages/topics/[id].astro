@@ -2,13 +2,10 @@
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
-import { render } from "astro:content";
-import { getMdxComponents } from "src/lib/rendering";
-import Prose from "@components/ui/Prose.astro";
-import TopicMeta from "@components/garden/topics/TopicMeta.astro";
-import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
-import { getRelatedEntries } from "src/lib/garden/entries";
-import { createStatusFilterConfig, createTypeFilterConfig } from "src/lib/garden/filters";
+import TopicMeta from "@components/content/topics/TopicMeta.astro";
+import ContentGrid from "@components/content/grid/ContentGrid.astro";
+import { createStatusFilterConfig, createCollectionFilterConfig } from "src/lib/garden/filters";
+import ContentDetail from "@components/content/ContentDetail.astro";
 
 export async function getStaticPaths() {
   const topics = await getCollection("topics");
@@ -20,41 +17,28 @@ export async function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
-const { Content } = await render(topic);
-const relatedContent = await getRelatedEntries(topic);
 
-const filters = [createStatusFilterConfig(), createTypeFilterConfig()];
+const filters = [createStatusFilterConfig(), createCollectionFilterConfig()];
 ---
 
 <title slot="head">{topic.data.title} | Alessandro Desantis</title>
 
 <Layout>
-  <div class="max-w-3xl mx-auto">
-    <div class="mb-4">
-      <ArrowLink href="/topics" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
-        Topics
-      </ArrowLink>
+  <ContentDetail entry={topic}>
+    <ArrowLink href="/topics" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+      Topics
+    </ArrowLink>
 
-      <h1 class="text-4xl font-semibold font-sans mt-2 mb-1">
-        {topic.data.title}
-      </h1>
+    <TopicMeta content={topic} slot="meta" />
+  </ContentDetail>
 
-      <div class="mb-2">
-        <TopicMeta content={topic} />
-      </div>
-    </div>
-
-    <Prose>
-      <Content components={getMdxComponents()} />
-    </Prose>
+  <div class="mt-12">
+    <hr class="mb-6 border-gray-200" />
+    <ContentGrid
+      searchParams={{ relatedTo: topic.id, collections: ["essays", "books", "notes", "talks", "recipes"] }}
+      itemSize="M"
+      filters={filters}
+      layoutType="masonry"
+    />
   </div>
-
-  {
-    relatedContent.length > 0 && (
-      <div class="mt-12">
-        <hr class="mb-6 border-gray-200" />
-        <GardenEntriesGrid items={relatedContent} itemSize="M" filters={filters} layoutType="masonry" />
-      </div>
-    )
-  }
 </Layout>

@@ -61,9 +61,6 @@ const config: Configuration = {
           search: {
             label: "Essay",
             buildUrlFn: (slug: string) => `/essays/${slug}`,
-            filterFn: (entry: GardenEntry, query: string) => {
-              return entry.data.title.toLowerCase().includes(query.toLowerCase());
-            },
             buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
@@ -80,9 +77,6 @@ const config: Configuration = {
           transformers: digitalGardenTransformers,
           search: {
             label: "Note",
-            filterFn: (entry: GardenEntry, query: string) => {
-              return entry.data.title.toLowerCase().includes(query.toLowerCase());
-            },
             buildUrlFn: (slug: string) => `/notes/${slug}`,
             buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
@@ -125,8 +119,6 @@ const config: Configuration = {
           search: {
             label: "Now",
             buildUrlFn: (slug: string) => `/nows/${slug}`,
-            filterFn: (entry: GardenEntry, query: string) =>
-              entry.data.title.toLowerCase().includes(query.toLowerCase()),
             buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
@@ -141,6 +133,15 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "topics",
           transformers: digitalGardenTransformers,
+          search: {
+            label: "Topic",
+            buildUrlFn: (slug: string) => `/topics/${slug}`,
+            buildSearchResultFn: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              type: "topics" as const,
+            }),
+          },
         },
         {
           id: "books" as const,
@@ -169,9 +170,6 @@ const config: Configuration = {
           search: {
             label: "Book",
             buildUrlFn: (slug: string) => `/books/${slug}`,
-            filterFn: (entry: GardenEntry, query: string) => {
-              return entry.data.title.toLowerCase().includes(query.toLowerCase());
-            },
             buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
@@ -215,9 +213,6 @@ const config: Configuration = {
           search: {
             label: "Talk",
             buildUrlFn: () => `/talks`,
-            filterFn: (entry: GardenEntry, query: string) => {
-              return entry.data.title.toLowerCase().includes(query.toLowerCase());
-            },
             buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,
               name: entry.data.title,
@@ -284,9 +279,6 @@ const config: Configuration = {
           ],
           search: {
             label: "Recipe",
-            filterFn: (entry: GardenEntry, query: string) => {
-              return entry.data.title.toLowerCase().includes(query.toLowerCase());
-            },
             buildUrlFn: (slug: string) => `/recipes/${slug}`,
             buildSearchResultFn: (entry: GardenEntry) => ({
               id: entry.id,

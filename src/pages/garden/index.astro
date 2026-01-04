@@ -1,13 +1,12 @@
 ---
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getEntries } from "src/lib/garden/entries";
-import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
-import { createStatusFilterConfig, createTopicFilterConfig, createTypeFilterConfig } from "src/lib/garden/filters";
-
-const content = await getEntries(["essays", "books", "notes", "talks"]);
-
-const filters = [createStatusFilterConfig(), await createTopicFilterConfig(), createTypeFilterConfig()];
+import ContentGrid from "@components/content/grid/ContentGrid.astro";
+import {
+  createStatusFilterConfig,
+  createTopicFilterConfig,
+  createCollectionFilterConfig,
+} from "src/lib/garden/filters";
 ---
 
 <Layout>
@@ -18,5 +17,10 @@ const filters = [createStatusFilterConfig(), await createTopicFilterConfig(), cr
     <span slot="subheading"> A collection of everything I'm thinking about, reading, and writing. </span>
   </Hero>
 
-  <GardenEntriesGrid items={content} itemSize="M" filters={filters} layoutType="masonry" />
+  <ContentGrid
+    searchParams={{ collections: ["essays", "books", "notes", "talks"] }}
+    itemSize="M"
+    filters={[createStatusFilterConfig(), await createTopicFilterConfig(), createCollectionFilterConfig()]}
+    layoutType="masonry"
+  />
 </Layout>

@@ -1,0 +1,82 @@
+---
+import type { CollectionEntry } from "astro:content";
+import RelativeDate from "@components/ui/RelativeDate.astro";
+import types from "./types.json";
+import cuisines from "./cuisines.json";
+import diets from "./diets.json";
+
+export interface Props {
+  content: CollectionEntry<"recipes">;
+  compact?: boolean;
+}
+
+const { content, compact = false } = Astro.props;
+
+type recipeType = CollectionEntry<"recipes">["data"]["type"];
+type RecipeCuisine = CollectionEntry<"recipes">["data"]["cuisine"];
+type RecipeDiet = CollectionEntry<"recipes">["data"]["diets"][number];
+
+const TYPE_MAP = types satisfies Record<recipeType, { emoji: string; label: string }>;
+const CUISINE_MAP = cuisines satisfies Record<RecipeCuisine, { emoji: string; label: string }>;
+const DIET_MAP = diets satisfies Record<RecipeDiet, { emoji: string; label: string }>;
+
+function getTypeDisplay(type: recipeType): string {
+  return `${TYPE_MAP[type].emoji} ${TYPE_MAP[type].label}`;
+}
+
+function getCuisineDisplay(cuisine: RecipeCuisine): string {
+  return `${CUISINE_MAP[cuisine].emoji} ${CUISINE_MAP[cuisine].label}`;
+}
+
+function getDietDisplay(diet: RecipeDiet): string {
+  return `${DIET_MAP[diet].emoji} ${DIET_MAP[diet].label}`;
+}
+---
+
+<div class="text-sm text-stone-500 font-sans">
+  {
+    content.data.updatedAt && (
+      <>
+        <span>
+          Revisited <RelativeDate date={content.data.updatedAt} />
+        </span>
+      </>
+    )
+  }
+
+  {
+    content.data.type && (
+      <>
+        <span class="mx-0.5">•</span>
+        <span>{getTypeDisplay(content.data.type)}</span>
+      </>
+    )
+  }
+
+  {
+    content.data.cuisine && (
+      <>
+        <span class="mx-0.5">•</span>
+        <span>{getCuisineDisplay(content.data.cuisine)}</span>
+      </>
+    )
+  }
+
+  {
+    !compact && content.data.diets && content.data.diets.length > 0 && (
+      <>
+        <span class="mx-0.5">•</span>
+        <span>{content.data.diets.map((diet) => getDietDisplay(diet)).join(", ")}</span>
+      </>
+    )
+  }
+
+  {
+    !compact && content.data.serves && (
+      <>
+        <span class="mx-0.5">•</span>
+        <span>Serves {content.data.serves}</span>
+      </>
+    )
+  }
+</div>

@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from "astro:content";
+import TopicList from "@components/content/topics/TopicList.astro";
+import RelativeDate from "@components/ui/RelativeDate.astro";
+export interface Props {
+  content: CollectionEntry<"books">;
+  compact?: boolean;
+}
+
+const { content, compact = false } = Astro.props;
+---
+
+<div class="text-sm text-stone-500 font-sans">
+  <span>By {content.data.author}</span>
+
+  <span class="mx-0.5">•</span>
+
+  <span>
+    Revisited{" "}
+    <RelativeDate date={content.data.lastHighlightedOn} />
+  </span>
+
+  {
+    !compact && content.data.topics && content.data.topics.length > 0 && (
+      <>
+        <span class="mx-0.5">•</span>
+        <TopicList topics={content.data.topics} />
+      </>
+    )
+  }
+</div>
