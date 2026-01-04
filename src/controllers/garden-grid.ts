@@ -33,7 +33,16 @@ export default class GardenGridController extends Controller {
   declare readonly cardTemplateTarget: HTMLTemplateElement;
   declare readonly checkboxTargets: HTMLInputElement[];
   declare readonly allCheckboxTargets: HTMLInputElement[];
-  declare searchParamsValue: { name?: string; collections?: GardenEntryTypeId[]; status?: string[]; topics?: string[] };
+  declare searchParamsValue: {
+    name?: string;
+    collections?: GardenEntryTypeId[];
+    status?: string[];
+    topics?: string[];
+    cuisine?: string[];
+    diet?: string[];
+    recipeType?: string[];
+    relatedTo?: string;
+  };
   declare filtersValue: Filters;
 
   private isLoading = false;
@@ -137,6 +146,18 @@ export default class GardenGridController extends Controller {
       }
       if (this.filtersValue.topics && !this.filtersValue.topics.includes("all")) {
         searchParams.topics = this.filtersValue.topics;
+      }
+      if (this.filtersValue.cuisine && !this.filtersValue.cuisine.includes("all")) {
+        searchParams.cuisine = this.filtersValue.cuisine;
+      }
+      if (this.filtersValue.diet && !this.filtersValue.diet.includes("all")) {
+        searchParams.diet = this.filtersValue.diet;
+      }
+      if (this.filtersValue.recipeType && !this.filtersValue.recipeType.includes("all")) {
+        searchParams.recipeType = this.filtersValue.recipeType;
+      }
+      if (this.filtersValue.collections && !this.filtersValue.collections.includes("all")) {
+        searchParams.collections = this.filtersValue.collections as GardenEntryTypeId[];
       }
 
       const result = await actions.search(searchParams);

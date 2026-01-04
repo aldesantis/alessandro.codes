@@ -2,7 +2,11 @@
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
-import { createStatusFilterConfig, createTopicFilterConfig, createTypeFilterConfig } from "src/lib/garden/filters";
+import {
+  createStatusFilterConfig,
+  createTopicFilterConfig,
+  createCollectionFilterConfig,
+} from "src/lib/garden/filters";
 ---
 
 <Layout>
@@ -16,7 +20,7 @@ import { createStatusFilterConfig, createTopicFilterConfig, createTypeFilterConf
   <GardenGrid
     searchParams={{ collections: ["essays", "books", "notes", "talks"] }}
     itemSize="M"
-    filters={[createStatusFilterConfig(), await createTopicFilterConfig(), createTypeFilterConfig()]}
+    filters={[createStatusFilterConfig(), await createTopicFilterConfig(), createCollectionFilterConfig()]}
     layoutType="masonry"
   />
 </Layout>

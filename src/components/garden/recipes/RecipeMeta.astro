@@ -12,15 +12,15 @@ export interface Props {
 
 const { content, compact = false } = Astro.props;
 
-type RecipeType = CollectionEntry<"recipes">["data"]["type"];
+type recipeType = CollectionEntry<"recipes">["data"]["type"];
 type RecipeCuisine = CollectionEntry<"recipes">["data"]["cuisine"];
 type RecipeDiet = CollectionEntry<"recipes">["data"]["diets"][number];
 
-const TYPE_MAP = types satisfies Record<RecipeType, { emoji: string; label: string }>;
+const TYPE_MAP = types satisfies Record<recipeType, { emoji: string; label: string }>;
 const CUISINE_MAP = cuisines satisfies Record<RecipeCuisine, { emoji: string; label: string }>;
 const DIET_MAP = diets satisfies Record<RecipeDiet, { emoji: string; label: string }>;
 
-function getTypeDisplay(type: RecipeType): string {
+function getTypeDisplay(type: recipeType): string {
   return `${TYPE_MAP[type].emoji} ${TYPE_MAP[type].label}`;
 }
 

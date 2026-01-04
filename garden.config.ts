@@ -133,6 +133,15 @@ const config: Configuration = {
           pattern: "*.{md,mdx}",
           destinationPath: "topics",
           transformers: digitalGardenTransformers,
+          search: {
+            label: "Topic",
+            buildUrlFn: (slug: string) => `/topics/${slug}`,
+            buildSearchResultFn: (entry: GardenEntry) => ({
+              id: entry.id,
+              name: entry.data.title,
+              type: "topics" as const,
+            }),
+          },
         },
         {
           id: "books" as const,

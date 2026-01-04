@@ -2,13 +2,8 @@
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { getEntries } from "src/lib/garden/entries";
-import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
+import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
 import { createTopicFilterConfig } from "src/lib/garden/filters";
-
-const talks = await getEntries(["talks"]);
-
-const filters = [await createTopicFilterConfig()];
 ---
 
 <Layout>
@@ -21,5 +16,5 @@ const filters = [await createTopicFilterConfig()];
     </span>
   </Hero>
 
-  <GardenEntriesGrid items={talks} itemSize="L" filters={filters} />
+  <GardenGrid searchParams={{ collections: ["talks"] }} itemSize="L" filters={[await createTopicFilterConfig()]} />
 </Layout>

@@ -1,12 +1,10 @@
 ---
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import { getEntries, type GardenEntry } from "src/lib/garden/entries";
 import sections from "src/data/sections.json";
-import GardenEntriesGrid from "@components/garden/entries-grid/GardenEntriesGrid.astro";
+import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
+import type { GardenEntry } from "src/lib/garden/entries";
 import type { FilterConfig } from "src/lib/garden/filters";
-
-const recipes = await getEntries(["recipes"]);
 
 const filters: FilterConfig[] = [
   {
@@ -46,7 +44,7 @@ const filters: FilterConfig[] = [
     },
   },
   {
-    category: "recipe-type",
+    category: "recipeType",
     label: "Course",
     items: [
       { id: "starter", label: "🥗 Starter" },
@@ -79,5 +77,5 @@ const filters: FilterConfig[] = [
     </span>
   </Hero>
 
-  <GardenEntriesGrid items={recipes} itemSize="M" filters={filters} />
+  <GardenGrid searchParams={{ collections: ["recipes"] }} itemSize="M" filters={filters} />
 </Layout>
