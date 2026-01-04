@@ -19,7 +19,6 @@ export interface EntryType {
   transformers: Transformer[];
   search?: {
     label: string;
-    filterFn: (entry: GardenEntry, query: string) => boolean;
     buildSearchResultFn: (entry: GardenEntry) => SearchResult;
     buildUrlFn: (slug: string) => string;
   };

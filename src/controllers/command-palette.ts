@@ -158,7 +158,7 @@ export default class CommandPaletteController extends Controller {
     this.isLoading = true;
 
     try {
-      const result = await actions.search({ query });
+      const result = await actions.search({ name: query });
 
       if (result.error) {
         console.error("Error fetching search results:", result.error);
