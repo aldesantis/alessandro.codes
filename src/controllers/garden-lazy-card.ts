@@ -47,17 +47,17 @@ export default class GardenLazyCardController extends Controller {
   private getPlaceholderHTML(): string {
     return `
       <div class="lazy-card-placeholder bg-white rounded overflow-hidden">
-        <div class="w-full h-48 bg-gray-200 dark:bg-gray-700 animate-pulse"></div>
+        <div class="w-full h-48 bg-gray-200 animate-pulse"></div>
         <div class="p-4 space-y-4">
-          <div class="h-6 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+          <div class="h-6 bg-gray-200 rounded animate-pulse"></div>
           <div class="flex space-x-2">
-            <div class="h-4 w-20 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
-            <div class="h-4 w-16 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+            <div class="h-4 w-20 bg-gray-200 rounded animate-pulse"></div>
+            <div class="h-4 w-16 bg-gray-200 rounded animate-pulse"></div>
           </div>
           <div class="space-y-2">
-            <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
-            <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded animate-pulse w-5/6"></div>
-            <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded animate-pulse w-4/6"></div>
+            <div class="h-3 bg-gray-200 rounded animate-pulse"></div>
+            <div class="h-3 bg-gray-200 rounded animate-pulse w-5/6"></div>
+            <div class="h-3 bg-gray-200 rounded animate-pulse w-4/6"></div>
           </div>
         </div>
       </div>
