@@ -7,10 +7,23 @@ type SearchResultResponse = SearchResult & {
   url: string;
 };
 
+interface Filters {
+  [category: string]: string[];
+}
+
 export default class GardenGridController extends Controller {
-  static override targets = ["grid", "loadingTemplate", "emptyTemplate", "errorTemplate", "cardTemplate"];
+  static override targets = [
+    "grid",
+    "loadingTemplate",
+    "emptyTemplate",
+    "errorTemplate",
+    "cardTemplate",
+    "checkbox",
+    "allCheckbox",
+  ];
   static override values = {
     searchParams: { type: Object, default: {} },
+    filters: { type: Object, default: {} },
   };
 
   declare readonly gridTarget: HTMLElement;
@@ -18,12 +31,94 @@ export default class GardenGridController extends Controller {
   declare readonly emptyTemplateTarget: HTMLTemplateElement;
   declare readonly errorTemplateTarget: HTMLTemplateElement;
   declare readonly cardTemplateTarget: HTMLTemplateElement;
-  declare searchParamsValue: { name?: string; collections?: GardenEntryTypeId[] };
+  declare readonly checkboxTargets: HTMLInputElement[];
+  declare readonly allCheckboxTargets: HTMLInputElement[];
+  declare searchParamsValue: { name?: string; collections?: GardenEntryTypeId[]; status?: string[]; topics?: string[] };
+  declare filtersValue: Filters;
 
   private isLoading = false;
 
   override connect(): void {
+    this.updateCheckboxStates();
     this.performSearch();
+  }
+
+  updateFilter(event: Event): void {
+    const checkbox = event.currentTarget as HTMLInputElement;
+    const { filterType, filterCategory } = checkbox.dataset;
+    const isChecked = checkbox.checked;
+
+    if (!filterType || !filterCategory) {
+      return;
+    }
+
+    if (filterType === "all") {
+      this.handleAllFilter(filterCategory, isChecked, checkbox);
+    } else {
+      this.handleSpecificFilter(filterCategory, filterType, isChecked);
+    }
+
+    this.updateCheckboxStates();
+    this.performSearch();
+  }
+
+  private handleAllFilter(category: string, isChecked: boolean, checkbox: HTMLInputElement): void {
+    if (isChecked) {
+      this.filtersValue = { ...this.filtersValue, [category]: ["all"] };
+      this.uncheckOtherCheckboxes(checkbox);
+    } else {
+      checkbox.checked = true;
+    }
+  }
+
+  private handleSpecificFilter(category: string, filterType: string, isChecked: boolean): void {
+    const currentFilters = this.filtersValue[category] || ["all"];
+    const allCheckbox = this.allCheckboxTargets.find((cb) => cb.dataset.filterCategory === category);
+
+    if (isChecked) {
+      const newFilters = currentFilters.filter((f) => f !== "all");
+      this.filtersValue = { ...this.filtersValue, [category]: [...newFilters, filterType] };
+      if (allCheckbox) allCheckbox.checked = false;
+    } else {
+      const newFilters = currentFilters.filter((f) => f !== filterType);
+      this.filtersValue = {
+        ...this.filtersValue,
+        [category]: newFilters.length ? newFilters : ["all"],
+      };
+      if (newFilters.length === 0 && allCheckbox) allCheckbox.checked = true;
+    }
+  }
+
+  private uncheckOtherCheckboxes(checkbox: HTMLInputElement): void {
+    const { filterCategory } = checkbox.dataset;
+    if (!filterCategory) {
+      return;
+    }
+
+    this.checkboxTargets
+      .filter((cb) => cb.dataset.filterCategory === filterCategory && cb.dataset.filterType !== "all")
+      .forEach((cb) => (cb.checked = false));
+  }
+
+  private updateCheckboxStates(): void {
+    Object.keys(this.filtersValue).forEach((category) => {
+      const selectedFilters = this.filtersValue[category] || ["all"];
+      const isAllSelected = selectedFilters.includes("all");
+
+      const allCheckbox = this.allCheckboxTargets.find((cb) => cb.dataset.filterCategory === category);
+      if (allCheckbox) {
+        allCheckbox.checked = isAllSelected;
+      }
+
+      this.checkboxTargets
+        .filter((cb) => cb.dataset.filterCategory === category && cb.dataset.filterType !== "all")
+        .forEach((cb) => {
+          const filterType = cb.dataset.filterType;
+          if (filterType) {
+            cb.checked = !isAllSelected && selectedFilters.includes(filterType);
+          }
+        });
+    });
   }
 
   async performSearch(): Promise<void> {
@@ -35,7 +130,16 @@ export default class GardenGridController extends Controller {
     this.showLoading();
 
     try {
-      const result = await actions.search(this.searchParamsValue);
+      const searchParams: typeof this.searchParamsValue = { ...this.searchParamsValue };
+
+      if (this.filtersValue.status && !this.filtersValue.status.includes("all")) {
+        searchParams.status = this.filtersValue.status;
+      }
+      if (this.filtersValue.topics && !this.filtersValue.topics.includes("all")) {
+        searchParams.topics = this.filtersValue.topics;
+      }
+
+      const result = await actions.search(searchParams);
 
       if (result.error) {
         console.error("Error fetching search results:", result.error);

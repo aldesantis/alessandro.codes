@@ -1,14 +1,17 @@
 ---
 import { search } from "src/actions/search";
 import Card from "@components/ui/Card.astro";
+import GardenFilterDropdown from "./GardenFilterDropdown.astro";
+import type { FilterConfig } from "src/lib/garden/filters";
 
 interface Props {
   searchParams: Parameters<typeof search>[0];
   itemSize: "S" | "M" | "L";
   layoutType?: "grid" | "masonry";
+  filters?: FilterConfig[];
 }
 
-const { searchParams, itemSize, layoutType = "grid" } = Astro.props;
+const { searchParams, itemSize, layoutType = "grid", filters = [] } = Astro.props;
 
 function getGridColumnsForSize(size: "S" | "M" | "L"): string {
   switch (size) {
@@ -37,6 +40,15 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
   class="space-y-4"
   data-controller="garden-grid"
   data-garden-grid-search-params-value={JSON.stringify(searchParams)}
+  data-garden-grid-filters-value={JSON.stringify(
+    filters.reduce(
+      (acc, filter) => {
+        acc[filter.category] = ["all"];
+        return acc;
+      },
+      {} as Record<string, string[]>
+    )
+  )}
 >
   <template data-garden-grid-target="loadingTemplate">
     <div class={layoutType === "grid" ? "col-span-full" : "[column-span:all]"}>
@@ -61,6 +73,16 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
       </Card>
     </div>
   </template>
+
+  {
+    filters.length > 0 && (
+      <div class="flex gap-2">
+        {filters.map((filter) => (
+          <GardenFilterDropdown label={filter.label} filterCategory={filter.category} items={filter.items} />
+        ))}
+      </div>
+    )
+  }
 
   <template data-garden-grid-target="cardTemplate">
     <div

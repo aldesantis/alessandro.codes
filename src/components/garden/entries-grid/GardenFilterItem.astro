@@ -17,10 +17,10 @@ const { id, label, filterCategory, isAll = false } = Astro.props;
   <Checkbox
     id={id}
     checked={isAll}
-    data-action="change->garden-entries-grid#filter"
+    data-action="change->garden-grid#updateFilter"
     data-filter-category={filterCategory}
     data-filter-type={id}
-    data-garden-entries-grid-target={isAll ? "allCheckbox" : "checkbox"}
+    data-garden-grid-target={isAll ? "allCheckbox" : "checkbox"}
   />
   <span class="text-xs group-hover:text-orange-500">{label}</span>
 </label>

@@ -4,14 +4,14 @@ import { z } from "astro/zod";
 import { getEntries, type GardenEntryTypeId } from "src/lib/garden/entries";
 import type { SearchResult } from "src/lib/garden/config";
 import config, { entryTypeIds } from "garden.config";
-import { applyFilters, createNameFilter } from "src/lib/garden/search-filters";
+import { applyFilters, createNameFilter, createStatusFilter, createTopicFilter } from "src/lib/garden/search-filters";
 
 type SearchResultResponse = SearchResult & {
   url: string;
 };
 
 async function getResults(
-  name: string | undefined,
+  { name, status, topics }: { name?: string; status?: string[]; topics?: string[] },
   { collections }: { collections: GardenEntryTypeId[] },
   { limit }: { limit?: number }
 ): Promise<SearchResultResponse[]> {
@@ -23,7 +23,7 @@ async function getResults(
 
   const searchResults: SearchResultResponse[] = [];
 
-  const filters = [createNameFilter()];
+  const filters = [createNameFilter(), createStatusFilter(), createTopicFilter()];
 
   for (const entryType of entryTypes) {
     const entriesForType = entries.filter((e) => e.collection === entryType.id);
@@ -31,6 +31,8 @@ async function getResults(
     const filteredEntries = applyFilters(entriesForType, filters, {
       name,
       entryType,
+      status,
+      topics,
     });
 
     const searchResultsForType = filteredEntries.map((entry) => entryType.search!.buildSearchResultFn(entry));
@@ -48,9 +50,11 @@ export const search = defineAction({
     name: z.string().optional(),
     collections: z.array(z.enum(entryTypeIds)).default([...entryTypeIds]),
     limit: z.number().optional(),
+    status: z.array(z.string()).optional(),
+    topics: z.array(z.string()).optional(),
   }),
-  handler: async ({ name, collections, limit }) => {
-    const items = await getResults(name, { collections }, { limit });
+  handler: async ({ name, collections, limit, status, topics }) => {
+    const items = await getResults({ name, status, topics }, { collections }, { limit });
 
     return { items };
   },
