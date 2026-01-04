@@ -33,18 +33,6 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
 
     <Section>
       <div slot="heading">
-        <SectionHeading title="Essays" subtitle={sections.essays.description} />
-
-        <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/essays" arrowDirection="right"> View all </ArrowLink>
-        </div>
-      </div>
-
-      <ContentGrid searchParams={{ collections: ["essays"], limit: 4 }} itemSize="L" layoutType="masonry" />
-    </Section>
-
-    <Section>
-      <div slot="heading">
         <SectionHeading title="Notes" subtitle={sections.notes.description} />
 
         <div class="mt-2 font-sans">
