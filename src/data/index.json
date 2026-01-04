@@ -1689,6 +1689,18 @@
   },
   {
     "ids": [
+      "Fusilli with tuna and zucchini",
+      "9dd5aa7f-ac83-47bb-ab16-91e077693827",
+      "9dd5aa7fac8347bbab1691e077693827",
+      "fusilli-with-tuna-and-zucchini"
+    ],
+    "slug": "fusilli-with-tuna-and-zucchini",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Gricia",
       "16ebe6a9-2e83-80ce-aa67-d3167df30869",
       "16ebe6a92e8380ceaa67d3167df30869",
@@ -1788,6 +1800,18 @@
   },
   {
     "ids": [
+      "Panko beef cutlets",
+      "2ddbe6a9-2e83-80c7-b7fd-c5fba5cc1853",
+      "2ddbe6a92e8380c7b7fdc5fba5cc1853",
+      "panko-beef-cutlets"
+    ],
+    "slug": "panko-beef-cutlets",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Paprika kale chips",
       "2b8585d1-ca38-4c0e-bebd-f58e636acfc2",
       "2b8585d1ca384c0ebebdf58e636acfc2",
@@ -1823,6 +1847,18 @@
       "pasta-with-nduja-and-cherry-tomatoes"
     ],
     "slug": "pasta-with-nduja-and-cherry-tomatoes",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Peanut butter and banana toast",
+      "109be6a9-2e83-8006-9ac0-cb23ecb430f9",
+      "109be6a92e8380069ac0cb23ecb430f9",
+      "peanut-butter-and-banana-toast"
+    ],
+    "slug": "peanut-butter-and-banana-toast",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -1874,6 +1910,23 @@
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ponzu sauce",
+      "4527a38f-f3cd-481b-bb60-b97987705c9b",
+      "4527a38ff3cd481bbb60b97987705c9b",
+      "ponzu-sauce"
+    ],
+    "slug": "ponzu-sauce",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "slug": "tuna-tataki",
+        "type": "recipes"
+      }
+    ]
   },
   {
     "ids": [
@@ -2011,6 +2064,18 @@
   },
   {
     "ids": [
+      "Salmon and pistachio tartare",
+      "6d65826c-36af-4ac8-9a96-80cfb0cb772d",
+      "6d65826c36af4ac89a9680cfb0cb772d",
+      "salmon-and-pistachio-tartare"
+    ],
+    "slug": "salmon-and-pistachio-tartare",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Sausage and potatoes",
       "2cfbe6a9-2e83-80c9-9af9-ea8928ec68d0",
       "2cfbe6a92e8380c99af9ea8928ec68d0",
@@ -2041,6 +2106,18 @@
       "shrimp-stock"
     ],
     "slug": "shrimp-stock",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti aglio e olio",
+      "82f6fb5d-e723-4eaa-b8aa-ebd3860dde81",
+      "82f6fb5de7234eaab8aaebd3860dde81",
+      "spaghetti-aglio-e-olio"
+    ],
+    "slug": "spaghetti-aglio-e-olio",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -2140,6 +2217,18 @@
   },
   {
     "ids": [
+      "Tonkatsu sauce",
+      "6594d7bb-393e-4743-8451-89924d1f5cd5",
+      "6594d7bb393e4743845189924d1f5cd5",
+      "tonkatsu-sauce"
+    ],
+    "slug": "tonkatsu-sauce",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Tortiglioni with radicchio and walnuts",
       "15dbe6a9-2e83-806c-b7aa-caabdfd43cd0",
       "15dbe6a92e83806cb7aacaabdfd43cd0",
@@ -2164,6 +2253,18 @@
   },
   {
     "ids": [
+      "Tuna tartare",
+      "5f6517ed-69ed-4f5c-8e8d-c573f1605e77",
+      "5f6517ed69ed4f5c8e8dc573f1605e77",
+      "tuna-tartare"
+    ],
+    "slug": "tuna-tartare",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Tuna tataki",
       "2d8be6a9-2e83-80c3-85b8-eaed8a1477d1",
       "2d8be6a92e8380c385b8eaed8a1477d1",
@@ -2171,7 +2272,12 @@
     ],
     "slug": "tuna-tataki",
     "type": "recipes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "ponzu-sauce",
+        "type": "recipes"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2224,6 +2330,18 @@
       "vegetarian-cabbage-rolls"
     ],
     "slug": "vegetarian-cabbage-rolls",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Wasabi mayo",
+      "87e3f780-74a1-4fdb-99d4-4f3ead7c6137",
+      "87e3f78074a14fdb99d44f3ead7c6137",
+      "wasabi-mayo"
+    ],
+    "slug": "wasabi-mayo",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -6034,6 +6152,15 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "most-learning-is-parabola-shaped"
+    ],
+    "slug": "most-learning-is-parabola-shaped",
+    "type": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
