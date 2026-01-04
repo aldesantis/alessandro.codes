@@ -1,0 +1,6 @@
+{
+  "omnivore": { "emoji": "🥩", "label": "Omnivore" },
+  "vegetarian": { "emoji": "🥬", "label": "Vegetarian" },
+  "vegan": { "emoji": "🌱", "label": "Vegan" },
+  "pescatarian": { "emoji": "🐟", "label": "Pescatarian" }
+}

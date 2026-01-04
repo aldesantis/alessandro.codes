@@ -93,7 +93,7 @@ export const collections = {
   recipes: defineCollection({
     schema: baseSchema.extend(
       z.object({
-        cuisine: z.enum(["tex-mex", "mediterranean", "bbq", "asian", "indian", "american"]),
+        cuisine: z.enum(["tex-mex", "mediterranean", "bbq", "asian", "indian", "american", "italian"]),
         diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescatarian"])),
         type: z.enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"]),
         serves: z.preprocess((val) => (val === null ? undefined : val), z.number().optional()),

@@ -1,6 +1,9 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import RelativeDate from "@components/ui/RelativeDate.astro";
+import types from "./types.json";
+import cuisines from "./cuisines.json";
+import diets from "./diets.json";
 
 export interface Props {
   content: CollectionEntry<"recipes">;
@@ -9,58 +12,24 @@ export interface Props {
 
 const { content, compact = false } = Astro.props;
 
-function getTypeEmoji(type: string): string {
-  const emojiMap: Record<string, string> = {
-    starter: "🥗",
-    "first-course": "🍝",
-    "main-course": "🍽️",
-    "single-dish": "🍲",
-    sauce: "🍯",
-    side: "🥔",
-    dessert: "🍰",
-    other: "🍴",
-  };
-  return emojiMap[type] || "🍴";
+type RecipeType = CollectionEntry<"recipes">["data"]["type"];
+type RecipeCuisine = CollectionEntry<"recipes">["data"]["cuisine"];
+type RecipeDiet = CollectionEntry<"recipes">["data"]["diets"][number];
+
+const TYPE_MAP = types satisfies Record<RecipeType, { emoji: string; label: string }>;
+const CUISINE_MAP = cuisines satisfies Record<RecipeCuisine, { emoji: string; label: string }>;
+const DIET_MAP = diets satisfies Record<RecipeDiet, { emoji: string; label: string }>;
+
+function getTypeDisplay(type: RecipeType): string {
+  return `${TYPE_MAP[type].emoji} ${TYPE_MAP[type].label}`;
 }
 
-function getCuisineEmoji(cuisine: string): string {
-  const emojiMap: Record<string, string> = {
-    "tex-mex": "🌮",
-    mediterranean: "🫒",
-    bbq: "🍖",
-    asian: "🍜",
-    indian: "🍛",
-    american: "🍔",
-  };
-  return emojiMap[cuisine] || "🌍";
+function getCuisineDisplay(cuisine: RecipeCuisine): string {
+  return `${CUISINE_MAP[cuisine].emoji} ${CUISINE_MAP[cuisine].label}`;
 }
 
-function getDietEmoji(diet: string): string {
-  const emojiMap: Record<string, string> = {
-    omnivore: "🥩",
-    vegetarian: "🥬",
-    vegan: "🌱",
-    pescatarian: "🐟",
-  };
-  return emojiMap[diet] || "🍽️";
-}
-
-function formatCuisine(cuisine: string): string {
-  return cuisine
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join("-");
-}
-
-function formatType(type: string): string {
-  return type
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-}
-
-function formatDiets(diets: string[]): string {
-  return diets.map((diet) => diet.charAt(0).toUpperCase() + diet.slice(1)).join(", ");
+function getDietDisplay(diet: RecipeDiet): string {
+  return `${DIET_MAP[diet].emoji} ${DIET_MAP[diet].label}`;
 }
 ---
 
@@ -79,9 +48,7 @@ function formatDiets(diets: string[]): string {
     content.data.type && (
       <>
         <span class="mx-0.5">•</span>
-        <span>
-          {getTypeEmoji(content.data.type)} {formatType(content.data.type)}
-        </span>
+        <span>{getTypeDisplay(content.data.type)}</span>
       </>
     )
   }
@@ -90,9 +57,7 @@ function formatDiets(diets: string[]): string {
     content.data.cuisine && (
       <>
         <span class="mx-0.5">•</span>
-        <span>
-          {getCuisineEmoji(content.data.cuisine)} {formatCuisine(content.data.cuisine)}
-        </span>
+        <span>{getCuisineDisplay(content.data.cuisine)}</span>
       </>
     )
   }
@@ -101,9 +66,7 @@ function formatDiets(diets: string[]): string {
     !compact && content.data.diets && content.data.diets.length > 0 && (
       <>
         <span class="mx-0.5">•</span>
-        <span>
-          {content.data.diets.map((diet) => getDietEmoji(diet)).join(" ")} {formatDiets(content.data.diets)}
-        </span>
+        <span>{content.data.diets.map((diet) => getDietDisplay(diet)).join(", ")}</span>
       </>
     )
   }

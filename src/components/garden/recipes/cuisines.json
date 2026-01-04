@@ -1,0 +1,9 @@
+{
+  "tex-mex": { "emoji": "🌮", "label": "Tex-Mex" },
+  "mediterranean": { "emoji": "🫒", "label": "Mediterranean" },
+  "bbq": { "emoji": "🍖", "label": "BBQ" },
+  "asian": { "emoji": "🍜", "label": "Asian" },
+  "indian": { "emoji": "🍛", "label": "Indian" },
+  "american": { "emoji": "🍔", "label": "American" },
+  "italian": { "emoji": "🍝", "label": "Italian" }
+}

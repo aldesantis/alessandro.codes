@@ -1,0 +1,10 @@
+{
+  "starter": { "emoji": "🥗", "label": "Starter" },
+  "first-course": { "emoji": "🍝", "label": "First Course" },
+  "main-course": { "emoji": "🍽️", "label": "Main Course" },
+  "single-dish": { "emoji": "🍲", "label": "Single Dish" },
+  "sauce": { "emoji": "🍯", "label": "Sauce" },
+  "side": { "emoji": "🥔", "label": "Side" },
+  "dessert": { "emoji": "🍰", "label": "Dessert" },
+  "other": { "emoji": "🍴", "label": "Other" }
+}
