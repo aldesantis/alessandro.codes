@@ -241,7 +241,7 @@ export default class CommandPaletteController extends Controller {
       const groupElement = this.groupTemplateTarget.content.cloneNode(true) as DocumentFragment;
       const groupDiv = groupElement.querySelector("div");
       if (groupDiv) {
-        groupDiv.textContent = `${type}s`;
+        groupDiv.textContent = type;
       }
       this.resultsTarget.appendChild(groupElement);
 
