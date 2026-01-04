@@ -5,7 +5,7 @@ import Section from "@components/ui/sections/Section.astro";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import sections from "src/data/sections.json";
-import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
+import ContentGrid from "@components/content/grid/ContentGrid.astro";
 ---
 
 <Layout>
@@ -40,7 +40,7 @@ import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
         </div>
       </div>
 
-      <GardenGrid searchParams={{ collections: ["essays"], limit: 4 }} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["essays"], limit: 4 }} itemSize="L" layoutType="masonry" />
     </Section>
 
     <Section>
@@ -52,7 +52,7 @@ import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
         </div>
       </div>
 
-      <GardenGrid searchParams={{ collections: ["notes"], limit: 6 }} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["notes"], limit: 6 }} itemSize="L" layoutType="masonry" />
     </Section>
 
     <Section>
@@ -64,7 +64,7 @@ import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
         </div>
       </div>
 
-      <GardenGrid searchParams={{ collections: ["books"], limit: 6 }} itemSize="M" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["books"], limit: 6 }} itemSize="M" layoutType="masonry" />
     </Section>
 
     <Section>
@@ -76,7 +76,7 @@ import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
         </div>
       </div>
 
-      <GardenGrid searchParams={{ collections: ["recipes"], limit: 4 }} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["recipes"], limit: 4 }} itemSize="L" layoutType="masonry" />
     </Section>
   </div>
 </Layout>

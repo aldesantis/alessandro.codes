@@ -1,0 +1,44 @@
+---
+import { getEntry } from "src/lib/garden/entries";
+import { entryTypeIds } from "garden.config";
+import ContentCard from "@components/content/ContentCard.astro";
+import type { GardenEntryTypeId } from "src/lib/garden/entries";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const paths = [];
+
+  for (const collection of entryTypeIds) {
+    const collectionEntries = await getCollection(collection);
+
+    for (const entry of collectionEntries) {
+      paths.push({
+        params: {
+          collection: collection as string,
+          id: entry.id,
+        },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { collection, id } = Astro.params;
+
+if (!collection || !id) {
+  throw new Error("Collection and id parameters are required");
+}
+
+if (!entryTypeIds.includes(collection as GardenEntryTypeId)) {
+  throw new Error(`Invalid collection: ${collection}`);
+}
+
+const entry = await getEntry(collection as GardenEntryTypeId, id);
+
+if (!entry) {
+  throw new Error(`Entry not found: ${id} in collection ${collection}`);
+}
+---
+
+<ContentCard content={entry} />

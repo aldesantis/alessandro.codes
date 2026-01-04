@@ -1,0 +1,104 @@
+---
+import { search } from "src/actions/search";
+import Card from "@components/ui/Card.astro";
+import ContentGridFilter from "./ContentGridFilter.astro";
+import type { FilterConfig } from "src/lib/garden/filters";
+
+interface Props {
+  searchParams: Parameters<typeof search>[0];
+  itemSize: "S" | "M" | "L";
+  layoutType?: "grid" | "masonry";
+  filters?: FilterConfig[];
+}
+
+const { searchParams, itemSize, layoutType = "grid", filters = [] } = Astro.props;
+
+function getGridColumnsForSize(size: "S" | "M" | "L"): string {
+  switch (size) {
+    case "S":
+      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4";
+    case "M":
+      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3";
+    case "L":
+      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-2";
+  }
+}
+
+function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
+  switch (size) {
+    case "S":
+      return "columns-1 sm:columns-2 lg:columns-4";
+    case "M":
+      return "columns-1 sm:columns-2 lg:columns-3";
+    case "L":
+      return "columns-1 sm:columns-2 lg:columns-2";
+  }
+}
+---
+
+<div
+  class="space-y-4"
+  data-controller="content-grid"
+  data-content-grid-search-params-value={JSON.stringify(searchParams)}
+  data-content-grid-filters-value={JSON.stringify(
+    filters.reduce(
+      (acc, filter) => {
+        acc[filter.category] = ["all"];
+        return acc;
+      },
+      {} as Record<string, string[]>
+    )
+  )}
+>
+  <template data-content-grid-target="loadingTemplate">
+    <div class={layoutType === "grid" ? "col-span-full" : "[column-span:all]"}>
+      <Card>
+        <p>Loading the results...</p>
+      </Card>
+    </div>
+  </template>
+
+  <template data-content-grid-target="emptyTemplate">
+    <div class={layoutType === "grid" ? "col-span-full" : "[column-span:all]"}>
+      <Card>
+        <p>Nothing here yet! Check back soon.</p>
+      </Card>
+    </div>
+  </template>
+
+  <template data-content-grid-target="errorTemplate">
+    <div class={layoutType === "grid" ? "col-span-full" : "[column-span:all]"}>
+      <Card>
+        <p>Failed to load the results.</p>
+      </Card>
+    </div>
+  </template>
+
+  {
+    filters.length > 0 && (
+      <div class="flex gap-2">
+        {filters.map((filter) => (
+          <ContentGridFilter label={filter.label} filterCategory={filter.category} items={filter.items} />
+        ))}
+      </div>
+    )
+  }
+
+  <template data-content-grid-target="cardTemplate">
+    <div
+      class={layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid"}
+      data-controller="content-card"
+      data-content-card-id-value=""
+      data-content-card-collection-value=""
+    >
+    </div>
+  </template>
+
+  <div
+    data-content-grid-target="grid"
+    class={layoutType === "grid"
+      ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
+      : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}
+  >
+  </div>
+</div>

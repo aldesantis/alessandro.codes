@@ -2,7 +2,7 @@
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
+import ContentGrid from "@components/content/grid/ContentGrid.astro";
 import { createStatusFilterConfig, createTopicFilterConfig } from "src/lib/garden/filters";
 ---
 
@@ -16,7 +16,7 @@ import { createStatusFilterConfig, createTopicFilterConfig } from "src/lib/garde
     </span>
   </Hero>
 
-  <GardenGrid
+  <ContentGrid
     searchParams={{ collections: ["notes"] }}
     itemSize="M"
     filters={[createStatusFilterConfig(), await createTopicFilterConfig()]}

@@ -5,8 +5,8 @@ import ArrowLink from "@components/ui/ArrowLink.astro";
 import { render } from "astro:content";
 import { getMdxComponents } from "src/lib/rendering";
 import Prose from "@components/ui/Prose.astro";
-import TopicMeta from "@components/garden/topics/TopicMeta.astro";
-import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
+import TopicMeta from "@components/content/topics/TopicMeta.astro";
+import ContentGrid from "@components/content/grid/ContentGrid.astro";
 import { createStatusFilterConfig, createCollectionFilterConfig } from "src/lib/garden/filters";
 
 export async function getStaticPaths() {
@@ -49,7 +49,7 @@ const filters = [createStatusFilterConfig(), createCollectionFilterConfig()];
 
   <div class="mt-12">
     <hr class="mb-6 border-gray-200" />
-    <GardenGrid
+    <ContentGrid
       searchParams={{ relatedTo: topic.id, collections: ["essays", "books", "notes", "talks", "recipes"] }}
       itemSize="M"
       filters={filters}

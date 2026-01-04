@@ -1,0 +1,24 @@
+---
+import LinkedCard from "@components/ui/LinkedCard.astro";
+import BookMeta from "@components/content/books/BookMeta.astro";
+import BookCover from "@components/content/books/BookCover.astro";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  book: CollectionEntry<"books">;
+}
+
+const { book } = Astro.props;
+---
+
+<LinkedCard href={`/books/${book.id}`}>
+  <div slot="cover">
+    <BookCover book={book} class="object-cover object-top w-full" />
+  </div>
+
+  <h3 class="text-lg font-sans" slot="title">
+    {book.data.title}
+  </h3>
+
+  <BookMeta content={book} compact />
+</LinkedCard>

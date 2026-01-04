@@ -1,0 +1,21 @@
+---
+import Toc from "@components/ui/Toc.astro";
+import ContentLinks from "@components/content/ContentLinks.astro";
+import { render } from "astro:content";
+import { getEntryIndexRecord, type GardenEntry } from "src/lib/garden/entries";
+
+export interface Props {
+  entry: GardenEntry;
+}
+
+const { entry } = Astro.props;
+const { headings } = await render(entry);
+const { outboundLinks, inboundLinks } = getEntryIndexRecord(entry.id);
+---
+
+<div class="space-y-4">
+  <slot />
+
+  <Toc headings={headings} title={entry.data.title} />
+  <ContentLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
+</div>

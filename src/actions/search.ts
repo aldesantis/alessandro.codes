@@ -45,7 +45,7 @@ async function getResults(
     .filter((entryType) => entryType.search)
     .filter((entryType) => collections.includes(entryType.id as GardenEntryTypeId));
   const entries = await getEntries(entryTypes.map((et) => et.id as GardenEntryTypeId));
-  console.log(entries);
+
   const searchResults: SearchResultResponse[] = [];
 
   const filters = [

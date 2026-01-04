@@ -1,0 +1,23 @@
+---
+import LinkedCard from "@components/ui/LinkedCard.astro";
+import NoteMeta from "@components/content/notes/NoteMeta.astro";
+import type { CollectionEntry } from "astro:content";
+import { getFirstParagraph, renderToString } from "src/lib/rendering";
+
+interface Props {
+  note: CollectionEntry<"notes">;
+}
+
+const { note } = Astro.props;
+const renderedNote = await renderToString(note);
+---
+
+<LinkedCard href={`/notes/${note.id}`}>
+  <h3 slot="title">{note.data.title}</h3>
+
+  <NoteMeta content={note} compact />
+
+  <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
+    <Fragment set:html={getFirstParagraph(renderedNote)} />
+  </div>
+</LinkedCard>

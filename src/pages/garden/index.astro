@@ -1,7 +1,7 @@
 ---
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
-import GardenGrid from "@components/garden/entries-grid/GardenGrid.astro";
+import ContentGrid from "@components/content/grid/ContentGrid.astro";
 import {
   createStatusFilterConfig,
   createTopicFilterConfig,
@@ -17,7 +17,7 @@ import {
     <span slot="subheading"> A collection of everything I'm thinking about, reading, and writing. </span>
   </Hero>
 
-  <GardenGrid
+  <ContentGrid
     searchParams={{ collections: ["essays", "books", "notes", "talks"] }}
     itemSize="M"
     filters={[createStatusFilterConfig(), await createTopicFilterConfig(), createCollectionFilterConfig()]}

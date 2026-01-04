@@ -1,4 +1,4 @@
-src/components/garden/topics/TopicList.astro 
+src/components/content/topics/TopicList.astro 
 
 # Ignore all Markdown files
 **/*.md
