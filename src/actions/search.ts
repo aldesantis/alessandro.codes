@@ -11,8 +11,9 @@ type SearchResultResponse = SearchResult & {
 };
 
 async function getResults(
-  name: string,
-  { collections }: { collections: GardenEntryTypeId[] }
+  name: string | undefined,
+  { collections }: { collections: GardenEntryTypeId[] },
+  { limit }: { limit?: number }
 ): Promise<SearchResultResponse[]> {
   const entryTypes = config.sources
     .flatMap((source) => source.entryTypes)
@@ -39,20 +40,17 @@ async function getResults(
     );
   }
 
-  return searchResults;
+  return limit !== undefined ? searchResults.slice(0, limit) : searchResults;
 }
 
 export const search = defineAction({
   input: z.object({
-    name: z.string().default(""),
+    name: z.string().optional(),
     collections: z.array(z.enum(entryTypeIds)).default([...entryTypeIds]),
+    limit: z.number().optional(),
   }),
-  handler: async ({ name, collections }) => {
-    if (!name || name.length < 3) {
-      return { items: [] };
-    }
-
-    const items = await getResults(name, { collections });
+  handler: async ({ name, collections, limit }) => {
+    const items = await getResults(name, { collections }, { limit });
 
     return { items };
   },

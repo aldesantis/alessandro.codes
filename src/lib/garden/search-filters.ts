@@ -2,7 +2,7 @@ import type { GardenEntry } from "./entries";
 import type { EntryType } from "./config";
 
 export interface FilterContext {
-  name: string;
+  name: string | undefined;
   entryType: EntryType;
 }
 
@@ -16,8 +16,12 @@ export function createNameFilter(): SearchFilter {
   return (entries: GardenEntry[], context: FilterContext): GardenEntry[] => {
     const { entryType, name } = context;
 
-    if (!entryType.search) {
+    if (name === undefined || !entryType.search) {
       return entries;
+    }
+
+    if (name.length < 3) {
+      return [];
     }
 
     return entries.filter((entry) => entry.data.title.toLowerCase().includes(name.toLowerCase()));

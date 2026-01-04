@@ -7,11 +7,13 @@ import GardenLazyCardController from "./garden-lazy-card";
 import CommandPaletteController from "./command-palette";
 import DropdownController from "./dropdown";
 import NavbarController from "./navbar";
+import GardenGridController from "./garden-grid";
 
 const application = Application.start();
 
 application.register("relative-date", RelativeDateController);
 application.register("garden-entries-grid", GardenEntriesGridController);
+application.register("garden-grid", GardenGridController);
 application.register("garden-filter-dropdown", GardenFilterDropdownController);
 application.register("garden-lazy-card", GardenLazyCardController);
 application.register("command-palette", CommandPaletteController);
