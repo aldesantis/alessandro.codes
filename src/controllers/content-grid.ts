@@ -139,6 +139,8 @@ export default class ContentGridController extends Controller {
     this.showLoading();
 
     try {
+      // TODO: This should be split into a ContentGridController and a FilterableContentGridController
+      // so that we don't have to do this weird join of searchParams and filtersValue.
       const searchParams: typeof this.searchParamsValue = { ...this.searchParamsValue };
 
       if (this.filtersValue.status && !this.filtersValue.status.includes("all")) {
@@ -160,6 +162,7 @@ export default class ContentGridController extends Controller {
         searchParams.collections = this.filtersValue.collections as GardenEntryTypeId[];
       }
 
+      // TODO: We should implement pagination and infinite scroll for optimal performance.
       const result = await actions.search(searchParams);
 
       if (result.error) {
