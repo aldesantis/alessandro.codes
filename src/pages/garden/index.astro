@@ -20,7 +20,7 @@ import {
   <ContentGrid
     searchParams={{ collections: ["essays", "books", "notes", "talks"] }}
     itemSize="M"
-    filters={[createStatusFilterConfig(), await createTopicFilterConfig(), createCollectionFilterConfig()]}
+    filters={await Promise.all([createStatusFilterConfig(), createTopicFilterConfig(), createCollectionFilterConfig()])}
     layoutType="masonry"
   />
 </Layout>

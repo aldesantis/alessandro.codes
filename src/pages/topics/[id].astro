@@ -18,7 +18,7 @@ export async function getStaticPaths() {
 
 const { topic } = Astro.props;
 
-const filters = [createStatusFilterConfig(), createCollectionFilterConfig()];
+const filters = await Promise.all([createStatusFilterConfig(), createCollectionFilterConfig()]);
 ---
 
 <title slot="head">{topic.data.title} | Alessandro Desantis</title>

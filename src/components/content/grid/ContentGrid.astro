@@ -2,7 +2,7 @@
 import { search } from "src/actions/search";
 import Card from "@components/ui/Card.astro";
 import ContentGridFilter from "./ContentGridFilter.astro";
-import type { FilterConfig } from "src/lib/garden/filters";
+import type { FilterConfig } from "src/lib/garden/config";
 
 interface Props {
   searchParams: Parameters<typeof search>[0];
@@ -12,6 +12,10 @@ interface Props {
 }
 
 const { searchParams, itemSize, layoutType = "grid", filters = [] } = Astro.props;
+
+const filtersWithUi = filters.filter(
+  (filter): filter is FilterConfig & { ui: NonNullable<FilterConfig["ui"]> } => filter.ui !== undefined
+);
 
 function getGridColumnsForSize(size: "S" | "M" | "L"): string {
   switch (size) {
@@ -41,9 +45,9 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
   data-controller="content-grid"
   data-content-grid-search-params-value={JSON.stringify(searchParams)}
   data-content-grid-filters-value={JSON.stringify(
-    filters.reduce(
+    filtersWithUi.reduce(
       (acc, filter) => {
-        acc[filter.category] = ["all"];
+        acc[filter.id] = ["all"];
         return acc;
       },
       {} as Record<string, string[]>
@@ -75,10 +79,10 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
   </template>
 
   {
-    filters.length > 0 && (
+    filtersWithUi.length > 0 && (
       <div class="flex gap-2">
-        {filters.map((filter) => (
-          <ContentGridFilter label={filter.label} filterCategory={filter.category} items={filter.items} />
+        {filtersWithUi.map((filter) => (
+          <ContentGridFilter label={filter.ui.label} filterCategory={filter.id} items={filter.ui.items} />
         ))}
       </div>
     )

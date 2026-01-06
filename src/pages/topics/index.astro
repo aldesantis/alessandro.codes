@@ -16,5 +16,5 @@ import { createStatusFilterConfig } from "src/lib/garden/filters";
     </span>
   </Hero>
 
-  <ContentGrid searchParams={{ collections: ["topics"] }} itemSize="M" filters={[createStatusFilterConfig()]} />
+  <ContentGrid searchParams={{ collections: ["topics"] }} itemSize="M" filters={[await createStatusFilterConfig()]} />
 </Layout>

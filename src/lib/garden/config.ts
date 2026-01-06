@@ -11,6 +11,19 @@ export interface SearchResult {
   status?: "seedling" | "budding" | "evergreen";
 }
 
+export type ContentFilterFn = (entries: GardenEntry[], value: unknown) => Promise<GardenEntry[]>;
+export type CollectionFilterFn = (entryTypes: EntryType[], value: unknown) => Promise<EntryType[]>;
+
+export interface FilterConfig {
+  id: string;
+  ui?: {
+    label: string;
+    items: Array<{ id: string; label: string }>;
+  };
+  contentFilterFn?: ContentFilterFn;
+  collectionFilterFn?: CollectionFilterFn;
+}
+
 export interface EntryType {
   id: string;
   basePath?: string;
@@ -33,4 +46,5 @@ export interface SourceConfig {
 export interface Configuration {
   contentDir: string;
   sources: SourceConfig[];
+  filters?: FilterConfig[];
 }

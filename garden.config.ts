@@ -17,6 +17,16 @@ import {
 } from "src/lib/garden/transformers";
 import type { Configuration } from "src/lib/garden/config";
 import type { GardenEntry } from "src/lib/garden/entries";
+import {
+  createCollectionFilterConfig,
+  createNameFilterConfig,
+  createStatusFilterConfig,
+  createTopicFilterConfig,
+  createCuisineFilterConfig,
+  createDietFilterConfig,
+  createRecipeTypeFilterConfig,
+  createRelatedToFilterConfig,
+} from "src/lib/garden/filters";
 
 const baseTransformers = [
   renameMdToMdx(),
@@ -36,6 +46,18 @@ const digitalGardenTransformers = [
 const config: Configuration = {
   // Where do we store the content?
   contentDir: path.join(process.cwd(), "src", "content"),
+
+  // Available filters for search
+  filters: await Promise.all([
+    createCollectionFilterConfig(),
+    createNameFilterConfig(),
+    createStatusFilterConfig(),
+    createTopicFilterConfig(),
+    createCuisineFilterConfig(),
+    createDietFilterConfig(),
+    createRecipeTypeFilterConfig(),
+    createRelatedToFilterConfig(),
+  ]),
 
   // Where do we fetch the content from and what transformations do we want to apply?
   sources: [

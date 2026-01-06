@@ -3,68 +3,17 @@ import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
-import type { GardenEntry } from "src/lib/garden/entries";
-import type { FilterConfig } from "src/lib/garden/filters";
+import {
+  createCuisineFilterConfig,
+  createDietFilterConfig,
+  createRecipeTypeFilterConfig,
+} from "src/lib/garden/filters";
 
-const filters: FilterConfig[] = [
-  {
-    category: "cuisine",
-    label: "Cuisine",
-    items: [
-      { id: "tex-mex", label: "🌮 Tex-Mex" },
-      { id: "mediterranean", label: "🫒 Mediterranean" },
-      { id: "bbq", label: "🍖 BBQ" },
-      { id: "asian", label: "🍜 Asian" },
-      { id: "indian", label: "🍛 Indian" },
-      { id: "american", label: "🍔 American" },
-    ],
-    extractor: (entry: GardenEntry): string => {
-      if (entry.collection === "recipes" && entry.data.cuisine) {
-        return entry.data.cuisine;
-      }
-
-      return "";
-    },
-  },
-  {
-    category: "diet",
-    label: "Diet",
-    items: [
-      { id: "omnivore", label: "🥩 Omnivore" },
-      { id: "vegetarian", label: "🥬 Vegetarian" },
-      { id: "vegan", label: "🌱 Vegan" },
-      { id: "pescatarian", label: "🐟 Pescatarian" },
-    ],
-    extractor: (entry: GardenEntry): string[] => {
-      if (entry.collection === "recipes") {
-        return entry.data.diets;
-      }
-
-      return [];
-    },
-  },
-  {
-    category: "recipeType",
-    label: "Course",
-    items: [
-      { id: "starter", label: "🥗 Starter" },
-      { id: "first-course", label: "🍝 First Course" },
-      { id: "main-course", label: "🍽️ Main Course" },
-      { id: "single-dish", label: "🍲 Single Dish" },
-      { id: "sauce", label: "🍯 Sauce" },
-      { id: "side", label: "🥔 Side" },
-      { id: "dessert", label: "🍰 Dessert" },
-      { id: "other", label: "🍴 Other" },
-    ],
-    extractor: (entry: GardenEntry): string => {
-      if (entry.collection === "recipes" && entry.data.type) {
-        return entry.data.type;
-      }
-
-      return "";
-    },
-  },
-];
+const filters = await Promise.all([
+  createCuisineFilterConfig(),
+  createDietFilterConfig(),
+  createRecipeTypeFilterConfig(),
+]);
 ---
 
 <Layout>
