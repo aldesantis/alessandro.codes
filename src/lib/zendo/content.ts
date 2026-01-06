@@ -20,27 +20,6 @@ export interface EntryIndexRecord {
   inboundLinks: EntryLink[];
 }
 
-function sortEntries(a: ZendoCollectionEntry, b: ZendoCollectionEntry): number {
-  const statusPriorities = {
-    seedling: 0,
-    budding: 1,
-    evergreen: 2,
-  };
-
-  if (a.data.updatedAt! > b.data.updatedAt!) {
-    return -1;
-  }
-
-  if (a.data.updatedAt! < b.data.updatedAt!) {
-    return 1;
-  }
-
-  const statusPriorityA = statusPriorities[a.data.status];
-  const statusPriorityB = statusPriorities[b.data.status];
-
-  return statusPriorityA > statusPriorityB ? -1 : 1;
-}
-
 export async function getEntries<T extends ZendoCollectionId>(contentTypes: T[]): Promise<CollectionEntry<T>[]> {
   const allEntries = await Promise.all(
     contentTypes.map(async (contentTypeId) => {
@@ -49,7 +28,7 @@ export async function getEntries<T extends ZendoCollectionId>(contentTypes: T[])
     })
   ).then((collections) => collections.flat());
 
-  const sortedEntries = allEntries.sort(sortEntries);
+  const sortedEntries = allEntries.sort(config.sortEntriesFn);
 
   return sortedEntries;
 }
@@ -109,7 +88,7 @@ export async function getRelatedEntries(entry: ZendoCollectionEntry): Promise<Ze
     .map((id) => relatedEntriesByLinks.find((entry) => entry.id === id))
     .filter((entry): entry is ZendoCollectionEntry => entry !== undefined);
 
-  return uniqueRelatedEntries.sort(sortEntries);
+  return uniqueRelatedEntries.sort(config.sortEntriesFn);
 }
 
 export function getCollectionConfig(entryTypeId: ZendoCollectionId): ZendoCollectionConfig {

@@ -46,8 +46,11 @@ export interface SourceConfig {
   entryTypes: ZendoCollectionConfig[];
 }
 
+export type SortEntriesFn = (a: ZendoCollectionEntry, b: ZendoCollectionEntry) => number;
+
 export interface Configuration {
   contentDir: string;
   sources: SourceConfig[];
   filters?: FilterConfig[];
+  sortEntriesFn: SortEntriesFn;
 }

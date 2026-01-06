@@ -59,6 +59,28 @@ const config: Configuration = {
     relatedToFilter(),
   ]),
 
+  // Sorting function for entries
+  sortEntriesFn: (a: ZendoCollectionEntry, b: ZendoCollectionEntry): number => {
+    const statusPriorities = {
+      seedling: 0,
+      budding: 1,
+      evergreen: 2,
+    };
+
+    if (a.data.updatedAt! > b.data.updatedAt!) {
+      return -1;
+    }
+
+    if (a.data.updatedAt! < b.data.updatedAt!) {
+      return 1;
+    }
+
+    const statusPriorityA = statusPriorities[a.data.status];
+    const statusPriorityB = statusPriorities[b.data.status];
+
+    return statusPriorityA > statusPriorityB ? -1 : 1;
+  },
+
   // Where do we fetch the content from and what transformations do we want to apply?
   sources: [
     {
