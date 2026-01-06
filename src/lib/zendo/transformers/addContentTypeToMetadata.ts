@@ -1,10 +1,10 @@
 import matter from "gray-matter";
 
 import type { Transformer } from "src/lib/zendo/transformers";
-import type { EntryType } from "../config";
+import type { ZendoCollectionConfig } from "../config";
 
 const addContentTypeToMetadata = (): Transformer => {
-  return async (originalPath: string, originalContent: string | Buffer, contentType: EntryType) => {
+  return async (originalPath: string, originalContent: string | Buffer, contentType: ZendoCollectionConfig) => {
     // Skip binary files
     if (Buffer.isBuffer(originalContent)) {
       return { path: originalPath, content: originalContent };

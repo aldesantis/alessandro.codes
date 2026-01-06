@@ -1,8 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
-import { getEntries } from "src/lib/zendo/entries";
-import type { GardenEntry } from "src/lib/zendo/entries";
+import { getEntries } from "src/lib/zendo/content";
+import type { ZendoCollectionEntry } from "src/lib/zendo/content";
 import Link from "@components/ui/Link.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 
@@ -18,7 +18,7 @@ export async function getStaticPaths() {
 const { now } = Astro.props;
 
 const allNows = await getEntries(["nows"]);
-const currentIndex = allNows.findIndex((item: GardenEntry) => item.id === now.id);
+const currentIndex = allNows.findIndex((item: ZendoCollectionEntry) => item.id === now.id);
 const prevNow = currentIndex < allNows.length - 1 ? allNows[currentIndex + 1] : null;
 const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
 ---

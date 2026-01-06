@@ -1,4 +1,4 @@
-import type { EntryLink, EntryIndexRecord } from "src/lib/zendo/entries";
+import type { EntryLink, EntryIndexRecord } from "src/lib/zendo/content";
 import { extractWikilinks } from "src/lib/zendo/utils/wikilink.mjs";
 
 /**

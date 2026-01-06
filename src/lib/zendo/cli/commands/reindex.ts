@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 import config from "garden.config";
-import type { EntryIndexRecord } from "src/lib/zendo/entries";
+import type { EntryIndexRecord } from "src/lib/zendo/content";
 import * as ui from "../ui";
 import { getMarkdownFiles, writeJsonFile, getIndexFilePath } from "../utils/files";
 import { extractOutboundLinks, extractInboundLinks } from "../utils/links";

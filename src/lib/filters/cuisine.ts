@@ -1,4 +1,4 @@
-import type { GardenEntry } from "../zendo/entries";
+import type { ZendoCollectionEntry } from "../zendo/content";
 import type { FilterConfig } from "../zendo/config";
 
 export default async function cuisineFilter(): Promise<FilterConfig> {
@@ -15,7 +15,7 @@ export default async function cuisineFilter(): Promise<FilterConfig> {
         { id: "american", label: "🍔 American" },
       ],
     },
-    contentFilterFn: async (entries: GardenEntry[], value: unknown): Promise<GardenEntry[]> => {
+    entryFilterFn: async (entries: ZendoCollectionEntry[], value: unknown): Promise<ZendoCollectionEntry[]> => {
       const selectedValues = value as string[] | undefined;
 
       if (!selectedValues || selectedValues.includes("all") || selectedValues.length === 0) {

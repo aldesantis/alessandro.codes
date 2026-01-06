@@ -1,10 +1,10 @@
-import type { GardenEntry } from "../zendo/entries";
+import type { ZendoCollectionEntry } from "../zendo/content";
 import type { FilterConfig } from "../zendo/config";
 
 export default async function nameFilter(): Promise<FilterConfig> {
   return {
     id: "name",
-    contentFilterFn: async (entries: GardenEntry[], value: unknown): Promise<GardenEntry[]> => {
+    entryFilterFn: async (entries: ZendoCollectionEntry[], value: unknown): Promise<ZendoCollectionEntry[]> => {
       const name = value as string;
 
       if (name.length < 3) {

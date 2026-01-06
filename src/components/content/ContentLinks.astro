@@ -1,10 +1,10 @@
 ---
 import Link from "@components/ui/Link.astro";
-import type { EntryLink as LinkType } from "src/lib/zendo/entries";
+import type { EntryLink as LinkType } from "src/lib/zendo/content";
 import { buildContentEntryUrl } from "src/lib/zendo/plugins/remarkWikiLink.mjs";
 import LinkList from "@components/ui/LinkList.astro";
 import MobileCollapsible from "@components/ui/MobileCollapsible.astro";
-import { getEntries, type GardenEntryTypeId } from "src/lib/zendo/entries";
+import { getEntries, type ZendoCollectionId } from "src/lib/zendo/content";
 
 interface Props {
   outboundLinks: LinkType[];
@@ -27,7 +27,7 @@ const uniqueOutboundLinks = deduplicateLinks(outboundLinks);
 const uniqueInboundLinks = deduplicateLinks(inboundLinks);
 
 const getLinkTitle = async (link: LinkType): Promise<string> => {
-  const entries = await getEntries([link.type as GardenEntryTypeId]);
+  const entries = await getEntries([link.type as ZendoCollectionId]);
   return entries.find((e) => e.id === link.slug)?.data.title || link.slug;
 };
 ---

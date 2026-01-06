@@ -1,5 +1,5 @@
-import type { EntryType, FilterConfig } from "../zendo/config";
-import type { GardenEntryTypeId } from "../zendo/entries";
+import type { ZendoCollectionConfig, FilterConfig } from "../zendo/config";
+import type { ZendoCollectionId } from "../zendo/content";
 
 export default async function collectionFilter(): Promise<FilterConfig> {
   return {
@@ -17,14 +17,17 @@ export default async function collectionFilter(): Promise<FilterConfig> {
         { id: "nows", label: "Now" },
       ],
     },
-    collectionFilterFn: async (entryTypes: EntryType[], value: unknown): Promise<EntryType[]> => {
-      const selectedCollections = value as GardenEntryTypeId[] | undefined;
+    collectionFilterFn: async (
+      entryTypes: ZendoCollectionConfig[],
+      value: unknown
+    ): Promise<ZendoCollectionConfig[]> => {
+      const selectedCollections = value as ZendoCollectionId[] | undefined;
 
       if (!selectedCollections || selectedCollections.length === 0) {
         return entryTypes;
       }
 
-      return entryTypes.filter((entryType) => selectedCollections.includes(entryType.id as GardenEntryTypeId));
+      return entryTypes.filter((entryType) => selectedCollections.includes(entryType.id as ZendoCollectionId));
     },
   };
 }

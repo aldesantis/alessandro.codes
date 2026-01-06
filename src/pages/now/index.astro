@@ -1,5 +1,5 @@
 ---
-import { getEntries } from "src/lib/zendo/entries";
+import { getEntries } from "src/lib/zendo/content";
 
 const latestNow = (await getEntries(["nows"]))[0]!;
 const latestNowUrl = `/now/${latestNow.id}`;

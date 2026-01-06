@@ -16,7 +16,7 @@ import {
   convertNotionLinksToWikilinks,
 } from "src/lib/zendo/transformers";
 import type { Configuration } from "src/lib/zendo/config";
-import type { GardenEntry } from "src/lib/zendo/entries";
+import type { ZendoCollectionEntry } from "src/lib/zendo/content";
 import {
   collectionFilter,
   nameFilter,
@@ -83,7 +83,7 @@ const config: Configuration = {
           search: {
             label: "Essay",
             buildUrlFn: (slug: string) => `/essays/${slug}`,
-            buildSearchResultFn: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: ZendoCollectionEntry) => ({
               id: entry.id,
               name: entry.data.title,
               type: "essays",
@@ -100,7 +100,7 @@ const config: Configuration = {
           search: {
             label: "Note",
             buildUrlFn: (slug: string) => `/notes/${slug}`,
-            buildSearchResultFn: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: ZendoCollectionEntry) => ({
               id: entry.id,
               name: entry.data.title,
               type: "notes" as const,
@@ -141,7 +141,7 @@ const config: Configuration = {
           search: {
             label: "Now",
             buildUrlFn: (slug: string) => `/nows/${slug}`,
-            buildSearchResultFn: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: ZendoCollectionEntry) => ({
               id: entry.id,
               name: entry.data.title,
               type: "nows" as const,
@@ -158,7 +158,7 @@ const config: Configuration = {
           search: {
             label: "Topic",
             buildUrlFn: (slug: string) => `/topics/${slug}`,
-            buildSearchResultFn: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: ZendoCollectionEntry) => ({
               id: entry.id,
               name: entry.data.title,
               type: "topics" as const,
@@ -196,7 +196,7 @@ const config: Configuration = {
           search: {
             label: "Book",
             buildUrlFn: (slug: string) => `/books/${slug}`,
-            buildSearchResultFn: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: ZendoCollectionEntry) => ({
               id: entry.id,
               name: entry.data.title,
               url: `/books/${entry.id}`,
@@ -239,7 +239,7 @@ const config: Configuration = {
           search: {
             label: "Talk",
             buildUrlFn: () => `/talks`,
-            buildSearchResultFn: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: ZendoCollectionEntry) => ({
               id: entry.id,
               name: entry.data.title,
               type: "talks",
@@ -306,7 +306,7 @@ const config: Configuration = {
           search: {
             label: "Recipe",
             buildUrlFn: (slug: string) => `/recipes/${slug}`,
-            buildSearchResultFn: (entry: GardenEntry) => ({
+            buildSearchResultFn: (entry: ZendoCollectionEntry) => ({
               id: entry.id,
               name: entry.data.title,
               type: "recipes",
@@ -337,6 +337,6 @@ const config: Configuration = {
   ],
 };
 
-export const entryTypeIds = ["essays", "notes", "nows", "topics", "books", "articles", "recipes", "talks"] as const;
+export const collectionIds = ["essays", "notes", "nows", "topics", "books", "articles", "recipes", "talks"] as const;
 
 export default config as Configuration;

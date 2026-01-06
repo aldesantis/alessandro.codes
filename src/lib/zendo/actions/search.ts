@@ -1,15 +1,18 @@
 import { defineAction } from "astro:actions";
 import { z } from "astro/zod";
 
-import { getEntries, type GardenEntry, type GardenEntryTypeId } from "src/lib/zendo/entries";
-import type { SearchResult, EntryType } from "src/lib/zendo/config";
+import { getEntries, type ZendoCollectionEntry, type ZendoCollectionId } from "src/lib/zendo/content";
+import type { SearchResult, ZendoCollectionConfig } from "src/lib/zendo/config";
 import config from "garden.config";
 
 type SearchResultResponse = SearchResult & {
   url: string;
 };
 
-async function applyCollectionFilters(entryTypes: EntryType[], params: Record<string, unknown>): Promise<EntryType[]> {
+async function applyCollectionFilters(
+  entryTypes: ZendoCollectionConfig[],
+  params: Record<string, unknown>
+): Promise<ZendoCollectionConfig[]> {
   if (!config.filters) {
     return [];
   }
@@ -27,18 +30,21 @@ async function applyCollectionFilters(entryTypes: EntryType[], params: Record<st
   return filteredEntryTypes;
 }
 
-async function applyContentFilters(entries: GardenEntry[], params: Record<string, unknown>): Promise<GardenEntry[]> {
+async function applyContentFilters(
+  entries: ZendoCollectionEntry[],
+  params: Record<string, unknown>
+): Promise<ZendoCollectionEntry[]> {
   if (!config.filters) {
     return [];
   }
 
-  const filters = config.filters.filter((config) => config.contentFilterFn !== undefined);
+  const filters = config.filters.filter((config) => config.entryFilterFn !== undefined);
 
   let filteredEntries = entries;
   for (const filter of filters) {
     const paramValue = params[filter.id];
-    if (paramValue !== undefined && filter.contentFilterFn) {
-      filteredEntries = await filter.contentFilterFn(filteredEntries, paramValue);
+    if (paramValue !== undefined && filter.entryFilterFn) {
+      filteredEntries = await filter.entryFilterFn(filteredEntries, paramValue);
     }
   }
 
@@ -65,7 +71,7 @@ async function getResults(
 
   const searchResults: SearchResultResponse[] = await Promise.all(
     collections.map(async (collection) => {
-      const entries = await getEntries([collection.id as GardenEntryTypeId]);
+      const entries = await getEntries([collection.id as ZendoCollectionId]);
       const filteredEntries = await applyContentFilters(entries, params);
 
       return filteredEntries.map((entry) => ({

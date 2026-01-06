@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus";
 import { actions } from "astro:actions";
 import type { SearchResult } from "src/lib/zendo/config";
-import type { GardenEntryTypeId } from "src/lib/zendo/entries";
+import type { ZendoCollectionId } from "src/lib/zendo/content";
 
 type SearchResultResponse = SearchResult & {
   url: string;
@@ -35,7 +35,7 @@ export default class ContentGridController extends Controller {
   declare readonly allCheckboxTargets: HTMLInputElement[];
   declare searchParamsValue: {
     name?: string;
-    collections?: GardenEntryTypeId[];
+    collections?: ZendoCollectionId[];
     status?: string[];
     topics?: string[];
     cuisine?: string[];
@@ -159,7 +159,7 @@ export default class ContentGridController extends Controller {
         searchParams.recipeType = this.filtersValue.recipeType;
       }
       if (this.filtersValue.collections && !this.filtersValue.collections.includes("all")) {
-        searchParams.collections = this.filtersValue.collections as GardenEntryTypeId[];
+        searchParams.collections = this.filtersValue.collections as ZendoCollectionId[];
       }
 
       // TODO: We should implement pagination and infinite scroll for optimal performance.

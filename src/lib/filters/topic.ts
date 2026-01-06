@@ -1,4 +1,4 @@
-import type { GardenEntry } from "src/lib/zendo/entries";
+import type { ZendoCollectionEntry } from "src/lib/zendo/content";
 import type { FilterConfig } from "src/lib/zendo/config";
 
 export default async function topicFilter(): Promise<FilterConfig> {
@@ -15,7 +15,7 @@ export default async function topicFilter(): Promise<FilterConfig> {
         }));
       },
     },
-    contentFilterFn: async (entries: GardenEntry[], value: unknown): Promise<GardenEntry[]> => {
+    entryFilterFn: async (entries: ZendoCollectionEntry[], value: unknown): Promise<ZendoCollectionEntry[]> => {
       const selectedValues = value as string[] | undefined;
 
       if (!selectedValues || selectedValues.includes("all") || selectedValues.length === 0) {

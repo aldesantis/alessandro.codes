@@ -1,4 +1,4 @@
-import type { EntryType } from "src/lib/zendo/config";
+import type { ZendoCollectionConfig } from "src/lib/zendo/config";
 
 import addBasenameToAliases from "src/lib/zendo/transformers/addBasenameToAliases";
 import normalizeFilename from "src/lib/zendo/transformers/normalizeFilename";
@@ -20,13 +20,13 @@ export type TransformerResult = {
 export type Transformer = (
   originalPath: string,
   originalContent: string | Buffer,
-  contentType: EntryType
+  contentType: ZendoCollectionConfig
 ) => Promise<TransformerResult>;
 
 export async function applyTransformers(
   path: string,
   content: string | Buffer,
-  contentType: EntryType
+  contentType: ZendoCollectionConfig
 ): Promise<TransformerResult> {
   let currentResult: TransformerResult = {
     path,

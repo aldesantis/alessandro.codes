@@ -1,11 +1,11 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import config, { entryTypeIds } from "garden.config";
-import type { EntryType } from "src/lib/zendo/config";
+import config, { collectionIds as collectionIds } from "garden.config";
+import type { ZendoCollectionConfig } from "src/lib/zendo/config";
 
 import entryIndex from "src/data/index.json";
 
-export type GardenEntryTypeId = (typeof entryTypeIds)[number];
-export type GardenEntry = CollectionEntry<GardenEntryTypeId>;
+export type ZendoCollectionId = (typeof collectionIds)[number];
+export type ZendoCollectionEntry = CollectionEntry<ZendoCollectionId>;
 
 export interface EntryLink {
   slug: string;
@@ -20,7 +20,7 @@ export interface EntryIndexRecord {
   inboundLinks: EntryLink[];
 }
 
-function sortEntries(a: GardenEntry, b: GardenEntry): number {
+function sortEntries(a: ZendoCollectionEntry, b: ZendoCollectionEntry): number {
   const statusPriorities = {
     seedling: 0,
     budding: 1,
@@ -41,24 +41,24 @@ function sortEntries(a: GardenEntry, b: GardenEntry): number {
   return statusPriorityA > statusPriorityB ? -1 : 1;
 }
 
-export async function getEntries<T extends GardenEntryTypeId>(contentTypes: T[]): Promise<CollectionEntry<T>[]> {
-  const allContent = await Promise.all(
+export async function getEntries<T extends ZendoCollectionId>(contentTypes: T[]): Promise<CollectionEntry<T>[]> {
+  const allEntries = await Promise.all(
     contentTypes.map(async (contentTypeId) => {
       const collection = await getCollection(contentTypeId);
       return collection;
     })
   ).then((collections) => collections.flat());
 
-  const sortedContent = allContent.sort(sortEntries);
+  const sortedEntries = allEntries.sort(sortEntries);
 
-  return sortedContent;
+  return sortedEntries;
 }
 
-export async function getEntry<T extends GardenEntryTypeId>(
-  contentTypeId: T,
+export async function getEntry<T extends ZendoCollectionId>(
+  collectionId: T,
   entryId: string
-): Promise<GardenEntry | null> {
-  const entries = await getCollection(contentTypeId);
+): Promise<ZendoCollectionEntry | null> {
+  const entries = await getCollection(collectionId);
 
   const entry = entries.find((entry) => entry.id === entryId);
 
@@ -79,7 +79,7 @@ export function getEntryIndexRecord(entryId: string): EntryIndexRecord {
   return indexRecord;
 }
 
-export async function getRelatedEntries(entry: GardenEntry): Promise<GardenEntry[]> {
+export async function getRelatedEntries(entry: ZendoCollectionEntry): Promise<ZendoCollectionEntry[]> {
   const indexRecord = getEntryIndexRecord(entry.id);
 
   if (!indexRecord) {
@@ -93,26 +93,26 @@ export async function getRelatedEntries(entry: GardenEntry): Promise<GardenEntry
     .map((slug) => allLinks.find((link) => link.slug === slug))
     .filter((link) => link !== undefined);
 
-  const relatedEntries = (
-    await Promise.all(uniqueLinks.map((link) => getEntry(link.type as GardenEntryTypeId, link.slug)))
-  ).filter((entry): entry is GardenEntry => entry !== null);
+  const relatedEntriesByLinks = (
+    await Promise.all(uniqueLinks.map((link) => getEntry(link.type as ZendoCollectionId, link.slug)))
+  ).filter((entry): entry is ZendoCollectionEntry => entry !== null);
 
   if (entry.collection === "topics") {
-    const relatedEntriesByTopic = (await getEntries([...entryTypeIds])).filter(
+    const relatedEntriesByTopic = (await getEntries([...collectionIds])).filter(
       (e) => "topics" in e.data && e.data.topics?.some((t: { id: string }) => t.id === entry.id)
     );
 
-    relatedEntries.push(...relatedEntriesByTopic);
+    relatedEntriesByLinks.push(...relatedEntriesByTopic);
   }
 
-  const uniqueEntries = Array.from(new Set(relatedEntries.map((entry) => entry.id)))
-    .map((id) => relatedEntries.find((entry) => entry.id === id))
-    .filter((entry): entry is GardenEntry => entry !== undefined);
+  const uniqueRelatedEntries = Array.from(new Set(relatedEntriesByLinks.map((entry) => entry.id)))
+    .map((id) => relatedEntriesByLinks.find((entry) => entry.id === id))
+    .filter((entry): entry is ZendoCollectionEntry => entry !== undefined);
 
-  return uniqueEntries.sort(sortEntries);
+  return uniqueRelatedEntries.sort(sortEntries);
 }
 
-export function getEntryTypeConfiguration(entryTypeId: GardenEntryTypeId): EntryType {
+export function getCollectionConfig(entryTypeId: ZendoCollectionId): ZendoCollectionConfig {
   const entryTypeConfig = config.sources
     .flatMap((source) => source.entryTypes)
     .find((entryType) => entryType.id === entryTypeId);

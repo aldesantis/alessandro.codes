@@ -1,18 +1,21 @@
 import type { Transformer } from "src/lib/zendo/transformers";
 import type { Source } from "src/lib/zendo/sources";
-import type { GardenEntry } from "./entries";
-import type { GardenEntryTypeId } from "./entries";
+import type { ZendoCollectionEntry } from "./content";
+import type { ZendoCollectionId } from "./content";
 
 export interface SearchResult {
   id: string;
   name: string;
-  type: GardenEntryTypeId;
+  type: ZendoCollectionId;
   date?: string;
   status?: "seedling" | "budding" | "evergreen";
 }
 
-export type ContentFilterFn = (entries: GardenEntry[], value: unknown) => Promise<GardenEntry[]>;
-export type CollectionFilterFn = (entryTypes: EntryType[], value: unknown) => Promise<EntryType[]>;
+export type EntryFilterFn = (entries: ZendoCollectionEntry[], value: unknown) => Promise<ZendoCollectionEntry[]>;
+export type CollectionFilterFn = (
+  collections: ZendoCollectionConfig[],
+  value: unknown
+) => Promise<ZendoCollectionConfig[]>;
 
 export interface FilterConfig {
   id: string;
@@ -20,11 +23,11 @@ export interface FilterConfig {
     label: string;
     getItems: () => Promise<Array<{ id: string; label: string }>>;
   };
-  contentFilterFn?: ContentFilterFn;
+  entryFilterFn?: EntryFilterFn;
   collectionFilterFn?: CollectionFilterFn;
 }
 
-export interface EntryType {
+export interface ZendoCollectionConfig {
   id: string;
   basePath?: string;
   pattern: string;
@@ -32,7 +35,7 @@ export interface EntryType {
   transformers: Transformer[];
   search?: {
     label: string;
-    buildSearchResultFn: (entry: GardenEntry) => SearchResult;
+    buildSearchResultFn: (entry: ZendoCollectionEntry) => SearchResult;
     buildUrlFn: (slug: string) => string;
   };
 }
@@ -40,7 +43,7 @@ export interface EntryType {
 export interface SourceConfig {
   id: string;
   source: Source;
-  entryTypes: EntryType[];
+  entryTypes: ZendoCollectionConfig[];
 }
 
 export interface Configuration {

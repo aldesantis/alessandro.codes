@@ -1,5 +1,5 @@
 ---
-import type { GardenEntry } from "src/lib/zendo/entries";
+import type { ZendoCollectionEntry } from "src/lib/zendo/content";
 import EssayCard from "@components/content/essays/EssayCard.astro";
 import BookCard from "@components/content/books/BookCard.astro";
 import NoteCard from "@components/content/notes/NoteCard.astro";
@@ -9,7 +9,7 @@ import { type CollectionEntry } from "astro:content";
 import RecipeCard from "@components/content/recipes/RecipeCard.astro";
 
 interface Props {
-  content: GardenEntry;
+  content: ZendoCollectionEntry;
 }
 
 const { content } = Astro.props;

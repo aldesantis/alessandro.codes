@@ -1,14 +1,14 @@
 ---
-import { getEntry } from "src/lib/zendo/entries";
-import { entryTypeIds } from "garden.config";
+import { getEntry } from "src/lib/zendo/content";
+import { collectionIds } from "garden.config";
 import ContentCard from "@components/content/ContentCard.astro";
-import type { GardenEntryTypeId } from "src/lib/zendo/entries";
+import type { ZendoCollectionId } from "src/lib/zendo/content";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
   const paths = [];
 
-  for (const collection of entryTypeIds) {
+  for (const collection of collectionIds) {
     const collectionEntries = await getCollection(collection);
 
     for (const entry of collectionEntries) {
@@ -30,11 +30,11 @@ if (!collection || !id) {
   throw new Error("Collection and id parameters are required");
 }
 
-if (!entryTypeIds.includes(collection as GardenEntryTypeId)) {
+if (!collectionIds.includes(collection as ZendoCollectionId)) {
   throw new Error(`Invalid collection: ${collection}`);
 }
 
-const entry = await getEntry(collection as GardenEntryTypeId, id);
+const entry = await getEntry(collection as ZendoCollectionId, id);
 
 if (!entry) {
   throw new Error(`Entry not found: ${id} in collection ${collection}`);

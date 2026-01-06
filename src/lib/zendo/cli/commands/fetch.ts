@@ -2,7 +2,7 @@ import * as fse from "fs-extra";
 import path from "path";
 import { glob } from "glob";
 
-import type { EntryType } from "src/lib/zendo/config";
+import type { ZendoCollectionConfig } from "src/lib/zendo/config";
 import type { Source, SourceResult } from "src/lib/zendo/sources";
 
 import config from "garden.config";
@@ -28,7 +28,7 @@ async function fetchContent(
 /**
  * Gets files for a content type
  */
-async function getFilesForContentType(contentType: EntryType, basePath: string): Promise<string[]> {
+async function getFilesForContentType(contentType: ZendoCollectionConfig, basePath: string): Promise<string[]> {
   return glob(contentType.pattern, { cwd: basePath });
 }
 
@@ -38,7 +38,7 @@ async function getFilesForContentType(contentType: EntryType, basePath: string):
 async function transformFile(
   file: string,
   basePath: string,
-  contentType: EntryType,
+  contentType: ZendoCollectionConfig,
   contentDir: string
 ): Promise<boolean> {
   const sourcePath = path.join(basePath, file);
@@ -58,7 +58,11 @@ async function transformFile(
 /**
  * Transforms content for a content type
  */
-async function transformContent(contentType: EntryType, tmpPath: string, contentDir: string): Promise<number> {
+async function transformContent(
+  contentType: ZendoCollectionConfig,
+  tmpPath: string,
+  contentDir: string
+): Promise<number> {
   const basePath = getContentTypeBasePath(tmpPath, contentType.basePath);
   const files = await getFilesForContentType(contentType, basePath);
 

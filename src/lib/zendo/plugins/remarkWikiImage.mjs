@@ -1,8 +1,5 @@
 import { visit } from "unist-util-visit";
 
-// Updated regex to handle:
-// 1. Path-based references (e.g. ![[folder/image.png]])
-// 2. Aliases (e.g. ![[folder/image.png|alt text]])
 const WIKILINK_IMAGE_REGEX = /!\[\[([^|\]]+)(?:\|([^|\]]+))?\]\]/g;
 const MARKDOWN_IMAGE_REGEX = /!\[([^|\]]+)(?:\|([^|\]]+))?\]\(([^)]+)\)/g;
 
@@ -11,7 +8,6 @@ function isRemoteUrl(url) {
 }
 
 function resolveImagePath(imagePath, altText, assetsPath) {
-  // If it's a remote URL, return as is
   if (isRemoteUrl(imagePath)) {
     return {
       path: imagePath,
@@ -19,7 +15,6 @@ function resolveImagePath(imagePath, altText, assetsPath) {
     };
   }
 
-  // If the path contains a folder separator, use it as is
   if (imagePath.includes("/")) {
     return {
       path: `${assetsPath}/${imagePath}`,
@@ -27,7 +22,6 @@ function resolveImagePath(imagePath, altText, assetsPath) {
     };
   }
 
-  // For simple filenames, just use the filename
   return {
     path: `${assetsPath}/${imagePath}`,
     alt: altText || imagePath,
@@ -50,7 +44,6 @@ export function remarkWikiImage(options) {
         const children = [];
         let lastIndex = 0;
 
-        // Process wikilink-style images
         for (const match of wikilinkMatches) {
           const [fullMatch, imagePath, altText] = match;
           const startIndex = match.index;
@@ -65,7 +58,6 @@ export function remarkWikiImage(options) {
 
           const { path: imageUrl, alt } = resolveImagePath(imagePath, altText, assetsPath);
 
-          // Create proper markdown image node
           children.push({
             type: "image",
             url: imageUrl,
@@ -76,7 +68,6 @@ export function remarkWikiImage(options) {
           lastIndex = endIndex;
         }
 
-        // Process markdown-style images
         for (const match of markdownMatches) {
           const [fullMatch, alt, url] = match;
           const startIndex = match.index;
@@ -91,7 +82,6 @@ export function remarkWikiImage(options) {
 
           const { path: imageUrl, alt: resolvedAlt } = resolveImagePath(url, alt, assetsPath);
 
-          // Create proper markdown image node
           children.push({
             type: "image",
             url: imageUrl,
