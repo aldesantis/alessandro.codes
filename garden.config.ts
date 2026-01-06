@@ -1,7 +1,7 @@
 import path from "path";
 import matter from "gray-matter";
 
-import { gitSource, notionSource } from "src/lib/garden/sources";
+import { gitSource, notionSource } from "src/lib/zendo/sources";
 import {
   normalizeFilename,
   escapeMdx,
@@ -14,19 +14,19 @@ import {
   demoteHeadings,
   normalizeMetadata,
   convertNotionLinksToWikilinks,
-} from "src/lib/garden/transformers";
-import type { Configuration } from "src/lib/garden/config";
-import type { GardenEntry } from "src/lib/garden/entries";
+} from "src/lib/zendo/transformers";
+import type { Configuration } from "src/lib/zendo/config";
+import type { GardenEntry } from "src/lib/zendo/entries";
 import {
-  createCollectionFilterConfig,
-  createNameFilterConfig,
-  createStatusFilterConfig,
-  createTopicFilterConfig,
-  createCuisineFilterConfig,
-  createDietFilterConfig,
-  createRecipeTypeFilterConfig,
-  createRelatedToFilterConfig,
-} from "src/lib/garden/filters";
+  collectionFilter,
+  nameFilter,
+  statusFilter,
+  topicFilter,
+  cuisineFilter,
+  dietFilter,
+  recipeTypeFilter,
+  relatedToFilter,
+} from "src/lib/filters";
 
 const baseTransformers = [
   renameMdToMdx(),
@@ -49,14 +49,14 @@ const config: Configuration = {
 
   // Available filters for search
   filters: await Promise.all([
-    createCollectionFilterConfig(),
-    createNameFilterConfig(),
-    createStatusFilterConfig(),
-    createTopicFilterConfig(),
-    createCuisineFilterConfig(),
-    createDietFilterConfig(),
-    createRecipeTypeFilterConfig(),
-    createRelatedToFilterConfig(),
+    collectionFilter(),
+    nameFilter(),
+    statusFilter(),
+    topicFilter(),
+    cuisineFilter(),
+    dietFilter(),
+    recipeTypeFilter(),
+    relatedToFilter(),
   ]),
 
   // Where do we fetch the content from and what transformations do we want to apply?

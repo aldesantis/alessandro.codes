@@ -3,17 +3,9 @@ import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
-import {
-  createCuisineFilterConfig,
-  createDietFilterConfig,
-  createRecipeTypeFilterConfig,
-} from "src/lib/garden/filters";
+import { cuisineFilter, dietFilter, recipeTypeFilter } from "src/lib/filters";
 
-const filters = await Promise.all([
-  createCuisineFilterConfig(),
-  createDietFilterConfig(),
-  createRecipeTypeFilterConfig(),
-]);
+const filters = await Promise.all([cuisineFilter(), dietFilter(), recipeTypeFilter()]);
 ---
 
 <Layout>

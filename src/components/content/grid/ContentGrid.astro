@@ -1,8 +1,8 @@
 ---
-import { search } from "src/actions/search";
+import { search } from "src/lib/zendo/actions/search";
 import Card from "@components/ui/Card.astro";
 import ContentGridFilter from "./ContentGridFilter.astro";
-import type { FilterConfig } from "src/lib/garden/config";
+import type { FilterConfig } from "src/lib/zendo/config";
 
 interface Props {
   searchParams: Parameters<typeof search>[0];

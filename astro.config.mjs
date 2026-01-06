@@ -2,9 +2,9 @@
 import { defineConfig, fontProviders } from "astro/config";
 import icon from "astro-icon";
 
-import { remarkReadingTime } from "./src/lib/plugins/remarkReadingTime.mjs";
-import { remarkWikiLink } from "./src/lib/plugins/remarkWikiLink.mjs";
-import { remarkWikiImage } from "./src/lib/plugins/remarkWikiImage.mjs";
+import { remarkReadingTime } from "./src/lib/zendo/plugins/remarkReadingTime.mjs";
+import { remarkWikiLink } from "./src/lib/zendo/plugins/remarkWikiLink.mjs";
+import { remarkWikiImage } from "./src/lib/zendo/plugins/remarkWikiImage.mjs";
 
 import mdx from "@astrojs/mdx";
 

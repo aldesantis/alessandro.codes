@@ -1,3 +1,3 @@
-import cli from "../src/lib/cli";
+import cli from "../src/lib/zendo/cli";
 
 cli.parse();
