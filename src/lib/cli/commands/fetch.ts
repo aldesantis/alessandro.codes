@@ -112,5 +112,5 @@ export default async function fetchAndTransformContent(): Promise<void> {
     }
   }
 
-  ui.success(`Successfully fetched content from all sources!`);
+  ui.success(`Fetched content from ${config.sources.length} sources!`);
 }

@@ -10,6 +10,10 @@
     "lint": "prettier --check . && eslint . && astro check",
     "format": "prettier --write . && eslint --fix .",
     "zendo": "npx tsx scripts/cli.ts --",
+    "zendo:fetch": "npx tsx scripts/cli.ts fetch",
+    "zendo:reindex": "npx tsx scripts/cli.ts reindex",
+    "zendo:build": "npx tsx scripts/cli.ts build",
+    "zendo:update": "npm run zendo:build && git add . && git commit -m 'Update content' && git push",
     "tsc": "tsc",
     "generate-recipe-illustrations": "npx tsx scripts/generate-recipe-illustrations.ts"
   },
@@ -34,8 +38,7 @@
     "reading-time": "^1.5.0",
     "slugify": "^1.6.6",
     "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3",
-    "commander": "^14.0.2"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@iconify-json/fa6-brands": "^1.2.6",
@@ -45,6 +48,7 @@
     "@types/fs-extra": "^11.0.4",
     "@typescript-eslint/eslint-plugin": "^8.52.0",
     "@typescript-eslint/parser": "^8.52.0",
+    "commander": "^14.0.2",
     "chalk": "^5.6.2",
     "ci-info": "^4.3.1",
     "eslint": "^9.39.2",

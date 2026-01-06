@@ -148,5 +148,5 @@ export default async function indexContent(): Promise<void> {
 
   await writeJsonFile(getIndexFilePath(), indexEntriesWithAllLinks);
 
-  ui.success(`Index rebuilt successfully for ${indexEntriesWithAllLinks.length} entries!`);
+  ui.success(`Index rebuilt for ${indexEntriesWithAllLinks.length} entries!`);
 }
