@@ -2,7 +2,6 @@ import type { Transformer } from "src/lib/garden/transformers";
 import type { Source } from "src/lib/garden/sources";
 import type { GardenEntry } from "./entries";
 import type { GardenEntryTypeId } from "./entries";
-import type { FilterConfig } from "./filters";
 
 export interface SearchResult {
   id: string;
@@ -10,6 +9,19 @@ export interface SearchResult {
   type: GardenEntryTypeId;
   date?: string;
   status?: "seedling" | "budding" | "evergreen";
+}
+
+export type ContentFilterFn = (entries: GardenEntry[], value: unknown) => Promise<GardenEntry[]>;
+export type CollectionFilterFn = (entryTypes: EntryType[], value: unknown) => Promise<EntryType[]>;
+
+export interface FilterConfig {
+  id: string;
+  ui?: {
+    label: string;
+    items: Array<{ id: string; label: string }>;
+  };
+  contentFilterFn?: ContentFilterFn;
+  collectionFilterFn?: CollectionFilterFn;
 }
 
 export interface EntryType {

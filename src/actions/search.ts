@@ -1,21 +1,59 @@
 import { defineAction } from "astro:actions";
 import { z } from "astro/zod";
 
-import { getEntries, type GardenEntryTypeId } from "src/lib/garden/entries";
-import type { SearchResult } from "src/lib/garden/config";
-import config, { entryTypeIds } from "garden.config";
+import { getEntries, type GardenEntry, type GardenEntryTypeId } from "src/lib/garden/entries";
+import type { SearchResult, EntryType } from "src/lib/garden/config";
+import config from "garden.config";
 
 type SearchResultResponse = SearchResult & {
   url: string;
 };
 
+async function applyCollectionFilters(entryTypes: EntryType[], params: Record<string, unknown>): Promise<EntryType[]> {
+  if (!config.filters) {
+    return [];
+  }
+
+  const filters = config.filters.filter((config) => config.collectionFilterFn !== undefined);
+
+  let filteredEntryTypes = entryTypes;
+  for (const filter of filters) {
+    const paramValue = params[filter.id];
+    if (paramValue !== undefined && filter.collectionFilterFn) {
+      filteredEntryTypes = await filter.collectionFilterFn(filteredEntryTypes, paramValue);
+    }
+  }
+
+  return filteredEntryTypes;
+}
+
+async function applyContentFilters(entries: GardenEntry[], params: Record<string, unknown>): Promise<GardenEntry[]> {
+  if (!config.filters) {
+    return [];
+  }
+
+  const filters = config.filters.filter((config) => config.contentFilterFn !== undefined);
+
+  let filteredEntries = entries;
+  for (const filter of filters) {
+    const paramValue = params[filter.id];
+    if (paramValue !== undefined && filter.contentFilterFn) {
+      filteredEntries = await filter.contentFilterFn(filteredEntries, paramValue);
+    }
+  }
+
+  return filteredEntries;
+}
+
 async function getResults(
   params: Record<string, unknown>,
   { limit }: { limit?: number }
 ): Promise<SearchResultResponse[]> {
-  const allEntryTypes = config.sources.flatMap((source) => source.entryTypes).filter((entryType) => entryType.search);
+  const searchableCollections = config.sources
+    .flatMap((source) => source.entryTypes)
+    .filter((entryType) => entryType.search);
 
-  if (allEntryTypes.length === 0) {
+  if (searchableCollections.length === 0) {
     return [];
   }
 
@@ -23,41 +61,21 @@ async function getResults(
     return [];
   }
 
-  const collectionFilterConfigs = config.filters.filter((config) => config.collectionFilterFn !== undefined);
+  const collections = await applyCollectionFilters(searchableCollections, params);
 
-  let entryTypes = allEntryTypes;
-  for (const filterConfig of collectionFilterConfigs) {
-    const paramValue = params[filterConfig.id];
-    if (paramValue !== undefined && filterConfig.collectionFilterFn) {
-      entryTypes = await filterConfig.collectionFilterFn(entryTypes, paramValue);
-    }
-  }
+  const searchResults: SearchResultResponse[] = await Promise.all(
+    collections.map(async (collection) => {
+      const entries = await getEntries([collection.id as GardenEntryTypeId]);
+      const filteredEntries = await applyContentFilters(entries, params);
 
-  const entries = await getEntries(entryTypes.map((et) => et.id as GardenEntryTypeId));
+      return filteredEntries.map((entry) => ({
+        ...collection.search!.buildSearchResultFn(entry),
+        url: collection.search!.buildUrlFn(entry.id),
+      }));
+    })
+  ).then((results) => results.flat());
 
-  const searchResults: SearchResultResponse[] = [];
-
-  const contentFilterConfigs = config.filters.filter((config) => config.contentFilterFn !== undefined);
-
-  for (const entryType of entryTypes) {
-    const entriesForType = entries.filter((e) => e.collection === entryType.id);
-
-    let filteredEntries = entriesForType;
-    for (const filterConfig of contentFilterConfigs) {
-      const paramValue = params[filterConfig.id];
-      if (paramValue !== undefined && filterConfig.contentFilterFn) {
-        filteredEntries = await filterConfig.contentFilterFn(filteredEntries, paramValue, { entryType });
-      }
-    }
-
-    const searchResultsForType = filteredEntries.map((entry) => entryType.search!.buildSearchResultFn(entry));
-
-    searchResults.push(
-      ...searchResultsForType.map((item) => ({ ...item, url: entryType.search!.buildUrlFn(item.id) }))
-    );
-  }
-
-  return limit !== undefined ? searchResults.slice(0, limit) : searchResults;
+  return searchResults.slice(0, limit);
 }
 
 export const search = defineAction({
@@ -65,14 +83,9 @@ export const search = defineAction({
     .object({
       limit: z.number().optional(),
     })
-    .passthrough(), // Allow additional properties that match filter IDs
+    .passthrough(),
   handler: async (params) => {
     const { limit, ...filterParams } = params;
-
-    // Apply default for collections if not provided
-    if (!filterParams.collections) {
-      filterParams.collections = [...entryTypeIds];
-    }
 
     const items = await getResults(filterParams, { limit });
 

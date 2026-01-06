@@ -1,50 +1,7 @@
 import type { GardenEntry } from "./entries";
-import type { EntryType } from "./config";
+import type { EntryType, FilterConfig } from "./config";
 import { getCollection } from "astro:content";
 import { getEntry, getRelatedEntries, getEntryIndexRecord, type GardenEntryTypeId } from "./entries";
-
-export type ContentFilter = (
-  entries: GardenEntry[],
-  value: unknown,
-  { entryType }: { entryType: EntryType }
-) => Promise<GardenEntry[]>;
-
-export type CollectionFilter = (entryTypes: EntryType[], value: unknown) => Promise<EntryType[]>;
-
-export async function applyContentFilters(
-  entries: GardenEntry[],
-  filters: ContentFilter[],
-  value: unknown,
-  { entryType }: { entryType: EntryType }
-): Promise<GardenEntry[]> {
-  let filteredEntries = entries;
-  for (const filter of filters) {
-    filteredEntries = await filter(filteredEntries, value, { entryType });
-  }
-  return filteredEntries;
-}
-
-export async function applyCollectionFilters(
-  entryTypes: EntryType[],
-  filters: CollectionFilter[],
-  value: unknown
-): Promise<EntryType[]> {
-  let filteredEntryTypes = entryTypes;
-  for (const filter of filters) {
-    filteredEntryTypes = await filter(filteredEntryTypes, value);
-  }
-  return filteredEntryTypes;
-}
-
-export interface FilterConfig {
-  id: string;
-  ui?: {
-    label: string;
-    items: Array<{ id: string; label: string }>;
-  };
-  contentFilterFn?: ContentFilter;
-  collectionFilterFn?: CollectionFilter;
-}
 
 export async function createStatusFilterConfig(): Promise<FilterConfig> {
   return {
@@ -230,16 +187,8 @@ export async function createRecipeTypeFilterConfig(): Promise<FilterConfig> {
 export async function createNameFilterConfig(): Promise<FilterConfig> {
   return {
     id: "name",
-    contentFilterFn: async (
-      entries: GardenEntry[],
-      value: unknown,
-      { entryType }: { entryType: EntryType }
-    ): Promise<GardenEntry[]> => {
-      const name = value as string | undefined;
-
-      if (name === undefined || !entryType.search) {
-        return entries;
-      }
+    contentFilterFn: async (entries: GardenEntry[], value: unknown): Promise<GardenEntry[]> => {
+      const name = value as string;
 
       if (name.length < 3) {
         return [];

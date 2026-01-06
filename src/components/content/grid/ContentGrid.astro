@@ -2,7 +2,7 @@
 import { search } from "src/actions/search";
 import Card from "@components/ui/Card.astro";
 import ContentGridFilter from "./ContentGridFilter.astro";
-import type { FilterConfig } from "src/lib/garden/filters";
+import type { FilterConfig } from "src/lib/garden/config";
 
 interface Props {
   searchParams: Parameters<typeof search>[0];
