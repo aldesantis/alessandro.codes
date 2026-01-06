@@ -18,15 +18,15 @@ import {
 import type { Configuration } from "src/lib/zendo/config";
 import type { GardenEntry } from "src/lib/zendo/entries";
 import {
-  createCollectionFilterConfig,
-  createNameFilterConfig,
-  createStatusFilterConfig,
-  createTopicFilterConfig,
-  createCuisineFilterConfig,
-  createDietFilterConfig,
-  createRecipeTypeFilterConfig,
-  createRelatedToFilterConfig,
-} from "src/lib/garden/filters";
+  collectionFilter,
+  nameFilter,
+  statusFilter,
+  topicFilter,
+  cuisineFilter,
+  dietFilter,
+  recipeTypeFilter,
+  relatedToFilter,
+} from "src/lib/filters";
 
 const baseTransformers = [
   renameMdToMdx(),
@@ -49,14 +49,14 @@ const config: Configuration = {
 
   // Available filters for search
   filters: await Promise.all([
-    createCollectionFilterConfig(),
-    createNameFilterConfig(),
-    createStatusFilterConfig(),
-    createTopicFilterConfig(),
-    createCuisineFilterConfig(),
-    createDietFilterConfig(),
-    createRecipeTypeFilterConfig(),
-    createRelatedToFilterConfig(),
+    collectionFilter(),
+    nameFilter(),
+    statusFilter(),
+    topicFilter(),
+    cuisineFilter(),
+    dietFilter(),
+    recipeTypeFilter(),
+    relatedToFilter(),
   ]),
 
   // Where do we fetch the content from and what transformations do we want to apply?

@@ -3,7 +3,7 @@ import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
-import { createStatusFilterConfig, createTopicFilterConfig } from "src/lib/garden/filters";
+import { statusFilter, topicFilter } from "src/lib/filters";
 ---
 
 <Layout>
@@ -19,6 +19,6 @@ import { createStatusFilterConfig, createTopicFilterConfig } from "src/lib/garde
   <ContentGrid
     searchParams={{ collections: ["notes"] }}
     itemSize="M"
-    filters={await Promise.all([createStatusFilterConfig(), createTopicFilterConfig()])}
+    filters={await Promise.all([statusFilter(), topicFilter()])}
   />
 </Layout>

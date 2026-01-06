@@ -2,11 +2,7 @@
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
-import {
-  createStatusFilterConfig,
-  createTopicFilterConfig,
-  createCollectionFilterConfig,
-} from "src/lib/garden/filters";
+import { statusFilter, topicFilter, collectionFilter } from "src/lib/filters";
 ---
 
 <Layout>
@@ -20,7 +16,7 @@ import {
   <ContentGrid
     searchParams={{ collections: ["essays", "books", "notes", "talks"] }}
     itemSize="M"
-    filters={await Promise.all([createStatusFilterConfig(), createTopicFilterConfig(), createCollectionFilterConfig()])}
+    filters={await Promise.all([statusFilter(), topicFilter(), collectionFilter()])}
     layoutType="masonry"
   />
 </Layout>

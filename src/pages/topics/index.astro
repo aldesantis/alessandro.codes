@@ -3,7 +3,7 @@ import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
-import { createStatusFilterConfig } from "src/lib/garden/filters";
+import { statusFilter } from "src/lib/filters";
 ---
 
 <Layout>
@@ -16,5 +16,5 @@ import { createStatusFilterConfig } from "src/lib/garden/filters";
     </span>
   </Hero>
 
-  <ContentGrid searchParams={{ collections: ["topics"] }} itemSize="M" filters={[await createStatusFilterConfig()]} />
+  <ContentGrid searchParams={{ collections: ["topics"] }} itemSize="M" filters={[await statusFilter()]} />
 </Layout>
