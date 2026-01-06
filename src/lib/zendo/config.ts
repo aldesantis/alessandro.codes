@@ -18,7 +18,7 @@ export interface FilterConfig {
   id: string;
   ui?: {
     label: string;
-    items: Array<{ id: string; label: string }>;
+    getItems: () => Promise<Array<{ id: string; label: string }>>;
   };
   contentFilterFn?: ContentFilterFn;
   collectionFilterFn?: CollectionFilterFn;

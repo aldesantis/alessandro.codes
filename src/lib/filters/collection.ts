@@ -6,7 +6,7 @@ export default async function collectionFilter(): Promise<FilterConfig> {
     id: "collections",
     ui: {
       label: "Type",
-      items: [
+      getItems: async () => [
         { id: "essays", label: "Essays" },
         { id: "books", label: "Books" },
         { id: "notes", label: "Notes" },

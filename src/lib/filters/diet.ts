@@ -6,7 +6,7 @@ export default async function dietFilter(): Promise<FilterConfig> {
     id: "diet",
     ui: {
       label: "Diet",
-      items: [
+      getItems: async () => [
         { id: "omnivore", label: "🥩 Omnivore" },
         { id: "vegetarian", label: "🥬 Vegetarian" },
         { id: "vegan", label: "🌱 Vegan" },

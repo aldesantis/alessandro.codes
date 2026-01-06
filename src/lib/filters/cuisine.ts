@@ -6,7 +6,7 @@ export default async function cuisineFilter(): Promise<FilterConfig> {
     id: "cuisine",
     ui: {
       label: "Cuisine",
-      items: [
+      getItems: async () => [
         { id: "tex-mex", label: "🌮 Tex-Mex" },
         { id: "mediterranean", label: "🫒 Mediterranean" },
         { id: "bbq", label: "🍖 BBQ" },

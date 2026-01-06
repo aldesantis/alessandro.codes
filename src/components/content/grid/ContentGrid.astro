@@ -81,8 +81,8 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
   {
     filtersWithUi.length > 0 && (
       <div class="flex gap-2">
-        {filtersWithUi.map((filter) => (
-          <ContentGridFilter label={filter.ui.label} filterCategory={filter.id} items={filter.ui.items} />
+        {filtersWithUi.map(async (filter) => (
+          <ContentGridFilter label={filter.ui.label} filterCategory={filter.id} items={await filter.ui.getItems()} />
         ))}
       </div>
     )

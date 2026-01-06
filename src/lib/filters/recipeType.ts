@@ -6,7 +6,7 @@ export default async function recipeTypeFilter(): Promise<FilterConfig> {
     id: "recipeType",
     ui: {
       label: "Course",
-      items: [
+      getItems: async () => [
         { id: "starter", label: "🥗 Starter" },
         { id: "first-course", label: "🍝 First Course" },
         { id: "main-course", label: "🍽️ Main Course" },

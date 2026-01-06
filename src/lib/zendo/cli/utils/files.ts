@@ -81,5 +81,5 @@ export async function writeJsonFile(filePath: string, data: unknown): Promise<vo
 export function getIndexFilePath(): string {
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
-  return path.join(__dirname, "../../../data/index.json");
+  return path.join(__dirname, "../../../../data/index.json");
 }

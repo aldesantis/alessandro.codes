@@ -1,18 +1,19 @@
-import type { GardenEntry } from "../zendo/entries";
-import type { FilterConfig } from "../zendo/config";
-import { getCollection } from "astro:content";
+import type { GardenEntry } from "src/lib/zendo/entries";
+import type { FilterConfig } from "src/lib/zendo/config";
 
 export default async function topicFilter(): Promise<FilterConfig> {
-  const topics = await getCollection("topics");
-
   return {
     id: "topics",
     ui: {
       label: "Topic",
-      items: topics.map((topic) => ({
-        id: topic.id,
-        label: topic.data.title,
-      })),
+      getItems: async () => {
+        const { getCollection } = await import("astro:content");
+        const topics = await getCollection("topics");
+        return topics.map((topic) => ({
+          id: topic.id,
+          label: topic.data.title,
+        }));
+      },
     },
     contentFilterFn: async (entries: GardenEntry[], value: unknown): Promise<GardenEntry[]> => {
       const selectedValues = value as string[] | undefined;

@@ -6,7 +6,7 @@ export default async function statusFilter(): Promise<FilterConfig> {
     id: "status",
     ui: {
       label: "Status",
-      items: [
+      getItems: async () => [
         { id: "seedling", label: "🌱 Seedling" },
         { id: "budding", label: "🌿 Budding" },
         { id: "evergreen", label: "🌳 Evergreen" },
