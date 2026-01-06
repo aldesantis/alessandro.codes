@@ -5,7 +5,7 @@ import type { ZendoCollectionConfig } from "src/lib/zendo/config";
 import entryIndex from "src/data/index.json";
 
 export type ZendoCollectionId = (typeof collectionIds)[number];
-export type ZendoCollectionEntry = CollectionEntry<ZendoCollectionId>;
+export type ZendoCollectionEntry<T extends ZendoCollectionId = ZendoCollectionId> = CollectionEntry<T>;
 
 export interface EntryLink {
   slug: string;
@@ -20,17 +20,34 @@ export interface EntryIndexRecord {
   inboundLinks: EntryLink[];
 }
 
-export async function getEntries<T extends ZendoCollectionId>(contentTypes: T[]): Promise<CollectionEntry<T>[]> {
+export function sortEntries<T extends ZendoCollectionId>(
+  entries: ZendoCollectionEntry<T>[]
+): ZendoCollectionEntry<T>[] {
+  return entries.sort(config.sortEntriesFn);
+}
+
+export function deduplicateEntries<T extends ZendoCollectionId>(
+  entries: ZendoCollectionEntry<T>[]
+): ZendoCollectionEntry<T>[] {
+  return Array.from(new Set(entries.map((entry) => `${entry.collection}:${entry.id}`)))
+    .map((key) => {
+      const [collection, id] = key.split(":");
+      return entries.find((entry) => entry.collection === collection && entry.id === id);
+    })
+    .filter((entry): entry is ZendoCollectionEntry<T> => entry !== undefined);
+}
+
+export async function getEntries<T extends ZendoCollectionId>(
+  collections: T[] = [...collectionIds] as T[]
+): Promise<ZendoCollectionEntry<T>[]> {
   const allEntries = await Promise.all(
-    contentTypes.map(async (contentTypeId) => {
-      const collection = await getCollection(contentTypeId);
-      return collection;
+    collections.map(async (collection) => {
+      const entries = await getCollection(collection);
+      return entries;
     })
   ).then((collections) => collections.flat());
 
-  const sortedEntries = allEntries.sort(config.sortEntriesFn);
-
-  return sortedEntries;
+  return sortEntries<T>(allEntries);
 }
 
 export async function getEntry<T extends ZendoCollectionId>(
@@ -72,23 +89,11 @@ export async function getRelatedEntries(entry: ZendoCollectionEntry): Promise<Ze
     .map((slug) => allLinks.find((link) => link.slug === slug))
     .filter((link) => link !== undefined);
 
-  const relatedEntriesByLinks = (
+  const relatedEntries = (
     await Promise.all(uniqueLinks.map((link) => getEntry(link.type as ZendoCollectionId, link.slug)))
   ).filter((entry): entry is ZendoCollectionEntry => entry !== null);
 
-  if (entry.collection === "topics") {
-    const relatedEntriesByTopic = (await getEntries([...collectionIds])).filter(
-      (e) => "topics" in e.data && e.data.topics?.some((t: { id: string }) => t.id === entry.id)
-    );
-
-    relatedEntriesByLinks.push(...relatedEntriesByTopic);
-  }
-
-  const uniqueRelatedEntries = Array.from(new Set(relatedEntriesByLinks.map((entry) => entry.id)))
-    .map((id) => relatedEntriesByLinks.find((entry) => entry.id === id))
-    .filter((entry): entry is ZendoCollectionEntry => entry !== undefined);
-
-  return uniqueRelatedEntries.sort(config.sortEntriesFn);
+  return sortEntries(relatedEntries);
 }
 
 export function getCollectionConfig(entryTypeId: ZendoCollectionId): ZendoCollectionConfig {

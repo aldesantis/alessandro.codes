@@ -74,10 +74,12 @@ async function getResults(
       const entries = await getEntries([collection.id as ZendoCollectionId]);
       const filteredEntries = await applyContentFilters(entries, params);
 
-      return filteredEntries.map((entry) => ({
+      const transformedResults = filteredEntries.map((entry) => ({
         ...collection.search!.buildSearchResultFn(entry),
         url: collection.search!.buildUrlFn(entry.id),
       }));
+
+      return transformedResults;
     })
   ).then((results) => results.flat());
 
