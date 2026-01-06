@@ -13,7 +13,7 @@
     "zendo:fetch": "npx tsx scripts/cli.ts fetch",
     "zendo:reindex": "npx tsx scripts/cli.ts reindex",
     "zendo:build": "npx tsx scripts/cli.ts build",
-    "zendo:update": "npm run zendo:build && git add . && git commit -m 'Update content' && git push",
+    "zendo:update": "npm run zendo:build && git add src/data/index.json src/content && git commit -m 'Update content' && git push",
     "tsc": "tsc",
     "generate-recipe-illustrations": "npx tsx scripts/generate-recipe-illustrations.ts"
   },
