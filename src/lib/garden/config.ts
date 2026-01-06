@@ -2,6 +2,7 @@ import type { Transformer } from "src/lib/garden/transformers";
 import type { Source } from "src/lib/garden/sources";
 import type { GardenEntry } from "./entries";
 import type { GardenEntryTypeId } from "./entries";
+import type { FilterConfig } from "./filters";
 
 export interface SearchResult {
   id: string;
@@ -33,4 +34,5 @@ export interface SourceConfig {
 export interface Configuration {
   contentDir: string;
   sources: SourceConfig[];
+  filters?: FilterConfig[];
 }

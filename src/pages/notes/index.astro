@@ -19,6 +19,6 @@ import { createStatusFilterConfig, createTopicFilterConfig } from "src/lib/garde
   <ContentGrid
     searchParams={{ collections: ["notes"] }}
     itemSize="M"
-    filters={[createStatusFilterConfig(), await createTopicFilterConfig()]}
+    filters={await Promise.all([createStatusFilterConfig(), createTopicFilterConfig()])}
   />
 </Layout>
