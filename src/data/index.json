@@ -5551,6 +5551,10 @@
       {
         "slug": "rest-is-not-idleness",
         "type": "notes"
+      },
+      {
+        "slug": "the-pathless-path",
+        "type": "books"
       }
     ]
   },
@@ -6167,6 +6171,7 @@
   },
   {
     "ids": [
+      "Most learning is parabola-shaped",
       "most-learning-is-parabola-shaped"
     ],
     "slug": "most-learning-is-parabola-shaped",
@@ -8034,6 +8039,10 @@
       {
         "slug": "non-fiction-must-revolve-around-a-shiny-dime",
         "type": "notes"
+      },
+      {
+        "slug": "the-pathless-path",
+        "type": "books"
       }
     ]
   },
@@ -8967,6 +8976,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Good Work",
+      "good-work"
+    ],
+    "slug": "good-work",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -9940,7 +9959,16 @@
     ],
     "slug": "the-pathless-path",
     "type": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "life-is-seasonal",
+        "type": "notes"
+      },
+      {
+        "slug": "there-are-three-types-of-non-fiction-works",
+        "type": "notes"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -10529,6 +10557,16 @@
       "3-pillars-of-digital-luxury"
     ],
     "slug": "3-pillars-of-digital-luxury",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "3 Things You Can Learn From THE BEST BRANDS",
+      "3-things-you-can-learn-from-the-best-brands"
+    ],
+    "slug": "3-things-you-can-learn-from-the-best-brands",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12718,6 +12756,16 @@
       "brain-food-the-next-corner"
     ],
     "slug": "brain-food-the-next-corner",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brain Food: The Obvious Thing",
+      "brain-food-the-obvious-thing"
+    ],
+    "slug": "brain-food-the-obvious-thing",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16059,6 +16107,16 @@
   },
   {
     "ids": [
+      "Half Your Audience Can’t See Your Brand",
+      "half-your-audience-cant-see-your-brand"
+    ],
+    "slug": "half-your-audience-cant-see-your-brand",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Hard Edges, Soft Middle",
       "hard-edges-soft-middle"
     ],
@@ -16467,6 +16525,16 @@
       "how-film-distributor-a24-became-the-hottest-name-in-merch"
     ],
     "slug": "how-film-distributor-a24-became-the-hottest-name-in-merch",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How First Principles Thinking Fails",
+      "how-first-principles-thinking-fails"
+    ],
+    "slug": "how-first-principles-thinking-fails",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18184,6 +18252,16 @@
       "jan-14-a-career-ending-mistake"
     ],
     "slug": "jan-14-a-career-ending-mistake",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Judgment From the Ground Up",
+      "judgment-from-the-ground-up"
+    ],
+    "slug": "judgment-from-the-ground-up",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21269,6 +21347,16 @@
   },
   {
     "ids": [
+      "Strategy Is Not the Same as Planning",
+      "strategy-is-not-the-same-as-planning"
+    ],
+    "slug": "strategy-is-not-the-same-as-planning",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Superlinear Returns",
       "superlinear-returns"
     ],
@@ -22930,6 +23018,16 @@
       "the-problem-with-loyalty-coalitions-is-the-word-loyalty"
     ],
     "slug": "the-problem-with-loyalty-coalitions-is-the-word-loyalty",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Problems With Deliberate Practice",
+      "the-problems-with-deliberate-practice"
+    ],
+    "slug": "the-problems-with-deliberate-practice",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
