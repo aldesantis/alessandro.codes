@@ -1,22 +1,25 @@
 import { Command } from "commander";
-import fetchContent from "./commands/fetch-content";
-import indexContent from "./commands/index-content";
-import updateContent from "./commands/update-content";
+import fetchCommand from "./commands/fetch";
+import reindexCommand from "./commands/reindex";
+import buildCommand from "./commands/build";
+import * as ui from "./ui";
 
 const program = new Command();
 
-program.name("zendo").description("Your digital garden toolkit").version("0.1.0");
+program.name("zendo").description(ui.colors.brand("Your digital garden toolkit")).version("0.1.0").configureHelp({
+  helpWidth: 100,
+  sortSubcommands: true,
+});
 
-program.command("fetch-content").description("Fetch content from configured sources").action(fetchContent);
-program.command("index-content").description("Index content and generate src/data/index.json").action(indexContent);
+// Register commands directly
+program.command("fetch").description("Fetch all content from your sources").action(fetchCommand);
+
+program.command("reindex").description("Rebuild the content index").action(reindexCommand);
 
 program
-  .command("update-content")
-  .description("Fetch content, index it, build, and commit changes")
-  .option("--skip-build", "Skip the build step")
-  .option("--skip-git", "Skip git add/commit/push")
-  .option("-m, --commit-message <msg>", "Custom commit message", "Update content")
+  .command("build")
+  .description("Fetch, reindex, and build your garden")
   .option("-v, --verbose", "Enable verbose logging")
-  .action(updateContent);
+  .action(buildCommand);
 
 export default program;

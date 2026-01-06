@@ -11,6 +11,7 @@ import fse from "fs-extra";
 import type { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 
 import type { Source } from "src/lib/garden/sources";
+import * as ui from "src/lib/cli/ui";
 
 type NotionFilter = Parameters<typeof Client.prototype.dataSources.query>[0]["filter"];
 
@@ -74,7 +75,7 @@ async function downloadFile(url: string, filePath: string, index?: number): Prom
   try {
     const response = await fetch(url);
     if (!response.ok) {
-      console.warn(`Failed to download file from ${url}: ${response.statusText}`);
+      ui.warning(`Failed to download file from ${url}: ${response.statusText}`);
       return null;
     }
 
@@ -93,7 +94,7 @@ async function downloadFile(url: string, filePath: string, index?: number): Prom
 
     return filename;
   } catch (error) {
-    console.warn(`Error downloading file from ${url}:`, error);
+    ui.warning(`Error downloading file from ${url}: ${error}`);
     return null;
   }
 }
@@ -309,7 +310,7 @@ async function processPage(
 }
 
 export default function notionSource(config: NotionConfiguration): Source {
-  return async (destination) => {
+  return async (destination, context) => {
     const notion = new Client({
       auth: config.apiToken,
     });
@@ -322,45 +323,33 @@ export default function notionSource(config: NotionConfiguration): Source {
 
     await mkdir(destination, { recursive: true });
 
-    console.log(`Fetching pages from Notion database: ${config.dataSourceId}...`);
+    context.updateProgress("fetching pages...");
 
-    try {
-      const pages = await getAllPages(notion, config.dataSourceId, { filter: config.filter });
+    const pages = await getAllPages(notion, config.dataSourceId, { filter: config.filter });
 
-      console.log(`Found ${pages.length} pages. Processing...`);
-
-      const results = await Promise.allSettled(pages.map((page) => processPage(page, destination, n2m)));
-
-      let successCount = 0;
-      let failureCount = 0;
-
-      for (let i = 0; i < results.length; i++) {
-        const result = results[i];
-        const page = pages[i];
-
-        if (!result || !page) continue;
-
-        if (result.status === "fulfilled") {
-          const pageResult = result.value;
-          if (pageResult.success && pageResult.filename) {
-            console.log(`  ✓ Processed: ${pageResult.filename}`);
-            successCount++;
-          } else {
-            console.warn(`  ✗ Failed to process page ${page.id}:`, pageResult.error);
-            failureCount++;
-          }
-        } else {
-          console.warn(`  ✗ Failed to process page ${page.id}:`, result.reason);
-          failureCount++;
-        }
-      }
-
-      console.log(
-        `Successfully processed ${successCount} of ${pages.length} pages.${failureCount > 0 ? ` ${failureCount} failed.` : ""}`
-      );
-    } catch (error) {
-      console.error(`Error fetching from Notion database:`, error);
-      throw error;
+    if (pages.length === 0) {
+      return {
+        status: "warning",
+        message: "no pages found",
+      };
     }
+
+    context.updateProgress(`found ${pages.length} pages`);
+
+    let completedCount = 0;
+
+    await Promise.allSettled(
+      pages.map(async (page) => {
+        await processPage(page, destination, n2m);
+
+        completedCount++;
+        context.updateProgress(`fetching page ${completedCount}/${pages.length}`);
+      })
+    );
+
+    return {
+      status: "success",
+      message: `fetched ${completedCount} pages`,
+    };
   };
 }

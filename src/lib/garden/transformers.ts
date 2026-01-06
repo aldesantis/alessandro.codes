@@ -23,6 +23,27 @@ export type Transformer = (
   contentType: EntryType
 ) => Promise<TransformerResult>;
 
+export async function applyTransformers(
+  path: string,
+  content: string | Buffer,
+  contentType: EntryType
+): Promise<TransformerResult> {
+  let currentResult: TransformerResult = {
+    path,
+    content,
+  };
+
+  for (const transformer of contentType.transformers) {
+    if (currentResult === null) {
+      return null;
+    }
+
+    currentResult = await transformer(currentResult.path, currentResult.content, contentType);
+  }
+
+  return currentResult;
+}
+
 export {
   addBasenameToAliases,
   normalizeFilename,

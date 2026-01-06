@@ -1,4 +1,4 @@
-import { execSync } from "child_process";
+import { execAsync } from "src/lib/cli/utils/exec";
 import { existsSync } from "fs";
 import { join } from "path";
 
@@ -9,16 +9,31 @@ type GitConfiguration = {
 };
 
 export default function gitSource(config: GitConfiguration): Source {
-  return async (destination) => {
+  return async (destination, context) => {
     const gitDir = join(destination, ".git");
 
-    // Check if the directory already contains a git repository
     if (existsSync(gitDir)) {
-      console.log("Repository already exists, pulling latest changes...");
-      execSync(`cd ${destination} && git pull`, { stdio: "inherit" });
+      context.updateProgress("pulling repo...");
+
+      await execAsync(`cd ${destination} && git pull`, {
+        encoding: "utf8",
+      });
+
+      return {
+        status: "success",
+        message: "pulled repo",
+      };
     } else {
-      console.log("Cloning repository for the first time...");
-      execSync(`git clone ${config.repositoryUrl} ${destination}`, { stdio: "inherit" });
+      context.updateProgress("cloning repo...");
+
+      await execAsync(`git clone ${config.repositoryUrl} ${destination}`, {
+        encoding: "utf8",
+      });
+
+      return {
+        status: "success",
+        message: "cloned repo",
+      };
     }
   };
 }
