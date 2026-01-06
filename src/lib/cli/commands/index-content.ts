@@ -163,7 +163,7 @@ function extractInboundLinks(entry: EntryIndexRecord, allEntries: EntryIndexReco
  * Writes the garden index to a JSON file
  */
 async function writeGardenIndex(entries: EntryIndexRecord[]): Promise<void> {
-  const outputPath = path.join(__dirname, "../src/data/index.json");
+  const outputPath = path.join(__dirname, "../../../data/index.json");
   await fs.writeFile(outputPath, JSON.stringify(entries, null, 2));
   console.log("✨ Generated garden index in index.json");
 }
@@ -171,7 +171,7 @@ async function writeGardenIndex(entries: EntryIndexRecord[]): Promise<void> {
 /**
  * Main function to generate the garden index
  */
-async function generateIndex(): Promise<void> {
+export default async function indexContent(): Promise<void> {
   console.log("Starting index generation...");
 
   const filesData = await parseAllMarkdownFiles();
@@ -193,5 +193,3 @@ async function generateIndex(): Promise<void> {
   await writeGardenIndex(indexEntriesWithAllLinks);
   console.log("✅ Index generation complete!");
 }
-
-generateIndex();

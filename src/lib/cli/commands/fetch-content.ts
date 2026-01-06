@@ -80,7 +80,7 @@ async function transformContent(contentType: EntryType, tmpPath: string, content
   }
 }
 
-async function processContent(): Promise<void> {
+export default async function processContent(): Promise<void> {
   console.log(`Cleaning content directory: ${config.contentDir}`);
   await cleanDirectory(config.contentDir);
 
@@ -97,9 +97,3 @@ async function processContent(): Promise<void> {
   // Don't delete the cached source directory anymore
   console.log("Content fetching complete!");
 }
-
-async function main(): Promise<void> {
-  await processContent();
-}
-
-main();
