@@ -151,20 +151,24 @@ const config: Configuration = {
           transformers: [
             ...digitalGardenTransformers,
 
-            // Copy the lastHighlightedOn date to the updatedAt date for proper sorting
+            // updatedAt is not updated when lastHighlightedOn is updated,
+            // so we need to copy lastHighlightedOn into updatetAt for proper
+            // sorting (assuming the former is greater than the latter)
             async (originalPath, originalContent) => {
-              // Skip binary files
               if (Buffer.isBuffer(originalContent)) {
                 return { path: originalPath, content: originalContent };
               }
 
               const { data, content } = matter(originalContent);
 
-              const date = new Date(data.lastHighlightedOn);
+              const lastHighlightedOn = new Date(data.lastHighlightedOn);
+              const updatedAt = new Date(data.updatedAt);
 
-              const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
+              if (lastHighlightedOn > updatedAt) {
+                data.updatedAt = lastHighlightedOn.toISOString();
+              }
 
-              return { path: originalPath, content: updatedContent };
+              return { path: originalPath, content: matter.stringify(content, data) };
             },
           ],
           search: {
