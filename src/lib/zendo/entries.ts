@@ -1,6 +1,6 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import config, { entryTypeIds } from "garden.config";
-import type { EntryType } from "src/lib/garden/config";
+import type { EntryType } from "src/lib/zendo/config";
 
 import entryIndex from "src/data/index.json";
 

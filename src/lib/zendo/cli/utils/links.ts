@@ -1,5 +1,5 @@
-import type { EntryLink, EntryIndexRecord } from "src/lib/garden/entries";
-import { extractWikilinks } from "src/lib/utils/wikilink.mjs";
+import type { EntryLink, EntryIndexRecord } from "src/lib/zendo/entries";
+import { extractWikilinks } from "src/lib/zendo/utils/wikilink.mjs";
 
 /**
  * Link extraction utilities

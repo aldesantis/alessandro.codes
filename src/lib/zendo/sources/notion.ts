@@ -10,8 +10,8 @@ import fetch from "node-fetch";
 import fse from "fs-extra";
 import type { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 
-import type { Source } from "src/lib/garden/sources";
-import * as ui from "src/lib/cli/ui";
+import type { Source } from "src/lib/zendo/sources";
+import * as ui from "src/lib/zendo/cli/ui";
 
 type NotionFilter = Parameters<typeof Client.prototype.dataSources.query>[0]["filter"];
 

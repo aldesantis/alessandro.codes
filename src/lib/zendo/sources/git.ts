@@ -1,8 +1,8 @@
-import { execAsync } from "src/lib/cli/utils/exec";
+import { execAsync } from "src/lib/zendo/cli/utils/exec";
 import { existsSync } from "fs";
 import { join } from "path";
 
-import type { Source } from "src/lib/garden/sources";
+import type { Source } from "src/lib/zendo/sources";
 
 type GitConfiguration = {
   repositoryUrl: string;

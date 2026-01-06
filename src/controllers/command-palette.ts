@@ -1,6 +1,6 @@
 import { Controller } from "@hotwired/stimulus";
 import { actions } from "astro:actions";
-import type { SearchResult } from "src/lib/garden/config";
+import type { SearchResult } from "src/lib/zendo/config";
 
 type StatusType = "seedling" | "budding" | "evergreen";
 

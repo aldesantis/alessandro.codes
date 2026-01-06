@@ -1,7 +1,7 @@
 import path from "path";
 import matter from "gray-matter";
 
-import { gitSource, notionSource } from "src/lib/garden/sources";
+import { gitSource, notionSource } from "src/lib/zendo/sources";
 import {
   normalizeFilename,
   escapeMdx,
@@ -14,9 +14,9 @@ import {
   demoteHeadings,
   normalizeMetadata,
   convertNotionLinksToWikilinks,
-} from "src/lib/garden/transformers";
-import type { Configuration } from "src/lib/garden/config";
-import type { GardenEntry } from "src/lib/garden/entries";
+} from "src/lib/zendo/transformers";
+import type { Configuration } from "src/lib/zendo/config";
+import type { GardenEntry } from "src/lib/zendo/entries";
 import {
   createCollectionFilterConfig,
   createNameFilterConfig,

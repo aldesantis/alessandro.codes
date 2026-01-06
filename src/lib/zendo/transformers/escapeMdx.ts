@@ -1,4 +1,4 @@
-import type { Transformer } from "../transformers";
+import type { Transformer } from ".";
 import matter from "gray-matter";
 
 const escapeMdx = (): Transformer => {

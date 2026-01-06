@@ -1,5 +1,5 @@
-import gitSource from "src/lib/garden/sources/git";
-import notionSource from "src/lib/garden/sources/notion";
+import gitSource from "src/lib/zendo/sources/git";
+import notionSource from "src/lib/zendo/sources/notion";
 
 export type SourceResult = {
   status: "success" | "warning";

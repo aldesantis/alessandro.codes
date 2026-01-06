@@ -1,16 +1,16 @@
-import type { EntryType } from "src/lib/garden/config";
+import type { EntryType } from "src/lib/zendo/config";
 
-import addBasenameToAliases from "src/lib/garden/transformers/addBasenameToAliases";
-import normalizeFilename from "src/lib/garden/transformers/normalizeFilename";
-import escapeMdx from "src/lib/garden/transformers/escapeMdx";
-import removeFirstH1 from "src/lib/garden/transformers/removeFirstH1";
-import removeSection from "src/lib/garden/transformers/removeSection";
-import renameMdToMdx from "src/lib/garden/transformers/renameMdToMdx";
-import addContentTypeToMetadata from "src/lib/garden/transformers/addContentTypeToMetadata";
-import removeDrafts from "src/lib/garden/transformers/removeDrafts";
-import demoteHeadings from "src/lib/garden/transformers/demoteHeadings";
-import normalizeMetadata from "src/lib/garden/transformers/normalizeMetadata";
-import convertNotionLinksToWikilinks from "src/lib/garden/transformers/convertNotionLinksToWikilinks";
+import addBasenameToAliases from "src/lib/zendo/transformers/addBasenameToAliases";
+import normalizeFilename from "src/lib/zendo/transformers/normalizeFilename";
+import escapeMdx from "src/lib/zendo/transformers/escapeMdx";
+import removeFirstH1 from "src/lib/zendo/transformers/removeFirstH1";
+import removeSection from "src/lib/zendo/transformers/removeSection";
+import renameMdToMdx from "src/lib/zendo/transformers/renameMdToMdx";
+import addContentTypeToMetadata from "src/lib/zendo/transformers/addContentTypeToMetadata";
+import removeDrafts from "src/lib/zendo/transformers/removeDrafts";
+import demoteHeadings from "src/lib/zendo/transformers/demoteHeadings";
+import normalizeMetadata from "src/lib/zendo/transformers/normalizeMetadata";
+import convertNotionLinksToWikilinks from "src/lib/zendo/transformers/convertNotionLinksToWikilinks";
 
 export type TransformerResult = {
   path: string;

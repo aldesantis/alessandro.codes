@@ -2,7 +2,7 @@ import matter from "gray-matter";
 import slugify from "slugify";
 import emojiRegex from "emoji-regex";
 
-import type { Transformer } from "src/lib/garden/transformers";
+import type { Transformer } from "src/lib/zendo/transformers";
 
 export type NormalizeMetadataConfig = {
   normalizeKeysFor: string[];

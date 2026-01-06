@@ -1,10 +1,10 @@
 ---
 import Link from "@components/ui/Link.astro";
-import type { EntryLink as LinkType } from "src/lib/garden/entries";
-import { buildContentEntryUrl } from "src/lib/plugins/remarkWikiLink.mjs";
+import type { EntryLink as LinkType } from "src/lib/zendo/entries";
+import { buildContentEntryUrl } from "src/lib/zendo/plugins/remarkWikiLink.mjs";
 import LinkList from "@components/ui/LinkList.astro";
 import MobileCollapsible from "@components/ui/MobileCollapsible.astro";
-import { getEntries, type GardenEntryTypeId } from "src/lib/garden/entries";
+import { getEntries, type GardenEntryTypeId } from "src/lib/zendo/entries";
 
 interface Props {
   outboundLinks: LinkType[];

@@ -2,14 +2,14 @@ import * as fse from "fs-extra";
 import path from "path";
 import { glob } from "glob";
 
-import type { EntryType } from "src/lib/garden/config";
-import type { Source, SourceResult } from "src/lib/garden/sources";
+import type { EntryType } from "src/lib/zendo/config";
+import type { Source, SourceResult } from "src/lib/zendo/sources";
 
 import config from "garden.config";
 import * as ui from "../ui";
 import { cleanDirectory, readFileWithEncoding, writeFileWithEncoding } from "../utils/files";
 import { getSourceCacheDir, getContentTypeBasePath, getDestinationPath } from "../utils/paths";
-import { applyTransformers } from "src/lib/garden/transformers";
+import { applyTransformers } from "src/lib/zendo/transformers";
 
 /**
  * Fetches content from a source

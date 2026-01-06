@@ -1,6 +1,6 @@
 import matter from "gray-matter";
 
-import type { Transformer } from "src/lib/garden/transformers";
+import type { Transformer } from "src/lib/zendo/transformers";
 
 const demoteHeadings = (): Transformer => {
   return async (originalPath: string, originalContent: string | Buffer) => {

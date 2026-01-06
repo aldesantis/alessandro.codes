@@ -1,5 +1,5 @@
-import type { Transformer } from "src/lib/garden/transformers";
-import type { Source } from "src/lib/garden/sources";
+import type { Transformer } from "src/lib/zendo/transformers";
+import type { Source } from "src/lib/zendo/sources";
 import type { GardenEntry } from "./entries";
 import type { GardenEntryTypeId } from "./entries";
 

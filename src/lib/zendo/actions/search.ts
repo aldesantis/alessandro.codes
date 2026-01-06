@@ -1,8 +1,8 @@
 import { defineAction } from "astro:actions";
 import { z } from "astro/zod";
 
-import { getEntries, type GardenEntry, type GardenEntryTypeId } from "src/lib/garden/entries";
-import type { SearchResult, EntryType } from "src/lib/garden/config";
+import { getEntries, type GardenEntry, type GardenEntryTypeId } from "src/lib/zendo/entries";
+import type { SearchResult, EntryType } from "src/lib/zendo/config";
 import config from "garden.config";
 
 type SearchResultResponse = SearchResult & {

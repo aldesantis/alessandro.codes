@@ -1,6 +1,6 @@
 import { visit } from "unist-util-visit";
 
-import entryIndex from "../../data/index.json";
+import entryIndex from "../../../data/index.json";
 import { extractWikilinks } from "../utils/wikilink.mjs";
 
 export function buildContentEntryUrl({ type, slug }) {

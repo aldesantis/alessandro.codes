@@ -1,7 +1,7 @@
-import type { GardenEntry } from "./entries";
-import type { EntryType, FilterConfig } from "./config";
+import type { GardenEntry } from "../zendo/entries";
+import type { EntryType, FilterConfig } from "../zendo/config";
 import { getCollection } from "astro:content";
-import { getEntry, getRelatedEntries, getEntryIndexRecord, type GardenEntryTypeId } from "./entries";
+import { getEntry, getRelatedEntries, getEntryIndexRecord, type GardenEntryTypeId } from "../zendo/entries";
 
 export async function createStatusFilterConfig(): Promise<FilterConfig> {
   return {
