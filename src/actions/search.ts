@@ -11,7 +11,7 @@ import {
   createTopicFilter,
   createCuisineFilter,
   createDietFilter,
-  createrecipeTypeFilter,
+  createRecipeTypeFilter,
   createRelatedToFilter,
 } from "src/lib/garden/search-filters";
 
@@ -54,7 +54,7 @@ async function getResults(
     createTopicFilter(),
     createCuisineFilter(),
     createDietFilter(),
-    createrecipeTypeFilter(),
+    createRecipeTypeFilter(),
     createRelatedToFilter(),
   ];
 

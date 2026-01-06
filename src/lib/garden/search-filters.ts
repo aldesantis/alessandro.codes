@@ -112,7 +112,7 @@ export function createDietFilter(): SearchFilter {
   };
 }
 
-export function createrecipeTypeFilter(): SearchFilter {
+export function createRecipeTypeFilter(): SearchFilter {
   return async (entries: GardenEntry[], context: FilterContext): Promise<GardenEntry[]> => {
     const selectedValues = context.recipeType;
 
