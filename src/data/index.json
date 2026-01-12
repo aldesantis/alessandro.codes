@@ -122,7 +122,7 @@
         "type": "notes"
       },
       {
-        "slug": "there-are-three-types-of-consulting",
+        "slug": "there-are-three-types-of-consulting-relationships",
         "type": "notes"
       },
       {
@@ -3828,7 +3828,7 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "there-are-three-types-of-consulting",
+        "slug": "there-are-three-types-of-consulting-relationships",
         "type": "notes"
       }
     ],
@@ -6950,6 +6950,21 @@
   },
   {
     "ids": [
+      "Segmentation is not always worthwhile",
+      "segmentation-is-not-always-worthwhile"
+    ],
+    "slug": "segmentation-is-not-always-worthwhile",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "my-email-playbook-for-fashion-brands",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Selection bias hinders decision-making",
       "selection-bias-hinders-decision-making"
     ],
@@ -7976,10 +7991,30 @@
   },
   {
     "ids": [
-      "There are three types of consulting",
-      "there-are-three-types-of-consulting"
+      "There are three types of consultancies",
+      "there-are-three-types-of-consulting-firms"
     ],
-    "slug": "there-are-three-types-of-consulting",
+    "slug": "there-are-three-types-of-consulting-firms",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "there-are-three-types-of-consulting-relationships",
+        "type": "notes"
+      },
+      {
+        "slug": "managing-the-professional-service-firm",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "There are three types of consulting relationships",
+      "There are three types of consulting engagements",
+      "there-are-three-types-of-consulting-relationships"
+    ],
+    "slug": "there-are-three-types-of-consulting-relationships",
     "type": "notes",
     "outboundLinks": [
       {
@@ -7994,6 +8029,10 @@
       },
       {
         "slug": "consulting-is-the-gift-of-perspective",
+        "type": "notes"
+      },
+      {
+        "slug": "there-are-three-types-of-consulting-firms",
         "type": "notes"
       }
     ]
@@ -8446,6 +8485,16 @@
   },
   {
     "ids": [
+      "Work you love creates energy for work you need",
+      "work-you-love-creates-energy-for-work-you-need"
+    ],
+    "slug": "work-you-love-creates-energy-for-work-you-need",
+    "type": "notes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Writing is thinking across time",
       "writing-is-thinking-across-time"
     ],
@@ -8872,7 +8921,7 @@
         "type": "notes"
       },
       {
-        "slug": "there-are-three-types-of-consulting",
+        "slug": "there-are-three-types-of-consulting-relationships",
         "type": "notes"
       }
     ]
@@ -9390,6 +9439,10 @@
       {
         "slug": "consulting",
         "type": "topics"
+      },
+      {
+        "slug": "there-are-three-types-of-consulting-firms",
+        "type": "notes"
       }
     ]
   },
@@ -10704,6 +10757,16 @@
       "5-star-experiences-drive-long-term-customer-value"
     ],
     "slug": "5-star-experiences-drive-long-term-customer-value",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "5 Things Every Brand Should Do in 2026",
+      "5-things-every-brand-should-do-in-2026"
+    ],
+    "slug": "5-things-every-brand-should-do-in-2026",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14908,6 +14971,17 @@
       "emoji-1f575-1f3fb-200d-2642-fe0f-account-based-content"
     ],
     "slug": "emoji-1f575-1f3fb-200d-2642-fe0f-account-based-content",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "🕵🏻‍♂️ How to Create Playbooks for Long Sales Cycles and Multiple Buyers",
+      "🕵🏻‍♂️-how-to-create-playbooks-for-long-sales-cycles-and-multiple-buyers",
+      "emoji-1f575-1f3fb-200d-2642-fe0f-how-to-create-playbooks-for-long-sales-cycles-and-multiple-buyers"
+    ],
+    "slug": "emoji-1f575-1f3fb-200d-2642-fe0f-how-to-create-playbooks-for-long-sales-cycles-and-multiple-buyers",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19446,7 +19520,12 @@
         "type": "topics"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "segmentation-is-not-always-worthwhile",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -22331,6 +22410,16 @@
   },
   {
     "ids": [
+      "The Grief Clock",
+      "the-grief-clock"
+    ],
+    "slug": "the-grief-clock",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Growth Maze vs the Idea Maze",
       "the-growth-maze-vs-the-idea-maze"
     ],
@@ -22465,6 +22554,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "The K-Shaped Economy Is Forcing Luxury Brands to Pick a Side",
+      "the-k-shaped-economy-is-forcing-luxury-brands-to-pick-a-side"
+    ],
+    "slug": "the-k-shaped-economy-is-forcing-luxury-brands-to-pick-a-side",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -24726,6 +24825,16 @@
       "whats-next-as-google-keeps-cookies-amid-challenges-to-its-dominance"
     ],
     "slug": "whats-next-as-google-keeps-cookies-amid-challenges-to-its-dominance",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "What’s Your Time Preference?",
+      "whats-your-time-preference"
+    ],
+    "slug": "whats-your-time-preference",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
