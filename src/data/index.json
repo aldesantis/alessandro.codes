@@ -2659,6 +2659,30 @@
   },
   {
     "ids": [
+      "AI moves validation downstream",
+      "ai-moves-validation-downstream"
+    ],
+    "slug": "ai-moves-validation-downstream",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "the-map-is-not-the-territory",
+        "type": "notes"
+      },
+      {
+        "slug": "efficiency-is-not-effectiveness",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "efficiency-is-not-effectiveness",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Alexander Technique allows you to expand the space between stimulus and response",
       "alexander-technique-allows-you-to-expand-the-space-between-stimulus-and-response"
     ],
@@ -4396,8 +4420,18 @@
     ],
     "slug": "efficiency-is-not-effectiveness",
     "type": "notes",
-    "outboundLinks": [],
-    "inboundLinks": []
+    "outboundLinks": [
+      {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -7872,6 +7906,10 @@
     ],
     "inboundLinks": [
       {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      },
+      {
         "slug": "be-wary-of-flawless-ideas",
         "type": "notes"
       },
@@ -7897,6 +7935,10 @@
     "slug": "the-new-luxury-is-about-taste-not-wealth",
     "type": "notes",
     "outboundLinks": [
+      {
+        "slug": "wiseness-is-knowing-whats-worth-wanting",
+        "type": "notes"
+      },
       {
         "slug": "the-business-of-aspiration",
         "type": "books"
@@ -8434,7 +8476,12 @@
         "type": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "the-new-luxury-is-about-taste-not-wealth",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -8643,6 +8690,16 @@
       "ave-mary"
     ],
     "slug": "ave-mary",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "B2B Content Marketing Strategy",
+      "b2b-content-marketing-strategy"
+    ],
+    "slug": "b2b-content-marketing-strategy",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -9218,6 +9275,16 @@
   },
   {
     "ids": [
+      "Human-Centered Marketing",
+      "human-centered-marketing"
+    ],
+    "slug": "human-centered-marketing",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Il Bambino Scomparso",
       "il-bambino-scomparso"
     ],
@@ -9671,6 +9738,16 @@
       "sorry-im-late-i-didnt-want-to-come"
     ],
     "slug": "sorry-im-late-i-didnt-want-to-come",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sources of Power",
+      "sources-of-power"
+    ],
+    "slug": "sources-of-power",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10570,6 +10647,16 @@
   },
   {
     "ids": [
+      "28 Slightly Rude Notes on Writing",
+      "28-slightly-rude-notes-on-writing"
+    ],
+    "slug": "28-slightly-rude-notes-on-writing",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "3 / Are You Mistaking the Stories in Your Head for Facts?",
       "3-are-you-mistaking-the-stories-in-your-head-for-facts"
     ],
@@ -11445,6 +11532,17 @@
   },
   {
     "ids": [
+      "After an Oversaturation of AI-generated Content, Creators’ Authenticity and ‘Messiness’ Are in High Demand",
+      "after-an-oversaturation-of-ai-generated-content-creators’-authenticity-and-‘messiness’-are-in-high-demand",
+      "after-an-oversaturation-of-ai-generated-content-creators-authenticity-and-messiness-are-in-high-dema"
+    ],
+    "slug": "after-an-oversaturation-of-ai-generated-content-creators-authenticity-and-messiness-are-in-high-dema",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Agency Strategy: A CEO’s Handbook",
       "agency-strategy-a-ceo’s-handbook",
       "agency-strategy-a-ceos-handbook"
@@ -11470,6 +11568,17 @@
       "ai-and-the-future-of-programming"
     ],
     "slug": "ai-and-the-future-of-programming",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "AI Can Build Anything. Social Dandelions Decide What Spreads.",
+      "ai-can-build-anything.-social-dandelions-decide-what-spreads.",
+      "ai-can-build-anything-social-dandelions-decide-what-spreads"
+    ],
+    "slug": "ai-can-build-anything-social-dandelions-decide-what-spreads",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11526,6 +11635,17 @@
       "ai-markets-for-lemons-and-the-great-logging-off"
     ],
     "slug": "ai-markets-for-lemons-and-the-great-logging-off",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "AI’s Trillion-Dollar Opportunity: Context Graphs",
+      "ai’s-trillion-dollar-opportunity-context-graphs",
+      "ais-trillion-dollar-opportunity-context-graphs"
+    ],
+    "slug": "ais-trillion-dollar-opportunity-context-graphs",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12319,6 +12439,17 @@
   },
   {
     "ids": [
+      "Bold Call: OpenAI’s Ads Pivot May Come Too Little, Too Late",
+      "bold-call-openai’s-ads-pivot-may-come-too-little-too-late",
+      "bold-call-openais-ads-pivot-may-come-too-little-too-late"
+    ],
+    "slug": "bold-call-openais-ads-pivot-may-come-too-little-too-late",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Boring and Uncomfortable",
       "boring-and-uncomfortable"
     ],
@@ -13044,6 +13175,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Brand ROI 101: What to Measure and How",
+      "brand-roi-101-what-to-measure-and-how"
+    ],
+    "slug": "brand-roi-101-what-to-measure-and-how",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -15738,6 +15879,17 @@
   },
   {
     "ids": [
+      "Free Yourself From Keyword Jail and Welcome to the Golden Age of Storytelling!",
+      "free-yourself-from-keyword-jail-and-welcome-to-the-golden-age-of-storytelling!",
+      "free-yourself-from-keyword-jail-and-welcome-to-the-golden-age-of-storytelling"
+    ],
+    "slug": "free-yourself-from-keyword-jail-and-welcome-to-the-golden-age-of-storytelling",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "From Art Basel to Roblox: How Clarks Follows in the Footsteps of Customer Muses",
       "from-art-basel-to-roblox-how-clarks-follows-in-the-footsteps-of-customer-muses"
     ],
@@ -17435,6 +17587,16 @@
       "how-walmart-is-using-generative-ai"
     ],
     "slug": "how-walmart-is-using-generative-ai",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How Will the Miracle Happen Today?",
+      "how-will-the-miracle-happen-today"
+    ],
+    "slug": "how-will-the-miracle-happen-today",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -20521,6 +20683,17 @@
   },
   {
     "ids": [
+      "Real Ad Spend Data + 7 Lessons",
+      "real-ad-spend-data-+-7-lessons",
+      "real-ad-spend-data-7-lessons"
+    ],
+    "slug": "real-ad-spend-data-7-lessons",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Rebecca Solnit: Slow Change Can Be Radical Change",
       "rebecca-solnit-slow-change-can-be-radical-change"
     ],
@@ -20565,6 +20738,17 @@
       "research-as-leisure-activity"
     ],
     "slug": "research-as-leisure-activity",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "[RESEARCH] the Concierge Economy: Understanding AI’s True Role in the Shopping Experience",
+      "[research]-the-concierge-economy-understanding-ais-true-role-in-the-shopping-experience",
+      "research-the-concierge-economy-understanding-ais-true-role-in-the-shopping-experience"
+    ],
+    "slug": "research-the-concierge-economy-understanding-ais-true-role-in-the-shopping-experience",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21436,6 +21620,16 @@
   },
   {
     "ids": [
+      "Strategy of the Week: 2026 Is in Its Offline Era",
+      "strategy-of-the-week-2026-is-in-its-offline-era"
+    ],
+    "slug": "strategy-of-the-week-2026-is-in-its-offline-era",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Superlinear Returns",
       "superlinear-returns"
     ],
@@ -21770,6 +21964,16 @@
       "the-art-of-asking-smarter-questions"
     ],
     "slug": "the-art-of-asking-smarter-questions",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Art of Boring",
+      "the-art-of-boring"
+    ],
+    "slug": "the-art-of-boring",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22290,6 +22494,16 @@
   },
   {
     "ids": [
+      "The Friction Advantage",
+      "the-friction-advantage"
+    ],
+    "slug": "the-friction-advantage",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Friendship Problem",
       "the-friendship-problem"
     ],
@@ -22644,6 +22858,16 @@
       "the-low-stability-of-high-income"
     ],
     "slug": "the-low-stability-of-high-income",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Management Myth",
+      "the-management-myth"
+    ],
+    "slug": "the-management-myth",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
