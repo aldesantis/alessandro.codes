@@ -9577,6 +9577,16 @@
   },
   {
     "ids": [
+      "On Writing Well",
+      "on-writing-well"
+    ],
+    "slug": "on-writing-well",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "People, Power, and Profits",
       "people-power-and-profits"
     ],
@@ -10901,6 +10911,17 @@
   },
   {
     "ids": [
+      "7 Tests. 7 Insights. All Incremental.",
+      "7-tests.-7-insights.-all-incremental.",
+      "7-tests-7-insights-all-incremental"
+    ],
+    "slug": "7-tests-7-insights-all-incremental",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "8 Lessons From the Best Remote Companies in the World",
       "8-lessons-from-the-best-remote-companies-in-the-world"
     ],
@@ -10957,6 +10978,16 @@
       "93-you-are-what-you-consume"
     ],
     "slug": "93-you-are-what-you-consume",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "996 Is Not Your Competition",
+      "996-is-not-your-competition"
+    ],
+    "slug": "996-is-not-your-competition",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11043,6 +11074,16 @@
       "a-category-our-consumers-are-asking-for-why-more-brands-are-getting-into-fragrances"
     ],
     "slug": "a-category-our-consumers-are-asking-for-why-more-brands-are-getting-into-fragrances",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "A Decade of E-Commerce Volatility Ends",
+      "a-decade-of-e-commerce-volatility-ends"
+    ],
+    "slug": "a-decade-of-e-commerce-volatility-ends",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11537,6 +11578,16 @@
       "after-an-oversaturation-of-ai-generated-content-creators-authenticity-and-messiness-are-in-high-dema"
     ],
     "slug": "after-an-oversaturation-of-ai-generated-content-creators-authenticity-and-messiness-are-in-high-dema",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Agency and AI Coevolution",
+      "agency-and-ai-coevolution"
+    ],
+    "slug": "agency-and-ai-coevolution",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12058,6 +12109,17 @@
       "as-bitcoin-soars-luxury-brands-consider-accepting-crypto-payments"
     ],
     "slug": "as-bitcoin-soars-luxury-brands-consider-accepting-crypto-payments",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "As ChatGPT’s Growth Slows, Ads Look Like the Next Risky Move",
+      "as-chatgpt’s-growth-slows-ads-look-like-the-next-risky-move",
+      "as-chatgpts-growth-slows-ads-look-like-the-next-risky-move"
+    ],
+    "slug": "as-chatgpts-growth-slows-ads-look-like-the-next-risky-move",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13633,6 +13695,16 @@
       "confirmed-llms-have-indeed-reached-a-point-of-diminishing-returns"
     ],
     "slug": "confirmed-llms-have-indeed-reached-a-point-of-diminishing-returns",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Congratulations, Publicly",
+      "congratulations-publicly"
+    ],
+    "slug": "congratulations-publicly",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16222,6 +16294,16 @@
       "good-strategy-is-embedded-not-purely-abstracted"
     ],
     "slug": "good-strategy-is-embedded-not-purely-abstracted",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good Strategy Understands Affect, Not Just Cognition",
+      "good-strategy-understands-affect-not-just-cognition"
+    ],
+    "slug": "good-strategy-understands-affect-not-just-cognition",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -20457,6 +20539,16 @@
   },
   {
     "ids": [
+      "Product as the Acquisition Channel",
+      "product-as-the-acquisition-channel"
+    ],
+    "slug": "product-as-the-acquisition-channel",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Product Development as Iterated Taste",
       "product-development-as-iterated-taste"
     ],
@@ -20688,6 +20780,16 @@
       "real-ad-spend-data-7-lessons"
     ],
     "slug": "real-ad-spend-data-7-lessons",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Reality Without Frameworks",
+      "reality-without-frameworks"
+    ],
+    "slug": "reality-without-frameworks",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21544,6 +21646,16 @@
   },
   {
     "ids": [
+      "Stop Asking “What’s Our AI Strategy?”",
+      "stop-asking-whats-our-ai-strategy"
+    ],
+    "slug": "stop-asking-whats-our-ai-strategy",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Stop Getting Scammed! Incrementality 101",
       "stop-getting-scammed!-incrementality-101",
       "stop-getting-scammed-incrementality-101"
@@ -21597,6 +21709,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Strategic Opportunism",
+      "strategic-opportunism"
+    ],
+    "slug": "strategic-opportunism",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -23189,6 +23311,16 @@
   },
   {
     "ids": [
+      "The Palantir Model",
+      "the-palantir-model"
+    ],
+    "slug": "the-palantir-model",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Paradox of Control",
       "the-paradox-of-control"
     ],
@@ -23401,6 +23533,17 @@
       "the-reason-chewy-has-an-edge"
     ],
     "slug": "the-reason-chewy-has-an-edge",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Right to Be Wrong.",
+      "the-right-to-be-wrong.",
+      "the-right-to-be-wrong"
+    ],
+    "slug": "the-right-to-be-wrong",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -24084,6 +24227,16 @@
   },
   {
     "ids": [
+      "Thoughts on Thinking",
+      "thoughts-on-thinking"
+    ],
+    "slug": "thoughts-on-thinking",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Three Retention Commandments",
       "three-retention-commandments"
     ],
@@ -24460,6 +24613,16 @@
       "unpacked-how-the-ftcs-new-guidelines-could-impact-influencer-marketing"
     ],
     "slug": "unpacked-how-the-ftcs-new-guidelines-could-impact-influencer-marketing",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Up or Out: Solving the IT Turnover Crisis",
+      "up-or-out-solving-the-it-turnover-crisis"
+    ],
+    "slug": "up-or-out-solving-the-it-turnover-crisis",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
