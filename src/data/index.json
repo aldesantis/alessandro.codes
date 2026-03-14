@@ -9320,6 +9320,16 @@
   },
   {
     "ids": [
+      "Impro",
+      "impro"
+    ],
+    "slug": "impro",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Improve Your Social Skills",
       "improve-your-social-skills"
     ],
@@ -9581,6 +9591,16 @@
       "on-writing-well"
     ],
     "slug": "on-writing-well",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Parable of the Sower",
+      "parable-of-the-sower"
+    ],
+    "slug": "parable-of-the-sower",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10133,6 +10153,16 @@
   },
   {
     "ids": [
+      "The Presentation of Self in Everyday Life",
+      "the-presentation-of-self-in-everyday-life"
+    ],
+    "slug": "the-presentation-of-self-in-everyday-life",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Secrets of Consulting",
       "the-secrets-of-consulting"
     ],
@@ -10496,6 +10526,17 @@
       "18-life-learnings-from-18-years-of-the-marginalian"
     ],
     "slug": "18-life-learnings-from-18-years-of-the-marginalian",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "18 Slides. 10 Years. One CEO, Transformed.",
+      "18-slides.-10-years.-one-ceo-transformed.",
+      "18-slides-10-years-one-ceo-transformed"
+    ],
+    "slug": "18-slides-10-years-one-ceo-transformed",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11663,6 +11704,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "AI Fatigue Is Real and Nobody Talks About It",
+      "ai-fatigue-is-real-and-nobody-talks-about-it"
+    ],
+    "slug": "ai-fatigue-is-real-and-nobody-talks-about-it",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -13566,6 +13617,16 @@
   },
   {
     "ids": [
+      "Chaos Theory",
+      "chaos-theory"
+    ],
+    "slug": "chaos-theory",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Chasing Wins Not Value in E-Commerce",
       "chasing-wins-not-value-in-e-commerce"
     ],
@@ -14616,6 +14677,16 @@
       "dont-use-goal-frameworks-to-manage-projects"
     ],
     "slug": "dont-use-goal-frameworks-to-manage-projects",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dreams of Stability",
+      "dreams-of-stability"
+    ],
+    "slug": "dreams-of-stability",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16090,6 +16161,16 @@
       "full-funnel-case-study-doen"
     ],
     "slug": "full-funnel-case-study-doen",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Full Spectrum Strategy",
+      "full-spectrum-strategy"
+    ],
+    "slug": "full-spectrum-strategy",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17855,6 +17936,16 @@
       "humans-are-optional-and-humans-are-awful"
     ],
     "slug": "humans-are-optional-and-humans-are-awful",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Humans Trust Mess",
+      "humans-trust-mess"
+    ],
+    "slug": "humans-trust-mess",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -20273,6 +20364,16 @@
   },
   {
     "ids": [
+      "Old Battles and Double-Edged Swords",
+      "old-battles-and-double-edged-swords"
+    ],
+    "slug": "old-battles-and-double-edged-swords",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "On Agency",
       "on-agency"
     ],
@@ -21623,10 +21724,30 @@
   },
   {
     "ids": [
+      "So Where Is the Beauty in All This Sh*t?",
+      "so-where-is-the-beauty-in-all-this-sht"
+    ],
+    "slug": "so-where-is-the-beauty-in-all-this-sht",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "So You Wanna De-Bog Yourself",
       "so-you-wanna-de-bog-yourself"
     ],
     "slug": "so-you-wanna-de-bog-yourself",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "So You Want to Be a Strategist",
+      "so-you-want-to-be-a-strategist"
+    ],
+    "slug": "so-you-want-to-be-a-strategist",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -23191,6 +23312,16 @@
       "the-key-trends-driving-the-fashion-industry-to-get-connected"
     ],
     "slug": "the-key-trends-driving-the-fashion-industry-to-get-connected",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Keynote Thing",
+      "the-keynote-thing"
+    ],
+    "slug": "the-keynote-thing",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -24937,6 +25068,16 @@
       "valore-nominale-obbligazioni-cosa-vuol-dire-sopra-e-sotto-la-pari"
     ],
     "slug": "valore-nominale-obbligazioni-cosa-vuol-dire-sopra-e-sotto-la-pari",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Virality Is Dead, Part 2",
+      "virality-is-dead-part-2"
+    ],
+    "slug": "virality-is-dead-part-2",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
