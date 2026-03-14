@@ -1,4 +1,5 @@
-import { z, defineCollection, reference } from "astro:content";
+import { defineCollection, reference } from "astro:content";
+import { z } from "astro/zod";
 import { file, glob } from "astro/loaders";
 
 const baseSchema = z.object({
@@ -38,7 +39,7 @@ export const collections = {
     schema: z.object({
       name: z.string(),
       icon: z.string(),
-      url: z.string().url(),
+      url: z.url(),
     }),
     loader: file("src/data/socials.json"),
   }),
@@ -47,7 +48,7 @@ export const collections = {
     schema: obsidianSchema.extend(
       z.object({
         description: z.string(),
-        url: z.string().url(),
+        url: z.url(),
         language: z.enum(["en", "it"]),
       }).shape
     ),

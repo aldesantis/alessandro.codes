@@ -14,6 +14,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
+  output: "server",
+
   integrations: [icon(), mdx()],
 
   markdown: {
@@ -24,23 +26,21 @@ export default defineConfig({
     host: true,
   },
 
-  experimental: {
-    fonts: [
-      {
-        provider: fontProviders.google(),
-        name: "Domine",
-        cssVariable: "--font-domine",
-        weights: [400, 500, 600, 700],
-      },
-      {
-        provider: fontProviders.google(),
-        name: "Source Sans 3",
-        cssVariable: "--font-source-sans",
-        weights: [400, 500, 600, 700],
-        styles: ["normal"],
-      },
-    ],
-  },
+  fonts: [
+    {
+      provider: fontProviders.google(),
+      name: "Domine",
+      cssVariable: "--font-domine",
+      weights: [400, 500, 600, 700],
+    },
+    {
+      provider: fontProviders.google(),
+      name: "Source Sans 3",
+      cssVariable: "--font-source-sans",
+      weights: [400, 500, 600, 700],
+      styles: ["normal"],
+    },
+  ],
 
   adapter: vercel(),
 

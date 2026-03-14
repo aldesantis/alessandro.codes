@@ -87,11 +87,9 @@ async function getResults(
 }
 
 export const search = defineAction({
-  input: z
-    .object({
-      limit: z.number().optional(),
-    })
-    .passthrough(),
+  input: z.looseObject({
+    limit: z.number().optional(),
+  }),
   handler: async (params) => {
     const { limit, ...filterParams } = params;
 
