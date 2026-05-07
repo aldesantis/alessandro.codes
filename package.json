@@ -18,14 +18,14 @@
     "generate-recipe-illustrations": "npx tsx scripts/generate-recipe-illustrations.ts"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.7",
-    "@astrojs/mdx": "^5.0.0",
-    "@astrojs/vercel": "^10.0.0",
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/mdx": "^5.0.4",
+    "@astrojs/vercel": "^10.0.6",
     "@hotwired/stimulus": "^3.2.2",
     "@notionhq/client": "^5.12.0",
     "@tailwindcss/vite": "^4.2.1",
     "@types/glob": "^9.0.0",
-    "astro": "^6.0.4",
+    "astro": "^6.2.2",
     "astro-icon": "^1.1.5",
     "cheerio": "^1.2.0",
     "date-fns": "^4.1.0",
