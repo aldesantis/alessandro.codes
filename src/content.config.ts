@@ -92,7 +92,7 @@ export const collections = {
   }),
 
   recipes: defineCollection({
-    schema: baseSchema.extend(
+    schema: obsidianSchema.extend(
       z.object({
         cuisine: z.enum(["tex-mex", "mediterranean", "bbq", "asian", "indian", "american", "italian"]),
         diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescatarian"])),

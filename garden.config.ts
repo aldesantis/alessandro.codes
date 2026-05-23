@@ -1,7 +1,7 @@
 import path from "path";
 import matter from "gray-matter";
 
-import { gitSource, notionSource } from "src/lib/zendo/sources";
+import { gitSource } from "src/lib/zendo/sources";
 import {
   normalizeFilename,
   escapeMdx,
@@ -11,9 +11,6 @@ import {
   renameMdToMdx,
   addContentTypeToMetadata,
   removeDrafts,
-  demoteHeadings,
-  normalizeMetadata,
-  convertNotionLinksToWikilinks,
 } from "src/lib/zendo/transformers";
 import type { Configuration } from "src/lib/zendo/config";
 import type { ZendoCollectionEntry } from "src/lib/zendo/content";
@@ -275,56 +272,12 @@ const config: Configuration = {
           destinationPath: ".",
           transformers: digitalGardenTransformers,
         },
-      ],
-    },
-
-    {
-      id: "recipes",
-      source: notionSource({
-        dataSourceId: "fbf8923a-215b-4db0-8bab-051358d67347",
-        apiToken: process.env.NOTION_API_TOKEN!,
-        filter: {
-          and: [
-            {
-              property: "Illustration",
-              files: {
-                is_not_empty: true,
-              },
-            },
-            {
-              property: "Status",
-              status: {
-                equals: "Perfected",
-              },
-            },
-          ],
-        },
-      }),
-      entryTypes: [
         {
           id: "recipes" as const,
+          basePath: "recipes",
           pattern: "*.{md,mdx}",
           destinationPath: "recipes",
-          transformers: [
-            demoteHeadings(),
-            normalizeMetadata({
-              normalizeKeysFor: ["Type", "Cuisine", "Diets", "Status", "Name", "Illustration", "Serves"],
-              normalizeValuesFor: ["Type", "Cuisine", "Diets", "Status"],
-              keyMappings: {
-                Name: "title",
-              },
-              valueMappings: {
-                Status: {
-                  Idea: "seedling",
-                  "Next Up": "seedling",
-                  "In Progress": "budding",
-                  Perfected: "evergreen",
-                },
-              },
-            }),
-            convertNotionLinksToWikilinks(),
-            ...baseTransformers,
-          ],
+          transformers: digitalGardenTransformers,
           search: {
             label: "Recipe",
             buildUrlFn: (slug: string) => `/recipes/${slug}`,
@@ -334,25 +287,6 @@ const config: Configuration = {
               type: "recipes",
             }),
           },
-        },
-        {
-          id: "recipe-illustrations",
-          pattern: "files/**/*.{jpg,png,gif,svg,webp}",
-          destinationPath: "assets/recipes",
-          transformers: [
-            async (originalPath, originalContent) => {
-              const match = originalPath.match(/^files\/([^/]+)\/illustration\/0\.(jpg|png|gif|svg|webp)$/);
-              if (match) {
-                const [, recipeSlug, extension] = match;
-                return {
-                  path: `${recipeSlug}.${extension}`,
-                  content: originalContent,
-                };
-              }
-
-              return { path: originalPath, content: originalContent };
-            },
-          ],
         },
       ],
     },
