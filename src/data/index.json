@@ -1730,6 +1730,18 @@
   },
   {
     "ids": [
+      "King prawn spaghetti",
+      "154be6a9-2e83-80c3-b586-c78992f39942",
+      "154be6a92e8380c3b586c78992f39942",
+      "king-prawn-spaghetti"
+    ],
+    "slug": "king-prawn-spaghetti",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Leek and potato soup",
       "156be6a9-2e83-807b-9c33-c071a106d399",
       "156be6a92e83807b9c33c071a106d399",
@@ -2175,18 +2187,6 @@
       "spaghetti-with-pesto-cherry-tomatoes-and-mullet-bottarga"
     ],
     "slug": "spaghetti-with-pesto-cherry-tomatoes-and-mullet-bottarga",
-    "type": "recipes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Spaghetti with shrimp and cherry tomatoes",
-      "154be6a9-2e83-80c3-b586-c78992f39942",
-      "154be6a92e8380c3b586c78992f39942",
-      "spaghetti-with-shrimp-and-cherry-tomatoes"
-    ],
-    "slug": "spaghetti-with-shrimp-and-cherry-tomatoes",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -9607,6 +9607,16 @@
   },
   {
     "ids": [
+      "More Secrets of Consulting",
+      "more-secrets-of-consulting"
+    ],
+    "slug": "more-secrets-of-consulting",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Noi, Bambine Ad Auschwitz",
       "noi-bambine-ad-auschwitz"
     ],
@@ -11727,6 +11737,16 @@
   },
   {
     "ids": [
+      "Agentic Coding Is a Trap",
+      "agentic-coding-is-a-trap"
+    ],
+    "slug": "agentic-coding-is-a-trap",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Agents Over Bubbles",
       "agents-over-bubbles"
     ],
@@ -12061,6 +12081,16 @@
       "american-fashion-soldiers-through-a-volatile-market-for-now"
     ],
     "slug": "american-fashion-soldiers-through-a-volatile-market-for-now",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "An Essay in Which My Friend Feels Stuck and I Suggest Relaxing Some Constraints",
+      "an-essay-in-which-my-friend-feels-stuck-and-i-suggest-relaxing-some-constraints"
+    ],
+    "slug": "an-essay-in-which-my-friend-feels-stuck-and-i-suggest-relaxing-some-constraints",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -12486,6 +12516,16 @@
       "baseline-fame"
     ],
     "slug": "baseline-fame",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Be a Philosopher",
+      "be-a-philosopher"
+    ],
+    "slug": "be-a-philosopher",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16803,6 +16843,16 @@
   },
   {
     "ids": [
+      "Heartwood",
+      "heartwood"
+    ],
+    "slug": "heartwood",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Here. There Is Meaning.",
       "here.-there-is-meaning.",
       "here-there-is-meaning"
@@ -17331,6 +17381,16 @@
       "how-new-luxury-brands-prepare-for-dpp"
     ],
     "slug": "how-new-luxury-brands-prepare-for-dpp",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How Not to Waste Your Life",
+      "how-not-to-waste-your-life"
+    ],
+    "slug": "how-not-to-waste-your-life",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18376,6 +18436,16 @@
       "incremental-note-taking-thesephistcom"
     ],
     "slug": "incremental-note-taking-thesephistcom",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Industrial Policy for the Intelligence Age: Ideas to Keep People First",
+      "industrial-policy-for-the-intelligence-age-ideas-to-keep-people-first"
+    ],
+    "slug": "industrial-policy-for-the-intelligence-age-ideas-to-keep-people-first",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -20689,6 +20759,16 @@
   },
   {
     "ids": [
+      "OpenAI Turns on Cost-Per-Click Ads Inside ChatGPT",
+      "openai-turns-on-cost-per-click-ads-inside-chatgpt"
+    ],
+    "slug": "openai-turns-on-cost-per-click-ads-inside-chatgpt",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Operating Well: What I Learned at Stripe",
       "operating-well-what-i-learned-at-stripe"
     ],
@@ -22514,6 +22594,16 @@
   },
   {
     "ids": [
+      "Tasteslop",
+      "tasteslop"
+    ],
+    "slug": "tasteslop",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "TBM 277: Bring Back Fun",
       "tbm-277-bring-back-fun"
     ],
@@ -22604,6 +22694,16 @@
       "the-3-stages-of-growth-for-fashion-brands"
     ],
     "slug": "the-3-stages-of-growth-for-fashion-brands",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The 80-Hour Myth",
+      "the-80-hour-myth"
+    ],
+    "slug": "the-80-hour-myth",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -23750,6 +23850,16 @@
       "the-melancholy-of-subculture-society"
     ],
     "slug": "the-melancholy-of-subculture-society",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Mental Model FAQ",
+      "the-mental-model-faq"
+    ],
+    "slug": "the-mental-model-faq",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -25418,6 +25528,17 @@
       "valore-nominale-obbligazioni-cosa-vuol-dire-sopra-e-sotto-la-pari"
     ],
     "slug": "valore-nominale-obbligazioni-cosa-vuol-dire-sopra-e-sotto-la-pari",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Venture Capital Is Shrinking. Here’s What That Means for You.",
+      "venture-capital-is-shrinking.-here’s-what-that-means-for-you.",
+      "venture-capital-is-shrinking-heres-what-that-means-for-you"
+    ],
+    "slug": "venture-capital-is-shrinking-heres-what-that-means-for-you",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
