@@ -3,7 +3,9 @@
   "mediterranean": { "emoji": "🫒", "label": "Mediterranean" },
   "bbq": { "emoji": "🍖", "label": "BBQ" },
   "asian": { "emoji": "🍜", "label": "Asian" },
-  "indian": { "emoji": "🍛", "label": "Indian" },
-  "american": { "emoji": "🍔", "label": "American" },
-  "italian": { "emoji": "🍝", "label": "Italian" }
+  "indian": { "emoji": "🇮🇳", "label": "Indian" },
+  "american": { "emoji": "🇺🇸", "label": "American" },
+  "italian": { "emoji": "🇮🇹", "label": "Italian" },
+  "greek": { "emoji": "🇬🇷", "label": "Greek" },
+  "british": { "emoji": "🇬🇧", "label": "British" }
 }

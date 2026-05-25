@@ -14,8 +14,7 @@
     "zendo:reindex": "npx tsx scripts/cli.ts reindex",
     "zendo:build": "npx tsx scripts/cli.ts build",
     "zendo:update": "npm run zendo:build && git add src/data/index.json src/content && git commit -m 'Update content' && git push",
-    "tsc": "tsc",
-    "generate-recipe-illustrations": "npx tsx scripts/generate-recipe-illustrations.ts"
+    "tsc": "tsc"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
