@@ -1403,9 +1403,17 @@
   },
   {
     "ids": [
+      "Aioli sauce",
+      "aioli-sauce"
+    ],
+    "slug": "aioli-sauce",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Aloo gobi",
-      "1c6be6a9-2e83-803f-9d6a-d076244dc377",
-      "1c6be6a92e83803f9d6ad076244dc377",
       "aloo-gobi"
     ],
     "slug": "aloo-gobi",
@@ -1415,9 +1423,27 @@
   },
   {
     "ids": [
+      "Apple cake",
+      "apple-cake"
+    ],
+    "slug": "apple-cake",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Banana bread",
+      "banana-bread"
+    ],
+    "slug": "banana-bread",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Banana pancakes with strawberries",
-      "1c6be6a9-2e83-8094-8760-d4394eccbf9a",
-      "1c6be6a92e8380948760d4394eccbf9a",
       "banana-pancakes-with-strawberries"
     ],
     "slug": "banana-pancakes-with-strawberries",
@@ -1427,9 +1453,27 @@
   },
   {
     "ids": [
+      "Bao buns",
+      "bao-buns"
+    ],
+    "slug": "bao-buns",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Basmati rice with seared salmon, wakame, and poached egg",
+      "basmati-rice-with-seared-salmon-wakame-and-poached-egg"
+    ],
+    "slug": "basmati-rice-with-seared-salmon-wakame-and-poached-egg",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "BBQ chicken wings",
-      "18dbe6a9-2e83-8078-9fa4-f1435bf30bb9",
-      "18dbe6a92e8380789fa4f1435bf30bb9",
       "bbq-chicken-wings"
     ],
     "slug": "bbq-chicken-wings",
@@ -1439,9 +1483,37 @@
   },
   {
     "ids": [
+      "BBQ Pork Ribs",
+      "bbq-pork-ribs"
+    ],
+    "slug": "bbq-pork-ribs",
+    "type": "recipes",
+    "outboundLinks": [
+      {
+        "slug": "bbq-sauce",
+        "type": "recipes"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "BBQ Sauce",
+      "bbq-sauce"
+    ],
+    "slug": "bbq-sauce",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "slug": "bbq-pork-ribs",
+        "type": "recipes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Beef stew",
-      "62c1d65c-df77-4a65-be53-abf677bfc562",
-      "62c1d65cdf774a65be53abf677bfc562",
       "beef-stew"
     ],
     "slug": "beef-stew",
@@ -1452,8 +1524,6 @@
   {
     "ids": [
       "Beef tenderloin with green peppercorn sauce",
-      "163be6a9-2e83-8077-98a9-f9a91155fdb2",
-      "163be6a92e83807798a9f9a91155fdb2",
       "beef-tenderloin-with-green-peppercorn-sauce"
     ],
     "slug": "beef-tenderloin-with-green-peppercorn-sauce",
@@ -1464,8 +1534,6 @@
   {
     "ids": [
       "Black bean salad",
-      "194be6a9-2e83-8065-9780-fb51e68ad5ca",
-      "194be6a92e8380659780fb51e68ad5ca",
       "black-bean-salad"
     ],
     "slug": "black-bean-salad",
@@ -1484,9 +1552,27 @@
   },
   {
     "ids": [
+      "Blueberry risotto with taleggio and crispy speck",
+      "blueberry-risotto-with-taleggio-and-crispy-speck"
+    ],
+    "slug": "blueberry-risotto-with-taleggio-and-crispy-speck",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Bolognese lasagna",
+      "bolognese-lasagna"
+    ],
+    "slug": "bolognese-lasagna",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Breakfast smoothie with banana, oats, and peanut butter",
-      "252be6a9-2e83-8041-9bf8-cb8a75eba7de",
-      "252be6a92e8380419bf8cb8a75eba7de",
       "breakfast-smoothie-with-banana-oats-and-peanut-butter"
     ],
     "slug": "breakfast-smoothie-with-banana-oats-and-peanut-butter",
@@ -1497,8 +1583,6 @@
   {
     "ids": [
       "Brie and caramelized peach salad",
-      "219be6a9-2e83-80c9-87f6-d4a06a50125f",
-      "219be6a92e8380c987f6d4a06a50125f",
       "brie-and-caramelized-peach-salad"
     ],
     "slug": "brie-and-caramelized-peach-salad",
@@ -1509,8 +1593,6 @@
   {
     "ids": [
       "Burrito with black bean salad",
-      "195be6a9-2e83-8027-ac7e-ce131b900f36",
-      "195be6a92e838027ac7ece131b900f36",
       "burrito-with-black-bean-salad"
     ],
     "slug": "burrito-with-black-bean-salad",
@@ -1526,8 +1608,6 @@
   {
     "ids": [
       "Cacio e pepe spaghetti with pears",
-      "156be6a9-2e83-8039-a665-c1c39fb4b123",
-      "156be6a92e838039a665c1c39fb4b123",
       "cacio-e-pepe-spaghetti-with-pears"
     ],
     "slug": "cacio-e-pepe-spaghetti-with-pears",
@@ -1542,9 +1622,17 @@
   },
   {
     "ids": [
+      "Calamari con peperoni, olive e capperi",
+      "calamari-con-peperoni-olive-e-capperi"
+    ],
+    "slug": "calamari-con-peperoni-olive-e-capperi",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Carbonara pinsa",
-      "29fbe6a9-2e83-806c-9bfe-d7c6f9cf3813",
-      "29fbe6a92e83806c9bfed7c6f9cf3813",
       "carbonara-pinsa"
     ],
     "slug": "carbonara-pinsa",
@@ -1555,8 +1643,6 @@
   {
     "ids": [
       "Cauliflower steak",
-      "108be6a9-2e83-8032-8407-ccff501d0b80",
-      "108be6a92e8380328407ccff501d0b80",
       "cauliflower-steak"
     ],
     "slug": "cauliflower-steak",
@@ -1567,8 +1653,6 @@
   {
     "ids": [
       "Chicken burrito with lime guacamole",
-      "194be6a9-2e83-80d2-b848-e6ad8efd959e",
-      "194be6a92e8380d2b848e6ad8efd959e",
       "chicken-burrito-with-lime-guacamole"
     ],
     "slug": "chicken-burrito-with-lime-guacamole",
@@ -1584,8 +1668,6 @@
   {
     "ids": [
       "Chicken cacciatore",
-      "afbce2fb-18eb-4a2c-b428-034f3b306315",
-      "afbce2fb18eb4a2cb428034f3b306315",
       "chicken-cacciatore"
     ],
     "slug": "chicken-cacciatore",
@@ -1596,8 +1678,6 @@
   {
     "ids": [
       "Chicken curry",
-      "169be6a9-2e83-8071-8291-d6712079df89",
-      "169be6a92e8380718291d6712079df89",
       "chicken-curry"
     ],
     "slug": "chicken-curry",
@@ -1608,8 +1688,6 @@
   {
     "ids": [
       "Chickpea masala",
-      "18bbe6a9-2e83-80cc-83a9-f1dbe20537b2",
-      "18bbe6a92e8380cc83a9f1dbe20537b2",
       "chickpea-masala"
     ],
     "slug": "chickpea-masala",
@@ -1625,8 +1703,6 @@
   {
     "ids": [
       "Chocolate chip muffins",
-      "2a6be6a9-2e83-8022-b38b-ee5c411e1b8d",
-      "2a6be6a92e838022b38bee5c411e1b8d",
       "chocolate-chip-muffins"
     ],
     "slug": "chocolate-chip-muffins",
@@ -1637,8 +1713,6 @@
   {
     "ids": [
       "Coleslaw",
-      "2c9be6a9-2e83-80a8-a04f-da3b3bc6f82d",
-      "2c9be6a92e8380a8a04fda3b3bc6f82d",
       "coleslaw"
     ],
     "slug": "coleslaw",
@@ -1653,9 +1727,17 @@
   },
   {
     "ids": [
+      "Creamy yogurt cucumber salad",
+      "creamy-yogurt-cucumber-salad"
+    ],
+    "slug": "creamy-yogurt-cucumber-salad",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Crêpes",
-      "164be6a9-2e83-80f7-948e-ee65d1a61beb",
-      "164be6a92e8380f7948eee65d1a61beb",
       "crepes"
     ],
     "slug": "crepes",
@@ -1665,9 +1747,17 @@
   },
   {
     "ids": [
+      "Crispy lemon tofu",
+      "crispy-lemon-tofu"
+    ],
+    "slug": "crispy-lemon-tofu",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Farro with tuna, olives, and cherry tomatoes",
-      "267be6a9-2e83-80fb-ace9-db3ef951c5c4",
-      "267be6a92e8380fbace9db3ef951c5c4",
       "farro-with-tuna-olives-and-cherry-tomatoes"
     ],
     "slug": "farro-with-tuna-olives-and-cherry-tomatoes",
@@ -1678,8 +1768,6 @@
   {
     "ids": [
       "Fusilli with gilthead bream ragù",
-      "164be6a9-2e83-80b2-96fc-cd87c4dd8e1f",
-      "164be6a92e8380b296fccd87c4dd8e1f",
       "fusilli-with-gilthead-bream-ragu"
     ],
     "slug": "fusilli-with-gilthead-bream-ragu",
@@ -1690,8 +1778,6 @@
   {
     "ids": [
       "Fusilli with tuna and zucchini",
-      "9dd5aa7f-ac83-47bb-ab16-91e077693827",
-      "9dd5aa7fac8347bbab1691e077693827",
       "fusilli-with-tuna-and-zucchini"
     ],
     "slug": "fusilli-with-tuna-and-zucchini",
@@ -1702,8 +1788,6 @@
   {
     "ids": [
       "Gricia",
-      "16ebe6a9-2e83-80ce-aa67-d3167df30869",
-      "16ebe6a92e8380ceaa67d3167df30869",
       "gricia"
     ],
     "slug": "gricia",
@@ -1719,8 +1803,6 @@
   {
     "ids": [
       "Gyoza",
-      "15dbe6a9-2e83-80b4-95ee-f17429c83ec7",
-      "15dbe6a92e8380b495eef17429c83ec7",
       "gyoza"
     ],
     "slug": "gyoza",
@@ -1730,9 +1812,27 @@
   },
   {
     "ids": [
+      "Hasselback potatoes",
+      "hasselback-potatoes"
+    ],
+    "slug": "hasselback-potatoes",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Jacket potatoes",
+      "jacket-potatoes"
+    ],
+    "slug": "jacket-potatoes",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "King prawn spaghetti",
-      "154be6a9-2e83-80c3-b586-c78992f39942",
-      "154be6a92e8380c3b586c78992f39942",
       "king-prawn-spaghetti"
     ],
     "slug": "king-prawn-spaghetti",
@@ -1743,8 +1843,6 @@
   {
     "ids": [
       "Leek and potato soup",
-      "156be6a9-2e83-807b-9c33-c071a106d399",
-      "156be6a92e83807b9c33c071a106d399",
       "leek-and-potato-soup"
     ],
     "slug": "leek-and-potato-soup",
@@ -1760,8 +1858,6 @@
   {
     "ids": [
       "Lentil meatballs",
-      "15cbe6a9-2e83-80b8-83bf-e5fb52b3fcce",
-      "15cbe6a92e8380b883bfe5fb52b3fcce",
       "lentil-meatballs"
     ],
     "slug": "lentil-meatballs",
@@ -1772,8 +1868,6 @@
   {
     "ids": [
       "Masala sauce",
-      "1c6be6a9-2e83-80bf-b271-cc498d52d48e",
-      "1c6be6a92e8380bfb271cc498d52d48e",
       "masala-sauce"
     ],
     "slug": "masala-sauce",
@@ -1789,8 +1883,6 @@
   {
     "ids": [
       "Miso chicken vermicelli bowl",
-      "252be6a9-2e83-8036-9805-f24cb944d251",
-      "252be6a92e8380369805f24cb944d251",
       "miso-chicken-vermicelli-bowl"
     ],
     "slug": "miso-chicken-vermicelli-bowl",
@@ -1800,9 +1892,57 @@
   },
   {
     "ids": [
+      "Mixed berry cheesecake",
+      "mixed-berry-cheesecake"
+    ],
+    "slug": "mixed-berry-cheesecake",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Molten chocolate cake",
+      "molten-chocolate-cake"
+    ],
+    "slug": "molten-chocolate-cake",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mushroom veal scaloppine",
+      "mushroom-veal-scaloppine"
+    ],
+    "slug": "mushroom-veal-scaloppine",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Naan",
+      "naan"
+    ],
+    "slug": "naan",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Nutella cheesecake",
+      "nutella-cheesecake"
+    ],
+    "slug": "nutella-cheesecake",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Oven-roasted potatoes",
-      "ffe500a8-1ac3-4dc4-936b-c3193a12fc6f",
-      "ffe500a81ac34dc4936bc3193a12fc6f",
       "oven-roasted-potatoes"
     ],
     "slug": "oven-roasted-potatoes",
@@ -1813,8 +1953,6 @@
   {
     "ids": [
       "Panko beef cutlets",
-      "2ddbe6a9-2e83-80c7-b7fd-c5fba5cc1853",
-      "2ddbe6a92e8380c7b7fdc5fba5cc1853",
       "panko-beef-cutlets"
     ],
     "slug": "panko-beef-cutlets",
@@ -1825,8 +1963,6 @@
   {
     "ids": [
       "Paprika kale chips",
-      "2b8585d1-ca38-4c0e-bebd-f58e636acfc2",
-      "2b8585d1ca384c0ebebdf58e636acfc2",
       "paprika-kale-chips"
     ],
     "slug": "paprika-kale-chips",
@@ -1842,8 +1978,6 @@
   {
     "ids": [
       "Pasta and chickpeas",
-      "69ac0038-b027-4007-965d-67aa54387f5f",
-      "69ac0038b0274007965d67aa54387f5f",
       "pasta-and-chickpeas"
     ],
     "slug": "pasta-and-chickpeas",
@@ -1854,8 +1988,6 @@
   {
     "ids": [
       "Pasta with ’nduja and cherry tomatoes",
-      "d6169427-0905-410c-b85f-d4f66f161400",
-      "d61694270905410cb85fd4f66f161400",
       "pasta-with-nduja-and-cherry-tomatoes"
     ],
     "slug": "pasta-with-nduja-and-cherry-tomatoes",
@@ -1865,9 +1997,17 @@
   },
   {
     "ids": [
+      "Patatas bravas",
+      "patatas-bravas"
+    ],
+    "slug": "patatas-bravas",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Peanut butter and banana toast",
-      "109be6a9-2e83-8006-9ac0-cb23ecb430f9",
-      "109be6a92e8380069ac0cb23ecb430f9",
       "peanut-butter-and-banana-toast"
     ],
     "slug": "peanut-butter-and-banana-toast",
@@ -1878,8 +2018,6 @@
   {
     "ids": [
       "Penne al baffo",
-      "18bbe6a9-2e83-80dd-a88d-ca777e403f76",
-      "18bbe6a92e8380dda88dca777e403f76",
       "penne-al-baffo"
     ],
     "slug": "penne-al-baffo",
@@ -1889,9 +2027,17 @@
   },
   {
     "ids": [
+      "Pesto alla genovese",
+      "pesto-alla-genovese"
+    ],
+    "slug": "pesto-alla-genovese",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Pinsa with burrata, mortadella, and pistachios",
-      "228be6a9-2e83-8016-a415-ec312adc66fb",
-      "228be6a92e838016a415ec312adc66fb",
       "pinsa-with-burrata-mortadella-and-pistachios"
     ],
     "slug": "pinsa-with-burrata-mortadella-and-pistachios",
@@ -1901,12 +2047,10 @@
   },
   {
     "ids": [
-      "Pinsa with smoked salmon, burrata, lamb's lettuce, lemon, and balsamic glaze",
-      "229be6a9-2e83-801f-a6df-d918f69d3656",
-      "229be6a92e83801fa6dfd918f69d3656",
-      "pinsa-with-smoked-salmon-burrata-lambs-lettuce-lemon-and-balsamic-glaze"
+      "Pinsa with smoked salmon, burrata, lamb’s lettuce, lemon, and balsamic glaze",
+      "pinsa-with-smoked-salmon-burrata-lamb-s-lettuce-lemon-and-balsamic-glaze"
     ],
-    "slug": "pinsa-with-smoked-salmon-burrata-lambs-lettuce-lemon-and-balsamic-glaze",
+    "slug": "pinsa-with-smoked-salmon-burrata-lamb-s-lettuce-lemon-and-balsamic-glaze",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -1914,8 +2058,6 @@
   {
     "ids": [
       "Pistachio-crusted salmon",
-      "2cfbe6a9-2e83-8019-95fd-fa3f26296987",
-      "2cfbe6a92e83801995fdfa3f26296987",
       "pistachio-crusted-salmon"
     ],
     "slug": "pistachio-crusted-salmon",
@@ -1925,9 +2067,17 @@
   },
   {
     "ids": [
+      "Pollo tikka masala",
+      "pollo-tikka-masala"
+    ],
+    "slug": "pollo-tikka-masala",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Ponzu sauce",
-      "4527a38f-f3cd-481b-bb60-b97987705c9b",
-      "4527a38ff3cd481bbb60b97987705c9b",
       "ponzu-sauce"
     ],
     "slug": "ponzu-sauce",
@@ -1943,8 +2093,6 @@
   {
     "ids": [
       "Pork tonkatsu",
-      "4b08404c-1193-4ad0-85f0-c7080e8d234b",
-      "4b08404c11934ad085f0c7080e8d234b",
       "pork-tonkatsu"
     ],
     "slug": "pork-tonkatsu",
@@ -1955,8 +2103,6 @@
   {
     "ids": [
       "Potato gâteau",
-      "18dbe6a9-2e83-802d-8f2e-e8e83ab81a3d",
-      "18dbe6a92e83802d8f2ee8e83ab81a3d",
       "potato-gateau"
     ],
     "slug": "potato-gateau",
@@ -1967,8 +2113,6 @@
   {
     "ids": [
       "Potato rösti",
-      "15cbe6a9-2e83-807a-9453-e7fd18194293",
-      "15cbe6a92e83807a9453e7fd18194293",
       "potato-rosti"
     ],
     "slug": "potato-rosti",
@@ -1979,8 +2123,6 @@
   {
     "ids": [
       "Pulled mushroom burger with coleslaw",
-      "2c9be6a9-2e83-80b8-adb7-d047df116a53",
-      "2c9be6a92e8380b8adb7d047df116a53",
       "pulled-mushroom-burger-with-coleslaw"
     ],
     "slug": "pulled-mushroom-burger-with-coleslaw",
@@ -2000,8 +2142,6 @@
   {
     "ids": [
       "Pulled mushroom",
-      "2a5be6a9-2e83-8076-8f96-fa10b07f0c61",
-      "2a5be6a92e8380768f96fa10b07f0c61",
       "pulled-mushroom"
     ],
     "slug": "pulled-mushroom",
@@ -2017,8 +2157,6 @@
   {
     "ids": [
       "Pumpkin and gorgonzola risotto",
-      "2a5be6a9-2e83-8046-b5f7-cec42095ee54",
-      "2a5be6a92e838046b5f7cec42095ee54",
       "pumpkin-and-gorgonzola-risotto"
     ],
     "slug": "pumpkin-and-gorgonzola-risotto",
@@ -2029,8 +2167,6 @@
   {
     "ids": [
       "Pumpkin and sausage risotto",
-      "3bbf4f6b-908c-450e-95f4-a1f0a2a25502",
-      "3bbf4f6b908c450e95f4a1f0a2a25502",
       "pumpkin-and-sausage-risotto"
     ],
     "slug": "pumpkin-and-sausage-risotto",
@@ -2041,8 +2177,6 @@
   {
     "ids": [
       "Pumpkin muffins",
-      "298be6a9-2e83-8062-a745-eaae684a1f3d",
-      "298be6a92e838062a745eaae684a1f3d",
       "pumpkin-muffins"
     ],
     "slug": "pumpkin-muffins",
@@ -2053,8 +2187,6 @@
   {
     "ids": [
       "Pumpkin, speck, and provola strudel",
-      "2c9be6a9-2e83-80a3-becd-eaba55b31790",
-      "2c9be6a92e8380a3becdeaba55b31790",
       "pumpkin-speck-and-provola-strudel"
     ],
     "slug": "pumpkin-speck-and-provola-strudel",
@@ -2064,12 +2196,30 @@
   },
   {
     "ids": [
-      "Salmon and avocado sandwich",
-      "cd6e3824-0878-4036-b031-32c5ac5e0838",
-      "cd6e382408784036b03132c5ac5e0838",
-      "salmon-and-avocado-sandwich"
+      "Ragù",
+      "ragu"
     ],
-    "slug": "salmon-and-avocado-sandwich",
+    "slug": "ragu",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rice with teriyaki pork loin",
+      "rice-with-teriyaki-pork-loin"
+    ],
+    "slug": "rice-with-teriyaki-pork-loin",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ricotta and saffron pasta",
+      "ricotta-and-saffron-pasta"
+    ],
+    "slug": "ricotta-and-saffron-pasta",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -2077,8 +2227,6 @@
   {
     "ids": [
       "Salmon and pistachio tartare",
-      "6d65826c-36af-4ac8-9a96-80cfb0cb772d",
-      "6d65826c36af4ac89a9680cfb0cb772d",
       "salmon-and-pistachio-tartare"
     ],
     "slug": "salmon-and-pistachio-tartare",
@@ -2089,8 +2237,6 @@
   {
     "ids": [
       "Sausage and potatoes",
-      "2cfbe6a9-2e83-80c9-9af9-ea8928ec68d0",
-      "2cfbe6a92e8380c99af9ea8928ec68d0",
       "sausage-and-potatoes"
     ],
     "slug": "sausage-and-potatoes",
@@ -2101,8 +2247,6 @@
   {
     "ids": [
       "Seitan scallopini with mushrooms",
-      "2eda3551-b501-4742-b2fc-a10ef3dd7e79",
-      "2eda3551b5014742b2fca10ef3dd7e79",
       "seitan-scallopini-with-mushrooms"
     ],
     "slug": "seitan-scallopini-with-mushrooms",
@@ -2113,8 +2257,6 @@
   {
     "ids": [
       "Shrimp stock",
-      "173be6a9-2e83-804d-9d92-c6075a1d024b",
-      "173be6a92e83804d9d92c6075a1d024b",
       "shrimp-stock"
     ],
     "slug": "shrimp-stock",
@@ -2125,8 +2267,6 @@
   {
     "ids": [
       "Spaghetti aglio e olio",
-      "82f6fb5d-e723-4eaa-b8aa-ebd3860dde81",
-      "82f6fb5de7234eaab8aaebd3860dde81",
       "spaghetti-aglio-e-olio"
     ],
     "slug": "spaghetti-aglio-e-olio",
@@ -2136,9 +2276,17 @@
   },
   {
     "ids": [
+      "Spaghetti alla nerano",
+      "spaghetti-alla-nerano"
+    ],
+    "slug": "spaghetti-alla-nerano",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Spaghetti cacio e pepe",
-      "15cbe6a9-2e83-8034-81f7-c8fecfaa701e",
-      "15cbe6a92e83803481f7c8fecfaa701e",
       "spaghetti-cacio-e-pepe"
     ],
     "slug": "spaghetti-cacio-e-pepe",
@@ -2158,8 +2306,6 @@
   {
     "ids": [
       "Spaghetti carbonara",
-      "2c9be6a9-2e83-80ec-9153-cd5140d109c7",
-      "2c9be6a92e8380ec9153cd5140d109c7",
       "spaghetti-carbonara"
     ],
     "slug": "spaghetti-carbonara",
@@ -2169,9 +2315,17 @@
   },
   {
     "ids": [
+      "Spaghetti puttanesca",
+      "spaghetti-puttanesca"
+    ],
+    "slug": "spaghetti-puttanesca",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Spaghetti with butter and anchovies",
-      "2a6be6a9-2e83-8000-8f3c-e63fca8bbbcd",
-      "2a6be6a92e8380008f3ce63fca8bbbcd",
       "spaghetti-with-butter-and-anchovies"
     ],
     "slug": "spaghetti-with-butter-and-anchovies",
@@ -2181,9 +2335,17 @@
   },
   {
     "ids": [
+      "Spaghetti with mussels",
+      "spaghetti-with-mussels"
+    ],
+    "slug": "spaghetti-with-mussels",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Spaghetti with pesto, cherry tomatoes, and mullet bottarga",
-      "1bdbe6a9-2e83-8081-979c-dd096cbe3c88",
-      "1bdbe6a92e838081979cdd096cbe3c88",
       "spaghetti-with-pesto-cherry-tomatoes-and-mullet-bottarga"
     ],
     "slug": "spaghetti-with-pesto-cherry-tomatoes-and-mullet-bottarga",
@@ -2194,8 +2356,6 @@
   {
     "ids": [
       "Spätzle with guanciale and Parmesan cream",
-      "4279e092-0c7a-43f6-a649-004f4b9437f8",
-      "4279e0920c7a43f6a649004f4b9437f8",
       "spatzle-with-guanciale-and-parmesan-cream"
     ],
     "slug": "spatzle-with-guanciale-and-parmesan-cream",
@@ -2206,8 +2366,6 @@
   {
     "ids": [
       "Spinach and sun-dried tomato quiche",
-      "156be6a9-2e83-801b-bb24-cf5310ae27c9",
-      "156be6a92e83801bbb24cf5310ae27c9",
       "spinach-and-sun-dried-tomato-quiche"
     ],
     "slug": "spinach-and-sun-dried-tomato-quiche",
@@ -2218,8 +2376,6 @@
   {
     "ids": [
       "Stuffed calamari",
-      "2cfbe6a9-2e83-8013-a168-df218c918271",
-      "2cfbe6a92e838013a168df218c918271",
       "stuffed-calamari"
     ],
     "slug": "stuffed-calamari",
@@ -2230,8 +2386,6 @@
   {
     "ids": [
       "Tonkatsu sauce",
-      "6594d7bb-393e-4743-8451-89924d1f5cd5",
-      "6594d7bb393e4743845189924d1f5cd5",
       "tonkatsu-sauce"
     ],
     "slug": "tonkatsu-sauce",
@@ -2241,9 +2395,37 @@
   },
   {
     "ids": [
+      "Tonnato sauce",
+      "tonnato-sauce"
+    ],
+    "slug": "tonnato-sauce",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "slug": "tonnato-veal",
+        "type": "recipes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Tonnato veal",
+      "tonnato-veal"
+    ],
+    "slug": "tonnato-veal",
+    "type": "recipes",
+    "outboundLinks": [
+      {
+        "slug": "tonnato-sauce",
+        "type": "recipes"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Tortiglioni with radicchio and walnuts",
-      "15dbe6a9-2e83-806c-b7aa-caabdfd43cd0",
-      "15dbe6a92e83806cb7aacaabdfd43cd0",
       "tortiglioni-with-radicchio-and-walnuts"
     ],
     "slug": "tortiglioni-with-radicchio-and-walnuts",
@@ -2254,8 +2436,6 @@
   {
     "ids": [
       "Tuna and mayonnaise stuffed eggs",
-      "2cfbe6a9-2e83-8095-94bb-df7f63e2419b",
-      "2cfbe6a92e83809594bbdf7f63e2419b",
       "tuna-and-mayonnaise-stuffed-eggs"
     ],
     "slug": "tuna-and-mayonnaise-stuffed-eggs",
@@ -2265,9 +2445,17 @@
   },
   {
     "ids": [
+      "Tuna mezze maniche",
+      "tuna-mezze-maniche"
+    ],
+    "slug": "tuna-mezze-maniche",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Tuna tartare",
-      "5f6517ed-69ed-4f5c-8e8d-c573f1605e77",
-      "5f6517ed69ed4f5c8e8dc573f1605e77",
       "tuna-tartare"
     ],
     "slug": "tuna-tartare",
@@ -2278,8 +2466,6 @@
   {
     "ids": [
       "Tuna tataki",
-      "2d8be6a9-2e83-80c3-85b8-eaed8a1477d1",
-      "2d8be6a92e8380c385b8eaed8a1477d1",
       "tuna-tataki"
     ],
     "slug": "tuna-tataki",
@@ -2295,8 +2481,6 @@
   {
     "ids": [
       "Two-tone cauliflower gnocchi with leek and potato soup and kale chips",
-      "156be6a9-2e83-80c7-ae85-eaf711bcc827",
-      "156be6a92e8380c7ae85eaf711bcc827",
       "two-tone-cauliflower-gnocchi-with-leek-and-potato-soup-and-kale-chips"
     ],
     "slug": "two-tone-cauliflower-gnocchi-with-leek-and-potato-soup-and-kale-chips",
@@ -2320,8 +2504,6 @@
   {
     "ids": [
       "Two-tone cauliflower gnocchi",
-      "156be6a9-2e83-8057-924f-d04766ccfc3b",
-      "156be6a92e838057924fd04766ccfc3b",
       "two-tone-cauliflower-gnocchi"
     ],
     "slug": "two-tone-cauliflower-gnocchi",
@@ -2336,9 +2518,17 @@
   },
   {
     "ids": [
+      "Vegetable caponata",
+      "vegetable-caponata"
+    ],
+    "slug": "vegetable-caponata",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Vegetarian cabbage rolls",
-      "18bbe6a9-2e83-8068-bb1c-c99e505f31db",
-      "18bbe6a92e838068bb1cc99e505f31db",
       "vegetarian-cabbage-rolls"
     ],
     "slug": "vegetarian-cabbage-rolls",
@@ -2348,9 +2538,17 @@
   },
   {
     "ids": [
+      "Venetian-style whipped salt cod",
+      "venetian-style-whipped-salt-cod"
+    ],
+    "slug": "venetian-style-whipped-salt-cod",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Wasabi mayo",
-      "87e3f780-74a1-4fdb-99d4-4f3ead7c6137",
-      "87e3f78074a14fdb99d44f3ead7c6137",
       "wasabi-mayo"
     ],
     "slug": "wasabi-mayo",
