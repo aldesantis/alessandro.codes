@@ -9865,6 +9865,16 @@
   },
   {
     "ids": [
+      "Peak Performance",
+      "peak-performance"
+    ],
+    "slug": "peak-performance",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "People, Power, and Profits",
       "people-power-and-profits"
     ],
@@ -14064,6 +14074,17 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Code Is Cheap. Show Me the Talk.",
+      "code-is-cheap.-show-me-the-talk.",
+      "code-is-cheap-show-me-the-talk"
+    ],
+    "slug": "code-is-cheap-show-me-the-talk",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -23902,6 +23923,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "The Job Isn’t Just the Job",
+      "the-job-isnt-just-the-job"
+    ],
+    "slug": "the-job-isnt-just-the-job",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
