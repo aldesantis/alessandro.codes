@@ -2487,7 +2487,7 @@
     "type": "recipes",
     "outboundLinks": [
       {
-        "slug": "two-tone-cauliflower-gnocchi",
+        "slug": "leek-and-potato-soup",
         "type": "recipes"
       },
       {
@@ -2495,7 +2495,7 @@
         "type": "recipes"
       },
       {
-        "slug": "leek-and-potato-soup",
+        "slug": "two-tone-cauliflower-gnocchi",
         "type": "recipes"
       }
     ],
@@ -8806,6 +8806,2555 @@
   },
   {
     "ids": [
+      "00 Flour",
+      "00-flour"
+    ],
+    "slug": "00-flour",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "All-Purpose Flour",
+      "all-purpose-flour"
+    ],
+    "slug": "all-purpose-flour",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Anchovy Fillets",
+      "anchovy-fillets"
+    ],
+    "slug": "anchovy-fillets",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Apple Cider Vinegar",
+      "apple-cider-vinegar"
+    ],
+    "slug": "apple-cider-vinegar",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Avocado",
+      "avocado"
+    ],
+    "slug": "avocado",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Baking Powder",
+      "baking-powder"
+    ],
+    "slug": "baking-powder",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Balsamic Glaze",
+      "balsamic-glaze"
+    ],
+    "slug": "balsamic-glaze",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Banana Whey Protein",
+      "banana-whey-protein"
+    ],
+    "slug": "banana-whey-protein",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ripe Banana Flesh",
+      "banana"
+    ],
+    "slug": "banana",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Barbecue Sauce",
+      "barbecue-sauce"
+    ],
+    "slug": "barbecue-sauce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Basmati Rice",
+      "basmati-rice"
+    ],
+    "slug": "basmati-rice",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Bay Leaves",
+      "bay-leaves"
+    ],
+    "slug": "bay-leaves",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Beef Chunks",
+      "beef-chuck"
+    ],
+    "slug": "beef-chuck",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Beef Short Rib",
+      "beef-short-rib"
+    ],
+    "slug": "beef-short-rib",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Beef Stock",
+      "beef-stock"
+    ],
+    "slug": "beef-stock",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Beef Tenderloin Steaks",
+      "beef-tenderloin"
+    ],
+    "slug": "beef-tenderloin",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Beef Topside",
+      "beef-topside"
+    ],
+    "slug": "beef-topside",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Black Beans",
+      "black-beans"
+    ],
+    "slug": "black-beans",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Black Peppercorns",
+      "black-peppercorns"
+    ],
+    "slug": "black-peppercorns",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Blackberries",
+      "blackberries"
+    ],
+    "slug": "blackberries",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Blueberries",
+      "blueberries"
+    ],
+    "slug": "blueberries",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brandy",
+      "brandy"
+    ],
+    "slug": "brandy",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Breadcrumbs",
+      "breadcrumbs"
+    ],
+    "slug": "breadcrumbs",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brie",
+      "brie"
+    ],
+    "slug": "brie",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brown Sugar",
+      "brown-sugar"
+    ],
+    "slug": "brown-sugar",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Burrata",
+      "burrata"
+    ],
+    "slug": "burrata",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Butter",
+      "butter"
+    ],
+    "slug": "butter",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Canned Tuna in Oil",
+      "canned-tuna-in-oil"
+    ],
+    "slug": "canned-tuna-in-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Caper Berries",
+      "caper-berries"
+    ],
+    "slug": "caper-berries",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Capers",
+      "capers"
+    ],
+    "slug": "capers",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Carnaroli Rice",
+      "carnaroli-rice"
+    ],
+    "slug": "carnaroli-rice",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Carrot",
+      "carrot"
+    ],
+    "slug": "carrot",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cashews",
+      "cashews"
+    ],
+    "slug": "cashews",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Medium Cauliflower",
+      "cauliflower"
+    ],
+    "slug": "cauliflower",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cayenne Pepper",
+      "cayenne-pepper"
+    ],
+    "slug": "cayenne-pepper",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Celery Stalk",
+      "celery-stalk"
+    ],
+    "slug": "celery-stalk",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Champignon Mushrooms",
+      "champignon-mushrooms"
+    ],
+    "slug": "champignon-mushrooms",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cheddar",
+      "cheddar"
+    ],
+    "slug": "cheddar",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cherry Tomato",
+      "cherry-tomato"
+    ],
+    "slug": "cherry-tomato",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chicken Breast",
+      "chicken-breast"
+    ],
+    "slug": "chicken-breast",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chicken Thighs",
+      "chicken-thighs"
+    ],
+    "slug": "chicken-thighs",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chicken Wings",
+      "chicken-wings"
+    ],
+    "slug": "chicken-wings",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chicken",
+      "chicken"
+    ],
+    "slug": "chicken",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Canned Chickpeas",
+      "chickpeas"
+    ],
+    "slug": "chickpeas",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chili Flakes",
+      "chili-flakes"
+    ],
+    "slug": "chili-flakes",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chilli Powder",
+      "chilli-powder"
+    ],
+    "slug": "chilli-powder",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chives",
+      "chives"
+    ],
+    "slug": "chives",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chocolate Chips",
+      "chocolate-chips"
+    ],
+    "slug": "chocolate-chips",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Clarified Butter",
+      "clarified-butter"
+    ],
+    "slug": "clarified-butter",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cloves",
+      "cloves"
+    ],
+    "slug": "cloves",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Unsweetened Cocoa Powder",
+      "cocoa-powder"
+    ],
+    "slug": "cocoa-powder",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Coconut Milk",
+      "coconut-milk"
+    ],
+    "slug": "coconut-milk",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cooked Ham",
+      "cooked-ham"
+    ],
+    "slug": "cooked-ham",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Corn",
+      "corn"
+    ],
+    "slug": "corn",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cornflour",
+      "cornstarch"
+    ],
+    "slug": "cornstarch",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cow Ricotta",
+      "cow-ricotta"
+    ],
+    "slug": "cow-ricotta",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cream Cheese",
+      "cream-cheese"
+    ],
+    "slug": "cream-cheese",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cucumber",
+      "cucumber"
+    ],
+    "slug": "cucumber",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dark Chocolate",
+      "dark-chocolate"
+    ],
+    "slug": "dark-chocolate",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dashi Powder",
+      "dashi-powder"
+    ],
+    "slug": "dashi-powder",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Delica Pumpkin",
+      "delica-pumpkin"
+    ],
+    "slug": "delica-pumpkin",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Digestive Biscuits",
+      "digestive-biscuits"
+    ],
+    "slug": "digestive-biscuits",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dijon Mustard",
+      "dijon-mustard"
+    ],
+    "slug": "dijon-mustard",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dried Chili Pepper",
+      "dried-chili-pepper"
+    ],
+    "slug": "dried-chili-pepper",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dried Rice Vermicelli",
+      "dried-rice-vermicelli"
+    ],
+    "slug": "dried-rice-vermicelli",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dried Wakame",
+      "dried-wakame"
+    ],
+    "slug": "dried-wakame",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dry White Wine",
+      "dry-white-wine"
+    ],
+    "slug": "dry-white-wine",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Remilled Durum Wheat Semolina",
+      "durum-wheat-semolina"
+    ],
+    "slug": "durum-wheat-semolina",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Egg Yolk",
+      "egg-yolk"
+    ],
+    "slug": "egg-yolk",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Eggs",
+      "egg"
+    ],
+    "slug": "egg",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Eggplant",
+      "eggplant"
+    ],
+    "slug": "eggplant",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Extra Virgin Olive Oil",
+      "extra-virgin-olive-oil"
+    ],
+    "slug": "extra-virgin-olive-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fine Salt",
+      "fine-salt"
+    ],
+    "slug": "fine-salt",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fior di Latte Mozzarella",
+      "fior-di-latte-mozzarella"
+    ],
+    "slug": "fior-di-latte-mozzarella",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Firm Tofu",
+      "firm-tofu"
+    ],
+    "slug": "firm-tofu",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Baker’s Yeast",
+      "Fresh Baker's Yeast",
+      "fresh-bakers-yeast"
+    ],
+    "slug": "fresh-bakers-yeast",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Basil Leaves",
+      "fresh-basil"
+    ],
+    "slug": "fresh-basil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Chili",
+      "fresh-chili"
+    ],
+    "slug": "fresh-chili",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Cilantro",
+      "fresh-coriander",
+      "fresh-cilantro"
+    ],
+    "slug": "fresh-cilantro",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Cilantro",
+      "fresh-coriander"
+    ],
+    "slug": "fresh-coriander",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Ginger",
+      "fresh-ginger"
+    ],
+    "slug": "fresh-ginger",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Liquid Cream",
+      "fresh-liquid-cream"
+    ],
+    "slug": "fresh-liquid-cream",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Mint",
+      "fresh-mint"
+    ],
+    "slug": "fresh-mint",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Tuna Fillet",
+      "fresh-tuna-fillet"
+    ],
+    "slug": "fresh-tuna-fillet",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gaeta Olives",
+      "gaeta-olives"
+    ],
+    "slug": "gaeta-olives",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Garlic or Ginger Paste",
+      "garlic-ginger-paste"
+    ],
+    "slug": "garlic-ginger-paste",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Garlic Powder",
+      "garlic-powder"
+    ],
+    "slug": "garlic-powder",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Garlic Clove",
+      "garlic"
+    ],
+    "slug": "garlic",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Genovese Pesto",
+      "genovese-pesto"
+    ],
+    "slug": "genovese-pesto",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gilthead Bream Fillet",
+      "gilthead-bream-fillet"
+    ],
+    "slug": "gilthead-bream-fillet",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Golden Apples",
+      "golden-apple"
+    ],
+    "slug": "golden-apple",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Golden Onion",
+      "golden-onion"
+    ],
+    "slug": "golden-onion",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Gorgonzola",
+      "gorgonzola"
+    ],
+    "slug": "gorgonzola",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Grana Padano DOP",
+      "grana-padano"
+    ],
+    "slug": "grana-padano",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Granulated Sugar",
+      "granulated-sugar"
+    ],
+    "slug": "granulated-sugar",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Greek Yogurt",
+      "greek-yogurt"
+    ],
+    "slug": "greek-yogurt",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Green Olives",
+      "green-olives"
+    ],
+    "slug": "green-olives",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Green Peppercorns in Brine",
+      "green-peppercorns-brine"
+    ],
+    "slug": "green-peppercorns-brine",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ground Beef",
+      "ground-beef"
+    ],
+    "slug": "ground-beef",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ground Cinnamon",
+      "ground-cinnamon"
+    ],
+    "slug": "ground-cinnamon",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ground Coriander",
+      "ground-coriander"
+    ],
+    "slug": "ground-coriander",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ground Cumin",
+      "ground-cumin"
+    ],
+    "slug": "ground-cumin",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ground Garam Masala",
+      "ground-garam-masala"
+    ],
+    "slug": "ground-garam-masala",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ground Pork",
+      "ground-pork"
+    ],
+    "slug": "ground-pork",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ground Turmeric",
+      "ground-turmeric"
+    ],
+    "slug": "ground-turmeric",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Guanciale",
+      "guanciale"
+    ],
+    "slug": "guanciale",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hamburger Bun",
+      "hamburger-bun"
+    ],
+    "slug": "hamburger-bun",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hazelnuts",
+      "hazelnuts"
+    ],
+    "slug": "hazelnuts",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Heavy Cream",
+      "heavy-cream"
+    ],
+    "slug": "heavy-cream",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Honey",
+      "honey"
+    ],
+    "slug": "honey",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hot Paprika",
+      "hot-paprika"
+    ],
+    "slug": "hot-paprika",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ice Cubes",
+      "ice-cubes"
+    ],
+    "slug": "ice-cubes",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ketchup",
+      "ketchup"
+    ],
+    "slug": "ketchup",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "King Prawns",
+      "king-prawns"
+    ],
+    "slug": "king-prawns",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lamb’s Lettuce",
+      "Lamb's Lettuce",
+      "lambs-lettuce"
+    ],
+    "slug": "lambs-lettuce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lean Beef",
+      "lean-beef"
+    ],
+    "slug": "lean-beef",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Leek",
+      "leek"
+    ],
+    "slug": "leek",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lemon Juice",
+      "lemon-juice"
+    ],
+    "slug": "lemon-juice",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lemon Thyme",
+      "lemon-thyme"
+    ],
+    "slug": "lemon-thyme",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lemon Zest",
+      "lemon-zest"
+    ],
+    "slug": "lemon-zest",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lemon",
+      "lemon"
+    ],
+    "slug": "lemon",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cooked Lentils",
+      "lentils"
+    ],
+    "slug": "lentils",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lettuce",
+      "lettuce"
+    ],
+    "slug": "lettuce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Light Soy Sauce",
+      "light-soy-sauce"
+    ],
+    "slug": "light-soy-sauce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lime Juice",
+      "lime-juice"
+    ],
+    "slug": "lime-juice",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lime Zest",
+      "lime-zest"
+    ],
+    "slug": "lime-zest",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Low-Fat Yogurt",
+      "low-fat-yogurt"
+    ],
+    "slug": "low-fat-yogurt",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Maple Syrup",
+      "maple-syrup"
+    ],
+    "slug": "maple-syrup",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mayonnaise",
+      "mayonnaise"
+    ],
+    "slug": "mayonnaise",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Meat Broth",
+      "meat-broth"
+    ],
+    "slug": "meat-broth",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mild Curry Powder",
+      "mild-curry-powder"
+    ],
+    "slug": "mild-curry-powder",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Milk",
+      "milk"
+    ],
+    "slug": "milk",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mirin",
+      "mirin"
+    ],
+    "slug": "mirin",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mixed Berries",
+      "mixed-berries"
+    ],
+    "slug": "mixed-berries",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mixed Salad Greens",
+      "mixed-salad-greens"
+    ],
+    "slug": "mixed-salad-greens",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mortadella",
+      "mortadella"
+    ],
+    "slug": "mortadella",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mullet Bottarga",
+      "mullet-bottarga"
+    ],
+    "slug": "mullet-bottarga",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mussels",
+      "mussels"
+    ],
+    "slug": "mussels",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mustard",
+      "mustard"
+    ],
+    "slug": "mustard",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "‘Nduja",
+      "''Nduja",
+      "nduja"
+    ],
+    "slug": "nduja",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ripe Nectarines",
+      "nectarine"
+    ],
+    "slug": "nectarine",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Nutella",
+      "nutella"
+    ],
+    "slug": "nutella",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Nutmeg",
+      "nutmeg"
+    ],
+    "slug": "nutmeg",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Oat Flour",
+      "oat-flour"
+    ],
+    "slug": "oat-flour",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Olive Oil",
+      "olive-oil"
+    ],
+    "slug": "olive-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Medium Onion",
+      "onion"
+    ],
+    "slug": "onion",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Orange Juice",
+      "orange-juice"
+    ],
+    "slug": "orange-juice",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Oregano",
+      "oregano"
+    ],
+    "slug": "oregano",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ossobuco",
+      "ossobuco"
+    ],
+    "slug": "ossobuco",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Oyster Mushrooms",
+      "oyster-mushrooms"
+    ],
+    "slug": "oyster-mushrooms",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Oyster Sauce",
+      "oyster-sauce"
+    ],
+    "slug": "oyster-sauce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Pancetta",
+      "pancetta"
+    ],
+    "slug": "pancetta",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Panko",
+      "panko"
+    ],
+    "slug": "panko",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Paprika",
+      "paprika"
+    ],
+    "slug": "paprika",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Parmigiano Reggiano DOP",
+      "parmigiano-reggiano"
+    ],
+    "slug": "parmigiano-reggiano",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Parsley",
+      "parsley"
+    ],
+    "slug": "parsley",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pasta",
+      "pasta"
+    ],
+    "slug": "pasta",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Peanut Butter",
+      "peanut-butter"
+    ],
+    "slug": "peanut-butter",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Peanut Oil",
+      "peanut-oil"
+    ],
+    "slug": "peanut-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pear",
+      "pear"
+    ],
+    "slug": "pear",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pearled Farro",
+      "pearled-farro"
+    ],
+    "slug": "pearled-farro",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Peas",
+      "peas"
+    ],
+    "slug": "peas",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pecorino Romano",
+      "pecorino-romano"
+    ],
+    "slug": "pecorino-romano",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sardinian Pecorino",
+      "pecorino-sardo"
+    ],
+    "slug": "pecorino-sardo",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Peeled Tomatoes",
+      "peeled-tomatoes"
+    ],
+    "slug": "peeled-tomatoes",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pepper",
+      "pepper"
+    ],
+    "slug": "pepper",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pine Nuts",
+      "pine-nuts"
+    ],
+    "slug": "pine-nuts",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pinsa Romana Base",
+      "pinsa-romana-base"
+    ],
+    "slug": "pinsa-romana-base",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pistachio",
+      "pistachio"
+    ],
+    "slug": "pistachio",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Plain Yogurt",
+      "plain-yogurt"
+    ],
+    "slug": "plain-yogurt",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pork Loin Chops",
+      "pork-loin-chops"
+    ],
+    "slug": "pork-loin-chops",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pork Ribs",
+      "pork-ribs"
+    ],
+    "slug": "pork-ribs",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Potato Starch",
+      "potato-starch"
+    ],
+    "slug": "potato-starch",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Medium-Large Potatoes",
+      "potato"
+    ],
+    "slug": "potato",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Powdered Sugar",
+      "powdered-sugar"
+    ],
+    "slug": "powdered-sugar",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Provolone del Monaco",
+      "provolone-del-monaco"
+    ],
+    "slug": "provolone-del-monaco",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Round Puff Pastry Sheet",
+      "puff-pastry-sheet"
+    ],
+    "slug": "puff-pastry-sheet",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Radicchio",
+      "radicchio"
+    ],
+    "slug": "radicchio",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Raspberries",
+      "raspberries"
+    ],
+    "slug": "raspberries",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rayu Chili Oil",
+      "rayu-chili-oil"
+    ],
+    "slug": "rayu-chili-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Red Bell Pepper",
+      "red-bell-pepper"
+    ],
+    "slug": "red-bell-pepper",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Red Cabbage",
+      "red-cabbage"
+    ],
+    "slug": "red-cabbage",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Red Miso Paste",
+      "red-miso-paste"
+    ],
+    "slug": "red-miso-paste",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Red Onion",
+      "red-onion"
+    ],
+    "slug": "red-onion",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Red Wine",
+      "red-wine"
+    ],
+    "slug": "red-wine",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Redcurrants",
+      "redcurrants"
+    ],
+    "slug": "redcurrants",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rice Vinegar",
+      "rice-vinegar"
+    ],
+    "slug": "rice-vinegar",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rolled Oats",
+      "rolled-oats"
+    ],
+    "slug": "rolled-oats",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rosemary",
+      "rosemary"
+    ],
+    "slug": "rosemary",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Saffron",
+      "saffron"
+    ],
+    "slug": "saffron",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sage Leaves",
+      "sage"
+    ],
+    "slug": "sage",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sake",
+      "sake"
+    ],
+    "slug": "sake",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Skinless Salmon Fillet",
+      "salmon-fillet"
+    ],
+    "slug": "salmon-fillet",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Salt",
+      "salt"
+    ],
+    "slug": "salt",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "slug": "salt-fat-acid-heat",
+        "type": "books"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Sausage",
+      "sausage"
+    ],
+    "slug": "sausage",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Savoy Cabbage",
+      "savoy-cabbage"
+    ],
+    "slug": "savoy-cabbage",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Coarse Sea Salt",
+      "sea-salt"
+    ],
+    "slug": "sea-salt",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Seitan",
+      "seitan"
+    ],
+    "slug": "seitan",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sesame Oil",
+      "sesame-oil"
+    ],
+    "slug": "sesame-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sesame or Poppy Seeds",
+      "sesame-or-poppy-seeds"
+    ],
+    "slug": "sesame-or-poppy-seeds",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Shallot",
+      "shallot"
+    ],
+    "slug": "shallot",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sheet Gelatin",
+      "sheet-gelatin"
+    ],
+    "slug": "sheet-gelatin",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Shrimp Head",
+      "shrimp-head"
+    ],
+    "slug": "shrimp-head",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Smoked Paprika",
+      "smoked-paprika"
+    ],
+    "slug": "smoked-paprika",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Smoked Salmon",
+      "smoked-salmon"
+    ],
+    "slug": "smoked-salmon",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Soffritto Mix",
+      "soffritto-mix"
+    ],
+    "slug": "soffritto-mix",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Soy Sauce",
+      "soy-sauce"
+    ],
+    "slug": "soy-sauce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Soy Yogurt",
+      "soy-yogurt"
+    ],
+    "slug": "soy-yogurt",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghetti",
+      "spaghetti"
+    ],
+    "slug": "spaghetti",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spaghettoni",
+      "spaghettoni"
+    ],
+    "slug": "spaghettoni",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Speck Alto Adige IGP",
+      "speck"
+    ],
+    "slug": "speck",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spinach",
+      "spinach"
+    ],
+    "slug": "spinach",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Spring Onion",
+      "spring-onion"
+    ],
+    "slug": "spring-onion",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Squid",
+      "squid"
+    ],
+    "slug": "squid",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Stockfish",
+      "stockfish"
+    ],
+    "slug": "stockfish",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fresh Strawberries",
+      "strawberries"
+    ],
+    "slug": "strawberries",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sun-Dried Tomatoes",
+      "sun-dried-tomatoes"
+    ],
+    "slug": "sun-dried-tomatoes",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sunflower Oil",
+      "sunflower-oil"
+    ],
+    "slug": "sunflower-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sweet Paprika",
+      "sweet-paprika"
+    ],
+    "slug": "sweet-paprika",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Sweet Provola",
+      "sweet-provola"
+    ],
+    "slug": "sweet-provola",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pitted Taggiasca Olives",
+      "taggiasca-olives"
+    ],
+    "slug": "taggiasca-olives",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tahini",
+      "tahini"
+    ],
+    "slug": "tahini",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Taleggio DOP",
+      "taleggio"
+    ],
+    "slug": "taleggio",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Thyme",
+      "thyme"
+    ],
+    "slug": "thyme",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Toasted Sesame Oil",
+      "toasted-sesame-oil"
+    ],
+    "slug": "toasted-sesame-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Toasted Sesame Seeds",
+      "toasted-sesame-seeds"
+    ],
+    "slug": "toasted-sesame-seeds",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tomato Passata",
+      "tomato-passata"
+    ],
+    "slug": "tomato-passata",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Double Concentrated Tomato Paste",
+      "tomato-paste"
+    ],
+    "slug": "tomato-paste",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tomatoes",
+      "tomato"
+    ],
+    "slug": "tomato",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tonkatsu Sauce",
+      "tonkatsu-sauce"
+    ],
+    "slug": "tonkatsu-sauce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tortillas",
+      "tortillas"
+    ],
+    "slug": "tortillas",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Turmeric",
+      "turmeric"
+    ],
+    "slug": "turmeric",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tuscan Kale Leaves",
+      "tuscan-kale"
+    ],
+    "slug": "tuscan-kale",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vanilla Extract",
+      "vanilla-extract"
+    ],
+    "slug": "vanilla-extract",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Veal Bones",
+      "veal-bones"
+    ],
+    "slug": "veal-bones",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Veal Escalopes",
+      "veal-escalopes"
+    ],
+    "slug": "veal-escalopes",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vegan Grated Cheese",
+      "vegan-grated-cheese"
+    ],
+    "slug": "vegan-grated-cheese",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vegan Ricotta",
+      "vegan-ricotta"
+    ],
+    "slug": "vegan-ricotta",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vegetable Oil",
+      "vegetable-oil"
+    ],
+    "slug": "vegetable-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vegetable Stock",
+      "vegetable-stock"
+    ],
+    "slug": "vegetable-stock",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Vegetarian Oyster Sauce",
+      "vegetarian-oyster-sauce"
+    ],
+    "slug": "vegetarian-oyster-sauce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Walnuts",
+      "walnuts"
+    ],
+    "slug": "walnuts",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Wasabi Powder",
+      "wasabi-powder"
+    ],
+    "slug": "wasabi-powder",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Water",
+      "water"
+    ],
+    "slug": "water",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "White Cabbage",
+      "white-cabbage"
+    ],
+    "slug": "white-cabbage",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "White Onion",
+      "white-onion"
+    ],
+    "slug": "white-onion",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "White Pepper",
+      "white-pepper"
+    ],
+    "slug": "white-pepper",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "White Peppercorns",
+      "white-peppercorns"
+    ],
+    "slug": "white-peppercorns",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "White Wine Vinegar",
+      "white-wine-vinegar"
+    ],
+    "slug": "white-wine-vinegar",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Whole Wheat Bread",
+      "whole-wheat-bread"
+    ],
+    "slug": "whole-wheat-bread",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Worcestershire Sauce",
+      "worcestershire-sauce"
+    ],
+    "slug": "worcestershire-sauce",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Yellow Bell Pepper",
+      "yellow-bell-pepper"
+    ],
+    "slug": "yellow-bell-pepper",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Yellow Mustard Powder",
+      "yellow-mustard-powder"
+    ],
+    "slug": "yellow-mustard-powder",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Zucchini",
+      "zucchini"
+    ],
+    "slug": "zucchini",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "100 Truths You Will Learn Too Late",
       "100-truths-you-will-learn-too-late"
     ],
@@ -9968,7 +12517,12 @@
     ],
     "slug": "salt-fat-acid-heat",
     "type": "books",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "salt",
+        "type": "ingredients"
+      }
+    ],
     "inboundLinks": []
   },
   {

@@ -273,6 +273,14 @@ const config: Configuration = {
           transformers: digitalGardenTransformers,
         },
         {
+          id: "ingredients" as const,
+          basePath: "ingredients",
+          pattern: "*.{md,mdx}",
+          destinationPath: "ingredients",
+          transformers: digitalGardenTransformers,
+          // No `search` block: ingredients are a glossary for derivation, not pages.
+        },
+        {
           id: "recipes" as const,
           basePath: "recipes",
           pattern: "*.{md,mdx}",

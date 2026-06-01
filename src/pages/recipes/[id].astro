@@ -8,6 +8,7 @@ import RecipeIllustration from "@components/content/recipes/RecipeIllustration.a
 import ContentSidebar from "@components/content/ContentSidebar.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 import RecipeMeta from "@components/content/recipes/RecipeMeta.astro";
+import IngredientList from "@components/content/recipes/IngredientList.astro";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
@@ -30,6 +31,8 @@ const { recipe } = Astro.props;
     </ArrowLink>
 
     <RecipeMeta content={recipe} slot="meta" />
+
+    <IngredientList recipe={recipe} slot="pre-content" />
 
     <ContentSidebar entry={recipe} slot="sidebar">
       <RecipeIllustration recipe={recipe} class="w-full max-w-[250px] lg:max-w-full h-auto rounded mt-4 lg:mt-0" />

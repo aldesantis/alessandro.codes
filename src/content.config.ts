@@ -91,6 +91,18 @@ export const collections = {
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/nows" }),
   }),
 
+  ingredients: defineCollection({
+    schema: obsidianSchema.extend(
+      z.object({
+        aliases: z.array(z.string()).optional(),
+        category: z.string().optional(),
+        allergens: z.array(z.string()).optional().default([]),
+        diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescatarian"])),
+      }).shape
+    ),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/ingredients" }),
+  }),
+
   recipes: defineCollection({
     schema: obsidianSchema.extend(
       z.object({
@@ -105,9 +117,39 @@ export const collections = {
           "greek",
           "british",
         ]),
-        diets: z.array(z.enum(["omnivore", "vegetarian", "vegan", "pescatarian"])),
         type: z.enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"]),
         serves: z.preprocess((val) => (val === null ? undefined : val), z.number().optional()),
+        ingredient_groups: z
+          .array(
+            z.object({
+              group: z.string().optional(),
+              ingredients: z.array(
+                z.preprocess(
+                  // Some recipes reference another recipe's ingredients via a
+                  // note-only line that the vault serializes as a bare string,
+                  // e.g. "note: 'Ingredients for [[bbq-sauce|BBQ Sauce]]'".
+                  (val) => {
+                    if (typeof val === "string") {
+                      const note = val
+                        .replace(/^note:\s*/, "")
+                        .replace(/^'([\s\S]*)'$/, "$1")
+                        .replace(/^"([\s\S]*)"$/, "$1");
+                      return { note };
+                    }
+                    return val;
+                  },
+                  z.object({
+                    id: z.string().optional(),
+                    quantity: z.number().optional(),
+                    unit: z.string().optional(),
+                    note: z.string().optional(),
+                  })
+                )
+              ),
+            })
+          )
+          .optional()
+          .default([]),
       }).shape
     ),
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/recipes" }),
