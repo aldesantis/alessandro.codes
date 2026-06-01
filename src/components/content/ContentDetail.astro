@@ -27,6 +27,7 @@ const { Content } = await render(entry);
   </slot>
 
   <Prose>
+    <slot name="pre-content" />
     <Content components={getMdxComponents()} />
   </Prose>
 </SidebarLayout>

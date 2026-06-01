@@ -11,11 +11,19 @@ export interface Props {
 const { entry } = Astro.props;
 const { headings } = await render(entry);
 const { outboundLinks, inboundLinks } = getEntryIndexRecord(entry.id);
+
+// Recipes render their ingredient list via a component rather than in the MDX
+// body, so the "Ingredients" heading is absent from `headings`. Re-add it (first,
+// matching the on-page order) so the table of contents stays the same as before.
+const tocHeadings =
+  entry.collection === "recipes" && entry.data.ingredient_groups.length > 0
+    ? [{ depth: 2, text: "Ingredients", slug: "ingredients" }, ...headings]
+    : headings;
 ---
 
 <div class="space-y-4">
   <slot />
 
-  <Toc headings={headings} title={entry.data.title} />
+  <Toc headings={tocHeadings} title={entry.data.title} />
   <ContentLinks outboundLinks={outboundLinks} inboundLinks={inboundLinks} />
 </div>

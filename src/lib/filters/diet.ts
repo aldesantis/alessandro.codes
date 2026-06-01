@@ -1,5 +1,6 @@
 import type { ZendoCollectionEntry } from "../zendo/content";
 import type { FilterConfig } from "../zendo/config";
+import { deriveDiets, getIngredientDietMap, getRecipeIngredientGroupsMap } from "../recipes/diets";
 
 export default async function dietFilter(): Promise<FilterConfig> {
   return {
@@ -20,10 +21,12 @@ export default async function dietFilter(): Promise<FilterConfig> {
         return entries;
       }
 
+      const [dietMap, recipeMap] = await Promise.all([getIngredientDietMap(), getRecipeIngredientGroupsMap()]);
+
       return entries.filter((entry) => {
-        if (entry.collection === "recipes" && "diets" in entry.data) {
-          const entryDiets = (entry.data.diets ?? []) as string[];
-          return entryDiets.length > 0 && entryDiets.some((diet: string) => selectedValues.includes(diet));
+        if (entry.collection === "recipes" && "ingredient_groups" in entry.data) {
+          const entryDiets = deriveDiets(entry.data.ingredient_groups, dietMap, recipeMap);
+          return entryDiets.length > 0 && entryDiets.some((diet) => selectedValues.includes(diet));
         }
 
         return true;
