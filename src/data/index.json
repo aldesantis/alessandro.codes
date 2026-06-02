@@ -1822,6 +1822,17 @@
   },
   {
     "ids": [
+      "Insalata pantesca",
+      "Pantesca salad",
+      "insalata-pantesca"
+    ],
+    "slug": "insalata-pantesca",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Jacket potatoes",
       "jacket-potatoes"
     ],
@@ -5640,6 +5651,21 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Interestingness comes from within",
+      "interestingness-comes-from-within"
+    ],
+    "slug": "interestingness-comes-from-within",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "a-funny-thing-about-curiosity",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -14034,7 +14060,12 @@
     "slug": "a-funny-thing-about-curiosity",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "interestingness-comes-from-within",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -16408,6 +16439,16 @@
       "can-whatnot-bring-live-shopping-to-the-west"
     ],
     "slug": "can-whatnot-bring-live-shopping-to-the-west",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Can You Teach Creative Thinking?",
+      "can-you-teach-creative-thinking"
+    ],
+    "slug": "can-you-teach-creative-thinking",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -25223,6 +25264,17 @@
       "strategy-of-the-week-2026-is-in-its-offline-era"
     ],
     "slug": "strategy-of-the-week-2026-is-in-its-offline-era",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Suffering Isn’t Leadership",
+      "suffering-isn’t-leadership",
+      "suffering-isnt-leadership"
+    ],
+    "slug": "suffering-isnt-leadership",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
