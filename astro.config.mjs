@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 import icon from "astro-icon";
 
 import { remarkReadingTime } from "./src/lib/zendo/plugins/remarkReadingTime.mjs";
@@ -19,7 +20,9 @@ export default defineConfig({
   integrations: [icon(), mdx()],
 
   markdown: {
-    remarkPlugins: [remarkReadingTime, remarkWikiLink, [remarkWikiImage, { assetsPath: "../assets" }]],
+    processor: unified({
+      remarkPlugins: [remarkReadingTime, remarkWikiLink, [remarkWikiImage, { assetsPath: "../assets" }]],
+    }),
   },
 
   server: {
