@@ -1,55 +1,17 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import Link from "@components/ui/Link.astro";
 import { getIngredientNameMap, prettifyId } from "src/lib/recipes/ingredients";
 import { formatQuantityWithUnit } from "src/lib/recipes/format";
-import { buildContentEntryUrl } from "src/lib/zendo/plugins/remarkWikiLink.mjs";
-import entryIndex from "src/data/index.json";
 
 export interface Props {
   recipe: CollectionEntry<"recipes">;
 }
-
-type Segment = { text: string } | { href: string; label: string };
 
 const { recipe } = Astro.props;
 const groups = recipe.data.ingredient_groups;
 const serves = recipe.data.serves;
 
 const nameMap = await getIngredientNameMap();
-
-// Resolves wikilinks (`[[slug|label]]`) to internal links the same way the MDX
-// pipeline does, so ingredient cross-references render identically.
-function toSegments(text: string): Segment[] {
-  const segments: Segment[] = [];
-  const regex = /(?<!!)\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g;
-  let lastIndex = 0;
-
-  for (const match of text.matchAll(regex)) {
-    const start = match.index!;
-    if (start > lastIndex) {
-      segments.push({ text: text.slice(lastIndex, start) });
-    }
-
-    const destination = (match[1] ?? "").trim();
-    const label = (match[2] ?? match[1] ?? "").trim();
-    const record = entryIndex.find((entry) => entry.ids.some((id) => id.toLowerCase() === destination.toLowerCase()));
-
-    if (record) {
-      segments.push({ href: buildContentEntryUrl(record), label });
-    } else {
-      segments.push({ text: label });
-    }
-
-    lastIndex = start + match[0].length;
-  }
-
-  if (lastIndex < text.length) {
-    segments.push({ text: text.slice(lastIndex) });
-  }
-
-  return segments;
-}
 ---
 
 {
@@ -100,19 +62,13 @@ function toSegments(text: string): Segment[] {
                           </span>
                         )}
                         {item.quantity !== undefined && item.note && ", "}
-                        {item.note &&
-                          toSegments(item.note).map((segment) =>
-                            "href" in segment ? <Link href={segment.href}>{segment.label}</Link> : segment.text
-                          )}
+                        {item.note}
                         {")"}
                       </>
                     )}
                   </>
                 ) : (
-                  // Note-only entry (e.g. a cross-reference to another recipe's ingredients).
-                  toSegments(item.note ?? "").map((segment) =>
-                    "href" in segment ? <Link href={segment.href}>{segment.label}</Link> : segment.text
-                  )
+                  item.note
                 )}
               </li>
             ))}
