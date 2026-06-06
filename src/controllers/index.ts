@@ -7,6 +7,7 @@ import CommandPaletteController from "./command-palette";
 import DropdownController from "./dropdown";
 import NavbarController from "./navbar";
 import ContentGridController from "./content-grid";
+import ServingsController from "./servings";
 
 const application = Application.start();
 
@@ -17,3 +18,4 @@ application.register("content-card", ContentCardController);
 application.register("command-palette", CommandPaletteController);
 application.register("dropdown", DropdownController);
 application.register("navbar", NavbarController);
+application.register("servings", ServingsController);

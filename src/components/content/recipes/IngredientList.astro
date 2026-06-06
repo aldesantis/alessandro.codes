@@ -1,7 +1,8 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import Link from "@components/ui/Link.astro";
-import { getIngredientNameMap, prettifyId, formatIngredientLine } from "src/lib/recipes/ingredients";
+import { getIngredientNameMap, prettifyId } from "src/lib/recipes/ingredients";
+import { formatQuantityWithUnit } from "src/lib/recipes/format";
 import { buildContentEntryUrl } from "src/lib/zendo/plugins/remarkWikiLink.mjs";
 import entryIndex from "src/data/index.json";
 
@@ -9,23 +10,13 @@ export interface Props {
   recipe: CollectionEntry<"recipes">;
 }
 
-type IngredientItem = Props["recipe"]["data"]["ingredient_groups"][number]["ingredients"][number];
 type Segment = { text: string } | { href: string; label: string };
 
 const { recipe } = Astro.props;
 const groups = recipe.data.ingredient_groups;
+const serves = recipe.data.serves;
 
 const nameMap = await getIngredientNameMap();
-
-function lineFor(item: IngredientItem): string {
-  if (item.id) {
-    const name = nameMap.get(item.id) ?? prettifyId(item.id);
-    return formatIngredientLine(item, name);
-  }
-
-  // Note-only entry (e.g. a cross-reference to another recipe's ingredients).
-  return item.note ?? "";
-}
 
 // Resolves wikilinks (`[[slug|label]]`) to internal links the same way the MDX
 // pipeline does, so ingredient cross-references render identically.
@@ -63,8 +54,35 @@ function toSegments(text: string): Segment[] {
 
 {
   groups.length > 0 && (
-    <>
-      <h2 id="ingredients">Ingredients</h2>
+    <div data-controller={serves ? "servings" : undefined} data-servings-base-value={serves}>
+      <div class="flex items-baseline justify-between">
+        <h2 id="ingredients">Ingredients</h2>
+
+        {serves && (
+          <div class="not-prose flex items-center gap-2 font-sans text-sm text-stone-500">
+            <span>Servings:</span>
+            <button
+              type="button"
+              aria-label="Decrease servings"
+              data-action="servings#decrement"
+              class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
+            >
+              &minus;
+            </button>
+            <span data-servings-target="count" class="min-w-4 text-center font-semibold text-stone-700">
+              {serves}
+            </span>
+            <button
+              type="button"
+              aria-label="Increase servings"
+              data-action="servings#increment"
+              class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
+            >
+              +
+            </button>
+          </div>
+        )}
+      </div>
 
       {groups.map((group) => (
         <>
@@ -72,14 +90,37 @@ function toSegments(text: string): Segment[] {
           <ul>
             {group.ingredients.map((item) => (
               <li>
-                {toSegments(lineFor(item)).map((segment) =>
-                  "href" in segment ? <Link href={segment.href}>{segment.label}</Link> : segment.text
+                {item.id ? (
+                  <>
+                    {nameMap.get(item.id) ?? prettifyId(item.id)}
+                    {(item.quantity !== undefined || item.note) && (
+                      <>
+                        {" ("}
+                        {item.quantity !== undefined && (
+                          <span data-servings-target="quantity" data-quantity={item.quantity} data-unit={item.unit}>
+                            {formatQuantityWithUnit(item.quantity, item.unit)}
+                          </span>
+                        )}
+                        {item.quantity !== undefined && item.note && ", "}
+                        {item.note &&
+                          toSegments(item.note).map((segment) =>
+                            "href" in segment ? <Link href={segment.href}>{segment.label}</Link> : segment.text
+                          )}
+                        {")"}
+                      </>
+                    )}
+                  </>
+                ) : (
+                  // Note-only entry (e.g. a cross-reference to another recipe's ingredients).
+                  toSegments(item.note ?? "").map((segment) =>
+                    "href" in segment ? <Link href={segment.href}>{segment.label}</Link> : segment.text
+                  )
                 )}
               </li>
             ))}
           </ul>
         </>
       ))}
-    </>
+    </div>
   )
 }
