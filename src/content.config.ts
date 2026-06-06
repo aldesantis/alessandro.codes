@@ -118,6 +118,7 @@ export const collections = {
           "british",
         ]),
         type: z.enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"]),
+        depends_on: z.array(reference("recipes")).optional().default([]),
         serves: z.preprocess((val) => (val === null ? undefined : val), z.number().optional()),
         ingredient_groups: z
           .array(
@@ -139,7 +140,7 @@ export const collections = {
                     return val;
                   },
                   z.object({
-                    id: z.string().optional(),
+                    id: reference("ingredients").optional(),
                     quantity: z.number().optional(),
                     unit: z.string().optional(),
                     note: z.string().optional(),

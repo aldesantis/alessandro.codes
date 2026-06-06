@@ -44,7 +44,7 @@ function collectIngredientIds(
   for (const group of ingredientGroups) {
     for (const ingredient of group.ingredients) {
       if (ingredient.id) {
-        ids.add(ingredient.id);
+        ids.add(ingredient.id.id);
         continue;
       }
 

@@ -52,7 +52,7 @@ const nameMap = await getIngredientNameMap();
               <li>
                 {item.id ? (
                   <>
-                    {nameMap.get(item.id) ?? prettifyId(item.id)}
+                    {nameMap.get(item.id.id) ?? prettifyId(item.id.id)}
                     {(item.quantity !== undefined || item.note) && (
                       <>
                         {" ("}

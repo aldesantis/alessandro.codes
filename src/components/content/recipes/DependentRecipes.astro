@@ -1,0 +1,25 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getEntries } from "astro:content";
+import MobileCollapsible from "@components/ui/MobileCollapsible.astro";
+import RecipeCard from "@components/content/recipes/RecipeCard.astro";
+
+interface Props {
+  recipe: CollectionEntry<"recipes">;
+}
+
+const { recipe } = Astro.props;
+const dependencies = await getEntries(recipe.data.depends_on);
+---
+
+{
+  dependencies.length > 0 && (
+    <MobileCollapsible label="Required recipes">
+      <div class="space-y-4 mt-2">
+        {dependencies.map((dep) => (
+          <RecipeCard recipe={dep} />
+        ))}
+      </div>
+    </MobileCollapsible>
+  )
+}
