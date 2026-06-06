@@ -2620,10 +2620,6 @@
         "type": "notes"
       },
       {
-        "slug": "consulting-is-conversation",
-        "type": "notes"
-      },
-      {
         "slug": "consulting-maximizes-diversity",
         "type": "notes"
       },
@@ -4005,6 +4001,33 @@
   },
   {
     "ids": [
+      "Consultants don’t fix problems",
+      "consultants-dont-fix-problems"
+    ],
+    "slug": "consultants-dont-fix-problems",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "there-are-three-types-of-consulting-relationships",
+        "type": "notes"
+      },
+      {
+        "slug": "consulting-is-the-gift-of-perspective",
+        "type": "notes"
+      },
+      {
+        "slug": "every-good-consultant-is-an-org-design-consultant",
+        "type": "articles"
+      },
+      {
+        "slug": "the-trusted-advisor",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Consultants have an expiration date",
       "consultants-have-an-expiration-date"
     ],
@@ -4012,11 +4035,24 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "consulting-is-the-gift-of-perspective",
+        "type": "notes"
+      },
+      {
+        "slug": "good-consulting-requires-authenticity",
+        "type": "notes"
+      },
+      {
         "slug": "the-secrets-of-consulting",
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "consulting-is-the-gift-of-perspective",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -4039,21 +4075,6 @@
   },
   {
     "ids": [
-      "Consulting is conversation",
-      "consulting-is-conversation"
-    ],
-    "slug": "consulting-is-conversation",
-    "type": "notes",
-    "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "slug": "2025-03",
-        "type": "nows"
-      }
-    ]
-  },
-  {
-    "ids": [
       "Consulting is the gift of perspective",
       "consulting-is-the-gift-of-perspective"
     ],
@@ -4063,12 +4084,32 @@
       {
         "slug": "there-are-three-types-of-consulting-relationships",
         "type": "notes"
+      },
+      {
+        "slug": "good-consulting-requires-authenticity",
+        "type": "notes"
+      },
+      {
+        "slug": "consultants-have-an-expiration-date",
+        "type": "notes"
       }
     ],
     "inboundLinks": [
       {
         "slug": "consulting",
         "type": "topics"
+      },
+      {
+        "slug": "consultants-dont-fix-problems",
+        "type": "notes"
+      },
+      {
+        "slug": "consultants-have-an-expiration-date",
+        "type": "notes"
+      },
+      {
+        "slug": "good-consulting-requires-authenticity",
+        "type": "notes"
       }
     ]
   },
@@ -4536,6 +4577,10 @@
       },
       {
         "slug": "misaligned-product-demand-is-detrimental",
+        "type": "notes"
+      },
+      {
+        "slug": "ordinary-actions-create-extraordinary-results",
         "type": "notes"
       },
       {
@@ -5089,6 +5134,10 @@
       {
         "slug": "an-operating-cadence-needs-shared-vision",
         "type": "notes"
+      },
+      {
+        "slug": "structure-sets-you-free",
+        "type": "notes"
       }
     ]
   },
@@ -5125,6 +5174,47 @@
       }
     ],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Good consulting requires authenticity",
+      "Great consulting begets authenticity",
+      "good-consulting-requires-authenticity"
+    ],
+    "slug": "good-consulting-requires-authenticity",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "consulting-is-the-gift-of-perspective",
+        "type": "notes"
+      },
+      {
+        "slug": "great-consulting-requires-client-collaboration",
+        "type": "notes"
+      },
+      {
+        "slug": "psychological-safety-is-a-compromise",
+        "type": "notes"
+      },
+      {
+        "slug": "the-trusted-advisor",
+        "type": "books"
+      },
+      {
+        "slug": "flawless-consulting",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "consultants-have-an-expiration-date",
+        "type": "notes"
+      },
+      {
+        "slug": "consulting-is-the-gift-of-perspective",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -5251,33 +5341,6 @@
   },
   {
     "ids": [
-      "Great consulting begets authenticity",
-      "great-consulting-begets-authenticity"
-    ],
-    "slug": "great-consulting-begets-authenticity",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "great-consulting-requires-client-collaboration",
-        "type": "notes"
-      },
-      {
-        "slug": "psychological-safety-is-a-compromise",
-        "type": "notes"
-      },
-      {
-        "slug": "the-trusted-advisor",
-        "type": "books"
-      },
-      {
-        "slug": "flawless-consulting",
-        "type": "books"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Great consulting requires client collaboration",
       "great-consulting-requires-client-collaboration"
     ],
@@ -5299,7 +5362,7 @@
     ],
     "inboundLinks": [
       {
-        "slug": "great-consulting-begets-authenticity",
+        "slug": "good-consulting-requires-authenticity",
         "type": "notes"
       }
     ]
@@ -5758,6 +5821,10 @@
       },
       {
         "slug": "learn-the-rules-before-breaking-them",
+        "type": "notes"
+      },
+      {
+        "slug": "progress-means-asking-smarter-questions",
         "type": "notes"
       },
       {
@@ -6562,6 +6629,38 @@
   },
   {
     "ids": [
+      "Ordinary actions create extraordinary results",
+      "ordinary-actions-create-extraordinary-results"
+    ],
+    "slug": "ordinary-actions-create-extraordinary-results",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "design-an-operating-cadence",
+        "type": "notes"
+      },
+      {
+        "slug": "structure-sets-you-free",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-focus",
+        "type": "notes"
+      },
+      {
+        "slug": "how-to-achieve-the-extraordinary",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "structure-sets-you-free",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Org design is about structure, incentives, and culture",
       "Org design is structure, incentives, and culture",
       "org-design-is-about-structure-incentives-and-culture"
@@ -6929,6 +7028,25 @@
   },
   {
     "ids": [
+      "Progress means asking smarter questions",
+      "progress-means-asking-smarter-questions"
+    ],
+    "slug": "progress-means-asking-smarter-questions",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "learning-is-a-four-phase-process",
+        "type": "notes"
+      },
+      {
+        "slug": "the-art-of-asking-smarter-questions",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Psychological safety is a compromise",
       "psychological-safety-is-a-compromise"
     ],
@@ -6942,7 +7060,7 @@
     ],
     "inboundLinks": [
       {
-        "slug": "great-consulting-begets-authenticity",
+        "slug": "good-consulting-requires-authenticity",
         "type": "notes"
       }
     ]
@@ -7681,6 +7799,10 @@
         "type": "notes"
       },
       {
+        "slug": "ordinary-actions-create-extraordinary-results",
+        "type": "notes"
+      },
+      {
         "slug": "perfectionism-delays-convergence",
         "type": "notes"
       },
@@ -7746,7 +7868,16 @@
     ],
     "slug": "structure-sets-you-free",
     "type": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "ordinary-actions-create-extraordinary-results",
+        "type": "notes"
+      },
+      {
+        "slug": "freedom-is-only-valuable-when-forgone",
+        "type": "notes"
+      }
+    ],
     "inboundLinks": [
       {
         "slug": "build-experimentation-guidelines",
@@ -7758,6 +7889,10 @@
       },
       {
         "slug": "design-an-operating-cadence",
+        "type": "notes"
+      },
+      {
+        "slug": "ordinary-actions-create-extraordinary-results",
         "type": "notes"
       },
       {
@@ -7773,6 +7908,22 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Success comes from good positioning",
+      "Success comes from good positioning ",
+      "success-comes-from-good-positioning"
+    ],
+    "slug": "success-comes-from-good-positioning",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "clear-thinking",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -7877,6 +8028,21 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Systems change slowly",
+      "systems-change-slowly"
+    ],
+    "slug": "systems-change-slowly",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "thinking-in-systems",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -8257,7 +8423,7 @@
   },
   {
     "ids": [
-      "There are three types of consultancies",
+      "There are three types of consulting firms",
       "there-are-three-types-of-consulting-firms"
     ],
     "slug": "there-are-three-types-of-consulting-firms",
@@ -8292,6 +8458,10 @@
       {
         "slug": "consulting",
         "type": "topics"
+      },
+      {
+        "slug": "consultants-dont-fix-problems",
+        "type": "notes"
       },
       {
         "slug": "consulting-is-the-gift-of-perspective",
@@ -11538,6 +11708,10 @@
         "type": "notes"
       },
       {
+        "slug": "success-comes-from-good-positioning",
+        "type": "notes"
+      },
+      {
         "slug": "truth-is-a-function-of-facts-not-opinions",
         "type": "notes"
       }
@@ -11763,7 +11937,7 @@
         "type": "topics"
       },
       {
-        "slug": "great-consulting-begets-authenticity",
+        "slug": "good-consulting-requires-authenticity",
         "type": "notes"
       },
       {
@@ -12465,6 +12639,16 @@
   },
   {
     "ids": [
+      "Platform Decay",
+      "platform-decay"
+    ],
+    "slug": "platform-decay",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Predictable Prospecting",
       "predictable-prospecting"
     ],
@@ -13068,7 +13252,11 @@
         "type": "topics"
       },
       {
-        "slug": "great-consulting-begets-authenticity",
+        "slug": "consultants-dont-fix-problems",
+        "type": "notes"
+      },
+      {
+        "slug": "good-consulting-requires-authenticity",
         "type": "notes"
       },
       {
@@ -13114,6 +13302,10 @@
       },
       {
         "slug": "renewable-resources-are-flow-limited",
+        "type": "notes"
+      },
+      {
+        "slug": "systems-change-slowly",
         "type": "notes"
       },
       {
@@ -17110,6 +17302,16 @@
   },
   {
     "ids": [
+      "Dark Side of Subscription LTV",
+      "dark-side-of-subscription-ltv"
+    ],
+    "slug": "dark-side-of-subscription-ltv",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Dasein - Wikipedia",
       "dasein-wikipedia"
     ],
@@ -18554,7 +18756,12 @@
     "slug": "every-good-consultant-is-an-org-design-consultant",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "consultants-dont-fix-problems",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -18957,6 +19164,16 @@
       "first-we-shape-our-social-graph-then-it-shapes-us"
     ],
     "slug": "first-we-shape-our-social-graph-then-it-shapes-us",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Five Jobs",
+      "five-jobs"
+    ],
+    "slug": "five-jobs",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -20301,7 +20518,12 @@
     "slug": "how-to-achieve-the-extraordinary",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "ordinary-actions-create-extraordinary-results",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -24688,6 +24910,16 @@
   },
   {
     "ids": [
+      "Shein, Everlane and the Power of Owning Your Supply Chain",
+      "shein-everlane-and-the-power-of-owning-your-supply-chain"
+    ],
+    "slug": "shein-everlane-and-the-power-of-owning-your-supply-chain",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Shein Found Amazon’s Weakness",
       "shein-found-amazon’s-weakness",
       "shein-found-amazons-weakness"
@@ -25657,7 +25889,12 @@
     "slug": "the-art-of-asking-smarter-questions",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "progress-means-asking-smarter-questions",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -26913,6 +27150,16 @@
       "the-new-whats-your-roas-bro"
     ],
     "slug": "the-new-whats-your-roas-bro",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Next AI Battleground? Your Senses",
+      "the-next-ai-battleground-your-senses"
+    ],
+    "slug": "the-next-ai-battleground-your-senses",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []

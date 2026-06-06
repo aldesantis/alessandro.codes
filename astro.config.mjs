@@ -46,5 +46,14 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      rollupOptions: {
+        // Workaround for https://github.com/withastro/astro/issues/16954:
+        // importing getContainerRenderer from @astrojs/mdx pulls the optional
+        // satteri processor into the bundle graph even when unused. Remove
+        // once the upstream fix ships.
+        external: ["satteri", "@astrojs/markdown-satteri"],
+      },
+    },
   },
 });
