@@ -55,34 +55,32 @@ function toSegments(text: string): Segment[] {
 {
   groups.length > 0 && (
     <div data-controller={serves ? "servings" : undefined} data-servings-base-value={serves}>
-      <div class="flex items-baseline justify-between">
-        <h2 id="ingredients">Ingredients</h2>
+      <h2 id="ingredients">Ingredients</h2>
 
-        {serves && (
-          <div class="not-prose flex items-center gap-2 font-sans text-sm text-stone-500">
-            <span>Servings:</span>
-            <button
-              type="button"
-              aria-label="Decrease servings"
-              data-action="servings#decrement"
-              class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
-            >
-              &minus;
-            </button>
-            <span data-servings-target="count" class="min-w-4 text-center font-semibold text-stone-700">
-              {serves}
-            </span>
-            <button
-              type="button"
-              aria-label="Increase servings"
-              data-action="servings#increment"
-              class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
-            >
-              +
-            </button>
-          </div>
-        )}
-      </div>
+      {serves && (
+        <div class="not-prose flex items-center gap-2 font-sans text-sm text-stone-500">
+          <span>Servings:</span>
+          <button
+            type="button"
+            aria-label="Decrease servings"
+            data-action="servings#decrement"
+            class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
+          >
+            &minus;
+          </button>
+          <span data-servings-target="count" class="min-w-4 text-center font-semibold text-stone-700">
+            {serves}
+          </span>
+          <button
+            type="button"
+            aria-label="Increase servings"
+            data-action="servings#increment"
+            class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
+          >
+            +
+          </button>
+        </div>
+      )}
 
       {groups.map((group) => (
         <>
