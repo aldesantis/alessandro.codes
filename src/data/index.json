@@ -3969,7 +3969,12 @@
     ],
     "slug": "composable-commerce-may-be-a-necessity",
     "type": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "replatforms-should-be-trated-as-simplification-projects",
+        "type": "notes"
+      }
+    ],
     "inboundLinks": [
       {
         "slug": "composable-commerce",
@@ -4005,6 +4010,10 @@
       },
       {
         "slug": "composable-commerce-may-be-a-choice",
+        "type": "notes"
+      },
+      {
+        "slug": "replatforms-should-be-trated-as-simplification-projects",
         "type": "notes"
       }
     ]
@@ -4671,11 +4680,20 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "efficiency-must-be-defensible",
+        "type": "notes"
+      },
+      {
         "slug": "the-crux",
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "efficiency-must-be-defensible",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -4706,6 +4724,10 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "economies-of-scale-are-not-exclusive",
+        "type": "notes"
+      },
+      {
         "slug": "good-strategy-bad-strategy",
         "type": "books"
       },
@@ -4714,7 +4736,12 @@
         "type": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "economies-of-scale-are-not-exclusive",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -6316,10 +6343,10 @@
   },
   {
     "ids": [
-      "Mediums create new agency",
-      "mediums-create-new-agency"
+      "Media create new agency",
+      "media-create-new-agency"
     ],
-    "slug": "mediums-create-new-agency",
+    "slug": "media-create-new-agency",
     "type": "notes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -7234,6 +7261,26 @@
   },
   {
     "ids": [
+      "Replatforms should be treated as simplification projects",
+      "replatforms-should-be-trated-as-simplification-projects"
+    ],
+    "slug": "replatforms-should-be-trated-as-simplification-projects",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "composable-commerce",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "composable-commerce-may-be-a-necessity",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Resale is not enough",
       "resale-is-not-enough"
     ],
@@ -7282,6 +7329,10 @@
       {
         "slug": "how-brands-grow",
         "type": "books"
+      },
+      {
+        "slug": "7-growth-busters-and-how-to-fix-them",
+        "type": "articles"
       }
     ],
     "inboundLinks": []
@@ -14049,7 +14100,12 @@
     "slug": "7-growth-busters-and-how-to-fix-them",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "retention-doesnt-grow-brands",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -14725,6 +14781,17 @@
       "after-an-oversaturation-of-ai-generated-content-creators-authenticity-and-messiness-are-in-high-dema"
     ],
     "slug": "after-an-oversaturation-of-ai-generated-content-creators-authenticity-and-messiness-are-in-high-dema",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "After Automation | Every",
+      "after-automation--every",
+      "after-automation-every"
+    ],
+    "slug": "after-automation-every",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17719,6 +17786,16 @@
       "dissecting-the-points-meta-best-practices-for-user-loyalty"
     ],
     "slug": "dissecting-the-points-meta-best-practices-for-user-loyalty",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Do I Belong in Tech Anymore?",
+      "do-i-belong-in-tech-anymore"
+    ],
+    "slug": "do-i-belong-in-tech-anymore",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
