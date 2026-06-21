@@ -12417,6 +12417,17 @@
   },
   {
     "ids": [
+      "Io Che Ti Ho Voluto Così Bene",
+      "io-che-ti-ho-voluto-così-bene",
+      "io-che-ti-ho-voluto-cosi-bene"
+    ],
+    "slug": "io-che-ti-ho-voluto-cosi-bene",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Io Sono Vivo Voi Siete Morti",
       "io-sono-vivo-voi-siete-morti"
     ],
@@ -12955,6 +12966,16 @@
   },
   {
     "ids": [
+      "The Answer to How Is Yes",
+      "the-answer-to-how-is-yes"
+    ],
+    "slug": "the-answer-to-how-is-yes",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Anxious Generation",
       "the-anxious-generation"
     ],
@@ -13411,6 +13432,16 @@
   },
   {
     "ids": [
+      "Tools for Conviviality",
+      "tools-for-conviviality"
+    ],
+    "slug": "tools-for-conviviality",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Traction",
       "traction"
     ],
@@ -13459,6 +13490,16 @@
       "trustworthy-online-controlled-experiments"
     ],
     "slug": "trustworthy-online-controlled-experiments",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tutta La Vita Che Resta",
+      "tutta-la-vita-che-resta"
+    ],
+    "slug": "tutta-la-vita-che-resta",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -20719,6 +20760,16 @@
   },
   {
     "ids": [
+      "How to Build a Context Graph",
+      "how-to-build-a-context-graph"
+    ],
+    "slug": "how-to-build-a-context-graph",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How to Build a Marketing Budget",
       "how-to-build-a-marketing-budget"
     ],
@@ -25752,6 +25803,16 @@
       "taste-is-eating-silicon-valley"
     ],
     "slug": "taste-is-eating-silicon-valley",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Taste Test: Encrusting the Tortoise",
+      "taste-test-encrusting-the-tortoise"
+    ],
+    "slug": "taste-test-encrusting-the-tortoise",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []

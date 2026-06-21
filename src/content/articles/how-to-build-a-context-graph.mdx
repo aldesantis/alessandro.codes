@@ -1,0 +1,29 @@
+---
+aliases:
+  - How to Build a Context Graph
+  - how-to-build-a-context-graph
+author: Animesh Koratana
+category: articles
+createdAt: 2026-06-21T15:38:45.000Z
+lastHighlightedOn: 2026-06-09T13:31:45.898Z
+publishedOn: null
+source: reader
+status: seedling
+tags:
+  - ai
+  - score-high
+title: How to Build a Context Graph
+updatedAt: 2026-06-21T15:39:02.000Z
+url: 'https://www.linkedin.com/pulse/how-build-context-graph-animesh-koratana-6abve/'
+contentType: articles
+---
+## Summary
+
+A context graph captures how decisions happen by tracing agents solving problems over time. It learns the structure of an organization through these problem-directed paths, not by fixed rules. With enough data, it becomes a world model that can simulate and predict future outcomes to improve decision-making.
+
+## Highlights
+
+- Unlike random walks, agent trajectories are problem-directed. The agent adapts based on what it finds. Investigating a production incident, it might start broad—what changed recently across all systems? That’s global exploration, structural equivalence territory. As evidence accumulates, it narrows to specific services, specific deployment history, specific request paths. That’s local exploration, homophily territory.
+- A world model is a learned, compressed representation of how an environment works. It encodes dynamics, ie. what happens when you take actions suspended in a specific state. It captures structure: what entities exist and how they relate. And it enables prediction: given a current state and a proposed action, what happens next?
+- because the world model supports simulation, you get something more powerful: counterfactual reasoning. Not just “what happened in similar situations?” but “what would happen if I took this action?” The agent imagines futures, evaluates them, chooses accordingly.
+  This is what experienced employees have that new hires don’t. Not different cognitive architecture, a better world model. They’ve seen enough situations to simulate outcomes. “If we push this Friday, on-call will have a bad weekend.” That’s not retrieval. It’s inference over an internal model of system behavior.
