@@ -1,5 +1,5 @@
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
-import { getContainerRenderer as mdxContainerRenderer } from "@astrojs/mdx";
+import { getContainerRenderer as mdxContainerRenderer } from "@astrojs/mdx/container-renderer";
 import { render } from "astro:content";
 import { loadRenderers } from "astro:container";
 import * as cheerio from "cheerio";
