@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus";
 import { actions } from "astro:actions";
-import type { SearchResult } from "src/lib/zendo/config";
-import type { ZendoCollectionId } from "src/lib/zendo/content";
+import type { SearchResult } from "zendo";
+import type { ZendoCollectionId } from "src/garden";
 
 type SearchResultResponse = SearchResult & {
   url: string;

@@ -4,7 +4,7 @@ import { render } from "astro:content";
 import { loadRenderers } from "astro:container";
 import * as cheerio from "cheerio";
 import Link from "@components/ui/Link.astro";
-import type { ZendoCollectionEntry } from "src/lib/zendo/content";
+import type { ZendoCollectionEntry } from "src/garden";
 
 export async function renderToString(entry: ZendoCollectionEntry): Promise<string> {
   const renderers = await loadRenderers([mdxContainerRenderer()]);

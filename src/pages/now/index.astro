@@ -1,7 +1,7 @@
 ---
 export const prerender = true;
 
-import { getEntries } from "src/lib/zendo/content";
+import { getEntries } from "src/garden";
 
 const latestNow = (await getEntries(["nows"]))[0]!;
 const latestNowUrl = `/now/${latestNow.id}`;

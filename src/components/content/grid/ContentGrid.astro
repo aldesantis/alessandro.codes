@@ -1,20 +1,23 @@
 ---
-import { search } from "src/lib/zendo/actions/search";
+import { actions } from "astro:actions";
 import Card from "@components/ui/Card.astro";
 import ContentGridFilter from "./ContentGridFilter.astro";
-import type { FilterConfig } from "src/lib/zendo/config";
+import type { FilterConfig } from "zendo";
+import type { ZendoCollectionEntry } from "src/garden";
+
+type GardenFilter = FilterConfig<ZendoCollectionEntry>;
 
 interface Props {
-  searchParams: Parameters<typeof search>[0];
+  searchParams: Parameters<typeof actions.search>[0];
   itemSize: "S" | "M" | "L";
   layoutType?: "grid" | "masonry";
-  filters?: FilterConfig[];
+  filters?: GardenFilter[];
 }
 
 const { searchParams, itemSize, layoutType = "grid", filters = [] } = Astro.props;
 
 const filtersWithUi = filters.filter(
-  (filter): filter is FilterConfig & { ui: NonNullable<FilterConfig["ui"]> } => filter.ui !== undefined
+  (filter): filter is GardenFilter & { ui: NonNullable<GardenFilter["ui"]> } => filter.ui !== undefined
 );
 
 function getGridColumnsForSize(size: "S" | "M" | "L"): string {
