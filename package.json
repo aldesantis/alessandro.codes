@@ -5,7 +5,6 @@
   "engines": {
     "node": ">=24.18.0"
   },
-  "workspaces": ["packages/*"],
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build",
@@ -34,7 +33,7 @@
     "gray-matter": "^4.0.3",
     "tailwindcss": "^4.3.1",
     "typescript": "^6.0.3",
-    "zendo": "*"
+    "zendo": "github:aldesantis/zendo#v0.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
