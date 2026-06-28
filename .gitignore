@@ -28,3 +28,6 @@ pnpm-debug.log*
 
 # Garden source cache
 .garden-source/
+
+# asdf tool versions (un-ignore; overrides global gitignore)
+!.tool-versions
