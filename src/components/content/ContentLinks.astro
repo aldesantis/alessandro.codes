@@ -1,10 +1,9 @@
 ---
 import Link from "@components/ui/Link.astro";
-import type { EntryLink as LinkType } from "src/lib/zendo/content";
-import { buildContentEntryUrl } from "src/lib/zendo/plugins/remarkWikiLink.mjs";
 import LinkList from "@components/ui/LinkList.astro";
 import MobileCollapsible from "@components/ui/MobileCollapsible.astro";
-import { getEntries, type ZendoCollectionId } from "src/lib/zendo/content";
+import { getEntries, buildUrl } from "src/garden";
+import type { EntryLink as LinkType, ZendoCollectionId } from "src/garden";
 
 interface Props {
   outboundLinks: LinkType[];
@@ -40,7 +39,7 @@ const getLinkTitle = async (link: LinkType): Promise<string> => {
           <li>
             <Link
               class="font-sans"
-              href={buildContentEntryUrl({
+              href={buildUrl({
                 type: link.type,
                 slug: link.slug,
               })}
@@ -65,7 +64,7 @@ const getLinkTitle = async (link: LinkType): Promise<string> => {
           <li>
             <Link
               class="font-sans"
-              href={buildContentEntryUrl({
+              href={buildUrl({
                 type: link.type,
                 slug: link.slug,
               })}

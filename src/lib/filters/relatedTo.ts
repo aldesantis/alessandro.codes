@@ -1,12 +1,12 @@
-import type { ZendoCollectionEntry, ZendoCollectionId } from "src/lib/zendo/content";
-import type { FilterConfig } from "src/lib/zendo/config";
+import type { ZendoCollectionEntry, ZendoCollectionId } from "src/garden";
+import type { FilterConfig } from "zendo";
 
-export default async function relatedToFilter(): Promise<FilterConfig> {
+export default async function relatedToFilter(): Promise<FilterConfig<ZendoCollectionEntry>> {
   return {
     id: "relatedTo",
     entryFilterFn: async (entries: ZendoCollectionEntry[], value: unknown): Promise<ZendoCollectionEntry[]> => {
-      const { sortEntries } = await import("src/lib/zendo/content");
-      const { getEntry, getRelatedEntries, getEntryIndexRecord, deduplicateEntries } = await import("../zendo/content");
+      const { sortEntries, getEntry, getRelatedEntries, getEntryIndexRecord, deduplicateEntries } =
+        await import("../../garden");
       const relatedToId = value as string | undefined;
 
       if (!relatedToId) {

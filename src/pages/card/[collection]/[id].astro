@@ -1,10 +1,10 @@
 ---
 export const prerender = true;
 
-import { getEntry } from "src/lib/zendo/content";
-import { collectionIds } from "garden.config";
+import { getEntry } from "src/garden";
+import { collectionIds } from "../../../../zendo.config";
 import ContentCard from "@components/content/ContentCard.astro";
-import type { ZendoCollectionId } from "src/lib/zendo/content";
+import type { ZendoCollectionId } from "src/garden";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {

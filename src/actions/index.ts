@@ -1,5 +1,8 @@
-import { search } from "src/lib/zendo/actions/search";
+import { createSearchAction } from "zendo/astro/actions";
+
+import config from "../../zendo.config";
+import { garden } from "../garden";
 
 export const server = {
-  search,
+  search: createSearchAction(config, garden),
 };

@@ -1,8 +1,8 @@
-import type { ZendoCollectionEntry } from "../zendo/content";
-import type { FilterConfig } from "../zendo/config";
+import type { ZendoCollectionEntry } from "src/garden";
+import type { FilterConfig } from "zendo";
 import { deriveDiets, getIngredientDietMap, getRecipeIngredientGroupsMap } from "../recipes/diets";
 
-export default async function dietFilter(): Promise<FilterConfig> {
+export default async function dietFilter(): Promise<FilterConfig<ZendoCollectionEntry>> {
   return {
     id: "diet",
     ui: {

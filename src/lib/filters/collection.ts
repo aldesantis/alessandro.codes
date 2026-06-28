@@ -1,7 +1,7 @@
-import type { ZendoCollectionConfig, FilterConfig } from "../zendo/config";
-import type { ZendoCollectionId } from "../zendo/content";
+import type { ZendoCollectionConfig, FilterConfig } from "zendo";
+import type { ZendoCollectionId, ZendoCollectionEntry } from "src/garden";
 
-export default async function collectionFilter(): Promise<FilterConfig> {
+export default async function collectionFilter(): Promise<FilterConfig<ZendoCollectionEntry>> {
   return {
     id: "collections",
     ui: {
@@ -18,9 +18,9 @@ export default async function collectionFilter(): Promise<FilterConfig> {
       ],
     },
     collectionFilterFn: async (
-      entryTypes: ZendoCollectionConfig[],
+      entryTypes: ZendoCollectionConfig<ZendoCollectionEntry>[],
       value: unknown
-    ): Promise<ZendoCollectionConfig[]> => {
+    ): Promise<ZendoCollectionConfig<ZendoCollectionEntry>[]> => {
       const selectedCollections = value as ZendoCollectionId[] | undefined;
 
       if (!selectedCollections || selectedCollections.length === 0) {

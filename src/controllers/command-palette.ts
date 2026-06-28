@@ -1,11 +1,12 @@
 import { Controller } from "@hotwired/stimulus";
 import { actions } from "astro:actions";
-import type { SearchResult } from "src/lib/zendo/config";
+import type { SearchResult } from "zendo";
 
 type StatusType = "seedling" | "budding" | "evergreen";
 
 type SearchResultResponse = SearchResult & {
   url: string;
+  status?: StatusType;
 };
 
 interface StatusColors {

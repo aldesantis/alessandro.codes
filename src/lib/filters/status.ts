@@ -1,7 +1,7 @@
-import type { ZendoCollectionEntry } from "../zendo/content";
-import type { FilterConfig } from "../zendo/config";
+import type { ZendoCollectionEntry } from "src/garden";
+import type { FilterConfig } from "zendo";
 
-export default async function statusFilter(): Promise<FilterConfig> {
+export default async function statusFilter(): Promise<FilterConfig<ZendoCollectionEntry>> {
   return {
     id: "status",
     ui: {

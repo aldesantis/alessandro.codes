@@ -12,7 +12,7 @@ export type IngredientGroup = CollectionEntry<"recipes">["data"]["ingredient_gro
  */
 export async function getIngredientDietMap(): Promise<Map<string, Diet[]>> {
   // Imported lazily so this module can be loaded outside the Astro runtime
-  // (e.g. by the zendo CLI, which evaluates garden.config and its filters).
+  // (e.g. by the zendo CLI, which evaluates zendo.config and its filters).
   const { getCollection } = await import("astro:content");
   const ingredients = await getCollection("ingredients");
 

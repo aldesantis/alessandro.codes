@@ -3,9 +3,12 @@ import { defineConfig, fontProviders } from "astro/config";
 import { unified } from "@astrojs/markdown-remark";
 import icon from "astro-icon";
 
-import { remarkReadingTime } from "./src/lib/zendo/plugins/remarkReadingTime.mjs";
-import { remarkWikiLink } from "./src/lib/zendo/plugins/remarkWikiLink.mjs";
-import { remarkWikiImage } from "./src/lib/zendo/plugins/remarkWikiImage.mjs";
+import { remarkReadingTime, remarkWikiLink, remarkWikiImage } from "zendo/remark";
+import index from "./src/data/index.json" with { type: "json" };
+
+// Owns this site's routing for resolved wikilinks (e.g. `nows` → `/now`).
+/** @param {{ type: string, slug: string }} link */
+const buildUrl = ({ type, slug }) => `/${type === "nows" ? "now" : type}/${slug}`;
 
 import mdx from "@astrojs/mdx";
 
@@ -21,7 +24,11 @@ export default defineConfig({
 
   markdown: {
     processor: unified({
-      remarkPlugins: [remarkReadingTime, remarkWikiLink, [remarkWikiImage, { assetsPath: "../assets" }]],
+      remarkPlugins: [
+        remarkReadingTime,
+        [remarkWikiLink, { index, buildUrl }],
+        [remarkWikiImage, { assetsPath: "../assets" }],
+      ],
     }),
   },
 
@@ -49,6 +56,10 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
+    // Zendo ships as TypeScript source; let Vite transpile it for the SSR bundle.
+    ssr: {
+      noExternal: ["zendo"],
+    },
     build: {
       rollupOptions: {
         // Workaround for https://github.com/withastro/astro/issues/16954:

@@ -2,7 +2,8 @@
 import Toc from "@components/ui/Toc.astro";
 import ContentLinks from "@components/content/ContentLinks.astro";
 import { render } from "astro:content";
-import { getEntryIndexRecord, type ZendoCollectionEntry } from "src/lib/zendo/content";
+import { getEntryIndexRecord } from "src/garden";
+import type { ZendoCollectionEntry } from "src/garden";
 
 export interface Props {
   entry: ZendoCollectionEntry;
