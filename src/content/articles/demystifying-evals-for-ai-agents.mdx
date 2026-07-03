@@ -1,0 +1,28 @@
+---
+aliases:
+  - Demystifying Evals for AI Agents
+  - demystifying-evals-for-ai-agents
+author: anthropic.com
+category: articles
+createdAt: 2026-06-27T12:42:11.000Z
+lastHighlightedOn: 2026-06-23T11:44:39.913Z
+publishedOn: 2026-01-09T00:00:00.000Z
+source: reader
+status: seedling
+tags:
+  - ai
+  - engineering
+  - score-high
+title: Demystifying Evals for AI Agents
+updatedAt: 2026-06-27T12:42:20.000Z
+url: 'https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents'
+contentType: articles
+---
+## Summary
+
+Evals help AI teams find and fix problems early, making agents better and safer. They guide development by measuring what success looks like and catching mistakes as agents improve. Using evals lets teams upgrade models faster and keep quality high over time.
+
+## Highlights
+
+- [**pass@k**](https://proceedings.neurips.cc/paper/2019/file/7298332f04ac004a0ca44cc69ecf6f6b-Paper.pdf) measures the likelihood that an agent gets at least one correct solution in _k_ attempts. As k increases, pass@k score rises - more ‘shots on goal’ means higher odds of at least 1 success. A score of 50% pass@1 means that a model succeeds at half the tasks in the eval on its first try. In coding, we’re often most interested in the agent finding the solution on the first try—pass@1. In other cases, proposing many solutions is valid as long as one works.
+  [**pass^k**](https://arxiv.org/abs/2406.12045) measures the probability that _all k_ trials succeed. As _k_ increases, pass^k falls since demanding consistency across more trials is a harder bar to clear. If your agent has a 75% per-trial success rate and you run 3 trials, the probability of passing all three is (0.75)³ ≈ 42%. This metric especially matters for customer-facing agents where users expect reliable behavior every time.

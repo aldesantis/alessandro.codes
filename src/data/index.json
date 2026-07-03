@@ -5440,14 +5440,22 @@
   },
   {
     "ids": [
-      "Hire coachable people",
-      "hire-coachable-people"
+      "Hell yes or no",
+      "hell-yes-or-no"
     ],
-    "slug": "hire-coachable-people",
+    "slug": "hell-yes-or-no",
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "trillion-dollar-coach",
+        "slug": "strategy-requires-focus",
+        "type": "notes"
+      },
+      {
+        "slug": "the-art-of-gathering",
+        "type": "books"
+      },
+      {
+        "slug": "good-strategy-bad-strategy",
         "type": "books"
       }
     ],
@@ -5460,7 +5468,12 @@
     ],
     "slug": "hire-for-attitude-not-for-skills",
     "type": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "shared-vision-is-built-through-hiring",
+        "type": "notes"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7498,6 +7511,10 @@
     ],
     "inboundLinks": [
       {
+        "slug": "hire-for-attitude-not-for-skills",
+        "type": "notes"
+      },
+      {
         "slug": "shared-vision-is-built-through-inquiry",
         "type": "notes"
       },
@@ -7860,6 +7877,10 @@
         "type": "notes"
       },
       {
+        "slug": "hell-yes-or-no",
+        "type": "notes"
+      },
+      {
         "slug": "ordinary-actions-create-extraordinary-results",
         "type": "notes"
       },
@@ -7937,6 +7958,10 @@
       {
         "slug": "freedom-is-only-valuable-when-forgone",
         "type": "notes"
+      },
+      {
+        "slug": "how-to-take-smart-notes",
+        "type": "books"
       }
     ],
     "inboundLinks": [
@@ -12128,6 +12153,10 @@
       {
         "slug": "good-strategy-is-simple",
         "type": "notes"
+      },
+      {
+        "slug": "hell-yes-or-no",
+        "type": "notes"
       }
     ]
   },
@@ -12293,6 +12322,10 @@
       },
       {
         "slug": "ideas-need-to-be-grappled-with",
+        "type": "notes"
+      },
+      {
+        "slug": "structure-sets-you-free",
         "type": "notes"
       },
       {
@@ -12863,6 +12896,16 @@
   },
   {
     "ids": [
+      "Seeing Like a State",
+      "seeing-like-a-state"
+    ],
+    "slug": "seeing-like-a-state",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Sempre Tornare",
       "sempre-tornare"
     ],
@@ -12995,6 +13038,10 @@
     "inboundLinks": [
       {
         "slug": "gatherings-must-have-a-purpose",
+        "type": "notes"
+      },
+      {
+        "slug": "hell-yes-or-no",
         "type": "notes"
       }
     ]
@@ -13476,10 +13523,6 @@
     "inboundLinks": [
       {
         "slug": "good-management-requires-consistency",
-        "type": "notes"
-      },
-      {
-        "slug": "hire-coachable-people",
         "type": "notes"
       }
     ]
@@ -15773,6 +15816,16 @@
   },
   {
     "ids": [
+      "Beware What Sounds Insightful",
+      "beware-what-sounds-insightful"
+    ],
+    "slug": "beware-what-sounds-insightful",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Beyond Snoop Dogg’s Cereal: Surprising Celebrity-Led Food and Drink Brands",
       "beyond-snoop-doggs-cereal-surprising-celebrity-led-food-and-drink-brands"
     ],
@@ -16661,6 +16714,16 @@
   },
   {
     "ids": [
+      "Breaking the Spell of Vibe Coding",
+      "breaking-the-spell-of-vibe-coding"
+    ],
+    "slug": "breaking-the-spell-of-vibe-coding",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Bubbles and the Invention-Imagination Gap | How to Read AI Usage Studies | a Conversation With De Kai",
       "bubbles-and-the-invention-imagination-gap--how-to-read-ai-usage-studies--a-conversation-with-de-kai",
       "bubbles-and-the-invention-imagination-gap-how-to-read-ai-usage-studies-a-conversation-with-de-kai"
@@ -16965,6 +17028,17 @@
   },
   {
     "ids": [
+      "Clouded Judgement 12.12.25 - Long Live Systems of Record",
+      "clouded-judgement-12.12.25-long-live-systems-of-record",
+      "clouded-judgement-121225-long-live-systems-of-record"
+    ],
+    "slug": "clouded-judgement-121225-long-live-systems-of-record",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "‘Clunky’ Chatbots Disrupt E-Commerce Experiences, Survey Finds",
       "‘clunky’-chatbots-disrupt-e-commerce-experiences-survey-finds",
       "clunky-chatbots-disrupt-e-commerce-experiences-survey-finds"
@@ -17064,6 +17138,16 @@
       "companies-seem-determined-to-make-everything-a-retail-media-network-how-did-we-get-here"
     ],
     "slug": "companies-seem-determined-to-make-everything-a-retail-media-network-how-did-we-get-here",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Compound Engineering: Make Every Unit of Work Compound Into the Next",
+      "compound-engineering-make-every-unit-of-work-compound-into-the-next"
+    ],
+    "slug": "compound-engineering-make-every-unit-of-work-compound-into-the-next",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17601,6 +17685,16 @@
   },
   {
     "ids": [
+      "Demystifying Evals for AI Agents",
+      "demystifying-evals-for-ai-agents"
+    ],
+    "slug": "demystifying-evals-for-ai-agents",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Demystifying the Fashion Marketing Funnel",
       "demystifying-the-fashion-marketing-funnel"
     ],
@@ -17653,6 +17747,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Designing AI Tools That Support Critical Thinking",
+      "designing-ai-tools-that-support-critical-thinking"
+    ],
+    "slug": "designing-ai-tools-that-support-critical-thinking",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -17964,6 +18068,17 @@
       "dont-rely-on-tired-social-tactics-build-an-algorithm-beating-d2c-brand"
     ],
     "slug": "dont-rely-on-tired-social-tactics-build-an-algorithm-beating-d2c-brand",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Don’t Surround Yourself With Smarter People",
+      "don’t-surround-yourself-with-smarter-people",
+      "dont-surround-yourself-with-smarter-people"
+    ],
+    "slug": "dont-surround-yourself-with-smarter-people",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19250,6 +19365,16 @@
       "fear-of-disappointing-people-youve-already-impressed-is-more-paralyzing-than-fear-of-impressing-nobo"
     ],
     "slug": "fear-of-disappointing-people-youve-already-impressed-is-more-paralyzing-than-fear-of-impressing-nobo",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Feeling Fast, Delivering Slow: Why Your AI Adoption Still Hasn’t Paid Off",
+      "feeling-fast-delivering-slow-why-your-ai-adoption-still-hasnt-paid-off"
+    ],
+    "slug": "feeling-fast-delivering-slow-why-your-ai-adoption-still-hasnt-paid-off",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22358,6 +22483,16 @@
   },
   {
     "ids": [
+      "Learning What Matters",
+      "learning-what-matters"
+    ],
+    "slug": "learning-what-matters",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Lesson on Selling My First Company",
       "lesson-on-selling-my-first-company"
     ],
@@ -23921,6 +24056,16 @@
   },
   {
     "ids": [
+      "On Seeing Through and Unseeing: The Hacker Mindset",
+      "on-seeing-through-and-unseeing-the-hacker-mindset"
+    ],
+    "slug": "on-seeing-through-and-unseeing-the-hacker-mindset",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "One Moment in a Decade",
       "one-moment-in-a-decade"
     ],
@@ -24873,6 +25018,16 @@
   },
   {
     "ids": [
+      "Riding the Leopard",
+      "riding-the-leopard"
+    ],
+    "slug": "riding-the-leopard",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Roblox Marketers Feel the Tension—inside Brands’ Next Challenge on the Platform",
       "roblox-marketers-feel-the-tension—inside-brands’-next-challenge-on-the-platform",
       "roblox-marketers-feel-the-tensioninside-brands-next-challenge-on-the-platform"
@@ -24925,6 +25080,16 @@
       "scales-of-cities-scales-of-software-linuscoffee"
     ],
     "slug": "scales-of-cities-scales-of-software-linuscoffee",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Second Brain, First Try",
+      "second-brain-first-try"
+    ],
+    "slug": "second-brain-first-try",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -25053,6 +25218,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Services: The New Software",
+      "services-the-new-software"
+    ],
+    "slug": "services-the-new-software",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -28047,6 +28222,16 @@
   },
   {
     "ids": [
+      "The Ultimate Burnout Guide: Symptoms, Causes, and Prevention",
+      "the-ultimate-burnout-guide-symptoms-causes-and-prevention"
+    ],
+    "slug": "the-ultimate-burnout-guide-symptoms-causes-and-prevention",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Ultimate Guide to Writing Online",
       "the-ultimate-guide-to-writing-online"
     ],
@@ -28130,6 +28315,16 @@
       "the-weekend-leverage"
     ],
     "slug": "the-weekend-leverage",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Whetstone",
+      "the-whetstone"
+    ],
+    "slug": "the-whetstone",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -28687,6 +28882,16 @@
       "two-shticks-by-anu-atluru-working-theorystwo-shticks"
     ],
     "slug": "two-shticks-by-anu-atluru-working-theorystwo-shticks",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Two Years Without Cookies on the Site, Here’s Where We Ended Up",
+      "two-years-without-cookies-on-the-site-heres-where-we-ended-up"
+    ],
+    "slug": "two-years-without-cookies-on-the-site-heres-where-we-ended-up",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -30295,6 +30500,17 @@
       "writer-builders"
     ],
     "slug": "writer-builders",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Writing Doesn’t Make You a Genius",
+      "writing-doesn’t-make-you-a-genius",
+      "writing-doesnt-make-you-a-genius"
+    ],
+    "slug": "writing-doesnt-make-you-a-genius",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
