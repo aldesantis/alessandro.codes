@@ -20,6 +20,11 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   output: "server",
 
+  // Astro 7 changed the `compressHTML` default from `true` to `'jsx'`, which
+  // strips whitespace around elements using JSX rules and glued together text
+  // across line breaks. Restore the pre-upgrade (Astro 6) behavior.
+  compressHTML: true,
+
   integrations: [icon(), mdx()],
 
   markdown: {
