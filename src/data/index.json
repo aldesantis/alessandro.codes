@@ -2885,11 +2885,19 @@
         "type": "notes"
       },
       {
+        "slug": "collaboration-is-either-generative-or-reactive",
+        "type": "notes"
+      },
+      {
         "slug": "efficiency-is-not-effectiveness",
         "type": "notes"
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "collaboration-is-either-generative-or-reactive",
+        "type": "notes"
+      },
       {
         "slug": "efficiency-is-not-effectiveness",
         "type": "notes"
@@ -3608,6 +3616,10 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "collaboration-is-either-generative-or-reactive",
+        "type": "notes"
+      },
+      {
         "slug": "innovation-needs-a-platform",
         "type": "notes"
       },
@@ -3623,6 +3635,10 @@
     "inboundLinks": [
       {
         "slug": "bright-spots-catalyze-change",
+        "type": "notes"
+      },
+      {
+        "slug": "collaboration-is-either-generative-or-reactive",
         "type": "notes"
       },
       {
@@ -3680,6 +3696,34 @@
     "type": "notes",
     "outboundLinks": [],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Collaboration is either generative or reactive",
+      "collaboration-is-either-generative-or-reactive"
+    ],
+    "slug": "collaboration-is-either-generative-or-reactive",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "change-requires-collaboration",
+        "type": "notes"
+      },
+      {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      },
+      {
+        "slug": "change-requires-collaboration",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -11710,6 +11754,16 @@
   },
   {
     "ids": [
+      "A Carlin Home Companion",
+      "a-carlin-home-companion"
+    ],
+    "slug": "a-carlin-home-companion",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Agentic Design Patterns",
       "agentic-design-patterns"
     ],
@@ -17407,6 +17461,16 @@
   },
   {
     "ids": [
+      "Creativity, AI, and Why Creatives Lead What Comes Next",
+      "creativity-ai-and-why-creatives-lead-what-comes-next"
+    ],
+    "slug": "creativity-ai-and-why-creatives-lead-what-comes-next",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Credible Exit",
       "credible-exit"
     ],
@@ -18798,6 +18862,17 @@
   },
   {
     "ids": [
+      "🚨FLASH🚨 ChatGPT Testing “Product Ads”: Marries Agentic Commerce Discovery & Agentic Product Feeds & AI Ads - News+Analysis (_PLUS_ Amazon Job Posting Frenzy).",
+      "🚨flash🚨-chatgpt-testing-product-ads-marries-agentic-commerce-discovery-&-agentic-product-feeds-&-ai-ads-news+analysis-(plus-amazon-job-posting-frenzy).",
+      "emoji-1f6a8flashemoji-1f6a8-chatgpt-testing-product-ads-marries-agentic-commerce-discovery-and-agent"
+    ],
+    "slug": "emoji-1f6a8flashemoji-1f6a8-chatgpt-testing-product-ads-marries-agentic-commerce-discovery-and-agent",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "🥗 Don’t",
       "🥗-don’t",
       "emoji-1f957-dont"
@@ -19365,6 +19440,16 @@
       "fear-of-disappointing-people-youve-already-impressed-is-more-paralyzing-than-fear-of-impressing-nobo"
     ],
     "slug": "fear-of-disappointing-people-youve-already-impressed-is-more-paralyzing-than-fear-of-impressing-nobo",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Feeding on Illusions",
+      "feeding-on-illusions"
+    ],
+    "slug": "feeding-on-illusions",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
