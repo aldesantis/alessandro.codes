@@ -1697,6 +1697,16 @@
   },
   {
     "ids": [
+      "Chicken salad",
+      "chicken-salad"
+    ],
+    "slug": "chicken-salad",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Chickpea masala",
       "chickpea-masala"
     ],
