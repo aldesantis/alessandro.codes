@@ -82,3 +82,24 @@ export function formatQuantityWithUnit(value: number, unit?: string): string {
   const formattedUnit = unit ? formatUnit(unit, roundQuantity(value)) : "";
   return formattedUnit ? `${quantity} ${formattedUnit}` : quantity;
 }
+
+/**
+ * Renders the parenthetical after an ingredient name, e.g. " (160 g, Venere)".
+ * Quantity and note are comma-separated; either may be omitted.
+ */
+export function formatIngredientDetails(
+  quantity: number | undefined,
+  unit: string | undefined,
+  note: string | undefined
+): string {
+  const parts: string[] = [];
+
+  if (quantity !== undefined) {
+    parts.push(formatQuantityWithUnit(quantity, unit));
+  }
+  if (note) {
+    parts.push(note);
+  }
+
+  return parts.length > 0 ? `(${parts.join(", ")})` : "";
+}

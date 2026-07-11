@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { getIngredientNameMap, prettifyId } from "src/lib/recipes/ingredients";
-import { formatQuantityWithUnit } from "src/lib/recipes/format";
+import { formatIngredientDetails } from "src/lib/recipes/format";
 
 export interface Props {
   recipe: CollectionEntry<"recipes">;
@@ -54,17 +54,16 @@ const nameMap = await getIngredientNameMap();
                   <>
                     {nameMap.get(item.id.id) ?? prettifyId(item.id.id)}
                     {(item.quantity !== undefined || item.note) && (
-                      <>
-                        {" ("}
-                        {item.quantity !== undefined && (
-                          <span data-servings-target="quantity" data-quantity={item.quantity} data-unit={item.unit}>
-                            {formatQuantityWithUnit(item.quantity, item.unit)}
-                          </span>
-                        )}
-                        {item.quantity !== undefined && item.note && ", "}
-                        {item.note}
-                        {")"}
-                      </>
+                      <span
+                        {...(item.quantity !== undefined && {
+                          "data-servings-target": "quantity",
+                          "data-quantity": item.quantity,
+                          "data-unit": item.unit,
+                          "data-note": item.note,
+                        })}
+                      >
+                        {` ${formatIngredientDetails(item.quantity, item.unit, item.note)}`}
+                      </span>
                     )}
                   </>
                 ) : (

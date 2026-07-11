@@ -1,5 +1,5 @@
 import { Controller } from "@hotwired/stimulus";
-import { formatQuantityWithUnit } from "../lib/recipes/format";
+import { formatIngredientDetails } from "../lib/recipes/format";
 
 const MIN_SERVINGS = 1;
 const MAX_SERVINGS = 99;
@@ -37,7 +37,11 @@ export default class ServingsController extends Controller {
       const baseQuantity = Number(target.dataset.quantity);
       const scaled = (baseQuantity * this.servings) / this.baseValue;
 
-      target.textContent = formatQuantityWithUnit(scaled, target.dataset.unit);
+      target.textContent = formatIngredientDetails(
+        scaled,
+        target.dataset.unit,
+        target.dataset.note || undefined,
+      );
     }
   }
 }
