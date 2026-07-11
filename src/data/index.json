@@ -1552,6 +1552,16 @@
   },
   {
     "ids": [
+      "Black rice timbale with zucchini and tuna tartare",
+      "black-rice-timbale-with-zucchini-and-tuna-tartare"
+    ],
+    "slug": "black-rice-timbale-with-zucchini-and-tuna-tartare",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Blueberry risotto with taleggio and crispy speck",
       "blueberry-risotto-with-taleggio-and-crispy-speck"
     ],
@@ -9342,6 +9352,16 @@
   },
   {
     "ids": [
+      "Black rice",
+      "black-rice"
+    ],
+    "slug": "black-rice",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Blackberries",
       "blackberries"
     ],
@@ -9866,6 +9886,16 @@
       "extra-virgin-olive-oil"
     ],
     "slug": "extra-virgin-olive-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fennel",
+      "fennel"
+    ],
+    "slug": "fennel",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16918,6 +16948,16 @@
       "capturing-luck-with-or-instead-of-and"
     ],
     "slug": "capturing-luck-with-or-instead-of-and",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Career Moats 101",
+      "career-moats-101"
+    ],
+    "slug": "career-moats-101",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
