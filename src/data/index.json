@@ -1732,6 +1732,16 @@
   },
   {
     "ids": [
+      "Coffee cream",
+      "coffee-cream"
+    ],
+    "slug": "coffee-cream",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Coleslaw",
       "coleslaw"
     ],
@@ -2593,6 +2603,26 @@
       "wasabi-mayo"
     ],
     "slug": "wasabi-mayo",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Watermelon sashimi",
+      "watermelon-sashimi"
+    ],
+    "slug": "watermelon-sashimi",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Whipped codfish",
+      "whipped-codfish"
+    ],
+    "slug": "whipped-codfish",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -4900,12 +4930,21 @@
   },
   {
     "ids": [
-      "Empathize with difficult people",
-      "empathize-with-difficult-people"
+      "Empathy gives you perspective",
+      "empathy-gives-you-perspective"
     ],
-    "slug": "empathize-with-difficult-people",
+    "slug": "empathy-gives-you-perspective",
     "type": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "people-problems-are-often-situational-problems",
+        "type": "notes"
+      },
+      {
+        "slug": "the-charisma-myth",
+        "type": "books"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -6840,7 +6879,12 @@
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "empathy-gives-you-perspective",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -9702,6 +9746,16 @@
   },
   {
     "ids": [
+      "Coffee",
+      "coffee"
+    ],
+    "slug": "coffee",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Cooked ham",
       "cooked-ham"
     ],
@@ -10224,6 +10278,16 @@
   },
   {
     "ids": [
+      "Ground ginger",
+      "ground-ginger"
+    ],
+    "slug": "ground-ginger",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Ground pork",
       "ground-pork"
     ],
@@ -10600,6 +10664,16 @@
       "nectarine"
     ],
     "slug": "nectarine",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Nori",
+      "nori"
+    ],
+    "slug": "nori",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11641,6 +11715,16 @@
   },
   {
     "ids": [
+      "Watermelon",
+      "watermelon"
+    ],
+    "slug": "watermelon",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "White cabbage",
       "white-cabbage"
     ],
@@ -12606,6 +12690,17 @@
   },
   {
     "ids": [
+      "Le Città Invisibili",
+      "le-città-invisibili",
+      "le-citta-invisibili"
+    ],
+    "slug": "le-citta-invisibili",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Lean Analytics",
       "lean-analytics"
     ],
@@ -13218,7 +13313,12 @@
         "type": "topics"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "empathy-gives-you-perspective",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -13478,6 +13578,16 @@
   },
   {
     "ids": [
+      "The Trusted Advisor Sales Engineer",
+      "the-trusted-advisor-sales-engineer"
+    ],
+    "slug": "the-trusted-advisor-sales-engineer",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Trusted Advisor",
       "the-trusted-advisor"
     ],
@@ -13507,6 +13617,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "The Uncertainty Mindset",
+      "the-uncertainty-mindset"
+    ],
+    "slug": "the-uncertainty-mindset",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -30521,6 +30641,16 @@
       "willingness-to-look-stupid-is-a-genuine-moat-in-creative-work"
     ],
     "slug": "willingness-to-look-stupid-is-a-genuine-moat-in-creative-work",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Wisdom of the Crowd - Wikipedia",
+      "wisdom-of-the-crowd-wikipedia"
+    ],
+    "slug": "wisdom-of-the-crowd-wikipedia",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
