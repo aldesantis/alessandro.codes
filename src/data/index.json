@@ -1632,10 +1632,10 @@
   },
   {
     "ids": [
-      "Calamari con peperoni, olive e capperi",
-      "calamari-con-peperoni-olive-e-capperi"
+      "Calamari with peppers, olives, and capers",
+      "calamari-with-peppers-olives-and-capers"
     ],
-    "slug": "calamari-con-peperoni-olive-e-capperi",
+    "slug": "calamari-with-peppers-olives-and-capers",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -1701,6 +1701,16 @@
       "chicken-salad"
     ],
     "slug": "chicken-salad",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chicken tikka masala",
+      "chicken-tikka-masala"
+    ],
+    "slug": "chicken-tikka-masala",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -1877,6 +1887,16 @@
       "king-prawn-spaghetti"
     ],
     "slug": "king-prawn-spaghetti",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "King prawn tartare",
+      "king-prawn-tartare"
+    ],
+    "slug": "king-prawn-tartare",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -2102,16 +2122,6 @@
       "pistachio-crusted-salmon"
     ],
     "slug": "pistachio-crusted-salmon",
-    "type": "recipes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Pollo tikka masala",
-      "pollo-tikka-masala"
-    ],
-    "slug": "pollo-tikka-masala",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -2583,16 +2593,6 @@
       "vegetarian-cabbage-rolls"
     ],
     "slug": "vegetarian-cabbage-rolls",
-    "type": "recipes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Venetian-style whipped salt cod",
-      "venetian-style-whipped-salt-cod"
-    ],
-    "slug": "venetian-style-whipped-salt-cod",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
