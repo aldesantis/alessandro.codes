@@ -1662,6 +1662,16 @@
   },
   {
     "ids": [
+      "Cherry tomato tarte tatin",
+      "cherry-tomato-tarte-tatin"
+    ],
+    "slug": "cherry-tomato-tarte-tatin",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Chicken burrito with lime guacamole",
       "chicken-burrito-with-lime-guacamole"
     ],
@@ -1707,6 +1717,16 @@
   },
   {
     "ids": [
+      "Chicken sandwich with Parmesan and lamb’s lettuce",
+      "chicken-sandwich-with-parmesan-and-lamb-s-lettuce"
+    ],
+    "slug": "chicken-sandwich-with-parmesan-and-lamb-s-lettuce",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Chicken tikka masala",
       "chicken-tikka-masala"
     ],
@@ -1746,6 +1766,16 @@
       "coffee-cream"
     ],
     "slug": "coffee-cream",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cold cannellini bean soup",
+      "cold-cannellini-bean-soup"
+    ],
+    "slug": "cold-cannellini-bean-soup",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -1801,6 +1831,16 @@
       "farro-with-tuna-olives-and-cherry-tomatoes"
     ],
     "slug": "farro-with-tuna-olives-and-cherry-tomatoes",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fit crispy bacon burrito",
+      "fit-crispy-bacon-burrito"
+    ],
+    "slug": "fit-crispy-bacon-burrito",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -2173,6 +2213,16 @@
   },
   {
     "ids": [
+      "Pulled chicken",
+      "pulled-chicken"
+    ],
+    "slug": "pulled-chicken",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Pulled mushroom burger with coleslaw",
       "pulled-mushroom-burger-with-coleslaw"
     ],
@@ -2251,6 +2301,16 @@
       "ragu"
     ],
     "slug": "ragu",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Raw tomato pasta",
+      "raw-tomato-pasta"
+    ],
+    "slug": "raw-tomato-pasta",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -9256,6 +9316,16 @@
   },
   {
     "ids": [
+      "Bacon",
+      "bacon"
+    ],
+    "slug": "bacon",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Baking powder",
       "baking-powder"
     ],
@@ -9386,6 +9456,16 @@
   },
   {
     "ids": [
+      "Beer",
+      "beer"
+    ],
+    "slug": "beer",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Black beans",
       "black-beans"
     ],
@@ -9446,6 +9526,16 @@
   },
   {
     "ids": [
+      "Bread",
+      "bread"
+    ],
+    "slug": "bread",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Breadcrumbs",
       "breadcrumbs"
     ],
@@ -9500,6 +9590,16 @@
       "canned-tuna-in-oil"
     ],
     "slug": "canned-tuna-in-oil",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cannellini beans",
+      "cannellini-beans"
+    ],
+    "slug": "cannellini-beans",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10489,6 +10589,16 @@
   },
   {
     "ids": [
+      "Light protein cheese",
+      "light-protein-cheese"
+    ],
+    "slug": "light-protein-cheese",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Light soy sauce",
       "light-soy-sauce"
     ],
@@ -10553,6 +10663,16 @@
       "meat-broth"
     ],
     "slug": "meat-broth",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Meat extract",
+      "meat-extract"
+    ],
+    "slug": "meat-extract",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10924,6 +11044,16 @@
       "pepper"
     ],
     "slug": "pepper",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pickled gherkins",
+      "pickled-gherkins"
+    ],
+    "slug": "pickled-gherkins",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
@@ -11419,6 +11549,16 @@
       "stockfish"
     ],
     "slug": "stockfish",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Stracciatella",
+      "stracciatella"
+    ],
+    "slug": "stracciatella",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
