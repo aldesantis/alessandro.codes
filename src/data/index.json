@@ -1838,6 +1838,7 @@
   {
     "ids": [
       "Fit crispy bacon burrito",
+      "Crispy McBacon burrito",
       "fit-crispy-bacon-burrito"
     ],
     "slug": "fit-crispy-bacon-burrito",
@@ -3068,6 +3069,33 @@
   },
   {
     "ids": [
+      "All good strategies are unique",
+      "all-good-strategies-are-unique"
+    ],
+    "slug": "all-good-strategies-are-unique",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "prioritize-strengths-over-weaknesses",
+        "type": "notes"
+      },
+      {
+        "slug": "best-practices-are-a-floor-not-a-ceiling",
+        "type": "notes"
+      },
+      {
+        "slug": "the-answer-to-how-is-yes",
+        "type": "books"
+      },
+      {
+        "slug": "good-strategy-bad-strategy",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "All problems are system problems",
       "all-problems-are-system-problems"
     ],
@@ -3339,7 +3367,12 @@
         "type": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -6807,6 +6840,10 @@
       {
         "slug": "selective-optimism",
         "type": "articles"
+      },
+      {
+        "slug": "capturing-luck-with-or-instead-of-and",
+        "type": "articles"
       }
     ],
     "inboundLinks": [
@@ -6826,6 +6863,10 @@
     "outboundLinks": [
       {
         "slug": "optimism-requires-diversification",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-focus",
         "type": "notes"
       },
       {
@@ -7158,6 +7199,10 @@
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      },
       {
         "slug": "dont-play-life-on-hard-mode",
         "type": "notes"
@@ -7987,6 +8032,10 @@
         "type": "books"
       },
       {
+        "slug": "good-strategy-bad-strategy",
+        "type": "books"
+      },
+      {
         "slug": "failure-to-face-the-truth",
         "type": "articles"
       },
@@ -8046,6 +8095,10 @@
       },
       {
         "slug": "hell-yes-or-no",
+        "type": "notes"
+      },
+      {
+        "slug": "optionality-can-hinder-risk-taking",
         "type": "notes"
       },
       {
@@ -12461,6 +12514,10 @@
         "type": "topics"
       },
       {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      },
+      {
         "slug": "competitive-advantage-is-your-value-cost-gap",
         "type": "notes"
       },
@@ -12474,6 +12531,10 @@
       },
       {
         "slug": "hell-yes-or-no",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-deals-with-present-challenges",
         "type": "notes"
       }
     ]
@@ -13344,7 +13405,12 @@
     "slug": "the-answer-to-how-is-yes",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -13946,6 +14012,16 @@
       "10-marketplace-kpis-that-matter"
     ],
     "slug": "10-marketplace-kpis-that-matter",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "10 Productivity Tips From the King of Cashmere, Brunello Cucinelli",
+      "10-productivity-tips-from-the-king-of-cashmere-brunello-cucinelli"
+    ],
+    "slug": "10-productivity-tips-from-the-king-of-cashmere-brunello-cucinelli",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17220,7 +17296,12 @@
     "slug": "capturing-luck-with-or-instead-of-and",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "optimism-requires-diversification",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -17355,6 +17436,16 @@
       "chi-e-stefano-bonaccini"
     ],
     "slug": "chi-e-stefano-bonaccini",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Chinese Businessmen: Let Reality Be The Teacher",
+      "chinese-businessmen-let-reality-be-the-teacher"
+    ],
+    "slug": "chinese-businessmen-let-reality-be-the-teacher",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17570,6 +17661,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Consciousness in a Synthetic World",
+      "consciousness-in-a-synthetic-world"
+    ],
+    "slug": "consciousness-in-a-synthetic-world",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -19848,6 +19949,16 @@
   },
   {
     "ids": [
+      "Five Ways to Actually Fix Subscription Churn",
+      "five-ways-to-actually-fix-subscription-churn"
+    ],
+    "slug": "five-ways-to-actually-fix-subscription-churn",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Fixing North Face + Timberlands’ Parent Co",
       "fixing-north-face-+-timberlands’-parent-co",
       "fixing-north-face-timberlands-parent-co"
@@ -21682,6 +21793,16 @@
       "how-to-prepare-to-conduct-an-amazing-podcast-interview"
     ],
     "slug": "how-to-prepare-to-conduct-an-amazing-podcast-interview",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Read Self Help",
+      "how-to-read-self-help"
+    ],
+    "slug": "how-to-read-self-help",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -24598,6 +24719,16 @@
   },
   {
     "ids": [
+      "Organisational Politics: Beware the Simple Story",
+      "organisational-politics-beware-the-simple-story"
+    ],
+    "slug": "organisational-politics-beware-the-simple-story",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Osservatorio Retail Evolution BVA Doxa – Salesforce: Le Nuove Sfide Del Retail in Italia",
       "osservatorio-retail-evolution-bva-doxa-–-salesforce-le-nuove-sfide-del-retail-in-italia",
       "osservatorio-retail-evolution-bva-doxa-salesforce-le-nuove-sfide-del-retail-in-italia"
@@ -24881,6 +25012,16 @@
       "principles-for-sharing-on-the-internet"
     ],
     "slug": "principles-for-sharing-on-the-internet",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Process Improvement Is Trickier Than You Think",
+      "process-improvement-is-trickier-than-you-think"
+    ],
+    "slug": "process-improvement-is-trickier-than-you-think",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -28329,10 +28470,32 @@
   },
   {
     "ids": [
+      "The Secret to Being Happy in 2026? It’s Far, Far Simpler Than You Think …",
+      "the-secret-to-being-happy-in-2026-it’s-far-far-simpler-than-you-think-…",
+      "the-secret-to-being-happy-in-2026-its-far-far-simpler-than-you-think"
+    ],
+    "slug": "the-secret-to-being-happy-in-2026-its-far-far-simpler-than-you-think",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Secret to Resilience",
       "the-secret-to-resilience"
     ],
     "slug": "the-secret-to-resilience",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Self-Help Trap: What 20+ Years of “Optimizing” Has Taught Me",
+      "the-self-help-trap-what-20+-years-of-“optimizing”-has-taught-me",
+      "the-self-help-trap-what-20-years-of-optimizing-has-taught-me"
+    ],
+    "slug": "the-self-help-trap-what-20-years-of-optimizing-has-taught-me",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -28621,6 +28784,16 @@
       "the-ultimate-burnout-guide-symptoms-causes-and-prevention"
     ],
     "slug": "the-ultimate-burnout-guide-symptoms-causes-and-prevention",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Ultimate Guide to Reading a Book a Week for Your Career",
+      "the-ultimate-guide-to-reading-a-book-a-week-for-your-career"
+    ],
+    "slug": "the-ultimate-guide-to-reading-a-book-a-week-for-your-career",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -29854,6 +30027,17 @@
       "what-makes-time-the-greatest-enemy-for-venture-capitalists"
     ],
     "slug": "what-makes-time-the-greatest-enemy-for-venture-capitalists",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "What Makes Us Human (For Now)?",
+      "what-makes-us-human-(for-now)",
+      "what-makes-us-human-for-now"
+    ],
+    "slug": "what-makes-us-human-for-now",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
