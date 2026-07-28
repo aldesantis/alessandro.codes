@@ -4114,10 +4114,6 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "composable-commerce",
-        "type": "notes"
-      },
-      {
         "slug": "be-wary-of-flawless-ideas",
         "type": "notes"
       }
@@ -4138,7 +4134,7 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "composable-commerce",
+        "slug": "composable-commerce-may-be-a-necessity",
         "type": "notes"
       }
     ],
@@ -4158,11 +4154,19 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "replatforms-should-be-trated-as-simplification-projects",
+        "slug": "systems-of-record-hold-data",
+        "type": "notes"
+      },
+      {
+        "slug": "replatforms-should-be-simplification-projects",
         "type": "notes"
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "composable-commerce-may-be-a-choice",
+        "type": "notes"
+      },
       {
         "slug": "composable-commerce",
         "type": "notes"
@@ -4190,20 +4194,7 @@
         "type": "notes"
       }
     ],
-    "inboundLinks": [
-      {
-        "slug": "composable-commerce-is-a-spectrum",
-        "type": "notes"
-      },
-      {
-        "slug": "composable-commerce-may-be-a-choice",
-        "type": "notes"
-      },
-      {
-        "slug": "replatforms-should-be-trated-as-simplification-projects",
-        "type": "notes"
-      }
-    ]
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -4678,13 +4669,25 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "emotions-arent-always-correct",
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
         "type": "notes"
+      },
+      {
+        "slug": "emotions-must-be-regulated",
+        "type": "notes"
+      },
+      {
+        "slug": "the-fifth-discipline",
+        "type": "books"
       }
     ],
     "inboundLinks": [
       {
         "slug": "eliminate-bias-in-decision-making",
+        "type": "notes"
+      },
+      {
+        "slug": "emotions-must-be-regulated",
         "type": "notes"
       }
     ]
@@ -4798,6 +4801,21 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Digital commerce engenders price wars",
+      "digital-commerce-engenders-price-wars"
+    ],
+    "slug": "digital-commerce-engenders-price-wars",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "market-share-is-a-self-reinforcing-feedback-loop",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -5004,12 +5022,17 @@
   },
   {
     "ids": [
-      "Emotions aren’t always correct",
-      "emotions-arent-always-correct"
+      "Emotions must be regulated",
+      "emotions-must-be-regulated"
     ],
-    "slug": "emotions-arent-always-correct",
+    "slug": "emotions-must-be-regulated",
     "type": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "defensiveness-inhibits-learning",
+        "type": "notes"
+      }
+    ],
     "inboundLinks": [
       {
         "slug": "defensiveness-inhibits-learning",
@@ -5048,6 +5071,25 @@
     "slug": "engineers-should-own-the-product",
     "type": "notes",
     "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Every hire defines the next one",
+      "every-hire-defines-the-next-one"
+    ],
+    "slug": "every-hire-defines-the-next-one",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
+        "type": "notes"
+      },
+      {
+        "slug": "give-away-your-legos-and-other-commandments-for-scaling-startups",
+        "type": "articles"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -5196,13 +5238,18 @@
   },
   {
     "ids": [
-      "Focus on second-order positivity",
-      "focus-on-second-order-positivity"
+      "Focus on second-order outcomes",
+      "focus-on-second-order-outcomes"
     ],
-    "slug": "focus-on-second-order-positivity",
+    "slug": "focus-on-second-order-outcomes",
     "type": "notes",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -5383,7 +5430,7 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "emotions-arent-always-correct",
+        "slug": "emotions-must-be-regulated",
         "type": "notes"
       },
       {
@@ -5668,21 +5715,6 @@
       {
         "slug": "shared-vision-is-built-through-hiring",
         "type": "notes"
-      }
-    ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Hiring is a network effect",
-      "hiring-is-a-network-effect"
-    ],
-    "slug": "hiring-is-a-network-effect",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "give-away-your-legos-and-other-commandments-for-scaling-startups",
-        "type": "articles"
       }
     ],
     "inboundLinks": []
@@ -5985,6 +6017,10 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
+        "type": "notes"
+      },
+      {
         "slug": "rainmaking-conversations",
         "type": "books"
       }
@@ -6027,6 +6063,10 @@
       },
       {
         "slug": "swimming-downstream-is-easier-than-swimming-upstream",
+        "type": "notes"
+      },
+      {
+        "slug": "systems-must-be-inspected",
         "type": "notes"
       }
     ]
@@ -6138,16 +6178,20 @@
     "type": "notes",
     "outboundLinks": [
       {
-        "slug": "how-brands-grow",
-        "type": "books"
+        "slug": "marketing-must-build-availability",
+        "type": "notes"
       },
       {
-        "slug": "marketing-must-build-availability",
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
         "type": "notes"
       },
       {
         "slug": "brand-growth-comes-from-light-buyers",
         "type": "notes"
+      },
+      {
+        "slug": "how-brands-grow",
+        "type": "books"
       }
     ],
     "inboundLinks": [
@@ -6341,7 +6385,12 @@
         "type": "notes"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "digital-commerce-engenders-price-wars",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -6485,7 +6534,7 @@
   },
   {
     "ids": [
-      "Marketplaces are usually 80-20",
+      "Marketplaces are usually 80/20",
       "marketplaces-are-usually-80-20"
     ],
     "slug": "marketplaces-are-usually-80-20",
@@ -7459,11 +7508,47 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "renewable-resources-are-flow-limited",
+        "type": "notes"
+      },
+      {
+        "slug": "systems-must-be-inspected",
+        "type": "notes"
+      },
+      {
+        "slug": "focus-on-second-order-outcomes",
+        "type": "notes"
+      },
+      {
+        "slug": "systems-strive-for-self-preservation",
+        "type": "notes"
+      },
+      {
+        "slug": "swimming-downstream-is-easier-than-swimming-upstream",
+        "type": "notes"
+      },
+      {
         "slug": "thinking-in-systems",
         "type": "books"
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "defensiveness-inhibits-learning",
+        "type": "notes"
+      },
+      {
+        "slug": "every-hire-defines-the-next-one",
+        "type": "notes"
+      },
+      {
+        "slug": "kindness-begets-kindness",
+        "type": "notes"
+      },
+      {
+        "slug": "light-buyers-favor-large-brands",
+        "type": "notes"
+      },
       {
         "slug": "market-share-is-a-self-reinforcing-feedback-loop",
         "type": "notes"
@@ -7472,32 +7557,36 @@
   },
   {
     "ids": [
-      "Renewable resources are flow limited",
+      "Renewable resources are flow-limited",
       "renewable-resources-are-flow-limited"
     ],
     "slug": "renewable-resources-are-flow-limited",
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "systems-change-slowly",
+        "type": "notes"
+      },
+      {
         "slug": "thinking-in-systems",
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
-      "Replatforms should be treated as simplification projects",
-      "replatforms-should-be-trated-as-simplification-projects"
+      "Replatforms should be simplification projects",
+      "replatforms-should-be-simplification-projects"
     ],
-    "slug": "replatforms-should-be-trated-as-simplification-projects",
+    "slug": "replatforms-should-be-simplification-projects",
     "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "composable-commerce",
-        "type": "notes"
-      }
-    ],
+    "outboundLinks": [],
     "inboundLinks": [
       {
         "slug": "composable-commerce-may-be-a-necessity",
@@ -8279,6 +8368,10 @@
         "type": "notes"
       },
       {
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
+        "type": "notes"
+      },
+      {
         "slug": "stories-are-not-facts",
         "type": "notes"
       },
@@ -8349,7 +8442,12 @@
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "renewable-resources-are-flow-limited",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -8380,11 +8478,20 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "learn-the-rules-before-breaking-them",
+        "type": "notes"
+      },
+      {
         "slug": "thinking-in-systems",
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -8421,6 +8528,10 @@
     ],
     "inboundLinks": [
       {
+        "slug": "composable-commerce-may-be-a-necessity",
+        "type": "notes"
+      },
+      {
         "slug": "systems-of-engagement-consume-data",
         "type": "notes"
       }
@@ -8450,6 +8561,10 @@
     "inboundLinks": [
       {
         "slug": "learn-the-rules-before-breaking-them",
+        "type": "notes"
+      },
+      {
+        "slug": "reinforcing-feedback-loops-can-be-self-enhancing-or-self-destructive",
         "type": "notes"
       },
       {
@@ -8568,16 +8683,6 @@
         "type": "articles"
       }
     ],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "The internet favors discounting",
-      "the-internet-favors-discounting"
-    ],
-    "slug": "the-internet-favors-discounting",
-    "type": "notes",
-    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -9222,6 +9327,10 @@
       {
         "slug": "brain-food-earned-success",
         "type": "articles"
+      },
+      {
+        "slug": "good-strategy-bad-strategy",
+        "type": "books"
       }
     ],
     "inboundLinks": [
@@ -12536,6 +12645,10 @@
       {
         "slug": "strategy-deals-with-present-challenges",
         "type": "notes"
+      },
+      {
+        "slug": "work-toward-proximate-objectives",
+        "type": "notes"
       }
     ]
   },
@@ -13633,6 +13746,10 @@
       },
       {
         "slug": "compliance-is-not-commitment",
+        "type": "notes"
+      },
+      {
+        "slug": "defensiveness-inhibits-learning",
         "type": "notes"
       },
       {
@@ -20405,7 +20522,7 @@
     ],
     "inboundLinks": [
       {
-        "slug": "hiring-is-a-network-effect",
+        "slug": "every-hire-defines-the-next-one",
         "type": "notes"
       },
       {
@@ -20597,6 +20714,16 @@
       "half-your-audience-cant-see-your-brand"
     ],
     "slug": "half-your-audience-cant-see-your-brand",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hallucination Was Never the Problem",
+      "hallucination-was-never-the-problem"
+    ],
+    "slug": "hallucination-was-never-the-problem",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22649,6 +22776,16 @@
       "insiders-217-retail-has-a-vision-problem-and-its-killing-brands"
     ],
     "slug": "insiders-217-retail-has-a-vision-problem-and-its-killing-brands",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Insiders #220: The Age of the Corporate Fortune Teller",
+      "insiders-220-the-age-of-the-corporate-fortune-teller"
+    ],
+    "slug": "insiders-220-the-age-of-the-corporate-fortune-teller",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
