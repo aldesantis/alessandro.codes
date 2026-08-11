@@ -12923,6 +12923,16 @@
   },
   {
     "ids": [
+      "Infinite Jest",
+      "infinite-jest"
+    ],
+    "slug": "infinite-jest",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Inspired",
       "inspired"
     ],
@@ -13030,6 +13040,16 @@
       "linsostenibile-leggerezza-dellessere"
     ],
     "slug": "linsostenibile-leggerezza-dellessere",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lords of Strategy",
+      "lords-of-strategy"
+    ],
+    "slug": "lords-of-strategy",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14751,6 +14771,16 @@
   },
   {
     "ids": [
+      "8-Fig Bets, No Experience, 2X Revenue",
+      "8-fig-bets-no-experience-2x-revenue"
+    ],
+    "slug": "8-fig-bets-no-experience-2x-revenue",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "8 Lessons From the Best Remote Companies in the World",
       "8-lessons-from-the-best-remote-companies-in-the-world"
     ],
@@ -15323,6 +15353,16 @@
       "about-practice"
     ],
     "slug": "about-practice",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Accountability Is Not for Suckers",
+      "accountability-is-not-for-suckers"
+    ],
+    "slug": "accountability-is-not-for-suckers",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17786,6 +17826,17 @@
       "consciousness-in-a-synthetic-world"
     ],
     "slug": "consciousness-in-a-synthetic-world",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Constraints on Giving Feedback.",
+      "constraints-on-giving-feedback.",
+      "constraints-on-giving-feedback"
+    ],
+    "slug": "constraints-on-giving-feedback",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22047,6 +22098,16 @@
   },
   {
     "ids": [
+      "How to Walk Through Walls",
+      "how-to-walk-through-walls"
+    ],
+    "slug": "how-to-walk-through-walls",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How to Write Online",
       "how-to-write-online"
     ],
@@ -24214,6 +24275,17 @@
       "mungers-two-track-analysis"
     ],
     "slug": "mungers-two-track-analysis",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Muse Image, Grok 4.5, Alex Karp on CNBC",
+      "muse-image-grok-4.5-alex-karp-on-cnbc",
+      "muse-image-grok-45-alex-karp-on-cnbc"
+    ],
+    "slug": "muse-image-grok-45-alex-karp-on-cnbc",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -29107,6 +29179,17 @@
   },
   {
     "ids": [
+      "Think Less, Ship More.",
+      "think-less-ship-more.",
+      "think-less-ship-more"
+    ],
+    "slug": "think-less-ship-more",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Think Slow",
       "think-slow"
     ],
@@ -30227,6 +30310,17 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "What Technology Takes From Us – And How to Take It Back",
+      "what-technology-takes-from-us-–-and-how-to-take-it-back",
+      "what-technology-takes-from-us-and-how-to-take-it-back"
+    ],
+    "slug": "what-technology-takes-from-us-and-how-to-take-it-back",
+    "type": "articles",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -31381,6 +31475,16 @@
       "your-brand-scorecard-how-to-checklist"
     ],
     "slug": "your-brand-scorecard-how-to-checklist",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Your Buyers Pay for ChatGPT, So They’ll Never See Your ChatGPT Ad",
+      "your-buyers-pay-for-chatgpt-so-theyll-never-see-your-chatgpt-ad"
+    ],
+    "slug": "your-buyers-pay-for-chatgpt-so-theyll-never-see-your-chatgpt-ad",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
