@@ -1403,6 +1403,26 @@
   },
   {
     "ids": [
+      "Danzare con la complessità: I replatform di Tannico ed Artemest",
+      "2026-03-25-danzare-con-la-complessita"
+    ],
+    "slug": "2026-03-25-danzare-con-la-complessita",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tre prospettive: Pensare all’AI nel momento di massimo rumore",
+      "2026-03-25-tre-prospettive-ai"
+    ],
+    "slug": "2026-03-25-tre-prospettive-ai",
+    "type": "talks",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Aioli sauce",
       "aioli-sauce"
     ],
@@ -27122,6 +27142,16 @@
       "the-biggest-attribution-mistake-i-see-brands-make"
     ],
     "slug": "the-biggest-attribution-mistake-i-see-brands-make",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Brand Age",
+      "the-brand-age"
+    ],
+    "slug": "the-brand-age",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
