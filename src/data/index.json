@@ -12993,6 +12993,16 @@
   },
   {
     "ids": [
+      "Kolchoz",
+      "kolchoz"
+    ],
+    "slug": "kolchoz",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "La Casa Degli Sguardi",
       "la-casa-degli-sguardi"
     ],
@@ -13226,6 +13236,16 @@
       "more-secrets-of-consulting"
     ],
     "slug": "more-secrets-of-consulting",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Nobody Wants to Read Your Sh*t",
+      "nobody-wants-to-read-your-sht"
+    ],
+    "slug": "nobody-wants-to-read-your-sht",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14003,6 +14023,16 @@
   },
   {
     "ids": [
+      "Thinking in Bets",
+      "thinking-in-bets"
+    ],
+    "slug": "thinking-in-bets",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Thinking in Systems",
       "thinking-in-systems"
     ],
@@ -14120,6 +14150,17 @@
       "tutta-la-vita-che-resta"
     ],
     "slug": "tutta-la-vita-che-resta",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Understanding Organizations…Finally!",
+      "understanding-organizations...finally!",
+      "understanding-organizationsfinally"
+    ],
+    "slug": "understanding-organizationsfinally",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
