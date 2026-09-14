@@ -31,3 +31,4 @@ pnpm-debug.log*
 
 # asdf tool versions (un-ignore; overrides global gitignore)
 !.tool-versions
+.env*
