@@ -1,9 +1,9 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
-import { unified } from "@astrojs/markdown-remark";
+import { satteri } from "@astrojs/markdown-satteri";
 import icon from "astro-icon";
 
-import { remarkReadingTime, remarkWikiLink, remarkWikiImage } from "zendo/remark";
+import { satteriReadingTime, satteriWikiLink, satteriWikiImage } from "zendo/satteri";
 import index from "./src/data/index.json" with { type: "json" };
 
 // Owns this site's routing for resolved wikilinks (e.g. `nows` → `/now`).
@@ -28,11 +28,11 @@ export default defineConfig({
   integrations: [icon(), mdx()],
 
   markdown: {
-    processor: unified({
-      remarkPlugins: [
-        remarkReadingTime,
-        [remarkWikiLink, { index, buildUrl }],
-        [remarkWikiImage, { assetsPath: "../assets" }],
+    processor: satteri({
+      mdastPlugins: [
+        satteriReadingTime(),
+        satteriWikiLink({ index, buildUrl }),
+        satteriWikiImage({ assetsPath: "../assets" }),
       ],
     }),
   },
@@ -64,15 +64,6 @@ export default defineConfig({
     // Zendo ships as TypeScript source; let Vite transpile it for the SSR bundle.
     ssr: {
       noExternal: ["zendo"],
-    },
-    build: {
-      rollupOptions: {
-        // Workaround for https://github.com/withastro/astro/issues/16954:
-        // importing getContainerRenderer from @astrojs/mdx pulls the optional
-        // satteri processor into the bundle graph even when unused. Remove
-        // once the upstream fix ships.
-        external: ["satteri", "@astrojs/markdown-satteri"],
-      },
     },
   },
 });
