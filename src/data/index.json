@@ -14957,6 +14957,16 @@
   },
   {
     "ids": [
+      "A Billion Dollars Buys You Nothing Now",
+      "a-billion-dollars-buys-you-nothing-now"
+    ],
+    "slug": "a-billion-dollars-buys-you-nothing-now",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "A Blog Post Is a Very Long and Complex Search Query to Find Fascinating People and Make Them Route Interesting Stuff to Your Inbox",
       "a-blog-post-is-a-very-long-and-complex-search-query-to-find-fascinating-people-and-make-them-route-interesting-stuff-to-your-inbox",
       "a-blog-post-is-a-very-long-and-complex-search-query-to-find-fascinating-people-and-make-them-route-i"
@@ -17383,6 +17393,26 @@
   },
   {
     "ids": [
+      "Build to Think",
+      "build-to-think"
+    ],
+    "slug": "build-to-think",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Building AI Tools for Better Meaning-Making",
+      "building-ai-tools-for-better-meaning-making"
+    ],
+    "slug": "building-ai-tools-for-better-meaning-making",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Building in Public - First 10k + WTF Have I Done?!",
       "building-in-public-first-10k-+-wtf-have-i-done!",
       "building-in-public-first-10k-wtf-have-i-done"
@@ -17429,6 +17459,17 @@
       "buzzfeed-sells-complex-to-live-stream-shopping-platform-ntwrk-in-109m-deal"
     ],
     "slug": "buzzfeed-sells-complex-to-live-stream-shopping-platform-ntwrk-in-109m-deal",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Can Anyone Replicate Hermès’s Success?",
+      "can-anyone-replicate-hermès’s-success",
+      "can-anyone-replicate-hermess-success"
+    ],
+    "slug": "can-anyone-replicate-hermess-success",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17898,6 +17939,17 @@
       "constraints-on-giving-feedback"
     ],
     "slug": "constraints-on-giving-feedback",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Consulting for the Problems You Can’t Name Yet",
+      "consulting-for-the-problems-you-can’t-name-yet",
+      "consulting-for-the-problems-you-cant-name-yet"
+    ],
+    "slug": "consulting-for-the-problems-you-cant-name-yet",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19676,6 +19728,17 @@
   },
   {
     "ids": [
+      "Emotional Diversification — Devin Martin Lifestyle Integrity",
+      "emotional-diversification-—-devin-martin-lifestyle-integrity",
+      "emotional-diversification-devin-martin-lifestyle-integrity"
+    ],
+    "slug": "emotional-diversification-devin-martin-lifestyle-integrity",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Empowered Customers Are Driving a New Era of Brand Meritocracy",
       "empowered-customers-are-driving-a-new-era-of-brand-meritocracy"
     ],
@@ -20257,6 +20320,17 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Formality Considered Harmful: Experiences, Emerging Themes, and Directions on the Use of Formal Representations in Interactive Systems",
+      "formality-considered-harmful-experiences-emerging-themes-and-directions-on-the-use-of-formal-representations-in-interactive-systems",
+      "formality-considered-harmful-experiences-emerging-themes-and-directions-on-the-use-of-formal-represe"
+    ],
+    "slug": "formality-considered-harmful-experiences-emerging-themes-and-directions-on-the-use-of-formal-represe",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -28782,6 +28856,16 @@
   },
   {
     "ids": [
+      "The Shape of the Game We Play",
+      "the-shape-of-the-game-we-play"
+    ],
+    "slug": "the-shape-of-the-game-we-play",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Siren Song of the Long Term Engagement",
       "the-siren-song-of-the-long-term-engagement"
     ],
@@ -30308,6 +30392,16 @@
       "what-makes-a-brand-magical"
     ],
     "slug": "what-makes-a-brand-magical",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "What Makes Entrepreneurs Entrepreneurial?",
+      "what-makes-entrepreneurs-entrepreneurial"
+    ],
+    "slug": "what-makes-entrepreneurs-entrepreneurial",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
