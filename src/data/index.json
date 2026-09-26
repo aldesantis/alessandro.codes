@@ -3841,6 +3841,10 @@
         "type": "notes"
       },
       {
+        "slug": "establish-short-feedback-loops",
+        "type": "notes"
+      },
+      {
         "slug": "most-ideas-can-only-be-post-rationalized",
         "type": "notes"
       },
@@ -5035,6 +5039,10 @@
     ],
     "inboundLinks": [
       {
+        "slug": "establish-short-feedback-loops",
+        "type": "notes"
+      },
+      {
         "slug": "work-toward-proximate-objectives",
         "type": "notes"
       }
@@ -5091,6 +5099,29 @@
     "slug": "engineers-should-own-the-product",
     "type": "notes",
     "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Establish short feedback loops",
+      "establish-short-feedback-loops"
+    ],
+    "slug": "establish-short-feedback-loops",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "eliminate-the-cost-of-mistake",
+        "type": "notes"
+      },
+      {
+        "slug": "chaotic-systems-are-not-random",
+        "type": "notes"
+      },
+      {
+        "slug": "how-do-you-know-when-to-stop-versus-when-to-push-through-you-dont-not-even-in-hindsight-but-these-gu",
+        "type": "articles"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -5273,34 +5304,6 @@
   },
   {
     "ids": [
-      "Focus on the process, not the outcome",
-      "focus-on-the-process-not-the-outcome"
-    ],
-    "slug": "focus-on-the-process-not-the-outcome",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "long-feedback-loops-create-frustration",
-        "type": "notes"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "slug": "focusing-on-monetary-value-impoverishes-cultural-work",
-        "type": "notes"
-      },
-      {
-        "slug": "good-cooking-requires-time",
-        "type": "notes"
-      },
-      {
-        "slug": "long-feedback-loops-create-frustration",
-        "type": "notes"
-      }
-    ]
-  },
-  {
-    "ids": [
       "Focus on what’s not changing",
       "focus-on-whats-not-changing"
     ],
@@ -5374,8 +5377,8 @@
         "type": "notes"
       },
       {
-        "slug": "focus-on-the-process-not-the-outcome",
-        "type": "notes"
+        "slug": "022-commodification-cripples-culture",
+        "type": "articles"
       }
     ],
     "inboundLinks": [
@@ -5515,21 +5518,6 @@
         "type": "notes"
       }
     ]
-  },
-  {
-    "ids": [
-      "Good cooking requires time",
-      "good-cooking-requires-time"
-    ],
-    "slug": "good-cooking-requires-time",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "focus-on-the-process-not-the-outcome",
-        "type": "notes"
-      }
-    ],
-    "inboundLinks": []
   },
   {
     "ids": [
@@ -6239,26 +6227,6 @@
       }
     ],
     "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Long feedback loops create frustration",
-      "long-feedback-loops-create-frustration"
-    ],
-    "slug": "long-feedback-loops-create-frustration",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "focus-on-the-process-not-the-outcome",
-        "type": "notes"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "slug": "focus-on-the-process-not-the-outcome",
-        "type": "notes"
-      }
-    ]
   },
   {
     "ids": [
@@ -13337,6 +13305,17 @@
   },
   {
     "ids": [
+      "Poor Charlie’s Almanack",
+      "poor-charlie’s-almanack",
+      "poor-charlies-almanack"
+    ],
+    "slug": "poor-charlies-almanack",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Predictable Prospecting",
       "predictable-prospecting"
     ],
@@ -14177,13 +14156,28 @@
   },
   {
     "ids": [
+      "Winning Long-Term Games",
+      "winning-long-term-games"
+    ],
+    "slug": "winning-long-term-games",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "#022 Commodification Cripples Culture",
       "022-commodification-cripples-culture"
     ],
     "slug": "022-commodification-cripples-culture",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "focusing-on-monetary-value-impoverishes-cultural-work",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -18310,6 +18304,16 @@
   },
   {
     "ids": [
+      "Dead Forest Theory",
+      "dead-forest-theory"
+    ],
+    "slug": "dead-forest-theory",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Death in the Afternoon Cocktail & How the MACH Alliance Must Evolve",
       "death-in-the-afternoon-cocktail-&-how-the-mach-alliance-must-evolve",
       "death-in-the-afternoon-cocktail-and-how-the-mach-alliance-must-evolve"
@@ -21323,6 +21327,10 @@
     ],
     "inboundLinks": [
       {
+        "slug": "establish-short-feedback-loops",
+        "type": "notes"
+      },
+      {
         "slug": "focus-on-your-controllables",
         "type": "notes"
       }
@@ -22366,6 +22374,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Hustling Your Way Into Long-Term Wealth Building",
+      "hustling-your-way-into-long-term-wealth-building"
+    ],
+    "slug": "hustling-your-way-into-long-term-wealth-building",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -28906,6 +28924,16 @@
       "the-software-engineering-kawagara-moment"
     ],
     "slug": "the-software-engineering-kawagara-moment",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Sound of Failure",
+      "the-sound-of-failure"
+    ],
+    "slug": "the-sound-of-failure",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
