@@ -1503,6 +1503,26 @@
   },
   {
     "ids": [
+      "BBQ onion mayo",
+      "bbq-onion-mayo"
+    ],
+    "slug": "bbq-onion-mayo",
+    "type": "recipes",
+    "outboundLinks": [
+      {
+        "slug": "parmesan-carrot-chips",
+        "type": "recipes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "parmesan-carrot-chips",
+        "type": "recipes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "BBQ pork ribs",
       "bbq-pork-ribs"
     ],
@@ -1599,6 +1619,21 @@
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brava sauce",
+      "brava-sauce"
+    ],
+    "slug": "brava-sauce",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "slug": "patatas-bravas",
+        "type": "recipes"
+      }
+    ]
   },
   {
     "ids": [
@@ -1772,6 +1807,16 @@
   },
   {
     "ids": [
+      "Chocolate chip cookies",
+      "chocolate-chip-cookies"
+    ],
+    "slug": "chocolate-chip-cookies",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Chocolate chip muffins",
       "chocolate-chip-muffins"
     ],
@@ -1847,21 +1892,30 @@
   },
   {
     "ids": [
-      "Farro with tuna, olives, and cherry tomatoes",
-      "farro-with-tuna-olives-and-cherry-tomatoes"
+      "Crispy McBacon burrito",
+      "crispy-mcbacon-burrito"
     ],
-    "slug": "farro-with-tuna-olives-and-cherry-tomatoes",
+    "slug": "crispy-mcbacon-burrito",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
-      "Fit crispy bacon burrito",
-      "Crispy McBacon burrito",
-      "fit-crispy-bacon-burrito"
+      "Crispy oyster chicken",
+      "crispy-oyster-chicken"
     ],
-    "slug": "fit-crispy-bacon-burrito",
+    "slug": "crispy-oyster-chicken",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Farro with tuna, olives, and cherry tomatoes",
+      "farro-with-tuna-olives-and-cherry-tomatoes"
+    ],
+    "slug": "farro-with-tuna-olives-and-cherry-tomatoes",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -2099,6 +2153,26 @@
   },
   {
     "ids": [
+      "Parmesan carrot chips",
+      "parmesan-carrot-chips"
+    ],
+    "slug": "parmesan-carrot-chips",
+    "type": "recipes",
+    "outboundLinks": [
+      {
+        "slug": "bbq-onion-mayo",
+        "type": "recipes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "bbq-onion-mayo",
+        "type": "recipes"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Pasta and chickpeas",
       "pasta-and-chickpeas"
     ],
@@ -2124,7 +2198,12 @@
     ],
     "slug": "patatas-bravas",
     "type": "recipes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "brava-sauce",
+        "type": "recipes"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -2647,16 +2726,6 @@
         "type": "recipes"
       }
     ]
-  },
-  {
-    "ids": [
-      "Vegan chocolate chip cookies",
-      "vegan-chocolate-chip-cookies"
-    ],
-    "slug": "vegan-chocolate-chip-cookies",
-    "type": "recipes",
-    "outboundLinks": [],
-    "inboundLinks": []
   },
   {
     "ids": [
@@ -9876,6 +9945,16 @@
   },
   {
     "ids": [
+      "Chicken stock",
+      "chicken-stock"
+    ],
+    "slug": "chicken-stock",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Chicken thighs",
       "chicken-thighs"
     ],
@@ -10146,6 +10225,16 @@
   },
   {
     "ids": [
+      "Dry vermouth",
+      "dry-vermouth"
+    ],
+    "slug": "dry-vermouth",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Dry white wine",
       "dry-white-wine"
     ],
@@ -10240,6 +10329,16 @@
       "firm-tofu"
     ],
     "slug": "firm-tofu",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fish sauce",
+      "fish-sauce"
+    ],
+    "slug": "fish-sauce",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16537,6 +16636,17 @@
       "bluf-the-military-standard-that-can-make-your-writing-more-powerful"
     ],
     "slug": "bluf-the-military-standard-that-can-make-your-writing-more-powerful",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "‘Body Like a Rag, Mind Like a Mirror’",
+      "‘body-like-a-rag-mind-like-a-mirror’",
+      "body-like-a-rag-mind-like-a-mirror"
+    ],
+    "slug": "body-like-a-rag-mind-like-a-mirror",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -27917,6 +28027,16 @@
       "the-high-price-of-going-cheap"
     ],
     "slug": "the-high-price-of-going-cheap",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Identity Shift",
+      "the-identity-shift"
+    ],
+    "slug": "the-identity-shift",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
