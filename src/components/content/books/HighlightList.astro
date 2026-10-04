@@ -1,0 +1,88 @@
+---
+/**
+ * MDX `ul` override for book pages. Readwise exports highlights as a bullet
+ * list where each highlight may carry nested "Tags: …" / "Note: …" bullets.
+ * This renders each highlight as a quote, notes as a muted aside and tags as
+ * small chips. Lists that aren't highlights (the nested meta lists themselves)
+ * pass through as plain `<ul>`s.
+ */
+import * as cheerio from "cheerio";
+
+const html = await Astro.slots.render("default");
+const $ = cheerio.load(`<ul>${html}</ul>`, null, false);
+const items = $("ul").first().children("li");
+
+const META_PATTERN = /^\s*(Tags|Note):/;
+const isMetaList = items.length > 0 && items.toArray().every((li) => META_PATTERN.test($(li).text()));
+
+interface Highlight {
+  quote: string;
+  notes: string[];
+  tags: string[];
+}
+
+const highlights: Highlight[] = isMetaList
+  ? []
+  : items.toArray().map((li) => {
+      const $li = $(li);
+      const notes: string[] = [];
+      const tags: string[] = [];
+
+      // Nested lists hold the highlight's metadata; anything else nested is
+      // kept as a note so it isn't silently dropped.
+      $li.children("ul").each((_, ul) => {
+        $(ul)
+          .find("li")
+          .each((_, meta) => {
+            const $meta = $(meta);
+            $meta.children("ul").remove();
+            const text = $meta.text().trim();
+
+            if (text.startsWith("Tags:")) {
+              tags.push(
+                ...text
+                  .replace(/^Tags:/, "")
+                  .trim()
+                  .split(/\s+/)
+                  .filter(Boolean)
+              );
+            } else {
+              notes.push($meta.html()?.replace(/^\s*Note:\s*/, "") ?? text);
+            }
+          });
+        $(ul).remove();
+      });
+
+      return { quote: $li.html()?.trim() ?? "", notes, tags };
+    });
+---
+
+{isMetaList ? (
+  <ul set:html={html} />
+) : (
+  <ul role="list" class="not-prose my-6 space-y-6 p-0">
+    {highlights.map(({ quote, notes, tags }) => (
+      <li class="list-none">
+        <blockquote
+          class="border-l-2 border-accent-rule pl-4 font-serif text-[1.0625rem] leading-relaxed text-ink [&_a]:text-link [&_a]:hover:text-link-hover"
+          set:html={quote}
+        />
+        {notes.map((note) => (
+          <p class="mt-2 pl-4.5 font-sans text-sm text-ink-muted">
+            <span class="font-semibold text-ink-subtle">Note: </span>
+            <Fragment set:html={note} />
+          </p>
+        ))}
+        {tags.length > 0 && (
+          <ul role="list" aria-label="Tags" class="mt-2 flex flex-wrap gap-1.5 pl-4.5">
+            {tags.map((tag) => (
+              <li class="rounded-full border border-rule bg-surface px-2 py-0.5 font-sans text-xs text-ink-subtle">
+                {tag}
+              </li>
+            ))}
+          </ul>
+        )}
+      </li>
+    ))}
+  </ul>
+)}
