@@ -10,6 +10,11 @@ const parsedDate = new Date(date);
 const absoluteDate = format(parsedDate, "MMMM d, yyyy 'at' h:mm a");
 ---
 
-<span title={absoluteDate} data-controller="relative-date" data-absolute-date={parsedDate.toISOString()}>
-  {absoluteDate.toLocaleString()}
-</span>
+<time
+  datetime={parsedDate.toISOString()}
+  title={absoluteDate}
+  data-controller="relative-date"
+  data-absolute-date={parsedDate.toISOString()}
+>
+  {absoluteDate}
+</time>

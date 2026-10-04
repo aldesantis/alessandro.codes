@@ -7,43 +7,54 @@ interface Props {
 }
 
 const { label, class: className } = Astro.props;
-// Generate a random ID for the collapsible
-const randomId = `collapsible-${Math.random().toString(36).substring(2, 10)}`;
 ---
 
-<div class:list={["collapsible", className]}>
-  <input type="checkbox" id={randomId} class="collapsible-checkbox sr-only" aria-hidden="true" />
-  <label
-    for={randomId}
-    class="collapsible-label flex w-full items-center justify-between border-b border-zinc-200 py-2 cursor-pointer hover:text-zinc-600 transition-colors"
+<details class:list={["collapsible group", className]}>
+  <summary
+    class:list={[
+      "flex w-full cursor-pointer list-none items-center justify-between border-b border-rule py-2 text-ink",
+      "transition-colors duration-200 ease-out-strong hover:text-ink-muted",
+      "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
+      "[&::-webkit-details-marker]:hidden",
+    ]}
   >
-    <span class="text-base font-medium font-sans">{label}</span>
-    <ChevronDownIcon />
-  </label>
-  <div class="collapsible-content overflow-hidden transition-all duration-300 ease-in-out max-h-0">
-    <div class="py-2">
-      <slot />
-    </div>
+    <span class="font-sans text-base font-medium">{label}</span>
+    <ChevronDownIcon class="ease-out-strong group-open:rotate-180 motion-reduce:transition-none" />
+  </summary>
+
+  <div class="py-2">
+    <slot />
   </div>
-</div>
+</details>
 
 <style>
-  .collapsible-checkbox:checked + .collapsible-label svg {
-    transform: rotate(180deg);
+  /*
+   * Animate the native disclosure: interpolate-size lets block-size transition
+   * to `auto`, and ::details-content is the slot that holds everything after
+   * the summary. Browsers without support simply open and close instantly.
+   */
+  .collapsible {
+    interpolate-size: allow-keywords;
   }
 
-  .collapsible-content {
-    transition-duration: 200ms;
+  .collapsible::details-content {
+    block-size: 0;
+    opacity: 0;
+    overflow: clip;
+    transition:
+      block-size 220ms var(--ease-out-strong),
+      opacity 220ms var(--ease-out-strong),
+      content-visibility 220ms allow-discrete;
   }
 
-  .collapsible-checkbox:checked ~ .collapsible-content {
-    max-height: 1000px;
-    overflow-y: scroll;
-    transition-duration: 300ms;
+  .collapsible[open]::details-content {
+    block-size: auto;
+    opacity: 1;
   }
 
-  .collapsible-label:focus-visible {
-    outline: 2px solid currentColor;
-    outline-offset: 2px;
+  @media (prefers-reduced-motion: reduce) {
+    .collapsible::details-content {
+      transition: none;
+    }
   }
 </style>

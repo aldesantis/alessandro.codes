@@ -19,24 +19,25 @@ const nameMap = await getIngredientNameMap();
     <h2 id="ingredients">Ingredients</h2>
 
     {serves && (
-      <div class="not-prose flex items-center gap-2 font-sans text-sm text-stone-500">
+      <div class="not-prose flex items-center gap-2 font-sans text-sm text-ink-subtle">
         <span>Servings:</span>
         <button
           type="button"
           aria-label="Decrease servings"
           data-action="servings#decrement"
-          class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
+          class="flex h-6 w-6 cursor-pointer items-center justify-center rounded-md border border-rule bg-surface text-ink-muted transition-[color,border-color,transform] duration-150 ease-out-strong hover:border-ink-subtle hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link active:scale-95 motion-reduce:transform-none"
         >
           &minus;
         </button>
-        <span data-servings-target="count" class="min-w-4 text-center font-semibold text-stone-700">
-          {serves}
+        <span aria-live="polite" aria-atomic="true" class="min-w-4 text-center font-semibold text-ink tabular-nums">
+          <span data-servings-target="count">{serves}</span>
+          <span class="sr-only"> servings</span>
         </span>
         <button
           type="button"
           aria-label="Increase servings"
           data-action="servings#increment"
-          class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
+          class="flex h-6 w-6 cursor-pointer items-center justify-center rounded-md border border-rule bg-surface text-ink-muted transition-[color,border-color,transform] duration-150 ease-out-strong hover:border-ink-subtle hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link active:scale-95 motion-reduce:transform-none"
         >
           +
         </button>

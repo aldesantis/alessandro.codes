@@ -43,20 +43,34 @@ export default class GardenLazyCardController extends Controller {
     }
   }
 
+  private get isListLayout(): boolean {
+    return this.element.closest("[data-layout]")?.getAttribute("data-layout") === "list";
+  }
+
   private getPlaceholderHTML(): string {
+    if (this.isListLayout) {
+      return `
+        <div class="space-y-2 py-4" aria-hidden="true">
+          <div class="h-5 w-2/3 rounded-md bg-rule motion-safe:animate-pulse"></div>
+          <div class="h-3.5 w-1/3 rounded-md bg-rule motion-safe:animate-pulse"></div>
+          <div class="h-3.5 w-5/6 rounded-md bg-rule motion-safe:animate-pulse"></div>
+        </div>
+      `;
+    }
+
     return `
-      <div class="lazy-card-placeholder bg-white rounded overflow-hidden">
-        <div class="w-full h-48 bg-gray-200 animate-pulse"></div>
-        <div class="p-4 space-y-4">
-          <div class="h-6 bg-gray-200 rounded animate-pulse"></div>
-          <div class="flex space-x-2">
-            <div class="h-4 w-20 bg-gray-200 rounded animate-pulse"></div>
-            <div class="h-4 w-16 bg-gray-200 rounded animate-pulse"></div>
+      <div class="overflow-hidden rounded-lg border border-rule bg-surface" aria-hidden="true">
+        <div class="h-48 w-full bg-rule motion-safe:animate-pulse"></div>
+        <div class="space-y-4 p-4">
+          <div class="h-6 rounded-md bg-rule motion-safe:animate-pulse"></div>
+          <div class="flex gap-2">
+            <div class="h-4 w-20 rounded-md bg-rule motion-safe:animate-pulse"></div>
+            <div class="h-4 w-16 rounded-md bg-rule motion-safe:animate-pulse"></div>
           </div>
           <div class="space-y-2">
-            <div class="h-3 bg-gray-200 rounded animate-pulse"></div>
-            <div class="h-3 bg-gray-200 rounded animate-pulse w-5/6"></div>
-            <div class="h-3 bg-gray-200 rounded animate-pulse w-4/6"></div>
+            <div class="h-3 rounded-md bg-rule motion-safe:animate-pulse"></div>
+            <div class="h-3 w-5/6 rounded-md bg-rule motion-safe:animate-pulse"></div>
+            <div class="h-3 w-4/6 rounded-md bg-rule motion-safe:animate-pulse"></div>
           </div>
         </div>
       </div>
@@ -97,13 +111,9 @@ export default class GardenLazyCardController extends Controller {
       }
     } catch (error) {
       console.error(`Error loading card for ${this.idValue}:`, error);
-      this.element.innerHTML = `
-        <div class="bg-white rounded overflow-hidden border border-red-200 dark:border-red-800">
-          <div class="p-4 flex items-center justify-center min-h-[200px]">
-            <div class="text-red-500 dark:text-red-400 text-sm">Failed to load card</div>
-          </div>
-        </div>
-      `;
+      this.element.innerHTML = this.isListLayout
+        ? `<p class="py-4 font-sans text-sm text-ink-muted">This entry couldn’t be loaded.</p>`
+        : `<div class="rounded-lg border border-rule bg-surface p-4 font-sans text-sm text-ink-muted">This entry couldn’t be loaded.</div>`;
     } finally {
       this.isLoading = false;
     }

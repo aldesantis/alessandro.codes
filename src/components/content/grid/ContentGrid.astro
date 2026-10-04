@@ -1,6 +1,5 @@
 ---
 import { actions } from "astro:actions";
-import Card from "@components/ui/Card.astro";
 import ContentGridFilter from "./ContentGridFilter.astro";
 import type { FilterConfig } from "zendo";
 import type { ZendoCollectionEntry } from "src/garden";
@@ -10,11 +9,27 @@ type GardenFilter = FilterConfig<ZendoCollectionEntry>;
 interface Props {
   searchParams: Parameters<typeof actions.search>[0];
   itemSize: "S" | "M" | "L";
+  /**
+   * "grid" renders cards in columns (see `layoutType`); "list" renders a plain
+   * stacked list with hairline dividers, meant for text-only content. When
+   * omitted, collections made only of essays and/or notes default to "list".
+   */
+  layout?: "grid" | "list";
+  /** Column arrangement in grid layout. Ignored in list layout. */
   layoutType?: "grid" | "masonry";
   filters?: GardenFilter[];
 }
 
+const TEXT_ONLY_COLLECTIONS = new Set(["essays", "notes"]);
+
 const { searchParams, itemSize, layoutType = "grid", filters = [] } = Astro.props;
+
+const collections: string[] = Array.isArray(searchParams?.collections) ? searchParams.collections : [];
+const layout =
+  Astro.props.layout ??
+  (collections.length > 0 && collections.every((collection) => TEXT_ONLY_COLLECTIONS.has(collection))
+    ? "list"
+    : "grid");
 
 const filtersWithUi = filters.filter(
   (filter): filter is GardenFilter & { ui: NonNullable<GardenFilter["ui"]> } => filter.ui !== undefined
@@ -41,10 +56,22 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
       return "columns-1 sm:columns-2 lg:columns-2";
   }
 }
+
+const spanAllClass = layout === "list" ? undefined : layoutType === "grid" ? "col-span-full" : "[column-span:all]";
+
+const itemClass = layout === "list" ? undefined : layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid";
+
+const containerClass =
+  layout === "list"
+    ? "divide-y divide-rule"
+    : layoutType === "grid"
+      ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
+      : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`;
 ---
 
 <div
   class="space-y-4"
+  data-layout={layout}
   data-controller="content-grid"
   data-content-grid-search-params-value={JSON.stringify(searchParams)}
   data-content-grid-filters-value={JSON.stringify(
@@ -58,31 +85,23 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
   )}
 >
   <template data-content-grid-target="loadingTemplate">
-    <div class={layoutType === "grid" ? "col-span-full" : "[column-span:all]"}>
-      <Card>
-        <p>Loading the results...</p>
-      </Card>
-    </div>
+    <p role="status" class:list={["py-4 font-sans text-sm text-ink-muted", spanAllClass]}>
+      Loading…
+    </p>
   </template>
 
   <template data-content-grid-target="emptyTemplate">
-    <div class={layoutType === "grid" ? "col-span-full" : "[column-span:all]"}>
-      <Card>
-        <p>Nothing here yet! Check back soon.</p>
-      </Card>
-    </div>
+    <p class:list={["py-4 font-sans text-sm text-ink-muted", spanAllClass]}>Nothing here yet. Check back soon.</p>
   </template>
 
   <template data-content-grid-target="errorTemplate">
-    <div class={layoutType === "grid" ? "col-span-full" : "[column-span:all]"}>
-      <Card>
-        <p>Failed to load the results.</p>
-      </Card>
-    </div>
+    <p role="alert" class:list={["py-4 font-sans text-sm text-ink-muted", spanAllClass]}>
+      The results couldn’t be loaded. Try refreshing the page.
+    </p>
   </template>
 
   {filtersWithUi.length > 0 && (
-    <div class="flex gap-2">
+    <div class="flex flex-wrap gap-2">
       {filtersWithUi.map(async (filter) => (
         <ContentGridFilter label={filter.ui.label} filterCategory={filter.id} items={await filter.ui.getItems()} />
       ))}
@@ -91,19 +110,12 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
 
   <template data-content-grid-target="cardTemplate">
     <div
-      class={layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid"}
+      class={itemClass}
       data-controller="content-card"
       data-content-card-id-value=""
       data-content-card-collection-value=""
     ></div>
   </template>
 
-  <div
-    data-content-grid-target="grid"
-    class={
-      layoutType === "grid"
-        ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
-        : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`
-    }
-  ></div>
+  <div data-content-grid-target="grid" class={containerClass}></div>
 </div>

@@ -18,7 +18,5 @@ const renderedTopic = await renderToString(topic);
 
   <TopicMeta content={topic} compact />
 
-  <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
-    <Fragment set:html={getFirstParagraph(renderedTopic)} />
-  </div>
+  <p class="mt-2 line-clamp-3 font-serif text-sm text-ink-muted">{getFirstParagraph(renderedTopic)}</p>
 </LinkedCard>

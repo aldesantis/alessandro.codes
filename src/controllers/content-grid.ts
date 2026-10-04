@@ -20,6 +20,7 @@ export default class ContentGridController extends Controller {
     "cardTemplate",
     "checkbox",
     "allCheckbox",
+    "filterCount",
   ];
   static override values = {
     searchParams: { type: Object, default: {} },
@@ -33,6 +34,7 @@ export default class ContentGridController extends Controller {
   declare readonly cardTemplateTarget: HTMLTemplateElement;
   declare readonly checkboxTargets: HTMLInputElement[];
   declare readonly allCheckboxTargets: HTMLInputElement[];
+  declare readonly filterCountTargets: HTMLElement[];
   declare searchParamsValue: {
     name?: string;
     collections?: ZendoCollectionId[];
@@ -45,9 +47,11 @@ export default class ContentGridController extends Controller {
   };
   declare filtersValue: Filters;
 
-  private isLoading = false;
+  // Incremented per search so a slow, superseded response never overwrites a newer one.
+  private searchId = 0;
 
   override connect(): void {
+    this.readFiltersFromUrl();
     this.updateCheckboxStates();
     this.performSearch();
   }
@@ -68,7 +72,69 @@ export default class ContentGridController extends Controller {
     }
 
     this.updateCheckboxStates();
+    this.writeFiltersToUrl();
     this.performSearch();
+  }
+
+  /**
+   * Restores filters from the query string (e.g. `?topics=a,b&status=evergreen`)
+   * so filtered views are deep-linkable. Unknown values are ignored.
+   */
+  private readFiltersFromUrl(): void {
+    const categories = Object.keys(this.filtersValue);
+    if (categories.length === 0) return;
+
+    const params = new URLSearchParams(window.location.search);
+    const filters: Filters = { ...this.filtersValue };
+
+    for (const category of categories) {
+      const raw = params.get(category);
+      if (!raw) continue;
+
+      const known = new Set(
+        this.checkboxTargets
+          .filter((cb) => cb.dataset.filterCategory === category)
+          .map((cb) => cb.dataset.filterType)
+          .filter((type): type is string => Boolean(type))
+      );
+      const selected = [...new Set(raw.split(","))].filter((value) => known.has(value));
+
+      filters[category] = selected.length > 0 ? selected : ["all"];
+    }
+
+    this.filtersValue = filters;
+  }
+
+  /** Mirrors the selected filters into the query string without adding history entries. */
+  private writeFiltersToUrl(): void {
+    const categories = Object.keys(this.filtersValue);
+    if (categories.length === 0) return;
+
+    const url = new URL(window.location.href);
+
+    for (const category of categories) {
+      const selected = this.filtersValue[category] || ["all"];
+      if (selected.includes("all")) {
+        url.searchParams.delete(category);
+      } else {
+        url.searchParams.set(category, selected.join(","));
+      }
+    }
+
+    // Keep commas readable: ?topics=a,b rather than ?topics=a%2Cb.
+    const search = url.searchParams.toString().replace(/%2C/gi, ",");
+    window.history.replaceState(window.history.state, "", `${url.pathname}${search ? `?${search}` : ""}${url.hash}`);
+  }
+
+  private updateFilterCounts(): void {
+    for (const badge of this.filterCountTargets) {
+      const category = badge.dataset.filterCategory;
+      const selected = (category && this.filtersValue[category]) || ["all"];
+      const count = selected.includes("all") ? 0 : selected.length;
+
+      badge.textContent = count > 0 ? String(count) : "";
+      badge.classList.toggle("hidden", count === 0);
+    }
   }
 
   private handleAllFilter(category: string, isChecked: boolean, checkbox: HTMLInputElement): void {
@@ -110,6 +176,8 @@ export default class ContentGridController extends Controller {
   }
 
   private updateCheckboxStates(): void {
+    this.updateFilterCounts();
+
     Object.keys(this.filtersValue).forEach((category) => {
       const selectedFilters = this.filtersValue[category] || ["all"];
       const isAllSelected = selectedFilters.includes("all");
@@ -131,11 +199,7 @@ export default class ContentGridController extends Controller {
   }
 
   async performSearch(): Promise<void> {
-    if (this.isLoading) {
-      return;
-    }
-
-    this.isLoading = true;
+    const searchId = ++this.searchId;
     this.showLoading();
 
     try {
@@ -165,6 +229,10 @@ export default class ContentGridController extends Controller {
       // TODO: We should implement pagination and infinite scroll for optimal performance.
       const result = await actions.search(searchParams);
 
+      if (searchId !== this.searchId) {
+        return;
+      }
+
       if (result.error) {
         console.error("Error fetching search results:", result.error);
         this.showError();
@@ -180,10 +248,15 @@ export default class ContentGridController extends Controller {
 
       this.renderCards(items);
     } catch (error) {
+      if (searchId !== this.searchId) {
+        return;
+      }
       console.error("Error fetching search results:", error);
       this.showError();
     } finally {
-      this.isLoading = false;
+      if (searchId === this.searchId) {
+        this.gridTarget.removeAttribute("aria-busy");
+      }
     }
   }
 
@@ -202,6 +275,7 @@ export default class ContentGridController extends Controller {
   }
 
   private showLoading(): void {
+    this.gridTarget.setAttribute("aria-busy", "true");
     const clone = this.loadingTemplateTarget.content.cloneNode(true) as DocumentFragment;
     this.gridTarget.innerHTML = "";
     this.gridTarget.appendChild(clone);

@@ -17,9 +17,9 @@ const embedUrl = getYouTubeEmbedUrl(talk.data.url);
     {talk.data.title}
   </h3>
 
-  <TalkMeta content={talk} />
+  <TalkMeta content={talk} compact />
 
-  <p class="mt-2 text-sm font-serif font-sm">{talk.data.description}</p>
+  <p class="mt-2 font-serif text-sm text-ink-muted">{talk.data.description}</p>
 
   <div class="w-full" slot="cover">
     <iframe

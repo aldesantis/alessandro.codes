@@ -1,0 +1,40 @@
+---
+/**
+ * A typographic row for text-only content (essays, notes). Inside a
+ * ContentGrid in list layout it renders as a plain row (the list provides the
+ * dividers); inside a grid layout (e.g. mixed collections in the garden) it
+ * picks up a hairline surface so it sits alongside the other cards.
+ *
+ * The root element must stay an <a>: the content-card controller extracts the
+ * first anchor from the /card/... response.
+ */
+interface Props {
+  href: string;
+  title: string;
+  summary?: string;
+}
+
+const { href, title, summary } = Astro.props;
+---
+
+<a
+  href={href}
+  class:list={[
+    "group block rounded-md py-4",
+    "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
+    "in-data-[layout=grid]:rounded-lg in-data-[layout=grid]:border in-data-[layout=grid]:border-rule in-data-[layout=grid]:bg-surface in-data-[layout=grid]:p-4",
+    "in-data-[layout=grid]:transition-transform in-data-[layout=grid]:duration-200 in-data-[layout=grid]:ease-out-strong",
+    "motion-safe:in-data-[layout=grid]:hover:-translate-y-0.5 motion-safe:in-data-[layout=grid]:active:scale-[0.99]",
+    "motion-reduce:transition-none",
+  ]}
+>
+  <h3 class="font-sans text-lg leading-snug font-semibold text-ink transition-colors duration-200 ease-out-strong group-hover:text-link">
+    {title}
+  </h3>
+
+  <div class="mt-1">
+    <slot />
+  </div>
+
+  {summary && <p class="mt-1.5 line-clamp-2 font-serif text-sm text-ink-muted sm:line-clamp-1">{summary}</p>}
+</a>

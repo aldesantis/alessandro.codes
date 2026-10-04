@@ -6,7 +6,7 @@ interface Props {
 const { class: originalClass } = Astro.props;
 ---
 
-<div class:list={["bg-white rounded overflow-hidden flex flex-col group", originalClass]}>
+<div class:list={["flex flex-col overflow-hidden rounded-lg border border-rule bg-surface", originalClass]}>
   <div class="w-full">
     <slot name="cover" />
   </div>

@@ -2,8 +2,6 @@ import { Controller } from "@hotwired/stimulus";
 import { formatDistanceToNow } from "date-fns";
 
 export default class RelativeDateController extends Controller {
-  static override targets = ["date"];
-
   override connect() {
     this.updateRelativeDate();
   }
