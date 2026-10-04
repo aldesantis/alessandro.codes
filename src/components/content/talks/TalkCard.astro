@@ -1,5 +1,5 @@
 ---
-import LinkedCard from "@components/ui/LinkedCard.astro";
+import Card from "@components/ui/Card.astro";
 import TalkMeta from "@components/content/talks/TalkMeta.astro";
 import type { CollectionEntry } from "astro:content";
 import { getYouTubeEmbedUrl } from "src/lib/utils/youtube";
@@ -12,12 +12,19 @@ const { talk } = Astro.props;
 const embedUrl = getYouTubeEmbedUrl(talk.data.url);
 ---
 
-<LinkedCard href={talk.data.url}>
-  <h3 slot="title" class="font-sans text-lg">
-    {talk.data.title}
+<Card>
+  <h3 slot="title" class="font-sans text-lg font-semibold text-balance">
+    <a
+      href={talk.data.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="rounded-md text-ink transition-colors duration-200 ease-out-strong hover:text-link focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link"
+    >
+      {talk.data.title}
+    </a>
   </h3>
 
-  <TalkMeta content={talk} compact />
+  <TalkMeta content={talk} />
 
   <p class="mt-2 font-serif text-sm text-ink-muted">{talk.data.description}</p>
 
@@ -26,10 +33,10 @@ const embedUrl = getYouTubeEmbedUrl(talk.data.url);
       class="w-full"
       style="aspect-ratio: 16/9;"
       src={embedUrl}
-      title="YouTube video player"
+      title={`Video: ${talk.data.title}`}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
     ></iframe>
   </div>
-</LinkedCard>
+</Card>
