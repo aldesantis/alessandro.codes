@@ -10,30 +10,25 @@ const { arrowDirection, class: originalClass, ...props } = Astro.props;
 ---
 
 <Link {...props} class:list={["group", originalClass]}>
-  <span
-    class:list={[
-      "inline-flex items-center transition-transform duration-150 ease-out-strong motion-reduce:translate-none",
-      arrowDirection === "left" ? "-translate-x-1 group-hover:translate-x-0" : "translate-x-0",
-    ]}
-  >
-    {arrowDirection === "left" && (
+  {arrowDirection === "left" ? (
+    <span class="inline-flex items-center gap-1.5">
       <span
         aria-hidden="true"
-        class="mr-2 opacity-0 transition-opacity duration-150 ease-out-strong group-hover:opacity-100 group-focus-visible:opacity-100"
+        class="transition-transform duration-150 ease-out-strong group-hover:-translate-x-0.5 motion-reduce:translate-none"
       >
         ←
       </span>
-    )}
-
-    <slot />
-
-    {arrowDirection === "right" && (
+      <slot />
+    </span>
+  ) : (
+    <span class="inline-flex items-center">
+      <slot />
       <span
         aria-hidden="true"
         class="ml-2 opacity-0 transition-[opacity,translate] duration-150 ease-out-strong -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 group-focus-visible:opacity-100 group-focus-visible:translate-x-0 motion-reduce:translate-none"
       >
         →
       </span>
-    )}
-  </span>
+    </span>
+  )}
 </Link>
