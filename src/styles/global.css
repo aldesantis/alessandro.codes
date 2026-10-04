@@ -152,11 +152,28 @@
 }
 
 .prose a[data-footnote-ref] {
+  position: relative;
   font-family: var(--font-sans);
   font-weight: 600;
   color: var(--color-link);
   padding-inline: 0.1em;
   scroll-margin-top: 30vh;
+}
+
+/* The superscript glyph is tiny; extend the hit area without moving the text */
+.prose a[data-footnote-ref]::after {
+  content: "";
+  position: absolute;
+  inset: -0.4em -0.35em;
+}
+
+@media (pointer: coarse) {
+  .prose a[data-footnote-ref] {
+    padding-inline: 0.3em;
+  }
+  .prose a[data-footnote-ref]::after {
+    inset: -0.5rem;
+  }
 }
 
 .prose a[data-footnote-ref]:target {
@@ -194,7 +211,7 @@
 }
 
 .prose section.footnotes li:target {
-  background-color: var(--color-orange-50);
+  background-color: var(--color-accent-surface);
 }
 
 .prose section.footnotes li p {
@@ -215,7 +232,11 @@
   }
 }
 
-/* Hover preview of a footnote, positioned by the footnotes controller */
+/*
+ * Preview of a footnote, positioned by the footnotes controller. It eases in
+ * from its reference (transform-origin is set in JS) and leaves instantly;
+ * `.no-enter` skips the entrance when hopping between nearby references.
+ */
 .footnote-popover {
   position: absolute;
   z-index: 40;
@@ -225,9 +246,23 @@
   border-radius: 0.5rem;
   background-color: var(--color-surface);
   box-shadow: var(--shadow-pop);
-  font-size: 0.875rem;
-  line-height: 1.6;
+  /* Lives inside the paragraph (for tab order), so reset inherited text styles */
+  font: normal 400 0.875rem / 1.6 var(--font-sans);
+  text-align: start;
   color: var(--color-ink);
+  overflow-wrap: anywhere;
+  transition:
+    opacity 150ms var(--ease-out-strong),
+    scale 150ms var(--ease-out-strong);
+
+  @starting-style {
+    opacity: 0;
+    scale: 0.97;
+  }
+}
+
+.footnote-popover.no-enter {
+  transition: none;
 }
 
 .footnote-popover p {
@@ -236,12 +271,24 @@
 
 .footnote-popover a {
   color: var(--color-link);
-  transition: color 150ms;
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-accent-rule);
+  text-underline-offset: 0.2em;
+  transition:
+    color 150ms,
+    text-decoration-color 150ms;
+}
+
+.footnote-popover a:focus-visible {
+  border-radius: 0.125rem;
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
 }
 
 @media (hover: hover) {
   .footnote-popover a:hover {
     color: var(--color-link-hover);
+    text-decoration-color: currentColor;
   }
 }
 
