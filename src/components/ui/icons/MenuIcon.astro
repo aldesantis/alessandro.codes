@@ -1,8 +1,17 @@
+---
+interface Props {
+  /** Replaces the default size. */
+  class?: string;
+}
+
+const { class: className = "size-6" } = Astro.props;
+---
+
 <svg
   xmlns="http://www.w3.org/2000/svg"
   aria-hidden="true"
   focusable="false"
-  class="h-6 w-6"
+  class:list={[className]}
   fill="none"
   viewBox="0 0 24 24"
   stroke="currentColor"
