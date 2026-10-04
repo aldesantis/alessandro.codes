@@ -5,6 +5,12 @@ import { loadRenderers } from "astro:container";
 import * as cheerio from "cheerio";
 import Link from "@components/ui/Link.astro";
 import Tldr from "@components/content/Tldr.astro";
+import FactoryPower from "@components/viz/FactoryPower.astro";
+import ExecutionLadder from "@components/viz/ExecutionLadder.astro";
+import ProfessionMap from "@components/viz/ProfessionMap.astro";
+import StrategyMap from "@components/viz/StrategyMap.astro";
+import TimeHorizon from "@components/viz/TimeHorizon.astro";
+import IdeationGap from "@components/viz/IdeationGap.astro";
 import type { ZendoCollectionEntry } from "src/garden";
 
 export async function renderToString(entry: ZendoCollectionEntry): Promise<string> {
@@ -32,5 +38,11 @@ export function getMdxComponents() {
     a: Link,
     Link: Link,
     Tldr: Tldr,
+    FactoryPower,
+    ExecutionLadder,
+    ProfessionMap,
+    StrategyMap,
+    TimeHorizon,
+    IdeationGap,
   };
 }

@@ -1,0 +1,21 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  source?: string;
+}
+
+const { title, subtitle, source } = Astro.props;
+---
+
+<figure
+  class="viz not-prose relative my-10 rounded-lg border border-stone-200 bg-[#fcfcfb] px-5 py-5 font-sans text-stone-700"
+  data-controller="viz-tooltip"
+>
+  <div class="mb-4">
+    <div class="text-base font-semibold text-stone-800">{title}</div>
+    {subtitle && <div class="mt-0.5 text-sm text-stone-500">{subtitle}</div>}
+  </div>
+  <slot />
+  {source && <figcaption class="mt-4 text-xs text-stone-500" set:html={source} />}
+</figure>

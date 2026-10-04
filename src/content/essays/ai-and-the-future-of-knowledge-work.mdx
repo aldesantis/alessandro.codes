@@ -24,6 +24,8 @@ Around 1900, a factory that wanted electricity had to generate it. Power was a c
 
 Then central stations took over. Samuel Insull’s Commonwealth Edison in Chicago showed that large utilities with big steam turbines could make power for less than any factory could make it for itself.[^2][^3] By 1919, 57% of the electricity used in US manufacturing came from utilities.[^1] For almost every factory, power was a necessity and not something they competed on, so generating it went from a capability to a line item. The capability didn’t disappear. It [[capabilities-move-to-those-for-whom-theyre-the-product|moved to the companies for whom power _was_ the product]].
 
+<FactoryPower />
+
 AI is doing the same to knowledge work, which is why “Will AI replace designers, engineers, writers, lawyers?” is the wrong question. The same profession can be safe in one company and at risk in the next, and two people in the same profession, at the same company, can face very different futures. What matters is what kind of work you do, and what that work is for. This essay builds on those two ideas.
 
 ## 2. Strategy and execution are a spectrum
@@ -40,6 +42,8 @@ Throughout this essay, “strategy” means meaningmaking in Tan’s sense. It�
 This matches my own experience. AI is good at _translating_ between domains, such as English into code, text into images, or long text into short text. It’s also good at generating output once the intent is clear. It is not good at _creating meaning_: deciding which items matter most, understanding what is worth doing at all, or finding the most effective route from where you are to where you want to be. [[execution-is-translation-strategy-is-meaningmaking|Execution is translation, and strategy is meaningmaking]].
 
 This isn’t a binary. Every piece of work sits somewhere [[strategy-and-execution-are-a-spectrum|on a spectrum]], depending on how much of the intent is still open when it reaches you. In software, the spectrum runs through typing out a function someone else specified, implementing a feature from a spec, designing the system behind it, choosing which features to build, and choosing which customers to build for. Each step down that list involves less translation and more meaningmaking. Almost no work is pure translation, since even typing out a specified function involves small judgment calls. But the more of the intent is already settled, the less meaningmaking is left to do.
+
+<ExecutionLadder />
 
 Very few jobs sit at a single point. Most people do a mix, and the mix is what matters, because AI takes over the spectrum starting from the execution end.
 
@@ -64,6 +68,8 @@ Won’t cheaper execution create more demand for necessities? It will. Companies
 
 [[whether-a-function-is-an-advantage-depends-on-the-company|Where a profession lands depends on the company]], not the profession. No profession is an advantage everywhere, and few are a necessity everywhere. Some just sit closer to one end in more companies than others. At a software company, software engineering is the product itself. As the cost of building falls, [[cheaper-execution-raises-the-cost-of-not-executing|the cost of not building rises]], so they’ll keep building more. At a consumer brand, the same engineering work is a necessity. The brand builds a good-enough store and stops. Design is the advantage for a fashion brand that competes on taste, and a necessity for a B2B distributor that just needs a usable catalog. The clearest advantage cases are the people doing a company’s R&D, whatever it’s called: scientists at a pharma company, chefs at a restaurant group. Their job is, by definition, to find the original insight the company competes on. But the same scientist doing quality control, or the same chef running a corporate cafeteria, is doing necessity work.
 
+<ProfessionMap />
+
 None of this is entirely new. Geoffrey Moore split a company’s activities into _core_ and _context_. Core is what differentiates you, context is everything else, and companies should outsource or automate context.[^6] AI automates more context than any earlier technology. What’s new is how clearly the same profession can be core in one company and context in the next. In “IT Doesn’t Matter”, Nicholas Carr made the electricity argument about IT. Once a technology is available to everyone, it becomes a cost of doing business.[^7] Critics pointed to Walmart, Amazon, and Google, where IT clearly _was_ the advantage. Both sides were right, because it depended on whether IT was core. And Wardley Mapping’s evolution axis has capabilities moving from genesis to custom to product to commodity.[^8] AI speeds up that last step for a whole class of knowledge work.
 
 ## 5. Two moves to stay relevant
@@ -76,6 +82,8 @@ If AI absorbs execution, and necessity work converges into execution, staying re
 | **Necessity** | Most exposed. AI replaces it outright, as with a consumer brand’s storefront, routine contract review, or first-line support. | Exposed. There’s little demand, because the intent converges on the standard answer and leaves little to decide. |
 
 The rows decide whether the _market_ for your work grows or shrinks. The columns decide whether _you_ capture value in it. The natural path is up and to the right. The order matters, so move up first and then right.
+
+<StrategyMap />
 
 **Move up.** Work in an area that is a source of competitive advantage for the company you work for, or will become one. Strategy is only in demand there. There are two ways to do it. You can _change the function_, moving into adjacent work that’s hard for AI to replicate. Design is the obvious candidate, because AI still has very limited taste and [[the-new-luxury-is-about-taste-not-wealth|taste increasingly sets brands apart]]. But it only helps if design is an advantage _for that company_. To a company that doesn’t compete on taste, design is just another necessity. Or you can _change the company_ and do the same work for a company that competes on it. The engineer at a consumer brand moves to a software company, and the designer at a distributor moves to a fashion house. Either way, “AI can’t do it well yet” is a statement about today’s models, not a moat. If you move up but stay on the execution side, you’ve found a better market, but you aren’t safe.
 
@@ -91,6 +99,8 @@ Not everyone will like that, and not everyone who was great at the old job will 
 
 And you don’t make this move once. As models get more capable and cheaper, the line between what AI can and can’t do keeps moving up and to the right with you. Work that took judgment last year becomes execution this year, and execution that was too expensive to automate becomes cheap enough. To stay ahead, you have to keep moving.
 
+<TimeHorizon />
+
 ## 6. Is strategy safe?
 
 Everything so far assumes strategy is where AI stops. We can’t know that for sure.
@@ -100,6 +110,8 @@ Consider where original insight comes from. Raw intelligence is close to a commo
 That context is also mostly _illegible_. People rarely write it down. It lives in their heads, in hallway conversations, and in a feel for what customers will tolerate and which initiatives the organization will get behind. David Autor calls this Polanyi’s paradox, summed up as “we know more than we can tell”, and argues it has historically been the main barrier to automating work.[^11] A person absorbs this [[tacit-knowledge-is-hard-to-capture|tacit knowledge]] by being immersed in it. An LLM only has what someone feeds into it, so it reasons from a thin, legible slice of the context and lands closer to the standard answer.
 
 The research so far fits this picture. Csaszar, Ketkar, and Kim found that, on paper, LLMs can generate and evaluate business strategies about as well as entrepreneurs and investors.[^12] But Si, Hashimoto, and Yang had experts spend over 100 hours executing research ideas. Reviewers had rated the LLM ideas _more_ novel than the human ones, but after execution the LLM ideas lost much of their score, and [[ideas-look-better-before-theyre-executed|the ranking flipped]].[^13] Felin and Holweg offer a reason. AI reasons from data, so it’s backward-looking and imitative. Humans reason from theory and can hold beliefs the data doesn’t support yet, like the Wright brothers believing in heavier-than-air flight when the evidence said otherwise.[^14]
+
+<IdeationGap />
 
 None of this is a guarantee. Context can become more legible, since companies record, transcribe, and log more of their work every year. Models may also get better at inferring what isn’t said. There’s no principled reason a model, immersed deeply enough in a company’s context, couldn’t find some of the same insights a person would. This is Tan’s “(for now)” again.
 

@@ -10,6 +10,12 @@ import ContentGridController from "./content-grid";
 import ServingsController from "./servings";
 import FootnotesController from "./footnotes";
 import TocController from "./toc";
+import VizTooltipController from "./viz/tooltip";
+import VizRevealController from "./viz/reveal";
+import VizScaleController from "./viz/scale";
+import StrategyMapController from "./viz/strategy-map";
+import ProfessionMapController from "./viz/profession-map";
+import ExecutionLadderController from "./viz/execution-ladder";
 
 const application = Application.start();
 
@@ -23,3 +29,9 @@ application.register("navbar", NavbarController);
 application.register("servings", ServingsController);
 application.register("footnotes", FootnotesController);
 application.register("toc", TocController);
+application.register("viz-tooltip", VizTooltipController);
+application.register("viz-reveal", VizRevealController);
+application.register("viz-scale", VizScaleController);
+application.register("strategy-map", StrategyMapController);
+application.register("profession-map", ProfessionMapController);
+application.register("execution-ladder", ExecutionLadderController);

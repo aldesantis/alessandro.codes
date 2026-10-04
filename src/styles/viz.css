@@ -1,0 +1,95 @@
+/* Interactive figures embedded in essays (src/components/viz). */
+.viz {
+  --viz-surface: #fcfcfb;
+  --viz-ink: var(--color-stone-800);
+  --viz-ink-2: var(--color-stone-600);
+  --viz-muted: var(--color-stone-500);
+  --viz-grid: #e1e0d9;
+  --viz-axis: #c3c2b7;
+  /* Validated pair: human/strategy work vs AI. */
+  --viz-human: #2a78d6;
+  --viz-ai: #eb6834;
+  --viz-human-wash: rgb(42 120 214 / 0.1);
+  --viz-ai-wash: rgb(235 104 52 / 0.12);
+}
+
+.viz svg text {
+  font-family: var(--font-sans);
+}
+
+.viz input[type="range"] {
+  width: 100%;
+  accent-color: var(--viz-ink);
+}
+
+.viz-tooltip {
+  position: absolute;
+  z-index: 40;
+  pointer-events: none;
+  max-width: 16rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-stone-200);
+  border-radius: 0.375rem;
+  background: white;
+  box-shadow: 0 6px 16px -4px rgb(0 0 0 / 0.12);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  color: var(--viz-ink-2);
+}
+
+.viz-tooltip strong {
+  display: block;
+  color: var(--viz-ink);
+  font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.viz [data-tip] {
+  cursor: default;
+}
+
+.viz [data-tip]:focus-visible {
+  outline: 2px solid var(--viz-ink);
+  outline-offset: 2px;
+}
+
+.viz-segment {
+  border: 1px solid var(--color-stone-200);
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--viz-ink-2);
+  background: white;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.viz-segment:hover {
+  background: var(--color-stone-100);
+}
+
+.viz-segment[aria-pressed="true"] {
+  border-color: var(--viz-ink);
+  background: var(--viz-ink);
+  color: white;
+}
+
+.viz .viz-animate {
+  transition:
+    cx 0.4s ease,
+    cy 0.4s ease,
+    x1 0.4s ease,
+    y1 0.4s ease,
+    x2 0.4s ease,
+    y2 0.4s ease,
+    width 0.3s ease,
+    d 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .viz .viz-animate {
+    transition: none;
+  }
+}
