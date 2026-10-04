@@ -25,14 +25,13 @@ export default class HeadingLinksController extends Controller {
       link.innerHTML = `<span class="heading-link-icon" data-icon="link">${LINK_ICON}</span><span class="heading-link-icon" data-icon="check">${CHECK_ICON}</span>`;
       link.addEventListener("click", this.copy);
 
-      heading.append(" ", link);
+      heading.append(link);
     }
   }
 
   override disconnect() {
     for (const link of this.element.querySelectorAll<HTMLAnchorElement>("a.heading-link")) {
       link.removeEventListener("click", this.copy);
-      link.previousSibling?.remove();
       link.remove();
     }
 

@@ -299,7 +299,8 @@
  */
 .prose .heading-link {
   display: inline-grid;
-  vertical-align: middle;
+  vertical-align: -0.05em;
+  margin-inline-start: 0.25em;
   padding: 0.25em;
   margin-block: -0.25em;
   border-radius: 0.25rem;
@@ -310,7 +311,7 @@
     transform 150ms var(--ease-out-strong);
 }
 .prose .heading-link:active {
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 .prose .heading-link[data-copied] {
   color: var(--color-link);
@@ -342,8 +343,7 @@
   .prose .heading-link {
     opacity: 0;
   }
-  .prose :is(h1, h2, h3, h4):hover .heading-link,
-  .prose .heading-link:focus-visible,
+  .prose :is(h1, h2, h3, h4):is(:hover, :focus-within) .heading-link,
   .prose .heading-link[data-copied] {
     opacity: 1;
   }
