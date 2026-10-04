@@ -21,11 +21,11 @@ const { arrowDirection, class: originalClass, ...props } = Astro.props;
       <slot />
     </span>
   ) : (
-    <span class="inline-flex items-center">
+    <span class="inline-flex items-center gap-1.5">
       <slot />
       <span
         aria-hidden="true"
-        class="ml-2 opacity-0 transition-[opacity,translate] duration-150 ease-out-strong -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 group-focus-visible:opacity-100 group-focus-visible:translate-x-0 motion-reduce:translate-none"
+        class="transition-transform duration-150 ease-out-strong group-hover:translate-x-0.5 motion-reduce:translate-none"
       >
         →
       </span>

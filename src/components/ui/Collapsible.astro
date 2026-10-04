@@ -4,28 +4,61 @@ import ChevronDownIcon from "@components/ui/icons/ChevronDownIcon.astro";
 interface Props {
   label: string;
   class?: string;
+  /** Render as an always-open, labelled block from the lg breakpoint up. */
+  staticOnDesktop?: boolean;
 }
 
-const { label, class: className } = Astro.props;
+const { label, class: className, staticOnDesktop = false } = Astro.props;
 ---
 
-<details class:list={["collapsible group", className]}>
+<details class:list={["collapsible group", className]} data-static-on-desktop={staticOnDesktop ? "" : undefined}>
   <summary
     class:list={[
       "flex w-full cursor-pointer list-none items-center justify-between border-b border-rule py-2 text-ink",
       "transition-colors duration-200 ease-out-strong hover:text-ink-muted",
       "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
       "[&::-webkit-details-marker]:hidden",
+      staticOnDesktop && "lg:pointer-events-none lg:cursor-auto lg:border-b-0 lg:py-0 lg:mb-0.5 lg:hover:text-ink",
     ]}
   >
-    <span class="font-sans text-base font-medium">{label}</span>
-    <ChevronDownIcon class="ease-out-strong group-open:rotate-180 motion-reduce:transition-none" />
+    <span class:list={["font-sans text-base font-medium", staticOnDesktop && "lg:font-semibold"]}>{label}</span>
+    <ChevronDownIcon
+      class:list={[
+        "duration-[220ms] ease-out-strong group-open:rotate-180 motion-reduce:transition-none",
+        staticOnDesktop && "lg:hidden",
+      ]}
+    />
   </summary>
 
-  <div class="py-2">
+  <div class:list={["py-2", staticOnDesktop && "lg:py-0"]}>
     <slot />
   </div>
 </details>
+
+<script>
+  // From lg up, a static-on-desktop disclosure is a plain labelled block: keep
+  // it open and take its summary out of the tab order. The CSS below already
+  // shows the content there; this keeps `open` (and assistive tech) in sync,
+  // and covers browsers without ::details-content.
+  const desktop = window.matchMedia("(min-width: 64rem)");
+
+  const sync = () => {
+    for (const details of document.querySelectorAll<HTMLDetailsElement>("details[data-static-on-desktop]")) {
+      const summary = details.querySelector("summary");
+      if (desktop.matches) {
+        details.open = true;
+        summary?.setAttribute("tabindex", "-1");
+      } else {
+        details.open = false;
+        summary?.removeAttribute("tabindex");
+      }
+    }
+  };
+
+  sync();
+  desktop.addEventListener("change", sync);
+  document.addEventListener("astro:page-load", sync);
+</script>
 
 <style>
   /*
@@ -52,8 +85,21 @@ const { label, class: className } = Astro.props;
     opacity: 1;
   }
 
+  /* Reduced motion: fade only, no height change. */
   @media (prefers-reduced-motion: reduce) {
     .collapsible::details-content {
+      transition:
+        opacity 220ms var(--ease-out-strong),
+        content-visibility 220ms allow-discrete;
+    }
+  }
+
+  /* Shown open from first paint on desktop, before the script runs. */
+  @media (min-width: 64rem) {
+    .collapsible[data-static-on-desktop]::details-content {
+      content-visibility: visible;
+      block-size: auto;
+      opacity: 1;
       transition: none;
     }
   }

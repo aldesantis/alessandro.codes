@@ -2,6 +2,7 @@
 export const prerender = true;
 
 import { getCollection } from "astro:content";
+import { getEntryDescription } from "src/lib/description";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import TopicMeta from "@components/content/topics/TopicMeta.astro";
@@ -19,11 +20,12 @@ export async function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
+const description = await getEntryDescription(topic);
 
 const filters = await Promise.all([statusFilter(), collectionFilter()]);
 ---
 
-<Layout title={topic.data.title}>
+<Layout title={topic.data.title} description={description}>
   <ContentDetail entry={topic}>
     <ArrowLink
       href="/topics"
@@ -44,7 +46,6 @@ const filters = await Promise.all([statusFilter(), collectionFilter()]);
       searchParams={{ relatedTo: topic.id, collections: ["essays", "books", "notes", "talks", "recipes"] }}
       itemSize="M"
       filters={filters}
-      layoutType="masonry"
     />
   </div>
 </Layout>

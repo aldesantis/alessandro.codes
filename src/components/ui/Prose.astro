@@ -1,12 +1,44 @@
 <div
   data-controller="footnotes heading-links"
   class:list={[
-    "prose",
-    "prose-stone",
-    "max-w-[68ch]",
+    "prose-body prose",
+    "max-w-[36rem]",
+    // Map the typography plugin's palette onto the site tokens.
+    "[--tw-prose-body:var(--color-ink)] [--tw-prose-headings:var(--color-ink)] [--tw-prose-lead:var(--color-ink-muted)]",
+    "[--tw-prose-links:var(--color-link)] [--tw-prose-bold:var(--color-ink)] [--tw-prose-counters:var(--color-ink-subtle)]",
+    "[--tw-prose-bullets:var(--color-ink-subtle)] [--tw-prose-hr:var(--color-rule)] [--tw-prose-quotes:var(--color-ink-muted)]",
+    "[--tw-prose-quote-borders:var(--color-rule)] [--tw-prose-captions:var(--color-ink-subtle)] [--tw-prose-code:var(--color-ink)]",
+    "[--tw-prose-th-borders:var(--color-rule)] [--tw-prose-td-borders:var(--color-rule)]",
     "prose-headings:font-sans prose-headings:mb-2 prose-headings:mt-6 prose-headings:font-semibold prose-headings:text-balance",
-    "prose-a:text-link prose-a:no-underline prose-a:transition-colors prose-a:duration-150 prose-a:hover:text-link-hover",
   ]}
 >
   <slot />
 </div>
+
+<style is:global>
+  /*
+   * Body links carry a quiet accent underline so they don't rely on colour
+   * alone; it takes the full link colour on hover. Footnote markers and the
+   * heading copy-link buttons have their own treatment.
+   */
+  .prose-body a:not([data-footnote-ref], [data-footnote-backref], .heading-link, .not-prose *) {
+    color: var(--color-link);
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-accent-rule);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+    transition-property: color, text-decoration-color;
+    transition-duration: 150ms;
+    transition-timing-function: var(--ease-out-strong);
+  }
+
+  .prose-body a:not([data-footnote-ref], [data-footnote-backref], .heading-link, .not-prose *):hover {
+    color: var(--color-link-hover);
+    text-decoration-color: currentColor;
+  }
+
+  .prose-body :is(a[data-footnote-ref], a[data-footnote-backref], a.heading-link),
+  .prose-body.prose-body :is(h1, h2, h3, h4, h5, h6) a {
+    text-decoration-line: none;
+  }
+</style>

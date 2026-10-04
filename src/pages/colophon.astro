@@ -14,7 +14,7 @@ import { Content, getHeadings } from "src/content/colophon.mdx";
   <SidebarLayout>
     <Fragment slot="title"> Colophon </Fragment>
 
-    <Toc headings={getHeadings()} slot="sidebar" />
+    <Toc headings={getHeadings()} minHeadings={2} slot="sidebar" />
 
     <Prose>
       <Content components={getMdxComponents()} />

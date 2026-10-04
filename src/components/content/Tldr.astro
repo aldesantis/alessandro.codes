@@ -1,9 +1,18 @@
 <aside
   aria-label="TL;DR"
-  class="not-prose mb-8 rounded-lg border border-orange-200 bg-orange-50/60 px-4 py-4 sm:px-5 font-sans text-stone-700"
+  class="not-prose mb-8 rounded-lg border border-accent-rule bg-accent-surface px-4 py-4 sm:px-5 font-sans text-ink"
 >
-  <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-orange-700">TL;DR</div>
-  <div class="space-y-2 [&_a]:text-link [&_a]:transition-colors [&_a:hover]:text-link-hover [&_em]:italic [&_li]:relative [&_li]:pl-4 [&_li]:before:absolute [&_li]:before:left-0 [&_li]:before:text-orange-400 [&_li]:before:content-['–'] [&_ul]:space-y-2 [&_strong]:font-semibold">
+  <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-link">TL;DR</div>
+  <div
+    class:list={[
+      "space-y-2 text-[0.9em] leading-relaxed",
+      "[&_a]:text-link [&_a]:underline [&_a]:decoration-accent-rule [&_a]:decoration-1 [&_a]:underline-offset-[0.2em]",
+      "[&_a]:transition-[color,text-decoration-color] [&_a]:duration-150 [&_a]:ease-out-strong",
+      "[&_a:hover]:text-link-hover [&_a:hover]:decoration-current",
+      "[&_em]:italic [&_strong]:font-semibold [&_ul]:space-y-1.5",
+      "[&_li]:relative [&_li]:pl-4 [&_li]:before:absolute [&_li]:before:left-0 [&_li]:before:text-orange-400 [&_li]:before:content-['–']",
+    ]}
+  >
     <slot />
   </div>
 </aside>

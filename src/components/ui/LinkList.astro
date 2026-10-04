@@ -1,3 +1,11 @@
-<ul class="space-y-1 text-sm">
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className = "space-y-1" } = Astro.props;
+---
+
+<ul class:list={["text-sm", className]}>
   <slot />
 </ul>

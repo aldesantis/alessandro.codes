@@ -3,6 +3,7 @@ export const prerender = true;
 
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import { getEntryDescription } from "src/lib/description";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 import EssayMeta from "@components/content/essays/EssayMeta.astro";
@@ -17,9 +18,10 @@ export async function getStaticPaths() {
 }
 
 const { essay } = Astro.props;
+const description = await getEntryDescription(essay);
 ---
 
-<Layout title={essay.data.title} type="article">
+<Layout title={essay.data.title} description={description} type="article" publishedTime={essay.data.createdAt}>
   <ContentDetail entry={essay}>
     <ArrowLink
       href="/essays"

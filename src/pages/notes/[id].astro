@@ -3,6 +3,7 @@ export const prerender = true;
 
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import { getEntryDescription } from "src/lib/description";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 import NoteMeta from "@components/content/notes/NoteMeta.astro";
@@ -17,9 +18,10 @@ export async function getStaticPaths() {
 }
 
 const { note } = Astro.props;
+const description = await getEntryDescription(note);
 ---
 
-<Layout title={note.data.title} type="article">
+<Layout title={note.data.title} description={description} type="article">
   <ContentDetail entry={note}>
     <ArrowLink
       href="/notes"
