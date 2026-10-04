@@ -1,0 +1,31 @@
+---
+// A dot for one data point. With `tip`, it gets a larger invisible hit area,
+// keyboard focus and a tooltip (via the figure's `viz-tooltip` controller).
+// Slot content (e.g. a direct label) is grouped with the dot.
+interface Props {
+  cx: number;
+  cy: number;
+  color: string;
+  // Hollow dots mark values that are less certain.
+  hollow?: boolean;
+  r?: number;
+  tip?: string;
+  tipLabel?: string;
+}
+
+const { cx, cy, color, hollow = false, r = 4.5, tip, tipLabel } = Astro.props;
+const interactive = tip !== undefined;
+---
+
+<g tabindex={interactive ? "0" : undefined} data-tip={tip} data-tip-label={tipLabel}>
+  {interactive && <circle cx={cx} cy={cy} r={Math.max(12, r + 6)} fill="transparent" />}
+  <circle
+    cx={cx}
+    cy={cy}
+    r={r}
+    fill={hollow ? "var(--viz-surface)" : color}
+    stroke={hollow ? color : "var(--viz-surface)"}
+    stroke-width="2"
+  />
+  <slot />
+</g>

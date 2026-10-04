@@ -1,0 +1,110 @@
+---
+import VizFigure from "../ui/VizFigure.astro";
+import Legend from "../ui/Legend.astro";
+import DataTable from "../ui/DataTable.astro";
+import Chart from "../chart/Chart.astro";
+import XAxis from "../chart/XAxis.astro";
+import YAxis from "../chart/YAxis.astro";
+import DataPoint from "../chart/DataPoint.astro";
+import { FACTORY_POWER } from "src/lib/viz/data";
+import { linePath, linearScale, plotArea } from "src/lib/viz/chart";
+
+const W = 560;
+const H = 260;
+const plot = plotArea(W, H, { top: 16, right: 16, bottom: 28, left: 40 });
+const sx = linearScale([1899, 1939], [plot.left, plot.right]);
+const sy = linearScale([0, 100], [plot.bottom, plot.top]);
+
+const rows = FACTORY_POWER.map((d) => {
+  const total = d.purchased + d.onSite;
+  return { ...d, total, purchasedPct: (d.purchased / total) * 100, onSitePct: (d.onSite / total) * 100 };
+});
+
+// Hit columns span halfway to each neighbor.
+const columns = rows.map((d, i) => {
+  const prev = rows[i - 1];
+  const next = rows[i + 1];
+  const left = prev ? (sx(prev.year) + sx(d.year)) / 2 : plot.left;
+  const right = next ? (sx(next.year) + sx(d.year)) / 2 : plot.right;
+  return { ...d, left, width: right - left };
+});
+
+const series = [
+  { key: "onSitePct" as const, label: "Generated on site", color: "var(--viz-human)" },
+  { key: "purchasedPct" as const, label: "Bought from utilities", color: "var(--viz-ai)" },
+];
+const last = rows[rows.length - 1]!;
+const fmt = (n: number) => `${Math.round(n)}%`;
+---
+
+<VizFigure
+  title="Factories stopped making their own power"
+  subtitle="Share of electric motor capacity in US manufacturing, by where its electricity came from"
+  source="Source: <em>Historical Statistics of the United States</em>, Table Dd848-853 (Atack &amp; Bateman), horsepower of electric motors. See also Devine, “From Shafts to Wires”, 1983."
+>
+  <div data-controller="viz-reveal">
+    <Chart
+      width={W}
+      height={H}
+      label="In 1909, 64% of electric motor capacity ran on power generated on site. By 1919, 57% ran on power bought from utilities, and by 1929, 64%."
+    >
+      <YAxis plot={plot} y={sy} ticks={[0, 25, 50, 75, 100]} format={(tick) => `${tick}%`} />
+      <XAxis plot={plot} x={sx} ticks={rows.map((d) => d.year)} />
+
+      {series.map((s) => (
+        <path
+          d={linePath(rows.map((d) => [sx(d.year), sy(d[s.key])]))}
+          fill="none"
+          stroke={s.color}
+          stroke-width="2"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          pathLength="1"
+          data-viz-reveal-target="stroke"
+        />
+      ))}
+      {series.map((s) => rows.map((d) => <DataPoint cx={sx(d.year)} cy={sy(d[s.key])} color={s.color} r={4} />))}
+
+      <!-- Direct labels at the right end -->
+      {series.map((s) => (
+        <text
+          x={sx(last.year) - 6}
+          y={sy(last[s.key]) + (s.key === "purchasedPct" ? -12 : 18)}
+          text-anchor="end"
+          font-size="12"
+          font-weight="600"
+          fill="var(--viz-ink)"
+        >
+          {s.label}
+        </text>
+      ))}
+
+      <!-- Hover columns -->
+      {columns.map((d) => (
+        <g
+          class="group"
+          tabindex="0"
+          data-tip={`${d.year}: ${fmt(d.purchasedPct)} from utilities`}
+          data-tip-label={`${fmt(d.onSitePct)} generated on site · ${d.total.toLocaleString("en-US")}k hp of motors`}
+        >
+          <rect x={d.left} y={plot.top} width={d.width} height={plot.height} fill="transparent" />
+          <line
+            x1={sx(d.year)}
+            x2={sx(d.year)}
+            y1={plot.top}
+            y2={plot.bottom}
+            stroke="var(--viz-axis)"
+            class="opacity-0 group-hover:opacity-100 group-focus:opacity-100"
+          />
+        </g>
+      ))}
+    </Chart>
+
+    <Legend items={series.map((s) => ({ label: s.label, color: s.color, shape: "line" }))} />
+
+    <DataTable
+      columns={["Year", "On site", "Utilities", "Motor capacity (k hp)"]}
+      rows={rows.map((d) => [d.year, fmt(d.onSitePct), fmt(d.purchasedPct), d.total.toLocaleString("en-US")])}
+    />
+  </div>
+</VizFigure>

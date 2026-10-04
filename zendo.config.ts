@@ -57,11 +57,31 @@ const wrapTldr = (): Transformer => async (originalPath, originalContent) => {
   return { path: originalPath, content: matter.stringify(updatedContent, data) };
 };
 
+// Turns a `> [!figure] <name>` callout into a <Figure> component. In Obsidian
+// the callout renders as a placeholder box; any lines below the first are notes
+// for the garden and are dropped. Runs after `escapeMdx()`, or the component
+// tag would be escaped. <Figure> fails the build if no figure has that name.
+const embedFigures = (): Transformer => async (originalPath, originalContent) => {
+  // Skip binary files
+  if (Buffer.isBuffer(originalContent)) {
+    return { path: originalPath, content: originalContent };
+  }
+
+  const { data, content } = matter(originalContent);
+  const updatedContent = content.replace(
+    /^>[ \t]*\[!figure\][+-]?[ \t]+([\w-]+)[^\n]*(?:\n>[^\n]*)*/gim,
+    (_, name: string) => `<Figure name="${name.toLowerCase()}" />`
+  );
+
+  return { path: originalPath, content: matter.stringify(updatedContent, data) };
+};
+
 const digitalGardenTransformers = [
   removeFirstH1(),
   removeSection({ headingLevel: 2, title: "Metadata" }),
   ...baseTransformers,
   wrapTldr(),
+  embedFigures(),
 ];
 
 const config: Configuration<ZendoCollectionEntry> = {

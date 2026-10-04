@@ -1,0 +1,44 @@
+---
+import { targetAttr } from "src/lib/viz/stimulus";
+
+// A labeled 0–100 range input wired to a Stimulus controller.
+interface Props {
+  controller: string;
+  target: string;
+  label: string;
+  value: number;
+  // Controller method to call on input.
+  action?: string;
+  // Labels spread evenly under the track, e.g. ["Earlier", "Today", "Later"].
+  ticks?: string[];
+  class?: string;
+}
+
+const { controller, target, label, value, action = "update", ticks = [], class: className } = Astro.props;
+---
+
+<label class:list={["block", className]}>
+  <span class="mb-1.5 flex justify-between gap-3 font-medium text-stone-800">
+    <span>{label}</span>
+    {Astro.slots.has("summary") && (
+      <span class="font-normal text-stone-500">
+        <slot name="summary" />
+      </span>
+    )}
+  </span>
+  <input
+    type="range"
+    min="0"
+    max="100"
+    value={value}
+    data-action={`input->${controller}#${action}`}
+    {...targetAttr(controller, target)}
+  />
+  {ticks.length > 0 && (
+    <span class="mt-0.5 flex justify-between text-xs text-stone-500">
+      {ticks.map((tick) => (
+        <span>{tick}</span>
+      ))}
+    </span>
+  )}
+</label>

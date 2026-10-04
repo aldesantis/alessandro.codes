@@ -1,0 +1,103 @@
+---
+import VizFigure from "../ui/VizFigure.astro";
+import Legend from "../ui/Legend.astro";
+import Readout from "../ui/Readout.astro";
+import SegmentedControl from "../ui/SegmentedControl.astro";
+import MapCanvas from "./MapCanvas.astro";
+
+// From §4: the same profession is an advantage at one company and a necessity
+// at another.
+const professions = [
+  {
+    name: "Engineer",
+    companies: [
+      {
+        name: "Software company",
+        y: 0.88,
+        note: "Software is the product. As building gets cheaper, the cost of not building rises, so they’ll build more.",
+      },
+      {
+        name: "Consumer brand",
+        y: 0.16,
+        note: "Engineering is a necessity. The brand builds a good-enough store and stops.",
+      },
+    ],
+  },
+  {
+    name: "Designer",
+    companies: [
+      { name: "Fashion brand", y: 0.86, note: "Design is the advantage for a brand that competes on taste." },
+      { name: "B2B distributor", y: 0.14, note: "Design is a necessity. The distributor just needs a usable catalog." },
+    ],
+  },
+  {
+    name: "Scientist",
+    companies: [
+      {
+        name: "Pharma R&D",
+        y: 0.92,
+        note: "R&D’s job is, by definition, to find the original insight the company competes on.",
+      },
+      { name: "Quality control", y: 0.22, note: "The same scientist doing quality control is doing necessity work." },
+    ],
+  },
+  {
+    name: "Chef",
+    companies: [
+      { name: "Restaurant group", y: 0.9, note: "The chef developing the menu is the group’s R&D." },
+      { name: "Corporate cafeteria", y: 0.14, note: "Running a corporate cafeteria is necessity work." },
+    ],
+  },
+];
+
+const roles = [
+  { name: "Mostly executing", x: 0.22 },
+  { name: "Mostly deciding", x: 0.76 },
+];
+
+const first = professions[0]!;
+
+const controls = [
+  { label: "Profession", target: "professionButton", action: "selectProfession", options: professions },
+  { label: "Company", target: "companyButton", action: "selectCompany", options: first.companies },
+  { label: "Role", target: "roleButton", action: "selectRole", options: roles },
+];
+---
+
+<VizFigure title="Same profession, different company" subtitle="Pick a profession, then switch companies and roles.">
+  <div
+    data-controller="profession-map"
+    data-profession-map-professions-value={JSON.stringify(professions)}
+    data-profession-map-roles-value={JSON.stringify(roles)}
+    class="grid gap-6 md:grid-cols-[minmax(0,1fr)_16rem] md:items-start"
+  >
+    <div>
+      <MapCanvas controller="profession-map" x={roles[0]!.x} y={first.companies[0]!.y} dotLabel="" ghost />
+      <Legend
+        items={[
+          { label: "Selected company", color: "var(--viz-human)", shape: "dot" },
+          { label: "The other company", color: "var(--viz-human)", shape: "ring", opacity: 0.6 },
+          { label: "Absorbed by AI today", color: "var(--viz-ai)", fill: "var(--viz-ai-wash)", shape: "area" },
+        ]}
+      />
+    </div>
+
+    <div class="space-y-4 text-sm">
+      {controls.map((control) => (
+        <SegmentedControl
+          controller="profession-map"
+          target={control.target}
+          action={control.action}
+          label={control.label}
+          options={control.options.map((option) => ({ label: option.name }))}
+        />
+      ))}
+
+      <Readout>
+        <div class="font-semibold text-stone-800" data-profession-map-target="quadrant"></div>
+        <p class="mt-1 text-stone-600" data-profession-map-target="note"></p>
+        <p class="mt-2 text-stone-500" data-profession-map-target="description"></p>
+      </Readout>
+    </div>
+  </div>
+</VizFigure>

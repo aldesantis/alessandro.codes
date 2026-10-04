@@ -17,6 +17,20 @@
   font-family: var(--font-sans);
 }
 
+/* Axis tick labels. */
+.viz .viz-tick {
+  font-size: 11px;
+  fill: var(--viz-muted);
+}
+
+/* Keeps a label legible where it crosses gridlines or marks. */
+.viz .viz-halo {
+  paint-order: stroke;
+  stroke: var(--viz-surface);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
 .viz input[type="range"] {
   width: 100%;
   accent-color: var(--viz-ink);

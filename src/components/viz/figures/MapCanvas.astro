@@ -1,5 +1,7 @@
 ---
+import Chart from "../chart/Chart.astro";
 import { PLOT, VIEWBOX, TODAY, toX, toY, frontierLevel, frontierPath, frontierEdge } from "src/lib/viz/strategy-map";
+import { targetAttr } from "src/lib/viz/stimulus";
 
 interface Props {
   // Stimulus identifier that owns the targets.
@@ -11,7 +13,7 @@ interface Props {
 }
 
 const { controller, x, y, dotLabel = "You", ghost = false } = Astro.props;
-const target = (name: string) => ({ [`data-${controller}-target`]: name });
+const target = (name: string) => targetAttr(controller, name);
 const level = frontierLevel(TODAY);
 const midX = toX(0.5);
 const midY = toY(0.5);
@@ -19,11 +21,11 @@ const right = PLOT.left + PLOT.width;
 const bottom = PLOT.top + PLOT.height;
 ---
 
-<svg
-  viewBox={`0 0 ${VIEWBOX.width} ${VIEWBOX.height}`}
-  class="h-auto w-full max-w-[30rem]"
-  role="img"
-  aria-label="Map of work: necessity to advantage on the vertical axis, execution to strategy on the horizontal axis"
+<Chart
+  width={VIEWBOX.width}
+  height={VIEWBOX.height}
+  class="w-full max-w-[30rem]"
+  label="Map of work: necessity to advantage on the vertical axis, execution to strategy on the horizontal axis"
 >
   <!-- Frontier: the area AI has absorbed -->
   <path d={frontierPath(level)} fill="var(--viz-ai-wash)" class="viz-animate" {...target("frontierArea")} />
@@ -122,12 +124,10 @@ const bottom = PLOT.top + PLOT.height;
       font-size="12"
       font-weight="600"
       fill="var(--viz-ink)"
-      paint-order="stroke"
-      stroke="var(--viz-surface)"
-      stroke-width="4"
+      class="viz-halo"
       {...target("dotLabel")}
     >
       {dotLabel}
     </text>
   </g>
-</svg>
+</Chart>

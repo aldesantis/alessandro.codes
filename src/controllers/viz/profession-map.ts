@@ -1,5 +1,6 @@
 import { Controller } from "@hotwired/stimulus";
 import { quadrantFor, toX, toY } from "../../lib/viz/strategy-map";
+import { eventIndex, setAttributes, setPressed } from "./helpers";
 
 interface Company {
   name: string;
@@ -54,22 +55,18 @@ export default class ProfessionMapController extends Controller {
   }
 
   selectProfession(event: Event) {
-    this.profession = this.indexOf(event);
+    this.profession = eventIndex(event);
     this.render();
   }
 
   selectCompany(event: Event) {
-    this.company = this.indexOf(event);
+    this.company = eventIndex(event);
     this.render();
   }
 
   selectRole(event: Event) {
-    this.role = this.indexOf(event);
+    this.role = eventIndex(event);
     this.render();
-  }
-
-  private indexOf(event: Event) {
-    return Number((event.currentTarget as HTMLElement).dataset.index);
   }
 
   private render() {
@@ -78,29 +75,20 @@ export default class ProfessionMapController extends Controller {
     const other = profession.companies[1 - this.company]!;
     const x = this.rolesValue[this.role]!.x;
 
-    this.press(this.professionButtonTargets, this.profession);
-    this.press(this.companyButtonTargets, this.company);
-    this.press(this.roleButtonTargets, this.role);
+    setPressed(this.professionButtonTargets, this.profession);
+    setPressed(this.companyButtonTargets, this.company);
+    setPressed(this.roleButtonTargets, this.role);
     this.companyButtonTargets.forEach((button, index) => {
       button.textContent = profession.companies[index]!.name;
     });
 
-    this.dotTarget.setAttribute("cx", String(toX(x)));
-    this.dotTarget.setAttribute("cy", String(toY(company.y)));
-    this.ghostTarget.setAttribute("cx", String(toX(x)));
-    this.ghostTarget.setAttribute("cy", String(toY(other.y)));
-    this.connectorTarget.setAttribute("x1", String(toX(x)));
-    this.connectorTarget.setAttribute("x2", String(toX(x)));
-    this.connectorTarget.setAttribute("y1", String(toY(company.y)));
-    this.connectorTarget.setAttribute("y2", String(toY(other.y)));
+    setAttributes(this.dotTarget, { cx: toX(x), cy: toY(company.y) });
+    setAttributes(this.ghostTarget, { cx: toX(x), cy: toY(other.y) });
+    setAttributes(this.connectorTarget, { x1: toX(x), x2: toX(x), y1: toY(company.y), y2: toY(other.y) });
 
     const quadrant = quadrantFor(x, company.y);
     this.quadrantTarget.textContent = `${profession.name} · ${company.name}: ${quadrant.name}`;
     this.noteTarget.textContent = company.note;
     this.descriptionTarget.textContent = quadrant.text;
-  }
-
-  private press(buttons: HTMLButtonElement[], selected: number) {
-    buttons.forEach((button, index) => button.setAttribute("aria-pressed", String(index === selected)));
   }
 }

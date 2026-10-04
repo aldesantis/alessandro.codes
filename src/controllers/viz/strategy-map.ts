@@ -10,6 +10,7 @@ import {
   toX,
   toY,
 } from "../../lib/viz/strategy-map";
+import { setAttributes } from "./helpers";
 
 // Places the reader on the advantage/strategy map and lets them move AI's
 // frontier forward to see when their work gets absorbed.
@@ -53,13 +54,14 @@ export default class StrategyMapController extends Controller {
     this.frontierAreaTarget.setAttribute("d", frontierPath(level));
     this.frontierEdgeTarget.setAttribute("d", frontierEdge(level));
 
-    this.dotTarget.setAttribute("cx", String(toX(x)));
-    this.dotTarget.setAttribute("cy", String(toY(y)));
+    setAttributes(this.dotTarget, { cx: toX(x), cy: toY(y) });
     // Flip the label to the left of the dot near the right edge.
     const flip = x > 0.85;
-    this.dotLabelTarget.setAttribute("x", String(toX(x) + (flip ? -14 : 14)));
-    this.dotLabelTarget.setAttribute("y", String(toY(y) + 4));
-    this.dotLabelTarget.setAttribute("text-anchor", flip ? "end" : "start");
+    setAttributes(this.dotLabelTarget, {
+      x: toX(x) + (flip ? -14 : 14),
+      y: toY(y) + 4,
+      "text-anchor": flip ? "end" : "start",
+    });
 
     const quadrant = quadrantFor(x, y);
     this.quadrantTarget.textContent = quadrant.name;

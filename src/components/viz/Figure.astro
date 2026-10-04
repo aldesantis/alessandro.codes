@@ -1,0 +1,16 @@
+---
+import { figures } from "./registry";
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+const Component = figures[name];
+
+if (!Component) {
+  throw new Error(`Unknown figure "${name}". Register it in src/components/viz/registry.ts.`);
+}
+---
+
+<Component />

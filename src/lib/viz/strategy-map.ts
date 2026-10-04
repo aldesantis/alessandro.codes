@@ -2,11 +2,13 @@
 // (1), y from necessity (0) to advantage (1). Imported by both the Astro
 // component (static SVG) and the Stimulus controllers (live updates).
 
+import { linePath, linearScale } from "./chart";
+
 export const PLOT = { left: 44, top: 12, width: 340, height: 320 };
 export const VIEWBOX = { width: PLOT.left + PLOT.width + 8, height: PLOT.top + PLOT.height + 40 };
 
-export const toX = (v: number) => PLOT.left + v * PLOT.width;
-export const toY = (v: number) => PLOT.top + (1 - v) * PLOT.height;
+export const toX = linearScale([0, 1], [PLOT.left, PLOT.left + PLOT.width]);
+export const toY = linearScale([0, 1], [PLOT.top + PLOT.height, PLOT.top]);
 
 // AI absorbs execution before strategy, and necessities before advantages, so
 // "exposure" weighs the x axis more than the y axis.
@@ -30,20 +32,20 @@ export function frontierPath(level: number): string {
     points.push([x, y]);
   }
   points.push([1, 0]);
-  return "M" + points.map(([x, y]) => `${toX(x).toFixed(1)},${toY(y).toFixed(1)}`).join("L") + "Z";
+  return linePath(points.map(([x, y]) => [toX(x), toY(y)])) + "Z";
 }
 
 // Just the boundary, for the stroked edge of the frontier.
 export function frontierEdge(level: number): string {
-  const points: string[] = [];
+  const points: [number, number][] = [];
   const steps = 60;
   for (let i = 0; i <= steps; i++) {
     const x = i / steps;
     const raw = (level - WEIGHT_X * x) / WEIGHT_Y;
     if (raw < 0 || raw > 1) continue;
-    points.push(`${toX(x).toFixed(1)},${toY(raw).toFixed(1)}`);
+    points.push([toX(x), toY(raw)]);
   }
-  return points.length > 1 ? "M" + points.join("L") : "";
+  return points.length > 1 ? linePath(points) : "";
 }
 
 export interface Quadrant {

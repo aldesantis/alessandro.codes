@@ -1,0 +1,43 @@
+---
+// Swatch + label pairs. Pick the shape that matches the mark it explains.
+export interface LegendItem {
+  label: string;
+  color: string;
+  shape: "line" | "dot" | "square" | "ring" | "area";
+  // Fill for "area", drawn under a `color` top edge.
+  fill?: string;
+  opacity?: number;
+}
+
+interface Props {
+  items: LegendItem[];
+  class?: string;
+}
+
+const { items, class: className = "mt-2" } = Astro.props;
+
+const shapeClass = {
+  line: "h-0.5 w-3.5 rounded",
+  dot: "h-2.5 w-2.5 rounded-full",
+  square: "h-2.5 w-2.5 rounded-sm",
+  ring: "h-2.5 w-2.5 rounded-full border-2",
+  area: "h-2.5 w-3.5 rounded-sm border-t-2",
+};
+
+const swatchStyle = (item: LegendItem) => {
+  const styles = [`opacity:${item.opacity ?? 1}`];
+  if (item.shape === "ring" || item.shape === "area") styles.push(`border-color:${item.color}`);
+  if (item.shape === "area") styles.push(`background:${item.fill ?? "transparent"}`);
+  else if (item.shape !== "ring") styles.push(`background:${item.color}`);
+  return styles.join(";");
+};
+---
+
+<div class:list={["flex flex-wrap gap-x-4 gap-y-1 text-xs text-stone-600", className]}>
+  {items.map((item) => (
+    <span class="inline-flex items-center gap-1.5">
+      <span class:list={["inline-block shrink-0", shapeClass[item.shape]]} style={swatchStyle(item)} />
+      {item.label}
+    </span>
+  ))}
+</div>
