@@ -8,6 +8,7 @@ import "@styles/global.css";
 
 const SITE_NAME = "Alessandro Desantis";
 const SITE_URL = "https://alessandro.codes";
+const DEFAULT_IMAGE = "/og-default.png";
 const DEFAULT_DESCRIPTION =
   "Alessandro Desantis is a writer, engineer, and strategist based in Rome, Italy, and a Partner at Nebulab.";
 
@@ -16,12 +17,23 @@ export interface Props {
   title?: string;
   description?: string;
   type?: "website" | "article";
+  /** Social preview image (absolute URL or site-relative path), 1200×630. */
+  image?: string;
+  /** Emitted as `article:published_time` when `type` is "article". */
+  publishedTime?: Date;
 }
 
-const { title, description = DEFAULT_DESCRIPTION, type = "website" } = Astro.props;
+const {
+  title,
+  description = DEFAULT_DESCRIPTION,
+  type = "website",
+  image = DEFAULT_IMAGE,
+  publishedTime,
+} = Astro.props;
 
 const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? SITE_URL).href;
+const imageUrl = new URL(image, Astro.site ?? SITE_URL).href;
 ---
 
 <!doctype html>
@@ -31,9 +43,10 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? SITE_URL).href;
 >
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light" />
-    <meta name="theme-color" content="oklch(0.982 0.004 80)" />
+    <!-- --color-paper, oklch(0.982 0.004 80), as hex for browser chrome -->
+    <meta name="theme-color" content="#faf9f6" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
@@ -46,9 +59,14 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? SITE_URL).href;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:type" content={type} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content={imageUrl} />
+    {type === "article" && publishedTime && (
+      <meta property="article:published_time" content={publishedTime.toISOString()} />
+    )}
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageUrl} />
 
     <Font cssVariable="--font-domine" preload />
     <Font cssVariable="--font-source-sans" preload />
