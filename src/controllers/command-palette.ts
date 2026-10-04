@@ -11,11 +11,6 @@ type SearchResultResponse = SearchResult & {
 
 type FetchOutcome = { ok: true; items: SearchResultResponse[] } | { ok: false };
 
-interface StatusColors {
-  selected: string;
-  default: string;
-}
-
 const OPTION_ID_PREFIX = "command-palette-option-";
 const HIDDEN_STATE_CLASSES = {
   backdrop: ["opacity-0"],
@@ -67,19 +62,10 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
     evergreen: "🌳",
   };
 
-  readonly STATUS_COLORS: Record<StatusType, StatusColors> = {
-    seedling: {
-      selected: "bg-green-700 text-white",
-      default: "bg-green-100 text-green-800",
-    },
-    budding: {
-      selected: "bg-yellow-700 text-white",
-      default: "bg-yellow-100 text-yellow-800",
-    },
-    evergreen: {
-      selected: "bg-blue-700 text-white",
-      default: "bg-blue-100 text-blue-800",
-    },
+  readonly STATUS_COLORS: Record<StatusType, string> = {
+    seedling: "bg-green-100 text-green-800",
+    budding: "bg-yellow-100 text-yellow-800",
+    evergreen: "bg-blue-100 text-blue-800",
   };
 
   override disconnect(): void {
@@ -91,7 +77,8 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
   }
 
   // UI Control Methods
-  open(trigger?: HTMLElement): void {
+  // Keyboard-initiated opens are instant; pointer opens get the short enter animation.
+  open(trigger?: HTMLElement, { animate = false }: { animate?: boolean } = {}): void {
     if (this.closeTimeout !== null) {
       // Re-opened while the exit animation was running: just animate back in.
       window.clearTimeout(this.closeTimeout);
@@ -108,10 +95,20 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
 
     this.searchTarget.focus();
 
-    // Force a style flush so the enter transition starts from the hidden state.
-    void this.panelTarget.offsetWidth;
-    this.backdropTarget.classList.remove(...HIDDEN_STATE_CLASSES.backdrop);
-    this.panelTarget.classList.remove(...HIDDEN_STATE_CLASSES.panel);
+    if (animate) {
+      // Force a style flush so the enter transition starts from the hidden state.
+      void this.panelTarget.offsetWidth;
+      this.showPanel();
+    } else {
+      this.withoutTransitions(() => this.showPanel());
+    }
+  }
+
+  // Close without the exit animation (keyboard, close button, navigation).
+  closeNow(): void {
+    if (this.dialogTarget.open) {
+      this.dialogTarget.close();
+    }
   }
 
   close(): void {
@@ -126,6 +123,20 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
     }, this.ANIMATION_DURATION);
   }
 
+  private showPanel(): void {
+    this.backdropTarget.classList.remove(...HIDDEN_STATE_CLASSES.backdrop);
+    this.panelTarget.classList.remove(...HIDDEN_STATE_CLASSES.panel);
+  }
+
+  private withoutTransitions(change: () => void): void {
+    const elements = [this.backdropTarget, this.panelTarget];
+    elements.forEach((el) => (el.style.transition = "none"));
+    change();
+    // Commit the new styles before restoring transitions.
+    void this.panelTarget.offsetWidth;
+    elements.forEach((el) => (el.style.transition = ""));
+  }
+
   isOpen(): boolean {
     return this.dialogTarget.open && this.closeTimeout === null;
   }
@@ -137,12 +148,12 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
     return this.dateFormatter.format(new Date(date));
   }
 
-  getStatusBadge(status: StatusType | undefined, isSelected: boolean = false): string {
+  getStatusBadge(status: StatusType | undefined): string {
     if (!status || !(status in this.STATUS_ICONS)) return "";
 
     const statusKey = status as StatusType;
     const icon = this.STATUS_ICONS[statusKey];
-    const colorClass = isSelected ? this.STATUS_COLORS[statusKey].selected : this.STATUS_COLORS[statusKey].default;
+    const colorClass = this.STATUS_COLORS[statusKey];
 
     return `<span class="text-xs px-2 py-0.5 rounded-full ${colorClass}">${icon} ${status}</span>`;
   }
@@ -217,6 +228,8 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
         return;
       }
 
+      // Highlight the first result so Enter works straight away.
+      this.selectedIndex = 0;
       const count = this.filteredItems.length;
       this.setStatus(`${count} ${count === 1 ? "result" : "results"} available.`, { visuallyHidden: true });
       this.renderSearchResults();
@@ -269,7 +282,7 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
 
         const statusBadge = itemLink.querySelector<HTMLElement>(".status-badge");
         if (item.status && statusBadge) {
-          statusBadge.innerHTML = this.getStatusBadge(item.status, isSelected);
+          statusBadge.innerHTML = this.getStatusBadge(item.status);
         } else if (statusBadge) {
           statusBadge.remove();
         }
@@ -298,17 +311,8 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
     this.resultsTarget.querySelectorAll<HTMLElement>("[data-index]").forEach((item) => {
       const itemIndex = parseInt(item.dataset.index || "0", 10);
       const isSelected = itemIndex === this.selectedIndex;
-      const currentItem = this.filteredItems[itemIndex];
 
       item.setAttribute("aria-selected", String(isSelected));
-
-      const statusBadge = item.querySelector<HTMLElement>(".status-badge > span");
-      if (statusBadge && currentItem?.status) {
-        const status = currentItem.status as StatusType;
-        const colorClass = isSelected ? this.STATUS_COLORS[status].selected : this.STATUS_COLORS[status].default;
-
-        statusBadge.className = `text-xs px-2 py-0.5 rounded-full ${colorClass}`;
-      }
 
       if (isSelected) {
         item.scrollIntoView({ block: "nearest" });
@@ -322,9 +326,15 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
     }
   }
 
-  selectItem(item: SearchResultResponse): void {
+  selectItem(item: SearchResultResponse, { newTab = false }: { newTab?: boolean } = {}): void {
+    if (newTab) {
+      // Like a Cmd-click: open in the background and keep the palette open.
+      window.open(item.url, "_blank", "noopener");
+      return;
+    }
+
+    this.closeNow();
     window.location.href = item.url;
-    this.close();
   }
 
   // Event Handlers
@@ -336,7 +346,8 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
     if (!toggle) return;
 
     e.preventDefault();
-    this.open(toggle);
+    // `detail` is 0 when the button was activated from the keyboard.
+    this.open(toggle, { animate: e.detail > 0 });
   }
 
   handleDialogClick(e: MouseEvent): void {
@@ -344,12 +355,6 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
     if (e.target instanceof Node && !this.panelTarget.contains(e.target)) {
       this.close();
     }
-  }
-
-  handleCancel(e: Event): void {
-    // Run the exit animation instead of closing instantly on Escape.
-    e.preventDefault();
-    this.close();
   }
 
   handleClose(): void {
@@ -372,13 +377,16 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
   }
 
   handleResultClick(e: MouseEvent): void {
-    if (e.target instanceof Element && e.target.closest("[data-index]")) {
-      // The browser handles navigation via the href attribute.
-      this.close();
-    }
+    if (!(e.target instanceof Element) || !e.target.closest("[data-index]")) return;
+    // Modified clicks open a new tab natively; keep the palette open for those.
+    if (e.metaKey || e.ctrlKey || e.shiftKey) return;
+
+    // The browser handles navigation via the href attribute.
+    this.closeNow();
   }
 
-  handleResultHover(e: MouseEvent): void {
+  // pointermove (not mouseover) so rows scrolling under a still cursor don't steal the selection.
+  handleResultHover(e: PointerEvent): void {
     const option = e.target instanceof Element ? e.target.closest<HTMLElement>("[data-index]") : null;
     if (!option) return;
 
@@ -411,9 +419,9 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
 
       case "Enter": {
         e.preventDefault();
-        const item = this.filteredItems[this.selectedIndex];
+        const item = this.filteredItems[this.selectedIndex] ?? this.filteredItems[0];
         if (item) {
-          this.selectItem(item);
+          this.selectItem(item, { newTab: e.metaKey || e.ctrlKey });
         }
         break;
       }
@@ -421,11 +429,11 @@ export default class CommandPaletteController extends Controller<HTMLDialogEleme
   }
 
   handleGlobalKeydown(e: KeyboardEvent): void {
-    if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
       e.preventDefault();
 
       if (this.isOpen()) {
-        this.close();
+        this.closeNow();
       } else {
         this.open();
       }
