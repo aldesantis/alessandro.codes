@@ -3042,6 +3042,50 @@
   },
   {
     "ids": [
+      "AI absorbs work in a predictable order",
+      "ai-absorbs-work-in-a-predictable-order"
+    ],
+    "slug": "ai-absorbs-work-in-a-predictable-order",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
+      {
+        "slug": "tacit-knowledge-is-hard-to-capture",
+        "type": "notes"
+      },
+      {
+        "slug": "context-is-relational",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-and-execution-are-a-spectrum",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "strategy-and-execution-are-a-spectrum",
+        "type": "notes"
+      },
+      {
+        "slug": "tacit-knowledge-is-hard-to-capture",
+        "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
+  },
+  {
+    "ids": [
       "AI allows hyper-personalization",
       "ai-allows-hyper-personalization"
     ],
@@ -3091,15 +3135,27 @@
       {
         "slug": "efficiency-is-not-effectiveness",
         "type": "notes"
+      },
+      {
+        "slug": "cheaper-execution-raises-the-cost-of-not-executing",
+        "type": "notes"
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "cheaper-execution-raises-the-cost-of-not-executing",
+        "type": "notes"
+      },
       {
         "slug": "collaboration-is-either-generative-or-reactive",
         "type": "notes"
       },
       {
         "slug": "efficiency-is-not-effectiveness",
+        "type": "notes"
+      },
+      {
+        "slug": "ideas-look-better-before-theyre-executed",
         "type": "notes"
       },
       {
@@ -3173,6 +3229,10 @@
         "type": "notes"
       },
       {
+        "slug": "context-is-relational",
+        "type": "notes"
+      },
+      {
         "slug": "best-practices-are-a-floor-not-a-ceiling",
         "type": "notes"
       },
@@ -3186,6 +3246,14 @@
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "context-is-relational",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
       {
         "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
         "type": "essays"
@@ -3403,6 +3471,10 @@
         "type": "notes"
       },
       {
+        "slug": "ideas-look-better-before-theyre-executed",
+        "type": "notes"
+      },
+      {
         "slug": "ideas-need-to-be-grappled-with",
         "type": "notes"
       },
@@ -3461,6 +3533,10 @@
         "type": "notes"
       },
       {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
+      {
         "slug": "rethinking-best-practices",
         "type": "articles"
       }
@@ -3468,6 +3544,10 @@
     "inboundLinks": [
       {
         "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-converge-on-the-standard-answer",
         "type": "notes"
       },
       {
@@ -3834,6 +3914,30 @@
   },
   {
     "ids": [
+      "Capabilities move to those for whom they’re the product",
+      "capabilities-move-to-those-for-whom-theyre-the-product"
+    ],
+    "slug": "capabilities-move-to-those-for-whom-theyre-the-product",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "whether-a-function-is-an-advantage-depends-on-the-company",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-have-a-point-of-diminishing-returns",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Change requires an activation energy",
       "change-requires-an-activation-energy"
     ],
@@ -3933,6 +4037,42 @@
       {
         "slug": "the-map-is-not-the-territory",
         "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Cheaper execution raises the cost of not executing",
+      "cheaper-execution-raises-the-cost-of-not-executing"
+    ],
+    "slug": "cheaper-execution-raises-the-cost-of-not-executing",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-have-a-point-of-diminishing-returns",
+        "type": "notes"
+      },
+      {
+        "slug": "whether-a-function-is-an-advantage-depends-on-the-company",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-have-a-point-of-diminishing-returns",
+        "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -4166,6 +4306,10 @@
     "outboundLinks": [
       {
         "slug": "good-strategy-is-simple",
+        "type": "notes"
+      },
+      {
+        "slug": "efficiency-must-be-defensible",
         "type": "notes"
       },
       {
@@ -4433,6 +4577,46 @@
       {
         "slug": "2025-03",
         "type": "nows"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Context is relational",
+      "context-is-relational"
+    ],
+    "slug": "context-is-relational",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "strategy-requires-original-insights",
+        "type": "notes"
+      },
+      {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      },
+      {
+        "slug": "tacit-knowledge-is-hard-to-capture",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "ai-absorbs-work-in-a-predictable-order",
+        "type": "notes"
+      },
+      {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-original-insights",
+        "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -5048,6 +5232,14 @@
         "type": "notes"
       },
       {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-original-insights",
+        "type": "notes"
+      },
+      {
         "slug": "good-strategy-bad-strategy",
         "type": "books"
       },
@@ -5058,7 +5250,15 @@
     ],
     "inboundLinks": [
       {
+        "slug": "competitive-advantage-is-your-value-cost-gap",
+        "type": "notes"
+      },
+      {
         "slug": "economies-of-scale-are-not-exclusive",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-original-insights",
         "type": "notes"
       },
       {
@@ -5303,6 +5503,54 @@
       {
         "slug": "information-abundance-causes-cultural-fragmentation",
         "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Execution is translation, strategy is meaningmaking",
+      "execution-is-translation-strategy-is-meaningmaking"
+    ],
+    "slug": "execution-is-translation-strategy-is-meaningmaking",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "wiseness-is-knowing-whats-worth-wanting",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-and-execution-are-a-spectrum",
+        "type": "notes"
+      },
+      {
+        "slug": "ais-meaning-making-problem",
+        "type": "articles"
+      },
+      {
+        "slug": "building-ai-tools-for-better-meaning-making",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "ai-absorbs-work-in-a-predictable-order",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-and-execution-are-a-spectrum",
+        "type": "notes"
+      },
+      {
+        "slug": "wiseness-is-knowing-whats-worth-wanting",
+        "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -5831,6 +6079,34 @@
     "type": "notes",
     "outboundLinks": [],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ideas look better before they’re executed",
+      "ideas-look-better-before-theyre-executed"
+    ],
+    "slug": "ideas-look-better-before-theyre-executed",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "be-wary-of-flawless-ideas",
+        "type": "notes"
+      },
+      {
+        "slug": "the-map-is-not-the-territory",
+        "type": "notes"
+      },
+      {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
   },
   {
     "ids": [
@@ -6909,6 +7185,94 @@
   },
   {
     "ids": [
+      "Necessities converge on the standard answer",
+      "necessities-converge-on-the-standard-answer"
+    ],
+    "slug": "necessities-converge-on-the-standard-answer",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "best-practices-are-a-floor-not-a-ceiling",
+        "type": "notes"
+      },
+      {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-have-a-point-of-diminishing-returns",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-and-execution-are-a-spectrum",
+        "type": "notes"
+      },
+      {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "ai-absorbs-work-in-a-predictable-order",
+        "type": "notes"
+      },
+      {
+        "slug": "best-practices-are-a-floor-not-a-ceiling",
+        "type": "notes"
+      },
+      {
+        "slug": "efficiency-must-be-defensible",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-have-a-point-of-diminishing-returns",
+        "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Necessities have a point of diminishing returns",
+      "necessities-have-a-point-of-diminishing-returns"
+    ],
+    "slug": "necessities-have-a-point-of-diminishing-returns",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
+      {
+        "slug": "cheaper-execution-raises-the-cost-of-not-executing",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "capabilities-move-to-those-for-whom-theyre-the-product",
+        "type": "notes"
+      },
+      {
+        "slug": "cheaper-execution-raises-the-cost-of-not-executing",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
+  },
+  {
+    "ids": [
       "NFTs create transparency into the value of cultural artifacts",
       "nf-ts-create-transparency-into-the-value-of-cultural-artifacts"
     ],
@@ -7581,6 +7945,10 @@
         "type": "notes"
       },
       {
+        "slug": "whether-a-function-is-an-advantage-depends-on-the-company",
+        "type": "notes"
+      },
+      {
         "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
         "type": "essays"
       }
@@ -8189,6 +8557,42 @@
   },
   {
     "ids": [
+      "Strategy and execution are a spectrum",
+      "strategy-and-execution-are-a-spectrum"
+    ],
+    "slug": "strategy-and-execution-are-a-spectrum",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      },
+      {
+        "slug": "ai-absorbs-work-in-a-predictable-order",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "ai-absorbs-work-in-a-predictable-order",
+        "type": "notes"
+      },
+      {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Strategy deals with present challenges",
       "strategy-deals-with-present-challenges"
     ],
@@ -8302,11 +8706,36 @@
     ],
     "slug": "strategy-requires-original-insights",
     "type": "notes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "efficiency-must-be-defensible",
+        "type": "notes"
+      },
+      {
+        "slug": "tacit-knowledge-is-hard-to-capture",
+        "type": "notes"
+      },
+      {
+        "slug": "context-is-relational",
+        "type": "notes"
+      }
+    ],
     "inboundLinks": [
       {
         "slug": "strategy",
         "type": "topics"
+      },
+      {
+        "slug": "context-is-relational",
+        "type": "notes"
+      },
+      {
+        "slug": "efficiency-must-be-defensible",
+        "type": "notes"
+      },
+      {
+        "slug": "whether-a-function-is-an-advantage-depends-on-the-company",
+        "type": "notes"
       },
       {
         "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
@@ -8681,6 +9110,10 @@
         "type": "notes"
       },
       {
+        "slug": "ai-absorbs-work-in-a-predictable-order",
+        "type": "notes"
+      },
+      {
         "slug": "yann-lecun-on-a-vision-to-make-ai-systems-learn-and-reason-like-animals-and-humans",
         "type": "articles"
       }
@@ -8691,11 +9124,23 @@
         "type": "topics"
       },
       {
+        "slug": "ai-absorbs-work-in-a-predictable-order",
+        "type": "notes"
+      },
+      {
+        "slug": "context-is-relational",
+        "type": "notes"
+      },
+      {
         "slug": "explicit-knowledge-can-be-captured",
         "type": "notes"
       },
       {
         "slug": "learning-is-a-four-phase-process",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-original-insights",
         "type": "notes"
       },
       {
@@ -8815,6 +9260,10 @@
         "type": "notes"
       },
       {
+        "slug": "ideas-look-better-before-theyre-executed",
+        "type": "notes"
+      },
+      {
         "slug": "post-rationalization-can-lead-to-survivorship-bias",
         "type": "notes"
       },
@@ -8850,6 +9299,10 @@
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "whether-a-function-is-an-advantage-depends-on-the-company",
+        "type": "notes"
+      },
       {
         "slug": "wiseness-is-knowing-whats-worth-wanting",
         "type": "notes"
@@ -9310,6 +9763,42 @@
   },
   {
     "ids": [
+      "Whether a function is an advantage depends on the company",
+      "whether-a-function-is-an-advantage-depends-on-the-company"
+    ],
+    "slug": "whether-a-function-is-an-advantage-depends-on-the-company",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "the-new-luxury-is-about-taste-not-wealth",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-original-insights",
+        "type": "notes"
+      },
+      {
+        "slug": "regulation-can-create-opportunity",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "capabilities-move-to-those-for-whom-theyre-the-product",
+        "type": "notes"
+      },
+      {
+        "slug": "cheaper-execution-raises-the-cost-of-not-executing",
+        "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
+  },
+  {
+    "ids": [
       "Wholesale boosts brand awareness",
       "wholesale-boosts-brand-awareness"
     ],
@@ -9377,11 +9866,19 @@
         "type": "notes"
       },
       {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      },
+      {
         "slug": "brain-food-causing-extraordinary",
         "type": "articles"
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      },
       {
         "slug": "the-new-luxury-is-about-taste-not-wealth",
         "type": "notes"
@@ -12263,6 +12760,22 @@
     "type": "essays",
     "outboundLinks": [
       {
+        "slug": "capabilities-move-to-those-for-whom-theyre-the-product",
+        "type": "notes"
+      },
+      {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-and-execution-are-a-spectrum",
+        "type": "notes"
+      },
+      {
+        "slug": "necessities-have-a-point-of-diminishing-returns",
+        "type": "notes"
+      },
+      {
         "slug": "efficiency-must-be-defensible",
         "type": "notes"
       },
@@ -12283,11 +12796,23 @@
         "type": "notes"
       },
       {
+        "slug": "necessities-converge-on-the-standard-answer",
+        "type": "notes"
+      },
+      {
         "slug": "all-good-strategies-are-unique",
         "type": "notes"
       },
       {
         "slug": "best-practices-are-a-floor-not-a-ceiling",
+        "type": "notes"
+      },
+      {
+        "slug": "whether-a-function-is-an-advantage-depends-on-the-company",
+        "type": "notes"
+      },
+      {
+        "slug": "cheaper-execution-raises-the-cost-of-not-executing",
         "type": "notes"
       },
       {
@@ -12299,7 +12824,19 @@
         "type": "notes"
       },
       {
+        "slug": "context-is-relational",
+        "type": "notes"
+      },
+      {
         "slug": "tacit-knowledge-is-hard-to-capture",
+        "type": "notes"
+      },
+      {
+        "slug": "ideas-look-better-before-theyre-executed",
+        "type": "notes"
+      },
+      {
+        "slug": "ai-absorbs-work-in-a-predictable-order",
         "type": "notes"
       }
     ],
@@ -15882,7 +16419,12 @@
     "slug": "ais-meaning-making-problem",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -17606,7 +18148,12 @@
     "slug": "building-ai-tools-for-better-meaning-making",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "execution-is-translation-strategy-is-meaningmaking",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
