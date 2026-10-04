@@ -1,28 +1,30 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import Meta from "@components/ui/Meta.astro";
 import TopicList from "@components/content/topics/TopicList.astro";
 import RelativeDate from "@components/ui/RelativeDate.astro";
+
 export interface Props {
   content: CollectionEntry<"books">;
+  /** Card mode: just the author, since a "revisited" date is noise on a book card. */
   compact?: boolean;
 }
 
 const { content, compact = false } = Astro.props;
 ---
 
-<div class="text-sm text-stone-500 font-sans">
-  <span>By {content.data.author}</span>
+<Meta>
+  {content.data.author && <span data-wrap>By {content.data.author}</span>}
 
-  <span class="mx-0.5">•</span>
-
-  <span>
-    Revisited <RelativeDate date={content.data.updatedAt} />
-  </span>
+  {!compact && content.data.updatedAt && (
+    <span>
+      Revisited <RelativeDate date={content.data.updatedAt} />
+    </span>
+  )}
 
   {!compact && content.data.topics && content.data.topics.length > 0 && (
-    <>
-      <span class="mx-0.5">•</span>
+    <span data-wrap>
       <TopicList topics={content.data.topics} />
-    </>
+    </span>
   )}
-</div>
+</Meta>

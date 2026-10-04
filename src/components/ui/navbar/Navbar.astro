@@ -9,78 +9,100 @@ import { getHeaderNavigation, isItemActive, type NavigationItem, type Navigation
 
 const currentPath = Astro.url.pathname;
 const headerNavigation = getHeaderNavigation();
+
+// 44px hit area around a 24px icon; the negative margin keeps the layout unchanged.
+const iconButtonClass = [
+  "grid size-11 -m-2.5 cursor-pointer place-items-center rounded-md text-ink hover:text-link",
+  "transition-[color,scale] duration-150 ease-out-strong active:scale-[0.95] motion-reduce:active:scale-100",
+  "focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-link",
+];
 ---
 
-<div class="relative" data-controller="navbar">
-  <div class="py-4 border-b border-gray-200">
+<div data-controller="navbar">
+  <header class="py-4 border-b border-rule" data-navbar-target="bar">
     <div class="container" data-js-navbar>
-      <nav class="flex items-center justify-between font-sans">
+      <div class="flex items-center justify-between font-sans">
         <div class="flex flex-1">
           <Link href="/" class="font-semibold" variant="secondary">
             Alessandro Desantis
           </Link>
         </div>
 
-        <div class:list={["hidden flex-col gap-y-4", "md:flex md:flex-row md:gap-x-4", "flex-1 justify-end"]}>
-          {headerNavigation.map((item: NavigationItem) => {
-            if (item.children && item.children.length > 0) {
-              return (
-                <div class="whitespace-nowrap">
-                  <Dropdown label={item.text} href={item.href} active={isItemActive(item, currentPath)}>
-                    {item.children.map((child: NavigationLeaf) => (
-                      <DropdownItem href={child.href} active={isItemActive(child, currentPath)}>
-                        {child.text}
-                      </DropdownItem>
-                    ))}
-                  </Dropdown>
-                </div>
-              );
-            } else {
-              return (
-                <div class="whitespace-nowrap">
-                  <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)}>
-                    {item.text}
-                  </Link>
-                </div>
-              );
-            }
-          })}
+        <div class="hidden flex-1 items-center justify-end gap-x-4 md:flex">
+          <nav aria-label="Main" class="flex items-center gap-x-4">
+            {headerNavigation.map((item: NavigationItem) => {
+              if (item.children && item.children.length > 0) {
+                return (
+                  <div class="whitespace-nowrap">
+                    <Dropdown label={item.text} href={item.href} active={isItemActive(item, currentPath)}>
+                      {item.children.map((child: NavigationLeaf) => (
+                        <DropdownItem href={child.href} active={isItemActive(child, currentPath)}>
+                          {child.text}
+                        </DropdownItem>
+                      ))}
+                    </Dropdown>
+                  </div>
+                );
+              } else {
+                return (
+                  <div class="whitespace-nowrap">
+                    <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)}>
+                      {item.text}
+                    </Link>
+                  </div>
+                );
+              }
+            })}
+          </nav>
 
-          <button
-            class="flex items-center hover:text-orange-700 transition-colors"
-            aria-label="Search"
-            data-js-command-palette-toggle
-          >
+          <button type="button" class:list={iconButtonClass} aria-label="Search" data-js-command-palette-toggle>
             <SearchIcon />
           </button>
         </div>
 
-        <div class="flex items-center gap-x-4 md:hidden">
-          <button class="hover:text-orange-700 transition-colors" aria-label="Search" data-js-command-palette-toggle>
+        <div class="flex items-center gap-x-5 md:hidden">
+          <button type="button" class:list={iconButtonClass} aria-label="Search" data-js-command-palette-toggle>
             <SearchIcon />
           </button>
 
           <button
-            class="hover:text-orange-700"
-            aria-label="Toggle menu"
+            type="button"
+            class:list={iconButtonClass}
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
             data-navbar-target="mobileToggle"
             data-action="click->navbar#openMenu"
           >
             <MenuIcon />
           </button>
         </div>
-      </nav>
+      </div>
     </div>
-  </div>
+  </header>
 
   <div
-    class="fixed inset-y-0 right-0 w-64 bg-zinc-50 shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50 md:hidden"
+    aria-hidden="true"
+    class="fixed inset-0 z-40 bg-stone-900/25 opacity-0 pointer-events-none transition-opacity duration-200 ease-drawer data-open:opacity-100 data-open:pointer-events-auto data-open:duration-300 motion-reduce:transition-none md:hidden"
+    data-navbar-target="scrim"
+    data-action="click->navbar#closeMenu"
+  ></div>
+
+  <div
+    id="mobile-menu"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Menu"
+    class="fixed inset-y-0 right-0 z-50 flex w-64 flex-col bg-paper translate-x-full transition-[translate,box-shadow] duration-200 data-open:shadow-pop ease-drawer data-open:translate-x-0 data-open:duration-300 motion-reduce:transition-none md:hidden"
     data-navbar-target="mobileMenu"
+    inert
   >
-    <nav class="flex flex-col font-sans p-6 h-full">
-      <div class="flex justify-end">
+    <!-- Mirrors the header bar's geometry so the close button sits exactly where the menu button was. -->
+    <div class="py-4 px-3 sm:px-6">
+      <div class="flex h-6 items-center justify-end">
         <button
-          class="p-2 hover:text-orange-700"
+          type="button"
+          class:list={iconButtonClass}
           aria-label="Close menu"
           data-navbar-target="mobileClose"
           data-action="click->navbar#closeMenu"
@@ -88,29 +110,44 @@ const headerNavigation = getHeaderNavigation();
           <CloseIcon />
         </button>
       </div>
+    </div>
 
-      <div class="flex flex-col space-y-2">
-        {headerNavigation.flatMap((item: NavigationItem) => {
-          if (item.children && item.children.length > 0) {
-            return [
-              <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)} class="font-semibold">
-                {item.text}
-              </Link>,
-              ...item.children.map((child: NavigationLeaf) => (
-                <Link href={child.href} variant="secondary" active={isItemActive(child, currentPath)} class="pl-4">
-                  {child.text}
-                </Link>
-              )),
-            ];
-          } else {
-            return [
-              <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)}>
-                {item.text}
-              </Link>,
-            ];
-          }
-        })}
-      </div>
+    <nav class="flex-1 overflow-y-auto overscroll-contain px-6 pb-6 font-sans" aria-label="Mobile">
+      {headerNavigation.flatMap((item: NavigationItem) => {
+        if (item.children && item.children.length > 0) {
+          return [
+            <Link
+              href={item.href}
+              variant="secondary"
+              active={isItemActive(item, currentPath)}
+              class="block py-2.5 text-lg font-semibold"
+            >
+              {item.text}
+            </Link>,
+            ...item.children.map((child: NavigationLeaf) => (
+              <Link
+                href={child.href}
+                variant="secondary"
+                active={isItemActive(child, currentPath)}
+                class="block py-2.5 pl-4 text-lg"
+              >
+                {child.text}
+              </Link>
+            )),
+          ];
+        } else {
+          return [
+            <Link
+              href={item.href}
+              variant="secondary"
+              active={isItemActive(item, currentPath)}
+              class="block py-2.5 text-lg"
+            >
+              {item.text}
+            </Link>,
+          ];
+        }
+      })}
     </nav>
   </div>
 </div>

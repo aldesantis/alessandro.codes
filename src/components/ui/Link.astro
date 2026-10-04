@@ -5,27 +5,39 @@ import { isInternalUrl } from "src/lib/utils/url";
 export interface Props extends HTMLAttributes<"a"> {
   variant?: "primary" | "secondary" | "muted";
   active?: boolean;
+  /** Show the external-link glyph on links that open in a new tab (off for icon-only links). */
+  externalIcon?: boolean;
 }
 
-const { class: originalClass, variant = "primary", active, ...props } = Astro.props;
+const { class: originalClass, variant = "primary", active, externalIcon = true, ...props } = Astro.props;
 
-const target = isInternalUrl(String(props.href)) ? "_self" : "_blank";
+const href = String(props.href);
+// Only web links open in a new tab; mailto:, tel: and friends stay in place.
+const opensNewTab = /^https?:\/\//.test(href) || href.startsWith("/articles") ? !isInternalUrl(href) : false;
+const target = opensNewTab ? "_blank" : "_self";
+const rel = opensNewTab ? "noopener noreferrer" : undefined;
 
 const classList = [
-  "transition-all",
+  "transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link focus-visible:rounded-sm",
 
   {
-    "text-orange-400 hover:text-orange-700": !active && variant === "primary",
-    "hover:text-orange-400": !active && variant === "secondary",
-    "text-zinc-500 hover:text-orange-400": !active && variant === "muted",
-    "text-orange-700 hover:text-orange-700": active,
+    "text-link hover:text-link-hover": !active && variant === "primary",
+    "hover:text-link": !active && variant === "secondary",
+    "text-ink-subtle hover:text-link": !active && variant === "muted",
+    "text-link": active,
   },
 
   originalClass,
 ];
 
-// Keep this on one line: with compressHTML, a newline around the slot renders
-// as a space inside the link (e.g. before trailing punctuation).
+// Keep the markup on one line: with compressHTML, a newline around the slot
+// renders as a space inside the link (e.g. before trailing punctuation).
 ---
 
-<a target={target} {...props} class:list={classList}><slot /></a>
+{
+  opensNewTab ? (
+    <a target={target} rel={rel} {...props} class:list={classList}><slot />{externalIcon && <svg aria-hidden="true" focusable="false" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ml-0.5 inline-block size-[0.6em] align-[0.15em] opacity-70"><path d="M4 2.5h5.5V8M9.5 2.5 2.5 9.5" /></svg>}<span class="sr-only"> (opens in new tab)</span></a>
+  ) : (
+    <a target={target} {...props} class:list={classList}><slot /></a>
+  )
+}

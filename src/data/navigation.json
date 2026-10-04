@@ -4,28 +4,32 @@
     "text": "Home",
     "matchPattern": "^/$",
     "header": true,
-    "footer": true
+    "footer": true,
+    "footerGroup": "site"
   },
   {
     "href": "/about",
     "text": "About",
     "matchPattern": "^/about$",
     "header": true,
-    "footer": true
+    "footer": true,
+    "footerGroup": "site"
   },
   {
     "href": "/colophon",
     "text": "Colophon",
     "matchPattern": "^/colophon$",
     "header": false,
-    "footer": true
+    "footer": true,
+    "footerGroup": "site"
   },
   {
     "href": "/now",
     "text": "Now",
     "matchPattern": "^/now",
     "header": true,
-    "footer": true
+    "footer": true,
+    "footerGroup": "site"
   },
   {
     "href": "/garden",
@@ -39,35 +43,40 @@
         "text": "Topics",
         "matchPattern": "^/topics",
         "header": false,
-        "footer": true
+        "footer": true,
+        "footerGroup": "garden"
       },
       {
         "href": "/talks",
         "text": "Talks",
         "matchPattern": "^/talks$",
         "header": false,
-        "footer": true
+        "footer": true,
+        "footerGroup": "garden"
       },
       {
         "href": "/essays",
         "text": "Essays",
         "matchPattern": "^/essays",
         "header": false,
-        "footer": true
+        "footer": true,
+        "footerGroup": "garden"
       },
       {
         "href": "/notes",
         "text": "Notes",
         "matchPattern": "^/notes",
         "header": false,
-        "footer": true
+        "footer": true,
+        "footerGroup": "garden"
       },
       {
         "href": "/books",
         "text": "Books",
         "matchPattern": "^/books",
         "header": false,
-        "footer": true
+        "footer": true,
+        "footerGroup": "garden"
       }
     ]
   },
@@ -76,6 +85,7 @@
     "text": "Recipes",
     "matchPattern": "^/recipes",
     "header": true,
-    "footer": true
+    "footer": true,
+    "footerGroup": "garden"
   }
 ]

@@ -1,16 +1,21 @@
 ---
 // The SVG shell for a chart. `label` is what screen readers announce, so it
 // should state the takeaway, not just the chart type.
+//
+// Charts with focusable marks are a "group", so assistive tech still reaches
+// each mark's own label; with role="img" everything inside would be
+// presentational. A chart without focusable marks can be a plain "img".
 interface Props {
   width: number;
   height: number;
   label: string;
+  role?: "group" | "img";
   class?: string;
 }
 
-const { width, height, label, class: className = "w-full" } = Astro.props;
+const { width, height, label, role = "group", class: className = "w-full" } = Astro.props;
 ---
 
-<svg viewBox={`0 0 ${width} ${height}`} class:list={["h-auto", className]} role="img" aria-label={label}>
+<svg viewBox={`0 0 ${width} ${height}`} class:list={["h-auto", className]} role={role} aria-label={label}>
   <slot />
 </svg>

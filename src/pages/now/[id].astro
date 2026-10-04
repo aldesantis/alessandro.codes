@@ -2,10 +2,11 @@
 export const prerender = true;
 
 import { getCollection } from "astro:content";
+import { getEntryDescription } from "src/lib/description";
 import Layout from "@layouts/Layout.astro";
 import { getEntries } from "src/garden";
 import type { ZendoCollectionEntry } from "src/garden";
-import Link from "@components/ui/Link.astro";
+import ArrowLink from "@components/ui/ArrowLink.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 
 export async function getStaticPaths() {
@@ -18,6 +19,10 @@ export async function getStaticPaths() {
 }
 
 const { now } = Astro.props;
+const description = await getEntryDescription(now);
+
+// Same eyebrow style as the back links on essays and notes.
+const NAV_LINK_CLASS = "-my-2 inline-block py-2 font-sans text-sm font-semibold uppercase tracking-[0.06em]";
 
 const allNows = await getEntries(["nows"]);
 const currentIndex = allNows.findIndex((item: ZendoCollectionEntry) => item.id === now.id);
@@ -25,26 +30,36 @@ const prevNow = currentIndex < allNows.length - 1 ? allNows[currentIndex + 1] : 
 const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
 ---
 
-<title slot="head">{now.data.title} | Alessandro Desantis</title>
-
-<Layout>
+<Layout title={now.data.title} description={description} type="article">
   <ContentDetail entry={now}>
-    <div class="flex justify-between max-w-[65ch]" slot="navigation">
+    <nav aria-label="Now updates" class="flex max-w-[36rem] justify-between gap-4" slot="navigation">
       {prevNow ? (
-        <Link href={`/now/${prevNow.id}`} class="font-sans">
-          &LeftArrow;
+        <ArrowLink
+          href={`/now/${prevNow.id}`}
+          arrowDirection="left"
+          variant="muted"
+          rel="prev"
+          aria-label={`Previous update: ${prevNow.data.title}`}
+          class={NAV_LINK_CLASS}
+        >
           {prevNow.data.title}
-        </Link>
+        </ArrowLink>
       ) : (
         <div />
       )}
 
       {nextNow && (
-        <Link href={`/now/${nextNow.id}`} class="font-sans">
+        <ArrowLink
+          href={`/now/${nextNow.id}`}
+          arrowDirection="right"
+          variant="muted"
+          rel="next"
+          aria-label={`Next update: ${nextNow.data.title}`}
+          class={NAV_LINK_CLASS}
+        >
           {nextNow.data.title}
-          &RightArrow;
-        </Link>
+        </ArrowLink>
       )}
-    </div>
+    </nav>
   </ContentDetail>
 </Layout>

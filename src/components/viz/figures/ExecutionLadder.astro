@@ -20,15 +20,21 @@ const rungs = [
   source="Shares are illustrative, not measured."
 >
   <div data-controller="execution-ladder" data-execution-ladder-rungs-value={JSON.stringify(rungs)}>
-    <div class="mb-1 text-xs font-semibold uppercase tracking-wider text-stone-500">More strategy</div>
+    <div class="mb-1 text-xs font-semibold uppercase tracking-wider text-ink-subtle">More strategy</div>
     <ol class="space-y-3">
       {rungs.map((rung) => (
         <li>
           <div class="mb-1 flex items-baseline justify-between gap-3 text-sm">
-            <span class="text-stone-800">{rung.label}</span>
-            <span class="shrink-0 text-xs tabular-nums text-stone-500" data-execution-ladder-target="share" />
+            <span class="text-ink">{rung.label}</span>
+            <span class="shrink-0 text-xs tabular-nums text-ink-subtle" data-execution-ladder-target="share" />
           </div>
-          <div class="flex h-3 gap-0.5 overflow-hidden rounded">
+          {/* Focusable so keyboard and screen reader users get the rung's full breakdown */}
+          <div
+            class="flex h-3 gap-0.5 overflow-hidden rounded-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link"
+            tabindex="0"
+            role="img"
+            data-execution-ladder-target="bar"
+          >
             <div
               class="viz-animate h-full rounded-l bg-[var(--viz-ai)]"
               style="width:0%"
@@ -48,7 +54,7 @@ const rungs = [
         </li>
       ))}
     </ol>
-    <div class="mt-1 text-xs font-semibold uppercase tracking-wider text-stone-500">More execution</div>
+    <div class="mt-1 text-xs font-semibold uppercase tracking-wider text-ink-subtle">More execution</div>
 
     <Slider
       controller="execution-ladder"
@@ -56,7 +62,7 @@ const rungs = [
       label="AI capability"
       value={35}
       ticks={["Autocomplete", "Ships software end to end"]}
-      class="mt-5 border-t border-stone-200 pt-4 text-sm"
+      class="mt-5 border-t border-rule pt-4 text-sm"
     >
       <span slot="summary" data-execution-ladder-target="summary"></span>
     </Slider>

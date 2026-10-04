@@ -8,6 +8,8 @@ import BookCover from "@components/content/books/BookCover.astro";
 import ContentSidebar from "@components/content/ContentSidebar.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 import BookMeta from "@components/content/books/BookMeta.astro";
+import HighlightList from "@components/content/books/HighlightList.astro";
+import { getEntryDescription } from "src/lib/description";
 
 export async function getStaticPaths() {
   const books = await getCollection("books");
@@ -19,20 +21,26 @@ export async function getStaticPaths() {
 }
 
 const { book } = Astro.props;
+const description =
+  (await getEntryDescription(book)) ?? `Highlights and notes from ${book.data.title} by ${book.data.author}.`;
 ---
 
-<title slot="head">{book.data.title} | Alessandro Desantis</title>
-
-<Layout>
-  <ContentDetail entry={book}>
-    <ArrowLink href="/books" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+<Layout title={book.data.title} description={description} type="article">
+  <ContentDetail entry={book} components={{ ul: HighlightList }}>
+    <ArrowLink
+      href="/books"
+      arrowDirection="left"
+      variant="muted"
+      class="-my-2 inline-block py-2 font-sans text-sm font-semibold uppercase tracking-[0.06em]"
+      slot="navigation"
+    >
       Books
     </ArrowLink>
 
     <BookMeta content={book} slot="meta" />
 
     <ContentSidebar entry={book} slot="sidebar">
-      <BookCover book={book} class="w-full max-w-[250px] lg:max-w-full h-auto aspect-[2/3] rounded mt-4 lg:mt-0" />
+      <BookCover book={book} loading="eager" class="h-auto w-full max-w-[200px] rounded lg:max-w-full" />
     </ContentSidebar>
   </ContentDetail>
 </Layout>

@@ -1,7 +1,9 @@
 ---
 import { targetAttr } from "src/lib/viz/stimulus";
 
-// A labeled 0–100 range input wired to a Stimulus controller.
+// A labeled 0–100 range input wired to a Stimulus controller. The controller
+// should keep `aria-valuetext` meaningful with `syncSlider()` from
+// src/controllers/viz/helpers.
 interface Props {
   controller: string;
   target: string;
@@ -9,19 +11,39 @@ interface Props {
   value: number;
   // Controller method to call on input.
   action?: string;
-  // Labels spread evenly under the track, e.g. ["Earlier", "Today", "Later"].
-  ticks?: string[];
+  // Labels under the track. Plain strings are spread evenly, e.g.
+  // ["Earlier", "Later"]; `{ label, value }` pins a label to that 0–100 value,
+  // e.g. a "Today" mark that sits where the thumb starts.
+  ticks?: (string | Tick)[];
   class?: string;
 }
 
-const { controller, target, label, value, action = "update", ticks = [], class: className } = Astro.props;
+interface Tick {
+  label: string;
+  value: number;
+}
+
+const { controller, target, label, value, action = "update", ticks: rawTicks = [], class: className } = Astro.props;
+const ticks = rawTicks.map((tick) => (typeof tick === "string" ? { label: tick, value: undefined } : tick));
+const positioned = ticks.some((tick) => tick.value !== undefined);
+
+// Where a value's thumb centre sits: the 16px thumb travels the track inset by
+// half its width at each end. The ends align to the track edges instead, so
+// their labels don't hang past it.
+function tickStyle(tickValue: number): string {
+  if (tickValue <= 0) return "left:0";
+  if (tickValue >= 100) return "right:0";
+  return `left:calc(8px + (100% - 16px) * ${tickValue / 100});transform:translateX(-50%)`;
+}
+// Names the input with just the label, not the summary and tick text.
+const labelId = `viz-slider-${Math.random().toString(36).slice(2, 10)}`;
 ---
 
 <label class:list={["block", className]}>
-  <span class="mb-1.5 flex justify-between gap-3 font-medium text-stone-800">
-    <span>{label}</span>
+  <span class="mb-1.5 flex justify-between gap-3 font-medium text-ink">
+    <span id={labelId}>{label}</span>
     {Astro.slots.has("summary") && (
-      <span class="font-normal text-stone-500">
+      <span class="font-normal tabular-nums text-ink-subtle">
         <slot name="summary" />
       </span>
     )}
@@ -31,13 +53,28 @@ const { controller, target, label, value, action = "update", ticks = [], class: 
     min="0"
     max="100"
     value={value}
+    style={`--viz-fill:${value}%`}
+    aria-labelledby={labelId}
+    data-viz-ends={ticks.length > 1 ? JSON.stringify([ticks[0]!.label, ticks[ticks.length - 1]!.label]) : undefined}
     data-action={`input->${controller}#${action}`}
     {...targetAttr(controller, target)}
   />
-  {ticks.length > 0 && (
-    <span class="mt-0.5 flex justify-between text-xs text-stone-500">
+  {ticks.length > 0 && !positioned && (
+    <span class="mt-1.5 flex justify-between text-xs text-ink-subtle" aria-hidden="true">
       {ticks.map((tick) => (
-        <span>{tick}</span>
+        <span>{tick.label}</span>
+      ))}
+    </span>
+  )}
+  {positioned && (
+    <span class="relative mt-1.5 block h-[1lh] text-xs text-ink-subtle" aria-hidden="true">
+      {ticks.map((tick, index) => (
+        <span
+          class="absolute top-0 whitespace-nowrap"
+          style={tickStyle(tick.value ?? (ticks.length > 1 ? (index / (ticks.length - 1)) * 100 : 0))}
+        >
+          {tick.label}
+        </span>
       ))}
     </span>
   )}

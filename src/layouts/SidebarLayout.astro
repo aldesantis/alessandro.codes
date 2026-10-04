@@ -1,27 +1,96 @@
-<div class="lg:grid lg:grid-cols-12 lg:gap-8">
-  <div class="lg:col-span-8">
-    <div class="mb-4">
-      <slot name="navigation" />
+---
+// The sidebar is rendered once and rearranged with CSS: on desktop it's a
+// sticky column beside the article; below lg it dissolves (display: contents)
+// so its table of contents sits above the article and its link lists below.
+const sidebar = Astro.slots.has("sidebar") ? (await Astro.slots.render("sidebar")).trim() : "";
+---
 
-      <h1 class="text-4xl font-semibold font-sans mt-2 mb-1">
-        <slot name="title" />
-      </h1>
+<div class="sidebar-layout flex flex-col lg:grid lg:grid-cols-12 lg:grid-rows-[auto_1fr] lg:gap-x-8">
+  <div class="order-1 mb-4 min-w-0 lg:col-span-8 lg:row-start-1">
+    <slot name="navigation" />
 
-      <div class="mb-2">
-        <slot name="meta" />
-      </div>
+    <h1 class="font-serif font-semibold tracking-tight text-[clamp(1.75rem,1rem+3vw,3rem)] leading-[1.15] text-balance [overflow-wrap:anywhere] mt-2 mb-1">
+      <slot name="title" />
+    </h1>
 
-      <div class="lg:hidden mb-8">
-        <slot name="sidebar" />
-      </div>
+    <div class="mb-2">
+      <slot name="meta" />
     </div>
+  </div>
 
+  {sidebar && (
+    <aside
+      class:list={[
+        "sidebar-layout-aside contents",
+        "lg:col-span-4 lg:col-start-9 lg:row-span-2 lg:row-start-1 lg:block lg:self-start",
+        "lg:sticky lg:top-4 lg:max-h-[calc(100dvh-2rem)] lg:overflow-y-auto lg:overscroll-contain lg:[scrollbar-width:thin]",
+        "lg:border-l lg:border-rule lg:pl-6",
+      ]}
+      data-sidebar-scroll
+    >
+      <Fragment set:html={sidebar} />
+    </aside>
+  )}
+
+  <div class="order-4 min-w-0 lg:col-span-8 lg:row-start-2">
     <slot />
   </div>
-
-  <div class="hidden lg:block lg:col-span-4">
-    <div class="bg-white shadow-lg rounded-lg p-4 sticky top-4 max-h-[82vh] overflow-y-auto">
-      <slot name="sidebar" />
-    </div>
-  </div>
 </div>
+
+<style is:global>
+  @media not (min-width: 64rem) {
+    /* Unwrap the sidebar (and a wrapper around its parts) into the page column. */
+    .sidebar-layout-aside,
+    .sidebar-layout-aside div:has(> [data-sidebar-part]) {
+      display: contents;
+    }
+
+    :where(.sidebar-layout-aside > *, .sidebar-layout-aside div:has(> [data-sidebar-part]) > *) {
+      order: 2;
+      margin: 0 0 2rem;
+    }
+
+    .sidebar-layout-aside [data-sidebar-part="toc"] {
+      order: 3;
+    }
+
+    .sidebar-layout-aside [data-sidebar-part="links"] {
+      order: 5;
+      margin: 3rem 0 0;
+    }
+  }
+
+  /*
+   * Desktop: when the sidebar is taller than the viewport it scrolls on its
+   * own; fade its bottom edge until the end is reached so the cut-off reads as
+   * "more below". The scroll timeline is inactive when nothing overflows, which
+   * leaves the fade at 0.
+   */
+  @property --sidebar-fade {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: 0px;
+  }
+
+  @keyframes sidebar-fade {
+    from {
+      --sidebar-fade: 2rem;
+    }
+    90% {
+      --sidebar-fade: 2rem;
+    }
+    to {
+      --sidebar-fade: 0px;
+    }
+  }
+
+  @supports (animation-timeline: scroll()) {
+    @media (min-width: 64rem) {
+      .sidebar-layout-aside {
+        mask-image: linear-gradient(to bottom, #000 calc(100% - var(--sidebar-fade)), transparent);
+        animation: sidebar-fade linear both;
+        animation-timeline: scroll(self);
+      }
+    }
+  }
+</style>

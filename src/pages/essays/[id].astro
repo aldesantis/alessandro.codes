@@ -3,6 +3,7 @@ export const prerender = true;
 
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import { getEntryDescription } from "src/lib/description";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 import EssayMeta from "@components/content/essays/EssayMeta.astro";
@@ -17,13 +18,18 @@ export async function getStaticPaths() {
 }
 
 const { essay } = Astro.props;
+const description = await getEntryDescription(essay);
 ---
 
-<title slot="head">{essay.data.title} | Alessandro Desantis</title>
-
-<Layout>
+<Layout title={essay.data.title} description={description} type="article" publishedTime={essay.data.createdAt}>
   <ContentDetail entry={essay}>
-    <ArrowLink href="/essays" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+    <ArrowLink
+      href="/essays"
+      arrowDirection="left"
+      variant="muted"
+      class="-my-2 inline-block py-2 font-sans text-sm font-semibold uppercase tracking-[0.06em]"
+      slot="navigation"
+    >
       Essays
     </ArrowLink>
 

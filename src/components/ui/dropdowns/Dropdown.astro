@@ -9,30 +9,40 @@ interface Props {
 }
 
 const { label, href = "#", active = false } = Astro.props;
+
+const slug = label
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, "-")
+  .replace(/^-|-$/g, "");
+const menuId = `dropdown-${slug}-${Math.random().toString(36).slice(2, 8)}`;
 ---
 
-<div data-controller="dropdown" class="relative inline-block text-left">
-  <div class="flex items-center gap-1">
+<div data-controller="dropdown" data-action="focusout->dropdown#handleFocusOut" class="relative inline-block text-left">
+  <div class="flex items-center gap-2">
     <Link href={href} variant="secondary" active={active}>
       {label}
     </Link>
-    <Link
-      href="#"
-      variant="secondary"
+    <button
+      type="button"
       data-dropdown-target="button"
       data-action="click->dropdown#toggle"
-      class="dropdown-button cursor-pointer p-1 transform-gpu hover:scale-150 active:scale-95 transition-all duration-200 ease-in-out"
-      aria-label="Toggle dropdown menu"
+      class:list={[
+        "dropdown-button group -m-1.5 cursor-pointer rounded-md p-1.5 transition-[color,scale] duration-150 ease-out-strong active:scale-[0.95] motion-reduce:active:scale-100",
+        "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
+        active ? "text-link" : "hover:text-link",
+      ]}
+      aria-label={`${label} menu`}
       aria-expanded="false"
-      active={active}
+      aria-controls={menuId}
     >
-      <ChevronDownIcon />
-    </Link>
+      <ChevronDownIcon class="group-aria-expanded:rotate-180 motion-reduce:transition-none" />
+    </button>
   </div>
 
   <div
+    id={menuId}
     data-dropdown-target="menu"
-    class="dropdown-menu absolute right-0 z-10 mt-2 min-w-32 origin-top-right rounded-md bg-zinc-50 shadow-md ring-1 ring-black/5 hidden opacity-0 scale-95 transition-all ease-out duration-100"
+    class="dropdown-menu absolute right-0 z-10 mt-2 min-w-32 origin-top-right rounded-lg border border-rule bg-surface shadow-pop hidden opacity-0 scale-95 transition-[opacity,scale] duration-150 ease-out-strong motion-reduce:scale-100 motion-reduce:transition-opacity"
   >
     <div class="py-1">
       <slot />

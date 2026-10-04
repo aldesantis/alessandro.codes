@@ -9,6 +9,9 @@ import ContentSidebar from "@components/content/ContentSidebar.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 import RecipeMeta from "@components/content/recipes/RecipeMeta.astro";
 import IngredientList from "@components/content/recipes/IngredientList.astro";
+import { getEntryDescription } from "src/lib/description";
+import types from "@components/content/recipes/types.json";
+import cuisines from "@components/content/recipes/cuisines.json";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
@@ -20,13 +23,21 @@ export async function getStaticPaths() {
 }
 
 const { recipe } = Astro.props;
+const { cuisine, type, serves } = recipe.data;
+const description =
+  (await getEntryDescription(recipe)) ??
+  `${recipe.data.title}: ${cuisines[cuisine].label} ${types[type].label.toLowerCase()}${serves ? ` for ${serves}` : ""} — ingredients and step-by-step method.`;
 ---
 
-<title slot="head">{recipe.data.title} | Alessandro Desantis</title>
-
-<Layout>
+<Layout title={recipe.data.title} description={description} type="article">
   <ContentDetail entry={recipe}>
-    <ArrowLink href="/recipes" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+    <ArrowLink
+      href="/recipes"
+      arrowDirection="left"
+      variant="muted"
+      class="-my-2 inline-block py-2 font-sans text-sm font-semibold uppercase tracking-[0.06em]"
+      slot="navigation"
+    >
       Recipes
     </ArrowLink>
 
@@ -35,7 +46,7 @@ const { recipe } = Astro.props;
     <IngredientList recipe={recipe} slot="pre-content" />
 
     <ContentSidebar entry={recipe} slot="sidebar">
-      <RecipeIllustration recipe={recipe} class="w-full max-w-[250px] lg:max-w-full h-auto rounded mt-4 lg:mt-0" />
+      <RecipeIllustration recipe={recipe} loading="eager" class="h-auto w-full max-w-[280px] rounded lg:max-w-full" />
     </ContentSidebar>
   </ContentDetail>
 </Layout>

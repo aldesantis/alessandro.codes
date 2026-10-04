@@ -6,9 +6,9 @@ import DataPoint from "../chart/DataPoint.astro";
 import { IDEATION_GAP } from "src/lib/viz/data";
 import { linearScale, plotArea } from "src/lib/viz/chart";
 
-const W = 170;
+const W = 140;
 const H = 210;
-const plot = plotArea(W, H, { top: 28, bottom: 34, left: 34, right: 34 });
+const plot = plotArea(W, H, { top: 28, bottom: 34, left: 30, right: 30 });
 const sy = linearScale([3, 6.5], [plot.bottom, plot.top]);
 const xs = [plot.left, plot.right];
 const stages = ["Ideas", "Executed"];
@@ -38,11 +38,15 @@ const labelY = (row: (typeof IDEATION_GAP)[number], key: "human" | "ai", stage: 
 >
   <Legend class="mb-3" items={series.map((s) => ({ label: s.label, color: s.color, shape: "line" }))} />
 
-  <div class="grid grid-cols-2 gap-x-4 gap-y-2 sm:grid-cols-4">
+  {/* One chart per row on phones, capped in height so labels stay legible
+  (two columns would shrink them to ~7px). The narrow viewBox keeps the four
+  columns from sm up at about 11px. */}
+  <div class="grid gap-x-4 gap-y-4 sm:grid-cols-4 sm:gap-y-2">
     {IDEATION_GAP.map((row) => (
       <Chart
         width={W}
         height={H}
+        class="w-full max-sm:max-h-56"
         label={`${row.metric}: human ideas ${fmt(row.human[0])} → ${fmt(row.human[1])}, AI ideas ${fmt(row.ai[0])} → ${fmt(row.ai[1])}`}
       >
         <text x={W / 2} y="14" text-anchor="middle" font-size="13" font-weight="600" fill="var(--viz-ink)">

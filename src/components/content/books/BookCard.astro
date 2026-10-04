@@ -6,19 +6,18 @@ import type { CollectionEntry } from "astro:content";
 
 interface Props {
   book: CollectionEntry<"books">;
+  headingLevel?: 2 | 3;
 }
 
-const { book } = Astro.props;
+const { book, headingLevel } = Astro.props;
+
+// Real covers range from 1.13 to 1.60 tall; a fixed 2:3 frame keeps rows even.
 ---
 
-<LinkedCard href={`/books/${book.id}`}>
-  <div slot="cover">
-    <BookCover book={book} class="object-cover object-top w-full" />
-  </div>
+<LinkedCard href={`/books/${book.id}`} headingLevel={headingLevel}>
+  <BookCover book={book} class="aspect-[2/3] w-full object-cover object-top" slot="cover" />
 
-  <h3 class="text-lg font-sans" slot="title">
-    {book.data.title}
-  </h3>
+  <Fragment slot="title">{book.data.title}</Fragment>
 
   <BookMeta content={book} compact />
 </LinkedCard>

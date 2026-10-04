@@ -88,8 +88,10 @@ const config: Configuration<ZendoCollectionEntry> = {
   // Where do we store the content?
   contentDir: path.join(process.cwd(), "src", "content"),
 
-  // Builds the public URL for an entry. Owns this site's routing (e.g. `nows` → `/now`).
-  buildUrl: ({ type, slug }: EntryLink) => `/${type === "nows" ? "now" : type}/${slug}`,
+  // Builds the public URL for an entry. Owns this site's routing (e.g. `nows` →
+  // `/now`, standalone `pages` like about → `/about`).
+  buildUrl: ({ type, slug }: EntryLink) =>
+    type === "pages" ? `/${slug}` : `/${type === "nows" ? "now" : type}/${slug}`,
 
   // Available filters for search
   filters: await Promise.all([
@@ -111,18 +113,16 @@ const config: Configuration<ZendoCollectionEntry> = {
       evergreen: 2,
     };
 
-    if (a.data.updatedAt! > b.data.updatedAt!) {
-      return -1;
-    }
+    // Newest first; entries without a (valid) date sort after every dated one.
+    const timeA = a.data.updatedAt?.getTime() ?? Number.NaN;
+    const timeB = b.data.updatedAt?.getTime() ?? Number.NaN;
+    const hasA = !Number.isNaN(timeA);
+    const hasB = !Number.isNaN(timeB);
 
-    if (a.data.updatedAt! < b.data.updatedAt!) {
-      return 1;
-    }
+    if (hasA !== hasB) return hasA ? -1 : 1;
+    if (hasA && hasB && timeA !== timeB) return timeB - timeA;
 
-    const statusPriorityA = statusPriorities[a.data.status];
-    const statusPriorityB = statusPriorities[b.data.status];
-
-    return statusPriorityA > statusPriorityB ? -1 : 1;
+    return statusPriorities[b.data.status] - statusPriorities[a.data.status];
   },
 
   // Where do we fetch the content from and what transformations do we want to apply?
@@ -252,7 +252,10 @@ const config: Configuration<ZendoCollectionEntry> = {
               const lastHighlightedOn = new Date(data.lastHighlightedOn);
               const updatedAt = new Date(data.updatedAt);
 
-              if (lastHighlightedOn > updatedAt) {
+              if (
+                !Number.isNaN(lastHighlightedOn.getTime()) &&
+                (Number.isNaN(updatedAt.getTime()) || lastHighlightedOn > updatedAt)
+              ) {
                 data.updatedAt = lastHighlightedOn.toISOString();
               }
 
@@ -296,6 +299,9 @@ const config: Configuration<ZendoCollectionEntry> = {
               const { data, content } = matter(originalContent);
 
               const date = new Date(data.createdAt);
+              if (Number.isNaN(date.getTime())) {
+                return { path: originalPath, content: originalContent };
+              }
 
               const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
 

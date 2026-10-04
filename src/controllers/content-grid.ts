@@ -1,55 +1,76 @@
 import { Controller } from "@hotwired/stimulus";
 import { actions } from "astro:actions";
-import type { SearchResult } from "zendo";
 import type { ZendoCollectionId } from "src/garden";
-
-type SearchResultResponse = SearchResult & {
-  url: string;
-};
 
 interface Filters {
   [category: string]: string[];
 }
 
+/** Filter categories the search action understands, in the order they're applied. */
+const SEARCH_CATEGORIES = ["status", "topics", "cuisine", "diet", "recipeType", "collections"] as const;
+
+/**
+ * A grid of cards whose first page is rendered on the server. The client only
+ * takes over to filter (via the search action) and to page ("Show more"); new
+ * cards are fetched one by one as prerendered HTML by the content-card
+ * controller.
+ */
 export default class ContentGridController extends Controller {
   static override targets = [
     "grid",
-    "loadingTemplate",
-    "emptyTemplate",
+    "status",
+    "more",
+    "moreButton",
+    "noMatchesTemplate",
     "errorTemplate",
-    "cardTemplate",
     "checkbox",
     "allCheckbox",
+    "filterButton",
+    "filterValue",
   ];
   static override values = {
     searchParams: { type: Object, default: {} },
     filters: { type: Object, default: {} },
+    // Every entry in the unfiltered list, as "collection/id", in display order.
+    items: { type: Array, default: [] },
+    pageSize: { type: Number, default: 24 },
+    // How many items the grid currently shows (the server renders the first page).
+    rendered: { type: Number, default: 0 },
   };
 
   declare readonly gridTarget: HTMLElement;
-  declare readonly loadingTemplateTarget: HTMLTemplateElement;
-  declare readonly emptyTemplateTarget: HTMLTemplateElement;
+  declare readonly statusTarget: HTMLElement;
+  declare readonly moreTarget: HTMLElement;
+  declare readonly moreButtonTarget: HTMLButtonElement;
+  declare readonly noMatchesTemplateTarget: HTMLTemplateElement;
   declare readonly errorTemplateTarget: HTMLTemplateElement;
-  declare readonly cardTemplateTarget: HTMLTemplateElement;
   declare readonly checkboxTargets: HTMLInputElement[];
   declare readonly allCheckboxTargets: HTMLInputElement[];
-  declare searchParamsValue: {
-    name?: string;
-    collections?: ZendoCollectionId[];
-    status?: string[];
-    topics?: string[];
-    cuisine?: string[];
-    diet?: string[];
-    recipeType?: string[];
-    relatedTo?: string;
-  };
+  declare readonly filterButtonTargets: HTMLElement[];
+  declare readonly filterValueTargets: HTMLElement[];
+  declare searchParamsValue: Record<string, unknown>;
   declare filtersValue: Filters;
+  declare itemsValue: string[];
+  declare pageSizeValue: number;
+  declare renderedValue: number;
 
-  private isLoading = false;
+  // The list currently being paged through: all items, or the filtered subset.
+  private visibleItems: string[] = [];
+
+  // Incremented per search so a slow, superseded response never overwrites a newer one.
+  private searchId = 0;
 
   override connect(): void {
+    this.visibleItems = this.itemsValue;
+    this.readFiltersFromUrl();
     this.updateCheckboxStates();
-    this.performSearch();
+
+    // The server rendered the unfiltered list; only search if the URL asks for a filtered one.
+    if (this.hasActiveFilters()) {
+      this.performSearch();
+    } else {
+      this.updateMoreButton();
+    }
   }
 
   updateFilter(event: Event): void {
@@ -68,7 +89,118 @@ export default class ContentGridController extends Controller {
     }
 
     this.updateCheckboxStates();
+    this.writeFiltersToUrl();
     this.performSearch();
+  }
+
+  clearFilters(): void {
+    const cleared: Filters = {};
+    for (const category of Object.keys(this.filtersValue)) {
+      cleared[category] = ["all"];
+    }
+    this.filtersValue = cleared;
+
+    this.updateCheckboxStates();
+    this.writeFiltersToUrl();
+    this.performSearch();
+  }
+
+  loadMore(): void {
+    const start = this.renderedValue;
+    const next = this.visibleItems.slice(start, start + this.pageSizeValue);
+    if (next.length === 0) return;
+
+    const firstNew = this.appendCards(next);
+    this.renderedValue = start + next.length;
+    this.updateMoreButton();
+    this.announce(`Showing ${this.renderedValue} of ${this.visibleItems.length}`);
+
+    // The button stays put below the new cards, so focus stays on it; once it
+    // hides (last page), hand focus to the first new card instead of <body>.
+    if (this.renderedValue >= this.visibleItems.length) {
+      firstNew?.focus({ preventScroll: true });
+    }
+  }
+
+  /**
+   * Restores filters from the query string (e.g. `?topics=a,b&status=evergreen`)
+   * so filtered views are deep-linkable. Unknown values are ignored.
+   */
+  private readFiltersFromUrl(): void {
+    const categories = Object.keys(this.filtersValue);
+    if (categories.length === 0) return;
+
+    const params = new URLSearchParams(window.location.search);
+    const filters: Filters = { ...this.filtersValue };
+
+    for (const category of categories) {
+      const raw = params.get(category);
+      if (!raw) continue;
+
+      const known = new Set(
+        this.checkboxTargets
+          .filter((cb) => cb.dataset.filterCategory === category)
+          .map((cb) => cb.dataset.filterType)
+          .filter((type): type is string => Boolean(type))
+      );
+      const selected = [...new Set(raw.split(","))].filter((value) => known.has(value));
+
+      filters[category] = selected.length > 0 ? selected : ["all"];
+    }
+
+    this.filtersValue = filters;
+  }
+
+  /** Mirrors the selected filters into the query string without adding history entries. */
+  private writeFiltersToUrl(): void {
+    const categories = Object.keys(this.filtersValue);
+    if (categories.length === 0) return;
+
+    const url = new URL(window.location.href);
+
+    for (const category of categories) {
+      const selected = this.filtersValue[category] || ["all"];
+      if (selected.includes("all")) {
+        url.searchParams.delete(category);
+      } else {
+        url.searchParams.set(category, selected.join(","));
+      }
+    }
+
+    // Keep commas readable: ?topics=a,b rather than ?topics=a%2Cb.
+    const search = url.searchParams.toString().replace(/%2C/gi, ",");
+    window.history.replaceState(window.history.state, "", `${url.pathname}${search ? `?${search}` : ""}${url.hash}`);
+  }
+
+  private hasActiveFilters(): boolean {
+    return Object.values(this.filtersValue).some((selected) => !selected.includes("all"));
+  }
+
+  /** Shows the selection in each filter's button: "Topic: Strategy" or "Topic: 2 selected". */
+  private updateFilterValues(): void {
+    for (const target of this.filterValueTargets) {
+      const category = target.dataset.filterCategory;
+      const selected = (category && this.filtersValue[category]) || ["all"];
+      const isFiltered = !selected.includes("all");
+
+      let text = "";
+      if (isFiltered && selected.length === 1) {
+        const checkbox = this.checkboxTargets.find(
+          (cb) => cb.dataset.filterCategory === category && cb.dataset.filterType === selected[0]
+        );
+        text = `: ${checkbox?.dataset.filterLabel ?? selected[0]}`;
+      } else if (isFiltered) {
+        text = `: ${selected.length} selected`;
+      }
+
+      target.textContent = text;
+    }
+
+    for (const button of this.filterButtonTargets) {
+      const category = button.dataset.filterCategory;
+      const selected = (category && this.filtersValue[category]) || ["all"];
+      button.toggleAttribute("data-active", !selected.includes("all"));
+    }
   }
 
   private handleAllFilter(category: string, isChecked: boolean, checkbox: HTMLInputElement): void {
@@ -110,6 +242,8 @@ export default class ContentGridController extends Controller {
   }
 
   private updateCheckboxStates(): void {
+    this.updateFilterValues();
+
     Object.keys(this.filtersValue).forEach((category) => {
       const selectedFilters = this.filtersValue[category] || ["all"];
       const isAllSelected = selectedFilters.includes("all");
@@ -131,91 +265,101 @@ export default class ContentGridController extends Controller {
   }
 
   async performSearch(): Promise<void> {
-    if (this.isLoading) {
-      return;
-    }
-
-    this.isLoading = true;
-    this.showLoading();
+    const searchId = ++this.searchId;
+    this.gridTarget.setAttribute("aria-busy", "true");
 
     try {
-      // TODO: This should be split into a ContentGridController and a FilterableContentGridController
-      // so that we don't have to do this weird join of searchParams and filtersValue.
-      const searchParams: typeof this.searchParamsValue = { ...this.searchParamsValue };
+      const items = this.hasActiveFilters() ? await this.searchFiltered() : this.itemsValue;
 
-      if (this.filtersValue.status && !this.filtersValue.status.includes("all")) {
-        searchParams.status = this.filtersValue.status;
-      }
-      if (this.filtersValue.topics && !this.filtersValue.topics.includes("all")) {
-        searchParams.topics = this.filtersValue.topics;
-      }
-      if (this.filtersValue.cuisine && !this.filtersValue.cuisine.includes("all")) {
-        searchParams.cuisine = this.filtersValue.cuisine;
-      }
-      if (this.filtersValue.diet && !this.filtersValue.diet.includes("all")) {
-        searchParams.diet = this.filtersValue.diet;
-      }
-      if (this.filtersValue.recipeType && !this.filtersValue.recipeType.includes("all")) {
-        searchParams.recipeType = this.filtersValue.recipeType;
-      }
-      if (this.filtersValue.collections && !this.filtersValue.collections.includes("all")) {
-        searchParams.collections = this.filtersValue.collections as ZendoCollectionId[];
-      }
-
-      // TODO: We should implement pagination and infinite scroll for optimal performance.
-      const result = await actions.search(searchParams);
-
-      if (result.error) {
-        console.error("Error fetching search results:", result.error);
-        this.showError();
+      if (searchId !== this.searchId) {
         return;
       }
 
-      const items = result.data.items;
+      this.visibleItems = items;
+      this.gridTarget.innerHTML = "";
+      this.renderedValue = 0;
 
       if (items.length === 0) {
-        this.showEmpty();
+        this.gridTarget.appendChild(this.noMatchesTemplateTarget.content.cloneNode(true));
+        this.updateMoreButton();
+        this.announce("No matches");
         return;
       }
 
-      this.renderCards(items);
+      const page = items.slice(0, this.pageSizeValue);
+      this.appendCards(page);
+      this.renderedValue = page.length;
+      this.updateMoreButton();
+      this.announce(items.length === 1 ? "1 result" : `${items.length} results`);
     } catch (error) {
+      if (searchId !== this.searchId) {
+        return;
+      }
       console.error("Error fetching search results:", error);
-      this.showError();
+      this.gridTarget.innerHTML = "";
+      this.gridTarget.appendChild(this.errorTemplateTarget.content.cloneNode(true));
+      this.visibleItems = [];
+      this.renderedValue = 0;
+      this.updateMoreButton();
     } finally {
-      this.isLoading = false;
+      if (searchId === this.searchId) {
+        this.gridTarget.removeAttribute("aria-busy");
+      }
     }
   }
 
-  private renderCards(items: SearchResultResponse[]): void {
-    this.gridTarget.innerHTML = "";
+  /**
+   * Runs the search action with the selected filters, returning matches in the
+   * same order as the unfiltered list (filters only ever narrow it down).
+   */
+  private async searchFiltered(): Promise<string[]> {
+    const searchParams: Record<string, unknown> = { ...this.searchParamsValue };
+    delete searchParams.limit;
 
-    items.forEach((item) => {
-      const clone = this.cardTemplateTarget.content.cloneNode(true) as DocumentFragment;
-      const cardElement = clone.firstElementChild as HTMLElement;
+    for (const category of SEARCH_CATEGORIES) {
+      const selected = this.filtersValue[category];
+      if (selected && !selected.includes("all")) {
+        searchParams[category] = category === "collections" ? (selected as ZendoCollectionId[]) : selected;
+      }
+    }
 
-      cardElement.setAttribute("data-content-card-id-value", item.id);
-      cardElement.setAttribute("data-content-card-collection-value", item.type);
+    const result = await actions.search(searchParams);
+    if (result.error) {
+      throw result.error;
+    }
 
-      this.gridTarget.appendChild(cardElement);
-    });
+    const matches = new Set(result.data.items.map((item) => `${item.type}/${item.id}`));
+    return this.itemsValue.filter((key) => matches.has(key));
   }
 
-  private showLoading(): void {
-    const clone = this.loadingTemplateTarget.content.cloneNode(true) as DocumentFragment;
-    this.gridTarget.innerHTML = "";
-    this.gridTarget.appendChild(clone);
+  /** Appends a loading slot per item; returns the first one. */
+  private appendCards(keys: string[]): HTMLElement | null {
+    let first: HTMLElement | null = null;
+
+    for (const key of keys) {
+      const [collection, ...idParts] = key.split("/");
+      const slot = document.createElement("div");
+      slot.className = "min-w-0 outline-none";
+      slot.tabIndex = -1;
+      slot.dataset.controller = "content-card";
+      slot.dataset.contentCardCollectionValue = collection;
+      slot.dataset.contentCardIdValue = idParts.join("/");
+      this.gridTarget.appendChild(slot);
+      first ??= slot;
+    }
+
+    return first;
   }
 
-  private showEmpty(): void {
-    const clone = this.emptyTemplateTarget.content.cloneNode(true) as DocumentFragment;
-    this.gridTarget.innerHTML = "";
-    this.gridTarget.appendChild(clone);
+  private updateMoreButton(): void {
+    const remaining = this.visibleItems.length - this.renderedValue;
+    this.moreTarget.classList.toggle("hidden", remaining <= 0);
+    if (remaining > 0) {
+      this.moreButtonTarget.textContent = `Show ${Math.min(this.pageSizeValue, remaining)} more · ${remaining} left`;
+    }
   }
 
-  private showError(): void {
-    const clone = this.errorTemplateTarget.content.cloneNode(true) as DocumentFragment;
-    this.gridTarget.innerHTML = "";
-    this.gridTarget.appendChild(clone);
+  private announce(message: string): void {
+    this.statusTarget.textContent = message;
   }
 }

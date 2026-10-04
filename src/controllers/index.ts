@@ -10,6 +10,7 @@ import ContentGridController from "./content-grid";
 import ServingsController from "./servings";
 import FootnotesController from "./footnotes";
 import TocController from "./toc";
+import HeadingLinksController from "./heading-links";
 import { registerVizControllers } from "./viz";
 
 const application = Application.start();
@@ -24,4 +25,5 @@ application.register("navbar", NavbarController);
 application.register("servings", ServingsController);
 application.register("footnotes", FootnotesController);
 application.register("toc", TocController);
+application.register("heading-links", HeadingLinksController);
 registerVizControllers(application);

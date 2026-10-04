@@ -1,19 +1,15 @@
 import type { ZendoCollectionEntry } from "src/garden";
 import type { FilterConfig } from "zendo";
+import cuisines from "../../components/content/recipes/cuisines.json";
 
 export default async function cuisineFilter(): Promise<FilterConfig<ZendoCollectionEntry>> {
   return {
     id: "cuisine",
     ui: {
       label: "Cuisine",
-      getItems: async () => [
-        { id: "tex-mex", label: "🌮 Tex-Mex" },
-        { id: "mediterranean", label: "🫒 Mediterranean" },
-        { id: "bbq", label: "🍖 BBQ" },
-        { id: "asian", label: "🍜 Asian" },
-        { id: "indian", label: "🍛 Indian" },
-        { id: "american", label: "🍔 American" },
-      ],
+      // Same emoji and labels as the cuisine shown on recipe cards.
+      getItems: async () =>
+        Object.entries(cuisines).map(([id, { emoji, label }]) => ({ id, label: `${emoji} ${label}` })),
     },
     entryFilterFn: async (entries: ZendoCollectionEntry[], value: unknown): Promise<ZendoCollectionEntry[]> => {
       const selectedValues = value as string[] | undefined;

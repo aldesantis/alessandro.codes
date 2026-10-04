@@ -10,25 +10,26 @@ import RecipeCard from "@components/content/recipes/RecipeCard.astro";
 
 interface Props {
   content: ZendoCollectionEntry;
+  headingLevel?: 2 | 3;
 }
 
-const { content } = Astro.props;
+const { content, headingLevel } = Astro.props;
 ---
 
 {(() => {
   switch (content.collection) {
     case "essays":
-      return <EssayCard essay={content as CollectionEntry<"essays">} />;
+      return <EssayCard essay={content as CollectionEntry<"essays">} headingLevel={headingLevel} />;
     case "books":
-      return <BookCard book={content as CollectionEntry<"books">} />;
+      return <BookCard book={content as CollectionEntry<"books">} headingLevel={headingLevel} />;
     case "notes":
-      return <NoteCard note={content as CollectionEntry<"notes">} />;
+      return <NoteCard note={content as CollectionEntry<"notes">} headingLevel={headingLevel} />;
     case "topics":
-      return <TopicCard topic={content as CollectionEntry<"topics">} />;
+      return <TopicCard topic={content as CollectionEntry<"topics">} headingLevel={headingLevel} />;
     case "talks":
-      return <TalkCard talk={content as CollectionEntry<"talks">} />;
+      return <TalkCard talk={content as CollectionEntry<"talks">} headingLevel={headingLevel} />;
     case "recipes":
-      return <RecipeCard recipe={content as CollectionEntry<"recipes">} />;
+      return <RecipeCard recipe={content as CollectionEntry<"recipes">} headingLevel={headingLevel} />;
     default:
       return null;
   }

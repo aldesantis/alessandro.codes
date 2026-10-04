@@ -4,8 +4,31 @@
 
 @theme {
   /* Font families */
-  --font-sans: var(--font-source-sans), "sans-serif";
-  --font-serif: var(--font-domine), "serif";
+  --font-sans: var(--font-source-sans), sans-serif;
+  --font-serif: var(--font-domine), serif;
+
+  /* Warm neutrals: the only neutral family used across the site */
+  --color-paper: oklch(0.982 0.004 80);
+  --color-surface: oklch(0.996 0.002 80);
+  --color-rule: var(--color-stone-200);
+  --color-ink: var(--color-stone-800);
+  --color-ink-muted: var(--color-stone-600);
+  --color-ink-subtle: var(--color-stone-500);
+
+  /* Accent: AA-contrast link colours; orange-400 is decoration only */
+  --color-link: var(--color-orange-700);
+  --color-link-hover: var(--color-orange-800);
+  /* Accent tints: highlighted surfaces and decorative rules (underlines, borders) */
+  --color-accent-surface: color-mix(in oklab, var(--color-orange-50) 60%, transparent);
+  --color-accent-rule: var(--color-orange-200);
+
+  /* Warm-tinted elevation for popovers and menus */
+  --shadow-pop: 0 8px 24px -8px oklch(0.3 0.03 60 / 0.18);
+
+  /* Easing */
+  --ease-out-strong: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out-strong: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
 
   /* Container configuration - now handled via @utility */
   /* Keyframes and animations can be defined in @theme */
@@ -36,7 +59,7 @@
     }
   }
 
-  --animate-wave: wave 1.5s infinite;
+  --animate-wave: wave 1.5s 2;
 }
 
 /* Container utility replacement */
@@ -55,6 +78,64 @@
   }
 }
 
+/* Base typography: balanced headings, no orphans in body copy */
+@layer base {
+  /* Pressed states are designed per control; drop the grey mobile flash */
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Long-pressing a control shouldn't select its label */
+  button,
+  [role="button"],
+  summary,
+  .viz-segment {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    overflow-wrap: anywhere;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Bare URLs and long words wrap instead of widening the page on phones */
+  .prose :is(p, li, td) {
+    overflow-wrap: break-word;
+  }
+  .prose :is(a, h1, h2, h3, h4) {
+    overflow-wrap: anywhere;
+  }
+}
+
+/*
+ * Reduced motion: keep fades and colour changes, drop movement.
+ * Transitions are limited to non-spatial properties, so transform, translate,
+ * scale and rotate snap while opacity and colour still ease. Keyframe motion
+ * must be opt-in via `motion-safe:` (e.g. the homepage wave), which lets
+ * opacity-only keyframes keep running here.
+ * Viz figures manage their own reduced-motion behaviour (see viz.css).
+ */
+@media (prefers-reduced-motion: reduce) {
+  *:not(.viz, .viz *),
+  *:not(.viz, .viz *)::before,
+  *:not(.viz, .viz *)::after {
+    scroll-behavior: auto !important;
+    transition-property:
+      opacity, color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, box-shadow !important;
+  }
+
+  html {
+    scroll-behavior: auto !important;
+  }
+}
+
 /* Content configuration for Tailwind 4 */
 @source "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}";
 
@@ -67,14 +148,32 @@
 /* Separate consecutive references, e.g. ²,³ (marked by the footnotes controller) */
 .prose sup.footnote-ref-sequence::before {
   content: ",";
-  color: var(--color-stone-400);
+  color: var(--color-ink-subtle);
 }
 
 .prose a[data-footnote-ref] {
+  position: relative;
   font-family: var(--font-sans);
   font-weight: 600;
+  color: var(--color-link);
   padding-inline: 0.1em;
   scroll-margin-top: 30vh;
+}
+
+/* The superscript glyph is tiny; extend the hit area without moving the text */
+.prose a[data-footnote-ref]::after {
+  content: "";
+  position: absolute;
+  inset: -0.4em -0.35em;
+}
+
+@media (pointer: coarse) {
+  .prose a[data-footnote-ref] {
+    padding-inline: 0.3em;
+  }
+  .prose a[data-footnote-ref]::after {
+    inset: -0.5rem;
+  }
 }
 
 .prose a[data-footnote-ref]:target {
@@ -85,10 +184,10 @@
 .prose section.footnotes {
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--color-stone-200);
+  border-top: 1px solid var(--color-rule);
   font-size: 0.875rem;
   line-height: 1.6;
-  color: var(--color-stone-600);
+  color: var(--color-ink-muted);
 }
 
 .prose section.footnotes ol {
@@ -101,18 +200,18 @@
   padding: 0.25rem 0.5rem;
   border-radius: 0.375rem;
   scroll-margin-top: 30vh;
-  transition: background-color 0.3s;
+  transition: background-color 150ms var(--ease-out-strong);
 }
 
 .prose section.footnotes li::marker {
   font-family: var(--font-sans);
   font-weight: 600;
   font-variant-numeric: tabular-nums;
-  color: var(--color-stone-400);
+  color: var(--color-ink-subtle);
 }
 
 .prose section.footnotes li:target {
-  background-color: var(--color-orange-50);
+  background-color: var(--color-accent-surface);
 }
 
 .prose section.footnotes li p {
@@ -122,26 +221,48 @@
 .prose a[data-footnote-backref] {
   margin-left: 0.25rem;
   font-family: var(--font-sans);
-  color: var(--color-stone-400);
+  color: var(--color-ink-subtle);
+  transition: color 150ms;
 }
 
-.prose a[data-footnote-backref]:hover {
-  color: var(--color-orange-400);
+@media (hover: hover) {
+  .prose a[data-footnote-ref]:hover,
+  .prose a[data-footnote-backref]:hover {
+    color: var(--color-link-hover);
+  }
 }
 
-/* Hover preview of a footnote, positioned by the footnotes controller */
+/*
+ * Preview of a footnote, positioned by the footnotes controller. It eases in
+ * from its reference (transform-origin is set in JS) and leaves instantly;
+ * `.no-enter` skips the entrance when hopping between nearby references.
+ */
 .footnote-popover {
   position: absolute;
   z-index: 40;
   max-width: min(24rem, calc(100vw - 2rem));
   padding: 0.75rem 1rem;
-  border: 1px solid var(--color-stone-200);
+  border: 1px solid var(--color-rule);
   border-radius: 0.5rem;
-  background-color: white;
-  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.1);
-  font-size: 0.875rem;
-  line-height: 1.6;
-  color: var(--color-stone-700);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-pop);
+  /* Lives inside the paragraph (for tab order), so reset inherited text styles */
+  font: normal 400 0.875rem / 1.6 var(--font-sans);
+  text-align: start;
+  color: var(--color-ink);
+  overflow-wrap: anywhere;
+  transition:
+    opacity 150ms var(--ease-out-strong),
+    scale 150ms var(--ease-out-strong);
+
+  @starting-style {
+    opacity: 0;
+    scale: 0.97;
+  }
+}
+
+.footnote-popover.no-enter {
+  transition: none;
 }
 
 .footnote-popover p {
@@ -149,9 +270,97 @@
 }
 
 .footnote-popover a {
-  color: var(--color-orange-400);
+  color: var(--color-link);
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-accent-rule);
+  text-underline-offset: 0.2em;
+  transition:
+    color 150ms,
+    text-decoration-color 150ms;
 }
 
-.footnote-popover a:hover {
-  color: var(--color-orange-700);
+.footnote-popover a:focus-visible {
+  border-radius: 0.125rem;
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+@media (hover: hover) {
+  .footnote-popover a:hover {
+    color: var(--color-link-hover);
+    text-decoration-color: currentColor;
+  }
+}
+
+/*
+ * Copy-link button appended to prose headings by the heading-links controller.
+ * Both icons stay in the DOM and crossfade (opacity + scale + blur) so the
+ * swap is interruptible and never pops; reduced motion keeps only the fade.
+ */
+.prose .heading-link {
+  display: inline-grid;
+  vertical-align: -0.05em;
+  margin-inline-start: 0.25em;
+  padding: 0.25em;
+  margin-block: -0.25em;
+  border-radius: 0.25rem;
+  color: var(--color-ink-subtle);
+  transition:
+    opacity 150ms var(--ease-out-strong),
+    color 150ms var(--ease-out-strong),
+    transform 150ms var(--ease-out-strong);
+}
+.prose .heading-link:active {
+  transform: scale(0.95);
+}
+.prose .heading-link[data-copied] {
+  color: var(--color-link);
+}
+.prose .heading-link:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+.prose .heading-link-icon {
+  grid-area: 1 / 1;
+  display: flex;
+  transition:
+    opacity 200ms var(--ease-out-strong),
+    transform 200ms var(--ease-out-strong),
+    filter 200ms var(--ease-out-strong);
+}
+.prose .heading-link [data-icon="check"],
+.prose .heading-link[data-copied] [data-icon="link"] {
+  opacity: 0;
+  transform: scale(0.5);
+  filter: blur(2px);
+}
+.prose .heading-link[data-copied] [data-icon="check"] {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .prose .heading-link {
+    opacity: 0;
+  }
+  .prose :is(h1, h2, h3, h4):is(:hover, :focus-within) .heading-link,
+  .prose .heading-link[data-copied] {
+    opacity: 1;
+  }
+  .prose .heading-link:hover {
+    color: var(--color-link);
+  }
+}
+.prose :is(h1, h2, h3, h4)[id] {
+  scroll-margin-top: 1rem;
+}
+
+/* Phones: shallower list and quote indents leave more room for text */
+@media (width < 40rem) {
+  .prose :is(ul, ol) {
+    padding-inline-start: 1.125em;
+  }
+  .prose blockquote {
+    padding-inline-start: 0.75em;
+  }
 }

@@ -15,3 +15,6 @@ src/data/index.json
 
 # Ignore sources
 .garden-source/*
+
+# Vendored agent skills, managed by ambit
+.agents/

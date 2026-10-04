@@ -1,19 +1,25 @@
 import { Controller } from "@hotwired/stimulus";
-import { formatDistanceToNow } from "date-fns";
+import { differenceInDays, formatDistanceToNow } from "date-fns";
 
-export default class RelativeDateController extends Controller {
-  static override targets = ["date"];
+// Dates newer than this read better as "3 days ago"; older ones stay absolute.
+const RELATIVE_THRESHOLD_DAYS = 30;
 
+export default class RelativeDateController extends Controller<HTMLTimeElement> {
   override connect() {
-    this.updateRelativeDate();
-  }
+    const datetime = this.element.getAttribute("datetime");
+    if (!datetime) return;
 
-  updateRelativeDate() {
-    const absoluteDate = (this.element as HTMLElement).dataset.absoluteDate;
+    const date = new Date(datetime);
+    if (Number.isNaN(date.getTime())) return;
 
-    if (absoluteDate) {
-      const date = new Date(absoluteDate);
-      this.element.textContent = formatDistanceToNow(date, { addSuffix: true });
-    }
+    // Server-rendered text and title are in UTC; switch both to local time.
+    this.element.title = new Intl.DateTimeFormat("en-US", { dateStyle: "long", timeStyle: "short" }).format(date);
+
+    const ageInDays = differenceInDays(new Date(), date);
+
+    this.element.textContent =
+      ageInDays >= 0 && ageInDays < RELATIVE_THRESHOLD_DAYS
+        ? formatDistanceToNow(date, { addSuffix: true })
+        : new Intl.DateTimeFormat("en-US", { dateStyle: "medium" }).format(date);
   }
 }

@@ -10,13 +10,11 @@ import { cuisineFilter, dietFilter, recipeTypeFilter } from "src/lib/filters";
 const filters = await Promise.all([cuisineFilter(), dietFilter(), recipeTypeFilter()]);
 ---
 
-<Layout>
-  <title slot="head">Recipes | Alessandro Desantis</title>
-
+<Layout title="Recipes" description={sections.recipes.description}>
   <Hero>
     <span slot="heading">Recipes</span>
     <span slot="subheading">{sections.recipes.description}</span>
   </Hero>
 
-  <ContentGrid searchParams={{ collections: ["recipes"] }} itemSize="M" filters={filters} />
+  <ContentGrid headingLevel={2} searchParams={{ collections: ["recipes"] }} itemSize="M" filters={filters} />
 </Layout>

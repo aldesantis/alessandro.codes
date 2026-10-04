@@ -3,24 +3,41 @@ import type { ComponentProps } from "astro/types";
 import Card from "@components/ui/Card.astro";
 import { isInternalUrl } from "src/lib/utils/url";
 
-type Props = ComponentProps<typeof Card> & {
+type Props = Omit<ComponentProps<typeof Card>, "titleId"> & {
   href: string;
   target?: string;
 };
 
-const { href, ...props } = Astro.props;
+const { href, target, ...props } = Astro.props;
+const isInternal = isInternalUrl(href);
+
+// The whole card is one link. Name it by its title alone, so screen readers
+// don't announce the status emoji, date and excerpt as part of the link text.
+const titleId = `card-title-${Math.random().toString(36).slice(2, 10)}`;
 ---
 
 <a
   href={href}
-  class="block bg-white rounded overflow-hidden transform transition-transform hover:scale-105"
-  target={isInternalUrl(href) ? "_self" : "_blank"}
+  target={target ?? (isInternal ? "_self" : "_blank")}
+  rel={isInternal ? undefined : "noopener noreferrer"}
+  aria-labelledby={titleId}
+  data-card
+  class:list={[
+    "group block h-full rounded-lg",
+    "transition-[translate,scale,box-shadow] duration-200 ease-out-strong hover:shadow-pop",
+    "motion-safe:hover:-translate-y-0.5 motion-safe:active:scale-[0.99] motion-reduce:transition-none",
+    "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
+  ]}
 >
-  <Card {...props}>
-    <slot name="cover" slot="cover" />
-    <div class="text-lg font-sans transition-all text-orange-400 group-hover:text-orange-700" slot="title">
+  <Card {...props} titleId={titleId}>
+    {Astro.slots.has("cover") && (
+      <div slot="cover" aria-hidden="true">
+        <slot name="cover" />
+      </div>
+    )}
+    <span class="transition-colors duration-200 ease-out-strong group-hover:text-link" slot="title">
       <slot name="title" />
-    </div>
+    </span>
     <slot />
   </Card>
 </a>

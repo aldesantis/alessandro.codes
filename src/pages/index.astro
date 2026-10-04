@@ -11,39 +11,42 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
 ---
 
 <Layout>
-  <title slot="head">Alessandro Desantis</title>
+  <div class="space-y-6 pt-4 sm:pt-8">
+    <h1 class="font-serif text-[clamp(1.75rem,1rem+3.5vw,3.25rem)] leading-tight text-balance">
+      <span aria-hidden="true" class="motion-safe:animate-wave inline-block origin-[70%_70%]">
+        👋
+      </span>
+      , I’m{" "}
+      <span class="whitespace-nowrap">
+        <span class="font-semibold">Alessandro</span>&mdash;a
+      </span>
+      <Link href="/topics/writing">writer</Link>, <Link href="/topics/software-engineering">engineer</Link>, and
+      <Link href="/topics/strategy">strategist</Link> based in Rome, Italy.
+    </h1>
+    <p class="max-w-[60ch] text-ink-muted font-serif text-lg sm:text-xl text-pretty">
+      Currently, I am a Partner at
+      <Link href="https://nebulab.com">Nebulab</Link>, an international
+      <Link href="/topics/consulting">consultancy</Link> working with mid-market and enterprise consumer brands to
+      design, launch, and scale their digital
+      <Link href="/topics/commerce">commerce</Link> experiences.
+    </p>
+  </div>
 
-  <div class="space-y-12">
-    <div class="space-y-6">
-      <p class="font-serif text-3xl lg:text-5xl">
-        <span class="animate-wave inline-block">👋</span>, I'm <span class="font-bold">Alessandro</span>&mdash;a{" "}
-        <Link href="/topics/writing">writer</Link>,<Link href="/topics/software-engineering">engineer</Link>, and
-        <Link href="/topics/strategy">strategist</Link> based in Rome, Italy.
-      </p>
-      <p class="text-stone-700 font-serif text-xl">
-        Currently, I am a Partner at
-        <Link href="https://nebulab.com">Nebulab</Link>, an international
-        <Link href="/topics/consulting">consultancy</Link> working with mid-market and enterprise consumer brands to
-        design, launch, and scale their digital
-        <Link href="/topics/commerce">commerce</Link> experiences.
-      </p>
-    </div>
+  <hr class="mt-16 mb-12 border-rule sm:mt-20 sm:mb-16" />
 
-    <hr class="border-gray-200" />
-
+  <div class="space-y-16">
     <Section>
       <div slot="heading">
         <SectionHeading title="Essays" subtitle={sections.essays.description} />
 
         <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/essays" arrowDirection="right">
-            {" "}
-            View all{" "}
+          <ArrowLink class="text-sm" href="/essays" arrowDirection="right" aria-label="View all essays">
+            View all
           </ArrowLink>
         </div>
       </div>
 
-      <ContentGrid searchParams={{ collections: ["essays"], limit: 4 }} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["essays"], limit: 4 }} itemSize="L" headingLevel={3} />
     </Section>
 
     <Section>
@@ -51,14 +54,13 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
         <SectionHeading title="Notes" subtitle={sections.notes.description} />
 
         <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/notes" arrowDirection="right">
-            {" "}
-            View all{" "}
+          <ArrowLink class="text-sm" href="/notes" arrowDirection="right" aria-label="View all notes">
+            View all
           </ArrowLink>
         </div>
       </div>
 
-      <ContentGrid searchParams={{ collections: ["notes"], limit: 6 }} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["notes"], limit: 6 }} itemSize="L" headingLevel={3} />
     </Section>
 
     <Section>
@@ -66,14 +68,13 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
         <SectionHeading title="Books" subtitle={sections.books.description} />
 
         <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/books" arrowDirection="right">
-            {" "}
-            View all{" "}
+          <ArrowLink class="text-sm" href="/books" arrowDirection="right" aria-label="View all books">
+            View all
           </ArrowLink>
         </div>
       </div>
 
-      <ContentGrid searchParams={{ collections: ["books"], limit: 6 }} itemSize="M" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["books"], limit: 6 }} itemSize="M" headingLevel={3} />
     </Section>
   </div>
 </Layout>

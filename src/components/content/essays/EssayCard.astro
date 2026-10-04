@@ -6,19 +6,18 @@ import { getFirstParagraph, renderToString } from "src/lib/rendering";
 
 export interface Props {
   essay: CollectionEntry<"essays">;
+  headingLevel?: 2 | 3;
 }
 
-const { essay } = Astro.props;
+const { essay, headingLevel } = Astro.props;
 
-const renderedEssay = await renderToString(essay);
+const excerpt = getFirstParagraph(await renderToString(essay));
 ---
 
-<LinkedCard href={`/essays/${essay.id}`}>
-  <h3 slot="title">{essay.data.title}</h3>
+<LinkedCard href={`/essays/${essay.id}`} headingLevel={headingLevel}>
+  <Fragment slot="title">{essay.data.title}</Fragment>
 
   <EssayMeta content={essay} compact />
 
-  <div class="mt-2 text-sm font-serif font-sm line-clamp-3">
-    <Fragment set:html={getFirstParagraph(renderedEssay)} />
-  </div>
+  {excerpt && <p class="mt-2 line-clamp-3 font-serif text-sm text-ink-muted">{excerpt}</p>}
 </LinkedCard>

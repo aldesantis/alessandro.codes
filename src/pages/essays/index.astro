@@ -8,13 +8,16 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
 import { topicFilter } from "src/lib/filters";
 ---
 
-<Layout>
-  <title slot="head">Essays | Alessandro Desantis</title>
-
+<Layout title="Essays" description={sections.essays.description}>
   <Hero>
     <span slot="heading">Essays</span>
     <span slot="subheading">{sections.essays.description}</span>
   </Hero>
 
-  <ContentGrid searchParams={{ collections: ["essays"] }} itemSize="L" filters={[await topicFilter()]} />
+  <ContentGrid
+    headingLevel={2}
+    searchParams={{ collections: ["essays"] }}
+    itemSize="L"
+    filters={[await topicFilter()]}
+  />
 </Layout>

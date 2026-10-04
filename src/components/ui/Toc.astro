@@ -8,6 +8,13 @@ export interface Props {
     text: string;
     slug: string;
   }[];
+  /**
+   * Fewest headings worth a table of contents on desktop (it always takes 3 on
+   * smaller screens). Standalone pages (about, colophon) pass 2: the TOC is
+   * their only sidebar, and without it the page is a lone column with an empty
+   * half beside it; on a phone, a collapsed two-item TOC is just noise.
+   */
+  minHeadings?: number;
 }
 
 // The footnotes section carries a screen-reader-only heading; keep it out of the TOC.
@@ -16,25 +23,35 @@ const headings = Astro.props.headings.filter((heading) => heading.slug !== "foot
 // Indent relative to the shallowest heading, so the article's top-level
 // headings sit flush regardless of whether they're written as h1 or h2.
 const minDepth = Math.min(...headings.map((heading) => heading.depth));
+
+// A table of contents only earns its place once there's something to navigate.
+const MIN_HEADINGS = 3;
+const { minHeadings = MIN_HEADINGS } = Astro.props;
+const desktopOnly = headings.length < MIN_HEADINGS;
 ---
 
-{headings.length > 0 && (
-  <div data-controller="toc">
+{headings.length >= minHeadings && (
+  <nav
+    aria-label="Table of contents"
+    data-controller="toc"
+    data-sidebar-part="toc"
+    class:list={[desktopOnly && "hidden lg:block"]}
+  >
     <MobileCollapsible label="Table of contents">
-      <LinkList>
+      <LinkList class="space-y-0 lg:space-y-1">
         {headings.map((heading) => (
-          <div class:list={[heading.depth - minDepth === 1 && "pl-4", heading.depth - minDepth >= 2 && "pl-8"]}>
+          <li class:list={[heading.depth - minDepth === 1 && "pl-4", heading.depth - minDepth >= 2 && "pl-8"]}>
             <Link
               href={`#${heading.slug}`}
               variant="muted"
-              class="font-sans text-sm aria-[current=location]:text-orange-700"
+              class="block py-1 font-sans text-sm [overflow-wrap:anywhere] aria-[current=location]:text-link lg:py-0"
               data-toc-target="link"
             >
               {heading.text}
             </Link>
-          </div>
+          </li>
         ))}
       </LinkList>
     </MobileCollapsible>
-  </div>
+  </nav>
 )}

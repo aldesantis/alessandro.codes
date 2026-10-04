@@ -12,6 +12,9 @@ interface Props {
 
 const { outboundLinks, inboundLinks } = Astro.props;
 
+// Longer lists show this many entries, with the rest behind a disclosure.
+const VISIBLE_LINKS = 6;
+
 const deduplicateLinks = (links: LinkType[]): LinkType[] => {
   const seen = new Set<string>();
   return links.filter((link) => {
@@ -22,57 +25,68 @@ const deduplicateLinks = (links: LinkType[]): LinkType[] => {
   });
 };
 
-const uniqueOutboundLinks = deduplicateLinks(outboundLinks);
-const uniqueInboundLinks = deduplicateLinks(inboundLinks);
-
 const getLinkTitle = async (link: LinkType): Promise<string> => {
+  // Standalone pages (about, colophon) aren't a collection; their slug is their title.
+  if (link.type === "pages") return link.slug.charAt(0).toUpperCase() + link.slug.slice(1);
+
   const entries = await getEntries([link.type as ZendoCollectionId]);
   return entries.find((e) => e.id === link.slug)?.data.title || link.slug;
 };
+
+const toItems = (links: LinkType[]) =>
+  Promise.all(
+    deduplicateLinks(links).map(async (link) => ({
+      href: buildUrl({ type: link.type, slug: link.slug }),
+      title: await getLinkTitle(link),
+    }))
+  );
+
+// Empty lists are left out entirely rather than shown as "Nothing yet".
+const groups = [
+  { label: "Links to", items: await toItems(outboundLinks) },
+  { label: "Linked from", items: await toItems(inboundLinks) },
+].filter((group) => group.items.length > 0);
 ---
 
-<MobileCollapsible label="Links to">
-  {uniqueOutboundLinks.length > 0 ? (
-    <LinkList>
-      {uniqueOutboundLinks.map((link: LinkType) => (
-        <li>
-          <Link
-            class="font-sans"
-            href={buildUrl({
-              type: link.type,
-              slug: link.slug,
-            })}
-            variant="muted"
-          >
-            {getLinkTitle(link)}
-          </Link>
-        </li>
-      ))}
-    </LinkList>
-  ) : (
-    <div class="font-sans text-sm text-zinc-500">Nothing yet!</div>
-  )}
-</MobileCollapsible>
+{groups.length > 0 && (
+  <div class="space-y-4" data-sidebar-part="links">
+    {groups.map(({ label, items }) => (
+      <MobileCollapsible label={label}>
+        <LinkList>
+          {items.slice(0, VISIBLE_LINKS).map((item) => (
+            <li>
+              <Link class="font-sans [overflow-wrap:anywhere]" href={item.href} variant="muted">
+                {item.title}
+              </Link>
+            </li>
+          ))}
+        </LinkList>
 
-<MobileCollapsible label="Linked from">
-  {uniqueInboundLinks.length > 0 ? (
-    <LinkList>
-      {uniqueInboundLinks.map((link: LinkType) => (
-        <li>
-          <Link
-            class="font-sans"
-            href={buildUrl({
-              type: link.type,
-              slug: link.slug,
-            })}
-            variant="muted"
-          >
-            {getLinkTitle(link)}
-          </Link>
-        </li>
-      ))}
-    </LinkList>
-  ) : (
-    <div class="font-sans text-sm text-zinc-500">Nothing yet!</div>
-  )}
-</MobileCollapsible>
+        {items.length > VISIBLE_LINKS && (
+          <details class="group/more">
+            <summary
+              class:list={[
+                "mt-1 w-fit cursor-pointer list-none rounded-sm font-sans text-sm text-ink-muted",
+                "transition-colors duration-150 ease-out-strong hover:text-link group-open/more:hidden",
+                "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
+                "[&::-webkit-details-marker]:hidden",
+              ]}
+            >
+              Show all ({items.length})
+            </summary>
+
+            <LinkList class="mt-1 space-y-1">
+              {items.slice(VISIBLE_LINKS).map((item) => (
+                <li>
+                  <Link class="font-sans [overflow-wrap:anywhere]" href={item.href} variant="muted">
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+            </LinkList>
+          </details>
+        )}
+      </MobileCollapsible>
+    ))}
+  </div>
+)}

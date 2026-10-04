@@ -32,3 +32,8 @@ pnpm-debug.log*
 # asdf tool versions (un-ignore; overrides global gitignore)
 !.tool-versions
 .env*
+
+# BEGIN ambit - managed block, rewritten by `ambit install`; edits are lost
+.ambit/
+.claude/skills
+# END ambit

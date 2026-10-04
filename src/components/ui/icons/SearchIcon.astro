@@ -1,13 +1,18 @@
 ---
-// A simple component for the search icon
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
 ---
 
 <svg
-  class="pointer-events-none col-start-1 row-start-1 ml-4 h-5 w-5 self-center text-gray-400"
+  class:list={["size-5", className]}
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 20 20"
   fill="currentColor"
   aria-hidden="true"
+  focusable="false"
 >
   <path
     fill-rule="evenodd"

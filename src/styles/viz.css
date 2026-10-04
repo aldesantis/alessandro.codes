@@ -1,9 +1,9 @@
 /* Interactive figures embedded in essays (src/components/viz). */
 .viz {
-  --viz-surface: #fcfcfb;
-  --viz-ink: var(--color-stone-800);
-  --viz-ink-2: var(--color-stone-600);
-  --viz-muted: var(--color-stone-500);
+  --viz-surface: var(--color-surface);
+  --viz-ink: var(--color-ink);
+  --viz-ink-2: var(--color-ink-muted);
+  --viz-muted: var(--color-ink-subtle);
   --viz-grid: #e1e0d9;
   --viz-axis: #c3c2b7;
   /* Validated pair: human/strategy work vs AI. */
@@ -23,6 +23,61 @@
   fill: var(--viz-muted);
 }
 
+/* The strategy map keeps one geometry at every width (its controller moves
+   marks in viewBox units), so where it renders small its text grows in the
+   viewBox instead, to stay at 11px+ on screen. Sized by the map's own width:
+   the viewBox is 392 units wide. */
+.viz-map {
+  container-type: inline-size;
+}
+
+.viz .viz-map-quadrant {
+  font-size: 9.5px;
+}
+
+.viz .viz-map-label {
+  font-size: 12px;
+}
+
+.viz .viz-map-narrow {
+  display: none;
+}
+
+@container (width < 454px) {
+  .viz .viz-map-quadrant,
+  .viz .viz-map-label {
+    font-size: 14px;
+  }
+
+  .viz .viz-map-wide {
+    display: none;
+  }
+
+  .viz .viz-map-narrow {
+    display: inline;
+  }
+}
+
+@container (width < 318px) {
+  .viz .viz-map-quadrant,
+  .viz .viz-map-label {
+    font-size: 17px;
+  }
+}
+
+@container (width < 260px) {
+  .viz .viz-map-quadrant,
+  .viz .viz-map-label {
+    font-size: 19px;
+  }
+}
+
+/* The phone layout of a chart has a narrower viewBox, so its text renders
+   larger for the same font size; this keeps ticks at 11px+ on a 320px screen. */
+.viz .viz-compact .viz-tick {
+  font-size: 14px;
+}
+
 /* Keeps a label legible where it crosses gridlines or marks. */
 .viz .viz-halo {
   paint-order: stroke;
@@ -31,9 +86,78 @@
   stroke-linejoin: round;
 }
 
+/* Sliders: a thin track filled up to the thumb (`--viz-fill`, kept in step by
+   `syncSlider()`), in a taller hit area. */
 .viz input[type="range"] {
+  display: block;
   width: 100%;
+  height: 1.5rem;
+  margin: 0;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
   accent-color: var(--viz-ink);
+}
+
+@media (pointer: coarse) {
+  .viz input[type="range"] {
+    height: 2rem;
+  }
+}
+
+.viz input[type="range"]:focus-visible {
+  outline: 2px solid var(--viz-ink);
+  outline-offset: 4px;
+  border-radius: 9999px;
+}
+
+.viz input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, var(--viz-ink) var(--viz-fill, 0%), var(--color-rule) var(--viz-fill, 0%));
+}
+
+.viz input[type="range"]::-moz-range-track {
+  height: 4px;
+  border-radius: 9999px;
+  background: var(--color-rule);
+}
+
+.viz input[type="range"]::-moz-range-progress {
+  height: 4px;
+  border-radius: 9999px;
+  background: var(--viz-ink);
+}
+
+.viz input[type="range"]::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  margin-top: -6px;
+  appearance: none;
+  border: 2px solid var(--viz-surface);
+  border-radius: 9999px;
+  background: var(--viz-ink);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  transition: transform 100ms var(--ease-out-strong);
+}
+
+.viz input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 2px solid var(--viz-surface);
+  border-radius: 9999px;
+  background: var(--viz-ink);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  transition: transform 100ms var(--ease-out-strong);
+}
+
+.viz input[type="range"]:active::-webkit-slider-thumb {
+  transform: scale(1.15);
+}
+
+.viz input[type="range"]:active::-moz-range-thumb {
+  transform: scale(1.15);
 }
 
 .viz-tooltip {
@@ -42,14 +166,19 @@
   pointer-events: none;
   max-width: 16rem;
   padding: 0.5rem 0.75rem;
-  border: 1px solid var(--color-stone-200);
+  border: 1px solid var(--color-rule);
   border-radius: 0.375rem;
-  background: white;
-  box-shadow: 0 6px 16px -4px rgb(0 0 0 / 0.12);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-pop);
+  transform-origin: bottom center;
   font-family: var(--font-sans);
   font-size: 0.8125rem;
   line-height: 1.35;
   color: var(--viz-ink-2);
+}
+
+.viz-tooltip[data-below] {
+  transform-origin: top center;
 }
 
 .viz-tooltip strong {
@@ -68,42 +197,137 @@
   outline-offset: 2px;
 }
 
+/* A hover column (a whole chart band) rings its anchor point, not the band. */
+.viz [data-tip]:has([data-tip-anchor]):focus-visible {
+  outline: none;
+}
+
+.viz [data-tip]:focus-visible [data-tip-anchor] {
+  r: 8px;
+  stroke: var(--viz-ink);
+  stroke-width: 2px;
+}
+
+/* Tapping a focusable SVG mark focuses it, and Chrome rings any focused SVG
+   element; the ring is only for keyboard focus. */
+.viz [tabindex]:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* A guide line inside a hover column, shown while its tooltip is (hover,
+   keyboard focus or tap). */
+.viz .viz-guide {
+  opacity: 0;
+}
+
+.viz [data-tip-active] .viz-guide,
+.viz [data-tip]:focus-visible .viz-guide {
+  opacity: 1;
+}
+
+/* Segments share one track (the `SegmentedControl` wrapper draws it). */
 .viz-segment {
-  border: 1px solid var(--color-stone-200);
   border-radius: 9999px;
   padding: 0.25rem 0.75rem;
   font-size: 0.875rem;
   color: var(--viz-ink-2);
-  background: white;
+  cursor: pointer;
   transition:
     background-color 0.15s,
-    color 0.15s;
+    color 0.15s,
+    transform 100ms var(--ease-out-strong);
 }
 
-.viz-segment:hover {
-  background: var(--color-stone-100);
+@media (pointer: coarse) {
+  .viz-segment {
+    padding: 0.5rem 0.875rem;
+  }
+}
+
+@media (hover: hover) {
+  .viz-segment:not([aria-pressed="true"]):hover {
+    background: var(--color-stone-100);
+    color: var(--viz-ink);
+  }
+}
+
+.viz-segment:active {
+  transform: scale(0.97);
+}
+
+.viz-segment:focus-visible {
+  outline: 2px solid var(--viz-ink);
+  outline-offset: 2px;
 }
 
 .viz-segment[aria-pressed="true"] {
-  border-color: var(--viz-ink);
   background: var(--viz-ink);
-  color: white;
+  color: var(--color-paper);
 }
 
+/* Marks driven by a control. Ease-out, so each input event's restart still
+   starts fast; while a slider is being dragged, marks follow it directly. */
 .viz .viz-animate {
   transition:
-    cx 0.4s ease,
-    cy 0.4s ease,
-    x1 0.4s ease,
-    y1 0.4s ease,
-    x2 0.4s ease,
-    y2 0.4s ease,
-    width 0.3s ease,
-    d 0.3s ease;
+    cx 200ms var(--ease-out-strong),
+    cy 200ms var(--ease-out-strong),
+    x1 200ms var(--ease-out-strong),
+    y1 200ms var(--ease-out-strong),
+    x2 200ms var(--ease-out-strong),
+    y2 200ms var(--ease-out-strong),
+    width 200ms var(--ease-out-strong),
+    d 200ms var(--ease-out-strong);
+}
+
+/* A group that moves as one, via `transform: translate(…px, …px)` in viewBox
+   units, so its parts never drift apart mid-tween. */
+.viz .viz-move {
+  transition: transform 280ms var(--ease-in-out-strong);
+}
+
+.viz:has(input[type="range"]:active) .viz-animate,
+.viz:has(input[type="range"]:active) .viz-move {
+  transition-duration: 0ms;
+}
+
+/* First appearance of a tooltip; later ones (moving between marks) are instant. */
+.viz-tooltip[data-entering] {
+  animation: viz-tooltip-in 150ms var(--ease-out-strong);
+}
+
+@keyframes viz-tooltip-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .viz .viz-animate {
+  .viz .viz-animate,
+  .viz .viz-move {
     transition: none;
+  }
+
+  /* Separate rules: an unknown pseudo-element would void a shared selector list. */
+  .viz input[type="range"]::-webkit-slider-thumb {
+    transition: none;
+  }
+
+  .viz input[type="range"]::-moz-range-thumb {
+    transition: none;
+  }
+
+  .viz-segment {
+    transition:
+      background-color 0.15s,
+      color 0.15s;
+  }
+
+  .viz-segment:active {
+    transform: none;
+  }
+
+  .viz-tooltip[data-entering] {
+    animation: none;
   }
 }

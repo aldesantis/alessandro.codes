@@ -18,4 +18,6 @@ const statusIcon = {
 }[status];
 ---
 
-<span title={statusLabel}>{statusIcon}</span>
+<span role="img" title={statusLabel} aria-label={statusLabel}>
+  {statusIcon}
+</span>

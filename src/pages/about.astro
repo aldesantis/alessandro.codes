@@ -10,13 +10,11 @@ import SidebarLayout from "@layouts/SidebarLayout.astro";
 import { Content, getHeadings } from "src/content/about.mdx";
 ---
 
-<title slot="head">About | Alessandro Desantis</title>
-
-<Layout>
+<Layout title="About">
   <SidebarLayout>
     <Fragment slot="title"> About </Fragment>
 
-    <Toc headings={getHeadings()} slot="sidebar" />
+    <Toc headings={getHeadings()} minHeadings={2} slot="sidebar" />
 
     <Prose>
       <Content components={getMdxComponents()} />

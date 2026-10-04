@@ -3,6 +3,7 @@ export const prerender = true;
 
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import { getEntryDescription } from "src/lib/description";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 import NoteMeta from "@components/content/notes/NoteMeta.astro";
@@ -17,13 +18,18 @@ export async function getStaticPaths() {
 }
 
 const { note } = Astro.props;
+const description = await getEntryDescription(note);
 ---
 
-<title slot="head">{note.data.title} | Alessandro Desantis</title>
-
-<Layout>
+<Layout title={note.data.title} description={description} type="article">
   <ContentDetail entry={note}>
-    <ArrowLink href="/notes" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+    <ArrowLink
+      href="/notes"
+      arrowDirection="left"
+      variant="muted"
+      class="-my-2 inline-block py-2 font-sans text-sm font-semibold uppercase tracking-[0.06em]"
+      slot="navigation"
+    >
       Notes
     </ArrowLink>
 

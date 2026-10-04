@@ -8,4 +8,6 @@ const flag = language === "en" ? "🇬🇧" : "🇮🇹";
 const languageName = language === "en" ? "English" : "Italian";
 ---
 
-<span title={languageName}>{flag}</span>
+<span role="img" title={languageName} aria-label={languageName}>
+  {flag}
+</span>

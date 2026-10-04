@@ -5,28 +5,89 @@ import CommandPalette from "@components/ui/command-palette/CommandPalette.astro"
 import { Font } from "astro:assets";
 
 import "@styles/global.css";
+
+const SITE_NAME = "Alessandro Desantis";
+const SITE_URL = "https://alessandro.codes";
+const DEFAULT_IMAGE = "/og-default.png";
+const DEFAULT_DESCRIPTION =
+  "Alessandro Desantis is a writer, engineer, and strategist based in Rome, Italy, and a Partner at Nebulab.";
+
+export interface Props {
+  /** Page title without the site name; omit for the homepage. */
+  title?: string;
+  description?: string;
+  type?: "website" | "article";
+  /** Social preview image (absolute URL or site-relative path), 1200×630. */
+  image?: string;
+  /** Emitted as `article:published_time` when `type` is "article". */
+  publishedTime?: Date;
+}
+
+const {
+  title,
+  description = DEFAULT_DESCRIPTION,
+  type = "website",
+  image = DEFAULT_IMAGE,
+  publishedTime,
+} = Astro.props;
+
+const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? SITE_URL).href;
+const imageUrl = new URL(image, Astro.site ?? SITE_URL).href;
 ---
 
 <!doctype html>
-<html lang="en" class="[font-size:20px]">
+<html
+  lang="en"
+  class="[font-size:100%] sm:[font-size:112.5%] lg:[font-size:125%] [color-scheme:light] touch-manipulation"
+>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <!-- --color-paper, oklch(0.982 0.004 80), as hex for browser chrome -->
+    <meta name="theme-color" content="#faf9f6" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <Font cssVariable="--font-domine" preload />
-    <Font cssVariable="--font-source-sans" preload />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:type" content={type} />
+    <meta property="og:image" content={imageUrl} />
+    {type === "article" && publishedTime && (
+      <meta property="article:published_time" content={publishedTime.toISOString()} />
+    )}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageUrl} />
+
+    <!-- One variable file per family covers 400–700; preload it so text renders in the right face. -->
+    <Font cssVariable="--font-domine" preload={[{ weight: 400, style: "normal", subset: "latin" }]} />
+    <Font cssVariable="--font-source-sans" preload={[{ weight: 400, style: "normal", subset: "latin" }]} />
 
     <slot name="head" />
   </head>
 
-  <body class="bg-zinc-50">
+  <body class="bg-paper text-ink touch-manipulation">
+    <a
+      href="#main"
+      class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-50 focus-visible:rounded-md focus-visible:bg-surface focus-visible:px-4 focus-visible:py-2 focus-visible:font-sans focus-visible:text-sm focus-visible:text-link focus-visible:shadow-pop focus-visible:outline-2 focus-visible:outline-link"
+    >
+      Skip to content
+    </a>
+
     <Navbar />
 
-    <div class="container mt-4 sm:mt-8">
+    <main id="main" tabindex="-1" class="container mt-4 sm:mt-8 focus:outline-none">
       <slot />
-    </div>
+    </main>
 
     <Footer />
     <CommandPalette />

@@ -1,3 +1,23 @@
-<div class="text-sm text-stone-500 font-sans flex flex-row items-center [&>*:not(:last-child)]:after:content-['•'] [&>*:not(:last-child)]:after:mx-1">
+---
+// One row of metadata items separated by bullets. Each direct child is an
+// item: items don't wrap internally (so "🫒 Mediterranean" stays together)
+// unless they carry `data-wrap`, e.g. a list of topics. The bullet is generated
+// content with empty alt text, so screen readers skip it.
+
+interface Props {
+  class?: string;
+}
+
+const { class: originalClass } = Astro.props;
+---
+
+<div
+  class:list={[
+    "flex flex-wrap items-center gap-x-1.5 gap-y-1 font-sans text-sm text-ink-subtle",
+    "[&>*:not([data-wrap])]:whitespace-nowrap",
+    "[&>*:not(:last-child)]:after:ml-1.5 [&>*:not(:last-child)]:after:content-['•'_/_'']",
+    originalClass,
+  ]}
+>
   <slot />
 </div>

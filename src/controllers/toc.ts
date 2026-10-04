@@ -53,9 +53,10 @@ export default class TocController extends Controller {
     }
   }
 
-  // Keeps the active entry visible when the table of contents scrolls on its own.
+  // Keeps the active entry visible when the sidebar holding the table of
+  // contents scrolls on its own (desktop only; on mobile it isn't a scroller).
   private reveal(link: HTMLElement) {
-    const container = link.closest<HTMLElement>(".overflow-y-auto");
+    const container = link.closest<HTMLElement>("[data-sidebar-scroll]");
     if (!container || container.scrollHeight <= container.clientHeight) return;
 
     const linkRect = link.getBoundingClientRect();

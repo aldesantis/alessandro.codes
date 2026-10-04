@@ -10,13 +10,11 @@ import SidebarLayout from "@layouts/SidebarLayout.astro";
 import { Content, getHeadings } from "src/content/colophon.mdx";
 ---
 
-<title slot="head">Colophon | Alessandro Desantis</title>
-
-<Layout>
+<Layout title="Colophon">
   <SidebarLayout>
     <Fragment slot="title"> Colophon </Fragment>
 
-    <Toc headings={getHeadings()} slot="sidebar" />
+    <Toc headings={getHeadings()} minHeadings={2} slot="sidebar" />
 
     <Prose>
       <Content components={getMdxComponents()} />

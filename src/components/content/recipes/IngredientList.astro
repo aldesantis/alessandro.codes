@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { getIngredientNameMap, prettifyId } from "src/lib/recipes/ingredients";
-import { formatIngredientDetails } from "src/lib/recipes/format";
+import { formatIngredientDetails, isScalableUnit } from "src/lib/recipes/format";
 
 export interface Props {
   recipe: CollectionEntry<"recipes">;
@@ -12,6 +12,21 @@ const groups = recipe.data.ingredient_groups;
 const serves = recipe.data.serves;
 
 const nameMap = await getIngredientNameMap();
+
+// "To serve" / "For the dough" already read as a lead-in; bare names ("Sauce",
+// "Bolognese ragù") get "For the …" with only the first letter lowercased so
+// proper nouns and acronyms later in the name survive.
+function groupLabel(group: string): string {
+  if (/^(to|for|with|on|in|optional)\b/i.test(group)) {
+    return `${group}:`;
+  }
+  const lowered = /^[A-Z][^A-Z]/.test(group) ? group.charAt(0).toLowerCase() + group.slice(1) : group;
+  return `For the ${lowered}:`;
+}
+
+// 28px visual buttons with a pseudo-element extending the hit area to 44px.
+const stepperClass =
+  "relative flex size-7 cursor-pointer items-center justify-center rounded-md border border-rule bg-surface text-ink-muted transition-[color,border-color,transform,opacity] duration-150 ease-out-strong after:absolute after:-inset-2 hover:border-ink-subtle hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link active:scale-95 motion-reduce:transform-none disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-rule disabled:hover:text-ink-muted disabled:active:scale-100";
 ---
 
 {groups.length > 0 && (
@@ -19,24 +34,32 @@ const nameMap = await getIngredientNameMap();
     <h2 id="ingredients">Ingredients</h2>
 
     {serves && (
-      <div class="not-prose flex items-center gap-2 font-sans text-sm text-stone-500">
-        <span>Servings:</span>
+      <div
+        role="group"
+        aria-label="Servings"
+        class="not-prose flex items-center gap-3 font-sans text-sm text-ink-subtle"
+      >
+        <span aria-hidden="true">Servings:</span>
         <button
           type="button"
           aria-label="Decrease servings"
+          data-servings-target="decrement"
           data-action="servings#decrement"
-          class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
+          disabled={serves <= 1}
+          class={stepperClass}
         >
           &minus;
         </button>
-        <span data-servings-target="count" class="min-w-4 text-center font-semibold text-stone-700">
-          {serves}
+        <span aria-live="polite" aria-atomic="true" class="min-w-5 text-center font-semibold text-ink tabular-nums">
+          <span data-servings-target="count">{serves}</span>
+          <span class="sr-only"> servings</span>
         </span>
         <button
           type="button"
           aria-label="Increase servings"
+          data-servings-target="increment"
           data-action="servings#increment"
-          class="flex h-6 w-6 items-center justify-center rounded border border-stone-300 text-stone-600 hover:bg-stone-100"
+          class={stepperClass}
         >
           +
         </button>
@@ -45,23 +68,25 @@ const nameMap = await getIngredientNameMap();
 
     {groups.map((group) => (
       <>
-        {group.group && <p>For the {group.group.toLowerCase()}:</p>}
+        {group.group && <p>{groupLabel(group.group)}</p>}
         <ul>
           {group.ingredients.map((item) => (
             <li>
               {item.id ? (
                 <>
                   {nameMap.get(item.id.id) ?? prettifyId(item.id.id)}
+                  {(item.quantity !== undefined || item.note) && " "}
                   {(item.quantity !== undefined || item.note) && (
                     <span
-                      {...(item.quantity !== undefined && {
-                        "data-servings-target": "quantity",
-                        "data-quantity": item.quantity,
-                        "data-unit": item.unit,
-                        "data-note": item.note,
-                      })}
+                      {...(item.quantity !== undefined &&
+                        isScalableUnit(item.unit) && {
+                          "data-servings-target": "quantity",
+                          "data-quantity": item.quantity,
+                          "data-unit": item.unit,
+                          "data-note": item.note,
+                        })}
                     >
-                      {` ${formatIngredientDetails(item.quantity, item.unit, item.note)}`}
+                      {formatIngredientDetails(item.quantity, item.unit, item.note)}
                     </span>
                   )}
                 </>

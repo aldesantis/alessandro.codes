@@ -2,6 +2,7 @@
 export const prerender = true;
 
 import { getCollection } from "astro:content";
+import { getEntryDescription } from "src/lib/description";
 import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import TopicMeta from "@components/content/topics/TopicMeta.astro";
@@ -19,15 +20,20 @@ export async function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
+const description = await getEntryDescription(topic);
 
 const filters = await Promise.all([statusFilter(), collectionFilter()]);
 ---
 
-<title slot="head">{topic.data.title} | Alessandro Desantis</title>
-
-<Layout>
+<Layout title={topic.data.title} description={description}>
   <ContentDetail entry={topic}>
-    <ArrowLink href="/topics" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+    <ArrowLink
+      href="/topics"
+      arrowDirection="left"
+      variant="muted"
+      class="-my-2 inline-block py-2 font-sans text-sm font-semibold uppercase tracking-[0.06em]"
+      slot="navigation"
+    >
       Topics
     </ArrowLink>
 
@@ -35,12 +41,11 @@ const filters = await Promise.all([statusFilter(), collectionFilter()]);
   </ContentDetail>
 
   <div class="mt-12">
-    <hr class="mb-6 border-gray-200" />
+    <hr class="mb-6 border-rule" />
     <ContentGrid
       searchParams={{ relatedTo: topic.id, collections: ["essays", "books", "notes", "talks", "recipes"] }}
       itemSize="M"
       filters={filters}
-      layoutType="masonry"
     />
   </div>
 </Layout>

@@ -7,18 +7,16 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
 import { statusFilter, topicFilter, collectionFilter } from "src/lib/filters";
 ---
 
-<Layout>
-  <title slot="head">The Garden | Alessandro Desantis</title>
-
+<Layout title="The Garden" description="A collection of everything I'm thinking about, reading, and writing.">
   <Hero>
     <span slot="heading">The Garden</span>
     <span slot="subheading"> A collection of everything I'm thinking about, reading, and writing. </span>
   </Hero>
 
   <ContentGrid
+    headingLevel={2}
     searchParams={{ collections: ["essays", "books", "notes", "talks"] }}
     itemSize="M"
     filters={await Promise.all([statusFilter(), topicFilter(), collectionFilter()])}
-    layoutType="masonry"
   />
 </Layout>
