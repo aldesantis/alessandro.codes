@@ -43,7 +43,7 @@ const bottom = PLOT.top + PLOT.height;
   <line x1={PLOT.left} y1={midY} x2={right} y2={midY} stroke="var(--viz-grid)" />
 
   <!-- Quadrant names -->
-  <g font-size="11" fill="var(--viz-muted)" font-weight="600" letter-spacing="0.04em">
+  <g font-size="9.5" fill="var(--viz-muted)" font-weight="500" letter-spacing="0.06em" opacity="0.8">
     <text x={PLOT.left + 8} y={PLOT.top + 18}>
       ADVANTAGE × EXECUTION
     </text>
@@ -66,15 +66,9 @@ const bottom = PLOT.top + PLOT.height;
     <text x={right} y={bottom + 20} text-anchor="end">
       Strategy
     </text>
-    <text x={midX} y={bottom + 20} text-anchor="middle" fill="var(--viz-muted)">
-      →
-    </text>
     <text transform={`translate(${PLOT.left - 14} ${bottom}) rotate(-90)`}>Necessity</text>
     <text transform={`translate(${PLOT.left - 14} ${PLOT.top}) rotate(-90)`} text-anchor="end">
       Advantage
-    </text>
-    <text transform={`translate(${PLOT.left - 14} ${midY}) rotate(-90)`} text-anchor="middle" fill="var(--viz-muted)">
-      →
     </text>
   </g>
 

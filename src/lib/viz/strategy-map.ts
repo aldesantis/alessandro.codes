@@ -47,37 +47,3 @@ export function frontierEdge(level: number): string {
   }
   return points.length > 1 ? linePath(points) : "";
 }
-
-export interface Quadrant {
-  name: string;
-  text: string;
-}
-
-// Copy from the essay's map in §5.
-export function quadrantFor(x: number, y: number): Quadrant {
-  if (y >= 0.5 && x >= 0.5)
-    return {
-      name: "Advantage × Strategy",
-      text: "Safest. This is where original insight about how the company competes happens.",
-    };
-  if (y >= 0.5)
-    return {
-      name: "Advantage × Execution",
-      text: "Execution still gets cheap, so there’s pressure on headcount and price.",
-    };
-  if (x >= 0.5)
-    return {
-      name: "Necessity × Strategy",
-      text: "Exposed. There’s little demand, because the intent converges on the standard answer and leaves little to decide.",
-    };
-  return {
-    name: "Necessity × Execution",
-    text: "Most exposed. AI replaces it outright, as with a consumer brand’s storefront, routine contract review, or first-line support.",
-  };
-}
-
-export function nextMove(x: number, y: number): string {
-  if (y < 0.5) return "Next move: up. Strategy is only in demand where the company competes on the function.";
-  if (x < 0.5) return "Next move: right. Do more deciding and less executing.";
-  return "Keep moving. The frontier keeps moving up and to the right with you.";
-}
