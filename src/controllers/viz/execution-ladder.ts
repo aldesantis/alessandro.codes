@@ -13,12 +13,13 @@ const RAMP = 0.3;
 // translation. Meaningmaking is never absorbed.
 export default class ExecutionLadderController extends Controller {
   static override values = { rungs: Array };
-  static override targets = ["capability", "ai", "translation", "share", "summary"];
+  static override targets = ["capability", "ai", "translation", "bar", "share", "summary"];
 
   declare readonly rungsValue: Rung[];
   declare readonly capabilityTarget: HTMLInputElement;
   declare readonly aiTargets: HTMLElement[];
   declare readonly translationTargets: HTMLElement[];
+  declare readonly barTargets: HTMLElement[];
   declare readonly shareTargets: HTMLElement[];
   declare readonly summaryTarget: HTMLElement;
 
@@ -41,6 +42,14 @@ export default class ExecutionLadderController extends Controller {
       this.translationTargets[index]!.style.width = `${(rung.translation - absorbed) * 100}%`;
       this.aiTargets[index]!.setAttribute("data-tip", `${Math.round(absorbed * 100)}% absorbed by AI`);
       this.aiTargets[index]!.setAttribute("data-tip-label", rung.label);
+      const breakdown = [
+        `${Math.round(absorbed * 100)}% absorbed by AI`,
+        `${Math.round((rung.translation - absorbed) * 100)}% translation by people`,
+        `${Math.round((1 - rung.translation) * 100)}% meaningmaking`,
+      ].join(", ");
+      this.barTargets[index]!.setAttribute("data-tip", breakdown);
+      this.barTargets[index]!.setAttribute("data-tip-label", rung.label);
+      this.barTargets[index]!.setAttribute("aria-label", `${rung.label}: ${breakdown}`);
       this.shareTargets[index]!.textContent = absorbed > 0.005 ? `${Math.round(absorbed * 100)}% AI` : "";
     });
 

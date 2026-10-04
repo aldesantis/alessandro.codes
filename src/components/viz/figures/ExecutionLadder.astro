@@ -28,7 +28,13 @@ const rungs = [
             <span class="text-ink">{rung.label}</span>
             <span class="shrink-0 text-xs tabular-nums text-ink-subtle" data-execution-ladder-target="share" />
           </div>
-          <div class="flex h-3 gap-0.5 overflow-hidden rounded">
+          {/* Focusable so keyboard and screen reader users get the rung's full breakdown */}
+          <div
+            class="flex h-3 gap-0.5 overflow-hidden rounded-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link"
+            tabindex="0"
+            role="img"
+            data-execution-ladder-target="bar"
+          >
             <div
               class="viz-animate h-full rounded-l bg-[var(--viz-ai)]"
               style="width:0%"
