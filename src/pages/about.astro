@@ -16,7 +16,7 @@ import { Content, getHeadings } from "src/content/about.mdx";
   <SidebarLayout>
     <Fragment slot="title"> About </Fragment>
 
-    <Toc headings={getHeadings()} title="About" slot="sidebar" />
+    <Toc headings={getHeadings()} slot="sidebar" />
 
     <Prose>
       <Content components={getMdxComponents()} />

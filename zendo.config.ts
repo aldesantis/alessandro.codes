@@ -14,6 +14,7 @@ import {
 } from "zendo/transformers";
 import type { CollectionEntry } from "astro:content";
 import type { Configuration, EntryLink } from "zendo";
+import type { Transformer } from "zendo/transformers";
 import {
   collectionFilter,
   nameFilter,
@@ -38,10 +39,29 @@ const baseTransformers = [
   addContentTypeToMetadata(),
 ];
 
+// Turns a leading "## TL;DR" section into a <Tldr> component, so it gets its own
+// styling and stays out of the table of contents. Runs after `escapeMdx()`, or
+// the component tag would be escaped.
+const wrapTldr = (): Transformer => async (originalPath, originalContent) => {
+  // Skip binary files
+  if (Buffer.isBuffer(originalContent)) {
+    return { path: originalPath, content: originalContent };
+  }
+
+  const { data, content } = matter(originalContent);
+  const updatedContent = content.replace(
+    /^##\s+TL;DR\s*\n([\s\S]*?)(?=^#{1,2}\s|(?![\s\S]))/m,
+    (_, body: string) => `<Tldr>\n\n${body.trim()}\n\n</Tldr>\n\n`
+  );
+
+  return { path: originalPath, content: matter.stringify(updatedContent, data) };
+};
+
 const digitalGardenTransformers = [
   removeFirstH1(),
   removeSection({ headingLevel: 2, title: "Metadata" }),
   ...baseTransformers,
+  wrapTldr(),
 ];
 
 const config: Configuration<ZendoCollectionEntry> = {

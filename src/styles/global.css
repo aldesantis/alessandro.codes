@@ -56,3 +56,101 @@
 
 /* Content configuration for Tailwind 4 */
 @source "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}";
+
+/* Footnotes */
+.prose sup:has(> a[data-footnote-ref]) {
+  font-size: 0.7em;
+  line-height: 0;
+}
+
+/* Separate consecutive references, e.g. ²,³ (marked by the footnotes controller) */
+.prose sup.footnote-ref-sequence::before {
+  content: ",";
+  color: var(--color-stone-400);
+}
+
+.prose a[data-footnote-ref] {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  padding-inline: 0.1em;
+  scroll-margin-top: 30vh;
+}
+
+.prose a[data-footnote-ref]:target {
+  border-radius: 0.25rem;
+  background-color: var(--color-orange-100);
+}
+
+.prose section.footnotes {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-stone-200);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-stone-600);
+}
+
+.prose section.footnotes ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.prose section.footnotes li {
+  margin-block: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  scroll-margin-top: 30vh;
+  transition: background-color 0.3s;
+}
+
+.prose section.footnotes li::marker {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-stone-400);
+}
+
+.prose section.footnotes li:target {
+  background-color: var(--color-orange-50);
+}
+
+.prose section.footnotes li p {
+  margin: 0;
+}
+
+.prose a[data-footnote-backref] {
+  margin-left: 0.25rem;
+  font-family: var(--font-sans);
+  color: var(--color-stone-400);
+}
+
+.prose a[data-footnote-backref]:hover {
+  color: var(--color-orange-400);
+}
+
+/* Hover preview of a footnote, positioned by the footnotes controller */
+.footnote-popover {
+  position: absolute;
+  z-index: 40;
+  max-width: min(24rem, calc(100vw - 2rem));
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-stone-200);
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.1);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-stone-700);
+}
+
+.footnote-popover p {
+  margin: 0;
+}
+
+.footnote-popover a {
+  color: var(--color-orange-400);
+}
+
+.footnote-popover a:hover {
+  color: var(--color-orange-700);
+}

@@ -8,6 +8,8 @@ import DropdownController from "./dropdown";
 import NavbarController from "./navbar";
 import ContentGridController from "./content-grid";
 import ServingsController from "./servings";
+import FootnotesController from "./footnotes";
+import TocController from "./toc";
 
 const application = Application.start();
 
@@ -19,3 +21,5 @@ application.register("command-palette", CommandPaletteController);
 application.register("dropdown", DropdownController);
 application.register("navbar", NavbarController);
 application.register("servings", ServingsController);
+application.register("footnotes", FootnotesController);
+application.register("toc", TocController);

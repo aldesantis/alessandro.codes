@@ -48,8 +48,7 @@ const { remarkPluginFrontmatter } = await render(content);
       <>
         <span class="mx-0.5">•</span>
         <span>
-          {remarkPluginFrontmatter.readingTime}
-          {remarkPluginFrontmatter.readingTime != 1 ? "mins" : "min"} read
+          {remarkPluginFrontmatter.readingTime} {remarkPluginFrontmatter.readingTime != 1 ? "mins" : "min"} read
         </span>
       </>
     )
