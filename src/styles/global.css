@@ -4,8 +4,8 @@
 
 @theme {
   /* Font families */
-  --font-sans: var(--font-source-sans), "sans-serif";
-  --font-serif: var(--font-domine), "serif";
+  --font-sans: var(--font-source-sans), sans-serif;
+  --font-serif: var(--font-domine), serif;
 
   /* Warm neutrals: the only neutral family used across the site */
   --color-paper: oklch(0.982 0.004 80);
@@ -18,6 +18,9 @@
   /* Accent: AA-contrast link colours; orange-400 is decoration only */
   --color-link: var(--color-orange-700);
   --color-link-hover: var(--color-orange-800);
+  /* Accent tints: highlighted surfaces and decorative rules (underlines, borders) */
+  --color-accent-surface: color-mix(in oklab, var(--color-orange-50) 60%, transparent);
+  --color-accent-rule: var(--color-orange-200);
 
   /* Warm-tinted elevation for popovers and menus */
   --shadow-pop: 0 8px 24px -8px oklch(0.3 0.03 60 / 0.18);
@@ -77,27 +80,52 @@
 
 /* Base typography: balanced headings, no orphans in body copy */
 @layer base {
+  /* Pressed states are designed per control; drop the grey mobile flash */
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Long-pressing a control shouldn't select its label */
+  button,
+  [role="button"],
+  summary,
+  .viz-segment {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
   h1,
   h2,
   h3 {
     text-wrap: balance;
+    overflow-wrap: anywhere;
   }
 
   p {
     text-wrap: pretty;
   }
+
+  /* Bare URLs and long words wrap instead of widening the page on phones */
+  .prose :is(p, li, td) {
+    overflow-wrap: break-word;
+  }
+  .prose :is(a, h1, h2, h3, h4) {
+    overflow-wrap: anywhere;
+  }
 }
 
 /*
  * Reduced motion: keep fades and colour changes, drop movement.
+ * Transitions are limited to non-spatial properties, so transform, translate,
+ * scale and rotate snap while opacity and colour still ease. Keyframe motion
+ * must be opt-in via `motion-safe:` (e.g. the homepage wave), which lets
+ * opacity-only keyframes keep running here.
  * Viz figures manage their own reduced-motion behaviour (see viz.css).
  */
 @media (prefers-reduced-motion: reduce) {
   *:not(.viz, .viz *),
   *:not(.viz, .viz *)::before,
   *:not(.viz, .viz *)::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-property:
       opacity, color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, box-shadow !important;
