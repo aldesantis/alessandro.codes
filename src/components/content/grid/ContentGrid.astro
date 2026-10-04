@@ -9,27 +9,11 @@ type GardenFilter = FilterConfig<ZendoCollectionEntry>;
 interface Props {
   searchParams: Parameters<typeof actions.search>[0];
   itemSize: "S" | "M" | "L";
-  /**
-   * "grid" renders cards in columns (see `layoutType`); "list" renders a plain
-   * stacked list with hairline dividers, meant for text-only content. When
-   * omitted, collections made only of essays and/or notes default to "list".
-   */
-  layout?: "grid" | "list";
-  /** Column arrangement in grid layout. Ignored in list layout. */
   layoutType?: "grid" | "masonry";
   filters?: GardenFilter[];
 }
 
-const TEXT_ONLY_COLLECTIONS = new Set(["essays", "notes"]);
-
 const { searchParams, itemSize, layoutType = "grid", filters = [] } = Astro.props;
-
-const collections: string[] = Array.isArray(searchParams?.collections) ? searchParams.collections : [];
-const layout =
-  Astro.props.layout ??
-  (collections.length > 0 && collections.every((collection) => TEXT_ONLY_COLLECTIONS.has(collection))
-    ? "list"
-    : "grid");
 
 const filtersWithUi = filters.filter(
   (filter): filter is GardenFilter & { ui: NonNullable<GardenFilter["ui"]> } => filter.ui !== undefined
@@ -57,21 +41,18 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
   }
 }
 
-const spanAllClass = layout === "list" ? undefined : layoutType === "grid" ? "col-span-full" : "[column-span:all]";
+const spanAllClass = layoutType === "grid" ? "col-span-full" : "[column-span:all]";
 
-const itemClass = layout === "list" ? undefined : layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid";
+const itemClass = layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid";
 
 const containerClass =
-  layout === "list"
-    ? "divide-y divide-rule"
-    : layoutType === "grid"
-      ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
-      : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`;
+  layoutType === "grid"
+    ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
+    : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`;
 ---
 
 <div
   class="space-y-4"
-  data-layout={layout}
   data-controller="content-grid"
   data-content-grid-search-params-value={JSON.stringify(searchParams)}
   data-content-grid-filters-value={JSON.stringify(

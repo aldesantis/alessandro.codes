@@ -43,21 +43,7 @@ export default class GardenLazyCardController extends Controller {
     }
   }
 
-  private get isListLayout(): boolean {
-    return this.element.closest("[data-layout]")?.getAttribute("data-layout") === "list";
-  }
-
   private getPlaceholderHTML(): string {
-    if (this.isListLayout) {
-      return `
-        <div class="space-y-2 py-4" aria-hidden="true">
-          <div class="h-5 w-2/3 rounded-md bg-rule motion-safe:animate-pulse"></div>
-          <div class="h-3.5 w-1/3 rounded-md bg-rule motion-safe:animate-pulse"></div>
-          <div class="h-3.5 w-5/6 rounded-md bg-rule motion-safe:animate-pulse"></div>
-        </div>
-      `;
-    }
-
     return `
       <div class="overflow-hidden rounded-lg border border-rule bg-surface" aria-hidden="true">
         <div class="h-48 w-full bg-rule motion-safe:animate-pulse"></div>
@@ -111,9 +97,7 @@ export default class GardenLazyCardController extends Controller {
       }
     } catch (error) {
       console.error(`Error loading card for ${this.idValue}:`, error);
-      this.element.innerHTML = this.isListLayout
-        ? `<p class="py-4 font-sans text-sm text-ink-muted">This entry couldn’t be loaded.</p>`
-        : `<div class="rounded-lg border border-rule bg-surface p-4 font-sans text-sm text-ink-muted">This entry couldn’t be loaded.</div>`;
+      this.element.innerHTML = `<div class="rounded-lg border border-rule bg-surface p-4 font-sans text-sm text-ink-muted">This entry couldn’t be loaded.</div>`;
     } finally {
       this.isLoading = false;
     }
