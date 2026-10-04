@@ -8,23 +8,24 @@ export interface Props extends HTMLAttributes<"a"> {
 }
 
 const { class: originalClass, variant = "primary", active, ...props } = Astro.props;
+
+const target = isInternalUrl(String(props.href)) ? "_self" : "_blank";
+
+const classList = [
+  "transition-all",
+
+  {
+    "text-orange-400 hover:text-orange-700": !active && variant === "primary",
+    "hover:text-orange-400": !active && variant === "secondary",
+    "text-zinc-500 hover:text-orange-400": !active && variant === "muted",
+    "text-orange-700 hover:text-orange-700": active,
+  },
+
+  originalClass,
+];
+
+// Keep this on one line: with compressHTML, a newline around the slot renders
+// as a space inside the link (e.g. before trailing punctuation).
 ---
 
-<a
-  target={isInternalUrl(String(props.href)) ? "_self" : "_blank"}
-  {...props}
-  class:list={[
-    "transition-all",
-
-    {
-      "text-orange-400 hover:text-orange-700": !active && variant === "primary",
-      "hover:text-orange-400": !active && variant === "secondary",
-      "text-zinc-500 hover:text-orange-400": !active && variant === "muted",
-      "text-orange-700 hover:text-orange-700": active,
-    },
-
-    originalClass,
-  ]}
->
-  <slot />
-</a>
+<a target={target} {...props} class:list={classList}><slot /></a>
