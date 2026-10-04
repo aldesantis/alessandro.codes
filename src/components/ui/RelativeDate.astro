@@ -1,20 +1,31 @@
 ---
-import { format } from "date-fns";
-
 interface Props {
-  date: string | Date;
+  date?: string | Date | null;
+  class?: string;
 }
 
-const { date } = Astro.props;
-const parsedDate = new Date(date);
-const absoluteDate = format(parsedDate, "MMMM d, yyyy 'at' h:mm a");
+const { date, class: originalClass } = Astro.props;
+const parsedDate = date ? new Date(date) : undefined;
+const isValid = parsedDate !== undefined && !Number.isNaN(parsedDate.getTime());
+
+// Render a short, date-only absolute date on the server so the text barely
+// changes when the client takes over (recent dates become relative, older
+// ones stay absolute). UTC keeps the build output independent of server TZ.
+const shortDate = isValid
+  ? new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "UTC" }).format(parsedDate)
+  : "";
+const fullDate = isValid
+  ? new Intl.DateTimeFormat("en-US", { dateStyle: "long", timeStyle: "short", timeZone: "UTC" }).format(parsedDate)
+  : "";
 ---
 
-<time
-  datetime={parsedDate.toISOString()}
-  title={absoluteDate}
-  data-controller="relative-date"
-  data-absolute-date={parsedDate.toISOString()}
->
-  {absoluteDate}
-</time>
+{isValid && (
+  <time
+    datetime={parsedDate.toISOString()}
+    title={`${fullDate} UTC`}
+    class:list={["tabular-nums", originalClass]}
+    data-controller="relative-date"
+  >
+    {shortDate}
+  </time>
+)}

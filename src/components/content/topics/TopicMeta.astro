@@ -1,5 +1,6 @@
 ---
 import ContentStatus from "@components/content/ContentStatus.astro";
+import Meta from "@components/ui/Meta.astro";
 import RelativeDate from "@components/ui/RelativeDate.astro";
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
@@ -13,32 +14,26 @@ const { content, compact = false } = Astro.props;
 const { remarkPluginFrontmatter } = await render(content);
 ---
 
-<div class="font-sans text-sm text-ink-subtle">
+<Meta>
   <span>
     <ContentStatus status={content.data.status} />
   </span>
 
-  <span class="mx-0.5">•</span>
-
-  <span>
-    Revisited <RelativeDate date={content.data.updatedAt} />
-  </span>
-
-  {!compact && (
-    <>
-      <span class="mx-0.5">•</span>
-      <span>
-        Created <RelativeDate date={content.data.createdAt} />
-      </span>
-    </>
+  {content.data.updatedAt && (
+    <span>
+      Revisited <RelativeDate date={content.data.updatedAt} />
+    </span>
   )}
 
-  {!compact && (
-    <>
-      <span class="mx-0.5">•</span>
-      <span>
-        {remarkPluginFrontmatter.readingTime} {remarkPluginFrontmatter.readingTime != 1 ? "mins" : "min"} read
-      </span>
-    </>
+  {!compact && content.data.createdAt && (
+    <span>
+      Created <RelativeDate date={content.data.createdAt} />
+    </span>
   )}
-</div>
+
+  {!compact && remarkPluginFrontmatter.readingTime && (
+    <span>
+      {remarkPluginFrontmatter.readingTime} {remarkPluginFrontmatter.readingTime != 1 ? "mins" : "min"} read
+    </span>
+  )}
+</Meta>

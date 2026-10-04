@@ -6,17 +6,16 @@ import type { CollectionEntry } from "astro:content";
 
 interface Props {
   recipe: CollectionEntry<"recipes">;
+  headingLevel?: 2 | 3;
 }
 
-const { recipe } = Astro.props;
+const { recipe, headingLevel } = Astro.props;
 ---
 
-<LinkedCard href={`/recipes/${recipe.id}`}>
-  <div slot="cover">
-    <RecipeIllustration recipe={recipe} class="object-cover object-top w-full" />
-  </div>
+<LinkedCard href={`/recipes/${recipe.id}`} headingLevel={headingLevel}>
+  <RecipeIllustration recipe={recipe} class="w-full object-cover object-top" slot="cover" />
 
-  <h3 slot="title">{recipe.data.title}</h3>
+  <Fragment slot="title">{recipe.data.title}</Fragment>
 
   <RecipeMeta content={recipe} compact />
 </LinkedCard>

@@ -1,19 +1,21 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import Meta from "@components/ui/Meta.astro";
 import RelativeDate from "@components/ui/RelativeDate.astro";
-import { getRecipeDiets, type Diet } from "src/lib/recipes/diets";
+import { getRecipeDiets, mostRestrictiveDiets, type Diet } from "src/lib/recipes/diets";
 import types from "./types.json";
 import cuisines from "./cuisines.json";
 import diets from "./diets.json";
 
 export interface Props {
   content: CollectionEntry<"recipes">;
+  /** Card mode: course, cuisine and servings; the "revisited" date and diets are left to the page. */
   compact?: boolean;
 }
 
 const { content, compact = false } = Astro.props;
 
-const recipeDiets = await getRecipeDiets(content);
+const recipeDiets = mostRestrictiveDiets(await getRecipeDiets(content));
 
 type recipeType = CollectionEntry<"recipes">["data"]["type"];
 type RecipeCuisine = CollectionEntry<"recipes">["data"]["cuisine"];
@@ -23,46 +25,38 @@ const TYPE_MAP = types satisfies Record<recipeType, { emoji: string; label: stri
 const CUISINE_MAP = cuisines satisfies Record<RecipeCuisine, { emoji: string; label: string }>;
 const DIET_MAP = diets satisfies Record<RecipeDiet, { emoji: string; label: string }>;
 
-function getTypeDisplay(type: recipeType): string {
-  return `${TYPE_MAP[type].emoji} ${TYPE_MAP[type].label}`;
-}
+type Display = { emoji: string; label: string };
 
-function getCuisineDisplay(cuisine: RecipeCuisine): string {
-  return `${CUISINE_MAP[cuisine].emoji} ${CUISINE_MAP[cuisine].label}`;
-}
-
-function getDietDisplay(diet: RecipeDiet): string {
-  return `${DIET_MAP[diet].emoji} ${DIET_MAP[diet].label}`;
-}
+const typeDisplay: Display | undefined = content.data.type ? TYPE_MAP[content.data.type] : undefined;
+const cuisineDisplay: Display | undefined = content.data.cuisine ? CUISINE_MAP[content.data.cuisine] : undefined;
+const dietDisplays: Display[] = recipeDiets.map((diet: RecipeDiet) => DIET_MAP[diet]);
 ---
 
-<div class="font-sans text-sm text-ink-subtle">
-  {content.data.updatedAt && (
-    <>
+<Meta>
+  {!compact && content.data.updatedAt && (
+    <span>
+      Revisited <RelativeDate date={content.data.updatedAt} />
+    </span>
+  )}
+
+  {typeDisplay && (
+    <span>
+      <span aria-hidden="true">{typeDisplay.emoji}</span> {typeDisplay.label}
+    </span>
+  )}
+
+  {cuisineDisplay && (
+    <span>
+      <span aria-hidden="true">{cuisineDisplay.emoji}</span> {cuisineDisplay.label}
+    </span>
+  )}
+
+  {compact && content.data.serves && <span>Serves {content.data.serves}</span>}
+
+  {!compact &&
+    dietDisplays.map((diet) => (
       <span>
-        Revisited <RelativeDate date={content.data.updatedAt} />
+        <span aria-hidden="true">{diet.emoji}</span> {diet.label}
       </span>
-    </>
-  )}
-
-  {content.data.type && (
-    <>
-      <span class="mx-0.5">•</span>
-      <span>{getTypeDisplay(content.data.type)}</span>
-    </>
-  )}
-
-  {content.data.cuisine && (
-    <>
-      <span class="mx-0.5">•</span>
-      <span>{getCuisineDisplay(content.data.cuisine)}</span>
-    </>
-  )}
-
-  {!compact && recipeDiets.length > 0 && (
-    <>
-      <span class="mx-0.5">•</span>
-      <span>{recipeDiets.map((diet) => getDietDisplay(diet)).join(", ")}</span>
-    </>
-  )}
-</div>
+    ))}
+</Meta>

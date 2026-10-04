@@ -1,18 +1,40 @@
 ---
-interface Props {
+import type { HTMLAttributes } from "astro/types";
+
+interface Props extends HTMLAttributes<"div"> {
   class?: string;
+  /** Heading level for the title: 2 when the grid sits directly under the page h1, 3 under a section h2. */
+  headingLevel?: 2 | 3;
+  /** Id for the title heading, so a wrapping link can be named by it via aria-labelledby. */
+  titleId?: string;
 }
 
-const { class: originalClass } = Astro.props;
+const { class: originalClass, headingLevel = 3, titleId, ...attrs } = Astro.props;
+const Heading = `h${headingLevel}` as "h2" | "h3";
+
+// Rendered up front so a slot that's passed but renders nothing (e.g. a
+// conditional cover forwarded by LinkedCard) doesn't leave an empty wrapper.
+const cover = Astro.slots.has("cover") ? (await Astro.slots.render("cover")).trim() : "";
 ---
 
-<div class:list={["flex flex-col overflow-hidden rounded-lg border border-rule bg-surface", originalClass]}>
-  <div class="w-full">
-    <slot name="cover" />
-  </div>
+<div
+  {...attrs}
+  class:list={[
+    "flex h-full flex-col overflow-hidden rounded-lg border border-rule bg-surface",
+    "transition-colors duration-200 ease-out-strong group-hover:border-stone-300",
+    originalClass,
+  ]}
+>
+  {cover && (
+    <div class="w-full">
+      <Fragment set:html={cover} />
+    </div>
+  )}
 
   <div class="p-4">
-    <slot name="title" />
+    <Heading id={titleId} class="font-sans text-lg leading-snug font-semibold text-balance text-ink wrap-anywhere">
+      <slot name="title" />
+    </Heading>
     <slot />
   </div>
 </div>
