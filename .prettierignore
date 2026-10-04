@@ -1,5 +1,8 @@
 src/components/content/topics/TopicList.astro 
 
+# Prettier breaks the slot onto its own line, which renders as a space inside links
+src/components/ui/Link.astro
+
 # Ignore all Markdown files
 **/*.md
 **/*.mdx
