@@ -68,8 +68,9 @@ const imageUrl = new URL(image, Astro.site ?? SITE_URL).href;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={imageUrl} />
 
-    <Font cssVariable="--font-domine" preload />
-    <Font cssVariable="--font-source-sans" preload />
+    <!-- One variable file per family covers 400–700; preload it so text renders in the right face. -->
+    <Font cssVariable="--font-domine" preload={[{ weight: 400, style: "normal", subset: "latin" }]} />
+    <Font cssVariable="--font-source-sans" preload={[{ weight: 400, style: "normal", subset: "latin" }]} />
 
     <slot name="head" />
   </head>
