@@ -7,6 +7,26 @@
   --font-sans: var(--font-source-sans), "sans-serif";
   --font-serif: var(--font-domine), "serif";
 
+  /* Warm neutrals: the only neutral family used across the site */
+  --color-paper: oklch(0.982 0.004 80);
+  --color-surface: oklch(0.996 0.002 80);
+  --color-rule: var(--color-stone-200);
+  --color-ink: var(--color-stone-800);
+  --color-ink-muted: var(--color-stone-600);
+  --color-ink-subtle: var(--color-stone-500);
+
+  /* Accent: AA-contrast link colours; orange-400 is decoration only */
+  --color-link: var(--color-orange-700);
+  --color-link-hover: var(--color-orange-800);
+
+  /* Warm-tinted elevation for popovers and menus */
+  --shadow-pop: 0 8px 24px -8px oklch(0.3 0.03 60 / 0.18);
+
+  /* Easing */
+  --ease-out-strong: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out-strong: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+
   /* Container configuration - now handled via @utility */
   /* Keyframes and animations can be defined in @theme */
   @keyframes wave {
