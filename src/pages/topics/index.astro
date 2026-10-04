@@ -14,5 +14,10 @@ import { statusFilter } from "src/lib/filters";
     <span slot="subheading">{sections.topics.description}</span>
   </Hero>
 
-  <ContentGrid searchParams={{ collections: ["topics"] }} itemSize="M" filters={[await statusFilter()]} />
+  <ContentGrid
+    headingLevel={2}
+    searchParams={{ collections: ["topics"] }}
+    itemSize="M"
+    filters={[await statusFilter()]}
+  />
 </Layout>

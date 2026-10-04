@@ -6,9 +6,11 @@ interface Props {
   label: string;
   filterCategory: string;
   items: { id: string; label: string }[];
+  /** Optional one-line explanation shown under the options. */
+  legend?: string;
 }
 
-const { label, filterCategory, items } = Astro.props;
+const { label, filterCategory, items, legend } = Astro.props;
 const menuId = `content-filter-${filterCategory}`;
 ---
 
@@ -22,23 +24,28 @@ const menuId = `content-filter-${filterCategory}`;
     aria-expanded="false"
     aria-controls={menuId}
     data-content-filter-target="button"
+    data-content-grid-target="filterButton"
+    data-filter-category={filterCategory}
     data-action="click->content-filter#toggle"
     class:list={[
-      "group inline-flex cursor-pointer items-center justify-center gap-2",
+      "group inline-flex min-h-9 max-w-full cursor-pointer items-center justify-center gap-2 pointer-coarse:min-h-11",
       "rounded-md border border-rule bg-surface px-3 py-1.5",
-      "text-xs text-ink",
-      "transition-colors duration-150 ease-out-strong",
-      "hover:border-ink-subtle aria-expanded:border-ink-subtle",
+      "text-sm text-ink",
+      "transition-[color,background-color,border-color,scale] duration-150 ease-out-strong",
+      "hover:border-ink-subtle aria-expanded:border-ink-subtle data-active:border-link",
+      "active:scale-[0.97] motion-reduce:active:scale-100",
       "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
     ]}
   >
-    {label}
-    <span
-      data-content-grid-target="filterCount"
-      data-filter-category={filterCategory}
-      class="hidden min-w-4 rounded-sm bg-link px-1 text-center text-[0.6875rem] leading-4 font-semibold text-surface tabular-nums"
-    ></span>
-    <ChevronDownIcon class="text-ink-subtle group-aria-expanded:rotate-180 motion-reduce:transition-none" />
+    <span class="flex min-w-0">
+      <span class="shrink-0">{label}</span>
+      <span
+        data-content-grid-target="filterValue"
+        data-filter-category={filterCategory}
+        class="max-w-48 truncate font-semibold text-link"
+      ></span>
+    </span>
+    <ChevronDownIcon class="shrink-0 text-ink-subtle duration-150 group-aria-expanded:rotate-180 motion-reduce:transition-none" />
   </button>
 
   <div
@@ -47,10 +54,10 @@ const menuId = `content-filter-${filterCategory}`;
     aria-label={label}
     data-content-filter-target="menu"
     class:list={[
-      "absolute left-0 z-10 mt-2 min-w-fit origin-top-left",
+      "absolute left-0 z-10 mt-2 w-max min-w-44 max-w-[min(20rem,calc(100vw-1.5rem))] origin-top-left",
       "rounded-lg border border-rule bg-surface shadow-pop",
       "hidden scale-95 opacity-0",
-      "transition-[opacity,scale] duration-150 ease-out-strong motion-reduce:transition-none",
+      "transition-[opacity,scale] duration-150 ease-out-strong motion-reduce:scale-100 motion-reduce:transition-opacity",
     ]}
   >
     <div class="max-h-80 overflow-y-auto py-1">
@@ -59,5 +66,6 @@ const menuId = `content-filter-${filterCategory}`;
         <ContentGridFilterItem id={item.id} label={item.label} filterCategory={filterCategory} />
       ))}
     </div>
+    {legend && <p class="border-t border-rule px-3 py-2 text-xs text-pretty text-ink-muted">{legend}</p>}
   </div>
 </div>

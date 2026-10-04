@@ -41,6 +41,8 @@ const entry = await getEntry(collection as ZendoCollectionId, id);
 if (!entry) {
   throw new Error(`Entry not found: ${id} in collection ${collection}`);
 }
+
+// Cards fetched by the client land in list grids, under the page h1.
 ---
 
-<ContentCard content={entry} />
+<ContentCard content={entry} headingLevel={2} />

@@ -16,5 +16,5 @@ const filters = await Promise.all([cuisineFilter(), dietFilter(), recipeTypeFilt
     <span slot="subheading">{sections.recipes.description}</span>
   </Hero>
 
-  <ContentGrid searchParams={{ collections: ["recipes"] }} itemSize="M" filters={filters} />
+  <ContentGrid headingLevel={2} searchParams={{ collections: ["recipes"] }} itemSize="M" filters={filters} />
 </Layout>

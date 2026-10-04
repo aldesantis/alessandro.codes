@@ -14,5 +14,10 @@ import { topicFilter } from "src/lib/filters";
     <span slot="subheading">{sections.essays.description}</span>
   </Hero>
 
-  <ContentGrid searchParams={{ collections: ["essays"] }} itemSize="L" filters={[await topicFilter()]} />
+  <ContentGrid
+    headingLevel={2}
+    searchParams={{ collections: ["essays"] }}
+    itemSize="L"
+    filters={[await topicFilter()]}
+  />
 </Layout>

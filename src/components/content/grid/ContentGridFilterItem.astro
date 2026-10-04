@@ -11,14 +11,15 @@ interface Props {
 const { id, label, filterCategory, isAll = false } = Astro.props;
 ---
 
-<label class="group flex cursor-pointer items-center gap-2 px-3 py-1.5 whitespace-nowrap text-ink transition-colors duration-150 ease-out-strong hover:bg-paper">
+<label class="group flex cursor-pointer items-center gap-2 px-3 py-1.5 text-ink transition-colors duration-150 ease-out-strong hover:bg-paper pointer-coarse:py-2.5">
   <Checkbox
     id={`content-filter-${filterCategory}-${id}`}
     checked={isAll}
     data-action="change->content-grid#updateFilter"
     data-filter-category={filterCategory}
     data-filter-type={id}
+    data-filter-label={label}
     data-content-grid-target={isAll ? "allCheckbox" : "checkbox"}
   />
-  <span class="text-xs">{label}</span>
+  <span class="text-sm">{label}</span>
 </label>

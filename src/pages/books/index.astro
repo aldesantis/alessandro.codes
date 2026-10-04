@@ -14,5 +14,10 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
     <span slot="subheading">{sections.books.description}</span>
   </Hero>
 
-  <ContentGrid searchParams={{ collections: ["books"] }} itemSize="S" filters={[await topicFilter()]} />
+  <ContentGrid
+    headingLevel={2}
+    searchParams={{ collections: ["books"] }}
+    itemSize="S"
+    filters={[await topicFilter()]}
+  />
 </Layout>

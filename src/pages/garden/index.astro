@@ -14,9 +14,9 @@ import { statusFilter, topicFilter, collectionFilter } from "src/lib/filters";
   </Hero>
 
   <ContentGrid
+    headingLevel={2}
     searchParams={{ collections: ["essays", "books", "notes", "talks"] }}
     itemSize="M"
     filters={await Promise.all([statusFilter(), topicFilter(), collectionFilter()])}
-    layoutType="masonry"
   />
 </Layout>

@@ -1,63 +1,106 @@
 ---
 import { actions } from "astro:actions";
+import ContentCard from "@components/content/ContentCard.astro";
 import ContentGridFilter from "./ContentGridFilter.astro";
 import type { FilterConfig } from "zendo";
-import type { ZendoCollectionEntry } from "src/garden";
+import { getEntry, sortEntries, type ZendoCollectionEntry, type ZendoCollectionId } from "src/garden";
 
 type GardenFilter = FilterConfig<ZendoCollectionEntry>;
 
 interface Props {
   searchParams: Parameters<typeof actions.search>[0];
   itemSize: "S" | "M" | "L";
-  layoutType?: "grid" | "masonry";
   filters?: GardenFilter[];
+  /** Heading level of each card title: 2 when the page h1 sits directly above, 3 under a section h2. */
+  headingLevel?: 2 | 3;
 }
 
-const { searchParams, itemSize, layoutType = "grid", filters = [] } = Astro.props;
+/** Cards rendered per page, on the server and per "Show more" click. */
+const PAGE_SIZE = 24;
 
-const filtersWithUi = filters.filter(
-  (filter): filter is GardenFilter & { ui: NonNullable<GardenFilter["ui"]> } => filter.ui !== undefined
+/** Lists shorter than this don't need filters. */
+const MIN_ITEMS_FOR_FILTERS = 8;
+
+/** One-line explanations shown at the bottom of a filter's menu. */
+const FILTER_LEGENDS: Record<string, string> = {
+  status: "How far along an idea is, from 🌱 rough to 🌿 developing to 🌳 mature.",
+};
+
+const { searchParams, itemSize, filters = [], headingLevel = 2 } = Astro.props;
+const { limit, ...unlimitedParams } = searchParams;
+
+// Run the same search the client runs, so the first page is in the HTML (no JS
+// needed, nothing for crawlers to miss). Sorting here gives multi-collection
+// grids one recency order; the client reuses it for filtered results.
+const result = await Astro.callAction(actions.search, unlimitedParams);
+
+if (result.error) {
+  throw result.error;
+}
+
+const resolvedEntries = await Promise.all(
+  result.data.items.map((item) => getEntry(item.type as ZendoCollectionId, item.id))
 );
+const entries = sortEntries(
+  resolvedEntries.filter((entry): entry is ZendoCollectionEntry => entry !== undefined)
+).slice(0, limit);
+
+const firstPage = entries.slice(0, PAGE_SIZE);
+const remaining = entries.length - firstPage.length;
+
+type FilterItem = Awaited<ReturnType<NonNullable<GardenFilter["ui"]>["getItems"]>>[number];
+
+// Only offer the options that match something in this list, and drop a filter
+// with no options left (talks have no topics, so a Topic filter could only
+// ever produce "No matches").
+const filtersWithUi: { filter: GardenFilter & { ui: NonNullable<GardenFilter["ui"]> }; items: FilterItem[] }[] = [];
+
+if (entries.length >= MIN_ITEMS_FOR_FILTERS) {
+  for (const filter of filters) {
+    if (filter.ui === undefined) continue;
+
+    const allItems = await filter.ui.getItems();
+    const matches = await Promise.all(
+      allItems.map(async (item) =>
+        filter.entryFilterFn ? (await filter.entryFilterFn(entries, [item.id])).length > 0 : true
+      )
+    );
+    const items = allItems.filter((_, index) => matches[index]);
+
+    if (items.length > 0) {
+      filtersWithUi.push({ filter: filter as GardenFilter & { ui: NonNullable<GardenFilter["ui"]> }, items });
+    }
+  }
+}
+
+const collections = (searchParams.collections ?? []) as ZendoCollectionId[];
+const isBooksOnly = collections.length === 1 && collections[0] === "books";
 
 function getGridColumnsForSize(size: "S" | "M" | "L"): string {
   switch (size) {
     case "S":
-      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4";
+      return "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4";
     case "M":
-      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3";
+      // Book covers are tall: two per row on phones rather than one huge cover.
+      return isBooksOnly ? "grid-cols-2 sm:grid-cols-3" : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3";
     case "L":
-      return "grid-cols-1 sm:grid-cols-2 lg:grid-cols-2";
+      return "grid-cols-1 sm:grid-cols-2";
   }
 }
 
-function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
-  switch (size) {
-    case "S":
-      return "columns-1 sm:columns-2 lg:columns-4";
-    case "M":
-      return "columns-1 sm:columns-2 lg:columns-3";
-    case "L":
-      return "columns-1 sm:columns-2 lg:columns-2";
-  }
-}
-
-const spanAllClass = layoutType === "grid" ? "col-span-full" : "[column-span:all]";
-
-const itemClass = layoutType === "grid" ? "mb-4" : "mb-4 break-inside-avoid";
-
-const containerClass =
-  layoutType === "grid"
-    ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
-    : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`;
+const messageClass = "col-span-full py-4 font-sans text-sm text-ink-muted";
 ---
 
 <div
   class="space-y-4"
   data-controller="content-grid"
   data-content-grid-search-params-value={JSON.stringify(searchParams)}
+  data-content-grid-items-value={JSON.stringify(entries.map((entry) => `${entry.collection}/${entry.id}`))}
+  data-content-grid-page-size-value={PAGE_SIZE}
+  data-content-grid-rendered-value={firstPage.length}
   data-content-grid-filters-value={JSON.stringify(
     filtersWithUi.reduce(
-      (acc, filter) => {
+      (acc, { filter }) => {
         acc[filter.id] = ["all"];
         return acc;
       },
@@ -65,38 +108,80 @@ const containerClass =
     )
   )}
 >
-  <template data-content-grid-target="loadingTemplate">
-    <p role="status" class:list={["py-4 font-sans text-sm text-ink-muted", spanAllClass]}>
-      Loading…
-    </p>
-  </template>
-
-  <template data-content-grid-target="emptyTemplate">
-    <p class:list={["py-4 font-sans text-sm text-ink-muted", spanAllClass]}>Nothing here yet. Check back soon.</p>
+  <template data-content-grid-target="noMatchesTemplate">
+    <div class:list={[messageClass, "flex flex-wrap items-center gap-x-3 gap-y-2"]}>
+      <p>No entries match these filters.</p>
+      <button
+        type="button"
+        data-action="content-grid#clearFilters"
+        class="cursor-pointer rounded-md font-semibold text-link underline-offset-4 transition-colors duration-150 ease-out-strong hover:text-link-hover hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link"
+      >
+        Clear filters
+      </button>
+    </div>
   </template>
 
   <template data-content-grid-target="errorTemplate">
-    <p role="alert" class:list={["py-4 font-sans text-sm text-ink-muted", spanAllClass]}>
+    <p role="alert" class={messageClass}>
       The results couldn’t be loaded. Try refreshing the page.
     </p>
   </template>
 
   {filtersWithUi.length > 0 && (
-    <div class="flex flex-wrap gap-2">
-      {filtersWithUi.map(async (filter) => (
-        <ContentGridFilter label={filter.ui.label} filterCategory={filter.id} items={await filter.ui.getItems()} />
+    <div class="flex flex-wrap gap-2" data-content-grid-filter-bar>
+      {filtersWithUi.map(({ filter, items }) => (
+        <ContentGridFilter
+          label={filter.ui.label}
+          filterCategory={filter.id}
+          items={items}
+          legend={FILTER_LEGENDS[filter.id]}
+        />
       ))}
     </div>
   )}
 
-  <template data-content-grid-target="cardTemplate">
-    <div
-      class={itemClass}
-      data-controller="content-card"
-      data-content-card-id-value=""
-      data-content-card-collection-value=""
-    ></div>
-  </template>
+  <p role="status" aria-live="polite" class="sr-only" data-content-grid-target="status"></p>
 
-  <div data-content-grid-target="grid" class={containerClass}></div>
+  <div
+    data-content-grid-target="grid"
+    class:list={[
+      "grid items-stretch gap-4",
+      "transition-opacity duration-200 ease-out-strong aria-busy:opacity-60",
+      getGridColumnsForSize(itemSize),
+    ]}
+  >
+    {firstPage.length === 0 && <p class={messageClass}>Nothing here yet. Check back soon.</p>}
+    {firstPage.map((entry) => (
+      <div class="min-w-0">
+        <ContentCard content={entry} headingLevel={headingLevel} />
+      </div>
+    ))}
+  </div>
+
+  <div class:list={["flex justify-center pt-4", { hidden: remaining <= 0 }]} data-content-grid-target="more">
+    <button
+      type="button"
+      data-action="content-grid#loadMore"
+      data-content-grid-target="moreButton"
+      class:list={[
+        "inline-flex min-h-11 cursor-pointer items-center justify-center rounded-md border border-rule bg-surface px-4",
+        "font-sans text-sm text-ink tabular-nums",
+        "transition-[color,background-color,border-color,scale] duration-150 ease-out-strong",
+        "hover:border-ink-subtle active:scale-[0.97] motion-reduce:active:scale-100",
+        "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
+      ]}
+    >
+      {remaining > 0 && `Show ${Math.min(PAGE_SIZE, remaining)} more · ${remaining} left`}
+    </button>
+  </div>
+
+  {/* Filters and "Show more" need JS; without it, the first page is the whole list. */}
+  <noscript>
+    <style is:inline>
+      [data-content-grid-target="more"],
+      [data-content-grid-filter-bar] {
+        display: none;
+      }
+    </style>
+  </noscript>
 </div>

@@ -1,6 +1,21 @@
 import { Controller } from "@hotwired/stimulus";
 
-export default class GardenLazyCardController extends Controller {
+const bar = (width = "") => `<div class="h-3 ${width} rounded-md bg-rule motion-safe:animate-pulse"></div>`;
+
+/** Cover shapes per collection, matching the real cards; text-only collections have none. */
+const COVER_CLASSES: Record<string, string> = {
+  books: "aspect-[2/3]",
+  recipes: "aspect-square",
+  talks: "aspect-video",
+};
+
+/**
+ * A grid slot for a card the server didn't render (after a filter change or
+ * "Show more"). Shows a skeleton shaped like the collection's card, fetches the
+ * prerendered card from /card/<collection>/<id>, then swaps itself for a fresh
+ * slot holding the card, which fades in via @starting-style.
+ */
+export default class ContentCardController extends Controller<HTMLElement> {
   static override values = {
     id: { type: String, required: true },
     collection: { type: String, required: true },
@@ -9,97 +24,73 @@ export default class GardenLazyCardController extends Controller {
   declare idValue: string;
   declare collectionValue: string;
 
-  private observer: IntersectionObserver | null = null;
-  private isLoading = false;
-  private isLoaded = false;
+  private abortController: AbortController | null = null;
 
   override connect(): void {
     this.element.innerHTML = this.getPlaceholderHTML();
-
-    const observerOptions = {
-      root: null,
-      rootMargin: "50px",
-      threshold: 0.01,
-    };
-
-    this.observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && !this.isLoading && !this.isLoaded) {
-          this.loadCard();
-          if (this.observer) {
-            this.observer.unobserve(this.element);
-          }
-        }
-      });
-    }, observerOptions);
-
-    this.observer.observe(this.element);
+    this.loadCard();
   }
 
   override disconnect(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-      this.observer = null;
-    }
+    this.abortController?.abort();
+    this.abortController = null;
   }
 
   private getPlaceholderHTML(): string {
+    const coverClass = COVER_CLASSES[this.collectionValue];
+    const cover = coverClass ? `<div class="${coverClass} w-full bg-rule motion-safe:animate-pulse"></div>` : "";
+    const excerpt = coverClass ? "" : `<div class="space-y-2">${bar()}${bar("w-5/6")}${bar("w-4/6")}</div>`;
+
     return `
-      <div class="overflow-hidden rounded-lg border border-rule bg-surface" aria-hidden="true">
-        <div class="h-48 w-full bg-rule motion-safe:animate-pulse"></div>
-        <div class="space-y-4 p-4">
-          <div class="h-6 rounded-md bg-rule motion-safe:animate-pulse"></div>
-          <div class="flex gap-2">
-            <div class="h-4 w-20 rounded-md bg-rule motion-safe:animate-pulse"></div>
-            <div class="h-4 w-16 rounded-md bg-rule motion-safe:animate-pulse"></div>
-          </div>
-          <div class="space-y-2">
-            <div class="h-3 rounded-md bg-rule motion-safe:animate-pulse"></div>
-            <div class="h-3 w-5/6 rounded-md bg-rule motion-safe:animate-pulse"></div>
-            <div class="h-3 w-4/6 rounded-md bg-rule motion-safe:animate-pulse"></div>
-          </div>
+      <div class="flex h-full flex-col overflow-hidden rounded-lg border border-rule bg-surface" aria-hidden="true">
+        ${cover}
+        <div class="space-y-3 p-4">
+          <div class="h-5 w-3/4 rounded-md bg-rule motion-safe:animate-pulse"></div>
+          ${bar("w-1/3")}
+          ${excerpt}
         </div>
       </div>
     `;
   }
 
   private async loadCard(): Promise<void> {
-    if (this.isLoading || this.isLoaded) {
-      return;
-    }
-
-    this.isLoading = true;
+    this.abortController = new AbortController();
 
     try {
       const response = await fetch(
-        `/card/${encodeURIComponent(this.collectionValue)}/${encodeURIComponent(this.idValue)}`
+        `/card/${encodeURIComponent(this.collectionValue)}/${encodeURIComponent(this.idValue)}`,
+        { signal: this.abortController.signal }
       );
 
       if (!response.ok) {
         throw new Error(`Failed to load card: ${response.statusText}`);
       }
 
-      const html = await response.text();
-
-      // Create a temporary container to parse the HTML
       const temp = document.createElement("div");
-      temp.innerHTML = html.trim();
+      temp.innerHTML = (await response.text()).trim();
 
-      // Replace placeholder with the fetched content
-      const cardContent = temp.querySelector("a") as HTMLAnchorElement;
-
-      if (cardContent) {
-        this.element.innerHTML = "";
-        this.element.appendChild(cardContent);
-        this.isLoaded = true;
-      } else {
+      // The card's root element (an <a> for linked cards, a plain card for talks).
+      // Responses may put <script>/<link> tags first, so look it up by its marker.
+      const card = temp.querySelector("[data-card]");
+      if (!card) {
         throw new Error("No content received");
       }
+
+      const slot = document.createElement("div");
+      slot.className = "min-w-0 transition-opacity duration-200 ease-out-strong starting:opacity-0";
+      slot.appendChild(card);
+      const hadFocus = document.activeElement === this.element;
+      this.element.replaceWith(slot);
+      if (hadFocus) {
+        (card.matches("a") ? (card as HTMLElement) : card.querySelector<HTMLElement>("a"))?.focus({
+          preventScroll: true,
+        });
+      }
     } catch (error) {
+      if ((error as Error).name === "AbortError") return;
+
       console.error(`Error loading card for ${this.idValue}:`, error);
-      this.element.innerHTML = `<div class="rounded-lg border border-rule bg-surface p-4 font-sans text-sm text-ink-muted">This entry couldn’t be loaded.</div>`;
-    } finally {
-      this.isLoading = false;
+      this.element.innerHTML = `<div class="h-full rounded-lg border border-rule bg-surface p-4 font-sans text-sm text-ink-muted">This entry couldn’t be loaded.</div>`;
     }
   }
 }
