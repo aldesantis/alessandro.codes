@@ -109,3 +109,17 @@ export async function getRecipeDiets(recipe: CollectionEntry<"recipes">): Promis
   const [dietMap, recipeMap] = await Promise.all([getIngredientDietMap(), getRecipeIngredientGroupsMap()]);
   return deriveDiets(recipe.data.ingredient_groups, dietMap, recipeMap);
 }
+
+// Diets from most to least restrictive. Each implies every diet after it: a
+// vegan dish is also vegetarian, pescatarian and omnivore-friendly.
+const DIETS_BY_RESTRICTIVENESS: Diet[] = ["vegan", "vegetarian", "pescatarian", "omnivore"];
+
+/**
+ * Reduces a recipe's compatible diets to the most restrictive one, since it
+ * implies the rest ("Vegan" rather than "Omnivore, Vegetarian, Vegan,
+ * Pescatarian"). Returns an array so callers can render it like `deriveDiets`.
+ */
+export function mostRestrictiveDiets(diets: readonly Diet[]): Diet[] {
+  const strictest = DIETS_BY_RESTRICTIVENESS.find((diet) => diets.includes(diet));
+  return strictest ? [strictest] : [];
+}
