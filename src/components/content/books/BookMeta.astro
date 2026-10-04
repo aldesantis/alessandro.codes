@@ -16,16 +16,13 @@ const { content, compact = false } = Astro.props;
   <span class="mx-0.5">•</span>
 
   <span>
-    Revisited{" "}
-    <RelativeDate date={content.data.updatedAt} />
+    Revisited <RelativeDate date={content.data.updatedAt} />
   </span>
 
-  {
-    !compact && content.data.topics && content.data.topics.length > 0 && (
-      <>
-        <span class="mx-0.5">•</span>
-        <TopicList topics={content.data.topics} />
-      </>
-    )
-  }
+  {!compact && content.data.topics && content.data.topics.length > 0 && (
+    <>
+      <span class="mx-0.5">•</span>
+      <TopicList topics={content.data.topics} />
+    </>
+  )}
 </div>

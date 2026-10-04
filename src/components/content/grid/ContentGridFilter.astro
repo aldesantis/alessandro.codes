@@ -42,7 +42,9 @@ const { label, filterCategory, items } = Astro.props;
   >
     <div class="py-1">
       <ContentGridFilterItem id="all" label="All" filterCategory={filterCategory} isAll={true} />
-      {items.map((item) => <ContentGridFilterItem id={item.id} label={item.label} filterCategory={filterCategory} />)}
+      {items.map((item) => (
+        <ContentGridFilterItem id={item.id} label={item.label} filterCategory={filterCategory} />
+      ))}
     </div>
   </div>
 </div>

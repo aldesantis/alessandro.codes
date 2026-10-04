@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+          cache: npm
+      - run: npm ci
+
+      - name: Prettier
+        run: npx prettier --check .
+      - name: ESLint
+        run: npx eslint .
+      - name: Content index is up to date
+        run: |
+          npm run zendo:reindex
+          git diff --exit-code -- src/data/index.json || {
+            echo "::error::src/data/index.json is stale. Run 'npm run zendo:reindex' and commit the result."
+            exit 1
+          }
+      - name: Type check
+        run: npx astro check
+      - name: Build
+        run: npx astro build

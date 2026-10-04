@@ -5,6 +5,7 @@ import { loadRenderers } from "astro:container";
 import * as cheerio from "cheerio";
 import Link from "@components/ui/Link.astro";
 import Tldr from "@components/content/Tldr.astro";
+import Figure from "@components/viz/Figure.astro";
 import type { ZendoCollectionEntry } from "src/garden";
 
 export async function renderToString(entry: ZendoCollectionEntry): Promise<string> {
@@ -32,5 +33,6 @@ export function getMdxComponents() {
     a: Link,
     Link: Link,
     Tldr: Tldr,
+    Figure: Figure,
   };
 }

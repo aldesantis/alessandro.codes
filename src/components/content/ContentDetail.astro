@@ -18,9 +18,7 @@ const { Content } = await render(entry);
   <slot name="meta" slot="meta" />
   <slot name="navigation" slot="navigation" />
 
-  <Fragment slot="title">
-    {entry.data.title}
-  </Fragment>
+  <Fragment slot="title">{entry.data.title}</Fragment>
 
   <slot name="sidebar" slot="sidebar">
     <ContentSidebar entry={entry} />

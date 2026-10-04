@@ -1,0 +1,19 @@
+---
+import type { PlotArea, Scale } from "src/lib/viz/chart";
+
+// Tick labels under the plot area.
+interface Props {
+  plot: PlotArea;
+  x: Scale;
+  ticks: number[];
+  format?: (value: number) => string;
+}
+
+const { plot, x, ticks, format = String } = Astro.props;
+---
+
+{ticks.map((tick) => (
+  <text x={x(tick)} y={plot.bottom + 20} text-anchor="middle" class="viz-tick">
+    {format(tick)}
+  </text>
+))}

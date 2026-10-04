@@ -16,35 +16,35 @@ const headerNavigation = getHeaderNavigation();
     <div class="container" data-js-navbar>
       <nav class="flex items-center justify-between font-sans">
         <div class="flex flex-1">
-          <Link href="/" class="font-semibold" variant="secondary">Alessandro Desantis</Link>
+          <Link href="/" class="font-semibold" variant="secondary">
+            Alessandro Desantis
+          </Link>
         </div>
 
         <div class:list={["hidden flex-col gap-y-4", "md:flex md:flex-row md:gap-x-4", "flex-1 justify-end"]}>
-          {
-            headerNavigation.map((item: NavigationItem) => {
-              if (item.children && item.children.length > 0) {
-                return (
-                  <div class="whitespace-nowrap">
-                    <Dropdown label={item.text} href={item.href} active={isItemActive(item, currentPath)}>
-                      {item.children.map((child: NavigationLeaf) => (
-                        <DropdownItem href={child.href} active={isItemActive(child, currentPath)}>
-                          {child.text}
-                        </DropdownItem>
-                      ))}
-                    </Dropdown>
-                  </div>
-                );
-              } else {
-                return (
-                  <div class="whitespace-nowrap">
-                    <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)}>
-                      {item.text}
-                    </Link>
-                  </div>
-                );
-              }
-            })
-          }
+          {headerNavigation.map((item: NavigationItem) => {
+            if (item.children && item.children.length > 0) {
+              return (
+                <div class="whitespace-nowrap">
+                  <Dropdown label={item.text} href={item.href} active={isItemActive(item, currentPath)}>
+                    {item.children.map((child: NavigationLeaf) => (
+                      <DropdownItem href={child.href} active={isItemActive(child, currentPath)}>
+                        {child.text}
+                      </DropdownItem>
+                    ))}
+                  </Dropdown>
+                </div>
+              );
+            } else {
+              return (
+                <div class="whitespace-nowrap">
+                  <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)}>
+                    {item.text}
+                  </Link>
+                </div>
+              );
+            }
+          })}
 
           <button
             class="flex items-center hover:text-orange-700 transition-colors"
@@ -90,33 +90,26 @@ const headerNavigation = getHeaderNavigation();
       </div>
 
       <div class="flex flex-col space-y-2">
-        {
-          headerNavigation.flatMap((item: NavigationItem) => {
-            if (item.children && item.children.length > 0) {
-              return [
-                <Link
-                  href={item.href}
-                  variant="secondary"
-                  active={isItemActive(item, currentPath)}
-                  class="font-semibold"
-                >
-                  {item.text}
-                </Link>,
-                ...item.children.map((child: NavigationLeaf) => (
-                  <Link href={child.href} variant="secondary" active={isItemActive(child, currentPath)} class="pl-4">
-                    {child.text}
-                  </Link>
-                )),
-              ];
-            } else {
-              return [
-                <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)}>
-                  {item.text}
-                </Link>,
-              ];
-            }
-          })
-        }
+        {headerNavigation.flatMap((item: NavigationItem) => {
+          if (item.children && item.children.length > 0) {
+            return [
+              <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)} class="font-semibold">
+                {item.text}
+              </Link>,
+              ...item.children.map((child: NavigationLeaf) => (
+                <Link href={child.href} variant="secondary" active={isItemActive(child, currentPath)} class="pl-4">
+                  {child.text}
+                </Link>
+              )),
+            ];
+          } else {
+            return [
+              <Link href={item.href} variant="secondary" active={isItemActive(item, currentPath)}>
+                {item.text}
+              </Link>,
+            ];
+          }
+        })}
       </div>
     </nav>
   </div>

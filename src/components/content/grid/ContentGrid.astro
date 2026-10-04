@@ -81,15 +81,13 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
     </div>
   </template>
 
-  {
-    filtersWithUi.length > 0 && (
-      <div class="flex gap-2">
-        {filtersWithUi.map(async (filter) => (
-          <ContentGridFilter label={filter.ui.label} filterCategory={filter.id} items={await filter.ui.getItems()} />
-        ))}
-      </div>
-    )
-  }
+  {filtersWithUi.length > 0 && (
+    <div class="flex gap-2">
+      {filtersWithUi.map(async (filter) => (
+        <ContentGridFilter label={filter.ui.label} filterCategory={filter.id} items={await filter.ui.getItems()} />
+      ))}
+    </div>
+  )}
 
   <template data-content-grid-target="cardTemplate">
     <div
@@ -97,15 +95,15 @@ function getMasonryColumnsForSize(size: "S" | "M" | "L"): string {
       data-controller="content-card"
       data-content-card-id-value=""
       data-content-card-collection-value=""
-    >
-    </div>
+    ></div>
   </template>
 
   <div
     data-content-grid-target="grid"
-    class={layoutType === "grid"
-      ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
-      : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`}
-  >
-  </div>
+    class={
+      layoutType === "grid"
+        ? `grid ${getGridColumnsForSize(itemSize)} gap-4`
+        : `columns ${getMasonryColumnsForSize(itemSize)} gap-4 [column-fill:balance]`
+    }
+  ></div>
 </div>

@@ -30,25 +30,21 @@ const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
 <Layout>
   <ContentDetail entry={now}>
     <div class="flex justify-between max-w-[65ch]" slot="navigation">
-      {
-        prevNow ? (
-          <Link href={`/now/${prevNow.id}`} class="font-sans">
-            &LeftArrow;
-            {prevNow.data.title}
-          </Link>
-        ) : (
-          <div />
-        )
-      }
+      {prevNow ? (
+        <Link href={`/now/${prevNow.id}`} class="font-sans">
+          &LeftArrow;
+          {prevNow.data.title}
+        </Link>
+      ) : (
+        <div />
+      )}
 
-      {
-        nextNow && (
-          <Link href={`/now/${nextNow.id}`} class="font-sans">
-            {nextNow.data.title}
-            &RightArrow;
-          </Link>
-        )
-      }
+      {nextNow && (
+        <Link href={`/now/${nextNow.id}`} class="font-sans">
+          {nextNow.data.title}
+          &RightArrow;
+        </Link>
+      )}
     </div>
   </ContentDetail>
 </Layout>

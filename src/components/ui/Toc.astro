@@ -18,25 +18,23 @@ const headings = Astro.props.headings.filter((heading) => heading.slug !== "foot
 const minDepth = Math.min(...headings.map((heading) => heading.depth));
 ---
 
-{
-  headings.length > 0 && (
-    <div data-controller="toc">
-      <MobileCollapsible label="Table of contents">
-        <LinkList>
-          {headings.map((heading) => (
-            <div class:list={[heading.depth - minDepth === 1 && "pl-4", heading.depth - minDepth >= 2 && "pl-8"]}>
-              <Link
-                href={`#${heading.slug}`}
-                variant="muted"
-                class="font-sans text-sm aria-[current=location]:text-orange-700"
-                data-toc-target="link"
-              >
-                {heading.text}
-              </Link>
-            </div>
-          ))}
-        </LinkList>
-      </MobileCollapsible>
-    </div>
-  )
-}
+{headings.length > 0 && (
+  <div data-controller="toc">
+    <MobileCollapsible label="Table of contents">
+      <LinkList>
+        {headings.map((heading) => (
+          <div class:list={[heading.depth - minDepth === 1 && "pl-4", heading.depth - minDepth >= 2 && "pl-8"]}>
+            <Link
+              href={`#${heading.slug}`}
+              variant="muted"
+              class="font-sans text-sm aria-[current=location]:text-orange-700"
+              data-toc-target="link"
+            >
+              {heading.text}
+            </Link>
+          </div>
+        ))}
+      </LinkList>
+    </MobileCollapsible>
+  </div>
+)}

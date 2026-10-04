@@ -15,7 +15,7 @@ export default {
       },
     },
     {
-      files: "*.{json,yml,yaml}",
+      files: "*.json",
       options: {
         parser: "json",
       },

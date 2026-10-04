@@ -15,28 +15,24 @@ const footerNavigation = getFooterNavigation();
       <NewsletterForm />
 
       <div class="mt-8 space-x-3 text-2xl flex flex-row">
-        {
-          socials.map((social) => (
-            <Link href={social.data.url} variant="secondary" class="text-stone-400">
-              <Icon name={social.data.icon} />
-            </Link>
-          ))
-        }
+        {socials.map((social) => (
+          <Link href={social.data.url} variant="secondary" class="text-stone-400">
+            <Icon name={social.data.icon} />
+          </Link>
+        ))}
       </div>
 
       <div class="text-xs mt-3 text-stone-500 font-sans">© 2025 Alessandro Desantis</div>
     </div>
 
     <div class="hidden md:grid grid-cols-2 gap-x-16 gap-y-1">
-      {
-        footerNavigation.map((item: NavigationLeaf) => (
-          <div class="text-sm lg:text-base font-sans">
-            <Link href={item.href} variant="secondary">
-              {item.text}
-            </Link>
-          </div>
-        ))
-      }
+      {footerNavigation.map((item: NavigationLeaf) => (
+        <div class="text-sm lg:text-base font-sans">
+          <Link href={item.href} variant="secondary">
+            {item.text}
+          </Link>
+        </div>
+      ))}
     </div>
   </div>
 </div>

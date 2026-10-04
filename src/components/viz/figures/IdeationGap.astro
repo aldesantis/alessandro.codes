@@ -1,0 +1,98 @@
+---
+import VizFigure from "../ui/VizFigure.astro";
+import Legend from "../ui/Legend.astro";
+import Chart from "../chart/Chart.astro";
+import DataPoint from "../chart/DataPoint.astro";
+import { IDEATION_GAP } from "src/lib/viz/data";
+import { linearScale, plotArea } from "src/lib/viz/chart";
+
+const W = 170;
+const H = 210;
+const plot = plotArea(W, H, { top: 28, bottom: 34, left: 34, right: 34 });
+const sy = linearScale([3, 6.5], [plot.bottom, plot.top]);
+const xs = [plot.left, plot.right];
+const stages = ["Ideas", "Executed"];
+
+const series = [
+  { key: "human" as const, label: "Human ideas", color: "var(--viz-human)" },
+  { key: "ai" as const, label: "AI ideas", color: "var(--viz-ai)" },
+];
+const fmt = (n: number) => n.toFixed(1);
+
+// Value labels sit beside their dots; push them apart when the dots are close.
+const MIN_GAP = 13;
+const labelY = (row: (typeof IDEATION_GAP)[number], key: "human" | "ai", stage: number) => {
+  const own = sy(row[key][stage]!);
+  const other = sy(row[key === "human" ? "ai" : "human"][stage]!);
+  const gap = Math.abs(own - other);
+  if (gap >= MIN_GAP) return own;
+  const push = (MIN_GAP - gap) / 2;
+  return own < other ? own - push : own + push;
+};
+---
+
+<VizFigure
+  title="AI ideas look better before they’re executed"
+  subtitle="Mean expert ratings (1–10) of the same research ideas, before and after ~100 hours of execution"
+  source="Source: Si, Hashimoto &amp; Yang, “The Ideation–Execution Gap”, 2025, Tables 4–5. 19 human and 24 AI ideas. Before execution, AI ideas scored higher on every metric. After, the differences were not significant."
+>
+  <Legend class="mb-3" items={series.map((s) => ({ label: s.label, color: s.color, shape: "line" }))} />
+
+  <div class="grid grid-cols-2 gap-x-4 gap-y-2 sm:grid-cols-4">
+    {IDEATION_GAP.map((row) => (
+      <Chart
+        width={W}
+        height={H}
+        label={`${row.metric}: human ideas ${fmt(row.human[0])} → ${fmt(row.human[1])}, AI ideas ${fmt(row.ai[0])} → ${fmt(row.ai[1])}`}
+      >
+        <text x={W / 2} y="14" text-anchor="middle" font-size="13" font-weight="600" fill="var(--viz-ink)">
+          {row.metric}
+        </text>
+        {xs.map((x, i) => (
+          <g>
+            <line x1={x} x2={x} y1={plot.top - 4} y2={plot.bottom + 4} stroke="var(--viz-grid)" />
+            <text x={x} y={H - 12} text-anchor="middle" class="viz-tick">
+              {stages[i]}
+            </text>
+          </g>
+        ))}
+        {series.map((s) => {
+          const values = row[s.key];
+          return (
+            <g>
+              <line
+                x1={xs[0]}
+                y1={sy(values[0]!)}
+                x2={xs[1]}
+                y2={sy(values[1]!)}
+                stroke={s.color}
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              {values.map((v, i) => (
+                <DataPoint
+                  cx={xs[i]!}
+                  cy={sy(v)}
+                  color={s.color}
+                  tip={fmt(v)}
+                  tipLabel={`${s.label}, ${stages[i]!.toLowerCase()} · ${row.metric.toLowerCase()}`}
+                >
+                  <text
+                    x={xs[i]! + (i === 0 ? -9 : 9)}
+                    y={labelY(row, s.key, i) + 4}
+                    text-anchor={i === 0 ? "end" : "start"}
+                    font-size="11"
+                    fill="var(--viz-ink-2)"
+                    class="tabular-nums"
+                  >
+                    {fmt(v)}
+                  </text>
+                </DataPoint>
+              ))}
+            </g>
+          );
+        })}
+      </Chart>
+    ))}
+  </div>
+</VizFigure>

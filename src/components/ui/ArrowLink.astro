@@ -16,20 +16,16 @@ const { arrowDirection, class: originalClass, ...props } = Astro.props;
       arrowDirection === "left" ? "-translate-x-4 group-hover:translate-x-0" : "translate-x-0",
     ]}
   >
-    {
-      arrowDirection === "left" && (
-        <span class="mr-2 opacity-0 transition-opacity duration-200 group-hover:opacity-100">←</span>
-      )
-    }
+    {arrowDirection === "left" && (
+      <span class="mr-2 opacity-0 transition-opacity duration-200 group-hover:opacity-100">←</span>
+    )}
 
     <slot />
 
-    {
-      arrowDirection === "right" && (
-        <span class="ml-2 opacity-0 transition-[opacity,transform] duration-200 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0">
-          →
-        </span>
-      )
-    }
+    {arrowDirection === "right" && (
+      <span class="ml-2 opacity-0 transition-[opacity,transform] duration-200 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0">
+        →
+      </span>
+    )}
   </span>
 </Link>

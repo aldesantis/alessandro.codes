@@ -1,0 +1,73 @@
+---
+import VizFigure from "../ui/VizFigure.astro";
+import Legend from "../ui/Legend.astro";
+import Slider from "../ui/Slider.astro";
+
+// §2: the software spectrum, from most translation to most meaningmaking.
+// `translation` is an illustrative share, not a measurement.
+const rungs = [
+  { label: "Choosing which customers to build for", translation: 0.1 },
+  { label: "Choosing which features to build", translation: 0.25 },
+  { label: "Designing the system behind a feature", translation: 0.55 },
+  { label: "Implementing a feature from a spec", translation: 0.8 },
+  { label: "Typing out a function someone else specified", translation: 0.95 },
+];
+---
+
+<VizFigure
+  title="AI climbs the ladder from the execution end"
+  subtitle="Each rung mixes translation and meaningmaking. Raise AI capability and watch which work goes first."
+  source="Shares are illustrative, not measured."
+>
+  <div data-controller="execution-ladder" data-execution-ladder-rungs-value={JSON.stringify(rungs)}>
+    <div class="mb-1 text-xs font-semibold uppercase tracking-wider text-stone-500">More strategy</div>
+    <ol class="space-y-3">
+      {rungs.map((rung) => (
+        <li>
+          <div class="mb-1 flex items-baseline justify-between gap-3 text-sm">
+            <span class="text-stone-800">{rung.label}</span>
+            <span class="shrink-0 text-xs tabular-nums text-stone-500" data-execution-ladder-target="share" />
+          </div>
+          <div class="flex h-3 gap-0.5 overflow-hidden rounded">
+            <div
+              class="viz-animate h-full rounded-l bg-[var(--viz-ai)]"
+              style="width:0%"
+              data-execution-ladder-target="ai"
+            />
+            <div
+              class="viz-animate h-full bg-stone-300"
+              style={`width:${rung.translation * 100}%`}
+              data-execution-ladder-target="translation"
+            />
+            <div
+              class="h-full flex-1 rounded-r bg-[var(--viz-human)]"
+              data-tip={`${Math.round((1 - rung.translation) * 100)}% meaningmaking`}
+              data-tip-label={rung.label}
+            />
+          </div>
+        </li>
+      ))}
+    </ol>
+    <div class="mt-1 text-xs font-semibold uppercase tracking-wider text-stone-500">More execution</div>
+
+    <Slider
+      controller="execution-ladder"
+      target="capability"
+      label="AI capability"
+      value={35}
+      ticks={["Autocomplete", "Ships software end to end"]}
+      class="mt-5 border-t border-stone-200 pt-4 text-sm"
+    >
+      <span slot="summary" data-execution-ladder-target="summary"></span>
+    </Slider>
+
+    <Legend
+      class="mt-3"
+      items={[
+        { label: "Absorbed by AI", color: "var(--viz-ai)", shape: "square" },
+        { label: "Translation still done by people", color: "var(--color-stone-300)", shape: "square" },
+        { label: "Meaningmaking", color: "var(--viz-human)", shape: "square" },
+      ]}
+    />
+  </div>
+</VizFigure>
