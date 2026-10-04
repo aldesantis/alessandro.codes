@@ -12,12 +12,17 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
 
 <Layout>
   <div class="space-y-6 pt-4 sm:pt-8">
-    <p class="font-serif text-[clamp(1.75rem,1rem+3.5vw,3.25rem)] leading-tight text-balance">
-      <span class="motion-safe:animate-wave inline-block origin-[70%_70%]">👋</span>, I'm{" "}
-      <span class="font-semibold">Alessandro</span>&mdash;a <Link href="/topics/writing">writer</Link>,
-      <Link href="/topics/software-engineering">engineer</Link>, and
+    <h1 class="font-serif text-[clamp(1.75rem,1rem+3.5vw,3.25rem)] leading-tight text-balance">
+      <span aria-hidden="true" class="motion-safe:animate-wave inline-block origin-[70%_70%]">
+        👋
+      </span>
+      , I’m{" "}
+      <span class="whitespace-nowrap">
+        <span class="font-semibold">Alessandro</span>&mdash;a
+      </span>
+      <Link href="/topics/writing">writer</Link>, <Link href="/topics/software-engineering">engineer</Link>, and
       <Link href="/topics/strategy">strategist</Link> based in Rome, Italy.
-    </p>
+    </h1>
     <p class="max-w-[60ch] text-ink-muted font-serif text-lg sm:text-xl text-pretty">
       Currently, I am a Partner at
       <Link href="https://nebulab.com">Nebulab</Link>, an international
@@ -35,14 +40,13 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
         <SectionHeading title="Essays" subtitle={sections.essays.description} />
 
         <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/essays" arrowDirection="right">
-            {" "}
-            View all{" "}
+          <ArrowLink class="text-sm" href="/essays" arrowDirection="right" aria-label="View all essays">
+            View all
           </ArrowLink>
         </div>
       </div>
 
-      <ContentGrid searchParams={{ collections: ["essays"], limit: 4 }} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["essays"], limit: 4 }} itemSize="L" headingLevel={3} />
     </Section>
 
     <Section>
@@ -50,14 +54,13 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
         <SectionHeading title="Notes" subtitle={sections.notes.description} />
 
         <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/notes" arrowDirection="right">
-            {" "}
-            View all{" "}
+          <ArrowLink class="text-sm" href="/notes" arrowDirection="right" aria-label="View all notes">
+            View all
           </ArrowLink>
         </div>
       </div>
 
-      <ContentGrid searchParams={{ collections: ["notes"], limit: 6 }} itemSize="L" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["notes"], limit: 6 }} itemSize="L" headingLevel={3} />
     </Section>
 
     <Section>
@@ -65,14 +68,13 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
         <SectionHeading title="Books" subtitle={sections.books.description} />
 
         <div class="mt-2 font-sans">
-          <ArrowLink class="text-sm" href="/books" arrowDirection="right">
-            {" "}
-            View all{" "}
+          <ArrowLink class="text-sm" href="/books" arrowDirection="right" aria-label="View all books">
+            View all
           </ArrowLink>
         </div>
       </div>
 
-      <ContentGrid searchParams={{ collections: ["books"], limit: 6 }} itemSize="M" layoutType="masonry" />
+      <ContentGrid searchParams={{ collections: ["books"], limit: 6 }} itemSize="M" headingLevel={3} />
     </Section>
   </div>
 </Layout>
