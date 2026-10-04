@@ -3101,6 +3101,10 @@
       {
         "slug": "efficiency-is-not-effectiveness",
         "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -3181,7 +3185,12 @@
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
   },
   {
     "ids": [
@@ -3460,6 +3469,10 @@
       {
         "slug": "all-good-strategies-are-unique",
         "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -4160,7 +4173,12 @@
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
+      }
+    ]
   },
   {
     "ids": [
@@ -4990,6 +5008,10 @@
       {
         "slug": "efficiency-must-be-defensible",
         "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -5038,6 +5060,10 @@
       {
         "slug": "economies-of-scale-are-not-exclusive",
         "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -7553,6 +7579,10 @@
       {
         "slug": "innovation-needs-a-platform",
         "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -8277,6 +8307,10 @@
       {
         "slug": "strategy",
         "type": "topics"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -8663,6 +8697,10 @@
       {
         "slug": "learning-is-a-four-phase-process",
         "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -8815,6 +8853,10 @@
       {
         "slug": "wiseness-is-knowing-whats-worth-wanting",
         "type": "notes"
+      },
+      {
+        "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+        "type": "essays"
       }
     ]
   },
@@ -12210,6 +12252,57 @@
     "slug": "zucchini",
     "type": "ingredients",
     "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "AI and the future of knowledge work",
+      "2026-09-27-ai-and-the-future-of-knowledge-work"
+    ],
+    "slug": "2026-09-27-ai-and-the-future-of-knowledge-work",
+    "type": "essays",
+    "outboundLinks": [
+      {
+        "slug": "efficiency-must-be-defensible",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-original-insights",
+        "type": "notes"
+      },
+      {
+        "slug": "economies-of-scale-are-not-exclusive",
+        "type": "notes"
+      },
+      {
+        "slug": "competitive-advantage-is-your-value-cost-gap",
+        "type": "notes"
+      },
+      {
+        "slug": "regulation-can-create-opportunity",
+        "type": "notes"
+      },
+      {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      },
+      {
+        "slug": "best-practices-are-a-floor-not-a-ceiling",
+        "type": "notes"
+      },
+      {
+        "slug": "the-new-luxury-is-about-taste-not-wealth",
+        "type": "notes"
+      },
+      {
+        "slug": "ai-moves-validation-downstream",
+        "type": "notes"
+      },
+      {
+        "slug": "tacit-knowledge-is-hard-to-capture",
+        "type": "notes"
+      }
+    ],
     "inboundLinks": []
   },
   {
