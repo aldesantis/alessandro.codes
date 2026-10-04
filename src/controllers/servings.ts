@@ -37,11 +37,7 @@ export default class ServingsController extends Controller {
       const baseQuantity = Number(target.dataset.quantity);
       const scaled = (baseQuantity * this.servings) / this.baseValue;
 
-      target.textContent = formatIngredientDetails(
-        scaled,
-        target.dataset.unit,
-        target.dataset.note || undefined,
-      );
+      target.textContent = formatIngredientDetails(scaled, target.dataset.unit, target.dataset.note || undefined);
     }
   }
 }

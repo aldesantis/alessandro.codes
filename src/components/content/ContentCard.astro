@@ -15,23 +15,21 @@ interface Props {
 const { content } = Astro.props;
 ---
 
-{
-  (() => {
-    switch (content.collection) {
-      case "essays":
-        return <EssayCard essay={content as CollectionEntry<"essays">} />;
-      case "books":
-        return <BookCard book={content as CollectionEntry<"books">} />;
-      case "notes":
-        return <NoteCard note={content as CollectionEntry<"notes">} />;
-      case "topics":
-        return <TopicCard topic={content as CollectionEntry<"topics">} />;
-      case "talks":
-        return <TalkCard talk={content as CollectionEntry<"talks">} />;
-      case "recipes":
-        return <RecipeCard recipe={content as CollectionEntry<"recipes">} />;
-      default:
-        return null;
-    }
-  })()
-}
+{(() => {
+  switch (content.collection) {
+    case "essays":
+      return <EssayCard essay={content as CollectionEntry<"essays">} />;
+    case "books":
+      return <BookCard book={content as CollectionEntry<"books">} />;
+    case "notes":
+      return <NoteCard note={content as CollectionEntry<"notes">} />;
+    case "topics":
+      return <TopicCard topic={content as CollectionEntry<"topics">} />;
+    case "talks":
+      return <TalkCard talk={content as CollectionEntry<"talks">} />;
+    case "recipes":
+      return <RecipeCard recipe={content as CollectionEntry<"recipes">} />;
+    default:
+      return null;
+  }
+})()}

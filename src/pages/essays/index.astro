@@ -13,9 +13,7 @@ import { topicFilter } from "src/lib/filters";
 
   <Hero>
     <span slot="heading">Essays</span>
-    <span slot="subheading">
-      {sections.essays.description}
-    </span>
+    <span slot="subheading">{sections.essays.description}</span>
   </Hero>
 
   <ContentGrid searchParams={{ collections: ["essays"] }} itemSize="L" filters={[await topicFilter()]} />

@@ -37,40 +37,32 @@ function getDietDisplay(diet: RecipeDiet): string {
 ---
 
 <div class="text-sm text-stone-500 font-sans">
-  {
-    content.data.updatedAt && (
-      <>
-        <span>
-          Revisited <RelativeDate date={content.data.updatedAt} />
-        </span>
-      </>
-    )
-  }
+  {content.data.updatedAt && (
+    <>
+      <span>
+        Revisited <RelativeDate date={content.data.updatedAt} />
+      </span>
+    </>
+  )}
 
-  {
-    content.data.type && (
-      <>
-        <span class="mx-0.5">•</span>
-        <span>{getTypeDisplay(content.data.type)}</span>
-      </>
-    )
-  }
+  {content.data.type && (
+    <>
+      <span class="mx-0.5">•</span>
+      <span>{getTypeDisplay(content.data.type)}</span>
+    </>
+  )}
 
-  {
-    content.data.cuisine && (
-      <>
-        <span class="mx-0.5">•</span>
-        <span>{getCuisineDisplay(content.data.cuisine)}</span>
-      </>
-    )
-  }
+  {content.data.cuisine && (
+    <>
+      <span class="mx-0.5">•</span>
+      <span>{getCuisineDisplay(content.data.cuisine)}</span>
+    </>
+  )}
 
-  {
-    !compact && recipeDiets.length > 0 && (
-      <>
-        <span class="mx-0.5">•</span>
-        <span>{recipeDiets.map((diet) => getDietDisplay(diet)).join(", ")}</span>
-      </>
-    )
-  }
+  {!compact && recipeDiets.length > 0 && (
+    <>
+      <span class="mx-0.5">•</span>
+      <span>{recipeDiets.map((diet) => getDietDisplay(diet)).join(", ")}</span>
+    </>
+  )}
 </div>
