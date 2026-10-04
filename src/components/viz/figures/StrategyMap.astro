@@ -46,7 +46,11 @@ const sliders = [
         target="capability"
         label="AI capability"
         value={TODAY}
-        ticks={["Earlier", "Today", "Later"]}
+        ticks={[
+          { label: "Earlier", value: 0 },
+          { label: "Today", value: TODAY },
+          { label: "Later", value: 100 },
+        ]}
         class="border-t border-rule pt-5"
       />
     </div>

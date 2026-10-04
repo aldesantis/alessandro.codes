@@ -2,7 +2,8 @@
 import type { PlotArea, Scale } from "src/lib/viz/chart";
 
 // Horizontal gridlines with tick labels on the left. The first tick is drawn
-// as the baseline.
+// as the baseline. Hidden from screen readers, like `XAxis`: the chart's label
+// and its marks carry the values.
 interface Props {
   plot: PlotArea;
   y: Scale;
@@ -13,17 +14,19 @@ interface Props {
 const { plot, y, ticks, format = String } = Astro.props;
 ---
 
-{ticks.map((tick, index) => (
-  <g>
-    <line
-      x1={plot.left}
-      x2={plot.right}
-      y1={y(tick)}
-      y2={y(tick)}
-      stroke={index === 0 ? "var(--viz-axis)" : "var(--viz-grid)"}
-    />
-    <text x={plot.left - 8} y={y(tick) + 4} text-anchor="end" class="viz-tick">
-      {format(tick)}
-    </text>
-  </g>
-))}
+<g aria-hidden="true">
+  {ticks.map((tick, index) => (
+    <g>
+      <line
+        x1={plot.left}
+        x2={plot.right}
+        y1={y(tick)}
+        y2={y(tick)}
+        stroke={index === 0 ? "var(--viz-axis)" : "var(--viz-grid)"}
+      />
+      <text x={plot.left - 8} y={y(tick) + 4} text-anchor="end" class="viz-tick">
+        {format(tick)}
+      </text>
+    </g>
+  ))}
+</g>

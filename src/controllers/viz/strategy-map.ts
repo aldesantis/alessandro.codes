@@ -1,19 +1,19 @@
 import { Controller } from "@hotwired/stimulus";
-import { frontierEdge, frontierLevel, frontierPath, toX, toY } from "../../lib/viz/strategy-map";
-import { setAttributes } from "./helpers";
+import { TODAY, exposure, frontierEdge, frontierLevel, frontierPath, toX, toY } from "../../lib/viz/strategy-map";
+import { describeScale, syncSlider } from "./helpers";
 
 // Places the reader on the advantage/strategy map and lets them move AI's
 // frontier forward to see when their work gets absorbed.
 export default class StrategyMapController extends Controller {
-  static override targets = ["advantage", "openness", "capability", "frontierArea", "frontierEdge", "dot", "dotLabel"];
+  static override targets = ["advantage", "openness", "capability", "frontierArea", "frontierEdge", "you", "youLabel"];
 
   declare readonly advantageTarget: HTMLInputElement;
   declare readonly opennessTarget: HTMLInputElement;
   declare readonly capabilityTarget: HTMLInputElement;
   declare readonly frontierAreaTarget: SVGPathElement;
   declare readonly frontierEdgeTarget: SVGPathElement;
-  declare readonly dotTarget: SVGCircleElement;
-  declare readonly dotLabelTarget: SVGTextElement;
+  declare readonly youTarget: SVGGElement;
+  declare readonly youLabelTarget: SVGTextElement;
 
   override connect() {
     this.update();
@@ -22,18 +22,24 @@ export default class StrategyMapController extends Controller {
   update() {
     const x = Number(this.opennessTarget.value) / 100;
     const y = Number(this.advantageTarget.value) / 100;
-    const level = frontierLevel(Number(this.capabilityTarget.value));
+    const capability = Number(this.capabilityTarget.value);
+    const level = frontierLevel(capability);
 
     this.frontierAreaTarget.setAttribute("d", frontierPath(level));
     this.frontierEdgeTarget.setAttribute("d", frontierEdge(level));
 
-    setAttributes(this.dotTarget, { cx: toX(x), cy: toY(y) });
+    // The dot and its label move together as one group, so they tween as one.
+    this.youTarget.style.transform = `translate(${toX(x)}px, ${toY(y)}px)`;
     // Flip the label to the left of the dot near the right edge.
     const flip = x > 0.85;
-    setAttributes(this.dotLabelTarget, {
-      x: toX(x) + (flip ? -14 : 14),
-      y: toY(y) + 4,
-      "text-anchor": flip ? "end" : "start",
-    });
+    this.youLabelTarget.setAttribute("x", String(flip ? -14 : 14));
+    this.youLabelTarget.setAttribute("text-anchor", flip ? "end" : "start");
+
+    const where = `Your work is ${exposure(x, y) < level ? "inside" : "outside"} AI’s frontier.`;
+    const era =
+      Math.abs(capability - TODAY) <= 3 ? "Today" : capability < TODAY ? "Earlier than today" : "Later than today";
+    syncSlider(this.advantageTarget, `${describeScale(this.advantageTarget)}. ${where}`);
+    syncSlider(this.opennessTarget, `${describeScale(this.opennessTarget)}. ${where}`);
+    syncSlider(this.capabilityTarget, `${era}. ${where}`);
   }
 }

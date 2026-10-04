@@ -9,24 +9,47 @@ import DataPoint from "../chart/DataPoint.astro";
 import { FACTORY_POWER } from "src/lib/viz/data";
 import { linePath, linearScale, plotArea } from "src/lib/viz/chart";
 
-const W = 560;
-const H = 260;
-const plot = plotArea(W, H, { top: 16, right: 16, bottom: 28, left: 40 });
-const sx = linearScale([1899, 1939], [plot.left, plot.right]);
-const sy = linearScale([0, 100], [plot.bottom, plot.top]);
-
 const rows = FACTORY_POWER.map((d) => {
   const total = d.purchased + d.onSite;
   return { ...d, total, purchasedPct: (d.purchased / total) * 100, onSitePct: (d.onSite / total) * 100 };
 });
 
-// Hit columns span halfway to each neighbor.
-const columns = rows.map((d, i) => {
-  const prev = rows[i - 1];
-  const next = rows[i + 1];
-  const left = prev ? (sx(prev.year) + sx(d.year)) / 2 : plot.left;
-  const right = next ? (sx(next.year) + sx(d.year)) / 2 : plot.right;
-  return { ...d, left, width: right - left };
+// Two layouts of the same chart: SVG text scales with the chart, so on phones
+// a narrower viewBox (with fewer year labels) keeps every label legible.
+const layouts = [
+  {
+    class: "hidden sm:block",
+    width: 560,
+    height: 260,
+    margin: { top: 16, right: 16, bottom: 28, left: 40 },
+    years: rows.map((d) => d.year),
+    labelSize: 12,
+    compact: false,
+  },
+  {
+    class: "mx-auto max-w-[26rem] sm:hidden",
+    width: 300,
+    height: 220,
+    margin: { top: 16, right: 18, bottom: 30, left: 42 },
+    years: [1899, 1909, 1919, 1929, 1939],
+    labelSize: 14,
+    compact: true,
+  },
+].map((layout) => {
+  const plot = plotArea(layout.width, layout.height, layout.margin);
+  const sx = linearScale([1899, 1939], [plot.left, plot.right]);
+  const sy = linearScale([0, 100], [plot.bottom, plot.top]);
+
+  // Hit columns span halfway to each neighbor.
+  const columns = rows.map((d, i) => {
+    const prev = rows[i - 1];
+    const next = rows[i + 1];
+    const left = prev ? (sx(prev.year) + sx(d.year)) / 2 : plot.left;
+    const right = next ? (sx(next.year) + sx(d.year)) / 2 : plot.right;
+    return { ...d, left, width: right - left };
+  });
+
+  return { ...layout, plot, sx, sy, columns };
 });
 
 const series = [
@@ -43,68 +66,76 @@ const fmt = (n: number) => `${Math.round(n)}%`;
   source="Source: <em>Historical Statistics of the United States</em>, Table Dd848-853 (Atack &amp; Bateman), horsepower of electric motors. See also Devine, “From Shafts to Wires”, 1983."
 >
   <div data-controller="viz-reveal">
-    <Chart
-      width={W}
-      height={H}
-      label="In 1909, 64% of electric motor capacity ran on power generated on site. By 1919, 57% ran on power bought from utilities, and by 1929, 64%."
-    >
-      <YAxis plot={plot} y={sy} ticks={[0, 25, 50, 75, 100]} format={(tick) => `${tick}%`} />
-      <XAxis plot={plot} x={sx} ticks={rows.map((d) => d.year)} />
-
-      {series.map((s) => (
-        <path
-          d={linePath(rows.map((d) => [sx(d.year), sy(d[s.key])]))}
-          fill="none"
-          stroke={s.color}
-          stroke-width="2"
-          stroke-linejoin="round"
-          stroke-linecap="round"
-          pathLength="1"
-          data-viz-reveal-target="stroke"
-        />
-      ))}
-      {series.map((s) => rows.map((d) => <DataPoint cx={sx(d.year)} cy={sy(d[s.key])} color={s.color} r={4} />))}
-
-      <!-- Direct labels at the right end -->
-      {series.map((s) => (
-        <text
-          x={sx(last.year) - 6}
-          y={sy(last[s.key]) + (s.key === "purchasedPct" ? -12 : 18)}
-          text-anchor="end"
-          font-size="12"
-          font-weight="600"
-          fill="var(--viz-ink)"
+    {layouts.map((layout) => (
+      <div class={layout.class}>
+        <Chart
+          width={layout.width}
+          height={layout.height}
+          class={layout.compact ? "viz-compact w-full" : "w-full"}
+          label="In 1909, 64% of electric motor capacity ran on power generated on site. By 1919, 57% ran on power bought from utilities, and by 1929, 64%."
         >
-          {s.label}
-        </text>
-      ))}
+          <YAxis plot={layout.plot} y={layout.sy} ticks={[0, 25, 50, 75, 100]} format={(tick) => `${tick}%`} />
+          <XAxis plot={layout.plot} x={layout.sx} ticks={layout.years} />
 
-      <!-- Hover columns -->
-      {columns.map((d) => {
-        const tip = `${d.year}: ${fmt(d.purchasedPct)} from utilities`;
-        const tipLabel = `${fmt(d.onSitePct)} generated on site · ${d.total.toLocaleString("en-US")}k hp of motors`;
-        return (
-          <g
-            class="group"
-            tabindex="0"
-            role="img"
-            aria-label={`${tip}, ${tipLabel}`}
-            data-tip={tip}
-            data-tip-label={tipLabel}
-          >
-            <rect x={d.left} y={plot.top} width={d.width} height={plot.height} fill="transparent" />
-            <line
-              x1={sx(d.year)}
-              x2={sx(d.year)}
-              y1={plot.top}
-              y2={plot.bottom}
-              stroke="var(--viz-axis)"
-              class="opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100"
+          {series.map((s) => (
+            <path
+              d={linePath(rows.map((d) => [layout.sx(d.year), layout.sy(d[s.key])]))}
+              fill="none"
+              stroke={s.color}
+              stroke-width="2"
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              pathLength="1"
+              data-viz-reveal-target="stroke"
             />
-          </g>
-        );
-      })}
-    </Chart>
+          ))}
+          {series.map((s) =>
+            rows.map((d) => <DataPoint cx={layout.sx(d.year)} cy={layout.sy(d[s.key])} color={s.color} r={4} />)
+          )}
+
+          <!-- Direct labels at the right end -->
+          {series.map((s) => (
+            <text
+              x={layout.sx(last.year) - 6}
+              y={layout.sy(last[s.key]) + (s.key === "purchasedPct" ? -12 : layout.labelSize + 6)}
+              text-anchor="end"
+              font-size={layout.labelSize}
+              font-weight="600"
+              fill="var(--viz-ink)"
+            >
+              {s.label}
+            </text>
+          ))}
+
+          <!-- Hover columns, also focusable and tappable -->
+          {layout.columns.map((d) => {
+            const tip = `${d.year}: ${fmt(d.purchasedPct)} from utilities`;
+            const tipLabel = `${fmt(d.onSitePct)} generated on site · ${d.total.toLocaleString("en-US")}k hp of motors`;
+            return (
+              <g tabindex="0" role="img" aria-label={`${tip}, ${tipLabel}`} data-tip={tip} data-tip-label={tipLabel}>
+                <rect x={d.left} y={layout.plot.top} width={d.width} height={layout.plot.height} fill="transparent" />
+                <line
+                  x1={layout.sx(d.year)}
+                  x2={layout.sx(d.year)}
+                  y1={layout.plot.top}
+                  y2={layout.plot.bottom}
+                  stroke="var(--viz-axis)"
+                  class="viz-guide"
+                />
+                {/* The tooltip points at the higher of the year's two points */}
+                <circle
+                  cx={layout.sx(d.year)}
+                  cy={Math.min(layout.sy(d.purchasedPct), layout.sy(d.onSitePct))}
+                  r="4"
+                  fill="transparent"
+                  data-tip-anchor
+                />
+              </g>
+            );
+          })}
+        </Chart>
+      </div>
+    ))}
 
     <Legend items={series.map((s) => ({ label: s.label, color: s.color, shape: "line" }))} />
 

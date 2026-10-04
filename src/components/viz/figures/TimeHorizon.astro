@@ -9,13 +9,9 @@ import DataPoint from "../chart/DataPoint.astro";
 import { TIME_HORIZONS, HORIZON_RELIABLE_MAX, formatMinutes } from "src/lib/viz/data";
 import { linePath, linearScale, logScale, plotArea } from "src/lib/viz/chart";
 
-const W = 560;
-const H = 300;
-const plot = plotArea(W, H, { top: 16, right: 20, bottom: 28, left: 52 });
-const t1 = Date.parse("2026-09-01");
-const sx = linearScale([Date.parse("2019-01-01"), t1], [plot.left, plot.right]);
-
 const points = TIME_HORIZONS.map((d) => ({ ...d, t: Date.parse(d.date) }));
+const t0 = Date.parse("2019-01-01");
+const t1 = Date.parse("2026-09-01");
 
 // Least-squares fit of log2(minutes) over time, on reliable points since 2023.
 const fitStart = Date.parse("2023-01-01");
@@ -28,40 +24,82 @@ const slope =
 const trend = (t: number) => 2 ** (meanY + slope * (t - meanT));
 const doublingDays = Math.round(1 / slope / 86_400_000);
 
-const scales = [
-  {
-    value: "log",
-    label: "Log",
-    max: 2000,
-    y: logScale([1 / 60, 2000], [plot.bottom, plot.top]),
-    ticks: [1 / 60, 1, 10, 60, 240, 960],
-    labeled: new Set(["GPT-2", "GPT-4", "Claude 3.7 Sonnet", "GPT-5", "Claude Mythos Preview"]),
-  },
-  {
-    value: "linear",
-    label: "Linear",
-    max: 1100,
-    y: linearScale([0, 1100], [plot.bottom, plot.top]),
-    ticks: [0, 240, 480, 720, 960],
-    labeled: new Set(["GPT-5", "Claude Opus 4.6", "Claude Mythos Preview"]),
-  },
+const scaleOptions = [
+  { value: "log", label: "Log" },
+  { value: "linear", label: "Linear" },
 ];
 
-type Scale = (typeof scales)[number];
+// Two layouts of the same chart: SVG text scales with the chart, so on phones
+// a narrower viewBox (with fewer year and model labels) keeps every label
+// legible.
+const layouts = [
+  {
+    class: "hidden sm:block",
+    width: 560,
+    height: 300,
+    margin: { top: 16, right: 20, bottom: 28, left: 52 },
+    years: [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+    labelSize: 11,
+    bandLabel: "Above 16 hr: beyond METR’s reliable range",
+    shortNames: false,
+    labeled: {
+      log: ["GPT-2", "GPT-4", "Claude 3.7 Sonnet", "GPT-5", "Claude Mythos Preview"],
+      linear: ["GPT-5", "Claude Opus 4.6", "Claude Mythos Preview"],
+    },
+    compact: false,
+  },
+  {
+    class: "mx-auto max-w-[26rem] sm:hidden",
+    width: 320,
+    height: 280,
+    margin: { top: 16, right: 14, bottom: 30, left: 48 },
+    years: [2019, 2021, 2023, 2025],
+    labelSize: 14,
+    bandLabel: "Beyond reliable range",
+    shortNames: true,
+    labeled: {
+      log: ["GPT-2", "GPT-4", "GPT-5", "Claude Mythos Preview"],
+      linear: ["GPT-5", "Claude Mythos Preview"],
+    },
+    compact: true,
+  },
+].map((layout) => {
+  const plot = plotArea(layout.width, layout.height, layout.margin);
+  const sx = linearScale([t0, t1], [plot.left, plot.right]);
+  const scales = [
+    {
+      value: "log",
+      max: 2000,
+      y: logScale([1 / 60, 2000], [plot.bottom, plot.top]),
+      ticks: [1 / 60, 1, 10, 60, 240, 960],
+      labeled: new Set(layout.labeled.log),
+    },
+    {
+      value: "linear",
+      max: 1100,
+      y: linearScale([0, 1100], [plot.bottom, plot.top]),
+      ticks: [0, 240, 480, 720, 960],
+      labeled: new Set(layout.labeled.linear),
+    },
+  ];
+  return { ...layout, plot, sx, scales };
+});
 
-const trendPath = (scale: Scale) => {
+type Layout = (typeof layouts)[number];
+type Scale = Layout["scales"][number];
+
+const trendPath = (layout: Layout, scale: Scale) => {
   const steps = 40;
   const pts: [number, number][] = [];
   for (let i = 0; i <= steps; i++) {
     const t = fitStart + ((t1 - fitStart) * i) / steps;
     const v = trend(t);
     if (v > scale.max) break;
-    pts.push([sx(t), scale.y(v)]);
+    pts.push([layout.sx(t), scale.y(v)]);
   }
   return linePath(pts);
 };
 
-const years = [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
 const dateLabel = (date: string) =>
   new Date(date).toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
 ---
@@ -79,79 +117,84 @@ const dateLabel = (date: string) =>
         action="select"
         label="Scale"
         layout="inline"
-        options={scales.map((scale) => ({ label: scale.label, value: scale.value }))}
+        options={scaleOptions}
       />
     </div>
 
-    <Chart
-      width={W}
-      height={H}
-      label={`From GPT-2 in 2019 at a few seconds to Claude Mythos Preview in 2026 at about 17 hours, the task length frontier models can complete has doubled roughly every ${doublingDays} days since 2023.`}
-    >
-      <XAxis plot={plot} x={(year) => sx(Date.parse(`${year}-01-01`))} ticks={years} />
+    {layouts.map((layout) => (
+      <div class={layout.class}>
+        <Chart
+          width={layout.width}
+          height={layout.height}
+          class={layout.compact ? "viz-compact w-full" : "w-full"}
+          label={`From GPT-2 in 2019 at a few seconds to Claude Mythos Preview in 2026 at about 17 hours, the task length frontier models can complete has doubled roughly every ${doublingDays} days since 2023.`}
+        >
+          <XAxis plot={layout.plot} x={(year) => layout.sx(Date.parse(`${year}-01-01`))} ticks={layout.years} />
 
-      {scales.map((scale, index) => (
-        <g data-viz-switch-target="panel" data-value={scale.value} style={index === 0 ? undefined : "display:none"}>
-          <rect
-            x={plot.left}
-            y={plot.top}
-            width={plot.width}
-            height={Math.max(0, scale.y(HORIZON_RELIABLE_MAX) - plot.top)}
-            fill="var(--color-stone-100)"
-          />
-          <text x={plot.left + 6} y={plot.top + 13} class="viz-tick">
-            Above 16 hr: beyond METR’s reliable range
-          </text>
+          {layout.scales.map((scale, index) => (
+            <g data-viz-switch-target="panel" data-value={scale.value} style={index === 0 ? undefined : "display:none"}>
+              <rect
+                x={layout.plot.left}
+                y={layout.plot.top}
+                width={layout.plot.width}
+                height={Math.max(0, scale.y(HORIZON_RELIABLE_MAX) - layout.plot.top)}
+                fill="var(--color-stone-100)"
+              />
+              <text x={layout.plot.left + 6} y={layout.plot.top + 13} class="viz-tick">
+                {layout.bandLabel}
+              </text>
 
-          <YAxis
-            plot={plot}
-            y={scale.y}
-            ticks={scale.ticks}
-            format={(tick) => (tick === 0 ? "0" : formatMinutes(tick))}
-          />
+              <YAxis
+                plot={layout.plot}
+                y={scale.y}
+                ticks={scale.ticks}
+                format={(tick) => (tick === 0 ? "0" : formatMinutes(tick))}
+              />
 
-          <path
-            d={trendPath(scale)}
-            fill="none"
-            stroke="var(--viz-ai)"
-            stroke-width="2"
-            stroke-linecap="round"
-            opacity="0.3"
-          />
+              <path
+                d={trendPath(layout, scale)}
+                fill="none"
+                stroke="var(--viz-ai)"
+                stroke-width="2"
+                stroke-linecap="round"
+                opacity="0.3"
+              />
 
-          {points.map((d) => {
-            const x = sx(d.t);
-            const y = scale.y(d.minutes);
-            const unreliable = d.minutes > HORIZON_RELIABLE_MAX;
-            // Labels sit left of the dot, except near the left edge.
-            const labelRight = x < plot.left + 120;
-            return (
-              <DataPoint
-                cx={x}
-                cy={y}
-                color="var(--viz-ai)"
-                hollow={unreliable}
-                tip={formatMinutes(d.minutes)}
-                tipLabel={`${d.model} · ${dateLabel(d.date)}${unreliable ? " · above reliable range" : ""}`}
-              >
-                {scale.labeled.has(d.model) && (
-                  <text
-                    x={labelRight ? x + 8 : x - 8}
-                    y={y + 4}
-                    text-anchor={labelRight ? "start" : "end"}
-                    font-size="11"
-                    fill="var(--viz-ink-2)"
-                    class="viz-halo"
+              {points.map((d) => {
+                const x = layout.sx(d.t);
+                const y = scale.y(d.minutes);
+                const unreliable = d.minutes > HORIZON_RELIABLE_MAX;
+                // Labels sit left of the dot, except near the left edge.
+                const labelRight = x < layout.plot.left + layout.plot.width * 0.25;
+                return (
+                  <DataPoint
+                    cx={x}
+                    cy={y}
+                    color="var(--viz-ai)"
+                    hollow={unreliable}
+                    tip={formatMinutes(d.minutes)}
+                    tipLabel={`${d.model} · ${dateLabel(d.date)}${unreliable ? " · above reliable range" : ""}`}
                   >
-                    {d.model.replace("Claude Mythos Preview", "Mythos Preview")}
-                  </text>
-                )}
-              </DataPoint>
-            );
-          })}
-        </g>
-      ))}
-    </Chart>
+                    {scale.labeled.has(d.model) && (
+                      <text
+                        x={labelRight ? x + 8 : x - 8}
+                        y={y + 4}
+                        text-anchor={labelRight ? "start" : "end"}
+                        font-size={layout.labelSize}
+                        fill="var(--viz-ink-2)"
+                        class="viz-halo"
+                      >
+                        {d.model.replace("Claude Mythos Preview", layout.shortNames ? "Mythos" : "Mythos Preview")}
+                      </text>
+                    )}
+                  </DataPoint>
+                );
+              })}
+            </g>
+          ))}
+        </Chart>
+      </div>
+    ))}
 
     <Legend
       items={[

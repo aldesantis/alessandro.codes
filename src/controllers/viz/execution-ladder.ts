@@ -1,4 +1,5 @@
 import { Controller } from "@hotwired/stimulus";
+import { syncSlider } from "./helpers";
 
 interface Rung {
   label: string;
@@ -8,6 +9,21 @@ interface Rung {
 // How much capability it takes to fully absorb one rung's translation, once
 // AI starts on it.
 const RAMP = 0.3;
+
+// Rounds shares that add up to 1 into whole percentages that add up to 100
+// (largest remainder), so a breakdown never reads 101%.
+function percentages(shares: number[]): number[] {
+  const raw = shares.map((share) => share * 100);
+  const rounded = raw.map(Math.floor);
+  let missing = 100 - rounded.reduce((sum, value) => sum + value, 0);
+  raw
+    .map((value, index) => ({ index, remainder: value - Math.floor(value) }))
+    .sort((a, b) => b.remainder - a.remainder)
+    .forEach(({ index }) => {
+      if (missing-- > 0) rounded[index]! += 1;
+    });
+  return rounded;
+}
 
 // AI absorbs each rung's translation, starting with the rungs that are mostly
 // translation. Meaningmaking is never absorbed.
@@ -40,20 +56,20 @@ export default class ExecutionLadderController extends Controller {
 
       this.aiTargets[index]!.style.width = `${absorbed * 100}%`;
       this.translationTargets[index]!.style.width = `${(rung.translation - absorbed) * 100}%`;
-      this.aiTargets[index]!.setAttribute("data-tip", `${Math.round(absorbed * 100)}% absorbed by AI`);
+      const [ai, people, meaning] = percentages([absorbed, rung.translation - absorbed, 1 - rung.translation]);
+      this.aiTargets[index]!.setAttribute("data-tip", `${ai}% absorbed by AI`);
       this.aiTargets[index]!.setAttribute("data-tip-label", rung.label);
-      const breakdown = [
-        `${Math.round(absorbed * 100)}% absorbed by AI`,
-        `${Math.round((rung.translation - absorbed) * 100)}% translation by people`,
-        `${Math.round((1 - rung.translation) * 100)}% meaningmaking`,
-      ].join(", ");
+      const breakdown = [`${ai}% absorbed by AI`, `${people}% translation by people`, `${meaning}% meaningmaking`].join(
+        ", "
+      );
       this.barTargets[index]!.setAttribute("data-tip", breakdown);
       this.barTargets[index]!.setAttribute("data-tip-label", rung.label);
       this.barTargets[index]!.setAttribute("aria-label", `${rung.label}: ${breakdown}`);
-      this.shareTargets[index]!.textContent = absorbed > 0.005 ? `${Math.round(absorbed * 100)}% AI` : "";
+      this.shareTargets[index]!.textContent = ai! > 0 ? `${ai}% AI` : "";
     });
 
     const share = Math.round((absorbedTotal / this.rungsValue.length) * 100);
     this.summaryTarget.textContent = `AI does ${share}% of the ladder’s work`;
+    syncSlider(this.capabilityTarget, `${this.capabilityTarget.value}%: AI does ${share}% of the ladder’s work`);
   }
 }

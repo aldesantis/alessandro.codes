@@ -17,83 +17,91 @@ const midX = toX(0.5);
 const midY = toY(0.5);
 const right = PLOT.left + PLOT.width;
 const bottom = PLOT.top + PLOT.height;
+
+const quadrants = [
+  { y1: "ADVANTAGE", x1: "EXECUTION", x: PLOT.left + 8, y: PLOT.top + 18, anchor: "start", top: true },
+  { y1: "ADVANTAGE", x1: "STRATEGY", x: right - 8, y: PLOT.top + 18, anchor: "end", top: true },
+  { y1: "NECESSITY", x1: "EXECUTION", x: PLOT.left + 8, y: bottom - 10, anchor: "start", top: false },
+  { y1: "NECESSITY", x1: "STRATEGY", x: right - 8, y: bottom - 10, anchor: "end", top: false },
+];
 ---
 
-<Chart
-  width={VIEWBOX.width}
-  height={VIEWBOX.height}
-  class="w-full max-w-[30rem]"
-  label="Map of work: necessity to advantage on the vertical axis, execution to strategy on the horizontal axis"
->
-  <!-- Frontier: the area AI has absorbed -->
-  <path d={frontierPath(level)} fill="var(--viz-ai-wash)" class="viz-animate" {...target("frontierArea")} />
-  <path
-    d={frontierEdge(level)}
-    fill="none"
-    stroke="var(--viz-ai)"
-    stroke-width="2"
-    stroke-linecap="round"
-    class="viz-animate"
-    {...target("frontierEdge")}
-  />
-
-  <!-- Quadrant dividers and frame -->
-  <rect x={PLOT.left} y={PLOT.top} width={PLOT.width} height={PLOT.height} fill="none" stroke="var(--viz-axis)" />
-  <line x1={midX} y1={PLOT.top} x2={midX} y2={bottom} stroke="var(--viz-grid)" />
-  <line x1={PLOT.left} y1={midY} x2={right} y2={midY} stroke="var(--viz-grid)" />
-
-  <!-- Quadrant names -->
-  <g font-size="9.5" fill="var(--viz-muted)" font-weight="500" letter-spacing="0.06em" opacity="0.8">
-    <text x={PLOT.left + 8} y={PLOT.top + 18}>
-      ADVANTAGE × EXECUTION
-    </text>
-    <text x={right - 8} y={PLOT.top + 18} text-anchor="end">
-      ADVANTAGE × STRATEGY
-    </text>
-    <text x={PLOT.left + 8} y={bottom - 10}>
-      NECESSITY × EXECUTION
-    </text>
-    <text x={right - 8} y={bottom - 10} text-anchor="end">
-      NECESSITY × STRATEGY
-    </text>
-  </g>
-
-  <!-- Axis labels -->
-  <g font-size="12" fill="var(--viz-ink-2)">
-    <text x={PLOT.left} y={bottom + 20}>
-      Execution
-    </text>
-    <text x={right} y={bottom + 20} text-anchor="end">
-      Strategy
-    </text>
-    <text transform={`translate(${PLOT.left - 14} ${bottom}) rotate(-90)`}>Necessity</text>
-    <text transform={`translate(${PLOT.left - 14} ${PLOT.top}) rotate(-90)`} text-anchor="end">
-      Advantage
-    </text>
-  </g>
-
-  <!-- The reader's position -->
-  <g>
-    <circle
-      cx={toX(x)}
-      cy={toY(y)}
-      r="9"
-      fill="var(--viz-human)"
-      stroke="var(--viz-surface)"
+<div class="viz-map w-full max-w-[30rem]">
+  <Chart
+    width={VIEWBOX.width}
+    height={VIEWBOX.height}
+    class="w-full"
+    role="img"
+    label="Map of work: necessity to advantage on the vertical axis, execution to strategy on the horizontal axis"
+  >
+    <!-- Frontier: the area AI has absorbed -->
+    <path d={frontierPath(level)} fill="var(--viz-ai-wash)" class="viz-animate" {...target("frontierArea")} />
+    <path
+      d={frontierEdge(level)}
+      fill="none"
+      stroke="var(--viz-ai)"
       stroke-width="2"
+      stroke-linecap="round"
       class="viz-animate"
-      {...target("dot")}
+      {...target("frontierEdge")}
     />
-    <text
-      x={toX(x) + 14}
-      y={toY(y) + 4}
-      font-size="12"
-      font-weight="600"
-      fill="var(--viz-ink)"
-      class="viz-halo"
-      {...target("dotLabel")}
-    >
-      You
-    </text>
-  </g>
-</Chart>
+
+    <!-- Quadrant dividers and frame -->
+    <rect x={PLOT.left} y={PLOT.top} width={PLOT.width} height={PLOT.height} fill="none" stroke="var(--viz-axis)" />
+    <line x1={midX} y1={PLOT.top} x2={midX} y2={bottom} stroke="var(--viz-grid)" />
+    <line x1={PLOT.left} y1={midY} x2={right} y2={midY} stroke="var(--viz-grid)" />
+
+    <!-- Quadrant names: one line, or two on phones where they render larger -->
+    <g fill="var(--viz-muted)" font-weight="500" letter-spacing="0.06em" opacity="0.8" class="viz-map-quadrant">
+      {quadrants.map((q) => (
+        <text x={q.x} y={q.y} text-anchor={q.anchor} class="viz-map-wide">
+          {q.y1} × {q.x1}
+        </text>
+      ))}
+      {quadrants.map((q) => (
+        <text x={q.x} y={q.y} text-anchor={q.anchor} class="viz-map-narrow">
+          {q.top ? (
+            <>
+              <tspan x={q.x}>{q.y1} ×</tspan>
+              <tspan x={q.x} dy="1.15em">
+                {q.x1}
+              </tspan>
+            </>
+          ) : (
+            <>
+              <tspan x={q.x} dy="-1.15em">
+                {q.y1} ×
+              </tspan>
+              <tspan x={q.x} dy="1.15em">
+                {q.x1}
+              </tspan>
+            </>
+          )}
+        </text>
+      ))}
+    </g>
+
+    <!-- Axis labels -->
+    <g fill="var(--viz-ink-2)" class="viz-map-label">
+      <text x={PLOT.left} y={bottom + 20}>
+        Execution
+      </text>
+      <text x={right} y={bottom + 20} text-anchor="end">
+        Strategy
+      </text>
+      <text transform={`translate(${PLOT.left - 14} ${bottom}) rotate(-90)`}>Necessity</text>
+      <text transform={`translate(${PLOT.left - 14} ${PLOT.top}) rotate(-90)`} text-anchor="end">
+        Advantage
+      </text>
+    </g>
+
+    <!-- The reader's position. The group moves as one (see .viz-move), so the
+  label never lags behind the dot. -->
+    <g class="viz-move" style={`transform:translate(${toX(x)}px, ${toY(y)}px)`} {...target("you")}>
+      <circle r="9" fill="var(--viz-human)" stroke="var(--viz-surface)" stroke-width="2" />
+      <text x="14" y="4" font-weight="600" fill="var(--viz-ink)" class="viz-halo viz-map-label" {...target("youLabel")}>
+        You
+      </text>
+    </g>
+  </Chart>
+</div>

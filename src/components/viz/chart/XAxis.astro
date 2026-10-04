@@ -1,7 +1,8 @@
 ---
 import type { PlotArea, Scale } from "src/lib/viz/chart";
 
-// Tick labels under the plot area.
+// Tick labels under the plot area, hidden from screen readers (the chart's
+// label and its marks carry the values).
 interface Props {
   plot: PlotArea;
   x: Scale;
@@ -12,8 +13,10 @@ interface Props {
 const { plot, x, ticks, format = String } = Astro.props;
 ---
 
-{ticks.map((tick) => (
-  <text x={x(tick)} y={plot.bottom + 20} text-anchor="middle" class="viz-tick">
-    {format(tick)}
-  </text>
-))}
+<g aria-hidden="true">
+  {ticks.map((tick) => (
+    <text x={x(tick)} y={plot.bottom + 20} text-anchor="middle" class="viz-tick">
+      {format(tick)}
+    </text>
+  ))}
+</g>
