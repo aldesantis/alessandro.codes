@@ -1,0 +1,72 @@
+# ambit project config. `ambit install` reads this file, resolves a bundle of skills and
+# MCP servers from it, and writes that bundle into each harness listed below.
+#
+# `version` is the only required key. Every definition lives in a file a catalog holds, so this
+# project lists itself below: a skill of its own goes in `skills/<name>/SKILL.md`, a server in
+# `mcps/<name>.yml`, a hook in `hooks/<name>/hook.yml`, a pack in `packs/<name>.yml`.
+
+# The catalogs to draw packs, skills, MCP servers and hooks from.
+#
+# `local` is this project's own item directories, which `ambit init` created — a project that
+# ships nothing simply leaves them empty, and an empty catalog costs nothing. Add another with a
+# `source` of `owner/repo`, `owner/repo@ref`, a git URL, or `path:./relative/dir`, and a `ref`
+# to pin it to: quote one that looks like a number — `ref: "1234567"` — or YAML will read it as
+# one.
+#
+# The order carries no meaning: none takes precedence over another, and selecting one name from
+# two of them is refused rather than settled here.
+catalogs:
+  - name: local
+    source: path:.
+  - name: emil
+    source: emilkowalski/skill
+  - name: impeccable
+    source: pbakaus/impeccable
+    path: plugin
+  - name: vercel
+    source: vercel-labs/agent-skills
+
+# The agent harnesses to install into: `claude`, `codex`, `cursor`, `opencode`, `vscode`.
+#
+# Skills go to `.agents/skills/` whichever are listed — one copy, however many tools read it.
+# `claude` and `cursor` also get `.claude/skills` as a link to it, since neither reads the
+# shared directory natively. Each harness's MCP servers go in that harness's own config file:
+# `.mcp.json`, `.codex/config.toml`, `.cursor/mcp.json`, `.opencode/opencode.jsonc`,
+# `.vscode/mcp.json`.
+harnesses:
+  - claude
+
+# What this project selects — who this project is, in its catalogs' terms.
+#
+# Nothing is implicit: ambit adds nothing on its own, so an item no entry below reaches is not
+# installed, however universal it looks. Each entry is one key naming what kind of thing it
+# selects — `pack`, `skill`, `mcp` or `hook` — carrying the pattern to match names against. The
+# kind is written out rather than guessed: a catalog's namespaces are flat and independent, so
+# `mcp.sentry` is a plausible skill name and `sentry` a plausible server one namespace over.
+#
+# A `pack` is a capability whose only job is to pull in others, declared in the catalog with a
+# name and a description — so `- pack: company/engineering` takes whatever that catalog says an
+# engineer needs, skills, servers and hooks together, and `ambit search --capability pack "*"`
+# says what that is.
+#
+# An address is `<catalog>/<pattern>`, where the catalog is an alias from `catalogs:` above.
+# In a pattern, `*` matches any run of characters, including `.`, and a pattern without one is
+# an exact name. `core.*` matches `core.a` and `core.a.b` but not `core` itself, so selecting a
+# prefix and the item named exactly that takes two entries. `local/*` is a whole namespace.
+#
+# An entry that matches nothing is an error, not a silent miss — which is why this block is
+# commented out: `local` is empty until this project ships something, and the entries below would
+# fail on the project it was just scaffolded into. Uncomment them once there is something to take.
+requires:
+  - skill: emil/emil-design-eng
+  - skill: emil/mobile-native
+  - skill: emil/review-animations
+  - skill: emil/improve-animations
+  - skill: emil/find-animation-opportunities
+  - skill: emil/break-ui
+  - skill: emil/animate
+  - skill: impeccable/impeccable
+  - skill: vercel/web-design-guidelines
+
+# The config format version. `1` is the only one this build understands.
+version: 1
