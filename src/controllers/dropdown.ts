@@ -75,6 +75,14 @@ export default class DropdownController extends Controller {
     }
   }
 
+  // Close when keyboard focus moves somewhere outside the dropdown.
+  handleFocusOut(event: FocusEvent) {
+    const next = event.relatedTarget;
+    if (this.isOpen && next instanceof Node && !this.element.contains(next)) {
+      this.close();
+    }
+  }
+
   private handleClickOutside = (event: MouseEvent) => {
     if (this.isOpen && event.target instanceof Node && !this.element.contains(event.target)) {
       this.close();
