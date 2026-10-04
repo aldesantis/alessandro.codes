@@ -12,7 +12,7 @@ const props = Astro.props;
     type="checkbox"
     class:list={[
       "peer h-4 w-4 cursor-pointer appearance-none rounded-sm border-2 border-ink-subtle bg-surface",
-      "transition-colors duration-150 ease-out-strong",
+      "transition-[background-color,border-color,scale] duration-150 ease-out-strong active:scale-[0.92]",
       "checked:border-link checked:bg-link",
       "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link",
     ]}
@@ -21,7 +21,7 @@ const props = Astro.props;
     fill="none"
     viewBox="0 0 14 14"
     aria-hidden="true"
-    class="pointer-events-none absolute h-3 w-3 stroke-surface opacity-0 peer-checked:opacity-100"
+    class="pointer-events-none absolute h-3 w-3 scale-75 stroke-surface opacity-0 transition-[opacity,scale] duration-150 ease-out-strong peer-checked:scale-100 peer-checked:opacity-100"
   >
     <path d="M3 8L6 11L11 3.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
   </svg>
