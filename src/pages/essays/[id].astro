@@ -19,11 +19,14 @@ export async function getStaticPaths() {
 const { essay } = Astro.props;
 ---
 
-<title slot="head">{essay.data.title} | Alessandro Desantis</title>
-
-<Layout>
+<Layout title={essay.data.title} type="article">
   <ContentDetail entry={essay}>
-    <ArrowLink href="/essays" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+    <ArrowLink
+      href="/essays"
+      arrowDirection="left"
+      class="font-sans text-sm font-semibold uppercase tracking-wide"
+      slot="navigation"
+    >
       Essays
     </ArrowLink>
 

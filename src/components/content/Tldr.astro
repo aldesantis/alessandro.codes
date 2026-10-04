@@ -1,9 +1,7 @@
 <aside
-  aria-label="TL;DR"
-  class="not-prose mb-8 rounded-lg border border-orange-200 bg-orange-50/60 px-5 py-4 font-sans text-stone-700"
+  aria-label="In short"
+  class="not-prose mb-8 font-serif text-lg italic leading-relaxed text-ink-muted [&_a]:text-link [&_a]:transition-colors [&_a]:duration-150 [&_a:hover]:text-link-hover [&_em]:not-italic [&_li]:relative [&_li]:pl-4 [&_li]:before:absolute [&_li]:before:left-0 [&_li]:before:text-ink-subtle [&_li]:before:content-['–'] [&_p]:text-pretty [&>span+p]:inline [&_strong]:font-semibold [&_ul]:mt-2 [&_ul]:space-y-1"
 >
-  <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-orange-700">TL;DR</div>
-  <div class="space-y-2 [&_a]:text-orange-500 [&_a:hover]:text-orange-700 [&_em]:italic [&_li]:relative [&_li]:pl-4 [&_li]:before:absolute [&_li]:before:left-0 [&_li]:before:text-orange-400 [&_li]:before:content-['–'] [&_ul]:space-y-2 [&_strong]:font-semibold">
-    <slot />
-  </div>
+  <span class="mr-1 font-sans text-sm not-italic font-semibold text-ink-subtle">In short —</span>
+  <slot />
 </aside>

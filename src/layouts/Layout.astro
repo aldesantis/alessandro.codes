@@ -5,15 +5,47 @@ import CommandPalette from "@components/ui/command-palette/CommandPalette.astro"
 import { Font } from "astro:assets";
 
 import "@styles/global.css";
+
+const SITE_NAME = "Alessandro Desantis";
+const SITE_URL = "https://alessandro.codes";
+const DEFAULT_DESCRIPTION =
+  "Alessandro Desantis is a writer, engineer, and strategist based in Rome, Italy, and a Partner at Nebulab.";
+
+export interface Props {
+  /** Page title without the site name; omit for the homepage. */
+  title?: string;
+  description?: string;
+  type?: "website" | "article";
+}
+
+const { title, description = DEFAULT_DESCRIPTION, type = "website" } = Astro.props;
+
+const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? SITE_URL).href;
 ---
 
 <!doctype html>
-<html lang="en" class="[font-size:20px]">
+<html lang="en" class="[font-size:125%] [color-scheme:light] touch-manipulation">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="oklch(0.982 0.004 80)" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:type" content={type} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
 
     <Font cssVariable="--font-domine" preload />
     <Font cssVariable="--font-source-sans" preload />
@@ -21,12 +53,19 @@ import "@styles/global.css";
     <slot name="head" />
   </head>
 
-  <body class="bg-zinc-50">
+  <body class="bg-paper text-ink touch-manipulation">
+    <a
+      href="#main"
+      class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-50 focus-visible:rounded-md focus-visible:bg-surface focus-visible:px-4 focus-visible:py-2 focus-visible:font-sans focus-visible:text-sm focus-visible:text-link focus-visible:shadow-pop focus-visible:outline-2 focus-visible:outline-link"
+    >
+      Skip to content
+    </a>
+
     <Navbar />
 
-    <div class="container mt-4 sm:mt-8">
+    <main id="main" tabindex="-1" class="container mt-4 sm:mt-8 focus:outline-none">
       <slot />
-    </div>
+    </main>
 
     <Footer />
     <CommandPalette />

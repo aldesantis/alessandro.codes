@@ -3,7 +3,7 @@
     <div class="mb-4">
       <slot name="navigation" />
 
-      <h1 class="text-4xl font-semibold font-sans mt-2 mb-1">
+      <h1 class="font-sans font-semibold text-[clamp(2rem,1.4rem+3vw,3.25rem)] leading-tight text-balance mt-2 mb-1">
         <slot name="title" />
       </h1>
 
@@ -20,7 +20,7 @@
   </div>
 
   <div class="hidden lg:block lg:col-span-4">
-    <div class="bg-white shadow-lg rounded-lg p-4 sticky top-4 max-h-[82vh] overflow-y-auto">
+    <div class="border-l border-rule pl-6 sticky top-4 max-h-[82vh] overflow-y-auto">
       <slot name="sidebar" />
     </div>
   </div>

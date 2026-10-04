@@ -2,30 +2,59 @@
 import { Icon } from "astro-icon/components";
 ---
 
-<div class="text-xl font-serif text-stone-700">Let's stay in touch?</div>
+<div class="text-xl font-serif text-ink">Let's stay in touch?</div>
 
 <form
   action="https://buttondown.com/api/emails/embed-subscribe/aldesantis"
   method="post"
   class="embeddable-buttondown-form font-sans"
+  data-newsletter-form
 >
-  <div class="flex mt-2 min-w-[400px]">
+  <label for="bd-email" class="sr-only">
+    Email address
+  </label>
+
+  <div class="flex mt-2 w-full max-w-md">
     <div class="-mr-px grid grow grid-cols-1 focus-within:relative">
       <input
         type="email"
         name="email"
         id="bd-email"
         required
-        class="col-start-1 row-start-1 block w-full rounded-l-md bg-white py-2 px-4 text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-orange-400"
+        autocomplete="email"
+        spellcheck="false"
+        class="col-start-1 row-start-1 block w-full rounded-l-md bg-surface py-2 px-4 text-ink outline-1 -outline-offset-1 outline-rule placeholder:text-ink-subtle focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-link"
         placeholder="your@email.com"
       />
     </div>
     <button
       type="submit"
-      value="Subscribe"
-      class="flex shrink-0 items-center gap-x-1.5 rounded-r-md bg-orange-400 px-4 py-2 font-medium text-white outline-1 -outline-offset-1 outline-gray-300 hover:bg-orange-500 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-orange-400"
+      aria-label="Subscribe"
+      class="flex shrink-0 items-center gap-x-1.5 rounded-r-md bg-link px-4 py-2 font-medium text-white transition-colors duration-150 hover:bg-link-hover focus-visible:relative focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link disabled:cursor-wait disabled:opacity-60"
     >
-      <Icon name="fa6-regular:paper-plane" class="size-4" />
+      <Icon name="fa6-regular:paper-plane" class="size-4" aria-hidden="true" />
     </button>
   </div>
 </form>
+
+<script>
+  // Show a pending state while the browser submits the form.
+  document.querySelectorAll<HTMLFormElement>("form[data-newsletter-form]").forEach((form) => {
+    form.addEventListener("submit", () => {
+      const button = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+      form.setAttribute("aria-busy", "true");
+      // Defer so the submission isn't cancelled by disabling the submitter.
+      setTimeout(() => {
+        if (button) button.disabled = true;
+      });
+    });
+  });
+
+  // Reset when the page is restored from the back/forward cache.
+  window.addEventListener("pageshow", () => {
+    document.querySelectorAll<HTMLFormElement>("form[data-newsletter-form]").forEach((form) => {
+      form.removeAttribute("aria-busy");
+      form.querySelector<HTMLButtonElement>('button[type="submit"]')?.removeAttribute("disabled");
+    });
+  });
+</script>

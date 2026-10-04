@@ -25,9 +25,7 @@ const prevNow = currentIndex < allNows.length - 1 ? allNows[currentIndex + 1] : 
 const nextNow = currentIndex > 0 ? allNows[currentIndex - 1] : null;
 ---
 
-<title slot="head">{now.data.title} | Alessandro Desantis</title>
-
-<Layout>
+<Layout title={now.data.title} type="article">
   <ContentDetail entry={now}>
     <div class="flex justify-between max-w-[65ch]" slot="navigation">
       {prevNow ? (

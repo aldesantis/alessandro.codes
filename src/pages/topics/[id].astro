@@ -23,11 +23,14 @@ const { topic } = Astro.props;
 const filters = await Promise.all([statusFilter(), collectionFilter()]);
 ---
 
-<title slot="head">{topic.data.title} | Alessandro Desantis</title>
-
-<Layout>
+<Layout title={topic.data.title}>
   <ContentDetail entry={topic}>
-    <ArrowLink href="/topics" arrowDirection="left" class="font-sans font-semibold uppercase" slot="navigation">
+    <ArrowLink
+      href="/topics"
+      arrowDirection="left"
+      class="font-sans text-sm font-semibold uppercase tracking-wide"
+      slot="navigation"
+    >
       Topics
     </ArrowLink>
 
@@ -35,7 +38,7 @@ const filters = await Promise.all([statusFilter(), collectionFilter()]);
   </ContentDetail>
 
   <div class="mt-12">
-    <hr class="mb-6 border-gray-200" />
+    <hr class="mb-6 border-rule" />
     <ContentGrid
       searchParams={{ relatedTo: topic.id, collections: ["essays", "books", "notes", "talks", "recipes"] }}
       itemSize="M"

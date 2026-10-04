@@ -56,7 +56,7 @@
     }
   }
 
-  --animate-wave: wave 1.5s infinite;
+  --animate-wave: wave 1.5s 2;
 }
 
 /* Container utility replacement */
@@ -75,6 +75,39 @@
   }
 }
 
+/* Base typography: balanced headings, no orphans in body copy */
+@layer base {
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+/*
+ * Reduced motion: keep fades and colour changes, drop movement.
+ * Viz figures manage their own reduced-motion behaviour (see viz.css).
+ */
+@media (prefers-reduced-motion: reduce) {
+  *:not(.viz, .viz *),
+  *:not(.viz, .viz *)::before,
+  *:not(.viz, .viz *)::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-property:
+      opacity, color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, box-shadow !important;
+  }
+
+  html {
+    scroll-behavior: auto !important;
+  }
+}
+
 /* Content configuration for Tailwind 4 */
 @source "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}";
 
@@ -87,12 +120,13 @@
 /* Separate consecutive references, e.g. ²,³ (marked by the footnotes controller) */
 .prose sup.footnote-ref-sequence::before {
   content: ",";
-  color: var(--color-stone-400);
+  color: var(--color-ink-subtle);
 }
 
 .prose a[data-footnote-ref] {
   font-family: var(--font-sans);
   font-weight: 600;
+  color: var(--color-link);
   padding-inline: 0.1em;
   scroll-margin-top: 30vh;
 }
@@ -105,10 +139,10 @@
 .prose section.footnotes {
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--color-stone-200);
+  border-top: 1px solid var(--color-rule);
   font-size: 0.875rem;
   line-height: 1.6;
-  color: var(--color-stone-600);
+  color: var(--color-ink-muted);
 }
 
 .prose section.footnotes ol {
@@ -121,14 +155,14 @@
   padding: 0.25rem 0.5rem;
   border-radius: 0.375rem;
   scroll-margin-top: 30vh;
-  transition: background-color 0.3s;
+  transition: background-color 150ms var(--ease-out-strong);
 }
 
 .prose section.footnotes li::marker {
   font-family: var(--font-sans);
   font-weight: 600;
   font-variant-numeric: tabular-nums;
-  color: var(--color-stone-400);
+  color: var(--color-ink-subtle);
 }
 
 .prose section.footnotes li:target {
@@ -142,11 +176,15 @@
 .prose a[data-footnote-backref] {
   margin-left: 0.25rem;
   font-family: var(--font-sans);
-  color: var(--color-stone-400);
+  color: var(--color-ink-subtle);
+  transition: color 150ms;
 }
 
-.prose a[data-footnote-backref]:hover {
-  color: var(--color-orange-400);
+@media (hover: hover) {
+  .prose a[data-footnote-ref]:hover,
+  .prose a[data-footnote-backref]:hover {
+    color: var(--color-link-hover);
+  }
 }
 
 /* Hover preview of a footnote, positioned by the footnotes controller */
@@ -155,13 +193,13 @@
   z-index: 40;
   max-width: min(24rem, calc(100vw - 2rem));
   padding: 0.75rem 1rem;
-  border: 1px solid var(--color-stone-200);
+  border: 1px solid var(--color-rule);
   border-radius: 0.5rem;
-  background-color: white;
-  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.1);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-pop);
   font-size: 0.875rem;
   line-height: 1.6;
-  color: var(--color-stone-700);
+  color: var(--color-ink);
 }
 
 .footnote-popover p {
@@ -169,9 +207,12 @@
 }
 
 .footnote-popover a {
-  color: var(--color-orange-400);
+  color: var(--color-link);
+  transition: color 150ms;
 }
 
-.footnote-popover a:hover {
-  color: var(--color-orange-700);
+@media (hover: hover) {
+  .footnote-popover a:hover {
+    color: var(--color-link-hover);
+  }
 }

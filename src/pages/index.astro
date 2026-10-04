@@ -11,26 +11,25 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
 ---
 
 <Layout>
-  <title slot="head">Alessandro Desantis</title>
+  <div class="space-y-6 pt-4 sm:pt-8">
+    <p class="font-serif text-[clamp(2rem,1.4rem+3vw,3.25rem)] leading-tight text-balance">
+      <span class="motion-safe:animate-wave inline-block origin-[70%_70%]">👋</span>, I'm{" "}
+      <span class="font-semibold">Alessandro</span>&mdash;a <Link href="/topics/writing">writer</Link>,
+      <Link href="/topics/software-engineering">engineer</Link>, and
+      <Link href="/topics/strategy">strategist</Link> based in Rome, Italy.
+    </p>
+    <p class="max-w-[60ch] text-ink-muted font-serif text-xl text-pretty">
+      Currently, I am a Partner at
+      <Link href="https://nebulab.com">Nebulab</Link>, an international
+      <Link href="/topics/consulting">consultancy</Link> working with mid-market and enterprise consumer brands to
+      design, launch, and scale their digital
+      <Link href="/topics/commerce">commerce</Link> experiences.
+    </p>
+  </div>
 
-  <div class="space-y-12">
-    <div class="space-y-6">
-      <p class="font-serif text-3xl lg:text-5xl">
-        <span class="animate-wave inline-block">👋</span>, I'm <span class="font-bold">Alessandro</span>&mdash;a{" "}
-        <Link href="/topics/writing">writer</Link>,<Link href="/topics/software-engineering">engineer</Link>, and
-        <Link href="/topics/strategy">strategist</Link> based in Rome, Italy.
-      </p>
-      <p class="text-stone-700 font-serif text-xl">
-        Currently, I am a Partner at
-        <Link href="https://nebulab.com">Nebulab</Link>, an international
-        <Link href="/topics/consulting">consultancy</Link> working with mid-market and enterprise consumer brands to
-        design, launch, and scale their digital
-        <Link href="/topics/commerce">commerce</Link> experiences.
-      </p>
-    </div>
+  <hr class="mt-16 mb-12 border-rule sm:mt-20 sm:mb-16" />
 
-    <hr class="border-gray-200" />
-
+  <div class="space-y-16">
     <Section>
       <div slot="heading">
         <SectionHeading title="Essays" subtitle={sections.essays.description} />

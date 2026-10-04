@@ -8,9 +8,7 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
 import { topicFilter } from "src/lib/filters";
 ---
 
-<Layout>
-  <title slot="head">Talks | Alessandro Desantis</title>
-
+<Layout title="Talks" description={sections.talks.description}>
   <Hero>
     <span slot="heading">Talks</span>
     <span slot="subheading">{sections.talks.description}</span>
