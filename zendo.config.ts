@@ -88,8 +88,10 @@ const config: Configuration<ZendoCollectionEntry> = {
   // Where do we store the content?
   contentDir: path.join(process.cwd(), "src", "content"),
 
-  // Builds the public URL for an entry. Owns this site's routing (e.g. `nows` → `/now`).
-  buildUrl: ({ type, slug }: EntryLink) => `/${type === "nows" ? "now" : type}/${slug}`,
+  // Builds the public URL for an entry. Owns this site's routing (e.g. `nows` →
+  // `/now`, standalone `pages` like about → `/about`).
+  buildUrl: ({ type, slug }: EntryLink) =>
+    type === "pages" ? `/${slug}` : `/${type === "nows" ? "now" : type}/${slug}`,
 
   // Available filters for search
   filters: await Promise.all([
@@ -297,11 +299,11 @@ const config: Configuration<ZendoCollectionEntry> = {
               const { data, content } = matter(originalContent);
 
               const date = new Date(data.createdAt);
-
-              const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
               if (Number.isNaN(date.getTime())) {
                 return { path: originalPath, content: originalContent };
               }
+
+              const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
 
               return { path: originalPath, content: updatedContent };
             },

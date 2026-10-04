@@ -6,9 +6,10 @@ import icon from "astro-icon";
 import { satteriReadingTime, satteriWikiLink, satteriWikiImage } from "zendo/satteri";
 import index from "./src/data/index.json" with { type: "json" };
 
-// Owns this site's routing for resolved wikilinks (e.g. `nows` → `/now`).
+// Owns this site's routing for resolved wikilinks (e.g. `nows` → `/now`,
+// standalone `pages` like about → `/about`). Keep in step with zendo.config.ts.
 /** @param {{ type: string, slug: string }} link */
-const buildUrl = ({ type, slug }) => `/${type === "nows" ? "now" : type}/${slug}`;
+const buildUrl = ({ type, slug }) => (type === "pages" ? `/${slug}` : `/${type === "nows" ? "now" : type}/${slug}`);
 
 import mdx from "@astrojs/mdx";
 

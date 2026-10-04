@@ -26,6 +26,9 @@ const deduplicateLinks = (links: LinkType[]): LinkType[] => {
 };
 
 const getLinkTitle = async (link: LinkType): Promise<string> => {
+  // Standalone pages (about, colophon) aren't a collection; their slug is their title.
+  if (link.type === "pages") return link.slug.charAt(0).toUpperCase() + link.slug.slice(1);
+
   const entries = await getEntries([link.type as ZendoCollectionId]);
   return entries.find((e) => e.id === link.slug)?.data.title || link.slug;
 };
