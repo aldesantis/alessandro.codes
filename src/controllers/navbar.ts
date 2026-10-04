@@ -6,40 +6,62 @@ export default class NavbarController extends Controller {
   declare readonly mobileToggleTarget: HTMLElement;
   declare readonly mobileCloseTarget: HTMLElement;
 
+  private isOpen = false;
+
   override connect() {
-    // Set up event listeners
-    document.addEventListener("click", this.handleClickOutside.bind(this));
-    document.addEventListener("keydown", this.handleKeyDown.bind(this));
+    document.addEventListener("click", this.handleClickOutside);
+    document.addEventListener("keydown", this.handleKeyDown);
   }
 
   override disconnect() {
-    document.removeEventListener("click", this.handleClickOutside.bind(this));
-    document.removeEventListener("keydown", this.handleKeyDown.bind(this));
+    document.removeEventListener("click", this.handleClickOutside);
+    document.removeEventListener("keydown", this.handleKeyDown);
+    if (this.isOpen) {
+      document.body.style.overflow = "";
+    }
   }
 
   openMenu() {
-    this.mobileMenuTarget.classList.remove("translate-x-full");
+    if (this.isOpen) return;
+    this.isOpen = true;
+
+    this.mobileMenuTarget.inert = false;
+    this.mobileMenuTarget.dataset.open = "";
+    this.mobileToggleTarget.setAttribute("aria-expanded", "true");
     document.body.style.overflow = "hidden";
+    this.mobileCloseTarget.focus();
   }
 
   closeMenu() {
-    this.mobileMenuTarget.classList.add("translate-x-full");
+    if (!this.isOpen) return;
+    this.isOpen = false;
+
+    // Move focus back before the drawer becomes inert so it isn't lost to <body>.
+    const focusWasInside = this.mobileMenuTarget.contains(document.activeElement);
+    if (focusWasInside) {
+      this.mobileToggleTarget.focus();
+    }
+
+    delete this.mobileMenuTarget.dataset.open;
+    this.mobileMenuTarget.inert = true;
+    this.mobileToggleTarget.setAttribute("aria-expanded", "false");
     document.body.style.overflow = "";
   }
 
-  private handleClickOutside(event: MouseEvent) {
+  private handleClickOutside = (event: MouseEvent) => {
     if (
+      this.isOpen &&
       event.target instanceof Node &&
       !this.element.contains(event.target) &&
       !this.mobileMenuTarget.contains(event.target)
     ) {
       this.closeMenu();
     }
-  }
+  };
 
-  private handleKeyDown(event: KeyboardEvent) {
-    if (event.key === "Escape") {
+  private handleKeyDown = (event: KeyboardEvent) => {
+    if (event.key === "Escape" && this.isOpen) {
       this.closeMenu();
     }
-  }
+  };
 }

@@ -9,29 +9,37 @@ type SearchResultResponse = SearchResult & {
   status?: StatusType;
 };
 
+type FetchOutcome = { ok: true; items: SearchResultResponse[] } | { ok: false };
+
 interface StatusColors {
   selected: string;
   default: string;
 }
 
-export default class CommandPaletteController extends Controller {
+const OPTION_ID_PREFIX = "command-palette-option-";
+const HIDDEN_STATE_CLASSES = {
+  backdrop: ["opacity-0"],
+  panel: ["opacity-0", "scale-[0.97]"],
+};
+
+export default class CommandPaletteController extends Controller<HTMLDialogElement> {
   static override targets = [
-    "palette",
-    "backdrop",
     "dialog",
+    "backdrop",
+    "panel",
     "search",
     "results",
-    "noResults",
+    "status",
     "groupTemplate",
     "itemTemplate",
   ];
 
-  declare readonly paletteTarget: HTMLElement;
+  declare readonly dialogTarget: HTMLDialogElement;
   declare readonly backdropTarget: HTMLElement;
-  declare readonly dialogTarget: HTMLElement;
+  declare readonly panelTarget: HTMLElement;
   declare readonly searchTarget: HTMLInputElement;
   declare readonly resultsTarget: HTMLElement;
-  declare readonly noResultsTarget: HTMLElement;
+  declare readonly statusTarget: HTMLElement;
   declare readonly groupTemplateTarget: HTMLTemplateElement;
   declare readonly itemTemplateTarget: HTMLTemplateElement;
 
@@ -39,11 +47,19 @@ export default class CommandPaletteController extends Controller {
   selectedIndex: number = -1;
   filteredItems: SearchResultResponse[] = [];
   searchTimeout: number | null = null;
-  isLoading: boolean = false;
+  closeTimeout: number | null = null;
+  requestId: number = 0;
+  returnFocusTo: HTMLElement | null = null;
 
   // Constants
-  readonly ANIMATION_DURATION: number = 300; // ms
+  readonly ANIMATION_DURATION: number = 150; // ms
   readonly DEBOUNCE_DELAY: number = 300; // ms
+
+  readonly dateFormatter = new Intl.DateTimeFormat(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
 
   readonly STATUS_ICONS: Record<StatusType, string> = {
     seedling: "🌱",
@@ -66,80 +82,59 @@ export default class CommandPaletteController extends Controller {
     },
   };
 
-  override connect(): void {
-    // Set up event listeners
-    document.addEventListener("click", this.handleDocumentClick.bind(this));
-    this.searchTarget.addEventListener("input", this.handleSearchInput.bind(this));
-    this.searchTarget.addEventListener("keydown", this.handleSearchKeydown.bind(this));
-    document.addEventListener("keydown", this.handleGlobalKeydown.bind(this));
-
-    // Add event listeners to command palette toggle elements
-    document.querySelectorAll<HTMLElement>("[data-js-command-palette-toggle]").forEach((element) => {
-      element.addEventListener("click", (e: MouseEvent) => {
-        e.preventDefault();
-        e.stopPropagation();
-        this.open();
-      });
-    });
-  }
-
   override disconnect(): void {
-    document.removeEventListener("click", this.handleDocumentClick.bind(this));
-    this.searchTarget.removeEventListener("input", this.handleSearchInput.bind(this));
-    this.searchTarget.removeEventListener("keydown", this.handleSearchKeydown.bind(this));
-    document.removeEventListener("keydown", this.handleGlobalKeydown.bind(this));
+    this.clearTimers();
+    if (this.dialogTarget.open) {
+      this.dialogTarget.close();
+    }
+    document.body.style.overflow = "";
   }
 
   // UI Control Methods
-  open(): void {
-    // Prevent scrolling of the page when command palette is open
-    document.body.style.overflow = "hidden";
+  open(trigger?: HTMLElement): void {
+    if (this.closeTimeout !== null) {
+      // Re-opened while the exit animation was running: just animate back in.
+      window.clearTimeout(this.closeTimeout);
+      this.closeTimeout = null;
+    }
 
-    // Make the command palette visible but keep elements in initial state
-    this.paletteTarget.classList.remove("hidden");
+    if (!this.dialogTarget.open) {
+      const active = document.activeElement;
+      this.returnFocusTo = trigger ?? (active instanceof HTMLElement && active !== document.body ? active : null);
 
-    // Ensure backdrop starts with opacity-0 if not already present
-    this.backdropTarget.classList.add("opacity-0");
+      document.body.style.overflow = "hidden";
+      this.dialogTarget.showModal();
+    }
 
-    // Force a reflow to ensure transitions work properly
-    void this.backdropTarget.offsetWidth;
+    this.searchTarget.focus();
 
-    // Start animations
-    this.backdropTarget.classList.remove("opacity-0");
-
-    // Small delay to ensure the transition works properly and create a staggered effect
-    setTimeout(() => {
-      this.dialogTarget.classList.remove("scale-95", "opacity-0");
-      this.searchTarget.focus();
-    }, 50);
+    // Force a style flush so the enter transition starts from the hidden state.
+    void this.panelTarget.offsetWidth;
+    this.backdropTarget.classList.remove(...HIDDEN_STATE_CLASSES.backdrop);
+    this.panelTarget.classList.remove(...HIDDEN_STATE_CLASSES.panel);
   }
 
   close(): void {
-    // Re-enable scrolling
-    document.body.style.overflow = "";
+    if (!this.dialogTarget.open || this.closeTimeout !== null) return;
 
-    // Start animations
-    this.backdropTarget.classList.add("opacity-0");
-    this.dialogTarget.classList.add("scale-95", "opacity-0");
+    this.backdropTarget.classList.add(...HIDDEN_STATE_CLASSES.backdrop);
+    this.panelTarget.classList.add(...HIDDEN_STATE_CLASSES.panel);
 
-    // Wait for animations to complete before hiding
-    setTimeout(() => {
-      this.paletteTarget.classList.add("hidden");
-      this.searchTarget.value = "";
-      this.updateResults("");
-      this.backdropTarget.classList.remove("opacity-0");
-    }, this.ANIMATION_DURATION + 100);
+    this.closeTimeout = window.setTimeout(() => {
+      this.closeTimeout = null;
+      this.dialogTarget.close();
+    }, this.ANIMATION_DURATION);
+  }
+
+  isOpen(): boolean {
+    return this.dialogTarget.open && this.closeTimeout === null;
   }
 
   // Formatting Methods
   formatDate(date: string | undefined): string {
     if (!date) return "";
 
-    return new Date(date).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    });
+    return this.dateFormatter.format(new Date(date));
   }
 
   getStatusBadge(status: StatusType | undefined, isSelected: boolean = false): string {
@@ -153,71 +148,77 @@ export default class CommandPaletteController extends Controller {
   }
 
   // Search Methods
-  async fetchSearchResults(query: string): Promise<SearchResultResponse[]> {
-    if (!query) return [];
-
-    this.isLoading = true;
-
+  async fetchSearchResults(query: string): Promise<FetchOutcome> {
     try {
       const result = await actions.search({ name: query });
 
       if (result.error) {
         console.error("Error fetching search results:", result.error);
-        return [];
+        return { ok: false };
       }
 
-      return result.data.items;
+      return { ok: true, items: result.data.items };
     } catch (error) {
       console.error("Error fetching search results:", error);
-      return [];
-    } finally {
-      this.isLoading = false;
+      return { ok: false };
     }
   }
 
+  setStatus(message: string, { visuallyHidden = false }: { visuallyHidden?: boolean } = {}): void {
+    this.statusTarget.textContent = message;
+    this.statusTarget.classList.toggle("sr-only", visuallyHidden);
+  }
+
+  clearResults(): void {
+    this.selectedIndex = -1;
+    this.filteredItems = [];
+    this.resultsTarget.innerHTML = "";
+    this.resultsTarget.classList.add("hidden");
+    this.searchTarget.setAttribute("aria-expanded", "false");
+    this.searchTarget.removeAttribute("aria-activedescendant");
+  }
+
   updateResults(query: string): void {
-    // Reset state for empty query
-    if (query === "") {
-      this.filteredItems = [];
-      this.resultsTarget.classList.add("hidden");
-      this.noResultsTarget.classList.add("hidden");
-      return;
-    }
-
-    // Don't search if query is less than 3 characters
-    if (query.length < 3) {
-      this.resultsTarget.innerHTML =
-        '<div class="px-4 py-2 text-gray-500">Type at least 3 characters to search...</div>';
-      this.resultsTarget.classList.remove("hidden");
-      this.noResultsTarget.classList.add("hidden");
-      return;
-    }
-
-    // Show loading state
-    this.resultsTarget.innerHTML = '<div class="px-4 py-2 text-gray-500">Loading...</div>';
-    this.resultsTarget.classList.remove("hidden");
-    this.noResultsTarget.classList.add("hidden");
-
-    // Debounce the search
     if (this.searchTimeout !== null) {
       window.clearTimeout(this.searchTimeout);
+      this.searchTimeout = null;
     }
 
-    this.searchTimeout = window.setTimeout(async () => {
-      // Fetch results
-      this.filteredItems = await this.fetchSearchResults(query);
+    // Invalidate any in-flight request so stale responses are ignored.
+    const requestId = ++this.requestId;
+    this.clearResults();
 
-      // Handle no results case
-      if (this.filteredItems.length === 0) {
-        this.resultsTarget.classList.add("hidden");
-        this.noResultsTarget.classList.remove("hidden");
+    if (query === "") {
+      this.setStatus("");
+      return;
+    }
+
+    if (query.length < 3) {
+      this.setStatus("Type at least 3 characters to search…");
+      return;
+    }
+
+    this.setStatus("Loading…");
+
+    this.searchTimeout = window.setTimeout(async () => {
+      this.searchTimeout = null;
+      const outcome = await this.fetchSearchResults(query);
+      if (requestId !== this.requestId) return;
+
+      if (!outcome.ok) {
+        this.setStatus("Search failed. Try again.");
         return;
       }
 
-      // Show results
-      this.resultsTarget.classList.remove("hidden");
-      this.noResultsTarget.classList.add("hidden");
+      this.filteredItems = outcome.items;
 
+      if (this.filteredItems.length === 0) {
+        this.setStatus("No results found.");
+        return;
+      }
+
+      const count = this.filteredItems.length;
+      this.setStatus(`${count} ${count === 1 ? "result" : "results"} available.`, { visuallyHidden: true });
       this.renderSearchResults();
     }, this.DEBOUNCE_DELAY);
   }
@@ -232,42 +233,40 @@ export default class CommandPaletteController extends Controller {
       return groups;
     }, new Map<string, SearchResultResponse[]>());
 
-    // Clear previous results
     this.resultsTarget.innerHTML = "";
     let currentIndex = 0;
+    let groupIndex = 0;
 
-    // Generate HTML for each group
     groupedByType.forEach((items, type) => {
-      // Create group header
-      const groupElement = this.groupTemplateTarget.content.cloneNode(true) as DocumentFragment;
-      const groupDiv = groupElement.querySelector("div");
-      if (groupDiv) {
-        groupDiv.textContent = type;
-      }
-      this.resultsTarget.appendChild(groupElement);
+      const groupFragment = this.groupTemplateTarget.content.cloneNode(true) as DocumentFragment;
+      const groupElement = groupFragment.firstElementChild as HTMLElement | null;
+      if (!groupElement) return;
 
-      // Create items for this group
+      const headerId = `command-palette-group-${groupIndex++}`;
+      const header = groupElement.firstElementChild as HTMLElement | null;
+      if (header) {
+        header.id = headerId;
+        header.textContent = type;
+      }
+      groupElement.setAttribute("aria-labelledby", headerId);
+
       for (const item of items) {
         const isSelected = currentIndex === this.selectedIndex;
-        const itemElement = this.itemTemplateTarget.content.cloneNode(true) as DocumentFragment;
-        const itemLink = itemElement.querySelector<HTMLAnchorElement>("a");
+        const itemFragment = this.itemTemplateTarget.content.cloneNode(true) as DocumentFragment;
+        const itemLink = itemFragment.querySelector<HTMLAnchorElement>("a");
         if (!itemLink) continue;
 
-        // Set up the item link
         itemLink.href = item.url;
+        itemLink.id = `${OPTION_ID_PREFIX}${currentIndex}`;
         itemLink.dataset.index = currentIndex.toString();
         itemLink.dataset.id = item.id;
-        if (isSelected) {
-          itemLink.classList.add("bg-orange-600", "text-white");
-        }
+        itemLink.setAttribute("aria-selected", String(isSelected));
 
-        // Set the item name
-        const nameSpan = itemLink.querySelector("span");
+        const nameSpan = itemLink.querySelector<HTMLElement>(".item-name");
         if (nameSpan) {
           nameSpan.textContent = item.name;
         }
 
-        // Set up status badge if present
         const statusBadge = itemLink.querySelector<HTMLElement>(".status-badge");
         if (item.status && statusBadge) {
           statusBadge.innerHTML = this.getStatusBadge(item.status, isSelected);
@@ -275,72 +274,52 @@ export default class CommandPaletteController extends Controller {
           statusBadge.remove();
         }
 
-        // Set up date if present
         const dateText = itemLink.querySelector<HTMLElement>(".date-text");
         if (item.date && dateText) {
           dateText.textContent = this.formatDate(item.date);
-          dateText.classList.toggle("text-orange-100", isSelected);
-          dateText.classList.toggle("text-gray-400", !isSelected);
         } else if (dateText) {
           dateText.remove();
         }
 
-        this.resultsTarget.appendChild(itemElement);
+        groupElement.appendChild(itemFragment);
         currentIndex++;
       }
+
+      this.resultsTarget.appendChild(groupFragment);
     });
 
-    this.addEventListenersToResults();
+    this.resultsTarget.classList.remove("hidden");
+    this.searchTarget.setAttribute("aria-expanded", "true");
+    this.highlightSelected();
   }
 
   // Navigation Methods
-  addEventListenersToResults(): void {
-    this.resultsTarget.querySelectorAll<HTMLElement>("[data-index]").forEach((item) => {
-      // Handle click
-      item.addEventListener("click", () => {
-        // The browser will handle navigation via the href attribute
-        this.close();
-      });
-
-      // Handle hover
-      item.addEventListener("mouseenter", (e: MouseEvent) => {
-        const target = e.currentTarget as HTMLElement;
-        this.selectedIndex = parseInt(target.dataset.index || "0", 10);
-        this.highlightSelected();
-      });
-    });
-  }
-
   highlightSelected(): void {
-    this.resultsTarget.querySelectorAll<HTMLElement>("[data-index]").forEach((element) => {
-      const item = element;
+    this.resultsTarget.querySelectorAll<HTMLElement>("[data-index]").forEach((item) => {
       const itemIndex = parseInt(item.dataset.index || "0", 10);
       const isSelected = itemIndex === this.selectedIndex;
       const currentItem = this.filteredItems[itemIndex];
 
-      // Toggle main item highlight
-      if (isSelected) {
-        item.classList.add("bg-orange-600", "text-white");
-      } else {
-        item.classList.remove("bg-orange-600", "text-white");
-      }
+      item.setAttribute("aria-selected", String(isSelected));
 
-      // Update date text color if present
-      const dateSpan = item.querySelector("span:last-child");
-      if (dateSpan) {
-        dateSpan.classList.toggle("text-orange-100", isSelected);
-        dateSpan.classList.toggle("text-gray-400", !isSelected);
-      }
-
-      // Update status badge if present
-      const statusBadge = item.querySelector<HTMLElement>(".rounded-full");
+      const statusBadge = item.querySelector<HTMLElement>(".status-badge > span");
       if (statusBadge && currentItem?.status) {
         const status = currentItem.status as StatusType;
         const colorClass = isSelected ? this.STATUS_COLORS[status].selected : this.STATUS_COLORS[status].default;
 
         statusBadge.className = `text-xs px-2 py-0.5 rounded-full ${colorClass}`;
       }
+
+      if (isSelected) {
+        item.scrollIntoView({ block: "nearest" });
+      }
     });
+
+    if (this.selectedIndex >= 0 && this.selectedIndex < this.filteredItems.length) {
+      this.searchTarget.setAttribute("aria-activedescendant", `${OPTION_ID_PREFIX}${this.selectedIndex}`);
+    } else {
+      this.searchTarget.removeAttribute("aria-activedescendant");
+    }
   }
 
   selectItem(item: SearchResultResponse): void {
@@ -350,59 +329,94 @@ export default class CommandPaletteController extends Controller {
 
   // Event Handlers
   handleDocumentClick(e: MouseEvent): void {
-    // Only process if command palette is visible
-    if (this.paletteTarget.classList.contains("hidden")) {
-      return;
-    }
+    const target = e.target;
+    if (!(target instanceof Element)) return;
 
-    const target = e.target as Node;
+    const toggle = target.closest<HTMLElement>("[data-js-command-palette-toggle]");
+    if (!toggle) return;
 
-    // Close if click is outside the dialog panel
-    if (!this.dialogTarget.contains(target) && document.contains(target)) {
+    e.preventDefault();
+    this.open(toggle);
+  }
+
+  handleDialogClick(e: MouseEvent): void {
+    // Clicks outside the panel land on the dialog itself or the backdrop.
+    if (e.target instanceof Node && !this.panelTarget.contains(e.target)) {
       this.close();
     }
   }
 
-  handleSearchInput(e: Event): void {
-    const target = e.target as HTMLInputElement;
-    const query = target.value;
-    this.selectedIndex = -1;
-    this.updateResults(query);
+  handleCancel(e: Event): void {
+    // Run the exit animation instead of closing instantly on Escape.
+    e.preventDefault();
+    this.close();
+  }
+
+  handleClose(): void {
+    this.clearTimers();
+    this.closeTimeout = null;
+    this.requestId++;
+
+    document.body.style.overflow = "";
+    this.backdropTarget.classList.add(...HIDDEN_STATE_CLASSES.backdrop);
+    this.panelTarget.classList.add(...HIDDEN_STATE_CLASSES.panel);
+
+    this.searchTarget.value = "";
+    this.clearResults();
+    this.setStatus("");
+
+    if (this.returnFocusTo?.isConnected) {
+      this.returnFocusTo.focus();
+    }
+    this.returnFocusTo = null;
+  }
+
+  handleResultClick(e: MouseEvent): void {
+    if (e.target instanceof Element && e.target.closest("[data-index]")) {
+      // The browser handles navigation via the href attribute.
+      this.close();
+    }
+  }
+
+  handleResultHover(e: MouseEvent): void {
+    const option = e.target instanceof Element ? e.target.closest<HTMLElement>("[data-index]") : null;
+    if (!option) return;
+
+    const index = parseInt(option.dataset.index || "0", 10);
+    if (index === this.selectedIndex) return;
+
+    this.selectedIndex = index;
+    this.highlightSelected();
+  }
+
+  handleSearchInput(): void {
+    this.updateResults(this.searchTarget.value);
   }
 
   handleSearchKeydown(e: KeyboardEvent): void {
     switch (e.key) {
-      case "Escape":
-        this.close();
-        break;
-
       case "ArrowDown":
         e.preventDefault();
+        if (this.filteredItems.length === 0) return;
         this.selectedIndex = Math.min(this.selectedIndex + 1, this.filteredItems.length - 1);
-
-        // Initialize selection if none exists
-        if (this.selectedIndex === -1 && this.filteredItems.length > 0) {
-          this.selectedIndex = 0;
-        }
-
         this.highlightSelected();
         break;
 
       case "ArrowUp":
         e.preventDefault();
+        if (this.filteredItems.length === 0) return;
         this.selectedIndex = Math.max(this.selectedIndex - 1, 0);
         this.highlightSelected();
         break;
 
-      case "Enter":
+      case "Enter": {
         e.preventDefault();
-        if (this.selectedIndex >= 0 && this.selectedIndex < this.filteredItems.length) {
-          const item = this.filteredItems[this.selectedIndex];
-          if (item) {
-            this.selectItem(item);
-          }
+        const item = this.filteredItems[this.selectedIndex];
+        if (item) {
+          this.selectItem(item);
         }
         break;
+      }
     }
   }
 
@@ -410,11 +424,22 @@ export default class CommandPaletteController extends Controller {
     if ((e.metaKey || e.ctrlKey) && e.key === "k") {
       e.preventDefault();
 
-      if (this.paletteTarget.classList.contains("hidden")) {
-        this.open();
-      } else {
+      if (this.isOpen()) {
         this.close();
+      } else {
+        this.open();
       }
+    }
+  }
+
+  private clearTimers(): void {
+    if (this.searchTimeout !== null) {
+      window.clearTimeout(this.searchTimeout);
+      this.searchTimeout = null;
+    }
+    if (this.closeTimeout !== null) {
+      window.clearTimeout(this.closeTimeout);
+      this.closeTimeout = null;
     }
   }
 }

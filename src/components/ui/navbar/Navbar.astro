@@ -12,7 +12,7 @@ const headerNavigation = getHeaderNavigation();
 ---
 
 <div class="relative" data-controller="navbar">
-  <div class="py-4 border-b border-gray-200">
+  <div class="py-4 border-b border-rule">
     <div class="container" data-js-navbar>
       <nav class="flex items-center justify-between font-sans">
         <div class="flex flex-1">
@@ -47,7 +47,8 @@ const headerNavigation = getHeaderNavigation();
           })}
 
           <button
-            class="flex items-center hover:text-orange-700 transition-colors"
+            type="button"
+            class="flex items-center rounded-md hover:text-orange-700 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link"
             aria-label="Search"
             data-js-command-palette-toggle
           >
@@ -56,13 +57,21 @@ const headerNavigation = getHeaderNavigation();
         </div>
 
         <div class="flex items-center gap-x-4 md:hidden">
-          <button class="hover:text-orange-700 transition-colors" aria-label="Search" data-js-command-palette-toggle>
+          <button
+            type="button"
+            class="rounded-md hover:text-orange-700 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link"
+            aria-label="Search"
+            data-js-command-palette-toggle
+          >
             <SearchIcon />
           </button>
 
           <button
-            class="hover:text-orange-700"
-            aria-label="Toggle menu"
+            type="button"
+            class="rounded-md hover:text-orange-700 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
             data-navbar-target="mobileToggle"
             data-action="click->navbar#openMenu"
           >
@@ -74,13 +83,16 @@ const headerNavigation = getHeaderNavigation();
   </div>
 
   <div
-    class="fixed inset-y-0 right-0 w-64 bg-zinc-50 shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50 md:hidden"
+    id="mobile-menu"
+    class="fixed inset-y-0 right-0 z-50 w-64 bg-paper shadow-pop translate-x-full transition-transform duration-200 ease-drawer data-open:translate-x-0 data-open:duration-300 motion-reduce:transition-none md:hidden"
     data-navbar-target="mobileMenu"
+    inert
   >
-    <nav class="flex flex-col font-sans p-6 h-full">
+    <nav class="flex flex-col font-sans p-6 h-full" aria-label="Mobile">
       <div class="flex justify-end">
         <button
-          class="p-2 hover:text-orange-700"
+          type="button"
+          class="rounded-md p-2 hover:text-orange-700 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link"
           aria-label="Close menu"
           data-navbar-target="mobileClose"
           data-action="click->navbar#closeMenu"
