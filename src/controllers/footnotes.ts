@@ -21,6 +21,8 @@ export default class FootnotesController extends Controller {
       ref.addEventListener("mouseleave", this.scheduleHide);
       ref.addEventListener("blur", this.scheduleHide);
     }
+
+    document.addEventListener("keydown", this.dismissOnEscape);
   }
 
   override disconnect() {
@@ -31,6 +33,7 @@ export default class FootnotesController extends Controller {
       ref.removeEventListener("blur", this.scheduleHide);
     }
 
+    document.removeEventListener("keydown", this.dismissOnEscape);
     this.hide();
   }
 
@@ -97,6 +100,10 @@ export default class FootnotesController extends Controller {
       clearTimeout(this.hideTimeout);
       this.hideTimeout = null;
     }
+  };
+
+  private dismissOnEscape = (event: KeyboardEvent) => {
+    if (event.key === "Escape" && this.popover) this.hide();
   };
 
   private hide() {

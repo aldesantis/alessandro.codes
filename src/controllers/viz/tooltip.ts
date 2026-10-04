@@ -1,15 +1,22 @@
 import { Controller } from "@hotwired/stimulus";
 
 // Shows a tooltip for any descendant with `data-tip` (the value) and an
-// optional `data-tip-label` (what the value is). Works on hover and focus.
+// optional `data-tip-label` (what the value is). Works on hover and focus;
+// Escape dismisses it.
+
+// Moving between marks within this window skips the entrance animation.
+const REENTRY_WINDOW = 300;
+
 export default class VizTooltipController extends Controller<HTMLElement> {
   private tooltip: HTMLDivElement | null = null;
+  private hiddenAt = 0;
 
   override connect() {
     this.element.addEventListener("pointerover", this.show);
     this.element.addEventListener("pointerout", this.hide);
     this.element.addEventListener("focusin", this.show);
     this.element.addEventListener("focusout", this.hide);
+    document.addEventListener("keydown", this.dismissOnEscape);
   }
 
   override disconnect() {
@@ -17,6 +24,7 @@ export default class VizTooltipController extends Controller<HTMLElement> {
     this.element.removeEventListener("pointerout", this.hide);
     this.element.removeEventListener("focusin", this.show);
     this.element.removeEventListener("focusout", this.hide);
+    document.removeEventListener("keydown", this.dismissOnEscape);
     this.tooltip?.remove();
   }
 
@@ -32,6 +40,9 @@ export default class VizTooltipController extends Controller<HTMLElement> {
     const label = target.getAttribute("data-tip-label");
     if (label) tooltip.append(document.createTextNode(label));
 
+    if (tooltip.hidden) {
+      tooltip.toggleAttribute("data-entering", performance.now() - this.hiddenAt > REENTRY_WINDOW);
+    }
     tooltip.hidden = false;
     const host = this.element.getBoundingClientRect();
     const mark = target.getBoundingClientRect();
@@ -45,8 +56,18 @@ export default class VizTooltipController extends Controller<HTMLElement> {
     const related = (event as PointerEvent | FocusEvent).relatedTarget as Element | null;
     const target = (event.target as Element).closest("[data-tip]");
     if (target && related && target.contains(related)) return;
-    if (this.tooltip) this.tooltip.hidden = true;
+    this.dismiss();
   };
+
+  private dismissOnEscape = (event: KeyboardEvent) => {
+    if (event.key === "Escape" && this.tooltip && !this.tooltip.hidden) this.dismiss();
+  };
+
+  private dismiss() {
+    if (!this.tooltip || this.tooltip.hidden) return;
+    this.tooltip.hidden = true;
+    this.hiddenAt = performance.now();
+  }
 
   private ensureTooltip() {
     if (!this.tooltip) {

@@ -20,9 +20,7 @@ const { controller, target, action, options, label, layout = "stacked", selected
 
 <div class:list={[layout === "inline" && "flex items-center gap-1.5"]}>
   {label && (
-    <div class:list={layout === "inline" ? "mr-1 text-xs text-stone-500" : "mb-1.5 font-medium text-stone-800"}>
-      {label}
-    </div>
+    <div class:list={layout === "inline" ? "mr-1 text-xs text-ink-subtle" : "mb-1.5 font-medium text-ink"}>{label}</div>
   )}
   <div class="flex flex-wrap gap-1.5">
     {options.map((option, index) => (

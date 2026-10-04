@@ -15,9 +15,17 @@ interface Props {
 
 const { cx, cy, color, hollow = false, r = 4.5, tip, tipLabel } = Astro.props;
 const interactive = tip !== undefined;
+// Screen readers get the tooltip's content, since they can't see the tooltip.
+const ariaLabel = interactive ? [tip, tipLabel].filter(Boolean).join(", ") : undefined;
 ---
 
-<g tabindex={interactive ? "0" : undefined} data-tip={tip} data-tip-label={tipLabel}>
+<g
+  tabindex={interactive ? "0" : undefined}
+  role={interactive ? "img" : undefined}
+  aria-label={ariaLabel}
+  data-tip={tip}
+  data-tip-label={tipLabel}
+>
   {interactive && <circle cx={cx} cy={cy} r={Math.max(12, r + 6)} fill="transparent" />}
   <circle
     cx={cx}

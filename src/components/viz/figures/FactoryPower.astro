@@ -80,24 +80,30 @@ const fmt = (n: number) => `${Math.round(n)}%`;
       ))}
 
       <!-- Hover columns -->
-      {columns.map((d) => (
-        <g
-          class="group"
-          tabindex="0"
-          data-tip={`${d.year}: ${fmt(d.purchasedPct)} from utilities`}
-          data-tip-label={`${fmt(d.onSitePct)} generated on site · ${d.total.toLocaleString("en-US")}k hp of motors`}
-        >
-          <rect x={d.left} y={plot.top} width={d.width} height={plot.height} fill="transparent" />
-          <line
-            x1={sx(d.year)}
-            x2={sx(d.year)}
-            y1={plot.top}
-            y2={plot.bottom}
-            stroke="var(--viz-axis)"
-            class="opacity-0 group-hover:opacity-100 group-focus:opacity-100"
-          />
-        </g>
-      ))}
+      {columns.map((d) => {
+        const tip = `${d.year}: ${fmt(d.purchasedPct)} from utilities`;
+        const tipLabel = `${fmt(d.onSitePct)} generated on site · ${d.total.toLocaleString("en-US")}k hp of motors`;
+        return (
+          <g
+            class="group"
+            tabindex="0"
+            role="img"
+            aria-label={`${tip}, ${tipLabel}`}
+            data-tip={tip}
+            data-tip-label={tipLabel}
+          >
+            <rect x={d.left} y={plot.top} width={d.width} height={plot.height} fill="transparent" />
+            <line
+              x1={sx(d.year)}
+              x2={sx(d.year)}
+              y1={plot.top}
+              y2={plot.bottom}
+              stroke="var(--viz-axis)"
+              class="opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100"
+            />
+          </g>
+        );
+      })}
     </Chart>
 
     <Legend items={series.map((s) => ({ label: s.label, color: s.color, shape: "line" }))} />
