@@ -216,3 +216,76 @@
     color: var(--color-link-hover);
   }
 }
+
+/*
+ * Copy-link button appended to prose headings by the heading-links controller.
+ * Both icons stay in the DOM and crossfade (opacity + scale + blur) so the
+ * swap is interruptible and never pops; reduced motion keeps only the fade.
+ */
+.prose .heading-link {
+  display: inline-grid;
+  vertical-align: middle;
+  padding: 0.25em;
+  margin-block: -0.25em;
+  border-radius: 0.25rem;
+  color: var(--color-ink-subtle);
+  transition:
+    opacity 150ms var(--ease-out-strong),
+    color 150ms var(--ease-out-strong),
+    transform 150ms var(--ease-out-strong);
+}
+.prose .heading-link:active {
+  transform: scale(0.9);
+}
+.prose .heading-link[data-copied] {
+  color: var(--color-link);
+}
+.prose .heading-link:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+.prose .heading-link-icon {
+  grid-area: 1 / 1;
+  display: flex;
+  transition:
+    opacity 200ms var(--ease-out-strong),
+    transform 200ms var(--ease-out-strong),
+    filter 200ms var(--ease-out-strong);
+}
+.prose .heading-link [data-icon="check"],
+.prose .heading-link[data-copied] [data-icon="link"] {
+  opacity: 0;
+  transform: scale(0.5);
+  filter: blur(2px);
+}
+.prose .heading-link[data-copied] [data-icon="check"] {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .prose .heading-link {
+    opacity: 0;
+  }
+  .prose :is(h1, h2, h3, h4):hover .heading-link,
+  .prose .heading-link:focus-visible,
+  .prose .heading-link[data-copied] {
+    opacity: 1;
+  }
+  .prose .heading-link:hover {
+    color: var(--color-link);
+  }
+}
+.prose :is(h1, h2, h3, h4)[id] {
+  scroll-margin-top: 1rem;
+}
+
+/* Phones: shallower list and quote indents leave more room for text */
+@media (width < 40rem) {
+  .prose :is(ul, ol) {
+    padding-inline-start: 1.125em;
+  }
+  .prose blockquote {
+    padding-inline-start: 0.75em;
+  }
+}
