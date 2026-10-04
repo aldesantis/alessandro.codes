@@ -111,18 +111,16 @@ const config: Configuration<ZendoCollectionEntry> = {
       evergreen: 2,
     };
 
-    if (a.data.updatedAt! > b.data.updatedAt!) {
-      return -1;
-    }
+    // Newest first; entries without a (valid) date sort after every dated one.
+    const timeA = a.data.updatedAt?.getTime() ?? Number.NaN;
+    const timeB = b.data.updatedAt?.getTime() ?? Number.NaN;
+    const hasA = !Number.isNaN(timeA);
+    const hasB = !Number.isNaN(timeB);
 
-    if (a.data.updatedAt! < b.data.updatedAt!) {
-      return 1;
-    }
+    if (hasA !== hasB) return hasA ? -1 : 1;
+    if (hasA && hasB && timeA !== timeB) return timeB - timeA;
 
-    const statusPriorityA = statusPriorities[a.data.status];
-    const statusPriorityB = statusPriorities[b.data.status];
-
-    return statusPriorityA > statusPriorityB ? -1 : 1;
+    return statusPriorities[b.data.status] - statusPriorities[a.data.status];
   },
 
   // Where do we fetch the content from and what transformations do we want to apply?
@@ -252,7 +250,10 @@ const config: Configuration<ZendoCollectionEntry> = {
               const lastHighlightedOn = new Date(data.lastHighlightedOn);
               const updatedAt = new Date(data.updatedAt);
 
-              if (lastHighlightedOn > updatedAt) {
+              if (
+                !Number.isNaN(lastHighlightedOn.getTime()) &&
+                (Number.isNaN(updatedAt.getTime()) || lastHighlightedOn > updatedAt)
+              ) {
                 data.updatedAt = lastHighlightedOn.toISOString();
               }
 
@@ -298,6 +299,9 @@ const config: Configuration<ZendoCollectionEntry> = {
               const date = new Date(data.createdAt);
 
               const updatedContent = matter.stringify(content, { ...data, updatedAt: date.toISOString() });
+              if (Number.isNaN(date.getTime())) {
+                return { path: originalPath, content: originalContent };
+              }
 
               return { path: originalPath, content: updatedContent };
             },

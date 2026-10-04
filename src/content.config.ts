@@ -5,8 +5,10 @@ import { file, glob } from "astro/loaders";
 const baseSchema = z.object({
   title: z.string(),
   status: z.enum(["seedling", "budding", "evergreen"]),
-  createdAt: z.coerce.date().optional().default(new Date()),
-  updatedAt: z.coerce.date().optional().default(new Date()),
+  // No default: an entry without a date renders no date and sorts last, rather
+  // than borrowing the build time as if it were real data.
+  createdAt: z.coerce.date().optional(),
+  updatedAt: z.coerce.date().optional(),
 });
 
 const obsidianSchema = baseSchema.extend(
