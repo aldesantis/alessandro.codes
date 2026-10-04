@@ -2,38 +2,55 @@
 import { Icon } from "astro-icon/components";
 import Link from "@components/ui/Link.astro";
 import { getCollection } from "astro:content";
-import { getFooterNavigation, type NavigationLeaf } from "src/lib/navigation";
+import { getFooterNavigationGroups } from "src/lib/navigation";
 import NewsletterForm from "@components/ui/NewsletterForm.astro";
 
 const socials = await getCollection("socials");
-const footerNavigation = getFooterNavigation();
+const footerGroups = getFooterNavigationGroups();
 const year = new Date().getFullYear();
 ---
 
 <footer class="border-t border-rule mt-16 py-8">
-  <div class="flex flex-col md:flex-row container justify-between space-y-8 md:space-y-0">
-    <div>
+  <div class="container grid gap-y-8 md:grid-cols-[1fr_auto] md:gap-x-16 md:gap-y-3">
+    <div class="md:col-start-1 md:row-start-1">
       <NewsletterForm />
 
-      <div class="mt-8 space-x-3 text-2xl flex flex-row">
-        {socials.map((social) => (
-          <Link href={social.data.url} variant="secondary" class="text-ink-subtle" aria-label={social.data.name}>
-            <Icon name={social.data.icon} aria-hidden="true" />
-          </Link>
-        ))}
+      <!-- 44px targets; the negative margin keeps the first icon aligned with the text above. -->
+      <div class="mt-6 -mx-2.5 flex flex-row gap-1 text-2xl">
+        {socials.map((social) => {
+          const opensNewTab = social.data.url.startsWith("http");
+          return (
+            <Link
+              href={social.data.url}
+              variant="secondary"
+              externalIcon={false}
+              class="inline-grid size-11 place-items-center rounded-md text-ink-subtle"
+              aria-label={opensNewTab ? `${social.data.name} (opens in new tab)` : social.data.name}
+            >
+              <Icon name={social.data.icon} aria-hidden="true" />
+            </Link>
+          );
+        })}
       </div>
-
-      <div class="text-xs mt-3 text-ink-subtle font-sans">© {year} Alessandro Desantis</div>
     </div>
 
-    <div class="hidden md:grid grid-cols-2 gap-x-16 gap-y-1">
-      {footerNavigation.map((item: NavigationLeaf) => (
-        <div class="text-sm lg:text-base font-sans">
-          <Link href={item.href} variant="secondary">
-            {item.text}
-          </Link>
+    <nav aria-label="Footer" class="grid grid-cols-2 gap-x-16 font-sans md:col-start-2 md:row-span-2 md:row-start-1">
+      {footerGroups.map((group) => (
+        <div>
+          <h2 class="text-xs font-semibold tracking-wide text-ink-subtle uppercase">{group.label}</h2>
+          <ul class="mt-2">
+            {group.items.map((item) => (
+              <li>
+                <Link href={item.href} variant="secondary" class="block py-2 text-sm md:py-1 lg:text-base">
+                  {item.text}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       ))}
-    </div>
+    </nav>
+
+    <div class="text-xs text-ink-subtle font-sans md:col-start-1 md:row-start-2">© {year} Alessandro Desantis</div>
   </div>
 </footer>

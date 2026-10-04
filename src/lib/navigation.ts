@@ -6,6 +6,8 @@ export type NavigationLeaf = {
   matchPattern: string;
   header: boolean;
   footer: boolean;
+  /** Which footer column the link belongs to (required when `footer` is true). */
+  footerGroup?: string;
 };
 
 export type NavigationItem = NavigationLeaf & {
@@ -38,6 +40,25 @@ export function isItemActive(item: NavigationItem, currentPath: string): boolean
 
 export function getHeaderNavigation(): NavigationItem[] {
   return navigation.filter((item: NavigationItem) => item.header);
+}
+
+export type FooterNavigationGroup = {
+  label: string;
+  items: NavigationLeaf[];
+};
+
+const FOOTER_GROUPS: { id: string; label: string }[] = [
+  { id: "site", label: "Site" },
+  { id: "garden", label: "Garden" },
+];
+
+export function getFooterNavigationGroups(): FooterNavigationGroup[] {
+  const items = getFooterNavigation();
+
+  return FOOTER_GROUPS.map(({ id, label }) => ({
+    label,
+    items: items.filter((item) => item.footerGroup === id),
+  })).filter((group) => group.items.length > 0);
 }
 
 export function getFooterNavigation(): NavigationLeaf[] {
