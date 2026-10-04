@@ -8,11 +8,9 @@ interface Props {
   controller: string;
   x: number;
   y: number;
-  dotLabel?: string;
-  ghost?: boolean;
 }
 
-const { controller, x, y, dotLabel = "You", ghost = false } = Astro.props;
+const { controller, x, y } = Astro.props;
 const target = (name: string) => targetAttr(controller, name);
 const level = frontierLevel(TODAY);
 const midX = toX(0.5);
@@ -80,32 +78,6 @@ const bottom = PLOT.top + PLOT.height;
     </text>
   </g>
 
-  {ghost && (
-    <g>
-      <line
-        x1={toX(x)}
-        y1={toY(y)}
-        x2={toX(x)}
-        y2={toY(y)}
-        stroke="var(--viz-axis)"
-        stroke-width="2"
-        class="viz-animate"
-        {...target("connector")}
-      />
-      <circle
-        cx={toX(x)}
-        cy={toY(y)}
-        r="6"
-        fill="var(--viz-surface)"
-        stroke="var(--viz-human)"
-        stroke-width="2"
-        opacity="0.6"
-        class="viz-animate"
-        {...target("ghost")}
-      />
-    </g>
-  )}
-
   <!-- The reader's position -->
   <g>
     <circle
@@ -127,7 +99,7 @@ const bottom = PLOT.top + PLOT.height;
       class="viz-halo"
       {...target("dotLabel")}
     >
-      {dotLabel}
+      You
     </text>
   </g>
 </Chart>
