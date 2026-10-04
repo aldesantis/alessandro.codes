@@ -1,60 +1,111 @@
 ---
-import { Icon } from "astro-icon/components";
+const BUTTONDOWN_URL = "https://buttondown.com/api/emails/embed-subscribe/aldesantis";
 ---
 
-<div class="text-xl font-serif text-ink">Let's stay in touch?</div>
+<div data-newsletter>
+  <h2 class="text-xl font-serif text-ink" id="newsletter-heading">
+    Get new essays and notes by email
+  </h2>
 
-<form
-  action="https://buttondown.com/api/emails/embed-subscribe/aldesantis"
-  method="post"
-  class="embeddable-buttondown-form font-sans"
-  data-newsletter-form
->
-  <label for="bd-email" class="sr-only">
-    Email address
-  </label>
+  <form
+    action={BUTTONDOWN_URL}
+    method="post"
+    class="embeddable-buttondown-form font-sans"
+    aria-labelledby="newsletter-heading"
+    data-newsletter-form
+  >
+    <label for="bd-email" class="sr-only">
+      Email address
+    </label>
 
-  <div class="flex mt-2 w-full max-w-md">
-    <div class="-mr-px grid grow grid-cols-1 focus-within:relative">
-      <input
-        type="email"
-        name="email"
-        id="bd-email"
-        required
-        autocomplete="email"
-        spellcheck="false"
-        class="col-start-1 row-start-1 block w-full rounded-l-md bg-surface py-2 px-4 text-ink outline-1 -outline-offset-1 outline-rule placeholder:text-ink-subtle focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-link"
-        placeholder="your@email.com"
-      />
+    <div class="flex mt-3 w-full max-w-md">
+      <div class="-mr-px grid grow grid-cols-1 focus-within:relative">
+        <input
+          type="email"
+          name="email"
+          id="bd-email"
+          required
+          autocomplete="email"
+          spellcheck="false"
+          aria-describedby="newsletter-message"
+          class="col-start-1 row-start-1 block w-full rounded-l-md bg-surface py-2 px-4 text-ink outline-1 -outline-offset-1 outline-rule placeholder:text-ink-subtle focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-link"
+          placeholder="you@example.com"
+        />
+      </div>
+      <button
+        type="submit"
+        class="group flex shrink-0 cursor-pointer items-center gap-x-2 rounded-r-md bg-link px-4 py-2 font-medium text-white transition-[background-color,scale] duration-150 ease-out-strong hover:bg-link-hover active:scale-[0.97] focus-visible:relative focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link disabled:cursor-wait disabled:hover:bg-link motion-reduce:active:scale-100"
+      >
+        <svg
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          fill="none"
+          class="hidden size-4 animate-spin group-disabled:block motion-reduce:animate-none"
+        >
+          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-opacity="0.3" stroke-width="3"></circle>
+          <path d="M21 12a9 9 0 0 0-9-9" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
+        </svg>
+        <span data-newsletter-label>Subscribe</span>
+      </button>
     </div>
-    <button
-      type="submit"
-      aria-label="Subscribe"
-      class="flex shrink-0 items-center gap-x-1.5 rounded-r-md bg-link px-4 py-2 font-medium text-white transition-colors duration-150 hover:bg-link-hover focus-visible:relative focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-link disabled:cursor-wait disabled:opacity-60"
-    >
-      <Icon name="fa6-regular:paper-plane" class="size-4" aria-hidden="true" />
-    </button>
-  </div>
-</form>
+  </form>
+
+  <p
+    id="newsletter-message"
+    role="status"
+    tabindex="-1"
+    class="mt-2 outline-none max-w-md font-sans text-sm text-ink-muted empty:hidden"
+  ></p>
+</div>
 
 <script>
-  // Show a pending state while the browser submits the form.
-  document.querySelectorAll<HTMLFormElement>("form[data-newsletter-form]").forEach((form) => {
-    form.addEventListener("submit", () => {
-      const button = form.querySelector<HTMLButtonElement>('button[type="submit"]');
-      form.setAttribute("aria-busy", "true");
-      // Defer so the submission isn't cancelled by disabling the submitter.
-      setTimeout(() => {
-        if (button) button.disabled = true;
-      });
-    });
-  });
+  const MESSAGES = {
+    success: "Thanks! Check your inbox to confirm your subscription.",
+    error: "That didn’t work. Check your email address and try again.",
+  };
 
-  // Reset when the page is restored from the back/forward cache.
-  window.addEventListener("pageshow", () => {
-    document.querySelectorAll<HTMLFormElement>("form[data-newsletter-form]").forEach((form) => {
-      form.removeAttribute("aria-busy");
-      form.querySelector<HTMLButtonElement>('button[type="submit"]')?.removeAttribute("disabled");
+  // Submit in the background so subscribers stay on the site. Without JS the
+  // form still posts to Buttondown directly.
+  document.querySelectorAll<HTMLElement>("[data-newsletter]").forEach((root) => {
+    const form = root.querySelector<HTMLFormElement>("form[data-newsletter-form]");
+    const button = form?.querySelector<HTMLButtonElement>('button[type="submit"]');
+    const label = form?.querySelector<HTMLElement>("[data-newsletter-label]");
+    const message = root.querySelector<HTMLElement>('[role="status"]');
+    if (!form || !button || !label || !message) return;
+
+    const setPending = (pending: boolean) => {
+      button.disabled = pending;
+      form.toggleAttribute("aria-busy", pending);
+      label.textContent = pending ? "Subscribing…" : "Subscribe";
+    };
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      setPending(true);
+      message.textContent = "";
+
+      let ok: boolean;
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: new URLSearchParams(new FormData(form) as unknown as Record<string, string>),
+          // Buttondown redirects to its confirmation page on success.
+          redirect: "manual",
+        });
+        ok = response.ok || response.type === "opaqueredirect";
+      } catch {
+        ok = false;
+      }
+
+      setPending(false);
+      message.textContent = ok ? MESSAGES.success : MESSAGES.error;
+      message.classList.toggle("text-red-700", !ok);
+      if (ok) {
+        form.reset();
+        form.hidden = true;
+        // The focused button just disappeared; keep focus near the confirmation.
+        message.focus();
+      }
     });
   });
 </script>
