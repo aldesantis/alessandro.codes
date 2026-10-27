@@ -2487,16 +2487,6 @@
   },
   {
     "ids": [
-      "Spaghetti alla nerano",
-      "spaghetti-alla-nerano"
-    ],
-    "slug": "spaghetti-alla-nerano",
-    "type": "recipes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Spaghetti cacio e pepe",
       "spaghetti-cacio-e-pepe"
     ],
@@ -12942,6 +12932,16 @@
   },
   {
     "ids": [
+      "American Pastoral",
+      "american-pastoral"
+    ],
+    "slug": "american-pastoral",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Ave Mary",
       "ave-mary"
     ],
@@ -13724,6 +13724,16 @@
       "la-strega-di-portobello"
     ],
     "slug": "la-strega-di-portobello",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "l’Artefice",
+      "lartefice"
+    ],
+    "slug": "lartefice",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14548,6 +14558,26 @@
   },
   {
     "ids": [
+      "The Hard Thing About Hard Things",
+      "the-hard-thing-about-hard-things"
+    ],
+    "slug": "the-hard-thing-about-hard-things",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Left Hand of Darkness",
+      "the-left-hand-of-darkness"
+    ],
+    "slug": "the-left-hand-of-darkness",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The McKinsey Way",
       "the-mckinsey-way"
     ],
@@ -15366,6 +15396,17 @@
   },
   {
     "ids": [
+      "#300 - Universal Cart, Amazon’s Listening, & Shopify Welcomes All AI Agents",
+      "300-universal-cart-amazons-listening-&-shopify-welcomes-all-ai-agents",
+      "300-universal-cart-amazons-listening-and-shopify-welcomes-all-ai-agents"
+    ],
+    "slug": "300-universal-cart-amazons-listening-and-shopify-welcomes-all-ai-agents",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "3_TRENDS_Vol.26: Julia Dixon: Peak Sludge, Neo-Luddites + Gen Alpha Trap",
       "3_trends_vol.26-julia-dixon-peak-sludge-neo-luddites-+-gen-alpha-trap",
       "3trendsvol26-julia-dixon-peak-sludge-neo-luddites-gen-alpha-trap"
@@ -15802,6 +15843,16 @@
   },
   {
     "ids": [
+      "A Lever Made of Agents",
+      "a-lever-made-of-agents"
+    ],
+    "slug": "a-lever-made-of-agents",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "A Life of One’s Own: A Penetrating Century-Old Field Guide to Self-Possession, Mindful Perception, and the Art of Knowing What You Really Want",
       "a-life-of-one’s-own-a-penetrating-century-old-field-guide-to-self-possession-mindful-perception-and-the-art-of-knowing-what-you-really-want",
       "a-life-of-ones-own-a-penetrating-century-old-field-guide-to-self-possession-mindful-perception-and-t"
@@ -16167,6 +16218,17 @@
       "achieving-success-is-boring"
     ],
     "slug": "achieving-success-is-boring",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Act II – THERE IS NO ONE LIKE YOU",
+      "act-ii-–-there-is-no-one-like-you",
+      "act-ii-there-is-no-one-like-you"
+    ],
+    "slug": "act-ii-there-is-no-one-like-you",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16669,6 +16731,17 @@
   },
   {
     "ids": [
+      "Anatta — Competitor Research",
+      "anatta-—-competitor-research",
+      "anatta-competitor-research"
+    ],
+    "slug": "anatta-competitor-research",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Ancient Inspiration and Divine Innovation: A Recap of MUSES",
       "ancient-inspiration-and-divine-innovation-a-recap-of-muses"
     ],
@@ -17161,6 +17234,16 @@
       "becoming-perceptive"
     ],
     "slug": "becoming-perceptive",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Being Strategic - Think Strategically in Everyday Work",
+      "being-strategic-think-strategically-in-everyday-work"
+    ],
+    "slug": "being-strategic-think-strategically-in-everyday-work",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18389,6 +18472,16 @@
   },
   {
     "ids": [
+      "Caution: May Become a World",
+      "caution-may-become-a-world"
+    ],
+    "slug": "caution-may-become-a-world",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Changing Times",
       "changing-times"
     ],
@@ -18428,6 +18521,16 @@
       "chatgpts-instant-checkout-is-an-instant-threat"
     ],
     "slug": "chatgpts-instant-checkout-is-an-instant-threat",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Cheaper Code Won’t Kill Software Development",
+      "cheaper-code-wont-kill-software-development"
+    ],
+    "slug": "cheaper-code-wont-kill-software-development",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -20313,6 +20416,17 @@
       "emoji-1f6a8flashemoji-1f6a8-chatgpt-testing-product-ads-marries-agentic-commerce-discovery-and-agent"
     ],
     "slug": "emoji-1f6a8flashemoji-1f6a8-chatgpt-testing-product-ads-marries-agentic-commerce-discovery-and-agent",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "🤡 H1 2026: Meta CVRs Are Tanking as CACs Skyrocket",
+      "🤡-h1-2026-meta-cvrs-are-tanking-as-cacs-skyrocket",
+      "emoji-1f921-h1-2026-meta-cvrs-are-tanking-as-cacs-skyrocket"
+    ],
+    "slug": "emoji-1f921-h1-2026-meta-cvrs-are-tanking-as-cacs-skyrocket",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22212,6 +22326,16 @@
   },
   {
     "ids": [
+      "How Is Music Possible",
+      "how-is-music-possible"
+    ],
+    "slug": "how-is-music-possible",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How Language Models Work",
       "how-language-models-work"
     ],
@@ -22432,6 +22556,16 @@
   },
   {
     "ids": [
+      "How to Be More Ambitious: A Tutorial for Humans With Models",
+      "how-to-be-more-ambitious-a-tutorial-for-humans-with-models"
+    ],
+    "slug": "how-to-be-more-ambitious-a-tutorial-for-humans-with-models",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How to Be Successful",
       "how-to-be-successful"
     ],
@@ -22547,10 +22681,30 @@
   },
   {
     "ids": [
+      "How to Build Wealth as a Career Person",
+      "how-to-build-wealth-as-a-career-person"
+    ],
+    "slug": "how-to-build-wealth-as-a-career-person",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "How to Create or Refine a Content Marketing Strategy",
       "how-to-create-or-refine-a-content-marketing-strategy"
     ],
     "slug": "how-to-create-or-refine-a-content-marketing-strategy",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Create Winning Ads",
+      "how-to-create-winning-ads"
+    ],
+    "slug": "how-to-create-winning-ads",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22924,6 +23078,16 @@
       "how-to-speak-by-patrick-winston"
     ],
     "slug": "how-to-speak-by-patrick-winston",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "How to Stop Being a Fast Fashion Brand",
+      "how-to-stop-being-a-fast-fashion-brand"
+    ],
+    "slug": "how-to-stop-being-a-fast-fashion-brand",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -24991,6 +25155,17 @@
   },
   {
     "ids": [
+      "Meta’s New AI Agent Can Shop for You",
+      "meta’s-new-ai-agent-can-shop-for-you",
+      "metas-new-ai-agent-can-shop-for-you"
+    ],
+    "slug": "metas-new-ai-agent-can-shop-for-you",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Metric-Less Success",
       "metric-less-success"
     ],
@@ -25484,6 +25659,17 @@
       "nobody-knows-you-exist-now-what"
     ],
     "slug": "nobody-knows-you-exist-now-what",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Nobody Should Type Code by Hand Anymore. Here’s What’s Left.",
+      "nobody-should-type-code-by-hand-anymore.-heres-whats-left.",
+      "nobody-should-type-code-by-hand-anymore-heres-whats-left"
+    ],
+    "slug": "nobody-should-type-code-by-hand-anymore-heres-whats-left",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -26009,6 +26195,16 @@
       "placeholders-of-life"
     ],
     "slug": "placeholders-of-life",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Platter",
+      "platter"
+    ],
+    "slug": "platter",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -26997,6 +27193,16 @@
   },
   {
     "ids": [
+      "Shoshin",
+      "shoshin"
+    ],
+    "slug": "shoshin",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Should DTC Brands Open Their Own Factories?",
       "should-dtc-brands-open-their-own-factories"
     ],
@@ -27392,6 +27598,27 @@
       "stop-marketing-to-the-person-who-signs-the-contract"
     ],
     "slug": "stop-marketing-to-the-person-who-signs-the-contract",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Stop Sacrificing Quality at the Altar of the Algorithm",
+      "stop-sacrificing-quality-at-the-altar-of-the-algorithm"
+    ],
+    "slug": "stop-sacrificing-quality-at-the-altar-of-the-algorithm",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Stop Sharpening Your Axe.",
+      "stop-sharpening-your-axe.",
+      "stop-sharpening-your-axe"
+    ],
+    "slug": "stop-sharpening-your-axe",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -27858,6 +28085,16 @@
       "the-anti-social-century"
     ],
     "slug": "the-anti-social-century",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Antithesis Principle",
+      "the-antithesis-principle"
+    ],
+    "slug": "the-antithesis-principle",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -30500,6 +30737,16 @@
   },
   {
     "ids": [
+      "TMAI #530: Organic Answers Optimization: Analytics",
+      "tmai-530-organic-answers-optimization-analytics"
+    ],
+    "slug": "tmai-530-organic-answers-optimization-analytics",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "To Build a Top Performing Team, Ask for 85% Effort",
       "to-build-a-top-performing-team-ask-for-85%-effort",
       "to-build-a-top-performing-team-ask-for-85percent-effort"
@@ -30961,6 +31208,16 @@
       "what-happened-to-foxtrot"
     ],
     "slug": "what-happened-to-foxtrot",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "What Happens to Engineers When AI Writes All the Code?",
+      "what-happens-to-engineers-when-ai-writes-all-the-code"
+    ],
+    "slug": "what-happens-to-engineers-when-ai-writes-all-the-code",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
