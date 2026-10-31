@@ -2218,6 +2218,16 @@
   },
   {
     "ids": [
+      "Pear and chocolate cake",
+      "pear-and-chocolate-cake"
+    ],
+    "slug": "pear-and-chocolate-cake",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Penne al baffo",
       "penne-al-baffo"
     ],
@@ -2417,6 +2427,16 @@
   },
   {
     "ids": [
+      "Red lentil dahl",
+      "red-lentil-dahl"
+    ],
+    "slug": "red-lentil-dahl",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Rice with teriyaki pork loin",
       "rice-with-teriyaki-pork-loin"
     ],
@@ -2580,6 +2600,16 @@
       "stuffed-calamari"
     ],
     "slug": "stuffed-calamari",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tandoori chicken",
+      "tandoori-chicken"
+    ],
+    "slug": "tandoori-chicken",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -10674,6 +10704,16 @@
   },
   {
     "ids": [
+      "Cumin seeds",
+      "cumin-seeds"
+    ],
+    "slug": "cumin-seeds",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Dark chocolate",
       "dark-chocolate"
     ],
@@ -11998,6 +12038,16 @@
   },
   {
     "ids": [
+      "Red lentils",
+      "red-lentils"
+    ],
+    "slug": "red-lentils",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Red miso paste",
       "red-miso-paste"
     ],
@@ -12417,6 +12467,16 @@
       "taleggio"
     ],
     "slug": "taleggio",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tandoori paste",
+      "tandoori-paste"
+    ],
+    "slug": "tandoori-paste",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
