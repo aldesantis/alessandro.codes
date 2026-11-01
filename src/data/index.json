@@ -11006,16 +11006,6 @@
   },
   {
     "ids": [
-      "Garlic or ginger paste",
-      "garlic-ginger-paste"
-    ],
-    "slug": "garlic-ginger-paste",
-    "type": "ingredients",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Garlic powder",
       "garlic-powder"
     ],
@@ -11050,6 +11040,16 @@
       "gilthead-bream-fillet"
     ],
     "slug": "gilthead-bream-fillet",
+    "type": "ingredients",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ginger-garlic paste",
+      "ginger-garlic-paste"
+    ],
+    "slug": "ginger-garlic-paste",
     "type": "ingredients",
     "outboundLinks": [],
     "inboundLinks": []
