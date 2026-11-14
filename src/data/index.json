@@ -1697,6 +1697,16 @@
   },
   {
     "ids": [
+      "Cauliflower fritters",
+      "cauliflower-fritters"
+    ],
+    "slug": "cauliflower-fritters",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Cauliflower steak",
       "cauliflower-steak"
     ],
@@ -2183,6 +2193,16 @@
   },
   {
     "ids": [
+      "Pasta with seitan ragù",
+      "pasta-with-seitan-ragu"
+    ],
+    "slug": "pasta-with-seitan-ragu",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Patatas bravas",
       "patatas-bravas"
     ],
@@ -2441,6 +2461,16 @@
       "ricotta-and-saffron-pasta"
     ],
     "slug": "ricotta-and-saffron-pasta",
+    "type": "recipes",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Salmon and avocado sandwich",
+      "salmon-and-avocado-sandwich"
+    ],
+    "slug": "salmon-and-avocado-sandwich",
     "type": "recipes",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18285,6 +18315,16 @@
   },
   {
     "ids": [
+      "Building a Second-Wave AI Business",
+      "building-a-second-wave-ai-business"
+    ],
+    "slug": "building-a-second-wave-ai-business",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Building AI Tools for Better Meaning-Making",
       "building-ai-tools-for-better-meaning-making"
     ],
@@ -32024,6 +32064,16 @@
       "why-content-is-king"
     ],
     "slug": "why-content-is-king",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Why “Conversion Lag” Can Make or Break Your BFCM",
+      "why-conversion-lag-can-make-or-break-your-bfcm"
+    ],
+    "slug": "why-conversion-lag-can-make-or-break-your-bfcm",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
