@@ -30,10 +30,10 @@ Marketing is like placing bets where you balance risk and reward over time. Spen
   Even at an 80% failure rate, if I run 10 tests over 12 months which will each make or lose me $10k …
   - _8 failures x ($10k) = ($80k)_
   - _2 winners x $10k/month = +$240k_
-  That’s $160k net gain.
+    That’s $160k net gain.
 - _Why do we run tests to 95% confidence?_
   More importantly, what would happen if I went from 95% confidence to 80% confidence?
-  Assuming we want to detect +0.04 pps shift (+2%) in a 2% CVR at 100k sessions per day, I’d almost double the total tests implemented (~1.8x):
+  Assuming we want to detect +0.04 pps shift (+2%) in a 2% CVR at 100k sessions per day, I’d almost double the total tests implemented (\~1.8x):
   - Each positive test = +1
   - Each negative test = -1
-  With 45% winners, 80% confidence will net you +31% more impact. However, with 22% winners, 80% confidence will net you -76% less impact. This accounts for the 20% of misreads.
+    With 45% winners, 80% confidence will net you +31% more impact. However, with 22% winners, 80% confidence will net you -76% less impact. This accounts for the 20% of misreads.
