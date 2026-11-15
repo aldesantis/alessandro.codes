@@ -6,6 +6,7 @@ import { getRecipeDiets, mostRestrictiveDiets, type Diet } from "src/lib/recipes
 import types from "./types.json";
 import cuisines from "./cuisines.json";
 import diets from "./diets.json";
+import statuses from "./statuses.json";
 
 export interface Props {
   content: CollectionEntry<"recipes">;
@@ -29,6 +30,7 @@ type Display = { emoji: string; label: string };
 
 const typeDisplay: Display | undefined = content.data.type ? TYPE_MAP[content.data.type] : undefined;
 const cuisineDisplay: Display | undefined = content.data.cuisine ? CUISINE_MAP[content.data.cuisine] : undefined;
+const statusDisplay: Display = statuses[content.data.status];
 const dietDisplays: Display[] = recipeDiets.map((diet: RecipeDiet) => DIET_MAP[diet]);
 ---
 
@@ -52,6 +54,12 @@ const dietDisplays: Display[] = recipeDiets.map((diet: RecipeDiet) => DIET_MAP[d
   )}
 
   {compact && content.data.serves && <span>Serves {content.data.serves}</span>}
+
+  {!compact && (
+    <span>
+      <span aria-hidden="true">{statusDisplay.emoji}</span> {statusDisplay.label}
+    </span>
+  )}
 
   {!compact &&
     dietDisplays.map((diet) => (

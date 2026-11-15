@@ -18,7 +18,9 @@ import type { Transformer } from "zendo/transformers";
 import {
   collectionFilter,
   nameFilter,
-  statusFilter,
+  growthStatusFilter,
+  readingStatusFilter,
+  recipeStatusFilter,
   topicFilter,
   cuisineFilter,
   dietFilter,
@@ -97,7 +99,9 @@ const config: Configuration<ZendoCollectionEntry> = {
   filters: await Promise.all([
     collectionFilter(),
     nameFilter(),
-    statusFilter(),
+    growthStatusFilter(),
+    readingStatusFilter(),
+    recipeStatusFilter(),
     topicFilter(),
     cuisineFilter(),
     dietFilter(),
@@ -107,11 +111,16 @@ const config: Configuration<ZendoCollectionEntry> = {
 
   // Sorting function for entries
   sortEntriesFn: (a: ZendoCollectionEntry, b: ZendoCollectionEntry): number => {
-    const statusPriorities = {
+    const statusPriorities: Record<string, number> = {
       seedling: 0,
       budding: 1,
       evergreen: 2,
+      untested: 0,
+      tweaking: 1,
+      staple: 2,
     };
+    const priority = (entry: ZendoCollectionEntry): number =>
+      "status" in entry.data ? (statusPriorities[entry.data.status] ?? 0) : 0;
 
     // Newest first; entries without a (valid) date sort after every dated one.
     const timeA = a.data.updatedAt?.getTime() ?? Number.NaN;
@@ -122,7 +131,7 @@ const config: Configuration<ZendoCollectionEntry> = {
     if (hasA !== hasB) return hasA ? -1 : 1;
     if (hasA && hasB && timeA !== timeB) return timeB - timeA;
 
-    return statusPriorities[b.data.status] - statusPriorities[a.data.status];
+    return priority(b) - priority(a);
   },
 
   // Where do we fetch the content from and what transformations do we want to apply?
@@ -170,7 +179,7 @@ const config: Configuration<ZendoCollectionEntry> = {
               id: entry.id,
               name: entry.data.title,
               type: "notes" as const,
-              status: entry.data.status,
+              status: "status" in entry.data ? entry.data.status : undefined,
             }),
           },
         },
@@ -233,7 +242,7 @@ const config: Configuration<ZendoCollectionEntry> = {
         },
         {
           id: "books" as const,
-          basePath: "readwise/books",
+          basePath: "books",
           pattern: "*.{md,mdx}",
           destinationPath: "books",
           transformers: [

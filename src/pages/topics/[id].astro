@@ -7,7 +7,7 @@ import Layout from "@layouts/Layout.astro";
 import ArrowLink from "@components/ui/ArrowLink.astro";
 import TopicMeta from "@components/content/topics/TopicMeta.astro";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
-import { statusFilter, collectionFilter } from "src/lib/filters";
+import { collectionFilter } from "src/lib/filters";
 import ContentDetail from "@components/content/ContentDetail.astro";
 
 export async function getStaticPaths() {
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 const { topic } = Astro.props;
 const description = await getEntryDescription(topic);
 
-const filters = await Promise.all([statusFilter(), collectionFilter()]);
+const filters = [await collectionFilter()];
 ---
 
 <Layout title={topic.data.title} description={description}>

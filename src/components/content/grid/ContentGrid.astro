@@ -23,7 +23,9 @@ const MIN_ITEMS_FOR_FILTERS = 8;
 
 /** One-line explanations shown at the bottom of a filter's menu. */
 const FILTER_LEGENDS: Record<string, string> = {
-  status: "How far along an idea is, from 🌱 rough to 🌿 developing to 🌳 mature.",
+  growthStatus: "How far along an idea is, from 🌱 rough to 🌿 developing to 🌳 mature.",
+  recipeStatus: "🧪 not cooked yet, 🔧 still adjusting, ⭐ dialed in.",
+  readingStatus: "Distilled books are the ones whose ideas I’ve turned into notes.",
 };
 
 const { searchParams, itemSize, filters = [], headingLevel = 2 } = Astro.props;

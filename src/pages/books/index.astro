@@ -4,7 +4,7 @@ export const prerender = true;
 import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
-import { topicFilter } from "src/lib/filters";
+import { readingStatusFilter, topicFilter } from "src/lib/filters";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
 ---
 
@@ -18,6 +18,6 @@ import ContentGrid from "@components/content/grid/ContentGrid.astro";
     headingLevel={2}
     searchParams={{ collections: ["books"] }}
     itemSize="S"
-    filters={[await topicFilter()]}
+    filters={await Promise.all([readingStatusFilter(), topicFilter()])}
   />
 </Layout>

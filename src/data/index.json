@@ -12997,6 +12997,36 @@
   },
   {
     "ids": [
+      "Accabadora",
+      "accabadora"
+    ],
+    "slug": "accabadora",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Accelerate",
+      "accelerate"
+    ],
+    "slug": "accelerate",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Addio, e grazie per tutto il pesce",
+      "addio-e-grazie-per-tutto-il-pesce"
+    ],
+    "slug": "addio-e-grazie-per-tutto-il-pesce",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Agentic Design Patterns",
       "agentic-design-patterns"
     ],
@@ -13032,10 +13062,50 @@
   },
   {
     "ids": [
+      "All Systems Red",
+      "all-systems-red"
+    ],
+    "slug": "all-systems-red",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Altered Carbon",
+      "altered-carbon"
+    ],
+    "slug": "altered-carbon",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "American Pastoral",
       "american-pastoral"
     ],
     "slug": "american-pastoral",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Anna Karenina",
+      "anna-karenina"
+    ],
+    "slug": "anna-karenina",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Artificial Condition",
+      "artificial-condition"
+    ],
+    "slug": "artificial-condition",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13062,6 +13132,36 @@
   },
   {
     "ids": [
+      "Better Small Talk",
+      "better-small-talk"
+    ],
+    "slug": "better-small-talk",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Bill Hicks",
+      "bill-hicks"
+    ],
+    "slug": "bill-hicks",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Brucia l'origine",
+      "brucia-lorigine"
+    ],
+    "slug": "brucia-lorigine",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Building a Second Brain",
       "building-a-second-brain"
     ],
@@ -13079,6 +13179,17 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Chirù",
+      "chirù",
+      "chiru"
+    ],
+    "slug": "chiru",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -13126,6 +13237,26 @@
       "co-intelligence"
     ],
     "slug": "co-intelligence",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Commedia",
+      "commedia"
+    ],
+    "slug": "commedia",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Conscious Leadership",
+      "conscious-leadership"
+    ],
+    "slug": "conscious-leadership",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13187,11 +13318,72 @@
   },
   {
     "ids": [
+      "Deep Work",
+      "deep-work"
+    ],
+    "slug": "deep-work",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Divergent",
+      "divergent"
+    ],
+    "slug": "divergent",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Do Androids Dream of Electric Sheep?",
+      "do-androids-dream-of-electric-sheep"
+    ],
+    "slug": "do-androids-dream-of-electric-sheep",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Drive",
+      "drive"
+    ],
+    "slug": "drive",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Dune Messiah",
+      "dune-messiah"
+    ],
+    "slug": "dune-messiah",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "E-Commerce C.O.R.E.",
       "e-commerce-c.o.r.e.",
       "e-commerce-core"
     ],
     "slug": "e-commerce-core",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "E un'altra cosa...",
+      "e-unaltra-cosa...",
+      "e-unaltra-cosa"
+    ],
+    "slug": "e-unaltra-cosa",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13212,6 +13404,16 @@
       "ego-is-the-enemy"
     ],
     "slug": "ego-is-the-enemy",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Embrace the Suck",
+      "embrace-the-suck"
+    ],
+    "slug": "embrace-the-suck",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13254,6 +13456,16 @@
   },
   {
     "ids": [
+      "Ending Aging",
+      "ending-aging"
+    ],
+    "slug": "ending-aging",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Escaping the Build Trap",
       "escaping-the-build-trap"
     ],
@@ -13288,10 +13500,50 @@
   },
   {
     "ids": [
+      "Everything Is F*cked",
+      "everything-is-fcked"
+    ],
+    "slug": "everything-is-fcked",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Exhalation",
       "exhalation"
     ],
     "slug": "exhalation",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Exit Strategy",
+      "exit-strategy"
+    ],
+    "slug": "exit-strategy",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Extreme Ownership",
+      "extreme-ownership"
+    ],
+    "slug": "extreme-ownership",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Fame d'aria",
+      "fame-daria"
+    ],
+    "slug": "fame-daria",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13320,6 +13572,16 @@
         "type": "nows"
       }
     ]
+  },
+  {
+    "ids": [
+      "Firm",
+      "firm"
+    ],
+    "slug": "firm",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -13370,6 +13632,26 @@
   },
   {
     "ids": [
+      "Foto mosse di famiglie immobili",
+      "foto-mosse-di-famiglie-immobili"
+    ],
+    "slug": "foto-mosse-di-famiglie-immobili",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Foundation and Empire",
+      "foundation-and-empire"
+    ],
+    "slug": "foundation-and-empire",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "From Impossible to Inevitable",
       "from-impossible-to-inevitable"
     ],
@@ -13406,6 +13688,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Fugitive Telemetry",
+      "fugitive-telemetry"
+    ],
+    "slug": "fugitive-telemetry",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -13501,6 +13793,26 @@
   },
   {
     "ids": [
+      "Guida galattica per gli autostoppisti",
+      "guida-galattica-per-gli-autostoppisti"
+    ],
+    "slug": "guida-galattica-per-gli-autostoppisti",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Harry Potter and the Cursed Child - Parts One and Two",
+      "harry-potter-and-the-cursed-child-parts-one-and-two"
+    ],
+    "slug": "harry-potter-and-the-cursed-child-parts-one-and-two",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "High Output Management",
       "high-output-management"
     ],
@@ -13512,6 +13824,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Hit Refresh",
+      "hit-refresh"
+    ],
+    "slug": "hit-refresh",
+    "type": "books",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -13695,10 +14017,30 @@
   },
   {
     "ids": [
+      "I baffi",
+      "i-baffi"
+    ],
+    "slug": "i-baffi",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Il Bambino Scomparso",
       "il-bambino-scomparso"
     ],
     "slug": "il-bambino-scomparso",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il battesimo del fuoco",
+      "il-battesimo-del-fuoco"
+    ],
+    "slug": "il-battesimo-del-fuoco",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13720,10 +14062,90 @@
   },
   {
     "ids": [
+      "Il curioso caso di Benjamin Button",
+      "il-curioso-caso-di-benjamin-button"
+    ],
+    "slug": "il-curioso-caso-di-benjamin-button",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il grande Gatsby",
+      "il-grande-gatsby"
+    ],
+    "slug": "il-grande-gatsby",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il guardiano degli innocenti",
+      "il-guardiano-degli-innocenti"
+    ],
+    "slug": "il-guardiano-degli-innocenti",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il libro di X",
+      "il-libro-di-x"
+    ],
+    "slug": "il-libro-di-x",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il pendolo di Foucault",
+      "il-pendolo-di-foucault"
+    ],
+    "slug": "il-pendolo-di-foucault",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il problema dei tre corpi - Trilogia",
+      "il-problema-dei-tre-corpi-trilogia"
+    ],
+    "slug": "il-problema-dei-tre-corpi-trilogia",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Il Regno",
       "il-regno"
     ],
     "slug": "il-regno",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il Sangue degli Elfi",
+      "il-sangue-degli-elfi"
+    ],
+    "slug": "il-sangue-degli-elfi",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Il tempo della guerra",
+      "il-tempo-della-guerra"
+    ],
+    "slug": "il-tempo-della-guerra",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13800,6 +14222,27 @@
   },
   {
     "ids": [
+      "It Doesn’t Have to Be Crazy at Work",
+      "it-doesn’t-have-to-be-crazy-at-work",
+      "it-doesnt-have-to-be-crazy-at-work"
+    ],
+    "slug": "it-doesnt-have-to-be-crazy-at-work",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Kafka sulla spiaggia",
+      "kafka-sulla-spiaggia"
+    ],
+    "slug": "kafka-sulla-spiaggia",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Kolchoz",
       "kolchoz"
     ],
@@ -13820,10 +14263,83 @@
   },
   {
     "ids": [
+      "La città dei vivi",
+      "la-città-dei-vivi",
+      "la-citta-dei-vivi"
+    ],
+    "slug": "la-citta-dei-vivi",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "La Metamorfosi",
       "la-metamorfosi"
     ],
     "slug": "la-metamorfosi",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "La ragazza di fuoco. Hunger games",
+      "la-ragazza-di-fuoco.-hunger-games",
+      "la-ragazza-di-fuoco-hunger-games"
+    ],
+    "slug": "la-ragazza-di-fuoco-hunger-games",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "La settimana bianca",
+      "la-settimana-bianca"
+    ],
+    "slug": "la-settimana-bianca",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "La Signora del Lago",
+      "la-signora-del-lago"
+    ],
+    "slug": "la-signora-del-lago",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "La sincronicità",
+      "la-sincronicità",
+      "la-sincronicita"
+    ],
+    "slug": "la-sincronicita",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "La spada del destino",
+      "la-spada-del-destino"
+    ],
+    "slug": "la-spada-del-destino",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "La stagione delle tempeste",
+      "la-stagione-delle-tempeste"
+    ],
+    "slug": "la-stagione-delle-tempeste",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13840,10 +14356,30 @@
   },
   {
     "ids": [
+      "La vita, l'Universo e tutto quanto",
+      "la-vita-luniverso-e-tutto-quanto"
+    ],
+    "slug": "la-vita-luniverso-e-tutto-quanto",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "l’Artefice",
       "lartefice"
     ],
     "slug": "lartefice",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "L'Avversario",
+      "lavversario"
+    ],
+    "slug": "lavversario",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13882,11 +14418,42 @@
   },
   {
     "ids": [
+      "Lezioni americane",
+      "lezioni-americane"
+    ],
+    "slug": "lezioni-americane",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Limonov",
+      "limonov"
+    ],
+    "slug": "limonov",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "L’insostenibile Leggerezza Dell’essere",
       "l’insostenibile-leggerezza-dell’essere",
       "linsostenibile-leggerezza-dellessere"
     ],
     "slug": "linsostenibile-leggerezza-dellessere",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Lo Zen e l’arte della manutenzione della motocicletta",
+      "lo-zen-e-l’arte-della-manutenzione-della-motocicletta",
+      "lo-zen-e-larte-della-manutenzione-della-motocicletta"
+    ],
+    "slug": "lo-zen-e-larte-della-manutenzione-della-motocicletta",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13907,6 +14474,16 @@
       "love-all-the-people"
     ],
     "slug": "love-all-the-people",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "L'uccello che girava le Viti del Mondo",
+      "luccello-che-girava-le-viti-del-mondo"
+    ],
+    "slug": "luccello-che-girava-le-viti-del-mondo",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -13988,6 +14565,16 @@
   },
   {
     "ids": [
+      "Managing Humans",
+      "managing-humans"
+    ],
+    "slug": "managing-humans",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Managing the Professional Service Firm",
       "managing-the-professional-service-firm"
     ],
@@ -14039,6 +14626,37 @@
   },
   {
     "ids": [
+      "Mastery",
+      "mastery"
+    ],
+    "slug": "mastery",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mattatoio n. 5",
+      "mattatoio-n.-5",
+      "mattatoio-n-5"
+    ],
+    "slug": "mattatoio-n-5",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Maze Runner - Il labirinto",
+      "maze-runner-il-labirinto"
+    ],
+    "slug": "maze-runner-il-labirinto",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Measure What Matters",
       "measure-what-matters"
     ],
@@ -14059,6 +14677,16 @@
   },
   {
     "ids": [
+      "Network Effect",
+      "network-effect"
+    ],
+    "slug": "network-effect",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Nobody Wants to Read Your Sh*t",
       "nobody-wants-to-read-your-sht"
     ],
@@ -14073,6 +14701,26 @@
       "noi-bambine-ad-auschwitz"
     ],
     "slug": "noi-bambine-ad-auschwitz",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Notes on a Scandal",
+      "notes-on-a-scandal"
+    ],
+    "slug": "notes-on-a-scandal",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Novecento",
+      "novecento"
+    ],
+    "slug": "novecento",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14113,6 +14761,26 @@
       "parable-of-the-sower"
     ],
     "slug": "parable-of-the-sower",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Parable of the Talents",
+      "parable-of-the-talents"
+    ],
+    "slug": "parable-of-the-talents",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pattern Recognition",
+      "pattern-recognition"
+    ],
+    "slug": "pattern-recognition",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14165,6 +14833,36 @@
   },
   {
     "ids": [
+      "Potere e impero",
+      "potere-e-impero"
+    ],
+    "slug": "potere-e-impero",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Powerful",
+      "powerful"
+    ],
+    "slug": "powerful",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Praticamente innocuo",
+      "praticamente-innocuo"
+    ],
+    "slug": "praticamente-innocuo",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Predictable Prospecting",
       "predictable-prospecting"
     ],
@@ -14195,6 +14893,42 @@
       }
     ],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Propizio è avere ove recarsi",
+      "propizio-è-avere-ove-recarsi",
+      "propizio-e-avere-ove-recarsi"
+    ],
+    "slug": "propizio-e-avere-ove-recarsi",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Quidditch Through the Ages",
+      "quidditch-through-the-ages"
+    ],
+    "slug": "quidditch-through-the-ages",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Radical Candor",
+      "radical-candor"
+    ],
+    "slug": "radical-candor",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "slug": "the-problem-with-being-nice-all-the-time",
+        "type": "articles"
+      }
+    ]
   },
   {
     "ids": [
@@ -14235,6 +14969,57 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "Release It!",
+      "release-it!",
+      "release-it"
+    ],
+    "slug": "release-it",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Remote",
+      "remote"
+    ],
+    "slug": "remote",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "ReWork",
+      "rework"
+    ],
+    "slug": "rework",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ristorante al termine dell'Universo",
+      "ristorante-al-termine-delluniverso"
+    ],
+    "slug": "ristorante-al-termine-delluniverso",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Rogue Protocol",
+      "rogue-protocol"
+    ],
+    "slug": "rogue-protocol",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -14307,6 +15092,17 @@
   },
   {
     "ids": [
+      "Shōgun",
+      "shōgun",
+      "shogun"
+    ],
+    "slug": "shogun",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Slack",
       "slack"
     ],
@@ -14319,6 +15115,16 @@
         "type": "nows"
       }
     ]
+  },
+  {
+    "ids": [
+      "Solaris",
+      "solaris"
+    ],
+    "slug": "solaris",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -14342,10 +15148,30 @@
   },
   {
     "ids": [
+      "Spinoza e popcorn",
+      "spinoza-e-popcorn"
+    ],
+    "slug": "spinoza-e-popcorn",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Status and Culture",
       "status-and-culture"
     ],
     "slug": "status-and-culture",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Stories of Your Life and Others",
+      "stories-of-your-life-and-others"
+    ],
+    "slug": "stories-of-your-life-and-others",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14382,6 +15208,16 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "System Collapse",
+      "system-collapse"
+    ],
+    "slug": "system-collapse",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -14444,6 +15280,16 @@
   },
   {
     "ids": [
+      "The Book Thief",
+      "the-book-thief"
+    ],
+    "slug": "the-book-thief",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Boutique",
       "the-boutique"
     ],
@@ -14459,6 +15305,16 @@
         "type": "topics"
       }
     ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Bricks that Built the Houses",
+      "the-bricks-that-built-the-houses"
+    ],
+    "slug": "the-bricks-that-built-the-houses",
+    "type": "books",
+    "outboundLinks": [],
     "inboundLinks": []
   },
   {
@@ -14668,6 +15524,16 @@
   },
   {
     "ids": [
+      "The Handmaid's Tale",
+      "the-handmaids-tale"
+    ],
+    "slug": "the-handmaids-tale",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Hard Thing About Hard Things",
       "the-hard-thing-about-hard-things"
     ],
@@ -14682,6 +15548,36 @@
       "the-left-hand-of-darkness"
     ],
     "slug": "the-left-hand-of-darkness",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Making of a Manager",
+      "the-making-of-a-manager"
+    ],
+    "slug": "the-making-of-a-manager",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Man in the High Castle",
+      "the-man-in-the-high-castle"
+    ],
+    "slug": "the-man-in-the-high-castle",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Manager's Path",
+      "the-managers-path"
+    ],
+    "slug": "the-managers-path",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14705,6 +15601,26 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "The Minds of Billy Milligan",
+      "the-minds-of-billy-milligan"
+    ],
+    "slug": "the-minds-of-billy-milligan",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Mythical Man-Month",
+      "the-mythical-man-month"
+    ],
+    "slug": "the-mythical-man-month",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -14794,6 +15710,46 @@
   },
   {
     "ids": [
+      "The Subtle Art of Not Giving a F*ck",
+      "the-subtle-art-of-not-giving-a-fck"
+    ],
+    "slug": "the-subtle-art-of-not-giving-a-fck",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Tales of Beedle the Bard",
+      "the-tales-of-beedle-the-bard"
+    ],
+    "slug": "the-tales-of-beedle-the-bard",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Testaments",
+      "the-testaments"
+    ],
+    "slug": "the-testaments",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Three Stigmata of Palmer Eldritch",
+      "the-three-stigmata-of-palmer-eldritch"
+    ],
+    "slug": "the-three-stigmata-of-palmer-eldritch",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Touch",
       "the-touch"
     ],
@@ -14806,6 +15762,16 @@
         "type": "nows"
       }
     ]
+  },
+  {
+    "ids": [
+      "The Tower of the Swallow",
+      "the-tower-of-the-swallow"
+    ],
+    "slug": "the-tower-of-the-swallow",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -14861,10 +15827,30 @@
   },
   {
     "ids": [
+      "The Valis Trilogy",
+      "the-valis-trilogy"
+    ],
+    "slug": "the-valis-trilogy",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Win Without Pitching Manifesto",
       "the-win-without-pitching-manifesto"
     ],
     "slug": "the-win-without-pitching-manifesto",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Thinking, Fast and Slow",
+      "thinking-fast-and-slow"
+    ],
+    "slug": "thinking-fast-and-slow",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14924,6 +15910,16 @@
   },
   {
     "ids": [
+      "Time Out Of Joint",
+      "time-out-of-joint"
+    ],
+    "slug": "time-out-of-joint",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "To Sell Is Human",
       "to-sell-is-human"
     ],
@@ -14964,6 +15960,16 @@
   },
   {
     "ids": [
+      "Tre ciotole",
+      "tre-ciotole"
+    ],
+    "slug": "tre-ciotole",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Trillion Dollar Coach",
       "trillion-dollar-coach"
     ],
@@ -14994,10 +16000,71 @@
   },
   {
     "ids": [
+      "Turn The Ship Around!",
+      "turn-the-ship-around!",
+      "turn-the-ship-around"
+    ],
+    "slug": "turn-the-ship-around",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Tutta La Vita Che Resta",
       "tutta-la-vita-che-resta"
     ],
     "slug": "tutta-la-vita-che-resta",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Tutto chiede salvezza",
+      "tutto-chiede-salvezza"
+    ],
+    "slug": "tutto-chiede-salvezza",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Twelve Years a Slave",
+      "twelve-years-a-slave"
+    ],
+    "slug": "twelve-years-a-slave",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Ubik",
+      "ubik"
+    ],
+    "slug": "ubik",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Un romanzo russo",
+      "un-romanzo-russo"
+    ],
+    "slug": "un-romanzo-russo",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Understanding Michael Porter",
+      "understanding-michael-porter"
+    ],
+    "slug": "understanding-michael-porter",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -15025,10 +16092,40 @@
   },
   {
     "ids": [
+      "Vite che non sono la mia",
+      "vite-che-non-sono-la-mia"
+    ],
+    "slug": "vite-che-non-sono-la-mia",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Winning Long-Term Games",
       "winning-long-term-games"
     ],
     "slug": "winning-long-term-games",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Wohpe",
+      "wohpe"
+    ],
+    "slug": "wohpe",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Yoga",
+      "yoga"
+    ],
+    "slug": "yoga",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16116,6 +17213,17 @@
       "a-smart-bear-in-command"
     ],
     "slug": "a-smart-bear-in-command",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "A Smart Bear » Intense Asymmetry and Self-Flagellation",
+      "a-smart-bear-»-intense-asymmetry-and-self-flagellation",
+      "a-smart-bear-intense-asymmetry-and-self-flagellation"
+    ],
+    "slug": "a-smart-bear-intense-asymmetry-and-self-flagellation",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22340,6 +23448,17 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "How Do Young Men See the World? We Asked Them.",
+      "how-do-young-men-see-the-world-we-asked-them.",
+      "how-do-young-men-see-the-world-we-asked-them"
+    ],
+    "slug": "how-do-young-men-see-the-world-we-asked-them",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
@@ -29795,6 +30914,10 @@
     "slug": "the-problem-with-being-nice-all-the-time",
     "type": "articles",
     "outboundLinks": [
+      {
+        "slug": "radical-candor",
+        "type": "books"
+      },
       {
         "slug": "leadership",
         "type": "topics"

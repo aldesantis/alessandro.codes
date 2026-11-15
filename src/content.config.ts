@@ -2,9 +2,12 @@ import { defineCollection, reference } from "astro:content";
 import { z } from "astro/zod";
 import { file, glob } from "astro/loaders";
 
+const growthStatus = z.enum(["seedling", "budding", "evergreen"]);
+const readingStatus = z.enum(["reading", "read", "abandoned", "distilled"]);
+const recipeStatus = z.enum(["untested", "tweaking", "staple"]);
+
 const baseSchema = z.object({
   title: z.string(),
-  status: z.enum(["seedling", "budding", "evergreen"]),
   // No default: an entry without a date renders no date and sorts last, rather
   // than borrowing the build time as if it were real data.
   createdAt: z.coerce.date().optional(),
@@ -26,6 +29,8 @@ const obsidianSchema = baseSchema.extend(
       .default(false),
   }).shape
 );
+
+const growthSchema = obsidianSchema.extend(z.object({ status: growthStatus }).shape);
 
 const readwiseSchema = obsidianSchema.extend(
   z.object({
@@ -58,22 +63,28 @@ export const collections = {
   }),
 
   topics: defineCollection({
-    schema: obsidianSchema,
+    schema: growthSchema,
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/topics" }),
   }),
 
   essays: defineCollection({
-    schema: obsidianSchema,
+    schema: growthSchema,
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/essays" }),
   }),
 
   notes: defineCollection({
-    schema: obsidianSchema,
+    schema: growthSchema,
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/notes" }),
   }),
 
   books: defineCollection({
-    schema: readwiseSchema,
+    schema: obsidianSchema.extend(
+      z.object({
+        author: z.string(),
+        status: readingStatus,
+        lastHighlightedOn: z.coerce.date().optional(),
+      }).shape
+    ),
     loader: glob({
       pattern: "**/*.{md,mdx}",
       base: "./src/content/books",
@@ -108,6 +119,7 @@ export const collections = {
   recipes: defineCollection({
     schema: obsidianSchema.extend(
       z.object({
+        status: recipeStatus,
         cuisine: z.enum([
           "tex-mex",
           "mediterranean",

@@ -1,9 +1,9 @@
 import type { ZendoCollectionEntry } from "src/garden";
 import type { FilterConfig } from "zendo";
 
-export default async function statusFilter(): Promise<FilterConfig<ZendoCollectionEntry>> {
+export default async function growthStatusFilter(): Promise<FilterConfig<ZendoCollectionEntry>> {
   return {
-    id: "status",
+    id: "growthStatus",
     ui: {
       label: "Status",
       getItems: async () => [
@@ -19,7 +19,11 @@ export default async function statusFilter(): Promise<FilterConfig<ZendoCollecti
         return entries;
       }
 
-      return entries.filter((entry) => selectedValues.includes(entry.data.status));
+      return entries.filter(
+        (entry) =>
+          (entry.collection === "notes" || entry.collection === "topics" || entry.collection === "essays") &&
+          selectedValues.includes(entry.data.status)
+      );
     },
   };
 }

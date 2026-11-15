@@ -7,7 +7,16 @@ interface Filters {
 }
 
 /** Filter categories the search action understands, in the order they're applied. */
-const SEARCH_CATEGORIES = ["status", "topics", "cuisine", "diet", "recipeType", "collections"] as const;
+const SEARCH_CATEGORIES = [
+  "growthStatus",
+  "readingStatus",
+  "recipeStatus",
+  "topics",
+  "cuisine",
+  "diet",
+  "recipeType",
+  "collections",
+] as const;
 
 /**
  * A grid of cards whose first page is rendered on the server. The client only
@@ -123,7 +132,7 @@ export default class ContentGridController extends Controller {
   }
 
   /**
-   * Restores filters from the query string (e.g. `?topics=a,b&status=evergreen`)
+   * Restores filters from the query string (e.g. `?topics=a,b&growthStatus=evergreen`)
    * so filtered views are deep-linkable. Unknown values are ignored.
    */
   private readFiltersFromUrl(): void {

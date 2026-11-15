@@ -1,0 +1,5 @@
+{
+  "untested": { "emoji": "🧪", "label": "Untested" },
+  "tweaking": { "emoji": "🔧", "label": "Tweaking" },
+  "staple": { "emoji": "⭐", "label": "Staple" }
+}
