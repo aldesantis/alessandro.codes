@@ -9,6 +9,7 @@ import ContentSidebar from "@components/content/ContentSidebar.astro";
 import ContentDetail from "@components/content/ContentDetail.astro";
 import BookMeta from "@components/content/books/BookMeta.astro";
 import HighlightList from "@components/content/books/HighlightList.astro";
+import HighlightsEmptyState from "@components/content/books/HighlightsEmptyState.astro";
 import { getEntryDescription } from "src/lib/description";
 
 export async function getStaticPaths() {
@@ -42,6 +43,8 @@ const description =
     </ArrowLink>
 
     <BookMeta content={book} slot="meta" />
+
+    {!hasHighlights && <HighlightsEmptyState slot="post-content" />}
 
     <ContentSidebar entry={book} slot="sidebar">
       <BookCover book={book} loading="eager" class="h-auto w-full max-w-[200px] rounded lg:max-w-full" />
