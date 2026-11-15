@@ -60,6 +60,39 @@
   }
 
   --animate-wave: wave 1.5s 2;
+
+  /* Sidebar edge fades, driven by its scroll position (see SidebarLayout) */
+  @keyframes sidebar-fade {
+    from {
+      --sidebar-fade-top: 0px;
+      --sidebar-fade-bottom: 2rem;
+    }
+    10% {
+      --sidebar-fade-top: 2rem;
+    }
+    90% {
+      --sidebar-fade-top: 2rem;
+      --sidebar-fade-bottom: 2rem;
+    }
+    to {
+      --sidebar-fade-top: 2rem;
+      --sidebar-fade-bottom: 0px;
+    }
+  }
+  --animate-sidebar-fade: sidebar-fade linear both;
+}
+
+/* Registered so the sidebar-fade keyframes interpolate them (unregistered custom properties jump) */
+@property --sidebar-fade-top {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+
+@property --sidebar-fade-bottom {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
 }
 
 /* Container utility replacement */

@@ -35,7 +35,7 @@ const desktopOnly = headings.length < MIN_HEADINGS;
     aria-label="Table of contents"
     data-controller="toc"
     data-sidebar-part="toc"
-    class:list={[desktopOnly && "hidden lg:block"]}
+    class:list={["max-lg:order-3 max-lg:mb-8", desktopOnly && "hidden lg:block"]}
   >
     <MobileCollapsible label="Table of contents">
       <LinkList class="space-y-0 lg:space-y-1">

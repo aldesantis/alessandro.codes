@@ -49,7 +49,7 @@ const groups = [
 ---
 
 {groups.length > 0 && (
-  <div class="space-y-4" data-sidebar-part="links">
+  <div class="flex flex-col gap-4 max-lg:order-5 max-lg:mt-12" data-sidebar-part="links">
     {groups.map(({ label, items }) => (
       <MobileCollapsible label={label}>
         <LinkList>

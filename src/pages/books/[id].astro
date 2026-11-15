@@ -47,7 +47,7 @@ const description =
     {!hasHighlights && <HighlightsEmptyState slot="post-content" />}
 
     <ContentSidebar entry={book} slot="sidebar">
-      <BookCover book={book} loading="eager" class="h-auto w-full max-w-[200px] rounded lg:max-w-full" />
+      <BookCover book={book} loading="eager" class="h-auto w-full max-w-[200px] rounded max-lg:order-2 max-lg:mb-8 lg:max-w-full" />
     </ContentSidebar>
   </ContentDetail>
 </Layout>
