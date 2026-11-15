@@ -3,7 +3,7 @@ import { z } from "astro/zod";
 import { file, glob } from "astro/loaders";
 
 const growthStatus = z.enum(["seedling", "budding", "evergreen"]);
-const readingStatus = z.enum(["reading", "read", "abandoned", "distilled"]);
+const readingStatus = z.enum(["to-read", "reading", "read", "abandoned", "distilled"]);
 const recipeStatus = z.enum(["untested", "tweaking", "staple"]);
 
 const baseSchema = z.object({
