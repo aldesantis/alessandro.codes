@@ -6,27 +6,12 @@ import { file, glob } from "astro/loaders";
 // carry it; a talk, an article or a now page has no such lifecycle.
 const growthStatus = z.enum(["seedling", "budding", "evergreen"]);
 
-// Where a book stands. Books used to share the growth values with notes, and
-// the vault still carries those: until they are replaced there, they read as
-// "read". "distilled" (its ideas have become notes) is only ever set by hand.
-const readingStatus = z.preprocess(
-  (val) => (growthStatus.safeParse(val).success ? "read" : val),
-  z.enum(["reading", "read", "abandoned", "distilled"])
-);
+// Where a book stands. "distilled" means its ideas have become notes.
+const readingStatus = z.enum(["reading", "read", "abandoned", "distilled"]);
 
 // How much a recipe can be trusted: not cooked yet, still being adjusted, or
-// dialed in. Recipes used to share the growth values too, and the vault still
-// carries those, so they map one to one until they are replaced there.
-const LEGACY_RECIPE_STATUS: Record<string, string> = {
-  seedling: "untested",
-  budding: "tweaking",
-  evergreen: "staple",
-};
-
-const recipeStatus = z.preprocess(
-  (val) => (typeof val === "string" ? (LEGACY_RECIPE_STATUS[val] ?? val) : val),
-  z.enum(["untested", "tweaking", "staple"])
-);
+// dialed in.
+const recipeStatus = z.enum(["untested", "tweaking", "staple"]);
 
 const baseSchema = z.object({
   title: z.string(),
