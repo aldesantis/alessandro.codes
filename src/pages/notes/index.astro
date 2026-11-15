@@ -5,7 +5,7 @@ import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
-import { statusFilter, topicFilter } from "src/lib/filters";
+import { growthStatusFilter, topicFilter } from "src/lib/filters";
 ---
 
 <Layout title="Notes" description={sections.notes.description}>
@@ -18,6 +18,6 @@ import { statusFilter, topicFilter } from "src/lib/filters";
     headingLevel={2}
     searchParams={{ collections: ["notes"] }}
     itemSize="M"
-    filters={await Promise.all([statusFilter(), topicFilter()])}
+    filters={await Promise.all([growthStatusFilter(), topicFilter()])}
   />
 </Layout>

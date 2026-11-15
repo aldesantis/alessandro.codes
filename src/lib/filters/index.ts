@@ -1,4 +1,4 @@
-export { default as statusFilter } from "./status";
+export { default as growthStatusFilter } from "./growthStatus";
 export { default as readingStatusFilter } from "./readingStatus";
 export { default as recipeStatusFilter } from "./recipeStatus";
 export { default as collectionFilter } from "./collection";

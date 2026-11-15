@@ -18,7 +18,7 @@ import type { Transformer } from "zendo/transformers";
 import {
   collectionFilter,
   nameFilter,
-  statusFilter,
+  growthStatusFilter,
   readingStatusFilter,
   recipeStatusFilter,
   topicFilter,
@@ -99,7 +99,7 @@ const config: Configuration<ZendoCollectionEntry> = {
   filters: await Promise.all([
     collectionFilter(),
     nameFilter(),
-    statusFilter(),
+    growthStatusFilter(),
     readingStatusFilter(),
     recipeStatusFilter(),
     topicFilter(),
