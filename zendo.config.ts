@@ -285,7 +285,7 @@ const config: Configuration<ZendoCollectionEntry> = {
         },
         {
           id: "articles",
-          basePath: "readwise/articles",
+          basePath: "articles",
           pattern: "*.{md,mdx}",
           destinationPath: "articles",
           transformers: digitalGardenTransformers,
