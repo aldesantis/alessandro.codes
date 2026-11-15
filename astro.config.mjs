@@ -1,4 +1,6 @@
 // @ts-check
+import { readdirSync } from "node:fs";
+import path from "node:path";
 import { defineConfig, fontProviders } from "astro/config";
 import { satteri } from "@astrojs/markdown-satteri";
 import icon from "astro-icon";
@@ -58,7 +60,17 @@ export default defineConfig({
     },
   ],
 
-  adapter: vercel(),
+  adapter: vercel({
+    // Every page that renders content images is prerendered, so the images are
+    // optimized at build time and served from /_astro. The server function only
+    // handles actions (search), yet it would otherwise ship every source image
+    // and blow past Vercel's 250MB function limit. `excludeFiles` matches exact
+    // paths only, hence the explicit listing. If a server-rendered route ever
+    // needs these images at runtime, remove this.
+    excludeFiles: readdirSync("src/content/assets", { recursive: true, withFileTypes: true })
+      .filter((entry) => entry.isFile())
+      .map((entry) => path.join(entry.parentPath, entry.name)),
+  }),
 
   vite: {
     plugins: [tailwindcss()],
