@@ -13183,6 +13183,7 @@
   {
     "ids": [
       "Chirù",
+      "chirù",
       "chiru"
     ],
     "slug": "chiru",
@@ -13379,6 +13380,7 @@
   {
     "ids": [
       "E un'altra cosa...",
+      "e-unaltra-cosa...",
       "e-unaltra-cosa"
     ],
     "slug": "e-unaltra-cosa",
@@ -14221,6 +14223,7 @@
   {
     "ids": [
       "It Doesn’t Have to Be Crazy at Work",
+      "it-doesn’t-have-to-be-crazy-at-work",
       "it-doesnt-have-to-be-crazy-at-work"
     ],
     "slug": "it-doesnt-have-to-be-crazy-at-work",
@@ -14261,6 +14264,7 @@
   {
     "ids": [
       "La città dei vivi",
+      "la-città-dei-vivi",
       "la-citta-dei-vivi"
     ],
     "slug": "la-citta-dei-vivi",
@@ -14281,6 +14285,7 @@
   {
     "ids": [
       "La ragazza di fuoco. Hunger games",
+      "la-ragazza-di-fuoco.-hunger-games",
       "la-ragazza-di-fuoco-hunger-games"
     ],
     "slug": "la-ragazza-di-fuoco-hunger-games",
@@ -14311,6 +14316,7 @@
   {
     "ids": [
       "La sincronicità",
+      "la-sincronicità",
       "la-sincronicita"
     ],
     "slug": "la-sincronicita",
@@ -14444,6 +14450,7 @@
   {
     "ids": [
       "Lo Zen e l’arte della manutenzione della motocicletta",
+      "lo-zen-e-l’arte-della-manutenzione-della-motocicletta",
       "lo-zen-e-larte-della-manutenzione-della-motocicletta"
     ],
     "slug": "lo-zen-e-larte-della-manutenzione-della-motocicletta",
@@ -14630,6 +14637,7 @@
   {
     "ids": [
       "Mattatoio n. 5",
+      "mattatoio-n.-5",
       "mattatoio-n-5"
     ],
     "slug": "mattatoio-n-5",
@@ -14889,6 +14897,7 @@
   {
     "ids": [
       "Propizio è avere ove recarsi",
+      "propizio-è-avere-ove-recarsi",
       "propizio-e-avere-ove-recarsi"
     ],
     "slug": "propizio-e-avere-ove-recarsi",
@@ -14964,6 +14973,7 @@
   {
     "ids": [
       "Release It!",
+      "release-it!",
       "release-it"
     ],
     "slug": "release-it",
@@ -15083,6 +15093,7 @@
   {
     "ids": [
       "Shōgun",
+      "shōgun",
       "shogun"
     ],
     "slug": "shogun",
@@ -15990,6 +16001,7 @@
   {
     "ids": [
       "Turn The Ship Around!",
+      "turn-the-ship-around!",
       "turn-the-ship-around"
     ],
     "slug": "turn-the-ship-around",
@@ -17202,6 +17214,17 @@
       "a-smart-bear-in-command"
     ],
     "slug": "a-smart-bear-in-command",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "A Smart Bear » Intense Asymmetry and Self-Flagellation",
+      "a-smart-bear-»-intense-asymmetry-and-self-flagellation",
+      "a-smart-bear-intense-asymmetry-and-self-flagellation"
+    ],
+    "slug": "a-smart-bear-intense-asymmetry-and-self-flagellation",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
@@ -23428,6 +23451,17 @@
         "type": "notes"
       }
     ]
+  },
+  {
+    "ids": [
+      "How Do Young Men See the World? We Asked Them.",
+      "how-do-young-men-see-the-world-we-asked-them.",
+      "how-do-young-men-see-the-world-we-asked-them"
+    ],
+    "slug": "how-do-young-men-see-the-world-we-asked-them",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
   },
   {
     "ids": [
