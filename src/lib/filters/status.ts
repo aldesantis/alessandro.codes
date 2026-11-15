@@ -19,7 +19,15 @@ export default async function statusFilter(): Promise<FilterConfig<ZendoCollecti
         return entries;
       }
 
-      return entries.filter((entry) => selectedValues.includes(entry.data.status));
+      // Books and recipes have a status too, but on their own scales: see
+      // readingStatus and recipeStatus.
+      return entries.filter(
+        (entry) =>
+          entry.collection !== "books" &&
+          entry.collection !== "recipes" &&
+          "status" in entry.data &&
+          selectedValues.includes(entry.data.status)
+      );
     },
   };
 }

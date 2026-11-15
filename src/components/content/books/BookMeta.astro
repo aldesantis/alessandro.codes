@@ -3,6 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import Meta from "@components/ui/Meta.astro";
 import TopicList from "@components/content/topics/TopicList.astro";
 import RelativeDate from "@components/ui/RelativeDate.astro";
+import readingStatuses from "./statuses.json";
 
 export interface Props {
   content: CollectionEntry<"books">;
@@ -15,6 +16,8 @@ const { content, compact = false } = Astro.props;
 
 <Meta>
   {content.data.author && <span data-wrap>By {content.data.author}</span>}
+
+  {!compact && <span>{readingStatuses[content.data.status]}</span>}
 
   {!compact && content.data.updatedAt && (
     <span>

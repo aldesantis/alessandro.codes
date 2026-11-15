@@ -5,9 +5,9 @@ import Hero from "@components/ui/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import sections from "src/data/sections.json";
 import ContentGrid from "@components/content/grid/ContentGrid.astro";
-import { cuisineFilter, dietFilter, recipeTypeFilter } from "src/lib/filters";
+import { cuisineFilter, dietFilter, recipeStatusFilter, recipeTypeFilter } from "src/lib/filters";
 
-const filters = await Promise.all([cuisineFilter(), dietFilter(), recipeTypeFilter()]);
+const filters = await Promise.all([cuisineFilter(), dietFilter(), recipeTypeFilter(), recipeStatusFilter()]);
 ---
 
 <Layout title="Recipes" description={sections.recipes.description}>

@@ -24,6 +24,8 @@ const MIN_ITEMS_FOR_FILTERS = 8;
 /** One-line explanations shown at the bottom of a filter's menu. */
 const FILTER_LEGENDS: Record<string, string> = {
   status: "How far along an idea is, from 🌱 rough to 🌿 developing to 🌳 mature.",
+  recipeStatus: "🧪 not cooked yet, 🔧 still adjusting, ⭐ dialed in.",
+  readingStatus: "Distilled books are the ones whose ideas I’ve turned into notes.",
 };
 
 const { searchParams, itemSize, filters = [], headingLevel = 2 } = Astro.props;
@@ -60,14 +62,19 @@ if (entries.length >= MIN_ITEMS_FOR_FILTERS) {
     if (filter.ui === undefined) continue;
 
     const allItems = await filter.ui.getItems();
-    const matches = await Promise.all(
+    const matchCounts = await Promise.all(
       allItems.map(async (item) =>
-        filter.entryFilterFn ? (await filter.entryFilterFn(entries, [item.id])).length > 0 : true
+        filter.entryFilterFn ? (await filter.entryFilterFn(entries, [item.id])).length : entries.length
       )
     );
-    const items = allItems.filter((_, index) => matches[index]);
+    const items = allItems.filter((_, index) => (matchCounts[index] ?? 0) > 0);
 
-    if (items.length > 0) {
+    // A lone option that every entry matches can't narrow anything (every book
+    // is "Read" until the vault says otherwise).
+    const narrows =
+      items.length > 1 || matchCounts.some((count) => count > 0 && count < entries.length) || !filter.entryFilterFn;
+
+    if (items.length > 0 && narrows) {
       filtersWithUi.push({ filter: filter as GardenFilter & { ui: NonNullable<GardenFilter["ui"]> }, items });
     }
   }
