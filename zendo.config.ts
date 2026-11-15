@@ -111,8 +111,6 @@ const config: Configuration<ZendoCollectionEntry> = {
 
   // Sorting function for entries
   sortEntriesFn: (a: ZendoCollectionEntry, b: ZendoCollectionEntry): number => {
-    // Growth and recipe statuses rank from least to most settled; entries
-    // without one (or with a reading status) tie.
     const statusPriorities: Record<string, number> = {
       seedling: 0,
       budding: 1,

@@ -2,15 +2,8 @@ import { defineCollection, reference } from "astro:content";
 import { z } from "astro/zod";
 import { file, glob } from "astro/loaders";
 
-// How far along an idea is. Only collections whose entries mature over time
-// carry it; a talk, an article or a now page has no such lifecycle.
 const growthStatus = z.enum(["seedling", "budding", "evergreen"]);
-
-// Where a book stands. "distilled" means its ideas have become notes.
 const readingStatus = z.enum(["reading", "read", "abandoned", "distilled"]);
-
-// How much a recipe can be trusted: not cooked yet, still being adjusted, or
-// dialed in.
 const recipeStatus = z.enum(["untested", "tweaking", "staple"]);
 
 const baseSchema = z.object({
