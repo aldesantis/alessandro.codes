@@ -21,8 +21,12 @@ export async function getStaticPaths() {
 }
 
 const { book } = Astro.props;
+const hasHighlights = /^## Highlights/m.test(book.body ?? "");
 const description =
-  (await getEntryDescription(book)) ?? `Highlights and notes from ${book.data.title} by ${book.data.author}.`;
+  (await getEntryDescription(book)) ??
+  (hasHighlights
+    ? `Highlights and notes from ${book.data.title} by ${book.data.author}.`
+    : `${book.data.title} by ${book.data.author}.`);
 ---
 
 <Layout title={book.data.title} description={description} type="article">

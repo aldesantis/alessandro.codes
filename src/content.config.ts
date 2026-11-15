@@ -78,7 +78,13 @@ export const collections = {
   }),
 
   books: defineCollection({
-    schema: readwiseSchema.extend(z.object({ status: readingStatus }).shape),
+    schema: obsidianSchema.extend(
+      z.object({
+        author: z.string(),
+        status: readingStatus,
+        lastHighlightedOn: z.coerce.date().optional(),
+      }).shape
+    ),
     loader: glob({
       pattern: "**/*.{md,mdx}",
       base: "./src/content/books",

@@ -242,7 +242,7 @@ const config: Configuration<ZendoCollectionEntry> = {
         },
         {
           id: "books" as const,
-          basePath: "readwise/books",
+          basePath: "books",
           pattern: "*.{md,mdx}",
           destinationPath: "books",
           transformers: [
