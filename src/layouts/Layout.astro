@@ -3,6 +3,7 @@ import Navbar from "@components/ui/navbar/Navbar.astro";
 import Footer from "@components/ui/Footer.astro";
 import CommandPalette from "@components/ui/command-palette/CommandPalette.astro";
 import { Font } from "astro:assets";
+import Analytics from "@vercel/analytics/astro";
 
 import "@styles/global.css";
 
@@ -71,6 +72,8 @@ const imageUrl = new URL(image, Astro.site ?? SITE_URL).href;
     <!-- One variable file per family covers 400–700; preload it so text renders in the right face. -->
     <Font cssVariable="--font-domine" preload={[{ weight: 400, style: "normal", subset: "latin" }]} />
     <Font cssVariable="--font-source-sans" preload={[{ weight: 400, style: "normal", subset: "latin" }]} />
+
+    <Analytics />
 
     <slot name="head" />
   </head>
