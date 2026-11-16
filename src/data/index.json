@@ -13117,6 +13117,16 @@
   },
   {
     "ids": [
+      "A Little Life",
+      "a-little-life"
+    ],
+    "slug": "a-little-life",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "A Master Class in Brand Planning",
       "a-master-class-in-brand-planning"
     ],
@@ -13722,16 +13732,6 @@
   },
   {
     "ids": [
-      "Book 9788898827237",
-      "book-9788898827237"
-    ],
-    "slug": "book-9788898827237",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Born to Run",
       "born-to-run"
     ],
@@ -14053,10 +14053,10 @@
   },
   {
     "ids": [
-      "Coaching for Performance, 5th Edition",
-      "coaching-for-performance-5th-edition"
+      "Coaching for Performance Fifth Edition",
+      "coaching-for-performance-fifth-edition"
     ],
-    "slug": "coaching-for-performance-5th-edition",
+    "slug": "coaching-for-performance-fifth-edition",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14183,16 +14183,6 @@
   },
   {
     "ids": [
-      "Confessioni di un Italiano",
-      "confessioni-di-un-italiano"
-    ],
-    "slug": "confessioni-di-un-italiano",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Confronting Reality",
       "confronting-reality"
     ],
@@ -14287,16 +14277,6 @@
       "converted"
     ],
     "slug": "converted",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Cooking Memes",
-      "cooking-memes"
-    ],
-    "slug": "cooking-memes",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -14937,6 +14917,16 @@
       "ego-is-the-enemy"
     ],
     "slug": "ego-is-the-enemy",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Eichmann in Jerusalem",
+      "eichmann-in-jerusalem"
+    ],
+    "slug": "eichmann-in-jerusalem",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -15835,6 +15825,16 @@
   },
   {
     "ids": [
+      "History of Western Philosophy",
+      "history-of-western-philosophy"
+    ],
+    "slug": "history-of-western-philosophy",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Hit Refresh",
       "hit-refresh"
     ],
@@ -16198,16 +16198,6 @@
       "i-malavoglia"
     ],
     "slug": "i-malavoglia",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "I persuasori occulti",
-      "i-persuasori-occulti"
-    ],
-    "slug": "i-persuasori-occulti",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16754,17 +16744,6 @@
   },
   {
     "ids": [
-      "La banalità del male",
-      "la-banalità-del-male",
-      "la-banalita-del-male"
-    ],
-    "slug": "la-banalita-del-male",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "La Casa Degli Sguardi",
       "la-casa-degli-sguardi"
     ],
@@ -16796,17 +16775,6 @@
   },
   {
     "ids": [
-      "La convivialità",
-      "la-convivialità",
-      "la-convivialita"
-    ],
-    "slug": "la-convivialita",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "La coscienza di Zeno",
       "la-coscienza-di-zeno"
     ],
@@ -16821,16 +16789,6 @@
       "la-crisi-della-narrazione"
     ],
     "slug": "la-crisi-della-narrazione",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "La grammatica dei sapori",
-      "la-grammatica-dei-sapori"
-    ],
-    "slug": "la-grammatica-dei-sapori",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -16919,16 +16877,6 @@
   },
   {
     "ids": [
-      "La signora Dalloway",
-      "la-signora-dalloway"
-    ],
-    "slug": "la-signora-dalloway",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "La Signora del Lago",
       "la-signora-del-lago"
     ],
@@ -16984,16 +16932,6 @@
       "la-vegetariana"
     ],
     "slug": "la-vegetariana",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "La visione scientifica del mondo",
-      "la-visione-scientifica-del-mondo"
-    ],
-    "slug": "la-visione-scientifica-del-mondo",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17103,10 +17041,10 @@
   },
   {
     "ids": [
-      "Le varie forme dell’esperienza religiosa",
-      "le-varie-forme-dellesperienza-religiosa"
+      "Le confessioni di un italiano",
+      "le-confessioni-di-un-italiano"
     ],
-    "slug": "le-varie-forme-dellesperienza-religiosa",
+    "slug": "le-confessioni-di-un-italiano",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17254,16 +17192,6 @@
   },
   {
     "ids": [
-      "L’idea di giustizia",
-      "lidea-di-giustizia"
-    ],
-    "slug": "lidea-di-giustizia",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Life in Perspective",
       "life-in-perspective"
     ],
@@ -17325,6 +17253,16 @@
   },
   {
     "ids": [
+      "Liquid Modernity",
+      "liquid-modernity"
+    ],
+    "slug": "liquid-modernity",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Listen Like You Mean It",
       "listen-like-you-mean-it"
     ],
@@ -17360,17 +17298,6 @@
       "lombra-del-vento"
     ],
     "slug": "lombra-del-vento",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "L’onda che verrà",
-      "l’onda-che-verrà",
-      "londa-che-verra"
-    ],
-    "slug": "londa-che-verra",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17431,16 +17358,6 @@
       "luccello-che-girava-le-viti-del-mondo"
     ],
     "slug": "luccello-che-girava-le-viti-del-mondo",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "L’uomo a una dimensione",
-      "luomo-a-una-dimensione"
-    ],
-    "slug": "luomo-a-una-dimensione",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17705,6 +17622,16 @@
   },
   {
     "ids": [
+      "Marriage and Morals",
+      "marriage-and-morals"
+    ],
+    "slug": "marriage-and-morals",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Mastering Technical Sales",
       "mastering-technical-sales"
     ],
@@ -17729,16 +17656,6 @@
       "mastery"
     ],
     "slug": "mastery",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Matrimonio e morale",
-      "matrimonio-e-morale"
-    ],
-    "slug": "matrimonio-e-morale",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -17817,17 +17734,6 @@
   },
   {
     "ids": [
-      "Modernità liquida",
-      "modernità-liquida",
-      "modernita-liquida"
-    ],
-    "slug": "modernita-liquida",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Molte riforme per nulla",
       "molte-riforme-per-nulla"
     ],
@@ -17872,6 +17778,17 @@
       "morgana-luomo-ricco-sono-io"
     ],
     "slug": "morgana-luomo-ricco-sono-io",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Mrs. Dalloway",
+      "mrs.-dalloway",
+      "mrs-dalloway"
+    ],
+    "slug": "mrs-dalloway",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18188,6 +18105,16 @@
   },
   {
     "ids": [
+      "On the Road",
+      "on-the-road"
+    ],
+    "slug": "on-the-road",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "On the Shortness of Life",
       "on-the-shortness-of-life"
     ],
@@ -18222,6 +18149,16 @@
       "once-a-runner"
     ],
     "slug": "once-a-runner",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "One-Dimensional Man",
+      "one-dimensional-man"
+    ],
+    "slug": "one-dimensional-man",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -18318,10 +18255,11 @@
   },
   {
     "ids": [
-      "Orlando Furioso",
-      "orlando-furioso"
+      "Orlando furious [2 Bde.]",
+      "orlando-furious-[2-bde.]",
+      "orlando-furious-2-bde"
     ],
-    "slug": "orlando-furioso",
+    "slug": "orlando-furious-2-bde",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19267,10 +19205,10 @@
   },
   {
     "ids": [
-      "SCIENZA DELLE SPEZIE",
-      "scienza-delle-spezie"
+      "Science Of Spice",
+      "science-of-spice"
     ],
-    "slug": "scienza-delle-spezie",
+    "slug": "science-of-spice",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19331,6 +19269,16 @@
       "sei-personaggi-in-cerca-dautore"
     ],
     "slug": "sei-personaggi-in-cerca-dautore",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Self-Reliance and Nature",
+      "self-reliance-and-nature"
+    ],
+    "slug": "self-reliance-and-nature",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19554,10 +19502,10 @@
   },
   {
     "ids": [
-      "Slaughterhouse 5",
-      "slaughterhouse-5"
+      "Slaughterhouse-Five",
+      "slaughterhouse-five"
     ],
-    "slug": "slaughterhouse-5",
+    "slug": "slaughterhouse-five",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19764,17 +19712,6 @@
   },
   {
     "ids": [
-      "Storia della filosofia occidentale e dei suoi rapporti con le vicende politiche e sociali dall’antichità a oggi",
-      "storia-della-filosofia-occidentale-e-dei-suoi-rapporti-con-le-vicende-politiche-e-sociali-dallantichità-a-oggi",
-      "storia-della-filosofia-occidentale-e-dei-suoi-rapporti-con-le-vicende-politiche-e-sociali-dallantich"
-    ],
-    "slug": "storia-della-filosofia-occidentale-e-dei-suoi-rapporti-con-le-vicende-politiche-e-sociali-dallantich",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Stories of Your Life and Others",
       "stories-of-your-life-and-others"
     ],
@@ -19849,16 +19786,6 @@
       "success-is-a-numbers-game"
     ],
     "slug": "success-is-a-numbers-game",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Sulla strada",
-      "sulla-strada"
-    ],
-    "slug": "sulla-strada",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -19998,10 +19925,10 @@
   },
   {
     "ids": [
-      "Team Topologies",
-      "team-topologies"
+      "Team Topologies, 2nd Edition",
+      "team-topologies-2nd-edition"
     ],
-    "slug": "team-topologies",
+    "slug": "team-topologies-2nd-edition",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -20561,6 +20488,16 @@
   },
   {
     "ids": [
+      "The Coming Wave",
+      "the-coming-wave"
+    ],
+    "slug": "the-coming-wave",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Copywriter’s Handbook",
       "the-copywriters-handbook"
     ],
@@ -20955,6 +20892,16 @@
   },
   {
     "ids": [
+      "The Flavour Thesaurus",
+      "the-flavour-thesaurus"
+    ],
+    "slug": "the-flavour-thesaurus",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "The Four Conversations",
       "the-four-conversations"
     ],
@@ -21100,6 +21047,36 @@
       "the-hate-u-give-il-coraggio-della-verita"
     ],
     "slug": "the-hate-u-give-il-coraggio-della-verita",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Hidden Persuaders",
+      "the-hidden-persuaders"
+    ],
+    "slug": "the-hidden-persuaders",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Human Condition",
+      "the-human-condition"
+    ],
+    "slug": "the-human-condition",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Idea of Justice",
+      "the-idea-of-justice"
+    ],
+    "slug": "the-idea-of-justice",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21827,10 +21804,10 @@
   },
   {
     "ids": [
-      "The Sacred and The Profane",
-      "the-sacred-and-the-profane"
+      "The Sacred and Profane",
+      "the-sacred-and-profane"
     ],
-    "slug": "the-sacred-and-the-profane",
+    "slug": "the-sacred-and-profane",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -21881,6 +21858,16 @@
       "the-science-of-talent"
     ],
     "slug": "the-science-of-talent",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Scientific Outlook",
+      "the-scientific-outlook"
+    ],
+    "slug": "the-scientific-outlook",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22223,6 +22210,16 @@
       "the-valis-trilogy"
     ],
     "slug": "the-valis-trilogy",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The Varieties of Religious Experience",
+      "the-varieties-of-religious-experience"
+    ],
+    "slug": "the-varieties-of-religious-experience",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -22664,16 +22661,6 @@
   },
   {
     "ids": [
-      "Una vita come tante",
-      "una-vita-come-tante"
-    ],
-    "slug": "una-vita-come-tante",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Unaccountability Machine",
       "unaccountability-machine"
     ],
@@ -22799,16 +22786,6 @@
       "v13"
     ],
     "slug": "v13",
-    "type": "books",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
-      "Vita activa",
-      "vita-activa"
-    ],
-    "slug": "vita-activa",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -36165,6 +36142,16 @@
       "strategy-of-the-week-2026-is-in-its-offline-era"
     ],
     "slug": "strategy-of-the-week-2026-is-in-its-offline-era",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Struggle Together",
+      "struggle-together"
+    ],
+    "slug": "struggle-together",
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": []
