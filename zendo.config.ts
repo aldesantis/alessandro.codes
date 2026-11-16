@@ -27,6 +27,7 @@ import {
   recipeTypeFilter,
   relatedToFilter,
 } from "src/lib/filters";
+import { isFinished } from "src/lib/books";
 
 export const collectionIds = ["essays", "notes", "nows", "topics", "books", "articles", "recipes", "talks"] as const;
 
@@ -122,9 +123,16 @@ const config: Configuration<ZendoCollectionEntry> = {
     const priority = (entry: ZendoCollectionEntry): number =>
       "status" in entry.data ? (statusPriorities[entry.data.status] ?? 0) : 0;
 
+    // A finished book sorts by when it was finished; everything else, and a
+    // finished book with no finish date, by when it was last updated.
+    const sortDate = (entry: ZendoCollectionEntry): Date | undefined =>
+      entry.collection === "books" && isFinished(entry.data.status) && entry.data.finishedOn
+        ? entry.data.finishedOn
+        : entry.data.updatedAt;
+
     // Newest first; entries without a (valid) date sort after every dated one.
-    const timeA = a.data.updatedAt?.getTime() ?? Number.NaN;
-    const timeB = b.data.updatedAt?.getTime() ?? Number.NaN;
+    const timeA = sortDate(a)?.getTime() ?? Number.NaN;
+    const timeB = sortDate(b)?.getTime() ?? Number.NaN;
     const hasA = !Number.isNaN(timeA);
     const hasB = !Number.isNaN(timeB);
 

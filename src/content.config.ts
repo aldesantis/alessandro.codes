@@ -83,6 +83,7 @@ export const collections = {
         author: z.string(),
         status: readingStatus,
         lastHighlightedOn: z.coerce.date().optional(),
+        finishedOn: z.coerce.date().optional(),
       }).shape
     ),
     loader: glob({

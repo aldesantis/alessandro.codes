@@ -4,6 +4,7 @@ import Meta from "@components/ui/Meta.astro";
 import TopicList from "@components/content/topics/TopicList.astro";
 import RelativeDate from "@components/ui/RelativeDate.astro";
 import readingStatuses from "./statuses.json";
+import { isFinished } from "src/lib/books";
 
 export interface Props {
   content: CollectionEntry<"books">;
@@ -18,6 +19,12 @@ const { content, compact = false } = Astro.props;
   {content.data.author && <span data-wrap>By {content.data.author}</span>}
 
   {!compact && <span>{readingStatuses[content.data.status]}</span>}
+
+  {!compact && content.data.finishedOn && isFinished(content.data.status) && (
+    <span>
+      Finished <RelativeDate date={content.data.finishedOn} />
+    </span>
+  )}
 
   {!compact && content.data.updatedAt && (
     <span>
