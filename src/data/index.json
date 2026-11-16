@@ -5174,6 +5174,25 @@
   },
   {
     "ids": [
+      "Disruption is rarely surprising",
+      "disruption-is-rarely-surprising"
+    ],
+    "slug": "disruption-is-rarely-surprising",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "pick-your-playground",
+        "type": "notes"
+      },
+      {
+        "slug": "the-crux",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Don’t play life on hard mode",
       "dont-play-life-on-hard-mode"
     ],
@@ -6523,6 +6542,10 @@
       {
         "slug": "developing-talent-in-randd",
         "type": "articles"
+      },
+      {
+        "slug": "how-to-take-smart-notes",
+        "type": "books"
       }
     ],
     "inboundLinks": [
@@ -6951,30 +6974,6 @@
     "outboundLinks": [
       {
         "slug": "15000-sellers-drive-half-of-amazons-3p-gmv",
-        "type": "articles"
-      }
-    ],
-    "inboundLinks": [
-      {
-        "slug": "marketplaces-require-dedicated-teams",
-        "type": "notes"
-      }
-    ]
-  },
-  {
-    "ids": [
-      "Marketplaces require dedicated teams",
-      "marketplaces-require-dedicated-teams"
-    ],
-    "slug": "marketplaces-require-dedicated-teams",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "marketplaces-are-usually-80-20",
-        "type": "notes"
-      },
-      {
-        "slug": "why-dtc-brands-are-pivoting-from-facebook-to-amazon-for-customer-acquisition-after-years-of-avoiding",
         "type": "articles"
       }
     ],
@@ -7606,6 +7605,21 @@
       }
     ],
     "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Pick your playground",
+      "pick-your-playground"
+    ],
+    "slug": "pick-your-playground",
+    "type": "notes",
+    "outboundLinks": [],
+    "inboundLinks": [
+      {
+        "slug": "disruption-is-rarely-surprising",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -9294,6 +9308,10 @@
       {
         "slug": "be-wary-of-flawless-ideas",
         "type": "notes"
+      },
+      {
+        "slug": "becoming-perceptive",
+        "type": "articles"
       }
     ],
     "inboundLinks": [
@@ -16103,6 +16121,10 @@
         "type": "notes"
       },
       {
+        "slug": "learning-is-a-four-phase-process",
+        "type": "notes"
+      },
+      {
         "slug": "structure-sets-you-free",
         "type": "notes"
       },
@@ -20557,6 +20579,10 @@
       {
         "slug": "strategy",
         "type": "topics"
+      },
+      {
+        "slug": "disruption-is-rarely-surprising",
+        "type": "notes"
       },
       {
         "slug": "economies-of-scale-are-not-exclusive",
@@ -25581,7 +25607,12 @@
     "slug": "becoming-perceptive",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "the-map-is-not-the-territory",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -40489,12 +40520,7 @@
     "slug": "why-dtc-brands-are-pivoting-from-facebook-to-amazon-for-customer-acquisition-after-years-of-avoiding",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": [
-      {
-        "slug": "marketplaces-require-dedicated-teams",
-        "type": "notes"
-      }
-    ]
+    "inboundLinks": []
   },
   {
     "ids": [
