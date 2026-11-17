@@ -3322,6 +3322,21 @@
   },
   {
     "ids": [
+      "Altruism is not natural",
+      "altruism-is-not-natural"
+    ],
+    "slug": "altruism-is-not-natural",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "one-thought-on-strategy-goodwill-brand-altruism-and-circularity",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "An operating cadence needs shared vision",
       "an-operating-cadence-needs-shared-vision"
     ],
@@ -5908,7 +5923,7 @@
         "type": "notes"
       },
       {
-        "slug": "psychological-safety-is-a-compromise",
+        "slug": "psychological-safety-must-be-cultivated",
         "type": "notes"
       },
       {
@@ -6147,6 +6162,21 @@
     "slug": "hiring-is-an-approximation-of-the-job",
     "type": "notes",
     "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Human relationships are promissory",
+      "human-relationships-are-promissory"
+    ],
+    "slug": "human-relationships-are-promissory",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "the-presentation-of-self-in-everyday-life",
+        "type": "books"
+      }
+    ],
     "inboundLinks": []
   },
   {
@@ -7510,6 +7540,21 @@
   },
   {
     "ids": [
+      "People gossip out of fear",
+      "people-gossip-out-of-fear"
+    ],
+    "slug": "people-gossip-out-of-fear",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "psychological-safety-is-a-team-factor",
+        "type": "notes"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "People problems are often situational problems",
       "people-problems-are-often-situational-problems"
     ],
@@ -7870,12 +7915,48 @@
   },
   {
     "ids": [
-      "Psychological safety is a compromise",
-      "psychological-safety-is-a-compromise"
+      "Psychological safety is a team factor",
+      "psychological-safety-is-a-team-factor"
     ],
-    "slug": "psychological-safety-is-a-compromise",
+    "slug": "psychological-safety-is-a-team-factor",
     "type": "notes",
     "outboundLinks": [
+      {
+        "slug": "psychological-safety-must-be-cultivated",
+        "type": "notes"
+      },
+      {
+        "slug": "the-fearless-organization",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "people-gossip-out-of-fear",
+        "type": "notes"
+      },
+      {
+        "slug": "psychological-safety-must-be-cultivated",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Psychological safety must be cultivated",
+      "psychological-safety-must-be-cultivated"
+    ],
+    "slug": "psychological-safety-must-be-cultivated",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "psychological-safety-is-a-team-factor",
+        "type": "notes"
+      },
+      {
+        "slug": "we-get-what-we-reward-for",
+        "type": "notes"
+      },
       {
         "slug": "the-fearless-organization",
         "type": "books"
@@ -7885,23 +7966,12 @@
       {
         "slug": "good-consulting-requires-authenticity",
         "type": "notes"
+      },
+      {
+        "slug": "psychological-safety-is-a-team-factor",
+        "type": "notes"
       }
     ]
-  },
-  {
-    "ids": [
-      "Psychological safety is a team factor",
-      "psychological-safety-is-a-team-factor"
-    ],
-    "slug": "psychological-safety-is-a-team-factor",
-    "type": "notes",
-    "outboundLinks": [
-      {
-        "slug": "the-fearless-organization",
-        "type": "books"
-      }
-    ],
-    "inboundLinks": []
   },
   {
     "ids": [
@@ -9748,6 +9818,21 @@
   },
   {
     "ids": [
+      "USPs rest on three elements",
+      "usps-rest-on-three-elements"
+    ],
+    "slug": "usps-rest-on-three-elements",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "professional-services-marketing",
+        "type": "books"
+      }
+    ],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Vertical integration requires stable demand",
       "vertical-integration-requires-stable-demand"
     ],
@@ -9785,6 +9870,10 @@
       },
       {
         "slug": "org-design-is-about-structure-incentives-and-culture",
+        "type": "notes"
+      },
+      {
+        "slug": "psychological-safety-must-be-cultivated",
         "type": "notes"
       }
     ]
@@ -18720,7 +18809,12 @@
         "type": "books"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "usps-rest-on-three-elements",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -20827,11 +20921,11 @@
     ],
     "inboundLinks": [
       {
-        "slug": "psychological-safety-is-a-compromise",
+        "slug": "psychological-safety-is-a-team-factor",
         "type": "notes"
       },
       {
-        "slug": "psychological-safety-is-a-team-factor",
+        "slug": "psychological-safety-must-be-cultivated",
         "type": "notes"
       },
       {
@@ -21696,7 +21790,12 @@
     "slug": "the-presentation-of-self-in-everyday-life",
     "type": "books",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "human-relationships-are-promissory",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -22124,6 +22223,16 @@
       "the-transparency-sale"
     ],
     "slug": "the-transparency-sale",
+    "type": "books",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "The True Believer",
+      "the-true-believer"
+    ],
+    "slug": "the-true-believer",
     "type": "books",
     "outboundLinks": [],
     "inboundLinks": []
@@ -34377,7 +34486,12 @@
     "slug": "one-thought-on-strategy-goodwill-brand-altruism-and-circularity",
     "type": "articles",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "altruism-is-not-natural",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
