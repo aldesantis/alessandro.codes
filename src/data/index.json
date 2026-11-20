@@ -3301,6 +3301,10 @@
         "type": "notes"
       },
       {
+        "slug": "listen-to-your-weird-thoughts",
+        "type": "notes"
+      },
+      {
         "slug": "necessities-converge-on-the-standard-answer",
         "type": "notes"
       },
@@ -3358,6 +3362,10 @@
       {
         "slug": "compliance-is-not-commitment",
         "type": "notes"
+      },
+      {
+        "slug": "the-fifth-discipline",
+        "type": "books"
       }
     ],
     "inboundLinks": [
@@ -4412,6 +4420,10 @@
         "type": "notes"
       },
       {
+        "slug": "freedom-is-only-valuable-when-forgone",
+        "type": "notes"
+      },
+      {
         "slug": "improve-the-operating-cadence",
         "type": "notes"
       },
@@ -4609,6 +4621,10 @@
       {
         "slug": "consultants-have-an-expiration-date",
         "type": "notes"
+      },
+      {
+        "slug": "the-secrets-of-consulting",
+        "type": "books"
       }
     ],
     "inboundLinks": [
@@ -5154,6 +5170,10 @@
       },
       {
         "slug": "serendipity-requires-randomness",
+        "type": "notes"
+      },
+      {
+        "slug": "structure-sets-you-free",
         "type": "notes"
       },
       {
@@ -5848,6 +5868,18 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "structure-sets-you-free",
+        "type": "notes"
+      },
+      {
+        "slug": "optionality-can-hinder-risk-taking",
+        "type": "notes"
+      },
+      {
+        "slug": "compliance-is-not-commitment",
+        "type": "notes"
+      },
+      {
         "slug": "100-truths-you-will-learn-too-late",
         "type": "books"
       },
@@ -6484,7 +6516,12 @@
         "type": "articles"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "listen-to-your-weird-thoughts",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -6683,6 +6720,42 @@
       },
       {
         "slug": "marketing-must-build-availability",
+        "type": "notes"
+      }
+    ]
+  },
+  {
+    "ids": [
+      "Listen to your weird thoughts",
+      "listen-to-your-weird-thoughts"
+    ],
+    "slug": "listen-to-your-weird-thoughts",
+    "type": "notes",
+    "outboundLinks": [
+      {
+        "slug": "interestingness-comes-from-within",
+        "type": "notes"
+      },
+      {
+        "slug": "weirdness-is-the-seed-of-humor",
+        "type": "notes"
+      },
+      {
+        "slug": "strategy-requires-original-insights",
+        "type": "notes"
+      },
+      {
+        "slug": "all-good-strategies-are-unique",
+        "type": "notes"
+      },
+      {
+        "slug": "how-to-be-funny-in-public-speaking",
+        "type": "articles"
+      }
+    ],
+    "inboundLinks": [
+      {
+        "slug": "weirdness-is-the-seed-of-humor",
         "type": "notes"
       }
     ]
@@ -7450,6 +7523,10 @@
       }
     ],
     "inboundLinks": [
+      {
+        "slug": "freedom-is-only-valuable-when-forgone",
+        "type": "notes"
+      },
       {
         "slug": "optimism-requires-diversification",
         "type": "notes"
@@ -8868,6 +8945,10 @@
         "type": "notes"
       },
       {
+        "slug": "listen-to-your-weird-thoughts",
+        "type": "notes"
+      },
+      {
         "slug": "whether-a-function-is-an-advantage-depends-on-the-company",
         "type": "notes"
       },
@@ -8905,7 +8986,12 @@
         "type": "notes"
       }
     ],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "structure-sets-you-free",
+        "type": "notes"
+      }
+    ]
   },
   {
     "ids": [
@@ -8915,6 +9001,14 @@
     "slug": "structure-sets-you-free",
     "type": "notes",
     "outboundLinks": [
+      {
+        "slug": "design-an-operating-cadence",
+        "type": "notes"
+      },
+      {
+        "slug": "structure-makes-willpower-unnecessary",
+        "type": "notes"
+      },
       {
         "slug": "ordinary-actions-create-extraordinary-results",
         "type": "notes"
@@ -8939,6 +9033,10 @@
       },
       {
         "slug": "design-an-operating-cadence",
+        "type": "notes"
+      },
+      {
+        "slug": "freedom-is-only-valuable-when-forgone",
         "type": "notes"
       },
       {
@@ -9907,6 +10005,10 @@
     "type": "notes",
     "outboundLinks": [
       {
+        "slug": "listen-to-your-weird-thoughts",
+        "type": "notes"
+      },
+      {
         "slug": "how-to-be-funny-in-public-speaking",
         "type": "articles"
       }
@@ -9914,6 +10016,10 @@
     "inboundLinks": [
       {
         "slug": "good-writing-is-personal-observational-and-playful",
+        "type": "notes"
+      },
+      {
+        "slug": "listen-to-your-weird-thoughts",
         "type": "notes"
       }
     ]
@@ -20953,6 +21059,10 @@
     ],
     "inboundLinks": [
       {
+        "slug": "an-operating-cadence-needs-shared-vision",
+        "type": "notes"
+      },
+      {
         "slug": "build-experimentation-guidelines",
         "type": "notes"
       },
@@ -22008,6 +22118,10 @@
     "inboundLinks": [
       {
         "slug": "consultants-have-an-expiration-date",
+        "type": "notes"
+      },
+      {
+        "slug": "consulting-is-the-gift-of-perspective",
         "type": "notes"
       }
     ]
@@ -27188,6 +27302,17 @@
   },
   {
     "ids": [
+      "[Commoncog X ShadowBox] the Making of Hindsight",
+      "[commoncog-x-shadowbox]-the-making-of-hindsight",
+      "commoncog-x-shadowbox-the-making-of-hindsight"
+    ],
+    "slug": "commoncog-x-shadowbox-the-making-of-hindsight",
+    "type": "articles",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
       "Community ≠ Marketing: Why We Need Go-to-Community, Not Just Go-to-Market",
       "community-≠-marketing-why-we-need-go-to-community-not-just-go-to-market",
       "community-marketing-why-we-need-go-to-community-not-just-go-to-market"
@@ -31092,6 +31217,10 @@
     "type": "articles",
     "outboundLinks": [],
     "inboundLinks": [
+      {
+        "slug": "listen-to-your-weird-thoughts",
+        "type": "notes"
+      },
       {
         "slug": "weirdness-is-the-seed-of-humor",
         "type": "notes"
