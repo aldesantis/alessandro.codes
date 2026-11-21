@@ -2586,16 +2586,6 @@
   },
   {
     "ids": [
-      "Spaghetti with mussels",
-      "spaghetti-with-mussels"
-    ],
-    "slug": "spaghetti-with-mussels",
-    "type": "recipes",
-    "outboundLinks": [],
-    "inboundLinks": []
-  },
-  {
-    "ids": [
       "Spaghetti with pesto, cherry tomatoes, and mullet bottarga",
       "spaghetti-with-pesto-cherry-tomatoes-and-mullet-bottarga"
     ],
