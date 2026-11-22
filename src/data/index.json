@@ -1429,7 +1429,12 @@
     "slug": "aioli-sauce",
     "type": "recipes",
     "outboundLinks": [],
-    "inboundLinks": []
+    "inboundLinks": [
+      {
+        "slug": "cauliflower-fritters",
+        "type": "recipes"
+      }
+    ]
   },
   {
     "ids": [
@@ -1702,7 +1707,12 @@
     ],
     "slug": "cauliflower-fritters",
     "type": "recipes",
-    "outboundLinks": [],
+    "outboundLinks": [
+      {
+        "slug": "aioli-sauce",
+        "type": "recipes"
+      }
+    ],
     "inboundLinks": []
   },
   {
