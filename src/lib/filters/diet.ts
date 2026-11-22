@@ -1,5 +1,6 @@
 import type { ZendoCollectionEntry } from "src/garden";
 import type { FilterConfig } from "zendo";
+import diets from "../../components/content/recipes/diets.json";
 import {
   deriveDiets,
   getIngredientDietMap,
@@ -12,12 +13,8 @@ export default async function dietFilter(): Promise<FilterConfig<ZendoCollection
     id: "diet",
     ui: {
       label: "Diet",
-      getItems: async () => [
-        { id: "omnivore", label: "🥩 Omnivore" },
-        { id: "vegetarian", label: "🥬 Vegetarian" },
-        { id: "vegan", label: "🌱 Vegan" },
-        { id: "pescatarian", label: "🐟 Pescatarian" },
-      ],
+      // Same emoji and labels as the diets shown on recipe pages.
+      getItems: async () => Object.entries(diets).map(([id, { emoji, label }]) => ({ id, label: `${emoji} ${label}` })),
     },
     entryFilterFn: async (entries: ZendoCollectionEntry[], value: unknown): Promise<ZendoCollectionEntry[]> => {
       const selectedValues = value as string[] | undefined;

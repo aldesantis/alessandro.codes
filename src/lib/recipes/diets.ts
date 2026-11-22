@@ -1,6 +1,6 @@
 import type { CollectionEntry } from "astro:content";
 
-export const DIETS = ["omnivore", "vegetarian", "vegan", "pescatarian"] as const;
+export const DIETS = ["vegetarian", "vegan"] as const;
 
 export type Diet = (typeof DIETS)[number];
 
@@ -16,8 +16,9 @@ export interface RecipeDietSource {
 }
 
 /**
- * Builds a lookup of ingredient id → the diets that ingredient is compatible
- * with, sourced from the `ingredients` glossary collection.
+ * Builds a lookup of ingredient id → the dietary restrictions that ingredient
+ * satisfies (`[]` for meat, fish and the like), sourced from the `ingredients`
+ * glossary collection.
  */
 export async function getIngredientDietMap(): Promise<Map<string, Diet[]>> {
   // Imported lazily so this module can be loaded outside the Astro runtime
@@ -91,7 +92,7 @@ function collectIngredientIds(
 
 /**
  * Derives a recipe's diets as the intersection of its ingredients' diets:
- * a recipe is compatible with a diet only if every (known) ingredient is.
+ * a recipe satisfies a restriction only if every (known) ingredient does.
  * Ingredients missing from the glossary impose no constraint, and a recipe
  * with no known ingredients yields no diets. When `recipeMap` is provided,
  * the ingredients of `depends_on` sub-recipes and cross-referenced recipes are
@@ -138,13 +139,12 @@ export async function getRecipeDiets(recipe: CollectionEntry<"recipes">): Promis
 }
 
 // Diets from most to least restrictive. Each implies every diet after it: a
-// vegan dish is also vegetarian, pescatarian and omnivore-friendly.
-const DIETS_BY_RESTRICTIVENESS: Diet[] = ["vegan", "vegetarian", "pescatarian", "omnivore"];
+// vegan dish is also vegetarian.
+const DIETS_BY_RESTRICTIVENESS: Diet[] = ["vegan", "vegetarian"];
 
 /**
  * Reduces a recipe's compatible diets to the most restrictive one, since it
- * implies the rest ("Vegan" rather than "Omnivore, Vegetarian, Vegan,
- * Pescatarian"). Returns an array so callers can render it like `deriveDiets`.
+ * implies the rest ("Vegan" rather than "Vegetarian, Vegan"). Returns an array so callers can render it like `deriveDiets`.
  */
 export function mostRestrictiveDiets(diets: readonly Diet[]): Diet[] {
   const strictest = DIETS_BY_RESTRICTIVENESS.find((diet) => diets.includes(diet));

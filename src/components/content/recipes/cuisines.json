@@ -1,11 +1,16 @@
 {
-  "tex-mex": { "emoji": "🌮", "label": "Tex-Mex" },
-  "mediterranean": { "emoji": "🫒", "label": "Mediterranean" },
-  "bbq": { "emoji": "🍖", "label": "BBQ" },
-  "asian": { "emoji": "🍜", "label": "Asian" },
-  "indian": { "emoji": "🇮🇳", "label": "Indian" },
-  "american": { "emoji": "🇺🇸", "label": "American" },
   "italian": { "emoji": "🇮🇹", "label": "Italian" },
+  "spanish": { "emoji": "🇪🇸", "label": "Spanish" },
+  "french": { "emoji": "🇫🇷", "label": "French" },
+  "central-european": { "emoji": "🥨", "label": "Central European" },
   "greek": { "emoji": "🇬🇷", "label": "Greek" },
-  "british": { "emoji": "🇬🇧", "label": "British" }
+  "middle-eastern": { "emoji": "🧆", "label": "Middle Eastern" },
+  "british": { "emoji": "🇬🇧", "label": "British" },
+  "american": { "emoji": "🇺🇸", "label": "American" },
+  "tex-mex": { "emoji": "🌮", "label": "Tex-Mex" },
+  "indian": { "emoji": "🇮🇳", "label": "Indian" },
+  "japanese": { "emoji": "🇯🇵", "label": "Japanese" },
+  "chinese": { "emoji": "🇨🇳", "label": "Chinese" },
+  "southeast-asian": { "emoji": "🍜", "label": "Southeast Asian" },
+  "international": { "emoji": "🌍", "label": "International" }
 }
