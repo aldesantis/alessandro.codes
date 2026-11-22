@@ -109,8 +109,41 @@ export const collections = {
     schema: obsidianSchema.extend(
       z.object({
         aliases: z.array(z.string()).optional(),
-        category: z.string().optional(),
-        allergens: z.array(z.string()).optional().default([]),
+        category: z.enum([
+          "produce",
+          "herb-spice",
+          "condiment",
+          "grain",
+          "fruit",
+          "nut-seed",
+          "fat-oil",
+          "meat",
+          "poultry",
+          "seafood",
+          "dairy",
+          "egg",
+          "legume",
+          "sweetener",
+          "beverage",
+          "other",
+        ]),
+        allergens: z.array(
+          z.enum([
+            "celery",
+            "dairy",
+            "egg",
+            "fish",
+            "gluten",
+            "mustard",
+            "nuts",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "sulphites",
+            "tree-nuts",
+          ])
+        ),
         diets: z.array(z.enum(["vegetarian", "vegan"])),
       }).shape
     ),
@@ -121,52 +154,47 @@ export const collections = {
     schema: obsidianSchema.extend(
       z.object({
         status: recipeStatus,
-        cuisine: z.enum([
-          "italian",
-          "spanish",
-          "french",
-          "central-european",
-          "greek",
-          "middle-eastern",
-          "british",
-          "american",
-          "tex-mex",
-          "indian",
-          "japanese",
-          "chinese",
-          "southeast-asian",
-          "international",
-        ]),
-        type: z.enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"]),
+        cuisine: z
+          .enum([
+            "italian",
+            "spanish",
+            "french",
+            "central-european",
+            "greek",
+            "middle-eastern",
+            "british",
+            "american",
+            "tex-mex",
+            "indian",
+            "japanese",
+            "chinese",
+            "southeast-asian",
+            "international",
+          ])
+          .optional(),
+        type: z
+          .enum(["starter", "first-course", "main-course", "single-dish", "sauce", "side", "dessert", "other"])
+          .optional(),
+        serves: z.number().int().min(1).optional(),
+        cover: z
+          .string()
+          .regex(/^assets\/recipes\//)
+          .optional(),
         depends_on: z.array(reference("recipes")).optional().default([]),
-        serves: z.preprocess((val) => (val === null ? undefined : val), z.number().optional()),
         ingredient_groups: z
           .array(
             z.object({
-              group: z.string().optional(),
-              ingredients: z.array(
-                z.preprocess(
-                  // Some recipes reference another recipe's ingredients via a
-                  // note-only line that the vault serializes as a bare string,
-                  // e.g. "note: 'Ingredients for [[bbq-sauce|BBQ Sauce]]'".
-                  (val) => {
-                    if (typeof val === "string") {
-                      const note = val
-                        .replace(/^note:\s*/, "")
-                        .replace(/^'([\s\S]*)'$/, "$1")
-                        .replace(/^"([\s\S]*)"$/, "$1");
-                      return { note };
-                    }
-                    return val;
-                  },
+              group: z.string().min(1).optional(),
+              ingredients: z
+                .array(
                   z.object({
-                    id: reference("ingredients").optional(),
-                    quantity: z.number().optional(),
-                    unit: z.string().optional(),
-                    note: z.string().optional(),
+                    id: reference("ingredients"),
+                    quantity: z.number().positive().optional(),
+                    unit: z.string().min(1).optional(),
+                    note: z.string().min(1).optional(),
                   })
                 )
-              ),
+                .min(1),
             })
           )
           .optional()

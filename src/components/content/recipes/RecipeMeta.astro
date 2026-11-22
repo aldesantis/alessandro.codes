@@ -18,8 +18,8 @@ const { content, compact = false } = Astro.props;
 
 const recipeDiets = mostRestrictiveDiets(await getRecipeDiets(content));
 
-type recipeType = CollectionEntry<"recipes">["data"]["type"];
-type RecipeCuisine = CollectionEntry<"recipes">["data"]["cuisine"];
+type recipeType = NonNullable<CollectionEntry<"recipes">["data"]["type"]>;
+type RecipeCuisine = NonNullable<CollectionEntry<"recipes">["data"]["cuisine"]>;
 type RecipeDiet = Diet;
 
 const TYPE_MAP = types satisfies Record<recipeType, { emoji: string; label: string }>;

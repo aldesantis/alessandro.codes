@@ -72,26 +72,20 @@ const stepperClass =
         <ul>
           {group.ingredients.map((item) => (
             <li>
-              {item.id ? (
-                <>
-                  {nameMap.get(item.id.id) ?? prettifyId(item.id.id)}
-                  {(item.quantity !== undefined || item.note) && " "}
-                  {(item.quantity !== undefined || item.note) && (
-                    <span
-                      {...(item.quantity !== undefined &&
-                        isScalableUnit(item.unit) && {
-                          "data-servings-target": "quantity",
-                          "data-quantity": item.quantity,
-                          "data-unit": item.unit,
-                          "data-note": item.note,
-                        })}
-                    >
-                      {formatIngredientDetails(item.quantity, item.unit, item.note)}
-                    </span>
-                  )}
-                </>
-              ) : (
-                item.note
+              {nameMap.get(item.id.id) ?? prettifyId(item.id.id)}
+              {(item.quantity !== undefined || item.note) && " "}
+              {(item.quantity !== undefined || item.note) && (
+                <span
+                  {...(item.quantity !== undefined &&
+                    isScalableUnit(item.unit) && {
+                      "data-servings-target": "quantity",
+                      "data-quantity": item.quantity,
+                      "data-unit": item.unit,
+                      "data-note": item.note,
+                    })}
+                >
+                  {formatIngredientDetails(item.quantity, item.unit, item.note)}
+                </span>
               )}
             </li>
           ))}

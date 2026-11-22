@@ -24,9 +24,14 @@ export async function getStaticPaths() {
 
 const { recipe } = Astro.props;
 const { cuisine, type, serves } = recipe.data;
+// Cuisine and type are optional, so the fallback reads "Title: Italian sauce",
+// "Title: sauce", "Title: Italian recipe" or "Title: recipe" as available.
+const kind = [cuisine && cuisines[cuisine].label, type ? types[type].label.toLowerCase() : "recipe"]
+  .filter(Boolean)
+  .join(" ");
 const description =
   (await getEntryDescription(recipe)) ??
-  `${recipe.data.title}: ${cuisines[cuisine].label} ${types[type].label.toLowerCase()}${serves ? ` for ${serves}` : ""} — ingredients and step-by-step method.`;
+  `${recipe.data.title}: ${kind}${serves ? ` for ${serves}` : ""} — ingredients and step-by-step method.`;
 ---
 
 <Layout title={recipe.data.title} description={description} type="article">

@@ -31,8 +31,7 @@ export async function getIngredientDietMap(): Promise<Map<string, Diet[]>> {
 
 /**
  * Builds a lookup of recipe id → its ingredient groups and sub-recipes, used to
- * resolve `depends_on` and note cross-references (e.g. "Ingredients for
- * [[bbq-sauce|BBQ Sauce]]").
+ * resolve `depends_on`.
  */
 export async function getRecipeIngredientGroupsMap(): Promise<Map<string, RecipeDietSource>> {
   const { getCollection } = await import("astro:content");
@@ -48,9 +47,8 @@ export async function getRecipeIngredientGroupsMap(): Promise<Map<string, Recipe
 
 /**
  * Collects every ingredient id used by a recipe, recursively following its
- * `depends_on` sub-recipes and note-only cross-references to other recipes
- * (e.g. "Ingredients for [[bbq-sauce]]") so the borrowed ingredients are
- * counted too. Cycles are guarded via `seen`.
+ * `depends_on` sub-recipes so their ingredients are counted too. Cycles are
+ * guarded via `seen`.
  */
 function collectIngredientIds(
   recipe: RecipeDietSource,
@@ -58,8 +56,8 @@ function collectIngredientIds(
   seen: Set<string>,
   ids: Set<string>
 ): void {
-  const visit = (slug: string | undefined) => {
-    if (!slug || seen.has(slug)) {
+  const visit = (slug: string) => {
+    if (seen.has(slug)) {
       return;
     }
 
@@ -78,14 +76,7 @@ function collectIngredientIds(
 
   for (const group of recipe.ingredient_groups) {
     for (const ingredient of group.ingredients) {
-      if (ingredient.id) {
-        ids.add(ingredient.id.id);
-        continue;
-      }
-
-      // Note-only entry: if it references another recipe, fold in its ingredients.
-      const match = ingredient.note?.match(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/);
-      visit(match?.[1]?.trim());
+      ids.add(ingredient.id.id);
     }
   }
 }
