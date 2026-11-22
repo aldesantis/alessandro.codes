@@ -1,6 +1,11 @@
 import type { ZendoCollectionEntry } from "src/garden";
 import type { FilterConfig } from "zendo";
-import { deriveDiets, getIngredientDietMap, getRecipeIngredientGroupsMap } from "../recipes/diets";
+import {
+  deriveDiets,
+  getIngredientDietMap,
+  getRecipeIngredientGroupsMap,
+  type RecipeDietSource,
+} from "../recipes/diets";
 
 export default async function dietFilter(): Promise<FilterConfig<ZendoCollectionEntry>> {
   return {
@@ -25,7 +30,7 @@ export default async function dietFilter(): Promise<FilterConfig<ZendoCollection
 
       return entries.filter((entry) => {
         if (entry.collection === "recipes" && "ingredient_groups" in entry.data) {
-          const entryDiets = deriveDiets(entry.data.ingredient_groups, dietMap, recipeMap);
+          const entryDiets = deriveDiets(entry.data as RecipeDietSource, dietMap, recipeMap);
           return entryDiets.length > 0 && entryDiets.some((diet) => selectedValues.includes(diet));
         }
 
