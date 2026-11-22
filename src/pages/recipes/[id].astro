@@ -46,7 +46,11 @@ const description =
     <IngredientList recipe={recipe} slot="pre-content" />
 
     <ContentSidebar entry={recipe} slot="sidebar">
-      <RecipeIllustration recipe={recipe} loading="eager" class="h-auto w-full max-w-[280px] rounded max-lg:order-2 max-lg:mb-8 lg:max-w-full" />
+      <RecipeIllustration
+        recipe={recipe}
+        loading="eager"
+        class="h-auto w-full max-w-[280px] rounded max-lg:order-2 max-lg:mb-8 lg:max-w-full"
+      />
     </ContentSidebar>
   </ContentDetail>
 </Layout>
